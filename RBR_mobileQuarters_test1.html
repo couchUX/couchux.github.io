@@ -12,6 +12,16 @@
   </head>
 
   <body>
+    <script>
+      var callbackError;
+      var callbackData;
+      d3.csv("https://couchux.github.io/BAMA-MSU_SRbyQuarter.csv",
+        function(error, data) {
+          callbackError = error;
+          callbackData = data;
+        }
+    )
+    </script>
   </body>
 
 
