@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script type="text/javascript" src="https://d3js.org/d3.v4.min.js">
-    </script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
     <style>
       body {
         font-family:sans-serif;
@@ -12,16 +11,28 @@
   </head>
 
   <body>
-    <script>
-      var callbackError;
-      var callbackData;
-      d3.csv("https://couchux.github.io/BAMA-MSU_SRbyQuarter.csv",
-        function(error, data) {
-          callbackError = error;
-          callbackData = data;
-        }
-    )
-    </script>
+    <div id="quarters-chart-flex">
+      <script>
+        var callbackError;
+        var callbackData;
+        d3.csv("https://couchux.github.io/BAMA-MSU_SRbyQuarter.csv",
+          function(error, data) {
+            callbackError = error;
+            callbackData = data;
+          });
+        var chartContainerWidth = document.getElementById("quarters-chart-flex").offsetWidth;
+        var maxSR = d3.max(callbackData, function(d) {return Number(d.SuccessRate)});
+        var meanSR = d3.mean(callbackData, function(d) {return Number(d.SuccessRate)});
+        var svgContainer = d3.select("#quarters-chart-flex").append("svg").attr("width","100%");
+        var bars = svgContainer.selectAll("rect").data(callbackData).enter()
+                                                             .filter(function(d) { return d.Team = "Alabama" })
+                                                             .append("rect");
+        var barsWidth = svgContainer.selectAll("rect")
+                                    .attr("width",function() {return d.SuccessRate / maxSR * chartContainerWidth})
+                                    .attr("height","40");
+      </script>
+    </div>
+
   </body>
 
 
