@@ -7,9 +7,11 @@
         font-family:sans-serif;
         color: #474747;
       }
-
       .srBar {
         fill: #C31C45;
+      }
+      .srGameBar {
+        fill: #4A4A4A;
       }
 
     </style>
@@ -24,36 +26,47 @@
           function(error, data) {
             data.forEach(function(d) {
               d.SuccessRate = +d.SuccessRate
-              d.Quarter = "Q" + d.Quarter
+              if (d.Quarter !== "Game") {
+                d.Quarter = "Q" + + d.Quarter
+              }
+              else {
+                d.Quarter = d.Quarter
+              }
             });
           callbackError = error;
           callbackData = data;
 
           var chartContainerWidth = document.getElementById("quarters-chart-flex").offsetWidth;
           var barHeight = 40;
+          var BarMarginMulti = 1.1;
+          var bamaFilter = function(d) { return d.Team === "Alabama" }
+          var gameFilter = function(d) {return d.Quarter === "Game"}
+          var notGameFilter = function(d) {return d.Quarter !== "Game"}
           var maxSR = d3.max(callbackData, function(d) { return d.SuccessRate });
           var meanSR = d3.mean(callbackData, function(d) { return d.SuccessRate });
           var maxIndex = d3.max(callbackData, function(d,i) { return (i + 1) });
-          var svgHeight =  maxIndex * barHeight * 1.05;
+          var svgHeight =  maxIndex * barHeight * BarMarginMulti;
           var svgContainer = d3.select("#quarters-chart-flex").append("svg")
                                                               .attr("width","100%")
                                                               .attr("height",svgHeight);
-
-          var bars = svgContainer.selectAll("rect").data(callbackData).enter()
-                                                               .filter(function(d) { return d.Team = "Alabama" })
-                                                               .append("rect")
-                                                               .attr("class","srBar");
-
+          var bars = svgContainer.selectAll("rect").data(callbackData)
+                                                   .enter()
+                                                   .filter(bamaFilter)
+                                                   .append("rect")
+                                                   .filter(notGameFilter)
+                                                   .attr("class","srBar");
+          var gameBarAttr = svgContainer.selectAll("rect")
+                                        .filter(bamaFilter)
+                                        .filter(gameFilter)
+                                        .attr("class","srGameBar")
           var barAttrs = svgContainer.selectAll("rect")
-                                      .attr("width",function(d,i) {return d.SuccessRate / maxSR * chartContainerWidth})
-                                      .attr("height",barHeight)
-                                      .attr("y",function(d,i){ return i * barHeight * 1.05})
+                                     .attr("width",function(d,i) {return d.SuccessRate / maxSR * chartContainerWidth})
+                                     .attr("height",barHeight)
+                                     .attr("y",function(d,i){ return i * barHeight * BarMarginMulti})
 
           });
       </script>
     </div>
-
   </body>
-
 
 </html>
