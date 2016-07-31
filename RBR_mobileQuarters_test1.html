@@ -4,9 +4,19 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300' rel='stylesheet' type='text/css'>
     <script src="https://d3js.org/d3.v4.min.js"></script>
     <style>
-      body {
-        font-family:sans-serif;
+      #quarters-chart-flex {
+        font-family:"Open Sans",sans-serif;
         color: #474747;
+      }
+      .chartTitle {
+        font-weight: bold;
+        fill: #242424;
+        font-size: 1.2em;
+        margin-top: 20px;
+        margin-bottom:12px;
+      }
+      .backBar {
+        fill: #F1F1F1;
       }
       .srBar {
         fill: #C31C45;
@@ -14,12 +24,17 @@
       .srGameBar {
         fill: #4A4A4A;
       }
+      .meanLine {
+        fill: #FFFFFF;
+        width: 2px;
+      }
 
     </style>
   </head>
 
   <body>
     <div id="quarters-chart-flex">
+      <p class="chartTitle">Success Rate by Quarter</p>
       <script>
         var callbackError;
         var callbackData;
@@ -47,23 +62,37 @@
           var meanSR = d3.mean(callbackData, function(d) { return d.SuccessRate });
           var maxIndex = d3.max(callbackData, function(d,i) { return (i + 1) });
           var svgHeight =  maxIndex * barHeight * BarMarginMulti;
+          var gameBarMargin = 0.75
           var svgContainer = d3.select("#quarters-chart-flex").append("svg")
                                                               .attr("width","100%")
                                                               .attr("height",svgHeight);
-          var bars = svgContainer.selectAll("rect").data(callbackData)
+          var backBars = svgContainer.selectAll("rect").data(callbackData)
+                                                   .enter()
+                                                   .filter(bamaFilter)
+                                                   .append("rect")
+                                                   .attr("class","backBar");
+          var srBars = svgContainer.selectAll("rect:not(.backBar)").data(callbackData)
                                                    .enter()
                                                    .filter(bamaFilter)
                                                    .append("rect")
                                                    .filter(notGameFilter)
                                                    .attr("class","srBar");
-          var gameBarAttr = svgContainer.selectAll("rect")
-                                        .filter(bamaFilter)
-                                        .filter(gameFilter)
-                                        .attr("class","srGameBar")
-          var barAttrs = svgContainer.selectAll("rect")
-                                     .attr("width",function(d,i) {return d.SuccessRate / maxSR * chartContainerWidth})
-                                     .attr("height",barHeight)
-                                     .attr("y",function(d,i){ return i * barHeight * BarMarginMulti})
+          var gameBarAttrs = svgContainer.selectAll("rect:not(.backBar)")
+                                         .filter(bamaFilter)
+                                         .filter(gameFilter)
+                                         .attr("class","srGameBar");
+          var backBarAttrs = svgContainer.selectAll(".backBar")
+                                         .attr("width",chartContainerWidth)
+                                         .attr("height",barHeight)
+                                         .attr("y",function(d,i){ return i * barHeight * BarMarginMulti});
+          var srBarAttrs = svgContainer.selectAll(".srBar, .srGameBar")
+                                       .attr("width",function(d,i) {return d.SuccessRate / maxSR * chartContainerWidth * gameBarMargin})
+                                       .attr("height",barHeight)
+                                       .attr("y",function(d,i){ return i * barHeight * BarMarginMulti});
+          var meanLine = svgContainer.append("rect")
+                                     .attr("class","meanLine")
+                                     .attr("x",meanSR / maxSR * chartContainerWidth * gameBarMargin)
+                                     .attr("height",svgHeight);
 
           });
       </script>
