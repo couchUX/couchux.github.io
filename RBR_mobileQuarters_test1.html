@@ -55,7 +55,7 @@
 
   <body>
     <div id="quarters-chart-flex">
-<!--  <p class="chartTitle">Success Rate by Quarter</p> -->
+     <p class="chartTitle">Success Rate by Quarter</p>
       <script>
         var callbackError;
         var callbackData;
@@ -87,13 +87,13 @@
           var svgHeight =  maxIndex * barHeightMulti;
           var barMargin = 0.75
 
-          var chartTitle = d3.select("#quarters-chart-flex").append("p")
-                                                            .attr("class","chartTitle")
-                                                            .text("Success Rate by Quarter")
+//        var chartTitle = d3.select("#quarters-chart-flex").append("p")
+//                                                          .attr("class","chartTitle")
+//                                                          .text("Success Rate by Quarter")
           var subTitle = d3.select("#quarters-chart-flex").append("p")
                                                           .attr("class","subTitle")
           var svgContainer = d3.select("#quarters-chart-flex").append("svg")
-                                                              .attr("width","100%")
+                                                              .attr("width",chartContainerWidth)
                                                               .attr("height",svgHeight)
                                                               .attr("class","svgContainer")
           var backBars = svgContainer.selectAll("rect").data(callbackData)
@@ -101,12 +101,12 @@
                                                        .filter(bamaFilter)
                                                        .append("rect")
                                                        .attr("class","backBar");
-          var srBars = svgContainer.selectAll("rect:not(.backBar)").data(callbackData)
+          var srBars = svgContainer.selectAll("rect:not(.backBar)").data(callbackData) //question about alternatives to using NOT here
                                                    .enter()
                                                    .filter(bamaFilter)
                                                    .append("rect")
                                                    .filter(notGameFilter)
-                                                   .attr("class","srBar bama"); //figure out how to add team class dynamically
+                                                   .attr("class","srBar bama"); //figure out how to add team class dynamically, pulling from just one datum
           var gameBarAttrs = svgContainer.selectAll("rect:not(.backBar)")
                                          .filter(bamaFilter)
                                          .filter(gameFilter)
