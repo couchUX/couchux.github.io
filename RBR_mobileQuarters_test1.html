@@ -7,6 +7,7 @@
     <style>
       #quarters-chart-flex {
         font-family:"Open Sans",sans-serif;
+        max-width: 350px;
       }
       .chartTitle {
         font-weight: bold;
@@ -15,10 +16,19 @@
         margin-top: 20px;
         margin-bottom:12px;
       }
+      .subTitle.bama {
+        font-weight: 600;
+        text-transform: uppercase;
+        fill: #242424;
+        font-size: 0.8em;
+        margin-top: 0;
+        margin-bottom:4px;
+        color: #C31C45;
+      }
       .backBar {
         fill: #F1F1F1;
       }
-      .srBar {
+      .srBar.bama {
         fill: #C31C45;
       }
       .srGameBar {
@@ -37,7 +47,7 @@
       .meanLine {
         fill: #FFFFFF;
         width: 3px;
-        opacity: .4;
+        opacity: .58;
       }
 
     </style>
@@ -45,7 +55,7 @@
 
   <body>
     <div id="quarters-chart-flex">
-      <p class="chartTitle">Success Rate by Quarter</p>
+<!--  <p class="chartTitle">Success Rate by Quarter</p> -->
       <script>
         var callbackError;
         var callbackData;
@@ -75,21 +85,28 @@
           var meanSR = d3.mean(callbackData, function(d) { return d.SuccessRate });
           var maxIndex = d3.max(callbackData, function(d,i) { return (i + 1) / 2 });
           var svgHeight =  maxIndex * barHeightMulti;
-          var gameBarMargin = 0.75
+          var barMargin = 0.75
+
+          var chartTitle = d3.select("#quarters-chart-flex").append("p")
+                                                            .attr("class","chartTitle")
+                                                            .text("Success Rate by Quarter")
+          var subTitle = d3.select("#quarters-chart-flex").append("p")
+                                                          .attr("class","subTitle")
           var svgContainer = d3.select("#quarters-chart-flex").append("svg")
                                                               .attr("width","100%")
-                                                              .attr("height",svgHeight);
+                                                              .attr("height",svgHeight)
+                                                              .attr("class","svgContainer")
           var backBars = svgContainer.selectAll("rect").data(callbackData)
-                                                   .enter()
-                                                   .filter(bamaFilter)
-                                                   .append("rect")
-                                                   .attr("class","backBar");
+                                                       .enter()
+                                                       .filter(bamaFilter)
+                                                       .append("rect")
+                                                       .attr("class","backBar");
           var srBars = svgContainer.selectAll("rect:not(.backBar)").data(callbackData)
                                                    .enter()
                                                    .filter(bamaFilter)
                                                    .append("rect")
                                                    .filter(notGameFilter)
-                                                   .attr("class","srBar");
+                                                   .attr("class","srBar bama"); //figure out how to add team class dynamically
           var gameBarAttrs = svgContainer.selectAll("rect:not(.backBar)")
                                          .filter(bamaFilter)
                                          .filter(gameFilter)
@@ -99,12 +116,12 @@
                                          .attr("height",barHeight)
                                          .attr("y",function(d,i){ return i * barHeightMulti});
           var srBarAttrs = svgContainer.selectAll(".srBar, .srGameBar")
-                                       .attr("width",function(d,i) {return d.SuccessRate / maxSR * chartContainerWidth * gameBarMargin})
+                                       .attr("width",function(d,i) {return d.SuccessRate / maxSR * chartContainerWidth * barMargin})
                                        .attr("height",barHeight)
                                        .attr("y",function(d,i){ return i * barHeightMulti});
           var meanLine = svgContainer.append("rect")
                                      .attr("class","meanLine")
-                                     .attr("x",meanSR / maxSR * chartContainerWidth * gameBarMargin)
+                                     .attr("x",meanSR / maxSR * chartContainerWidth * barMargin - 1)
                                      .attr("height",svgHeight);
           var qLabels = svgContainer.selectAll("text").data(callbackData)
                                     .enter()
@@ -125,8 +142,9 @@
                                           .attr("y",function(d,i) { return i * barHeightMulti + (barHeightMulti * .58 ) })
                                           .attr("x",chartContainerWidth - 10)
                                           .attr("text-anchor","end")
-
-
+          var teamTitle = subTitle.datum(callbackData[0]) //need to figure out how to select just the team in question
+                                     .text(function(d) { return d.Team })
+                                     .attr("class","subTitle bama");
 
           });
       </script>
