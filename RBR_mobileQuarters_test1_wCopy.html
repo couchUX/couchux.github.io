@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300' rel='stylesheet' type='text/css'>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <style>
+      #quarters-chart-flex {
+        font-family:"Open Sans",sans-serif;
+        max-width: 350px;
+        margin-bottom:8px;
+      }
+      .bodyCopy {
+        font-family:Georgia, serif;
+        fill: #242424;
+        font-size: 1em;
+        line-height: 1.5em;
+        margin-top: 16px;
+        margin-bottom:0;
+      }
+      .chartTitle {
+        font-family:"Open Sans",sans-serif;
+        font-weight: bold;
+        fill: #242424;
+        font-size: 1.2em;
+        margin-top: 16px;
+        margin-bottom:8px;
+      }
+      .subTitle.bama {
+        font-weight: 600;
+        text-transform: uppercase;
+        fill: #242424;
+        font-size: 0.8em;
+        margin-top: 0;
+        margin-bottom:4px;
+        color: #C31C45;
+      }
+      .backBar {
+        fill: #F1F1F1;
+      }
+      .srBar.bama {
+        fill: #C31C45;
+      }
+      .srGameBar {
+        fill: #4A4A4A;
+      }
+      .qLabels {
+        font-weight: 600;
+        font-size: 14px;
+        fill: #FFFFFF;
+      }
+      .srLabels {
+        font-weight: 600;
+        font-size: 14px;
+        fill: #242424;
+      }
+      .meanLine {
+        fill: #FFFFFF;
+        width: 3px;
+        opacity: .58;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <div id="outerDiv" style="max-width:350px">
+      <p class="bodyCopy">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </p>
+      <p class="chartTitle">Success Rate by Quarter</p>
+      <div id="quarters-chart-flex">
+        <script>
+          var callbackError;
+          var callbackData;
+          d3.csv("https://couchux.github.io/BAMA-MSU_SRbyQuarter.csv",
+            function(error, data) {
+              data.forEach(function(d) {
+                d.SuccessRate = +d.SuccessRate
+                if (d.Quarter !== "Game") {
+                  d.Quarter = "Q" + + d.Quarter
+                }
+                else {
+                  d.Quarter = d.Quarter
+                }
+              });
+            callbackError = error;
+            callbackData = data;
+
+            var chartContainerWidth = document.getElementById("quarters-chart-flex").offsetWidth;
+            var barHeight = 36;
+            var BarMarginMulti = 1.1;
+            var barHeightMulti = barHeight * BarMarginMulti
+            var bamaFilter = function(d) { return d.Team === "Alabama" }
+            var gameFilter = function(d) { return d.Quarter === "Game" }
+            var notGameFilter = function(d) { return d.Quarter !== "Game" }
+            var percentFormat = d3.format(".0%")
+            var maxSR = d3.max(callbackData, function(d) { return d.SuccessRate });
+            var meanSR = d3.mean(callbackData, function(d) { return d.SuccessRate });
+            var maxIndex = d3.max(callbackData, function(d,i) { return (i + 1) / 2 });
+            var svgHeight =  maxIndex * barHeightMulti;
+            var barMargin = 0.75
+
+  //        var chartTitle = d3.select("#quarters-chart-flex").append("p")
+  //                                                          .attr("class","chartTitle")
+  //                                                          .text("Success Rate by Quarter")
+            var subTitle = d3.select("#quarters-chart-flex").append("p")
+                                                            .attr("class","subTitle")
+            var svgContainer = d3.select("#quarters-chart-flex").append("svg")
+                                                                .attr("width",chartContainerWidth)
+                                                                .attr("height",svgHeight)
+                                                                .attr("class","svgContainer")
+            var backBars = svgContainer.selectAll("rect").data(callbackData)
+                                                         .enter()
+                                                         .filter(bamaFilter)
+                                                         .append("rect")
+                                                         .attr("class","backBar");
+            var srBars = svgContainer.selectAll("rect:not(.backBar)").data(callbackData) //question about alternatives to using NOT here
+                                                     .enter()
+                                                     .filter(bamaFilter)
+                                                     .append("rect")
+                                                     .filter(notGameFilter)
+                                                     .attr("class","srBar bama"); //figure out how to add team class dynamically, pulling from just one datum
+            var gameBarAttrs = svgContainer.selectAll("rect:not(.backBar)")
+                                           .filter(bamaFilter)
+                                           .filter(gameFilter)
+                                           .attr("class","srGameBar");
+            var backBarAttrs = svgContainer.selectAll(".backBar")
+                                           .attr("width",chartContainerWidth)
+                                           .attr("height",barHeight)
+                                           .attr("y",function(d,i){ return i * barHeightMulti});
+            var srBarAttrs = svgContainer.selectAll(".srBar, .srGameBar")
+                                         .attr("width",function(d,i) {return d.SuccessRate / maxSR * chartContainerWidth * barMargin})
+                                         .attr("height",barHeight)
+                                         .attr("y",function(d,i){ return i * barHeightMulti});
+            var meanLine = svgContainer.append("rect")
+                                       .attr("class","meanLine")
+                                       .attr("x",meanSR / maxSR * chartContainerWidth * barMargin - 1)
+                                       .attr("height",svgHeight);
+            var qLabels = svgContainer.selectAll("text").data(callbackData)
+                                      .enter()
+                                      .filter(bamaFilter)
+                                      .append("text")
+                                      .text(function(d) { return d.Quarter })
+                                      .attr("class","qLabels");
+            var qLabelsAttrs = svgContainer.selectAll(".qLabels")
+                                           .attr("y",function(d,i) { return i * barHeightMulti + (barHeightMulti * .58 ) })
+                                           .attr("x","10")
+            var srLabels = svgContainer.selectAll("text:not(.qLabels)").data(callbackData)
+                                       .enter()
+                                       .filter(bamaFilter)
+                                       .append("text")
+                                       .text(function(d) { return percentFormat(d.SuccessRate) })
+                                       .attr("class","srLabels");
+            var srLabelsAttrs = svgContainer.selectAll(".srLabels")
+                                            .attr("y",function(d,i) { return i * barHeightMulti + (barHeightMulti * .58 ) })
+                                            .attr("x",chartContainerWidth - 10)
+                                            .attr("text-anchor","end")
+            var teamTitle = subTitle.datum(callbackData[0]) //need to figure out how to select just the team in question
+                                       .text(function(d) { return d.Team })
+                                       .attr("class","subTitle bama");
+
+            });
+        </script>
+      </div>
+      <p class="bodyCopy">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+    </div>
+  </body>
+
+</html>
