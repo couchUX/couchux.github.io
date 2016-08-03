@@ -10,18 +10,38 @@
 <body>
 <script>
 
+/* tie chart colors to team names */
+var teamColors = {
+  "Alabama": "#C31C45",
+  "Michigan State": "#205649"
+}
 
+teamColor = function(team_name) {
+  return teamColors.team_name
+};
+
+/* need function to remove spaces from 'Michigan State' */
 
 function quartersChart(data_url) {
-  d3.csv(error, data) {
-    if (error) {
-      console.error(error)
-    }
-    else {
+  d3.csv(data_url, csv_response)
+}
 
-    }
+function csv_response(error, data) {
+  if (error) {
+    console.error(error)
+  }
+  else {
+    var csvTeams = csv_teams(data)
+    csvTeams.forEach(render)
   }
 }
+
+function csv_teams(data) {
+  var teams = {}
+}
+
+function
+
 
 /* run the whole chart function */
 quartersChart("https://couchux.github.io/BAMA-MSU_SRbyQuarter.csv")
