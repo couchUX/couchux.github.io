@@ -40,7 +40,7 @@ function csv_response(error, data) {
   else {
     console.log("data loaded")
     qData = data.filter(function(row){
-      return row.Team == whichTeam[0]
+      return row.Team == whichTeam[0]  //would like to pass in which_team here instead of whichTeam[0]
     })
     renderChart()
   }
@@ -68,33 +68,11 @@ function renderChart() {
     })
 }
 
-
 /* run the whole chart function */
 qsrChart(csv_url, "Alabama"); //the latter part doesn't do anything, but I'd like to control the team from here
 qsrChart(csv_url, "Michigan State");
 
-
 </script>
 
 </body>
-<!--
-svg = d3.select("body").append("svg").attr("width","500").attr("height","500")
-bars = svg.selectAll("text").data(qData).enter().append("text").attr("width","30").attr("height","30").attr("y",function(d,i) {return (i + 1) * 50})
-
-svg = d3.select("body").append("svg").attr("width","500").attr("height","500")
-bars = svg.selectAll("rect").data(qData).enter().append("rect").attr("width","200").attr("height","30").attr("fill","#008080").attr("y",function(d,i) {return (i + 1) * 50})
-
-this worked with a scale!
-colorScale = d3.scaleOrdinal()
-               .domain([
-                 "Alabama",
-                 "Michigan State"])
-               .range([
-                 "#C31C45",
-                 "#205649"])
-
-barsText.style("fill",function(d) {return colorScale(d.Team)})
--->
-
-
 </html>
