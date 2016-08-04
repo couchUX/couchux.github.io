@@ -10,6 +10,10 @@
 <body>
 <script>
 
+/* select what csv and teams should be run */
+var csv_url = "https://couchux.github.io/BAMA-MSU_SRbyQuarter.csv",
+    whichTeam = ["Alabama",
+                 "Michigan State"]
 
 /* tie chart colors to team names */
 var teamColors = {
@@ -17,29 +21,15 @@ var teamColors = {
   "Michigan State": "#205649"
 }
 
-extractTeamColor = function(d) {
-  return colorScale(d.Team)
-}
+var gameColor = "#4A4A4A"
 
 teamColor = function(team_name) {
   return teamColors[team_name]
 };
 
-colorScale = d3.scaleOrdinal()
-               .domain([
-                 "Alabama",
-                 "Michigan State"])
-               .range([
-                 "#C31C45",
-                 "#205649"])
-
-csvTeam = function(d) {
-  return d.Team
-}
-
-
 /* defining the main chart functions */
-function quartersChart(data_url) {
+
+function qsrChart(data_url, which_team) {
   d3.csv(data_url, csv_response)
 }
 
@@ -48,18 +38,41 @@ function csv_response(error, data) {
     console.error(error)
   }
   else {
-    qData = data
     console.log("data loaded")
-
+    qData = data.filter(function(row){
+      return row.Team == whichTeam[0]
+    })
+    renderChart()
   }
 }
 
 /* building the chart in d3 */
-bars.style("fill",function(d) { return teamColor(d.Team) })
+function renderChart() {
+
+  svg = d3.select("body")
+    .append("svg")
+    .attr("width","500")
+    .attr("height","500")
+  bars = svg.selectAll("rect").data(qData).enter()
+    .append("rect")
+    .attr("width","200")
+    .attr("height","30")
+    .attr("y",function(d,i) {return (i + 1) * 50})
+    .style("fill",function(d) {
+      if ( d.Quarter === "Game") {
+        return gameColor
+      }
+      else {
+        return teamColor(d.Team)
+      }
+    })
+}
 
 
 /* run the whole chart function */
-quartersChart("https://couchux.github.io/BAMA-MSU_SRbyQuarter.csv")
+qsrChart(csv_url, "Alabama"); //the latter part doesn't do anything, but I'd like to control the team from here
+qsrChart(csv_url, "Michigan State");
+
 
 </script>
 
