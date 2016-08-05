@@ -1,7 +1,19 @@
+/* responsiveness */
+#qsr-charts-container {
+  width: 100%;
+  display: inline-block;
+}
+
 #qsr-chart {
   font-family:"Open Sans",sans-serif;
-  max-width: 350px;
   margin-bottom:8px;
+  display: inline-block;
+}
+
+.svgChart {
+  min-width: 200px;
+  margin-bottom:8px;
+  display: inline-block;
 }
 .bodyCopy {
   font-family:Georgia, serif;
@@ -12,7 +24,7 @@
   margin-bottom:0;
 }
 .chartTitle {
-  font-family:"Open Sans",sans-serif;
+  font-family:"Georgia","Open Sans",sans-serif;
   font-weight: bold;
   fill: #242424;
   font-size: 1.2em;
@@ -32,6 +44,10 @@
 .srGameBar {
   fill: #4A4A4A;
 }
+.anchors {
+  fill: #000000;
+  opacity: .25;
+}
 .qLabels {
   font-weight: 600;
   font-size: 14px;
@@ -42,8 +58,8 @@
   font-size: 14px;
   fill: #242424;
 }
-.meanLine {
+.leagueSRline {
   fill: #FFFFFF;
   width: 3px;
-  opacity: .58;
+  opacity: .75;
 }

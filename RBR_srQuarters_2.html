@@ -3,31 +3,35 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300' rel='stylesheet' type='text/css'>
-  <link href='qsr.css' rel='stylesheet' type='text/css'>
+  <link href='http://127.0.0.1:8887/qsr.css' rel='stylesheet' type='text/css'>
+<!--<link href='https://couchux.github.io/qsr.css' rel='stylesheet' type='text/css'> -->
   <script src="https://d3js.org/d3.v4.min.js"></script>
-<!-- then some style tags-->
 
 </head>
 <body>
-<div id="qsr-chart">
+<div id="qsr-charts-container">
 <script>
 
 /* select what csv should be run */
 var csv_url = "https://couchux.github.io/BAMA-MSU_SRbyQuarter.csv"
 
+/* run the whole chart function */
+
+qsrChart(csv_url, "Alabama"); //the latter part doesn't do anything, but I'd like to control the team from here
+qsrChart(csv_url, "Michigan State");
+
 /* tie chart colors to team names */
 var teamColors = {
   "Alabama": "#C31C45",
-  "Michigan State": "#205649"
+  "Michigan State": "#1A7A64" // dark version was "#205649"
 }
     gameColor = "#4A4A4A"
-
+    
 teamColor = function(team_name) {
   return teamColors[team_name]
 };
 
 /* defining the main chart functions */
-
 function qsrChart(data_url, which_team) {
   d3.csv(data_url, csv_response.bind(null, which_team))
 }
@@ -41,74 +45,137 @@ function csv_response(which_team, error, data) {
     qsrData = data.filter(function(row){
       return row.Team == which_team  //try to Filter/reformat ("Transform") outside of data pull
     })
-    render_teamTitle(which_team)
-    render_chart()
+    data.forEach(function(d) {
+      d.SuccessRate = +d.SuccessRate
+      if (d.Quarter !== "Game") {
+        d.Quarter = "Q" + + d.Quarter
+      }
+      else {
+        d.Quarter = d.Quarter
+      }
+    })
+    
+    render_chart(which_team)
   }
 }
 
 /* building the chart in d3 */
+/* function render_teamTitle(which_team) { */
 
-function render_teamTitle(which_team) {
-  var teamTitle = d3.select("#qsr-chart")
-      .insert("p")
-      .text(which_team)
-      .style("color",teamColor(which_team))
-      .attr("class","teamTitle")
-  }
+var containerWidth = document.getElementById("qsr-charts-container").offsetWidth
 
-function render_chart() {
-
-var layout = {
-  svgWidth: document.getElementById("qsr-chart").offsetWidth,
-  barHeight: 36,
-  barMarginBoost: 1.1,
-  srWidthScale: 0.75,
-  leagueSR: 0.42, //update this peridically for NCAA Success Rate averages
+function chartWidthfn(containerWidth) { if (containerWidth <= 500) {
+                                          return containerWidth
+                                        }
+                                        else {
+                                          return containerWidth / 2
+                                        }
 }
 
-var barHeightMulti = layout.barHeight * layout.barMarginBoost
+function render_chart(which_team) {
+
+var layout = {
+  
+  barHeight: 36,
+  barMarginBoost: 1.1,
+  srWidthScale: 0.8,
+  leagueSR: 0.42, //update this peridically for NCAA Success Rate averages
+  leagueSRwidth: 3,
+  anchorWidth: 3,
+  qLabelX: 9,
+  labelYpc: 0.58,
+}
+
+var chartWidth = chartWidthfn(containerWidth)
+    barHeightMulti = layout.barHeight * layout.barMarginBoost
+    labelYadj = barHeightMulti * layout.labelYpc
     maxIndex = d3.max(qsrData, function(d,i) { return (i + 1) });
     maxSR = d3.max(qsrData, function(d,i) { return d.SuccessRate })
+    totalMaxSR = .47 // !need to set this in an automated way by filtering outside of data pull, e.g., on render
     svgHeight = maxIndex * barHeightMulti
-    srBarWidth = function(d,i) {return d.SuccessRate / maxSR * layout.svgWidth * layout.srWidthScale}
+    srBarWidth = function(d,i) { return d.SuccessRate / totalMaxSR * chartWidth * layout.srWidthScale }
+    barY = function(d,i) { return i * barHeightMulti }
+    labelY = function(d,i) { return i * barHeightMulti + labelYadj }
+    srBarColor = function(d,i) { if ( d.Quarter === "Game") {
+                                    return gameColor
+                                  }
+                                 else {
+                                    return teamColor(d.Team)
+                                  }
+                                }
+    returnQ = function(d,i) { return d.Quarter }
+    srPercent = function(d) { return  format.percent(d.SuccessRate) }
+    leagueSRx = layout.leagueSR / totalMaxSR * chartWidth * layout.srWidthScale - layout.leagueSRwidth / 2
+    
+    
 
 var format = {
   percent: d3.format(".0%")
 }
 
-var svg = d3.select("#qsr-chart")
-    .append("svg")
-    .attr("width",layout.svgWidth)
-    .attr("height",svgHeight)
-
+var teamChart = d3.select("#qsr-charts-container")
+      .append("div")
+      .attr("id","qsr-chart")
+    
+    teamTitle = d3.select("#qsr-chart")
+      .append("p")
+      .text(which_team)
+      .style("color",teamColor(which_team))
+      .attr("class","teamTitle")
+      .attr("width",chartWidth)
+    
+    svg = d3.select("#qsr-chart")
+      .append("svg")
+      .attr("class","svgChart")
+      .attr("width",chartWidth)
+      .attr("height",svgHeight)
+    
     backBars = svg.selectAll(".backBar").data(qsrData).enter()
-    .append("rect")
-    .attr("class","backBar")
-    .attr("width",layout.svgWidth)
-    .attr("height",layout.barHeight)
-    .attr("y",function(d,i) { return i * barHeightMulti })
-
+      .append("rect")
+      .attr("class","backBar")
+      .attr("width",chartWidth)
+      .attr("height",layout.barHeight)
+      .attr("y",barY)
+    
     srBars = svg.selectAll(".srBar").data(qsrData).enter()
-    .append("rect")
-    .attr("class","backBar")
-    .attr("width",srBarWidth)
-    .attr("height",layout.barHeight)
-    .attr("y",function(d,i) { return i * barHeightMulti })
-    .style("fill",function(d) {
-      if ( d.Quarter === "Game") {
-        return gameColor
-      }
-      else {
-        return teamColor(d.Team)
-      }
-    })
+      .append("rect")
+      .attr("class","backBar")
+      .attr("width",srBarWidth)
+      .attr("height",layout.barHeight)
+      .attr("y",barY)
+      .style("fill",srBarColor)
+      
+    achors = svg.selectAll(".anchors").data(qsrData).enter()
+      .append("rect")
+      .attr("class","anchors")
+      .attr("width",layout.anchorWidth)
+      .attr("height",layout.barHeight)
+      .attr("y",barY)
+    
+    qLabels = svg.selectAll(".qLabels").data(qsrData).enter()
+      .append("text")
+      .text(returnQ)
+      .attr("class","qLabels")
+      .attr("x",layout.qLabelX)
+      .attr("y",labelY)
+      
+    srLabels = svg.selectAll(".srLabels").data(qsrData).enter()
+      .append("text")
+      .text(srPercent)
+      .attr("class","srLabels")
+      .attr("text-anchor","end")
+      .attr("x", chartWidth - layout.qLabelX)
+      .attr("y",labelY)
+      
+    leagueSRline = svg.append("rect")
+      .attr("class","leagueSRline")
+      .attr("height",svgHeight)
+      .attr("width",layout.leagueSRwidth)
+      .attr("x",leagueSRx)
 
+  
+} //end of building chart in d3
 
-}
-
-/* run the whole chart function */
-qsrChart(csv_url, "Alabama"); //the latter part doesn't do anything, but I'd like to control the team from here
-qsrChart(csv_url, "Michigan State");
 
 </script>
 </div>
