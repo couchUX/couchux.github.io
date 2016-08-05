@@ -48,27 +48,29 @@ function csv_response(which_team, error, data) {
 
 /* building the chart in d3 */
 
-
 function render_teamTitle(which_team) {
   var teamTitle = d3.select("#qsr-chart")
       .insert("p")
       .text(which_team)
       .style("color",teamColor(which_team))
-      .attr("class","team-title")
+      .attr("class","teamTitle")
   }
 
 function render_chart() {
 
 var layout = {
-  chartWidth: document.getElementById("qsr-chart").offsetWidth,
+  svgWidth: document.getElementById("qsr-chart").offsetWidth,
   barHeight: 36,
-  barHeightMulti: 1.1,
+  barMarginBoost: 1.1,
   srWidthScale: 0.75,
   leagueSR: 0.42, //update this peridically for NCAA Success Rate averages
 }
 
-var maxIndex = d3.max(qsrData, function(i) { return (i + 1) })
-var maxSR = d3.max(qsrData, function(d) { return d.SuccessRate })
+var barHeightMulti = layout.barHeight * layout.barMarginBoost
+    maxIndex = d3.max(qsrData, function(d,i) { return (i + 1) });
+    maxSR = d3.max(qsrData, function(d,i) { return d.SuccessRate })
+    svgHeight = maxIndex * barHeightMulti
+    srBarWidth = function(d,i) {return d.SuccessRate / maxSR * layout.svgWidth * layout.srWidthScale}
 
 var format = {
   percent: d3.format(".0%")
@@ -76,14 +78,22 @@ var format = {
 
 var svg = d3.select("#qsr-chart")
     .append("svg")
-    .attr("width","500")
-    .attr("height","500")
+    .attr("width",layout.svgWidth)
+    .attr("height",svgHeight)
 
-var bars = svg.selectAll("rect").data(qsrData).enter()
+    backBars = svg.selectAll(".backBar").data(qsrData).enter()
     .append("rect")
-    .attr("width","200")
-    .attr("height","30")
-    .attr("y",function(d,i) {return (i + 1) * 50})
+    .attr("class","backBar")
+    .attr("width",layout.svgWidth)
+    .attr("height",layout.barHeight)
+    .attr("y",function(d,i) { return i * barHeightMulti })
+
+    srBars = svg.selectAll(".srBar").data(qsrData).enter()
+    .append("rect")
+    .attr("class","backBar")
+    .attr("width",srBarWidth)
+    .attr("height",layout.barHeight)
+    .attr("y",function(d,i) { return i * barHeightMulti })
     .style("fill",function(d) {
       if ( d.Quarter === "Game") {
         return gameColor
@@ -92,6 +102,8 @@ var bars = svg.selectAll("rect").data(qsrData).enter()
         return teamColor(d.Team)
       }
     })
+
+
 }
 
 /* run the whole chart function */

@@ -1,4 +1,4 @@
-#quarters-chart-flex {
+#qsr-chart {
   font-family:"Open Sans",sans-serif;
   max-width: 350px;
   margin-bottom:8px;
@@ -19,20 +19,15 @@
   margin-top: 16px;
   margin-bottom:8px;
 }
-.subTitle.bama {
+.teamTitle {
   font-weight: 600;
   text-transform: uppercase;
-  fill: #242424;
   font-size: 0.8em;
   margin-top: 0;
   margin-bottom:4px;
-  color: #C31C45;
 }
 .backBar {
   fill: #F1F1F1;
-}
-.srBar.bama {
-  fill: #C31C45;
 }
 .srGameBar {
   fill: #4A4A4A;
