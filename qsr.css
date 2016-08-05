@@ -1,0 +1,54 @@
+#quarters-chart-flex {
+  font-family:"Open Sans",sans-serif;
+  max-width: 350px;
+  margin-bottom:8px;
+}
+.bodyCopy {
+  font-family:Georgia, serif;
+  fill: #242424;
+  font-size: 1em;
+  line-height: 1.5em;
+  margin-top: 16px;
+  margin-bottom:0;
+}
+.chartTitle {
+  font-family:"Open Sans",sans-serif;
+  font-weight: bold;
+  fill: #242424;
+  font-size: 1.2em;
+  margin-top: 16px;
+  margin-bottom:8px;
+}
+.subTitle.bama {
+  font-weight: 600;
+  text-transform: uppercase;
+  fill: #242424;
+  font-size: 0.8em;
+  margin-top: 0;
+  margin-bottom:4px;
+  color: #C31C45;
+}
+.backBar {
+  fill: #F1F1F1;
+}
+.srBar.bama {
+  fill: #C31C45;
+}
+.srGameBar {
+  fill: #4A4A4A;
+}
+.qLabels {
+  font-weight: 600;
+  font-size: 14px;
+  fill: #FFFFFF;
+}
+.srLabels {
+  font-weight: 600;
+  font-size: 14px;
+  fill: #242424;
+}
+.meanLine {
+  fill: #FFFFFF;
+  width: 3px;
+  opacity: .58;
+}

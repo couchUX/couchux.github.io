@@ -3,25 +3,24 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300' rel='stylesheet' type='text/css'>
+  <link href='qsr.css' rel='stylesheet' type='text/css'>
   <script src="https://d3js.org/d3.v4.min.js"></script>
 <!-- then some style tags-->
 
 </head>
 <body>
+<div id="qsr-chart">
 <script>
 
-/* select what csv and teams should be run */
-var csv_url = "https://couchux.github.io/BAMA-MSU_SRbyQuarter.csv",
-    whichTeam = ["Alabama",
-                 "Michigan State"]
+/* select what csv should be run */
+var csv_url = "https://couchux.github.io/BAMA-MSU_SRbyQuarter.csv"
 
 /* tie chart colors to team names */
 var teamColors = {
   "Alabama": "#C31C45",
   "Michigan State": "#205649"
 }
-
-var gameColor = "#4A4A4A"
+    gameColor = "#4A4A4A"
 
 teamColor = function(team_name) {
   return teamColors[team_name]
@@ -39,21 +38,48 @@ function csv_response(which_team, error, data) {
   }
   else {
     console.log("data loaded")
-    qData = data.filter(function(row){
+    qsrData = data.filter(function(row){
       return row.Team == which_team  //try to Filter/reformat ("Transform") outside of data pull
     })
-    renderChart()
+    render_teamTitle(which_team)
+    render_chart()
   }
 }
 
 /* building the chart in d3 */
-function renderChart() {
 
-  svg = d3.select("body")
+
+function render_teamTitle(which_team) {
+  var teamTitle = d3.select("#qsr-chart")
+      .insert("p")
+      .text(which_team)
+      .style("color",teamColor(which_team))
+      .attr("class","team-title")
+  }
+
+function render_chart() {
+
+var layout = {
+  chartWidth: document.getElementById("qsr-chart").offsetWidth,
+  barHeight: 36,
+  barHeightMulti: 1.1,
+  srWidthScale: 0.75,
+  leagueSR: 0.42, //update this peridically for NCAA Success Rate averages
+}
+
+var maxIndex = d3.max(qsrData, function(i) { return (i + 1) })
+var maxSR = d3.max(qsrData, function(d) { return d.SuccessRate })
+
+var format = {
+  percent: d3.format(".0%")
+}
+
+var svg = d3.select("#qsr-chart")
     .append("svg")
     .attr("width","500")
     .attr("height","500")
-  bars = svg.selectAll("rect").data(qData).enter()
+
+var bars = svg.selectAll("rect").data(qsrData).enter()
     .append("rect")
     .attr("width","200")
     .attr("height","30")
@@ -73,6 +99,6 @@ qsrChart(csv_url, "Alabama"); //the latter part doesn't do anything, but I'd lik
 qsrChart(csv_url, "Michigan State");
 
 </script>
-
+</div>
 </body>
 </html>
