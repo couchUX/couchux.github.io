@@ -30,17 +30,17 @@ teamColor = function(team_name) {
 /* defining the main chart functions */
 
 function qsrChart(data_url, which_team) {
-  d3.csv(data_url, csv_response)
+  d3.csv(data_url, csv_response.bind(null, which_team))
 }
 
-function csv_response(error, data) {
+function csv_response(which_team, error, data) {
   if (error) {
     console.error(error)
   }
   else {
     console.log("data loaded")
     qData = data.filter(function(row){
-      return row.Team == whichTeam[0]  //would like to pass in which_team here instead of whichTeam[0]
+      return row.Team == which_team  //try to Filter/reformat ("Transform") outside of data pull
     })
     renderChart()
   }
