@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300' rel='stylesheet' type='text/css'>
-<!--<link href='http://127.0.0.1:8887/qsr.css' rel='stylesheet' type='text/css'> -->
-  <link href='https://couchux.github.io/qsr.css' rel='stylesheet' type='text/css'>
-  <script src="https://d3js.org/d3.v4.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300' rel='stylesheet' type='text/css'>
+<link href='https://couchux.github.io/qsr.css' rel='stylesheet' type='text/css'>
+<script src="https://d3js.org/d3.v4.min.js"></script>
 
 </head>
 <body>
@@ -17,8 +16,8 @@ var csv_url = "https://couchux.github.io/BAMA-MSU_SRbyQuarter.csv"
 
 /* run the whole chart function */
 
-qsrChart(csv_url, "Alabama"); //the latter part doesn't do anything, but I'd like to control the team from here
-qsrChart(csv_url, "Michigan State");
+qsrChart(csv_url, "Alabama", "1"); //the latter part doesn't do anything, but I'd like to control the team from here
+qsrChart(csv_url, "Michigan State", "2");
 
 /* tie chart colors to team names */
 var teamColors = {
@@ -32,11 +31,11 @@ teamColor = function(team_name) {
 };
 
 /* defining the main chart functions */
-function qsrChart(data_url, which_team) {
-  d3.csv(data_url, csv_response.bind(null, which_team))
+function qsrChart(data_url, which_team, what_order) {
+  d3.csv(data_url, csv_response.bind(null, which_team).bind(null, what_order))
 }
 
-function csv_response(which_team, error, data) {
+function csv_response(which_team, what_order, error, data) {
   if (error) {
     console.error(error)
   }
@@ -48,14 +47,14 @@ function csv_response(which_team, error, data) {
     data.forEach(function(d) {
       d.SuccessRate = +d.SuccessRate
       if (d.Quarter !== "Game") {
-        d.Quarter = "Q" + + d.Quarter
+        d.Quarter = "Q" + +d.Quarter
       }
       else {
         d.Quarter = d.Quarter
       }
     })
     
-    render_chart(which_team)
+    render_chart(which_team, what_order)
   }
 }
 
@@ -64,15 +63,36 @@ function csv_response(which_team, error, data) {
 
 var containerWidth = document.getElementById("qsr-charts-container").offsetWidth
 
-function chartWidthfn(containerWidth) { if (containerWidth <= 500) {
-                                          return containerWidth
-                                        }
-                                        else {
-                                          return containerWidth / 2
-                                        }
+function chartWidthFn(containerWidth) {
+  if (containerWidth <= 500) {
+    return containerWidth
+    }
+  else {
+    return containerWidth / 2 - qsrMarginRight()
+    }
 }
 
-function render_chart(which_team) {
+/* why isn't this function working? */
+function qsrMarginRight(containerWidth) {
+  if (containerWidth <= 500) {
+    return 0
+    }
+  else {
+    return 16
+    }
+}
+
+function render_chart(which_team, what_order) {
+
+var qsrChartName = "qsr-chart"
+
+function selectChartClass() {
+  return "." + qsrChartName + ".chart" + what_order
+}
+
+function defineChartClass() {
+  return qsrChartName + " chart" + what_order
+}
 
 var layout = {
   
@@ -86,7 +106,7 @@ var layout = {
   labelYpc: 0.58,
 }
 
-var chartWidth = chartWidthfn(containerWidth)
+var chartWidth = chartWidthFn(containerWidth)
     barHeightMulti = layout.barHeight * layout.barMarginBoost
     labelYadj = barHeightMulti * layout.labelYpc
     maxIndex = d3.max(qsrData, function(d,i) { return (i + 1) });
@@ -105,6 +125,7 @@ var chartWidth = chartWidthfn(containerWidth)
                                 }
     returnQ = function(d,i) { return d.Quarter }
     srPercent = function(d) { return  format.percent(d.SuccessRate) }
+    marginRightPx = function() { return qsrMarginRight() + "px" }
     leagueSRx = layout.leagueSR / totalMaxSR * chartWidth * layout.srWidthScale - layout.leagueSRwidth / 2
     
     
@@ -115,16 +136,16 @@ var format = {
 
 var teamChart = d3.select("#qsr-charts-container")
       .append("div")
-      .attr("id","qsr-chart")
+      .attr("class",defineChartClass())
+      .style("margin-right",marginRightPx())
     
-    teamTitle = d3.select("#qsr-chart") //need to get this to be one div per svg, not both svgs in here
+    teamTitle = d3.select(selectChartClass()) //need to get this to be one div per svg, not both svgs in here
       .append("p")
       .text(which_team)
       .style("color",teamColor(which_team))
       .attr("class","teamTitle")
-      .attr("width",containerWidth)
     
-    svg = d3.select("#qsr-chart")
+    svg = d3.select(selectChartClass())
       .append("svg")
       .attr("class","svgChart")
       .attr("width",chartWidth)
