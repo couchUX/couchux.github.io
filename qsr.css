@@ -1,14 +1,15 @@
 /* responsiveness */
 #qsr-charts-container {
   width: 100%;
+  max-width: 1440px;
 }
 .qsr-chart {
   font-family:"Open Sans",sans-serif;
   margin-bottom:8px;
+  min-width:200px;
   display: inline-block;
 }
 .svgChart {
-  min-width: 200px;
   margin-bottom:8px;
 }
 .bodyCopy {
@@ -46,12 +47,12 @@
 }
 .qLabels {
   font-weight: 600;
-  font-size: 14px;
+  font-size: .8em;
   fill: #FFFFFF;
 }
 .srLabels {
   font-weight: 600;
-  font-size: 14px;
+  font-size: .8em;
   fill: #242424;
 }
 .leagueSRline {

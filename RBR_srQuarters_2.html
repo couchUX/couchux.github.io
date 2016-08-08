@@ -3,10 +3,10 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300' rel='stylesheet' type='text/css'>
-<link href='https://couchux.github.io/qsr.css' rel='stylesheet' type='text/css'>
+<link href='qsr.css' rel='stylesheet' type='text/css'>
 <script src="https://d3js.org/d3.v4.min.js"></script>
-
 </head>
+
 <body>
 <div id="qsr-charts-container">
 <script>
@@ -25,7 +25,7 @@ var teamColors = {
   "Michigan State": "#1A7A64" // dark version was "#205649"
 }
     gameColor = "#4A4A4A"
-    
+
 teamColor = function(team_name) {
   return teamColors[team_name]
 };
@@ -53,14 +53,12 @@ function csv_response(which_team, what_order, error, data) {
         d.Quarter = d.Quarter
       }
     })
-    
+
     render_chart(which_team, what_order)
   }
 }
 
-/* building the chart in d3 */
-/* function render_teamTitle(which_team) { */
-
+/* Some prep for building the d3 chart */
 var containerWidth = document.getElementById("qsr-charts-container").offsetWidth
 
 function chartWidthFn(containerWidth) {
@@ -95,8 +93,7 @@ function defineChartClass() {
 }
 
 var layout = {
-  
-  barHeight: 36,
+  barHeight: 32,
   barMarginBoost: 1.1,
   srWidthScale: 0.8,
   leagueSR: 0.42, //update this peridically for NCAA Success Rate averages
@@ -111,53 +108,66 @@ var chartWidth = chartWidthFn(containerWidth)
     labelYadj = barHeightMulti * layout.labelYpc
     maxIndex = d3.max(qsrData, function(d,i) { return (i + 1) });
     maxSR = d3.max(qsrData, function(d,i) { return d.SuccessRate })
-    totalMaxSR = .47 // !need to set this in an automated way by filtering outside of data pull, e.g., on render
+    totalMaxSR = .47 // !!need to set this in an automated way by filtering outside of data pull, e.g., on render
     svgHeight = maxIndex * barHeightMulti
-    srBarWidth = function(d,i) { return d.SuccessRate / totalMaxSR * chartWidth * layout.srWidthScale }
-    barY = function(d,i) { return i * barHeightMulti }
-    labelY = function(d,i) { return i * barHeightMulti + labelYadj }
-    srBarColor = function(d,i) { if ( d.Quarter === "Game") {
-                                    return gameColor
-                                  }
-                                 else {
-                                    return teamColor(d.Team)
-                                  }
-                                }
-    returnQ = function(d,i) { return d.Quarter }
-    srPercent = function(d) { return  format.percent(d.SuccessRate) }
-    marginRightPx = function() { return qsrMarginRight() + "px" }
     leagueSRx = layout.leagueSR / totalMaxSR * chartWidth * layout.srWidthScale - layout.leagueSRwidth / 2
-    
-    
+    srBarWidth = function(d,i) {
+      return d.SuccessRate / totalMaxSR * chartWidth * layout.srWidthScale
+    }
+    barY = function(d,i) {
+      return i * barHeightMulti
+    }
+    labelY = function(d,i) {
+      return i * barHeightMulti + labelYadj
+    }
+    srBarColor = function(d,i) {
+      if ( d.Quarter === "Game") {
+        return gameColor
+      }
+      else {
+        return teamColor(d.Team)
+      }
+    }
+    returnQ = function(d,i) {
+      return d.Quarter
+    }
+    srPercent = function(d) {
+      return  format.percent(d.SuccessRate)
+    }
+    marginRightPx = function() {
+      return qsrMarginRight() + "px"
+    }
 
 var format = {
   percent: d3.format(".0%")
 }
 
+/* actually building the chart in d3 */
+
 var teamChart = d3.select("#qsr-charts-container")
       .append("div")
       .attr("class",defineChartClass())
       .style("margin-right",marginRightPx())
-    
-    teamTitle = d3.select(selectChartClass()) //need to get this to be one div per svg, not both svgs in here
+
+    teamTitle = d3.select(selectChartClass())
       .append("p")
       .text(which_team)
       .style("color",teamColor(which_team))
       .attr("class","teamTitle")
-    
+
     svg = d3.select(selectChartClass())
       .append("svg")
       .attr("class","svgChart")
       .attr("width",chartWidth)
       .attr("height",svgHeight)
-    
+
     backBars = svg.selectAll(".backBar").data(qsrData).enter()
       .append("rect")
       .attr("class","backBar")
       .attr("width",chartWidth)
       .attr("height",layout.barHeight)
       .attr("y",barY)
-    
+
     srBars = svg.selectAll(".srBar").data(qsrData).enter()
       .append("rect")
       .attr("class","backBar")
@@ -165,21 +175,21 @@ var teamChart = d3.select("#qsr-charts-container")
       .attr("height",layout.barHeight)
       .attr("y",barY)
       .style("fill",srBarColor)
-      
+
     achors = svg.selectAll(".anchors").data(qsrData).enter()
       .append("rect")
       .attr("class","anchors")
       .attr("width",layout.anchorWidth)
       .attr("height",layout.barHeight)
       .attr("y",barY)
-    
+
     qLabels = svg.selectAll(".qLabels").data(qsrData).enter()
       .append("text")
       .text(returnQ)
       .attr("class","qLabels")
       .attr("x",layout.qLabelX)
       .attr("y",labelY)
-      
+
     srLabels = svg.selectAll(".srLabels").data(qsrData).enter()
       .append("text")
       .text(srPercent)
@@ -187,14 +197,14 @@ var teamChart = d3.select("#qsr-charts-container")
       .attr("text-anchor","end")
       .attr("x", chartWidth - layout.qLabelX)
       .attr("y",labelY)
-      
+
     leagueSRline = svg.append("rect")
       .attr("class","leagueSRline")
       .attr("height",svgHeight)
       .attr("width",layout.leagueSRwidth)
       .attr("x",leagueSRx)
 
-  
+
 } //end of building chart in d3
 
 
