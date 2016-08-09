@@ -1,11 +1,11 @@
-Team,Quarter,SuccessRate,ExpRate
-Alabama,1,0.40,0.00
-Michigan State,1,0.21,0.07
-Alabama,2,0.42,0.08
-Michigan State,2,0.30,0.15
-Alabama,3,0.47,0.16
-Michigan State,3,0.13,0.00
-Alabama,4,0.33,0.08
-Michigan State,4,0.30,0.15
-Alabama,Game,0.42,0.08
-Michigan State,Game,0.25,0.10
+Team,Quarter,SuccessRate,SuccessMax,ExpRate,ExpMax
+Alabama,1,0.40,0.47,0.00,0.16
+Michigan State,1,0.21,0.47,0.07,0.16
+Alabama,2,0.42,0.47,0.08,0.16
+Michigan State,2,0.30,0.47,0.15,0.16
+Alabama,3,0.47,0.47,0.16,0.16
+Michigan State,3,0.13,0.47,0.00,0.16
+Alabama,4,0.33,0.47,0.08,0.16
+Michigan State,4,0.30,0.47,0.15,0.16
+Alabama,Game,0.42,0.47,0.08,0.16
+Michigan State,Game,0.25,0.47,0.10,0.16
