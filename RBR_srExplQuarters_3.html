@@ -24,7 +24,7 @@ var teamColors = {
   "Alabama": "#C31C45",
   "Michigan State": "#1A7A64" // dark version was "#205649"
 }
-    gameColor = "#4A4A4A"
+    gameColor = "#5C5C5C"
 
 teamColor = function(team_name) {
   return teamColors[team_name]
@@ -95,7 +95,7 @@ function defineChartClass() {
 var layout = {
   barHeight: 32,
   barMarginBoost: 1.1,
-  srWidthScale: 0.8,
+  srWidthScale: 0.7,
   leagueSR: 0.42, //update this peridically for NCAA Success Rate averages
   leagueSRwidth: 3,
   qLabelX: 9,
@@ -106,12 +106,14 @@ var chartWidth = chartWidthFn(containerWidth)
     barHeightMulti = layout.barHeight * layout.barMarginBoost
     labelYadj = barHeightMulti * layout.labelYpc
     maxIndex = d3.max(qsrData, function(d,i) { return (i + 1) });
-    maxSR = d3.max(qsrData, function(d,i) { return d.SuccessRate })
-    totalMaxSR = .47 // !!need to set this in an automated way by filtering outside of data pull, e.g., on render
+    totalMaxSR = d3.max(qsrData, function(d,i) { return d.SuccessMax })
     svgHeight = maxIndex * barHeightMulti
     leagueSRx = layout.leagueSR / totalMaxSR * chartWidth * layout.srWidthScale - layout.leagueSRwidth / 2
     srBarWidth = function(d,i) {
       return d.SuccessRate / totalMaxSR * chartWidth * layout.srWidthScale
+    }
+    expBarWidth = function(d,i) {
+      return d.ExpRate / totalMaxSR * chartWidth * layout.srWidthScale
     }
     barY = function(d,i) {
       return i * barHeightMulti
@@ -175,10 +177,10 @@ var teamChart = d3.select("#qsr-charts-container")
       .attr("y",barY)
       .style("fill",srBarColor)
 
-    expBars = svg.selectAll(".anchors").data(qsrData).enter()
+    expBars = svg.selectAll(".expBars").data(qsrData).enter()
       .append("rect")
-      .attr("class","anchors")
-      .attr("width",srBarWidth)
+      .attr("class","expBars")
+      .attr("width",expBarWidth)
       .attr("height",layout.barHeight)
       .attr("y",barY)
 
