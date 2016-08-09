@@ -38,10 +38,11 @@
 .backBar {
   fill: #F1F1F1;
 }
-.srGameBar {
-  fill: #4A4A4A;
-}
 .anchors {
+  fill: #000000;
+  opacity: .25;
+}
+.expBars {
   fill: #000000;
   opacity: .25;
 }
