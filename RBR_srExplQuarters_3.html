@@ -22,7 +22,7 @@ qsrChart(csv_url, "Michigan State", "2");
 /* tie chart colors to team names */
 var teamColors = {
   "Alabama": "#C31C45",
-  "Michigan State": "#1A7A64" // dark version was "#205649"
+  "Michigan State": "#509E8B" // dark version was "#205649"
 }
     gameColor = "#5C5C5C"
 
@@ -62,24 +62,13 @@ function csv_response(which_team, what_order, error, data) {
 var containerWidth = document.getElementById("qsr-charts-container").offsetWidth
 
 function chartWidthFn(containerWidth) {
-  if (containerWidth <= 600) {
+  if (containerWidth < 584) {
     return containerWidth
     }
   else {
-    return containerWidth / 2 - qsrMarginRight()
+    return containerWidth / 2 - 8
     }
 }
-
-/* why isn't this function working? */
-function qsrMarginRight(containerWidth) {
-  if (containerWidth <= 600) {
-    return 0
-    }
-  else {
-    return 16
-    }
-}
-
 function render_chart(which_team, what_order) {
 
 var qsrChartName = "qsr-chart"
@@ -87,7 +76,6 @@ var qsrChartName = "qsr-chart"
 function selectChartClass() {
   return "." + qsrChartName + ".chart" + what_order
 }
-
 function defineChartClass() {
   return qsrChartName + " chart" + what_order
 }
@@ -99,7 +87,8 @@ var layout = {
   leagueSR: 0.42, //update this peridically for NCAA Success Rate averages
   leagueSRwidth: 3,
   qLabelX: 8,
-  secondLabelX: 36,
+  srLabelX: 24,
+  secondLabelX: 40,
   labelYpc: 0.58,
   yAdjust: 24,
   titleAdjust: 8,
@@ -154,7 +143,7 @@ var chartWidth = chartWidthFn(containerWidth)
       return qsrMarginRight() + "px"
     }
     leagueSRtext = function() {
-      return leagueSRpercent() + " NCAA SR Avg"
+      return leagueSRpercent() + " NCAA SR avg"
     }
 
 var format = {
@@ -166,7 +155,6 @@ var format = {
 var teamChart = d3.select("#qsr-charts-container")
       .append("div")
       .attr("class",defineChartClass())
-      .style("margin-right",marginRightPx())
 
     svg = d3.select(selectChartClass())
       .append("svg")
@@ -183,15 +171,15 @@ var teamChart = d3.select("#qsr-charts-container")
     srKey = svg.append("text")
       .text("SR")
       .attr("class","srKey")
-      .attr("text-anchor","end")
-      .attr("x", chartWidth - layout.qLabelX - 4)
+      .attr("text-anchor","middle")
+      .attr("x", chartWidth - layout.srLabelX + 2)
       .attr("y",yKeys)
 
     expKey = svg.append("text")
-      .text("EXP")
+      .text("XR")
       .attr("class","expKey")
-      .attr("text-anchor","end")
-      .attr("x", chartWidth - layout.qLabelX - layout.secondLabelX)
+      .attr("text-anchor","middle")
+      .attr("x", chartWidth - layout.srLabelX - layout.secondLabelX + 4)
       .attr("y",yKeys)
 
     backBars = svg.selectAll(".backBar").data(qsrData).enter()
@@ -239,12 +227,6 @@ var teamChart = d3.select("#qsr-charts-container")
       .attr("x", chartWidth - layout.qLabelX - layout.secondLabelX)
       .attr("y",labelY)
 
-  /*  leagueSRline = svg.append("rect")
-      .attr("class","leagueSRline")
-      .attr("height",svgHeight)
-      .attr("width",layout.leagueSRwidth)
-      .attr("x",leagueSRx)
-*/
     leagueSRline = svg.append("line")
       .attr("class","leagueSRline")
       .attr("x1",leagueSRx)
