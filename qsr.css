@@ -8,7 +8,7 @@
   min-width:200px;
   display: inline-block;
 }
-@media screen and (min-width: 584px) {
+@media screen and (min-width: 600px) {
     .chart2 {
         margin-left:16px;
     }
