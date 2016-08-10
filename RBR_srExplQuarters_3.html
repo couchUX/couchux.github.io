@@ -62,7 +62,7 @@ function csv_response(which_team, what_order, error, data) {
 var containerWidth = document.getElementById("qsr-charts-container").offsetWidth
 
 function chartWidthFn(containerWidth) {
-  if (containerWidth <= 500) {
+  if (containerWidth <= 600) {
     return containerWidth
     }
   else {
@@ -72,7 +72,7 @@ function chartWidthFn(containerWidth) {
 
 /* why isn't this function working? */
 function qsrMarginRight(containerWidth) {
-  if (containerWidth <= 500) {
+  if (containerWidth <= 600) {
     return 0
     }
   else {
@@ -98,17 +98,23 @@ var layout = {
   srWidthScale: 0.7,
   leagueSR: 0.42, //update this peridically for NCAA Success Rate averages
   leagueSRwidth: 3,
-  qLabelX: 9,
+  qLabelX: 8,
+  secondLabelX: 36,
   labelYpc: 0.58,
+  yAdjust: 24,
+  titleAdjust: 8,
+  bottomLabelAdj: 24,
 }
 
 var chartWidth = chartWidthFn(containerWidth)
     barHeightMulti = layout.barHeight * layout.barMarginBoost
     labelYadj = barHeightMulti * layout.labelYpc
+    yKeys = layout.yAdjust - layout.titleAdjust
     maxIndex = d3.max(qsrData, function(d,i) { return (i + 1) });
     totalMaxSR = d3.max(qsrData, function(d,i) { return d.SuccessMax })
-    svgHeight = maxIndex * barHeightMulti
+    svgHeight = maxIndex * barHeightMulti + layout.yAdjust + layout.bottomLabelAdj
     leagueSRx = layout.leagueSR / totalMaxSR * chartWidth * layout.srWidthScale - layout.leagueSRwidth / 2
+
     srBarWidth = function(d,i) {
       return d.SuccessRate / totalMaxSR * chartWidth * layout.srWidthScale
     }
@@ -116,10 +122,10 @@ var chartWidth = chartWidthFn(containerWidth)
       return d.ExpRate / totalMaxSR * chartWidth * layout.srWidthScale
     }
     barY = function(d,i) {
-      return i * barHeightMulti
+      return i * barHeightMulti + layout.yAdjust
     }
     labelY = function(d,i) {
-      return i * barHeightMulti + labelYadj
+      return i * barHeightMulti + labelYadj + layout.yAdjust
     }
     srBarColor = function(d,i) {
       if ( d.Quarter === "Game") {
@@ -132,11 +138,23 @@ var chartWidth = chartWidthFn(containerWidth)
     returnQ = function(d,i) {
       return d.Quarter
     }
-    srPercent = function(d) {
-      return  format.percent(d.SuccessRate)
+    srPercent = function(d,i) {
+      return format.percent(d.SuccessRate)
+    }
+    expPercent = function(d,i) {
+      if( d.ExpRate === "0.00") {
+        return ""
+      }
+        return format.percent(d.ExpRate)
+    }
+    leagueSRpercent = function() {
+      return format.percent(layout.leagueSR)
     }
     marginRightPx = function() {
       return qsrMarginRight() + "px"
+    }
+    leagueSRtext = function() {
+      return leagueSRpercent() + " NCAA SR Avg"
     }
 
 var format = {
@@ -150,17 +168,31 @@ var teamChart = d3.select("#qsr-charts-container")
       .attr("class",defineChartClass())
       .style("margin-right",marginRightPx())
 
-    teamTitle = d3.select(selectChartClass())
-      .append("p")
-      .text(which_team)
-      .style("color",teamColor(which_team))
-      .attr("class","teamTitle")
-
     svg = d3.select(selectChartClass())
       .append("svg")
       .attr("class","svgChart")
       .attr("width",chartWidth)
       .attr("height",svgHeight)
+
+    teamTitle = svg.append("text")
+      .text(which_team)
+      .style("fill",teamColor(which_team))
+      .attr("class","teamTitle")
+      .attr("y",yKeys)
+
+    srKey = svg.append("text")
+      .text("SR")
+      .attr("class","srKey")
+      .attr("text-anchor","end")
+      .attr("x", chartWidth - layout.qLabelX - 4)
+      .attr("y",yKeys)
+
+    expKey = svg.append("text")
+      .text("EXP")
+      .attr("class","expKey")
+      .attr("text-anchor","end")
+      .attr("x", chartWidth - layout.qLabelX - layout.secondLabelX)
+      .attr("y",yKeys)
 
     backBars = svg.selectAll(".backBar").data(qsrData).enter()
       .append("rect")
@@ -199,12 +231,37 @@ var teamChart = d3.select("#qsr-charts-container")
       .attr("x", chartWidth - layout.qLabelX)
       .attr("y",labelY)
 
-    leagueSRline = svg.append("rect")
+    expLabels = svg.selectAll(".expLabels").data(qsrData).enter()
+      .append("text")
+      .text(expPercent)
+      .attr("class","expLabels")
+      .attr("text-anchor","end")
+      .attr("x", chartWidth - layout.qLabelX - layout.secondLabelX)
+      .attr("y",labelY)
+
+  /*  leagueSRline = svg.append("rect")
       .attr("class","leagueSRline")
       .attr("height",svgHeight)
       .attr("width",layout.leagueSRwidth)
       .attr("x",leagueSRx)
+*/
+    leagueSRline = svg.append("line")
+      .attr("class","leagueSRline")
+      .attr("x1",leagueSRx)
+      .attr("x2",leagueSRx)
+      .attr("y1",layout.yAdjust)
+      .attr("y2",svgHeight - layout.yAdjust - 4 )
+      .style("stroke","#242424")
+      .style("stroke-width",2)
+      .style("stroke-dasharray","5,5")
+      .style("d","M5 20 l215 0")
 
+    leagueSRkey = svg.append("text")
+      .text(leagueSRtext)
+      .attr("class","leagueKey")
+      .attr("text-anchor","middle")
+      .attr("x",leagueSRx)
+      .attr("y",yKeys + svgHeight - layout.bottomLabelAdj)
 
 } //end of building chart in d3
 
