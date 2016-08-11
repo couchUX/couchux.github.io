@@ -13,7 +13,7 @@
         margin-left:16px;
     }
 }.bodyCopy {
-  font-family:Georgia, serif;
+  font-family:"Open Sans",sans-serif;
   fill: #242424;
   font-size: 1em;
   line-height: 1.5em;
@@ -21,7 +21,7 @@
   margin-bottom:0;
 }
 .chartTitle {
-  font-family:"Georgia","Open Sans",sans-serif;
+  font-family:"Open Sans",sans-serif;
   font-weight: bold;
   fill: #242424;
   font-size: 1.2em;
