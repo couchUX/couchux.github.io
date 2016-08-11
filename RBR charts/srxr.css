@@ -1,0 +1,80 @@
+/* responsiveness */
+#srxr-q-charts-container {
+  max-width: 724px; /* using width from RBR desktop site in chorus editor */
+  width: 100%;
+}
+.qsr-chart {
+  font-family:"Open Sans",sans-serif;
+  min-width:200px;
+  display: inline-block;
+}
+@media screen and (min-width: 600px) {
+    .chart2 {
+        margin-left:16px;
+    }
+}.bodyCopy {
+  font-family:Georgia, serif;
+  fill: #242424;
+  font-size: 1em;
+  line-height: 1.5em;
+  margin-top: 16px;
+  margin-bottom:0;
+}
+.chartTitle {
+  font-family:"Georgia","Open Sans",sans-serif;
+  font-weight: bold;
+  fill: #242424;
+  font-size: 1.2em;
+  margin-top: 16px;
+  margin-bottom:8px;
+}
+.teamTitle {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  margin-top: 0;
+  margin-bottom:4px;
+}
+.backBar {
+  fill: #F1F1F1;
+}
+.anchors {
+  fill: #000000;
+  opacity: .25;
+}
+.expBars {
+  fill: #000000;
+  opacity: .35;
+}
+.qLabels {
+  font-weight: 600;
+  font-size: .8em;
+  fill: #FFFFFF;
+}
+.srLabels, .srKey {
+  font-weight: 600;
+  font-size: .8em;
+  fill: #242424;
+  opacity: .8;
+}
+.expLabels, .expKey {
+  font-weight: 600;
+  font-size: .8em;
+  fill: #242424;
+  opacity: .5;
+}
+.srKey, .expKey {
+  font-weight: 500;
+  font-size: .7em;
+}
+.leagueKey {
+  font-weight: 500;
+  font-size: .7em;
+  fill: #242424;
+  opacity: .5;
+}
+.leagueSRline {
+  fill: #FFFFFF;
+  width: 3px;
+  opacity: .3;
+}
