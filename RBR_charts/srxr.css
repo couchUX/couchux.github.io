@@ -12,21 +12,21 @@
     .chart2 {
         margin-left:16px;
     }
-}.bodyCopy {
+}.chartIntro {
   font-family:"Open Sans",sans-serif;
   fill: #242424;
-  font-size: 1em;
+  font-size: .8em;
   line-height: 1.5em;
-  margin-top: 16px;
-  margin-bottom:0;
+  margin-top: 4px;
+  margin-bottom:12px;
 }
 .chartTitle {
   font-family:"Open Sans",sans-serif;
   font-weight: bold;
   fill: #242424;
-  font-size: 1.2em;
-  margin-top: 16px;
-  margin-bottom:8px;
+  font-size: 1em;
+  margin-top: 8px;
+  margin-bottom:0px;
 }
 .teamTitle {
   font-weight: 600;
