@@ -12,21 +12,22 @@
     .chart2 {
         margin-left:16px;
     }
-}.chartIntro {
-  font-family:"Open Sans",sans-serif;
-  fill: #242424;
-  font-size: 11px;
-  line-height: 1.5em;
-  margin-top: 4px;
-  margin-bottom:12px;
-}
 .chartTitle {
   font-family:"Open Sans",sans-serif;
-  font-weight: bold;
-  fill: #242424;
-  font-size: 18px;
+  font-weight: 600;
+  color: #BFBFBF;
+  font-size: 18px !important;
+  text-transform: uppercase;
   margin-top: 8px;
   margin-bottom:0px;
+}
+.chartIntro {
+  font-family:"Open Sans",sans-serif;
+  color: #242424;
+  font-size: 11px !important;
+  line-height: 1.5em;
+  margin-top: 0px;
+  margin-bottom:12px;
 }
 .teamTitle {
   font-weight: 600;
