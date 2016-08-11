@@ -12,19 +12,27 @@
     .chart2 {
         margin-left:16px;
     }
+}
 .chartTitle {
   font-family:"Open Sans",sans-serif;
   font-weight: 600;
-  color: #BFBFBF;
-  font-size: 18px;
-  text-transform: uppercase;
+  color: #242424;
+  font-size: 16px !important;
+  text-transform: normal;
   margin-top: 8px;
-  margin-bottom:0px;
+  margin-bottom: 8px;
+}
+.titleHR {
+  height: 1px;
+  width: 100%;
+  background-color: #242424;
+  opacity: .2;
+  margin-bottom: 12px;
 }
 .chartIntro {
   font-family:"Open Sans",sans-serif;
   color: #242424;
-  font-size: 11px;
+  font-size: 11px !important;
   line-height: 1.5em;
   margin-top: 0px;
   margin-bottom:12px;
