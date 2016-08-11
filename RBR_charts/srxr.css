@@ -15,7 +15,7 @@
 }.chartIntro {
   font-family:"Open Sans",sans-serif;
   fill: #242424;
-  font-size: .75em;
+  font-size: 11px;
   line-height: 1.5em;
   margin-top: 4px;
   margin-bottom:12px;
@@ -24,7 +24,7 @@
   font-family:"Open Sans",sans-serif;
   font-weight: bold;
   fill: #242424;
-  font-size: 1.1em;
+  font-size: 18px;
   margin-top: 8px;
   margin-bottom:0px;
 }
