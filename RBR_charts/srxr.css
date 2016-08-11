@@ -2,6 +2,7 @@
 #srxr-q-charts-container {
   max-width: 724px; /* using width from RBR desktop site in chorus editor */
   width: 100%;
+  margin-bottom: 12px;
 }
 .srxrq-chart {
   font-family:"Open Sans",sans-serif;
