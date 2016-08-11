@@ -4,8 +4,8 @@ var csv_url = "https://couchux.github.io/RBR_charts/BamaMSU_SRXR_Quarters.csv"
 
 /* run the whole chart function */
 
-qsrChart(csv_url, "Alabama", "1"); //the latter part doesn't do anything, but I'd like to control the team from here
-qsrChart(csv_url, "Michigan State", "2");
+srxrqChart(csv_url, "Alabama", "1"); //the latter part doesn't do anything, but I'd like to control the team from here
+srxrqChart(csv_url, "Michigan State", "2");
 
 /* tie chart colors to team names */
 var teamColors = {
@@ -19,7 +19,7 @@ teamColor = function(team_name) {
 };
 
 /* defining the main chart functions */
-function qsrChart(data_url, which_team, what_order) {
+function srxrqChart(data_url, which_team, what_order) {
   d3.csv(data_url, csv_response.bind(null, which_team).bind(null, what_order))
 }
 
@@ -29,7 +29,7 @@ function csv_response(which_team, what_order, error, data) {
   }
   else {
     console.log("data loaded")
-    qsrData = data.filter(function(row){
+    srxrqData = data.filter(function(row){
       return row.Team == which_team  //try to Filter/reformat ("Transform") outside of data pull
     })
     data.forEach(function(d) {
@@ -47,7 +47,7 @@ function csv_response(which_team, what_order, error, data) {
 }
 
 /* Some prep for building the d3 chart */
-var containerWidth = document.getElementById("qsr-charts-container").offsetWidth
+var containerWidth = document.getElementById("srxr-q-charts-container").offsetWidth
 
 function chartWidthFn(containerWidth) {
   if (containerWidth < 584) {
@@ -59,13 +59,13 @@ function chartWidthFn(containerWidth) {
 }
 function render_chart(which_team, what_order) {
 
-var qsrChartName = "qsr-chart"
+var srxrqChartName = "srxrq-chart"
 
 function selectChartClass() {
-  return "." + qsrChartName + ".chart" + what_order
+  return "." + srxrqChartName + ".chart" + what_order
 }
 function defineChartClass() {
-  return qsrChartName + " chart" + what_order
+  return srxrqChartName + " chart" + what_order
 }
 
 var layout = {
@@ -87,8 +87,8 @@ var chartWidth = chartWidthFn(containerWidth)
     barHeightMulti = layout.barHeight * layout.barMarginBoost
     labelYadj = barHeightMulti * layout.labelYpc
     yKeys = layout.yAdjust - layout.titleAdjust
-    maxIndex = d3.max(qsrData, function(d,i) { return (i + 1) });
-    totalMaxSR = d3.max(qsrData, function(d,i) { return d.SuccessMax })
+    maxIndex = d3.max(srxrqData, function(d,i) { return (i + 1) });
+    totalMaxSR = d3.max(srxrqData, function(d,i) { return d.SuccessMax })
     svgHeight = maxIndex * barHeightMulti + layout.yAdjust + layout.bottomLabelAdj
     leagueSRx = layout.leagueSR / totalMaxSR * chartWidth * layout.srWidthScale - layout.leagueSRwidth / 2
 
@@ -128,7 +128,7 @@ var chartWidth = chartWidthFn(containerWidth)
       return format.percent(layout.leagueSR)
     }
     marginRightPx = function() {
-      return qsrMarginRight() + "px"
+      return srxrqMarginRight() + "px"
     }
     leagueSRtext = function() {
       return leagueSRpercent() + " NCAA SR avg"
@@ -140,7 +140,7 @@ var format = {
 
 /* actually building the chart in d3 */
 
-var teamChart = d3.select("#qsr-charts-container")
+var teamChart = d3.select("#srxr-q-charts-container")
       .append("div")
       .attr("class",defineChartClass())
 
@@ -170,14 +170,14 @@ var teamChart = d3.select("#qsr-charts-container")
       .attr("x", chartWidth - layout.srLabelX - layout.secondLabelX + 4)
       .attr("y",yKeys)
 
-    backBars = svg.selectAll(".backBar").data(qsrData).enter()
+    backBars = svg.selectAll(".backBar").data(srxrqData).enter()
       .append("rect")
       .attr("class","backBar")
       .attr("width",chartWidth)
       .attr("height",layout.barHeight)
       .attr("y",barY)
 
-    srBars = svg.selectAll(".srBar").data(qsrData).enter()
+    srBars = svg.selectAll(".srBar").data(srxrqData).enter()
       .append("rect")
       .attr("class","backBar")
       .attr("width",srBarWidth)
@@ -185,21 +185,21 @@ var teamChart = d3.select("#qsr-charts-container")
       .attr("y",barY)
       .style("fill",srBarColor)
 
-    expBars = svg.selectAll(".expBars").data(qsrData).enter()
+    expBars = svg.selectAll(".expBars").data(srxrqData).enter()
       .append("rect")
       .attr("class","expBars")
       .attr("width",expBarWidth)
       .attr("height",layout.barHeight)
       .attr("y",barY)
 
-    qLabels = svg.selectAll(".qLabels").data(qsrData).enter()
+    qLabels = svg.selectAll(".qLabels").data(srxrqData).enter()
       .append("text")
       .text(returnQ)
       .attr("class","qLabels")
       .attr("x",layout.qLabelX)
       .attr("y",labelY)
 
-    srLabels = svg.selectAll(".srLabels").data(qsrData).enter()
+    srLabels = svg.selectAll(".srLabels").data(srxrqData).enter()
       .append("text")
       .text(srPercent)
       .attr("class","srLabels")
@@ -207,7 +207,7 @@ var teamChart = d3.select("#qsr-charts-container")
       .attr("x", chartWidth - layout.qLabelX)
       .attr("y",labelY)
 
-    expLabels = svg.selectAll(".expLabels").data(qsrData).enter()
+    expLabels = svg.selectAll(".expLabels").data(srxrqData).enter()
       .append("text")
       .text(expPercent)
       .attr("class","expLabels")
