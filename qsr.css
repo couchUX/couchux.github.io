@@ -1,13 +1,7 @@
 /* responsiveness */
 #qsr-charts-container {
-  width: 100%;
   max-width: 724px; /* using width from RBR desktop site in chorus editor */
-  
-  /* added the below from a troubleshooting SOF page */
-  
-  -webkit-box-sizing: border-box; /* Safari, other WebKit */
-  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
-  box-sizing: border-box;   
+  width: 100%;
 }
 .qsr-chart {
   font-family:"Open Sans",sans-serif;
