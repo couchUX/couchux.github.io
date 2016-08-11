@@ -80,7 +80,7 @@ var layout = {
   labelYpc: 0.58,
   yAdjust: 24,
   titleAdjust: 8,
-  bottomLabelAdj: 18,
+  bottomLabelAdj: 20,
 }
 
 var chartWidth = chartWidthFn(containerWidth)
