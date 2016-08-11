@@ -1,7 +1,7 @@
 /* responsiveness */
 #qsr-charts-container {
   width: 100%;
-  max-width: 1440px;
+  max-width: 724px; /* using width from RBR desktop site in chorus editor */
 }
 .qsr-chart {
   font-family:"Open Sans",sans-serif;
