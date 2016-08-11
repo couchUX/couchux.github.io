@@ -1,6 +1,6 @@
 
 /* select what csv should be run */
-var csv_url = "https://couchux.github.io/SrExp_Quarters.csv"
+var csv_url = "https://couchux.github.io/RBR_charts/BamaMSU_SRXR_Quarters.csv"
 
 /* run the whole chart function */
 
