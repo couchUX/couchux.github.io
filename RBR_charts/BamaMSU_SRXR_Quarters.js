@@ -1,4 +1,3 @@
-
 /* select what csv should be run */
 var csv_url = "https://couchux.github.io/RBR_charts/BamaMSU_SRXR_Quarters.csv"
 
@@ -80,7 +79,11 @@ var layout = {
   labelYpc: 0.58,
   yAdjust: 24,
   titleAdjust: 8,
+<<<<<<< HEAD
   bottomLabelAdj: 0,
+=======
+  bottomLabelAdj: 20,
+>>>>>>> origin/master
 }
 
 var chartWidth = chartWidthFn(containerWidth)
