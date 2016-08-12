@@ -80,7 +80,7 @@ var layout = {
   labelYpc: 0.58,
   yAdjust: 24,
   titleAdjust: 8,
-  bottomLabelAdj: 18,
+  bottomLabelAdj: 0,
 }
 
 var chartWidth = chartWidthFn(containerWidth)
@@ -131,7 +131,7 @@ var chartWidth = chartWidthFn(containerWidth)
       return srxrqMarginRight() + "px"
     }
     leagueSRtext = function() {
-      return leagueSRpercent() + " NCAA SR avg"
+      return leagueSRpercent() + "*"
     }
 
 var format = {
@@ -167,7 +167,14 @@ var teamChart = d3.select("#srxr-q-charts-container")
       .text("XR")
       .attr("class","expKey")
       .attr("text-anchor","middle")
-      .attr("x", chartWidth - layout.srLabelX - layout.secondLabelX + 4)
+      .attr("x", chartWidth - layout.srLabelX - layout.secondLabelX + 2)
+      .attr("y",yKeys)
+
+    leagueSRkey = svg.append("text")
+      .text(leagueSRtext)
+      .attr("class","leagueKey")
+      .attr("text-anchor","middle")
+      .attr("x",leagueSRx)
       .attr("y",yKeys)
 
     backBars = svg.selectAll(".backBar").data(srxrqData).enter()
@@ -220,17 +227,10 @@ var teamChart = d3.select("#srxr-q-charts-container")
       .attr("x1",leagueSRx)
       .attr("x2",leagueSRx)
       .attr("y1",layout.yAdjust)
-      .attr("y2",svgHeight - layout.yAdjust - 4 )
+      .attr("y2",svgHeight - 4)
       .style("stroke","#242424")
       .style("stroke-width",2)
       .style("stroke-dasharray","5,5")
       .style("d","M5 20 l215 0")
-
-    leagueSRkey = svg.append("text")
-      .text(leagueSRtext)
-      .attr("class","leagueKey")
-      .attr("text-anchor","middle")
-      .attr("x",leagueSRx)
-      .attr("y",yKeys + svgHeight - layout.bottomLabelAdj)
 
 } //end of building chart in d3

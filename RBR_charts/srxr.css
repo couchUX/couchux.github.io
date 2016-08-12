@@ -4,9 +4,10 @@
   width: 100%;
 }
 .srxrq-chart {
-  font-family:"Open Sans",sans-serif;
+  font-family:"Work Sans",sans-serif;
   min-width:200px;
   display: inline-block;
+  margin-top: 8px;
 }
 @media screen and (min-width: 600px) {
     .chart2 {
@@ -14,8 +15,9 @@
     }
 }
 .chartTitle {
-  font-family:"Open Sans",sans-serif;
-  font-weight: 600;
+  font-family:"Work Sans",sans-serif;
+  font-weight: 500;
+  letter-spacing: -0.3px;
   color: #242424;
   font-size: 16px !important;
   text-transform: normal;
@@ -27,18 +29,20 @@
   width: 100%;
   background-color: #242424;
   opacity: .2;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
 }
-.chartIntro {
-  font-family:"Open Sans",sans-serif;
+.chartNote {
+  font-family:"Work Sans",sans-serif;
   color: #242424;
-  font-size: 11px !important;
+  font-size: 0.8em !important;
+  letter-spacing: -0.3px;
   line-height: 1.5em;
-  margin-top: 0px;
+  opacity: 0.5;
+  margin-top: 2px;
   margin-bottom:12px;
 }
 .teamTitle {
-  font-weight: 600;
+  font-weight: 400;
   text-transform: uppercase;
   font-size: 0.8em;
   margin-top: 0;
@@ -56,29 +60,31 @@
   opacity: .35;
 }
 .qLabels {
-  font-weight: 600;
+  font-weight: 500;
   font-size: .8em;
   fill: #FFFFFF;
 }
 .srLabels, .srKey {
-  font-weight: 600;
+  font-weight: 500;
   font-size: .8em;
   fill: #242424;
   opacity: .8;
+  font-feature-settings: "tnum" on;
 }
 .expLabels, .expKey {
-  font-weight: 600;
+  font-weight: 400;
   font-size: .8em;
   fill: #242424;
   opacity: .5;
+  font-feature-settings: "tnum" on;
 }
 .srKey, .expKey {
-  font-weight: 500;
-  font-size: .7em;
+  font-weight: 400;
+  font-size: .8em;
 }
 .leagueKey {
-  font-weight: 500;
-  font-size: .7em;
+  font-weight: 400;
+  font-size: .8em;
   fill: #242424;
   opacity: .5;
 }
