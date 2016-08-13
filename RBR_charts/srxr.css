@@ -3,6 +3,10 @@
   max-width: 724px; /* using width from RBR desktop site in chorus editor */
   width: 100%;
 }
+#plays-charts-container {
+  max-width: 724px;
+  width: 100%;
+}
 .srxrq-chart {
   font-family:"Work Sans",sans-serif;
   min-width:200px;
