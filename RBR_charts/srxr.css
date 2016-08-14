@@ -94,8 +94,3 @@
   width: 3px;
   opacity: .3; /* stroke attributes are in the script itself */
 }
-.gridLine {
-  fill: #FFFFFF;
-  width: 3px;
-  opacity: .2;
-}
