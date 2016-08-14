@@ -36,15 +36,15 @@ function render_chart() {
 var layout = {
   barMarginTop: 20,
   nsOpacity: 0.3,
-  axisHeight: 16,
 }
 var containerWidth = document.getElementById("plays-charts-container").offsetWidth
     chartWidth = containerWidth
     barWidth = chartWidth / 20
+    axisHeight = barWidth
     maxIndex = d3.max(playsData, function(d,i) { return (i + 1) });
     totalPlaysMax = d3.max(playsData, function(d,i) { return d.Total_plays_max })
     barMaxHeight = totalPlaysMax * barWidth
-    chartHeight = (barMaxHeight + layout.barMarginTop) * 2
+    chartHeight = (barMaxHeight + layout.barMarginTop) * 2 + axisHeight
     playsChartName = "plays-chart"
 
     selectChartClass = function() {
@@ -98,7 +98,7 @@ var containerWidth = document.getElementById("plays-charts-container").offsetWid
     }
     bottomGroupY = function(q) {
       return "translate(0,"
-             + (layout.barMarginTop + barMaxHeight + layout.axisHeight)
+             + (layout.barMarginTop + barMaxHeight + axisHeight)
              + ")"
     }
     barX = function(d,i) {
