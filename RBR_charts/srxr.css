@@ -91,7 +91,11 @@
   opacity: .5;
 }
 .leagueSRline {
+  width: 3px;
+  opacity: .3; /* stroke attributes are in the script itself */
+}
+.gridLine {
   fill: #FFFFFF;
   width: 3px;
-  opacity: .3;
+  opacity: .2;
 }
