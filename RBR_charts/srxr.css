@@ -53,13 +53,9 @@
 .backBar {
   fill: #F1F1F1;
 }
-.anchors {
-  fill: #000000;
-  opacity: .25;
-}
 .expBars {
   fill: #000000;
-  opacity: .35;
+  opacity: .5;
 }
 .qLabels {
   font-weight: 500;
