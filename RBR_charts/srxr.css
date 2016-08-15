@@ -18,6 +18,9 @@
         margin-left:16px;
     }
 }
+.plays-chart {
+  font-family:"Work Sans",sans-serif;
+}
 .chartTitle {
   font-family:"Open Sans",sans-serif;
   font-weight: 700;
@@ -89,4 +92,15 @@
 .leagueSRline {
   width: 3px;
   opacity: .3; /* stroke attributes are in the script itself */
+}
+.axis-labels {
+  font-weight: 500;
+  font-size: 1em;
+  fill: #242424;
+  opacity: .8;
+}
+.axis-labels.bold {
+  font-weight: 600;
+  font-size: 0.8em;
+  opacity: .8;
 }
