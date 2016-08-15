@@ -55,10 +55,11 @@ var layout = {
   nsOpacity: 0.3,
   axisLabelAdj: 0.73,
   axisLabelAdj_bold: 0.65,
-  gridWidth: 1.5,
+  gridWidth: 1,
+  gridOpacity: 1,
 }
 var chartWidth = containerWidth
-    barWidthMulti = 0.96
+    barWidthMulti = 0.97
     halfMargin = chartWidth * (1 - barWidthMulti)
     barWidth = chartWidth / 20 * barWidthMulti
     labelAdj = barWidth / 2
@@ -184,6 +185,7 @@ renderQuarter(4,q4_fil)
 
 var gridAttr = d3.selectAll(".grid")
       .attr("fill","none")
+      .style("opacity",layout.gridOpacity)
       .style("stroke","white")
       .style("stroke-width",layout.gridWidth)
     boldAttr = d3.selectAll(".axis-label, .bold")
@@ -198,11 +200,9 @@ function renderQuarter(q, q_fil) {
       renderBars(team1_fil, topGroup, q, q_fil, ".top-bars", "top-bars ns", layout.nsOpacity, barHeight, topBarY)
       renderBars(team1_fil, topGroup, q, q_fil, ".top-bars", "top-bars s", 1, barHeight_S, topBarY_S)
       renderBars(team1_fil, topGroup, q, q_fil, ".top-bars", "top-bars expBars", 1, barHeight_X, topBarY_X)
-      renderBars(team1_fil, topGroup, q, q_fil, ".top-bars", "top-bars grid", 1, barHeight, topBarY)
       renderBars(team2_fil, bottomGroup, q, q_fil, ".bottom-bars", "bottom-bars ns", layout.nsOpacity, barHeight, bottomBarY_all)
       renderBars(team2_fil, bottomGroup, q, q_fil, ".bottom-bars", "bottom-bars s", 1, barHeight_S, bottomBarY_all)
       renderBars(team2_fil, bottomGroup, q, q_fil, ".bottom-bars", "bottom-bars expBars", 1, barHeight_X, bottomBarY_all)
-      renderBars(team2_fil, bottomGroup, q, q_fil, ".bottom-bars", "bottom-bars grid", 1, barHeight, bottomBarY_all)
       renderGridHz(q, q_fil)
       renderLabels(q)
 }
