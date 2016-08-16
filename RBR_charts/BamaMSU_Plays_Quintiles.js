@@ -49,7 +49,7 @@ responsive = function(allWidth) {
         return 3
       }
     }
-  }
+  } // how to avoid nested IFs here?
 }
 
 /* d3 render function */
@@ -65,7 +65,8 @@ var layout = {
   labelLineOpacity: 0.5,
   labelLineWidth: 1.2,
 }
-var chartMarginArr = [1, 6, 20, 40]
+var playsChartName = "plays-chart"
+    chartMarginArr = [1, 6, 20, 40]
       chartMargin = chartMarginArr[responsive(allWidth)]
       chartWidth = allWidth - chartMargin * 2
     barWidthMultiArr = [.97, .96, .96, .96]
@@ -80,12 +81,9 @@ var chartMarginArr = [1, 6, 20, 40]
       blockHeight = barWidth * blockHeightArr[responsive(allWidth)]
     axisHeightArr = [24, 24, 26, 26]
       axisHeight = axisHeightArr[responsive(allWidth)]
-    maxIndex = d3.max(playsData, function(d,i) { return (i + 1) });
     totalPlaysMax = d3.max(playsData, function(d,i) { return d.Total_plays_max })
       barMaxHeight = totalPlaysMax * blockHeight
       chartHeight = (barMaxHeight + layout.barMarginTop) * 2 + axisHeight
-    playsChartName = "plays-chart"
-    bottomBarY_all = 0
 
     selectChartClass = function() {
       return "." + playsChartName
@@ -116,7 +114,7 @@ var chartMarginArr = [1, 6, 20, 40]
     }
     q4_fil = function(d,i) {
         return d.Quarter_quintile > 4
-    }
+    } //how to consolidate these into one q_fil, while persisting the d.VALUE from data?
     barHeight = function(d,i) {
         return d.Total_plays * blockHeight
     }
@@ -127,34 +125,22 @@ var chartMarginArr = [1, 6, 20, 40]
         return d.X_plays * blockHeight
     }
     chartX = function() {
-      return "translate("
-             + chartMargin
-             + ")"
+      return "translate(" + chartMargin + ")"
     }
     qX = function(q) {
-      return "translate("
-             + qWidth * (q - 1)
-             + ")"
+      return "translate(" + qWidth * (q - 1) + ")"
     }
     topGroupY = function(q) {
-      return "translate(0,"
-             + layout.barMarginTop
-             + ")"
+      return "translate(0," + layout.barMarginTop + ")"
     }
     axisGroupY = function(q) {
-      return "translate(0,"
-             + (layout.barMarginTop + barMaxHeight)
-             + ")"
+      return "translate(0," + (layout.barMarginTop + barMaxHeight) + ")"
     }
     bottomGroupY = function(q) {
-      return "translate(0,"
-             + (layout.barMarginTop + barMaxHeight + axisHeight)
-             + ")"
+      return "translate(0," + (layout.barMarginTop + barMaxHeight + axisHeight) + ")"
     }
     halfMarginFn = function(q) {
-      return "translate("
-             + (qWidth * (q - 1) + halfMargin)
-             + ")"
+      return "translate(" + (qWidth * (q - 1) + halfMargin) + ")"
     }
     barX = function(d,i) {
       return i * barWidth
@@ -177,6 +163,9 @@ var chartMarginArr = [1, 6, 20, 40]
     q_to_label = function(q) {
       return q + "Q"
     }
+    class_to_sel = function(class_name) {
+      return "." + class_name
+    }
     quinLabelX = function(quin_num) {
           return barWidth * quin_num + labelAdj
     }
@@ -185,7 +174,6 @@ var chartMarginArr = [1, 6, 20, 40]
 var chart = d3.select("#plays-charts-container")
       .append("div")
       .attr("class",defineChartClass())
-
     svg = d3.select(selectChartClass())
       .append("svg")
       .attr("width",chartWidth + chartMargin * 2)
@@ -225,9 +213,9 @@ function renderQuarter(q, q_fil) {
       renderBars(team1_fil, topGroup, q, q_fil, ".top-bars", "top-bars ns", layout.nsOpacity, barHeight, topBarY)
       renderBars(team1_fil, topGroup, q, q_fil, ".top-bars", "top-bars s", 1, barHeight_S, topBarY_S)
       renderBars(team1_fil, topGroup, q, q_fil, ".top-bars", "top-bars expBars", 1, barHeight_X, topBarY_X)
-      renderBars(team2_fil, bottomGroup, q, q_fil, ".bottom-bars", "bottom-bars ns", layout.nsOpacity, barHeight, bottomBarY_all)
-      renderBars(team2_fil, bottomGroup, q, q_fil, ".bottom-bars", "bottom-bars s", 1, barHeight_S, bottomBarY_all)
-      renderBars(team2_fil, bottomGroup, q, q_fil, ".bottom-bars", "bottom-bars expBars", 1, barHeight_X, bottomBarY_all)
+      renderBars(team2_fil, bottomGroup, q, q_fil, ".bottom-bars", "bottom-bars ns", layout.nsOpacity, barHeight, 0)
+      renderBars(team2_fil, bottomGroup, q, q_fil, ".bottom-bars", "bottom-bars s", 1, barHeight_S, 0)
+      renderBars(team2_fil, bottomGroup, q, q_fil, ".bottom-bars", "bottom-bars expBars", 1, barHeight_X, 0)
       renderGridHz(q, q_fil)
       renderLabels(q)
 }
@@ -296,17 +284,16 @@ function renderLabelLines(q, label_class) {
       .attr("x2",qWidth - layout.labelLineWidth + 1 - labelLineLengthAdj)
       .attr("y1",axisHeight / 2)
       .attr("y2",axisHeight / 2)
-      .style("stroke","#242424")
-      .style("stroke-width",layout.labelLineWidth)
-      .style("opacity",layout.labelLineOpacity)
 
-      axisGroup.select(q_to_class_sel(q, label_class))
+      axisGroup.select(q_to_class_sel(q))
       .append("line")
       .attr("class",label_class)
       .attr("x1",qWidth - labelLineLengthAdj)
       .attr("x2",qWidth - labelLineLengthAdj)
       .attr("y1",axisHeight * 0.4)
       .attr("y2",axisHeight * 0.6)
+
+      axisGroup.selectAll(class_to_sel(label_class))
       .style("stroke","#242424")
       .style("stroke-width",layout.labelLineWidth)
       .style("opacity",layout.labelLineOpacity)
