@@ -31,18 +31,18 @@ function csv_response(error, data) {
 }
 
 /* d3 prep */
-containerWidth = document.getElementById("plays-charts-container").offsetWidth
+allWidth = document.getElementById("plays-charts-container").offsetWidth
 
-squareHeightFn = function(containerWidth) {
-  if (containerWidth < 380) {
-    return 1.0
+responsive = function(allWidth) {
+  if (allWidth < 380) {
+    return 0
     }
   else {
-    if (containerWidth < 500) {
-      return 0.75
+    if (allWidth < 500) {
+      return 1
     }
     else {
-      return 0.6
+      return 2
     }
   }
 }
@@ -57,20 +57,28 @@ var layout = {
   axisLabelAdj_bold: 0.65,
   gridWidth: 1,
   gridOpacity: 1,
+  labelLineOpacity: 0.2,
+  labelLineWidth: 2,
 }
-var chartWidth = containerWidth
-    barWidthMulti = 0.97
-    halfMargin = chartWidth * (1 - barWidthMulti)
-    barWidth = chartWidth / 20 * barWidthMulti
-    labelAdj = barWidth / 2
-    squareHeight = barWidth * squareHeightFn(containerWidth)
-    axisHeight = squareHeight * 1.6
+var chartMarginArr = [2, 6, 20]
+      chartMargin = chartMarginArr[responsive(allWidth)]
+      chartWidth = allWidth - chartMargin * 2
+    barWidthMultiArr = [0.97, 0.96, 0.96]
+      barWidthMulti = barWidthMultiArr[responsive(allWidth)]
+      halfMargin = chartWidth * (1 - barWidthMulti)
+      barWidth = chartWidth / 20 * barWidthMulti
+      labelAdj = barWidth / 2
+      qWidth = chartWidth * barWidthMulti / 4
+    labelLineLengthArr = [ .9, .96, .98]
+      labelLineLengthMulti = labelLineLengthArr[responsive(allWidth)]
+    blockHeightArr = [1.0, 0.75, 0.6]
+      blockHeight = barWidth * blockHeightArr[responsive(allWidth)]
+      axisHeight = blockHeight * 1.6
     maxIndex = d3.max(playsData, function(d,i) { return (i + 1) });
     totalPlaysMax = d3.max(playsData, function(d,i) { return d.Total_plays_max })
-    barMaxHeight = totalPlaysMax * squareHeight
-    chartHeight = (barMaxHeight + layout.barMarginTop) * 2 + axisHeight
+      barMaxHeight = totalPlaysMax * blockHeight
+      chartHeight = (barMaxHeight + layout.barMarginTop) * 2 + axisHeight
     playsChartName = "plays-chart"
-    qWidth = chartWidth * barWidthMulti / 4
     bottomBarY_all = 0
 
     selectChartClass = function() {
@@ -104,13 +112,18 @@ var chartWidth = containerWidth
         return d.Quarter_quintile > 4
     }
     barHeight = function(d,i) {
-        return d.Total_plays * squareHeight
+        return d.Total_plays * blockHeight
     }
     barHeight_S = function(d,i) {
-        return d.S_plays * squareHeight
+        return d.S_plays * blockHeight
     }
     barHeight_X = function(d,i) {
-        return d.X_plays * squareHeight
+        return d.X_plays * blockHeight
+    }
+    chartX = function() {
+      return "translate("
+             + chartMargin
+             + ")"
     }
     qX = function(q) {
       return "translate("
@@ -141,19 +154,22 @@ var chartWidth = containerWidth
       return i * barWidth
     }
     topBarY = function(d,i) {
-      return barMaxHeight - d.Total_plays * squareHeight
+      return barMaxHeight - d.Total_plays * blockHeight
     }
     topBarY_S = function(d,i) {
-      return barMaxHeight - d.S_plays * squareHeight
+      return barMaxHeight - d.S_plays * blockHeight
     }
     topBarY_X = function(d,i) {
-      return barMaxHeight - d.X_plays * squareHeight
+      return barMaxHeight - d.X_plays * blockHeight
     }
     q_to_class = function(q) {
       return "Q" + q
     }
     q_to_class_sel = function(q) {
       return ".Q" + q
+    }
+    q_to_label = function(q) {
+      return q + "Q"
     }
     quinLabelX = function(quin_num) {
           return barWidth * quin_num + labelAdj
@@ -166,15 +182,18 @@ var chart = d3.select("#plays-charts-container")
 
     svg = d3.select(selectChartClass())
       .append("svg")
-      .attr("width",chartWidth)
+      .attr("width",chartWidth + chartMargin * 2)
       .attr("height",chartHeight)
-    topGroup = svg.append("g")
+    allGroups = svg.append("g")
+      .attr("id","all-groups")
+      .attr("transform",chartX)
+    topGroup = allGroups.append("g")
       .attr("id","top-group")
       .attr("transform",topGroupY)
-    axisGroup = svg.append("g")
+    axisGroup = allGroups.append("g")
       .attr("id","axis-group")
       .attr("transform",axisGroupY)
-    bottomGroup = svg.append("g")
+    bottomGroup = allGroups.append("g")
       .attr("id","bottom-group")
       .attr("transform",bottomGroupY)
 
@@ -225,37 +244,34 @@ function renderBars(team_fil, top_bottom, q, q_fil, bar_cl_sel, bar_cl_set, bar_
       .attr("y",bar_y)
 }
 function renderGridHz(q, q_fil) {
-      renderBars(team1_fil, topGroup, q, q_fil, ".top-bars", "top-bars grid", 1, squareHeight, gridHzY(1))
-      renderBars(team1_fil, topGroup, q, q_fil, ".top-bars", "top-bars grid", 1, squareHeight, gridHzY(2))
-      renderBars(team1_fil, topGroup, q, q_fil, ".top-bars", "top-bars grid", 1, squareHeight, gridHzY(3))
-      renderBars(team1_fil, topGroup, q, q_fil, ".top-bars", "top-bars grid", 1, squareHeight, gridHzY(4))
-      renderBars(team1_fil, topGroup, q, q_fil, ".top-bars", "top-bars grid", 1, squareHeight, gridHzY(5))
-      renderBars(team1_fil, topGroup, q, q_fil, ".top-bars", "top-bars grid", 1, squareHeight, gridHzY(6))
-      renderBars(team1_fil, topGroup, q, q_fil, ".top-bars", "top-bars grid", 1, squareHeight, gridHzY(7))
-      renderBars(team1_fil, topGroup, q, q_fil, ".top-bars", "top-bars grid", 1, squareHeight, gridHzY(8))
-      renderBars(team2_fil, bottomGroup, q, q_fil, ".bottom-bars", "bottom-bars grid", 1, squareHeight, gridHzY(1))
-      renderBars(team2_fil, bottomGroup, q, q_fil, ".bottom-bars", "bottom-bars grid", 1, squareHeight, gridHzY(2))
-      renderBars(team2_fil, bottomGroup, q, q_fil, ".bottom-bars", "bottom-bars grid", 1, squareHeight, gridHzY(3))
-      renderBars(team2_fil, bottomGroup, q, q_fil, ".bottom-bars", "bottom-bars grid", 1, squareHeight, gridHzY(4))
-      renderBars(team2_fil, bottomGroup, q, q_fil, ".bottom-bars", "bottom-bars grid", 1, squareHeight, gridHzY(5))
-      renderBars(team2_fil, bottomGroup, q, q_fil, ".bottom-bars", "bottom-bars grid", 1, squareHeight, gridHzY(6))
-      renderBars(team2_fil, bottomGroup, q, q_fil, ".bottom-bars", "bottom-bars grid", 1, squareHeight, gridHzY(7))
-      renderBars(team2_fil, bottomGroup, q, q_fil, ".bottom-bars", "bottom-bars grid", 1, squareHeight, gridHzY(8))
+      renderBars(team1_fil, topGroup, q, q_fil, ".top-bars", "top-bars grid", 1, blockHeight, gridHzY(1))
+      renderBars(team1_fil, topGroup, q, q_fil, ".top-bars", "top-bars grid", 1, blockHeight, gridHzY(2))
+      renderBars(team1_fil, topGroup, q, q_fil, ".top-bars", "top-bars grid", 1, blockHeight, gridHzY(3))
+      renderBars(team1_fil, topGroup, q, q_fil, ".top-bars", "top-bars grid", 1, blockHeight, gridHzY(4))
+      renderBars(team1_fil, topGroup, q, q_fil, ".top-bars", "top-bars grid", 1, blockHeight, gridHzY(5))
+      renderBars(team1_fil, topGroup, q, q_fil, ".top-bars", "top-bars grid", 1, blockHeight, gridHzY(6))
+      renderBars(team1_fil, topGroup, q, q_fil, ".top-bars", "top-bars grid", 1, blockHeight, gridHzY(7))
+      renderBars(team1_fil, topGroup, q, q_fil, ".top-bars", "top-bars grid", 1, blockHeight, gridHzY(8))
+      renderBars(team2_fil, bottomGroup, q, q_fil, ".bottom-bars", "bottom-bars grid", 1, blockHeight, gridHzY(1))
+      renderBars(team2_fil, bottomGroup, q, q_fil, ".bottom-bars", "bottom-bars grid", 1, blockHeight, gridHzY(2))
+      renderBars(team2_fil, bottomGroup, q, q_fil, ".bottom-bars", "bottom-bars grid", 1, blockHeight, gridHzY(3))
+      renderBars(team2_fil, bottomGroup, q, q_fil, ".bottom-bars", "bottom-bars grid", 1, blockHeight, gridHzY(4))
+      renderBars(team2_fil, bottomGroup, q, q_fil, ".bottom-bars", "bottom-bars grid", 1, blockHeight, gridHzY(5))
+      renderBars(team2_fil, bottomGroup, q, q_fil, ".bottom-bars", "bottom-bars grid", 1, blockHeight, gridHzY(6))
+      renderBars(team2_fil, bottomGroup, q, q_fil, ".bottom-bars", "bottom-bars grid", 1, blockHeight, gridHzY(7))
+      renderBars(team2_fil, bottomGroup, q, q_fil, ".bottom-bars", "bottom-bars grid", 1, blockHeight, gridHzY(8))
 } // !! how to get this whole thing consolidated. Tried for.Each functions... nope.
 
 function gridHzY(grid_num) {
-      return barMaxHeight - grid_num * squareHeight
+      return barMaxHeight - grid_num * blockHeight
 }
 function renderLabels(q) {
       axisGroup.append("g")
       .attr("class",q_to_class(q))
       .attr("transform",qX(q))
 
-      renderLabel(q,0,"axis-labels bold",q_to_class(q))
-      renderLabel(q,1,"axis-labels","\267")
-      renderLabel(q,2,"axis-labels","\267")
-      renderLabel(q,3,"axis-labels","\267")
-      renderLabel(q,4,"axis-labels","\267")
+      renderLabel(q,0,"axis-labels bold",q_to_label(q))
+      renderLabelLines(q, "axis-label-lines")
 }
 function renderLabel(q, quin_num, label_class, text) {
       axisGroup.select(q_to_class_sel(q))
@@ -265,5 +281,28 @@ function renderLabel(q, quin_num, label_class, text) {
       .attr("text-anchor","middle")
       .attr("x",quinLabelX(quin_num))
       .attr("y",axisHeight * layout.axisLabelAdj)
+}
+function renderLabelLines(q, label_class) {
+      axisGroup.select(q_to_class_sel(q))
+      .append("line")
+      .attr("class",label_class)
+      .attr("x1",axisHeight * labelLineLengthMulti)
+      .attr("x2",qWidth * labelLineLengthMulti - layout.labelLineWidth + 1)
+      .attr("y1",axisHeight / 2)
+      .attr("y2",axisHeight / 2)
+      .style("stroke","#242424")
+      .style("stroke-width",layout.labelLineWidth)
+      .style("opacity",layout.labelLineOpacity)
+
+      axisGroup.select(q_to_class_sel(q))
+      .append("line")
+      .attr("class",label_class)
+      .attr("x1",qWidth * labelLineLengthMulti)
+      .attr("x2",qWidth * labelLineLengthMulti)
+      .attr("y1",axisHeight * 0.35)
+      .attr("y2",axisHeight * 0.65)
+      .style("stroke","#242424")
+      .style("stroke-width",layout.labelLineWidth)
+      .style("opacity",layout.labelLineOpacity)
 }
 } //end of building chart in d3
