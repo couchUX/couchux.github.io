@@ -38,11 +38,16 @@ responsive = function(allWidth) {
     return 0
     }
   else {
-    if (allWidth < 500) {
+    if (allWidth < 540) {
       return 1
     }
     else {
-      return 2
+      if (allWidth < 680) {
+        return 2
+      }
+      else {
+        return 3
+      }
     }
   }
 }
@@ -57,21 +62,21 @@ var layout = {
   axisLabelAdj_bold: 0.65,
   gridWidth: 1,
   gridOpacity: 1,
-  labelLineOpacity: 0.2,
-  labelLineWidth: 2,
+  labelLineOpacity: 0.5,
+  labelLineWidth: 1.2,
 }
-var chartMarginArr = [2, 6, 20]
+var chartMarginArr = [1, 6, 20, 40]
       chartMargin = chartMarginArr[responsive(allWidth)]
       chartWidth = allWidth - chartMargin * 2
-    barWidthMultiArr = [0.97, 0.96, 0.96]
+    barWidthMultiArr = [.97, .96, .96, .96]
       barWidthMulti = barWidthMultiArr[responsive(allWidth)]
       halfMargin = chartWidth * (1 - barWidthMulti)
       barWidth = chartWidth / 20 * barWidthMulti
       labelAdj = barWidth / 2
       qWidth = chartWidth * barWidthMulti / 4
-    labelLineLengthArr = [ .9, .96, .98]
+    labelLineLengthArr = [ .91, .96, .98, .98]
       labelLineLengthMulti = labelLineLengthArr[responsive(allWidth)]
-    blockHeightArr = [1.0, 0.75, 0.6]
+    blockHeightArr = [1.0, 0.75, 0.6, 0.6]
       blockHeight = barWidth * blockHeightArr[responsive(allWidth)]
       axisHeight = blockHeight * 1.6
     maxIndex = d3.max(playsData, function(d,i) { return (i + 1) });
@@ -299,8 +304,8 @@ function renderLabelLines(q, label_class) {
       .attr("class",label_class)
       .attr("x1",qWidth * labelLineLengthMulti)
       .attr("x2",qWidth * labelLineLengthMulti)
-      .attr("y1",axisHeight * 0.35)
-      .attr("y2",axisHeight * 0.65)
+      .attr("y1",axisHeight * 0.4)
+      .attr("y2",axisHeight * 0.6)
       .style("stroke","#242424")
       .style("stroke-width",layout.labelLineWidth)
       .style("opacity",layout.labelLineOpacity)
