@@ -1,11 +1,8 @@
 /* select what csv should be run */
 var csv_url = "https://couchux.github.io/RBR_charts/2015_BamaMSU_Plays_Quintiles.csv"
-
-/* run the whole chart function */
-
 playsChart(csv_url);
 
-/* tie chart colors to team names */
+/* team names and colors */
 var teamList = {
   team1: "Alabama",
   team2: "Michigan State"
@@ -30,29 +27,24 @@ function csv_response(error, data) {
   }
 }
 
-/* d3 prep */
+/* responsiveness prep */
 allWidth = document.getElementById("plays-charts-container").offsetWidth
-
 responsive = function(allWidth) {
   if (allWidth < 380) {
     return 0
     }
+  else if (allWidth < 550) {
+    return 1
+    }
+  else if (allWidth < 680) {
+    return 2
+    }
   else {
-    if (allWidth < 550) {
-      return 1
-    }
-    else {
-      if (allWidth < 680) {
-        return 2
-      }
-      else {
-        return 3
-      }
-    }
-  } // how to avoid nested IFs here?
-}
+    return 3
+  }
+} // how to avoid nested IFs here? Maybe use an array here too?
 
-/* d3 render function */
+/* render d3 chart */
 function render_chart() {
 
 var layout = {
@@ -65,38 +57,95 @@ var layout = {
   labelLineOpacity: 0.5,
   labelLineWidth: 1.2,
 }
+var rArrays = {
+  chartMargin: [1, 6, 20, 40],
+  barWidthMulti: [.97, .96, .96, .96],
+  labelLineLengthAdj: [ 6, 4, 3, 1],
+  blockHeight: [1.0, 0.75, 0.6, 0.6],
+  axisHeight: [24, 24, 26, 26]
+}
 var playsChartName = "plays-chart"
-    chartMarginArr = [1, 6, 20, 40]
-      chartMargin = chartMarginArr[responsive(allWidth)]
-      chartWidth = allWidth - chartMargin * 2
-    barWidthMultiArr = [.97, .96, .96, .96]
-      barWidthMulti = barWidthMultiArr[responsive(allWidth)]
-      halfMargin = chartWidth * (1 - barWidthMulti)
-      barWidth = chartWidth / 20 * barWidthMulti
-      labelAdj = barWidth / 2
-      qWidth = chartWidth * barWidthMulti / 4
-    labelLineLengthAdjArr = [ 6, 4, 3, 1]
-      labelLineLengthAdj = labelLineLengthAdjArr[responsive(allWidth)]
-    blockHeightArr = [1.0, 0.75, 0.6, 0.6]
-      blockHeight = barWidth * blockHeightArr[responsive(allWidth)]
-    axisHeightArr = [24, 24, 26, 26]
-      axisHeight = axisHeightArr[responsive(allWidth)]
-    totalPlaysMax = d3.max(playsData, function(d,i) { return d.Total_plays_max })
-      barMaxHeight = totalPlaysMax * blockHeight
-      chartHeight = (barMaxHeight + layout.barMarginTop) * 2 + axisHeight
 
+    /* margins, widths, and X positions */
+    chartMargin = rArrays.chartMargin[responsive(allWidth)]
+    chartWidth = allWidth - chartMargin * 2
+    barWidthMulti = rArrays.barWidthMulti[responsive(allWidth)]
+    halfMargin = chartWidth * (1 - barWidthMulti)
+    barWidth = chartWidth / 20 * barWidthMulti
+    qWidth = chartWidth * barWidthMulti / 4
+    labelAdj = barWidth / 2
+    labelLineLengthAdj = rArrays.labelLineLengthAdj[responsive(allWidth)]
+    chartX = function() {
+      return "translate(" + chartMargin + ")"
+    }
+    halfMarginFn = function(q) {
+      return "translate(" + (qWidth * (q - 1) + halfMargin) + ")"
+    }
+    qX = function(q) {
+      return "translate(" + qWidth * (q - 1) + ")"
+    }
+    barX = function(d,i) {
+      return i * barWidth
+    }
+    quinLabelX = function(quin_num) {
+          return barWidth * quin_num + labelAdj
+    }
+
+    /* heights and Y positions */
+    totalPlaysMax = d3.max(playsData, function(d,i) { return d.Total_plays_max })
+    blockHeight = barWidth * rArrays.blockHeight[responsive(allWidth)]
+    axisHeight = rArrays.axisHeight[responsive(allWidth)]
+    barMaxHeight = totalPlaysMax * blockHeight
+    chartHeight = (barMaxHeight + layout.barMarginTop) * 2 + axisHeight
+    barHeight = function(d,i) {
+        return d.Total_plays * blockHeight
+    }
+    barHeight_S = function(d,i) {
+        return d.S_plays * blockHeight
+    }
+    barHeight_X = function(d,i) {
+        return d.X_plays * blockHeight
+    }
+    topGroupY = function(q) {
+      return "translate(0," + layout.barMarginTop + ")"
+    }
+    axisGroupY = function(q) {
+      return "translate(0," + (layout.barMarginTop + barMaxHeight) + ")"
+    }
+    bottomGroupY = function(q) {
+      return "translate(0," + (layout.barMarginTop + barMaxHeight + axisHeight) + ")"
+    }
+    topBarY = function(d,i) {
+      return barMaxHeight - d.Total_plays * blockHeight
+    }
+    topBarY_S = function(d,i) {
+      return barMaxHeight - d.S_plays * blockHeight
+    }
+    topBarY_X = function(d,i) {
+      return barMaxHeight - d.X_plays * blockHeight
+    }
+
+    /* naming and selecting */
     selectChartClass = function() {
       return "." + playsChartName
     }
     defineChartClass = function() {
       return playsChartName
     }
-    teamColor = function(team_name) {
-      return teamColors[team_name]
+    q_to_class = function(q) {
+      return "Q" + q
     }
-    barColor = function(d,i) {
-        return teamColor(d.Team)
+    q_to_class_sel = function(q) {
+      return ".Q" + q
     }
+    q_to_label = function(q) {
+      return q + "Q"
+    }
+    class_to_sel = function(class_name) {
+      return "." + class_name
+    }
+
+    /* filter functions */
     team1_fil = function(d,i) {
         return d.Team == teamList.team1
     }
@@ -115,59 +164,13 @@ var playsChartName = "plays-chart"
     q4_fil = function(d,i) {
         return d.Quarter_quintile > 4
     } //how to consolidate these into one q_fil, while persisting the d.VALUE from data?
-    barHeight = function(d,i) {
-        return d.Total_plays * blockHeight
+
+    /* color selections */
+    teamColor = function(team_name) {
+      return teamColors[team_name]
     }
-    barHeight_S = function(d,i) {
-        return d.S_plays * blockHeight
-    }
-    barHeight_X = function(d,i) {
-        return d.X_plays * blockHeight
-    }
-    chartX = function() {
-      return "translate(" + chartMargin + ")"
-    }
-    qX = function(q) {
-      return "translate(" + qWidth * (q - 1) + ")"
-    }
-    topGroupY = function(q) {
-      return "translate(0," + layout.barMarginTop + ")"
-    }
-    axisGroupY = function(q) {
-      return "translate(0," + (layout.barMarginTop + barMaxHeight) + ")"
-    }
-    bottomGroupY = function(q) {
-      return "translate(0," + (layout.barMarginTop + barMaxHeight + axisHeight) + ")"
-    }
-    halfMarginFn = function(q) {
-      return "translate(" + (qWidth * (q - 1) + halfMargin) + ")"
-    }
-    barX = function(d,i) {
-      return i * barWidth
-    }
-    topBarY = function(d,i) {
-      return barMaxHeight - d.Total_plays * blockHeight
-    }
-    topBarY_S = function(d,i) {
-      return barMaxHeight - d.S_plays * blockHeight
-    }
-    topBarY_X = function(d,i) {
-      return barMaxHeight - d.X_plays * blockHeight
-    }
-    q_to_class = function(q) {
-      return "Q" + q
-    }
-    q_to_class_sel = function(q) {
-      return ".Q" + q
-    }
-    q_to_label = function(q) {
-      return q + "Q"
-    }
-    class_to_sel = function(class_name) {
-      return "." + class_name
-    }
-    quinLabelX = function(quin_num) {
-          return barWidth * quin_num + labelAdj
+    barColor = function(d,i) {
+        return teamColor(d.Team)
     }
 
 /* actually building the chart in d3 */
@@ -208,7 +211,7 @@ var gridAttr = d3.selectAll(".grid")
     fourthMargin = d3.selectAll(".Q4")
       .attr("transform",halfMarginFn(4))
 
-/* supporting functions for top and bottom bars */
+/* supporting functions for bars and grid */
 function renderQuarter(q, q_fil) {
       renderBars(team1_fil, topGroup, q, q_fil, ".top-bars", "top-bars ns", layout.nsOpacity, barHeight, topBarY)
       renderBars(team1_fil, topGroup, q, q_fil, ".top-bars", "top-bars s", 1, barHeight_S, topBarY_S)
@@ -259,6 +262,8 @@ function renderGridHz(q, q_fil) {
 function gridHzY(grid_num) {
       return barMaxHeight - grid_num * blockHeight
 }
+
+/* axis labels and label lines */
 function renderLabels(q) {
       axisGroup.append("g")
       .attr("class",q_to_class(q))
