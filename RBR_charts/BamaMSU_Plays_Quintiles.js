@@ -27,16 +27,19 @@ function csv_response(error, data) {
   }
 }
 
+/* render d3 chart */
+function render_chart() {
+
 /* responsiveness prep */
-allWidth = document.getElementById("plays-charts-container").offsetWidth
+
 responsive = function(allWidth) {
-  if (allWidth < 380) {
+  if (allWidth < rArrays.rWidths[0]) {
     return 0
     }
-  else if (allWidth < 550) {
+  else if (allWidth < rArrays.rWidths[1]) {
     return 1
     }
-  else if (allWidth < 680) {
+  else if (allWidth < rArrays.rWidths[2]) {
     return 2
     }
   else {
@@ -44,29 +47,26 @@ responsive = function(allWidth) {
   }
 } // how to avoid nested IFs here? Maybe use an array here too?
 
-/* render d3 chart */
-function render_chart() {
-
 var layout = {
-  barMarginTop: 20,
-  nsOpacity: 0.3,
-  axisLabelAdj: 0.73,
-  axisLabelAdj_bold: 0.65,
-  gridWidth: 1,
-  gridOpacity: 1,
-  labelLineOpacity: 0.5,
-  labelLineWidth: 1.2,
+    barMarginTop: 20,
+    nsOpacity: 0.3,
+    axisLabelAdj: 0.73,
+    axisLabelAdj_bold: 0.65,
+    gridWidth: 1,
+    gridOpacity: 1,
+    labelLineOpacity: 0.5,
+    labelLineWidth: 1.2,
 }
 var rArrays = {
-  chartMargin: [1, 6, 20, 40],
-  barWidthMulti: [.97, .96, .96, .96],
-  labelLineLengthAdj: [ 6, 4, 3, 1],
-  blockHeight: [1.0, 0.75, 0.6, 0.6],
-  axisHeight: [24, 24, 26, 26]
+    rWidths:          [380, 550, 680],
+    chartMargin:      [1, 6, 20, 40],
+    barWidthMulti:    [.97, .96, .96, .96],
+    labelLineLenAdj:  [ 6, 4, 3, 1],
+    blockHeight:      [1, .75, .6, .6],
+    axisHeight:       [24, 24, 26, 26]
 }
-var playsChartName = "plays-chart"
-
     /* margins, widths, and X positions */
+var allWidth = document.getElementById("plays-charts-container").offsetWidth
     chartMargin = rArrays.chartMargin[responsive(allWidth)]
     chartWidth = allWidth - chartMargin * 2
     barWidthMulti = rArrays.barWidthMulti[responsive(allWidth)]
@@ -74,7 +74,7 @@ var playsChartName = "plays-chart"
     barWidth = chartWidth / 20 * barWidthMulti
     qWidth = chartWidth * barWidthMulti / 4
     labelAdj = barWidth / 2
-    labelLineLengthAdj = rArrays.labelLineLengthAdj[responsive(allWidth)]
+    labelLineLenAdj = rArrays.labelLineLenAdj[responsive(allWidth)]
     chartX = function() {
       return "translate(" + chartMargin + ")"
     }
@@ -126,6 +126,7 @@ var playsChartName = "plays-chart"
     }
 
     /* naming and selecting */
+    playsChartName = "plays-chart"
     selectChartClass = function() {
       return "." + playsChartName
     }
@@ -285,16 +286,16 @@ function renderLabelLines(q, label_class) {
       axisGroup.select(q_to_class_sel(q))
       .append("line")
       .attr("class",label_class)
-      .attr("x1",qWidth / 5 + labelLineLengthAdj)
-      .attr("x2",qWidth - layout.labelLineWidth + 1 - labelLineLengthAdj)
+      .attr("x1",qWidth / 5 + labelLineLenAdj)
+      .attr("x2",qWidth - layout.labelLineWidth + 1 - labelLineLenAdj)
       .attr("y1",axisHeight / 2)
       .attr("y2",axisHeight / 2)
 
       axisGroup.select(q_to_class_sel(q))
       .append("line")
       .attr("class",label_class)
-      .attr("x1",qWidth - labelLineLengthAdj)
-      .attr("x2",qWidth - labelLineLengthAdj)
+      .attr("x1",qWidth - labelLineLenAdj)
+      .attr("x2",qWidth - labelLineLenAdj)
       .attr("y1",axisHeight * 0.4)
       .attr("y2",axisHeight * 0.6)
 
