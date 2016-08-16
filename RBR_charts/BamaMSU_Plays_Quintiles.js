@@ -38,7 +38,7 @@ responsive = function(allWidth) {
     return 0
     }
   else {
-    if (allWidth < 540) {
+    if (allWidth < 550) {
       return 1
     }
     else {
@@ -74,11 +74,12 @@ var chartMarginArr = [1, 6, 20, 40]
       barWidth = chartWidth / 20 * barWidthMulti
       labelAdj = barWidth / 2
       qWidth = chartWidth * barWidthMulti / 4
-    labelLineLengthArr = [ .91, .96, .98, .98]
-      labelLineLengthMulti = labelLineLengthArr[responsive(allWidth)]
+    labelLineLengthAdjArr = [ 6, 4, 3, 1]
+      labelLineLengthAdj = labelLineLengthAdjArr[responsive(allWidth)]
     blockHeightArr = [1.0, 0.75, 0.6, 0.6]
       blockHeight = barWidth * blockHeightArr[responsive(allWidth)]
-      axisHeight = blockHeight * 1.6
+    axisHeightArr = [24, 24, 26, 26]
+      axisHeight = axisHeightArr[responsive(allWidth)]
     maxIndex = d3.max(playsData, function(d,i) { return (i + 1) });
     totalPlaysMax = d3.max(playsData, function(d,i) { return d.Total_plays_max })
       barMaxHeight = totalPlaysMax * blockHeight
@@ -291,19 +292,19 @@ function renderLabelLines(q, label_class) {
       axisGroup.select(q_to_class_sel(q))
       .append("line")
       .attr("class",label_class)
-      .attr("x1",axisHeight * labelLineLengthMulti)
-      .attr("x2",qWidth * labelLineLengthMulti - layout.labelLineWidth + 1)
+      .attr("x1",qWidth / 5 + labelLineLengthAdj)
+      .attr("x2",qWidth - layout.labelLineWidth + 1 - labelLineLengthAdj)
       .attr("y1",axisHeight / 2)
       .attr("y2",axisHeight / 2)
       .style("stroke","#242424")
       .style("stroke-width",layout.labelLineWidth)
       .style("opacity",layout.labelLineOpacity)
 
-      axisGroup.select(q_to_class_sel(q))
+      axisGroup.select(q_to_class_sel(q, label_class))
       .append("line")
       .attr("class",label_class)
-      .attr("x1",qWidth * labelLineLengthMulti)
-      .attr("x2",qWidth * labelLineLengthMulti)
+      .attr("x1",qWidth - labelLineLengthAdj)
+      .attr("x2",qWidth - labelLineLengthAdj)
       .attr("y1",axisHeight * 0.4)
       .attr("y2",axisHeight * 0.6)
       .style("stroke","#242424")
