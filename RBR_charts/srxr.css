@@ -94,13 +94,14 @@
   opacity: .3; /* stroke attributes are in the script itself */
 }
 .axis-labels {
-  font-weight: 500;
-  font-size: 1em;
-  fill: #242424;
-  opacity: .2;
-}
-.axis-labels.bold {
   font-weight: 600;
   font-size: 0.8em;
+  fill: #242424;
+  opacity: .8;
+}
+.up-points, .down-points {
+  font-weight: 500;
+  font-size: 0.8em;
+  fill: #242424;
   opacity: .8;
 }

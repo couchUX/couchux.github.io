@@ -31,7 +31,6 @@ function csv_response(error, data) {
 function render_chart() {
 
 /* responsiveness prep */
-
 responsive = function(allWidth) {
   if (allWidth < rArrays.rWidths[0]) {
     return 0
@@ -48,21 +47,23 @@ responsive = function(allWidth) {
 } // how to avoid nested IFs here? Maybe use an array here too?
 
 var layout = {
-    barMarginTop: 20,
-    nsOpacity: 0.3,
-    axisLabelAdj: 0.73,
-    axisLabelAdj_bold: 0.65,
-    gridWidth: 1,
-    gridOpacity: 1,
-    labelLineOpacity: 0.5,
-    labelLineWidth: 1.2,
+    barMarginTop:       20,
+    nsOpacity:          0.3,
+    axisLabelAdj:       0.73,
+    axisLabelAdj_bold:  0.65,
+    gridWidth:          1,
+    gridOpacity:        1,
+    labelLineOpacity:   0.5,
+    labelLineWidth:     1.2,
+    upPointsAdj:        6,
+    downPointsAdj:      12,
 }
 var rArrays = {
     rWidths:          [380, 550, 680],
     chartMargin:      [1, 6, 20, 40],
     barWidthMulti:    [.97, .96, .96, .96],
     labelLineLenAdj:  [ 6, 4, 3, 1],
-    blockHeight:      [1, .75, .6, .6],
+    playHeight:      [1, .75, .6, .6],
     axisHeight:       [24, 24, 26, 26]
 }
     /* margins, widths, and X positions */
@@ -87,44 +88,52 @@ var allWidth = document.getElementById("plays-charts-container").offsetWidth
     barX = function(d,i) {
       return i * barWidth
     }
+    pointsX = function(d,i) {
+      return i * barWidth + labelAdj
+    }
     quinLabelX = function(quin_num) {
           return barWidth * quin_num + labelAdj
     }
 
     /* heights and Y positions */
     totalPlaysMax = d3.max(playsData, function(d,i) { return d.Total_plays_max })
-    blockHeight = barWidth * rArrays.blockHeight[responsive(allWidth)]
+    playHeight = barWidth * rArrays.playHeight[responsive(allWidth)]
     axisHeight = rArrays.axisHeight[responsive(allWidth)]
-    barMaxHeight = totalPlaysMax * blockHeight
+    barMaxHeight = totalPlaysMax * playHeight
     chartHeight = (barMaxHeight + layout.barMarginTop) * 2 + axisHeight
     barHeight = function(d,i) {
-        return d.Total_plays * blockHeight
+        return d.Total_plays * playHeight
     }
     barHeight_S = function(d,i) {
-        return d.S_plays * blockHeight
+        return d.S_plays * playHeight
     }
     barHeight_X = function(d,i) {
-        return d.X_plays * blockHeight
+        return d.X_plays * playHeight
     }
-    topGroupY = function(q) {
+    upGroupY = function(q) {
       return "translate(0," + layout.barMarginTop + ")"
     }
     axisGroupY = function(q) {
       return "translate(0," + (layout.barMarginTop + barMaxHeight) + ")"
     }
-    bottomGroupY = function(q) {
+    downGroupY = function(q) {
       return "translate(0," + (layout.barMarginTop + barMaxHeight + axisHeight) + ")"
     }
-    topBarY = function(d,i) {
-      return barMaxHeight - d.Total_plays * blockHeight
+    upBarY = function(d,i) {
+      return barMaxHeight - d.Total_plays * playHeight
     }
-    topBarY_S = function(d,i) {
-      return barMaxHeight - d.S_plays * blockHeight
+    upBarY_S = function(d,i) {
+      return barMaxHeight - d.S_plays * playHeight
     }
-    topBarY_X = function(d,i) {
-      return barMaxHeight - d.X_plays * blockHeight
+    upBarY_X = function(d,i) {
+      return barMaxHeight - d.X_plays * playHeight
     }
-
+    upPointsY = function(d,i) {
+      return barMaxHeight - d.Total_plays * playHeight - layout.upPointsAdj
+    }
+    downPointsY = function(d,i) {
+      return barHeight(d,i) + layout.downPointsAdj
+    }
     /* naming and selecting */
     playsChartName = "plays-chart"
     selectChartClass = function() {
@@ -144,6 +153,14 @@ var allWidth = document.getElementById("plays-charts-container").offsetWidth
     }
     class_to_sel = function(class_name) {
       return "." + class_name
+    }
+    points = function(d,i) {
+      if (d.Points == "0") {
+        return ""
+      }
+      else {
+        return d.Points
+      }
     }
 
     /* filter functions */
@@ -185,15 +202,15 @@ var chart = d3.select("#plays-charts-container")
     allGroups = svg.append("g")
       .attr("id","all-groups")
       .attr("transform",chartX)
-    topGroup = allGroups.append("g")
-      .attr("id","top-group")
-      .attr("transform",topGroupY)
+    upGroup = allGroups.append("g")
+      .attr("id","up-group")
+      .attr("transform",upGroupY)
     axisGroup = allGroups.append("g")
       .attr("id","axis-group")
       .attr("transform",axisGroupY)
-    bottomGroup = allGroups.append("g")
-      .attr("id","bottom-group")
-      .attr("transform",bottomGroupY)
+    downGroup = allGroups.append("g")
+      .attr("id","down-group")
+      .attr("transform",downGroupY)
 
 renderQuarter(1,q1_fil)
 renderQuarter(2,q2_fil)
@@ -214,17 +231,19 @@ var gridAttr = d3.selectAll(".grid")
 
 /* supporting functions for bars and grid */
 function renderQuarter(q, q_fil) {
-      renderBars(team1_fil, topGroup, q, q_fil, ".top-bars", "top-bars ns", layout.nsOpacity, barHeight, topBarY)
-      renderBars(team1_fil, topGroup, q, q_fil, ".top-bars", "top-bars s", 1, barHeight_S, topBarY_S)
-      renderBars(team1_fil, topGroup, q, q_fil, ".top-bars", "top-bars expBars", 1, barHeight_X, topBarY_X)
-      renderBars(team2_fil, bottomGroup, q, q_fil, ".bottom-bars", "bottom-bars ns", layout.nsOpacity, barHeight, 0)
-      renderBars(team2_fil, bottomGroup, q, q_fil, ".bottom-bars", "bottom-bars s", 1, barHeight_S, 0)
-      renderBars(team2_fil, bottomGroup, q, q_fil, ".bottom-bars", "bottom-bars expBars", 1, barHeight_X, 0)
+      renderBars(team1_fil, upGroup, q, q_fil, ".up-bars", "up-bars ns", layout.nsOpacity, barHeight, upBarY)
+      renderBars(team1_fil, upGroup, q, q_fil, ".up-bars", "up-bars s", 1, barHeight_S, upBarY_S)
+      renderBars(team1_fil, upGroup, q, q_fil, ".up-bars", "up-bars expBars", 1, barHeight_X, upBarY_X)
+      renderBars(team2_fil, downGroup, q, q_fil, ".down-bars", "down-bars ns", layout.nsOpacity, barHeight, 0)
+      renderBars(team2_fil, downGroup, q, q_fil, ".down-bars", "down-bars s", 1, barHeight_S, 0)
+      renderBars(team2_fil, downGroup, q, q_fil, ".down-bars", "down-bars expBars", 1, barHeight_X, 0)
       renderGridHz(q, q_fil)
       renderLabels(q)
+      renderPoints(team1_fil, upGroup, q, q_fil, ".up-points", "up-points", upPointsY)
+      renderPoints(team2_fil, downGroup, q, q_fil, ".down-points", "down-points", downPointsY)
 }
-function renderBars(team_fil, top_bottom, q, q_fil, bar_cl_sel, bar_cl_set, bar_o, bar_height, bar_y) {
-      top_bottom.append("g")
+function renderBars(team_fil, up_down, q, q_fil, bar_cl_sel, bar_cl_set, bar_o, bar_height, bar_y) {
+      up_down.append("g")
       .attr("class",q_to_class(q))
       .attr("transform",qX(q))
       .selectAll(bar_cl_sel)
@@ -242,26 +261,26 @@ function renderBars(team_fil, top_bottom, q, q_fil, bar_cl_sel, bar_cl_set, bar_
       .attr("y",bar_y)
 }
 function renderGridHz(q, q_fil) {
-      renderBars(team1_fil, topGroup, q, q_fil, ".top-bars", "top-bars grid", 1, blockHeight, gridHzY(1))
-      renderBars(team1_fil, topGroup, q, q_fil, ".top-bars", "top-bars grid", 1, blockHeight, gridHzY(2))
-      renderBars(team1_fil, topGroup, q, q_fil, ".top-bars", "top-bars grid", 1, blockHeight, gridHzY(3))
-      renderBars(team1_fil, topGroup, q, q_fil, ".top-bars", "top-bars grid", 1, blockHeight, gridHzY(4))
-      renderBars(team1_fil, topGroup, q, q_fil, ".top-bars", "top-bars grid", 1, blockHeight, gridHzY(5))
-      renderBars(team1_fil, topGroup, q, q_fil, ".top-bars", "top-bars grid", 1, blockHeight, gridHzY(6))
-      renderBars(team1_fil, topGroup, q, q_fil, ".top-bars", "top-bars grid", 1, blockHeight, gridHzY(7))
-      renderBars(team1_fil, topGroup, q, q_fil, ".top-bars", "top-bars grid", 1, blockHeight, gridHzY(8))
-      renderBars(team2_fil, bottomGroup, q, q_fil, ".bottom-bars", "bottom-bars grid", 1, blockHeight, gridHzY(1))
-      renderBars(team2_fil, bottomGroup, q, q_fil, ".bottom-bars", "bottom-bars grid", 1, blockHeight, gridHzY(2))
-      renderBars(team2_fil, bottomGroup, q, q_fil, ".bottom-bars", "bottom-bars grid", 1, blockHeight, gridHzY(3))
-      renderBars(team2_fil, bottomGroup, q, q_fil, ".bottom-bars", "bottom-bars grid", 1, blockHeight, gridHzY(4))
-      renderBars(team2_fil, bottomGroup, q, q_fil, ".bottom-bars", "bottom-bars grid", 1, blockHeight, gridHzY(5))
-      renderBars(team2_fil, bottomGroup, q, q_fil, ".bottom-bars", "bottom-bars grid", 1, blockHeight, gridHzY(6))
-      renderBars(team2_fil, bottomGroup, q, q_fil, ".bottom-bars", "bottom-bars grid", 1, blockHeight, gridHzY(7))
-      renderBars(team2_fil, bottomGroup, q, q_fil, ".bottom-bars", "bottom-bars grid", 1, blockHeight, gridHzY(8))
+      renderBars(team1_fil, upGroup, q, q_fil, ".up-bars", "up-bars grid", 1, playHeight, gridHzY(1))
+      renderBars(team1_fil, upGroup, q, q_fil, ".up-bars", "up-bars grid", 1, playHeight, gridHzY(2))
+      renderBars(team1_fil, upGroup, q, q_fil, ".up-bars", "up-bars grid", 1, playHeight, gridHzY(3))
+      renderBars(team1_fil, upGroup, q, q_fil, ".up-bars", "up-bars grid", 1, playHeight, gridHzY(4))
+      renderBars(team1_fil, upGroup, q, q_fil, ".up-bars", "up-bars grid", 1, playHeight, gridHzY(5))
+      renderBars(team1_fil, upGroup, q, q_fil, ".up-bars", "up-bars grid", 1, playHeight, gridHzY(6))
+      renderBars(team1_fil, upGroup, q, q_fil, ".up-bars", "up-bars grid", 1, playHeight, gridHzY(7))
+      renderBars(team1_fil, upGroup, q, q_fil, ".up-bars", "up-bars grid", 1, playHeight, gridHzY(8))
+      renderBars(team2_fil, downGroup, q, q_fil, ".down-bars", "down-bars grid", 1, playHeight, gridHzY(1))
+      renderBars(team2_fil, downGroup, q, q_fil, ".down-bars", "down-bars grid", 1, playHeight, gridHzY(2))
+      renderBars(team2_fil, downGroup, q, q_fil, ".down-bars", "down-bars grid", 1, playHeight, gridHzY(3))
+      renderBars(team2_fil, downGroup, q, q_fil, ".down-bars", "down-bars grid", 1, playHeight, gridHzY(4))
+      renderBars(team2_fil, downGroup, q, q_fil, ".down-bars", "down-bars grid", 1, playHeight, gridHzY(5))
+      renderBars(team2_fil, downGroup, q, q_fil, ".down-bars", "down-bars grid", 1, playHeight, gridHzY(6))
+      renderBars(team2_fil, downGroup, q, q_fil, ".down-bars", "down-bars grid", 1, playHeight, gridHzY(7))
+      renderBars(team2_fil, downGroup, q, q_fil, ".down-bars", "down-bars grid", 1, playHeight, gridHzY(8))
 } // !! how to get this whole thing consolidated. Tried for.Each functions... nope.
 
 function gridHzY(grid_num) {
-      return barMaxHeight - grid_num * blockHeight
+      return barMaxHeight - grid_num * playHeight
 }
 
 /* axis labels and label lines */
@@ -270,7 +289,7 @@ function renderLabels(q) {
       .attr("class",q_to_class(q))
       .attr("transform",qX(q))
 
-      renderLabel(q,0,"axis-labels bold",q_to_label(q))
+      renderLabel(q, 0, "axis-labels bold", q_to_label(q))
       renderLabelLines(q, "axis-label-lines")
 }
 function renderLabel(q, quin_num, label_class, text) {
@@ -303,5 +322,23 @@ function renderLabelLines(q, label_class) {
       .style("stroke","#242424")
       .style("stroke-width",layout.labelLineWidth)
       .style("opacity",layout.labelLineOpacity)
+}
+// renderPoints(team1_fil, upGroup, q, q_fil, ".up-points", "up-points", upBarY)
+function renderPoints(team_fil, up_down, q, q_fil, points_cl_sel, points_cl_set, points_y) {
+      up_down.append("g")
+      .attr("class",q_to_class(q))
+      .attr("transform",qX(q))
+      .selectAll(points_cl_sel)
+      .data(playsData)
+      .enter()
+      .filter(team_fil)
+      .filter(q_fil)
+      .append("text")
+      .attr("text-anchor","middle")
+      .text(points)
+      .style("fill",barColor)
+      .attr("class",points_cl_set)
+      .attr("x",pointsX)
+      .attr("y",points_y)
 }
 } //end of building chart in d3
