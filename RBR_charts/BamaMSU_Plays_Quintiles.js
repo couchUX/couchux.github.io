@@ -55,8 +55,8 @@ var layout = {
     gridOpacity:        1,
     labelLineOpacity:   0.5,
     labelLineWidth:     1.2,
-    upPointsAdj:        6,
-    downPointsAdj:      12,
+    upPointsAdj:        5,
+    downPointsAdj:      13,
 }
 var rArrays = {
     rWidths:          [380, 550, 680],
