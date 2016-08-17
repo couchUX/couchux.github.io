@@ -63,7 +63,7 @@ var rArrays = {
     chartMargin:      [1, 6, 20, 40],
     barWidthMulti:    [.97, .96, .96, .96],
     labelLineLenAdj:  [ 6, 4, 3, 1],
-    playHeight:      [1, .75, .6, .6],
+    playHeight:       [1, .75, .6, .6],
     axisHeight:       [24, 24, 26, 26]
 }
     /* margins, widths, and X positions */

@@ -105,3 +105,16 @@
   fill: #242424;
   opacity: .8;
 }
+span.s, span.x, span.ns, span.ns {
+  border-bottom: solid;
+  border-bottom-width: 2px;
+}
+span.s {
+  border-bottom-color: #C31C45;
+}
+span.x {
+  border-bottom-color: #620E23;
+}
+span.ns {
+  border-bottom-color: #EDBBC7;
+}
