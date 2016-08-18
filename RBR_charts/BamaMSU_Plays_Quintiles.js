@@ -213,6 +213,11 @@ renderQuarter(2,q2_fil)
 renderQuarter(3,q3_fil)
 renderQuarter(4,q4_fil)
 
+var upLines = upGroup.append("g")
+      .attr("class","up-lines")
+    downLines = downGroup.append("g")
+      .attr("class","down-lines")
+
 var grid_nums = [1,2,3,4,5,6,7,8]
 grid_nums.forEach(renderGridHz)
 
@@ -240,15 +245,19 @@ function renderQuarter(q, q_fil) {
       renderBars(team1_fil, upGroup, q, q_fil, ".uBars", "uBars", layout.nsOpacity, barHeight, upBarY)
       renderBars(team1_fil, upGroup, q, q_fil, ".sBars", "sBars", 1, barHeight_S, upBarY_S)
       renderBars(team1_fil, upGroup, q, q_fil, ".xBars", "xBars", 1, barHeight_X, upBarY_X)
-      renderBars(team2_fil, downGroup, q, q_fil, ".down-bars", "down-bars ns", layout.nsOpacity, barHeight, 0)
-      renderBars(team2_fil, downGroup, q, q_fil, ".down-bars", "down-bars s", 1, barHeight_S, 0)
-      renderBars(team2_fil, downGroup, q, q_fil, ".down-bars", "down-bars xBars", 1, barHeight_X, 0)
+      renderBars(team1_fil, upGroup, q, q_fil, ".grid", "grid", 1, barHeight, upBarY)
+      renderBars(team2_fil, downGroup, q, q_fil, ".uBars", "uBars", layout.nsOpacity, barHeight, 0)
+      renderBars(team2_fil, downGroup, q, q_fil, ".sBars", "sBars", 1, barHeight_S, 0)
+      renderBars(team2_fil, downGroup, q, q_fil, ".xBars", "xBars", 1, barHeight_X, 0)
+      renderBars(team2_fil, downGroup, q, q_fil, ".grid", "grid", 1, barHeight, 0)
       renderLabels(q)
-      renderPoints(team1_fil, upGroup, q, q_fil, ".up-points", "up-points", upPointsY)
-      renderPoints(team2_fil, downGroup, q, q_fil, ".down-points", "down-points", downPointsY)
+      renderPoints(team1_fil, upGroup, q, q_fil, ".points", "points", upPointsY)
+      renderPoints(team2_fil, downGroup, q, q_fil, ".points", "points", downPointsY)
 }
 function renderBars(team_fil, up_down, q, q_fil, bar_cl_sel, bar_cl_set, bar_o, bar_height, bar_y) {
       up_down.select(q_to_class_sel(q))
+      .append("g")
+      .attr("class",bar_cl_set)
       .selectAll(bar_cl_sel)
       .data(playsData)
       .enter()
@@ -263,25 +272,19 @@ function renderBars(team_fil, up_down, q, q_fil, bar_cl_sel, bar_cl_set, bar_o, 
       .attr("x",barX)
       .attr("y",bar_y)
 }
-
 function renderGridHz(item) {
-      upGroup.append("g")
-      .attr("class","up-lines")
-      .append("line")
-      .attr("class","grid")
-      .attr("x1",0)
-      .attr("x2",chartWidth)
-      .attr("y1",gridHzY(item))
-      .attr("y2",gridHzY(item))
-
-      downGroup.append("g")
-      .attr("class","up-lines")
-      .append("line")
-      .attr("class","grid")
-      .attr("x1",0)
-      .attr("x2",chartWidth)
-      .attr("y1",gridHzY(item))
-      .attr("y2",gridHzY(item))
+      upLines.append("line")
+        .attr("class","grid")
+        .attr("x1",0)
+        .attr("x2",chartWidth)
+        .attr("y1",gridHzY(item))
+        .attr("y2",gridHzY(item))
+      downLines.append("line")
+        .attr("class","grid")
+        .attr("x1",0)
+        .attr("x2",chartWidth)
+        .attr("y1",gridHzY(item))
+        .attr("y2",gridHzY(item))
 }
 function gridHzY(grid_num) {
       return barMaxHeight - grid_num * playHeight
@@ -327,11 +330,10 @@ function renderLabelLines(q, label_class) {
       .style("stroke-width",layout.labelLineWidth)
       .style("opacity",layout.labelLineOpacity)
 }
-// renderPoints(team1_fil, upGroup, q, q_fil, ".up-points", "up-points", upBarY)
 function renderPoints(team_fil, up_down, q, q_fil, points_cl_sel, points_cl_set, points_y) {
-      up_down.append("g")
-      .attr("class",q_to_class(q))
-      .attr("transform",qX(q))
+      up_down.select(q_to_class_sel(q))
+      .append("g")
+      .attr("class","points-group")
       .selectAll(points_cl_sel)
       .data(playsData)
       .enter()
