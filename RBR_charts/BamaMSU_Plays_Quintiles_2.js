@@ -151,12 +151,6 @@ var allWidth = document.getElementById("plays-charts-container").offsetWidth
     q_to_label = function(q) {
       return q + "Q"
     }
-    q_var = function(up_down, q) {
-      return up_down + "-" + q_to_class(q)
-    }
-    q_var_sel = function(up_down, q) {
-      return "." + up_down + "-" + q_to_class(q)
-    }
     class_to_sel = function(class_name) {
       return "." + class_name
     }
@@ -218,6 +212,14 @@ var chart = d3.select("#plays-charts-container")
       .attr("id","down-group")
       .attr("transform",downGroupY)
 
+renderQuarter_g(upGroup, 1, "up-Q1")
+renderQuarter_g(upGroup, 2, "up-Q2")
+renderQuarter_g(upGroup, 3, "up-Q3")
+renderQuarter_g(upGroup, 4, "up-Q4")
+renderQuarter_g(downGroup, 1, "down-Q1")
+renderQuarter_g(downGroup, 2, "down-Q2")
+renderQuarter_g(downGroup, 3, "down-Q3")
+renderQuarter_g(downGroup, 4, "down-Q4")
 renderQuarter(1,q1_fil)
 renderQuarter(2,q2_fil)
 renderQuarter(3,q3_fil)
@@ -236,9 +238,12 @@ var gridAttr = d3.selectAll(".grid")
       .attr("transform",halfMarginFn(4))
 
 /* supporting functions for bars and grid */
-
+function renderQuarter_g(up_down, q, q_var) {
+      up_down.append("g")
+      .attr("class",q_var)
+      .attr("transform",qX(q))
+}
 function renderQuarter(q, q_fil) {
-      renderQuarter_g(upGroup, q, q_var)
       renderBars(team1_fil, upGroup, q, q_fil, ".up-bars", "up-bars ns", layout.nsOpacity, barHeight, upBarY)
       renderBars(team1_fil, upGroup, q, q_fil, ".up-bars", "up-bars s", 1, barHeight_S, upBarY_S)
       renderBars(team1_fil, upGroup, q, q_fil, ".up-bars", "up-bars expBars", 1, barHeight_X, upBarY_X)
@@ -250,13 +255,8 @@ function renderQuarter(q, q_fil) {
       renderPoints(team1_fil, upGroup, q, q_fil, ".up-points", "up-points", upPointsY)
       renderPoints(team2_fil, downGroup, q, q_fil, ".down-points", "down-points", downPointsY)
 }
-function renderQuarter_g(up_down, q) {
-      up_down.append("g")
-      .attr("class",q_var(q))
-      .attr("transform",qX(q))
-}
 function renderBars(team_fil, up_down, q, q_fil, bar_cl_sel, bar_cl_set, bar_o, bar_height, bar_y) {
-      d3.select(q_var_sel(up_down, q))
+      d3.select(function(q) {return "up-" + q_to_class_sel(q)})
       .selectAll(bar_cl_sel)
       .data(playsData)
       .enter()
