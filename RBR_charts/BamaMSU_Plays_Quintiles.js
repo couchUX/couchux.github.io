@@ -49,14 +49,11 @@ responsive = function(allWidth) {
 var layout = {
     barMarginTop:       20,
     nsOpacity:          0.3,
-    axisLabelAdj:       0.73,
-    axisLabelAdj_bold:  0.65,
+    axisLabelAdj:       0.66,
     gridWidth:          1,
     gridOpacity:        1,
     labelLineOpacity:   0.5,
     labelLineWidth:     1.2,
-    upPointsAdj:        5,
-    downPointsAdj:      13,
 }
 var rArrays = {
     rWidths:          [380, 550, 680],
@@ -64,7 +61,9 @@ var rArrays = {
     barWidthMulti:    [.97, .96, .96, .96],
     labelLineLenAdj:  [ 6, 4, 3, 1],
     playHeight:       [1, .75, .6, .6],
-    axisHeight:       [24, 24, 26, 26]
+    axisHeight:       [24, 24, 26, 26],
+    upPointsAdj:      [3, 4, 5, 5],
+    downPointsAdj:    [11, 12, 13, 13],
 }
     /* margins, widths, and X positions */
 var allWidth = document.getElementById("plays-charts-container").offsetWidth
@@ -101,6 +100,8 @@ var allWidth = document.getElementById("plays-charts-container").offsetWidth
     axisHeight = rArrays.axisHeight[responsive(allWidth)]
     barMaxHeight = totalPlaysMax * playHeight
     chartHeight = (barMaxHeight + layout.barMarginTop) * 2 + axisHeight
+    upPointsAdj = rArrays.upPointsAdj[responsive(allWidth)]
+    downPointsAdj = rArrays.downPointsAdj[responsive(allWidth)]
     barHeight = function(d,i) {
         return d.Total_plays * playHeight
     }
@@ -129,10 +130,10 @@ var allWidth = document.getElementById("plays-charts-container").offsetWidth
       return barMaxHeight - d.X_plays * playHeight
     }
     upPointsY = function(d,i) {
-      return barMaxHeight - d.Total_plays * playHeight - layout.upPointsAdj
+      return barMaxHeight - d.Total_plays * playHeight - upPointsAdj
     }
     downPointsY = function(d,i) {
-      return barHeight(d,i) + layout.downPointsAdj
+      return barHeight(d,i) + downPointsAdj
     }
     /* naming and selecting */
     q_to_class = function(q) {
@@ -213,25 +214,26 @@ renderQuarter(2,q2_fil)
 renderQuarter(3,q3_fil)
 renderQuarter(4,q4_fil)
 
-var upLines = upGroup.append("g")
+var upLines = upGroup.insert("g")
       .attr("class","up-lines")
-    downLines = downGroup.append("g")
+    downLines = downGroup.insert("g")
       .attr("class","down-lines")
 
+/* render the white lines that serve as a horizontal grid */
 var grid_nums = [1,2,3,4,5,6,7,8]
 grid_nums.forEach(renderGridHz)
-
 var gridAttr = d3.selectAll(".grid")
       .attr("fill","none")
       .style("opacity",layout.gridOpacity)
       .style("stroke","white")
       .style("stroke-width",layout.gridWidth)
-    boldAttr = d3.selectAll(".axis-label, .bold")
-          .attr("y",axisHeight * layout.axisLabelAdj_bold)
     thirdMargin = d3.selectAll(".Q3")
       .attr("transform",halfMarginFn(3))
     fourthMargin = d3.selectAll(".Q4")
       .attr("transform",halfMarginFn(4))
+
+teamTitles(upGroup, teamList.team1,0)
+teamTitles(downGroup, teamList.team2, barMaxHeight)
 
 /* supporting functions for bars and grid */
 function renderQuarter(q, q_fil) {
@@ -274,17 +276,18 @@ function renderBars(team_fil, up_down, q, q_fil, bar_cl_sel, bar_cl_set, bar_o, 
 }
 function renderGridHz(item) {
       upLines.append("line")
-        .attr("class","grid")
-        .attr("x1",0)
-        .attr("x2",chartWidth)
-        .attr("y1",gridHzY(item))
-        .attr("y2",gridHzY(item))
+      .attr("class","grid")
+      .attr("x1",0)
+      .attr("x2",chartWidth)
+      .attr("y1",gridHzY(item))
+      .attr("y2",gridHzY(item))
+
       downLines.append("line")
-        .attr("class","grid")
-        .attr("x1",0)
-        .attr("x2",chartWidth)
-        .attr("y1",gridHzY(item))
-        .attr("y2",gridHzY(item))
+      .attr("class","grid")
+      .attr("x1",0)
+      .attr("x2",chartWidth)
+      .attr("y1",gridHzY(item))
+      .attr("y2",gridHzY(item))
 }
 function gridHzY(grid_num) {
       return barMaxHeight - grid_num * playHeight
@@ -346,5 +349,12 @@ function renderPoints(team_fil, up_down, q, q_fil, points_cl_sel, points_cl_set,
       .attr("class",points_cl_set)
       .attr("x",pointsX)
       .attr("y",points_y)
+}
+function teamTitles(up_down, team, y_pos) {
+      up_down.append("text")
+      .text(team)
+      .attr("class","teamTitle")
+      .attr("fill",teamColor(team))
+      .attr("y",y_pos)
 }
 } //end of building chart in d3
