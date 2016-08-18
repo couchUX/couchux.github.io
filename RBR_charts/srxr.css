@@ -4,6 +4,7 @@
   width: 100%;
 }
 #plays-charts-container {
+  font-family:"Work Sans",sans-serif;
   max-width: 724px;
   width: 100%;
 }
@@ -56,7 +57,7 @@
 .backBar {
   fill: #F1F1F1;
 }
-.expBars {
+.expBars, .xBars {
   fill: #000000;
   opacity: .5;
 }

@@ -135,18 +135,17 @@ var allWidth = document.getElementById("plays-charts-container").offsetWidth
       return barHeight(d,i) + layout.downPointsAdj
     }
     /* naming and selecting */
-    playsChartName = "plays-chart"
-    selectChartClass = function() {
-      return "." + playsChartName
-    }
-    defineChartClass = function() {
-      return playsChartName
-    }
     q_to_class = function(q) {
       return "Q" + q
     }
     q_to_class_sel = function(q) {
       return ".Q" + q
+    }
+    axis_q_to_class = function(q) {
+      return "axis_Q" + q
+    }
+    axis_q_to_class_sel = function(q) {
+      return ".axis_Q" + q
     }
     q_to_label = function(q) {
       return q + "Q"
@@ -192,10 +191,7 @@ var allWidth = document.getElementById("plays-charts-container").offsetWidth
     }
 
 /* actually building the chart in d3 */
-var chart = d3.select("#plays-charts-container")
-      .append("div")
-      .attr("class",defineChartClass())
-    svg = d3.select(selectChartClass())
+var svg = d3.select("#plays-charts-container")
       .append("svg")
       .attr("width",chartWidth + chartMargin * 2)
       .attr("height",chartHeight)
@@ -217,6 +213,9 @@ renderQuarter(2,q2_fil)
 renderQuarter(3,q3_fil)
 renderQuarter(4,q4_fil)
 
+var grid_nums = [1,2,3,4,5,6,7,8]
+grid_nums.forEach(renderGridHz)
+
 var gridAttr = d3.selectAll(".grid")
       .attr("fill","none")
       .style("opacity",layout.gridOpacity)
@@ -231,21 +230,25 @@ var gridAttr = d3.selectAll(".grid")
 
 /* supporting functions for bars and grid */
 function renderQuarter(q, q_fil) {
-      renderBars(team1_fil, upGroup, q, q_fil, ".up-bars", "up-bars ns", layout.nsOpacity, barHeight, upBarY)
-      renderBars(team1_fil, upGroup, q, q_fil, ".up-bars", "up-bars s", 1, barHeight_S, upBarY_S)
-      renderBars(team1_fil, upGroup, q, q_fil, ".up-bars", "up-bars expBars", 1, barHeight_X, upBarY_X)
+      upGroup.append("g")
+        .attr("class",q_to_class(q))
+        .attr("transform",qX(q))
+      downGroup.append("g")
+        .attr("class",q_to_class(q))
+        .attr("transform",qX(q))
+
+      renderBars(team1_fil, upGroup, q, q_fil, ".uBars", "uBars", layout.nsOpacity, barHeight, upBarY)
+      renderBars(team1_fil, upGroup, q, q_fil, ".sBars", "sBars", 1, barHeight_S, upBarY_S)
+      renderBars(team1_fil, upGroup, q, q_fil, ".xBars", "xBars", 1, barHeight_X, upBarY_X)
       renderBars(team2_fil, downGroup, q, q_fil, ".down-bars", "down-bars ns", layout.nsOpacity, barHeight, 0)
       renderBars(team2_fil, downGroup, q, q_fil, ".down-bars", "down-bars s", 1, barHeight_S, 0)
-      renderBars(team2_fil, downGroup, q, q_fil, ".down-bars", "down-bars expBars", 1, barHeight_X, 0)
-      renderGridHz(q, q_fil)
+      renderBars(team2_fil, downGroup, q, q_fil, ".down-bars", "down-bars xBars", 1, barHeight_X, 0)
       renderLabels(q)
       renderPoints(team1_fil, upGroup, q, q_fil, ".up-points", "up-points", upPointsY)
       renderPoints(team2_fil, downGroup, q, q_fil, ".down-points", "down-points", downPointsY)
 }
 function renderBars(team_fil, up_down, q, q_fil, bar_cl_sel, bar_cl_set, bar_o, bar_height, bar_y) {
-      up_down.append("g")
-      .attr("class",q_to_class(q))
-      .attr("transform",qX(q))
+      up_down.select(q_to_class_sel(q))
       .selectAll(bar_cl_sel)
       .data(playsData)
       .enter()
@@ -260,25 +263,26 @@ function renderBars(team_fil, up_down, q, q_fil, bar_cl_sel, bar_cl_set, bar_o, 
       .attr("x",barX)
       .attr("y",bar_y)
 }
-function renderGridHz(q, q_fil) {
-      renderBars(team1_fil, upGroup, q, q_fil, ".up-bars", "up-bars grid", 1, playHeight, gridHzY(1))
-      renderBars(team1_fil, upGroup, q, q_fil, ".up-bars", "up-bars grid", 1, playHeight, gridHzY(2))
-      renderBars(team1_fil, upGroup, q, q_fil, ".up-bars", "up-bars grid", 1, playHeight, gridHzY(3))
-      renderBars(team1_fil, upGroup, q, q_fil, ".up-bars", "up-bars grid", 1, playHeight, gridHzY(4))
-      renderBars(team1_fil, upGroup, q, q_fil, ".up-bars", "up-bars grid", 1, playHeight, gridHzY(5))
-      renderBars(team1_fil, upGroup, q, q_fil, ".up-bars", "up-bars grid", 1, playHeight, gridHzY(6))
-      renderBars(team1_fil, upGroup, q, q_fil, ".up-bars", "up-bars grid", 1, playHeight, gridHzY(7))
-      renderBars(team1_fil, upGroup, q, q_fil, ".up-bars", "up-bars grid", 1, playHeight, gridHzY(8))
-      renderBars(team2_fil, downGroup, q, q_fil, ".down-bars", "down-bars grid", 1, playHeight, gridHzY(1))
-      renderBars(team2_fil, downGroup, q, q_fil, ".down-bars", "down-bars grid", 1, playHeight, gridHzY(2))
-      renderBars(team2_fil, downGroup, q, q_fil, ".down-bars", "down-bars grid", 1, playHeight, gridHzY(3))
-      renderBars(team2_fil, downGroup, q, q_fil, ".down-bars", "down-bars grid", 1, playHeight, gridHzY(4))
-      renderBars(team2_fil, downGroup, q, q_fil, ".down-bars", "down-bars grid", 1, playHeight, gridHzY(5))
-      renderBars(team2_fil, downGroup, q, q_fil, ".down-bars", "down-bars grid", 1, playHeight, gridHzY(6))
-      renderBars(team2_fil, downGroup, q, q_fil, ".down-bars", "down-bars grid", 1, playHeight, gridHzY(7))
-      renderBars(team2_fil, downGroup, q, q_fil, ".down-bars", "down-bars grid", 1, playHeight, gridHzY(8))
-} // !! how to get this whole thing consolidated. Tried for.Each functions... nope.
 
+function renderGridHz(item) {
+      upGroup.append("g")
+      .attr("class","up-lines")
+      .append("line")
+      .attr("class","grid")
+      .attr("x1",0)
+      .attr("x2",chartWidth)
+      .attr("y1",gridHzY(item))
+      .attr("y2",gridHzY(item))
+
+      downGroup.append("g")
+      .attr("class","up-lines")
+      .append("line")
+      .attr("class","grid")
+      .attr("x1",0)
+      .attr("x2",chartWidth)
+      .attr("y1",gridHzY(item))
+      .attr("y2",gridHzY(item))
+}
 function gridHzY(grid_num) {
       return barMaxHeight - grid_num * playHeight
 }
@@ -289,7 +293,7 @@ function renderLabels(q) {
       .attr("class",q_to_class(q))
       .attr("transform",qX(q))
 
-      renderLabel(q, 0, "axis-labels bold", q_to_label(q))
+      renderLabel(q, 0, "axis-labels", q_to_label(q))
       renderLabelLines(q, "axis-label-lines")
 }
 function renderLabel(q, quin_num, label_class, text) {
