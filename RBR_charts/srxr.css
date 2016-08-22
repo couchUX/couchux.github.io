@@ -7,6 +7,7 @@
   font-family:"Work Sans",sans-serif;
   max-width: 724px;
   margin-top: 12px;
+  margin-bottom: 12px;
   width: 100%;
 }
 .srxrq-chart {
@@ -110,12 +111,20 @@
   fill: #242424;
   opacity: .8;
 }
+.key {
+  font-family: "Work Sans",sans-serif;
+  font-weight: 400;
+  font-size: 0.8em;
+}
 span.s, span.x, span.ns, span.ns {
   border-bottom: solid;
   border-bottom-width: 2px;
+  line-height: 1.1em;
 }
 span.s {
   border-bottom-color: #C31C45;
+  background-color: #C31C45;
+  color: white;
 }
 span.x {
   border-bottom-color: #620E23;
