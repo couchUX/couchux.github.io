@@ -6,6 +6,7 @@
 #plays-charts-container {
   font-family:"Work Sans",sans-serif;
   max-width: 724px;
+  margin-top: 12px;
   width: 100%;
 }
 .srxrq-chart {
@@ -53,6 +54,9 @@
   font-size: 0.8em;
   margin-top: 0;
   margin-bottom:4px;
+}
+.teamTitle.lg {
+  font-size: 1em;
 }
 .backBar {
   fill: #F1F1F1;
