@@ -47,7 +47,6 @@ responsive = function(allWidth) {
 } // how to avoid nested IFs here? Maybe use an array here too?
 
 var layout = {
-    barMarginTop:       20,
     nsOpacity:          0.3,
     axisLabelAdj:       0.66,
     gridWidth:          1,
@@ -56,27 +55,35 @@ var layout = {
     labelLineWidth:     1.2,
 }
 var rArrays = {
-    rWidths:          [380, 550, 680],
-    chartMargin:      [1, 6, 20, 40],
-    barWidthMulti:    [.97, .96, .96, .96],
-    labelLineLenAdj:  [ 6, 4, 3, 1],
-    playHeight:       [1, .75, .6, .6],
-    axisHeight:       [24, 24, 26, 26],
-    upPointsAdj:      [3, 4, 5, 5],
-    downPointsAdj:    [11, 12, 13, 13],
+    rWidths:            [380, 550, 680],
+    chartMarginL:       [1, 6, 30, 50],
+    chartMarginR:       [1, 6, 20, 40],
+    barMarginTop:       [30, 30, 20, 20],
+    barWidthMulti:      [.97, .96, .96, .96],
+    labelLineLenAdj:    [6, 4, 3, 1],
+    playHeight:         [1, .75, .6, .6],
+    axisHeight:         [24, 24, 26, 26],
+    upPointsAdj:        [3, 4, 5, 5],
+    downPointsAdj:      [11, 12, 13, 13],
+    teamTitlesCentVis:  ["visible","visible","hidden","hidden"],
+    teamTitlesLeftVis:  ["hidden","hidden","visible","visible"],
 }
     /* margins, widths, and X positions */
 var allWidth = document.getElementById("plays-charts-container").offsetWidth
-    chartMargin = rArrays.chartMargin[responsive(allWidth)]
-    chartWidth = allWidth - chartMargin * 2
+    chartMarginL = rArrays.chartMarginL[responsive(allWidth)]
+    chartMarginR = rArrays.chartMarginR[responsive(allWidth)]
+    barMarginTop = rArrays.barMarginTop[responsive(allWidth)]
+    chartWidth = allWidth - chartMarginL - chartMarginR
     barWidthMulti = rArrays.barWidthMulti[responsive(allWidth)]
     halfMargin = chartWidth * (1 - barWidthMulti)
     barWidth = chartWidth / 20 * barWidthMulti
     qWidth = chartWidth * barWidthMulti / 4
     labelAdj = barWidth / 2
     labelLineLenAdj = rArrays.labelLineLenAdj[responsive(allWidth)]
+    teamTitlesCentVis = rArrays.teamTitlesCentVis[responsive(allWidth)]
+    teamTitlesLeftVis = rArrays.teamTitlesLeftVis[responsive(allWidth)]
     chartX = function() {
-      return "translate(" + chartMargin + ")"
+      return "translate(" + chartMarginL + ")"
     }
     halfMarginFn = function(q) {
       return "translate(" + (qWidth * (q - 1) + halfMargin) + ")"
@@ -99,7 +106,7 @@ var allWidth = document.getElementById("plays-charts-container").offsetWidth
     playHeight = barWidth * rArrays.playHeight[responsive(allWidth)]
     axisHeight = rArrays.axisHeight[responsive(allWidth)]
     barMaxHeight = totalPlaysMax * playHeight
-    chartHeight = (barMaxHeight + layout.barMarginTop) * 2 + axisHeight
+    chartHeight = (barMaxHeight + barMarginTop) * 2 + axisHeight
     upPointsAdj = rArrays.upPointsAdj[responsive(allWidth)]
     downPointsAdj = rArrays.downPointsAdj[responsive(allWidth)]
     barHeight = function(d,i) {
@@ -112,13 +119,13 @@ var allWidth = document.getElementById("plays-charts-container").offsetWidth
         return d.X_plays * playHeight
     }
     upGroupY = function(q) {
-      return "translate(0," + layout.barMarginTop + ")"
+      return "translate(0," + barMarginTop + ")"
     }
     axisGroupY = function(q) {
-      return "translate(0," + (layout.barMarginTop + barMaxHeight) + ")"
+      return "translate(0," + (barMarginTop + barMaxHeight) + ")"
     }
     downGroupY = function(q) {
-      return "translate(0," + (layout.barMarginTop + barMaxHeight + axisHeight) + ")"
+      return "translate(0," + (barMarginTop + barMaxHeight + axisHeight) + ")"
     }
     upBarY = function(d,i) {
       return barMaxHeight - d.Total_plays * playHeight
@@ -194,7 +201,7 @@ var allWidth = document.getElementById("plays-charts-container").offsetWidth
 /* actually building the chart in d3 */
 var svg = d3.select("#plays-charts-container")
       .append("svg")
-      .attr("width",chartWidth + chartMargin * 2)
+      .attr("width",chartWidth + chartMarginL + chartMarginR)
       .attr("height",chartHeight)
     allGroups = svg.append("g")
       .attr("id","all-groups")
@@ -232,8 +239,10 @@ var gridAttr = d3.selectAll(".grid")
     fourthMargin = d3.selectAll(".Q4")
       .attr("transform",halfMarginFn(4))
 
-teamTitles(upGroup, teamList.team1,0)
-teamTitles(downGroup, teamList.team2, barMaxHeight)
+teamTitlesCent(upGroup, teamList.team1, 0)
+teamTitlesCent(downGroup, teamList.team2, barMaxHeight)
+teamTitlesLeft(upGroup, teamList.team1, barMaxHeight, "start")
+teamTitlesLeft(downGroup, teamList.team2, 0, "end")
 
 /* supporting functions for bars and grid */
 function renderQuarter(q, q_fil) {
@@ -350,11 +359,26 @@ function renderPoints(team_fil, up_down, q, q_fil, points_cl_sel, points_cl_set,
       .attr("x",pointsX)
       .attr("y",points_y)
 }
-function teamTitles(up_down, team, y_pos) {
+function teamTitlesCent(up_down, team, y_pos) {
       up_down.append("text")
       .text(team)
       .attr("class","teamTitle")
+      .attr("text-anchor","middle")
       .attr("fill",teamColor(team))
+      .attr("x",chartWidth / 2)
       .attr("y",y_pos)
+      .style("visibility",teamTitlesCentVis)
 }
+function teamTitlesLeft(up_down, team, y_pos, anchor) {
+      up_down.append("text")
+      .text(team)
+      .attr("class","teamTitle")
+      .attr("text-anchor",anchor)
+      .attr("fill",teamColor(team))
+      .attr("x",0)
+      .attr("y",y_pos)
+      .style("writing-mode","tb")
+      .style("visibility",teamTitlesLeftVis)
+}
+
 } //end of building chart in d3
