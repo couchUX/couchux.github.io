@@ -3,7 +3,7 @@
   max-width: 724px; /* using width from RBR desktop site in chorus editor */
   width: 100%;
 }
-#plays-charts-container {
+#plays-charts-container, #runRate-charts-container {
   font-family:"Work Sans",sans-serif;
   max-width: 724px;
   margin-top: 12px;
