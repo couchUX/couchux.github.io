@@ -43,6 +43,7 @@ responsive = function(w) {
 
 var layout = {
     btwCharts: 12,
+    rateScale: .75,
     srScale: .75,
     rateAvg: .5,
     srAvg: .42,
@@ -52,8 +53,8 @@ var layout = {
 }
 var rArrays = {
     rWidths:      [380, 550, 680],
-    rateWHMulti:  [0.3, 0.2, 0.15],
-    srWHMulti:    [0.5, 0.4, 0.3],
+    rateWHMulti:  [0.4, 0.3, 0.22],
+    srWHMulti:    [0.4, 0.3, 0.22],
 }
 /* margins, widths, and X positions */
 var allWidth = document.getElementById("runRate-charts-container").offsetWidth
@@ -75,7 +76,7 @@ var allWidth = document.getElementById("runRate-charts-container").offsetWidth
       return "translate(0," + (rateChartHeight + srChartHeight) + ")"
     }
     rateGridY = function(item) {
-      return rateChartHeight - (item * rateChartHeight)
+      return rateChartHeight - (item * rateChartHeight / layout.rateScale)
     }
     srGridY = function(item) {
       return srChartHeight - (item * srChartHeight / layout.srScale)
@@ -84,7 +85,7 @@ var allWidth = document.getElementById("runRate-charts-container").offsetWidth
       return srChartHeight - (layout.srAvg * srChartHeight / layout.srScale)
     }
     runRateY = function(d,i) {
-      return rateChartHeight - (d.RunRate_cume * rateChartHeight)
+      return rateChartHeight - (d.RunRate_cume * rateChartHeight / layout.rateScale)
     }
     runSRY = function(d,i) {
       return srChartHeight - (d.Run_SR_cume * srChartHeight / layout.srScale)
@@ -130,7 +131,7 @@ var svg = d3.select("#runRate-charts-container")
       .attr("height",srChartHeight)
 
 /* draw grid */
-var grid_nums_y = [.25,.5,.75]
+var grid_nums_y = [0,.25,.5,.75]
 grid_nums_y.forEach(rateGridHz)
 grid_nums_y.forEach(srGridHz)
 
