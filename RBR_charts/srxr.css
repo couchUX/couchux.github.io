@@ -99,6 +99,9 @@
   width: 3px;
   opacity: .3; /* stroke attributes are in the script itself */
 }
+.gridLine {
+  opacity: .2; /* stroke attributes are in the script itself */
+}
 .axis-labels {
   font-weight: 600;
   font-size: 0.8em;

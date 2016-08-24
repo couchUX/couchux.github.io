@@ -42,13 +42,13 @@ responsive = function(allWidth) {
 } // how to avoid nested IFs here? Maybe use an array here too?
 
 var layout = {
-    rateChartHeightMulti: 0.15,
-    srChartHeightMulti: 0.3,
     btwCharts: 12,
-    srScale: .8,
+    srScale: .75,
     rateAvg: .5,
     srAvg: .42,
     lineStrokeW: 2.5,
+    gridStrokeW: 1,
+    gridKeyStrokeW: 2,
 }
 var rArrays = {
     rWidths:      [380, 550, 680],
@@ -74,10 +74,13 @@ var allWidth = document.getElementById("runRate-charts-container").offsetWidth
     axisGroupY = function() {
       return "translate(0," + (rateChartHeight + srChartHeight) + ")"
     }
-    runRateGuideY = function(d,i) {
-      return rateChartHeight - (layout.rateAvg * rateChartHeight)
+    rateGridY = function(item) {
+      return rateChartHeight - (item * rateChartHeight)
     }
-    srGuideY = function(d,i) {
+    srGridY = function(item) {
+      return srChartHeight - (item * srChartHeight / layout.srScale)
+    }
+    srGuideY = function() {
       return srChartHeight - (layout.srAvg * srChartHeight / layout.srScale)
     }
     runRateY = function(d,i) {
@@ -116,36 +119,41 @@ var svg = d3.select("#runRate-charts-container")
       .attr("id","axis-group")
       .attr("transform",axisGroupY)
 
-/* chart backgrounds */
+/* draw chart backgrounds */
     rateGroup.append("rect")
       .attr("class","backBar")
       .attr("width",chartWidth)
       .attr("height",rateChartHeight)
-    rateGroup.append("line")
-      .attr("class","leagueSRline")
-      .attr("x1",0)
-      .attr("x2",chartWidth)
-      .attr("y1",runRateGuideY)
-      .attr("y2",runRateGuideY)
-      .style("stroke","#242424")
-      .style("stroke-width",2)
-      .style("stroke-dasharray","5,5")
-      .style("d","M5 20 l215 0")
     srGroup.append("rect")
       .attr("class","backBar")
       .attr("width",chartWidth)
       .attr("height",srChartHeight)
-    srGroup.append("line")
-      .attr("class","leagueSRline")
+
+/* draw grid */
+var grid_nums_y = [.25,.5,.75]
+grid_nums_y.forEach(rateGridHz)
+grid_nums_y.forEach(srGridHz)
+
+function rateGridHz(item) {
+    rateGroup.append("line")
+      .attr("class","gridLine")
       .attr("x1",0)
       .attr("x2",chartWidth)
-      .attr("y1",srGuideY)
-      .attr("y2",srGuideY)
+      .attr("y1",rateGridY(item))
+      .attr("y2",rateGridY(item))
       .style("stroke","#242424")
-      .style("stroke-width",2)
-      .style("stroke-dasharray","5,5")
-      .style("d","M5 20 l215 0")
-
+      .style("stroke-width",layout.gridStrokeW)
+}
+function srGridHz(item) {
+    srGroup.append("line")
+      .attr("class","gridLine")
+      .attr("x1",0)
+      .attr("x2",chartWidth)
+      .attr("y1",srGridY(item))
+      .attr("y2",srGridY(item))
+      .style("stroke","#242424")
+      .style("stroke-width",layout.gridStrokeW)
+}
 /* draw lines */
     runRateLineFn = d3.line()
       .x(lineX)
@@ -176,5 +184,17 @@ var svg = d3.select("#runRate-charts-container")
       .attr("stroke-width",layout.lineStrokeW)
       .attr("opacity",0.4)
       .attr("fill","none")
+
+/* draw key gridlines */
+    srGroup.append("line")
+      .attr("class","leagueSRline")
+      .attr("x1",0)
+      .attr("x2",chartWidth)
+      .attr("y1",srGuideY)
+      .attr("y2",srGuideY)
+      .style("stroke","#242424")
+      .style("stroke-width",layout.gridKeyStrokeW)
+      .style("stroke-dasharray","5,5")
+      .style("d","M5 20 l215 0")
 
 } //end of building chart in d3
