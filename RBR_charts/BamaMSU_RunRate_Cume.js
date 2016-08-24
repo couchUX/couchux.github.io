@@ -42,8 +42,8 @@ responsive = function(allWidth) {
 } // how to avoid nested IFs here? Maybe use an array here too?
 
 var layout = {
-    rateChartHeightMulti: 0.4,
-    srChartHeightMulti: 0.6,
+    rateChartHeightMulti: 0.15,
+    srChartHeightMulti: 0.3,
 }
 var rArrays = {
     rWidths:          [380, 550, 680],
@@ -68,7 +68,13 @@ var allWidth = document.getElementById("runRate-charts-container").offsetWidth
       return "translate(0," + (rateChartHeight + srChartHeight) + ")"
     }
     runRateY = function(d,i) {
-      return d.RunRate_cume * 100 / chartHeight
+      return rateChartHeight - (d.RunRate_cume * rateChartHeight)
+    }
+    runSRY = function(d,i) {
+      return srChartHeight - (d.Run_SR_cume * srChartHeight)
+    }
+    passSRY = function(d,i) {
+      return srChartHeight - (d.Pass_SR_cume * srChartHeight)
     }
 
     /* color selections */
@@ -95,13 +101,37 @@ var svg = d3.select("#runRate-charts-container")
       .attr("id","axis-group")
       .attr("transform",axisGroupY)
 
-var runRateLineFn = d3.line()
+    runRateLineFn = d3.line()
       .x(lineX)
       .y(runRateY)
+      .curve(d3.curveMonotoneX)
+    runSRLineFn = d3.line()
+      .x(lineX)
+      .y(runSRY)
+      .curve(d3.curveMonotoneX)
+    passSRLineFn = d3.line()
+      .x(lineX)
+      .y(passSRY)
+      .curve(d3.curveMonotoneX)
 
-    runRateLine = svg.append("path")
+    runRateLine = rateGroup.append("path")
       .attr("d",runRateLineFn(runRateData))
-      .attr("stroke","blue")
-      .attr("stroke-width",2)
+      .attr("stroke",teamColors.Alabama)
+      .attr("stroke-width",3)
+      .attr("fill","none")
+
+    runSRLine = srGroup.append("path")
+      .attr("d",runSRLineFn(runRateData))
+      .attr("stroke",teamColors.Alabama)
+      .attr("stroke-width",3)
+      .attr("opacity",0.8)
+      .attr("fill","none")
+
+    passSRLine = srGroup.append("path")
+      .attr("d",passSRLineFn(runRateData))
+      .attr("stroke",teamColors.Alabama)
+      .attr("stroke-width",3)
+      .attr("opacity",0.5)
+      .attr("fill","none")
 
 } //end of building chart in d3
