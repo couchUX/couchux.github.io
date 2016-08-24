@@ -17,7 +17,7 @@ function csv_response(error, data) {
   }
   else {
     console.log("data loaded")
-    playsData = data
+    runRateData = data
     render_chart()
   }
 }
@@ -55,6 +55,10 @@ var allWidth = document.getElementById("runRate-charts-container").offsetWidth
     srChartHeight = chartWidth * layout.srChartHeightMulti
     axisHeight = 12
     chartHeight = rateChartHeight + srChartHeight + axisHeight
+    maxIndex = d3.max(runRateData,function(d,i) { return (i + 1) })
+    lineX = function(d,i) {
+      return (i + 1) / maxIndex * chartWidth
+    }
 
     /* heights and Y positions */
     srGroupY = function() {
@@ -62,6 +66,9 @@ var allWidth = document.getElementById("runRate-charts-container").offsetWidth
     }
     axisGroupY = function() {
       return "translate(0," + (rateChartHeight + srChartHeight) + ")"
+    }
+    runRateY = function(d,i) {
+      return d.RunRate_cume * 100 / chartHeight
     }
 
     /* color selections */
@@ -87,5 +94,14 @@ var svg = d3.select("#runRate-charts-container")
     axisGroup = allGroups.append("g")
       .attr("id","axis-group")
       .attr("transform",axisGroupY)
+
+var runRateLineFn = d3.line()
+      .x(lineX)
+      .y(runRateY)
+
+    runRateLine = svg.append("path")
+      .attr("d",runRateLineFn(runRateData))
+      .attr("stroke","blue")
+      .attr("stroke-width",2)
 
 } //end of building chart in d3
