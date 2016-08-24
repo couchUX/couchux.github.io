@@ -26,14 +26,14 @@ function csv_response(error, data) {
 function render_chart() {
 
 /* responsiveness prep */
-responsive = function(allWidth) {
-  if (allWidth < rArrays.rWidths[0]) {
+responsive = function(w) {
+  if (w < rArrays.rWidths[0]) {
     return 0
     }
-  else if (allWidth < rArrays.rWidths[1]) {
+  else if (w < rArrays.rWidths[1]) {
     return 1
     }
-  else if (allWidth < rArrays.rWidths[2]) {
+  else if (w < rArrays.rWidths[2]) {
     return 2
     }
   else {
@@ -53,9 +53,9 @@ var layout = {
 var rArrays = {
     rWidths:      [380, 550, 680],
     rateWHMulti:  [0.3, 0.2, 0.15],
-    srWHMulti:    [0.5, 0.4, 0.3]
+    srWHMulti:    [0.5, 0.4, 0.3],
 }
-    /* margins, widths, and X positions */
+/* margins, widths, and X positions */
 var allWidth = document.getElementById("runRate-charts-container").offsetWidth
     chartWidth = allWidth
     rateChartHeight = chartWidth * rArrays.rateWHMulti[responsive(allWidth)]
@@ -67,7 +67,7 @@ var allWidth = document.getElementById("runRate-charts-container").offsetWidth
       return i / maxIndex * chartWidth
     }
 
-    /* heights and Y positions */
+/* heights and Y positions */
     srGroupY = function() {
       return "translate(0," + (rateChartHeight + layout.btwCharts) + ")"
     }
@@ -93,7 +93,7 @@ var allWidth = document.getElementById("runRate-charts-container").offsetWidth
       return srChartHeight - (d.Pass_SR_cume * srChartHeight / layout.srScale)
     }
 
-    /* color selections */
+/* color selections */
     teamColor = function(team_name) {
       return teamColors[team_name]
     }
@@ -154,6 +154,7 @@ function srGridHz(item) {
       .style("stroke","#242424")
       .style("stroke-width",layout.gridStrokeW)
 }
+
 /* draw lines */
     runRateLineFn = d3.line()
       .x(lineX)

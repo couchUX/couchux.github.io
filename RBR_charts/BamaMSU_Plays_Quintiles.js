@@ -31,20 +31,20 @@ function csv_response(error, data) {
 function render_chart() {
 
 /* responsiveness prep */
-responsive = function(allWidth) {
-  if (allWidth < rArrays.rWidths[0]) {
+responsive = function(w) {
+  if (w < rArrays.rWidths[0]) {
     return 0
     }
-  else if (allWidth < rArrays.rWidths[1]) {
+  else if (w < rArrays.rWidths[1]) {
     return 1
     }
-  else if (allWidth < rArrays.rWidths[2]) {
+  else if (w < rArrays.rWidths[2]) {
     return 2
     }
   else {
     return 3
   }
-} // how to avoid nested IFs here? Maybe use an array here too?
+}
 
 var layout = {
     nsOpacity:          0.3,
