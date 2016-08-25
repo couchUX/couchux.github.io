@@ -42,30 +42,34 @@ responsive = function(w) {
 } // how to avoid nested IFs here? Maybe use an array here too?
 
 var layout = {
-    btwCharts: 12,
+    btwCharts: 24,
     rateScale: .75,
     srScale: .75,
     rateAvg: .5,
     srAvg: .42,
-    lineStrokeW: 2.5,
-    gridStrokeW: 1,
-    gridKeyStrokeW: 2,
+    lineStrokeW: 3,
+    gridStrokeW: 1.5,
+    gridStrokeW_thick: 3,
+    gridKeyStrokeW: 1.5,
 }
 var rArrays = {
-    rWidths:      [380, 550, 680],
-    rateWHMulti:  [0.4, 0.3, 0.22],
-    srWHMulti:    [0.4, 0.3, 0.22],
+    rWidths:       [380, 550, 680],
+    whMulti:       [.46, .36, .27, .2],
+    chartWidthAdj: [1,1,.5,.5]
 }
 /* margins, widths, and X positions */
 var allWidth = document.getElementById("runRate-charts-container").offsetWidth
-    chartWidth = allWidth
-    rateChartHeight = chartWidth * rArrays.rateWHMulti[responsive(allWidth)]
-    srChartHeight = chartWidth * rArrays.srWHMulti[responsive(allWidth)]
+    chartWidth = allWidth * rArrays.chartWidthAdj[responsive(allWidth)]
+    rateChartHeight = allWidth * rArrays.whMulti[responsive(allWidth)]
+    srChartHeight = rateChartHeight
     axisHeight = 12
     chartHeight = rateChartHeight + srChartHeight + axisHeight + layout.btwCharts
     maxIndex = d3.max(runRateData,function(d,i) { return i })
     lineX = function(d,i) {
       return i / maxIndex * chartWidth
+    }
+    gridX = function(item) {
+      return chartWidth * item
     }
 
 /* heights and Y positions */
@@ -101,6 +105,12 @@ var allWidth = document.getElementById("runRate-charts-container").offsetWidth
     barColor = function(d,i) {
         return teamColor(d.Team)
     }
+    gridWidthVert = layout.gridStrokeW
+    gridColorVert = "#242424"
+    gridClassVert = "gridLine"
+    gridWidthHz = layout.gridStrokeW_thick
+    gridColorHz = "white"
+    gridClassHz = "gridLine_white"
 
 /* actually building the chart in d3 */
 var svg = d3.select("#runRate-charts-container")
@@ -131,44 +141,65 @@ var svg = d3.select("#runRate-charts-container")
       .attr("height",srChartHeight)
 
 /* draw grid */
-var grid_nums_y = [0,.25,.5,.75]
+var grid_nums_y = [.25,.5]
 grid_nums_y.forEach(rateGridHz)
 grid_nums_y.forEach(srGridHz)
 
+var grid_nums_x = [0,.25,.5,.75]
+grid_nums_x.forEach(gridVert)
+
 function rateGridHz(item) {
     rateGroup.append("line")
-      .attr("class","gridLine")
+      .attr("class",gridClassHz)
       .attr("x1",0)
       .attr("x2",chartWidth)
       .attr("y1",rateGridY(item))
       .attr("y2",rateGridY(item))
-      .style("stroke","#242424")
-      .style("stroke-width",layout.gridStrokeW)
+      .style("stroke",gridColorHz)
+      .style("stroke-width",gridWidthHz)
 }
 function srGridHz(item) {
     srGroup.append("line")
-      .attr("class","gridLine")
+      .attr("class",gridClassHz)
       .attr("x1",0)
       .attr("x2",chartWidth)
       .attr("y1",srGridY(item))
       .attr("y2",srGridY(item))
-      .style("stroke","#242424")
-      .style("stroke-width",layout.gridStrokeW)
+      .style("stroke",gridColorHz)
+      .style("stroke-width",gridWidthHz)
+}
+function gridVert(item) {
+    rateGroup.append("line")
+      .attr("class",gridClassVert)
+      .attr("x1",gridX(item))
+      .attr("x2",gridX(item))
+      .attr("y1",0)
+      .attr("y2",rateChartHeight)
+      .style("stroke",gridColorVert)
+      .style("stroke-width",gridWidthVert)
+    srGroup.append("line")
+      .attr("class",gridClassVert)
+      .attr("x1",gridX(item))
+      .attr("x2",gridX(item))
+      .attr("y1",0)
+      .attr("y2",srChartHeight)
+      .style("stroke",gridColorVert)
+      .style("stroke-width",gridWidthVert)
 }
 
 /* draw lines */
     runRateLineFn = d3.line()
       .x(lineX)
       .y(runRateY)
-      .curve(d3.curveMonotoneX)
+      .curve(d3.curveBasis)
     runSRLineFn = d3.line()
       .x(lineX)
       .y(runSRY)
-      .curve(d3.curveMonotoneX)
+      .curve(d3.curveBasis)
     passSRLineFn = d3.line()
       .x(lineX)
       .y(passSRY)
-      .curve(d3.curveMonotoneX)
+      .curve(d3.curveBasis)
 
     runRateLine = rateGroup.append("path")
       .attr("d",runRateLineFn(runRateData))

@@ -100,7 +100,10 @@
   opacity: .3; /* stroke attributes are in the script itself */
 }
 .gridLine {
-  opacity: .2; /* stroke attributes are in the script itself */
+  opacity: .12; /* stroke attributes are in the script itself */
+}
+.gridLine_white {
+  opacity: 1;
 }
 .axis-labels {
   font-weight: 600;
