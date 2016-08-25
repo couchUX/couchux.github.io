@@ -141,12 +141,12 @@ var svg = d3.select("#runRate-charts-container")
       .attr("height",srChartHeight)
 
 /* draw grid */
+var grid_nums_x = [0,.25,.5,.75]
+grid_nums_x.forEach(gridVert)
+
 var grid_nums_y = [.25,.5]
 grid_nums_y.forEach(rateGridHz)
 grid_nums_y.forEach(srGridHz)
-
-var grid_nums_x = [0,.25,.5,.75]
-grid_nums_x.forEach(gridVert)
 
 function rateGridHz(item) {
     rateGroup.append("line")
