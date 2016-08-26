@@ -56,6 +56,7 @@ var layout = {
     quartersYadj: 6,
     quartersXadj: 5,
     chart2marginL: 8,
+    passSR_opacity: .3,
 }
 var rArrays = {
     rWidths:       [380, 550, 680],
@@ -134,7 +135,6 @@ var rateSvg = d3.select("#runRate-chart")
       .append("svg")
       .attr("width",chartWidth)
       .attr("height",chartHeight)
-
 var srSvg = d3.select("#srRP-chart")
       .append("svg")
       .attr("width",chartWidth)
@@ -260,7 +260,7 @@ function quarterText(item) {
       .attr("d",passSRLineFn(runRateData))
       .attr("stroke",teamColors.Alabama)
       .attr("stroke-width",layout.lineStrokeW)
-      .attr("opacity",0.4)
+      .attr("opacity",layout.passSR_opacity)
       .attr("fill","none")
 
 /* draw key gridlines */

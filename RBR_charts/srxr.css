@@ -49,7 +49,7 @@
   opacity: .2;
   margin-bottom: 2px;
 }
-.chartNote, .chartSubtitle {
+.chartNote, {
   font-family:"Work Sans",sans-serif;
   color: #242424;
   font-size: 0.8em !important;
@@ -57,10 +57,16 @@
   line-height: 1.5em;
   opacity: 0.5;
   margin-top: 0px;
-  margin-bottom:4px;
-}
-.chartNote {
   margin-bottom:12px;
+}
+.chartSubtitle {
+  font-family:"Open Sans",sans-serif;
+  color: #242424;
+  font-size: .8em !important;
+  line-height: 1.5em;
+  opacity: 1;
+  margin-top: 0px;
+  margin-bottom:3px;
 }
 .teamTitle {
   font-weight: 400;
@@ -142,7 +148,7 @@
   font-weight: 400;
   font-size: 0.8em;
 }
-span.s, span.x, span.ns, span.ns {
+span.s, span.x, span.ns, {
   border-bottom: solid;
   border-bottom-width: 2px;
 }
@@ -154,4 +160,17 @@ span.x {
 }
 span.ns {
   border-bottom-color: #EDBBC7;
+}
+span.runSR {
+  border-bottom-color: #C31C45;
+}
+span.passSR {
+  border-bottom-color: #EDBBC7;
+}
+span.sRed {
+  color: #C31C45;
+}
+span.ltRed {
+  color: #C31C45;
+  opacity: 0.4;
 }
