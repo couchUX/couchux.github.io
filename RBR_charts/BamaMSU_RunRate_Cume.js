@@ -55,18 +55,17 @@ var layout = {
     percentXadj: 3,
     quartersYadj: 6,
     quartersXadj: 5,
+    chart2marginL: 8,
 }
 var rArrays = {
     rWidths:       [380, 550, 680],
-    whMulti:       [.53, .4, .27, .22],
+    whMulti:       [.54, .4, .28, .28],
     chartWidthAdj: [1,1,.5,.5]
 }
 /* margins, widths, and X positions */
 var allWidth = document.getElementById("runRate-charts-container").offsetWidth
-    chartWidth = allWidth * rArrays.chartWidthAdj[responsive(allWidth)]
-    rateChartHeight = allWidth * rArrays.whMulti[responsive(allWidth)]
-    srChartHeight = rateChartHeight
-    chartHeight = rateChartHeight + srChartHeight + layout.btwCharts
+    chartWidth = allWidth * rArrays.chartWidthAdj[responsive(allWidth)] - layout.chart2marginL
+    chartHeight = allWidth * rArrays.whMulti[responsive(allWidth)]
     maxIndex = d3.max(runRateData,function(d,i) { return i })
     lineX = function(d,i) {
       return i / maxIndex * chartWidth
@@ -76,26 +75,26 @@ var allWidth = document.getElementById("runRate-charts-container").offsetWidth
     }
 
 /* heights and Y positions */
-    srGroupY = function() {
-      return "translate(0," + (rateChartHeight + layout.btwCharts) + ")"
+    srSvgY = function() {
+      return "translate(0," + (chartHeight + layout.btwCharts) + ")"
     }
     rateGridY = function(item) {
-      return rateChartHeight - (item * rateChartHeight / layout.rateScale)
+      return chartHeight - (item * chartHeight / layout.rateScale)
     }
     srGridY = function(item) {
-      return srChartHeight - (item * srChartHeight / layout.srScale)
+      return chartHeight - (item * chartHeight / layout.srScale)
     }
     srGuideY = function() {
-      return srChartHeight - (layout.srAvg * srChartHeight / layout.srScale)
+      return chartHeight - (layout.srAvg * chartHeight / layout.srScale)
     }
     runRateY = function(d,i) {
-      return rateChartHeight - (d.RunRate_cume * rateChartHeight / layout.rateScale)
+      return chartHeight - (d.RunRate_cume * chartHeight / layout.rateScale)
     }
     runSRY = function(d,i) {
-      return srChartHeight - (d.Run_SR_cume * srChartHeight / layout.srScale)
+      return chartHeight - (d.Run_SR_cume * chartHeight / layout.srScale)
     }
     passSRY = function(d,i) {
-      return srChartHeight - (d.Pass_SR_cume * srChartHeight / layout.srScale)
+      return chartHeight - (d.Pass_SR_cume * chartHeight / layout.srScale)
     }
 
 /* color selections */
@@ -131,29 +130,25 @@ var percentNames = {
     .75:"75%",
 }
 /* actually building the chart in d3 */
-var svg = d3.select("#runRate-charts-container")
+var rateSvg = d3.select("#runRate-chart")
       .append("svg")
       .attr("width",chartWidth)
       .attr("height",chartHeight)
 
-/* defining groups/sections */
-    allGroups = svg.append("g")
-      .attr("id","all-groups")
-    rateGroup = allGroups.append("g")
-      .attr("id","rate-group")
-    srGroup = allGroups.append("g")
-      .attr("id","sr-group")
-      .attr("transform",srGroupY)
+var srSvg = d3.select("#srRP-chart")
+      .append("svg")
+      .attr("width",chartWidth)
+      .attr("height",chartHeight)
 
 /* draw chart backgrounds */
-    rateGroup.append("rect")
+    rateSvg.append("rect")
       .attr("class","backBar")
       .attr("width",chartWidth)
-      .attr("height",rateChartHeight)
-    srGroup.append("rect")
+      .attr("height",chartHeight)
+    srSvg.append("rect")
       .attr("class","backBar")
       .attr("width",chartWidth)
-      .attr("height",srChartHeight)
+      .attr("height",chartHeight)
 
 /* draw grid */
 var grid_nums_x = [.25,.5,.75]
@@ -171,7 +166,7 @@ grid_nums_y_text.forEach(rateTextPcs)
 grid_nums_y_text.forEach(srTextPcs)
 
 function rateGridHz(item) {
-    rateGroup.append("line")
+    rateSvg.append("line")
       .attr("class",gridClassHz)
       .attr("x1",0)
       .attr("x2",chartWidth)
@@ -181,14 +176,14 @@ function rateGridHz(item) {
       .style("stroke-width",gridWidthHz)
 }
 function rateTextPcs(item) {
-    rateGroup.append("text")
+    rateSvg.append("text")
       .attr("class","gridText")
       .attr("x",layout.percentXadj)
       .attr("y",rateGridY(item) + layout.percentYadj)
       .text(percentNameFn(item))
 }
 function srGridHz(item) {
-    srGroup.append("line")
+    srSvg.append("line")
       .attr("class",gridClassHz)
       .attr("x1",0)
       .attr("x2",chartWidth)
@@ -198,41 +193,41 @@ function srGridHz(item) {
       .style("stroke-width",gridWidthHz)
 }
 function srTextPcs(item) {
-      srGroup.append("text")
+    srSvg.append("text")
       .attr("class","gridText")
       .attr("x",layout.percentXadj)
       .attr("y",srGridY(item) + layout.percentYadj)
       .text(percentNameFn(item))
 }
 function gridVert(item) {
-    rateGroup.append("line")
+    rateSvg.append("line")
       .attr("class",gridClassVert)
       .attr("x1",gridX(item))
       .attr("x2",gridX(item))
       .attr("y1",0)
-      .attr("y2",rateChartHeight)
+      .attr("y2",chartHeight)
       .style("stroke",gridColorVert)
       .style("stroke-width",gridWidthVert)
-    srGroup.append("line")
+    srSvg.append("line")
       .attr("class",gridClassVert)
       .attr("x1",gridX(item))
       .attr("x2",gridX(item))
       .attr("y1",0)
-      .attr("y2",srChartHeight)
+      .attr("y2",chartHeight)
       .style("stroke",gridColorVert)
       .style("stroke-width",gridWidthVert)
 }
 function quarterText(item) {
-    rateGroup.append("text")
+    rateSvg.append("text")
       .attr("class","gridText")
       .attr("x",gridX(item) - layout.quartersXadj)
-      .attr("y",srChartHeight - layout.quartersYadj)
+      .attr("y",chartHeight - layout.quartersYadj)
       .attr("text-anchor","end")
       .text(quarterNameFn(item))
-    srGroup.append("text")
+    srSvg.append("text")
       .attr("class","gridText")
       .attr("x",gridX(item) - layout.quartersXadj)
-      .attr("y",srChartHeight - layout.quartersYadj)
+      .attr("y",chartHeight - layout.quartersYadj)
       .attr("text-anchor","end")
       .text(quarterNameFn(item))
 }
@@ -251,17 +246,17 @@ function quarterText(item) {
       .y(passSRY)
       .curve(d3.curveBasis)
 
-    runRateLine = rateGroup.append("path")
+    runRateLine = rateSvg.append("path")
       .attr("d",runRateLineFn(runRateData))
       .attr("stroke",teamColors.Alabama)
       .attr("stroke-width",layout.lineStrokeW)
       .attr("fill","none")
-    runSRLine = srGroup.append("path")
+    runSRLine = srSvg.append("path")
       .attr("d",runSRLineFn(runRateData))
       .attr("stroke",teamColors.Alabama)
       .attr("stroke-width",layout.lineStrokeW)
       .attr("fill","none")
-    passSRLine = srGroup.append("path")
+    passSRLine = srSvg.append("path")
       .attr("d",passSRLineFn(runRateData))
       .attr("stroke",teamColors.Alabama)
       .attr("stroke-width",layout.lineStrokeW)
@@ -269,7 +264,7 @@ function quarterText(item) {
       .attr("fill","none")
 
 /* draw key gridlines */
-    srGroup.append("line")
+    srSvg.append("line")
       .attr("class","leagueSRline")
       .attr("x1",0)
       .attr("x2",chartWidth)
