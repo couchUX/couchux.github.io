@@ -51,10 +51,14 @@ var layout = {
     gridStrokeW: 1.5,
     gridStrokeW_thick: 3,
     gridKeyStrokeW: 1.5,
+    percentYadj: 13,
+    percentXadj: 3,
+    quartersYadj: 6,
+    quartersXadj: 5,
 }
 var rArrays = {
     rWidths:       [380, 550, 680],
-    whMulti:       [.46, .36, .27, .2],
+    whMulti:       [.53, .4, .27, .22],
     chartWidthAdj: [1,1,.5,.5]
 }
 /* margins, widths, and X positions */
@@ -62,8 +66,7 @@ var allWidth = document.getElementById("runRate-charts-container").offsetWidth
     chartWidth = allWidth * rArrays.chartWidthAdj[responsive(allWidth)]
     rateChartHeight = allWidth * rArrays.whMulti[responsive(allWidth)]
     srChartHeight = rateChartHeight
-    axisHeight = 12
-    chartHeight = rateChartHeight + srChartHeight + axisHeight + layout.btwCharts
+    chartHeight = rateChartHeight + srChartHeight + layout.btwCharts
     maxIndex = d3.max(runRateData,function(d,i) { return i })
     lineX = function(d,i) {
       return i / maxIndex * chartWidth
@@ -75,9 +78,6 @@ var allWidth = document.getElementById("runRate-charts-container").offsetWidth
 /* heights and Y positions */
     srGroupY = function() {
       return "translate(0," + (rateChartHeight + layout.btwCharts) + ")"
-    }
-    axisGroupY = function() {
-      return "translate(0," + (rateChartHeight + srChartHeight) + ")"
     }
     rateGridY = function(item) {
       return rateChartHeight - (item * rateChartHeight / layout.rateScale)
@@ -112,6 +112,24 @@ var allWidth = document.getElementById("runRate-charts-container").offsetWidth
     gridColorHz = "white"
     gridClassHz = "gridLine_white"
 
+/* naming and such */
+function quarterNameFn(name) {
+  return quarterNames[name]
+}
+var quarterNames = {
+    .25:"thru Q1",
+    .5:"thru Q2",
+    .75:"thru Q3",
+    1:"game"
+}
+function percentNameFn(name) {
+  return percentNames[name]
+}
+var percentNames = {
+    .25:"25",
+    .5:"50",
+    .75:"75%",
+}
 /* actually building the chart in d3 */
 var svg = d3.select("#runRate-charts-container")
       .append("svg")
@@ -126,9 +144,6 @@ var svg = d3.select("#runRate-charts-container")
     srGroup = allGroups.append("g")
       .attr("id","sr-group")
       .attr("transform",srGroupY)
-    axisGroup = allGroups.append("g")
-      .attr("id","axis-group")
-      .attr("transform",axisGroupY)
 
 /* draw chart backgrounds */
     rateGroup.append("rect")
@@ -141,12 +156,19 @@ var svg = d3.select("#runRate-charts-container")
       .attr("height",srChartHeight)
 
 /* draw grid */
-var grid_nums_x = [0,.25,.5,.75]
+var grid_nums_x = [.25,.5,.75]
 grid_nums_x.forEach(gridVert)
 
-var grid_nums_y = [.25,.5]
+var grid_nums_x_text = [.25,.5,.75,1]
+grid_nums_x_text.forEach(quarterText)
+
+var grid_nums_y = [.25,.5,.75]
 grid_nums_y.forEach(rateGridHz)
 grid_nums_y.forEach(srGridHz)
+
+var grid_nums_y_text = [.25,.5,.75]
+grid_nums_y_text.forEach(rateTextPcs)
+grid_nums_y_text.forEach(srTextPcs)
 
 function rateGridHz(item) {
     rateGroup.append("line")
@@ -158,6 +180,13 @@ function rateGridHz(item) {
       .style("stroke",gridColorHz)
       .style("stroke-width",gridWidthHz)
 }
+function rateTextPcs(item) {
+    rateGroup.append("text")
+      .attr("class","gridText")
+      .attr("x",layout.percentXadj)
+      .attr("y",rateGridY(item) + layout.percentYadj)
+      .text(percentNameFn(item))
+}
 function srGridHz(item) {
     srGroup.append("line")
       .attr("class",gridClassHz)
@@ -167,6 +196,13 @@ function srGridHz(item) {
       .attr("y2",srGridY(item))
       .style("stroke",gridColorHz)
       .style("stroke-width",gridWidthHz)
+}
+function srTextPcs(item) {
+      srGroup.append("text")
+      .attr("class","gridText")
+      .attr("x",layout.percentXadj)
+      .attr("y",srGridY(item) + layout.percentYadj)
+      .text(percentNameFn(item))
 }
 function gridVert(item) {
     rateGroup.append("line")
@@ -185,6 +221,20 @@ function gridVert(item) {
       .attr("y2",srChartHeight)
       .style("stroke",gridColorVert)
       .style("stroke-width",gridWidthVert)
+}
+function quarterText(item) {
+    rateGroup.append("text")
+      .attr("class","gridText")
+      .attr("x",gridX(item) - layout.quartersXadj)
+      .attr("y",srChartHeight - layout.quartersYadj)
+      .attr("text-anchor","end")
+      .text(quarterNameFn(item))
+    srGroup.append("text")
+      .attr("class","gridText")
+      .attr("x",gridX(item) - layout.quartersXadj)
+      .attr("y",srChartHeight - layout.quartersYadj)
+      .attr("text-anchor","end")
+      .text(quarterNameFn(item))
 }
 
 /* draw lines */

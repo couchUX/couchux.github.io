@@ -105,6 +105,13 @@
 .gridLine_white {
   opacity: 1;
 }
+.gridText {
+  font-family:"Work Sans",sans-serif;
+  color: #242424;
+  font-size: 0.65em !important;
+  letter-spacing: -0.3px;
+  opacity: 0.4;
+}
 .axis-labels {
   font-weight: 600;
   font-size: 0.8em;
