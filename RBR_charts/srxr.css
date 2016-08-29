@@ -148,6 +148,10 @@
   font-weight: 400;
   font-size: 0.8em;
 }
+span.ltRed, span.sRed, span.xRed {
+  font-size: 1.1em;
+}
+
 span.ltRed {
   color: #C31C45;
   opacity: 0.4;
