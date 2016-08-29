@@ -10,6 +10,9 @@
   margin-bottom: 12px;
   width: 100%;
 }
+#runRate-charts-container {
+ margin-bottom: 6px;
+}
 .srxrq-chart {
   font-family:"Work Sans",sans-serif;
   min-width:200px;
@@ -49,22 +52,22 @@
   opacity: .2;
   margin-bottom: 2px;
 }
-.chartNote, {
+.chartNote {
   font-family:"Work Sans",sans-serif;
   color: #242424;
-  font-size: 0.8em !important;
+  font-size: 0.7em !important;
   letter-spacing: -0.3px;
   line-height: 1.5em;
   opacity: 0.5;
   margin-top: 0px;
-  margin-bottom:12px;
+  margin-bottom: 12px;
+  text-align: right;
 }
 .chartSubtitle {
   font-family:"Open Sans",sans-serif;
   color: #242424;
   font-size: .8em !important;
   line-height: 1.5em;
-  opacity: 1;
   margin-top: 0px;
   margin-bottom:3px;
 }
@@ -127,7 +130,7 @@
 .gridText {
   font-family:"Work Sans",sans-serif;
   color: #242424;
-  font-size: 0.65em !important;
+  font-size: 0.7em !important;
   letter-spacing: -0.3px;
   opacity: 0.4;
 }

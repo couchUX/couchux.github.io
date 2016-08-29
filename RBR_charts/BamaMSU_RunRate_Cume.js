@@ -51,7 +51,7 @@ var layout = {
     gridStrokeW: 1.5,
     gridStrokeW_thick: 3,
     gridKeyStrokeW: 1.5,
-    percentYadj: 13,
+    percentYadj: 14,
     percentXadj: 3,
     quartersYadj: 6,
     quartersXadj: 5,
@@ -59,13 +59,15 @@ var layout = {
     passSR_opacity: .3,
 }
 var rArrays = {
-    rWidths:       [380, 550, 680],
-    whMulti:       [.54, .4, .28, .28],
-    chartWidthAdj: [1,1,.5,.5]
+    rWidths:        [380, 550, 680],
+    whMulti:        [.52, .4, .28, .28],
+    chartWidthAdj:  [1,1,.5,.5],
+    chartMarginAdj: [0,0,8,8]
 }
 /* margins, widths, and X positions */
 var allWidth = document.getElementById("runRate-charts-container").offsetWidth
-    chartWidth = allWidth * rArrays.chartWidthAdj[responsive(allWidth)] - layout.chart2marginL
+    chartMarginAdj = rArrays.chartMarginAdj[responsive(allWidth)]
+    chartWidth = allWidth * rArrays.chartWidthAdj[responsive(allWidth)] - chartMarginAdj
     chartHeight = allWidth * rArrays.whMulti[responsive(allWidth)]
     maxIndex = d3.max(runRateData,function(d,i) { return i })
     lineX = function(d,i) {
@@ -129,6 +131,9 @@ var percentNames = {
     .25:"25",
     .5:"50",
     .75:"75%",
+}
+function srAvgText() {
+  return +layout.srAvg * 100 + "%*"
 }
 /* actually building the chart in d3 */
 var rateSvg = d3.select("#runRate-chart")
@@ -263,7 +268,7 @@ function quarterText(item) {
       .attr("opacity",layout.passSR_opacity)
       .attr("fill","none")
 
-/* draw key gridlines */
+/* draw key line */
     srSvg.append("line")
       .attr("class","leagueSRline")
       .attr("x1",0)
@@ -274,5 +279,11 @@ function quarterText(item) {
       .style("stroke-width",layout.gridKeyStrokeW)
       .style("stroke-dasharray","5,5")
       .style("d","M5 20 l215 0")
+    srSvg.append("text")
+      .attr("class","gridText")
+      .attr("text-anchor","end")
+      .attr("x",chartWidth - layout.percentXadj)
+      .attr("y",srGuideY() + layout.percentYadj)
+      .text(srAvgText)
 
 } //end of building chart in d3
