@@ -1,5 +1,5 @@
 /* select what csv should be run */
-var csv_url = "https://couchux.github.io/RBR_charts/2015_BamaMSU_RunRate_Cume.csv"
+var csv_url = "https://couchux.github.io/RBR_charts/2015_BamaMSU/RunRate_cume/2015_BamaMSU_RunRate_Cume.csv"
 runRateChart(csv_url);
 
 /* team colors */

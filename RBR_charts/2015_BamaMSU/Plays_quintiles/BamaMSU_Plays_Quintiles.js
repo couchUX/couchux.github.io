@@ -1,5 +1,5 @@
 /* select what csv should be run */
-var csv_url = "https://couchux.github.io/RBR_charts/2015_BamaMSU_Plays_Quintiles.csv"
+var csv_url = "https://couchux.github.io/RBR_charts/2015_BamaMSU/Plays_quintiles/2015_BamaMSU_Plays_Quintiles.csv"
 playsChart(csv_url);
 
 /* team names and colors */
