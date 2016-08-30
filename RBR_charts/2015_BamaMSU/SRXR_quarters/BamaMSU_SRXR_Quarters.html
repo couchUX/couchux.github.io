@@ -5,19 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500,600,700" rel="stylesheet">
-    <link href="srxr.css" rel="stylesheet" type="text/css">
+<!--<link href='https://couchux.github.io/RBR_charts/srxr.css' rel='stylesheet' type='text/css'> -->
+    <link href="../../css/rbr_charts.css" rel="stylesheet" type="text/css">
     <script src="https://d3js.org/d3.v4.min.js"></script>
 
   </head>
 
   <body>
     <p class="chartTitle">
-      Plays of the game: <span class="ltRed">&#9679;&nbsp;</span>unsuccessful, <span class="sRed">&#9679;&nbsp;</span>successful, and <span class="xRed">&#9679;&nbsp;</span>explosive.
+      Success rate (SR) and big play rate (XR)
     </p>
     <div class="titleHR"></div>
-    <div id="plays-charts-container">
-      <script src="BamaMSU_Plays_Quintiles.js"></script>
+    <div id="srxr-q-charts-container">
+<!--  <script src="https://couchux.github.io/RBR_charts/BamaMSU_SRXR_Quarters.js"></script> -->
+      <script src="BamaMSU_SRXR_Quarters.js"></script>
 
     </div>
+    <p class="chartNote">
+      * NCAA average SR = 42%
+    </p>
   </body>
 </html>
