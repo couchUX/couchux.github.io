@@ -60,7 +60,7 @@ var layout = {
 }
 var rArrays = {
     rWidths:        [380, 550, 680],
-    whMulti:        [.52, .4, .28, .28],
+    whMulti:        [.55, .42, .3, .3],
     chartWidthAdj:  [1,1,.5,.5],
     chartMarginAdj: [0,0,8,8]
 }

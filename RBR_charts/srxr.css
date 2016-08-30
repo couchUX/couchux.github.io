@@ -29,10 +29,12 @@
     .chart2 {
         margin-left:16px;
     }
+@media screen and (min-width: 550px) {
     #srRP-chart {
         margin-left:8px;
         margin-top:0px;
-    }
+  }
+}
 }
 .plays-chart {
   font-family:"Work Sans",sans-serif;
@@ -70,6 +72,7 @@
   line-height: 1.5em;
   margin-top: 0px;
   margin-bottom:3px;
+  width: inherit;
 }
 .teamTitle {
   font-weight: 400;
