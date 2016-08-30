@@ -2,11 +2,6 @@
 var csv_url = "https://couchux.github.io/RBR_charts/2015_BamaMSU/RunRate_cume/2015_BamaMSU_RunRate_Cume.csv"
 runRateChart(csv_url);
 
-/* team colors */
-var teamColors = {
-  "Alabama": "#C31C45",
-}
-
 /* defining the main chart functions */
 function runRateChart(data_url) {
   d3.csv(data_url, csv_response)
@@ -18,12 +13,17 @@ function csv_response(error, data) {
   else {
     console.log("data loaded")
     runRateData = data
-    render_chart()
+    render_runRate_chart()
   }
 }
 
 /* render d3 chart */
-function render_chart() {
+function render_runRate_chart() {
+
+/* team colors */
+var teamColors = {
+  "Alabama": "#C31C45",
+}
 
 /* responsiveness prep */
 responsive = function(w) {

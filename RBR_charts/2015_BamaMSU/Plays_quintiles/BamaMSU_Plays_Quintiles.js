@@ -2,16 +2,6 @@
 var csv_url = "https://couchux.github.io/RBR_charts/2015_BamaMSU/Plays_quintiles/2015_BamaMSU_Plays_Quintiles.csv"
 playsChart(csv_url);
 
-/* team names and colors */
-var teamList = {
-  team1: "Alabama",
-  team2: "Michigan State"
-}
-var teamColors = {
-  "Alabama": "#C31C45",
-  "Michigan State": "#509E8B"
-}
-
 /* defining the main chart functions */
 function playsChart(data_url) {
   d3.csv(data_url, csv_response)
@@ -23,12 +13,22 @@ function csv_response(error, data) {
   else {
     console.log("data loaded")
     playsData = data
-    render_chart()
+    render_playsQuintiles_chart()
   }
 }
 
 /* render d3 chart */
-function render_chart() {
+function render_playsQuintiles_chart() {
+
+/* team names and colors */
+var teamList = {
+  team1: "Alabama",
+  team2: "Michigan State"
+}
+var teamColors = {
+  "Alabama": "#C31C45",
+  "Michigan State": "#509E8B"
+}
 
 /* responsiveness prep */
 responsive = function(w) {

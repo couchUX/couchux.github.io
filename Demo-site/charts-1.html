@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Demo d3 charts from my football charting project</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONTS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link href="//fonts.googleapis.com/css?family=Open+Sans:400,600,700,300" rel="text/css">
+  <link href="//fonts.googleapis.com/css?family=Work+Sans:400,500,600,700" rel="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="../RBR_charts/css/rbr_charts.css">
+
+  <!-- D3 script for charts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="../RBR_charts/d3/4.2.2/d3.min.js"></script>
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <div class="row">
+      <div class="one-half column" style="margin-top: 25%">
+        <h4>Demo d3 charts</h4>
+        <p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up the <a href="http://www.getskeleton.com">Skeleton documentation</a>.</p>
+      </div>
+    </div>
+  <!-- SRXR charts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="row chart-row">
+      <div class="two-thirds column">
+        <p class="chartTitle">Success rate (SR) and big play rate (XR)</p>
+        <div class="titleHR"></div>
+        <div id="srxr-q-charts-container">
+          <script src="../RBR_charts/2015_BamaMSU/SRXR_quarters/BamaMSU_SRXR_Quarters.js"></script>
+        </div>
+        <p class="chartNote">
+          * NCAA average SR = 42%
+        </p>
+      </div>
+    </div>
+
+  <!-- Play quintiles chart
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="row chart-row">
+      <div class="two-thirds column">
+        <p class="chartTitle">Plays of the game: <span class="ltRed">&#9679;&nbsp;</span>unsuccessful, <span class="sRed">&#9679;&nbsp;</span>successful, and <span class="xRed">&#9679;&nbsp;</span>explosive.</p>
+        <div class="titleHR"></div>
+        <div id="plays-charts-container">
+          <script src="../RBR_charts/2015_BamaMSU/Plays_quintiles/BamaMSU_Plays_Quintiles.js"></script>
+        </div>
+      </div>
+    </div>
+
+  <!-- Run rate line charts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="row chart-row">
+      <div class="two-thirds column">
+        <p class="chartTitle">Running and Passing (#RTDBL)</p>
+        <div class="titleHR"></div>
+        <div id="runRate-charts-container">
+          <div id="runRate-chart">
+            <p class="chartSubtitle"><span class="sRed">&#9679;&nbsp;</span>Run rate (runs &#247; total plays), cumulative</p>
+          </div>
+          <div id="srRP-chart">
+            <p class="chartSubtitle">Success rate for <span class="sRed">&#9679;&nbsp;</span>runs and <span class="ltRed">&#9679;&nbsp;</span>passes, cumulative</p>
+          </div>
+          <script src="../RBR_charts/2015_BamaMSU/RunRate_cume/BamaMSU_RunRate_Cume.js"></script>
+        </div>
+        <p class="chartNote">* NCAA average SR = 42%</p>
+      </div>
+    </div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>

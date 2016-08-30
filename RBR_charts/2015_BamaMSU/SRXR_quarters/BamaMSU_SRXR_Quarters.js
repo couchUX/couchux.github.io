@@ -6,16 +6,7 @@ var csv_url = "https://couchux.github.io/RBR_charts/2015_BamaMSU/SRXR_quarters/B
 srxrqChart(csv_url, "Alabama", "1"); //the latter part doesn't do anything, but I'd like to control the team from here
 srxrqChart(csv_url, "Michigan State", "2");
 
-/* tie chart colors to team names */
-var teamColors = {
-  "Alabama": "#C31C45",
-  "Michigan State": "#509E8B" // dark version was "#205649"
-}
-    gameColor = "#5C5C5C"
 
-teamColor = function(team_name) {
-  return teamColors[team_name]
-};
 
 /* defining the main chart functions */
 function srxrqChart(data_url, which_team, what_order) {
@@ -41,7 +32,7 @@ function csv_response(which_team, what_order, error, data) {
       }
     })
 
-    render_chart(which_team, what_order)
+    render_SRXRquarters_chart(which_team, what_order)
   }
 }
 
@@ -56,7 +47,18 @@ function chartWidthFn(containerWidth) {
     return containerWidth / 2 - 16 /* adjusting this from 8 for RBR tablet view */
     }
 }
-function render_chart(which_team, what_order) {
+function render_SRXRquarters_chart(which_team, what_order) {
+
+/* tie chart colors to team names */
+var teamColors = {
+  "Alabama": "#C31C45",
+  "Michigan State": "#509E8B" // dark version was "#205649"
+}
+    gameColor = "#5C5C5C"
+
+teamColor = function(team_name) {
+  return teamColors[team_name]
+};
 
 var srxrqChartName = "srxrq-chart"
 
