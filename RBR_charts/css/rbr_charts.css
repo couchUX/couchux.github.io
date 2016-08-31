@@ -136,13 +136,13 @@
 }
 .axis-labels {
   font-weight: 600;
-  font-size: 0.8em;
+  font-size: 0.82em;
   fill: #242424;
   opacity: .8;
 }
 .points {
   font-weight: 500;
-  font-size: 0.8em;
+  font-size: 0.82em;
   fill: #242424;
   opacity: .8;
 }
