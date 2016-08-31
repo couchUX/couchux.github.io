@@ -3,7 +3,7 @@ var csv_url = "https://couchux.github.io/RBR_charts/2015_BamaMSU/SRXR_quarters/B
 
 /* run the whole chart function */
 
-srxrqChart(csv_url, "Alabama", "1"); //the latter part doesn't do anything, but I'd like to control the team from here
+srxrqChart(csv_url, "Alabama", "1");
 srxrqChart(csv_url, "Michigan State", "2");
 
 
@@ -36,17 +36,6 @@ function csv_response(which_team, what_order, error, data) {
   }
 }
 
-/* Some prep for building the d3 chart */
-var containerWidth = document.getElementById("srxr-q-charts-container").offsetWidth
-
-function chartWidthFn(containerWidth) {
-  if (containerWidth < 584) {
-    return containerWidth
-    }
-  else {
-    return containerWidth / 2
-    }
-}
 function render_SRXRquarters_chart(which_team, what_order) {
 
 /* tie chart colors to team names */
@@ -69,6 +58,22 @@ function defineChartClass() {
   return srxrqChartName + " chart" + what_order
 }
 
+/* responsiveness prep */
+responsive = function(w) {
+  if (w < rArrays.rWidths[0]) {
+    return 0
+    }
+  else if (w < rArrays.rWidths[1]) {
+    return 1
+    }
+  else if (w < rArrays.rWidths[2]) {
+    return 2
+    }
+  else {
+    return 3
+  }
+}
+
 var layout = {
   barHeight: 32,
   barMarginBoost: 1.1,
@@ -83,8 +88,14 @@ var layout = {
   titleAdjust: 8,
   bottomLabelAdj: 0,
 }
-
-var chartWidth = chartWidthFn(containerWidth)
+var rArrays = {
+    rWidths:          [380, 550, 680],
+    chartWidthAdj:    [1,1,.5,.5],
+    chartBtwWidthHz:  [0,0,6,6],
+}
+var allWidth = document.getElementById("srxr-q-charts-container").offsetWidth
+    chartBtwWidthHz = rArrays.chartBtwWidthHz[responsive(allWidth)]
+    chartWidth = allWidth * rArrays.chartWidthAdj[responsive(allWidth)] - chartBtwWidthHz - 1
     barHeightMulti = layout.barHeight * layout.barMarginBoost
     labelYadj = barHeightMulti * layout.labelYpc
     yKeys = layout.yAdjust - layout.titleAdjust
@@ -233,5 +244,11 @@ var teamChart = d3.select("#srxr-q-charts-container")
       .style("stroke-width",2)
       .style("stroke-dasharray","5,5")
       .style("d","M5 20 l215 0")
+
+/* applying a margin between charts responsively */
+    chartBtwMargins = d3.select(".chart1")
+      .insert("svg")
+      .attr("width",chartBtwWidthHz)
+      .attr("height",10)
 
 } //end of building chart in d3

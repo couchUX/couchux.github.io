@@ -21,6 +21,9 @@
   display: inline-block;
   margin-top: 8px;
 }
+.chart2 {
+  display: inline-block;
+}
 #runRate-chart, #srRP-chart {
   display: inline-block;
 }
@@ -52,6 +55,12 @@
   margin-top: 0px;
   margin-bottom: 12px;
   text-align: right;
+}
+.srxr-note {
+  margin-right: 2px;
+}
+.runRate-note {
+  margin-right: 8px;
 }
 .chartSubtitle {
   font-family:"Open Sans",sans-serif;

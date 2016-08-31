@@ -39,7 +39,7 @@ responsive = function(w) {
   else {
     return 3
   }
-} // how to avoid nested IFs here? Maybe use an array here too?
+}
 
 var layout = {
     btwCharts: 24,
@@ -58,17 +58,15 @@ var layout = {
     passSR_opacity: .3,
 }
 var rArrays = {
-    rWidths:            [380, 550, 680],
-    whMulti:            [.55, .42, .3, .3],
-    chartWidthAdj:      [1,1,.5,.5],
-    chartTwoMarginLeft: [0,0,8,8],
-    chartTwoMarginTop:  [12,12,0,0]
+    rWidths:          [380, 550, 680],
+    whMulti:          [.55, .42, .3, .3],
+    chartWidthAdj:    [1,1,.5,.5],
+    chartBtwWidthHz:  [0,0,6,6],
 }
 /* margins, widths, and X positions */
 var allWidth = document.getElementById("runRate-charts-container").offsetWidth
-    chartTwoMarginLeft = rArrays.chartTwoMarginLeft[responsive(allWidth)]
-    chartTwoMarginTop = rArrays.chartTwoMarginTop[responsive(allWidth)]
-    chartWidth = allWidth * rArrays.chartWidthAdj[responsive(allWidth)] - chartTwoMarginLeft
+    chartBtwWidthHz = rArrays.chartBtwWidthHz[responsive(allWidth)]
+    chartWidth = allWidth * rArrays.chartWidthAdj[responsive(allWidth)] - chartBtwWidthHz - 4
     chartHeight = allWidth * rArrays.whMulti[responsive(allWidth)]
     maxIndex = d3.max(runRateData,function(d,i) { return i })
     lineX = function(d,i) {
@@ -141,13 +139,14 @@ var rateSvg = d3.select("#runRate-chart")
       .append("svg")
       .attr("width",chartWidth)
       .attr("height",chartHeight)
-var srSvg = d3.select("#srRP-chart")
+    chartBtwMargins = d3.select("#runRate-chart")
+      .insert("svg")
+      .attr("width",chartBtwWidthHz)
+      .attr("height",10)
+    srSvg = d3.select("#srRP-chart")
       .append("svg")
       .attr("width",chartWidth)
       .attr("height",chartHeight)
-    chartAttr = d3.select("#srRP-chart")
-      .style("margin-left",chartTwoMarginLeft)
-      .style("margin-top",chartTwoMarginTop)
 
 /* draw chart backgrounds */
     rateSvg.append("rect")
