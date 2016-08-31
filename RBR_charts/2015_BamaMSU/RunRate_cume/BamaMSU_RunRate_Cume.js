@@ -61,7 +61,7 @@ var rArrays = {
     rWidths:          [380, 550, 680],
     whMulti:          [.55, .42, .3, .3],
     chartWidthAdj:    [1,1,.5,.5],
-    chartBtwWidthHz:  [0,0,6,6],
+    chartBtwWidthHz:  [0,0,10,10],
 }
 /* margins, widths, and X positions */
 var allWidth = document.getElementById("runRate-charts-container").offsetWidth

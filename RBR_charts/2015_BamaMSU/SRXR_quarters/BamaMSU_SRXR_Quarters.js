@@ -91,7 +91,7 @@ var layout = {
 var rArrays = {
     rWidths:          [380, 550, 680],
     chartWidthAdj:    [1,1,.5,.5],
-    chartBtwWidthHz:  [0,0,6,6],
+    chartBtwWidthHz:  [0,0,7,7],
 }
 var allWidth = document.getElementById("srxr-q-charts-container").offsetWidth
     chartBtwWidthHz = rArrays.chartBtwWidthHz[responsive(allWidth)]
