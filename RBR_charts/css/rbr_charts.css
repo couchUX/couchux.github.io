@@ -83,7 +83,10 @@
 }
 .expBars, .xBars {
   fill: #000000;
-  opacity: .5;
+  opacity: .45;
+}
+.xBars {
+  opacity: .65;
 }
 .qLabels {
   font-weight: 500;
