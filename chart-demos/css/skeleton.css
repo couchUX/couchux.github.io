@@ -388,7 +388,7 @@ hr {
   padding: 15px;
   font-size: 1em;
   color: #505050;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 .explain > p {
   margin-bottom: 1.5rem;
@@ -397,7 +397,7 @@ hr {
   font-weight: 600;
 }
 .highlight {
-  background: white;
+  background: normal;
 }
 
 @media (min-width: 550px) {
