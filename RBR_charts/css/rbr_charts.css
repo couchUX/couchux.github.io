@@ -45,7 +45,7 @@
 .chartNote {
   font-family:"Work Sans",sans-serif;
   color: #242424;
-  font-size: 0.7em !important;
+  font-size: 0.82em !important;
   letter-spacing: -0.3px;
   line-height: 1.5em;
   opacity: 0.5;
@@ -54,10 +54,10 @@
   text-align: right;
 }
 .srxr-note {
-  margin-right: 2px;
+  margin-right: 1%;
 }
 .runRate-note {
-  margin-right: 10px;
+  margin-right: 2%;
 }
 .chartSubtitle {
   font-family:"Open Sans",sans-serif;
