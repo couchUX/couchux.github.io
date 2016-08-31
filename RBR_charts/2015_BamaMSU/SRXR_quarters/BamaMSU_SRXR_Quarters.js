@@ -44,7 +44,7 @@ function chartWidthFn(containerWidth) {
     return containerWidth
     }
   else {
-    return containerWidth / 2 - 16 /* adjusting this from 8 for RBR tablet view */
+    return containerWidth / 2
     }
 }
 function render_SRXRquarters_chart(which_team, what_order) {

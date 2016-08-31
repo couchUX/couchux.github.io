@@ -7,11 +7,13 @@
   font-family:"Work Sans",sans-serif;
   max-width: 724px;
   margin-top: 12px;
-  margin-bottom: 12px;
   width: 100%;
 }
-#runRate-charts-container {
- margin-bottom: 6px;
+#plays-charts-container {
+  margin-bottom: 16px;
+}
+#runRate-chart, #srRP-chart {
+ margin-top: 4px;
 }
 .srxrq-chart {
   font-family:"Work Sans",sans-serif;
@@ -21,20 +23,6 @@
 }
 #runRate-chart, #srRP-chart {
   display: inline-block;
-}
-#srRP-chart {
-  margin-top: 12px;
-}
-@media screen and (min-width: 600px) {
-    .chart2 {
-        margin-left:16px;
-    }
-@media screen and (min-width: 550px) {
-    #srRP-chart {
-        margin-left:8px;
-        margin-top:0px;
-  }
-}
 }
 .plays-chart {
   font-family:"Work Sans",sans-serif;

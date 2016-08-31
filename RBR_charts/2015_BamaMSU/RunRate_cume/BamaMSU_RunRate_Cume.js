@@ -1,6 +1,6 @@
 /* select what csv should be run */
 var csv_url = "https://couchux.github.io/RBR_charts/2015_BamaMSU/RunRate_cume/2015_BamaMSU_RunRate_Cume.csv"
-runRateChart(csv_url);
+runRateChart(csv_url)
 
 /* defining the main chart functions */
 function runRateChart(data_url) {
@@ -55,19 +55,20 @@ var layout = {
     percentXadj: 3,
     quartersYadj: 6,
     quartersXadj: 5,
-    chart2marginL: 8,
     passSR_opacity: .3,
 }
 var rArrays = {
-    rWidths:        [380, 550, 680],
-    whMulti:        [.55, .42, .3, .3],
-    chartWidthAdj:  [1,1,.5,.5],
-    chartMarginAdj: [0,0,8,8]
+    rWidths:            [380, 550, 680],
+    whMulti:            [.55, .42, .3, .3],
+    chartWidthAdj:      [1,1,.5,.5],
+    chartTwoMarginLeft: [0,0,8,8],
+    chartTwoMarginTop:  [12,12,0,0]
 }
 /* margins, widths, and X positions */
 var allWidth = document.getElementById("runRate-charts-container").offsetWidth
-    chartMarginAdj = rArrays.chartMarginAdj[responsive(allWidth)]
-    chartWidth = allWidth * rArrays.chartWidthAdj[responsive(allWidth)] - chartMarginAdj
+    chartTwoMarginLeft = rArrays.chartTwoMarginLeft[responsive(allWidth)]
+    chartTwoMarginTop = rArrays.chartTwoMarginTop[responsive(allWidth)]
+    chartWidth = allWidth * rArrays.chartWidthAdj[responsive(allWidth)] - chartTwoMarginLeft
     chartHeight = allWidth * rArrays.whMulti[responsive(allWidth)]
     maxIndex = d3.max(runRateData,function(d,i) { return i })
     lineX = function(d,i) {
@@ -144,6 +145,9 @@ var srSvg = d3.select("#srRP-chart")
       .append("svg")
       .attr("width",chartWidth)
       .attr("height",chartHeight)
+    chartAttr = d3.select("#srRP-chart")
+      .style("margin-left",chartTwoMarginLeft)
+      .style("margin-top",chartTwoMarginTop)
 
 /* draw chart backgrounds */
     rateSvg.append("rect")
