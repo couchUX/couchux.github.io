@@ -50,7 +50,7 @@
     <div class="row">
       <div class="nine columns explain">
         <label>About the definitions</label>
-        <p>A "successful" football play, as defined by <a href="http://www.footballoutsiders.com/stats/ncaaoff" target="_blank">Football Outsiders</a>, is basically when a play gets enough yardage to keep the offense on track. That is: <span class="highlight">&nbsp;gaining 50% of needed yardage on 1st down, 70% on 2nd down, and 100% on 3rd or 4th.&nbsp;</span></p>
+        <p>A "successful" football play, as defined by <a href="http://www.footballoutsiders.com/stats/ncaaoff" target="_blank">Football Outsiders</a>, is basically when a play gets enough yardage to keep the offense on track. That is: <span class="highlight">&nbsp;gaining 50% of needed yardage on 1st down, 70% on 2nd down, or 100% on 3rd or 4th.&nbsp;</span></p>
         <p>A "big play" (aka an "explosive play") has different definitions for different analysts, but I'm using a generous one: <span class="highlight">&nbsp;a run of 12+ yards, or a pass of 16+ yards, is a big play.&nbsp;</span></p>
       </div>
     </div>
@@ -71,7 +71,8 @@
     </div>
     <div class="row">
       <div class = "eight columns">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Here's a pretty application of "success" metrics in a game. Quarters aren’t the most refined unit of game time you can examine, but it’s easy and there’s already contextual understanding. Here, it’s interesting to see that while the game was consistently lopsided on a “plays success” basis, the big play rates were similar.</p>
+        <p>These two bar charts are actually the same D3 function with the team names, filters, and colors pulled in as arguments. This saved me some lines of code in the JS file, but it pulls from the source (a hosted .csv file) twice, which isn’t optimal. At some point I’ll rebuild it to avoid that overhead.</p>
       </div>
     </div>
 
@@ -91,7 +92,8 @@
     </div>
     <div class="row">
       <div class="eight columns">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>The gameflow dot-plot-like chart was prominently featured in my original piece about football charting (where the dots <a href="https://medium.com/alex-couch-s-portfolio/what-does-a-football-game-look-like-32c899ab39a4#.6hnaue3ei" target="_blank">look much more dot-like</a>). The quarter quintiles help show a more granular “flow” to the game by breaking down quarters according to game clock (15:00 left, then 12:, 9:, 6:, 3:). The resulting illustration is interesting, but I’m not sure that it’s superior to the prior chart, in part because people can often confuse the quarter quintiles for offensive drives.</p>
+        <p>I had to around my D3 capabilities on this one a fair amount, e.g., using rectangles instead of circles to represent plays. Instead of arranging the plays on the page according to their play outcome type, team, quarter quintile, and quarter quintile play count (phew...), I instead drew the quarter quintiles as cascading vertical bars (first the unsuccessful plays, then successful, then big plays). I’m happy with the result in the near term, but would like to “really” render the dot plot later on so that I can introduce interactivity (e.g., hovering over a play brings up the play description) and layer over play type symbols.</p>
       </div>
     </div>
 
@@ -99,7 +101,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="row chart-row">
       <div class="nine columns">
-        <h5 class="chartTitle">Running and Passing (#RTDBL)</h5>
+        <h5 class="chartTitle">Running and Passing</h5>
         <div class="titleHR"></div>
         <div id="runRate-charts-container">
           <div id="runRate-chart">
@@ -113,11 +115,18 @@
         <p class="chartNote runRate-note">* NCAA average SR = 42%</p>
       </div>
     </div>
-    <div class="row" style="margin-bottom: 10%">
+    <div class="row">
       <div class="eight columns"
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>The line charts were fun for a few reasons. For one, the Alabama football fan base loves when the team runs the ball, so it’s interesting to see here that passing was the much more successful effort of the game (and how the offensive coordinator followed that trend by passing more often, up until the team was way ahead, that is).</p>
+        <p>Also, this is the kind of chart where D3 is the most helpful: drawing multipoint SVG images (like a polyline) and placing them on HTML. A developer friend even said that the other charts here might be executed better in pure HTML, rather than even using SVGs. Be that as it may, I’m happy with how things have progressed.</p>
       </div>
     </div>
+    <div class="row" style="margin-bottom: 10%;">
+      <div class="one-half column">
+        <p>That’s all for now. More to come this season!</p>
+        <p>- Alex</p>
+        <p><a href="https://medium.com/alex-couch-s-portfolio">my portfolio</a> |
+            <a href="http://bit.ly/couch-linkedin">my LinkedIn</a></p>
   </div>
 
 <!-- End Document
