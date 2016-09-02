@@ -1,6 +1,8 @@
 /* select what csv should be run */
 var csv_url = "https://couchux.github.io/RBR_charts/2015_BamaMSU/RunRate_cume/2015_BamaMSU_RunRate_Cume.csv"
-runRateChart(csv_url)
+    delay = 500;
+
+setTimeout(function() { runRateChart(csv_url) }, delay)
 
 /* defining the main chart functions */
 function runRateChart(data_url) {

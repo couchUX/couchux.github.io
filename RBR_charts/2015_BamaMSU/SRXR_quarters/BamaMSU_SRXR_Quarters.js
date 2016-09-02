@@ -2,11 +2,12 @@
 var csv_url = "https://couchux.github.io/RBR_charts/2015_BamaMSU/SRXR_quarters/BamaMSU_SRXR_Quarters.csv"
 
 /* run the whole chart function */
+srxrqCharts()
 
-srxrqChart(csv_url, "Alabama", "1");
-srxrqChart(csv_url, "Michigan State", "2");
-
-
+function srxrqCharts() {
+  srxrqChart(csv_url, "Alabama", "1")
+  srxrqChart(csv_url, "Michigan State", "2")
+}
 
 /* defining the main chart functions */
 function srxrqChart(data_url, which_team, what_order) {
