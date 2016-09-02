@@ -13,6 +13,9 @@
 #runRate-chart, #srRP-chart {
  margin-top: 4px;
 }
+.rbr-chart {
+  max-width: 724px;
+}
 .srxrq-chart {
   font-family:"Work Sans",sans-serif;
   min-width:200px;

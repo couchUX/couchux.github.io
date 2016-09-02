@@ -1,6 +1,7 @@
 /* select what csv should be run */
-var csv_url = "https://couchux.github.io/RBR_charts/2015_BamaMSU/Plays_quintiles/2015_BamaMSU_Plays_Quintiles.csv"
-playsChart(csv_url);
+var plays_csv_url = "https://couchux.github.io/RBR_charts/2015_BamaMSU/Plays_quintiles/2015_BamaMSU_Plays_Quintiles.csv"
+
+playsChart(plays_csv_url)
 
 /* defining the main chart functions */
 function playsChart(data_url) {
