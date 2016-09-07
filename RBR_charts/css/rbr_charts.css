@@ -182,10 +182,16 @@ span.xRed {
 .explain-rbr p {
   font-size: 14px !important;
   line-height: 1.5 !important;
+  margin-bottom: 0 !important;
 }
 .bold-rbr {
   font-weight: 600;
 }
 #backup-img {
   display: none;
+  margin-bottom: 20px;
+}
+.prompt-text {
+  display: inline-block;
+  margin-right: 6px;
 }
