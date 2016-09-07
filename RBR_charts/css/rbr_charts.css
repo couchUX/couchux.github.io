@@ -178,7 +178,10 @@ span.xRed {
   color: #505050;
   margin-bottom: 20px;
   font-family:"Open Sans",sans-serif;
-  line-height: 1.5em;
+}
+.explain-rbr p {
+  font-size: 14px !important;
+  line-height: 1.5 !important;
 }
 .bold-rbr {
   font-weight: 600;
