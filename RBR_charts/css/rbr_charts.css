@@ -168,3 +168,18 @@ span.sRed {
 span.xRed {
   color: #620E23;
 }
+/* css for metrics explanation box */
+.explain-rbr {
+  background-image: url(https://couchux.github.io/chart-demos/images/dots/grey_dot_2x_15.png);
+  background-repeat: repeat;
+    background-repeat-x: repeat;
+    background-repeat-y: repeat;
+  padding: 15px;
+  color: #505050;
+  margin-bottom: 20px;
+  font-family:"Open Sans",sans-serif;
+  line-height: 1.5em;
+}
+.bold-rbr {
+  font-weight: 600;
+}
