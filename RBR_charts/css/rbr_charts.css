@@ -171,7 +171,7 @@ span.xRed {
 /* css for metrics explanation box */
 .explain-rbr {
   background-image: url(https://couchux.github.io/chart-demos/images/dots/grey_dot_2x_15.png);
-  background-repeat: repeat;
+  background-repeat: repeat;k
     background-repeat-x: repeat;
     background-repeat-y: repeat;
   padding: 15px;
@@ -187,7 +187,7 @@ span.xRed {
 .bold-rbr {
   font-weight: 600;
 }
-#backup-img {
+#backup-img-srxr, #backup-img-plays, #backup-img-runRate {
   display: none;
   margin-bottom: 20px;
 }
