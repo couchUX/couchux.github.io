@@ -186,3 +186,6 @@ span.xRed {
 .bold-rbr {
   font-weight: 600;
 }
+#backup-img {
+  display: none;
+}
