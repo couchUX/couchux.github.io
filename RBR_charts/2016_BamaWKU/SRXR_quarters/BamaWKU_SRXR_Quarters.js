@@ -6,7 +6,7 @@ srxrqCharts()
 
 function srxrqCharts() {
   srxrqChart(srxrq_csv_url, "Alabama", "1")
-  srxrqChart(srxrq_csv_url, "WKU", "2")
+  srxrqChart(srxrq_csv_url, "Western Kentucky", "2")
 }
 
 /* defining the main chart functions */
@@ -42,7 +42,7 @@ function render_SRXRquarters_chart(which_team, what_order) {
 /* tie chart colors to team names */
 var teamColors = {
   "Alabama": "#C31C45",
-  "USC": "#333333" // dark version was "#205649"
+  "Western Kentucky": "#5B5B5B" // dark version was "#205649"
 }
     gameColor = "#5C5C5C"
 
