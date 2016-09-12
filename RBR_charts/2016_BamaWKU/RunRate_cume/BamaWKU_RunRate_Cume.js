@@ -47,7 +47,7 @@ var layout = {
     rateScale: .75,
     srScale: .75,
     rateAvg: .5,
-    srAvg: .42,
+    srAvg: .4,
     lineStrokeW: 3,
     gridStrokeW: 1.5,
     gridStrokeW_thick: 3,
