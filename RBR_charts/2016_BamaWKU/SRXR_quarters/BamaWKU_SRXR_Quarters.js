@@ -6,7 +6,7 @@ srxrqCharts()
 
 function srxrqCharts() {
   srxrqChart(srxrq_csv_url, "Alabama", "1")
-  srxrqChart(srxrq_csv_url, "Western Kentucky", "2")
+  srxrqChart(srxrq_csv_url, "W. Kentucky", "2")
 }
 
 /* defining the main chart functions */
@@ -20,17 +20,20 @@ function csv_response(which_team, what_order, error, data) {
   }
   else {
     console.log("data loaded")
-    srxrqData = data.filter(function(row){
-      return row.Team == which_team  //try to Filter/reformat ("Transform") outside of data pull
-    })
     data.forEach(function(d) {
       d.SuccessRate = +d.SuccessRate
+      if (d.Team == "Western Kentucky") {
+        d.Team = "W. Kentucky"
+      }
       if (d.Quarter !== "Game") {
         d.Quarter = "Q" + +d.Quarter
       }
       else {
         d.Quarter = d.Quarter
       }
+    })
+    srxrqData = data.filter(function(row){
+      return row.Team == which_team  //try to Filter/reformat ("Transform") outside of data pull
     })
 
     render_SRXRquarters_chart(which_team, what_order)
@@ -42,7 +45,7 @@ function render_SRXRquarters_chart(which_team, what_order) {
 /* tie chart colors to team names */
 var teamColors = {
   "Alabama": "#C31C45",
-  "Western Kentucky": "#5B5B5B" // dark version was "#205649"
+  "W. Kentucky": "#5B5B5B" // dark version was "#205649"
 }
     gameColor = "#5C5C5C"
 

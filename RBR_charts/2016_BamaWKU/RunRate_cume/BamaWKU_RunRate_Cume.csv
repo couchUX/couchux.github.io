@@ -1,4 +1,4 @@
-Team,Quarter_quintile,Run_U_plays,Pass_U_plays,Run_S_plays,Pass_S_plays,Run_SR_cume,Pass_SR_cume,RunRate_cume
+Team,,Run_U_plays,Pass_U_plays,Run_S_plays,Pass_S_plays,Run_SR_cume,Pass_SR_cume,RunRate_cume
 Alabama,1.1,2,1,1,1,0.33,0.50,0.60
 Alabama,1.2,2,0,1,1,0.33,0.67,0.67
 Alabama,1.3,3,4,1,5,0.30,0.58,0.45
