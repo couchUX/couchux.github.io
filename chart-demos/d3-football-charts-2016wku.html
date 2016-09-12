@@ -121,7 +121,7 @@
         <p>Also, this is the kind of chart where D3 is the most helpful: drawing multipoint SVG images (like a polyline) and placing them on HTML. A developer friend even said that bar charts might be executed better in pure HTML, rather than even using SVGs. Be that as it may, I’m happy with how things have progressed.</p>
       </div>
     </div>
-    <div class="row" style="margin-bottom: 10%;">
+    <div class="row">
       <div class="eight columns">
         <p>That’s all for now. More to come this season!</p>
         <p>- Alex</p>
@@ -135,6 +135,21 @@
         <input type="button" value="Show chart" id="backup-img-button">
       <script src="../RBR_charts/backup_images.js"></script>
       </div>
+  </div>
+  <div class="row" style="margin-bottom: 10%;">
+    <div class="nine columns">
+      <table id="runDir-table"><tr><th>Run Direction</th><th class="col-right">Plays</th><th class="col-right">Success Rate</th><th class="col-right">Big Play Rate</th></tr>
+        <tr><td>Left end</td><td class="col-right bold-rbr">8</td><td class="col-right bold-rbr">38%</td><td class="col-right"></td></tr>
+        <tr><td>Left tackle</td><td class="col-right bold-rbr">4</td><td class="col-right">25%</td><td class="col-right"></td></tr>
+        <tr class="tr-heavy"><td>Left guard</td><td class="col-right">1</td><td class="col-right">100%</td><td class="col-right"></td></tr>
+        <tr><td>Middle</td><td class="col-right bold-rbr">8</td><td class="col-right" style="color:red; font-weight:bold;">13%</td><td class="col-right"></td></tr>
+        <tr><td>QB draw</td><td class="col-right">2</td><td class="col-right">50%</td><td class="col-right"></td></tr>
+        <tr class="tr-heavy"><td>RB draw</td><td class="col-right">1</td><td class="col-right">100%</td><td class="col-right"></td></tr>
+        <tr><td>Right guard</td><td class="col-right">3</td><td class="col-right">33%</td><td class="col-right bold-rbr">33%</td></tr>
+        <tr><td>Right tackle</td><td class="col-right bold-rbr">4</td><td class="col-right bold-rbr">50%</td><td class="col-right bold-rbr">25%</td></tr>
+        <tr class="tr-heavy"><td>Right end</td><td class="col-right bold-rbr">4</td><td class="col-right bold-rbr">50%</td><td class="col-right"></td></tr>
+        <tr><td>Reverse</td><td class="col-right">1</td><td class="col-right">100%</td><td class="col-right"></td></tr>
+      </table>
     </div>
   </div>
 

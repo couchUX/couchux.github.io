@@ -185,7 +185,7 @@ span.xRed {
   margin-bottom: 0 !important;
 }
 .bold-rbr {
-  font-weight: 600;
+  font-weight: 700;
 }
 #backup-img-srxr, #backup-img-plays, #backup-img-runRate {
   display: none;
@@ -194,4 +194,13 @@ span.xRed {
 .prompt-text {
   display: inline-block;
   margin-right: 6px;
+}
+#runDir-table {
+  width: 100%
+}
+.col-right {
+  text-align: right;
+}
+.tr-heavy > td {
+  border-bottom-width: thick;
 }
