@@ -202,5 +202,5 @@ span.xRed {
   text-align: right;
 }
 .tr-heavy > td {
-  border-bottom-width: thick;
+  border-bottom-color: gray;
 }
