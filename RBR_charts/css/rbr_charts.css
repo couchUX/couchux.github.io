@@ -1,16 +1,18 @@
 /* responsiveness */
-#srxr-q-charts-container, #plays-charts-container, #runRate-charts-container {
+#srxr-q-charts-container,
+#plays-charts-container,
+#runRate-charts-container,
+#runPass-charts-container {
   width: 100%;
 }
-#plays-charts-container, #runRate-charts-container {
+#plays-charts-container, #runRate-charts-container, #runPass-charts-container {
   font-family:"Work Sans",sans-serif;
   margin-top: 12px;
 }
-
 #plays-charts-container {
   margin-bottom: 16px;
 }
-#runRate-chart, #srRP-chart {
+#runRate-chart, #srRP-chart, #runPass-rate-chart, #runPass-sr-chart {
  margin-top: 4px;
 }
 .rbr-chart {
@@ -25,7 +27,7 @@
 .chart2 {
   display: inline-block;
 }
-#runRate-chart, #srRP-chart {
+#runRate-chart, #srRP-chart, #runPass-rate-chart, #runPass-sr-chart {
   display: inline-block;
 }
 .plays-chart {
