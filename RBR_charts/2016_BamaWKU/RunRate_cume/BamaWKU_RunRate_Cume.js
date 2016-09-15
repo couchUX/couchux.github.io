@@ -4,8 +4,8 @@ var runRate_csv_url = "https://couchux.github.io/RBR_charts/2016_BamaWKU/RunRate
 runRateChart(runRate_csv_url)
 
 /* defining the main chart functions */
-function runRateChart(data_url) {
-  d3.csv(data_url, csv_response)
+function runRateChart(url) {
+  d3.csv(url, csv_response)
 }
 function csv_response(error, data) {
   if (error) {
@@ -46,7 +46,6 @@ var layout = {
     btwCharts: 24,
     rateScale: .75,
     srScale: .75,
-    rateAvg: .5,
     srAvg: .4,
     lineStrokeW: 3,
     gridStrokeW: 1.5,
@@ -78,9 +77,6 @@ var allWidth = document.getElementById("runRate-charts-container").offsetWidth
     }
 
 /* heights and Y positions */
-    srSvgY = function() {
-      return "translate(0," + (chartHeight + layout.btwCharts) + ")"
-    }
     rateGridY = function(item) {
       return chartHeight - (item * chartHeight / layout.rateScale)
     }
@@ -103,9 +99,6 @@ var allWidth = document.getElementById("runRate-charts-container").offsetWidth
 /* color selections */
     teamColor = function(team_name) {
       return teamColors[team_name]
-    }
-    barColor = function(d,i) {
-        return teamColor(d.Team)
     }
     gridWidthVert = layout.gridStrokeW
     gridColorVert = "#242424"

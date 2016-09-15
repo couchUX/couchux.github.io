@@ -1,11 +1,12 @@
-/* select what csv should be run */
-var runPass_csv_url = "https://couchux.github.io/RBR_charts/2016_BamaWKU/RunRate_cume/BamaWKU_RunRate_Cume.csv"
+function runPass_charts(csv_url, team_1, team_2) {
 
-runRateChart(runPass_csv_url)
+var team1 = team_1
+var team2 = team_2
 
-/* defining the main chart functions */
-function runRateChart(data_url) {
-  d3.csv(data_url, csv_response)
+get_runPass_data(csv_url)
+
+function get_runPass_data(url) {
+  d3.csv(url, csv_response)
 }
 function csv_response(error, data) {
   if (error) {
@@ -13,7 +14,7 @@ function csv_response(error, data) {
   }
   else {
     console.log("data loaded")
-    runRateData = data
+    runPassData = data
     render_runPass_charts()
   }
 }
@@ -21,145 +22,58 @@ function csv_response(error, data) {
 /* render d3 charts */
 function render_runPass_charts() {
 
-/* team colors */
-var teamColors = {
-  "Alabama": "#C31C45",
-}
-
-/* responsiveness prep */
-responsive = function(w) {
-  if (w < rArrays.rWidths[0]) {
-    return 0
-    }
-  else if (w < rArrays.rWidths[1]) {
-    return 1
-    }
-  else if (w < rArrays.rWidths[2]) {
-    return 2
-    }
-  else {
-    return 3
-  }
-}
-
-var layout = {
-    btwCharts: 24,
-    rateScale: .75,
-    srScale: .75,
-    rateAvg: .5,
-    srAvg: .4,
-    lineStrokeW: 3,
-    gridStrokeW: 1.5,
-    gridStrokeW_thick: 3,
-    gridKeyStrokeW: 1.5,
-    percentYadj: 14,
-    percentXadj: 3,
-    quartersYadj: 6,
-    quartersXadj: 5,
-    passSR_opacity: .3,
-}
-var rArrays = {
-    rWidths:          [380, 550, 680],
-    whMulti:          [.55, .42, .3, .3],
-    chartWidthAdj:    [1,1,.5,.5],
-    chartBtwWidthHz:  [0,0,10,10],
-}
-/* margins, widths, and X positions */
-var allWidth = document.getElementById("runPass-charts-container").offsetWidth
-    chartBtwWidthHz = rArrays.chartBtwWidthHz[responsive(allWidth)]
-    chartWidth = allWidth * rArrays.chartWidthAdj[responsive(allWidth)] - chartBtwWidthHz - 4
-    chartHeight = allWidth * rArrays.whMulti[responsive(allWidth)]
-    maxIndex = d3.max(runRateData,function(d,i) { return i })
-    lineX = function(d,i) {
-      return i / maxIndex * chartWidth
-    }
-    gridX = function(item) {
-      return chartWidth * item
-    }
-
-/* heights and Y positions */
-    srSvgY = function() {
-      return "translate(0," + (chartHeight + layout.btwCharts) + ")"
-    }
-    rateGridY = function(item) {
-      return chartHeight - (item * chartHeight / layout.rateScale)
-    }
-    srGridY = function(item) {
-      return chartHeight - (item * chartHeight / layout.srScale)
-    }
-    srGuideY = function() {
-      return chartHeight - (layout.srAvg * chartHeight / layout.srScale)
-    }
-    runRateY = function(d,i) {
-      return chartHeight - (d.RunRate_cume * chartHeight / layout.rateScale)
-    }
-    runSRY = function(d,i) {
-      return chartHeight - (d.Run_SR_cume * chartHeight / layout.srScale)
-    }
-    passSRY = function(d,i) {
-      return chartHeight - (d.Pass_SR_cume * chartHeight / layout.srScale)
-    }
-
-/* color selections */
-    teamColor = function(team_name) {
-      return teamColors[team_name]
-    }
-    barColor = function(d,i) {
-        return teamColor(d.Team)
-    }
-    gridWidthVert = layout.gridStrokeW
-    gridColorVert = "#242424"
-    gridClassVert = "gridLine"
-    gridWidthHz = layout.gridStrokeW_thick
-    gridColorHz = "white"
-    gridClassHz = "gridLine_white"
-
-/* naming and such */
-function quarterNameFn(name) {
-  return quarterNames[name]
-}
-var quarterNames = {
-    .25:"thru Q1",
-    .5:"thru Q2",
-    .75:"thru Q3",
-    1:"game"
-}
-function percentNameFn(name) {
-  return percentNames[name]
-}
-var percentNames = {
-    .25:"25",
-    .5:"50",
-    .75:"75%",
-}
-function srAvgText() {
-  return +layout.srAvg * 100 + "%*"
-}
-/* actually building the chart in d3 */
+/* set up containers and backgrounds */
 var rateSvg = d3.select("#runPass-rate-chart")
-      .append("svg")
-      .attr("width",chartWidth)
-      .attr("height",chartHeight)
-    chartBtwMargins = d3.select("#runPass-rate-chart")
-      .insert("svg")
-      .attr("width",chartBtwWidthHz)
-      .attr("height",10)
-    srSvg = d3.select("#runPass-sr-chart")
-      .append("svg")
-      .attr("width",chartWidth)
-      .attr("height",chartHeight)
-
-/* draw chart backgrounds */
-    rateSvg.append("rect")
-      .attr("class","backBar")
-      .attr("width",chartWidth)
-      .attr("height",chartHeight)
-    srSvg.append("rect")
-      .attr("class","backBar")
-      .attr("width",chartWidth)
-      .attr("height",chartHeight)
+  .append("svg")
+  .attr("class","runPass-svg")
+  .attr("width","100%")
+  .attr("height","100%")
+var rateBg = rateSvg.append("rect")
+  .attr("class","runPass-bg")
+var srSvg = d3.select("#runPass-sr-chart")
+  .append("svg")
+  .attr("class","runPass-svg")
+  .attr("width","100%")
+  .attr("height","100%")
+var srBg = srSvg.append("rect")
+  .attr("class","runPass-bg")
 
 /* draw grid */
+var runRateMax = d3.max(runPassData.filter(function(d,i) { return d.Team = team1 }),function(d,i) { return +d.RunRate_cume })
+var runSrMax = d3.max(runPassData.filter(function(d,i) { return d.Team = team1 }),function(d,i) { return +d.SR_run_cume })
+var passSrMax = d3.max(runPassData.filter(function(d,i) { return d.Team = team1 }),function(d,i) { return +d.SR_pass_cume })
+var heightMax = Math.max(runRateMax,runSrMax,passSrMax)
+function heightAdj() {
+  if (heightMax >= 0.75){
+    return heightMax
+    }
+  else {
+    return .75
+  }
+}
+var yScale = d3.scaleLinear()
+  .domain([0,1])
+  .range([1,0])
+function yPercent(y) {
+  return yScale(y) * 100 + "%"
+}
+var grid_hz_arr = [.25,.5,.75]
+grid_hz_arr.forEach(gridHz)
+
+function gridHz(item) {
+  rateSvg.append("line")
+    .attr("class","grid-hz")
+    .attr("x1",0)
+    .attr("x2","100%")
+    .attr("y1",yPercent(item))
+    .attr("y2",yPercent(item))
+  srSvg.append("line")
+    .attr("class","grid-hz")
+    .attr("x1",0)
+    .attr("x2","100%")
+    .attr("y1",yPercent(item))
+    .attr("y2",yPercent(item))
+}
 var grid_nums_x = [.25,.5,.75]
 grid_nums_x.forEach(gridVert)
 
@@ -256,17 +170,17 @@ function quarterText(item) {
       .curve(d3.curveBasis)
 
     runRateLine = rateSvg.append("path")
-      .attr("d",runRateLineFn(runRateData))
+      .attr("d",runRateLineFn(runPassData))
       .attr("stroke",teamColors.Alabama)
       .attr("stroke-width",layout.lineStrokeW)
       .attr("fill","none")
     runSRLine = srSvg.append("path")
-      .attr("d",runSRLineFn(runRateData))
+      .attr("d",runSRLineFn(runPassData))
       .attr("stroke",teamColors.Alabama)
       .attr("stroke-width",layout.lineStrokeW)
       .attr("fill","none")
     passSRLine = srSvg.append("path")
-      .attr("d",passSRLineFn(runRateData))
+      .attr("d",passSRLineFn(runPassData))
       .attr("stroke",teamColors.Alabama)
       .attr("stroke-width",layout.lineStrokeW)
       .attr("opacity",layout.passSR_opacity)
@@ -290,4 +204,5 @@ function quarterText(item) {
       .attr("y",srGuideY() + layout.percentYadj)
       .text(srAvgText)
 
-} //end of building chart in d3
+}
+}

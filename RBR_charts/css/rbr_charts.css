@@ -1,4 +1,3 @@
-/* responsiveness */
 #srxr-q-charts-container,
 #plays-charts-container,
 #runRate-charts-container,
@@ -29,6 +28,10 @@
 }
 #runRate-chart, #srRP-chart, #runPass-rate-chart, #runPass-sr-chart {
   display: inline-block;
+}
+#runPass-rate-chart, #runPass-sr-chart {
+  width: 100%;
+  height: 200px;
 }
 .plays-chart {
   font-family:"Work Sans",sans-serif;
@@ -83,8 +86,12 @@
 .teamTitle.lg {
   font-size: 1em;
 }
-.backBar {
+.backBar, .runPass-bg {
   fill: #F1F1F1;
+}
+.runPass-bg {
+  width: 100%;
+  height: 100%;
 }
 .expBars, .xBars {
   fill: #000000;
@@ -138,6 +145,12 @@
   font-size: 0.75em !important;
   letter-spacing: -0.3px;
   opacity: 0.45;
+}
+.grid-hz {
+  stroke: white;
+  stroke-width: 3;
+  x1: 0;
+  x2: 100%;
 }
 .axis-labels {
   font-weight: 600;
