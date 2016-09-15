@@ -21,7 +21,6 @@ function csv_response(error, data) {
 
 function render_runPass_charts() {
 
-/* scontainers and backgrounds */
 var rateSvg = d3.select("#runPass-rate-chart")
   .append("svg")
   .attr("class","runPass-svg")
