@@ -33,6 +33,23 @@
   width: 100%;
   height: 200px;
 }
+@media only screen and (min-width: 600px) {
+  c-entry-content > #runPass-rate-chart,
+  c-entry-content > #runPass-sr-chart {
+    width: 49.2%;
+  }
+  c-entry-content > #runPass-sr-chart {
+    margin-left: 1.6%;
+  }
+}
+@media only screen and (min-width: 900px) {
+  #runPass-rate-chart, #runPass-sr-chart {
+    width: 49.2%;
+  }
+  #runPass-sr-chart {
+    margin-left: 1.6%;
+  }
+}
 .plays-chart {
   font-family:"Work Sans",sans-serif;
 }
@@ -74,7 +91,6 @@
   line-height: 1.5em;
   margin-top: 0px;
   margin-bottom:3px;
-  width: inherit;
 }
 .teamTitle {
   font-weight: 400;
@@ -134,7 +150,9 @@
   opacity: .3; /* stroke attributes are in the script itself */
 }
 .gridLine {
-  opacity: .12; /* stroke attributes are in the script itself */
+  stroke: #242424;
+  stroke-width: 2px;
+  opacity: .12;
 }
 .gridLine_white {
   opacity: 1;
@@ -146,11 +164,9 @@
   letter-spacing: -0.3px;
   opacity: 0.45;
 }
-.grid-hz {
+.grid-white {
   stroke: white;
   stroke-width: 3;
-  x1: 0;
-  x2: 100%;
 }
 .axis-labels {
   font-weight: 600;

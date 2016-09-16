@@ -1,7 +1,4 @@
-function runPass_charts(csv_url, team_1, team_2, height_adj) {
-
-var team1 = team_1
-var team2 = team_2
+function runPass_charts(csv_url, team1, team2, height_adj) {
 
 get_runPass_data(csv_url)
 
@@ -36,16 +33,12 @@ var srSvg = d3.select("#runPass-sr-chart")
     .append("rect")
     .attr("class","runPass-bg")
 
-/* grid */
-var teamFilter = runPassData.filter(function(d,i) { return d.Team = team1 })
-var runRateMax = d3.max(teamFilter,function(d,i) { return +d.RunRate_cume })
-var runSrMax = d3.max(teamFilter,function(d,i) { return +d.SR_run_cume })
-var passSrMax = d3.max(teamFilter,function(d,i) { return +d.SR_pass_cume })
-var heightMax = Math.max(runRateMax,runSrMax,passSrMax)
-
-var yScale = d3.scaleLinear().domain([0,height_adj]).range([1,0])
+/* percentages (horizontal) grid */
+var yScale = d3.scaleLinear()
+  .domain([0,height_adj])
+  .range([1,0])
 function yPercent(y) {
-  return yScale(y).toFixed(2) * 100 + "%"
+  return yScale(y) * 100 + "%"
 }
 function yLabel(y) {
   return y.toFixed(2) * 100 + "%"
@@ -53,24 +46,48 @@ function yLabel(y) {
 
 var gridTxtAdjX = 4
 var gridTxtAdjY = 16
-
 var grid_hz_arr = [.25,.5,.75]
 grid_hz_arr.forEach(gridHz)
 
 function gridHz(item) {
-  d3.selectAll(".runPass-svg").append("line")
-    .attr("class","grid-hz")
+  d3.selectAll(".runPass-svg")
+    .append("line")
+    .attr("class","grid-white")
     .attr("x1",0)
     .attr("x2","100%")
     .attr("y1",yPercent(item))
     .attr("y2",yPercent(item))
-  d3.selectAll(".runPass-svg").append("text")
+  d3.selectAll(".runPass-svg")
+    .append("text")
     .text(yLabel(item))
     .attr("class","gridText")
     .attr("x",gridTxtAdjX)
     .attr("y",yPercent(item))
     .attr("transform","translate(0," + gridTxtAdjY + ")")
 }
+/* quarters (vertical) grid */
+var teamFilter = runPassData.filter(function(d) { return d.Team == team1 })
+var newQtFilter = runPassData.filter(function(d) { return +d.New_quarter > 0 })
+var playNumMax = d3.max(teamFilter,function(d) { return +d.Play_num_team })
+var xScale = d3.scaleLinear()
+  .domain([1,playNumMax])
+  .range([0,100])
+function xPercent(x) {
+  return xScale(x) + "%"
+}
+gridVt()
 
+function gridVt() {
+  d3.selectAll(".runPass-svg")
+    .selectAll("line")
+    .data(teamFilter)
+    .enter()
+    .filter(function(d) { return +d.New_quarter > 0 })
+    .append("line")
+    .attr("class","gridLine")
+    .attr("x1",function(d) { return xPercent(d.Play_num_team) })
+    .attr("x2",function(d) { return xPercent(d.Play_num_team) })
+    .attr("y1",0)
+    .attr("y2","100%")}
 }
 }
