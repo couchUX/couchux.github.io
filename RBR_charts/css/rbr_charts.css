@@ -50,6 +50,15 @@
     margin-left: 1.6%;
   }
 }
+
+.svg-stack {
+  float: left;
+}
+.svg-bg {
+  fill: #242424;
+  height: 40%;
+  width: 60%;
+}
 .plays-chart {
   font-family:"Work Sans",sans-serif;
 }
@@ -167,6 +176,14 @@
 .grid-white {
   stroke: white;
   stroke-width: 3;
+}
+.run-rate-line, .run-sr-line, .pass-sr-line {
+  stroke: #C31C45;
+  stroke-width: 3;
+  fill: none;
+}
+.pass-sr-line {
+  opacity: .3;
 }
 .axis-labels {
   font-weight: 600;
