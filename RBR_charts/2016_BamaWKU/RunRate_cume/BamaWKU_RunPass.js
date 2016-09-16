@@ -44,10 +44,10 @@ function yLabel(y) {
   return y.toFixed(2) * 100 + "%"
 }
 
-var gridTxtAdjX = 4
-var gridTxtAdjY = 16
-var grid_hz_arr = [.25,.5,.75]
-grid_hz_arr.forEach(gridHz)
+var gridPcAdjX = 4
+var gridPcAdjY = 16
+var grid_pc_arr = [.25,.5,.75]
+grid_pc_arr.forEach(gridHz)
 
 function gridHz(item) {
   d3.selectAll(".runPass-svg")
@@ -61,19 +61,32 @@ function gridHz(item) {
     .append("text")
     .text(yLabel(item))
     .attr("class","gridText")
-    .attr("x",gridTxtAdjX)
+    .attr("x",gridPcAdjX)
     .attr("y",yPercent(item))
-    .attr("transform","translate(0," + gridTxtAdjY + ")")
+    .attr("transform","translate(0," + gridPcAdjY + ")")
 }
 /* quarters (vertical) grid */
 var teamFilter = runPassData.filter(function(d) { return d.Team == team1 })
-var newQtFilter = runPassData.filter(function(d) { return +d.New_quarter > 0 })
 var playNumMax = d3.max(teamFilter,function(d) { return +d.Play_num_team })
 var xScale = d3.scaleLinear()
   .domain([1,playNumMax])
   .range([0,100])
 function xPercent(x) {
   return xScale(x) + "%"
+}
+function playNumX(d,i) {
+  return xPercent(d.Play_num_team)
+}
+var gridQtY = "97%"
+var gridQtAdjX = 5
+function quarterNameFn(name) {
+  return quarterNames[name]
+}
+var quarterNames = {
+    1:"1st",
+    2:"2nd",
+    3:"3rd",
+    4:"4th",
 }
 gridVt()
 
@@ -82,12 +95,24 @@ function gridVt() {
     .selectAll("line")
     .data(teamFilter)
     .enter()
-    .filter(function(d) { return +d.New_quarter > 0 })
+    .filter(function(d) { return d.New_q_team !== "" })
     .append("line")
     .attr("class","gridLine")
-    .attr("x1",function(d) { return xPercent(d.Play_num_team) })
-    .attr("x2",function(d) { return xPercent(d.Play_num_team) })
+    .attr("x1",playNumX)
+    .attr("x2",playNumX)
     .attr("y1",0)
-    .attr("y2","100%")}
+    .attr("y2","100%")
+  d3.selectAll(".runPass-svg")
+    .selectAll("line")
+    .data(teamFilter)
+    .enter()
+    .filter(function(d) { return d.New_q_team !== "" })
+    .append("text")
+    .text(function(d) { return quarterNameFn(+d.Quarter) })
+    .attr("class","gridText")
+    .attr("x",function(d) { return xPercent(d.Play_num_team) })
+    .attr("transform","translate(" + gridQtAdjX + ",0)")
+    .attr("y",gridQtY)
+}
 }
 }
