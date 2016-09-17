@@ -40,7 +40,7 @@ var srSvg = d3.select("#runPass-sr-chart")
   .attr("class","runPass-svg")
   .attr("width","100%")
   .attr("height","100%")
-  .attr("viewBox","0 0 430 200")
+  .attr("viewBox","0 0 100 100")
   .attr("preserveAspectRatio","none")
 var srBg = srSvg.append("rect")
   .attr("class","runPass-bg")
@@ -87,10 +87,10 @@ function xPercent(x) {
   return xScale(x) + "%"
 }
 function playNumX(d,i) {
-  return xScale(d.Play_num_team)
+  return xScale(+d.Play_num_team)
 }
 function playNumPercentX(d,i) {
-  return xPercent(d.Play_num_team)
+  return xPercent(+d.Play_num_team)
 }
 function newQtTeam(d,i) {
   return d.New_q_team !== ""
@@ -120,6 +120,7 @@ function gridVt() {
     .attr("x2",playNumPercentX)
     .attr("y1",0)
     .attr("y2","100%")
+    .attr("vector-effect","non-scaling-stroke")
   d3.selectAll(".runPass-svg")
     .selectAll("line")
     .data(teamData)
@@ -140,11 +141,11 @@ function runSrY(d,i) {
   return yScale(d.SR_run_cume)
 }
 function passSrY(d,i) {
-  return yScale(d.SR_pass_cume)
+  return yScale(d.SR_pass_cume) * 100
 }
 var rateLine = d3.line()
-  .x(function(d,i) { return d.Play_num_team * 5})
-  .y(function(d,i) { return d.runRate_cume * 100})
+  .x(playNumX)
+  .y(runSrY)
   .curve(d3.curveBasis)
 var runSrLine = d3.line()
   .x(playNumX)
@@ -168,6 +169,7 @@ function lineGraphs () {
   srSvg.append("path")
     .attr("d",passSrLine(teamData))
     .attr("class","pass-sr-line")
+    .attr("vector-effect","non-scaling-stroke")
 }
 }
 }
