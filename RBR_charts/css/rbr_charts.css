@@ -156,7 +156,14 @@
 }
 .leagueSRline {
   width: 3px;
-  opacity: .3; /* stroke attributes are in the script itself */
+  opacity: .3;
+}
+.league-sr-line {
+  stroke: #242424;
+  stroke-width: 1.5px;
+  stroke-dasharray: 5,5;
+  d: M5 20 l215 0;
+  opacity: .12;
 }
 .gridLine {
   stroke: #242424;
@@ -172,6 +179,9 @@
   font-size: 0.75em !important;
   letter-spacing: -0.3px;
   opacity: 0.45;
+}
+.leagueText {
+  text-anchor: end;
 }
 .grid-white {
   stroke: white;

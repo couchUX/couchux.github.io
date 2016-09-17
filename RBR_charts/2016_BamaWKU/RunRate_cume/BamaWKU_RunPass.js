@@ -1,4 +1,4 @@
-function runPass_charts(csv_url, team1, team2, height_adj) {
+function runPass_charts(csv_url, team1, team2, height_adj, league_sr) {
 
 get_runPass_data(csv_url)
 
@@ -46,6 +46,7 @@ function yLabel(y) {
 
 var gridPcAdjX = 4
 var gridPcAdjY = 16
+var leagueTextW = "99%"
 var grid_pc_arr = [.25,.5,.75]
 grid_pc_arr.forEach(gridHz)
 
@@ -63,6 +64,20 @@ function gridHz(item) {
     .attr("class","gridText")
     .attr("x",gridPcAdjX)
     .attr("y",yPercent(item))
+    .attr("transform","translate(0," + gridPcAdjY + ")")
+  d3.selectAll(".runPass-svg")
+    .append("line")
+    .attr("class","league-sr-line")
+    .attr("x1",0)
+    .attr("x2","100%")
+    .attr("y1",yPercent(league_sr))
+    .attr("y2",yPercent(league_sr))
+  d3.selectAll(".runPass-svg")
+    .append("text")
+    .text(yLabel(league_sr) + "*")
+    .attr("class","gridText leagueText")
+    .attr("x",leagueTextW)
+    .attr("y",yPercent(league_sr))
     .attr("transform","translate(0," + gridPcAdjY + ")")
 }
 /* quarters (vertical) grid */
