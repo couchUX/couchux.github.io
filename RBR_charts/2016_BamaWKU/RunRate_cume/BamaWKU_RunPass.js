@@ -18,16 +18,6 @@ function csv_response(error, data) {
 
 function render_runPass_charts() {
 
-/*trying something out here */
-var stackSvg = d3.select("#runPass-rate-chart")
-  .append("svg")
-  .attr("class","svg-stack")
-  .attr("width","100%")
-  .attr("height","100%")
-    .append("rect")
-    .attr("class","svg-bg")
-/* end -- trying something out here */
-
 var rateSvg = d3.select("#runPass-rate-chart")
   .append("svg")
   .attr("class","runPass-svg")
@@ -40,17 +30,15 @@ var srSvg = d3.select("#runPass-sr-chart")
   .attr("class","runPass-svg")
   .attr("width","100%")
   .attr("height","100%")
-  .attr("viewBox","0 0 100 100")
-  .attr("preserveAspectRatio","none")
 var srBg = srSvg.append("rect")
   .attr("class","runPass-bg")
 
 /* percentages (horizontal) grid */
-var yScale = d3.scaleLinear()
+var yScaleGrid = d3.scaleLinear()
   .domain([0,height_adj])
   .range([1,0])
 function yPercent(y) {
-  return yScale(y) * 100 + "%"
+  return yScaleGrid(y) * 100 + "%"
 }
 function yLabel(y) {
   return y.toFixed(2) * 100 + "%"
@@ -80,14 +68,11 @@ function gridHz(item) {
 /* quarters (vertical) grid */
 var teamData = runPassData.filter(function(d) { return d.Team == team1 })
 var playNumMax = d3.max(teamData,function(d) { return +d.Play_num_team })
-var xScale = d3.scaleLinear()
+var xScaleGrid = d3.scaleLinear()
   .domain([1,playNumMax])
   .range([0,100])
 function xPercent(x) {
-  return xScale(x) + "%"
-}
-function playNumX(d,i) {
-  return xScale(+d.Play_num_team)
+  return xScaleGrid(x) + "%"
 }
 function playNumPercentX(d,i) {
   return xPercent(+d.Play_num_team)
@@ -120,7 +105,6 @@ function gridVt() {
     .attr("x2",playNumPercentX)
     .attr("y1",0)
     .attr("y2","100%")
-    .attr("vector-effect","non-scaling-stroke")
   d3.selectAll(".runPass-svg")
     .selectAll("line")
     .data(teamData)
@@ -134,6 +118,15 @@ function gridVt() {
     .attr("y",gridQtY)
 }
 /* line graphs */
+var runPassChartH = document.getElementById("runPass-sr-chart").offsetHeight
+
+runLineGraphs()
+
+function runLineGraphs() {
+
+var yScale = d3.scaleLinear()
+  .domain([0,height_adj])
+  .range([runPassChartH,0])
 function runRateY(d,i) {
   return yScale(d.runRate_cume)
 }
@@ -141,35 +134,51 @@ function runSrY(d,i) {
   return yScale(d.SR_run_cume)
 }
 function passSrY(d,i) {
-  return yScale(d.SR_pass_cume) * 100
+  return yScale(d.SR_pass_cume)
 }
-var rateLine = d3.line()
+
+runPassChartW = document.getElementById("runPass-sr-chart").offsetWidth
+xScale = d3.scaleLinear()
+  .domain([2,playNumMax])
+  .range([0,runPassChartW])
+function playNumX(d,i) {
+  return xScale(+d.Play_num_team)
+}
+
+rateLine = d3.line()
+  .x(playNumX)
+  .y(runRateY)
+  .curve(d3.curveBasis)
+runSrLine = d3.line()
   .x(playNumX)
   .y(runSrY)
   .curve(d3.curveBasis)
-var runSrLine = d3.line()
-  .x(playNumX)
-  .y(runSrY)
-  .curve(d3.curveBasis)
-var passSrLine = d3.line()
+passSrLine = d3.line()
   .x(playNumX)
   .y(passSrY)
   .curve(d3.curveBasis)
 
-lineGraphs()
-
-function lineGraphs () {
-  rateSvg.append("path")
+runRatePath = rateSvg.append("path")
     .attr("d",rateLine(teamData))
     .attr("class","run-rate-line")
     .attr("vector-effect","non-scaling-stroke")
-  srSvg.append("path")
+runSrPath = srSvg.append("path")
     .attr("d",runSrLine(teamData))
     .attr("class","run-sr-line")
-  srSvg.append("path")
+passSrPath = srSvg.append("path")
     .attr("d",passSrLine(teamData))
     .attr("class","pass-sr-line")
     .attr("vector-effect","non-scaling-stroke")
 }
+window.addEventListener('resize', updateLineX);
+
+function updateLineX() {
+  runPassChartW = document.getElementById("runPass-sr-chart").offsetWidth
+  xScale.range([0,runPassChartW])
+  runRatePath.attr('d',rateLine(teamData));
+  runSrPath.attr('d',runSrLine(teamData));
+  passSrPath.attr('d',passSrLine(teamData));
+}
+
 }
 }

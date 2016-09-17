@@ -180,10 +180,11 @@
 .run-rate-line, .run-sr-line, .pass-sr-line {
   stroke: #C31C45;
   stroke-width: 3;
+  opacity: .8;
   fill: none;
 }
 .pass-sr-line {
-  opacity: .3;
+  opacity: .25;
 }
 .axis-labels {
   font-weight: 600;
