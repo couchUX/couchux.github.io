@@ -82,7 +82,6 @@
   font-size: 0.82em !important;
   letter-spacing: -0.3px;
   line-height: 1.5em;
-  opacity: 0.5;
   margin-top: 0px;
   margin-bottom: 8px;
   text-align: right;
@@ -154,20 +153,15 @@
   fill: #242424;
   opacity: .5;
 }
-.leagueSRline {
-  width: 3px;
-  opacity: .3;
-}
-.league-sr-line {
+.league-sr-line, .leagueSRline {
   stroke: #242424;
-  stroke-width: 1.5px;
-  stroke-dasharray: 5,5;
+  stroke-width: 1px;
+  stroke-dasharray: 4,4;
   d: M5 20 l215 0;
-  opacity: .12;
+  opacity: .45;
 }
 .gridLine {
   stroke: #242424;
-  stroke-width: 2px;
   opacity: .12;
 }
 .gridLine_white {

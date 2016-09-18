@@ -1,0 +1,174 @@
+Team,Play_num_team,Drive,Play_num_drive,Quarter,New_q,New_q_team,Play_type,Result_final,1st_down,Points,SR_run_cume,SR_pass_cume,runRate_cume
+Ole Miss,1,1,1,1,1,1,run,Not successful,,,0.00,,1.00
+Ole Miss,2,1,2,1,,,pass,Successful,1D,,0.00,1.00,0.50
+Ole Miss,3,1,3,1,,,run,Not successful,,,0.00,1.00,0.67
+Ole Miss,4,1,4,1,,,pass,Not successful,,,0.00,0.50,0.50
+Ole Miss,5,1,5,1,,,pass,Explosive,1D,,0.00,0.67,0.40
+Ole Miss,6,1,6,1,,,pass,Successful,1D,,0.00,0.75,0.33
+Ole Miss,7,1,7,1,,,run,Explosive,1D,6,0.33,0.75,0.43
+Alabama,1,1,1,1,,1,run,Successful,,,1.00,,1.00
+Alabama,2,1,2,1,,,pass,Successful,,,1.00,1.00,0.50
+Alabama,3,1,3,1,,,run,Successful,1D,,1.00,1.00,0.67
+Alabama,4,1,4,1,,,pass,Not successful,,,1.00,0.50,0.50
+Alabama,5,1,5,1,,,run,Successful,1D,,1.00,0.50,0.60
+Alabama,6,1,6,1,,,run,Successful,,,1.00,0.50,0.67
+Alabama,7,1,7,1,,,pass,Not successful,,,1.00,0.33,0.57
+Alabama,8,1,8,1,,,run,Successful,1D,,1.00,0.33,0.63
+Alabama,9,1,9,1,,,run,Not successful,,,0.83,0.33,0.67
+Alabama,10,1,10,1,,,pass,Successful,1D,,0.83,0.50,0.60
+Alabama,11,1,11,1,,,pass,Not successful,,,0.83,0.40,0.55
+Alabama,12,1,12,1,,,pass,Not successful,,,0.83,0.33,0.50
+Alabama,13,1,13,1,,,run,Successful,1D,,0.86,0.33,0.54
+Alabama,14,1,14,1,,,run,Not successful,,,0.75,0.33,0.57
+Alabama,15,1,15,1,,,run,Not successful,,,0.67,0.33,0.60
+Alabama,16,1,16,1,,,pass,Not successful,,,0.67,0.29,0.56
+Alabama,17,1,17,1,,,field goal,Successful,,3,0.67,0.29,0.56
+Ole Miss,8,2,1,1,,,penalty,Not successful,,,0.33,0.75,0.43
+Ole Miss,9,2,2,1,,,run,Not successful,,,0.25,0.75,0.50
+Ole Miss,10,2,3,1,,,pass,Not successful,,,0.25,0.60,0.44
+Ole Miss,11,2,4,1,,,pass,Not successful,,,0.25,0.50,0.40
+Alabama,18,2,1,1,,,pass,Not successful,,,0.67,0.25,0.53
+Alabama,19,2,2,1,,,penalty,Not successful,,,0.67,0.25,0.53
+Alabama,20,2,3,1,,,pass,Explosive,1D,,0.67,0.33,0.50
+Alabama,21,2,4,1,,,penalty,Not successful,,,0.67,0.33,0.50
+Alabama,22,2,5,1,,,pass,Not successful,,,0.67,0.30,0.47
+Alabama,23,2,6,1,,,run,Explosive,,,0.70,0.30,0.50
+Alabama,24,2,7,1,,,pass,Successful,1D,,0.70,0.36,0.48
+Alabama,25,2,8,1,,,pass,Not successful,,,0.70,0.33,0.45
+Alabama,26,2,9,1,,,pass,Not successful,,,0.70,0.31,0.43
+Alabama,27,2,10,1,,,pass,Not successful,,,0.70,0.29,0.42
+Alabama,28,2,11,1,,,field goal,Not successful,,,0.70,0.29,0.42
+Ole Miss,12,3,1,1,,,pass,Not successful,,,0.25,0.43,0.36
+Ole Miss,13,3,2,1,,,run,Not successful,,,0.20,0.43,0.42
+Ole Miss,14,3,3,1,,,pass,Not successful,,,0.20,0.38,0.38
+Alabama,29,3,1,2,2,2,pass,Not successful,,,0.70,0.27,0.40
+Alabama,30,3,2,2,,,run,Not successful,,,0.64,0.27,0.42
+Alabama,31,3,3,2,,,pass,Not successful,,,0.64,0.25,0.41
+Ole Miss,15,4,1,2,,2,run,Not successful,,,0.17,0.38,0.43
+Ole Miss,16,4,2,2,,,pass,Not successful,,,0.17,0.33,0.40
+Ole Miss,17,4,3,2,,,no play,Not successful,,,0.17,0.33,0.40
+Ole Miss,18,4,4,2,,,run,Explosive,,,0.29,0.33,0.44
+Alabama,32,4,1,2,,,run,Successful,,,0.67,0.25,0.43
+Alabama,33,4,2,2,,,run,Explosive,1D,,0.69,0.25,0.45
+Alabama,34,4,3,2,,,penalty,Not successful,,,0.69,0.25,0.45
+Alabama,35,4,4,2,,,pass,Not successful,,,0.69,0.24,0.43
+Alabama,36,4,5,2,,,run,Not successful,,,0.64,0.24,0.45
+Alabama,37,4,6,2,,,run,Not successful,,,0.60,0.24,0.47
+Ole Miss,19,5,1,2,,,pass,Explosive,1D,,0.29,0.40,0.41
+Ole Miss,20,5,2,2,,,pass,Successful,,,0.29,0.45,0.39
+Ole Miss,21,5,3,2,,,run,Not successful,,,0.25,0.45,0.42
+Ole Miss,22,5,4,2,,,pass,Not successful,,,0.25,0.42,0.40
+Ole Miss,23,5,5,2,,,field goal,Successful,,3,0.25,0.42,0.40
+Alabama,38,5,1,2,,,pass,Not successful,,,0.60,0.22,0.45
+Alabama,39,5,2,2,,,pass,Explosive,1D,,0.60,0.26,0.44
+Alabama,40,5,3,2,,,run,Not successful,,,0.56,0.26,0.46
+Alabama,41,5,4,2,,,pass,Not successful,,,0.56,0.25,0.44
+Alabama,42,5,5,2,,,run,Explosive,,,0.59,0.25,0.46
+Ole Miss,24,6,1,2,,,run,Not successful,,,0.22,0.42,0.43
+Ole Miss,25,6,2,2,,,no play,Successful,1D,,0.22,0.42,0.43
+Ole Miss,26,6,3,2,,,pass,Explosive,1D,6,0.22,0.46,0.41
+Alabama,43,6,1,2,,,pass,Not successful,,,0.59,0.24,0.45
+Alabama,44,6,2,2,,,no play,Successful,1D,,0.59,0.24,0.45
+Alabama,45,6,3,2,,,pass,Successful,,,0.59,0.27,0.44
+Alabama,46,6,4,2,,,penalty,Not successful,,,0.59,0.27,0.44
+Alabama,47,6,5,2,,,pass,Not successful,,,0.59,0.26,0.43
+Ole Miss,27,7,2,2,,,penalty,Not successful,,,0.22,0.46,0.41
+Alabama,48,7,1,2,,,pass,Explosive,1D,,0.59,0.29,0.41
+Alabama,49,7,2,2,,,run,Explosive,1D,,0.61,0.29,0.43
+Alabama,50,7,3,2,,,run,Successful,,6,0.63,0.29,0.44
+Ole Miss,28,8,1,2,,,run,Not successful,,,0.20,0.46,0.43
+Ole Miss,29,8,2,2,,,run,Not successful,,,0.18,0.46,0.46
+Ole Miss,30,8,3,2,,,run,Not successful,,,0.17,0.46,0.48
+Alabama,51,8,2,2,,,penalty,Successful,,,0.63,0.29,0.44
+Ole Miss,31,9,1,2,,,run,Not successful,,,0.15,0.46,0.50
+Ole Miss,32,9,2,2,,,run,Explosive,1D,,0.21,0.46,0.52
+Ole Miss,33,9,3,2,,,pass,Not successful,,,0.21,0.43,0.50
+Ole Miss,34,9,4,2,,,run,Not successful,,,0.20,0.43,0.52
+Alabama,52,9,1,3,3,3,pass,Not successful,,,0.63,0.28,0.43
+Alabama,53,9,2,3,,,pass,Not successful,,,0.63,0.27,0.42
+Alabama,54,9,3,3,,,run,Successful,1D,,0.65,0.27,0.43
+Alabama,55,9,4,3,,,run,Not successful,,,0.62,0.27,0.45
+Alabama,56,9,5,3,,,pass,Not successful,,,0.62,0.26,0.44
+Alabama,57,9,6,3,,,run,Not successful,,,0.59,0.26,0.45
+Ole Miss,35,10,1,3,,3,run,Not successful,,,0.19,0.43,0.53
+Ole Miss,36,10,2,3,,,pass,Not successful,,,0.19,0.40,0.52
+Ole Miss,37,11,1,3,,,pass,Not successful,,,0.19,0.38,0.50
+Ole Miss,38,11,2,3,,,run,Not successful,,,0.18,0.38,0.52
+Ole Miss,39,11,3,3,,,pass,Not successful,,,0.18,0.35,0.50
+Alabama,58,11,1,3,,,pass,Explosive,1D,,0.59,0.29,0.44
+Alabama,59,11,2,3,,,run,Successful,,,0.61,0.29,0.45
+Alabama,60,11,3,3,,,run,Successful,1D,,0.63,0.29,0.46
+Alabama,61,11,4,3,,,run,Not successful,,,0.60,0.29,0.47
+Alabama,62,11,5,3,,,pass,Not successful,,,0.60,0.28,0.46
+Alabama,63,11,6,3,,,run,Explosive,1D,,0.62,0.28,0.47
+Alabama,64,11,7,3,,,run,Not successful,,,0.59,0.28,0.48
+Alabama,65,11,8,3,,,no play,Not successful,,,0.59,0.28,0.48
+Alabama,66,11,9,3,,,run,Successful,,,0.61,0.28,0.49
+Alabama,67,11,10,3,,,run,Not successful,,,0.59,0.28,0.50
+Alabama,68,11,11,3,,,field goal,Successful,,3,0.59,0.28,0.50
+Ole Miss,40,12,1,3,,,run,Not successful,,,0.17,0.35,0.51
+Ole Miss,41,12,2,3,,,pass,Not successful,,,0.17,0.33,0.50
+Ole Miss,42,12,3,3,,,pass,Explosive,1D,,0.17,0.37,0.49
+Ole Miss,43,12,4,3,,,run,Not successful,,,0.16,0.37,0.50
+Ole Miss,44,12,5,3,,,pass,Successful,1D,,0.16,0.40,0.49
+Ole Miss,45,12,6,3,,,run,Not successful,,,0.15,0.40,0.50
+Ole Miss,46,12,7,3,,,pass,Successful,1D,,0.15,0.43,0.49
+Ole Miss,47,12,8,3,,,pass,Explosive,1D,,0.15,0.45,0.48
+Ole Miss,48,12,9,3,,,run,Not successful,,,0.14,0.45,0.49
+Ole Miss,49,12,10,3,,,penalty,Not successful,,,0.14,0.45,0.49
+Ole Miss,50,12,11,3,,,run,Not successful,,,0.14,0.45,0.50
+Ole Miss,51,12,12,3,,,run,Not successful,,,0.13,0.45,0.51
+Ole Miss,52,12,13,3,,,field goal,Successful,,3,0.13,0.45,0.51
+Alabama,69,12,1,3,,,run,Successful,,,0.60,0.28,0.51
+Alabama,70,12,2,3,,,run,Explosive,1D,,0.61,0.28,0.52
+Alabama,71,12,3,3,,,run,Not successful,,,0.59,0.28,0.52
+Alabama,72,12,4,3,,,run,Successful,,6,0.61,0.28,0.53
+Ole Miss,53,13,1,3,,,run,Not successful,,,0.13,0.45,0.52
+Ole Miss,54,13,2,4,4,4,pass,Explosive,1D,,0.13,0.48,0.51
+Ole Miss,55,13,3,4,,,pass,Successful,,,0.13,0.50,0.50
+Ole Miss,56,13,4,4,,,no play,Successful,1D,,0.13,0.50,0.50
+Ole Miss,57,13,5,4,,,pass,Not successful,,,0.13,0.48,0.49
+Ole Miss,58,13,6,4,,,pass,Not successful,,,0.13,0.46,0.48
+Ole Miss,59,13,7,4,,,run,Not successful,,,0.12,0.46,0.49
+Ole Miss,60,13,8,4,,,field goal,Successful,,3,0.12,0.46,0.49
+Alabama,73,13,1,4,,4,no play,Not successful,,,0.61,0.28,0.53
+Alabama,74,13,2,4,,,run,Not successful,,,0.59,0.28,0.54
+Alabama,75,13,3,4,,,pass,Explosive,1D,,0.59,0.30,0.53
+Alabama,76,13,4,4,,,pass,Not successful,,,0.59,0.29,0.52
+Alabama,77,13,5,4,,,run,Not successful,,,0.57,0.29,0.53
+Alabama,78,13,6,4,,,pass,Not successful,,,0.57,0.28,0.52
+Ole Miss,61,14,1,4,,,run,Not successful,,,0.12,0.46,0.50
+Ole Miss,62,14,2,4,,,pass,Not successful,,,0.12,0.44,0.49
+Ole Miss,63,14,3,4,,,pass,Not successful,,,0.12,0.43,0.48
+Alabama,79,14,1,4,,,run,Explosive,1D,,0.58,0.28,0.53
+Alabama,80,14,2,4,,,run,Not successful,,,0.57,0.28,0.54
+Alabama,81,14,3,4,,,run,Successful,1D,,0.58,0.28,0.54
+Alabama,82,14,4,4,,,run,Successful,,,0.59,0.28,0.55
+Alabama,83,14,5,4,,,run,Successful,,6,0.60,0.28,0.56
+Ole Miss,64,15,1,4,,,pass,Explosive,1D,,0.12,0.45,0.47
+Ole Miss,65,15,2,4,,,pass,Successful,,,0.12,0.47,0.46
+Ole Miss,66,15,3,4,,,run,Successful,1D,,0.15,0.47,0.47
+Ole Miss,67,15,4,4,,,run,Not successful,,,0.14,0.47,0.48
+Ole Miss,68,15,5,4,,,run,Not successful,,,0.14,0.47,0.49
+Ole Miss,69,15,6,4,,,pass,Not successful,,,0.14,0.45,0.48
+Alabama,84,15,1,4,,,penalty,Not successful,,,0.60,0.28,0.56
+Ole Miss,70,16,1,4,,,run,Explosive,1D,,0.17,0.45,0.49
+Ole Miss,71,16,2,4,,,pass,Not successful,,,0.17,0.44,0.48
+Ole Miss,72,16,3,4,,,pass,Not successful,,,0.17,0.42,0.48
+Ole Miss,73,16,4,4,,,pass,Successful,1D,,0.17,0.44,0.47
+Ole Miss,74,16,5,4,,,pass,Explosive,1D,,0.17,0.46,0.46
+Ole Miss,75,16,6,4,,,pass,Successful,1D,,0.17,0.47,0.45
+Ole Miss,76,16,7,4,,,pass,Not successful,,,0.17,0.46,0.45
+Ole Miss,77,16,8,4,,,pass,Not successful,,,0.17,0.45,0.44
+Ole Miss,78,16,9,4,,,pass,Explosive,1D,,0.17,0.46,0.43
+Ole Miss,79,16,10,4,,,pass,Successful,,,0.17,0.48,0.43
+Ole Miss,80,16,11,4,,,pass,Not successful,,,0.17,0.46,0.42
+Ole Miss,81,16,12,4,,,pass,Successful,1D,6,0.17,0.48,0.42
+Ole Miss,82,17,1,4,,,pass,Explosive,1D,6,0.17,0.49,0.41
+Alabama,85,16,1,4,,,run,Not successful,,,0.59,0.28,0.56
+Alabama,86,16,2,4,,,run,Explosive,1D,,0.60,0.28,0.57
+Alabama,87,16,3,4,,,run,Not successful,,,0.58,0.28,0.57
+Alabama,88,16,4,4,,,run,Successful,,,0.59,0.28,0.58
+Alabama,89,16,5,4,,,run,Successful,1D,,0.60,0.28,0.58
+Alabama,90,16,6,4,,,run,Not successful,,,0.59,0.28,0.59
+Alabama,91,16,7,4,,,run,Not successful,,,0.57,0.28,0.59
