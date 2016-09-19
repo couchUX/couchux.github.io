@@ -1,28 +1,26 @@
 #srxr-q-charts-container,
 #plays-charts-container,
-#runRate-charts-container,
-#runPass-charts-container,
-#runPass-charts-container-opponent, {
+#runRate-charts-container, {
   width: 100%;
 }
 #plays-charts-container,
-#runRate-charts-container,
-#runPass-charts-container,
-#runPass-charts-container-opponent, {
+#runRate-charts-container, {
   font-family:"Work Sans",sans-serif;
   margin-top: 12px;
 }
 #plays-charts-container {
   margin-bottom: 16px;
 }
-#runRate-chart, #srRP-chart,
-.runPass-rate-chart, .runPass-sr-chart {
+#runRate-chart,
+#srRP-chart,
+.runPass-rate-chart,
+.runPass-sr-chart {
   display: inline-block;
   margin-top: 4px;
 }
 .runPass-rate-chart, .runPass-sr-chart {
   width: 100%;
-  height: 180px;
+  height: 200px;
 }
 @media only screen and (min-width: 600px) {
   .c-entry-content > .runPass-rate-chart,
@@ -53,9 +51,6 @@
 }
 .chart2 {
   display: inline-block;
-}
-.svg-stack {
-  float: left;
 }
 .svg-bg {
   fill: #242424;
@@ -263,9 +258,6 @@ svg > path {
 }
 #runDir-table {
   width: 100%
-}
-.col-right {
-  text-align: right;
 }
 .tr-heavy > td {
   border-bottom-color: gray;

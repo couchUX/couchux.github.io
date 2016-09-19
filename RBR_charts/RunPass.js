@@ -25,30 +25,30 @@ function teamClass(class_name) {
   return class_name + " " + team_class
 }
 /* svg backgrounds and subtitles */
-var rateChart = d3.select(container_id)
-  .append("div")
+var chartContainer = d3.select(container_id)
+var chartMargin = chartContainer.style("margin-bottom","12px")
+var rateChart = chartContainer.append("div")
   .attr("id",teamId("runPass-rate-chart"))
   .attr("class",teamClass("runPass-rate-chart"))
+var rateSub = rateChart.append("p")
+  .attr("class","chartSubtitle")
+  .html("<span class=\"suc\">&#9679;&nbsp;</span>Run rate (runs &#247; total plays), cumulative")
 var rateSvg = rateChart.append("svg")
   .attr("class","runPass-svg")
   .attr("width","100%")
   .attr("height","100%")
-var rateSub = rateChart.append("p")
-  .attr("class","chartSubtitle")
-  .html("<span class=\"suc\">&#9679;&nbsp;</span>Run rate (runs &#247; total plays), cumulative")
 var rateBg = rateSvg.append("rect")
   .attr("class","runPass-bg")
-var srChart = d3.select(container_id)
-  .append("div")
+var srChart = chartContainer.append("div")
   .attr("id",teamId("runPass-sr-chart"))
   .attr("class",teamClass("runPass-sr-chart"))
+var srSub = srChart.append("p")
+  .attr("class","chartSubtitle")
+  .html("Success rate for <span class=\"suc\">&#9679;&nbsp;</span>runs and <span class=\"un\">&#9679;&nbsp;</span>passes, cumulative")
 var srSvg = srChart.append("svg")
   .attr("class","runPass-svg")
   .attr("width","100%")
   .attr("height","100%")
-var srSub = srChart.append("p")
-  .attr("class","chartSubtitle")
-  .html("Success rate for <span class=\"suc\">&#9679;&nbsp;</span>runs and <span class=\"un\">&#9679;&nbsp;</span>passes, cumulative")
 var srBg = srSvg.append("rect")
   .attr("class","runPass-bg")
 
@@ -152,14 +152,6 @@ function gridHz(item) {
     .attr("y",yPercent(league_sr))
     .attr("transform","translate(0," + gridPcAdjY + ")")
 }
-function leagueFooterTxt(){
-  return "* NCAA average SR = " + yLabel(league_sr)
-}
-var leagueFooter = d3.select(container_id)
-  .append("p")
-  .text(leagueFooterTxt)
-  .attr("class","chartNote")
-
 /* line graphs */
 var runPassChartH = document.getElementById(teamId("runPass-rate-chart")).offsetHeight
 
