@@ -119,7 +119,7 @@ function yLabel(y) {
 var gridPcAdjX = 4
 var gridPcAdjY = 16
 var leagueTextW = "99%"
-var grid_pc_arr = [.25,.5,.75]
+var grid_pc_arr = [.25,.5,.75, 1]
 grid_pc_arr.forEach(gridHz)
 
 function gridHz(item) {
