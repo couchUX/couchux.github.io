@@ -1,4 +1,4 @@
-function runPass_charts(csv_url, team, team_class, container_id, height_adj, league_sr) {
+function runPass_charts_opponent(csv_url, team, team_class, height_adj, league_sr) {
 
 get_runPass_data(csv_url)
 
@@ -18,40 +18,20 @@ function csv_response(error, data) {
 
 function render_runPass_charts() {
 
-function teamId(id_name) {
-  return id_name + "-" + team_class
-}
-function teamClass(class_name) {
-  return class_name + " " + team_class
-}
-/* svg backgrounds and subtitles */
-var rateChart = d3.select(container_id)
-  .append("div")
-  .attr("id",teamId("runPass-rate-chart"))
-  .attr("class",teamClass("runPass-rate-chart"))
-var rateSvg = rateChart.append("svg")
+var rateSvg = d3.select("#runPass-rate-chart-2")
+  .append("svg")
   .attr("class","runPass-svg")
   .attr("width","100%")
   .attr("height","100%")
-var rateSub = rateChart.append("p")
-  .attr("class","chartSubtitle")
-  .html("<span class=\"suc\">&#9679;&nbsp;</span>Run rate (runs &#247; total plays), cumulative")
 var rateBg = rateSvg.append("rect")
   .attr("class","runPass-bg")
-var srChart = d3.select(container_id)
-  .append("div")
-  .attr("id",teamId("runPass-sr-chart"))
-  .attr("class",teamClass("runPass-sr-chart"))
-var srSvg = srChart.append("svg")
+var srSvg = d3.select("#runPass-sr-chart-2")
+  .append("svg")
   .attr("class","runPass-svg")
   .attr("width","100%")
   .attr("height","100%")
-var srSub = srChart.append("p")
-  .attr("class","chartSubtitle")
-  .html("Success rate for <span class=\"suc\">&#9679;&nbsp;</span>runs and <span class=\"un\">&#9679;&nbsp;</span>passes, cumulative")
 var srBg = srSvg.append("rect")
   .attr("class","runPass-bg")
-
 
 /* quarters (vertical) grid */
 var teamData = runPassData.filter(function(d) { return d.Team == team })
@@ -79,10 +59,10 @@ var quarterNames = {
   3:"3rd",
   4:"4th",
 }
-function nestedTeamClass(class_name) {
-  return "." + team_class + " > ." + class_name
-}
-var gridVtLine = d3.selectAll(nestedTeamClass("runPass-svg"))
+gridVt()
+
+function gridVt() {
+  d3.selectAll(".runPass-svg")
     .selectAll("line")
     .data(teamData)
     .enter()
@@ -93,8 +73,8 @@ var gridVtLine = d3.selectAll(nestedTeamClass("runPass-svg"))
     .attr("x2",playNumPercentX)
     .attr("y1",0)
     .attr("y2","100%")
-var gridVtTxt = d3.selectAll(nestedTeamClass("runPass-svg"))
-    .selectAll("text")
+  d3.selectAll(".runPass-svg")
+    .selectAll("line")
     .data(teamData)
     .enter()
     .filter(newQtTeam)
@@ -104,7 +84,7 @@ var gridVtTxt = d3.selectAll(nestedTeamClass("runPass-svg"))
     .attr("x",playNumPercentX)
     .attr("transform","translate(" + gridQtAdjX + ",0)")
     .attr("y",gridQtY)
-
+}
 /* percentages (horizontal) grid */
 var yScaleGrid = d3.scaleLinear()
   .domain([0,height_adj])
@@ -123,30 +103,30 @@ var grid_pc_arr = [.25,.5,.75]
 grid_pc_arr.forEach(gridHz)
 
 function gridHz(item) {
-  d3.selectAll(nestedTeamClass("runPass-svg"))
+  d3.selectAll(".runPass-svg")
     .append("line")
     .attr("class","grid-white")
     .attr("x1",0)
     .attr("x2","100%")
     .attr("y1",yPercent(item))
     .attr("y2",yPercent(item))
-  d3.selectAll(nestedTeamClass("runPass-svg"))
+  d3.selectAll(".runPass-svg")
     .append("text")
     .text(yLabel(item))
     .attr("class","gridText")
     .attr("x",gridPcAdjX)
     .attr("y",yPercent(item))
     .attr("transform","translate(0," + gridPcAdjY + ")")
-  d3.selectAll(nestedTeamClass("runPass-svg"))
+  d3.selectAll(".runPass-svg")
     .append("line")
     .attr("class","league-sr-line")
     .attr("x1",0)
     .attr("x2","100%")
     .attr("y1",yPercent(league_sr))
     .attr("y2",yPercent(league_sr))
-  d3.selectAll(nestedTeamClass("runPass-svg"))
+  d3.selectAll(".runPass-svg")
     .append("text")
-    .text("NCAA avg: " + yLabel(league_sr) + "*")
+    .text(yLabel(league_sr) + "*")
     .attr("class","gridText leagueText")
     .attr("x",leagueTextW)
     .attr("y",yPercent(league_sr))
@@ -155,13 +135,17 @@ function gridHz(item) {
 function leagueFooterTxt(){
   return "* NCAA average SR = " + yLabel(league_sr)
 }
-var leagueFooter = d3.select(container_id)
+var leagueFooter = d3.select("#runPass-charts-container-2")
   .append("p")
   .text(leagueFooterTxt)
   .attr("class","chartNote")
 
 /* line graphs */
-var runPassChartH = document.getElementById(teamId("runPass-rate-chart")).offsetHeight
+var runPassChartH = document.getElementById("runPass-sr-chart").offsetHeight
+
+runLineGraphs()
+
+function runLineGraphs() {
 
 var yScale = d3.scaleLinear()
   .domain([0,height_adj])
@@ -176,41 +160,45 @@ function passSrY(d,i) {
   return yScale(d.SR_pass_cume)
 }
 
-var runPassChartW = document.getElementById(teamId("runPass-rate-chart")).offsetWidth
-var xScale = d3.scaleLinear()
+runPassChartW = document.getElementById("runPass-sr-chart").offsetWidth
+xScale = d3.scaleLinear()
   .domain([2,playNumMax])
   .range([0,runPassChartW])
 function playNumX(d,i) {
   return xScale(+d.Play_num_team)
 }
 
-var rateLine = d3.line()
+rateLine = d3.line()
   .x(playNumX)
   .y(runRateY)
   .curve(d3.curveBasis)
-var runSrLine = d3.line()
+runSrLine = d3.line()
   .x(playNumX)
   .y(runSrY)
   .curve(d3.curveBasis)
-var passSrLine = d3.line()
+passSrLine = d3.line()
   .x(playNumX)
   .y(passSrY)
   .curve(d3.curveBasis)
 
-var runRatePath = rateSvg.append("path")
+runRatePath = rateSvg.append("path")
     .attr("d",rateLine(teamData))
-    .attr("class","run-rate-line")
-var runSrPath = srSvg.append("path")
+    .attr("class",multiClass("run-rate-line",team_class))
+runSrPath = srSvg.append("path")
     .attr("d",runSrLine(teamData))
-    .attr("class","run-sr-line")
-var passSrPath = srSvg.append("path")
+    .attr("class",multiClass("run-sr-line",team_class))
+passSrPath = srSvg.append("path")
     .attr("d",passSrLine(teamData))
-    .attr("class","pass-sr-line")
+    .attr("class",multiClass("pass-sr-line",team_class))
+}
+function multiClass(class1,class2) {
+  return class1 + " " + class2
+}
 
 window.addEventListener('resize', updateLineX);
 
 function updateLineX() {
-  var runPassChartW = document.getElementById(teamId("runPass-rate-chart")).offsetWidth
+  runPassChartW = document.getElementById("runPass-sr-chart-2").offsetWidth
   xScale.range([0,runPassChartW])
   runRatePath.attr('d',rateLine(teamData));
   runSrPath.attr('d',runSrLine(teamData));

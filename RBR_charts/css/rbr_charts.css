@@ -1,18 +1,46 @@
 #srxr-q-charts-container,
 #plays-charts-container,
 #runRate-charts-container,
-#runPass-charts-container {
+#runPass-charts-container,
+#runPass-charts-container-opponent, {
   width: 100%;
 }
-#plays-charts-container, #runRate-charts-container, #runPass-charts-container {
+#plays-charts-container,
+#runRate-charts-container,
+#runPass-charts-container,
+#runPass-charts-container-opponent, {
   font-family:"Work Sans",sans-serif;
   margin-top: 12px;
 }
 #plays-charts-container {
   margin-bottom: 16px;
 }
-#runRate-chart, #srRP-chart, #runPass-rate-chart, #runPass-sr-chart {
- margin-top: 4px;
+#runRate-chart, #srRP-chart,
+.runPass-rate-chart, .runPass-sr-chart {
+  display: inline-block;
+  margin-top: 4px;
+}
+.runPass-rate-chart, .runPass-sr-chart {
+  width: 100%;
+  height: 180px;
+}
+@media only screen and (min-width: 600px) {
+  .c-entry-content > .runPass-rate-chart,
+  .c-entry-content > .runPass-sr-chart {
+    width: 49.2%;
+  }
+  .c-entry-content > .runPass-sr-chart {
+    margin-left: 1.6%;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .runPass-rate-chart, .runPass-sr-chart {
+    width: 49.2%;
+    height: 200px;
+  }
+  .runPass-sr-chart {
+    margin-left: 1.6%;
+  }
 }
 .rbr-chart {
   max-width: 724px;
@@ -26,31 +54,6 @@
 .chart2 {
   display: inline-block;
 }
-#runRate-chart, #srRP-chart, #runPass-rate-chart, #runPass-sr-chart {
-  display: inline-block;
-}
-#runPass-rate-chart, #runPass-sr-chart {
-  width: 100%;
-  height: 200px;
-}
-@media only screen and (min-width: 600px) {
-  c-entry-content > #runPass-rate-chart,
-  c-entry-content > #runPass-sr-chart {
-    width: 49.2%;
-  }
-  c-entry-content > #runPass-sr-chart {
-    margin-left: 1.6%;
-  }
-}
-@media only screen and (min-width: 900px) {
-  #runPass-rate-chart, #runPass-sr-chart {
-    width: 49.2%;
-  }
-  #runPass-sr-chart {
-    margin-left: 1.6%;
-  }
-}
-
 .svg-stack {
   float: left;
 }
@@ -181,11 +184,16 @@
   stroke: white;
   stroke-width: 3;
 }
-.run-rate-line, .run-sr-line, .pass-sr-line {
-  stroke: #C31C45;
+svg > path {
   stroke-width: 3;
-  opacity: .8;
+  opacity: .9;
   fill: none;
+}
+.alabama > svg > path {
+  stroke: #C31C45;
+}
+.oleMiss > svg > path {
+  stroke: #006AA6;
 }
 .pass-sr-line {
   opacity: .25;
@@ -207,18 +215,23 @@
   font-weight: 400;
   font-size: 0.82em;
 }
-span.ltRed, span.sRed, span.xRed {
+.un, .suc, .xpl {
   font-size: 1.1em;
 }
-
-span.ltRed {
+.alabama > p > .un,
+.alabama > p > .suc,
+.alabama > p > .xpl {
   color: #C31C45;
+}
+.oleMiss > p > .un,
+.oleMiss > p > .suc,
+.oleMiss > p > .xpl {
+  color: #006AA6;
+}
+.ltRed, .un {
   opacity: 0.4;
 }
-span.sRed {
-  color: #C31C45;
-}
-span.xRed {
+.xRed {
   color: #620E23;
 }
 /* css for metrics explanation box */

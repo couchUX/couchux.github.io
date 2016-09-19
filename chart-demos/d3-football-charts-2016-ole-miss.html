@@ -83,15 +83,29 @@
         <h5 class="chartTitle">Running and Passing</h5>
         <div class="titleHR"></div>
         <div id="runPass-charts-container">
-          <div id="runPass-rate-chart">
-            <p class="chartSubtitle"><span class="sRed">&#9679;&nbsp;</span>Run rate (runs &#247; total plays), cumulative</p>
-          </div><!-- No spaces
-       --><div id="runPass-sr-chart">
-            <p class="chartSubtitle">Success rate for <span class="sRed">&#9679;&nbsp;</span>runs and <span class="ltRed">&#9679;&nbsp;</span>passes, cumulative</p>
-          </div>
           <script src="../RBR_charts/RunPass.js"></script>
           <script>
-            runPass_charts("https://couchux.github.io/RBR_charts/2016_BamaOleMiss/BamaOleMiss_Plays_all.csv","Alabama","Ole Miss",.75, .4)
+            runPass_charts("https://couchux.github.io/RBR_charts/2016_BamaOleMiss/BamaOleMiss_Plays_all.csv","Alabama","alabama", "#runPass-charts-container",.75, .4)
+          </script>
+        </div>
+      </div>
+    </div>
+    <div class="row" style="margin-bottom: 10%">
+      <div class="eight columns">
+        <p>The line charts were fun for a few reasons. For one, Alabama football fans love when the team runs the ball, so it’s funny to see that passing was the more successful endeavor in this game (and how the offensive coordinator followed that trend by passing more often, up until the team was way ahead).</p>
+        <p>Also, this is the kind of chart where D3 is the most helpful: drawing multipoint SVG images (like a polyline) and placing them on HTML. A developer friend even said that bar charts might be executed better in pure HTML, rather than even using SVGs. Be that as it may, I’m happy with how things have progressed.</p>
+      </div>
+    </div>
+    <!-- new runPass chart, for the opponent
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="row chart-row">
+      <div class="nine columns">
+        <h5 class="chartTitle">Running and Passing</h5>
+        <div class="titleHR"></div>
+        <div id="runPass-charts-container-opponent">
+          <script src="../RBR_charts/2016_BamaOleMiss/RunRate_cume/RunPass_opponent.js"></script>
+          <script>
+            runPass_charts("https://couchux.github.io/RBR_charts/2016_BamaOleMiss/BamaOleMiss_Plays_all.csv","Ole Miss", "oleMiss", "#runPass-charts-container-opponent",.75, .4)
           </script>
         </div>
       </div>
