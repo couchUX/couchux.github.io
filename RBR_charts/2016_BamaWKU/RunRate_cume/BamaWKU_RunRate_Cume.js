@@ -260,6 +260,7 @@ function quarterText(item) {
       .attr("fill","none")
     passSRLine = srSvg.append("path")
       .attr("d",passSRLineFn(runRateData))
+      .attr("class","un")
       .attr("stroke",teamColors.Alabama)
       .attr("stroke-width",layout.lineStrokeW)
       .attr("opacity",layout.passSR_opacity)
