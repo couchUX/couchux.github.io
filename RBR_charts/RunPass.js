@@ -137,21 +137,20 @@ function gridHz(item) {
     .attr("x",gridPcAdjX)
     .attr("y",yPercent(item))
     .attr("transform","translate(0," + gridPcAdjY + ")")
-  d3.selectAll(nestedTeamClass("runPass-svg"))
-    .append("line")
+}
+var leagueLine = srSvg.append("line")
     .attr("class","league-sr-line")
     .attr("x1",0)
     .attr("x2","100%")
     .attr("y1",yPercent(league_sr))
     .attr("y2",yPercent(league_sr))
-  d3.selectAll(nestedTeamClass("runPass-svg"))
-    .append("text")
+var leagueText = srSvg.append("text")
     .text("NCAA avg: " + yLabel(league_sr) + "*")
     .attr("class","gridText leagueText")
     .attr("x",leagueTextW)
     .attr("y",yPercent(league_sr))
     .attr("transform","translate(0," + gridPcAdjY + ")")
-}
+
 /* line graphs */
 var runPassChartH = document.getElementById(teamId("runPass-rate-chart")).offsetHeight
 
