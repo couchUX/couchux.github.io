@@ -1,7 +1,7 @@
 /* set a backup image option for each chart*/
 var backupBtn_srxr = document.getElementById("backup-img-btn-srxr");
 var backupImg_srxr = document.getElementById("backup-img-srxr");
-var backupImgPrompt_srxr = document.getElementById("backup-prompt-srxr");
+var backupPrompt_srxr = document.getElementById("backup-prompt-srxr");
 
 backupBtn_srxr.onclick = function() {
     backupImg_srxr.style.display = "inherit";
@@ -10,7 +10,7 @@ backupBtn_srxr.onclick = function() {
 }
 var backupBtn_runPass = document.getElementById("backup-img-btn-runPass");
 var backupImg_runPass = document.getElementById("backup-img-runPass");
-var backupImgPrompt_runPass = document.getElementById("backup-prompt-runPass");
+var backupPrompt_runPass = document.getElementById("backup-prompt-runPass");
 
 backupBtn_runPass.onclick = function() {
     backupImg_runPass.style.display = "inherit";
@@ -19,7 +19,7 @@ backupBtn_runPass.onclick = function() {
 }
 var backupBtn_runPass_op = document.getElementById("backup-img-btn-runPass-op");
 var backupImg_runPass_op = document.getElementById("backup-img-runPass-op");
-var backupImgPrompt_runPass_op = document.getElementById("backup-prompt-runPass-op");
+var backupPrompt_runPass_op = document.getElementById("backup-prompt-runPass-op");
 
 backupBtn_runPass_op.onclick = function() {
     backupImg_runPass_op.style.display = "inherit";
