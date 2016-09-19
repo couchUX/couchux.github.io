@@ -22,19 +22,18 @@
   width: 100%;
   height: 200px;
 }
-@media only screen and (min-width: 500px) {
-  .rbr-chart > .runPass-rate-chart,
-  .rbr-chart > .runPass-sr-chart {
+@media only screen and (min-width: 520px) {
+  .rbr-chart > div > .runPass-rate-chart,
+  .rbr-chart > div > .runPass-sr-chart {
     width: 49.2%;
   }
-  .rbr-chart > .runPass-sr-chart {
+  .rbr-chart > div > .runPass-sr-chart {
     margin-left: 1.6%;
   }
 }
 @media only screen and (min-width: 900px) {
   .runPass-rate-chart, .runPass-sr-chart {
     width: 49.2%;
-    height: 200px;
   }
   .runPass-sr-chart {
     margin-left: 1.6%;
