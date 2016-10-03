@@ -189,6 +189,9 @@ svg > path {
 .oleMiss > svg > path {
   stroke: #006AA6;
 }
+.uk > svg > path {
+  stroke: #0033A0;
+}
 .pass-sr-line {
   opacity: .25;
 }
@@ -222,6 +225,11 @@ svg > path {
 .oleMiss > p > .suc,
 .oleMiss > p > .xpl {
   color: #006AA6;
+}
+.uk > p > .un,
+.uk > p > .suc,
+.uk > p > .xpl {
+  color: #0033A0;
 }
 .ltRed, .un {
   opacity: 0.4;

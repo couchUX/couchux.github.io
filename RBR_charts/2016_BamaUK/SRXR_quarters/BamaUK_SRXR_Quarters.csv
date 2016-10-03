@@ -1,0 +1,11 @@
+Team,Quarter,SuccessRate,SuccessMax,ExpRate,ExpMax
+Alabama,1,0.48,0.57,0.04,0.19
+Kentucky,1,0.31,0.57,0.06,0.19
+Alabama,2,0.50,0.57,0.08,0.19
+Kentucky,2,0.13,0.57,0.00,0.19
+Alabama,3,0.57,0.57,0.19,0.19
+Kentucky,3,0.21,0.57,0.07,0.19
+Alabama,4,0.50,0.57,0.10,0.19
+Kentucky,4,0.35,0.57,0.06,0.19
+Alabama,Game,0.51,0.57,0.10,0.19
+Kentucky,Game,0.25,0.57,0.05,0.19

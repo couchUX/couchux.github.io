@@ -1,0 +1,144 @@
+Team,Play_num_team,Drive,Play_num_drive,Quarter,New_q,New_q_team,Play_type,Result_final,1st_down,Points,SR_run_cume,SR_pass_cume,runRate_cume
+Alabama,1,1,1,1,1,1,pass,Successful,1D,,,1.00,0.00
+Alabama,2,1,2,1,,,pass,Explosive,1D,,,1.00,0.00
+Alabama,3,1,3,1,,,pass,Not successful,,,,0.67,0.00
+Alabama,4,1,4,1,,,run,Not successful,,,0.00,0.67,0.25
+Alabama,5,1,5,1,,,run,Not successful,,,0.00,0.67,0.40
+Alabama,6,1,6,1,,,penalty,Not successful,,,0.00,0.67,0.40
+Alabama,7,1,7,1,,,pass,Not successful,,,0.00,0.50,0.33
+Kentucky,1,1,1,1,,1,run,Successful,1D,,1.00,,1.00
+Kentucky,2,1,2,1,,,run,Not successful,,,0.50,,1.00
+Kentucky,3,1,3,1,,,pass,Successful,,,0.50,1.00,0.67
+Kentucky,4,1,4,1,,,pass,Successful,1D,,0.50,1.00,0.50
+Kentucky,5,1,5,1,,,run,Not successful,,,0.33,1.00,0.60
+Kentucky,6,1,6,1,,,run,Not successful,,,0.25,1.00,0.67
+Kentucky,7,1,7,1,,,pass,Not successful,,,0.25,0.67,0.57
+Kentucky,8,1,8,1,,,field goal,Successful,,3,0.25,0.67,0.57
+Alabama,8,2,1,1,,,pass,Not successful,,,0.00,0.40,0.29
+Alabama,9,2,2,1,,,run,Successful,1D,,0.33,0.40,0.38
+Alabama,10,2,3,1,,,run,Not successful,,,0.25,0.40,0.44
+Alabama,11,2,4,1,,,pass,Successful,,,0.25,0.50,0.40
+Alabama,12,2,5,1,,,run,Successful,1D,,0.40,0.50,0.45
+Alabama,13,2,6,1,,,pass,Not successful,,,0.40,0.43,0.42
+Alabama,14,2,7,1,,,run,Not successful,,,0.33,0.43,0.46
+Kentucky,9,2,1,1,,,run,Not successful,,,0.20,0.67,0.63
+Kentucky,10,2,2,1,,,run,Not successful,,,0.17,0.67,0.67
+Kentucky,11,2,3,1,,,pass,Explosive,1D,,0.17,0.75,0.60
+Kentucky,12,2,4,1,,,pass,Not successful,,,0.17,0.60,0.55
+Kentucky,13,2,5,1,,,run,Not successful,,,0.14,0.60,0.58
+Kentucky,14,2,6,1,,,pass,Not successful,,,0.14,0.50,0.54
+Alabama,15,3,1,1,,,pass,Not successful,,,0.33,0.38,0.43
+Alabama,16,3,2,1,,,run,Successful,1D,,0.43,0.38,0.47
+Alabama,17,3,3,1,,,pass,Successful,,,0.43,0.44,0.44
+Alabama,18,3,4,1,,,pass,Successful,1D,,0.43,0.50,0.41
+Alabama,19,3,5,1,,,run,Successful,,,0.50,0.50,0.44
+Alabama,20,3,6,1,,,run,Successful,,,0.56,0.50,0.47
+Alabama,21,3,7,1,,,run,Successful,1D,,0.60,0.50,0.50
+Alabama,22,3,8,1,,,pass,Not successful,,,0.60,0.45,0.48
+Alabama,23,3,9,1,,,pass,Not successful,,,0.60,0.42,0.45
+Alabama,24,3,10,1,,,pass,Not successful,,,0.60,0.38,0.43
+Alabama,25,3,11,1,,,field goal,Successful,,3,0.60,0.38,0.43
+Kentucky,15,3,1,1,,,pass,Not successful,,,0.14,0.43,0.50
+Kentucky,16,3,2,1,,,pass,Not successful,,,0.14,0.38,0.47
+Kentucky,17,3,3,2,2,2,pass,Not successful,,,0.14,0.33,0.44
+Alabama,26,4,1,2,,2,run,Not successful,,,0.55,0.38,0.46
+Alabama,27,4,2,2,,,run,Not successful,,,0.50,0.38,0.48
+Alabama,28,4,3,2,,,pass,Not successful,,,0.50,0.36,0.46
+Kentucky,18,4,1,2,,,run,Not successful,,,0.13,0.33,0.47
+Kentucky,19,4,2,2,,,pass,Not successful,,,0.13,0.30,0.44
+Kentucky,20,4,3,2,,,pass,Not successful,,,0.13,0.27,0.42
+Alabama,29,5,1,2,,,run,Not successful,,,0.46,0.36,0.48
+Alabama,30,5,2,2,,,run,Explosive,1D,,0.50,0.36,0.50
+Alabama,31,5,3,2,,,run,Successful,,,0.53,0.36,0.52
+Alabama,32,5,4,2,,,run,Successful,1D,,0.56,0.36,0.53
+Alabama,33,5,5,2,,,run,Successful,,,0.59,0.36,0.55
+Alabama,34,5,6,2,,,run,Successful,,,0.61,0.36,0.56
+Alabama,35,5,7,2,,,run,Successful,,6,0.63,0.36,0.58
+Kentucky,21,5,1,2,,,run,Not successful,,,0.11,0.27,0.45
+Kentucky,22,5,2,2,,,pass,Not successful,,,0.11,0.25,0.43
+Kentucky,23,5,3,2,,,pass,Successful,1D,,0.11,0.31,0.41
+Kentucky,24,5,4,2,,,pass,Not successful,,,0.11,0.29,0.39
+Kentucky,25,5,5,2,,,run,Not successful,,,0.10,0.29,0.42
+Kentucky,26,5,6,2,,,pass,Not successful,,,0.10,0.27,0.40
+Kentucky,27,6,1,2,,,run,Not successful,,,0.09,0.27,0.42
+Kentucky,28,6,2,2,,,run,Not successful,,,0.08,0.27,0.44
+Kentucky,29,6,3,2,,,pass,Not successful,,,0.08,0.25,0.43
+Alabama,36,7,1,2,,,pass,Not successful,,,0.63,0.33,0.56
+Alabama,37,7,2,2,,,run,Not successful,,,0.60,0.33,0.57
+Alabama,38,7,3,2,,,run,Successful,1D,,0.62,0.33,0.58
+Alabama,39,7,4,2,,,pass,Successful,,,0.62,0.38,0.57
+Alabama,40,7,5,2,,,run,Not successful,,,0.59,0.38,0.58
+Alabama,41,7,6,2,,,pass,Successful,1D,,0.59,0.41,0.56
+Alabama,42,7,7,2,,,pass,Successful,,,0.59,0.44,0.55
+Alabama,43,7,8,2,,,run,Successful,1D,,0.61,0.44,0.56
+Alabama,44,7,9,2,,,pass,Not successful,,,0.61,0.42,0.55
+Alabama,45,7,10,2,,,pass,Explosive,1D,,0.61,0.45,0.53
+Alabama,46,7,11,2,,,run,Not successful,,,0.58,0.45,0.55
+Alabama,47,7,12,2,,,run,Not successful,,,0.56,0.45,0.56
+Alabama,48,7,13,2,,,pass,Not successful,,,0.56,0.43,0.54
+Alabama,49,7,14,2,,,field goal,Not successful,,,0.56,0.43,0.54
+Kentucky,30,7,1,2,,,run,Not successful,,,0.08,0.25,0.45
+Kentucky,31,7,2,2,,,run,Not successful,,,0.07,0.25,0.47
+Kentucky,32,7,3,2,,,run,Successful,1D,,0.13,0.25,0.48
+Kentucky,33,8,1,3,3,3,run,Successful,1D,,0.19,0.25,0.50
+Kentucky,34,8,2,3,,,run,Not successful,,,0.18,0.25,0.52
+Kentucky,35,8,3,3,,,pass,Not successful,,,0.18,0.24,0.50
+Kentucky,36,8,4,3,,,pass,Not successful,,,0.18,0.22,0.49
+Alabama,50,8,1,3,,3,run,Not successful,,,0.54,0.43,0.55
+Alabama,51,8,2,3,,,pass,Successful,,,0.54,0.45,0.54
+Alabama,52,8,3,3,,,run,Successful,1D,,0.56,0.45,0.55
+Alabama,53,8,4,3,,,pass,Not successful,,,0.56,0.43,0.54
+Alabama,54,8,5,3,,,pass,Not successful,,,0.56,0.42,0.53
+Alabama,55,8,6,3,,,pass,Explosive,1D,,0.56,0.44,0.52
+Alabama,56,8,7,3,,,pass,Successful,,,0.56,0.46,0.51
+Alabama,57,8,8,3,,,pass,Successful,1D,6,0.56,0.48,0.50
+Kentucky,37,9,1,3,,,run,Explosive,1D,,0.22,0.22,0.50
+Kentucky,38,9,2,3,,,pass,Not successful,,,0.22,0.21,0.49
+Kentucky,39,9,3,3,,,run,Not successful,,,0.21,0.21,0.50
+Kentucky,40,9,4,3,,,pass,Not successful,,,0.21,0.20,0.49
+Kentucky,41,9,5,3,,,penalty,Not successful,,,0.21,0.20,0.49
+Alabama,58,9,1,3,,,pass,Not successful,,,0.56,0.46,0.49
+Alabama,59,9,2,3,,,pass,Explosive,1D,,0.56,0.48,0.48
+Alabama,60,9,3,3,,,pass,Not successful,,,0.56,0.47,0.47
+Alabama,61,9,4,3,,,run,Not successful,,,0.54,0.47,0.48
+Alabama,62,9,5,3,,,pass,Successful,1D,,0.54,0.48,0.47
+Alabama,63,9,6,3,,,run,Successful,,,0.55,0.48,0.48
+Alabama,64,9,7,3,,,run,Successful,1D,,0.57,0.48,0.49
+Alabama,65,9,8,3,,,pass,Not successful,,,0.57,0.47,0.48
+Alabama,66,9,9,3,,,pass,Explosive,1D,6,0.57,0.48,0.48
+Kentucky,42,10,1,3,,,run,Successful,1D,,0.25,0.20,0.50
+Kentucky,43,10,2,3,,,pass,Not successful,,,0.25,0.19,0.49
+Kentucky,44,10,3,3,,,no play,Not successful,,,0.25,0.19,0.49
+Kentucky,45,10,4,3,,,pass,Not successful,,,0.25,0.18,0.48
+Kentucky,46,10,5,3,,,run,Not successful,,,0.24,0.18,0.49
+Alabama,67,10,1,3,,,pass,Explosive,1D,,0.57,0.50,0.47
+Alabama,68,10,2,3,,,run,Successful,,,0.58,0.50,0.48
+Alabama,69,10,3,3,,,penalty,Not successful,,,0.58,0.50,0.48
+Alabama,70,10,4,3,,,run,Not successful,,,0.56,0.50,0.48
+Alabama,71,10,5,4,4,4,pass,Not successful,,,0.56,0.49,0.48
+Alabama,72,10,6,4,,,field goal,Successful,,3,0.56,0.49,0.48
+Kentucky,47,11,1,4,,4,run,Not successful,,,0.23,0.18,0.50
+Kentucky,48,11,2,4,,,run,Not successful,,,0.22,0.18,0.51
+Kentucky,49,11,3,4,,,run,Explosive,1D,,0.25,0.18,0.52
+Kentucky,50,11,4,4,,,run,Not successful,,,0.24,0.18,0.53
+Kentucky,51,11,5,4,,,pass,Successful,,,0.24,0.22,0.52
+Kentucky,52,11,6,4,,,run,Successful,1D,,0.27,0.22,0.53
+Kentucky,53,11,7,4,,,run,Not successful,,,0.26,0.22,0.54
+Kentucky,54,11,8,4,,,run,Not successful,,,0.25,0.22,0.55
+Kentucky,55,11,9,4,,,penalty,Successful,1D,,0.25,0.22,0.55
+Kentucky,56,11,10,4,,,run,Not successful,,,0.24,0.22,0.56
+Kentucky,57,11,11,4,,,run,Not successful,,,0.23,0.22,0.57
+Kentucky,58,11,12,4,,,pass,Not successful,,,0.23,0.21,0.56
+Kentucky,59,11,13,4,,,pass,Successful,1D,,0.23,0.24,0.55
+Kentucky,60,11,14,4,,,run,Not successful,,,0.23,0.24,0.55
+Kentucky,61,11,15,4,,,run,Not successful,,,0.22,0.24,0.56
+Kentucky,62,11,16,4,,,pass,Not successful,,,0.22,0.23,0.55
+Kentucky,63,11,17,4,,,field goal,Successful,,3,0.22,0.23,0.55
+Alabama,73,11,1,4,,,pass,Not successful,,,0.56,0.47,0.47
+Alabama,74,11,2,4,,,run,Not successful,,,0.55,0.47,0.48
+Alabama,75,11,3,4,,,pass,Successful,1D,,0.55,0.49,0.47
+Alabama,76,11,4,4,,,pass,Not successful,,,0.55,0.47,0.46
+Alabama,77,11,5,4,,,pass,Explosive,1D,,0.55,0.49,0.46
+Alabama,78,11,6,4,,,pass,Successful,1D,,0.55,0.50,0.45
+Alabama,79,11,7,4,,,run,Not successful,,,0.53,0.50,0.46
+Alabama,80,11,8,4,,,run,Successful,1D,,0.54,0.50,0.47
