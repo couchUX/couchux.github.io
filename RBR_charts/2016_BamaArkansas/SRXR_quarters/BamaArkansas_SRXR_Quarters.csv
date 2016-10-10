@@ -1,0 +1,11 @@
+Team,Quarter,SuccessRate,SuccessMax,ExpRate,ExpMax
+Alabama,1,0.68,0.68,0.14,0.36
+Arkansas,1,0.38,0.68,0.25,0.36
+Alabama,2,0.57,0.68,0.36,0.36
+Arkansas,2,0.46,0.68,0.17,0.36
+Alabama,3,0.30,0.68,0.10,0.36
+Arkansas,3,0.25,0.68,0.04,0.36
+Alabama,4,0.29,0.68,0.14,0.36
+Arkansas,4,0.52,0.68,0.20,0.36
+Alabama,Game,0.53,0.68,0.19,0.36
+Arkansas,Game,0.40,0.68,0.15,0.36
