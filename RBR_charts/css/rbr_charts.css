@@ -195,6 +195,9 @@ svg > path {
 .ar > svg > path {
   stroke: #F06F88;
 }
+.tn > svg > path {
+  stroke: #F77F00;
+}
 .pass-sr-line {
   opacity: .25;
 }
@@ -238,6 +241,11 @@ svg > path {
 .ar > p > .suc,
 .ar > p > .xpl {
   color: #F06F88;
+}
+.tn > p > .un,
+.tn > p > .suc,
+.tn > p > .xpl {
+  color: #F77F00;
 }
 .ltRed, .un {
   opacity: 0.4;
