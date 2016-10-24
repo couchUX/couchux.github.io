@@ -1,0 +1,169 @@
+Team,Play_num_team,Drive,Play_num_drive,Quarter,New_q,New_q_team,Play_type,Result_final,1st_down,Points,SR_run_cume,SR_pass_cume,runRate_cume
+Alabama,1,1,1,1,1,1,pass,Successful,,,,1.00,0.00
+Alabama,2,1,2,1,,,run,Explosive,1D,,1.00,1.00,0.50
+Alabama,3,1,3,1,,,run,Explosive,1D,,1.00,1.00,0.67
+Alabama,4,1,4,1,,,run,Successful,,,1.00,1.00,0.75
+Alabama,5,1,5,1,,,run,Successful,1D,,1.00,1.00,0.80
+Alabama,6,1,6,1,,,run,Not successful,,,0.80,1.00,0.83
+Alabama,7,1,7,1,,,pass,Not successful,,,0.80,0.50,0.71
+Alabama,8,1,8,1,,,pass,Not successful,,,0.80,0.33,0.63
+Alabama,9,1,9,1,,,field goal,Successful,,3,0.80,0.33,0.63
+Texas A&M,1,1,1,1,,1,pass,Not successful,,,,0.00,0.00
+Texas A&M,2,1,2,1,,,run,Not successful,,,0.00,0.00,0.50
+Texas A&M,3,1,3,1,,,pass,Successful,1D,,0.00,0.50,0.33
+Texas A&M,4,1,4,1,,,pass,Not successful,,,0.00,0.33,0.25
+Texas A&M,5,1,5,1,,,pass,Not successful,,,0.00,0.25,0.20
+Texas A&M,6,1,6,1,,,pass,Not successful,,,0.00,0.20,0.17
+Alabama,10,2,1,1,,,pass,Successful,,,0.80,0.50,0.56
+Alabama,11,2,2,1,,,run,Explosive,1D,,0.83,0.50,0.60
+Alabama,12,2,3,1,,,pass,Successful,,,0.83,0.60,0.55
+Alabama,13,2,4,1,,,run,Successful,1D,,0.86,0.60,0.58
+Alabama,14,2,5,1,,,pass,Not successful,,,0.86,0.50,0.54
+Alabama,15,2,6,1,,,run,Not successful,,,0.75,0.50,0.57
+Alabama,16,2,7,1,,,pass,Successful,1D,,0.75,0.57,0.53
+Alabama,17,2,8,1,,,run,Successful,,,0.78,0.57,0.56
+Alabama,18,2,9,1,,,run,Successful,1D,,0.80,0.57,0.59
+Alabama,19,2,10,1,,,pass,Not successful,,,0.80,0.50,0.56
+Alabama,20,2,11,1,,,run,Not successful,,,0.73,0.50,0.58
+Alabama,21,2,12,1,,,pass,Not successful,,,0.73,0.44,0.55
+Alabama,22,2,13,1,,,field goal,Successful,,3,0.73,0.44,0.55
+Texas A&M,7,2,1,1,,,run,Not successful,,,0.00,0.20,0.29
+Texas A&M,8,2,2,1,,,run,Successful,,,0.33,0.20,0.38
+Texas A&M,9,2,3,1,,,run,Successful,1D,,0.50,0.20,0.44
+Texas A&M,10,2,4,1,,,run,Not successful,,,0.40,0.20,0.50
+Texas A&M,11,2,5,1,,,pass,Successful,,,0.40,0.33,0.45
+Texas A&M,12,2,6,1,,,run,Not successful,,,0.33,0.33,0.50
+Alabama,23,3,1,1,,,no play,Successful,1D,,0.73,0.44,0.55
+Alabama,24,3,2,1,,,run,Successful,,,0.75,0.44,0.57
+Alabama,25,3,3,1,,,run,Successful,1D,,0.77,0.44,0.59
+Alabama,26,3,4,1,,,run,Not successful,,,0.71,0.44,0.61
+Alabama,27,3,5,2,2,2,run,Not successful,,,0.67,0.44,0.63
+Alabama,28,3,6,2,,,pass,Successful,1D,,0.67,0.50,0.60
+Alabama,29,3,7,2,,,run,Explosive,1D,,0.69,0.50,0.62
+Alabama,30,3,8,2,,,run,Successful,,,0.71,0.50,0.63
+Alabama,31,3,9,2,,,run,Successful,1D,,0.72,0.50,0.64
+Alabama,32,3,10,2,,,pass,Successful,,6,0.72,0.55,0.62
+Texas A&M,13,3,1,2,,2,pass,Not successful,,,0.33,0.29,0.46
+Texas A&M,14,3,2,2,,,run,Successful,1D,,0.43,0.29,0.50
+Texas A&M,15,3,3,2,,,pass,Not successful,,,0.43,0.25,0.47
+Texas A&M,16,3,4,2,,,pass,Explosive,1D,,0.43,0.33,0.44
+Texas A&M,17,3,5,2,,,run,Not successful,,,0.38,0.33,0.47
+Texas A&M,18,3,6,2,,,pass,Successful,1D,,0.38,0.40,0.44
+Texas A&M,19,3,7,2,,,pass,Not successful,,,0.38,0.36,0.42
+Texas A&M,20,3,8,2,,,pass,Not successful,,,0.38,0.33,0.40
+Texas A&M,21,3,9,2,,,pass,Not successful,,,0.38,0.31,0.38
+Alabama,33,4,1,2,,,run,Successful,,,0.74,0.55,0.63
+Alabama,34,4,2,2,,,run,Successful,,,0.75,0.55,0.65
+Alabama,35,4,3,2,,,run,Successful,1D,,0.76,0.55,0.66
+Alabama,36,4,4,2,,,run,Not successful,,,0.73,0.55,0.67
+Alabama,37,4,5,2,,,pass,Not successful,,,0.73,0.50,0.65
+Alabama,38,4,6,2,,,penalty,Not successful,,,0.73,0.50,0.65
+Alabama,39,4,7,2,,,run,Not successful,,,0.70,0.50,0.66
+Texas A&M,22,4,1,2,,,run,Not successful,,,0.33,0.31,0.41
+Texas A&M,23,4,2,2,,,pass,Not successful,,,0.33,0.29,0.39
+Texas A&M,24,4,3,2,,,run,Not successful,,,0.30,0.29,0.42
+Alabama,40,5,1,2,,,run,Not successful,,,0.67,0.50,0.67
+Alabama,41,5,2,2,,,pass,Not successful,,,0.67,0.46,0.65
+Alabama,42,5,3,2,,,pass,Explosive,,,0.67,0.50,0.63
+Texas A&M,25,5,1,2,,,pass,Not successful,,,0.30,0.27,0.40
+Alabama,43,6,1,2,,,run,Not successful,,,0.64,0.50,0.64
+Alabama,44,6,2,2,,,pass,Explosive,1D,,0.64,0.53,0.63
+Alabama,45,6,3,2,,,penalty,Not successful,,,0.64,0.53,0.63
+Alabama,46,6,4,2,,,pass,Explosive,1D,,0.64,0.56,0.61
+Alabama,47,6,5,2,,,run,Not successful,,,0.62,0.56,0.62
+Alabama,48,6,6,2,,,run,Not successful,,,0.59,0.56,0.63
+Alabama,49,6,7,2,,,pass,Not successful,,,0.59,0.53,0.61
+Alabama,50,6,8,2,,,field goal,Not successful,,,0.59,0.53,0.61
+Texas A&M,26,6,1,2,,,run,Successful,,,0.36,0.27,0.42
+Texas A&M,27,6,2,2,,,run,Successful,1D,,0.42,0.27,0.44
+Texas A&M,28,6,3,2,,,pass,Explosive,1D,,0.42,0.31,0.43
+Texas A&M,29,6,4,2,,,run,Successful,,,0.46,0.31,0.45
+Texas A&M,30,6,5,2,,,pass,Not successful,,,0.46,0.29,0.43
+Texas A&M,31,6,6,2,,,run,Not successful,,,0.43,0.29,0.45
+Texas A&M,32,6,7,2,,,run,Explosive,1D,,0.47,0.29,0.47
+Texas A&M,33,6,8,2,,,pass,Successful,,6,0.47,0.33,0.45
+Alabama,51,7,1,2,,,run,Not successful,,,0.57,0.53,0.62
+Alabama,52,7,2,2,,,pass,Successful,1D,,0.57,0.56,0.61
+Alabama,53,7,3,2,,,pass,Successful,,,0.57,0.58,0.60
+Alabama,54,7,4,2,,,pass,Successful,1D,,0.57,0.60,0.58
+Alabama,55,7,5,2,,,penalty,Not successful,,,0.57,0.60,0.58
+Alabama,56,7,6,2,,,pass,Not successful,,,0.57,0.57,0.57
+Texas A&M,34,8,1,3,3,3,run,Not successful,,,0.44,0.33,0.47
+Texas A&M,35,8,2,3,,,run,Explosive,1D,,0.47,0.33,0.49
+Texas A&M,36,8,3,3,,,no play,Not successful,,,0.47,0.33,0.49
+Texas A&M,37,8,4,3,,,penalty,Not successful,,,0.47,0.33,0.49
+Texas A&M,38,8,5,3,,,run,Not successful,,,0.44,0.33,0.50
+Texas A&M,39,8,6,3,,,run,Not successful,,,0.42,0.33,0.51
+Texas A&M,40,8,7,3,,,pass,Explosive,1D,,0.42,0.37,0.50
+Texas A&M,41,8,8,3,,,pass,Explosive,1D,6,0.42,0.40,0.49
+Alabama,57,8,1,3,,3,pass,Not successful,,,0.57,0.55,0.56
+Alabama,58,8,2,3,,,pass,Successful,,,0.57,0.57,0.55
+Alabama,59,8,3,3,,,run,Successful,1D,,0.59,0.57,0.56
+Alabama,60,8,4,3,,,pass,Not successful,,,0.59,0.54,0.55
+Alabama,61,8,5,3,,,pass,Not successful,,,0.59,0.52,0.54
+Alabama,62,8,6,3,,,no play,Successful,1D,,0.59,0.52,0.54
+Alabama,63,8,7,3,,,run,Successful,,,0.60,0.52,0.55
+Alabama,64,8,8,3,,,run,Not successful,,,0.58,0.52,0.55
+Alabama,65,8,9,3,,,pass,Successful,1D,,0.58,0.54,0.54
+Alabama,66,8,10,3,,,run,Successful,,,0.59,0.54,0.55
+Alabama,67,8,11,3,,,run,Successful,1D,,0.61,0.54,0.56
+Alabama,68,8,12,3,,,run,Successful,,,0.62,0.54,0.57
+Alabama,69,8,13,3,,,run,Explosive,1D,,0.63,0.54,0.57
+Alabama,70,8,14,3,,,run,Not successful,,,0.61,0.54,0.58
+Alabama,71,8,15,3,,,pass,Successful,,6,0.61,0.56,0.57
+Alabama,72,8,17,3,,,,Successful,,6,0.61,0.56,0.57
+Texas A&M,42,9,1,3,,,run,Explosive,1D,,0.45,0.40,0.50
+Texas A&M,43,9,2,3,,,run,Not successful,,,0.43,0.40,0.51
+Texas A&M,44,9,3,3,,,pass,Not successful,,,0.43,0.38,0.50
+Texas A&M,45,9,4,3,,,pass,Not successful,,,0.43,0.36,0.49
+Alabama,73,9,1,3,,,pass,Not successful,,,0.61,0.54,0.56
+Alabama,74,9,2,3,,,penalty,Successful,,,0.61,0.54,0.56
+Alabama,75,9,3,3,,,run,Not successful,,,0.59,0.54,0.57
+Alabama,76,9,4,3,,,run,Not successful,,,0.58,0.54,0.58
+Texas A&M,46,10,1,3,,,no play,Successful,,,0.43,0.36,0.49
+Texas A&M,47,10,2,3,,,pass,Not successful,,,0.43,0.35,0.48
+Texas A&M,48,10,3,3,,,run,Not successful,,,0.41,0.35,0.49
+Texas A&M,49,10,4,3,,,run,Successful,1D,,0.43,0.35,0.50
+Texas A&M,50,10,5,3,,,pass,Not successful,,,0.43,0.33,0.49
+Texas A&M,51,10,6,3,,,pass,Not successful,,,0.43,0.32,0.48
+Texas A&M,52,10,7,3,,,run,Not successful,,,0.42,0.32,0.49
+Texas A&M,53,11,1,3,,,run,Not successful,,,0.40,0.32,0.50
+Texas A&M,54,11,2,4,4,4,pass,Not successful,,,0.40,0.31,0.49
+Texas A&M,55,11,3,4,,,run,Not successful,,,0.38,0.31,0.50
+Alabama,77,11,1,4,,4,run,Successful,,,0.59,0.54,0.58
+Alabama,78,11,2,4,,,run,Successful,1D,,0.60,0.54,0.59
+Alabama,79,11,3,4,,,run,Explosive,1D,6,0.61,0.54,0.59
+Texas A&M,56,12,1,4,,,pass,Explosive,1D,,0.38,0.33,0.49
+Texas A&M,57,12,2,4,,,run,Not successful,,,0.37,0.33,0.50
+Texas A&M,58,12,3,4,,,run,Explosive,1D,,0.39,0.33,0.51
+Texas A&M,59,12,4,4,,,penalty,Not successful,,,0.39,0.33,0.51
+Texas A&M,60,12,5,4,,,run,Not successful,,,0.38,0.33,0.52
+Texas A&M,61,12,6,4,,,pass,Not successful,,,0.38,0.32,0.51
+Texas A&M,62,12,7,4,,,pass,Not successful,,,0.38,0.31,0.50
+Texas A&M,63,12,8,4,,,pass,Not successful,,,0.38,0.30,0.49
+Alabama,80,12,1,4,,,run,Not successful,,,0.60,0.54,0.60
+Alabama,81,12,2,4,,,run,Successful,1D,,0.60,0.54,0.61
+Alabama,82,12,3,4,,,run,Successful,,,0.61,0.54,0.61
+Alabama,83,12,4,4,,,run,Not successful,,,0.60,0.54,0.62
+Alabama,84,12,5,4,,,run,Successful,1D,,0.61,0.54,0.62
+Alabama,85,12,6,4,,,run,Not successful,,,0.60,0.54,0.63
+Alabama,86,12,7,4,,,run,Not successful,,,0.58,0.54,0.63
+Alabama,87,12,8,4,,,run,Not successful,,,0.57,0.54,0.64
+Alabama,88,12,9,4,,,run,Not successful,,,0.56,0.54,0.64
+Texas A&M,64,13,1,4,,,run,Not successful,,,0.37,0.30,0.50
+Texas A&M,65,13,2,4,,,pass,Not successful,,,0.37,0.29,0.49
+Texas A&M,66,13,3,4,,,pass,Not successful,,,0.37,0.28,0.48
+Texas A&M,67,13,4,4,,,penalty,Successful,1D,,0.37,0.28,0.48
+Texas A&M,68,13,5,4,,,pass,Not successful,,,0.37,0.27,0.48
+Texas A&M,69,13,6,4,,,run,Not successful,,,0.35,0.27,0.48
+Texas A&M,70,13,7,4,,,penalty,Successful,,,0.35,0.27,0.48
+Texas A&M,71,13,8,4,,,run,Successful,1D,,0.38,0.27,0.49
+Texas A&M,72,13,9,4,,,pass,Not successful,,,0.38,0.26,0.48
+Texas A&M,73,13,10,4,,,run,Not successful,,,0.36,0.26,0.49
+Texas A&M,74,13,11,4,,,pass,Not successful,,,0.36,0.26,0.49
+Texas A&M,75,13,12,4,,,pass,Not successful,,,0.36,0.25,0.48
+Alabama,89,13,1,4,,,run,Explosive,1D,,0.57,0.54,0.65
+Alabama,90,13,2,4,,,run,Successful,,,0.58,0.54,0.65
+Alabama,91,13,3,4,,,run,Not successful,,,0.57,0.54,0.65
+Alabama,92,13,4,4,,,no play,Successful,,,0.57,0.54,0.65
+Alabama,93,13,5,4,,,run,Successful,1D,,0.57,0.54,0.66

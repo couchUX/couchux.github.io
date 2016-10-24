@@ -198,6 +198,9 @@ svg > path {
 .tn > svg > path {
   stroke: #F77F00;
 }
+.tamu > svg > path {
+  stroke: #500000;
+}
 .pass-sr-line {
   opacity: .25;
 }
@@ -246,6 +249,11 @@ svg > path {
 .tn > p > .suc,
 .tn > p > .xpl {
   color: #F77F00;
+}
+.tamu > p > .un,
+.tamu > p > .suc,
+.tamu > p > .xpl {
+  color: #500000;
 }
 .ltRed, .un {
   opacity: 0.4;
