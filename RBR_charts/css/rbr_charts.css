@@ -22,6 +22,9 @@
   width: 100%;
   height: 200px;
 }
+#backup-prompt-runPass, #backup-prompt-runPass-op {
+  margin-top: -8px;
+}
 @media only screen and (min-width: 520px) {
   .rbr-chart > div > .runPass-rate-chart,
   .rbr-chart > div > .runPass-sr-chart {
