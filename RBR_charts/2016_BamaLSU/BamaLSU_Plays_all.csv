@@ -1,0 +1,131 @@
+Team,Play_num_team,Drive,Play_num_drive,Quarter,New_q,New_q_team,Play_type,Result_final,1st_down,Points,SR_run_cume,SR_pass_cume,runRate_cume
+Alabama,1,1,1,1,1,1,pass,Not successful,,,,0.00,0.00
+Alabama,2,1,2,1,,,run,Not successful,,,0.00,0.00,0.50
+Alabama,3,1,3,1,,,pass,Not successful,,,0.00,0.00,0.33
+LSU,1,1,1,1,,1,pass,Not successful,,,,0.00,0.00
+LSU,2,1,2,1,,,pass,Not successful,,,,0.00,0.00
+LSU,3,1,3,1,,,pass,Not successful,,,,0.00,0.00
+LSU,4,1,4,1,,,field goal,Not successful,,,,0.00,0.00
+Alabama,4,2,1,1,,,pass,Not successful,,,0.00,0.00,0.25
+Alabama,5,2,2,1,,,run,Successful,,,0.50,0.00,0.40
+Alabama,6,2,3,1,,,pass,Not successful,,,0.50,0.00,0.33
+LSU,5,2,1,1,,,run,Not successful,,,0.00,0.00,0.25
+LSU,6,2,2,1,,,pass,Not successful,,,0.00,0.00,0.20
+LSU,7,2,3,1,,,pass,Explosive,1D,,0.00,0.20,0.17
+LSU,8,2,4,1,,,run,Not successful,,,0.00,0.20,0.29
+LSU,9,2,5,1,,,pass,Not successful,,,0.00,0.17,0.25
+LSU,10,2,6,1,,,pass,Not successful,,,0.00,0.14,0.22
+Alabama,7,3,1,1,,,pass,Not successful,,,0.50,0.00,0.29
+Alabama,8,3,2,1,,,run,Not successful,,,0.33,0.00,0.38
+Alabama,9,3,3,1,,,pass,Not successful,,,0.33,0.00,0.33
+LSU,11,3,1,1,,,run,Not successful,,,0.00,0.14,0.30
+LSU,12,3,2,1,,,run,Not successful,,,0.00,0.14,0.36
+LSU,13,3,3,1,,,pass,Not successful,,,0.00,0.13,0.33
+Alabama,10,4,1,1,,,run,Not successful,,,0.25,0.00,0.40
+Alabama,11,4,2,1,,,pass,Not successful,,,0.25,0.00,0.36
+Alabama,12,4,3,1,,,run,Successful,1D,,0.40,0.00,0.42
+Alabama,13,4,4,1,,,run,Not successful,,,0.33,0.00,0.46
+Alabama,14,4,5,1,,,pass,Successful,,,0.33,0.13,0.43
+Alabama,15,4,6,1,,,run,Successful,1D,,0.43,0.13,0.47
+Alabama,16,4,7,1,,,run,Not successful,,,0.38,0.13,0.50
+Alabama,17,4,8,1,,,run,Successful,,,0.44,0.13,0.53
+Alabama,18,4,9,1,,,run,Not successful,,,0.40,0.13,0.56
+LSU,14,4,1,2,2,2,pass,Not successful,,,0.00,0.11,0.31
+LSU,15,4,2,2,,,run,Successful,,,0.20,0.11,0.36
+LSU,16,4,3,2,,,run,Successful,1D,,0.33,0.11,0.40
+LSU,17,4,4,2,,,run,Successful,,,0.43,0.11,0.44
+LSU,18,4,5,2,,,run,Successful,1D,,0.50,0.11,0.47
+LSU,19,4,6,2,,,run,Not successful,,,0.44,0.11,0.50
+LSU,20,4,7,2,,,pass,Successful,,,0.44,0.20,0.47
+LSU,21,4,8,2,,,run,Successful,1D,,0.50,0.20,0.50
+LSU,22,4,9,2,,,pass,Not successful,,,0.50,0.18,0.48
+LSU,23,4,10,2,,,run,Not successful,,,0.45,0.18,0.50
+LSU,24,4,11,2,,,pass,Not successful,,,0.45,0.17,0.48
+Alabama,19,5,1,2,,2,run,Not successful,,,0.36,0.13,0.58
+Alabama,20,5,2,2,,,run,Not successful,,,0.33,0.13,0.60
+Alabama,21,5,3,2,,,run,Explosive,1D,,0.38,0.13,0.62
+Alabama,22,5,4,2,,,run,Successful,1D,,0.43,0.13,0.64
+Alabama,23,5,5,2,,,pass,Explosive,1D,,0.43,0.22,0.61
+Alabama,24,5,6,2,,,pass,Not successful,,,0.43,0.20,0.58
+Alabama,25,5,7,2,,,pass,Not successful,,,0.43,0.18,0.56
+Alabama,26,5,8,2,,,pass,Not successful,,,0.43,0.17,0.54
+Alabama,27,5,9,2,,,field goal,Not successful,,,0.43,0.17,0.54
+LSU,25,5,1,2,,,run,Successful,,,0.50,0.17,0.50
+LSU,26,5,2,2,,,run,Not successful,,,0.46,0.17,0.52
+LSU,27,5,3,2,,,run,Successful,1D,,0.50,0.17,0.54
+LSU,28,5,4,2,,,run,Not successful,,,0.47,0.17,0.56
+LSU,29,5,5,2,,,run,Not successful,,,0.44,0.17,0.57
+LSU,30,5,6,2,,,pass,Not successful,,,0.44,0.15,0.55
+Alabama,28,6,1,2,,,run,Not successful,,,0.40,0.17,0.56
+Alabama,29,6,2,2,,,run,Not successful,,,0.38,0.17,0.57
+Alabama,30,6,3,2,,,run,Not successful,,,0.35,0.17,0.59
+Alabama,31,6,4,2,,,penalty,Not successful,,,0.35,0.17,0.59
+LSU,31,6,1,2,,,pass,Not successful,,,0.44,0.14,0.53
+LSU,32,6,2,2,,,run,Not successful,,,0.41,0.14,0.55
+LSU,33,6,3,2,,,pass,Not successful,,,0.41,0.13,0.53
+LSU,34,6,4,2,,,pass,Not successful,,,0.41,0.13,0.52
+Alabama,32,7,1,2,,,pass,Not successful,,,0.35,0.15,0.57
+LSU,35,7,1,3,3,3,pass,Not successful,,,0.41,0.12,0.50
+LSU,36,7,2,3,,,run,Not successful,,,0.39,0.12,0.51
+LSU,37,7,3,3,,,pass,Not successful,,,0.39,0.11,0.50
+Alabama,33,8,1,3,,3,pass,Explosive,1D,,0.35,0.21,0.55
+Alabama,34,8,2,3,,,run,Not successful,,,0.33,0.21,0.56
+Alabama,35,8,3,3,,,run,Not successful,,,0.32,0.21,0.58
+Alabama,36,8,4,3,,,run,Not successful,,,0.30,0.21,0.59
+Alabama,37,8,5,3,,,run,Not successful,,,0.29,0.21,0.60
+LSU,38,8,1,3,,,run,Not successful,,,0.37,0.11,0.51
+LSU,39,8,2,3,,,pass,Not successful,,,0.37,0.11,0.50
+LSU,40,8,3,3,,,pass,Not successful,,,0.37,0.10,0.49
+Alabama,38,9,1,3,,,run,Not successful,,,0.27,0.21,0.61
+Alabama,39,9,2,3,,,run,Not successful,,,0.26,0.21,0.62
+Alabama,40,9,3,3,,,pass,Not successful,,,0.26,0.20,0.61
+LSU,41,9,1,3,,,run,Successful,,,0.40,0.10,0.50
+LSU,42,9,2,3,,,run,Not successful,,,0.38,0.10,0.51
+LSU,43,9,3,3,,,pass,Not successful,,,0.38,0.10,0.50
+Alabama,41,10,1,3,,,run,Not successful,,,0.25,0.20,0.62
+Alabama,42,10,2,3,,,pass,Not successful,,,0.25,0.19,0.60
+LSU,44,10,1,3,,,pass,Successful,,,0.38,0.14,0.49
+LSU,45,10,3,3,,,run,Not successful,,,0.36,0.14,0.50
+LSU,46,10,4,3,,,penalty,Successful,,,0.36,0.14,0.50
+LSU,47,10,5,3,,,pass,Successful,,,0.36,0.17,0.49
+Alabama,43,11,1,3,,,run,Not successful,,,0.24,0.19,0.61
+Alabama,44,11,2,3,,,pass,Explosive,1D,,0.24,0.24,0.60
+Alabama,45,11,3,3,,,run,Successful,,,0.27,0.24,0.60
+Alabama,46,11,4,3,,,no play,Not successful,,,0.27,0.24,0.60
+Alabama,47,11,5,3,,,run,Explosive,1D,,0.30,0.24,0.61
+Alabama,48,11,6,3,,,run,Successful,1D,,0.32,0.24,0.62
+Alabama,49,11,7,3,,,run,Not successful,,,0.31,0.24,0.63
+Alabama,50,11,8,3,,,run,Not successful,,,0.30,0.24,0.64
+Alabama,51,11,9,3,,,pass,Not successful,,,0.30,0.22,0.63
+Alabama,52,11,10,4,4,4,run,Successful,1D,,0.32,0.22,0.63
+Alabama,53,11,11,4,,,run,Not successful,,,0.31,0.22,0.64
+Alabama,54,11,12,4,,,run,Not successful,,,0.30,0.22,0.65
+Alabama,55,11,13,4,,,run,Explosive,1D,6,0.32,0.22,0.65
+LSU,48,11,1,4,,4,pass,Successful,1D,,0.36,0.21,0.48
+LSU,49,11,2,4,,,pass,Not successful,,,0.36,0.20,0.47
+Alabama,56,12,1,4,,,run,Not successful,,,0.31,0.22,0.66
+Alabama,57,12,2,4,,,run,Successful,,,0.33,0.22,0.67
+Alabama,58,12,3,4,,,run,Successful,1D,,0.35,0.22,0.67
+Alabama,59,12,4,4,,,run,Successful,,,0.37,0.22,0.68
+Alabama,60,12,5,4,,,run,Successful,1D,,0.38,0.22,0.68
+Alabama,61,12,6,4,,,penalty,Not successful,,,0.38,0.22,0.68
+Alabama,62,12,7,4,,,pass,Not successful,,,0.38,0.21,0.67
+Alabama,63,12,8,4,,,run,Not successful,,,0.38,0.21,0.68
+Alabama,64,12,9,4,,,run,Explosive,1D,,0.39,0.21,0.68
+Alabama,65,12,10,4,,,run,Successful,,,0.40,0.21,0.69
+Alabama,66,12,11,4,,,run,Not successful,,,0.40,0.21,0.69
+Alabama,67,12,12,4,,,penalty,Not successful,,,0.40,0.21,0.69
+Alabama,68,12,13,4,,,run,Successful,1D,,0.41,0.21,0.70
+Alabama,69,12,14,4,,,run,Successful,,,0.42,0.21,0.70
+Alabama,70,12,15,4,,,run,Not successful,,,0.41,0.21,0.71
+Alabama,71,12,16,4,,,penalty,Not successful,,,0.41,0.21,0.71
+Alabama,72,12,17,4,,,pass,Not successful,,,0.41,0.20,0.70
+Alabama,73,12,18,4,,,field goal,Successful,,3,0.41,0.20,0.70
+LSU,50,12,1,4,,,pass,Not successful,,,0.36,0.19,0.46
+LSU,51,12,2,4,,,pass,Not successful,,,0.36,0.19,0.45
+LSU,52,12,3,4,,,pass,Not successful,,,0.36,0.18,0.44
+LSU,53,12,4,4,,,pass,Not successful,,,0.36,0.17,0.43
+Alabama,74,13,1,4,,,run,Successful,,,0.43,0.20,0.70
+Alabama,75,13,2,4,,,run,Successful,1D,,0.44,0.20,0.71
+Alabama,76,13,3,4,,,run,Not successful,,,0.43,0.20,0.71
+Alabama,77,13,4,4,,,run,Not successful,,,0.42,0.20,0.71
