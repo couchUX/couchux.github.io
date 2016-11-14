@@ -105,7 +105,7 @@ Miss State,50,9,3,3,,,run,Explosive,1D,,0.24,0.28,0.46
 Miss State,51,9,4,3,,,run,Not successful,,,0.23,0.28,0.47
 Miss State,52,9,5,3,,,pass,Not successful,,,0.23,0.27,0.46
 Miss State,53,9,6,3,,,run,Not successful,,,0.22,0.27,0.47
-Alabama,54,10,1,3,,,run,Successful,1D,,0.44,0.44,0.32
+Alabama,54,10,1,3,,,run,Explosive,1D,,0.44,0.44,0.32
 Alabama,55,10,2,3,,,run,Successful,1D,,0.47,0.44,0.33
 Alabama,56,10,3,3,,,pass,Explosive,1D,6,0.47,0.46,0.33
 Miss State,54,10,1,3,,,pass,Not successful,,,0.22,0.26,0.46

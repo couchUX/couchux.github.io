@@ -1,11 +1,11 @@
 Team,Quarter,SuccessRate,SuccessMax,ExpRate,ExpMax
-Alabama,1,0.50,0.50,0.05,0.24
-Miss State,1,0.11,0.50,0.06,0.24
-Alabama,2,0.50,0.50,0.15,0.24
-Miss State,2,0.33,0.50,0.00,0.24
-Alabama,3,0.47,0.50,0.24,0.24
-Miss State,3,0.35,0.50,0.12,0.24
-Alabama,4,0.50,0.50,0.07,0.24
-Miss State,4,0.39,0.50,0.06,0.24
-Alabama,Game,0.49,0.50,0.13,0.24
-Miss State,Game,0.30,0.50,0.06,0.24
+Alabama,1,0.50,0.50,0.05,0.29
+Miss State,1,0.11,0.50,0.06,0.29
+Alabama,2,0.50,0.50,0.15,0.29
+Miss State,2,0.33,0.50,0.00,0.29
+Alabama,3,0.47,0.50,0.29,0.29
+Miss State,3,0.35,0.50,0.12,0.29
+Alabama,4,0.50,0.50,0.07,0.29
+Miss State,4,0.39,0.50,0.06,0.29
+Alabama,Game,0.49,0.50,0.14,0.29
+Miss State,Game,0.30,0.50,0.06,0.29
