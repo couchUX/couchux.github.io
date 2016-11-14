@@ -207,6 +207,9 @@ svg > path {
 .lsu > svg > path {
   stroke: #461D7C;
 }
+.missSt > svg > path {
+  stroke: #660000;
+}
 .pass-sr-line {
   opacity: .25;
 }
@@ -265,6 +268,11 @@ svg > path {
 .lsu > p > .suc,
 .lsu > p > .xpl {
   color: #461D7C;
+}
+.missSt > p > .un,
+.missSt > p > .suc,
+.missSt > p > .xpl {
+  color: #660000;
 }
 .ltRed, .un {
   opacity: 0.4;
