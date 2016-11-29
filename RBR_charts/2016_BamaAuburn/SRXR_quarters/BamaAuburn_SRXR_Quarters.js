@@ -1,5 +1,5 @@
 /* select what csv should be run */
-var srxrq_csv_url = "https://couchux.github.io/RBR_charts/2016_BamaTAMU/SRXR_quarters/BamaTAMU_SRXR_Quarters.csv"
+var srxrq_csv_url = "https://couchux.github.io/RBR_charts/2016_BamaAuburn/SRXR_quarters/BamaAuburn_SRXR_Quarters.csv"
 
 /* run the whole chart function */
 srxrqCharts()
