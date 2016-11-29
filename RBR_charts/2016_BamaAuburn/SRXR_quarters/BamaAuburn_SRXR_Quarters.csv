@@ -1,0 +1,11 @@
+Team,Quarter,SuccessRate,SuccessMax,ExpRate,ExpMax
+Alabama,1,0.52,0.56,0.16,0.17
+Auburn,1,0.10,0.56,0.00,0.17
+Alabama,2,0.35,0.56,0.08,0.17
+Auburn,2,0.29,0.56,0.00,0.17
+Alabama,3,0.56,0.56,0.17,0.17
+Auburn,3,0.32,0.56,0.11,0.17
+Alabama,4,0.52,0.56,0.10,0.17
+Auburn,4,0.38,0.56,0.13,0.17
+Alabama,Game,0.48,0.56,0.12,0.17
+Auburn,Game,0.27,0.56,0.06,0.17

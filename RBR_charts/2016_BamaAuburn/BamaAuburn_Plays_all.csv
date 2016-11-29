@@ -1,0 +1,142 @@
+Team,Play_num_team,Drive,Play_num_drive,Quarter,New_q,New_q_team,Play_type,Result_final,1st_down,Points,SR_run_cume,SR_pass_cume,runRate_cume
+Alabama,1,1,1,1,1,1,pass,Successful,1D,,,1.00,0.00
+Alabama,2,1,2,1,,,pass,Not successful,,,,0.50,0.00
+Alabama,3,1,3,1,,,run,Not successful,,,0.00,0.50,0.33
+Alabama,4,1,4,1,,,pass,Not successful,,,0.00,0.33,0.25
+Auburn,1,1,1,1,,1,pass,Not successful,,,,0.00,0.00
+Auburn,2,1,2,1,,,pass,Not successful,,,,0.00,0.00
+Auburn,3,1,3,1,,,pass,Not successful,,,,0.00,0.00
+Auburn,4,1,4,1,,,field goal,Successful,,3,,0.00,0.00
+Alabama,5,2,1,1,,,pass,Successful,,,0.00,0.50,0.20
+Alabama,6,2,2,1,,,no play,Not successful,,,0.00,0.50,0.20
+Alabama,7,2,3,1,,,run,Not successful,,,0.00,0.50,0.33
+Alabama,8,2,4,1,,,run,Explosive,1D,,0.33,0.50,0.43
+Alabama,9,2,5,1,,,pass,Successful,,,0.33,0.60,0.38
+Alabama,10,2,6,1,,,pass,Successful,1D,,0.33,0.67,0.33
+Alabama,11,2,7,1,,,run,Not successful,,,0.25,0.67,0.40
+Alabama,12,2,8,1,,,pass,Explosive,1D,,0.25,0.71,0.36
+Alabama,13,2,9,1,,,run,Not successful,,,0.20,0.71,0.42
+Alabama,14,2,10,1,,,pass,Not successful,,,0.20,0.63,0.38
+Alabama,15,2,11,1,,,penalty,Successful,1D,,0.20,0.63,0.38
+Alabama,16,2,12,1,,,pass,Successful,,,0.20,0.67,0.36
+Alabama,17,2,13,1,,,run,Not successful,,,0.17,0.67,0.40
+Alabama,18,2,14,1,,,pass,Not successful,,,0.17,0.60,0.38
+Alabama,19,2,15,1,,,field goal,Successful,,3,0.17,0.60,0.38
+Auburn,5,2,1,1,,,pass,Not successful,,,,0.00,0.00
+Auburn,6,2,2,1,,,run,Not successful,,,0.00,0.00,0.20
+Auburn,7,2,3,1,,,pass,Not successful,,,0.00,0.00,0.17
+Alabama,20,3,1,1,,,pass,Not successful,,,0.17,0.55,0.35
+Alabama,21,3,2,1,,,pass,Explosive,1D,,0.17,0.58,0.33
+Alabama,22,3,3,1,,,pass,Explosive,1D,6,0.17,0.62,0.32
+Auburn,8,3,1,1,,,run,Not successful,,,0.00,0.00,0.29
+Auburn,9,3,2,1,,,run,Not successful,,,0.00,0.00,0.38
+Auburn,10,3,3,1,,,pass,Not successful,,,0.00,0.00,0.33
+Alabama,23,4,1,1,,,pass,Successful,,,0.17,0.64,0.30
+Alabama,24,4,2,1,,,run,Successful,1D,,0.29,0.64,0.33
+Alabama,25,4,3,1,,,run,Not successful,,,0.25,0.64,0.36
+Alabama,26,4,4,2,2,2,pass,Not successful,,,0.25,0.60,0.35
+Auburn,11,4,1,2,,2,run,Not successful,,,0.00,0.00,0.40
+Auburn,12,4,2,2,,,run,Successful,,,0.20,0.00,0.45
+Auburn,13,4,3,2,,,run,Not successful,,,0.17,0.00,0.50
+Auburn,14,4,4,2,,,field goal,Successful,,3,0.17,0.00,0.50
+Alabama,27,5,1,2,,,no play,Not successful,,,0.25,0.60,0.35
+Alabama,28,5,2,2,,,pass,Not successful,,,0.25,0.56,0.33
+Alabama,29,5,3,2,,,pass,Not successful,,,0.25,0.53,0.32
+Alabama,30,5,4,2,,,penalty,Not successful,,,0.25,0.53,0.32
+Alabama,31,5,5,2,,,pass,Not successful,,,0.25,0.50,0.31
+Auburn,15,5,1,2,,,pass,Not successful,,,0.17,0.00,0.46
+Auburn,16,5,2,2,,,run,Not successful,,,0.14,0.00,0.50
+Auburn,17,5,3,2,,,pass,Not successful,,,0.14,0.00,0.47
+Alabama,32,6,1,2,,,run,Not successful,,,0.22,0.50,0.33
+Alabama,33,6,2,2,,,pass,Not successful,,,0.22,0.47,0.32
+Alabama,34,6,3,2,,,penalty,Successful,,,0.22,0.47,0.32
+Alabama,35,6,4,2,,,run,Successful,1D,,0.30,0.47,0.34
+Alabama,36,6,5,2,,,pass,Successful,1D,,0.30,0.50,0.33
+Alabama,37,6,6,2,,,run,Explosive,1D,,0.36,0.50,0.35
+Alabama,38,6,7,2,,,run,Not successful,,,0.33,0.50,0.38
+Alabama,39,6,8,2,,,pass,Not successful,,,0.33,0.48,0.36
+Alabama,40,6,9,2,,,pass,Not successful,,,0.33,0.45,0.35
+Auburn,18,6,1,2,,,run,Successful,1D,,0.25,0.00,0.50
+Auburn,19,6,2,2,,,run,Not successful,,,0.22,0.00,0.53
+Auburn,20,6,3,2,,,no play,Not successful,,,0.22,0.00,0.53
+Auburn,21,6,4,2,,,pass,Not successful,,,0.22,0.00,0.50
+Auburn,22,6,5,2,,,pass,Not successful,,,0.22,0.00,0.47
+Auburn,23,6,6,2,,,field goal,Successful,,3,0.22,0.00,0.47
+Alabama,41,7,1,2,,,run,Not successful,,,0.31,0.45,0.37
+Alabama,42,7,2,2,,,run,Not successful,,,0.29,0.45,0.39
+Alabama,43,7,3,2,,,pass,Explosive,1D,,0.29,0.48,0.38
+Alabama,44,7,4,2,,,pass,Successful,1D,,0.29,0.50,0.37
+Alabama,45,7,5,2,,,run,Successful,,,0.33,0.50,0.38
+Alabama,46,7,6,2,,,run,Not successful,,,0.31,0.50,0.40
+Alabama,47,7,7,2,,,run,Successful,1D,,0.35,0.50,0.41
+Alabama,48,7,8,2,,,pass,Not successful,,,0.35,0.48,0.40
+Alabama,49,7,9,2,,,run,Not successful,,,0.33,0.48,0.42
+Alabama,50,7,10,2,,,pass,Not successful,,,0.33,0.46,0.41
+Alabama,51,7,11,2,,,field goal,Successful,,3,0.33,0.46,0.41
+Auburn,24,7,1,2,,,run,Not successful,,,0.20,0.00,0.50
+Auburn,25,8,1,3,3,3,run,Not successful,,,0.18,0.00,0.52
+Auburn,26,8,2,3,,,pass,Not successful,,,0.18,0.00,0.50
+Auburn,27,8,3,3,,,pass,Not successful,,,0.18,0.00,0.48
+Alabama,52,8,1,3,,3,run,Not successful,,,0.32,0.46,0.42
+Alabama,53,8,2,3,,,run,Explosive,1D,,0.35,0.46,0.43
+Alabama,54,8,3,3,,,run,Successful,,,0.38,0.46,0.45
+Alabama,55,8,4,3,,,pass,Successful,1D,,0.38,0.48,0.44
+Alabama,56,8,5,3,,,run,Not successful,,,0.36,0.48,0.45
+Alabama,57,8,6,3,,,pass,Successful,1D,,0.36,0.50,0.44
+Alabama,58,8,7,3,,,run,Not successful,,,0.35,0.50,0.45
+Alabama,59,8,8,3,,,run,Successful,,6,0.38,0.50,0.46
+Auburn,28,9,1,3,,,pass,Explosive,1D,,0.18,0.08,0.46
+Auburn,29,9,2,3,,,run,Successful,,,0.25,0.08,0.48
+Auburn,30,9,3,3,,,run,Successful,1D,,0.31,0.08,0.50
+Auburn,31,9,4,3,,,run,Not successful,,,0.29,0.08,0.52
+Auburn,32,9,5,3,,,pass,Not successful,,,0.29,0.07,0.50
+Auburn,33,9,6,3,,,pass,Not successful,,,0.29,0.07,0.48
+Auburn,34,9,7,3,,,field goal,Not successful,,,0.29,0.07,0.48
+Alabama,60,9,1,3,,,no play,Successful,,,0.38,0.50,0.46
+Alabama,61,9,2,3,,,run,Explosive,1D,,0.40,0.50,0.47
+Alabama,62,9,3,3,,,run,Not successful,,,0.38,0.50,0.48
+Alabama,63,9,4,3,,,pass,Not successful,,,0.38,0.48,0.47
+Alabama,64,9,5,3,,,run,Not successful,,,0.37,0.48,0.48
+Alabama,65,9,6,3,,,pass,Explosive,1D,6,0.37,0.50,0.47
+Auburn,35,10,1,3,,,run,Not successful,,,0.27,0.07,0.50
+Auburn,36,10,2,3,,,run,Not successful,,,0.25,0.07,0.52
+Auburn,37,10,3,3,,,run,Successful,1D,,0.29,0.07,0.53
+Auburn,38,10,4,3,,,run,Not successful,,,0.28,0.07,0.55
+Auburn,39,10,5,3,,,pass,Explosive,1D,,0.28,0.13,0.53
+Auburn,40,10,6,3,,,run,Not successful,,,0.26,0.13,0.54
+Auburn,41,10,7,3,,,pass,Not successful,,,0.26,0.12,0.53
+Auburn,42,10,8,3,,,pass,Not successful,,,0.26,0.11,0.51
+Auburn,43,10,9,3,,,field goal,Successful,,3,0.26,0.11,0.51
+Alabama,66,10,1,3,,,pass,Not successful,,,0.37,0.48,0.47
+Alabama,67,10,2,3,,,run,Successful,,,0.39,0.48,0.47
+Alabama,68,10,3,3,,,run,Successful,1D,,0.41,0.48,0.48
+Alabama,69,10,4,3,,,run,Not successful,,,0.40,0.48,0.49
+Alabama,70,10,5,4,4,4,run,Explosive,1D,,0.42,0.48,0.50
+Alabama,71,10,6,4,,,pass,Explosive,1D,,0.42,0.50,0.49
+Alabama,72,10,7,4,,,run,Not successful,,,0.41,0.50,0.50
+Alabama,73,10,8,4,,,pass,Not successful,,,0.41,0.48,0.49
+Alabama,74,10,9,4,,,pass,Not successful,,,0.41,0.47,0.48
+Alabama,75,10,10,4,,,field goal,Successful,,3,0.41,0.47,0.48
+Auburn,44,11,1,4,,4,pass,Explosive,1D,,0.26,0.16,0.50
+Auburn,45,11,2,4,,,run,Successful,,,0.30,0.16,0.51
+Auburn,46,11,3,4,,,run,Not successful,,,0.29,0.16,0.53
+Auburn,47,11,4,4,,,run,Successful,1D,,0.32,0.16,0.54
+Auburn,48,11,5,4,,,run,Not successful,,,0.30,0.16,0.55
+Auburn,49,11,6,4,,,run,Not successful,,,0.29,0.16,0.56
+Auburn,50,11,7,4,,,run,Not successful,,,0.28,0.16,0.57
+Auburn,51,11,8,4,,,pass,Not successful,,,0.28,0.15,0.56
+Alabama,76,11,1,4,,,run,Not successful,,,0.39,0.47,0.49
+Alabama,77,11,2,4,,,run,Not successful,,,0.38,0.47,0.50
+Alabama,78,11,3,4,,,run,Successful,1D,,0.40,0.47,0.51
+Alabama,79,11,4,4,,,run,Successful,,,0.42,0.47,0.51
+Alabama,80,11,5,4,,,run,Not successful,,,0.41,0.47,0.52
+Alabama,81,11,6,4,,,run,Successful,1D,,0.42,0.47,0.53
+Alabama,82,11,7,4,,,run,Not successful,,,0.41,0.47,0.53
+Alabama,83,11,8,4,,,run,Successful,,,0.43,0.47,0.54
+Alabama,84,11,9,4,,,pass,Successful,1D,,0.43,0.49,0.53
+Alabama,85,11,10,4,,,pass,Successful,,,0.43,0.50,0.53
+Alabama,86,11,11,4,,,run,Successful,,,0.44,0.50,0.53
+Alabama,87,11,12,4,,,pass,Not successful,,,0.44,0.49,0.53
+Alabama,88,11,13,4,,,run,Successful,1D,,0.45,0.49,0.53
+Alabama,89,11,14,4,,,run,Not successful,,,0.44,0.49,0.54
+Alabama,90,11,15,4,,,run,Not successful,,,0.43,0.49,0.54

@@ -209,6 +209,12 @@ svg > path {
 }
 .missSt > svg > path {
   stroke: #660000;
+<<<<<<< Updated upstream
+=======
+}
+.barn > svg > path {
+  stroke: #DD550C;
+>>>>>>> Stashed changes
 }
 .pass-sr-line {
   opacity: .25;
@@ -273,6 +279,14 @@ svg > path {
 .missSt > p > .suc,
 .missSt > p > .xpl {
   color: #660000;
+<<<<<<< Updated upstream
+=======
+}
+.barn > p > .un,
+.barn > p > .suc,
+.barn > p > .xpl {
+  color: #DD550C;
+>>>>>>> Stashed changes
 }
 .ltRed, .un {
   opacity: 0.4;
