@@ -1,11 +1,11 @@
 Team,Quarter,SuccessRate,SuccessMax,ExpRate,ExpMax
 Alabama,1,0.00,0.71,0.00,0.21
 Florida,1,0.32,0.71,0.08,0.21
-Alabama,2,0.52,0.71,0.12,0.21
+Alabama,2,0.57,0.71,0.13,0.21
 Florida,2,0.45,0.71,0.20,0.21
 Alabama,3,0.57,0.71,0.21,0.21
 Florida,3,0.24,0.71,0.06,0.21
 Alabama,4,0.71,0.71,0.06,0.21
 Florida,4,0.45,0.71,0.00,0.21
-Alabama,Game,0.52,0.71,0.11,0.21
+Alabama,Game,0.55,0.71,0.12,0.21
 Florida,Game,0.36,0.71,0.10,0.21
