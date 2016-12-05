@@ -213,6 +213,9 @@ svg > path {
 .barn > svg > path {
   stroke: #DD550C;
 }
+.uf > svg > path {
+  stroke: #0021A5;
+}
 .pass-sr-line {
   opacity: .25;
 }
@@ -281,6 +284,11 @@ svg > path {
 .barn > p > .suc,
 .barn > p > .xpl {
   color: #DD550C;
+}
+.uf > p > .un,
+.uf > p > .suc,
+.uf > p > .xpl {
+  color: #0021A5;
 }
 .ltRed, .un {
   opacity: 0.4;

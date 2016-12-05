@@ -36,30 +36,52 @@
 </head>
 <body>
 
-  <!-- Primary Page Layout: Mississippi St
+  <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
 
   <!-- SRXR charts
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="row chart-row">
-      <h1>Alabama 2016 season</h1>
-      <ol>
-        <li><a href="https://couchux.github.io/chart-demos/d3-football-charts-2016usc.html" target="_blank">USC</a></li>
-        <li><a href="https://couchux.github.io/chart-demos/d3-football-charts-2016wku.html" target="_blank">Western Kentucky</a></li>
-        <li><a href="https://couchux.github.io/chart-demos/d3-football-charts-2016-ole-miss.html" target="_blank">Ole Miss</a></li>
-        <li><a href="https://couchux.github.io/chart-demos/d3-football-charts-2016-uk.html" target="_blank">Kentucky</a></li>
-        <li><a href="https://couchux.github.io/chart-demos/d3-football-charts-2016-arkansas.html" target="_blank">Arkansas</a></li>
-        <li><a href="https://couchux.github.io/chart-demos/d3-football-charts-2016-tennessee.html" target="_blank">Tennessee</a></li>
-        <li><a href="https://couchux.github.io/chart-demos/d3-football-charts-2016-tamu.html" target="_blank">Texas A&amp;M</a></li>
-        <li><a href="https://couchux.github.io/chart-demos/d3-football-charts-2016-lsu.html" target="_blank">LSU</a></li>
-        <li><a href="https://couchux.github.io/chart-demos/d3-football-charts-2016-missSt.html" target="_blank">Miss State</a></li>
-        <li><a href="https://couchux.github.io/chart-demos/d3-football-charts-2016-auburn.html" target="_blank">Auburn</a></li>
-        <li><a href="https://couchux.github.io/chart-demos/d3-football-charts-2016-florida.html" target="_blank">Florida (SECCG)</a></li>
-      </ol>
+      <div class="nine columns">
+        <h5 class="chartTitle">Success and big play rates</h5>
+        <p class="chartSubtitle">
+          <span class="xRed">&#9679;&nbsp;</span>Big play rate (XR) and <span class="sRed">&#9679;&nbsp;</span>Success rate (SR)
+        </p>
+        <div id="srxr-q-charts-container">
+          <script src="../RBR_charts/2016_BamaFlorida/SRXR_quarters/BamaFlorida_SRXR_Quarters.js"></script>
+        </div>
+        <p class="chartNote srxr-note">* NCAA average SR = 39%</p>
+      </div>
     </div>
 
-</div>
+    <!-- new runPass chart by plays/drives, not quintiles
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="row chart-row">
+      <div class="nine columns">
+        <h5 class="chartTitle">Running and Passing</h5>
+        <div id="runPass-charts-container">
+          <script src="../RBR_charts/RunPass.js"></script>
+          <script>
+            runPass_charts("https://couchux.github.io/RBR_charts/2016_BamaFlorida/BamaFlorida_Plays_all.csv","Alabama","alabama", "#runPass-charts-container",1, .39)
+          </script>
+        </div>
+      </div>
+    </div>
+
+    <!-- new runPass chart, for the opponent
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="row chart-row">
+      <div class="nine columns">
+        <h5 class="chartTitle">Running and Passing</h5>
+        <div id="runPass-charts-container-opponent">
+          <script>
+            runPass_charts("https://couchux.github.io/RBR_charts/2016_BamaFlorida/BamaFlorida_Plays_all.csv","Florida", "uf", "#runPass-charts-container-opponent",1, .39)
+          </script>
+        </div>
+      </div>
+    </div>
+
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
