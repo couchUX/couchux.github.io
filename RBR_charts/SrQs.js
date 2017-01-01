@@ -9,6 +9,7 @@ function csv_response(error, data) {
   if (error) {
     console.error(error)
   }
+  else {
     console.log("data loaded")
     runPassData = data
     render_srQs_charts()
