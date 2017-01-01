@@ -216,6 +216,9 @@ svg > path {
 .uf > svg > path {
   stroke: #0021A5;
 }
+.uw > svg > path {
+  stroke: #4B2E83;
+}
 .pass-sr-line {
   opacity: .25;
 }
@@ -289,6 +292,11 @@ svg > path {
 .uf > p > .suc,
 .uf > p > .xpl {
   color: #0021A5;
+}
+.uw > p > .un,
+.uw > p > .suc,
+.uw > p > .xpl {
+  color: #4B2E83;
 }
 .ltRed, .un {
   opacity: 0.4;
