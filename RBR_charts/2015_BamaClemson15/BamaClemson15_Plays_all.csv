@@ -1,0 +1,162 @@
+Team,Play_num_team,Drive,Play_num_drive,Quarter,New_q,New_q_team,Play_type,Result_final,1st_down,Points,SR_run_cume,SR_pass_cume,runRate_cume
+Alabama,1,,,1,1,1,pass,Not successful,,,,0.00,0.00
+Alabama,2,,,1,,,penalty,Successful,,,,0.00,0.00
+Alabama,3,,0,1,,,run,Successful,,,1.00,0.00,0.50
+Alabama,4,,0,1,,,run,Successful,1D,,1.00,0.00,0.67
+Alabama,5,,0,1,,,pass,Not successful,,,1.00,0.00,0.50
+Alabama,6,,0,1,,,run,Not successful,,,0.67,0.00,0.60
+Alabama,7,,0,1,,,pass,Successful,1D,,0.67,0.33,0.50
+Alabama,8,,0,1,,,run,Not successful,,,0.50,0.33,0.57
+Alabama,9,,0,1,,,pass,Not successful,,,0.50,0.25,0.50
+Alabama,10,,0,1,,,pass,Not successful,,,0.50,0.20,0.44
+Clemson,1,,0,1,,1,pass,Not successful,,,,0.00,0.00
+Clemson,2,,0,1,,,run,Successful,1D,,1.00,0.00,0.50
+Clemson,3,,0,1,,,pass,Not successful,,,1.00,0.00,0.33
+Clemson,4,,0,1,,,run,Not successful,,,0.50,0.00,0.50
+Clemson,5,,0,1,,,pass,Successful,1D,,0.50,0.33,0.40
+Clemson,6,,0,1,,,run,Not successful,,,0.33,0.33,0.50
+Clemson,7,,0,1,,,pass,Not successful,,,0.33,0.25,0.43
+Clemson,8,,0,1,,,pass,Not successful,,,0.33,0.20,0.38
+Alabama,11,,0,1,,,run,Not successful,,,0.40,0.20,0.50
+Alabama,12,,0,1,,,run,Successful,,,0.50,0.20,0.55
+Alabama,13,,0,1,,,run,Explosive,,,0.57,0.20,0.58
+Clemson,9,,0,1,,,pass,Successful,,,0.33,0.33,0.33
+Clemson,10,,0,1,,,run,Not successful,,,0.25,0.33,0.40
+Clemson,11,,0,1,,,no play,Successful,1D,,0.25,0.33,0.40
+Clemson,12,,0,1,,,run,Successful,,,0.40,0.33,0.45
+Clemson,13,,0,1,,,run,Not successful,,,0.33,0.33,0.50
+Clemson,14,,0,1,,,run,Successful,1D,,0.43,0.33,0.54
+Clemson,15,,0,1,,,pass,Explosive,,,0.43,0.43,0.50
+Alabama,14,,0,1,,,run,Successful,,,0.63,0.20,0.62
+Alabama,15,,0,1,,,run,Not successful,,,0.56,0.20,0.64
+Alabama,16,,0,1,,,pass,Explosive,1D,,0.56,0.33,0.60
+Alabama,17,,0,1,,,pass,Not successful,,,0.56,0.29,0.56
+Alabama,18,,0,1,,,pass,Not successful,,,0.56,0.25,0.53
+Alabama,19,,0,1,,,run,Not successful,,,0.50,0.25,0.56
+Clemson,16,,0,1,,,run,Successful,1D,,0.50,0.43,0.53
+Clemson,17,,0,1,,,run,Successful,,,0.56,0.43,0.56
+Clemson,18,,0,1,,,pass,Explosive,1D,,0.56,0.50,0.53
+Clemson,19,,0,1,,,pass,Explosive,1D,,0.56,0.56,0.50
+Clemson,20,,0,1,,,run,Not successful,,,0.50,0.56,0.53
+Clemson,21,,0,1,,,pass,Not successful,,,0.50,0.50,0.50
+Clemson,22,,0,1,,,pass,Successful,,,0.50,0.55,0.48
+Alabama,20,,0,2,2,2,pass,Explosive,1D,,0.50,0.33,0.53
+Alabama,21,,0,2,,,run,Not successful,,,0.45,0.33,0.55
+Alabama,22,,0,2,,,pass,Not successful,,,0.45,0.30,0.52
+Alabama,23,,0,2,,,pass,Not successful,,,0.45,0.27,0.50
+Clemson,23,,0,2,,2,run,Successful,,,0.55,0.55,0.50
+Clemson,24,,0,2,,,pass,Not successful,,,0.55,0.50,0.48
+Alabama,24,,0,2,,,pass,Not successful,,,0.45,0.25,0.48
+Alabama,25,,0,2,,,run,Successful,1D,,0.50,0.25,0.50
+Alabama,26,,0,2,,,run,Not successful,,,0.46,0.25,0.52
+Alabama,27,,0,2,,,pass,Not successful,,,0.46,0.23,0.50
+Alabama,28,,0,2,,,pass,Successful,1D,,0.46,0.29,0.48
+Alabama,29,,0,2,,,run,Successful,,,0.50,0.29,0.50
+Alabama,30,,0,2,,,run,Successful,,,0.53,0.29,0.52
+Clemson,25,,0,2,,,run,Not successful,,,0.50,0.50,0.50
+Clemson,26,,0,2,,,run,Not successful,,,0.46,0.50,0.52
+Clemson,27,,0,2,,,pass,Not successful,,,0.46,0.46,0.50
+Alabama,31,,0,2,,,run,Not successful,,,0.50,0.29,0.53
+Alabama,32,,0,2,,,run,Successful,,,0.53,0.29,0.55
+Alabama,33,,0,2,,,run,Successful,1D,,0.56,0.29,0.56
+Alabama,34,,0,2,,,run,Successful,,,0.58,0.29,0.58
+Alabama,35,,0,2,,,pass,Not successful,,,0.58,0.27,0.56
+Alabama,36,,0,2,,,run,Not successful,,,0.55,0.27,0.57
+Clemson,28,,0,2,,,run,Not successful,,,0.43,0.46,0.52
+Clemson,29,,0,2,,,run,Successful,1D,,0.47,0.46,0.54
+Clemson,30,,0,2,,,pass,Not successful,,,0.47,0.43,0.52
+Clemson,31,,0,2,,,pass,Successful,1D,,0.47,0.47,0.50
+Clemson,32,,0,2,,,no play,Not successful,,,0.47,0.47,0.50
+Clemson,33,,0,2,,,run,Not successful,,,0.44,0.47,0.52
+Clemson,34,,0,2,,,run,Not successful,,,0.41,0.47,0.53
+Clemson,35,,0,2,,,run,Not successful,,,0.39,0.47,0.55
+Alabama,37,,0,2,,,pass,Not successful,,,0.55,0.25,0.56
+Alabama,38,,0,2,,,run,Not successful,,,0.52,0.25,0.57
+Alabama,39,,0,2,,,pass,Not successful,,,0.52,0.24,0.55
+Clemson,36,,0,2,,,pass,Explosive,1D,,0.39,0.50,0.53
+Clemson,37,,0,2,,,pass,Not successful,,,0.39,0.47,0.51
+Clemson,38,,0,2,,,pass,Successful,1D,,0.39,0.50,0.50
+Alabama,40,,0,2,,,run,Successful,1D,,0.55,0.24,0.56
+Clemson,39,,0,3,3,3,run,Not successful,,,0.37,0.50,0.51
+Clemson,40,,0,3,,,pass,Successful,,,0.37,0.53,0.50
+Clemson,41,,0,3,,,pass,Not successful,,,0.37,0.50,0.49
+Alabama,41,,0,3,,3,run,Not successful,,,0.52,0.24,0.58
+Alabama,42,,0,3,,,pass,Successful,1D,,0.52,0.28,0.56
+Alabama,43,,0,3,,,pass,Explosive,,,0.52,0.32,0.55
+Clemson,42,,0,3,,,run,Successful,,,0.40,0.50,0.50
+Clemson,43,,0,3,,,run,Successful,1D,,0.43,0.50,0.51
+Clemson,44,,0,3,,,run,Not successful,,,0.41,0.50,0.52
+Clemson,45,,0,3,,,pass,Explosive,1D,,0.41,0.52,0.51
+Clemson,46,,0,3,,,run,Not successful,,,0.39,0.52,0.52
+Clemson,47,,0,3,,,no play,Successful,1D,,0.39,0.52,0.52
+Clemson,48,,0,3,,,run,Not successful,,,0.38,0.52,0.53
+Clemson,49,,0,3,,,pass,Not successful,,,0.38,0.50,0.52
+Clemson,50,,0,3,,,pass,Not successful,,,0.38,0.48,0.51
+Alabama,44,,0,3,,,pass,Not successful,,,0.52,0.30,0.53
+Alabama,45,,0,3,,,run,Not successful,,,0.50,0.30,0.55
+Alabama,46,,0,3,,,run,Not successful,,,0.48,0.30,0.56
+Clemson,51,,0,3,,,run,Explosive,1D,,0.40,0.48,0.52
+Clemson,52,,0,3,,,pass,Successful,1D,,0.40,0.50,0.51
+Clemson,53,,0,3,,,pass,Not successful,,,0.40,0.48,0.50
+Clemson,54,,0,3,,,penalty,Not successful,,,0.40,0.48,0.50
+Clemson,55,,0,3,,,run,Explosive,1D,,0.42,0.48,0.51
+Clemson,56,,0,3,,,pass,Not successful,,,0.42,0.46,0.50
+Clemson,57,,0,3,,,pass,Successful,1D,,0.42,0.48,0.49
+Clemson,58,,0,3,,,run,Successful,,,0.44,0.48,0.50
+Clemson,59,,0,3,,,run,Not successful,,,0.43,0.48,0.51
+Clemson,60,,0,3,,,run,Successful,,,0.45,0.48,0.52
+Alabama,47,,0,3,,,run,Not successful,,,0.46,0.30,0.57
+Alabama,48,,0,3,,,pass,Explosive,1D,,0.46,0.33,0.55
+Alabama,49,,0,3,,,run,Not successful,,,0.44,0.33,0.56
+Alabama,50,,0,3,,,pass,Not successful,,,0.44,0.32,0.55
+Alabama,51,,0,3,,,pass,Not successful,,,0.44,0.30,0.54
+Clemson,61,,0,3,,,run,Not successful,,,0.43,0.48,0.53
+Clemson,62,,0,3,,,pass,Not successful,,,0.43,0.46,0.52
+Clemson,63,,0,3,,,pass,Successful,1D,,0.43,0.48,0.51
+Clemson,64,,0,3,,,pass,Not successful,,,0.43,0.47,0.50
+Clemson,65,,0,3,,,pass,Not successful,,,0.43,0.45,0.49
+Clemson,66,,0,3,,,pass,Not successful,,,0.43,0.44,0.48
+Alabama,52,,0,3,,,run,Successful,,,0.46,0.30,0.55
+Alabama,53,,0,3,,,run,Not successful,,,0.45,0.30,0.56
+Alabama,54,,0,4,4,4,pass,Not successful,,,0.45,0.29,0.55
+Clemson,67,,0,4,,4,run,Successful,1D,,0.45,0.44,0.49
+Clemson,68,,0,4,,,run,Not successful,,,0.44,0.44,0.50
+Clemson,69,,0,4,,,run,Not successful,,,0.42,0.44,0.51
+Clemson,70,,0,4,,,pass,Not successful,,,0.42,0.42,0.50
+Alabama,55,,0,4,,,pass,Explosive,1D,,0.45,0.32,0.54
+Alabama,56,,0,4,,,run,Not successful,,,0.43,0.32,0.55
+Alabama,57,,0,4,,,run,Not successful,,,0.42,0.32,0.55
+Alabama,58,,0,4,,,pass,Explosive,1D,,0.42,0.35,0.54
+Alabama,59,,0,4,,,run,Not successful,,,0.41,0.35,0.55
+Alabama,60,,0,4,,,pass,Not successful,,,0.41,0.33,0.54
+Alabama,61,,0,4,,,pass,Not successful,,,0.41,0.32,0.53
+Alabama,62,,0,4,,,run,Not successful,,,0.39,0.32,0.54
+Alabama,63,,0,4,,,pass,Explosive,,,0.39,0.34,0.53
+Clemson,71,,0,4,,,pass,Explosive,1D,,0.42,0.44,0.49
+Clemson,72,,0,4,,,run,Explosive,1D,,0.44,0.44,0.50
+Clemson,73,,0,4,,,run,Not successful,,,0.43,0.44,0.51
+Clemson,74,,0,4,,,pass,Not successful,,,0.43,0.43,0.50
+Clemson,75,,0,4,,,pass,Not successful,,,0.43,0.42,0.49
+Clemson,76,,0,4,,,run,Not successful,,,0.42,0.42,0.50
+Clemson,77,,0,4,,,pass,Successful,1D,,0.42,0.43,0.49
+Clemson,78,,0,4,,,pass,Not successful,,,0.42,0.42,0.49
+Clemson,79,,0,4,,,pass,Explosive,1D,,0.42,0.44,0.48
+Clemson,80,,0,4,,,pass,Successful,,,0.42,0.45,0.47
+Clemson,81,,0,4,,,pass,Not successful,,,0.42,0.44,0.47
+Clemson,82,,0,4,,,pass,Successful,1D,,0.42,0.45,0.46
+Clemson,83,,0,4,,,pass,Explosive,,,0.42,0.47,0.46
+Alabama,64,,0,4,,,run,Not successful,,,0.38,0.34,0.54
+Alabama,65,,0,4,,,pass,Explosive,1D,,0.38,0.37,0.53
+Alabama,66,,0,4,,,run,Not successful,,,0.37,0.37,0.54
+Alabama,67,,0,4,,,run,Successful,,,0.39,0.37,0.55
+Alabama,68,,0,4,,,run,Successful,1D,,0.41,0.37,0.55
+Alabama,69,,0,4,,,run,Successful,,,0.42,0.37,0.56
+Alabama,70,,0,4,,,run,Not successful,,,0.41,0.37,0.57
+Alabama,71,,0,4,,,run,Successful,,,0.43,0.37,0.57
+Clemson,84,,0,4,,,pass,Successful,,,0.42,0.48,0.45
+Clemson,85,,0,4,,,pass,Explosive,1D,,0.42,0.49,0.44
+Clemson,86,,0,4,,,pass,Not successful,,,0.42,0.48,0.44
+Clemson,87,,0,4,,,pass,Not successful,1D,,0.42,0.47,0.43
+Clemson,88,,0,4,,,pass,Not successful,,,0.42,0.46,0.43
+Clemson,89,,0,4,,,pass,Explosive,,,0.42,0.47,0.42
+Alabama,72,,0,4,,,run,Not successful,,,0.41,0.37,0.58
