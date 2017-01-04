@@ -1,12 +1,12 @@
 /* select what csv should be run */
-var srxrq_csv_url = "https://couchux.github.io/RBR_charts/2016_BamaWashington/SRXR_quarters/BamaWashington_SRXR_Quarters.csv"
+var srxrq_csv_url = "https://couchux.github.io/RBR_charts/2015_BamaClemson15/SRXR_quarters/BamaClemson15_SRXR_Quarters.csv"
 
 /* run the whole chart function */
 srxrqCharts()
 
 function srxrqCharts() {
   srxrqChart(srxrq_csv_url, "Alabama", "1")
-  srxrqChart(srxrq_csv_url, "Washington", "2")
+  srxrqChart(srxrq_csv_url, "Clemson", "2")
 }
 
 /* defining the main chart functions */
@@ -22,8 +22,8 @@ function csv_response(which_team, what_order, error, data) {
     console.log("data loaded")
     data.forEach(function(d) {
       d.SuccessRate = +d.SuccessRate
-      if (d.Team == "Washington") {
-        d.Team = "Washington"
+      if (d.Team == "Clemson") {
+        d.Team = "Clemson"
       }
       if (d.Quarter !== "Game") {
         d.Quarter = "Q" + +d.Quarter
@@ -45,7 +45,7 @@ function render_SRXRquarters_chart(which_team, what_order) {
 /* tie chart colors to team names */
 var teamColors = {
   "Alabama": "#C31C45",
-  "Washington": "#775BAD"
+  "Clemson": "#F66733"
 }
     gameColor = "#5C5C5C"
 
