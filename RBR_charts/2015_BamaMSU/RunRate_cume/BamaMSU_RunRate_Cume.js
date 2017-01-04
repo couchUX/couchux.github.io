@@ -270,6 +270,7 @@ function quarterText(item) {
       .attr("stroke",teamColors.Alabama)
       .attr("stroke-width",layout.lineStrokeW)
       .attr("opacity",layout.passSR_opacity)
+      .attr("id","passSR-legacy")
       .attr("fill","none")
 
 /* draw key line */

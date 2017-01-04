@@ -271,6 +271,7 @@ function quarterText(item) {
       .attr("stroke-width",layout.lineStrokeW)
       .attr("opacity",layout.passSR_opacity)
       .attr("fill","none")
+      .attr("id","passSR-legacy") //added this later
 
 /* draw key line */
     srSvg.append("line")

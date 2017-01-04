@@ -345,3 +345,6 @@ svg > path {
 .tr-heavy > td {
   border-bottom-color: gray;
 }
+#passSR-legacy {
+  opacity: 0.3 !important;
+}
