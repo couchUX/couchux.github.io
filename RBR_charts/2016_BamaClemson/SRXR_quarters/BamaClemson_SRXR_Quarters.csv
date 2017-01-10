@@ -1,0 +1,11 @@
+Team,Quarter,SuccessRate,SuccessMax,ExpRate,ExpMax
+Alabama,1,0.32,0.54,0.09,0.19
+Clemson,1,0.32,0.54,0.05,0.19
+Alabama,2,0.32,0.54,0.16,0.19
+Clemson,2,0.43,0.54,0.14,0.19
+Alabama,3,0.21,0.54,0.07,0.19
+Clemson,3,0.52,0.54,0.07,0.19
+Alabama,4,0.25,0.54,0.19,0.19
+Clemson,4,0.54,0.54,0.18,0.19
+Alabama,Game,0.28,0.54,0.13,0.19
+Clemson,Game,0.46,0.54,0.12,0.19
