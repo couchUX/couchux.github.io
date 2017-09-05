@@ -222,6 +222,10 @@ svg > path {
 .clem > svg > path {
   stroke: #F66733;
 }
+.fsu > svg > path {
+  /*stroke: #CEB888;*/
+  stroke: #C5A55E;
+}
 .pass-sr-line {
   opacity: .25;
 }
@@ -305,6 +309,11 @@ svg > path {
 .clem > p > .suc,
 .clem > p > .xpl {
   color: #F66733;
+}
+.fsu > p > .un,
+.fsu > p > .suc,
+.fsu > p > .xpl {
+  color: #CEB888;
 }
 .ltRed, .un {
   opacity: 0.4;
