@@ -1,0 +1,11 @@
+Team,Quarter,SuccessRate,SuccessMax,ExpRate,ExpMax
+Alabama,1,0.25,0.50,0.19,0.19
+Florida State,1,0.50,0.50,0.13,0.19
+Alabama,2,0.25,0.50,0.13,0.19
+Florida State,2,0.35,0.50,0.10,0.19
+Alabama,3,0.29,0.50,0.00,0.19
+Florida State,3,0.40,0.50,0.07,0.19
+Alabama,4,0.39,0.50,0.00,0.19
+Florida State,4,0.27,0.50,0.00,0.19
+Alabama,Game,0.30,0.50,0.08,0.19
+Florida State,Game,0.39,0.50,0.08,0.19
