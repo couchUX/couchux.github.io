@@ -348,6 +348,7 @@ svg > path {
 .explain-rbr input:hover {
   background: #DADADA;
   color: #1D1D1D;
+  cursor: pointer;
 }
 .bold-rbr {
   font-weight: 700;
