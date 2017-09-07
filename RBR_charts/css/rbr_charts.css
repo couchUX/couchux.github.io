@@ -337,6 +337,18 @@ svg > path {
   line-height: 1.5 !important;
   margin-bottom: 0 !important;
 }
+.explain-rbr input {
+  font-size: 14px;
+  padding: 2px 6px;
+  border: 1px solid #969696;
+  border-radius: 4px;
+  background: none;
+  color: #505050;
+}
+.explain-rbr input:hover {
+  background: #DADADA;
+  color: #1D1D1D;
+}
 .bold-rbr {
   font-weight: 700;
 }
