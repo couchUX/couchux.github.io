@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>D3 football chart samples</title>
+  <meta name="description" content="D3 chart samples for football charting">
+  <meta name="author" content="Alex Couch">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONTS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500" rel="stylesheet">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="../RBR_charts/css/rbr_charts.css">
+
+  <!-- D3 script for charts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="../RBR_charts/d3/4.2.2/d3.min.js"></script>
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+
+  <!-- SRXR charts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="row chart-row">
+      <div class="nine columns">
+        <h5 class="chartTitle">Success and big play rates</h5>
+        <p class="chartSubtitle">
+          <span class="xRed">&#9679;&nbsp;</span>Big play rate (XR) and <span class="sRed">&#9679;&nbsp;</span>Success rate (SR)
+        </p>
+        <div id="srxr-q-charts-container">
+          <script src="../RBR_charts/2017_BamaFresno/SRXR_quarters/BamaFresno_SRXR_Quarters.js"></script>
+        </div>
+        <p class="chartNote srxr-note">* NCAA average SR = 40%</p>
+      </div>
+    </div>
+
+    <!-- new runPass chart by plays/drives, not quintiles
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="row chart-row">
+      <div class="nine columns">
+        <h5 class="chartTitle">Running and Passing</h5>
+        <div id="runPass-charts-container">
+          <script src="../RBR_charts/RunPass.js"></script>
+          <script>
+            runPass_charts("https://couchux.github.io/RBR_charts/2017_BamaFresno/BamaFresno_Plays_all.csv","Alabama","alabama", "#runPass-charts-container",1, .4)
+          </script>
+        </div>
+      </div>
+    </div>
+
+    <!-- new runPass chart, for the opponent
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="row chart-row">
+      <div class="nine columns">
+        <h5 class="chartTitle">Running and Passing</h5>
+        <div id="runPass-charts-container-opponent">
+          <script>
+            runPass_charts("https://couchux.github.io/RBR_charts/2017_BamaFresno/BamaFresno_Plays_all.csv","Fresno State", "fresno", "#runPass-charts-container-opponent",1, .4)
+          </script>
+        </div>
+      </div>
+    </div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
