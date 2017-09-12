@@ -1,0 +1,132 @@
+Team,Play_num_team,Drive,Play_num_drive,Quarter,New_q,New_q_team,Play_type,Result_final,1st_down,Points,SR_run_cume,SR_pass_cume,runRate_cume
+Alabama,1,1,2,1,1,1,pass,Explosive,1st down,,,1.00,0.00
+Alabama,2,1,3,1,,,run,Explosive,,6,1.00,1.00,0.50
+Fresno State,1,1,2,1,,1,pass,Successful,,,,1.00,0.00
+Fresno State,2,1,3,1,,,run,Not successful,,,0.00,1.00,0.50
+Fresno State,3,1,4,1,,,pass,Not successful,,,0.00,0.50,0.33
+Alabama,3,2,1,1,,,pass,Successful,,,1.00,1.00,0.33
+Alabama,4,2,2,1,,,pass,Not successful,,,1.00,0.67,0.25
+Alabama,5,2,3,1,,,run,Explosive,1st down,,1.00,0.67,0.40
+Alabama,6,2,4,1,,,run,Successful,,,1.00,0.67,0.50
+Alabama,7,2,5,1,,,pass,Successful,1st down,,1.00,0.75,0.43
+Alabama,8,2,6,1,,,pass,Successful,,,1.00,0.80,0.38
+Alabama,9,2,7,1,,,pass,Not successful,,,1.00,0.67,0.33
+Alabama,10,2,8,1,,,run,Not successful,,,0.75,0.67,0.40
+Alabama,11,2,9,1,,,run,Successful,1st down,,0.80,0.67,0.45
+Alabama,12,2,10,1,,,pass,Explosive,,6,0.80,0.71,0.42
+Fresno State,4,2,2,1,,,pass,Explosive,1st down,,0.00,0.67,0.25
+Fresno State,5,2,3,1,,,pass,Not successful,,,0.00,0.50,0.20
+Fresno State,6,2,4,1,,,pass,Not successful,,,0.00,0.40,0.17
+Fresno State,7,2,5,1,,,no play,Not successful,,,0.00,0.40,0.17
+Fresno State,8,2,6,1,,,no play,Successful,1st down,,0.00,0.40,0.17
+Fresno State,9,2,7,1,,,run,Not successful,,,0.00,0.40,0.29
+Fresno State,10,2,8,1,,,pass,Explosive,1st down,,0.00,0.50,0.25
+Fresno State,11,2,9,1,,,run,Successful,,,0.33,0.50,0.33
+Fresno State,12,2,10,1,,,run,Successful,,,0.50,0.50,0.40
+Fresno State,13,2,11,1,,,run,Not successful,,,0.40,0.50,0.45
+Alabama,13,3,2,1,,,run,Not successful,,,0.67,0.71,0.46
+Alabama,14,3,3,1,,,pass,Successful,1st down,,0.67,0.75,0.43
+Alabama,15,3,4,1,,,run,Not successful,,,0.57,0.75,0.47
+Alabama,16,3,5,1,,,run,Not successful,,,0.50,0.75,0.50
+Alabama,17,3,6,1,,,pass,Explosive,1st down,,0.50,0.78,0.47
+Alabama,18,3,7,1,,,pass,Successful,,,0.50,0.80,0.44
+Alabama,19,3,8,1,,,run,Successful,1st down,,0.56,0.80,0.47
+Alabama,20,3,9,1,,,pass,Successful,,,0.56,0.82,0.45
+Alabama,21,3,10,1,,,run,Successful,1st down,,0.60,0.82,0.48
+Alabama,22,4,1,2,2,2,run,Successful,,,0.64,0.82,0.50
+Alabama,23,4,2,2,,,run,Successful,,6,0.67,0.82,0.52
+Fresno State,14,3,2,2,,2,run,Successful,,,0.50,0.50,0.50
+Fresno State,15,3,3,2,,,run,Successful,1st down,,0.57,0.50,0.54
+Fresno State,16,3,4,2,,,pass,Not successful,,,0.57,0.43,0.50
+Fresno State,17,3,5,2,,,pass,Successful,,,0.57,0.50,0.47
+Fresno State,18,3,6,2,,,pass,Successful,1st down,,0.57,0.56,0.44
+Fresno State,19,3,7,2,,,run,Not successful,,,0.50,0.56,0.47
+Fresno State,20,3,8,2,,,pass,Not successful,,,0.50,0.50,0.44
+Fresno State,21,3,9,2,,,run,Not successful,,,0.44,0.50,0.47
+Alabama,24,5,1,2,,,pass,Successful,,,0.67,0.83,0.50
+Alabama,25,5,2,2,,,pass,Successful,1st down,,0.67,0.85,0.48
+Alabama,26,5,3,2,,,pass,Not successful,,,0.67,0.79,0.46
+Alabama,27,5,4,2,,,run,Not successful,,,0.62,0.79,0.48
+Alabama,28,5,5,2,,,pass,Not successful,,,0.62,0.73,0.46
+Fresno State,22,4,1,2,,,run,Not successful,,,0.40,0.50,0.50
+Fresno State,23,4,2,2,,,pass,Successful,1st down,,0.40,0.55,0.48
+Fresno State,24,4,3,2,,,run,Successful,,,0.45,0.55,0.50
+Fresno State,25,4,4,2,,,pass,Successful,1st down,,0.45,0.58,0.48
+Fresno State,26,4,5,2,,,run,Not successful,,,0.42,0.58,0.50
+Fresno State,27,4,6,2,,,pass,Not successful,,,0.42,0.54,0.48
+Fresno State,28,4,7,2,,,pass,Not successful,,,0.42,0.50,0.46
+Alabama,29,6,1,2,,,run,Successful,1st down,,0.64,0.73,0.48
+Alabama,30,6,2,2,,,pass,Successful,,,0.64,0.75,0.47
+Alabama,31,6,3,2,,,pass,Successful,1st down,,0.64,0.76,0.45
+Alabama,32,6,4,2,,,run,Explosive,1st down,,0.67,0.76,0.47
+Alabama,33,6,5,2,,,run,Successful,1st down,,0.69,0.76,0.48
+Alabama,34,6,6,2,,,run,Successful,,6,0.71,0.76,0.50
+Fresno State,29,5,2,2,,,run,Not successful,,,0.38,0.50,0.48
+Fresno State,30,5,3,2,,,run,Not successful,,,0.36,0.50,0.50
+Fresno State,31,6,2,3,3,3,pass,Successful,,,0.36,0.53,0.48
+Fresno State,32,6,3,3,,,pass,Successful,1st down,,0.36,0.56,0.47
+Fresno State,33,6,4,3,,,pass,Successful,1st down,,0.36,0.59,0.45
+Fresno State,34,6,5,3,,,run,Not successful,,,0.33,0.59,0.47
+Fresno State,35,6,6,3,,,pass,Not successful,,,0.33,0.56,0.45
+Alabama,35,7,1,3,,3,run,Not successful,,,0.67,0.76,0.51
+Alabama,36,7,2,3,,,run,Successful,1st down,,0.68,0.76,0.53
+Alabama,37,7,3,3,,,run,Explosive,1st down,,0.70,0.76,0.54
+Alabama,38,7,4,3,,,run,Successful,,,0.71,0.76,0.55
+Alabama,39,7,5,3,,,pass,Not successful,,,0.71,0.72,0.54
+Alabama,40,7,6,3,,,pass,Not successful,,,0.71,0.68,0.53
+Fresno State,36,7,1,3,,,run,Not successful,,,0.31,0.56,0.47
+Fresno State,37,7,2,3,,,pass,Not successful,,,0.31,0.53,0.46
+Fresno State,38,7,3,3,,,pass,Not successful,,,0.31,0.50,0.44
+Alabama,41,8,1,3,,,run,Successful,,,0.73,0.68,0.54
+Alabama,42,8,2,3,,,pass,Successful,1st down,,0.73,0.70,0.52
+Alabama,43,8,3,3,,,pass,Successful,,,0.73,0.71,0.51
+Alabama,44,8,4,3,,,run,Successful,1st down,,0.74,0.71,0.52
+Alabama,45,8,5,3,,,run,Successful,,,0.75,0.71,0.53
+Alabama,46,8,6,3,,,pass,Not successful,,,0.75,0.68,0.52
+Alabama,47,8,7,3,,,run,Explosive,1st down,,0.76,0.68,0.53
+Alabama,48,8,8,3,,,run,Not successful,,,0.73,0.68,0.54
+Alabama,49,8,9,3,,,run,Successful,,,0.74,0.68,0.55
+Alabama,50,8,10,3,,,run,Not successful,,,0.71,0.68,0.56
+Alabama,51,8,11,3,,,no play,Successful,1st down,,0.71,0.68,0.56
+Fresno State,39,8,2,3,,,pass,Successful,,,0.31,0.52,0.43
+Fresno State,40,8,3,3,,,pass,Successful,1st down,,0.31,0.55,0.42
+Fresno State,41,8,4,3,,,pass,Successful,,,0.31,0.57,0.41
+Fresno State,42,8,5,3,,,pass,Not successful,,,0.31,0.54,0.40
+Fresno State,43,9,1,4,4,4,pass,Successful,1st down,,0.31,0.56,0.39
+Fresno State,44,9,2,4,,,run,Not successful,,,0.29,0.56,0.40
+Fresno State,45,9,3,4,,,pass,Not successful,,,0.29,0.54,0.40
+Fresno State,46,9,4,4,,,pass,Not successful,,,0.29,0.52,0.39
+Alabama,52,9,1,4,,4,run,Explosive,1st down,,0.72,0.68,0.57
+Alabama,53,9,2,4,,,run,Explosive,1st down,,0.73,0.68,0.58
+Alabama,54,9,3,4,,,run,Not successful,,,0.71,0.68,0.58
+Alabama,55,9,4,4,,,pass,Not successful,,,0.71,0.65,0.57
+Alabama,56,9,5,4,,,run,Not successful,,,0.69,0.65,0.58
+Fresno State,47,10,1,4,,,pass,Successful,,,0.29,0.54,0.38
+Fresno State,48,10,2,4,,,run,Successful,1st down,,0.33,0.54,0.39
+Fresno State,49,10,3,4,,,pass,Not successful,,,0.33,0.52,0.38
+Fresno State,50,10,4,4,,,pass,Not successful,,,0.33,0.50,0.38
+Fresno State,51,10,5,4,,,pass,Not successful,,,0.33,0.48,0.37
+Alabama,57,10,1,4,,,run,Not successful,,,0.67,0.65,0.59
+Alabama,58,10,2,4,,,pass,Not successful,,,0.67,0.63,0.58
+Alabama,59,10,3,4,,,pass,Not successful,,,0.67,0.60,0.57
+Fresno State,52,11,2,4,,,pass,Not successful,,,0.33,0.47,0.36
+Fresno State,53,11,3,4,,,pass,Not successful,,,0.33,0.45,0.35
+Fresno State,54,11,4,4,,,run,Successful,1st down,,0.37,0.45,0.37
+Fresno State,55,11,5,4,,,pass,Explosive,,6,0.37,0.47,0.36
+Alabama,60,11,2,4,,,run,Not successful,,,0.65,0.60,0.58
+Alabama,61,11,3,4,,,run,Not successful,,,0.63,0.60,0.58
+Alabama,62,11,4,4,,,pass,Successful,1st down,,0.63,0.62,0.57
+Alabama,63,11,5,4,,,run,Successful,,,0.64,0.62,0.58
+Alabama,64,11,6,4,,,run,Successful,1st down,,0.65,0.62,0.59
+Alabama,65,11,7,4,,,pass,Explosive,1st down,,0.65,0.63,0.58
+Alabama,66,11,8,4,,,run,Successful,1st down,,0.66,0.63,0.58
+Alabama,67,11,9,4,,,pass,Explosive,,6,0.66,0.64,0.58
+Fresno State,56,12,2,4,,,pass,Successful,1st down,,0.37,0.49,0.35
+Fresno State,57,12,3,4,,,pass,Not successful,,,0.37,0.47,0.35
+Fresno State,58,12,4,4,,,run,Explosive,1st down,,0.40,0.47,0.36
+Fresno State,59,12,5,4,,,pass,Successful,,,0.40,0.49,0.35
+Fresno State,60,12,6,4,,,run,Successful,1st down,,0.43,0.49,0.36
+Fresno State,61,12,7,4,,,pass,Not successful,,,0.43,0.47,0.36
+Fresno State,62,12,8,4,,,pass,Successful,1st down,,0.43,0.49,0.35
+Fresno State,63,12,9,4,,,pass,Successful,,,0.43,0.50,0.34
+Fresno State,64,12,10,4,,,pass,Not successful,,,0.43,0.49,0.34
