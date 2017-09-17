@@ -1,0 +1,11 @@
+Team,Quarter,SuccessRate,SuccessMax,ExpRate,ExpMax
+Alabama,1,0.59,0.63,0.14,0.14
+Colorado State,1,0.17,0.63,0.00,0.14
+Alabama,2,0.63,0.63,0.13,0.14
+Colorado State,2,0.46,0.63,0.13,0.14
+Alabama,3,0.60,0.63,0.08,0.14
+Colorado State,3,0.39,0.63,0.11,0.14
+Alabama,4,0.29,0.63,0.14,0.14
+Colorado State,4,0.47,0.63,0.07,0.14
+Alabama,Game,0.56,0.63,0.11,0.14
+Colorado State,Game,0.40,0.63,0.08,0.14

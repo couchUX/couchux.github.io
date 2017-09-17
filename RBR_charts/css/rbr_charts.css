@@ -229,6 +229,9 @@ svg > path {
 .fresno > svg > path {
   stroke: #002C76;
 }
+.csu > svg > path {
+  stroke: #1E4D2B;
+}
 .pass-sr-line {
   opacity: .25;
 }
@@ -324,6 +327,13 @@ svg > path {
   /*color: #BABCBE;*/
   color: #002C76;
 }
+.csu > p > .un,
+.csu > p > .suc,
+.csu > p > .xpl {
+  /*color: #BABCBE;*/
+  color: #1E4D2B;
+}
+
 .ltRed, .un {
   opacity: 0.4;
 }
