@@ -232,6 +232,9 @@ svg > path {
 .csu > svg > path {
   stroke: #1E4D2B;
 }
+.vandy > svg > path {
+  stroke: #997F3D;
+}
 .pass-sr-line {
   opacity: .25;
 }
@@ -324,16 +327,18 @@ svg > path {
 .fresno > p > .un,
 .fresno > p > .suc,
 .fresno > p > .xpl {
-  /*color: #BABCBE;*/
   color: #002C76;
 }
 .csu > p > .un,
 .csu > p > .suc,
 .csu > p > .xpl {
-  /*color: #BABCBE;*/
   color: #1E4D2B;
 }
-
+.vandy > p > .un,
+.vandy > p > .suc,
+.vandy > p > .xpl {
+  color: #997F3D;
+}
 .ltRed, .un {
   opacity: 0.4;
 }

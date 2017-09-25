@@ -1,0 +1,11 @@
+Team,Quarter,SuccessRate,SuccessMax,ExpRate,ExpMax
+Alabama,1,0.54,0.59,0.08,0.26
+Vanderbilt,1,0.13,0.59,0.00,0.26
+Alabama,2,0.59,0.59,0.03,0.26
+Vanderbilt,2,0.00,0.59,0.00,0.26
+Alabama,3,0.59,0.59,0.26,0.26
+Vanderbilt,3,0.10,0.59,0.00,0.26
+Alabama,4,0.50,0.59,0.13,0.26
+Vanderbilt,4,0.00,0.59,0.00,0.26
+Alabama,Game,0.56,0.59,0.12,0.26
+Vanderbilt,Game,0.08,0.59,0.00,0.26
