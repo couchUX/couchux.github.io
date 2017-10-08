@@ -100,7 +100,7 @@ Texas A&M,47,10,2,3,,,pass,Not successful,,,0.12,0.38,0.54
 Texas A&M,48,10,3,3,,,pass,Not successful,,,0.12,0.36,0.53
 Texas A&M,49,10,4,3,,,pass,Explosive,1st down,,0.12,0.39,0.52
 Texas A&M,50,10,5,3,,,run,Successful,,,0.15,0.39,0.53
-Texas A&M,51,10,6,3,,,no play,Successful,1st down,,0.15,0.39,0.53
+Texas A&M,51,10,6,3,,,no play,Not successful,,,0.15,0.39,0.53
 Texas A&M,52,10,7,3,,,pass,Not successful,,,0.15,0.38,0.52
 Texas A&M,53,10,8,3,,,run,Not successful,,,0.15,0.38,0.53
 Texas A&M,54,10,9,3,,,pass,Successful,,6,0.15,0.40,0.52
