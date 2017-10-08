@@ -1,0 +1,11 @@
+Team,Quarter,SuccessRate,SuccessMax,ExpRate,ExpMax
+Alabama,1,0.33,0.50,0.08,0.13
+Texas A&M,1,0.24,0.50,0.05,0.13
+Alabama,2,0.40,0.50,0.12,0.13
+Texas A&M,2,0.25,0.50,0.13,0.13
+Alabama,3,0.50,0.50,0.06,0.13
+Texas A&M,3,0.35,0.50,0.12,0.13
+Alabama,4,0.21,0.50,0.07,0.13
+Texas A&M,4,0.38,0.50,0.10,0.13
+Alabama,Game,0.38,0.50,0.09,0.13
+Texas A&M,Game,0.31,0.50,0.09,0.13
