@@ -82,7 +82,7 @@ var layout = {
   barHeight: 32,
   barMarginBoost: 1.1,
   srWidthScale: 0.7,
-  leagueSR: 0.43, //update this peridically for NCAA Success Rate averages
+  leagueSR: 0.4, //update this peridically for NCAA Success Rate averages
   leagueSRwidth: 3,
   qLabelX: 8,
   srLabelX: 24,
