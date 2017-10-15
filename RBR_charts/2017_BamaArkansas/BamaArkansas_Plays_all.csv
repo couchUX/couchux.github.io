@@ -1,0 +1,140 @@
+Team,Play_num_team,Drive,Play_num_drive,Quarter,New_q,New_q_team,Play_type,Result_final,1st_down,Points,SR_run_cume,SR_pass_cume,runRate_cume
+Alabama,1,1,2,1,1,1,run,Explosive,,6,1.00,,1.00
+Arkansas,1,1,2,1,,1,run,Successful,,,1.00,,1.00
+Arkansas,2,1,3,1,,,run,Not successful,,,0.50,,1.00
+Arkansas,3,1,4,1,,,pass,Not successful,,,0.50,0.00,0.67
+Arkansas,4,1,5,1,,,pass,Not successful,,,0.50,0.00,0.50
+Alabama,2,2,1,1,,,run,Not successful,,,0.50,,1.00
+Alabama,3,2,2,1,,,pass,Not successful,,,0.50,0.00,0.67
+Alabama,4,2,3,1,,,pass,Not successful,,,0.50,0.00,0.50
+Arkansas,5,2,2,1,,,pass,Not successful,,,0.50,0.00,0.40
+Arkansas,6,2,3,1,,,pass,Not successful,,,0.50,0.00,0.33
+Arkansas,7,2,4,1,,,pass,Not successful,,,0.50,0.00,0.29
+Alabama,5,3,1,1,,,run,Successful,,,0.67,0.00,0.60
+Alabama,6,3,2,1,,,run,Successful,1st down,,0.75,0.00,0.67
+Alabama,7,3,3,1,,,pass,Not successful,,,0.75,0.00,0.57
+Alabama,8,3,4,1,,,pass,Successful,,,0.75,0.25,0.50
+Alabama,9,3,5,1,,,run,Successful,1st down,,0.80,0.25,0.56
+Alabama,10,3,6,1,,,run,Not successful,,,0.67,0.25,0.60
+Alabama,11,3,7,1,,,pass,Explosive,1st down,,0.67,0.40,0.55
+Alabama,12,3,8,1,,,run,Successful,,6,0.71,0.40,0.58
+Arkansas,8,3,2,1,,,run,Not successful,,,0.33,0.00,0.38
+Arkansas,9,3,3,1,,,pass,Not successful,,,0.33,0.00,0.33
+Arkansas,10,3,4,1,,,pass,Explosive,1st down,,0.33,0.14,0.30
+Arkansas,11,3,5,1,,,pass,Not successful,,,0.33,0.13,0.27
+Arkansas,12,3,6,1,,,run,Not successful,,,0.25,0.13,0.33
+Arkansas,13,3,7,1,,,pass,Not successful,,,0.25,0.11,0.31
+Alabama,13,4,1,1,,,run,Not successful,,,0.63,0.40,0.62
+Alabama,14,4,2,1,,,run,Not successful,,,0.56,0.40,0.64
+Alabama,15,4,3,1,,,pass,Not successful,,,0.56,0.33,0.60
+Arkansas,14,4,1,1,,,pass,Not successful,,,0.25,0.10,0.29
+Arkansas,15,4,2,1,,,pass,Not successful,,,0.25,0.09,0.27
+Arkansas,16,4,3,1,,,pass,Not successful,,,0.25,0.08,0.25
+Arkansas,17,4,5,1,,,run,Not successful,,,0.20,0.08,0.29
+Arkansas,18,5,1,2,2,2,pass,Not successful,,,0.20,0.08,0.28
+Arkansas,19,5,2,2,,,pass,Not successful,,,0.20,0.07,0.26
+Alabama,16,5,1,2,,2,run,Successful,,,0.60,0.33,0.63
+Alabama,17,5,2,2,,,run,Successful,1st down,,0.64,0.33,0.65
+Alabama,18,5,3,2,,,run,Explosive,1st down,,0.67,0.33,0.67
+Alabama,19,5,4,2,,,run,Not successful,,,0.62,0.33,0.68
+Alabama,20,5,5,2,,,run,Not successful,,,0.57,0.33,0.70
+Alabama,21,5,6,2,,,pass,Explosive,1st down,,0.57,0.43,0.67
+Alabama,22,5,7,2,,,run,Not successful,,,0.53,0.43,0.68
+Alabama,23,5,8,2,,,run,Not successful,,,0.50,0.43,0.70
+Alabama,24,5,9,2,,,no play,Not successful,,,0.50,0.43,0.70
+Alabama,25,5,10,2,,,pass,Not successful,,,0.50,0.38,0.67
+Arkansas,20,6,1,2,,,run,Not successful,,,0.17,0.07,0.30
+Arkansas,21,6,2,2,,,pass,Not successful,,,0.17,0.07,0.29
+Arkansas,22,6,3,2,,,run,Not successful,,,0.14,0.07,0.32
+Alabama,26,6,1,2,,,pass,Not successful,,,0.50,0.33,0.64
+Alabama,27,6,2,2,,,run,Not successful,,,0.47,0.33,0.65
+Alabama,28,6,3,2,,,pass,Not successful,,,0.47,0.30,0.63
+Arkansas,23,7,1,2,,,run,Not successful,,,0.13,0.07,0.35
+Arkansas,24,7,2,2,,,pass,Not successful,,,0.13,0.06,0.33
+Arkansas,25,7,3,2,,,pass,Not successful,,,0.13,0.06,0.32
+Alabama,29,7,1,2,,,run,Not successful,,,0.44,0.30,0.64
+Alabama,30,7,2,2,,,pass,Explosive,1st down,,0.44,0.36,0.62
+Alabama,31,7,3,2,,,pass,Successful,1st down,,0.44,0.42,0.60
+Alabama,32,7,4,2,,,run,Successful,,,0.47,0.42,0.61
+Alabama,33,7,5,2,,,run,Not successful,,,0.45,0.42,0.63
+Alabama,34,7,6,2,,,run,Successful,1st down,,0.48,0.42,0.64
+Alabama,35,7,7,2,,,pass,Not successful,,,0.48,0.38,0.62
+Alabama,36,7,8,2,,,run,Explosive,1st down,,0.50,0.38,0.63
+Alabama,37,7,9,2,,,run,Successful,,6,0.52,0.38,0.64
+Arkansas,26,8,2,2,,,run,Not successful,,,0.11,0.06,0.35
+Arkansas,27,8,3,2,,,pass,Explosive,1st down,,0.11,0.11,0.33
+Arkansas,28,8,4,2,,,pass,Not successful,,,0.11,0.11,0.32
+Arkansas,29,8,5,2,,,pass,Not successful,,,0.11,0.10,0.31
+Arkansas,30,8,6,2,,,pass,Not successful,,,0.11,0.10,0.30
+Arkansas,31,8,7,2,,,pass,Successful,1st down,,0.11,0.14,0.29
+Arkansas,32,8,8,2,,,pass,Not successful,,,0.11,0.13,0.28
+Arkansas,33,9,2,3,3,3,pass,Explosive,1st down,,0.11,0.17,0.27
+Arkansas,34,9,3,3,,,run,Not successful,,,0.10,0.17,0.29
+Arkansas,35,9,4,3,,,no play,Not successful,,,0.10,0.17,0.29
+Arkansas,36,9,5,3,,,pass,Explosive,1st down,,0.10,0.20,0.29
+Arkansas,37,9,6,3,,,pass,Not successful,,,0.10,0.19,0.28
+Arkansas,38,9,7,3,,,pass,Not successful,,,0.10,0.19,0.27
+Arkansas,39,9,8,3,,,pass,Not successful,,,0.10,0.18,0.26
+Alabama,38,8,1,3,,3,run,Successful,,,0.54,0.38,0.65
+Alabama,39,8,2,3,,,pass,Successful,1st down,,0.54,0.43,0.63
+Alabama,40,8,3,3,,,pass,Successful,,,0.54,0.47,0.62
+Alabama,41,8,4,3,,,run,Successful,1st down,,0.56,0.47,0.63
+Alabama,42,8,5,3,,,run,Not successful,,,0.54,0.47,0.63
+Alabama,43,8,6,3,,,pass,Not successful,,,0.54,0.44,0.62
+Alabama,44,8,7,3,,,pass,Successful,1st down,,0.54,0.47,0.60
+Alabama,45,8,8,3,,,pass,Not successful,,,0.54,0.44,0.59
+Arkansas,40,10,1,3,,,run,Not successful,,,0.09,0.18,0.28
+Arkansas,41,10,2,3,,,pass,Not successful,,,0.09,0.17,0.28
+Arkansas,42,10,3,3,,,pass,Explosive,1st down,,0.09,0.20,0.27
+Arkansas,43,10,4,3,,,run,Successful,,,0.17,0.20,0.29
+Arkansas,44,10,5,3,,,run,Not successful,,,0.15,0.20,0.30
+Arkansas,45,10,6,3,,,run,Successful,1st down,,0.21,0.20,0.32
+Arkansas,46,10,7,3,,,no play,Successful,,,0.21,0.20,0.32
+Arkansas,47,10,8,3,,,pass,Not successful,,,0.21,0.19,0.31
+Arkansas,48,10,9,3,,,run,Not successful,,,0.20,0.19,0.33
+Arkansas,49,10,10,3,,,run,Successful,1st down,,0.25,0.19,0.34
+Arkansas,50,10,11,3,,,pass,Not successful,,,0.25,0.19,0.33
+Arkansas,51,10,12,3,,,pass,Not successful,,,0.25,0.18,0.33
+Arkansas,52,10,13,3,,,pass,Not successful,,,0.25,0.18,0.32
+Alabama,46,9,2,3,,,run,Explosive,1st down,,0.56,0.44,0.60
+Alabama,47,9,3,3,,,run,Explosive,1st down,,0.57,0.44,0.61
+Alabama,48,9,4,3,,,run,Successful,,,0.59,0.44,0.62
+Alabama,49,9,5,3,,,run,Successful,1st down,,0.60,0.44,0.63
+Alabama,50,9,6,3,,,run,Successful,,,0.61,0.44,0.63
+Alabama,51,9,7,3,,,pass,Explosive,,6,0.61,0.47,0.62
+Arkansas,53,11,2,3,,,pass,Not successful,,,0.25,0.17,0.31
+Arkansas,54,11,3,3,,,run,Not successful,,,0.24,0.17,0.33
+Arkansas,55,11,4,3,,,pass,Not successful,,,0.24,0.17,0.32
+Alabama,52,10,1,4,4,4,pass,Successful,,,0.61,0.50,0.61
+Alabama,53,10,2,4,,,run,Not successful,,,0.59,0.50,0.62
+Alabama,54,10,3,4,,,run,Successful,1st down,,0.61,0.50,0.62
+Alabama,55,10,4,4,,,pass,Successful,1st down,,0.61,0.52,0.61
+Alabama,56,10,5,4,,,run,Successful,,6,0.62,0.52,0.62
+Arkansas,56,13,2,4,,4,pass,Not successful,,,0.24,0.16,0.31
+Arkansas,57,13,3,4,,,pass,Successful,1st down,,0.24,0.18,0.31
+Arkansas,58,13,4,4,,,run,Not successful,,,0.22,0.18,0.32
+Arkansas,59,13,5,4,,,pass,Not successful,,,0.22,0.18,0.32
+Arkansas,60,13,6,4,,,pass,Not successful,,,0.22,0.18,0.31
+Alabama,57,11,1,4,,,pass,Explosive,1st down,,0.62,0.55,0.61
+Alabama,58,11,2,4,,,run,Not successful,,,0.60,0.55,0.61
+Alabama,59,11,3,4,,,run,Not successful,,,0.58,0.55,0.62
+Alabama,60,11,4,4,,,pass,Not successful,,,0.58,0.52,0.61
+Arkansas,61,14,2,4,,,run,Not successful,,,0.21,0.18,0.32
+Arkansas,62,14,3,4,,,pass,Explosive,1st down,,0.21,0.20,0.32
+Arkansas,63,14,4,4,,,pass,Not successful,,,0.21,0.19,0.31
+Arkansas,64,14,5,4,,,pass,Not successful,,,0.21,0.19,0.31
+Arkansas,65,14,6,4,,,pass,Not successful,,,0.21,0.18,0.30
+Arkansas,66,14,7,4,,,no play,Successful,1st down,,0.21,0.18,0.30
+Arkansas,67,14,8,4,,,pass,Successful,1st down,,0.21,0.20,0.30
+Arkansas,68,14,9,4,,,run,Not successful,,,0.20,0.20,0.31
+Arkansas,69,14,10,4,,,run,Successful,1st down,,0.24,0.20,0.32
+Arkansas,70,14,11,4,,,pass,Successful,1st down,,0.24,0.22,0.31
+Arkansas,71,14,12,4,,,pass,Successful,,,0.24,0.23,0.31
+Arkansas,72,14,13,4,,,run,Not successful,,,0.23,0.23,0.32
+Arkansas,73,14,14,4,,,run,Successful,,,0.26,0.23,0.33
+Arkansas,74,14,15,4,,,run,Not successful,,,0.25,0.23,0.34
+Arkansas,75,14,16,4,,,pass,Successful,,6,0.25,0.25,0.33
+Alabama,61,12,2,4,,,run,Successful,,,0.59,0.52,0.62
+Alabama,62,12,3,4,,,run,Explosive,1st down,,0.61,0.52,0.62
+Alabama,63,12,4,4,,,run,Successful,,,0.62,0.52,0.63
+Alabama,64,12,5,4,,,run,Not successful,,,0.60,0.52,0.63
