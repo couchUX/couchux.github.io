@@ -70,7 +70,7 @@ Arkansas,31,8,7,2,,,pass,Successful,1st down,,0.11,0.14,0.29
 Arkansas,32,8,8,2,,,pass,Not successful,,,0.11,0.13,0.28
 Arkansas,33,9,2,3,3,3,pass,Explosive,1st down,,0.11,0.17,0.27
 Arkansas,34,9,3,3,,,run,Not successful,,,0.10,0.17,0.29
-Arkansas,35,9,4,3,,,no play,Not successful,,,0.10,0.17,0.29
+Arkansas,35,9,4,3,,,no play,Successful,1st down,,0.10,0.17,0.29
 Arkansas,36,9,5,3,,,pass,Explosive,1st down,,0.10,0.20,0.29
 Arkansas,37,9,6,3,,,pass,Not successful,,,0.10,0.19,0.28
 Arkansas,38,9,7,3,,,pass,Not successful,,,0.10,0.19,0.27
@@ -124,7 +124,7 @@ Arkansas,62,14,3,4,,,pass,Explosive,1st down,,0.21,0.20,0.32
 Arkansas,63,14,4,4,,,pass,Not successful,,,0.21,0.19,0.31
 Arkansas,64,14,5,4,,,pass,Not successful,,,0.21,0.19,0.31
 Arkansas,65,14,6,4,,,pass,Not successful,,,0.21,0.18,0.30
-Arkansas,66,14,7,4,,,no play,Successful,1st down,,0.21,0.18,0.30
+Arkansas,66,14,7,4,,,no play,Not successful,,,0.21,0.18,0.30
 Arkansas,67,14,8,4,,,pass,Successful,1st down,,0.21,0.20,0.30
 Arkansas,68,14,9,4,,,run,Not successful,,,0.20,0.20,0.31
 Arkansas,69,14,10,4,,,run,Successful,1st down,,0.24,0.20,0.32
