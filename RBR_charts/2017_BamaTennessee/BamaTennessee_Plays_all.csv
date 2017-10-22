@@ -1,0 +1,139 @@
+Team,Play_num_team,Drive,Play_num_drive,Quarter,New_q,New_q_team,Play_type,Result_final,1st_down,Points,SR_run_cume,SR_pass_cume,runRate_cume
+Tennessee,1,1,2,1,1,1,run,Not successful,,,0.00,,1.00
+Tennessee,2,1,3,1,,,pass,Not successful,,,0.00,0.00,0.50
+Tennessee,3,1,4,1,,,pass,Not successful,,,0.00,0.00,0.33
+Alabama,1,1,1,1,,1,pass,Successful,,,,1.00,0.00
+Alabama,2,1,2,1,,,run,Successful,1st down,,1.00,1.00,0.50
+Alabama,3,1,3,1,,,pass,Not successful,,,1.00,0.50,0.33
+Alabama,4,1,4,1,,,run,Not successful,,,0.50,0.50,0.50
+Alabama,5,1,5,1,,,pass,Successful,1st down,,0.50,0.67,0.40
+Alabama,6,1,6,1,,,run,Successful,,,0.67,0.67,0.50
+Alabama,7,1,7,1,,,run,Successful,1st down,,0.75,0.67,0.57
+Alabama,8,1,8,1,,,pass,Explosive,1st down,,0.75,0.75,0.50
+Alabama,9,1,9,1,,,run,Successful,,,0.80,0.75,0.56
+Alabama,10,1,10,1,,,pass,Not successful,,,0.80,0.60,0.50
+Alabama,11,1,11,1,,,run,Not successful,,,0.67,0.60,0.55
+Alabama,12,1,12,1,,,run,Successful,,6,0.71,0.60,0.58
+Tennessee,4,2,2,1,,,pass,Successful,1st down,,0.00,0.33,0.25
+Tennessee,5,2,3,1,,,pass,Successful,,,0.00,0.50,0.20
+Tennessee,6,2,4,1,,,run,Successful,1st down,,0.50,0.50,0.33
+Tennessee,7,2,5,1,,,run,Not successful,,,0.33,0.50,0.43
+Tennessee,8,2,6,1,,,run,Not successful,,,0.25,0.50,0.50
+Tennessee,9,2,7,1,,,run,Not successful,,,0.20,0.50,0.56
+Alabama,13,2,1,1,,,pass,Not successful,,,0.71,0.50,0.54
+Alabama,14,2,2,1,,,run,Successful,1st down,,0.75,0.50,0.57
+Alabama,15,2,3,1,,,pass,Successful,,,0.75,0.57,0.53
+Alabama,16,2,4,1,,,run,Successful,1st down,,0.78,0.57,0.56
+Alabama,17,2,5,1,,,run,Successful,,,0.80,0.57,0.59
+Alabama,18,2,6,1,,,run,Not successful,,,0.73,0.57,0.61
+Alabama,19,2,7,1,,,pass,Not successful,,,0.73,0.50,0.58
+Tennessee,10,3,1,1,,,run,Not successful,,,0.17,0.50,0.60
+Tennessee,11,3,2,1,,,pass,Not successful,,,0.17,0.40,0.55
+Tennessee,12,4,1,2,2,2,run,Not successful,,,0.14,0.40,0.58
+Alabama,20,3,1,2,,2,pass,Not successful,,,0.73,0.44,0.55
+Alabama,21,3,2,2,,,run,Not successful,,,0.67,0.44,0.57
+Alabama,22,3,3,2,,,run,Not successful,,,0.62,0.44,0.59
+Alabama,23,3,4,2,,,no play,Successful,1st down,,0.62,0.44,0.59
+Tennessee,13,5,1,2,,,run,Not successful,,,0.13,0.40,0.62
+Tennessee,14,5,2,2,,,penalty,Successful,1st down,,0.13,0.40,0.62
+Tennessee,15,5,3,2,,,run,Not successful,,,0.11,0.40,0.64
+Tennessee,16,5,4,2,,,run,Not successful,,,0.10,0.40,0.67
+Tennessee,17,5,5,2,,,run,Not successful,,,0.09,0.40,0.69
+Alabama,24,4,1,2,,,run,Not successful,,,0.57,0.44,0.61
+Alabama,25,4,2,2,,,pass,Not successful,,,0.57,0.40,0.58
+Alabama,26,4,3,2,,,pass,Explosive,1st down,,0.57,0.45,0.56
+Alabama,27,4,4,2,,,no play,Successful,,,0.57,0.45,0.56
+Alabama,28,4,5,2,,,pass,Not successful,,,0.57,0.42,0.54
+Alabama,29,4,6,2,,,run,Not successful,,,0.53,0.42,0.56
+Alabama,30,4,7,2,,,run,Successful,1st down,,0.56,0.42,0.57
+Alabama,31,4,8,2,,,pass,Explosive,1st down,,0.56,0.46,0.55
+Alabama,32,4,9,2,,,no play,Successful,1st down,,0.56,0.46,0.55
+Alabama,33,4,10,2,,,run,Not successful,,,0.53,0.46,0.57
+Alabama,34,4,11,2,,,pass,Not successful,,,0.53,0.43,0.55
+Alabama,35,4,12,2,,,pass,Not successful,,,0.53,0.40,0.53
+Alabama,36,4,13,2,,,no play,Not successful,,,0.53,0.40,0.53
+Alabama,37,4,14,2,,,run,Not successful,,,0.50,0.40,0.55
+Alabama,38,4,15,2,,,pass,Not successful,,,0.50,0.38,0.53
+Alabama,39,4,16,2,,,penalty,Not successful,,,0.50,0.38,0.53
+Alabama,40,4,17,2,,,pass,Not successful,,,0.50,0.35,0.51
+Alabama,41,4,18,2,,,run,Successful,,6,0.53,0.35,0.53
+Tennessee,18,6,2,2,,,run,Not successful,,,0.08,0.40,0.71
+Tennessee,19,6,3,2,,,pass,Not successful,,,0.08,0.33,0.67
+Tennessee,20,6,4,2,,,pass,Not successful,,,0.08,0.29,0.63
+Alabama,42,5,1,2,,,run,Not successful,,,0.50,0.35,0.54
+Alabama,43,5,2,2,,,pass,Explosive,1st down,,0.50,0.39,0.53
+Alabama,44,5,3,2,,,pass,Not successful,,,0.50,0.37,0.51
+Alabama,45,5,4,2,,,no play,Successful,1st down,,0.50,0.37,0.51
+Alabama,46,5,5,2,,,run,Explosive,1st down,,0.52,0.37,0.53
+Alabama,47,5,6,2,,,run,Not successful,,,0.50,0.37,0.54
+Alabama,48,5,7,2,,,run,Successful,,6,0.52,0.37,0.55
+Tennessee,21,7,2,2,,,run,Explosive,1st down,,0.15,0.29,0.65
+Tennessee,22,7,3,2,,,pass,Successful,,,0.15,0.38,0.62
+Tennessee,23,7,4,2,,,pass,Not successful,,,0.15,0.33,0.59
+Tennessee,24,7,5,2,,,pass,Not successful,,,0.15,0.30,0.57
+Tennessee,25,7,6,2,,,pass,Not successful,,,0.15,0.27,0.54
+Tennessee,26,7,7,2,,,pass,Not successful,,,0.15,0.25,0.52
+Alabama,49,6,2,3,3,3,pass,Explosive,1st down,,0.52,0.40,0.53
+Alabama,50,6,3,3,,,run,Successful,,,0.54,0.40,0.55
+Alabama,51,6,4,3,,,run,Successful,1st down,,0.56,0.40,0.56
+Alabama,52,6,5,3,,,pass,Successful,1st down,,0.56,0.43,0.54
+Alabama,53,6,6,3,,,run,Not successful,,,0.54,0.43,0.55
+Alabama,54,6,7,3,,,pass,Successful,1st down,,0.54,0.45,0.54
+Alabama,55,6,8,3,,,run,Not successful,,,0.52,0.45,0.55
+Alabama,56,6,9,3,,,pass,Successful,,6,0.52,0.48,0.54
+Tennessee,27,8,2,3,,3,run,Not successful,,,0.14,0.25,0.54
+Tennessee,28,8,3,3,,,pass,Not successful,,,0.14,0.23,0.52
+Tennessee,29,8,4,3,,,run,Explosive,,,0.20,0.23,0.54
+Alabama,57,7,1,3,,,run,Successful,,,0.54,0.48,0.55
+Alabama,58,7,2,3,,,pass,Successful,1st down,,0.54,0.50,0.54
+Alabama,59,7,3,3,,,pass,Not successful,,,0.54,0.48,0.53
+Alabama,60,7,4,3,,,pass,Successful,1st down,,0.54,0.50,0.52
+Alabama,61,7,5,3,,,pass,Successful,,,0.54,0.52,0.51
+Alabama,62,7,6,3,,,run,Not successful,,,0.52,0.52,0.52
+Alabama,63,7,7,3,,,run,Successful,1st down,,0.53,0.52,0.53
+Alabama,64,7,8,3,,,run,Explosive,1st down,,0.55,0.52,0.53
+Alabama,65,7,9,3,,,run,Not successful,,,0.53,0.52,0.54
+Alabama,66,7,10,3,,,pass,Successful,1st down,,0.53,0.54,0.53
+Alabama,67,7,11,3,,,run,Not successful,,,0.52,0.54,0.54
+Alabama,68,7,12,3,,,run,Not successful,,,0.50,0.54,0.55
+Alabama,69,7,13,3,,,pass,Not successful,,,0.50,0.52,0.54
+Alabama,70,8,2,3,,,run,Not successful,,,0.49,0.52,0.55
+Alabama,71,8,3,3,,,run,Successful,1st down,,0.50,0.52,0.55
+Alabama,72,8,4,3,,,pass,Explosive,1st down,,0.50,0.53,0.55
+Alabama,73,8,5,3,,,pass,Successful,1st down,,0.50,0.55,0.54
+Alabama,74,8,6,3,,,pass,Not successful,,,0.50,0.53,0.53
+Alabama,75,8,7,3,,,run,Not successful,,,0.49,0.53,0.54
+Alabama,76,8,8,3,,,pass,Not successful,,,0.49,0.52,0.53
+Tennessee,30,10,2,3,,,run,Successful,,,0.25,0.23,0.55
+Tennessee,31,10,3,3,,,run,Successful,1st down,,0.29,0.23,0.57
+Tennessee,32,10,4,3,,,pass,Not successful,,,0.29,0.21,0.55
+Tennessee,33,10,5,3,,,run,Not successful,,,0.28,0.21,0.56
+Tennessee,34,10,6,3,,,pass,Not successful,,,0.28,0.20,0.55
+Alabama,77,9,1,3,,,run,Successful,,,0.50,0.52,0.54
+Alabama,78,10,1,4,4,4,run,Explosive,1st down,,0.51,0.52,0.54
+Alabama,79,10,2,4,,,run,Not successful,,,0.50,0.52,0.55
+Alabama,80,10,3,4,,,pass,Not successful,,,0.50,0.50,0.54
+Alabama,81,10,4,4,,,pass,Successful,1st down,,0.50,0.51,0.53
+Alabama,82,10,5,4,,,run,Successful,1st down,,0.51,0.51,0.54
+Alabama,83,10,6,4,,,run,Explosive,,6,0.52,0.51,0.55
+Tennessee,35,11,2,4,,4,run,Not successful,,,0.26,0.20,0.56
+Tennessee,36,11,3,4,,,run,Not successful,,,0.25,0.20,0.57
+Tennessee,37,11,4,4,,,pass,Not successful,,,0.25,0.19,0.56
+Tennessee,38,11,6,4,,,pass,Successful,,,0.25,0.24,0.54
+Tennessee,39,11,7,4,,,no play,Successful,1st down,,0.25,0.24,0.54
+Tennessee,40,11,8,4,,,run,Not successful,,,0.24,0.24,0.55
+Tennessee,41,11,9,4,,,run,Successful,,6,0.27,0.24,0.56
+Tennessee,42,11,10,4,,,run,Not successful,,,0.26,0.24,0.58
+Tennessee,43,11,11,4,,,no play,Not successful,,,0.26,0.24,0.58
+Tennessee,44,11,12,4,,,run,Not successful,,,0.25,0.24,0.59
+Tennessee,45,11,13,4,,,pass,Not successful,,,0.25,0.22,0.57
+Alabama,84,11,1,4,,,run,Successful,,,0.53,0.51,0.55
+Alabama,85,11,2,4,,,run,Successful,1st down,,0.55,0.51,0.56
+Alabama,86,11,3,4,,,run,Not successful,,,0.53,0.51,0.56
+Alabama,87,11,4,4,,,run,Not successful,,,0.52,0.51,0.57
+Alabama,88,11,5,4,,,pass,Explosive,,6,0.52,0.53,0.56
+Tennessee,46,12,2,4,,,run,Not successful,,,0.24,0.22,0.58
+Tennessee,47,12,3,4,,,run,Successful,,,0.27,0.22,0.59
+Tennessee,48,12,4,4,,,pass,Not successful,,,0.27,0.21,0.58
+Alabama,89,12,1,4,,,run,Not successful,,,0.51,0.53,0.57
+Alabama,90,12,2,4,,,run,Successful,1st down,,0.52,0.53,0.57
