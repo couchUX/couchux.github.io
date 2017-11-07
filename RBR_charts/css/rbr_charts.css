@@ -348,7 +348,7 @@ svg > path {
 /* css for metrics explanation box */
 .explain-rbr {
   background-image: url(https://couchux.github.io/chart-demos/images/dots/grey_dot_2x_15.png);
-  background-repeat: repeat;k
+  background-repeat: repeat;
     background-repeat-x: repeat;
     background-repeat-y: repeat;
   padding: 15px;
@@ -402,6 +402,9 @@ svg > path {
 }
 .bar-container {
   margin-top: 12px;
+}
+.bar-container:last-child {
+  margin-bottom: 20px;
 }
 .bar-container p {
   font-weight: 600;
