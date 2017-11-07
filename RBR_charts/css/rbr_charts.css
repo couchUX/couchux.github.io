@@ -97,8 +97,11 @@
   color: #242424;
   font-size: .82em !important;
   line-height: 1.5em;
-  margin-top: 0px;
+  margin-top: 12px;
   margin-bottom:3px;
+}
+.chartSubtitle:first-of-type {
+  margin-top: 0px;
 }
 .teamTitle {
   font-weight: 400;
@@ -345,6 +348,9 @@ svg > path {
 .xRed {
   color: #620E23;
 }
+.cmpRed {
+  color: #FF7E9F;
+}
 /* css for metrics explanation box */
 .explain-rbr {
   background-image: url(https://couchux.github.io/chart-demos/images/dots/grey_dot_2x_15.png);
@@ -396,10 +402,6 @@ svg > path {
 }
 
 /* new stuff for Players charts and bar components */
-.slant {
-  margin-left: 12px;
-  margin-right: 12px;
-}
 .bar-container {
   margin-top: 12px;
 }
@@ -409,6 +411,10 @@ svg > path {
 .bar-container p {
   font-weight: 600;
   margin-bottom: 4px;
+}
+.slant {
+  margin-left: 8px;
+  margin-right: 8px;
 }
 .bar-info, .bar {
   display: flex;
@@ -425,10 +431,12 @@ svg > path {
   width: 100%;
 }
 .alabama .bar .attempts {
-  /*background-color: #B1B1B1;*/
   background-image: url("../../chart-demos/images/diag-red-lt.png");
   background-repeat: repeat;
   background-color: #F1F1F1;
+}
+.alabama .bar .completions {
+  background-color: #FFAAC0;
 }
 .alabama .bar .successful {
   background-color: #C31C45;
