@@ -394,3 +394,42 @@ svg > path {
 #passSR-legacy {
   opacity: 0.3 !important;
 }
+
+/* new stuff for Players charts and bar components */
+.slant {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+.bar-container {
+  margin-top: 12px;
+}
+.bar-container p {
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+.bar-info, .bar {
+  display: flex;
+  flex-grow: 1;
+}
+.bar-title {
+  flex-grow: 1;
+}
+.bar {
+  height: 12px;
+  width: 100%;
+}
+.alabama .bar .attempts {
+  /*background-color: #B1B1B1;*/
+  background-image: url("../../chart-demos/images/diag-red-lt.png");
+  background-repeat: repeat;
+  background-color: #F1F1F1;
+}
+.alabama .bar .successful {
+  background-color: #C31C45;
+}
+.alabama .bar .explosive {
+  background-color: #6B0F26;
+}
+.bar .empty {
+  background-color: #f1f1f1;
+}
