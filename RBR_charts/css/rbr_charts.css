@@ -424,7 +424,7 @@ svg > path {
   flex-grow: 1;
 }
 .count {
-  margin: 0 8px;
+  margin: 0 6px;
 }
 .bar {
   height: 12px;
