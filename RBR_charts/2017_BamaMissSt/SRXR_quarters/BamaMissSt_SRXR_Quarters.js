@@ -6,7 +6,7 @@ srxrqCharts()
 
 function srxrqCharts() {
   srxrqChart(srxrq_csv_url, "Alabama", "1")
-  srxrqChart(srxrq_csv_url, "Miss State", "2")
+  srxrqChart(srxrq_csv_url, "Mississippi St.", "2")
 }
 
 /* defining the main chart functions */
@@ -22,8 +22,8 @@ function csv_response(which_team, what_order, error, data) {
     console.log("data loaded")
     data.forEach(function(d) {
       d.SuccessRate = +d.SuccessRate
-      if (d.Team == "MissSt") {
-        d.Team = "MissSt"
+      if (d.Team == "Mississippi St.") {
+        d.Team = "Mississippi St."
       }
       if (d.Quarter !== "Game") {
         d.Quarter = "Q" + +d.Quarter
@@ -45,7 +45,7 @@ function render_SRXRquarters_chart(which_team, what_order) {
 /* tie chart colors to team names */
 var teamColors = {
   "Alabama": "#C31C45",
-  "MissSt": "#660000"
+  "Mississippi St.": "#660000"
 }
     gameColor = "#5C5C5C"
 
