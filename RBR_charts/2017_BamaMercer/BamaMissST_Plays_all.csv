@@ -1,0 +1,138 @@
+Team,Play_num_team,Drive,Play_num_drive,Quarter,New_q,New_q_team,Play_type,Result_final,1st_down,Points,SR_run_cume,SR_pass_cume,runRate_cume
+Mississippi St.,1,1,2,1,1,1,pass,Not successful,,,,0.00,0.00
+Mississippi St.,2,1,3,1,,,pass,Not successful,,,,0.00,0.00
+Mississippi St.,3,1,4,1,,,pass,Not successful,,,,0.00,0.00
+Mississippi St.,4,1,5,1,,,no play,Not successful,,,,0.00,0.00
+Mississippi St.,5,1,6,1,,,run,Successful,,,1.00,0.00,0.25
+Mississippi St.,6,1,7,1,,,run,Not successful,,,0.50,0.00,0.40
+Mississippi St.,7,1,8,1,,,run,Successful,1st down,,0.67,0.00,0.50
+Mississippi St.,8,1,9,1,,,run,Not successful,,,0.50,0.00,0.57
+Mississippi St.,9,1,10,1,,,pass,Successful,1st down,,0.50,0.25,0.50
+Mississippi St.,10,1,11,1,,,pass,Successful,,,0.50,0.40,0.44
+Mississippi St.,11,1,12,1,,,run,Not successful,,,0.40,0.40,0.50
+Mississippi St.,12,1,13,1,,,run,Not successful,,,0.33,0.40,0.55
+Mississippi St.,13,1,14,1,,,no play,Not successful,,,0.33,0.40,0.55
+Alabama,1,1,1,1,,1,run,Successful,,,1.00,,1.00
+Alabama,2,1,2,1,,,run,Not successful,,,0.50,,1.00
+Alabama,3,1,3,1,,,pass,Not successful,,,0.50,0.00,0.67
+Mississippi St.,14,2,1,1,,,pass,Explosive,1st down,,0.33,0.50,0.50
+Mississippi St.,15,2,2,1,,,run,Successful,,,0.43,0.50,0.54
+Mississippi St.,16,2,3,1,,,run,Successful,,,0.50,0.50,0.57
+Mississippi St.,17,2,4,1,,,run,Successful,1st down,,0.56,0.50,0.60
+Mississippi St.,18,2,5,1,,,run,Not successful,,,0.50,0.50,0.63
+Mississippi St.,19,2,6,1,,,run,Successful,,6,0.55,0.50,0.65
+Alabama,4,2,2,1,,,run,Not successful,,,0.33,0.00,0.75
+Alabama,5,2,3,1,,,run,Not successful,,,0.25,0.00,0.80
+Alabama,6,2,4,1,,,pass,Explosive,1st down,,0.25,0.50,0.67
+Alabama,7,2,5,1,,,run,Successful,,,0.40,0.50,0.71
+Alabama,8,2,6,1,,,run,Successful,,6,0.50,0.50,0.75
+Mississippi St.,20,3,2,1,,,run,Not successful,,,0.50,0.50,0.67
+Mississippi St.,21,3,3,1,,,pass,Not successful,,,0.50,0.43,0.63
+Mississippi St.,22,3,4,1,,,no play,Successful,1st down,,0.50,0.43,0.63
+Mississippi St.,23,3,5,1,,,run,Not successful,,,0.46,0.43,0.65
+Mississippi St.,24,4,1,2,2,2,run,Successful,1st down,,0.50,0.43,0.67
+Mississippi St.,25,4,2,2,,,run,Not successful,,,0.47,0.43,0.68
+Mississippi St.,26,4,3,2,,,run,Not successful,,,0.44,0.43,0.70
+Mississippi St.,27,4,4,2,,,pass,Successful,1st down,,0.44,0.50,0.67
+Mississippi St.,28,4,5,2,,,run,Not successful,,,0.41,0.50,0.68
+Mississippi St.,29,4,6,2,,,run,Successful,,,0.44,0.50,0.69
+Mississippi St.,30,4,7,2,,,pass,Explosive,1st down,,0.44,0.56,0.67
+Mississippi St.,31,4,8,2,,,run,Successful,,6,0.47,0.56,0.68
+Alabama,9,3,2,2,,2,pass,Successful,,,0.50,0.67,0.67
+Alabama,10,3,3,2,,,run,Successful,1st down,,0.57,0.67,0.70
+Alabama,11,3,4,2,,,run,Not successful,,,0.50,0.67,0.73
+Alabama,12,3,5,2,,,pass,Explosive,1st down,,0.50,0.75,0.67
+Alabama,13,3,6,2,,,run,Successful,,6,0.56,0.75,0.69
+Mississippi St.,32,5,2,2,,,run,Successful,1st down,,0.50,0.56,0.69
+Mississippi St.,33,5,3,2,,,pass,Not successful,,,0.50,0.50,0.67
+Mississippi St.,34,5,4,2,,,run,Not successful,,,0.48,0.50,0.68
+Mississippi St.,35,5,5,2,,,run,Not successful,,,0.45,0.50,0.69
+Alabama,14,4,1,2,,,run,Not successful,,,0.50,0.75,0.71
+Alabama,15,4,2,2,,,pass,Not successful,,,0.50,0.60,0.67
+Alabama,16,4,3,2,,,pass,Not successful,,,0.50,0.50,0.63
+Mississippi St.,36,6,1,2,,,run,Not successful,,,0.43,0.50,0.70
+Mississippi St.,37,6,2,2,,,run,Successful,,,0.46,0.50,0.71
+Mississippi St.,38,6,3,2,,,run,Successful,1st down,,0.48,0.50,0.71
+Mississippi St.,39,6,4,2,,,run,Not successful,,,0.46,0.50,0.72
+Mississippi St.,40,6,5,2,,,run,Not successful,,,0.44,0.50,0.73
+Mississippi St.,41,6,6,2,,,pass,Not successful,,,0.44,0.45,0.71
+Alabama,17,5,1,2,,,run,Not successful,,,0.45,0.50,0.65
+Alabama,18,5,2,2,,,no play,Not successful,,,0.45,0.50,0.65
+Alabama,19,5,3,2,,,run,Not successful,,,0.42,0.50,0.67
+Alabama,20,5,4,2,,,run,Successful,1st down,,0.46,0.50,0.68
+Alabama,21,5,5,2,,,pass,Explosive,1st down,,0.46,0.57,0.65
+Alabama,22,5,6,2,,,pass,Not successful,,,0.46,0.50,0.62
+Alabama,23,5,7,2,,,no play,Not successful,,,0.46,0.50,0.62
+Alabama,24,5,8,2,,,run,Not successful,,,0.43,0.50,0.64
+Alabama,25,5,9,2,,,run,Not successful,,,0.40,0.50,0.65
+Mississippi St.,42,7,1,2,,,run,Not successful,,,0.43,0.45,0.72
+Alabama,26,6,2,3,3,3,pass,Successful,1st down,,0.40,0.56,0.63
+Alabama,27,6,3,3,,,pass,Successful,,,0.40,0.60,0.60
+Alabama,28,6,4,3,,,run,Explosive,1st down,,0.44,0.60,0.62
+Alabama,29,6,5,3,,,pass,Not successful,,,0.44,0.55,0.59
+Alabama,30,6,6,3,,,pass,Not successful,,,0.44,0.50,0.57
+Alabama,31,6,7,3,,,pass,Not successful,,,0.44,0.46,0.55
+Mississippi St.,43,8,2,3,,3,run,Not successful,,,0.41,0.45,0.73
+Mississippi St.,44,8,3,3,,,run,Successful,1st down,,0.43,0.45,0.73
+Mississippi St.,45,8,4,3,,,run,Successful,,,0.45,0.45,0.74
+Mississippi St.,46,8,5,3,,,pass,Successful,1st down,,0.45,0.50,0.72
+Mississippi St.,47,8,6,3,,,run,Not successful,,,0.44,0.50,0.73
+Mississippi St.,48,8,7,3,,,pass,Successful,1st down,,0.44,0.54,0.71
+Mississippi St.,49,8,8,3,,,pass,Not successful,,,0.44,0.50,0.70
+Mississippi St.,50,8,9,3,,,pass,Not successful,,,0.44,0.47,0.68
+Mississippi St.,51,8,10,3,,,run,Successful,1st down,,0.45,0.47,0.69
+Mississippi St.,52,8,11,3,,,run,Not successful,,,0.44,0.47,0.69
+Mississippi St.,53,8,12,3,,,run,Successful,1st down,,0.46,0.47,0.70
+Mississippi St.,54,8,13,3,,,run,Not successful,,,0.44,0.47,0.71
+Mississippi St.,55,8,14,3,,,run,Successful,,6,0.46,0.47,0.71
+Alabama,32,7,2,3,,,pass,Not successful,,,0.44,0.43,0.53
+Alabama,33,7,3,3,,,pass,Not successful,,,0.44,0.40,0.52
+Alabama,34,7,4,3,,,pass,Not successful,,,0.44,0.38,0.50
+Mississippi St.,56,9,1,3,,,run,Not successful,,,0.45,0.47,0.72
+Mississippi St.,57,9,2,3,,,run,Not successful,,,0.44,0.47,0.72
+Mississippi St.,58,9,3,3,,,pass,Explosive,1st down,,0.44,0.50,0.71
+Mississippi St.,59,9,4,3,,,run,Not successful,,,0.43,0.50,0.71
+Mississippi St.,60,9,5,3,,,run,Not successful,,,0.41,0.50,0.72
+Mississippi St.,61,9,6,3,,,pass,Explosive,1st down,,0.41,0.53,0.71
+Mississippi St.,62,9,7,3,,,run,Not successful,,,0.40,0.53,0.71
+Mississippi St.,63,10,1,4,4,4,run,Not successful,,,0.40,0.53,0.72
+Mississippi St.,64,10,2,4,,,pass,Not successful,,,0.40,0.50,0.70
+Alabama,35,8,2,4,,4,run,Successful,,,0.47,0.38,0.52
+Alabama,36,8,3,4,,,run,Successful,1st down,,0.50,0.38,0.53
+Alabama,37,8,4,4,,,run,Successful,1st down,,0.53,0.38,0.54
+Alabama,38,8,5,4,,,run,Successful,1st down,,0.55,0.38,0.56
+Alabama,39,8,6,4,,,pass,Not successful,,,0.55,0.35,0.54
+Alabama,40,8,7,4,,,run,Successful,,,0.57,0.35,0.55
+Alabama,41,8,8,4,,,pass,Not successful,,,0.57,0.33,0.54
+Alabama,42,8,9,4,,,run,Successful,1st down,,0.59,0.33,0.55
+Alabama,43,8,10,4,,,run,Successful,,,0.61,0.33,0.56
+Alabama,44,8,11,4,,,run,Successful,,6,0.63,0.33,0.57
+Mississippi St.,65,11,2,4,,,run,Successful,,,0.41,0.50,0.71
+Mississippi St.,66,11,3,4,,,run,Successful,1st down,,0.42,0.50,0.71
+Mississippi St.,67,11,4,4,,,run,Not successful,,,0.41,0.50,0.72
+Mississippi St.,68,11,5,4,,,run,Not successful,,,0.40,0.50,0.72
+Mississippi St.,69,11,6,4,,,pass,Not successful,,,0.40,0.47,0.71
+Alabama,45,9,1,4,,,run,Successful,,,0.64,0.33,0.58
+Alabama,46,9,2,4,,,run,Successful,1st down,,0.65,0.33,0.59
+Alabama,47,9,3,4,,,run,Successful,1st down,,0.67,0.33,0.60
+Alabama,48,9,4,4,,,run,Explosive,1st down,,0.68,0.33,0.61
+Alabama,49,9,5,4,,,run,Not successful,,,0.66,0.33,0.62
+Alabama,50,9,6,4,,,pass,Not successful,,,0.66,0.32,0.60
+Alabama,51,9,7,4,,,pass,Successful,1st down,,0.66,0.35,0.59
+Alabama,52,9,8,4,,,run,Not successful,,,0.63,0.35,0.60
+Alabama,53,9,9,4,,,run,Not successful,,,0.61,0.35,0.61
+Alabama,54,9,10,4,,,run,Not successful,,,0.59,0.35,0.62
+Mississippi St.,70,12,1,4,,,pass,Not successful,,,0.40,0.45,0.70
+Mississippi St.,71,12,2,4,,,pass,Not successful,,,0.40,0.43,0.69
+Mississippi St.,72,12,3,4,,,run,Not successful,,,0.40,0.43,0.70
+Alabama,55,10,1,4,,,run,Not successful,,,0.58,0.35,0.62
+Alabama,56,10,2,4,,,pass,Explosive,1st down,,0.58,0.38,0.61
+Alabama,57,10,3,4,,,pass,Not successful,,,0.58,0.36,0.60
+Alabama,58,10,4,4,,,pass,Not successful,,,0.58,0.35,0.59
+Alabama,59,10,5,4,,,pass,Explosive,1st down,,0.58,0.38,0.58
+Alabama,60,10,6,4,,,pass,Explosive,,6,0.58,0.40,0.57
+Mississippi St.,73,13,2,4,,,pass,Explosive,1st down,,0.40,0.45,0.69
+Mississippi St.,74,13,3,4,,,pass,Not successful,,,0.40,0.43,0.68
+Mississippi St.,75,13,4,4,,,pass,Not successful,,,0.40,0.42,0.67
+Mississippi St.,76,13,5,4,,,pass,Successful,1st down,,0.40,0.44,0.66
+Mississippi St.,77,13,6,4,,,pass,Not successful,,,0.40,0.42,0.65

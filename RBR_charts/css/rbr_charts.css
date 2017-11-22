@@ -226,7 +226,6 @@ svg > path {
   stroke: #F66733;
 }
 .fsu > svg > path {
-  /*stroke: #CEB888;*/
   stroke: #AB8C49;
 }
 .fresno > svg > path {
@@ -237,6 +236,9 @@ svg > path {
 }
 .vandy > svg > path {
   stroke: #997F3D;
+}
+.mercer > svg > path {
+  stroke: #CB5307;
 }
 .pass-sr-line {
   opacity: .25;
@@ -341,6 +343,11 @@ svg > path {
 .vandy > p > .suc,
 .vandy > p > .xpl {
   color: #997F3D;
+}
+.mercer > p > .un,
+.mercer > p > .suc,
+.mercer > p > .xpl {
+  color:#CB5307;
 }
 .ltRed, .un {
   opacity: 0.4;
