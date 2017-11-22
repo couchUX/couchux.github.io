@@ -1,0 +1,123 @@
+Team,Play_num_team,Drive,Play_num_drive,Quarter,New_q,New_q_team,Play_type,Result_final,1st_down,Points,SR_run_cume,SR_pass_cume,runRate_cume
+Alabama,1,1,2,1,1,1,run,Successful,,,1.00,,1.00
+Alabama,2,1,3,1,,,run,Not successful,,,0.50,,1.00
+Alabama,3,1,4,1,,,run,Successful,1st down,,0.67,,1.00
+Alabama,4,1,5,1,,,run,Not successful,,,0.50,,1.00
+Alabama,5,1,6,1,,,pass,Explosive,1st down,,0.50,1.00,0.80
+Alabama,6,1,7,1,,,pass,Successful,1st down,,0.50,1.00,0.67
+Alabama,7,1,8,1,,,run,Successful,,,0.60,1.00,0.71
+Alabama,8,1,9,1,,,run,Successful,1st down,,0.67,1.00,0.75
+Alabama,9,1,10,1,,,run,Not successful,,,0.57,1.00,0.78
+Alabama,10,1,11,1,,,pass,Successful,,6,0.57,1.00,0.70
+Mercer,1,1,2,1,,1,run,Not successful,,,0.00,,1.00
+Mercer,2,1,3,1,,,pass,Successful,1st down,,0.00,1.00,0.50
+Mercer,3,1,4,1,,,run,Successful,,,0.50,1.00,0.67
+Mercer,4,1,5,1,,,pass,Not successful,,,0.50,0.50,0.50
+Mercer,5,1,6,1,,,run,Not successful,,,0.33,0.50,0.60
+Alabama,11,2,1,1,,,run,Successful,1st down,,0.63,1.00,0.73
+Alabama,12,2,2,1,,,run,Successful,1st down,,0.67,1.00,0.75
+Alabama,13,2,3,1,,,run,Not successful,,,0.60,1.00,0.77
+Alabama,14,2,4,1,,,pass,Explosive,1st down,,0.60,1.00,0.71
+Alabama,15,2,5,1,,,run,Successful,,6,0.64,1.00,0.73
+Mercer,6,2,2,1,,,pass,Not successful,,,0.33,0.33,0.50
+Mercer,7,2,3,1,,,run,Not successful,,,0.25,0.33,0.57
+Mercer,8,2,4,1,,,pass,Successful,1st down,,0.25,0.50,0.50
+Mercer,9,2,5,1,,,run,Not successful,,,0.20,0.50,0.56
+Mercer,10,2,6,1,,,run,Not successful,,,0.17,0.50,0.60
+Mercer,11,2,7,1,,,run,Successful,1st down,,0.29,0.50,0.64
+Mercer,12,2,8,1,,,run,Not successful,,,0.25,0.50,0.67
+Mercer,13,2,9,1,,,run,Not successful,,,0.22,0.50,0.69
+Mercer,14,2,10,1,,,pass,Not successful,,,0.22,0.40,0.64
+Alabama,16,3,1,1,,,run,Not successful,,,0.58,1.00,0.75
+Alabama,17,3,2,1,,,run,Not successful,,,0.54,1.00,0.76
+Alabama,18,3,3,1,,,run,Explosive,1st down,,0.57,1.00,0.78
+Alabama,19,4,1,2,2,2,pass,Explosive,,6,0.57,1.00,0.74
+Mercer,15,3,2,2,,2,pass,Not successful,,,0.22,0.33,0.60
+Alabama,20,5,1,2,,,run,Successful,,,0.60,1.00,0.75
+Alabama,21,5,2,2,,,pass,Explosive,1st down,,0.60,1.00,0.71
+Alabama,22,5,3,2,,,pass,Successful,,6,0.60,1.00,0.68
+Mercer,16,4,2,2,,,run,Not successful,,,0.20,0.33,0.63
+Mercer,17,4,3,2,,,pass,Not successful,,,0.20,0.29,0.59
+Mercer,18,4,4,2,,,no play,Not successful,,,0.20,0.29,0.59
+Mercer,19,4,5,2,,,pass,Not successful,,,0.20,0.25,0.56
+Alabama,23,6,1,2,,,run,Explosive,1st down,,0.63,1.00,0.70
+Alabama,24,6,2,2,,,run,Not successful,,,0.59,1.00,0.71
+Alabama,25,6,3,2,,,pass,Successful,,6,0.59,1.00,0.68
+Mercer,20,5,2,2,,,run,Not successful,,,0.18,0.25,0.58
+Mercer,21,5,3,2,,,run,Not successful,,,0.17,0.25,0.60
+Mercer,22,5,4,2,,,no play,Not successful,,,0.17,0.25,0.60
+Mercer,23,5,5,2,,,pass,Successful,1st down,,0.17,0.33,0.57
+Mercer,24,5,6,2,,,run,Not successful,,,0.15,0.33,0.59
+Mercer,25,5,7,2,,,pass,Not successful,,,0.15,0.30,0.57
+Mercer,26,5,8,2,,,pass,Not successful,,,0.15,0.27,0.54
+Alabama,26,7,1,2,,,run,Successful,,,0.61,1.00,0.69
+Alabama,27,7,2,2,,,run,Successful,1st down,,0.63,1.00,0.70
+Alabama,28,7,3,2,,,run,Not successful,,,0.60,1.00,0.71
+Alabama,29,7,4,2,,,pass,Not successful,,,0.60,0.89,0.69
+Mercer,27,6,1,2,,,run,Successful,,,0.21,0.27,0.56
+Mercer,28,6,2,2,,,pass,Not successful,,,0.21,0.25,0.54
+Mercer,29,6,3,2,,,run,Not successful,,,0.20,0.25,0.56
+Mercer,30,6,4,2,,,pass,Successful,1st down,,0.20,0.31,0.54
+Mercer,31,6,5,2,,,run,Successful,,,0.25,0.31,0.55
+Mercer,32,6,6,2,,,pass,Successful,1st down,,0.25,0.36,0.53
+Mercer,33,6,7,2,,,run,Not successful,,,0.24,0.36,0.55
+Mercer,34,6,8,2,,,pass,Not successful,,,0.24,0.33,0.53
+Alabama,30,8,1,2,,,pass,Not successful,,,0.60,0.80,0.67
+Alabama,31,8,2,2,,,pass,Not successful,,,0.60,0.73,0.65
+Alabama,32,8,3,2,,,run,Successful,1st down,,0.62,0.73,0.66
+Alabama,33,8,4,2,,,pass,Not successful,,,0.62,0.67,0.64
+Alabama,34,8,5,2,,,run,Successful,,,0.64,0.67,0.65
+Mercer,35,7,2,3,3,3,pass,Not successful,,,0.24,0.31,0.52
+Mercer,36,7,3,3,,,run,Successful,1st down,,0.28,0.31,0.53
+Mercer,37,7,4,3,,,run,Not successful,,,0.26,0.31,0.54
+Mercer,38,7,5,3,,,pass,Not successful,,,0.26,0.29,0.53
+Mercer,39,7,6,3,,,run,Explosive,1st down,,0.30,0.29,0.54
+Mercer,40,7,7,3,,,run,Not successful,,,0.29,0.29,0.55
+Mercer,41,7,8,3,,,run,Not successful,,,0.27,0.29,0.56
+Mercer,42,7,9,3,,,run,Not successful,,,0.26,0.29,0.58
+Mercer,43,7,10,3,,,run,Not successful,,,0.25,0.29,0.59
+Alabama,35,9,1,3,,3,run,Not successful,,,0.61,0.67,0.66
+Alabama,36,9,2,3,,,run,Not successful,,,0.58,0.67,0.67
+Alabama,37,9,3,3,,,run,Not successful,,,0.56,0.67,0.68
+Mercer,44,8,1,3,,,run,Not successful,,,0.24,0.29,0.60
+Mercer,45,8,2,3,,,run,Not successful,,,0.23,0.29,0.60
+Mercer,46,8,3,3,,,run,Not successful,,,0.22,0.29,0.61
+Alabama,38,10,1,3,,,pass,Explosive,1st down,,0.56,0.69,0.66
+Alabama,39,10,2,3,,,run,Successful,,,0.58,0.69,0.67
+Alabama,40,10,3,3,,,pass,Successful,1st down,,0.58,0.71,0.65
+Alabama,41,10,4,3,,,pass,Successful,1st down,,0.58,0.73,0.63
+Alabama,42,10,5,3,,,run,Not successful,,,0.56,0.73,0.64
+Alabama,43,10,6,3,,,pass,Successful,,6,0.56,0.75,0.63
+Mercer,47,9,2,3,,,pass,Not successful,,,0.22,0.28,0.60
+Mercer,48,9,3,3,,,run,Not successful,,,0.21,0.28,0.61
+Mercer,49,9,4,3,,,pass,Not successful,,,0.21,0.26,0.60
+Alabama,44,11,1,3,,,pass,Not successful,,,0.56,0.71,0.61
+Alabama,45,11,2,3,,,run,Successful,,6,0.57,0.71,0.62
+Mercer,50,10,2,3,,,run,Not successful,,,0.21,0.26,0.60
+Mercer,51,10,3,3,,,run,Not successful,,,0.20,0.26,0.61
+Mercer,52,10,4,3,,,run,Not successful,,,0.19,0.26,0.62
+Alabama,46,12,1,3,,,run,Not successful,,,0.55,0.71,0.63
+Alabama,47,13,1,4,4,4,pass,Successful,,6,0.55,0.72,0.62
+Mercer,53,11,2,4,,4,run,Successful,,,0.22,0.26,0.63
+Mercer,54,11,3,4,,,run,Not successful,,,0.21,0.26,0.63
+Mercer,55,11,4,4,,,run,Successful,1st down,,0.24,0.26,0.64
+Mercer,56,11,5,4,,,run,Not successful,,,0.23,0.26,0.65
+Mercer,57,11,6,4,,,run,Not successful,,,0.22,0.26,0.65
+Mercer,58,11,7,4,,,run,Not successful,,,0.22,0.26,0.66
+Mercer,59,11,8,4,,,pass,Not successful,,,0.22,0.25,0.65
+Alabama,48,14,1,4,,,run,Explosive,1st down,,0.57,0.72,0.63
+Alabama,49,14,2,4,,,run,Successful,,,0.58,0.72,0.63
+Alabama,50,14,3,4,,,run,Not successful,,,0.56,0.72,0.64
+Mercer,60,12,1,4,,,run,Not successful,,,0.21,0.25,0.66
+Mercer,61,12,2,4,,,pass,Not successful,,,0.21,0.24,0.64
+Mercer,62,12,3,4,,,pass,Not successful,,,0.21,0.23,0.63
+Alabama,51,15,1,4,,,run,Successful,,,0.58,0.72,0.65
+Alabama,52,15,2,4,,,run,Successful,,,0.59,0.72,0.65
+Alabama,53,15,3,4,,,run,Successful,1st down,,0.60,0.72,0.66
+Alabama,54,15,4,4,,,run,Successful,,,0.61,0.72,0.67
+Alabama,55,15,5,4,,,run,Successful,1st down,,0.62,0.72,0.67
+Alabama,56,15,6,4,,,run,Successful,,,0.63,0.72,0.68
+Alabama,57,15,7,4,,,run,Successful,1st down,,0.64,0.72,0.68
+Alabama,58,15,8,4,,,run,Successful,,,0.65,0.72,0.69
+Alabama,59,15,9,4,,,run,Not successful,,,0.63,0.72,0.69
+Mercer,63,13,1,4,,,run,Successful,,,0.23,0.23,0.64

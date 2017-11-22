@@ -1,0 +1,11 @@
+Team,Quarter,SuccessRate,SuccessMax,ExpRate,ExpMax
+Alabama,1,0.67,0.85,0.17,0.19
+Mercer,1,0.29,0.85,0.00,0.19
+Alabama,2,0.63,0.85,0.19,0.19
+Mercer,2,0.25,0.85,0.00,0.19
+Alabama,3,0.50,0.85,0.08,0.19
+Mercer,3,0.11,0.85,0.06,0.19
+Alabama,4,0.85,0.85,0.08,0.19
+Mercer,4,0.27,0.85,0.00,0.19
+Alabama,Game,0.66,0.85,0.14,0.19
+Mercer,Game,0.22,0.85,0.02,0.19
