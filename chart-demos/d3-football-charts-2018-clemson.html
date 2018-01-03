@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>D3 football chart samples</title>
+  <meta name="description" content="D3 chart samples for football charting">
+  <meta name="author" content="Alex Couch">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONTS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500" rel="stylesheet">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="../RBR_charts/css/rbr_charts.css">
+
+  <!-- D3 script for charts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="../RBR_charts/d3/4.2.2/d3.min.js"></script>
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+
+  <!-- SRXR charts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="row chart-row">
+      <div class="nine columns">
+        <h5 class="chartTitle">Success and big play rates</h5>
+        <p class="chartSubtitle">
+          <span class="xRed">&#9679;&nbsp;</span>Big play rate (XR) and <span class="sRed">&#9679;&nbsp;</span>Success rate (SR)
+        </p>
+        <div id="srxr-q-charts-container">
+          <script src="../RBR_charts/2017_BamaClemson/SRXR_quarters/BamaClemson_SRXR_Quarters.js"></script>
+        </div>
+        <p class="chartNote srxr-note">* NCAA average SR = 40%</p>
+      </div>
+    </div>
+
+    <!-- runPass chart by plays/drives, not quintiles
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="row chart-row">
+      <div class="nine columns">
+        <h5 class="chartTitle">Running and Passing, Alabama</h5>
+        <div id="runPass-charts-container">
+          <script src="../RBR_charts/RunPass.js"></script>
+          <script>
+            runPass_charts("https://couchux.github.io/RBR_charts/2017_BamaClemson/BamaClemson_Plays_all.csv","Alabama","alabama", "#runPass-charts-container",1, .4)
+          </script>
+        </div>
+      </div>
+    </div>
+
+    <!-- new Players charts
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="row chart-row">
+      <div class="nine columns alabama">
+        <h5 class="chartTitle">Success by Player, Running</h5>
+        <div class="rbr-chart alabama">
+          <p class="chartSubtitle">
+          <span class="xRed">●&nbsp;&nbsp;</span>Explosive&nbsp;runs
+          <span class="slant">/</span>
+          <span class="sRed">●&nbsp;&nbsp;</span>Total Successful&nbsp;runs
+          <span class="slant">/</span>
+          <span class="ltRed">●&nbsp;&nbsp;</span>Total&nbsp;Attempts
+          </p><div class="bar-container">
+          <div class="bar-info">
+          <p class="bar-title">Damien Harris</p>
+          <p>
+          <span class="count xRed">0</span> /
+          <span class="count sRed">11</span> /
+          <span class="count ltRed">19<span>
+          </p>
+          </div>
+          <div class="bar">
+          <div class="explosive" style="flex-grow:0"></div>
+          <div class="successful" style="flex-grow:58"></div>
+          <div class="attempts" style="flex-grow:42"></div>
+          <div class="empty" style="flex-grow:0"></div>
+          </div>
+          </div><div class="bar-container">
+          <div class="bar-info">
+          <p class="bar-title">Bo Scarbrough</p>
+          <p>
+          <span class="count xRed">0</span> /
+          <span class="count sRed">2</span> /
+          <span class="count ltRed">12<span>
+          </p>
+          </div>
+          <div class="bar">
+          <div class="explosive" style="flex-grow:0"></div>
+          <div class="successful" style="flex-grow:11"></div>
+          <div class="attempts" style="flex-grow:53"></div>
+          <div class="empty" style="flex-grow:37"></div>
+          </div>
+          </div><div class="bar-container">
+          <div class="bar-info">
+          <p class="bar-title">Jalen Hurts</p>
+          <p>
+          <span class="count xRed">1</span> /
+          <span class="count sRed">2</span> /
+          <span class="count ltRed">9<span>
+          </p>
+          </div>
+          <div class="bar">
+          <div class="explosive" style="flex-grow:5"></div>
+          <div class="successful" style="flex-grow:5"></div>
+          <div class="attempts" style="flex-grow:37"></div>
+          <div class="empty" style="flex-grow:53"></div>
+          </div>
+          </div></div>
+        </div>
+      </div>
+
+    <div class="row chart-row">
+      <div class="nine columns alabama">
+          <h5 class="chartTitle">Success by Player, Passing</h5>
+          <div class="rbr-chart alabama">
+            <p class="chartSubtitle">
+            <span class="xRed">●&nbsp;&nbsp;</span>Explosive&nbsp;passes
+            <span class="slant">/</span>
+            <span class="sRed">●&nbsp;&nbsp;</span>Total Successful&nbsp;passes
+            <span class="slant">/</span>
+            <span class="cmpRed">●&nbsp;&nbsp;</span>Total&nbsp;completions
+            <span class="slant">/</span>
+            <span class="ltRed">●&nbsp;&nbsp;</span>Total&nbsp;attempts
+            </p><div class="bar-container">
+            <div class="bar-info">
+            <p class="bar-title">Jalen Hurts</p>
+            <p>
+            <span class="count xRed">3</span> /
+            <span class="count sRed">9</span> /
+            <span class="count cmpRed">16</span> /
+            <span class="count ltRed">26<span>
+            </p>
+            </div>
+            <div class="bar">
+            <div class="explosive" style="flex-grow:12"></div>
+            <div class="successful" style="flex-grow:23"></div>
+            <div class="completions" style="flex-grow:27"></div>
+            <div class="attempts" style="flex-grow:38"></div>
+            <div class="empty" style="flex-grow:0"></div>
+            </div>
+            </div></div>
+          </div>
+        </div>
+
+
+        <div class="row chart-row">
+          <div class="nine columns alabama">
+              <h5 class="chartTitle">Success by Player, Receiving</h5>
+              <div class="rbr-chart alabama">
+                <p class="chartSubtitle">
+                <span class="xRed">●&nbsp;&nbsp;</span>Explosive&nbsp;catches
+                <span class="slant">/</span>
+                <span class="sRed">●&nbsp;&nbsp;</span>Total Successful&nbsp;catches
+                <span class="slant">/</span>
+                <span class="cmpRed">●&nbsp;&nbsp;</span>Total&nbsp;catches
+                <span class="slant">/</span>
+                <span class="ltRed">●&nbsp;&nbsp;</span>Total&nbsp;targets
+                </p><div class="bar-container">
+                <div class="bar-info">
+                <p class="bar-title">Calvin Ridley</p>
+                <p>
+                <span class="count xRed">0</span> /
+                <span class="count sRed">3</span> /
+                <span class="count cmpRed">4</span> /
+                <span class="count ltRed">5<span>
+                </p>
+                </div>
+                <div class="bar">
+                <div class="explosive" style="flex-grow:0"></div>
+                <div class="successful" style="flex-grow:60"></div>
+                <div class="completions" style="flex-grow:20"></div>
+                <div class="attempts" style="flex-grow:20"></div>
+                <div class="empty" style="flex-grow:0"></div>
+                </div>
+                </div><div class="bar-container">
+                <div class="bar-info">
+                <p class="bar-title">Bo Scarbrough</p>
+                <p>
+                <span class="count xRed">1</span> /
+                <span class="count sRed">1</span> /
+                <span class="count cmpRed">2</span> /
+                <span class="count ltRed">4<span>
+                </p>
+                </div>
+                <div class="bar">
+                <div class="explosive" style="flex-grow:20"></div>
+                <div class="successful" style="flex-grow:0"></div>
+                <div class="completions" style="flex-grow:20"></div>
+                <div class="attempts" style="flex-grow:40"></div>
+                <div class="empty" style="flex-grow:20"></div>
+                </div>
+                </div><div class="bar-container">
+                <div class="bar-info">
+                <p class="bar-title">Henry Ruggs III</p>
+                <p>
+                <span class="count xRed">1</span> /
+                <span class="count sRed">2</span> /
+                <span class="count cmpRed">2</span> /
+                <span class="count ltRed">3<span>
+                </p>
+                </div>
+                <div class="bar">
+                <div class="explosive" style="flex-grow:20"></div>
+                <div class="successful" style="flex-grow:20"></div>
+                <div class="completions" style="flex-grow:0"></div>
+                <div class="attempts" style="flex-grow:20"></div>
+                <div class="empty" style="flex-grow:40"></div>
+                </div>
+                </div><div class="bar-container">
+                <div class="bar-info">
+                <p class="bar-title">Irv Smith Jr.</p>
+                <p>
+                <span class="count xRed">0</span> /
+                <span class="count sRed">0</span> /
+                <span class="count cmpRed">1</span> /
+                <span class="count ltRed">2<span>
+                </p>
+                </div>
+                <div class="bar">
+                <div class="explosive" style="flex-grow:0"></div>
+                <div class="successful" style="flex-grow:0"></div>
+                <div class="completions" style="flex-grow:20"></div>
+                <div class="attempts" style="flex-grow:20"></div>
+                <div class="empty" style="flex-grow:60"></div>
+                </div>
+                </div><div class="bar-container">
+                <div class="bar-info">
+                <p class="bar-title">Damien Harris</p>
+                <p>
+                <span class="count xRed">0</span> /
+                <span class="count sRed">1</span> /
+                <span class="count cmpRed">2</span> /
+                <span class="count ltRed">2<span>
+                </p>
+                </div>
+                <div class="bar">
+                <div class="explosive" style="flex-grow:0"></div>
+                <div class="successful" style="flex-grow:20"></div>
+                <div class="completions" style="flex-grow:20"></div>
+                <div class="attempts" style="flex-grow:0"></div>
+                <div class="empty" style="flex-grow:60"></div>
+                </div>
+                </div><div class="bar-container">
+                <div class="bar-info">
+                <p class="bar-title">Cam Sims</p>
+                <p>
+                <span class="count xRed">0</span> /
+                <span class="count sRed">0</span> /
+                <span class="count cmpRed">0</span> /
+                <span class="count ltRed">2<span>
+                </p>
+                </div>
+                <div class="bar">
+                <div class="explosive" style="flex-grow:0"></div>
+                <div class="successful" style="flex-grow:0"></div>
+                <div class="completions" style="flex-grow:0"></div>
+                <div class="attempts" style="flex-grow:40"></div>
+                <div class="empty" style="flex-grow:60"></div>
+                </div>
+                </div><div class="bar-container">
+                <div class="bar-info">
+                <p class="bar-title">Robert Foster</p>
+                <p>
+                <span class="count xRed">0</span> /
+                <span class="count sRed">0</span> /
+                <span class="count cmpRed">0</span> /
+                <span class="count ltRed">1<span>
+                </p>
+                </div>
+                <div class="bar">
+                <div class="explosive" style="flex-grow:0"></div>
+                <div class="successful" style="flex-grow:0"></div>
+                <div class="completions" style="flex-grow:0"></div>
+                <div class="attempts" style="flex-grow:20"></div>
+                <div class="empty" style="flex-grow:80"></div>
+                </div>
+                </div><div class="bar-container">
+                <div class="bar-info">
+                <p class="bar-title">DeVonta Smith</p>
+                <p>
+                <span class="count xRed">0</span> /
+                <span class="count sRed">0</span> /
+                <span class="count cmpRed">1</span> /
+                <span class="count ltRed">1<span>
+                </p>
+                </div>
+                <div class="bar">
+                <div class="explosive" style="flex-grow:0"></div>
+                <div class="successful" style="flex-grow:0"></div>
+                <div class="completions" style="flex-grow:20"></div>
+                <div class="attempts" style="flex-grow:0"></div>
+                <div class="empty" style="flex-grow:80"></div>
+                </div>
+                </div></div>
+              </div>
+            </div>
+
+
+        <div class="row chart-row">
+          <div class="nine columns alabama">
+              <h5 class="chartTitle">Success by Play Type</h5>
+              <div class="rbr-chart alabama">
+                <p class="chartSubtitle">
+                <span class="xRed">●&nbsp;&nbsp;</span>Explosive&nbsp;plays
+                <span class="slant">/</span>
+                <span class="sRed">●&nbsp;&nbsp;</span>Total Successful&nbsp;plays
+                <span class="slant">/</span>
+                <span class="cmpRed">●&nbsp;&nbsp;</span>Total&nbsp;catches
+                <span class="slant">/</span>
+                <span class="ltRed">●&nbsp;&nbsp;</span>Total&nbsp;attempts
+                </p><div class="bar-container">
+                <div class="bar-info">
+                <p class="bar-title">Total Runs</p>
+                <p>
+                <span class="count xRed">1</span> /
+                <span class="count sRed">15</span> /
+                <span class="count cmpRed">0</span> /
+                <span class="count ltRed">40<span>
+                </p>
+                </div>
+                <div class="bar">
+                <div class="explosive" style="flex-grow:3"></div>
+                <div class="successful" style="flex-grow:35"></div>
+                <div class="completions" style="flex-grow:n/a"></div>
+                <div class="attempts" style="flex-grow:63"></div>
+                <div class="empty" style="flex-grow:0"></div>
+                </div>
+                </div><div class="bar-container">
+                <div class="bar-info">
+                <p class="bar-title">Total Passes</p>
+                <p>
+                <span class="count xRed">3</span> /
+                <span class="count sRed">9</span> /
+                <span class="count cmpRed">16</span> /
+                <span class="count ltRed">26<span>
+                </p>
+                </div>
+                <div class="bar">
+                <div class="explosive" style="flex-grow:8"></div>
+                <div class="successful" style="flex-grow:15"></div>
+                <div class="completions" style="flex-grow:18"></div>
+                <div class="attempts" style="flex-grow:25"></div>
+                <div class="empty" style="flex-grow:35"></div>
+                </div>
+                </div></div>
+              </div>
+            </div>
+
+
+
+    <!-- runPass chart, for the opponent
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="row chart-row">
+      <div class="nine columns">
+        <h5 class="chartTitle">Running and Passing, Clemson</h5>
+        <div id="runPass-charts-container-opponent">
+          <script>
+            runPass_charts("https://couchux.github.io/RBR_charts/2017_BamaClemson/BamaClemson_Plays_all.csv","Clemson", "clem", "#runPass-charts-container-opponent",1, .4)
+          </script>
+        </div>
+      </div>
+    </div>
+
+
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
