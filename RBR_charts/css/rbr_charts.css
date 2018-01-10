@@ -240,6 +240,9 @@ svg > path {
 .mercer > svg > path {
   stroke: #CB5307;
 }
+.uga > svg > path {
+  stroke: #BA0C2F;
+}
 .pass-sr-line {
   opacity: .25;
 }
@@ -349,6 +352,12 @@ svg > path {
 .mercer > p > .xpl {
   color:#CB5307;
 }
+.uga > p > .un,
+.uga > p > .suc,
+.uga > p > .xpl {
+  color:#BA0C2F;
+}
+
 .ltRed, .un {
   opacity: 0.4;
 }
