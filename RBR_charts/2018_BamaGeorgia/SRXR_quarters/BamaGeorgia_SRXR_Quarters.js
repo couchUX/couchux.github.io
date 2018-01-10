@@ -25,7 +25,7 @@ function csv_response(which_team, what_order, error, data) {
       if (d.Team == "Georgia") {
         d.Team = "Georgia"
       }
-      if (d.Quarter !== "Game") {
+      if (Number.isInteger(d.Quarter)) {
         d.Quarter = "Q" + +d.Quarter
       }
       else {
@@ -129,7 +129,12 @@ var allWidth = document.getElementById("srxr-q-charts-container").offsetWidth
       }
     }
     returnQ = function(d,i) {
-      return d.Quarter
+      if ( d.Quarter === "OT") {
+        return "OT"
+      }
+      else {
+        return d.Quarter
+      }
     }
     srPercent = function(d,i) {
       return format.percent(d.SuccessRate)
