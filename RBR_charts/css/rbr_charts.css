@@ -241,7 +241,7 @@ svg > path {
   stroke: #CB5307;
 }
 .uga > svg > path {
-  stroke: #BA0C2F;
+  stroke: rgb(120, 120, 120);
 }
 .pass-sr-line {
   opacity: .25;
@@ -355,7 +355,7 @@ svg > path {
 .uga > p > .un,
 .uga > p > .suc,
 .uga > p > .xpl {
-  color:#BA0C2F;
+  color:rgb(120, 120, 120);
 }
 
 .ltRed, .un {

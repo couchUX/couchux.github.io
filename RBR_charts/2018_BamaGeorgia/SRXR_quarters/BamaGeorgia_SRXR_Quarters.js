@@ -45,7 +45,7 @@ function render_SRXRquarters_chart(which_team, what_order) {
 /* tie chart colors to team names */
 var teamColors = {
   "Alabama": "#C31C45",
-  "Georgia": "#BA0C2F"
+  "Georgia": "rgb(120, 120, 120)"
 }
     gameColor = "#5C5C5C"
 
