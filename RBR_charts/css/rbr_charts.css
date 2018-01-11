@@ -419,14 +419,14 @@ svg > path {
 
 /* new stuff for Players charts and bar components */
 .bar-container {
-  margin-top: 12px;
+  margin-top: 10px;
 }
 .bar-container:last-child {
   margin-bottom: 20px;
 }
 .bar-container p {
   font-weight: 600;
-  margin-bottom: 4px;
+  margin-bottom: 5px;
 }
 .slant {
   margin-left: 8px;
@@ -443,7 +443,7 @@ svg > path {
   margin: 0 6px;
 }
 .bar {
-  height: 12px;
+  height: 10px;
   width: 100%;
 }
 .alabama .bar .attempts {
