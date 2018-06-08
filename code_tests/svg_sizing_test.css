@@ -1,0 +1,41 @@
+.outer {
+  width: 100%;
+  height: 400px;
+}
+@media screen and (max-width: 800px) {
+    .outer {
+        height: 300px;
+    }
+    .text {
+      font-size: .8em;
+    }
+}
+.rect {
+  height: 12%;
+}
+.background {
+  fill: #DCDCDC;
+  width: 100%;
+}
+.rect.zero {
+  fill: #DCDCDC;
+}
+.rect.one {
+  fill: #C31C45;
+}
+.rect.two {
+  width: 30%;
+  y: 14%;
+}
+.text {
+  font-family: sans-serif;
+  text-anchor: middle;
+}
+
+.text.right {
+  color: #242424;
+}
+.text.right-ish {
+  color: #242424;
+  opacity: .5;
+}

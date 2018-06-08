@@ -1,0 +1,49 @@
+.outer {
+  width: 50%;
+}
+.bar {
+  height: 32px;
+}
+.background {
+  background: #DCDCDC;
+  width: 100%;
+  clear:both;
+  margin-bottom: 4px;
+}
+.red-bars {
+  background: #C31C45;
+}
+.bar1 {
+  width: 58%;
+}
+.bar2 {
+  width: 38%;
+}
+.bar3 {
+  width: 40%;
+}
+.bar4 {
+  width: 45%;
+}
+p {
+  color: #242424;
+  font-family: sans-serif;
+  margin-top: -24px;
+  margin-bottom: 0;
+}
+.q-label {
+  text-align: left;
+  float: left;
+  margin-left: 12px;
+  font-weight: 500;
+  color: white;
+}
+.sr, .xr {
+  text-align: right;
+  float: right;
+  margin-right: 12px;
+}
+.xr {
+  opacity: .5;
+  margin-right: 56px;
+}
