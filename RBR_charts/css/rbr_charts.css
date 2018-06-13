@@ -364,6 +364,21 @@ svg > path {
 .xRed {
   color: #620E23;
 }
+.Alabama {
+  background-color: #620E23;
+}
+.dark {
+  background-image: url("/dark-overlay.png");
+}
+.light {
+  opacity: 0.4;
+}
+.extra-light {
+  background-image: url("/diagonals-gray.png");
+}
+.blank {
+  background-color: #F1F1F1;
+}
 .cmpRed {
   color: #FF7E9F;
 }
