@@ -364,8 +364,12 @@ svg > path {
 .xRed {
   color: #620E23;
 }
+
+span {
+  background-color: none !important;
+}
 .Alabama {
-  background-color: #620E23;
+  background-color: #C31C45;
 }
 .dark {
   background-image: url("/dark-overlay.png");
