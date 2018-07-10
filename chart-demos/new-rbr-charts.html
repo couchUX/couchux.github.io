@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="css/new-rbr-charts.css">
+</head>
+
+<body>
+<!-- headers and "slots" for the charts to be moved into -->
+  <h2 id="first-slot">First chart here</h2>
+  <p>Some placeholder content down here.</p>
+  <h2 id="second-slot">Second chart here</h2>
+  <p>More placeholder content right round here.</p>
+
+<!-- scripts to move charts from the big block to their respective headers -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+  $(document).ready(function(){
+     $("#first-chart").detach().insertAfter("#first-slot");
+  });
+  </script>
+
+<div id="charts-source">
+  <div class="chart alabama" id="first-chart"><p class="chart-subtitle"><span class="alabama dark">●&nbsp;&nbsp;</span>Explosive&nbsp;runs<span class="slant">/</span><span class="alabama">●&nbsp;&nbsp;</span>Total Successful&nbsp;runs</p><div class="bar-outer"><div class="bar-info"><p class="bar-title">Q1</p><p><span class="count alabama dark">13%</span> / <span class="count alabama">56%</span></p></div><div class="bar"><div class="alabama dark" style="flex-grow:0.17"></div><div class="alabama" style="flex-grow:0.58"></div><div class="blank" style="flex-grow:0.25"></div></div></div><div class="bar-outer"><div class="bar-info"><p class="bar-title">Q2</p><p><span class="count alabama dark">0%</span> / <span class="count alabama">45%</span></p></div><div class="bar"><div class="alabama dark" style="flex-grow:0.00"></div><div class="alabama" style="flex-grow:0.61"></div><div class="blank" style="flex-grow:0.39"></div></div></div><div class="bar-outer"><div class="bar-info"><p class="bar-title">Q3</p><p><span class="count alabama dark">24%</span> / <span class="count alabama">29%</span></p></div><div class="bar"><div class="alabama dark" style="flex-grow:0.31"></div><div class="alabama" style="flex-grow:0.08"></div><div class="blank" style="flex-grow:0.61"></div></div></div><div class="bar-outer"><div class="bar-info"><p class="bar-title">Q4</p><p><span class="count alabama dark">4%</span> / <span class="count alabama">40%</span></p></div><div class="bar"><div class="alabama dark" style="flex-grow:0.05"></div><div class="alabama" style="flex-grow:0.48"></div><div class="blank" style="flex-grow:0.47"></div></div></div><div class="bar-outer"><div class="bar-info"><p class="bar-title">Game</p><p><span class="count alabama dark">10%</span> / <span class="count alabama">42%</span></p></div><div class="bar"><div class="alabama dark" style="flex-grow:0.14"></div><div class="alabama" style="flex-grow:0.43"></div><div class="blank" style="flex-grow:0.44"></div></div></div></div>
+<!-- here's the big block of charts -->
+
+
+</body>
+
+</html>

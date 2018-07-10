@@ -1,0 +1,61 @@
+/* stuff for the time being */
+body {
+ font-family: sans-serif;
+}
+.chart {
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+p {
+  font-size: 17px;
+  margin-top: 0;
+}
+h2 {
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+
+.bar-outer {
+  margin-bottom: 10px;
+}
+.bar-outer p {
+  font-weight: 600;
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+.slant {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.bar-info, .bar {
+  display: flex;
+  flex-grow: 1;
+}
+.bar-title {
+  flex-grow: 1;
+}
+.count {
+  margin: 0 6px;
+}
+.bar {
+  height: 10px;
+  width: 100%;
+}
+.alabama .bar .attempts {
+  background-image: url("../../chart-demos/images/diag-red-lt.png");
+  background-repeat: repeat;
+  background-color: #F1F1F1;
+}
+.alabama .bar .completions {
+  background-color: #FFAAC0;
+}
+.alabama .bar {
+  background-color: #C31C45;
+}
+.alabama .bar .dark {
+  background-color: #6B0F26;
+}
+.bar .blank {
+  background-color: #f1f1f1;
+}
