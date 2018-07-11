@@ -1,6 +1,8 @@
 /* stuff for the time being */
 body {
- font-family: sans-serif;
+ font-family: "Open Sans", sans-serif;
+ color: #131313;
+ padding-left: 20px;
 }
 .chart {
   max-width: 600px;
@@ -16,31 +18,43 @@ h2 {
 }
 
 
+.key {
+  margin-bottom: 12px;
+  display: inline-block;
+  border-left: 3px solid gray;
+  padding: 0 12px 0 6px;
+  line-height: 1;
+}
+.count {
+  display: inline-block;
+  border-right: 3px solid gray;
+  padding: 0 6px 0 12px;
+  min-width: 36px;
+  line-height: 1;
+}
 .bar-outer {
   margin-bottom: 10px;
 }
 .bar-outer p {
-  font-weight: 600;
   margin-bottom: 5px;
   margin-top: 0;
 }
-.slant {
-  margin-left: 8px;
-  margin-right: 8px;
+.bar-outer.total p {
+  font-weight: 600;
 }
-.bar-info, .bar {
+.bar-info, .bar, .bar-title {
   display: flex;
   flex-grow: 1;
 }
 .bar-title {
-  flex-grow: 1;
-}
-.count {
-  margin: 0 6px;
+  font-weight: 600;
 }
 .bar {
   height: 10px;
   width: 100%;
+}
+.bar-info .count {
+  text-align: right;
 }
 .alabama .bar .attempts {
   background-image: url("../../chart-demos/images/diag-red-lt.png");
@@ -53,8 +67,14 @@ h2 {
 .alabama .bar {
   background-color: #C31C45;
 }
+.alabama.count, .alabama.key {
+  border-color: #C31C45;
+}
 .alabama .bar .dark {
   background-color: #6B0F26;
+}
+.alabama.count.dark, .alabama.key.dark {
+  border-color: #6B0F26;
 }
 .bar .blank {
   background-color: #f1f1f1;
