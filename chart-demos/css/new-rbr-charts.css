@@ -23,12 +23,11 @@ h2 {
 
 /* specific rules */
 .chart {
-  width: 47%;
-  max-width: 400px;
+  display: flex;
+  flex-direction: column;
   margin-bottom: 30px;
 }
 .chart.quarters {
-  display: inline-block;
   padding-right: 20px;
 }
 .key-outer {
@@ -50,7 +49,6 @@ h2 {
   margin-right: 7px;
 }
 .count-outer {
-  display: inline-block;
   text-align: right;
   margin-right: 10px;
 }
