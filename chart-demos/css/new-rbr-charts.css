@@ -25,6 +25,11 @@ h2 {
 .double-chart {
   display: flex;
 }
+@media (max-width: 728px) {
+  .double-chart {
+    display: block;
+  }
+}
 .double-chart > .chart {
   flex-grow: 1;
 }
