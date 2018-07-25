@@ -41,6 +41,11 @@ h2 {
 .chart.quarters {
   padding-right: 20px;
 }
+@media (max-width: 728px) {
+  .chart.quarters {
+    padding-right: 0px;
+  }
+}
 .key-outer {
   margin-bottom: 16px;
 }
