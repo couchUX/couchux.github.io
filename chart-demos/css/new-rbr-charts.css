@@ -40,8 +40,11 @@ h2 {
   flex-direction: column;
   margin-bottom: 36px;
 }
-.chart.quarters {
-  padding-right: 20px;
+.chart.quarters:first-child {
+  padding-right: 12px;
+}
+.chart.quarters:last-child {
+  padding-left: 12px;
 }
 @media (max-width: 728px) {
   .chart.quarters {
@@ -57,6 +60,7 @@ h2 {
 }
 .key-item.title {
   display: block;
+  margin-bottom: 6px;
 }
 .key, .count {
   display: inline-block;
@@ -93,7 +97,7 @@ h2 {
   height: 9px;
 }
 .bar > .team {
-  /* border-right: 1px solid white; */
+  border-right: 1px solid white;
 }
 /* team colors stuff */
 .team {
