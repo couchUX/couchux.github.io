@@ -62,12 +62,12 @@ h2 {
   display: block;
   margin-bottom: 6px;
 }
-.key, .count {
+.key, .count, .dot {
   display: inline-block;
   height: 8px;
   width: 8px;
   margin-bottom: 2px;
-  border-radius: 10px;
+  border-radius: 8px;
 }
 .key {
   margin-right: 6px;
@@ -83,6 +83,8 @@ h2 {
   display: inline-block;
   margin-left: 12px;
 }
+
+/* bar charts */
 .bar-outer {
   margin-bottom: 12px;
 }
@@ -97,8 +99,38 @@ h2 {
   height: 9px;
 }
 .bar > .team {
-  border-right: 1px solid white;
+  border-right: 2px solid white;
 }
+
+/* plays map */
+.map .hundred,
+.map .thirty,
+.map .ten,
+.map .zero {
+  position: relative;
+  background-color: #F6F6F6;
+  margin-bottom: 4px;
+  height: 40px;
+}
+.axis-text {
+  color: #9C9C9C;
+  font-size: 12px;
+  margin-left: 9px;
+  margin-top: 9px;
+}
+.map .thirty {
+  height: 120px;
+}
+.map .ten {
+  height: 120px;
+  border-bottom: 2px solid #DEDEDE;
+}
+.map .dot {
+  position: absolute;
+  margin: 0;
+  border: 1px solid white;
+}
+
 /* team colors stuff */
 .team {
   background-color: #757575;
@@ -116,5 +148,5 @@ h2 {
   background-image: url("../images/dark-overlay.png");
 }
 .blank {
-  background-color: #f1f1f1;
+  background-color: #F1F1F1;
 }
