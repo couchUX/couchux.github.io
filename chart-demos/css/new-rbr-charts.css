@@ -115,33 +115,50 @@ h2 {
 /* plays map */
 .map .hundred,
 .map .thirty,
+.map .fifteen,
 .map .ten,
+.map .five,
 .map .zero {
   position: relative;
   background-color: #F6F6F6;
-  margin-bottom: 4px;
-  height: 40px;
+  margin-bottom: 3px;
+  height: 36px;
 }
-.axis-text {
+.axis-text, .quarter-text {
   color: #9C9C9C;
   font-size: 12px;
+}
+.axis-text {
   margin-left: 6px;
   margin-top: 6px;
 }
+.quarter-text {
+  position: absolute;
+  top: 6px;
+}
 .axis-text.bottom {
-  margin-top: 20px;
+  margin-top: 16px;
 }
-.map .thirty {
-  height: 40px;
+.map .fifteen, .map .ten, .map .five {
+  height: 60px;
 }
-.map .ten {
-  height: 180px;
-  border-bottom: 2px solid #DEDEDE;
+.map .zero {
+  background-color: #e8e8e8;
 }
 .map .dot {
   position: absolute;
   margin: 0;
+  margin-top: -7px;
   border: 1px solid white;
+}
+.team-two .dot, .team-two .dot.light {
+  /* border-radius: 0; */
+  /* transform:rotate(45deg); */
+  opacity: 0.06;
+}
+.dot.light {
+  background-image: url("../images/x-gray.png");
+  opacity: 0.6;
 }
 
 /* team colors stuff */
@@ -149,7 +166,7 @@ h2 {
   background-color: #757575;
 }
 .main {
-  opacity: 0.72;
+  opacity: 0.78;
 }
 .mid-light {
   opacity: 0.36;
