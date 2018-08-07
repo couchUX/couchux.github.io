@@ -37,24 +37,16 @@ h2 {
     display: block;
   }
 }
-.double-chart > .chart {
-  flex-grow: 1;
-}
 .chart {
   display: flex;
+  flex: 1;
   flex-direction: column;
   margin-bottom: 36px;
 }
-.chart.quarters:first-child {
-  padding-right: 12px;
-}
 .chart.quarters:last-child {
-  padding-left: 12px;
+  padding-left: 24px;
 }
 @media (max-width: 728px) {
-  .chart.quarters:first-child {
-    padding-right: 0px;
-  }
   .chart.quarters:last-child {
     padding-left: 0px;
   }
@@ -84,10 +76,6 @@ h2 {
 }
 .count {
   margin-left: 6px;
-}
-.count-outer {
-  text-align: right;
-  margin-right: 12px;
 }
 .count-item {
   display: inline-block;
@@ -123,7 +111,14 @@ h2 {
   background-color: #F6F6F6;
   margin-bottom: 3px;
   height: 42px;
+  border-left: 1px solid transparent;
 }
+.map .hundred,
+.map .thirty,
+.map .zero {
+  border-left: 2px dotted #CECECE;
+}
+
 .axis-text, .quarter-text {
   color: #9C9C9C;
   font-size: 12px;
@@ -140,11 +135,11 @@ h2 {
   margin-top: 22px;
 }
 .map .zero {
-  background-color: #eaeaea;
+  background-color: #EAEAEA;
 }
 .map .dot {
   position: absolute;
-  margin: -7px 0 0 -7px;
+  margin: -6px 0 0 -6px;
   border: 1px solid white;
 }
 .map .team-two .dot {
