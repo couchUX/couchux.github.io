@@ -122,7 +122,7 @@ h2 {
   position: relative;
   background-color: #F6F6F6;
   margin-bottom: 3px;
-  height: 36px;
+  height: 42px;
 }
 .axis-text, .quarter-text {
   color: #9C9C9C;
@@ -137,26 +137,21 @@ h2 {
   top: 6px;
 }
 .axis-text.bottom {
-  margin-top: 16px;
-}
-.map .fifteen, .map .ten, .map .five {
-  height: 60px;
+  margin-top: 22px;
 }
 .map .zero {
-  background-color: #e8e8e8;
+  background-color: #eaeaea;
 }
 .map .dot {
   position: absolute;
-  margin: 0;
-  margin-top: -7px;
+  margin: -7px 0 0 -7px;
   border: 1px solid white;
 }
-.team-two .dot, .team-two .dot.light {
-  /* border-radius: 0; */
-  /* transform:rotate(45deg); */
+.map .team-two .dot {
+  border-radius: 0;
   opacity: 0.06;
 }
-.dot.light {
+.map .light {
   background-image: url("../images/x-gray.png");
   opacity: 0.6;
 }
@@ -166,7 +161,7 @@ h2 {
   background-color: #757575;
 }
 .main {
-  opacity: 0.78;
+  opacity: 0.72;
 }
 .mid-light {
   opacity: 0.36;
