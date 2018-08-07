@@ -19,6 +19,10 @@ h2 {
     padding: 0;
   }
 }
+.lead {
+  font-style: italic;
+  margin-top: 24px;
+}
 
 /* misc generic rules */
 .title {
