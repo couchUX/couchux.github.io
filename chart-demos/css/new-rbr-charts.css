@@ -60,10 +60,6 @@ h2 {
   font-size: 14px;
   line-height: 20px;
 }
-.key-item.title {
-  /* display: block; */
-  /* margin-bottom: 3px; */
-}
 .key, .count, .dot {
   display: inline-block;
   height: 8px;
@@ -72,6 +68,11 @@ h2 {
   border-radius: 8px;
 }
 .key {
+  margin-right: 6px;
+}
+.map .key-item .dot {
+  position: inherit;
+  margin-left: 0;
   margin-right: 6px;
 }
 .count {
