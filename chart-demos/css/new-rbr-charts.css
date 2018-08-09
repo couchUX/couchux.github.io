@@ -123,7 +123,9 @@ h2 {
 .map .zero {
   border-left: 2px dotted #CECECE;
 }
-
+.map .zero {
+  background-color: #EAEAEA;
+}
 .axis-text, .quarter-text {
   color: #9C9C9C;
   font-size: 12px;
@@ -139,21 +141,39 @@ h2 {
 .axis-text.bottom {
   margin-top: 22px;
 }
-.map .zero {
-  background-color: #EAEAEA;
-}
-.map .dot {
+.dot {
   position: absolute;
   margin: -6px 0 0 -6px;
-  border: 1px solid white;
+  transition: 250ms;
+  transition-timing-function: ease-in-out;
 }
-.map .team-two .dot {
-  border-radius: 0;
+.map .hide .dot {
   opacity: 0.06;
 }
 .map .light {
   background-image: url("../images/x-gray.png");
   opacity: 0.6;
+}
+.team-switcher {
+  height: 42px;
+  font-size: 14px;
+  background-color: white;
+  border: 1px solid #CECECE;
+  border-radius: 2px;
+  transition: 100ms;
+  transition-timing-function: ease-in;
+  font-weight: 500;
+  color: #131313;
+  margin-top: 4px;
+}
+.team-switcher:hover {
+  border-color: #b1b1b1;
+}
+.team-switcher:active {
+  background-color: #F1F1F1;
+}
+.team-switcher:focus {
+  outline: none;
 }
 
 /* team colors stuff */
