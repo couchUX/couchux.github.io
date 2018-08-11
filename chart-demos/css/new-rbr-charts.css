@@ -14,7 +14,7 @@ h2 {
   margin-bottom: 12px;
   padding-top: 24px;
 }
-@media (max-width: 728px) {
+@media (max-width: 768px) {
   h2 {
     padding: 0;
   }
@@ -23,20 +23,23 @@ h2 {
   font-style: italic;
   margin-top: 24px;
 }
-
-/* misc generic rules */
 .title {
   text-transform: capitalize;
+  font-weight: 700;
+}
+@media (max-width: 375px) {
+  .map .title {
+    display: block;
+  }
 }
 .bold {
   font-weight: 700;
 }
-
 /* specific rules */
 .double-chart {
   display: flex;
 }
-@media (max-width: 728px) {
+@media (max-width: 768px) {
   .double-chart {
     display: block;
   }
@@ -50,7 +53,7 @@ h2 {
 .chart.quarters:last-child {
   padding-left: 24px;
 }
-@media (max-width: 728px) {
+@media (max-width: 768px) {
   .chart.quarters:last-child {
     padding-left: 0px;
   }
@@ -63,6 +66,15 @@ h2 {
   margin-right: 12px;
   font-size: 14px;
   line-height: 20px;
+}
+.key-item.hide {
+  display: none;
+}
+.key-item .run {
+  background-color: white;
+  border: 1px solid #757575;
+  width: 7px;
+  height: 7px;
 }
 .key, .count, .dot {
   display: inline-block;
@@ -79,6 +91,7 @@ h2 {
   margin-left: 0;
   margin-right: 6px;
 }
+
 .count {
   margin-left: 6px;
 }
@@ -99,10 +112,21 @@ h2 {
   flex-grow: 1;
 }
 .bar {
-  height: 9px;
+  height: 10px;
+  position: relative;
 }
 .bar > .team {
   border-right: 2px solid white;
+}
+.average {
+    display: inline-block;
+    height: 10px;
+    background-color: white;
+    left: 40%;
+    border-left: 2px dotted #131313;
+}
+.bar .average {
+  position: absolute;
 }
 
 /* plays map */
@@ -149,6 +173,9 @@ h2 {
 }
 .map .hide .dot {
   opacity: 0.06;
+}
+.dot.run {
+  border-radius: 0;
 }
 .map .light {
   background-image: url("../images/x-gray.png");
