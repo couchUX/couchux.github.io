@@ -151,7 +151,7 @@ h2 {
   background-color: #EAEAEA;
 }
 .axis-text, .quarter-text {
-  color: #9C9C9C;
+  color: #909090;
   font-size: 12px;
 }
 .axis-text {
@@ -172,7 +172,7 @@ h2 {
   transition-timing-function: ease-in-out;
 }
 .map .hide .dot {
-  opacity: 0.06;
+  opacity: 0.05;
 }
 .dot.run {
   border-radius: 0;
