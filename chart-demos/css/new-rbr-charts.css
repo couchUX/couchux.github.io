@@ -70,11 +70,14 @@ h2 {
 .key-item.hide {
   display: none;
 }
-.key-item .run {
+.dot.empty,
+.run-rate.map .dot:not(.run) {
   background-color: white;
+  background-image: none;
+  opacity: .6;
   border: 1px solid #757575;
-  width: 7px;
-  height: 7px;
+  width: 6px;
+  height: 6px;
 }
 .key, .count, .dot {
   display: inline-block;
@@ -135,7 +138,9 @@ h2 {
 .map .fifteen,
 .map .ten,
 .map .five,
-.map .zero {
+.map .zero,
+.max-rate,
+.mid-rate {
   position: relative;
   background-color: #F6F6F6;
   margin-bottom: 3px;
@@ -146,6 +151,13 @@ h2 {
 .map .thirty,
 .map .zero {
   border-left: 2px dotted #CECECE;
+}
+.max-rate, .mid-rate {
+  height: 60px;
+}
+#run-pass-sr .max-rate,
+#run-pass-sr .mid-rate {
+  height: 80px;
 }
 .map .zero {
   background-color: #EAEAEA;
@@ -168,14 +180,15 @@ h2 {
 .dot {
   position: absolute;
   margin: -6px 0 0 -6px;
+  border: 1px solid white;
   transition: 250ms;
   transition-timing-function: ease-in-out;
 }
-.map .hide .dot {
-  opacity: 0.05;
-}
 .dot.run {
   border-radius: 0;
+}
+.map .hide .dot {
+  opacity: 0.05;
 }
 .map .light {
   background-image: url("../images/x-gray.png");
