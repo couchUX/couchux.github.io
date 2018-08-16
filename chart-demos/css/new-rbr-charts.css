@@ -48,7 +48,7 @@ h2 {
   display: flex;
   flex: 1;
   flex-direction: column;
-  margin-bottom: 36px;
+  margin-bottom: 30px;
 }
 .chart.quarters:last-child {
   padding-left: 24px;
@@ -84,7 +84,7 @@ h2 {
   height: 8px;
   width: 8px;
   margin-bottom: 2px;
-  border-radius: 8px;
+  border-radius: 50%;
 }
 .key {
   margin-right: 6px;
@@ -153,11 +153,18 @@ h2 {
   border-left: 2px dotted #CECECE;
 }
 .max-rate, .mid-rate {
-  height: 60px;
+  height: 72px;
 }
-#run-pass-sr .max-rate,
-#run-pass-sr .mid-rate {
-  height: 80px;
+.map-inner {
+  position: relative;
+}
+.run-poly, .pass-poly {
+  position: absolute;
+  top: 0;
+  margin-top: -3px;
+  width: 100%;
+  height: 100%;
+  opacity: 0.05;
 }
 .map .zero {
   background-color: #EAEAEA;
@@ -165,14 +172,11 @@ h2 {
 .axis-text, .quarter-text {
   color: #909090;
   font-size: 12px;
+  position:absolute;
+  margin-top: 6px;
 }
 .axis-text {
   margin-left: 6px;
-  margin-top: 6px;
-}
-.quarter-text {
-  position: absolute;
-  top: 6px;
 }
 .axis-text.bottom {
   margin-top: 22px;
