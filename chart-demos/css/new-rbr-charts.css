@@ -164,7 +164,7 @@ h2 {
   margin-top: -3px;
   width: 100%;
   height: 100%;
-  opacity: 0.12;
+  opacity: 0.16;
 }
 .map .zero {
   background-color: #EAEAEA;
@@ -221,7 +221,7 @@ h2 {
 }
 
 /* team colors stuff */
-.team, .pass-poly {
+.team, .pass-poly, .gray {
   background-color: #757575;
 }
 .main {
