@@ -58,20 +58,20 @@ h2 {
     padding-left: 0px;
   }
 }
-.key-outer {
+.ky-out {
   margin-bottom: 12px;
 }
-.key-item {
+.ky-item {
   display: inline-block;
   margin-right: 12px;
   font-size: 14px;
   line-height: 20px;
 }
-.key-item.hide {
+.ky-item.hd {
   display: none;
 }
-.dot.empty,
-.run-rate.map .dot:not(.run) {
+.dt.empty,
+.run-rate.map .dt:not(.rn) {
   background-color: rgba(255,255,255,0);
   background-image: none;
   opacity: .6;
@@ -79,56 +79,56 @@ h2 {
   width: 6px;
   height: 6px;
 }
-.key, .count, .dot {
+.ky, .ct, .dt {
   display: inline-block;
   height: 8px;
   width: 8px;
   margin-bottom: 2px;
   border-radius: 50%;
 }
-.key {
+.ky {
   margin-right: 6px;
 }
-.map .key-item .dot {
+.map .ky-item .dt {
   position: inherit;
   margin-left: 0;
   margin-right: 6px;
 }
 
-.count {
+.ct {
   margin-left: 6px;
 }
-.count-item {
+.ct-it {
   display: inline-block;
   margin-left: 12px;
 }
 
 /* bar charts */
-.bar-outer {
+.br-out {
   margin-bottom: 12px;
 }
-.bar-info {
+.br-inf {
   margin-bottom: 6px;
 }
-.bar-info, .bar, .bar-title {
+.br-inf, .br, .br-tl {
   display: flex;
   flex-grow: 1;
 }
-.bar {
+.br {
   height: 10px;
   position: relative;
 }
-.bar > .team {
+.br > .tm {
   border-right: 2px solid white;
 }
-.average {
+.avg {
     display: inline-block;
     height: 10px;
     background-color: white;
     left: 53.333%;
     border-left: 2px dotted #131313;
 }
-.bar .average {
+.br .avg {
   position: absolute;
 }
 
@@ -174,32 +174,32 @@ h2 {
 .map .zero {
   background-color: #EAEAEA;
 }
-.axis-text, .quarter-text {
+.axs-text, .qtr-text {
   color: #909090;
   font-size: 12px;
   position:absolute;
   margin-top: 6px;
 }
-.axis-text {
+.axs-text {
   margin-left: 6px;
 }
-.axis-text.bottom {
+.axs-text.bottom {
   margin-top: 22px;
 }
-.dot {
+.dt {
   position: absolute;
   margin: -6px 0 0 -6px;
   border: 1px solid white;
   transition: 250ms;
   transition-timing-function: ease-in-out;
 }
-.dot.run {
+.dt.rn {
   border-radius: 0;
 }
-.map .hide .dot {
+.map .hd .dt {
   opacity: 0.05;
 }
-.map .light {
+.map .lt {
   background-image: url("../images/x-gray.png");
   opacity: 0.6;
 }
@@ -226,21 +226,21 @@ h2 {
 }
 
 /* team colors stuff */
-.team, .gray {
+.tm, .gray {
   background-color: #757575;
 }
-.main {
+.mn {
   opacity: 0.72;
 }
-.mid-light {
+.mlt {
   opacity: 0.36;
 }
-.light {
+.lt {
   background-image: url("../images/diag-gray.png");
 }
-.dark {
+.dk {
   background-image: url("../images/dark-overlay.png");
 }
-.blank {
+.bk {
   background-color: #F1F1F1;
 }
