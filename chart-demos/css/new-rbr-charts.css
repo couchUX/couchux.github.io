@@ -198,6 +198,7 @@ _:-ms-lang(x), .run-poly {
   position: absolute;
   margin: -6px 0 0 -6px;
   border: 1px solid white;
+  box-sizing: content-box;
   transition: 250ms;
   transition-timing-function: ease-in-out;
 }
