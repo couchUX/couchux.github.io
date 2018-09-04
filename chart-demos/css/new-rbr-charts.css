@@ -58,6 +58,10 @@ h2 {
     padding-left: 0px;
   }
 }
+.l-main-content .rbr-hide {
+  display: none;
+}
+/* keys and counts */
 .ky-out {
   margin-bottom: 12px;
 }
@@ -94,7 +98,6 @@ h2 {
   margin-left: 0;
   margin-right: 6px;
 }
-
 .ct {
   margin-left: 6px;
 }
