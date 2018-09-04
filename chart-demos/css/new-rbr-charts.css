@@ -1,24 +1,3 @@
-/* stuff for the time being */
-body {
- font-family: "Roboto", sans-serif;
- letter-spacing: 0.2px;
- color: #131313;
- margin-left: 2%;
- max-width:741px;
-}
-p {
-  margin-top: 0;
-}
-h2 {
-  margin: 0;
-  margin-bottom: 12px;
-  padding-top: 24px;
-}
-@media (max-width: 768px) {
-  h2 {
-    padding: 0;
-  }
-}
 .lead {
   font-style: italic;
   margin-top: 24px;
@@ -188,7 +167,7 @@ _:-ms-lang(x), .run-poly {
 }
 .axs-text, .qtr-text {
   color: #909090;
-  font-size: 12px;
+  font-size: 12px !important;
   position:absolute;
   margin-top: 6px;
 }
