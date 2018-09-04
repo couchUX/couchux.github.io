@@ -11,7 +11,6 @@
 
 <body>
 <!-- headers and "slots" for the charts to be moved into -->
-  <p class="lead">Demo charts for new GTT build. Data: Alabama vs. Ohio State, 2015.</p>
   <h2 id="quarters-slot">Success by Quarters</h2>
   <h2 id="plays-map-slot">Play Map</h2>
   <h2 id="run-pass-slot">Running and Passing</h2>
@@ -33,8 +32,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script>
   $(document).ready(function(){
-    $("#game-charts").load("https://couchux.github.io/RBR_charts/2018-09-01_Alabama_Louisville/game.html");
-    $("#player-charts").load("https://couchux.github.io/RBR_charts/2018-09-01_Alabama_Louisville/players.html");
+    $("#game-charts").load("game.html");
+    $("#player-charts").load("players.html");
     });
   </script>
 
