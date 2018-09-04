@@ -156,12 +156,28 @@
   background-color: #757575;
   opacity: 0.16;
 }
+
+/* don't show polygons on IE, they don't work */
 _:-ms-lang(x), .pass-poly {
   display: none;
 }
 _:-ms-lang(x), .run-poly {
   display: none;
 }
+/* don't show polygons on Safari, they don't work */
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) 
+{ @media {
+    .pass-poly, .run-poly { 
+        display: none;
+    }
+}}
+@media not all and (min-resolution:.001dpcm)
+{ @supports (-webkit-appearance:none) and (not (stroke-color:transparent)) {
+  .pass-poly, .run-poly { 
+    display: none;
+}
+}}
+
 .map .zero {
   background-color: #EAEAEA;
 }
