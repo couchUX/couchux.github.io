@@ -177,6 +177,12 @@ _:-ms-lang(x), .run-poly {
     display: none;
 }
 }}
+@media not all and (min-resolution:.001dpcm)
+{ @supports (-webkit-appearance:none) and (stroke-color:transparent) {
+  .pass-poly, .run-poly { 
+    display: none;
+}
+}}
 
 .map .zero {
   background-color: #EAEAEA;
