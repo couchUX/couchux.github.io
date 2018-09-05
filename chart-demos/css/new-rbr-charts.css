@@ -215,7 +215,7 @@ button.team-switcher {
   height: 42px;
   font-size: 14px;
   background-color: white;
-  border: 1px solid #909090;
+  border: 1px solid #cecece;
   border-radius: 2px;
   transition: 100ms;
   transition-timing-function: ease-in;
@@ -223,12 +223,16 @@ button.team-switcher {
   color: #131313;
   margin-top: 4px;
   text-transform: capitalize;
+  cursor: pointer;
+
 }
 button.team-switcher:hover {
+  background-color: #f7f7f7;
   border-color: #b1b1b1;
 }
 button.team-switcher:active {
-  background-color: #F1F1F1;
+  background-color: #f1f1f1;
+  background-color: #efefef;
 }
 button.team-switcher:focus {
   outline: none;
