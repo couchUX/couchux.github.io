@@ -227,11 +227,11 @@ button.team-switcher {
 
 }
 button.team-switcher:hover {
-  background-color: #f7f7f7;
+  background-color: #ffffff;
   border-color: #b1b1b1;
 }
 button.team-switcher:active {
-  background-color: #f1f1f1;
+  background-color: #f7f7f7;
   background-color: #efefef;
 }
 button.team-switcher:focus {
