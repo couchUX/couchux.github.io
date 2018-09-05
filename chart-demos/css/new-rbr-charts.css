@@ -84,6 +84,10 @@
   display: inline-block;
   margin-left: 12px;
 }
+@media (max-width: 340px) {
+  .ct-it {
+    margin-left: 9px;
+  }
 
 /* bar charts */
 .br-out {
