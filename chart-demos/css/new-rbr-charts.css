@@ -164,13 +164,7 @@ _:-ms-lang(x), .pass-poly {
 _:-ms-lang(x), .run-poly {
   display: none;
 }
-/* don't show polygons on Safari, they don't work */
-@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) 
-{ @media {
-    .pass-poly, .run-poly { 
-        display: none;
-    }
-}}
+/* don't show polygons on Safari 10.1+, they don't work without -webkit- */
 @media not all and (min-resolution:.001dpcm)
 { @supports (-webkit-appearance:none) and (not (stroke-color:transparent)) {
   .pass-poly, .run-poly { 
@@ -217,25 +211,26 @@ _:-ms-lang(x), .run-poly {
   background-image: url("../images/x-gray.png");
   opacity: 0.6;
 }
-.team-switcher {
+button.team-switcher {
   height: 42px;
   font-size: 14px;
   background-color: white;
-  border: 1px solid #CECECE;
+  border: 1px solid #909090;
   border-radius: 2px;
   transition: 100ms;
   transition-timing-function: ease-in;
-  font-weight: 500;
+  font-weight: 600;
   color: #131313;
   margin-top: 4px;
+  text-transform: capitalize;
 }
-.team-switcher:hover {
+button.team-switcher:hover {
   border-color: #b1b1b1;
 }
-.team-switcher:active {
+button.team-switcher:active {
   background-color: #F1F1F1;
 }
-.team-switcher:focus {
+button.team-switcher:focus {
   outline: none;
 }
 
