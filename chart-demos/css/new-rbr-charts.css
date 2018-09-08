@@ -228,18 +228,21 @@ button.team-switcher {
   margin-top: 4px;
   text-transform: capitalize;
   cursor: pointer;
-
 }
 button.team-switcher:hover {
-  background-color: #ffffff;
+  background-color: white;
   border-color: #b1b1b1;
+  color: #131313;
 }
 button.team-switcher:active {
   background-color: #f7f7f7;
   background-color: #efefef;
+  color: black;
 }
 button.team-switcher:focus {
   outline: none;
+  box-shadow: none;
+  background-color: white;
 }
 
 /* team colors stuff */
