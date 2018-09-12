@@ -53,9 +53,8 @@
 .ky-item.hd {
   display: none;
 }
-.dt.empty,
-.run-rate.map .dt:not(.rn) {
-  background-color: rgba(255,255,255,0);
+.dt.empty, .run-rate.map .dt:not(.rn) {
+  background-color: white;
   background-image: none;
   opacity: .6;
   border: 1px solid #757575;
@@ -149,38 +148,18 @@
   position: relative;
 }
 .run-poly, .pass-poly {
-  position: absolute;
-  top: 0;
-  margin-top: -3px;
   width: 100%;
   height: 100%;
-  opacity: 0.1 ;
+  opacity: 0.3;
+  margin-left: -2px;
+  margin-top: -2px;
+  position: absolute;
+  top: 0;
 }
-.pass-poly {
-  background-color: #757575;
-  opacity: 0.16;
+polyline {
+  stroke: #757575;
+  stroke-width: 5px;
 }
-
-/* don't show polygons on IE, they don't work */
-_:-ms-lang(x), .pass-poly {
-  display: none;
-}
-_:-ms-lang(x), .run-poly {
-  display: none;
-}
-/* don't show polygons on Safari 10.1+, they don't work without -webkit- */
-@media not all and (min-resolution:.001dpcm)
-{ @supports (-webkit-appearance:none) and (not (stroke-color:transparent)) {
-  .pass-poly, .run-poly { 
-    display: none;
-}
-}}
-@media not all and (min-resolution:.001dpcm)
-{ @supports (-webkit-appearance:none) and (stroke-color:transparent) {
-  .pass-poly, .run-poly { 
-    display: none;
-}
-}}
 
 .map .zero {
   background-color: #EAEAEA;
