@@ -34,6 +34,9 @@
     --warning: #FCE200;
     --error: #DC056C;
   }
+html {
+    overflow-y: scroll; 
+}
 
 body {
     background: var(--gray-0);
