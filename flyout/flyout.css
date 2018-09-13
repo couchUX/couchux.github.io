@@ -61,6 +61,9 @@ li a {
     text-decoration: none;
     font-weight: 400;
 }
+li:last-child {
+    margin-bottom: 1rem;
+}
 .flyout div {
     padding: 1rem 2rem .8rem 2rem;
 }
@@ -74,13 +77,15 @@ li a {
     padding-top: 2rem;
     padding-bottom: 0rem;
 }
-.lvl-1 > div {
+.lvl-1 {
     border-bottom: 1px solid var(--gray-2);
+}
+.lvl-1:last-child {
+    border-bottom: none;
+}
+.lvl-1 > div {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-}
-.lvl-1:last-child > div {
-    border-bottom: none;
 }
 
 .lvl-2 > div {
@@ -88,10 +93,7 @@ li a {
     padding-left: 3rem;
 }
 .lvl-2:first-child > div {
-    padding-top: 2rem;
-}
-.lvl-2:last-child > div {
-    padding-bottom: 2rem;
+    padding-top: 0;
 }
 
 .lvl-3 > div {
@@ -99,7 +101,11 @@ li a {
     color: var(--dark-gray-2);
     opacity: 0.52;
     padding-left: 4rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 .lvl-4 > div {
     padding-left: 4rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
