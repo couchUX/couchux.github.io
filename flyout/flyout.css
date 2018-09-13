@@ -1,0 +1,101 @@
+/* COLORS */
+:root {
+    --hired-red: #E82F3A;
+    --hired-navy: #404C60;
+    --white: #FFFFFF;
+    --link: #2AA3DD;
+  
+    /* cool  grays */
+    --deep-black: #191821;
+    --hired-black: #323642;
+    --cool-gray-5: #5F6E86;
+    --cool-gray-4: #9CAEC4;
+    --cool-gray-3: #C7D3E4;
+    --cool-gray-2: #E9EEF7;
+    --cool-gray-1: #F0F3F9;
+    --cool-gray-0: #F7F8FB;
+  
+    /* neutral grays */
+    --dark-gray-2: #222222;
+    --dark-gray-1: #333333;
+    --medium-gray-2: #616161;
+    --medium-gray-1: #9D9D9D;
+    --gray-3: #C9CBCE;
+    --gray-2: #E3E4E6;
+    --gray-1: #E9EAEC;
+    --gray-0: #F4F5F7;
+  
+    /* other colors */
+    --type-main: #2d3a4f;  /* this, with .9 opacity, looks like hired-navy. Only for type. */
+    --darkest-red: #961b22; /* Alex: for button click states */
+    --dark-red: #B6252E;
+    --link-dark: #2B87B1;
+    --success: #00D981;
+    --warning: #FCE200;
+    --error: #DC056C;
+  }
+
+body {
+    background: var(--gray-0);
+    font-size: 1.5rem;
+    color: var(--hired-navy);
+    font-family: "Open Sans",sans-serif;
+}
+li a {
+    color: var(--link);
+    font-size: 1.3rem;
+    text-decoration: none;
+    font-weight: 400;
+}
+.outer {
+    max-width: 340px;
+    background-color: white;
+    box-shadow: 0 4px 4px -2px rgba(0,0,0,.1);
+    padding: 2rem;
+}
+ul {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 1.5rem;
+}
+li {
+    list-style-type: none;
+}
+
+.lvl-0 {
+    font-weight: 600;
+    margin: 0 0 2rem 0;
+}
+.lvl-0 > div {
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-family: "Gotham";
+    font-weight: 500;
+    color: var(--cool-gray-4);
+    letter-spacing: 1.75px;
+}
+
+.lvl-1 {
+    margin: 1rem 0 1rem 0;
+}
+.lvl-1 > div {
+    border-bottom: 1px solid var(--gray-3);
+    padding-bottom: 1rem;
+}
+
+.lvl-2 {
+    font-size: 1.3rem;
+    margin: 1rem 0 1rem 1rem;
+}
+
+.lvl-3 {
+    margin: 1rem 0 1rem 1rem;
+}
+.lvl-3 > div {
+    color: var(--dark-gray-2);
+    opacity: 0.52;
+}
+
+.lvl-4 {
+    margin: 1rem 0 1rem 0rem;
+}

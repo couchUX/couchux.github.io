@@ -1,0 +1,238 @@
+/* COLORS */
+:root {
+  --hired-red: #E82F3A;
+  --hired-navy: #404C60;
+  --white: #FFFFFF;
+  --link: #2AA3DD;
+
+  /* cool  grays */
+  --deep-black: #191821;
+  --hired-black: #323642;
+  --cool-gray-5: #5F6E86;
+  --cool-gray-4: #9CAEC4;
+  --cool-gray-3: #C7D3E4;
+  --cool-gray-2: #E9EEF7;
+  --cool-gray-1: #F0F3F9;
+  --cool-gray-0: #F7F8FB;
+
+  /* neutral grays */
+  --dark-gray-2: #222222;
+  --dark-gray-1: #333333;
+  --medium-gray-2: #616161;
+  --medium-gray-1: #9D9D9D;
+  --gray-3: #C9CBCE;
+  --gray-2: #E3E4E6;
+  --gray-1: #E9EAEC;
+  --gray-0: #F4F5F7;
+
+  /* other colors */
+  --type-main: #2d3a4f;  /* this, with .9 opacity, looks like hired-navy. Only for type. */
+  --darkest-red: #961b22; /* Alex: for button click states */
+  --dark-red: #B6252E;
+  --link-dark: #2B87B1;
+  --success: #00D981;
+  --warning: #FCE200;
+  --error: #DC056C;
+}
+
+/* Category modifiers */
+html {
+  font-size: 10px;
+}
+h1, h2, h3, h4, h5, h6, p, a, label, input, select {
+  font-family: "Open Sans";
+  color: var(--type-main);
+  opacity: 0.9;
+  font-size: 1.5rem;
+}
+h1, h2, h3, h4, h5, h6, p, a {
+  margin: 0;
+}
+button {
+  font-size: 1.5rem;
+}
+a, .dark-background a {
+  color: var(--link);
+  opacity: 1;
+  font-weight: 600;
+  cursor: pointer;
+}
+a:hover {
+  color: var(--link-dark);
+  text-decoration: underline;
+}
+.copy--secondary {
+  color: var(--dark-gray-2);
+  opacity: 0.52;
+}
+.subhead {
+  font-weight: 400;
+}
+.background-dark {
+  background-color: var(--hired-black);
+}
+.background-dark :not(a):not(button) {
+  color: var(--white);
+  opacity: 1;
+}
+.background-dark .copy--secondary {
+  color: var(--gray-3);
+}
+
+
+/* ------
+ALL "Gotham" FONTS SHOULD BE CALLED AS 'Gotham SSm' IN REAL CODE
+------- */
+
+
+/* special fonts */
+.meta-text {
+  font-family: "Gotham";
+  color: var(--hired-red);
+  font-size: 1.5rem;
+  line-height: 2rem;
+  letter-spacing: 0.175rem;
+  font-weight: 500;
+  padding-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+/*  headers xs+ */
+.h0 {
+  font-family: "Gotham";
+  font-size: 3.7rem;
+  line-height: 4.5rem;
+  letter-spacing: -0.1rem;
+  font-weight: 700;
+  padding-bottom: 1rem;
+}
+h1, .h1 {
+  font-family: "Gotham";
+  font-size: 3.1rem;
+  line-height: 3.5rem;
+  letter-spacing: -0.1rem;
+  font-weight: 700;
+  padding-bottom: 1rem;
+}
+h2, .h2 {
+  font-family: "Gotham";
+  font-size: 2.6rem;
+  line-height: 3.5rem;
+  letter-spacing: -0.04rem;
+  font-weight: 700;
+  padding-bottom: 1rem;
+}
+h3, .h3 {
+  font-family: "Gotham";
+  font-size: 2.2rem;
+  line-height: 3rem;
+  letter-spacing: 0.01rem;
+  font-weight: 700;
+  padding-bottom: 1rem;
+}
+h4, .h4 {
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.01rem;
+  font-weight: 700;
+  padding-bottom: 1rem;
+}
+h5, .h5 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  letter-spacing: 0.01rem;
+  font-weight: 700;
+  padding-bottom: 1rem;
+}
+h6, .h6 {
+  font-size: 1.3rem;
+  line-height: 2rem;
+  letter-spacing: 0.02rem;
+  font-weight: 700;
+  padding-bottom: 1rem;
+}
+
+/*  body copy  */
+.copy--lead {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.01rem;
+  padding-bottom: 1rem;
+}
+.copy--default {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  letter-spacing: 0.01rem;
+  padding-bottom: 1rem;
+}
+.copy--mini {
+  font-size: 1.3rem;
+  line-height: 2rem;
+  letter-spacing: 0.02rem;
+  padding-bottom: 1rem;
+}
+
+/*  Larger sizes for sm+  */
+@media (min-width: 768px) {
+
+  .d1 {
+    font-family: "Gotham";
+    font-size: 6.2rem;
+    line-height: 7.5rem;
+    letter-spacing: -0.1rem;
+    font-weight: 700;
+    padding-bottom: 2rem;
+  }
+    .d1::first-letter {
+      margin-left: -0.4rem;
+    }
+  h1, .h1 {
+    font-family: "Gotham";
+    font-size: 4.7rem;
+    line-height: 5.5rem;
+    letter-spacing: -0.1rem;
+    font-weight: 700;
+    padding-bottom: 2rem;
+  }
+    h1::first-letter, .h1::first-letter {
+      margin-left: -0.2rem;
+    }
+  h2, .h2 {
+    font-family: "Gotham";
+    font-size: 3.5rem;
+    line-height: 4rem;
+    letter-spacing: -0.04rem;
+    font-weight: 700;
+    padding-bottom: 2rem;
+  }
+    h2::first-letter, .h2::first-letter {
+      margin-left: -0.1rem;
+    }
+  h3, .h3 {
+    font-family: "Gotham";
+    font-size: 2.7rem;
+    line-height: 3.5rem;
+    letter-spacing: 0.01rem;
+    font-weight: 700;
+    padding-bottom: 2rem;
+  }
+    h3::first-letter, .h3::first-letter {
+      margin-left: -0.1rem;
+    }
+  h4, .h4 {
+    font-size: 2rem;
+    line-height: 3rem;
+    letter-spacing: 0.01rem;
+    font-weight: 700;
+    padding-bottom: 1rem;
+  }
+    h4::first-letter, .h4::first-letter {
+      margin-left: -0.05rem;
+    }
+  .copy--lead {
+    font-size: 2rem;
+    line-height: 3rem;
+    letter-spacing: 0.01rem;
+    padding-bottom: 1rem;
+  }
+}
