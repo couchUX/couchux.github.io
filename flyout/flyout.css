@@ -54,11 +54,10 @@ div.nav--jobs {
     left: 75%;
     top: 2.5rem;
     width: 6rem;
-    background-position-x: 4.5rem;
+    background-position-x: 4rem;
     background-position-y: 0.7rem;
-    font-family: "Gotham","Open Sans",sans-serif;
-    font-size: 1.6rem;
-    font-weight: 500;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 600;
 }
 .flyout {
     position: absolute;
@@ -89,9 +88,15 @@ div.nav--jobs {
         top: unset;
         margin-left: 1rem;
         padding: 10rem 1rem 0 1rem;
-        background-position-x: 6rem;
+        background-position-x: 5rem;
         background-position-y: 10.7rem;
     }
+    /* .flyout li.lvl-0 > div {
+        padding-left: 3rem;
+    }
+    .lvl-1 {
+        padding-left: 1rem;
+    } */
 }
 .flyout--hide {
     display: none;
@@ -119,7 +124,7 @@ li:last-child {
     margin-bottom: 1rem;
 }
 .flyout div {
-    padding: 1rem 2rem .8rem 2rem;
+    padding: 1rem 3rem .8rem 2rem;
     cursor: pointer;
 }
 div.tog.up, div.nav--jobs.up {
