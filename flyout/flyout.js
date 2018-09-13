@@ -14,6 +14,6 @@ var flyoutHide = function () {
 }
 
 $(".tog").click(toggle);
-$(".tog").click(caretSwitch);
+$(".tog").not(".link").click(caretSwitch);
 $(".tog").each(toggle);
 $(".nav--jobs").click(flyoutHide).click(caretSwitch);
