@@ -73,6 +73,7 @@ div.nav--jobs {
     box-shadow: 0 2px 20px -5px rgba(0,0,0,.2);
     font-weight: 600;
     padding-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 @media screen and (max-width: 767px) {
     .flyout {
@@ -82,6 +83,7 @@ div.nav--jobs {
         top: unset;
         right: unset;
         box-shadow: none;
+        margin-bottom: 0;
     }
     .nav {
         padding-bottom: 6rem;
@@ -134,12 +136,10 @@ div.tog.up, div.nav--jobs.up {
     background-image: url("caret-up.svg");
 }
 .lvl-0 > div {
-    text-transform: uppercase;
     font-size: 1.3rem;
     font-family: "Gotham",sans-serif;
     font-weight: 400;
     color: var(--cool-gray-4);
-    letter-spacing: 1.75px;
     padding-top: 2rem;
     padding-bottom: 0rem;
 }
