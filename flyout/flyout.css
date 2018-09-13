@@ -101,11 +101,9 @@ li:last-child {
     color: var(--dark-gray-2);
     opacity: 0.52;
     padding-left: 4rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
 }
 .lvl-4 > div {
     padding-left: 4rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
 }
