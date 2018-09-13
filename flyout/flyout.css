@@ -40,14 +40,61 @@ body {
     font-size: 1.5rem;
     color: var(--hired-navy);
     font-family: "Open Sans",sans-serif;
+    margin: 0;
+}
+.nav {
+    width: 100%;
+    height: auto;
+    min-height: 7rem;
+    border-bottom: 1px solid var(--gray-2);
+    background: var(--white);
+}
+div.nav--jobs {
+    position: relative;
+    left: 75%;
+    top: 2.5rem;
+    width: 6rem;
+    background-position-x: 4.5rem;
+    background-position-y: 0.7rem;
+    font-family: "Gotham","Open Sans",sans-serif;
+    font-size: 1.6rem;
+    font-weight: 500;
 }
 .flyout {
+    position: absolute;
+    top: 6rem;
+    right: 20%;
+    width: 100%;
     max-width: 400px;
-    background-color: white;
-    box-shadow: 0 3px 10px -4px rgba(0,0,0,.2);
+    background-color: var(--white);
+    border-radius: 2px;
+    box-shadow: 0 2px 20px -5px rgba(0,0,0,.2);
     font-weight: 600;
-    padding-bottom: 1.5rem;
-    margin: 2rem 1rem;
+    padding-bottom: 1rem;
+}
+@media screen and (max-width: 767px) {
+    .flyout {
+        position: relative;
+        width: 100%;
+        max-width: unset;
+        top: unset;
+        right: unset;
+        box-shadow: none;
+    }
+    .nav {
+        padding-bottom: 6rem;
+    }
+    div.nav--jobs {
+        left: unset;
+        top: unset;
+        margin-left: 1rem;
+        padding: 10rem 1rem 0 1rem;
+        background-position-x: 6rem;
+        background-position-y: 10.7rem;
+    }
+}
+.flyout--hide {
+    display: none;
 }
 ul {
     padding: 0;
@@ -55,6 +102,12 @@ ul {
 }
 li {
     list-style-type: none;
+}
+li .tog:not(.link), .nav--jobs {
+    background-image: url("caret-down.svg");
+    background-repeat: no-repeat;
+    background-position-y: 2.4rem;
+    background-position-x: calc(100% - 2rem);
 }
 li a {
     color: var(--link);
@@ -67,6 +120,10 @@ li:last-child {
 }
 .flyout div {
     padding: 1rem 2rem .8rem 2rem;
+    cursor: pointer;
+}
+div.tog.up, div.nav--jobs.up {
+    background-image: url("caret-up.svg");
 }
 .lvl-0 > div {
     text-transform: uppercase;
@@ -84,26 +141,28 @@ li:last-child {
 .lvl-1:last-child {
     border-bottom: none;
 }
-.lvl-1 > div {
+li.lvl-1 > .tog {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
 }
-
-.lvl-2 > div {
+li.lvl-2 > .tog {
     font-size: 1.3rem;
     padding-left: 3rem;
+    background-position-y: 1.7rem;
 }
-.lvl-2:first-child > div {
-    padding-top: 0;
+li.lvl-2:first-child > .tog {
+    padding-top: 0.2rem;
+    background-position-y: 0.8rem;
 }
 
-.lvl-3 > div {
+li.lvl-3 > .tog {
     font-size: 1.3rem;
     color: var(--dark-gray-2);
     opacity: 0.52;
     padding-left: 4rem;
+    background-position-y: 1.7rem;
 }
-.lvl-4 > div {
+li.lvl-4 > .tog {
     padding-left: 4rem;
     padding-top: 0.6rem;
     padding-bottom: 0.6rem;
