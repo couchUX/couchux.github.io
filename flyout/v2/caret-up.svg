@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="5px" viewBox="0 0 8 5" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>caret-up</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="symbol/caret-up/blue" fill="#404C60">
+            <path d="M3.9990663,2.41327986 L1.70710678,4.70523937 C1.31658249,5.09576366 0.683417511,5.09576366 0.292893219,4.70523937 C-0.0976310729,4.31471508 -0.0976310729,3.6815501 0.292893219,3.29102581 L3.29102581,0.292893219 C3.49166454,0.092254492 3.75635001,-0.00530255837 4.01927194,0.000222067796 C4.26873315,0.00496327808 4.51674639,0.102532826 4.70710678,0.292893219 L7.70523937,3.29102581 C8.09576366,3.6815501 8.09576366,4.31471508 7.70523937,4.70523937 C7.31471508,5.09576366 6.6815501,5.09576366 6.29102581,4.70523937 L3.9990663,2.41327986 Z" id="caret-up"></path>
+        </g>
+    </g>
+</svg>
