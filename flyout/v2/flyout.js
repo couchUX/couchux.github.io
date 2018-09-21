@@ -136,9 +136,10 @@ var primaryRoles = [
 ];
 
 // main branches
-$(".locations ul").html(locations.map(function(value) { return('<li><div>' + value + '</div><ul></ul></li>'); }).join(""));
-$(".locations ul li ul").html(primaryRoles.map(function(value) { return('<li class="'+ value.className + '"><div>' + value.name + '</div><ul></ul></li>'); }).join(""));
-$(".roles ul").html(primaryRoles.map(function(value) { return('<li class="'+ value.className + '"><div>' + value.name + '</div><ul></ul></li>'); }).join(""));
+$(".locations ul").html(locations.map(function(value) { return('<li><div><span href="#">' + value + '</span></div><ul></ul></li>'); }).join(""));
+$(".locations ul li ul").html(primaryRoles.map(function(value) { return('<li class="'+ value.className + '"><div><span href="#">' + value.name + '</span></div><ul></ul></li>'); }).join(""));
+$(".roles:not(.paths) ul").html(primaryRoles.map(function(value) { return('<li class="'+ value.className + '"><div><span href="#">' + value.name + '</span></div><ul></ul></li>'); }).join(""));
+$(".roles.paths ul").html(primaryRoles.map(function(value) { return('<li class="'+ value.className + '"><div>' + value.name + '</div><ul></ul></li>'); }).join(""));
 $(".skills ul").html(skills.map(function(value) { return('<li class="link"><a href="#">' + value + '</a></li>'); }).join(""));
 
 // set subroles
@@ -153,10 +154,10 @@ $(".prj ul").html(prjSubs.map(function(value) { return('<li class="link"><a href
 $(".pm ul").html(pmSubs.map(function(value) { return('<li class="link"><a href="#">' + value + '</a></li>'); }).join(""));
 
 // prefix phrases
-$(".jobs:not(.skills) ul div, .jobs:not(.skills) ul a").prepend("Jobs in ");
+$(".jobs:not(.skills) ul span, .jobs:not(.skills) ul a").prepend("Jobs in ");
 $(".jobs.skills ul a").prepend("Jobs requiring ");
-$(".companies.locations ul a").prepend("Companies hiring in ");
-$(".companies:not(.locations) ul div, .companies:not(.locations) ul a").prepend("Companies hiring for ");
+$(".companies.locations ul span, .companies.locations ul a").prepend("Companies hiring in ");
+$(".companies:not(.locations) ul span, .companies:not(.locations) ul a").prepend("Companies hiring for ");
 
 // set heirarchical classes for styles
 $(".lvl-1 > ul > li").addClass("lvl-2");

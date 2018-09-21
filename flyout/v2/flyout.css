@@ -114,6 +114,10 @@ li a {
     text-decoration: none;
     font-weight: 400;
 }
+span:hover {
+    text-decoration: underline;
+    color: var(--link-dark);
+}
 .lvl-0 li {
     cursor: pointer;
 }
@@ -173,9 +177,15 @@ li:not(.link):not(.lvl-0) > div, .nav--jobs {
 li:not(.link):not(.lvl-0) > div:hover {
     background-color: var(--gray-0)
 }
+li:not(.link).lvl-3 > div {
+    background-image: url("caret-down-gray.svg");
+}
 
 li.open > div, .nav--jobs.open {
     background-image: url("caret-up.svg");
+}
+li.lvl-3.open > div {
+    background-image: url("caret-up-gray.svg");
 }
 
 li:not(.lvl-0):not(.open) li {
