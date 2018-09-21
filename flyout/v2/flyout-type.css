@@ -26,7 +26,8 @@
   --gray-0: #F4F5F7;
 
   /* other colors */
-  --type-main: #2d3a4f;  /* this, with .9 opacity, looks like hired-navy. Only for type. */
+  --type-main: rgba(45,58,79,.9);  
+  --type-secondary: rgba(34,34,34,.52);
   --darkest-red: #961b22; /* Alex: for button click states */
   --dark-red: #B6252E;
   --link-dark: #2B87B1;
@@ -39,10 +40,9 @@
 html {
   font-size: 10px;
 }
-h1, h2, h3, h4, h5, h6, p, a, label, input, select {
+body {
   font-family: "Open Sans";
   color: var(--type-main);
-  opacity: 0.9;
   font-size: 1.5rem;
 }
 h1, h2, h3, h4, h5, h6, p, a {
@@ -53,7 +53,6 @@ button {
 }
 a, .dark-background a {
   color: var(--link);
-  opacity: 1;
   font-weight: 600;
   cursor: pointer;
 }
@@ -63,7 +62,6 @@ a:hover {
 }
 .copy--secondary {
   color: var(--dark-gray-2);
-  opacity: 0.52;
 }
 .subhead {
   font-weight: 400;
@@ -73,7 +71,6 @@ a:hover {
 }
 .background-dark :not(a):not(button) {
   color: var(--white);
-  opacity: 1;
 }
 .background-dark .copy--secondary {
   color: var(--gray-3);

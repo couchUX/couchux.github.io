@@ -26,7 +26,8 @@
     --gray-0: #F4F5F7;
   
     /* other colors */
-    --type-main: #2d3a4f;  /* this, with .9 opacity, looks like hired-navy. Only for type. */
+    --type-main: rgba(45,58,79,.9);  
+    --type-secondary: rgba(34,34,34,.52);
     --darkest-red: #961b22; /* Alex: for button click states */
     --dark-red: #B6252E;
     --link-dark: #2B87B1;
@@ -37,11 +38,10 @@
 html {
     overflow-y: scroll; 
 }
-
 body {
     background: var(--gray-0);
     font-size: 1.5rem;
-    color: var(--hired-navy);
+    color: var(--type-main);
     font-family: "Open Sans",sans-serif;
     margin: 0;
 }
@@ -62,7 +62,7 @@ div.nav--jobs {
     font-family: "Open Sans",sans-serif;
     font-weight: 600;
 }
-.flyout {
+#flyout {
     position: absolute;
     top: 6rem;
     right: 20%;
@@ -76,7 +76,7 @@ div.nav--jobs {
     margin-bottom: 2rem;
 }
 @media screen and (max-width: 767px) {
-    .flyout {
+    #flyout {
         position: relative;
         width: 100%;
         max-width: unset;
@@ -96,12 +96,6 @@ div.nav--jobs {
         background-position-x: 5rem;
         background-position-y: 10.7rem;
     }
-    /* .flyout li.lvl-0 > div {
-        padding-left: 3rem;
-    }
-    .lvl-1 {
-        padding-left: 1rem;
-    } */
 }
 .flyout--hide {
     display: none;
@@ -113,65 +107,76 @@ ul {
 li {
     list-style-type: none;
 }
-li .tog:not(.link), .nav--jobs {
-    background-image: url("caret-down.svg");
-    background-repeat: no-repeat;
-    background-position-y: 2.4rem;
-    background-position-x: calc(100% - 2rem);
-}
 li a {
     color: var(--link);
     font-size: 1.3rem;
     text-decoration: none;
     font-weight: 400;
 }
-li:last-child {
-    margin-bottom: 1rem;
-}
-.flyout div {
-    padding: 1rem 3rem .8rem 2rem;
+.lvl-0 li {
     cursor: pointer;
-}
-div.tog.up, div.nav--jobs.up {
-    background-image: url("caret-up.svg");
 }
 .lvl-0 > div {
     font-size: 1.3rem;
-    font-family: "Gotham",sans-serif;
     font-weight: 400;
     color: var(--cool-gray-4);
-    padding-top: 2rem;
-    padding-bottom: 0rem;
+    background-image: none;
+    padding: 2rem 3rem 0 2rem;
 }
-.lvl-1 {
+.lvl-1 > div {
+    color: var(--type-main);
+    text-transform: initial;
+    font-weight: 600;
     border-bottom: 1px solid var(--gray-2);
+    padding: 1.5rem 0 1.5rem 2rem;
+    background-position-y: 1.7rem;
 }
-.lvl-1:last-child {
+.lvl-1:first-child > div {
+    padding-top: 1rem;
+}
+.lvl-1:last-child > div {
     border-bottom: none;
 }
-li.lvl-1 > .tog {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-}
-li.lvl-2 > .tog {
+.lvl-2 > div {
     font-size: 1.3rem;
-    padding-left: 3rem;
+    background-position-y: 1.7rem;
+    padding: 1rem 0 .8rem 3rem;
+}
+.lvl-2:first-child > div {
+    padding-top: 1.5rem;
+    background-position-y: 2.2rem;
+}
+.lvl-3 > div {
+    font-size: 1.3rem;
+    color: var(--type-secondary);
+    padding: 1rem 0 .8rem 4rem;
     background-position-y: 1.7rem;
 }
-li.lvl-2:first-child > .tog {
-    padding-top: 0.2rem;
-    background-position-y: 0.8rem;
+.lvl-3:first-child > div {
+    padding-top: 1.5rem;
+    background-position-y: 2.2rem;
+}
+.lvl-4 > div, .link {
+    padding: 0.6rem 0 0.6rem 4rem;
+}
+.lvl-4:first-child > div {
+    padding-top: 1.2rem;
 }
 
-li.lvl-3 > .tog {
-    font-size: 1.3rem;
-    color: var(--dark-gray-2);
-    opacity: 0.52;
-    padding-left: 4rem;
-    background-position-y: 1.7rem;
+/* toggle functionality styles */
+li:not(.link):not(.lvl-0) > div, .nav--jobs {
+    background-image: url("caret-down.svg");
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 2rem);
 }
-li.lvl-4 > .tog {
-    padding-left: 4rem;
-    padding-top: 0.6rem;
-    padding-bottom: 0.6rem;
+li:not(.link):not(.lvl-0) > div:hover {
+    background-color: var(--gray-0)
+}
+
+li.open > div, .nav--jobs.open {
+    background-image: url("caret-up.svg");
+}
+
+li:not(.lvl-0):not(.open) li {
+    display: none;
 }
