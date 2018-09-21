@@ -132,19 +132,21 @@ span:hover {
     background-image: none;
     padding: 2rem 3rem 0 2rem;
 }
+.lvl-1 {
+    border-bottom: 1px solid var(--gray-2);
+}
+.lvl-1:last-child {
+    border-bottom: none;
+}
 .lvl-1 > div {
     color: var(--type-main);
     text-transform: initial;
     font-weight: 600;
-    border-bottom: 1px solid var(--gray-2);
     padding: 1.5rem 0 1.5rem 2rem;
     background-position-y: 1.7rem;
 }
 .lvl-1:first-child > div {
     padding-top: 1rem;
-}
-.lvl-1:last-child > div {
-    border-bottom: none;
 }
 .lvl-2 > div {
     font-size: 1.3rem;
