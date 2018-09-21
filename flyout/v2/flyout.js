@@ -170,7 +170,7 @@ var toggle = function () {
     $(this).parent().siblings(".open").toggleClass("open");
     $(this).parent().siblings().find(".open").toggleClass("open");
     $(this).closest(".lvl-0").siblings().find(".open").toggleClass("open");
-    $(window).scrollTop($(this).position().top + 80);
+    $(window).scrollTop($(this).position().top + 50);
     // $(this).animate({ scrollTop: ("#flyout").offset().top }, 1000);
 }
 $("li:not(.lvl-0) div").click(toggle)

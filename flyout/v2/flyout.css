@@ -61,6 +61,7 @@ div.nav--jobs {
     background-position-y: 0.7rem;
     font-family: "Open Sans",sans-serif;
     font-weight: 600;
+    cursor: pointer;
 }
 #flyout {
     position: absolute;
