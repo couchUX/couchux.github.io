@@ -54,13 +54,13 @@ body {
 }
 div.nav--jobs {
     position: relative;
-    left: 75%;
+    left: 74%;
     top: 2.5rem;
-    width: 6rem;
-    background-position-x: 4rem;
+    background-position-x: 5rem;
     background-position-y: 0.8rem;
-    font-family: "Open Sans",sans-serif;
-    font-weight: 600;
+    font-family: "Gotham","Open Sans",sans-serif;
+    font-size: 1.6rem;
+    font-weight: 500;
     cursor: pointer;
 }
 #flyout {
