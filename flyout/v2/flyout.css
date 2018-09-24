@@ -36,7 +36,6 @@
     --error: #DC056C;
   }
 html {
-    overflow-y: scroll;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
@@ -59,7 +58,7 @@ div.nav--jobs {
     top: 2.5rem;
     width: 6rem;
     background-position-x: 4rem;
-    background-position-y: 0.7rem;
+    background-position-y: 0.8rem;
     font-family: "Open Sans",sans-serif;
     font-weight: 600;
     cursor: pointer;
@@ -71,13 +70,12 @@ div.nav--jobs {
     width: 100%;
     max-width: 400px;
     height: 80%;
-    max-height: 520px;
+    max-height: 500px;
     overflow: auto;
     background-color: var(--white);
     border-radius: 2px;
     box-shadow: 0 2px 20px -5px rgba(0,0,0,.2);
     font-weight: 600;
-    padding-bottom: 1rem;
 
 }
 @media screen and (max-width: 767px) {
@@ -85,11 +83,12 @@ div.nav--jobs {
         position: relative;
         width: 100%;
         max-width: unset;
+        height: unset;
         max-height: unset;
         top: unset;
         right: unset;
         box-shadow: none;
-
+        overflow: visible;
     }
     .nav {
         padding-bottom: 6rem;
@@ -144,27 +143,18 @@ span:hover {
     text-transform: initial;
     font-weight: 600;
     padding: 1.5rem 0 1.5rem 2rem;
-    background-position-y: 1.7rem;
+    background-position-y: 2.5rem;
 }
 .lvl-2 div, .link {
     font-size: 1.3rem;
-    background-position-y: 1.7rem;
-    padding: 1rem 0 1rem 3rem;
+    background-position-y: 1.8rem;
+    padding: 1rem 3rem;
 }
 .lvl-3 > div {
     color: var(--type-secondary);
 }
-<<<<<<< HEAD
 .lvl-3 > div, .lvl-4 {
     padding-left: 4rem;
-=======
-.lvl-4 > div, .link {
-    /* padding: 0.6rem 0 0.6rem 4rem; */
-    padding: 1rem 0 .8rem 4rem;
-}
-.lvl-4:first-child > div {
-    padding-top: 1.2rem;
->>>>>>> c14f0c5fc687b31ae51765bcc893c325e0e08c83
 }
 
 /* toggle functionality styles */
@@ -179,28 +169,18 @@ li:not(.link):not(.lvl-0) > div:hover {
 li:not(.link).lvl-3 > div {
     background-image: url("caret-down-gray.svg");
 }
-.open li:not(.link):first-child {
-    margin-top: 0.5rem;
+.open > li:not(.link):first-child {
+    /* margin-top: 0.5rem; */
 }
-.open li:last-child {
+.open > ul {
     margin-bottom: 1rem;
 }
 li.open > div, .nav--jobs.open {
     background-image: url("caret-up.svg") !important;
 }
 li.lvl-3.open > div {
-    background-image: url("caret-up-gray.svg");
+    background-image: url("caret-up-gray.svg") !important;
 }
-<<<<<<< HEAD
-=======
-li {
-    transition: height 0s;
-    transition: padding-top 0s;
-    transition: padding-bottom 0s;
-    transition: opacity 0.5s;
-    
-}
->>>>>>> c14f0c5fc687b31ae51765bcc893c325e0e08c83
 li:not(.lvl-0):not(.open) li {
     visibility: hidden;
     opacity: 0;

@@ -153,17 +153,20 @@ $(".it ul").html(itSubs.map(function(value) { return('<li class="link"><a href="
 $(".prj ul").html(prjSubs.map(function(value) { return('<li class="link"><a href="#">' + value + '</a></li>'); }).join(""));
 $(".pm ul").html(pmSubs.map(function(value) { return('<li class="link"><a href="#">' + value + '</a></li>'); }).join(""));
 
-// prefix phrases
-$(".jobs.locations ul span, .jobs.locations ul a").prepend("Jobs in ");
-$(".jobs.roles ul span, .jobs.roles ul a").append(" Jobs");
-$(".jobs.skills ul a").prepend("Jobs requiring ");
-$(".companies.locations ul span, .companies.locations ul a").prepend("Companies hiring in ");
-$(".companies:not(.locations) ul span, .companies:not(.locations) ul a").prepend("Companies hiring for ");
-
 // set heirarchical classes for styles
 $(".lvl-1 > ul > li").addClass("lvl-2");
 $(".lvl-2 > ul > li").addClass("lvl-3");
 $(".lvl-3 > ul > li").addClass("lvl-4");
+
+// prefix phrases
+$(".jobs.locations .lvl-2 > div > span").prepend("Jobs in ");
+$(".jobs.locations .lvl-3 span, .jobs.locations .lvl-3 a").append(" Jobs");
+$(".jobs.roles .lvl-2 span, .jobs.roles .lvl-2 a").append(" Jobs");
+$(".jobs.skills ul a").prepend("Jobs requiring ");
+$(".companies.locations .lvl-2 > div > span").prepend("Companies hiring in ");
+$(".companies.locations .lvl-3 > div > span, .companies.locations .lvl-3 a, .companies.skills a").prepend("Companies hiring for ");
+$(".paths .lvl-2 div, .paths .lvl-2 a").prepend("About ");
+
 
 
 // toggle functionality
