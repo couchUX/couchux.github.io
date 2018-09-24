@@ -172,8 +172,8 @@ var toggle = function () {
     $(this).parent().siblings(".open").toggleClass("open");
     $(this).parent().siblings().find(".open").toggleClass("open");
     $(this).closest(".lvl-0").siblings().find(".open").toggleClass("open");
-    var divPosition = $(this).position().top + 50;
-    $("html, body").animate({ scrollTop: divPosition}, 400);
+    var divPosition = $(this).position().top;
+    $("#flyout").delay(100).animate({ scrollTop: divPosition}, 400);
 }
 $("li:not(.lvl-0) div").click(toggle)
 
