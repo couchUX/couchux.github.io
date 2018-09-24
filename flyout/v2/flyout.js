@@ -154,7 +154,8 @@ $(".prj ul").html(prjSubs.map(function(value) { return('<li class="link"><a href
 $(".pm ul").html(pmSubs.map(function(value) { return('<li class="link"><a href="#">' + value + '</a></li>'); }).join(""));
 
 // prefix phrases
-$(".jobs:not(.skills) ul span, .jobs:not(.skills) ul a").prepend("Jobs in ");
+$(".jobs.locations ul span, .jobs.locations ul a").prepend("Jobs in ");
+$(".jobs.roles ul span, .jobs.roles ul a").append(" Jobs");
 $(".jobs.skills ul a").prepend("Jobs requiring ");
 $(".companies.locations ul span, .companies.locations ul a").prepend("Companies hiring in ");
 $(".companies:not(.locations) ul span, .companies:not(.locations) ul a").prepend("Companies hiring for ");

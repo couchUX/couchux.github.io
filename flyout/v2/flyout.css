@@ -109,9 +109,6 @@ li {
     list-style-type: none;
     transition: opacity 400ms;
 }
-li:last-child {
-    margin-bottom: 0.5rem;
-}
 li a {
     color: var(--link);
     font-size: 1.3rem;
@@ -145,33 +142,16 @@ span:hover {
     padding: 1.5rem 0 1.5rem 2rem;
     background-position-y: 1.7rem;
 }
-.lvl-1:first-child > div {
-    padding-top: 1rem;
-}
-.lvl-2 > div {
+.lvl-2 div, .link {
     font-size: 1.3rem;
     background-position-y: 1.7rem;
-    padding: 1rem 0 .8rem 3rem;
-}
-.lvl-2:first-child > div {
-    padding-top: 1.5rem;
-    background-position-y: 2.2rem;
+    padding: 1rem 0 1rem 3rem;
 }
 .lvl-3 > div {
-    font-size: 1.3rem;
     color: var(--type-secondary);
-    padding: 1rem 0 .8rem 4rem;
-    background-position-y: 1.7rem;
 }
-.lvl-3:first-child > div {
-    padding-top: 1.5rem;
-    background-position-y: 2.2rem;
-}
-.lvl-4 > div, .link {
-    padding: 0.6rem 0 0.6rem 4rem;
-}
-.lvl-4:first-child > div {
-    padding-top: 1.2rem;
+.lvl-3 > div, .lvl-4 {
+    padding-left: 4rem;
 }
 
 /* toggle functionality styles */
@@ -186,14 +166,18 @@ li:not(.link):not(.lvl-0) > div:hover {
 li:not(.link).lvl-3 > div {
     background-image: url("caret-down-gray.svg");
 }
-
+.open li:not(.link):first-child {
+    margin-top: 0.5rem;
+}
+.open li:last-child {
+    margin-bottom: 1rem;
+}
 li.open > div, .nav--jobs.open {
     background-image: url("caret-up.svg") !important;
 }
 li.lvl-3.open > div {
     background-image: url("caret-up-gray.svg");
 }
-
 li:not(.lvl-0):not(.open) li {
     display: none;
     opacity: 0;
