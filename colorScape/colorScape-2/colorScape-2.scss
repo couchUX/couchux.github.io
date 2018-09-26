@@ -1,0 +1,29 @@
+$root-color: #404C60;
+
+@for $i from 1 through 6 {
+    .c#{$i} {
+        background-color: lighten($root-color, percentage(1 / 20 * $i) )
+    }
+};
+
+table {
+    border-collapse: collapse;    
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    // transform: rotate(90deg);
+}
+
+@mixin square($side) {
+    width: $side;
+    height: $side;
+}
+td {
+    // @include square(15px);
+    padding: 0px;
+    background-color: $root-color;
+}
