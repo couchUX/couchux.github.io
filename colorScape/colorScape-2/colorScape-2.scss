@@ -2,7 +2,7 @@ $root-color: #404C60;
 
 @for $i from 1 through 6 {
     .c#{$i} {
-        background-color: lighten($root-color, percentage(1 / 20 * $i) )
+        background-color: darken($root-color, percentage(1 / 35 * $i) )
     }
 };
 
