@@ -168,7 +168,10 @@ polyline {
   color: #909090;
   font-size: 12px !important;
   position:absolute;
-  margin-top: 2px;
+  margin-top: 3px;
+}
+.qtr-text {
+  margin-left: -4px;
 }
 .axs-text {
   margin-left: 6px;
