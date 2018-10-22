@@ -29,11 +29,11 @@
   flex-direction: column;
   margin-bottom: 30px;
 }
-.chart.quarters:last-child {
+.double-chart .chart:last-child {
   padding-left: 24px;
 }
 @media (max-width: 768px) {
-  .chart.quarters:last-child {
+  .double-chart .chart:last-child {
     padding-left: 0px;
   }
 }
