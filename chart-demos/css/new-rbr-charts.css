@@ -225,6 +225,7 @@ button.team-switcher:focus {
   outline: none;
   box-shadow: none;
   background-color: white;
+  color: #131313;
 }
 
 /* team colors stuff */
