@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="../../chart-demos/css/new-rbr-charts.css">
+  <link rel="stylesheet" href="../../chart-demos/css/ncaa-team-colors.css">
+  <link rel="stylesheet" href="../../chart-demos/css/demo.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="../../chart-demos/images/favicon.png">
+</head>
+
+<body>
+<!-- headers and "slots" for the charts to be moved into -->
+  <h2 id="quarters-slot">Success by Quarters</h2>
+  <h2 id="plays-map-slot">Play Map</h2>
+  <h2 id="downs-slot">Success by Down</h2>
+  <h2 id="run-pass-slot">Running and Passing</h2>
+    <div id="run-pass-bars-slot"></div>
+    <div id="run-rate-slot"></div>
+    <div id="run-pass-sr-slot"></div>
+  <h2 id="run-pass-slot-oppnt">Running and Passing, Opponent</h2>
+    <div id="run-pass-bars-slot-oppnt"></div>
+    <div id="run-rate-slot-oppnt"></div>
+    <div id="run-pass-sr-slot-oppnt"></div>
+  <h2 id="runners-slot">Success by Runner</h2>
+  <h2 id="passers-slot">Success by Passer</h2>
+  <h2 id="receivers-slot">Success by Receiver</h2>
+  <h2 id="tacklers-slot">Success vs. Tackler</h2>
+  <div id="game-charts"></div>
+  <div id="player-charts"></div>
+
+<!-- scripts to move charts from the big block to their respective headers -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+  $(document).ready(function(){
+    $("#game-charts").load("game.html");
+    $("#player-charts").load("players.html");
+    });
+  </script>
+
+
+</body>
+
+</html>
