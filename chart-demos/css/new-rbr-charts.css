@@ -160,6 +160,13 @@ polyline {
   stroke: #ADADAD;
   stroke-width: 5px;
 }
+#run-pass-sr-oppnt .run-poly,
+#run-pass-sr-oppnt .pass-poly {
+  margin-top: -5px;
+}
+#run-pass-sr-oppnt .dot {
+  margin-top: -10px;
+}
 
 .map .zero {
   background-color: #EAEAEA;
