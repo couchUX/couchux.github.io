@@ -160,11 +160,14 @@ polyline {
   stroke: #ADADAD;
   stroke-width: 5px;
 }
+#run-pass-sr .run-poly,
 #run-pass-sr-oppnt .run-poly,
+#run-pass-sr .pass-poly,
 #run-pass-sr-oppnt .pass-poly {
   margin-top: -5px;
 }
-#run-pass-sr-oppnt .dot {
+#run-pass-sr .dt,
+#run-pass-sr-oppnt .dt {
   margin-top: -10px;
 }
 
