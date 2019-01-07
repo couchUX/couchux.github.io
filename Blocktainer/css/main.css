@@ -1,0 +1,9 @@
+.image-1 {
+    background-image: url("../img/horses.jpg");
+    background-size: cover;
+}
+
+.image-2 {
+    background-image: url("../img/molly.jpg");
+    background-size: cover;
+}
