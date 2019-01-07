@@ -4,6 +4,7 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-auto-rows: minmax(90px,auto);
+    grid-gap: 9px;
 }
 
 @media screen and (min-width: 768px) {
@@ -34,6 +35,11 @@
     .block {
         grid-column-end: span 12;
         padding: 36px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .block {
+        padding: 45px;
     }
 }
 
