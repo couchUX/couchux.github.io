@@ -26,8 +26,8 @@
     grid-gap: var(--grid-gap);
 }
 
-/* .outer isn't required, but can be used to force .block ordering on mobile */
-.outer {
+/* wrapper isn't required, but can be used to force block ordering on mobile */
+.block-wrapper {
     display: grid;
     grid-gap: var(--grid-gap)
 }
