@@ -1,44 +1,45 @@
 :root {
     --grid-columns: 1;
     --grid-gap: 9px;
-    --block-padding: 36px;
-    --row-min-height: 36px;
+    --block-padding: 27px;
+    --row-min-height: 135px;
 }
 @media screen and (min-width: 768px) { 
     :root { 
         --grid-columns: 12;
         --block-padding: 36px; 
-        --row-min-height: 36px;
+        --row-min-height: 180px;
     }
 }
 @media screen and (min-width: 1024px) { 
     :root { 
-        --block-padding: 45px;
-        --row-min-height: 45px; 
+        --block-padding: 45px; 
     }
 }
 
 .main {
     margin: 0 auto;
     max-width: 1080px;
-}
-
-/* wrapper isn't required, but can be used to force block ordering on mobile */
-.main, .block-wrapper {
     display: grid;
     grid-template-columns: repeat(var(--grid-columns), 1fr);
     grid-auto-rows: minmax(var(--row-min-height),auto);
     grid-gap: var(--grid-gap);
 }
 
+/* wrapper isn't required, but can be used to force block ordering on mobile */
+.block-wrapper {
+    display: grid;
+    grid-gap: var(--grid-gap)
+}
+
 .block {
     padding: var(--block-padding);
+    min-height: var(--row-min-height);
     display: grid;
     align-content: start;
 }
 
 @media screen and (min-width: 768px) { 
-    .block-wrapper    { grid-column-end: span 12;}
     .block    { grid-column-end: span 12;}
     /* Make sure the above is written before the rest */
     .wide-1   { grid-column-end: span 1; }
@@ -55,23 +56,12 @@
 }
 
 /* block heights */
-.short-0    { min-height: 0px; }
-.short-1    { min-height: var(--row-min-height) / 2; }
+.block.short-0 { min-height: 0px; }
+.block.short-1 { min-height: var(--row-min-height) / 2; }
 
-.tall-2     { grid-row-end: span 2; }
-.tall-3     { grid-row-end: span 3; }
-.tall-4     { grid-row-end: span 4; }
-.tall-5     { grid-row-end: span 5; }
-.tall-6     { grid-row-end: span 6; }
-.tall-7     { grid-row-end: span 7; }
-.tall-8     { grid-row-end: span 8; }
-.tall-9     { grid-row-end: span 9; }
-.tall-10    { grid-row-end: span 10; }
-.tall-11    { grid-row-end: span 11; }
-.tall-12    { grid-row-end: span 12; }
-.tall-13    { grid-row-end: span 13; }
-.tall-14    { grid-row-end: span 14; }
-.tall-15    { grid-row-end: span 15; }
+.tall-2 { grid-row-end: span 2; }
+.tall-3 { grid-row-end: span 3; }
+.tall-4 { grid-row-end: span 4; }
 
 /* orienting content within blocks */
 .center-vt, .center-vt-hz {
