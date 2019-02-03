@@ -1,20 +1,18 @@
 :root {
     --grid-columns: 1;
-    --grid-gap: 9px;
-    --block-padding: 36px;
-    --row-min-height: 36px;
+    --grid-gap: 10px;
+    --row-min-height: 30px;
 }
 @media screen and (min-width: 768px) { 
     :root { 
         --grid-columns: 12;
-        --block-padding: 36px; 
-        --row-min-height: 36px;
-    }
+
+        --row-min-height: 40px;
+    }  
 }
 @media screen and (min-width: 1024px) { 
     :root { 
-        --block-padding: 45px;
-        --row-min-height: 45px; 
+        --row-min-height: 50px; 
     }
 }
 
@@ -32,7 +30,7 @@
 }
 
 .block {
-    padding: var(--block-padding);
+    padding: var(--row-min-height);
     display: grid;
     align-content: start;
 }

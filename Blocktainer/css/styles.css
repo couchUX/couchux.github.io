@@ -14,13 +14,12 @@
 body {
     font-family: 'Barlow', sans-serif;
     background-color: var(--gray-0);
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.45;
     color: var(--text);
 }
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
-    padding-bottom: 4px;
     font-weight: 600;
 }
 h1, h2 {
@@ -28,10 +27,13 @@ h1, h2 {
 }
 p {
     margin: 0;
-    padding-bottom: 12px;
+    padding-top: 15px;
+}
+p:first-of-type {
+    padding-top: 0;
 }
 li {
-    margin-bottom: 9px;
+    margin: 10px 0;
     list-style-type: circle;
 }
 .bg-white  { background-color: var(--white); }
@@ -46,4 +48,4 @@ li {
 
 .text-white { color: var(--white); }
 .text-center { text-align: center; }
-.text-small { font-size: 15px; }
+.text-small { font-size: 16px; }
