@@ -6,26 +6,33 @@
 @media screen and (min-width: 768px) { 
     :root { 
         --grid-columns: 12;
-
         --row-min-height: 40px;
     }  
 }
 @media screen and (min-width: 1024px) { 
     :root { 
-        --row-min-height: 50px; 
+        --row-min-height: 50px;
+        --column-max-width: 90px;
     }
 }
 
+body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
 .main {
-    margin: 0 auto;
-    max-width: 1080px;
+    grid-column: 2 / 3;
+    display: grid;
+    grid-template-columns: repeat(var(--grid-columns), var(--column-max-width));
+    grid-auto-rows: minmax(var(--row-min-height), auto);
+    grid-gap: var(--grid-gap);
 }
 
 /* wrapper isn't required, but can be used to force block ordering on mobile */
-.main, .block-wrapper {
+.block-wrapper {
     display: grid;
     grid-template-columns: repeat(var(--grid-columns), 1fr);
-    grid-auto-rows: minmax(var(--row-min-height),auto);
+    grid-auto-rows: minmax(var(--row-min-height), auto);
     grid-gap: var(--grid-gap);
 }
 

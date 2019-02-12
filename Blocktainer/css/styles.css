@@ -36,6 +36,14 @@ li {
     margin: 10px 0;
     list-style-type: circle;
 }
+button {
+    padding: 10px;
+    background-color: var(--green-1);
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    border: none;
+}
 .bg-white  { background-color: var(--white); }
 .bg-gray-0  { background-color: var(--gray-0); }
 .bg-gray-1  { background-color: var(--gray-1); }
