@@ -96,9 +96,10 @@
     };
     
     function bamaChart() {
-      bamaPlays = gameData.filter(function(play) {
-      return play.team == "Alabama";
-      });
+      bamaPlays = gameData.filter(function(play) { return play.team == "Alabama"; });
+      bamaPasses = bamaPlays.filter(function(play) { return play.play_type == "pass"; });
+      bamaPassYards = bamaPasses.map(function(d) {return d.yards_total});
+
     };
     
 
