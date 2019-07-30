@@ -24,9 +24,9 @@
 
   <!-- Add your site or application content here -->
   
-  <div style="width: 80%; max-width: 800px; margin: 40px;">
+  <div style="width: 80%; height: 80%; margin: 40px;">
     <h3>Let's put a chart right here</h3>
-    <canvas id="chartCanvas" height="800" width="400"></canvas>
+    <canvas id="chartCanvas" height="200" width="400"></canvas>
   </div>
   <script src="../js/vendor/modernizr-3.7.1.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
@@ -38,45 +38,9 @@
 
   <!-- script for chart js -->
   <script>
-    var ctx = $("#chartCanvas");
 
-    var myChart = new Chart(ctx, {
-    type: 'line',
-    data: {
-        labels: ['First', 'Second', 'Third', 'Fourth', 'Fifth', 'Sixth'],
-        datasets: [{
-            label: '# of Votes',
-            data: [12, 19, 6, 5, 8, 3],
-            backgroundColor: 'rgba(255, 99, 132, 0.2)',
-            borderColor: 'rgba(255, 99, 132, 1)',
-            borderWidth: 1
-        }]
-    },
-    options: {
-        scales: {
-            yAxes: [{
-                ticks: {
-                    beginAtZero: true
-                }
-            }]
-        }
-      }
-    });
+    var gameData;
 
-    var gameData = [
-      { 
-        "team": "teamTest1",
-        "other": "otherTest1",
-      },
-      { 
-        "team": "Clemson",
-        "other": "otherTest2",
-      },
-      ];
-    
-    // var chartList = [ clemChart, bamaChart ];
-
-    // var clemPlays;
     getData("https://couchux.github.io/RBR_charts/2019-01-07_Alabama_Clemson/all_plays.csv");
 
     
@@ -98,7 +62,23 @@
     function bamaChart() {
       bamaPlays = gameData.filter(function(play) { return play.team == "Alabama"; });
       bamaPasses = bamaPlays.filter(function(play) { return play.play_type == "pass"; });
-      bamaPassYards = bamaPasses.map(function(d) {return d.yards_total});
+      bamaPassCount = bamaPasses.map(function(play) {return play.play_count_team});
+      bamaPassYards = bamaPasses.map(function(play) {return play.yards_total});
+
+      var ctx = $("#chartCanvas");
+      var myChart = new Chart(ctx, {
+      type: 'line',
+      data: {
+          labels: bamaPassCount,
+          datasets: [{
+              label: 'Alabama - Pass Yards',
+              data: bamaPassYards,
+              backgroundColor: 'rgba(255, 99, 132, 0.2)',
+              borderColor: 'rgba(255, 99, 132, 1)',
+              borderWidth: 2
+          }]
+      },
+      });
 
     };
     
