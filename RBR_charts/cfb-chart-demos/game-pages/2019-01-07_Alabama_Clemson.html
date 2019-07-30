@@ -23,7 +23,11 @@
   <![endif]-->
 
   <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+  
+  <div style="width: 60%; max-width: 800px; margin: 40px;">
+    <h3>Let's put a chart right here</h3>
+    <canvas id="chartCanvas" height="200" width="400"></canvas>
+  </div>
   <script src="../js/vendor/modernizr-3.7.1.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
@@ -31,6 +35,37 @@
   <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js"></script>
   <script src="../js/plugins.js"></script>
   <script src="../js/main.js"></script>
+
+  <!-- script for chart js -->
+  <script>
+    var ctx = $("#chartCanvas");
+    console.log(ctx);
+
+    var myChart = new Chart(ctx, {
+    type: 'line',
+    data: {
+        labels: ['First', 'Second', 'Third', 'Fourth', 'Fifth', 'Sixth'],
+        datasets: [{
+            label: '# of Votes',
+            data: [12, 19, 6, 5, 8, 3],
+            backgroundColor: 'rgba(255, 99, 132, 0.2)',
+            borderColor: 'rgba(255, 99, 132, 1)',
+            borderWidth: 1
+        }]
+    },
+    options: {
+        scales: {
+            yAxes: [{
+                ticks: {
+                    beginAtZero: true
+                }
+            }]
+        }
+      }
+    });
+
+  </script>
+
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
