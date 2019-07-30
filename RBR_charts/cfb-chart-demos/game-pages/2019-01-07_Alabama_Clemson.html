@@ -15,6 +15,11 @@
   <link rel="stylesheet" href="../css/main.css">
 
   <meta name="theme-color" content="#fafafa">
+
+  <style>
+    h1, h2, h3 {font-family: sans-serif;}
+  </style>
+
 </head>
 
 <body>
@@ -25,9 +30,15 @@
   <!-- Add your site or application content here -->
   
   <div style="width: 80%; height: 80%; margin: 40px;">
-    <h3>Let's put a chart right here</h3>
-    <canvas id="chartCanvas" height="200" width="400"></canvas>
+    <h3>Here's Alabama's pass yards chart</h3>
+    <canvas id="bamaPassChart" height="200" width="400"></canvas>
   </div>
+  
+  <div style="width: 80%; height: 80%; margin: 40px;">
+    <h3>And theres Clemson's pass yards chart</h3>
+    <canvas id="clemPassChart" height="200" width="400"></canvas>
+  </div>
+
   <script src="../js/vendor/modernizr-3.7.1.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
@@ -53,11 +64,11 @@
       
     };
 
-    function clemChart() {
-      clemPlays = gameData.filter(function(play) {
-      return play.team == "Clemson";
-      });
-    };
+    // function clemChart() {
+    //   clemPlays = gameData.filter(function(play) {
+    //   return play.team == "Clemson";
+    //   });
+    // };
     
     function bamaChart() {
       bamaPlays = gameData.filter(function(play) { return play.team == "Alabama"; });
@@ -65,7 +76,7 @@
       bamaPassCount = bamaPasses.map(function(play) {return play.play_count_team});
       bamaPassYards = bamaPasses.map(function(play) {return play.yards_total});
 
-      var ctx = $("#chartCanvas");
+      var ctx = $("#bamaPassChart");
       var myChart = new Chart(ctx, {
       type: 'line',
       data: {
@@ -78,9 +89,50 @@
               borderWidth: 2
           }]
       },
+      options: {
+        scales: {
+            yAxes: [{
+                ticks: {
+                    suggestedMin: -10,
+                    suggestedMax: 80
+                }
+            }]
+        }
+      }
       });
+   };
 
-    };
+   function clemChart() {
+      clemPlays = gameData.filter(function(play) { return play.team == "Clemson"; });
+      clemPasses = clemPlays.filter(function(play) { return play.play_type == "pass"; });
+      clemPassCount = clemPasses.map(function(play) {return play.play_count_team});
+      clemPassYards = clemPasses.map(function(play) {return play.yards_total});
+
+      var ctx = $("#clemPassChart");
+      var myChart = new Chart(ctx, {
+      type: 'line',
+      data: {
+          labels: clemPassCount,
+          datasets: [{
+              label: 'Clemson - Pass Yards',
+              data: clemPassYards,
+              backgroundColor: 'rgba(255,99,0,0.2)',
+              borderColor: 'rgba(255,99,0,0.8)',
+              borderWidth: 2
+          }]
+      },
+      options: {
+        scales: {
+            yAxes: [{
+                ticks: {
+                    suggestedMin: -10,
+                    suggestedMax: 80
+                }
+            }]
+        }
+      }
+      });
+   };
     
 
   </script>
