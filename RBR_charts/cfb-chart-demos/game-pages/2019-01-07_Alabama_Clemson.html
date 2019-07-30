@@ -31,7 +31,7 @@
   <script src="../js/vendor/modernizr-3.7.1.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
-  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="https://d3js.org/d3.v4.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js"></script>
   <script src="../js/plugins.js"></script>
   <script src="../js/main.js"></script>
@@ -39,7 +39,6 @@
   <!-- script for chart js -->
   <script>
     var ctx = $("#chartCanvas");
-    console.log(ctx);
 
     var myChart = new Chart(ctx, {
     type: 'line',
@@ -64,32 +63,44 @@
       }
     });
 
-    var gameData;
+    var gameData = [
+      { 
+        "team": "teamTest1",
+        "other": "otherTest1",
+      },
+      { 
+        "team": "Clemson",
+        "other": "otherTest2",
+      },
+      ];
+    
+    // var chartList = [ clemChart, bamaChart ];
 
-    d3.csv("https://couchux.github.io/RBR_charts/2019-01-07_Alabama_Clemson/all_plays.csv", function(loadedRows) {
-      gameData = loadedRows;
-    });
+    // var clemPlays;
+    getData("https://couchux.github.io/RBR_charts/2019-01-07_Alabama_Clemson/all_plays.csv");
 
+    
+    function getData(csv) {
+      d3.csv(csv, function(data) {
+      gameData = data;
+      clemChart();
+      bamaChart();
+      });
+      
+    };
 
-    // new try from demo
-    // d3.csv('https://couchux.github.io/RBR_charts/2019-01-07_Alabama_Clemson/all_plays.csv')
-    // .then(makeChart);
-
-    // function makeChart(teams) {
-    //   var teamLabels = teams.map(function(d) {return d.team});
-
-    //   var chart = new Chart('chartCanvas', {
-    //     type: 'horizontalBar',
-    //     data: {
-    //       labels: teamLabels,
-    //       datasets: [
-    //         {
-    //           data: [10, 20, 30]
-    //         }
-    //       ]
-    //     }
-    //   });
-    // }
+    function clemChart() {
+      clemPlays = gameData.filter(function(play) {
+      return play.team == "Clemson";
+      });
+    };
+    
+    function bamaChart() {
+      bamaPlays = gameData.filter(function(play) {
+      return play.team == "Alabama";
+      });
+    };
+    
 
   </script>
 
