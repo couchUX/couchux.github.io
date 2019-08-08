@@ -23,19 +23,11 @@
 </head>
 
 <body>
-  <!--[if IE]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  <![endif]-->
   
-  <div style="width: 80%; height: 80%; margin: 40px;">
+  <div style="width: 90%; height: 400px; margin: 20px;">
     <h3>Here's the passing yards per team</h3>
     <canvas id="passYardsChart" height="200" width="400"></canvas>
   </div>
-  
-  <!-- <div style="width: 80%; height: 80%; margin: 40px;">
-    <h3>And theres Clemson's pass yards chart</h3>
-    <canvas id="clemPassChart" height="200" width="400"></canvas>
-  </div> -->
 
   <script src="../js/vendor/modernizr-3.7.1.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
@@ -48,10 +40,20 @@
   <!-- script for chart js -->
   <script>
 
+    // paste this data each time. Consider writing a JSON file for all colors that will let us just plug in the names.
+    var teamOne = 'Alabama';
+    var teamOneColor = 'rgba(255, 99, 132, 1)';
+    var teamOneColorLight = 'rgba(255, 99, 132, 0.2)';
+    var teamOneColorDark = 'rgba(255, 99, 132, 1)';
+
+    var teamTwo = 'Clemson';
+    var teamTwoColor = 'rgba(255,99,0,1)';
+    var teamTwoColorLight = 'rgba(255,99,0,0.2)';
+    var teamTwoColorDark = 'rgba(255,99,0,1)';
+
     var gameData;
 
     allCharts("https://couchux.github.io/RBR_charts/2019-01-07_Alabama_Clemson/all_plays.csv");
-
     
     function allCharts(csv) {
       d3.csv(csv, function(data) {
@@ -62,64 +64,77 @@
         gameData = data;
 
         passYardsChart();
+        // load more charts here
+        // load more charts here
+
       });
-      
     };
     
     function passYardsChart() {
       passPlays = gameData.filter(function(play) { return play.play_type == "pass"; });
-      passCount = passPlays.map(function(play) {return play.play_count});
-      playsMax = Math.max.apply(Math, passPlays.map(function(play) { return play.play_count; }))
+      passPlayDetails = passPlays.map(function(play) { return play.play_description });
+      passCount = passPlays.map(function(play) { return play.play_count });
+      playsMax = Math.max.apply(Math, passPlays.map(function(play) { return play.play_count; }));
       
       bamaPasses = passPlays.filter(function(play) { return play.team == "Alabama"; });
       bamaPassCount = bamaPasses.map(function(play) { return play.play_count });
       bamaPassYards = bamaPasses.map(function(play) { return play.yards_total });
-      bamaPassCountAndYards = bamaPasses.map( (play) => ({ x: play.play_count, y: play.yards_total }) );
+      bamaPassCountAndYards = bamaPasses.map(function(play) { return { x: play.play_count, y: play.yards_total }; });
       
       clemsonPasses = passPlays.filter(function(play) { return play.team == "Clemson"; });
       clemsonPassCount = clemsonPasses.map(function(play) { return play.play_count });
       clemsonPassYards = clemsonPasses.map(function(play) { return play.yards_total });
-      clemsonPassCountAndYards = clemsonPasses.map( (play) => ({ x: play.play_count, y: play.yards_total }) );
+      clemsonPassCountAndYards = clemsonPasses.map(function(play) { return { x: play.play_count, y: play.yards_total }; });
 
       var ctx = $("#passYardsChart");
-      var myChart = new Chart(ctx, {
+      var chart = new Chart(ctx, {
       type: 'scatter',
       data: {
         labels: passCount,
         datasets: [{
-            label: 'Alabama - Yards by passing play',
-            data: bamaPassCountAndYards,
-            backgroundColor: 'rgba(255, 99, 132, 0.2)',
-            borderColor: 'rgba(255, 99, 132, 1)',
-            borderWidth: 1
-          },
-          {
-            label: 'Clemson - Yards by pass play',
-            data: clemsonPassCountAndYards,
-            backgroundColor: 'rgba(255,99,0,0.2)',
-            borderColor: 'rgba(255,99,0,0.8)',
-            borderWidth: 1
-            }] 
+          label: teamOne + ' - Yards by passing play',
+          data: bamaPassCountAndYards,
+          backgroundColor: teamOneColorLight,
+          borderColor: teamOneColor,
+          borderWidth: 1.5,
+          pointRadius: 4
+        },
+        {
+          label: teamTwo + ' - Yards by passing play',
+          data: clemsonPassCountAndYards,
+          backgroundColor: teamTwoColorLight,
+          borderColor: teamTwoColor,
+          borderWidth: 1.5,
+          pointRadius: 4
+          }] 
       },
       options: {
+        maintainAspectRatio: false,
+        tooltips: {
+            callbacks: {
+                label: function(tooltipItem, chart) {
+                    return tooltipItem.yLabel + " yards";
+                },
+            }
+        },
         scales: {
-            yAxes: [{
-                ticks: {
-                    suggestedMin: -10,
-                    suggestedMax: 100                
-                }
-            }],
-            xAxes: [{
-                ticks: {
-                    suggestedMin: 1,
-                    suggestedMax: playsMax + 2,                
-                }
-            }],
+          yAxes: [{
+            
+            ticks: {
+              suggestedMin: -10,
+              suggestedMax: 100               
+            }
+          }],
+          xAxes: [{
+            ticks: {
+              suggestedMin: 1,
+              suggestedMax: playsMax + 2,                
+            }
+          }],
         }
       }
       });
    };
-
 
   </script>
 
