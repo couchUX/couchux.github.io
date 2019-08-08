@@ -17,16 +17,18 @@
   <meta name="theme-color" content="#fafafa">
 
   <style>
-    h1, h2, h3 {font-family: sans-serif;}
+    body { font-family: sans-serif; }
+    .hide { display: none; }
+    .switchBtn { background: none; border: 1px solid gray; padding: 10px; border-radius: 4px; }
   </style>
 
 </head>
 
 <body>
   
-  <div style="width: 90%; height: 400px; margin: 20px;">
+  <div id="playMapOuter" style="width: 90%; height: 400px; margin: 20px;">
     <h3>Here's the passing yards per team</h3>
-    <canvas id="passYardsChart" height="200" width="400"></canvas>
+    <canvas id="playMap" height="200" width="400"></canvas>
   </div>
 
   <script src="../js/vendor/modernizr-3.7.1.min.js"></script>
@@ -41,15 +43,18 @@
   <script>
 
     // paste this data each time. Consider writing a JSON file for all colors that will let us just plug in the names.
-    var teamOne = 'Alabama';
-    var teamOneColor = 'rgba(255, 99, 132, 1)';
-    var teamOneColorLight = 'rgba(255, 99, 132, 0.2)';
-    var teamOneColorDark = 'rgba(255, 99, 132, 1)';
-
-    var teamTwo = 'Clemson';
-    var teamTwoColor = 'rgba(255,99,0,1)';
-    var teamTwoColorLight = 'rgba(255,99,0,0.2)';
-    var teamTwoColorDark = 'rgba(255,99,0,1)';
+    var teamOne = {
+        name: 'Alabama',
+        color: 'rgba(255, 99, 132, 0.6)',
+        colorLight: 'rgba(255, 99, 132, 0.2)',
+        colorDark: 'rgba(255, 99, 132, 1)'
+    };
+    var teamTwo = {
+        name: 'Clemson',
+        color: 'rgba(255,99,0,0.6)',
+        colorLight: 'rgba(255,99,0,0.2)',
+        colorDark: 'rgba(255,99,0,1)'
+    };
 
     var gameData;
 
@@ -63,53 +68,51 @@
         data.forEach(function(d){ d['yards_total'] = +d['yards_total']; });
         gameData = data;
 
-        passYardsChart();
+        playMap(teamOne);
+        teamSwitcher();
         // load more charts here
         // load more charts here
 
       });
     };
     
-    function passYardsChart() {
-      passPlays = gameData.filter(function(play) { return play.play_type == "pass"; });
-      passPlayDetails = passPlays.map(function(play) { return play.play_description });
-      passCount = passPlays.map(function(play) { return play.play_count });
-      playsMax = Math.max.apply(Math, passPlays.map(function(play) { return play.play_count; }));
-      
-      bamaPasses = passPlays.filter(function(play) { return play.team == "Alabama"; });
-      bamaPassCount = bamaPasses.map(function(play) { return play.play_count });
-      bamaPassYards = bamaPasses.map(function(play) { return play.yards_total });
-      bamaPassCountAndYards = bamaPasses.map(function(play) { return { x: play.play_count, y: play.yards_total }; });
-      
-      clemsonPasses = passPlays.filter(function(play) { return play.team == "Clemson"; });
-      clemsonPassCount = clemsonPasses.map(function(play) { return play.play_count });
-      clemsonPassYards = clemsonPasses.map(function(play) { return play.yards_total });
-      clemsonPassCountAndYards = clemsonPasses.map(function(play) { return { x: play.play_count, y: play.yards_total }; });
+    function playMap(thisTeam) {
+      var teamPlays = gameData.filter(function(play) { return play.team == thisTeam.name; });
+      var playCount = gameData.map(function(play) { return play.play_count });
+      var playsMax = Math.max.apply(Math, gameData.map(function(play) { return play.play_count; }));
+      var yardsMax = Math.max.apply(Math, gameData.map(function(play) { return play.yards_total; }));
+      var playDetails = teamPlays.map(function(play) { return play.play_description });
+      var playYards = teamPlays.map(function(play) { return play.yards_total });
+      var teamPlayCountAndYards = teamPlays.map(function(play) { return { x: play.play_count, y: play.yards_total }; });
 
-      var ctx = $("#passYardsChart");
+      var fillColors = teamPlays.map(function(d) {
+        return  d.play_result === "explosive" ? thisTeam.colorDark
+         :      d.play_result === "successful" ? thisTeam.color
+         :      thisTeam.colorLight;
+      });
+
+
+      var ctx = $("#playMap");
       var chart = new Chart(ctx, {
       type: 'scatter',
       data: {
-        labels: passCount,
+        labels: playCount,
         datasets: [{
-          label: teamOne + ' - Yards by passing play',
-          data: bamaPassCountAndYards,
-          backgroundColor: teamOneColorLight,
-          borderColor: teamOneColor,
-          borderWidth: 1.5,
-          pointRadius: 4
-        },
-        {
-          label: teamTwo + ' - Yards by passing play',
-          data: clemsonPassCountAndYards,
-          backgroundColor: teamTwoColorLight,
-          borderColor: teamTwoColor,
-          borderWidth: 1.5,
-          pointRadius: 4
-          }] 
+          label: thisTeam.name + ' - Yards by passing play',
+          data: teamPlayCountAndYards,
+          backgroundColor: fillColors,
+          borderColor: thisTeam.colorDark,
+          borderWidth: 1,
+          pointRadius: 4,
+          // showLine: true,
+          // fill: false,
+          // lineTension: 0.2,
+          // borderDash: [2,4]
+        }] 
       },
       options: {
         maintainAspectRatio: false,
+        showAnimation: false,
         tooltips: {
             callbacks: {
                 label: function(tooltipItem, chart) {
@@ -119,10 +122,10 @@
         },
         scales: {
           yAxes: [{
-            
+            // type: 'logarithmic',
             ticks: {
               suggestedMin: -10,
-              suggestedMax: 100               
+              max: yardsMax,
             }
           }],
           xAxes: [{
@@ -134,7 +137,20 @@
         }
       }
       });
-   };
+
+    };
+    
+    // team switcher button
+    function teamSwitcher() {
+      $("#playMapOuter").append("<button class=\"switchBtn switchOne hide\">Show "+ teamOne.name +"</button>");
+      $("#playMapOuter").append("<button class=\"switchBtn switchTwo\">Show "+ teamTwo.name +"</button>");
+      $(".switchBtn").click(function () { $(".switchBtn").toggleClass("hide")});
+      $(".switchOne").click(function () { playMap(teamOne)});
+      $(".switchTwo").click(function () { playMap(teamTwo)});
+    };
+      
+
+   
 
   </script>
 
