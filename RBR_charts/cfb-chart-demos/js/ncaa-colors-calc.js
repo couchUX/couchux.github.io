@@ -1,3 +1,21 @@
+//extract the colors for use in a graph
+
+function getColors(team, opponent) {
+    teamOneData = {
+        name: team,
+        color: teamColors[team].color,
+        colorLight: teamColors[team].colorLight,
+        colorDark: teamColors[team].colorDark,
+    },
+    teamTwoData = {
+        name: opponent,
+        color: teamColors[opponent].color,
+        colorLight: teamColors[opponent].colorLight,
+        colorDark: teamColors[opponent].colorDark,
+    }
+    }
+
+// PASTE COLORS DATA HERE
 teamColors = {
     "Air Force": { "name": "Air Force", "color": "#0000FF", "colorDark": "#000099", "colorLight": "#9999ff" },
     "Akron": { "name": "Akron", "color": "#00285C","colorDark": "black", "colorLight": "#006bf5" },

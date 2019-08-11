@@ -43,21 +43,6 @@
     // paste this data each time. Consider writing a JSON file for all colors that will let us just plug in the names.
     getColors("Alabama", "Clemson");
 
-    function getColors(team, opponent) {
-      teamOneData = {
-        name: team,
-        color: teamColors[team].color,
-        colorLight: teamColors[team].colorLight,
-        colorDark: teamColors[team].colorDark,
-      },
-      teamTwoData = {
-        name: opponent,
-        color: teamColors[opponent].color,
-        colorLight: teamColors[opponent].colorLight,
-        colorDark: teamColors[opponent].colorDark,
-      }
-    }
-
     var gameData;
 
     allCharts("https://couchux.github.io/RBR_charts/2019-01-07_Alabama_Clemson/all_plays.csv");
