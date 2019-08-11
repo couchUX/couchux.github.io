@@ -1,6 +1,4 @@
-// Code and config to run each chartjs chart
-
-//Play Map scatter chart
+//   PLAY MAP SCATTER CHART
 function playMap(thisTeam) {
 var teamPlays = gameData.filter(function(play) { return play.team == thisTeam.name; });
 var playCount = gameData.map(function(play) { return play.play_count });
@@ -64,7 +62,8 @@ options: {
 
 };
 
-// Team switcher button (accompanies Play Map)
+
+// TEAM SWITCHER BUTTON (accompanies Play Map)
 function teamSwitcher() {
 $("#playMapOuter").append("<button class=\"switchBtn switchOne hide\">Show "+ teamOneData.name +"</button>");
 $("#playMapOuter").append("<button class=\"switchBtn switchTwo\">Show "+ teamTwoData.name +"</button>");
