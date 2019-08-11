@@ -16,17 +16,11 @@
 
   <meta name="theme-color" content="#fafafa">
 
-  <style>
-    body { font-family: sans-serif; }
-    .hide { display: none; }
-    .switchBtn { background: none; border: 1px solid gray; padding: 10px; border-radius: 4px; }
-  </style>
-
 </head>
 
 <body>
   
-  <div id="playMapOuter" style="width: 90%; height: 400px; margin: 20px;">
+  <div id="playMapOuter">
     <h3>Here's the passing yards per team</h3>
     <canvas id="playMap" height="200" width="400"></canvas>
   </div>
@@ -38,23 +32,31 @@
   <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js"></script>
   <script src="../js/plugins.js"></script>
   <script src="../js/main.js"></script>
+  <script src=" ../js/ncaa-colors-calc.js"></script>
+  <script src="../js/charts.js"></script>
+ 
+  
 
   <!-- script for chart js -->
   <script>
 
     // paste this data each time. Consider writing a JSON file for all colors that will let us just plug in the names.
-    var teamOne = {
-        name: 'Alabama',
-        color: 'rgba(255, 99, 132, 0.6)',
-        colorLight: 'rgba(255, 99, 132, 0.2)',
-        colorDark: 'rgba(255, 99, 132, 1)'
-    };
-    var teamTwo = {
-        name: 'Clemson',
-        color: 'rgba(255,99,0,0.6)',
-        colorLight: 'rgba(255,99,0,0.2)',
-        colorDark: 'rgba(255,99,0,1)'
-    };
+    getColors("Alabama", "Clemson");
+
+    function getColors(team, opponent) {
+      teamOneData = {
+        name: team,
+        color: teamColors[team].color,
+        colorLight: teamColors[team].colorLight,
+        colorDark: teamColors[team].colorDark,
+      },
+      teamTwoData = {
+        name: opponent,
+        color: teamColors[opponent].color,
+        colorLight: teamColors[opponent].colorLight,
+        colorDark: teamColors[opponent].colorDark,
+      }
+    }
 
     var gameData;
 
@@ -68,89 +70,13 @@
         data.forEach(function(d){ d['yards_total'] = +d['yards_total']; });
         gameData = data;
 
-        playMap(teamOne);
-        teamSwitcher();
+        playMap(teamOneData);
+        teamSwitcher(); // goes with pay map
         // load more charts here
         // load more charts here
 
       });
     };
-    
-    function playMap(thisTeam) {
-      var teamPlays = gameData.filter(function(play) { return play.team == thisTeam.name; });
-      var playCount = gameData.map(function(play) { return play.play_count });
-      var playsMax = Math.max.apply(Math, gameData.map(function(play) { return play.play_count; }));
-      var yardsMax = Math.max.apply(Math, gameData.map(function(play) { return play.yards_total; }));
-      var playDetails = teamPlays.map(function(play) { return play.play_description });
-      var playYards = teamPlays.map(function(play) { return play.yards_total });
-      var teamPlayCountAndYards = teamPlays.map(function(play) { return { x: play.play_count, y: play.yards_total }; });
-
-      var fillColors = teamPlays.map(function(d) {
-        return  d.play_result === "explosive" ? thisTeam.colorDark
-         :      d.play_result === "successful" ? thisTeam.color
-         :      thisTeam.colorLight;
-      });
-
-
-      var ctx = $("#playMap");
-      var chart = new Chart(ctx, {
-      type: 'scatter',
-      data: {
-        labels: playCount,
-        datasets: [{
-          label: thisTeam.name + ' - yds by play',
-          data: teamPlayCountAndYards,
-          backgroundColor: fillColors,
-          borderColor: thisTeam.colorDark,
-          borderWidth: 1,
-          pointRadius: 4,
-          // showLine: true,
-          // fill: false,
-          // lineTension: 0.2,
-          // borderDash: [2,4]
-        }] 
-      },
-      options: {
-        maintainAspectRatio: false,
-        showAnimation: false,
-        tooltips: {
-            callbacks: {
-                label: function(tooltipItem, chart) {
-                    return tooltipItem.yLabel + " yards";
-                },
-            }
-        },
-        scales: {
-          yAxes: [{
-            // type: 'logarithmic',
-            ticks: {
-              suggestedMin: -10,
-              max: yardsMax,
-            }
-          }],
-          xAxes: [{
-            ticks: {
-              suggestedMin: 1,
-              suggestedMax: playsMax + 2,                
-            }
-          }],
-        }
-      }
-      });
-
-    };
-    
-    // team switcher button
-    function teamSwitcher() {
-      $("#playMapOuter").append("<button class=\"switchBtn switchOne hide\">Show "+ teamOne.name +"</button>");
-      $("#playMapOuter").append("<button class=\"switchBtn switchTwo\">Show "+ teamTwo.name +"</button>");
-      $(".switchBtn").click(function () { $(".switchBtn").toggleClass("hide")});
-      $(".switchOne").click(function () { playMap(teamOne)});
-      $(".switchTwo").click(function () { playMap(teamTwo)});
-    };
-      
-
-   
 
   </script>
 
