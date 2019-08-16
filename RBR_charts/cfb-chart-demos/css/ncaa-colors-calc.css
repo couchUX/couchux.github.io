@@ -1,2364 +1,2364 @@
 .air-force {
-  stroke: rgba(0, 0, 255, 0.85);
-  color: #00008f;
-  background-color: rgba(153, 153, 255, 0.25);
+  stroke: #1919f0;
+  color: #000066;
+  background-color: #ebebff;
 }
 
 .akron {
-  stroke: rgba(0, 40, 92, 0.85);
-  color: black;
-  background-color: rgba(0, 107, 245, 0.25);
+  stroke: #1977f0;
+  color: #002c66;
+  background-color: #ebf3ff;
 }
 
 .alabama {
-  stroke: rgba(153, 0, 0, 0.85);
-  color: #290000;
-  background-color: rgba(255, 51, 51, 0.25);
+  stroke: #f01919;
+  color: #660000;
+  background-color: #ffebeb;
 }
 
 .alabama-am {
-  stroke: rgba(88, 0, 0, 0.85);
-  color: black;
-  background-color: rgba(241, 0, 0, 0.25);
+  stroke: #f01919;
+  color: #660000;
+  background-color: #ffebeb;
 }
 
 .alabama-state {
-  stroke: rgba(0, 0, 0, 0.85);
-  color: black;
-  background-color: rgba(77, 77, 77, 0.25);
+  stroke: #858585;
+  color: #333333;
+  background-color: whitesmoke;
 }
 
 .albany {
-  stroke: rgba(69, 38, 99, 0.85);
-  color: #0c0712;
-  background-color: rgba(146, 96, 194, 0.25);
+  stroke: #855dac;
+  color: #331c4a;
+  background-color: #f5f0f9;
 }
 
 .alcorn-state {
-  stroke: rgba(75, 0, 130, 0.85);
-  color: #0a0012;
-  background-color: rgba(159, 28, 255, 0.25);
+  stroke: #9519f0;
+  color: #3b0066;
+  background-color: #f6ebff;
 }
 
 .american-university {
-  stroke: rgba(181, 1, 59, 0.85);
-  color: #450017;
-  background-color: rgba(254, 81, 137, 0.25);
+  stroke: #ef1a5f;
+  color: #650121;
+  background-color: #ffebf1;
 }
 
 .anderson-indiana {
-  stroke: rgba(236, 115, 10, 0.85);
-  color: #803f05;
-  background-color: rgba(250, 196, 149, 0.25);
+  stroke: #e67e23;
+  color: #623004;
+  background-color: #fef4eb;
 }
 
 .appalachian-state {
-  stroke: rgba(0, 0, 0, 0.85);
-  color: black;
-  background-color: rgba(77, 77, 77, 0.25);
+  stroke: #858585;
+  color: #333333;
+  background-color: whitesmoke;
 }
 
 .arizona {
-  stroke: rgba(196, 30, 58, 0.85);
-  color: #630f1d;
-  background-color: rgba(238, 141, 158, 0.25);
+  stroke: #d03953;
+  color: #580e1a;
+  background-color: #fcedf0;
 }
 
 .arizona-state {
-  stroke: rgba(128, 0, 0, 0.85);
-  color: #100000;
-  background-color: rgba(255, 26, 26, 0.25);
+  stroke: #f01919;
+  color: #660000;
+  background-color: #ffebeb;
 }
 
 .arkansas {
-  stroke: rgba(157, 34, 53, 0.85);
-  color: #410e16;
-  background-color: rgba(225, 119, 135, 0.25);
+  stroke: #c54458;
+  color: #54121c;
+  background-color: #fbeef0;
 }
 
 .arkansas-state {
-  stroke: rgba(204, 9, 47, 0.85);
-  color: #610416;
-  background-color: rgba(249, 117, 143, 0.25);
+  stroke: #e62349;
+  color: #620417;
+  background-color: #feebef;
 }
 
 .arkansas-little-rock {
-  stroke: rgba(128, 0, 0, 0.85);
-  color: #100000;
-  background-color: rgba(255, 26, 26, 0.25);
+  stroke: #f01919;
+  color: #660000;
+  background-color: #ffebeb;
 }
 
 .arkansas-pine-bluff {
-  stroke: rgba(196, 30, 58, 0.85);
-  color: #630f1d;
-  background-color: rgba(238, 141, 158, 0.25);
+  stroke: #d03953;
+  color: #580e1a;
+  background-color: #fcedf0;
 }
 
 .army {
-  stroke: rgba(0, 0, 0, 0.85);
-  color: black;
-  background-color: rgba(77, 77, 77, 0.25);
+  stroke: #858585;
+  color: #333333;
+  background-color: whitesmoke;
 }
 
 .auburn {
-  stroke: rgba(12, 35, 64, 0.85);
-  color: black;
-  background-color: rgba(36, 105, 193, 0.25);
+  stroke: #407dca;
+  color: #102f56;
+  background-color: #eef4fc;
 }
 
 .austin-peay {
-  stroke: rgba(210, 221, 252, 0.85);
-  color: #698ef5;
-  background-color: rgba(255, 255, 255, 0.25);
+  stroke: #2859e1;
+  color: #061e60;
+  background-color: #ecf1fe;
 }
 
 .ball-state {
-  stroke: rgba(204, 0, 0, 0.85);
-  color: #5c0000;
-  background-color: rgba(255, 102, 102, 0.25);
+  stroke: #f01919;
+  color: #660000;
+  background-color: #ffebeb;
 }
 
 .baruch {
-  stroke: rgba(16, 68, 140, 0.85);
-  color: #041327;
-  background-color: rgba(75, 142, 234, 0.25);
+  stroke: #3277d7;
+  color: #0a2c5c;
+  background-color: #edf3fd;
 }
 
 .baylor {
-  stroke: rgba(0, 102, 0, 0.85);
-  color: black;
-  background-color: rgba(0, 255, 0, 0.25);
+  stroke: #19f019;
+  color: #006600;
+  background-color: #ebffeb;
 }
 
 .belmont {
-  stroke: rgba(224, 0, 29, 0.85);
-  color: #70000e;
-  background-color: rgba(255, 122, 139, 0.25);
+  stroke: #f01935;
+  color: #66000d;
+  background-color: #ffebed;
 }
 
 .bethany-california {
-  stroke: rgba(146, 3, 0, 0.85);
-  color: #220100;
-  background-color: rgba(255, 48, 44, 0.25);
+  stroke: #f01d19;
+  color: #660200;
+  background-color: #ffebeb;
 }
 
 .bethune-cookman {
-  stroke: rgba(106, 53, 71, 0.85);
-  color: #1f1015;
-  background-color: rgba(189, 123, 145, 0.25);
+  stroke: #9f6a7c;
+  color: #44222e;
+  background-color: #f8f1f4;
 }
 
 .binghamton {
-  stroke: rgba(0, 107, 84, 0.85);
-  color: black;
-  background-color: rgba(5, 255, 201, 0.25);
+  stroke: #19f0c2;
+  color: #006650;
+  background-color: #ebfffb;
 }
 
 .bluefield-college {
-  stroke: rgba(0, 60, 129, 0.85);
-  color: #000811;
-  background-color: rgba(27, 133, 255, 0.25);
+  stroke: #197df0;
+  color: #002f66;
+  background-color: #ebf4ff;
 }
 
 .boise-state {
-  stroke: rgba(31, 96, 169, 0.85);
-  color: #0e2a4a;
-  background-color: rgba(122, 173, 231, 0.25);
+  stroke: #3f81ca;
+  color: #103156;
+  background-color: #eef4fc;
 }
 
 .boston-college {
-  stroke: rgba(139, 0, 0, 0.85);
-  color: #1b0000;
-  background-color: rgba(255, 37, 37, 0.25);
+  stroke: #f01919;
+  color: #660000;
+  background-color: #ffebeb;
 }
 
 .boston-university {
-  stroke: rgba(255, 32, 0, 0.85);
-  color: #8f1200;
-  background-color: rgba(255, 166, 153, 0.25);
+  stroke: #f03419;
+  color: #660d00;
+  background-color: #ffedeb;
 }
 
 .bowling-green {
-  stroke: rgba(255, 115, 0, 0.85);
-  color: #8f4000;
-  background-color: rgba(255, 199, 153, 0.25);
+  stroke: #f07a19;
+  color: #662e00;
+  background-color: #fff4eb;
 }
 
 .bradley {
-  stroke: rgba(255, 0, 0, 0.85);
-  color: #8f0000;
-  background-color: rgba(255, 153, 153, 0.25);
+  stroke: #f01919;
+  color: #660000;
+  background-color: #ffebeb;
 }
 
 .brigham-young {
-  stroke: rgba(0, 30, 76, 0.85);
-  color: black;
-  background-color: rgba(0, 90, 229, 0.25);
+  stroke: #196ef0;
+  color: #002866;
+  background-color: #ebf3ff;
 }
 
 .brown {
-  stroke: rgba(50, 20, 20, 0.85);
-  color: black;
-  background-color: rgba(159, 64, 64, 0.25);
+  stroke: #aa5f5f;
+  color: #491d1d;
+  background-color: #f9f0f0;
 }
 
 .bryant-university {
-  stroke: rgba(0, 0, 0, 0.85);
-  color: black;
-  background-color: rgba(77, 77, 77, 0.25);
+  stroke: #858585;
+  color: #333333;
+  background-color: whitesmoke;
 }
 
 .bucknell {
-  stroke: rgba(255, 153, 0, 0.85);
-  color: #8f5600;
-  background-color: rgba(255, 214, 153, 0.25);
+  stroke: #f09a19;
+  color: #663d00;
+  background-color: #fff7eb;
 }
 
 .buffalo {
-  stroke: rgba(255, 255, 255, 0.85);
-  color: #c7c7c7;
-  background-color: rgba(255, 255, 255, 0.25);
+  stroke: #858585;
+  color: #333333;
+  background-color: whitesmoke;
 }
 
 .butler {
-  stroke: rgba(0, 56, 109, 0.85);
-  color: black;
-  background-color: rgba(7, 134, 255, 0.25);
+  stroke: #1988f0;
+  color: #003466;
+  background-color: #ebf5ff;
 }
 
 .cal-poly {
-  stroke: rgba(30, 77, 43, 0.85);
-  color: black;
-  background-color: rgba(75, 185, 105, 0.25);
+  stroke: #5eac73;
+  color: #1d4929;
+  background-color: #f0f9f3;
 }
 
 .cal-state-bakersfield {
-  stroke: rgba(221, 221, 255, 0.85);
-  color: #6d6dff;
-  background-color: rgba(255, 255, 255, 0.25);
+  stroke: #1919f0;
+  color: #000066;
+  background-color: #ebebff;
 }
 
 .cal-state-fullerton {
-  stroke: rgba(255, 201, 75, 0.85);
-  color: #da9800;
-  background-color: rgba(255, 247, 228, 0.25);
+  stroke: #f0b019;
+  color: #664700;
+  background-color: #fff9eb;
 }
 
 .cal-state-northridge {
-  stroke: rgba(198, 12, 48, 0.85);
-  color: #5c0616;
-  background-color: rgba(247, 116, 142, 0.25);
+  stroke: #e2274b;
+  color: #600617;
+  background-color: #feecef;
 }
 
 .california {
-  stroke: rgba(25, 25, 112, 0.85);
-  color: #050514;
-  background-color: rgba(75, 75, 215, 0.25);
+  stroke: #4646c4;
+  color: #131353;
+  background-color: #eeeefb;
 }
 
 .campbell {
-  stroke: rgba(255, 127, 0, 0.85);
-  color: #8f4700;
-  background-color: rgba(255, 204, 153, 0.25);
+  stroke: #f08419;
+  color: #663300;
+  background-color: #fff5eb;
 }
 
 .canisius {
-  stroke: rgba(0, 71, 171, 0.85);
-  color: #00183b;
-  background-color: rgba(69, 146, 255, 0.25);
+  stroke: #1972f0;
+  color: #002a66;
+  background-color: #ebf3ff;
 }
 
 .carver-bible-college {
-  stroke: rgba(38, 36, 84, 0.85);
-  color: #020205;
-  background-color: rgba(93, 89, 184, 0.25);
+  stroke: #6562a7;
+  color: #201f47;
+  background-color: #f1f1f9;
 }
 
 .centenary {
-  stroke: rgba(128, 0, 0, 0.85);
-  color: #100000;
-  background-color: rgba(255, 26, 26, 0.25);
+  stroke: #f01919;
+  color: #660000;
+  background-color: #ffebeb;
 }
 
 .central-arkansas {
-  stroke: rgba(67, 40, 107, 0.85);
-  color: #100919;
-  background-color: rgba(141, 102, 198, 0.25);
+  stroke: #7d5cae;
+  color: #2e1c4a;
+  background-color: #f4f0f9;
 }
 
 .central-connecticut-state {
-  stroke: rgba(0, 83, 155, 0.85);
-  color: #00172b;
-  background-color: rgba(53, 161, 255, 0.25);
+  stroke: #198cf0;
+  color: #003766;
+  background-color: #ebf6ff;
 }
 
 .central-michigan {
-  stroke: rgba(102, 0, 51, 0.85);
-  color: black;
-  background-color: rgba(255, 0, 128, 0.25);
+  stroke: #f01985;
+  color: #660033;
+  background-color: #ffebf5;
 }
 
 .charleston {
-  stroke: rgba(128, 0, 0, 0.85);
-  color: #100000;
-  background-color: rgba(255, 26, 26, 0.25);
+  stroke: #f01919;
+  color: #660000;
+  background-color: #ffebeb;
 }
 
 .charleston-southern {
-  stroke: rgba(255, 255, 255, 0.85);
-  color: #c7c7c7;
-  background-color: rgba(255, 255, 255, 0.25);
+  stroke: #858585;
+  color: #333333;
+  background-color: whitesmoke;
 }
 
 .charlotte {
-  stroke: rgba(0, 115, 16, 0.85);
-  color: #000300;
-  background-color: rgba(13, 255, 47, 0.25);
+  stroke: #19f037;
+  color: #00660e;
+  background-color: #ebffed;
 }
 
 .chattanooga {
-  stroke: rgba(0, 56, 107, 0.85);
-  color: black;
-  background-color: rgba(5, 136, 255, 0.25);
+  stroke: #198af0;
+  color: #003566;
+  background-color: #ebf5ff;
 }
 
 .chicago-state {
-  stroke: rgba(0, 102, 102, 0.85);
-  color: black;
-  background-color: rgba(0, 255, 255, 0.25);
+  stroke: #19f0f0;
+  color: #006666;
+  background-color: #ebffff;
 }
 
 .cincinnati {
-  stroke: rgba(224, 1, 34, 0.85);
-  color: #700111;
-  background-color: rgba(254, 124, 143, 0.25);
+  stroke: #ef1a3a;
+  color: #66000f;
+  background-color: #ffebee;
 }
 
 .citadel {
-  stroke: rgba(57, 117, 183, 0.85);
-  color: #1e3e61;
-  background-color: rgba(166, 195, 227, 0.25);
+  stroke: #5382b6;
+  color: #18324e;
+  background-color: #eff5fa;
 }
 
 .clemson {
-  stroke: rgba(255, 99, 0, 0.85);
-  color: #8f3700;
-  background-color: rgba(255, 193, 153, 0.25);
+  stroke: #f06d19;
+  color: #662800;
+  background-color: #fff3eb;
 }
 
 .cleveland-state {
-  stroke: rgba(0, 51, 0, 0.85);
-  color: black;
-  background-color: rgba(0, 204, 0, 0.25);
+  stroke: #19f019;
+  color: #006600;
+  background-color: #ebffeb;
 }
 
 .coastal-carolina {
-  stroke: rgba(0, 128, 128, 0.85);
-  color: #001010;
-  background-color: rgba(26, 255, 255, 0.25);
+  stroke: #19f0f0;
+  color: #006666;
+  background-color: #ebffff;
 }
 
 .college-of-new-jersey {
-  stroke: rgba(42, 62, 111, 0.85);
-  color: #0b111e;
-  background-color: rgba(107, 134, 199, 0.25);
+  stroke: #5c74ad;
+  color: #1c294a;
+  background-color: #f0f3f9;
 }
 
 .colgate {
-  stroke: rgba(202, 3, 10, 0.85);
-  color: #5b0105;
-  background-color: rgba(253, 105, 110, 0.25);
+  stroke: #ed1c24;
+  color: #650105;
+  background-color: #ffebec;
 }
 
 .colorado {
-  stroke: rgba(192, 192, 192, 0.85);
-  color: #888888;
-  background-color: rgba(255, 255, 255, 0.25);
+  stroke: #858585;
+  color: #333333;
+  background-color: whitesmoke;
 }
 
 .colorado-state {
-  stroke: rgba(0, 165, 80, 0.85);
-  color: #00351a;
-  background-color: rgba(63, 255, 156, 0.25);
+  stroke: #19f081;
+  color: #006631;
+  background-color: #ebfff4;
 }
 
 .columbia {
-  stroke: rgba(155, 221, 255, 0.85);
-  color: #2bb7ff;
-  background-color: rgba(255, 255, 255, 0.25);
+  stroke: #19a7f0;
+  color: #004366;
+  background-color: #ebf8ff;
 }
 
 .connecticut {
-  stroke: rgba(0, 14, 47, 0.85);
-  color: black;
-  background-color: rgba(0, 60, 200, 0.25);
+  stroke: #1959f0;
+  color: #001e66;
+  background-color: #ebf1ff;
 }
 
 .coppin-state {
-  stroke: rgba(105, 0, 92, 0.85);
-  color: black;
-  background-color: rgba(255, 3, 224, 0.25);
+  stroke: #f019d6;
+  color: #660059;
+  background-color: #ffebfc;
 }
 
 .cornell {
-  stroke: rgba(179, 27, 27, 0.85);
-  color: #520c0c;
-  background-color: rgba(235, 124, 124, 0.25);
+  stroke: #d03939;
+  color: #590d0d;
+  background-color: #fceded;
 }
 
 .creighton {
-  stroke: rgba(0, 92, 169, 0.85);
-  color: #001f39;
-  background-color: rgba(67, 169, 255, 0.25);
+  stroke: #198ef0;
+  color: #003866;
+  background-color: #ebf6ff;
 }
 
 .dallas-christian {
-  stroke: rgba(152, 2, 0, 0.85);
-  color: #280100;
-  background-color: rgba(255, 53, 50, 0.25);
+  stroke: #f01c19;
+  color: #660100;
+  background-color: #ffebeb;
 }
 
 .dallas-university {
-  stroke: rgba(15, 58, 113, 0.85);
-  color: #02070e;
-  background-color: rgba(53, 130, 228, 0.25);
+  stroke: #367bd4;
+  color: #0c2e5a;
+  background-color: #edf4fd;
 }
 
 .dartmouth {
-  stroke: rgba(0, 105, 62, 0.85);
-  color: black;
-  background-color: rgba(3, 255, 152, 0.25);
+  stroke: #19f098;
+  color: #00663c;
+  background-color: #ebfff7;
 }
 
 .davidson {
-  stroke: rgba(255, 0, 0, 0.85);
-  color: #8f0000;
-  background-color: rgba(255, 153, 153, 0.25);
+  stroke: #f01919;
+  color: #660000;
+  background-color: #ffebeb;
 }
 
 .dayton {
-  stroke: rgba(255, 0, 0, 0.85);
-  color: #8f0000;
-  background-color: rgba(255, 153, 153, 0.25);
+  stroke: #f01919;
+  color: #660000;
+  background-color: #ffebeb;
 }
 
 .delaware {
-  stroke: rgba(0, 105, 170, 0.85);
-  color: #00243a;
-  background-color: rgba(68, 184, 255, 0.25);
+  stroke: #199ef0;
+  color: #003f66;
+  background-color: #ebf7ff;
 }
 
 .delaware-state {
-  stroke: rgba(255, 0, 0, 0.85);
-  color: #8f0000;
-  background-color: rgba(255, 153, 153, 0.25);
+  stroke: #f01919;
+  color: #660000;
+  background-color: #ffebeb;
 }
 
 .denver {
-  stroke: rgba(255, 255, 255, 0.85);
-  color: #c7c7c7;
-  background-color: rgba(255, 255, 255, 0.25);
+  stroke: #858585;
+  color: #333333;
+  background-color: whitesmoke;
 }
 
 .depaul {
-  stroke: rgba(0, 0, 255, 0.85);
-  color: #00008f;
-  background-color: rgba(153, 153, 255, 0.25);
+  stroke: #1919f0;
+  color: #000066;
+  background-color: #ebebff;
 }
 
 .detroit {
-  stroke: rgba(0, 0, 205, 0.85);
-  color: #00005d;
-  background-color: rgba(103, 103, 255, 0.25);
+  stroke: #1919f0;
+  color: #000066;
+  background-color: #ebebff;
 }
 
 .dillard {
-  stroke: rgba(27, 66, 153, 0.85);
-  color: #0a193a;
-  background-color: rgba(105, 143, 228, 0.25);
+  stroke: #3e6acc;
+  color: #0f2557;
+  background-color: #eef2fc;
 }
 
 .dominican {
-  stroke: rgba(11, 64, 130, 0.85);
-  color: #020d1b;
-  background-color: rgba(56, 137, 238, 0.25);
+  stroke: #2c7bdd;
+  color: #082e5e;
+  background-color: #ecf4fd;
 }
 
 .drake {
-  stroke: rgba(0, 0, 112, 0.85);
-  color: black;
-  background-color: rgba(10, 10, 255, 0.25);
+  stroke: #1919f0;
+  color: #000066;
+  background-color: #ebebff;
 }
 
 .drexel {
-  stroke: rgba(0, 0, 102, 0.85);
-  color: black;
-  background-color: rgba(0, 0, 255, 0.25);
+  stroke: #1919f0;
+  color: #000066;
+  background-color: #ebebff;
 }
 
 .duke {
-  stroke: rgba(0, 56, 147, 0.85);
-  color: #000d23;
-  background-color: rgba(45, 125, 255, 0.25);
+  stroke: #196bf0;
+  color: #002766;
+  background-color: #ebf2ff;
 }
 
 .duquesne {
-  stroke: rgba(0, 0, 102, 0.85);
-  color: black;
-  background-color: rgba(0, 0, 255, 0.25);
+  stroke: #1919f0;
+  color: #000066;
+  background-color: #ebebff;
 }
 
 .east-carolina {
-  stroke: rgba(89, 42, 138, 0.85);
-  color: #221034;
-  background-color: rgba(166, 119, 214, 0.25);
+  stroke: #8452b7;
+  color: #32184e;
+  background-color: #f5effa;
 }
 
 .east-tennessee-state {
-  stroke: rgba(0, 0, 128, 0.85);
-  color: #000010;
-  background-color: rgba(26, 26, 255, 0.25);
+  stroke: #1919f0;
+  color: #000066;
+  background-color: #ebebff;
 }
 
 .east-texas-baptist {
-  stroke: rgba(8, 35, 66, 0.85);
-  color: black;
-  background-color: rgba(25, 107, 202, 0.25);
+  stroke: #337fd6;
+  color: #0b305b;
+  background-color: #edf4fd;
 }
 
 .eastern-illinois {
-  stroke: rgba(0, 0, 255, 0.85);
-  color: #00008f;
-  background-color: rgba(153, 153, 255, 0.25);
+  stroke: #1919f0;
+  color: #000066;
+  background-color: #ebebff;
 }
 
 .eastern-kentucky {
-  stroke: rgba(122, 0, 25, 0.85);
-  color: #0a0002;
-  background-color: rgba(255, 20, 68, 0.25);
+  stroke: #f01945;
+  color: #660015;
+  background-color: #ffebef;
 }
 
 .eastern-michigan {
-  stroke: rgba(0, 93, 40, 0.85);
-  color: black;
-  background-color: rgba(0, 246, 106, 0.25);
+  stroke: #19f076;
+  color: #00662c;
+  background-color: #ebfff3;
 }
 
 .eastern-washington {
-  stroke: rgba(161, 0, 34, 0.85);
-  color: #31000a;
-  background-color: rgba(255, 59, 100, 0.25);
+  stroke: #f01946;
+  color: #660016;
+  background-color: #ffebef;
 }
 
 .elon {
-  stroke: rgba(102, 0, 0, 0.85);
-  color: black;
-  background-color: rgba(255, 0, 0, 0.25);
+  stroke: #f01919;
+  color: #660000;
+  background-color: #ffebeb;
 }
 
 .evansville {
-  stroke: rgba(82, 35, 127, 0.85);
-  color: #190b27;
-  background-color: rgba(159, 102, 213, 0.25);
+  stroke: #864ebb;
+  color: #341650;
+  background-color: #f5effb;
 }
 
 .fairfield {
-  stroke: rgba(196, 30, 58, 0.85);
-  color: #630f1d;
-  background-color: rgba(238, 141, 158, 0.25);
+  stroke: #d03953;
+  color: #580e1a;
+  background-color: #fcedf0;
 }
 
 .fairleigh-dickinson {
-  stroke: rgba(2, 86, 150, 0.85);
-  color: #011727;
-  background-color: rgba(53, 166, 252, 0.25);
+  stroke: #1c93ed;
+  color: #013a65;
+  background-color: #ebf6ff;
 }
 
 .ferris-state {
-  stroke: rgba(204, 0, 51, 0.85);
-  color: #5c0017;
-  background-color: rgba(255, 102, 140, 0.25);
+  stroke: #f0194f;
+  color: #66001a;
+  background-color: #ffebf0;
 }
 
 .florida {
-  stroke: rgba(255, 74, 0, 0.85);
-  color: #8f2900;
-  background-color: rgba(255, 183, 153, 0.25);
+  stroke: #f05719;
+  color: #661e00;
+  background-color: #fff1eb;
 }
 
 .florida-am {
-  stroke: rgba(244, 129, 31, 0.85);
-  color: #9b4c08;
-  background-color: rgba(251, 211, 177, 0.25);
+  stroke: #e57d24;
+  color: #612f05;
+  background-color: #fef4ec;
 }
 
 .florida-atlantic {
-  stroke: rgba(0, 51, 102, 0.85);
-  color: black;
-  background-color: rgba(0, 128, 255, 0.25);
+  stroke: #1985f0;
+  color: #003366;
+  background-color: #ebf5ff;
 }
 
 .florida-gulf-coast {
-  stroke: rgba(0, 71, 171, 0.85);
-  color: #00183b;
-  background-color: rgba(69, 146, 255, 0.25);
+  stroke: #1972f0;
+  color: #002a66;
+  background-color: #ebf3ff;
 }
 
 .florida-international {
-  stroke: rgba(0, 45, 98, 0.85);
-  color: black;
-  background-color: rgba(0, 115, 251, 0.25);
+  stroke: #197cf0;
+  color: #002f66;
+  background-color: #ebf4ff;
 }
 
 .florida-memorial {
-  stroke: rgba(8, 93, 170, 0.85);
-  color: #03223f;
-  background-color: rgba(84, 170, 247, 0.25);
+  stroke: #2489e5;
+  color: #053561;
+  background-color: #ecf5fe;
 }
 
 .florida-state {
-  stroke: rgba(153, 0, 0, 0.85);
-  color: #290000;
-  background-color: rgba(255, 51, 51, 0.25);
+  stroke: #f01919;
+  color: #660000;
+  background-color: #ffebeb;
 }
 
 .fordham {
-  stroke: rgba(118, 3, 46, 0.85);
-  color: #090003;
-  background-color: rgba(249, 25, 109, 0.25);
+  stroke: #ea1f6b;
+  color: #630327;
+  background-color: #feebf2;
 }
 
 .fresno-state {
-  stroke: rgba(154, 18, 44, 0.85);
-  color: #36060f;
-  background-color: rgba(236, 89, 117, 0.25);
+  stroke: #d73352;
+  color: #5b0b1a;
+  background-color: #fdedf0;
 }
 
 .furman {
-  stroke: rgba(107, 63, 160, 0.85);
-  color: #351f4f;
-  background-color: rgba(185, 159, 217, 0.25);
+  stroke: #815eab;
+  color: #311d49;
+  background-color: #f4f0f9;
 }
 
 .gardner-webb {
-  stroke: rgba(191, 47, 55, 0.85);
-  color: #65191d;
-  background-color: rgba(232, 160, 164, 0.25);
+  stroke: #c04950;
+  color: #521418;
+  background-color: #fbefef;
 }
 
 .george-mason {
-  stroke: rgba(0, 128, 0, 0.85);
-  color: #001000;
-  background-color: rgba(26, 255, 26, 0.25);
+  stroke: #19f019;
+  color: #006600;
+  background-color: #ebffeb;
 }
 
 .george-washington {
-  stroke: rgba(238, 207, 161, 0.85);
-  color: #dd9e42;
-  background-color: rgba(255, 255, 255, 0.25);
+  stroke: #cb923e;
+  color: #563a10;
+  background-color: #fcf6ee;
 }
 
 .georgetown {
-  stroke: rgba(0, 51, 102, 0.85);
-  color: black;
-  background-color: rgba(0, 128, 255, 0.25);
+  stroke: #1985f0;
+  color: #003366;
+  background-color: #ebf5ff;
 }
 
 .georgia {
-  stroke: rgba(255, 0, 0, 0.85);
-  color: #8f0000;
-  background-color: rgba(255, 153, 153, 0.25);
+  stroke: #f01919;
+  color: #660000;
+  background-color: #ffebeb;
 }
 
 .georgia-southern {
-  stroke: rgba(0, 0, 128, 0.85);
-  color: #000010;
-  background-color: rgba(26, 26, 255, 0.25);
+  stroke: #1919f0;
+  color: #000066;
+  background-color: #ebebff;
 }
 
 .georgia-state {
-  stroke: rgba(0, 0, 255, 0.85);
-  color: #00008f;
-  background-color: rgba(153, 153, 255, 0.25);
+  stroke: #1919f0;
+  color: #000066;
+  background-color: #ebebff;
 }
 
 .georgia-tech {
-  stroke: rgba(207, 181, 59, 0.85);
-  color: #7c6b1e;
-  background-color: rgba(237, 227, 182, 0.25);
+  stroke: #c0ab49;
+  color: #524714;
+  background-color: #fbf9ef;
 }
 
 .gonzaga {
-  stroke: rgba(255, 255, 255, 0.85);
-  color: #c7c7c7;
-  background-color: rgba(255, 255, 255, 0.25);
+  stroke: #858585;
+  color: #333333;
+  background-color: whitesmoke;
 }
 
 .grambling-state {
-  stroke: rgba(0, 0, 0, 0.85);
-  color: black;
-  background-color: rgba(77, 77, 77, 0.25);
+  stroke: #858585;
+  color: #333333;
+  background-color: whitesmoke;
 }
 
 .green-bay {
-  stroke: rgba(0, 86, 67, 0.85);
-  color: black;
-  background-color: rgba(0, 239, 186, 0.25);
+  stroke: #19f0c1;
+  color: #00664f;
+  background-color: #ebfffa;
 }
 
 .greenville {
-  stroke: rgba(245, 123, 33, 0.85);
-  color: #9f4707;
-  background-color: rgba(252, 210, 179, 0.25);
+  stroke: #e67623;
+  color: #622c04;
+  background-color: #fef3eb;
 }
 
 .hampton {
-  stroke: rgba(168, 237, 239, 0.85);
-  color: #49d9de;
-  background-color: rgba(255, 255, 255, 0.25);
+  stroke: #3fc6ca;
+  color: #105456;
+  background-color: #eefbfc;
 }
 
 .hannibal-legrange-college {
-  stroke: rgba(23, 39, 81, 0.85);
-  color: black;
-  background-color: rgba(58, 97, 199, 0.25);
+  stroke: #4f6dba;
+  color: #17264f;
+  background-color: #eff2fa;
 }
 
 .hartford {
-  stroke: rgba(255, 36, 0, 0.85);
-  color: #8f1400;
-  background-color: rgba(255, 167, 153, 0.25);
+  stroke: #f03719;
+  color: #660e00;
+  background-color: #ffedeb;
 }
 
 .harvard {
-  stroke: rgba(220, 20, 60, 0.85);
-  color: #750b20;
-  background-color: rgba(245, 148, 167, 0.25);
+  stroke: #dc2d50;
+  color: #5e091a;
+  background-color: #fdecf0;
 }
 
 .haskell {
-  stroke: rgba(101, 49, 109, 0.85);
-  color: #1d0e20;
-  background-color: rgba(183, 118, 193, 0.25);
+  stroke: #9c65a4;
+  color: #412046;
+  background-color: #f8f1f9;
 }
 
 .hawaii {
-  stroke: rgba(128, 0, 32, 0.85);
-  color: #100004;
-  background-color: rgba(255, 26, 83, 0.25);
+  stroke: #f0194f;
+  color: #66001a;
+  background-color: #ffebf0;
 }
 
 .high-point {
-  stroke: rgba(244, 123, 32, 0.85);
-  color: #9c4708;
-  background-color: rgba(251, 209, 178, 0.25);
+  stroke: #e57724;
+  color: #612c05;
+  background-color: #fef3ec;
 }
 
 .hiwassee-college {
-  stroke: rgba(101, 21, 43, 0.85);
-  color: #080203;
-  background-color: rgba(215, 60, 103, 0.25);
+  stroke: #c64367;
+  color: #541224;
+  background-color: #fbeef2;
 }
 
 .hofstra {
-  stroke: rgba(22, 0, 124, 0.85);
-  color: #02000c;
-  background-color: rgba(63, 22, 255, 0.25);
+  stroke: #3f19f0;
+  color: #120066;
+  background-color: #eeebff;
 }
 
 .holy-cross {
-  stroke: rgba(102, 0, 102, 0.85);
-  color: black;
-  background-color: rgba(255, 0, 255, 0.25);
+  stroke: #f019f0;
+  color: #660066;
+  background-color: #ffebff;
 }
 
 .houston {
-  stroke: rgba(204, 0, 0, 0.85);
-  color: #5c0000;
-  background-color: rgba(255, 102, 102, 0.25);
+  stroke: #f01919;
+  color: #660000;
+  background-color: #ffebeb;
 }
 
 .houston-baptist {
-  stroke: rgba(62, 102, 195, 0.85);
-  color: #22396e;
-  background-color: rgba(179, 195, 231, 0.25);
+  stroke: #5371b6;
+  color: #18284e;
+  background-color: #eff3fa;
 }
 
 .howard {
-  stroke: rgba(255, 0, 0, 0.85);
-  color: #8f0000;
-  background-color: rgba(255, 153, 153, 0.25);
+  stroke: #f01919;
+  color: #660000;
+  background-color: #ffebeb;
 }
 
 .huntingdon {
-  stroke: rgba(228, 26, 55, 0.85);
-  color: #7f0f1f;
-  background-color: rgba(244, 163, 174, 0.25);
+  stroke: #d7324a;
+  color: #5c0a16;
+  background-color: #fdedef;
 }
 
 .idaho {
-  stroke: rgba(192, 192, 192, 0.85);
-  color: #888888;
-  background-color: rgba(255, 255, 255, 0.25);
+  stroke: #858585;
+  color: #333333;
+  background-color: whitesmoke;
 }
 
 .idaho-state {
-  stroke: rgba(0, 0, 0, 0.85);
-  color: black;
-  background-color: rgba(77, 77, 77, 0.25);
+  stroke: #858585;
+  color: #333333;
+  background-color: whitesmoke;
 }
 
 .illinois {
-  stroke: rgba(255, 102, 0, 0.85);
-  color: #8f3900;
-  background-color: rgba(255, 194, 153, 0.25);
+  stroke: #f06f19;
+  color: #662900;
+  background-color: #fff3eb;
 }
 
 .illinois-state {
-  stroke: rgba(255, 0, 0, 0.85);
-  color: #8f0000;
-  background-color: rgba(255, 153, 153, 0.25);
+  stroke: #f01919;
+  color: #660000;
+  background-color: #ffebeb;
 }
 
 .illinois-chicago-uic {
-  stroke: rgba(172, 30, 45, 0.85);
-  color: #4c0d14;
-  background-color: rgba(232, 123, 135, 0.25);
+  stroke: #cc3d4c;
+  color: #570f17;
+  background-color: #fceeef;
 }
 
 .indiana {
-  stroke: rgba(255, 255, 204, 0.85);
-  color: #ffff5c;
-  background-color: rgba(255, 255, 255, 0.25);
+  stroke: #f0f019;
+  color: #666600;
+  background-color: #ffffeb;
 }
 
 .indiana-state {
-  stroke: rgba(15, 77, 146, 0.85);
-  color: #05172c;
-  background-color: rgba(77, 153, 237, 0.25);
+  stroke: #3080da;
+  color: #0a315c;
+  background-color: #edf4fd;
 }
 
 .iona {
-  stroke: rgba(111, 44, 63, 0.85);
-  color: #1f0c11;
-  background-color: rgba(198, 110, 135, 0.25);
+  stroke: #ab5e74;
+  color: #491d29;
+  background-color: #f9f0f3;
 }
 
 .iowa {
-  stroke: rgba(0, 0, 0, 0.85);
-  color: black;
-  background-color: rgba(77, 77, 77, 0.25);
+  stroke: #858585;
+  color: #333333;
+  background-color: whitesmoke;
 }
 
 .iowa-state {
-  stroke: rgba(167, 25, 48, 0.85);
-  color: #450a14;
-  background-color: rgba(234, 111, 131, 0.25);
+  stroke: #d03951;
+  color: #590d1a;
+  background-color: #fcedf0;
 }
 
 .ipfw {
-  stroke: rgba(65, 105, 225, 0.85);
-  color: #18399a;
-  background-color: rgba(197, 209, 246, 0.25);
+  stroke: #3a5fcf;
+  color: #0e2058;
+  background-color: #edf1fc;
 }
 
 .iupui {
-  stroke: rgba(153, 0, 0, 0.85);
-  color: #290000;
-  background-color: rgba(255, 51, 51, 0.25);
+  stroke: #f01919;
+  color: #660000;
+  background-color: #ffebeb;
 }
 
 .jackson-state {
-  stroke: rgba(9, 33, 131, 0.85);
-  color: #02071a;
-  background-color: rgba(52, 89, 241, 0.25);
+  stroke: #294de1;
+  color: #07185f;
+  background-color: #eceffe;
 }
 
 .jacksonville {
-  stroke: rgba(33, 94, 33, 0.85);
-  color: #040b04;
-  background-color: rgba(85, 195, 85, 0.25);
+  stroke: #58b158;
+  color: #1b4b1b;
+  background-color: #f0faf0;
 }
 
 .jacksonville-state {
-  stroke: rgba(160, 38, 67, 0.85);
-  color: #45101d;
-  background-color: rgba(224, 127, 150, 0.25);
+  stroke: #c14865;
+  color: #521423;
+  background-color: #fbeff2;
 }
 
 .james-madison {
-  stroke: rgba(194, 161, 77, 0.85);
-  color: #766029;
-  background-color: rgba(233, 221, 191, 0.25);
+  stroke: #b29857;
+  color: #4c3e1a;
+  background-color: #faf7f0;
 }
 
 .kansas {
-  stroke: rgba(0, 73, 174, 0.85);
-  color: #001a3e;
-  background-color: rgba(72, 149, 255, 0.25);
+  stroke: #1973f0;
+  color: #002b66;
+  background-color: #ebf3ff;
 }
 
 .kansas-state {
-  stroke: rgba(104, 33, 122, 0.85);
-  color: #1d0922;
-  background-color: rgba(189, 96, 212, 0.25);
+  stroke: #a64dbc;
+  color: #441650;
+  background-color: #f8effb;
 }
 
 .kennesaw-state {
-  stroke: rgba(254, 188, 17, 0.85);
-  color: #9e7201;
-  background-color: rgba(255, 231, 169, 0.25);
+  stroke: #efb41a;
+  color: #664900;
+  background-color: #fff9eb;
 }
 
 .kent-state {
-  stroke: rgba(10, 13, 111, 0.85);
-  color: #010108;
-  background-color: rgba(39, 44, 235, 0.25);
+  stroke: #2d32dc;
+  color: #080b5e;
+  background-color: #ecedfd;
 }
 
 .kentucky {
-  stroke: rgba(0, 64, 122, 0.85);
-  color: #00050a;
-  background-color: rgba(20, 143, 255, 0.25);
+  stroke: #198af0;
+  color: #003666;
+  background-color: #ebf5ff;
 }
 
 .la-salle {
-  stroke: rgba(0, 56, 107, 0.85);
-  color: black;
-  background-color: rgba(5, 136, 255, 0.25);
+  stroke: #198af0;
+  color: #003566;
+  background-color: #ebf5ff;
 }
 
 .la-sierra-university {
-  stroke: rgba(20, 47, 70, 0.85);
-  color: black;
-  background-color: rgba(54, 127, 189, 0.25);
+  stroke: #4f89ba;
+  color: #17354f;
+  background-color: #eff5fa;
 }
 
 .lafayette {
-  stroke: rgba(128, 0, 0, 0.85);
-  color: #100000;
-  background-color: rgba(255, 26, 26, 0.25);
+  stroke: #f01919;
+  color: #660000;
+  background-color: #ffebeb;
 }
 
 .lamar {
-  stroke: rgba(255, 34, 34, 0.85);
-  color: #b10000;
-  background-color: rgba(255, 187, 187, 0.25);
+  stroke: #f01919;
+  color: #660000;
+  background-color: #ffebeb;
 }
 
 .lehigh {
-  stroke: rgba(103, 57, 26, 0.85);
-  color: #0d0703;
-  background-color: rgba(209, 128, 73, 0.25);
+  stroke: #bf794a;
+  color: #512d15;
+  background-color: #fbf4ef;
 }
 
 .liberty {
-  stroke: rgba(0, 0, 128, 0.85);
-  color: #000010;
-  background-color: rgba(26, 26, 255, 0.25);
+  stroke: #1919f0;
+  color: #000066;
+  background-color: #ebebff;
 }
 
 .lipscomb {
-  stroke: rgba(51, 30, 84, 0.85);
-  color: #010001;
-  background-color: rgba(121, 76, 191, 0.25);
+  stroke: #7b59b0;
+  color: #2e1b4b;
+  background-color: #f4f0fa;
 }
 
 .liu-brooklyn {
-  stroke: rgba(41, 76, 135, 0.85);
-  color: #0f1c31;
-  background-color: rgba(116, 152, 213, 0.25);
+  stroke: #5278b7;
+  color: #182c4e;
+  background-color: #eff3fa;
 }
 
 .long-beach-state {
-  stroke: rgba(255, 200, 42, 0.85);
-  color: #b98900;
-  background-color: rgba(255, 240, 195, 0.25);
+  stroke: #f0b919;
+  color: #664c00;
+  background-color: #fffaeb;
 }
 
 .long-island {
-  stroke: rgba(204, 204, 255, 0.85);
-  color: #5c5cff;
-  background-color: rgba(255, 255, 255, 0.25);
+  stroke: #1919f0;
+  color: #000066;
+  background-color: #ebebff;
 }
 
 .longwood {
-  stroke: rgba(45, 51, 142, 0.85);
-  color: #121439;
-  background-color: rgba(126, 131, 214, 0.25);
+  stroke: #545ab5;
+  color: #191c4d;
+  background-color: #f0f0fa;
 }
 
 .los-angeles-tech {
-  stroke: rgba(209, 33, 51, 0.85);
-  color: #70121b;
-  background-color: rgba(239, 156, 164, 0.25);
+  stroke: #cf3a49;
+  color: #580e15;
+  background-color: #fcedef;
 }
 
 .louisiana-college {
-  stroke: rgba(39, 58, 125, 0.85);
-  color: #0c1227;
-  background-color: rgba(108, 130, 209, 0.25);
+  stroke: #5369b6;
+  color: #18244e;
+  background-color: #eff2fa;
 }
 
 .louisiana-tech {
-  stroke: rgba(0, 47, 139, 0.85);
-  color: #00091b;
-  background-color: rgba(37, 111, 255, 0.25);
+  stroke: #1962f0;
+  color: #002266;
+  background-color: #ebf1ff;
 }
 
 .louisiana {
-  stroke: rgba(160, 11, 11, 0.85);
-  color: #370404;
-  background-color: rgba(243, 81, 81, 0.25);
+  stroke: #e12929;
+  color: #5f0707;
+  background-color: #feecec;
 }
 
 .la-monroe {
-  stroke: rgba(128, 0, 0, 0.85);
-  color: #100000;
-  background-color: rgba(255, 26, 26, 0.25);
+  stroke: #f01919;
+  color: #660000;
+  background-color: #ffebeb;
 }
 
 .louisville {
-  stroke: rgba(173, 0, 0, 0.85);
-  color: #3d0000;
-  background-color: rgba(255, 71, 71, 0.25);
+  stroke: #f01919;
+  color: #660000;
+  background-color: #ffebeb;
 }
 
 .loyola-marymount {
-  stroke: rgba(204, 17, 17, 0.85);
-  color: #640808;
-  background-color: rgba(245, 129, 129, 0.25);
+  stroke: #dd2c2c;
+  color: #5e0808;
+  background-color: #fdecec;
 }
 
 .loyola-chicago {
-  stroke: rgba(146, 34, 71, 0.85);
-  color: #370d1b;
-  background-color: rgba(222, 111, 148, 0.25);
+  stroke: #c24770;
+  color: #531328;
+  background-color: #fbeef3;
 }
 
 .lsu {
-  stroke: rgba(70, 29, 124, 0.85);
-  color: #130821;
-  background-color: rgba(144, 90, 216, 0.25);
+  stroke: #7c47c2;
+  color: #2f1353;
+  background-color: #f4eefb;
 }
 
 .lsu-shreveport {
-  stroke: rgba(70, 29, 124, 0.85);
-  color: #130821;
-  background-color: rgba(144, 90, 216, 0.25);
+  stroke: #7c47c2;
+  color: #2f1353;
+  background-color: #f4eefb;
 }
 
 .lyndon-state {
-  stroke: rgba(0, 71, 18, 0.85);
-  color: black;
-  background-color: rgba(0, 224, 57, 0.25);
+  stroke: #19f050;
+  color: #00661a;
+  background-color: #ebfff0;
 }
 
 .maine {
-  stroke: rgba(0, 36, 77, 0.85);
-  color: black;
-  background-color: rgba(0, 108, 230, 0.25);
+  stroke: #197ef0;
+  color: #003066;
+  background-color: #ebf4ff;
 }
 
 .manhattan {
-  stroke: rgba(0, 71, 171, 0.85);
-  color: #00183b;
-  background-color: rgba(69, 146, 255, 0.25);
+  stroke: #1972f0;
+  color: #002a66;
+  background-color: #ebf3ff;
 }
 
 .marist {
-  stroke: rgba(153, 0, 0, 0.85);
-  color: #290000;
-  background-color: rgba(255, 51, 51, 0.25);
+  stroke: #f01919;
+  color: #660000;
+  background-color: #ffebeb;
 }
 
 .marquette {
-  stroke: rgba(0, 56, 109, 0.85);
-  color: black;
-  background-color: rgba(7, 134, 255, 0.25);
+  stroke: #1988f0;
+  color: #003466;
+  background-color: #ebf5ff;
 }
 
 .marshall {
-  stroke: rgba(0, 128, 0, 0.85);
-  color: #001000;
-  background-color: rgba(26, 255, 26, 0.25);
+  stroke: #19f019;
+  color: #006600;
+  background-color: #ebffeb;
 }
 
 .maryland {
-  stroke: rgba(206, 17, 38, 0.85);
-  color: #660813;
-  background-color: rgba(245, 131, 144, 0.25);
+  stroke: #de2c3f;
+  color: #5e0811;
+  background-color: #fdecee;
 }
 
 .maryland-eastern-shore {
-  stroke: rgba(101, 29, 50, 0.85);
-  color: #0e0407;
-  background-color: rgba(204, 79, 115, 0.25);
+  stroke: #ba4f6e;
+  color: #4f1727;
+  background-color: #faeff2;
 }
 
 .marywood {
-  stroke: rgba(1, 90, 32, 0.85);
-  color: black;
-  background-color: rgba(3, 241, 86, 0.25);
+  stroke: #1cee65;
+  color: #016524;
+  background-color: #ebfff2;
 }
 
 .massachusetts {
-  stroke: rgba(136, 28, 28, 0.85);
-  color: #2b0909;
-  background-color: rgba(222, 95, 95, 0.25);
+  stroke: #c74343;
+  color: #551111;
+  background-color: #fceeee;
 }
 
 .mcneese-state {
-  stroke: rgba(8, 28, 144, 0.85);
-  color: #020726;
-  background-color: rgba(61, 88, 244, 0.25);
+  stroke: #2642e3;
+  color: #051361;
+  background-color: #eceefe;
 }
 
 .memphis {
-  stroke: rgba(12, 28, 140, 0.85);
-  color: #030725;
-  background-color: rgba(66, 88, 239, 0.25);
+  stroke: #2c42dd;
+  color: #08135e;
+  background-color: #eceefd;
 }
 
 .mercer {
-  stroke: rgba(232, 117, 17, 0.85);
-  color: #7f4009;
-  background-color: rgba(248, 198, 154, 0.25);
+  stroke: #e07e2a;
+  color: #5f3007;
+  background-color: #fef4ec;
 }
 
 .miami-fla {
-  stroke: rgba(170, 204, 255, 0.85);
-  color: #3a89ff;
-  background-color: rgba(255, 255, 255, 0.25);
+  stroke: #196ff0;
+  color: #002966;
+  background-color: #ebf3ff;
 }
 
 .miami-oh {
-  stroke: rgba(182, 30, 46, 0.85);
-  color: #560e16;
-  background-color: rgba(234, 131, 141, 0.25);
+  stroke: #ce3c4b;
+  color: #580e16;
+  background-color: #fcedef;
 }
 
 .michigan {
-  stroke: rgba(245, 209, 48, 0.85);
-  color: #ac8e08;
-  background-color: rgba(252, 241, 194, 0.25);
+  stroke: #e5c224;
+  color: #615005;
+  background-color: #fefbec;
 }
 
 .michigan-state {
-  stroke: rgba(24, 69, 59, 0.85);
-  color: black;
-  background-color: rgba(63, 183, 156, 0.25);
+  stroke: #58b19d;
+  color: #1a4c41;
+  background-color: #f0faf8;
 }
 
 .middle-tennessee {
-  stroke: rgba(0, 64, 122, 0.85);
-  color: #00050a;
-  background-color: rgba(20, 143, 255, 0.25);
+  stroke: #198af0;
+  color: #003666;
+  background-color: #ebf5ff;
 }
 
 .milwaukee {
-  stroke: rgba(153, 204, 255, 0.85);
-  color: #2994ff;
-  background-color: rgba(255, 255, 255, 0.25);
+  stroke: #1985f0;
+  color: #003366;
+  background-color: #ebf5ff;
 }
 
 .minnesota {
-  stroke: rgba(128, 0, 0, 0.85);
-  color: #100000;
-  background-color: rgba(255, 26, 26, 0.25);
+  stroke: #f01919;
+  color: #660000;
+  background-color: #ffebeb;
 }
 
 .minot-state {
-  stroke: rgba(198, 12, 48, 0.85);
-  color: #5c0616;
-  background-color: rgba(247, 116, 142, 0.25);
+  stroke: #e2274b;
+  color: #600617;
+  background-color: #feecef;
 }
 
 .mississippi {
-  stroke: rgba(200, 16, 46, 0.85);
-  color: #600816;
-  background-color: rgba(245, 124, 144, 0.25);
+  stroke: #de2b48;
+  color: #5e0816;
+  background-color: #fdecef;
 }
 
 .mississippi-college {
-  stroke: rgba(0, 48, 92, 0.85);
-  color: black;
-  background-color: rgba(0, 128, 245, 0.25);
+  stroke: #1989f0;
+  color: #003566;
+  background-color: #ebf5ff;
 }
 
 .mississippi-st {
-  stroke: rgba(102, 0, 0, 0.85);
-  color: black;
-  background-color: rgba(255, 0, 0, 0.25);
+  stroke: #f01919;
+  color: #660000;
+  background-color: #ffebeb;
 }
 
 .mississippi-valley-state {
-  stroke: rgba(4, 106, 56, 0.85);
-  color: black;
-  background-color: rgba(17, 246, 134, 0.25);
+  stroke: #22e787;
+  color: #046234;
+  background-color: #ebfef5;
 }
 
 .missouri {
-  stroke: rgba(241, 184, 45, 0.85);
-  color: #a3770b;
-  background-color: rgba(251, 232, 188, 0.25);
+  stroke: #e1ab28;
+  color: #604606;
+  background-color: #fef9ec;
 }
 
 .missouri-state {
-  stroke: rgba(129, 5, 65, 0.85);
-  color: #15010b;
-  background-color: rgba(247, 40, 140, 0.25);
+  stroke: #e72281;
+  color: #620431;
+  background-color: #feebf4;
 }
 
 .monmouth {
-  stroke: rgba(24, 110, 209, 0.85);
-  color: #0c396c;
-  background-color: rgba(144, 190, 242, 0.25);
+  stroke: #327fd7;
+  color: #0b305b;
+  background-color: #edf4fd;
 }
 
 .montana {
-  stroke: rgba(102, 0, 51, 0.85);
-  color: black;
-  background-color: rgba(255, 0, 128, 0.25);
+  stroke: #f01985;
+  color: #660033;
+  background-color: #ffebf5;
 }
 
 .montana-state {
-  stroke: rgba(10, 31, 98, 0.85);
-  color: black;
-  background-color: rgba(29, 77, 232, 0.25);
+  stroke: #3058da;
+  color: #091d5d;
+  background-color: #ecf0fd;
 }
 
 .montana-western {
-  stroke: rgba(225, 3, 4, 0.85);
-  color: #720202;
-  background-color: rgba(253, 128, 128, 0.25);
+  stroke: #ed1c1d;
+  color: #650102;
+  background-color: #ffebeb;
 }
 
 .morehead-state {
-  stroke: rgba(237, 213, 166, 0.85);
-  color: #daa949;
-  background-color: rgba(255, 255, 255, 0.25);
+  stroke: #c79a42;
+  color: #553e11;
+  background-color: #fcf7ee;
 }
 
 .morgan-state {
-  stroke: rgba(255, 140, 0, 0.85);
-  color: #8f4e00;
-  background-color: rgba(255, 209, 153, 0.25);
+  stroke: #f08f19;
+  color: #663800;
+  background-color: #fff6eb;
 }
 
 .morris-college {
-  stroke: rgba(0, 104, 179, 0.85);
-  color: #002743;
-  background-color: rgba(77, 180, 255, 0.25);
+  stroke: #1996f0;
+  color: #003b66;
+  background-color: #ebf6ff;
 }
 
 .mount-st-marys {
-  stroke: rgba(44, 78, 135, 0.85);
-  color: #101d32;
-  background-color: rgba(121, 155, 211, 0.25);
+  stroke: #5579b4;
+  color: #192c4d;
+  background-color: #f0f3fa;
 }
 
 .murray-state {
-  stroke: rgba(0, 0, 51, 0.85);
-  color: black;
-  background-color: rgba(0, 0, 204, 0.25);
+  stroke: #1919f0;
+  color: #000066;
+  background-color: #ebebff;
 }
 
 .njit {
-  stroke: rgba(209, 23, 23, 0.85);
-  color: #6c0c0c;
-  background-color: rgba(243, 142, 142, 0.25);
+  stroke: #d83131;
+  color: #5c0a0a;
+  background-color: #fdeded;
 }
 
 .navy {
-  stroke: rgba(0, 0, 128, 0.85);
-  color: #000010;
-  background-color: rgba(26, 26, 255, 0.25);
+  stroke: #1919f0;
+  color: #000066;
+  background-color: #ebebff;
 }
 
 .nebraska {
-  stroke: rgba(255, 36, 0, 0.85);
-  color: #8f1400;
-  background-color: rgba(255, 167, 153, 0.25);
+  stroke: #f03719;
+  color: #660e00;
+  background-color: #ffedeb;
 }
 
 .nevada {
-  stroke: rgba(0, 41, 97, 0.85);
-  color: black;
-  background-color: rgba(0, 106, 250, 0.25);
+  stroke: #1974f0;
+  color: #002b66;
+  background-color: #ebf3ff;
 }
 
 .new-hampshire {
-  stroke: rgba(0, 51, 127, 0.85);
-  color: #00060f;
-  background-color: rgba(25, 117, 255, 0.25);
+  stroke: #196ff0;
+  color: #002966;
+  background-color: #ebf3ff;
 }
 
 .new-mexico {
-  stroke: rgba(204, 204, 204, 0.85);
-  color: #949494;
-  background-color: rgba(255, 255, 255, 0.25);
+  stroke: #858585;
+  color: #333333;
+  background-color: whitesmoke;
 }
 
 .new-mexico-state {
-  stroke: rgba(128, 0, 32, 0.85);
-  color: #100004;
-  background-color: rgba(255, 26, 83, 0.25);
+  stroke: #f0194f;
+  color: #66001a;
+  background-color: #ffebf0;
 }
 
 .new-orleans {
-  stroke: rgba(0, 51, 153, 0.85);
-  color: #000e29;
-  background-color: rgba(51, 119, 255, 0.25);
+  stroke: #1961f0;
+  color: #002266;
+  background-color: #ebf1ff;
 }
 
 .niagara {
-  stroke: rgba(88, 44, 131, 0.85);
-  color: #20102f;
-  background-color: rgba(165, 119, 209, 0.25);
+  stroke: #8556b3;
+  color: #331a4c;
+  background-color: #f5f0fa;
 }
 
 .nicholls-state {
-  stroke: rgba(8, 28, 144, 0.85);
-  color: #020726;
-  background-color: rgba(61, 88, 244, 0.25);
+  stroke: #2642e3;
+  color: #051361;
+  background-color: #eceefe;
 }
 
 .norfolk-state {
-  stroke: rgba(105, 0, 92, 0.85);
-  color: black;
-  background-color: rgba(255, 3, 224, 0.25);
+  stroke: #f019d6;
+  color: #660059;
+  background-color: #ffebfc;
 }
 
 .north-alabama {
-  stroke: rgba(70, 22, 107, 0.85);
-  color: #09030e;
-  background-color: rgba(151, 66, 216, 0.25);
+  stroke: #8d43c7;
+  color: #371155;
+  background-color: #f6eefc;
 }
 
 .north-carolina {
-  stroke: rgba(102, 153, 204, 0.85);
-  color: #306191;
-  background-color: rgba(217, 230, 242, 0.25);
+  stroke: #5685b3;
+  color: #1a334d;
+  background-color: #f0f5fa;
 }
 
 .north-carolina-at {
-  stroke: rgba(0, 70, 132, 0.85);
-  color: #000b14;
-  background-color: rgba(30, 149, 255, 0.25);
+  stroke: #198bf0;
+  color: #003666;
+  background-color: #ebf5ff;
 }
 
 .north-carolina-central {
-  stroke: rgba(106, 44, 62, 0.85);
-  color: #1b0b10;
-  background-color: rgba(194, 109, 134, 0.25);
+  stroke: #a96176;
+  color: #481e2a;
+  background-color: #f9f1f3;
 }
 
 .north-carolina-state {
-  stroke: rgba(224, 0, 0, 0.85);
-  color: #700000;
-  background-color: rgba(255, 122, 122, 0.25);
+  stroke: #f01919;
+  color: #660000;
+  background-color: #ffebeb;
 }
 
 .north-carolina-asheville {
-  stroke: rgba(0, 61, 165, 0.85);
-  color: #001435;
-  background-color: rgba(63, 134, 255, 0.25);
+  stroke: #1969f0;
+  color: #002666;
+  background-color: #ebf2ff;
 }
 
 .north-carolina-wilmington {
-  stroke: rgba(0, 102, 102, 0.85);
-  color: black;
-  background-color: rgba(0, 255, 255, 0.25);
+  stroke: #19f0f0;
+  color: #006666;
+  background-color: #ebffff;
 }
 
 .north-dakota {
-  stroke: rgba(0, 160, 0, 0.85);
-  color: #003000;
-  background-color: rgba(58, 255, 58, 0.25);
+  stroke: #19f019;
+  color: #006600;
+  background-color: #ebffeb;
 }
 
 .north-dakota-state {
-  stroke: rgba(10, 86, 64, 0.85);
-  color: black;
-  background-color: rgba(26, 223, 166, 0.25);
+  stroke: #32d7a7;
+  color: #0b5b44;
+  background-color: #edfdf8;
 }
 
 .north-florida {
-  stroke: rgba(0, 36, 107, 0.85);
-  color: black;
-  background-color: rgba(5, 89, 255, 0.25);
+  stroke: #1961f0;
+  color: #002266;
+  background-color: #ebf1ff;
 }
 
 .north-texas {
-  stroke: rgba(5, 144, 51, 0.85);
-  color: #01240d;
-  background-color: rgba(54, 248, 118, 0.25);
+  stroke: #21e863;
+  color: #036323;
+  background-color: #ebfef2;
 }
 
 .northeastern {
-  stroke: rgba(0, 0, 0, 0.85);
-  color: black;
-  background-color: rgba(77, 77, 77, 0.25);
+  stroke: #858585;
+  color: #333333;
+  background-color: whitesmoke;
 }
 
 .northern-arizona {
-  stroke: rgba(0, 51, 102, 0.85);
-  color: black;
-  background-color: rgba(0, 128, 255, 0.25);
+  stroke: #1985f0;
+  color: #003366;
+  background-color: #ebf5ff;
 }
 
 .northern-colorado {
-  stroke: rgba(1, 60, 101, 0.85);
-  color: black;
-  background-color: rgba(3, 150, 253, 0.25);
+  stroke: #1b98ee;
+  color: #013c65;
+  background-color: #ebf7ff;
 }
 
 .northern-illinois {
-  stroke: rgba(0, 0, 0, 0.85);
-  color: black;
-  background-color: rgba(77, 77, 77, 0.25);
+  stroke: #858585;
+  color: #333333;
+  background-color: whitesmoke;
 }
 
 .northern-iowa {
-  stroke: rgba(102, 0, 153, 0.85);
-  color: #1b0029;
-  background-color: rgba(187, 51, 255, 0.25);
+  stroke: #a919f0;
+  color: #440066;
+  background-color: #f8ebff;
 }
 
 .northwestern {
-  stroke: rgba(67, 31, 129, 0.85);
-  color: #140927;
-  background-color: rgba(140, 96, 217, 0.25);
+  stroke: #7548c1;
+  color: #2b1452;
+  background-color: #f3effb;
 }
 
 .northwestern-state {
-  stroke: rgba(102, 0, 153, 0.85);
-  color: #1b0029;
-  background-color: rgba(187, 51, 255, 0.25);
+  stroke: #a919f0;
+  color: #440066;
+  background-color: #f8ebff;
 }
 
 .notre-dame {
-  stroke: rgba(197, 179, 88, 0.85);
-  color: #80722d;
-  background-color: rgba(236, 231, 202, 0.25);
+  stroke: #b1a258;
+  color: #4c441a;
+  background-color: #faf8f0;
 }
 
 .nyc-tech {
-  stroke: rgba(60, 91, 165, 0.85);
-  color: #1e2e53;
-  background-color: rgba(158, 176, 220, 0.25);
+  stroke: #5a73af;
+  color: #1b294b;
+  background-color: #f0f3fa;
 }
 
 .oakland {
-  stroke: rgba(0, 0, 0, 0.85);
-  color: black;
-  background-color: rgba(77, 77, 77, 0.25);
+  stroke: #858585;
+  color: #333333;
+  background-color: whitesmoke;
 }
 
 .ohio {
-  stroke: rgba(0, 102, 51, 0.85);
-  color: black;
-  background-color: rgba(0, 255, 128, 0.25);
+  stroke: #19f085;
+  color: #006633;
+  background-color: #ebfff5;
 }
 
 .ohio-state {
-  stroke: rgba(255, 32, 0, 0.85);
-  color: #8f1200;
-  background-color: rgba(255, 166, 153, 0.25);
+  stroke: #f03419;
+  color: #660d00;
+  background-color: #ffedeb;
 }
 
 .oklahoma {
-  stroke: rgba(150, 0, 24, 0.85);
-  color: #260006;
-  background-color: rgba(255, 48, 81, 0.25);
+  stroke: #f0193b;
+  color: #660010;
+  background-color: #ffebee;
 }
 
 .oklahoma-state {
-  stroke: rgba(255, 102, 0, 0.85);
-  color: #8f3900;
-  background-color: rgba(255, 194, 153, 0.25);
+  stroke: #f06f19;
+  color: #662900;
+  background-color: #fff3eb;
 }
 
 .old-dominion {
-  stroke: rgba(0, 43, 95, 0.85);
-  color: black;
-  background-color: rgba(0, 112, 248, 0.25);
+  stroke: #197af0;
+  color: #002e66;
+  background-color: #ebf4ff;
 }
 
 .olivet-nazarene {
-  stroke: rgba(56, 24, 83, 0.85);
-  color: black;
-  background-color: rgba(136, 61, 199, 0.25);
+  stroke: #8950b9;
+  color: #35174f;
+  background-color: #f5effa;
 }
 
 .oral-roberts {
-  stroke: rgba(207, 181, 59, 0.85);
-  color: #7c6b1e;
-  background-color: rgba(237, 227, 182, 0.25);
+  stroke: #c0ab49;
+  color: #524714;
+  background-color: #fbf9ef;
 }
 
 .oregon {
-  stroke: rgba(0, 102, 102, 0.85);
-  color: black;
-  background-color: rgba(0, 255, 255, 0.25);
+  stroke: #19f0f0;
+  color: #006666;
+  background-color: #ebffff;
 }
 
 .oregon-state {
-  stroke: rgba(204, 85, 0, 0.85);
-  color: #5c2600;
-  background-color: rgba(255, 166, 102, 0.25);
+  stroke: #f07319;
+  color: #662b00;
+  background-color: #fff3eb;
 }
 
 .pacific {
-  stroke: rgba(255, 102, 0, 0.85);
-  color: #8f3900;
-  background-color: rgba(255, 194, 153, 0.25);
+  stroke: #f06f19;
+  color: #662900;
+  background-color: #fff3eb;
 }
 
 .panhandle-state-opsu {
-  stroke: rgba(200, 16, 46, 0.85);
-  color: #600816;
-  background-color: rgba(245, 124, 144, 0.25);
+  stroke: #de2b48;
+  color: #5e0816;
+  background-color: #fdecef;
 }
 
 .penn-state {
-  stroke: rgba(22, 41, 82, 0.85);
-  color: black;
-  background-color: rgba(56, 102, 201, 0.25);
+  stroke: #4d70bd;
+  color: #162850;
+  background-color: #eff3fb;
 }
 
 .pennsylvania {
-  stroke: rgba(153, 0, 0, 0.85);
-  color: #290000;
-  background-color: rgba(255, 51, 51, 0.25);
+  stroke: #f01919;
+  color: #660000;
+  background-color: #ffebeb;
 }
 
 .pepperdine {
-  stroke: rgba(0, 0, 255, 0.85);
-  color: #00008f;
-  background-color: rgba(153, 153, 255, 0.25);
+  stroke: #1919f0;
+  color: #000066;
+  background-color: #ebebff;
 }
 
 .pittsburgh {
-  stroke: rgba(9, 28, 68, 0.85);
-  color: black;
-  background-color: rgba(27, 84, 203, 0.25);
+  stroke: #3668d4;
+  color: #0c255a;
+  background-color: #edf2fd;
 }
 
 .portland {
-  stroke: rgba(70, 29, 124, 0.85);
-  color: #130821;
-  background-color: rgba(144, 90, 216, 0.25);
+  stroke: #7c47c2;
+  color: #2f1353;
+  background-color: #f4eefb;
 }
 
 .portland-state {
-  stroke: rgba(2, 70, 29, 0.85);
-  color: black;
-  background-color: rgba(6, 219, 91, 0.25);
+  stroke: #20ea70;
+  color: #036329;
+  background-color: #ebfef3;
 }
 
 .prairie-view {
-  stroke: rgba(79, 37, 130, 0.85);
-  color: #1a0c2b;
-  background-color: rgba(155, 107, 213, 0.25);
+  stroke: #7f4fba;
+  color: #30174f;
+  background-color: #f4effa;
 }
 
 .prairie-view-am {
-  stroke: rgba(79, 37, 130, 0.85);
-  color: #1a0c2b;
-  background-color: rgba(155, 107, 213, 0.25);
+  stroke: #7f4fba;
+  color: #30174f;
+  background-color: #f4effa;
 }
 
 .presbyterian {
-  stroke: rgba(0, 96, 169, 0.85);
-  color: #002039;
-  background-color: rgba(67, 174, 255, 0.25);
+  stroke: #1993f0;
+  color: #003a66;
+  background-color: #ebf6ff;
 }
 
 .princeton {
-  stroke: rgba(255, 102, 0, 0.85);
-  color: #8f3900;
-  background-color: rgba(255, 194, 153, 0.25);
+  stroke: #f06f19;
+  color: #662900;
+  background-color: #fff3eb;
 }
 
 .providence {
-  stroke: rgba(0, 0, 0, 0.85);
-  color: black;
-  background-color: rgba(77, 77, 77, 0.25);
+  stroke: #858585;
+  color: #333333;
+  background-color: whitesmoke;
 }
 
 .purdue {
-  stroke: rgba(177, 148, 108, 0.85);
-  color: #715b3c;
-  background-color: rgba(230, 221, 208, 0.25);
+  stroke: #9b886e;
+  color: #433523;
+  background-color: #f8f5f2;
 }
 
 .purdue-calumet {
-  stroke: rgba(0, 0, 0, 0.85);
-  color: black;
-  background-color: rgba(77, 77, 77, 0.25);
+  stroke: #858585;
+  color: #333333;
+  background-color: whitesmoke;
 }
 
 .quinnipiac {
-  stroke: rgba(0, 54, 100, 0.85);
-  color: black;
-  background-color: rgba(0, 137, 253, 0.25);
+  stroke: #198df0;
+  color: #003766;
+  background-color: #ebf6ff;
 }
 
 .radford {
-  stroke: rgba(244, 123, 32, 0.85);
-  color: #9c4708;
-  background-color: rgba(251, 209, 178, 0.25);
+  stroke: #e57724;
+  color: #612c05;
+  background-color: #fef3ec;
 }
 
 .rhode-island {
-  stroke: rgba(117, 178, 221, 0.85);
-  color: #2d7db5;
-  background-color: rgba(240, 246, 251, 0.25);
+  stroke: #498fc0;
+  color: #143852;
+  background-color: #eff6fb;
 }
 
 .rice {
-  stroke: rgba(0, 36, 105, 0.85);
-  color: black;
-  background-color: rgba(3, 89, 255, 0.25);
+  stroke: #1963f0;
+  color: #002366;
+  background-color: #ebf2ff;
 }
 
 .richmond {
-  stroke: rgba(0, 0, 102, 0.85);
-  color: black;
-  background-color: rgba(0, 0, 255, 0.25);
+  stroke: #1919f0;
+  color: #000066;
+  background-color: #ebebff;
 }
 
 .rider {
-  stroke: rgba(187, 0, 0, 0.85);
-  color: #4b0000;
-  background-color: rgba(255, 85, 85, 0.25);
+  stroke: #f01919;
+  color: #660000;
+  background-color: #ffebeb;
 }
 
 .robert-morris {
-  stroke: rgba(0, 0, 100, 0.85);
-  color: black;
-  background-color: rgba(0, 0, 253, 0.25);
+  stroke: #1919f0;
+  color: #000066;
+  background-color: #ebebff;
 }
 
 .robert-morris-illinois {
-  stroke: rgba(111, 38, 61, 0.85);
-  color: #1b090f;
-  background-color: rgba(202, 100, 132, 0.25);
+  stroke: #b25774;
+  color: #4c1a2a;
+  background-color: #faf0f3;
 }
 
 .rutgers {
-  stroke: rgba(207, 0, 21, 0.85);
-  color: #5f000a;
-  background-color: rgba(255, 105, 120, 0.25);
+  stroke: #f0192f;
+  color: #66000a;
+  background-color: #ffebed;
 }
 
 .sacramento-state {
-  stroke: rgba(0, 86, 60, 0.85);
-  color: black;
-  background-color: rgba(0, 239, 167, 0.25);
+  stroke: #19f0af;
+  color: #006647;
+  background-color: #ebfff9;
 }
 
 .sacred-heart {
-  stroke: rgba(178, 34, 34, 0.85);
-  color: #541010;
-  background-color: rgba(232, 133, 133, 0.25);
+  stroke: #c94040;
+  color: #561010;
+  background-color: #fceeee;
 }
 
 .saint-josephs {
-  stroke: rgba(158, 27, 50, 0.85);
-  color: #3e0b14;
-  background-color: rgba(230, 108, 129, 0.25);
+  stroke: #cd3d56;
+  color: #570f1c;
+  background-color: #fceef0;
 }
 
 .saint-louis {
-  stroke: rgba(0, 0, 255, 0.85);
-  color: #00008f;
-  background-color: rgba(153, 153, 255, 0.25);
+  stroke: #1919f0;
+  color: #000066;
+  background-color: #ebebff;
 }
 
 .saint-marys {
-  stroke: rgba(228, 29, 37, 0.85);
-  color: #810f14;
-  background-color: rgba(244, 166, 169, 0.25);
+  stroke: #d6333a;
+  color: #5b0b0e;
+  background-color: #fdeded;
 }
 
 .sam-houston-state {
-  stroke: rgba(88, 88, 250, 0.85);
-  color: #0707db;
-  background-color: rgba(237, 237, 254, 0.25);
+  stroke: #2020e9;
+  color: #030363;
+  background-color: #ebebfe;
 }
 
 .samford {
-  stroke: rgba(202, 16, 9, 0.85);
-  color: #5f0704;
-  background-color: rgba(249, 120, 115, 0.25);
+  stroke: #e62a23;
+  color: #620804;
+  background-color: #feeceb;
 }
 
 .san-diego {
-  stroke: rgba(0, 49, 173, 0.85);
-  color: #00113d;
-  background-color: rgba(71, 123, 255, 0.25);
+  stroke: #1956f0;
+  color: #001d66;
+  background-color: #ebf0ff;
 }
 
 .san-diego-state {
-  stroke: rgba(168, 25, 51, 0.85);
-  color: #460a15;
-  background-color: rgba(234, 112, 134, 0.25);
+  stroke: #d13954;
+  color: #590d1b;
+  background-color: #fcedf0;
 }
 
 .san-francisco {
-  stroke: rgba(0, 102, 51, 0.85);
-  color: black;
-  background-color: rgba(0, 255, 128, 0.25);
+  stroke: #19f085;
+  color: #006633;
+  background-color: #ebfff5;
 }
 
 .san-jose-state {
-  stroke: rgba(199, 153, 0, 0.85);
-  color: #574300;
-  background-color: rgba(255, 218, 97, 0.25);
+  stroke: #f0bf19;
+  color: #664e00;
+  background-color: #fffaeb;
 }
 
 .santa-clara {
-  stroke: rgba(170, 0, 61, 0.85);
-  color: #3a0015;
-  background-color: rgba(255, 68, 135, 0.25);
+  stroke: #f01966;
+  color: #660025;
+  background-color: #ffebf2;
 }
 
 .savannah-state {
-  stroke: rgba(255, 102, 0, 0.85);
-  color: #8f3900;
-  background-color: rgba(255, 194, 153, 0.25);
+  stroke: #f06f19;
+  color: #662900;
+  background-color: #fff3eb;
 }
 
 .seattle {
-  stroke: rgba(0, 131, 154, 0.85);
-  color: #00242a;
-  background-color: rgba(52, 225, 255, 0.25);
+  stroke: #19d0f0;
+  color: #005766;
+  background-color: #ebfcff;
 }
 
 .seton-hall {
-  stroke: rgba(0, 0, 255, 0.85);
-  color: #00008f;
-  background-color: rgba(153, 153, 255, 0.25);
+  stroke: #1919f0;
+  color: #000066;
+  background-color: #ebebff;
 }
 
 .siena {
-  stroke: rgba(0, 71, 171, 0.85);
-  color: #00183b;
-  background-color: rgba(69, 146, 255, 0.25);
+  stroke: #1972f0;
+  color: #002a66;
+  background-color: #ebf3ff;
 }
 
 .siu-edwardsville-siue {
-  stroke: rgba(204, 0, 0, 0.85);
-  color: #5c0000;
-  background-color: rgba(255, 102, 102, 0.25);
+  stroke: #f01919;
+  color: #660000;
+  background-color: #ffebeb;
 }
 
 .south-alabama {
-  stroke: rgba(255, 0, 0, 0.85);
-  color: #8f0000;
-  background-color: rgba(255, 153, 153, 0.25);
+  stroke: #f01919;
+  color: #660000;
+  background-color: #ffebeb;
 }
 
 .south-carolina {
-  stroke: rgba(140, 38, 51, 0.85);
-  color: #340e13;
-  background-color: rgba(217, 114, 127, 0.25);
+  stroke: #bc4d5b;
+  color: #50161d;
+  background-color: #fbeff0;
 }
 
 .south-carolina-state {
-  stroke: rgba(150, 0, 24, 0.85);
-  color: #260006;
-  background-color: rgba(255, 48, 81, 0.25);
+  stroke: #f0193b;
+  color: #660010;
+  background-color: #ffebee;
 }
 
 .south-dakota {
-  stroke: rgba(173, 0, 0, 0.85);
-  color: #3d0000;
-  background-color: rgba(255, 71, 71, 0.25);
+  stroke: #f01919;
+  color: #660000;
+  background-color: #ffebeb;
 }
 
 .south-dakota-state {
-  stroke: rgba(0, 0, 255, 0.85);
-  color: #00008f;
-  background-color: rgba(153, 153, 255, 0.25);
+  stroke: #1919f0;
+  color: #000066;
+  background-color: #ebebff;
 }
 
 .south-florida {
-  stroke: rgba(57, 95, 74, 0.85);
-  color: #0f1913;
-  background-color: rgba(127, 178, 150, 0.25);
+  stroke: #759583;
+  color: #264032;
+  background-color: #f2f7f5;
 }
 
 .southeast-missouri-state {
-  stroke: rgba(255, 0, 0, 0.85);
-  color: #8f0000;
-  background-color: rgba(255, 153, 153, 0.25);
+  stroke: #f01919;
+  color: #660000;
+  background-color: #ffebeb;
 }
 
 .southeastern-louisiana {
-  stroke: rgba(0, 102, 67, 0.85);
-  color: black;
-  background-color: rgba(0, 255, 168, 0.25);
+  stroke: #19f0a6;
+  color: #006643;
+  background-color: #ebfff8;
 }
 
 .southern-illinois {
-  stroke: rgba(128, 0, 0, 0.85);
-  color: #100000;
-  background-color: rgba(255, 26, 26, 0.25);
+  stroke: #f01919;
+  color: #660000;
+  background-color: #ffebeb;
 }
 
 .southern-methodist {
-  stroke: rgba(177, 0, 0, 0.85);
-  color: #410000;
-  background-color: rgba(255, 75, 75, 0.25);
+  stroke: #f01919;
+  color: #660000;
+  background-color: #ffebeb;
 }
 
 .southern-miss {
-  stroke: rgba(0, 0, 0, 0.85);
-  color: black;
-  background-color: rgba(77, 77, 77, 0.25);
+  stroke: #858585;
+  color: #333333;
+  background-color: whitesmoke;
 }
 
 .southern-university {
-  stroke: rgba(117, 178, 221, 0.85);
-  color: #2d7db5;
-  background-color: rgba(240, 246, 251, 0.25);
+  stroke: #498fc0;
+  color: #143852;
+  background-color: #eff6fb;
 }
 
 .southern-utah {
-  stroke: rgba(255, 0, 0, 0.85);
-  color: #8f0000;
-  background-color: rgba(255, 153, 153, 0.25);
+  stroke: #f01919;
+  color: #660000;
+  background-color: #ffebeb;
 }
 
 .southern-virginia-svu {
-  stroke: rgba(137, 35, 51, 0.85);
-  color: #300c12;
-  background-color: rgba(217, 108, 125, 0.25);
+  stroke: #be4b5d;
+  color: #51151e;
+  background-color: #fbeff1;
 }
 
 .st-bonaventure {
-  stroke: rgba(223, 23, 65, 0.85);
-  color: #790d23;
-  background-color: rgba(245, 154, 173, 0.25);
+  stroke: #d93053;
+  color: #5c0a1b;
+  background-color: #fdedf0;
 }
 
 .st-francis-ny {
-  stroke: rgba(25, 25, 112, 0.85);
-  color: #050514;
-  background-color: rgba(75, 75, 215, 0.25);
+  stroke: #4646c4;
+  color: #131353;
+  background-color: #eeeefb;
 }
 
 .st-francis-pa-sfu {
-  stroke: rgba(157, 34, 53, 0.85);
-  color: #410e16;
-  background-color: rgba(225, 119, 135, 0.25);
+  stroke: #c54458;
+  color: #54121c;
+  background-color: #fbeef0;
 }
 
 .st-johns {
-  stroke: rgba(153, 0, 0, 0.85);
-  color: #290000;
-  background-color: rgba(255, 51, 51, 0.25);
+  stroke: #f01919;
+  color: #660000;
+  background-color: #ffebeb;
 }
 
 .st-peters {
-  stroke: rgba(0, 60, 113, 0.85);
-  color: #000001;
-  background-color: rgba(11, 141, 255, 0.25);
+  stroke: #198bf0;
+  color: #003666;
+  background-color: #ebf5ff;
 }
 
 .st-thomas-texas {
-  stroke: rgba(174, 18, 43, 0.85);
-  color: #480712;
-  background-color: rgba(240, 105, 127, 0.25);
+  stroke: #d9304b;
+  color: #5c0a17;
+  background-color: #fdedef;
 }
 
 .stanford {
-  stroke: rgba(153, 0, 0, 0.85);
-  color: #290000;
-  background-color: rgba(255, 51, 51, 0.25);
+  stroke: #f01919;
+  color: #660000;
+  background-color: #ffebeb;
 }
 
 .stephen-f-austin {
-  stroke: rgba(51, 0, 102, 0.85);
-  color: black;
-  background-color: rgba(128, 0, 255, 0.25);
+  stroke: #8519f0;
+  color: #330066;
+  background-color: #f5ebff;
 }
 
 .stetson {
-  stroke: rgba(0, 96, 0, 0.85);
-  color: black;
-  background-color: rgba(0, 249, 0, 0.25);
+  stroke: #19f019;
+  color: #006600;
+  background-color: #ebffeb;
 }
 
 .stony-brook {
-  stroke: rgba(255, 1, 1, 0.85);
-  color: #900000;
-  background-color: rgba(255, 154, 154, 0.25);
+  stroke: #f01919;
+  color: #660000;
+  background-color: #ffebeb;
 }
 
 .syracuse {
-  stroke: rgba(255, 127, 0, 0.85);
-  color: #8f4700;
-  background-color: rgba(255, 204, 153, 0.25);
+  stroke: #f08419;
+  color: #663300;
+  background-color: #fff5eb;
 }
 
 .tcu {
-  stroke: rgba(52, 42, 123, 0.85);
-  color: #110d27;
-  background-color: rgba(124, 112, 206, 0.25);
+  stroke: #6257b2;
+  color: #201a4c;
+  background-color: #f1f0fa;
 }
 
 .temple {
-  stroke: rgba(168, 22, 37, 0.85);
-  color: #45090f;
-  background-color: rgba(236, 107, 121, 0.25);
+  stroke: #d43546;
+  color: #5a0c14;
+  background-color: #fdedef;
 }
 
 .tennessee {
-  stroke: rgba(255, 130, 0, 0.85);
-  color: #8f4900;
-  background-color: rgba(255, 205, 153, 0.25);
+  stroke: #f08719;
+  color: #663400;
+  background-color: #fff5eb;
 }
 
 .tennessee-state {
-  stroke: rgba(210, 221, 252, 0.85);
-  color: #698ef5;
-  background-color: rgba(255, 255, 255, 0.25);
+  stroke: #2859e1;
+  color: #061e60;
+  background-color: #ecf1fe;
 }
 
 .tennessee-tech {
-  stroke: rgba(210, 221, 252, 0.85);
-  color: #698ef5;
-  background-color: rgba(255, 255, 255, 0.25);
+  stroke: #2859e1;
+  color: #061e60;
+  background-color: #ecf1fe;
 }
 
 .tennessee-martin {
-  stroke: rgba(160, 38, 67, 0.85);
-  color: #45101d;
-  background-color: rgba(224, 127, 150, 0.25);
+  stroke: #c14865;
+  color: #521423;
+  background-color: #fbeff2;
 }
 
 .texas {
-  stroke: rgba(204, 85, 0, 0.85);
-  color: #5c2600;
-  background-color: rgba(255, 166, 102, 0.25);
+  stroke: #f07319;
+  color: #662b00;
+  background-color: #fff3eb;
 }
 
 .texas-am {
-  stroke: rgba(80, 0, 0, 0.85);
-  color: black;
-  background-color: rgba(233, 0, 0, 0.25);
+  stroke: #f01919;
+  color: #660000;
+  background-color: #ffebeb;
 }
 
 .texas-am-corpus-christi {
-  stroke: rgba(0, 103, 197, 0.85);
-  color: #002c55;
-  background-color: rgba(95, 179, 255, 0.25);
+  stroke: #198af0;
+  color: #003566;
+  background-color: #ebf5ff;
 }
 
 .texas-christian-tcu {
-  stroke: rgba(77, 25, 121, 0.85);
-  color: #12061c;
-  background-color: rgba(155, 80, 219, 0.25);
+  stroke: #8a43c6;
+  color: #361155;
+  background-color: #f5eefc;
 }
 
 .texas-el-paso-utep {
-  stroke: rgba(0, 40, 94, 0.85);
-  color: black;
-  background-color: rgba(0, 105, 247, 0.25);
+  stroke: #1975f0;
+  color: #002b66;
+  background-color: #ebf3ff;
 }
 
 .texas-southern {
-  stroke: rgba(204, 204, 255, 0.85);
-  color: #5c5cff;
-  background-color: rgba(255, 255, 255, 0.25);
+  stroke: #1919f0;
+  color: #000066;
+  background-color: #ebebff;
 }
 
 .texas-state {
-  stroke: rgba(80, 18, 20, 0.85);
-  color: black;
-  background-color: rgba(205, 46, 51, 0.25);
+  stroke: #c3464a;
+  color: #531315;
+  background-color: #fbeeef;
 }
 
 .texas-tech {
-  stroke: rgba(204, 0, 0, 0.85);
-  color: #5c0000;
-  background-color: rgba(255, 102, 102, 0.25);
+  stroke: #f01919;
+  color: #660000;
+  background-color: #ffebeb;
 }
 
 .texas-arlington {
-  stroke: rgba(245, 128, 37, 0.85);
-  color: #a24b07;
-  background-color: rgba(252, 213, 183, 0.25);
+  stroke: #e67824;
+  color: #622d04;
+  background-color: #fef4eb;
 }
 
 .texas-pan-american {
-  stroke: rgba(0, 102, 0, 0.85);
-  color: black;
-  background-color: rgba(0, 255, 0, 0.25);
+  stroke: #19f019;
+  color: #006600;
+  background-color: #ebffeb;
 }
 
 .texas-san-antonio {
-  stroke: rgba(12, 35, 64, 0.85);
-  color: black;
-  background-color: rgba(36, 105, 193, 0.25);
+  stroke: #407dca;
+  color: #102f56;
+  background-color: #eef4fc;
 }
 
 .toledo {
-  stroke: rgba(25, 25, 112, 0.85);
-  color: #050514;
-  background-color: rgba(75, 75, 215, 0.25);
+  stroke: #4646c4;
+  color: #131353;
+  background-color: #eeeefb;
 }
 
 .towson {
-  stroke: rgba(0, 0, 0, 0.85);
-  color: black;
-  background-color: rgba(77, 77, 77, 0.25);
+  stroke: #858585;
+  color: #333333;
+  background-color: whitesmoke;
 }
 
 .trinity-college {
-  stroke: rgba(0, 47, 91, 0.85);
-  color: black;
-  background-color: rgba(0, 126, 244, 0.25);
+  stroke: #1988f0;
+  color: #003566;
+  background-color: #ebf5ff;
 }
 
 .troy {
-  stroke: rgba(196, 30, 58, 0.85);
-  color: #630f1d;
-  background-color: rgba(238, 141, 158, 0.25);
+  stroke: #d03953;
+  color: #580e1a;
+  background-color: #fcedf0;
 }
 
 .tulane {
-  stroke: rgba(6, 48, 3, 0.85);
-  color: black;
-  background-color: rgba(24, 192, 12, 0.25);
+  stroke: #34e227;
+  color: #0c6006;
+  background-color: #edfeec;
 }
 
 .tulsa {
-  stroke: rgba(207, 181, 59, 0.85);
-  color: #7c6b1e;
-  background-color: rgba(237, 227, 182, 0.25);
+  stroke: #c0ab49;
+  color: #524714;
+  background-color: #fbf9ef;
 }
 
 .uab {
-  stroke: rgba(0, 128, 0, 0.85);
-  color: #001000;
-  background-color: rgba(26, 255, 26, 0.25);
+  stroke: #19f019;
+  color: #006600;
+  background-color: #ebffeb;
 }
 
 .uc-davis {
-  stroke: rgba(0, 38, 102, 0.85);
-  color: black;
-  background-color: rgba(0, 95, 255, 0.25);
+  stroke: #1969f0;
+  color: #002666;
+  background-color: #ebf2ff;
 }
 
 .uc-irvine {
-  stroke: rgba(0, 36, 105, 0.85);
-  color: black;
-  background-color: rgba(3, 89, 255, 0.25);
+  stroke: #1963f0;
+  color: #002366;
+  background-color: #ebf2ff;
 }
 
 .uc-riverside {
-  stroke: rgba(45, 108, 192, 0.85);
-  color: #183965;
-  background-color: rgba(158, 190, 232, 0.25);
+  stroke: #477cc2;
+  color: #132e53;
+  background-color: #eef4fb;
 }
 
 .uc-santa-barbara {
-  stroke: rgba(0, 0, 153, 0.85);
-  color: #000029;
-  background-color: rgba(51, 51, 255, 0.25);
+  stroke: #1919f0;
+  color: #000066;
+  background-color: #ebebff;
 }
 
 .uc-santa-cruz {
-  stroke: rgba(0, 60, 108, 0.85);
-  color: black;
-  background-color: rgba(6, 144, 255, 0.25);
+  stroke: #1991f0;
+  color: #003966;
+  background-color: #ebf6ff;
 }
 
 .ucf {
-  stroke: rgba(186, 155, 55, 0.85);
-  color: #63531d;
-  background-color: rgba(229, 214, 165, 0.25);
+  stroke: #b8a051;
+  color: #4f4217;
+  background-color: #faf8ef;
 }
 
 .ucla {
-  stroke: rgba(83, 104, 149, 0.85);
-  color: #2b364d;
-  background-color: rgba(175, 186, 210, 0.25);
+  stroke: #707d99;
+  color: #242e42;
+  background-color: #f2f4f8;
 }
 
 .umbc {
-  stroke: rgba(255, 194, 14, 0.85);
-  color: #9d7500;
-  background-color: rgba(255, 233, 167, 0.25);
+  stroke: #f0ba19;
+  color: #664c00;
+  background-color: #fffaeb;
 }
 
 .umkc {
-  stroke: rgba(207, 181, 59, 0.85);
-  color: #7c6b1e;
-  background-color: rgba(237, 227, 182, 0.25);
+  stroke: #c0ab49;
+  color: #524714;
+  background-color: #fbf9ef;
 }
 
 .unc-greensboro {
-  stroke: rgba(255, 204, 0, 0.85);
-  color: #8f7200;
-  background-color: rgba(255, 235, 153, 0.25);
+  stroke: #f0c519;
+  color: #665200;
+  background-color: #fffbeb;
 }
 
 .union-college-ny {
-  stroke: rgba(130, 36, 51, 0.85);
-  color: #2a0c11;
-  background-color: rgba(214, 105, 123, 0.25);
+  stroke: #bb4e5f;
+  color: #50161f;
+  background-color: #fbeff1;
 }
 
 .union-college-ky {
-  stroke: rgba(255, 103, 31, 0.85);
-  color: #ae3800;
-  background-color: rgba(255, 207, 184, 0.25);
+  stroke: #f05e19;
+  color: #662100;
+  background-color: #fff1eb;
 }
 
 .unlv {
-  stroke: rgba(177, 2, 2, 0.85);
-  color: #420101;
-  background-color: rgba(253, 79, 79, 0.25);
+  stroke: #ee1c1c;
+  color: #650101;
+  background-color: #ffebeb;
 }
 
 .usc {
-  stroke: rgba(157, 34, 53, 0.85);
-  color: #410e16;
-  background-color: rgba(225, 119, 135, 0.25);
+  stroke: #c54458;
+  color: #54121c;
+  background-color: #fbeef0;
 }
 
 .usc-upstate {
-  stroke: rgba(140, 38, 51, 0.85);
-  color: #340e13;
-  background-color: rgba(217, 114, 127, 0.25);
+  stroke: #bc4d5b;
+  color: #50161d;
+  background-color: #fbeff0;
 }
 
 .utah {
-  stroke: rgba(204, 0, 0, 0.85);
-  color: #5c0000;
-  background-color: rgba(255, 102, 102, 0.25);
+  stroke: #f01919;
+  color: #660000;
+  background-color: #ffebeb;
 }
 
 .utah-state {
-  stroke: rgba(0, 51, 102, 0.85);
-  color: black;
-  background-color: rgba(0, 128, 255, 0.25);
+  stroke: #1985f0;
+  color: #003366;
+  background-color: #ebf5ff;
 }
 
 .utah-valley {
-  stroke: rgba(0, 102, 51, 0.85);
-  color: black;
-  background-color: rgba(0, 255, 128, 0.25);
+  stroke: #19f085;
+  color: #006633;
+  background-color: #ebfff5;
 }
 
 .utep {
-  stroke: rgba(255, 127, 0, 0.85);
-  color: #8f4700;
-  background-color: rgba(255, 204, 153, 0.25);
+  stroke: #f08419;
+  color: #663300;
+  background-color: #fff5eb;
 }
 
 .valparaiso {
-  stroke: rgba(150, 75, 0, 0.85);
-  color: #261300;
-  background-color: rgba(255, 152, 48, 0.25);
+  stroke: #f08519;
+  color: #663300;
+  background-color: #fff5eb;
 }
 
 .vanderbilt {
-  stroke: rgba(0, 0, 0, 0.85);
-  color: black;
-  background-color: rgba(77, 77, 77, 0.25);
+  stroke: #858585;
+  color: #333333;
+  background-color: whitesmoke;
 }
 
 .vermont {
-  stroke: rgba(0, 100, 56, 0.85);
-  color: black;
-  background-color: rgba(0, 253, 142, 0.25);
+  stroke: #19f092;
+  color: #006639;
+  background-color: #ebfff6;
 }
 
 .villanova {
-  stroke: rgba(0, 51, 127, 0.85);
-  color: #00060f;
-  background-color: rgba(25, 117, 255, 0.25);
+  stroke: #196ff0;
+  color: #002966;
+  background-color: #ebf3ff;
 }
 
 .virginia {
-  stroke: rgba(25, 57, 128, 0.85);
-  color: #070f22;
-  background-color: rgba(84, 127, 222, 0.25);
+  stroke: #416bc8;
+  color: #112655;
+  background-color: #eef2fc;
 }
 
 .virginia-commonwealth {
-  stroke: rgba(0, 0, 0, 0.85);
-  color: black;
-  background-color: rgba(77, 77, 77, 0.25);
+  stroke: #858585;
+  color: #333333;
+  background-color: whitesmoke;
 }
 
 .virginia-military {
-  stroke: rgba(174, 18, 43, 0.85);
-  color: #480712;
-  background-color: rgba(240, 105, 127, 0.25);
+  stroke: #d9304b;
+  color: #5c0a17;
+  background-color: #fdedef;
 }
 
 .virginia-tech {
-  stroke: rgba(102, 0, 0, 0.85);
-  color: black;
-  background-color: rgba(255, 0, 0, 0.25);
+  stroke: #f01919;
+  color: #660000;
+  background-color: #ffebeb;
 }
 
 .virginia-wise {
-  stroke: rgba(210, 18, 69, 0.85);
-  color: #6b0923;
-  background-color: rgba(245, 136, 165, 0.25);
+  stroke: #dd2c5b;
+  color: #5e081f;
+  background-color: #fdecf1;
 }
 
 .wagner {
-  stroke: rgba(24, 110, 209, 0.85);
-  color: #0c396c;
-  background-color: rgba(144, 190, 242, 0.25);
+  stroke: #327fd7;
+  color: #0b305b;
+  background-color: #edf4fd;
 }
 
 .wake-forest {
-  stroke: rgba(166, 127, 49, 0.85);
-  color: #4f3d17;
-  background-color: rgba(223, 197, 145, 0.25);
+  stroke: #b99651;
+  color: #4f3c17;
+  background-color: #faf7ef;
 }
 
 .washington {
-  stroke: rgba(54, 60, 116, 0.85);
-  color: #121427;
-  background-color: rgba(127, 134, 196, 0.25);
+  stroke: #676ca3;
+  color: #202446;
+  background-color: #f1f2f9;
 }
 
 .washington-state {
-  stroke: rgba(158, 27, 52, 0.85);
-  color: #3e0b14;
-  background-color: rgba(230, 108, 131, 0.25);
+  stroke: #cd3d58;
+  color: #570f1d;
+  background-color: #fceef0;
 }
 
 .weber-state {
-  stroke: rgba(75, 33, 135, 0.85);
-  color: #190b2d;
-  background-color: rgba(150, 103, 218, 0.25);
+  stroke: #7a49c0;
+  color: #2e1452;
+  background-color: #f4effb;
 }
 
 .west-virginia {
-  stroke: rgba(255, 204, 0, 0.85);
-  color: #8f7200;
-  background-color: rgba(255, 235, 153, 0.25);
+  stroke: #f0c519;
+  color: #665200;
+  background-color: #fffbeb;
 }
 
 .western-carolina {
-  stroke: rgba(89, 44, 135, 0.85);
-  color: #211032;
-  background-color: rgba(166, 121, 211, 0.25);
+  stroke: #8455b4;
+  color: #33194d;
+  background-color: #f5f0fa;
 }
 
 .western-illinois {
-  stroke: rgba(91, 2, 122, 0.85);
-  color: #09000c;
-  background-color: rgba(193, 26, 251, 0.25);
+  stroke: #b71dec;
+  color: #4b0264;
+  background-color: #faebff;
 }
 
 .western-kentucky {
-  stroke: rgba(255, 34, 34, 0.85);
-  color: #b10000;
-  background-color: rgba(255, 187, 187, 0.25);
+  stroke: #f01919;
+  color: #660000;
+  background-color: #ffebeb;
 }
 
 .western-michigan {
-  stroke: rgba(106, 62, 15, 0.85);
-  color: #080501;
-  background-color: rgba(226, 140, 48, 0.25);
+  stroke: #d28737;
+  color: #59340d;
+  background-color: #fcf5ed;
 }
 
 .western-new-mexico {
-  stroke: rgba(66, 25, 111, 0.85);
-  color: #0c0413;
-  background-color: rgba(141, 75, 214, 0.25);
+  stroke: #8246c3;
+  color: #321353;
+  background-color: #f5eefb;
 }
 
 .wichita-state {
-  stroke: rgba(0, 0, 0, 0.85);
-  color: black;
-  background-color: rgba(77, 77, 77, 0.25);
+  stroke: #858585;
+  color: #333333;
+  background-color: whitesmoke;
 }
 
 .wilberforce {
-  stroke: rgba(21, 103, 52, 0.85);
-  color: #020a05;
-  background-color: rgba(61, 216, 120, 0.25);
+  stroke: #42c774;
+  color: #11552b;
+  background-color: #eefcf3;
 }
 
 .wiley-college {
-  stroke: rgba(73, 47, 146, 0.85);
-  color: #1f143d;
-  background-color: rgba(153, 131, 215, 0.25);
+  stroke: #6e55b5;
+  color: #27194d;
+  background-color: #f2f0fa;
 }
 
 .william--mary {
-  stroke: rgba(17, 87, 64, 0.85);
-  color: black;
-  background-color: rgba(43, 214, 158, 0.25);
+  stroke: #41c89c;
+  color: #11553f;
+  background-color: #eefcf7;
 }
 
 .wilmington {
-  stroke: rgba(0, 132, 61, 0.85);
-  color: #001409;
-  background-color: rgba(30, 255, 134, 0.25);
+  stroke: #19f07c;
+  color: #00662f;
+  background-color: #ebfff4;
 }
 
 .winthrop {
-  stroke: rgba(244, 123, 32, 0.85);
-  color: #9c4708;
-  background-color: rgba(251, 209, 178, 0.25);
+  stroke: #e57724;
+  color: #612c05;
+  background-color: #fef3ec;
 }
 
 .wisconsin {
-  stroke: rgba(204, 17, 34, 0.85);
-  color: #640811;
-  background-color: rgba(245, 129, 140, 0.25);
+  stroke: #dd2c3c;
+  color: #5e0810;
+  background-color: #fdecee;
 }
 
 .wofford {
-  stroke: rgba(207, 181, 59, 0.85);
-  color: #7c6b1e;
-  background-color: rgba(237, 227, 182, 0.25);
+  stroke: #c0ab49;
+  color: #524714;
+  background-color: #fbf9ef;
 }
 
 .wright-state {
-  stroke: rgba(0, 105, 74, 0.85);
-  color: black;
-  background-color: rgba(3, 255, 181, 0.25);
+  stroke: #19f0b1;
+  color: #006648;
+  background-color: #ebfff9;
 }
 
 .wyoming {
-  stroke: rgba(73, 47, 36, 0.85);
-  color: black;
-  background-color: rgba(173, 114, 89, 0.25);
+  stroke: #9f7a6a;
+  color: #442c22;
+  background-color: #f8f3f1;
 }
 
 .xavier {
-  stroke: rgba(0, 0, 128, 0.85);
-  color: #000010;
-  background-color: rgba(26, 26, 255, 0.25);
+  stroke: #1919f0;
+  color: #000066;
+  background-color: #ebebff;
 }
 
 .yale {
-  stroke: rgba(0, 0, 102, 0.85);
-  color: black;
-  background-color: rgba(0, 0, 255, 0.25);
+  stroke: #1919f0;
+  color: #000066;
+  background-color: #ebebff;
 }
 
 .youngstown-state {
-  stroke: rgba(255, 0, 0, 0.85);
-  color: #8f0000;
-  background-color: rgba(255, 153, 153, 0.25);
+  stroke: #f01919;
+  color: #660000;
+  background-color: #ffebeb;
 }
 /*# sourceMappingURL=ncaa-colors-calc.css.map */
