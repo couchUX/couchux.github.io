@@ -96,48 +96,38 @@ $(".switchBtn").click(function () { $(".teamMap").toggleClass("hidden")});
 };
 
 
-//  QUARTERS CHART
-function quartersChart(thisTeam, thatTeam, thisId) {
+//  BAR CHART TEMPLATE
+function barChart(thisTeam, thatTeam, thisId, thisColumn, barChartType) {
         
-    function cutQuarters(quarterNum,teamName) {
-        teamPlays = gameData.filter(function(play) { return play.team == teamName.name; });
-        quarterPlays = teamPlays.filter(function(play) { return play.quarter == quarterNum});
-        quarterPlaysSuccess = quarterPlays.filter(function(play) { return play.play_result == "successful"});
-        quarterPlaysExplosive = quarterPlays.filter(function(play) { return play.play_result == "explosive"});
-        quarterSrXr = [ quarterPlaysSuccess.length / quarterPlays.length, quarterPlaysExplosive.length / quarterPlays.length ];
-        
-        return quarterSrXr;
-    };
-
     var srArray = [];
     var xrArray = [];
     var srArrayOpp = [];
     var xrArrayOpp = [];
 
-    function quarterArrays(thisTeam,thisQuarter,thisXrArray,thisSrArray) {
+    function columnArrays(thisTeam,thisColumnValue,thisXrArray,thisSrArray) {
         teamPlays = gameData.filter(function(play) { return play.team == thisTeam.name; });
-        quarterPlays = teamPlays.filter(function(play) { return play.quarter == thisQuarter});
+        columnPlays = teamPlays.filter(function(play) { return play[thisColumn] == thisColumnValue});
         
-        quarterPlaysExplosive = quarterPlays.filter(function(play) { return play.play_result == "explosive"});
-        thisXrArray.push(quarterPlaysExplosive.length / quarterPlays.length);
+        columnPlaysExplosive = columnPlays.filter(function(play) { return play.play_result == "explosive"});
+        thisXrArray.push(columnPlaysExplosive.length / columnPlays.length);
         
-        quarterPlaysSuccessful = quarterPlays.filter(function(play) { return play.play_result == "successful"});
-        thisSrArray.push( quarterPlaysSuccessful.length / quarterPlays.length );
+        columnPlaysSuccessful = columnPlays.filter(function(play) { return play.play_result == "successful"});
+        thisSrArray.push( columnPlaysSuccessful.length / columnPlays.length );
 
     };
 
-    var uniqueQuarters = unique(gameData,'quarter');
+    var uniqueColumnValues = unique(gameData,thisColumn);
 
-    uniqueQuarters.forEach(function(quarter) {
-        quarterArrays(teamOneData,quarter,xrArray,srArray);
-        quarterArrays(teamTwoData,quarter,xrArrayOpp,srArrayOpp);
+    uniqueColumnValues.forEach(function(value) {
+        columnArrays(teamOneData,value,xrArray,srArray);
+        columnArrays(teamTwoData,value,xrArrayOpp,srArrayOpp);
     });
     
     var ctx = $(thisId);
     new Chart(ctx, {
-    type: 'bar',
+    type: barChartType,
     data: {
-        labels: uniqueQuarters,
+        labels: uniqueColumnValues,
         datasets: [{
             label: "",
             stack: "team",
@@ -181,6 +171,21 @@ function quartersChart(thisTeam, thatTeam, thisId) {
     });
     
     }
+
+// QUARTERS CHART
+function quartersChart(thisTeam,thatTeam,thisId) {
+    barChart(thisTeam,thatTeam,thisId,'quarter','bar');
+}
+
+// DOWNS CHART
+function downsChart(thisTeam,thatTeam,thisId) {
+    barChart(thisTeam,thatTeam,thisId,'down','horizontalBar');
+}
+
+// PLAY TYPE CHART
+function playTypeChart(thisTeam,thatTeam,thisId) {
+    barChart(thisTeam,thatTeam,thisId,'play_type','horizontalBar');
+}
 
 
 

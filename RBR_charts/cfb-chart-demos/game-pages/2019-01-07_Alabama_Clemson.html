@@ -20,15 +20,25 @@
 
 <body>
   
-  <div id="playMapOuter">
+  <div class="chartOuter" id="playMapOuter">
     <h3>Here's the passing yards per team</h3>
     <canvas class="teamMap" id="playMap" height="200" width="400"></canvas>
     <canvas class="teamMap hidden" id="playMapOpponent" height="200" width="400"></canvas>
   </div>
 
-  <div id="quartersChartOuter">
+  <div class="chartOuter">
     <h3>Success by quarters</h3>
     <canvas id="quartersChart" height="200" width="400"></canvas>
+  </div>
+
+  <div class="chartOuter">
+    <h3>Success by Down</h3>
+    <canvas id="downsChart" height="200" width="400"></canvas>
+  </div>
+
+  <div class="chartOuter">
+    <h3>Success by Play Type</h3>
+    <canvas id="playTypeChart" height="200" width="400"></canvas>
   </div>
 
   <script src="../js/vendor/modernizr-3.7.1.min.js"></script>
@@ -51,7 +61,7 @@
 
     var gameData;
 
-    allCharts("https://couchux.github.io/RBR_charts/2019-01-07_Alabama_Clemson/all_plays.csv");
+    allCharts("../../../RBR_charts/2019-01-07_Alabama_Clemson/all_plays.csv");
     
     function allCharts(csv) {
       d3.csv(csv, function(data) {
@@ -59,12 +69,15 @@
         data.forEach(function(d){ d['play_count_team'] = +d['play_count_team']; }); 
         data.forEach(function(d){ d['drive_team'] = +d['drive_team']; });
         data.forEach(function(d){ d['yards_total'] = +d['yards_total']; });
+        data.forEach(function(d){ d['down'] = +d['down']; });
         gameData = data;
 
         playMap(teamOneData, "#playMap");
         playMapOpponent(teamTwoData, "#playMapOpponent");
         teamSwitcher(); // goes with play maps
         quartersChart(teamOneData, teamTwoData, "#quartersChart");
+        downsChart(teamOneData, teamTwoData, "#downsChart");
+        playTypeChart(teamOneData, teamTwoData, "#playTypeChart");
         // load more charts here
 
       });
