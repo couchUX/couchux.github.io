@@ -1,11 +1,22 @@
+//   UTILITIES
+
+    // Extract unique Quarters: I copied and adjusted from an ES6 solution run through Babel. I don't really get it.
+    function unique(thisData,thisColumn) { 
+        function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _nonIterableSpread(); }
+        function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance"); }
+        function _iterableToArray(iter) { if (Symbol.iterator in Object(iter) || Object.prototype.toString.call(iter) === "[object Arguments]") return Array.from(iter); }
+        function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } }
+        var newArray = _toConsumableArray(new Set(thisData.map(function (data) { return data[thisColumn]; })));
+        return newArray;
+    }
+
+
 //   PLAY MAP SCATTER CHART
-function playMap(thisTeam) {
+function playMap(thisTeam, thisId) {
 var teamPlays = gameData.filter(function(play) { return play.team == thisTeam.name; });
 var playCount = gameData.map(function(play) { return play.play_count });
 var playsMax = Math.max.apply(Math, gameData.map(function(play) { return play.play_count; }));
 var yardsMax = Math.max.apply(Math, gameData.map(function(play) { return play.yards_total; }));
-// var playDetails = teamPlays.map(function(play) { return play.play_description });
-// var playYards = teamPlays.map(function(play) { return play.yards_total });
 var teamPlayCountAndYards = teamPlays.map(function(play) { return { x: play.play_count, y: play.yards_total }; });
 
 var fillColors = teamPlays.map(function(d) {
@@ -14,8 +25,18 @@ var fillColors = teamPlays.map(function(d) {
     :      thisTeam.colorLight;
 });
 
-var ctx = $("#playMap");
-var chart = new Chart(ctx, {
+var pointShape = teamPlays.map(function(d) {
+    return  d.play_type === "run" ? 'circle'
+    :      'triangle';
+});
+
+var pointSize = teamPlays.map(function(d) {
+    return  d.play_type === "run" ? 4
+    :      5.5;
+});
+
+var ctx = $(thisId);
+new Chart(ctx, {
 type: 'scatter',
 data: {
     labels: playCount,
@@ -25,11 +46,8 @@ data: {
     backgroundColor: fillColors,
     borderColor: thisTeam.colorDark,
     borderWidth: 1,
-    pointRadius: 4,
-    // showLine: true,
-    // fill: false,
-    // lineTension: 0.2,
-    // borderDash: [2,4]
+    pointRadius: pointSize,
+    pointStyle: pointShape,
     }] 
 },
 options: {
@@ -52,8 +70,9 @@ options: {
     }],
     xAxes: [{
         ticks: {
+        display: false,
         suggestedMin: 1,
-        suggestedMax: playsMax + 2,                
+        suggestedMax: playsMax + 2,
         }
     }],
     }
@@ -62,12 +81,106 @@ options: {
 
 };
 
+//   PLAY MAP SCATTER CHART -> FOR OPPONENT
+function playMapOpponent (thatTeam, thatId) {
+    playMap(thatTeam,thatId);
+}
+
 
 // TEAM SWITCHER BUTTON (accompanies Play Map)
 function teamSwitcher() {
-$("#playMapOuter").append("<button class=\"switchBtn switchOne hide\">Show "+ teamOneData.name +"</button>");
+$("#playMapOuter").append("<button class=\"switchBtn switchOne hidden\">Show "+ teamOneData.name +"</button>");
 $("#playMapOuter").append("<button class=\"switchBtn switchTwo\">Show "+ teamTwoData.name +"</button>");
-$(".switchBtn").click(function () { $(".switchBtn").toggleClass("hide")});
-$(".switchOne").click(function () { playMap(teamOneData)});
-$(".switchTwo").click(function () { playMap(teamTwoData)});
+$(".switchBtn").click(function () { $(".switchBtn").toggleClass("hidden")});
+$(".switchBtn").click(function () { $(".teamMap").toggleClass("hidden")});
 };
+
+
+//  QUARTERS CHART
+function quartersChart(thisTeam, thatTeam, thisId) {
+        
+    function cutQuarters(quarterNum,teamName) {
+        teamPlays = gameData.filter(function(play) { return play.team == teamName.name; });
+        quarterPlays = teamPlays.filter(function(play) { return play.quarter == quarterNum});
+        quarterPlaysSuccess = quarterPlays.filter(function(play) { return play.play_result == "successful"});
+        quarterPlaysExplosive = quarterPlays.filter(function(play) { return play.play_result == "explosive"});
+        quarterSrXr = [ quarterPlaysSuccess.length / quarterPlays.length, quarterPlaysExplosive.length / quarterPlays.length ];
+        
+        return quarterSrXr;
+    };
+
+    var srArray = [];
+    var xrArray = [];
+    var srArrayOpp = [];
+    var xrArrayOpp = [];
+
+    function quarterArrays(thisTeam,thisQuarter,thisXrArray,thisSrArray) {
+        teamPlays = gameData.filter(function(play) { return play.team == thisTeam.name; });
+        quarterPlays = teamPlays.filter(function(play) { return play.quarter == thisQuarter});
+        
+        quarterPlaysExplosive = quarterPlays.filter(function(play) { return play.play_result == "explosive"});
+        thisXrArray.push(quarterPlaysExplosive.length / quarterPlays.length);
+        
+        quarterPlaysSuccessful = quarterPlays.filter(function(play) { return play.play_result == "successful"});
+        thisSrArray.push( quarterPlaysSuccessful.length / quarterPlays.length );
+
+    };
+
+    var uniqueQuarters = unique(gameData,'quarter');
+
+    uniqueQuarters.forEach(function(quarter) {
+        quarterArrays(teamOneData,quarter,xrArray,srArray);
+        quarterArrays(teamTwoData,quarter,xrArrayOpp,srArrayOpp);
+    });
+    
+    var ctx = $(thisId);
+    new Chart(ctx, {
+    type: 'bar',
+    data: {
+        labels: uniqueQuarters,
+        datasets: [{
+            label: "",
+            stack: "team",
+            data: xrArray,
+            backgroundColor: thisTeam.colorDark,
+        },
+        {
+            label: thisTeam.name + ': XR/SR by quarter',
+            stack: "team",
+            data: srArray,
+            backgroundColor: thisTeam.color,
+        }, 
+        {
+            label: "",
+            stack: "opponent",
+            data: xrArrayOpp,
+            backgroundColor: thatTeam.colorDark,
+        }, 
+        {
+            label: thatTeam.name + ': XR/SR by quarter',
+            stack: "opponent",
+            data: srArrayOpp,
+            backgroundColor: thatTeam.color,
+        }]
+    },
+    options: {
+        maintainAspectRatio: false,
+        showAnimation: false,
+        legend: {
+            position: 'bottom',
+        },
+        scales: {
+            xAxes: [{
+                ticks: {
+                    stacked: true,
+                    suggestedMax: 0.8,
+                }
+            }]
+        }
+    }
+    });
+    
+    }
+
+
+

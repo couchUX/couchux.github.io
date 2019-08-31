@@ -1,0 +1,40 @@
+To-do:
+    
+    Scatter chart:
+        - running plays as a different shape -- **DONE**
+        - team-switcher: hide/show entire chart in css, not data load -- **DONE**
+
+
+    Quarters chart:
+        - ...
+
+    Downs chart:
+        - ...
+
+    Run rate over time chart:
+        - ...
+
+    Run/pass efficiency over time:
+        - ...
+
+
+
+    Players charts:
+
+        Runners:
+            - ...
+
+        Passers:
+            - ...
+        
+        Receivers:
+            - ...
+
+        
+    
+    
+    ====== LATER ======
+
+    Colors:
+            - Play with desaturation/opacity/darkness to get Crimson back.
+            - ...

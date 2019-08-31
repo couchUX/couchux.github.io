@@ -1,6 +1,6 @@
 //extract the colors for use in a graph
 
-function getColors(team, opponent) {
+function assignTeams(team, opponent) {
     teamOneData = {
         name: team,
         color: teamColors[team].color,

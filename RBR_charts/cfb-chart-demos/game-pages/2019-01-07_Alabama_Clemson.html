@@ -22,7 +22,13 @@
   
   <div id="playMapOuter">
     <h3>Here's the passing yards per team</h3>
-    <canvas id="playMap" height="200" width="400"></canvas>
+    <canvas class="teamMap" id="playMap" height="200" width="400"></canvas>
+    <canvas class="teamMap hidden" id="playMapOpponent" height="200" width="400"></canvas>
+  </div>
+
+  <div id="quartersChartOuter">
+    <h3>Success by quarters</h3>
+    <canvas id="quartersChart" height="200" width="400"></canvas>
   </div>
 
   <script src="../js/vendor/modernizr-3.7.1.min.js"></script>
@@ -41,7 +47,7 @@
   <script>
 
     // paste this data each time. Consider writing a JSON file for all colors that will let us just plug in the names.
-    getColors("Alabama", "Clemson");
+    assignTeams("Alabama", "Clemson");
 
     var gameData;
 
@@ -55,9 +61,10 @@
         data.forEach(function(d){ d['yards_total'] = +d['yards_total']; });
         gameData = data;
 
-        playMap(teamOneData);
-        teamSwitcher(); // goes with pay map
-        // load more charts here
+        playMap(teamOneData, "#playMap");
+        playMapOpponent(teamTwoData, "#playMapOpponent");
+        teamSwitcher(); // goes with play maps
+        quartersChart(teamOneData, teamTwoData, "#quartersChart");
         // load more charts here
 
       });

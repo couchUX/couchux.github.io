@@ -20,15 +20,15 @@ html {
 body { 
   font-family: "Roboto", sans-serif;
 }
-#playMapOuter {
+#playMapOuter, #quartersChartOuter {
   min-width: 300px;
   max-width: 800px;
   max-height: 400px;
   height: 400px;
   margin: 20px;
 }
-.hide {
-  display: none;
+#quartersChartOuter {
+  margin-top: 200px;
 }
 .switchBtn {
   width: 100%;
@@ -38,6 +38,12 @@ body {
   border: 1px solid lightgray; 
   padding: 10px;
   border-radius: 4px; 
+}
+.switchBtn:hover {
+  background: #FAFAFA;
+}
+.switchBtn:active {
+  background: #D8d8d8;
 }
 
 /*
