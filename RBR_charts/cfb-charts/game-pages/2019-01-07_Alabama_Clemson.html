@@ -19,80 +19,85 @@
 </head>
 
 <body>
-  
-  <div class="chartOuter" id="playMapOuter">
+  <div id="main">
     <h3>Here's the passing yards per team</h3>
-    <canvas class="teamMap" id="playMap" height="160" width="400"></canvas>
-    <canvas class="teamMap hidden" id="playMapOpponent" height="160" width="400"></canvas>
-  </div>
-
-  <div class="chartOuter">
-    <h3>Success by quarters</h3>
-    <canvas id="quartersChart" height="160" width="400"></canvas>
-  </div>
-
-  <div class="chartOuter">
-    <h3>Success by Down</h3>
-    <canvas id="downsChart" height="160" width="400"></canvas>
-  </div>
-
-  <!-- <div class="chartOuter">
-    <h3>Success by Play Type</h3>
-    <canvas id="playTypeChart" height="200" width="400"></canvas>
-  </div> -->
-
-  <script src="../js/vendor/modernizr-3.7.1.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
-  <script src="https://d3js.org/d3.v4.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js"></script>
-  <script src="../js/plugins.js"></script>
-  <script src="../js/main.js"></script>
-  <script src=" ../js/ncaa-colors-calc.js"></script>
-  <script src="../js/charts.js"></script>
- 
-  
-
-  <!-- script for chart js -->
-  <script>
-
-    // paste this data each time. Consider writing a JSON file for all colors that will let us just plug in the names.
-    assignTeams("Alabama", "Clemson");
-
-    var gameData;
-
-    allCharts("../../../RBR_charts/2019-01-07_Alabama_Clemson/all_plays.csv");
+    <div class="chartOuter" id="playMapOuter">
+      <canvas class="teamMap" id="playMap" height="160" width="400"></canvas>
+      <canvas class="teamMap hidden" id="playMapOpponent" height="160" width="400"></canvas>
+    </div>
     
-    function allCharts(csv) {
-      d3.csv(csv, function(data) {
-        data.forEach(function(d){ d['play_count'] = +d['play_count']; });
-        data.forEach(function(d){ d['play_count_team'] = +d['play_count_team']; }); 
-        data.forEach(function(d){ d['drive_team'] = +d['drive_team']; });
-        data.forEach(function(d){ d['yards_total'] = +d['yards_total']; });
-        data.forEach(function(d){ d['down'] = +d['down']; });
-        gameData = data;
+    <div class="buttonOuter">
+      <button class="switchBtn">Switch team</button>
+    </div>
 
-        playMap(teamOneData, "#playMap");
-        playMapOpponent(teamTwoData, "#playMapOpponent");
-        teamSwitcher(); // goes with play maps
-        quartersChart(teamOneData, teamTwoData, "#quartersChart");
-        downsChart(teamOneData, teamTwoData, "#downsChart");
-        // playTypeChart(teamOneData, teamTwoData, "#playTypeChart");
-        
-        // load more charts here
+    <h3>Success by quarters</h3>
+    <div class="chartOuter">
+      <canvas id="quartersChart" height="160" width="400"></canvas>
+    </div>
 
-      });
-    };
+    <h3>Success by Down</h3>
+    <div class="chartOuter">
+      <canvas id="downsChart" height="160" width="400"></canvas>
+    </div>
 
-  </script>
+    <!-- <div class="chartOuter">
+      <h3>Success by Play Type</h3>
+      <canvas id="playTypeChart" height="200" width="400"></canvas>
+    </div> -->
+
+    <script src="../js/vendor/modernizr-3.7.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js"></script>
+    <script src="../js/plugins.js"></script>
+    <script src="../js/main.js"></script>
+    <script src=" ../js/ncaa-colors-calc.js"></script>
+    <script src="../js/charts.js"></script>
+  
+    
+
+    <!-- script for chart js -->
+    <script>
+
+      // paste this data each time. Consider writing a JSON file for all colors that will let us just plug in the names.
+      assignTeams("Alabama", "Clemson");
+
+      var gameData;
+
+      allCharts("../../../RBR_charts/2019-01-07_Alabama_Clemson/all_plays.csv");
+      
+      function allCharts(csv) {
+        d3.csv(csv, function(data) {
+          data.forEach(function(d){ d['play_count'] = +d['play_count']; });
+          data.forEach(function(d){ d['play_count_team'] = +d['play_count_team']; }); 
+          data.forEach(function(d){ d['drive_team'] = +d['drive_team']; });
+          data.forEach(function(d){ d['yards_total'] = +d['yards_total']; });
+          data.forEach(function(d){ d['down'] = +d['down']; });
+          gameData = data;
+
+          playMap(teamOneData, "#playMap");
+          playMapOpponent(teamTwoData, "#playMapOpponent");
+          teamSwitcher(); // goes with play maps
+          quartersChart(teamOneData, teamTwoData, "#quartersChart");
+          downsChart(teamOneData, teamTwoData, "#downsChart");
+          // playTypeChart(teamOneData, teamTwoData, "#playTypeChart");
+          
+          // load more charts here
+
+        });
+      };
+
+    </script>
 
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+      window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+      ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
+  
+  </div>
 </body>
-
 </html>

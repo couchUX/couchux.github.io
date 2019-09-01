@@ -89,9 +89,6 @@ function playMapOpponent (thatTeam, thatId) {
 
 // TEAM SWITCHER BUTTON (accompanies Play Map)
 function teamSwitcher() {
-$("#playMapOuter").append("<button class=\"switchBtn switchOne hidden\">Show "+ teamOneData.name +"</button>");
-$("#playMapOuter").append("<button class=\"switchBtn switchTwo\">Show "+ teamTwoData.name +"</button>");
-$(".switchBtn").click(function () { $(".switchBtn").toggleClass("hidden")});
 $(".switchBtn").click(function () { $(".teamMap").toggleClass("hidden")});
 };
 
