@@ -6,10 +6,11 @@ To-do:
 
 
     Quarters chart:
-        - ...
+        - first pass **DONE**
+        - add a total
 
     Downs chart:
-        - ...
+        - first pass **DONE**
 
     Run rate over time chart:
         - ...

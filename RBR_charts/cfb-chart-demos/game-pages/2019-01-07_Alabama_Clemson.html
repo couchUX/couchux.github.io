@@ -22,24 +22,24 @@
   
   <div class="chartOuter" id="playMapOuter">
     <h3>Here's the passing yards per team</h3>
-    <canvas class="teamMap" id="playMap" height="200" width="400"></canvas>
-    <canvas class="teamMap hidden" id="playMapOpponent" height="200" width="400"></canvas>
+    <canvas class="teamMap" id="playMap" height="160" width="400"></canvas>
+    <canvas class="teamMap hidden" id="playMapOpponent" height="160" width="400"></canvas>
   </div>
 
   <div class="chartOuter">
     <h3>Success by quarters</h3>
-    <canvas id="quartersChart" height="200" width="400"></canvas>
+    <canvas id="quartersChart" height="160" width="400"></canvas>
   </div>
 
   <div class="chartOuter">
     <h3>Success by Down</h3>
-    <canvas id="downsChart" height="200" width="400"></canvas>
+    <canvas id="downsChart" height="160" width="400"></canvas>
   </div>
 
-  <div class="chartOuter">
+  <!-- <div class="chartOuter">
     <h3>Success by Play Type</h3>
     <canvas id="playTypeChart" height="200" width="400"></canvas>
-  </div>
+  </div> -->
 
   <script src="../js/vendor/modernizr-3.7.1.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
@@ -77,7 +77,8 @@
         teamSwitcher(); // goes with play maps
         quartersChart(teamOneData, teamTwoData, "#quartersChart");
         downsChart(teamOneData, teamTwoData, "#downsChart");
-        playTypeChart(teamOneData, teamTwoData, "#playTypeChart");
+        // playTypeChart(teamOneData, teamTwoData, "#playTypeChart");
+        
         // load more charts here
 
       });
