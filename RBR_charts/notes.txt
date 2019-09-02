@@ -8,6 +8,7 @@ To-do:
     Quarters chart:
         - first pass **DONE**
         - add a total
+        - get the labels correct (download new csv)
 
     Downs chart:
         - first pass **DONE**
@@ -31,11 +32,15 @@ To-do:
         Receivers:
             - first pass **DONE**
 
+        Tacklers:
+            - get data combined between tacklers
+
         
-    
-    
-    ====== LATER ======
+
 
     Colors:
             - Play with desaturation/opacity/darkness to get Crimson back.
             - Make colors a bit less intense and dark **DONE**
+
+    Legends: 
+            - put together legends for all charts

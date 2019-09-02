@@ -19,7 +19,7 @@ function assignTeams(team, opponent) {
 teamColors = {
     "Air Force": { "name": "Air Force", "color": "rgba(37, 37, 244, 0.8)","colorDark": "rgba(0, 0, 128, 0.8)", "colorLight": "rgba(230, 230, 255, 0.8)" },
     "Akron": { "name": "Akron", "color": "rgba(37, 127, 244, 0.8)","colorDark": "rgba(0, 55, 128, 0.8)", "colorLight": "rgba(230, 241, 255, 0.8)" },
-    "Alabama": { "name": "Alabama", "color": "rgba(244, 37, 37, 0.82)","colorDark": "rgba(128, 0, 0, 0.8)", "colorLight": "rgba(255, 230, 230, 0.6)" },
+    "Alabama": { "name": "Alabama", "color": "rgba(244, 37, 37, 0.8)","colorDark": "rgba(128, 0, 0, 0.8)", "colorLight": "rgba(255, 230, 230, 0.6)" },
     "Alabama A&M": { "name": "Alabama A&M", "color": "rgba(244, 37, 37, 0.8)","colorDark": "rgba(128, 0, 0, 0.8)", "colorLight": "rgba(255, 230, 230, 0.8)" },
     "Alabama State": { "name": "Alabama State", "color": "rgba(140, 140, 140, 0.8)","colorDark": "rgba(64, 64, 64, 0.8)", "colorLight": "rgba(242, 242, 242, 0.8)" },
     "Albany": { "name": "Albany", "color": "rgba(141, 101, 180, 0.8)","colorDark": "rgba(64, 35, 92, 0.8)", "colorLight": "rgba(242, 237, 248, 0.8)" },

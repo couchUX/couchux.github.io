@@ -21,9 +21,13 @@
 <body>
   <div id="main">
     <h3>Here's the passing yards per team</h3>
-    <div class="chartOuter" id="playMapOuter">
-      <canvas class="teamMap" id="playMap" height="160" width="400"></canvas>
-      <canvas class="teamMap hidden" id="playMapOpponent" height="160" width="400"></canvas>
+    <div id="legendOuter" class="teamMap"></div>
+    <div class="teamMap" id="playMapTeamOuter">
+      <canvas id="playMapTeamChart" height="280" width="400"></canvas>
+    </div>
+    <div id="legendOpponentOuter" class="teamMap hide"></div>
+    <div class="teamMap hide" id="playMapOpponentOuter">
+      <canvas id="playMapOpponentChart" height="280" width="400"></canvas>
     </div>
     
     <div class="buttonOuter">
@@ -31,44 +35,40 @@
     </div>
 
     <h3>Success by quarters</h3>
-    <div class="chartOuter">
-      <canvas id="quartersChart" height="160" width="400"></canvas>
+    <div class="chartOuter" id="quartersOuter">
+      <canvas id="quartersChart" height="240" width="400"></canvas>
     </div>
 
     <h3>Success by Down</h3>
-    <div class="chartOuter">
-      <canvas id="downsChart" height="160" width="400"></canvas>
+    <div class="chartOuter" id="downsOuter">
+      <canvas id="downsChart" height="300" width="400"></canvas>
     </div>
 
     <h3>Run rate over time</h3>
-    <div class="chartOuter">
-      <canvas id="runRateChart" height="160" width="400"></canvas>
+    <div class="chartOuter" id="runRateOuter">
+      <canvas id="runRateChart" height="240" width="400"></canvas>
     </div>
 
     <h3>Running and Passing Success Rates</h3>
-    <div class="chartOuter">
-      <canvas id="runPassSrChart" height="160" width="400"></canvas>
+    <div class="chartOuter" id="runPassSrOuter">
+      <canvas id="runPassSrChart" height="240" width="400"></canvas>
     </div>
     
     <h3>Top Runners</h3>
-    <div class="chartOuter">
-      <canvas id="runnersChart" height="360" width="400"></canvas>
+    <div class="chartOuter" id="runnersOuter">
+      <canvas id="runnersChart" height="200" width="400"></canvas>
     </div>
     
     <h3>Top Passers</h3>
-    <div class="chartOuter">
-      <canvas id="passersChart" height="120" width="400"></canvas>
+    <div class="chartOuter" id="passersOuter">
+      <canvas id="passersChart" height="100" width="400"></canvas>
     </div>
     
     <h3>Top Receivers</h3>
-    <div class="chartOuter">
-      <canvas id="receiversChart" height="600" width="400"></canvas>
+    <div class="chartOuter" id="receiversOuter">
+      <canvas id="receiversChart" height="300" width="400"></canvas>
     </div>
-    
-    <!-- <div class="chartOuter">
-      <h3>Success by Play Type</h3>
-      <canvas id="playTypeChart" height="200" width="400"></canvas>
-    </div> -->
+  
 
     <script src="../js/vendor/modernizr-3.7.1.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
@@ -101,17 +101,16 @@
           data.forEach(function(d){ d['down'] = +d['down']; });
           gameData = data;
 
-          playMap(teamOneData, "#playMap");
-          playMapOpponent(teamTwoData, "#playMapOpponent");
+          playMap(teamOneData, "playMapTeam", "legendOuter");
+          playMap(teamTwoData, "playMapOpponent", "legendOpponentOuter");
           teamSwitcher(); // goes with play maps
-          quartersChart(teamOneData, teamTwoData, "#quartersChart");
-          downsChart(teamOneData, teamTwoData, "#downsChart");
-          runRateChart(teamOneData, "#runRateChart");
-          runPassSrChart(teamOneData, "#runPassSrChart");
-          runnersChart(teamOneData,"#runnersChart");
-          passersChart(teamOneData,"#passersChart");
-          receiversChart(teamOneData,"#receiversChart");
-          // playTypeChart(teamOneData, teamTwoData, "#playTypeChart");
+          quartersChart(teamOneData, teamTwoData, "quarters");
+          downsChart(teamOneData, teamTwoData, "downs");
+          runRateChart(teamOneData, "runRate");
+          runPassSrChart(teamOneData, "runPassSr");
+          runnersChart(teamOneData,"runners");
+          passersChart(teamOneData,"passers");
+          receiversChart(teamOneData,"receivers");
           
           // load more charts here
 
