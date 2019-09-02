@@ -163,9 +163,6 @@ function barChart(thisTeam, thatTeam, thisId, thisColumn, barChartType) {
         options: {
             maintainAspectRatio: false,
             showAnimation: false,
-            legend: {
-                position: 'bottom',
-            },
             scales: {
                 xAxes: [{
                     ticks: {
@@ -378,9 +375,6 @@ function playersChart(thisTeam, thisId, thisColumn) {
         options: {
             maintainAspectRatio: false,
             showAnimation: false,
-            legend: {
-                position: 'bottom',
-            },
             scales: {
                 xAxes: [{
                     ticks: {

@@ -26,25 +26,29 @@ body {
   padding: 80px 20px 10px 10px;
   overflow: auto;
 }
+
+#main .chartOuter, #main .buttonOuter {
+  margin-bottom: 80px;
+}
 .chartOuter {
   max-width: 800px;
   min-height: 320px;
-  margin-bottom: 160px;
+  margin-bottom: 32px;
 }
 
-#playMapOuter {
+#main #playMapOuter {
   margin-bottom: 20px;
 }
-.buttonOuter {
+#main .buttonOuter {
   padding: 12px 0 0 30px;
 }
 .switchBtn {
   width: 100%;
-  margin-bottom: 160px;
   background: none;
   border: 1px solid lightgray; 
   padding: 10px;
   border-radius: 4px; 
+  margin-bottom: 32px;
 }
 .switchBtn:hover {
   background: #FAFAFA;
