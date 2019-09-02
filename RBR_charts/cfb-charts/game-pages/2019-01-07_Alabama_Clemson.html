@@ -40,6 +40,31 @@
       <canvas id="downsChart" height="160" width="400"></canvas>
     </div>
 
+    <h3>Run rate over time</h3>
+    <div class="chartOuter">
+      <canvas id="runRateChart" height="160" width="400"></canvas>
+    </div>
+
+    <h3>Running and Passing Success Rates</h3>
+    <div class="chartOuter">
+      <canvas id="runPassSrChart" height="160" width="400"></canvas>
+    </div>
+    
+    <h3>Top Runners</h3>
+    <div class="chartOuter">
+      <canvas id="runnersChart" height="360" width="400"></canvas>
+    </div>
+    
+    <h3>Top Passers</h3>
+    <div class="chartOuter">
+      <canvas id="passersChart" height="120" width="400"></canvas>
+    </div>
+    
+    <h3>Top Receivers</h3>
+    <div class="chartOuter">
+      <canvas id="receiversChart" height="600" width="400"></canvas>
+    </div>
+    
     <!-- <div class="chartOuter">
       <h3>Success by Play Type</h3>
       <canvas id="playTypeChart" height="200" width="400"></canvas>
@@ -81,6 +106,11 @@
           teamSwitcher(); // goes with play maps
           quartersChart(teamOneData, teamTwoData, "#quartersChart");
           downsChart(teamOneData, teamTwoData, "#downsChart");
+          runRateChart(teamOneData, "#runRateChart");
+          runPassSrChart(teamOneData, "#runPassSrChart");
+          runnersChart(teamOneData,"#runnersChart");
+          passersChart(teamOneData,"#passersChart");
+          receiversChart(teamOneData,"#receiversChart");
           // playTypeChart(teamOneData, teamTwoData, "#playTypeChart");
           
           // load more charts here

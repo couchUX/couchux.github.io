@@ -1,6 +1,6 @@
-@function darkest($color) {@return change-color($color, $lightness: 20)}
-@function middle($color) {@return desaturate(change-color($color, $lightness: 48),10)}
-@function lightest($color) {@return change-color($color, $lightness: 96)}
+@function darkest($color) {@return change-color($color, $alpha: .8, $lightness: 25)}
+@function middle($color) {@return desaturate(change-color($color, $alpha: .8, $lightness: 55),10)}
+@function lightest($color) {@return change-color($color, $alpha: .8, $lightness: 95)}
 
 
 .air-force { $hex: #0000FF; stroke: middle($hex); color: darkest($hex); background-color: lightest($hex); }

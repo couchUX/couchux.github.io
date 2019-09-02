@@ -13,23 +13,23 @@ To-do:
         - first pass **DONE**
 
     Run rate over time chart:
-        - ...
+        - first pass **DONE**
 
     Run/pass efficiency over time:
-        - ...
+        - first pass **DONE**
 
 
 
     Players charts:
 
         Runners:
-            - ...
+            - first pass **DONE**
 
         Passers:
-            - ...
+            - first pass **DONE**
         
         Receivers:
-            - ...
+            - first pass **DONE**
 
         
     
@@ -38,4 +38,4 @@ To-do:
 
     Colors:
             - Play with desaturation/opacity/darkness to get Crimson back.
-            - ...
+            - Make colors a bit less intense and dark **DONE**

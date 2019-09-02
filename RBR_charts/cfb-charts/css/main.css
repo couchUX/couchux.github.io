@@ -23,12 +23,12 @@ body {
 #main {
   max-width: 745px;
   margin: auto;
-  padding-top: 80px;
+  padding: 80px 20px 10px 10px;
   overflow: auto;
 }
 .chartOuter {
   max-width: 800px;
-  height: 320px;
+  min-height: 320px;
   margin-bottom: 160px;
 }
 
