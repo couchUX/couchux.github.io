@@ -23,7 +23,7 @@ body {
 .hide {
   visibility: hidden;
   opacity: 0;
-  position: absolute;
+  position: absolute !important;
 }
 #main {
   max-width: 745px;
@@ -35,13 +35,16 @@ body {
   margin-bottom: 80px;
 }
 .chartOuter {
-  margin-bottom: 32px;
+  margin-bottom: 16px;
 }
 #main #playMapOuter {
   margin-bottom: 20px;
 }
+.buttonOuter {
+  padding-top: 16px;
+}
 #main .buttonOuter {
-  padding: 12px 0 0 30px;
+  padding-left: 30px;
 }
 .teamMap {
   transition: opacity 0.5s;

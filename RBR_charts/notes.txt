@@ -4,11 +4,12 @@ To-do:
         - running plays as a different shape -- **DONE**
         - team-switcher: hide/show entire chart in css, not data load -- **DONE**
 
-
     Quarters chart:
         - first pass **DONE**
-        - add a total
         - get the labels correct (download new csv)
+
+    Total SR over time
+        - first pass new line chart (requires combining this data at the source?)
 
     Downs chart:
         - first pass **DONE**
@@ -37,10 +38,13 @@ To-do:
 
         
 
-
     Colors:
-            - Play with desaturation/opacity/darkness to get Crimson back.
             - Make colors a bit less intense and dark **DONE**
+            - Play with desaturation/opacity/darkness to get Crimson back.
 
     Legends: 
-            - put together legends for all charts
+            - put together legends for all charts **DONE**
+            - better mobile breaking for divs
+
+    
+    

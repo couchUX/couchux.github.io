@@ -75,6 +75,82 @@ function playersLegend(teamName,playerType) {
         + "<\/div>"
 };
 
+function teamLinesLegend(teamName,opponentName) {
+    return "<div class='legend'>"
+            + "<div class='key circle' style='background-color:" + teamName.color + "; border: 1px solid " + teamName.color + "'><\/div>&nbsp;"
+            + teamName.name + " SR:"
+            + "<div class='key circle' style='height: 4px; width: 4px; background-color:" + "white" + "; border: 3px dotted " + opponentName.color + "'><\/div>&nbsp;"
+            + opponentName.name + " SR:"
+        + "<\/div>"
+};
+
+
+//   CUMULATIVE SUCCESS RATE, BOTH TEAMS
+function teamSrChart(thisTeam,thatTeam,thisId) {
+    var container = document.getElementById(outerId(thisId)); 
+    container.insertAdjacentHTML('beforebegin',teamLinesLegend(thisTeam,thatTeam));
+
+    var teamPlays = gameData.filter(function(play) { return play.team == thisTeam.name; });
+    var opponentPlays = gameData.filter(function(play) { return play.team == thatTeam.name; });
+    var playCount = gameData.map(function(play) { return play.play_count });
+    var teamSr = teamPlays.map(function(play) { return { x: play.play_count, y: play.total_sr }; });
+    var opponentSr = opponentPlays.map(function(play) { return { x: play.play_count, y: play.total_sr }; });
+
+    var srAverage = 0.4;
+    var srAverageLine = gameData.map(function(play) { return { x: play.i, y: srAverage }; });
+    
+    var ctx = $(addId(chartId(thisId)));
+    new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: playCount,
+            datasets: [{
+                data: teamSr,
+                pointBackgroundColor: fillColors(teamPlays,thisTeam),
+                borderColor: thisTeam.color,
+                borderWidth: 3,
+                lineTension: 0.2,
+                fill: false,
+                pointRadius: 0,
+            },
+            {
+                data: opponentSr,
+                pointBackgroundColor: fillColors(opponentPlays,thisTeam),
+                borderColor: thatTeam.color,
+                borderWidth: 3,
+                lineTension: 0.2,
+                borderDash: [5,6],
+                fill: false,
+                pointRadius: 0,
+            },
+            {
+                label: "NCAA success rate average",
+                data: srAverageLine,
+                borderColor: "#6b6b6b",
+                borderDash: [2,1],
+                borderWidth: 1,
+                fill: false,
+                pointRadius: 0,
+            }],
+        },
+        options: {
+            maintainAspectRatio: false,
+            scales: {
+                yAxes: [{
+                    ticks: {
+                        min: 0,
+                        max: 1,
+                        callback: function(value) {return value * 100 + "%" }
+                    }
+                }],
+                xAxes: [{
+                    display: false,
+                }],
+            }
+        }
+    });
+    
+};
 
 //   PLAY MAP TEMPLATE
 function playMap(thisTeam,thisId,legendId) {
@@ -174,25 +250,21 @@ function barSrChart(thisTeam,thatTeam,thisId,thisColumn,labelChar) {
         data: {
             labels: uniqueColumnValues,
             datasets: [{
-                label: "",
                 stack: "team",
                 data: xrArray,
                 backgroundColor: thisTeam.colorDark,
             },
             {
-                label: thisTeam.name + ': XR/SR by quarter',
                 stack: "team",
                 data: srArray,
                 backgroundColor: thisTeam.color,
             }, 
             {
-                label: "",
                 stack: "opponent",
                 data: xrArrayOpp,
                 backgroundColor: thatTeam.colorDark,
             }, 
             {
-                label: thatTeam.name + ': XR/SR by quarter',
                 stack: "opponent",
                 data: srArrayOpp,
                 backgroundColor: thatTeam.color,
@@ -253,7 +325,6 @@ function runRateChart(thisTeam, thisId) {
         data: {
             labels: playCount,
             datasets: [{
-                label: thisTeam.name + ' - run rate (cumulative)',
                 data: playCountAndRunRate,
                 pointBackgroundColor: fillColors(teamPlays,thisTeam),
                 backgroundColor: thisTeam.colorLight,
@@ -265,7 +336,6 @@ function runRateChart(thisTeam, thisId) {
             
             },
             {
-                label: false,
                 data: rrAverageLine,
                 borderColor: "#333",
                 borderDash: [2,2],
@@ -317,7 +387,6 @@ function runPassSrChart(thisTeam, thisId) {
         data: {
             labels: playCount,
             datasets: [{
-                label: thisTeam.name + ' - run SR (cumulative)',
                 data: playCountAndRunSr,
                 pointBackgroundColor: fillColors(runPlays,thisTeam),
                 backgroundColor: thisTeam.colorLight,
@@ -330,7 +399,6 @@ function runPassSrChart(thisTeam, thisId) {
             
             },
             {
-                label: thisTeam.name + ' - pass SR (cumulative)',
                 data: playCountAndPassSr,
                 pointBackgroundColor: fillColors(passPlays,thisTeam),
                 backgroundColor: thisTeam.colorLight,
@@ -385,10 +453,10 @@ function playersChart(thisTeam, thisId, thisColumn) {
     var nspArray = [];
 
     teamPlays = gameData.filter(function(play) { return play.team == thisTeam.name; });
-    realRunPlays = teamPlays.filter(function(play) { return play[thisColumn] != ""; });
+    realPlays = teamPlays.filter(function(play) { return play[thisColumn] != ""; });
 
     function columnArrays(thisColumnValue,thisXpArray,thisSpArray,thisNspArray) {
-        columnPlays = teamPlays.filter(function(play) { return play[thisColumn] == thisColumnValue});
+        columnPlays = realPlays.filter(function(play) { return play[thisColumn] == thisColumnValue});
         
         columnPlaysExplosive = columnPlays.filter(function(play) { return play.play_result == "explosive"});
         thisXpArray.push(columnPlaysExplosive.length);
@@ -401,7 +469,7 @@ function playersChart(thisTeam, thisId, thisColumn) {
 
     };
 
-    var uniqueColumnValues = unique(realRunPlays,thisColumn);
+    var uniqueColumnValues = unique(realPlays,thisColumn);
 
     uniqueColumnValues.forEach(function(value) {
         columnArrays(value,xpArray,spArray,nspArray);
@@ -412,21 +480,17 @@ function playersChart(thisTeam, thisId, thisColumn) {
         type: 'horizontalBar',
         data: {
             labels: uniqueColumnValues,
-
             datasets: [{
-                label: "",
                 data: xpArray,
                 stack: "one",
                 backgroundColor: thisTeam.colorDark,
             },
             {
-                label: "",
                 data: spArray,
                 stack: "one",
                 backgroundColor: thisTeam.color,
             }, 
             {
-                label: thisTeam.name + ': XR/SR by quarter',
                 data: nspArray,
                 stack: "one",
                 backgroundColor: "rgba(255,255,255,0.8)",
@@ -465,3 +529,81 @@ function passersChart(thisTeam,thisId) {
 function receiversChart(thisTeam,thisId) {
     playersChart(thisTeam,thisId,'receiver');
 }
+
+
+//  TACKLERS CHART
+function tacklersChart(thisTeam,thatTeam,thisId) {
+    var container = document.getElementById(outerId(thisId)); 
+    container.insertAdjacentHTML('beforebegin',playersLegend(thatTeam));
+        
+    var xpArray = [];
+    var spArray = [];
+    var nspArray = [];
+
+    teamPlays = gameData.filter(function(play) { return play.team == thatTeam.name; });
+    realPlays = teamPlays.filter(function(play) { return play.tackler_one != "" || play.tackler_two != ""; });
+
+    function columnArrays(thisColumnValue,thisXpArray,thisSpArray,thisNspArray) {
+        columnPlays = realPlays.filter(function(play) { return play.tackler_one == thisColumnValue && play.tackler_one_credit == 1 });
+        columnPlaysHalf = realPlays.filter(function(play) { return play.tackler_one == thisColumnValue && play.tackler_one_credit == 0.5 });
+        columnPlaysTwo = realPlays.filter(function(play) { return play.tackler_two == thisColumnValue });
+
+        function returnByResult(thisArray,thisResult) {
+            array = columnPlays.filter(function(play) { return play.play_result == thisResult});
+            arrayHalf = columnPlaysHalf.filter(function(play) { return play.play_result == thisResult});
+            arrayTwo = columnPlaysTwo.filter(function(play) { return play.play_result == thisResult});
+            thisArray.push(array.length + arrayHalf.length / 2 + arrayTwo.length / 2);
+            // thisArray.sort(function(a, b){return b-a});
+        };
+
+        returnByResult(thisXpArray,"explosive");
+        returnByResult(thisSpArray,"successful");
+        returnByResult(thisNspArray,"not successful");
+
+    };
+
+    var uniqueColumnValues = unique(realPlays,'tackler_one');
+
+    uniqueColumnValues.forEach(function(value) {
+        columnArrays(value,xpArray,spArray,nspArray);
+    });
+    
+    var ctx = $(addId(chartId(thisId)));
+    new Chart(ctx, {
+        type: 'horizontalBar',
+        data: {
+            labels: uniqueColumnValues,
+
+            datasets: [{
+                data: xpArray,
+                stack: "one",
+                backgroundColor: thatTeam.colorDark,
+            },
+            {
+                data: spArray,
+                stack: "one",
+                backgroundColor: thatTeam.color,
+            }, 
+            {
+                data: nspArray,
+                stack: "one",
+                backgroundColor: "rgba(255,255,255,0.8)",
+                borderColor: thatTeam.colorDark,
+                borderWidth: 1,
+            }], 
+        },
+        options: {
+            maintainAspectRatio: false,
+            showAnimation: false,
+            scales: {
+                xAxes: [{
+                    ticks: {
+                        stacked: true,
+                        suggestedMax: 0.8,
+                    }
+                }]
+            }
+        }
+    });
+    
+    }
