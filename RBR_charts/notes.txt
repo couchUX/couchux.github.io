@@ -24,6 +24,8 @@ To-do:
 
 
     Players charts:
+        
+        - get these labels stacking!
 
         Runners:
             - first pass **DONE**
@@ -51,6 +53,10 @@ To-do:
     Tooltips:
             - formatting for numbers in Tooltips
             - get it to say the play description on play-based graphs!
+
+    RBR post image placeholder
+            - come up with a viz to use for the article headline, color-themed for the game.
+            - and maybe another viz for the all-charts articles
 
     
     

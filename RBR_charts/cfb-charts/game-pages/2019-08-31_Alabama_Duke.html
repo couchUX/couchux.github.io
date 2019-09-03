@@ -74,43 +74,43 @@
     </div>
     
     <!-- Alabama player charts -->
-    <h3>Top Runners (in order of appearance)</h3>
+    <h3>Top Runners (in order of appearance), Alabama</h3>
     <div class="chartOuter" id="runnersOuter">
       <canvas id="runnersChart" height="200" width="400"></canvas>
     </div>
     
-    <h3>Top Passers (in order of appearance)</h3>
+    <h3>Top Passers (in order of appearance), Alabama</h3>
     <div class="chartOuter" id="passersOuter">
       <canvas id="passersChart" height="100" width="400"></canvas>
     </div>
     
-    <h3>Top Receivers (in order of appearance)</h3>
+    <h3>Top Receivers (in order of appearance), Alabama</h3>
     <div class="chartOuter" id="receiversOuter">
       <canvas id="receiversChart" height="300" width="400"></canvas>
     </div>
     
-    <h3>Top Tacklers (in order of appearance)</h3>
+    <h3>Top Tacklers (in order of appearance), Alabama</h3>
     <div class="chartOuter" id="tacklersOuter">
       <canvas id="tacklersChart" height="480" width="400"></canvas>
     </div>
     
     <!-- Opponent player charts -->
-    <h3>Top Runners (in order of appearance)</h3>
+    <h3>Top Runners (in order of appearance), Opponent</h3>
     <div class="chartOuter" id="runnersOpponentOuter">
       <canvas id="runnersOpponentChart" height="200" width="400"></canvas>
     </div>
     
-    <h3>Top Passers (in order of appearance)</h3>
+    <h3>Top Passers (in order of appearance), Opponent</h3>
     <div class="chartOuter" id="passersOpponentOuter">
       <canvas id="passersOpponentChart" height="100" width="400"></canvas>
     </div>
     
-    <h3>Top Receivers (in order of appearance)</h3>
+    <h3>Top Receivers (in order of appearance), Opponent</h3>
     <div class="chartOuter" id="receiversOpponentOuter">
       <canvas id="receiversOpponentChart" height="300" width="400"></canvas>
     </div>
     
-    <h3>Top Tacklers (in order of appearance)</h3>
+    <h3>Top Tacklers (in order of appearance), Opponent</h3>
     <div class="chartOuter" id="tacklersOpponentOuter">
       <canvas id="tacklersOpponentChart" height="480" width="400"></canvas>
     </div>
@@ -135,7 +135,7 @@
       var gameData;
 
       allCharts("../../../RBR_charts/2019-08-31_Alabama_Duke/all_plays.csv");
-      // version for RBR: allCharts("https://couchux.github.io/RBR_charts/2019-01-07_Alabama_Clemson/all_plays.csv");
+      // prefix for RBR: https://couchux.github.io/RBR_charts/...
       
       function allCharts(csv) {
         d3.csv(csv, function(data) {
