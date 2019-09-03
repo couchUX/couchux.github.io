@@ -5,6 +5,9 @@
 Chart.defaults.global.legend = false;
 Chart.defaults.global.borderWidth = 4;
 
+var srAverage = 0.4;
+var srAverageColor = "#818181";
+
 // Extract unique Quarters: I copied and adjusted from an ES6 solution run through Babel. I don't really get it.
 function unique(thisData,thisColumn) { 
     function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _nonIterableSpread(); }
@@ -78,9 +81,9 @@ function playersLegend(teamName,playerType) {
 function teamLinesLegend(teamName,opponentName) {
     return "<div class='legend'>"
             + "<div class='key circle' style='background-color:" + teamName.color + "; border: 1px solid " + teamName.color + "'><\/div>&nbsp;"
-            + teamName.name + " SR:"
+            + teamName.name + "'s SR"
             + "<div class='key circle' style='height: 4px; width: 4px; background-color:" + "white" + "; border: 3px dotted " + opponentName.color + "'><\/div>&nbsp;"
-            + opponentName.name + " SR:"
+            + opponentName.name + "'s SR"
         + "<\/div>"
 };
 
@@ -96,7 +99,6 @@ function teamSrChart(thisTeam,thatTeam,thisId) {
     var teamSr = teamPlays.map(function(play) { return { x: play.play_count, y: play.total_sr }; });
     var opponentSr = opponentPlays.map(function(play) { return { x: play.play_count, y: play.total_sr }; });
 
-    var srAverage = 0.4;
     var srAverageLine = gameData.map(function(play) { return { x: play.i, y: srAverage }; });
     
     var ctx = $(addId(chartId(thisId)));
@@ -126,8 +128,7 @@ function teamSrChart(thisTeam,thatTeam,thisId) {
             {
                 label: "NCAA success rate average",
                 data: srAverageLine,
-                borderColor: "#6b6b6b",
-                borderDash: [2,1],
+                borderColor: srAverageColor,
                 borderWidth: 1,
                 fill: false,
                 pointRadius: 0,
@@ -243,6 +244,8 @@ function barSrChart(thisTeam,thatTeam,thisId,thisColumn,labelChar) {
         columnArrays(teamOneData,value,xrArray,srArray);
         columnArrays(teamTwoData,value,xrArrayOpp,srArrayOpp);
     });
+
+    var srAverageLine = gameData.map(function(play) { return { x: play.i, y: srAverage }; });
     
     var ctx = $(addId(chartId(thisId)));
     new Chart(ctx, {
@@ -268,7 +271,16 @@ function barSrChart(thisTeam,thatTeam,thisId,thisColumn,labelChar) {
                 stack: "opponent",
                 data: srArrayOpp,
                 backgroundColor: thatTeam.color,
-            }]
+            },
+            {
+                label: "NCAA success rate average",
+                data: srAverageLine,
+                borderColor: srAverageColor,
+                borderWidth: 1,
+                fill: false,
+                pointRadius: 0,
+                type: 'line'
+            }],
         },
         options: {
             maintainAspectRatio: false,
@@ -312,7 +324,7 @@ function runRateChart(thisTeam, thisId) {
     var container = document.getElementById(outerId(thisId)); 
     container.insertAdjacentHTML('beforebegin',lineLegend(thisTeam));
 
-    var teamPlays = gameData.filter(function(play) { return play.team == thisTeam.name; });
+    var teamPlays = gameData.filter(function(play) { return play.team == thisTeam.name && play.run_rate != ""; });
     var playCount = teamPlays.map(function(play) { return play.play_count });
     var playCountAndRunRate = teamPlays.map(function(play) { return { x: play.play_count, y: play.run_rate }; });
 
@@ -337,9 +349,8 @@ function runRateChart(thisTeam, thisId) {
             },
             {
                 data: rrAverageLine,
-                borderColor: "#333",
-                borderDash: [2,2],
-                borderWidth: 1.5,
+                borderColor: srAverageColor,
+                borderWidth: 1,
                 pointBorderWidth: 1,
                 fill: false,
                 pointRadius: 0,
@@ -378,7 +389,6 @@ function runPassSrChart(thisTeam, thisId) {
     var playCountAndRunSr = runPlays.map(function(play) { return { x: play.play_count, y: play.run_sr }; });
     var playCountAndPassSr = passPlays.map(function(play) { return { x: play.play_count, y: play.pass_sr }; });
 
-    var srAverage = 0.4;
     var srAverageLine = gameData.map(function(play) { return { x: play.i, y: srAverage }; });
     
     var ctx = $(addId(chartId(thisId)));
@@ -406,7 +416,7 @@ function runPassSrChart(thisTeam, thisId) {
                 pointBorderWidth: 1.5,
                 borderWidth: 1.5,
                 pointBorderWidth: 1,
-                borderDash: [3,4],
+                borderDash: [3,3],
                 fill: false,
                 pointRadius: pointSize(passPlays),
                 pointStyle: pointShape(passPlays),
@@ -415,8 +425,7 @@ function runPassSrChart(thisTeam, thisId) {
             {
                 label: "NCAA success rate average",
                 data: srAverageLine,
-                borderColor: "#6b6b6b",
-                borderDash: [2,1],
+                borderColor: srAverageColor,
                 borderWidth: 1,
                 fill: false,
                 pointRadius: 0,

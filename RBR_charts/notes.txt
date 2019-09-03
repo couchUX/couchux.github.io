@@ -6,10 +6,11 @@ To-do:
 
     Quarters chart:
         - first pass **DONE**
-        - get the labels correct (download new csv)
+        - get the labels correct (download new csv)   **DONE**
+        - SR Avg line **DONE**
 
     Total SR over time
-        - first pass new line chart (requires combining this data at the source?)
+        - first pass new line chart (requires combining this data at the source) **DONE**
 
     Downs chart:
         - first pass **DONE**
@@ -34,7 +35,8 @@ To-do:
             - first pass **DONE**
 
         Tacklers:
-            - get data combined between tacklers
+            - get data combined between tacklers **DONE**
+            - first pass **DONE**
 
         
 
@@ -45,6 +47,10 @@ To-do:
     Legends: 
             - put together legends for all charts **DONE**
             - better mobile breaking for divs
+
+    Tooltips:
+            - formatting for numbers in Tooltips
+            - get it to say the play description on play-based graphs!
 
     
     

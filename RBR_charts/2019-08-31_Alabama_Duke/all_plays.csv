@@ -1,141 +1,138 @@
 team,quarter,drive_team,play_count,play_count_team,down,play_type,yards_total,play_result,run_sr,pass_sr,total_sr,run_rate,runner,passer,receiver,tackler_one,tackler_two,tackler_one_credit,tackler_two_credit,play_description
-Clemson,1Q,1,2,1,1,pass,,not successful,,0.00,0.00,0.00,,T.Lawrence,T.Etienne,,,,,16-T.Lawrence incomplete. Intended for 9-T.Etienne.
-Clemson,1Q,1,3,2,2,run,3,not successful,0.00,,0.00,0.50,T.Etienne,,,X.McKinney,M.Wilson,0.5,0.5,"9-T.Etienne pushed ob at CLE 28 for 3 yards (15-X.McKinney,30-M.Wilson)."
-Clemson,1Q,1,4,3,3,pass,,not successful,,0.00,0.00,0.33,,T.Lawrence,H.Renfrow,,,,,16-T.Lawrence incomplete. Intended for 13-H.Renfrow.
-Alabama,1Q,1,6,1,1,pass,8,successful,,1.00,1.00,0.00,,T.Tagovailoa,I.Smith,T.Mullen,,1,,13-T.Tagovailoa complete to 82-I.Smith. 82-I.Smith pushed ob at BAMA 29 for 8 yards (1-T.Mullen).
-Alabama,1Q,1,7,2,2,pass,12,successful,,1.00,1.00,0.00,,T.Tagovailoa,D.Smith,T.Mullen,,1,,13-T.Tagovailoa complete to 6-D.Smith. 6-D.Smith pushed ob at BAMA 41 for 12 yards (1-T.Mullen).
-Alabama,1Q,1,8,3,1,pass,,not successful,,0.67,0.67,0.00,,T.Tagovailoa,J.Jeudy,,,,," 13-T.Tagovailoa incomplete. Intended for 4-J.Jeudy, INTERCEPTED by 8-A.Terrell at BAMA 44. 8-A.Terrell runs 44 yards for a touchdown."
-Alabama,1Q,2,11,4,1,run,3,not successful,0.00,,0.50,0.25,D.Harris,,,T.Lamar,K.Joseph,0.5,0.5,"34-D.Harris to BAMA 28 for 3 yards (57-T.Lamar,34-K.Joseph)."
-Alabama,1Q,2,12,5,2,run,10,successful,0.50,,0.60,0.40,D.Harris,,,K.Joseph,,1,,34-D.Harris to BAMA 38 for 10 yards (34-K.Joseph).
-Alabama,1Q,2,13,6,1,pass,62,explosive,,0.75,0.67,0.33,,T.Tagovailoa,J.Jeudy,,,,, 13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy runs 62 yards for a touchdown.
-Clemson,1Q,3,16,5,1,pass,,not successful,,0.00,0.00,0.25,,T.Lawrence,J.Ross,,,,,16-T.Lawrence incomplete. Intended for 8-J.Ross.
-Clemson,1Q,3,18,7,2,pass,8,not successful,,0.00,0.00,0.20,,T.Lawrence,T.Thompson,X.McKinney,,1,,16-T.Lawrence complete to 1-T.Thompson. 1-T.Thompson to CLE 21 for 8 yards (15-X.McKinney).
-Clemson,1Q,3,19,8,3,pass,62,explosive,,0.20,0.17,0.17,,T.Lawrence,T.Higgins,S.Smith,,1,,16-T.Lawrence complete to 5-T.Higgins. 5-T.Higgins to BAMA 17 for 62 yards (4-S.Smith).
-Clemson,1Q,3,20,9,1,run,17,explosive,0.50,,0.29,0.29,T.Etienne,,,,,,, 9-T.Etienne runs 17 yards for a touchdown.
-Alabama,1Q,3,23,7,1,run,7,successful,0.67,,0.71,0.43,J.Jacobs,,,J.Skalski,,1,,8-J.Jacobs to BAMA 32 for 7 yards (47-J.Skalski).
-Alabama,1Q,3,24,8,2,pass,0,not successful,,0.60,0.63,0.38,,T.Tagovailoa,I.Smith,K.Wallace,,1,,13-T.Tagovailoa complete to 82-I.Smith. 82-I.Smith to BAMA 32 for no gain (12-K.Wallace).
-Alabama,1Q,3,25,9,3,pass,15,explosive,,0.67,0.67,0.33,,T.Tagovailoa,D.Smith,A.Terrell,N.Turner,0.5,0.5,"13-T.Tagovailoa complete to 6-D.Smith. 6-D.Smith to BAMA 47 for 15 yards (8-A.Terrell,24-N.Turner)."
-Alabama,1Q,3,26,10,1,pass,11,successful,,0.71,0.70,0.30,,T.Tagovailoa,D.Smith,K.Wallace,,1,,13-T.Tagovailoa complete to 6-D.Smith. 6-D.Smith to CLE 42 for 11 yards (12-K.Wallace).
-Alabama,1Q,3,27,11,1,pass,21,explosive,,0.75,0.73,0.27,,T.Tagovailoa,I.Smith,K.Wallace,,1,,13-T.Tagovailoa complete to 82-I.Smith. 82-I.Smith to CLE 21 for 21 yards (12-K.Wallace).
-Alabama,1Q,3,28,12,1,pass,,not successful,,0.67,0.67,0.25,,T.Tagovailoa,J.Jacobs,,,,,13-T.Tagovailoa incomplete. Intended for 8-J.Jacobs.
-Alabama,1Q,3,29,13,2,run,9,successful,0.75,,0.69,0.31,N.Harris,,,,,,,22-N.Harris to CLE 12 for 9 yards.
-Alabama,1Q,3,30,14,3,run,3,successful,0.80,,0.71,0.36,N.Harris,,,I.Simmons,T.Lamar,0.5,0.5,"22-N.Harris to CLE 9 for 3 yards (11-I.Simmons,57-T.Lamar)."
-Alabama,1Q,3,31,15,1,run,8,successful,0.83,,0.73,0.40,N.Harris,,,T.Mullen,,1,,22-N.Harris to CLE 1 for 8 yards (1-T.Mullen).
-Alabama,1Q,3,32,16,2,pass,1,successful,,0.70,0.75,0.38,,T.Tagovailoa,H.Hentges,,,,, 13-T.Tagovailoa complete to 84-H.Hentges. 84-H.Hentges runs 1 yard for a touchdown.
-Clemson,1Q,4,35,10,1,pass,,not successful,,0.17,0.25,0.25,,T.Lawrence,H.Renfrow,,,,,16-T.Lawrence incomplete. Intended for 13-H.Renfrow.
-Clemson,1Q,4,36,11,2,run,-4,not successful,0.33,,0.22,0.33,T.Etienne,,,L.Ray,M.Wilson,0.5,0.5,"9-T.Etienne to CLE 21 for -4 yards (89-L.Ray,30-M.Wilson)."
-Clemson,1Q,4,37,12,3,pass,,not successful,,0.14,0.20,0.30,,T.Lawrence,H.Renfrow,,,,,16-T.Lawrence incomplete. Intended for 13-H.Renfrow.
-Alabama,1Q,4,39,17,1,pass,12,successful,,0.73,0.76,0.35,,T.Tagovailoa,J.Jeudy,T.Mullen,,1,,13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy pushed ob at CLE 40 for 12 yards (1-T.Mullen).
-Alabama,1Q,4,40,18,1,run,13,successful,0.86,,0.78,0.39,N.Harris,,,I.Simmons,,1,,22-N.Harris to CLE 27 for 13 yards (11-I.Simmons).
-Alabama,1Q,4,41,19,1,pass,12,successful,,0.75,0.79,0.37,,T.Tagovailoa,J.Jeudy,I.Simmons,,1,,13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy to CLE 15 for 12 yards (11-I.Simmons).
-Alabama,1Q,4,42,20,1,run,6,successful,0.88,,0.80,0.40,D.Harris,,,A.Terrell,,1,,34-D.Harris to CLE 9 for 6 yards (8-A.Terrell).
-Alabama,1Q,4,43,21,2,run,1,not successful,0.78,,0.76,0.43,D.Harris,,,A.Huggins,A.Bryant,0.5,0.5,"34-D.Harris to CLE 8 for 1 yard (67-A.Huggins,7-A.Bryant)."
-Alabama,1Q,4,44,22,3,run,2,not successful,0.70,,0.73,0.45,D.Harris,,,A.Huggins,,1,,34-D.Harris to CLE 6 for 2 yards (67-A.Huggins).
-Alabama,1Q,4,45,23,4,run,4,successful,0.73,,0.74,0.48,J.Jacobs,,,T.Lamar,A.Huggins,0.5,0.5,"8-J.Jacobs to CLE 2 for 4 yards (57-T.Lamar,67-A.Huggins)."
-Alabama,1Q,4,46,24,1,run,1,successful,0.75,,0.75,0.50,D.Harris,,,A.Bryant,,1,,34-D.Harris to CLE 1 for 1 yard (7-A.Bryant).
-Alabama,1Q,4,48,26,2,pass,3,not successful,,0.69,0.72,0.48,,T.Tagovailoa,H.Ruggs,I.Simmons,,1,,13-T.Tagovailoa complete to 11-H.Ruggs. 11-H.Ruggs to CLE 3 for 3 yards (11-I.Simmons).
-Alabama,2Q,5,49,27,3,pass,-4,not successful,,0.64,0.69,0.46,,T.Tagovailoa,D.Harris,A.Bryant,,1,,13-T.Tagovailoa complete to 34-D.Harris. 34-D.Harris to CLE 7 for -4 yards (7-A.Bryant).
-Clemson,2Q,5,52,14,1,pass,15,successful,,0.25,0.27,0.27,,T.Lawrence,T.Higgins,,,,,"16-T.Lawrence incomplete. Intended for 5-T.Higgins. Penalty on BAMA 4-S.Smith, Pass interference, 15 yards, enforced at CLE 35. No Play."
-Clemson,2Q,5,53,15,1,pass,26,explosive,,0.33,0.33,0.25,,T.Lawrence,T.Feaster,R.Davis,,1,,16-T.Lawrence complete to 28-T.Feaster. 28-T.Feaster to BAMA 24 for 26 yards (99-R.Davis).
-Clemson,2Q,5,54,16,1,run,1,not successful,0.25,,0.31,0.31,T.Lawrence,,,D.Moses,M.Wilson,0.5,0.5,"16-T.Lawrence scrambles to BAMA 23 for 1 yard (32-D.Moses,30-M.Wilson)."
-Clemson,2Q,5,55,17,2,run,4,not successful,0.20,,0.29,0.36,T.Feaster,,,R.Davis,I.Buggs,0.5,0.5,"28-T.Feaster to BAMA 19 for 4 yards (99-R.Davis,49-I.Buggs)."
-Clemson,2Q,5,56,18,3,pass,14,successful,,0.40,0.33,0.33,,T.Lawrence,T.Higgins,X.McKinney,,1,,16-T.Lawrence complete to 5-T.Higgins. 5-T.Higgins pushed ob at BAMA 5 for 14 yards (15-X.McKinney).
-Clemson,2Q,5,57,19,1,run,4,successful,0.33,,0.38,0.38,T.Etienne,,,M.Wilson,,1,,9-T.Etienne to BAMA 1 for 4 yards (30-M.Wilson).
-Clemson,2Q,5,58,20,2,run,1,successful,0.43,,0.41,0.41,T.Etienne,,,,,,, 9-T.Etienne runs 1 yard for a touchdown.
-Alabama,2Q,6,61,29,1,run,7,successful,0.77,,0.70,0.48,J.Jacobs,,,A.Huggins,,1,,8-J.Jacobs to BAMA 32 for 7 yards (67-A.Huggins).
-Alabama,2Q,6,62,30,2,run,2,not successful,0.71,,0.68,0.50,J.Jacobs,,,N.Turner,,1,,8-J.Jacobs to BAMA 34 for 2 yards (24-N.Turner).
-Alabama,2Q,6,63,31,3,run,0,not successful,0.67,,0.66,0.52,J.Jacobs,,,X.Thomas,,1,,8-J.Jacobs to BAMA 34 for no gain (3-X.Thomas).
-Alabama,2Q,6,64,32,4,run,3,successful,0.69,,0.67,0.53,J.Jacobs,,,J.Davis,N.Turner,0.5,0.5,"8-J.Jacobs to BAMA 37 for 3 yards (36-J.Davis,24-N.Turner)."
-Alabama,2Q,6,65,33,1,run,8,successful,0.71,,0.68,0.55,J.Jacobs,,,N.Turner,,1,,8-J.Jacobs to BAMA 45 for 8 yards (24-N.Turner).
-Alabama,2Q,6,66,34,2,run,11,successful,0.72,,0.69,0.56,J.Jacobs,,,K.Wallace,,1,,8-J.Jacobs to CLE 44 for 11 yards (12-K.Wallace).
-Alabama,2Q,6,67,35,1,pass,,not successful,,0.60,0.67,0.55,,T.Tagovailoa,J.Jeudy,,,,,"13-T.Tagovailoa incomplete. Intended for 4-J.Jeudy, INTERCEPTED by 1-T.Mullen at CLE 7. 1-T.Mullen runs ob at BAMA 47 for 46 yards."
-Clemson,2Q,6,68,21,1,run,3,not successful,0.38,,0.39,0.44,T.Etienne,,,Q.Williams,,1,,9-T.Etienne to BAMA 44 for 3 yards (92-Q.Williams).
-Clemson,2Q,6,69,22,2,pass,5,successful,,0.45,0.42,0.42,,T.Lawrence,H.Renfrow,,,,,16-T.Lawrence complete to 13-H.Renfrow. 13-H.Renfrow to BAMA 39 for 5 yards.
-Clemson,2Q,6,70,23,3,pass,5,successful,,0.50,0.45,0.40,,T.Lawrence,H.Renfrow,P.Surtain,,1,,16-T.Lawrence complete to 13-H.Renfrow. 13-H.Renfrow to BAMA 34 for 5 yards (2-P.Surtain).
-Clemson,2Q,6,71,24,1,pass,,not successful,,0.46,0.43,0.38,,T.Lawrence,J.Ross,,,,,16-T.Lawrence incomplete. Intended for 8-J.Ross.
-Clemson,2Q,6,72,25,2,pass,3,not successful,,0.43,0.41,0.36,,T.Lawrence,T.Feaster,I.Buggs,,1,,16-T.Lawrence complete to 28-T.Feaster. 28-T.Feaster to BAMA 31 for 3 yards (49-I.Buggs).
-Clemson,2Q,6,73,26,3,pass,26,explosive,,0.47,0.43,0.35,,T.Lawrence,A.Rodgers,S.Smith,,1,,16-T.Lawrence complete to 3-A.Rodgers. 3-A.Rodgers to BAMA 5 for 26 yards (4-S.Smith).
-Clemson,2Q,6,74,27,1,run,0,not successful,0.33,,0.42,0.38,T.Etienne,,,D.Thompson,,1,,9-T.Etienne to BAMA 5 for no gain (14-D.Thompson).
-Clemson,2Q,6,75,28,2,pass,5,successful,,0.50,0.44,0.36,,T.Lawrence,T.Etienne,,,,, 16-T.Lawrence complete to 9-T.Etienne. 9-T.Etienne runs 5 yards for a touchdown.
-Alabama,2Q,7,78,36,1,pass,5,successful,,0.63,0.68,0.53,,T.Tagovailoa,J.Jeudy,A.Terrell,,1,,13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy to BAMA 30 for 5 yards (8-A.Terrell).
-Alabama,2Q,7,79,37,2,run,11,successful,0.74,,0.69,0.54,N.Harris,,,T.Lamar,I.Simmons,0.5,0.5,"22-N.Harris to BAMA 41 for 11 yards (57-T.Lamar,11-I.Simmons)."
-Alabama,2Q,7,80,38,1,run,-3,not successful,0.70,,0.67,0.56,N.Harris,,,I.Simmons,,1,,22-N.Harris to BAMA 38 for -3 yards (11-I.Simmons).
-Alabama,2Q,7,81,39,2,run,7,not successful,0.67,,0.65,0.57,N.Harris,,,A.Huggins,,1,,22-N.Harris to BAMA 45 for 7 yards (67-A.Huggins).
-Alabama,2Q,7,82,40,3,pass,0,not successful,,0.59,0.63,0.55,,T.Tagovailoa,,T.Mullen,,1,,"13-T.Tagovailoa sacked at BAMA 34 for -11 yards, FUMBLES (1-T.Mullen). 71-R.Pierschbacher to BAMA 34 for no gain."
-Clemson,2Q,7,84,29,1,pass,19,explosive,,0.53,0.46,0.35,,T.Lawrence,T.Thompson,,,,,16-T.Lawrence complete to 1-T.Thompson. 1-T.Thompson runs ob at CLE 40 for 19 yards.
-Clemson,2Q,7,85,30,1,pass,,not successful,,0.50,0.44,0.33,,T.Lawrence,A.Rodgers,,,,,16-T.Lawrence incomplete. Intended for 3-A.Rodgers.
-Clemson,2Q,7,86,31,2,pass,12,successful,,0.53,0.46,0.32,,T.Lawrence,J.Ross,,,,,16-T.Lawrence complete to 8-J.Ross. 8-J.Ross runs ob at BAMA 48 for 12 yards.
-Clemson,2Q,7,87,32,1,no play,15,successful,,,0.48,,,,,,,,,"Penalty on BAMA 15-X.McKinney, Personal Foul, 15 yards, enforced at BAMA 48. No Play."
-Clemson,2Q,7,88,33,1,no play,5,successful,,,0.50,,,,,,,,,"16-T.Lawrence incomplete. Intended for 31-C.Renfrow. Penalty on BAMA 33-A.Jennings, Offside, 5 yards, enforced at BAMA 33. No Play."
-Clemson,2Q,7,89,34,1,pass,12,successful,,0.55,0.52,0.31,,T.Lawrence,J.Ross,X.McKinney,,1,,16-T.Lawrence complete to 8-J.Ross. 8-J.Ross to BAMA 16 for 12 yards (15-X.McKinney).
-Clemson,2Q,7,90,35,1,run,-2,not successful,0.30,,0.50,0.33,A.Choice,,,Q.Williams,,1,,26-A.Choice to BAMA 18 for -2 yards (92-Q.Williams).
-Clemson,2Q,7,91,36,2,pass,,not successful,,0.52,0.48,0.32,,T.Lawrence,T.Higgins,,,,,16-T.Lawrence incomplete. Intended for 5-T.Higgins.
-Clemson,2Q,7,92,37,3,pass,,not successful,,0.50,0.47,0.31,,T.Lawrence,A.Choice,,,,,16-T.Lawrence incomplete. Intended for 26-A.Choice.
-Alabama,2Q,8,95,42,1,pass,,not successful,,0.56,0.62,0.54,,T.Tagovailoa,D.Harris,,,,,13-T.Tagovailoa incomplete. Intended for 34-D.Harris.
-Alabama,2Q,8,96,43,2,run,6,not successful,0.64,,0.60,0.55,T.Tagovailoa,,,T.Muse,,1,,13-T.Tagovailoa scrambles to BAMA 31 for 6 yards (19-T.Muse).
-Alabama,3Q,9,98,44,1,run,15,explosive,0.65,,0.61,0.56,D.Harris,,,I.Simmons,,1,,34-D.Harris to BAMA 40 for 15 yards (11-I.Simmons).
-Alabama,3Q,9,99,45,1,run,11,successful,0.67,,0.62,0.57,D.Harris,,,A.Terrell,,1,,34-D.Harris pushed ob at CLE 49 for 11 yards (8-A.Terrell).
-Alabama,3Q,9,101,47,1,pass,14,successful,,0.58,0.63,0.56,,T.Tagovailoa,I.Smith,N.Pinckney,,1,,13-T.Tagovailoa complete to 82-I.Smith. 82-I.Smith to CLE 40 for 14 yards (44-N.Pinckney).
-Alabama,3Q,9,102,48,2,pass,,not successful,,0.55,0.61,0.55,,T.Tagovailoa,D.Smith,,,,,13-T.Tagovailoa incomplete. Intended for 6-D.Smith.
-Alabama,3Q,9,103,49,3,run,0,not successful,0.64,,0.60,0.56,J.Jacobs,,,J.Davis,C.Ferrell,0.5,0.5,"8-J.Jacobs to CLE 40 for no gain (33-J.Davis,99-C.Ferrell)."
-Alabama,3Q,9,104,50,4,run,2,successful,0.65,,0.61,0.57,J.Jacobs,,,J.Skalski,,1,,8-J.Jacobs to CLE 38 for 2 yards (47-J.Skalski).
-Alabama,3Q,9,105,51,1,pass,,not successful,,0.52,0.60,0.55,,T.Tagovailoa,D.Smith,,,,,13-T.Tagovailoa incomplete. Intended for 6-D.Smith.
-Alabama,3Q,9,106,52,2,run,9,successful,0.67,,0.60,0.56,D.Harris,,,I.Simmons,,1,,34-D.Harris to CLE 29 for 9 yards (11-I.Simmons).
-Alabama,3Q,9,107,53,3,run,3,successful,0.68,,0.61,0.57,J.Jacobs,,,A.Bryant,A.Terrell,0.5,0.5,"8-J.Jacobs to CLE 26 for 3 yards (7-A.Bryant,8-A.Terrell)."
-Alabama,3Q,9,108,54,1,pass,4,not successful,,0.50,0.60,0.56,,T.Tagovailoa,D.Smith,T.Mullen,,1,,13-T.Tagovailoa complete to 6-D.Smith. 6-D.Smith to CLE 22 for 4 yards (1-T.Mullen).
-Alabama,3Q,9,109,55,2,pass,0,not successful,,0.48,0.59,0.55,,T.Tagovailoa,D.Smith,A.Terrell,,1,,"13-T.Tagovailoa complete to 6-D.Smith. 6-D.Smith to CLE 19, FUMBLES (8-A.Terrell). 6-D.Smith to CLE 22 for no gain."
-Alabama,3Q,9,110,56,3,pass,,not successful,,0.46,0.58,0.54,,T.Tagovailoa,I.Smith,,,,,13-T.Tagovailoa incomplete. Intended for 82-I.Smith.
-Alabama,3Q,9,111,57,4,run,-2,not successful,0.66,,0.57,0.55,M.Jones,,,N.Pinckney,,1,,10-M.Jones to CLE 24 for -2 yards (44-N.Pinckney).
-Clemson,3Q,8,112,39,1,run,-2,not successful,0.27,,0.46,0.33,T.Lawrence,,,A.Jennings,,1,,16-T.Lawrence to CLE 22 for -2 yards (33-A.Jennings).
-Clemson,3Q,8,113,40,2,pass,4,not successful,,0.48,0.44,0.32,,T.Lawrence,A.Rodgers,M.Wilson,,1,,16-T.Lawrence complete to 3-A.Rodgers. 3-A.Rodgers to CLE 26 for 4 yards (30-M.Wilson).
-Clemson,3Q,8,114,41,3,pass,74,explosive,,0.50,0.46,0.31,,T.Lawrence,J.Ross,,,,, 16-T.Lawrence complete to 8-J.Ross. 8-J.Ross runs 74 yards for a touchdown.
-Alabama,3Q,10,117,58,1,run,11,successful,0.67,,0.57,0.56,N.Harris,,,T.Muse,,1,,22-N.Harris to BAMA 41 for 11 yards (19-T.Muse).
-Alabama,3Q,10,118,59,1,pass,23,explosive,,0.48,0.58,0.55,,T.Tagovailoa,D.Smith,A.Terrell,,1,,13-T.Tagovailoa complete to 6-D.Smith. 6-D.Smith to CLE 36 for 23 yards (8-A.Terrell).
-Alabama,3Q,10,119,60,1,run,0,not successful,0.65,,0.57,0.55,N.Harris,,,C.Wilkins,,1,,22-N.Harris to CLE 36 for no gain (42-C.Wilkins).
-Alabama,3Q,10,120,61,2,pass,16,explosive,,0.50,0.58,0.54,,T.Tagovailoa,J.Jacobs,T.Lamar,,1,,13-T.Tagovailoa complete to 8-J.Jacobs. 8-J.Jacobs pushed ob at CLE 20 for 16 yards (57-T.Lamar).
-Alabama,3Q,10,121,62,1,pass,6,successful,,0.52,0.59,0.53,,T.Tagovailoa,J.Waddle,K.Wallace,,1,,13-T.Tagovailoa complete to 17-J.Waddle. 17-J.Waddle to CLE 14 for 6 yards (12-K.Wallace).
-Alabama,3Q,10,122,63,2,pass,,not successful,,0.50,0.58,0.53,,T.Tagovailoa,H.Ruggs,,,,,13-T.Tagovailoa incomplete. Intended for 11-H.Ruggs.
-Alabama,3Q,10,123,64,3,pass,,not successful,,0.48,0.57,0.52,,T.Tagovailoa,J.Jeudy,,,,,13-T.Tagovailoa incomplete. Intended for 4-J.Jeudy.
-Alabama,3Q,10,124,65,4,run,3,not successful,0.63,,0.56,0.52,T.Tagovailoa,,,T.Lamar,T.Muse,0.5,0.5,"13-T.Tagovailoa scrambles to CLE 11 for 3 yards (57-T.Lamar,19-T.Muse)."
-Clemson,3Q,9,125,42,1,run,4,not successful,0.25,,0.45,0.33,T.Etienne,,,R.Davis,,1,,9-T.Etienne to CLE 15 for 4 yards (99-R.Davis).
-Clemson,3Q,9,126,43,2,pass,12,successful,,0.52,0.46,0.32,,T.Lawrence,D.Overton,,,,,16-T.Lawrence complete to 14-D.Overton. 14-D.Overton to CLE 27 for 12 yards.
-Clemson,3Q,9,127,44,1,run,-2,not successful,0.23,,0.45,0.34,T.Etienne,,,A.Jennings,Q.Williams,0.5,0.5,"9-T.Etienne to CLE 25 for -2 yards (33-A.Jennings,92-Q.Williams)."
-Clemson,3Q,9,128,45,2,pass,,not successful,,0.50,0.44,0.33,,T.Lawrence,J.Ross,,,,,16-T.Lawrence incomplete. Intended for 8-J.Ross.
-Clemson,3Q,9,129,46,3,pass,37,explosive,,0.52,0.45,0.33,,T.Lawrence,J.Ross,J.Mayden,,1,,16-T.Lawrence complete to 8-J.Ross. 8-J.Ross pushed ob at BAMA 38 for 37 yards (21-J.Mayden).
-Clemson,3Q,9,130,47,1,run,0,not successful,0.21,,0.44,0.34,A.Choice,,,I.Buggs,,1,,26-A.Choice to BAMA 38 for no gain (49-I.Buggs).
-Clemson,3Q,9,131,48,2,pass,0,not successful,,0.50,0.43,0.33,,T.Lawrence,J.Ross,,,,,"16-T.Lawrence complete to 8-J.Ross. 8-J.Ross to BAMA 37, FUMBLES. 99-R.Davis to BAMA 35 for no gain."
-Clemson,3Q,9,132,49,2,pass,1,not successful,,0.48,0.42,0.33,,T.Lawrence,J.Ross,D.Moses,,1,,16-T.Lawrence complete to 8-J.Ross. 8-J.Ross to BAMA 37 for 1 yard (32-D.Moses).
-Clemson,3Q,9,133,50,3,pass,17,explosive,,0.50,0.43,0.32,,T.Lawrence,J.Ross,J.Jobe,,1,,16-T.Lawrence complete to 8-J.Ross. 8-J.Ross pushed ob at BAMA 20 for 17 yards (28-J.Jobe).
-Clemson,3Q,9,134,51,1,run,11,successful,0.27,,0.45,0.33,T.Etienne,,,,,,,9-T.Etienne runs ob at BAMA 9 for 11 yards.
-Clemson,3Q,9,135,52,1,run,3,not successful,0.25,,0.44,0.35,T.Feaster,,,D.Thompson,,1,,28-T.Feaster to BAMA 6 for 3 yards (14-D.Thompson).
-Clemson,3Q,9,136,53,2,run,1,not successful,0.24,,0.43,0.36,T.Lawrence,,,Q.Williams,,1,,16-T.Lawrence to BAMA 5 for 1 yard (92-Q.Williams).
-Clemson,3Q,9,137,54,3,pass,5,successful,,0.52,0.44,0.35,,T.Lawrence,T.Higgins,,,,, 16-T.Lawrence complete to 5-T.Higgins. 5-T.Higgins runs 5 yards for a touchdown.
-Alabama,3Q,11,141,66,1,pass,,not successful,,0.47,0.55,0.52,,T.Tagovailoa,D.Smith,,,,,13-T.Tagovailoa incomplete. Intended for 6-D.Smith.
-Alabama,3Q,11,142,67,2,pass,,not successful,,0.45,0.54,0.51,,T.Tagovailoa,H.Ruggs,,,,,13-T.Tagovailoa incomplete. Intended for 11-H.Ruggs.
-Alabama,3Q,11,143,68,3,pass,48,explosive,,0.47,0.55,0.50,,T.Tagovailoa,J.Jeudy,A.Terrell,,1,,13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy to CLE 27 for 48 yards (8-A.Terrell).
-Alabama,4Q,12,144,69,1,pass,,not successful,,0.45,0.54,0.49,,T.Tagovailoa,D.Smith,,,,,13-T.Tagovailoa incomplete. Intended for 6-D.Smith.
-Alabama,4Q,12,145,70,2,pass,19,explosive,,0.47,0.55,0.48,,T.Tagovailoa,J.Waddle,I.Simmons,,1,,13-T.Tagovailoa complete to 17-J.Waddle. 17-J.Waddle pushed ob at CLE 8 for 19 yards (11-I.Simmons).
-Alabama,4Q,12,146,71,1,pass,7,successful,,0.49,0.55,0.48,,T.Tagovailoa,D.Harris,X.Thomas,,1,,13-T.Tagovailoa complete to 34-D.Harris. 34-D.Harris pushed ob at CLE 1 for 7 yards (3-X.Thomas).
-Alabama,4Q,12,147,72,2,run,0,not successful,0.61,,0.54,0.49,D.Harris,,,C.Wilkins,K.Joseph,0.5,0.5,"34-D.Harris to CLE 1 for no gain (42-C.Wilkins,34-K.Joseph)."
-Alabama,4Q,12,148,73,3,run,-1,not successful,0.59,,0.54,0.49,D.Harris,,,C.Wilkins,C.Ferrell,0.5,0.5,"34-D.Harris to CLE 2 for -1 yard (42-C.Wilkins,99-C.Ferrell)."
-Alabama,4Q,12,149,74,4,run,-7,not successful,0.57,,0.53,0.50,T.Tagovailoa,,,C.Ferrell,,1,,13-T.Tagovailoa to CLE 9 for -7 yards (99-C.Ferrell).
-Clemson,4Q,10,150,55,1,run,-1,not successful,0.22,,0.43,0.37,A.Choice,,,A.Jennings,,1,,26-A.Choice to CLE 8 for -1 yard (33-A.Jennings).
-Clemson,4Q,10,151,56,2,pass,,not successful,,0.50,0.42,0.36,,T.Lawrence,D.Kendrick,,,,,16-T.Lawrence incomplete. Intended for 10-D.Kendrick.
-Clemson,4Q,10,152,57,3,pass,,not successful,,0.48,0.42,0.35,,T.Lawrence,J.Ross,,,,,16-T.Lawrence incomplete. Intended for 8-J.Ross.
-Alabama,4Q,13,154,75,1,pass,,not successful,,0.47,0.52,0.49,,J.Hurts,D.Smith,,,,,2-J.Hurts incomplete. Intended for 6-D.Smith.
-Alabama,4Q,13,155,76,2,pass,-4,not successful,,0.46,0.51,0.49,,J.Hurts,,C.Wilkins,X.Thomas,0.5,0.5,"2-J.Hurts sacked at BAMA 44 for -4 yards (42-C.Wilkins,3-X.Thomas)."
-Alabama,4Q,13,156,77,3,pass,,not successful,,0.45,0.51,0.48,,J.Hurts,H.Ruggs,,,,,2-J.Hurts incomplete. Intended for 11-H.Ruggs.
-Clemson,4Q,11,158,59,1,run,2,not successful,0.21,,0.41,0.37,T.Etienne,,,X.McKinney,,1,,9-T.Etienne to CLE 3 for 2 yards (15-X.McKinney).
-Clemson,4Q,11,159,60,2,run,7,successful,0.25,,0.42,0.38,T.Lawrence,,,X.McKinney,,1,,16-T.Lawrence to CLE 10 for 7 yards (15-X.McKinney).
-Clemson,4Q,11,160,61,3,run,7,successful,0.29,,0.43,0.39,T.Etienne,,,X.McKinney,,1,,9-T.Etienne to CLE 17 for 7 yards (15-X.McKinney).
-Clemson,4Q,11,161,62,1,run,2,not successful,0.27,,0.42,0.40,T.Etienne,,,I.Buggs,J.Mosley,0.5,0.5,"9-T.Etienne to CLE 19 for 2 yards (49-I.Buggs,16-J.Mosley)."
-Clemson,4Q,11,162,63,2,run,38,explosive,0.30,,0.43,0.41,T.Etienne,,,,,,,9-T.Etienne runs ob at BAMA 43 for 38 yards.
-Clemson,4Q,11,163,64,1,run,4,not successful,0.29,,0.42,0.42,T.Feaster,,,I.Buggs,,1,,28-T.Feaster to BAMA 39 for 4 yards (49-I.Buggs).
-Clemson,4Q,11,164,65,2,pass,0,not successful,,0.47,0.42,0.41,,T.Lawrence,T.Chase,J.Jobe,,1,,16-T.Lawrence complete to 18-T.Chase. 18-T.Chase to BAMA 39 for no gain (28-J.Jobe).
-Clemson,4Q,11,165,66,3,run,8,successful,0.32,,0.43,0.42,T.Lawrence,,,S.Carter,D.Thompson,0.5,0.5,"16-T.Lawrence to BAMA 31 for 8 yards (5-S.Carter,14-D.Thompson)."
-Clemson,4Q,11,166,67,1,run,2,not successful,0.31,,0.42,0.43,A.Choice,,,M.Wilson,,1,,26-A.Choice to BAMA 29 for 2 yards (30-M.Wilson).
-Clemson,4Q,11,167,68,2,run,12,successful,0.33,,0.43,0.44,T.Lawrence,,,D.Moses,,1,,16-T.Lawrence to BAMA 17 for 12 yards (32-D.Moses).
-Clemson,4Q,11,168,69,1,run,4,not successful,0.32,,0.42,0.45,A.Choice,,,D.Moses,,1,,26-A.Choice to BAMA 13 for 4 yards (32-D.Moses).
-Clemson,4Q,11,169,70,2,run,2,not successful,0.31,,0.42,0.46,A.Choice,,,S.Carter,,1,,26-A.Choice to BAMA 11 for 2 yards (5-S.Carter).
-Clemson,4Q,11,170,71,3,run,-1,not successful,0.30,,0.41,0.47,C.Brice,,,A.Jennings,,1,,7-C.Brice to BAMA 12 for -1 yard (33-A.Jennings).
-Clemson,4Q,11,171,72,4,run,7,successful,0.32,,0.42,0.48,A.Choice,,,I.Buggs,,1,,26-A.Choice to BAMA 5 for 7 yards (49-I.Buggs).
+Alabama,1Q,1,2,1,1,run,1,not successful,0.00,,0.00,1.00,J.Ford,,,K.Quansah,S.Heyward,0.5,0.5,"27-J.Ford to BAMA 23 for 1 yard (49-K.Quansah,42-S.Heyward)."
+Alabama,1Q,1,3,2,2,pass,2,not successful,,0.00,0.00,0.50,,T.Tagovailoa,J.Ford,L.Johnson,V.Dimukeje,0.5,0.5,"13-T.Tagovailoa complete to 27-J.Ford. 27-J.Ford to BAMA 25 for 2 yards (33-L.Johnson,51-V.Dimukeje)."
+Alabama,1Q,1,4,3,3,pass,-6,not successful,,0.00,0.00,0.33,,T.Tagovailoa,,K.Quansah,,1,,13-T.Tagovailoa sacked at BAMA 19 for -6 yards (49-K.Quansah).
+Duke,1Q,1,6,1,1,run,-1,not successful,0.00,,0.00,1.00,D.Jackson,,,L.Ray,D.Dale,0.5,0.5,"25-D.Jackson to DUK 44 for -1 yard (89-L.Ray,94-D.Dale)."
+Duke,1Q,1,7,2,2,run,4,not successful,0.00,,0.00,1.00,D.Jackson,,,A.Jennings,,1,,25-D.Jackson to DUK 48 for 4 yards (33-A.Jennings).
+Duke,1Q,1,8,3,3,pass,,not successful,,0.00,0.00,0.67,,Q.Harris,D.Jackson,,,,,18-Q.Harris incomplete. Intended for 25-D.Jackson.
+Alabama,1Q,2,10,5,1,run,6,successful,0.50,,0.25,0.50,J.Ford,,,M.Carter,,1,,27-J.Ford to BAMA 23 for 6 yards (26-M.Carter).
+Alabama,1Q,2,11,6,2,run,,not successful,0.33,,0.20,0.60,J.Ford,,,D.Singleton,,,,"27-J.Ford to BAMA 26, FUMBLES (16-D.Singleton). 59-T.Hornbuckle to BAMA 26 for no gain."
+Duke,1Q,2,12,5,1,run,5,successful,0.33,,0.25,0.75,M.Durant,,,X.McKinney,,1,,21-M.Durant to BAMA 21 for 5 yards (15-X.McKinney).
+Duke,1Q,2,13,6,2,run,0,not successful,0.25,,0.20,0.80,Q.Harris,,,L.Ray,,1,,18-Q.Harris to BAMA 21 for no gain (89-L.Ray).
+Duke,1Q,2,14,7,3,run,5,successful,0.40,,0.33,0.83,M.Durant,,,R.Davis,,1,,21-M.Durant to BAMA 16 for 5 yards (99-R.Davis).
+Duke,1Q,2,15,8,1,run,2,not successful,0.33,,0.29,0.86,Q.Harris,,,L.Ray,R.Davis,0.5,0.5,"18-Q.Harris to BAMA 14 for 2 yards (89-L.Ray,99-R.Davis)."
+Duke,1Q,2,16,9,2,pass,,not successful,,0.00,0.25,0.75,,Q.Harris,J.Calhoun,,,,,18-Q.Harris incomplete. Intended for 5-J.Calhoun.
+Duke,1Q,2,17,10,3,run,7,not successful,0.29,,0.22,0.78,D.Jackson,,,S.Carter,,1,,25-D.Jackson to BAMA 7 for 7 yards (11-S.Carter).
+Duke,1Q,2,18,11,4,run,0,not successful,0.25,,0.20,0.80,D.Jackson,,,R.Davis,S.Lee,0.5,0.5,"25-D.Jackson to BAMA 7 for no gain (99-R.Davis,35-S.Lee)."
+Alabama,1Q,3,19,7,1,pass,10,successful,,0.33,0.33,0.50,,T.Tagovailoa,J.Jeudy,J.Blackwell,,1,,13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy pushed ob at BAMA 17 for 10 yards (31-J.Blackwell).
+Alabama,1Q,3,20,8,1,pass,,not successful,,0.25,0.29,0.43,,T.Tagovailoa,J.Jeudy,,,,,13-T.Tagovailoa incomplete. Intended for 4-J.Jeudy.
+Alabama,1Q,3,23,11,2,pass,16,explosive,,0.40,0.38,0.38,,T.Tagovailoa,J.Waddle,K.Quansah,,1,,13-T.Tagovailoa complete to 17-J.Waddle. 17-J.Waddle to BAMA 22 for 16 yards (49-K.Quansah).
+Alabama,1Q,3,24,12,3,pass,11,successful,,0.50,0.44,0.33,,T.Tagovailoa,J.Jeudy,M.Carter,,1,,13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy pushed ob at BAMA 33 for 11 yards (26-M.Carter).
+Alabama,1Q,3,25,13,1,pass,14,successful,,0.57,0.50,0.30,,T.Tagovailoa,J.Jeudy,S.Heyward,,1,,13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy pushed ob at BAMA 47 for 14 yards (42-S.Heyward).
+Alabama,1Q,3,26,14,1,pass,5,successful,,0.63,0.55,0.27,,T.Tagovailoa,H.Ruggs,S.Heyward,,1,,13-T.Tagovailoa complete to 11-H.Ruggs. 11-H.Ruggs to DUK 48 for 5 yards (42-S.Heyward).
+Alabama,1Q,3,27,15,2,pass,,not successful,,0.56,0.50,0.25,,T.Tagovailoa,J.Jeudy,,,,,13-T.Tagovailoa incomplete. Intended for 4-J.Jeudy.
+Alabama,1Q,3,28,16,3,run,10,successful,0.50,,0.54,0.31,T.Tagovailoa,,,D.Singleton,,1,,13-T.Tagovailoa pushed ob at DUK 38 for 10 yards (16-D.Singleton).
+Alabama,1Q,3,29,17,1,pass,,not successful,,0.50,0.50,0.29,,T.Tagovailoa,H.Ruggs,,,,,13-T.Tagovailoa incomplete. Intended for 11-H.Ruggs.
+Alabama,1Q,3,30,18,2,pass,5,not successful,,0.45,0.47,0.27,,T.Tagovailoa,J.Metchie,L.Johnson,,1,,13-T.Tagovailoa complete to 3-J.Metchie. 3-J.Metchie pushed ob at DUK 33 for 5 yards (33-L.Johnson).
+Alabama,1Q,3,31,19,3,run,2,not successful,0.40,,0.44,0.31,J.Ford,,,B.Hill,,1,,27-J.Ford pushed ob at DUK 31 for 2 yards (32-B.Hill).
+Duke,1Q,3,33,12,1,run,4,not successful,0.22,,0.18,0.82,B.Brown,,,R.Davis,A.Jennings,0.5,0.5,"8-B.Brown to DUK 36 for 4 yards (99-R.Davis,33-A.Jennings)."
+Duke,1Q,3,34,13,2,run,16,explosive,0.30,,0.25,0.83,B.Brown,,,X.McKinney,A.Jennings,0.5,0.5,"8-B.Brown to BAMA 48 for 16 yards (15-X.McKinney,33-A.Jennings)."
+Duke,1Q,3,35,14,1,run,1,not successful,0.27,,0.23,0.85,B.Brown,,,A.Jennings,S.Lee,0.5,0.5,"8-B.Brown to BAMA 47 for 1 yard (33-A.Jennings,35-S.Lee)."
+Duke,1Q,3,36,15,2,run,4,not successful,0.25,,0.21,0.86,B.Brown,,,A.Jennings,,1,,8-B.Brown to BAMA 43 for 4 yards (33-A.Jennings).
+Duke,1Q,3,38,17,3,pass,,not successful,,0.00,0.20,0.80,,Q.Harris,S.Bracey,,,,,18-Q.Harris incomplete. Intended for 11-S.Bracey.
+Alabama,1Q,4,40,21,1,run,7,successful,0.50,,0.47,0.35,J.Ford,,,B.Hill,,1,,27-J.Ford to BAMA 27 for 7 yards (32-B.Hill).
+Alabama,1Q,4,41,22,2,run,2,not successful,0.43,,0.44,0.39,J.Ford,,,T.McSwain,B.Hill,0.5,0.5,"27-J.Ford to BAMA 29 for 2 yards (95-T.McSwain,32-B.Hill)."
+Alabama,1Q,4,42,23,3,run,2,successful,0.50,,0.47,0.42,T.Tagovailoa,,,E.Cerenord,,1,,13-T.Tagovailoa to BAMA 31 for 2 yards (92-E.Cerenord).
+Alabama,2Q,5,44,25,1,run,8,not successful,0.44,,0.45,0.45,N.Harris,,,D.Singleton,,1,,22-N.Harris pushed ob at BAMA 29 for 8 yards (16-D.Singleton).
+Alabama,2Q,5,45,26,2,pass,9,successful,,0.50,0.48,0.43,,T.Tagovailoa,D.Smith,D.Singleton,L.Johnson,0.5,0.5,"13-T.Tagovailoa complete to 6-D.Smith. 6-D.Smith to BAMA 38 for 9 yards (16-D.Singleton,33-L.Johnson)."
+Alabama,2Q,5,46,27,3,pass,4,successful,,0.54,0.50,0.41,,T.Tagovailoa,D.Smith,M.Carter,,1,,13-T.Tagovailoa complete to 6-D.Smith. 6-D.Smith to BAMA 42 for 4 yards (26-M.Carter).
+Alabama,2Q,5,47,28,1,pass,9,successful,,0.57,0.52,0.39,,T.Tagovailoa,D.Smith,M.Waters,,1,,13-T.Tagovailoa complete to 6-D.Smith. 6-D.Smith pushed ob at DUK 49 for 9 yards (10-M.Waters).
+Alabama,2Q,5,48,29,2,run,0,not successful,0.40,,0.50,0.42,N.Harris,,,D.Jordan,,1,,22-N.Harris to DUK 49 for no gain (86-D.Jordan).
+Alabama,2Q,5,49,30,3,run,4,successful,0.45,,0.52,0.44,N.Harris,,,M.Carter,D.Singleton,0.5,0.5,"22-N.Harris to DUK 45 for 4 yards (26-M.Carter,16-D.Singleton)."
+Alabama,2Q,5,50,31,1,run,3,not successful,0.42,,0.50,0.46,T.Tagovailoa,,,M.Waters,,1,,13-T.Tagovailoa to DUK 42 for 3 yards (10-M.Waters).
+Alabama,2Q,5,51,32,2,pass,15,explosive,,0.60,0.52,0.44,,T.Tagovailoa,J.Jeudy,J.Blackwell,,1,,13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy pushed ob at DUK 27 for 15 yards (31-J.Blackwell).
+Alabama,2Q,5,52,33,1,pass,27,explosive,,0.63,0.54,0.43,,T.Tagovailoa,M.Forristall,,,,, 13-T.Tagovailoa complete to 87-M.Forristall. 87-M.Forristall runs 27 yards for a touchdown.
+Duke,2Q,4,55,19,1,pass,,not successful,,0.00,0.19,0.75,,Q.Harris,D.Jackson,,,,,18-Q.Harris incomplete. Intended for 25-D.Jackson.
+Duke,2Q,4,56,20,2,pass,2,not successful,,0.00,0.18,0.71,,Q.Harris,J.Calhoun,C.Harris,S.Lee,0.5,0.5,"18-Q.Harris complete to 5-J.Calhoun. 5-J.Calhoun to DUK 27 for 2 yards (8-C.Harris,35-S.Lee)."
+Duke,2Q,4,57,21,3,pass,-8,not successful,,0.00,0.17,0.67,,Q.Harris,,T.Lewis,,1,,18-Q.Harris sacked at DUK 19 for -8 yards (24-T.Lewis).
+Alabama,2Q,6,59,34,1,pass,39,explosive,,0.65,0.55,0.41,,T.Tagovailoa,J.Waddle,K.Quansah,D.Singleton,0.5,0.5,"13-T.Tagovailoa complete to 17-J.Waddle. 17-J.Waddle to DUK 37 for 39 yards (49-K.Quansah,16-D.Singleton)."
+Alabama,2Q,6,60,35,1,pass,9,successful,,0.67,0.57,0.40,,T.Tagovailoa,J.Jeudy,M.Carter,S.Heyward,0.5,0.5,"13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy to DUK 28 for 9 yards (26-M.Carter,42-S.Heyward)."
+Alabama,2Q,6,61,36,2,run,0,not successful,0.38,,0.55,0.42,N.Harris,,,S.Heyward,T.Hornbuckle,0.5,0.5,"22-N.Harris to DUK 28 for no gain (42-S.Heyward,59-T.Hornbuckle)."
+Alabama,2Q,6,62,37,3,run,1,successful,0.43,,0.56,0.44,B.Robinson,,,D.Tangelo,V.Dimukeje,0.5,0.5,"24-B.Robinson to DUK 27 for 1 yard (54-D.Tangelo,51-V.Dimukeje)."
+Alabama,2Q,6,63,38,1,pass,24,explosive,,0.68,0.58,0.42,,T.Tagovailoa,D.Smith,J.Waters,K.Quansah,0.5,0.5,"13-T.Tagovailoa complete to 6-D.Smith. 6-D.Smith to DUK 3 for 24 yards (7-J.Waters,49-K.Quansah)."
+Alabama,2Q,6,64,39,1,run,3,successful,0.47,,0.59,0.44,B.Robinson,,,,,,,24-B.Robinson runs 3 yards for a touchdown.
+Alabama,2Q,6,65,40,1,run,2,successful,0.50,,0.60,0.46,B.Robinson,,,S.Heyward,,1,,24-B.Robinson to DUK 1 for 2 yards (42-S.Heyward).
+Alabama,2Q,6,66,41,2,run,1,successful,0.53,,0.61,0.47,B.Robinson,,,,,,, 24-B.Robinson runs 1 yard for a touchdown.
+Duke,2Q,5,69,23,1,run,6,successful,0.31,,0.21,0.68,B.Brown,,,T.Diggs,X.McKinney,0.5,0.5,"8-B.Brown to DUK 31 for 6 yards (7-T.Diggs,15-X.McKinney)."
+Duke,2Q,5,70,24,2,run,2,not successful,0.29,,0.20,0.70,B.Brown,,,P.Mathis,D.Dale,0.5,0.5,"8-B.Brown to DUK 33 for 2 yards (48-P.Mathis,94-D.Dale)."
+Duke,2Q,5,71,25,3,run,0,not successful,0.27,,0.19,0.71,Q.Harris,,,C.Harris,D.Dale,0.5,0.5,"18-Q.Harris to DUK 33 for no gain (8-C.Harris,94-D.Dale)."
+Alabama,2Q,7,73,42,1,pass,9,successful,,0.70,0.62,0.46,,T.Tagovailoa,H.Ruggs,L.Johnson,,1,,13-T.Tagovailoa complete to 11-H.Ruggs. 11-H.Ruggs to BAMA 42 for 9 yards (33-L.Johnson).
+Alabama,2Q,7,74,43,2,run,0,not successful,0.50,,0.61,0.47,N.Harris,,,,,,,22-N.Harris to BAMA 42 for no gain.
+Alabama,2Q,7,75,44,3,run,-2,not successful,0.47,,0.59,0.49,B.Robinson,,,T.McSwain,,1,,24-B.Robinson to BAMA 40 for -2 yards (95-T.McSwain).
+Duke,2Q,6,77,27,1,run,8,successful,0.31,,0.23,0.73,Q.Harris,,,P.Surtain,X.McKinney,0.5,0.5,"18-Q.Harris to DUK 27 for 8 yards (2-P.Surtain,15-X.McKinney)."
+Duke,2Q,6,78,28,2,pass,37,explosive,,0.14,0.26,0.70,,Q.Harris,S.Bracey,T.Diggs,,1,,18-Q.Harris complete to 11-S.Bracey. 11-S.Bracey to BAMA 36 for 37 yards (7-T.Diggs).
+Duke,2Q,6,79,29,1,run,2,not successful,0.29,,0.25,0.71,Q.Harris,,,L.Ray,R.Davis,0.5,0.5,"18-Q.Harris to BAMA 34 for 2 yards (89-L.Ray,99-R.Davis)."
+Duke,2Q,6,80,30,2,pass,15,successful,,0.25,0.28,0.68,,Q.Harris,A.Young,,,,,"18-Q.Harris incomplete. Intended for 81-A.Young. Penalty on BAMA 28-J.Jobe, Pass interference, 15 yards, enforced at BAMA 34. No Play."
+Duke,2Q,6,81,31,1,pass,3,not successful,,0.22,0.27,0.65,,Q.Harris,D.Jackson,S.Lee,,1,,18-Q.Harris complete to 25-D.Jackson. 25-D.Jackson to BAMA 16 for 3 yards (35-S.Lee).
+Duke,2Q,6,82,32,2,run,4,not successful,0.28,,0.26,0.67,Q.Harris,,,S.Lee,,1,,18-Q.Harris to BAMA 12 for 4 yards (35-S.Lee).
+Duke,2Q,6,83,33,3,pass,,not successful,,0.20,0.25,0.64,,Q.Harris,N.Gray,,,,,18-Q.Harris incomplete. Intended for 87-N.Gray.
+Duke,3Q,7,88,36,1,pass,4,not successful,,0.18,0.24,0.62,,Q.Harris,D.Jackson,J.Jobe,,1,,18-Q.Harris complete to 25-D.Jackson. 25-D.Jackson to DUK 24 for 4 yards (28-J.Jobe).
+Duke,3Q,7,89,37,2,pass,20,explosive,,0.25,0.27,0.60,,Q.Harris,N.Gray,C.Harris,,1,,18-Q.Harris complete to 87-N.Gray. 87-N.Gray to DUK 44 for 20 yards (8-C.Harris).
+Duke,3Q,7,90,38,1,pass,,not successful,,0.23,0.26,0.58,,Q.Harris,J.Calhoun,,,,,18-Q.Harris incomplete. Intended for 5-J.Calhoun.
+Duke,3Q,7,91,39,2,run,2,not successful,0.26,,0.25,0.59,Q.Harris,,,C.Harris,R.Davis,0.5,0.5,"18-Q.Harris to DUK 46 for 2 yards (8-C.Harris,99-R.Davis)."
+Duke,3Q,7,92,40,3,pass,10,successful,,0.29,0.27,0.58,,Q.Harris,N.Gray,P.Surtain,,1,,18-Q.Harris complete to 87-N.Gray. 87-N.Gray to BAMA 44 for 10 yards (2-P.Surtain).
+Duke,3Q,7,93,41,1,pass,,not successful,,0.27,0.26,0.56,,Q.Harris,A.Young,,,,,18-Q.Harris incomplete. Intended for 81-A.Young.
+Duke,3Q,7,94,42,2,pass,2,not successful,,0.25,0.26,0.54,,Q.Harris,N.Gray,T.Lewis,S.Lee,0.5,0.5,"18-Q.Harris complete to 87-N.Gray. 87-N.Gray to BAMA 42 for 2 yards (24-T.Lewis,35-S.Lee)."
+Duke,3Q,7,95,43,3,pass,5,not successful,,0.24,0.25,0.53,,Q.Harris,N.Gray,X.McKinney,C.Harris,0.5,0.5,"18-Q.Harris complete to 87-N.Gray. 87-N.Gray to BAMA 37 for 5 yards (15-X.McKinney,8-C.Harris)."
+Duke,3Q,7,96,44,4,pass,2,not successful,,0.22,0.24,0.51,,Q.Harris,S.Bracey,X.McKinney,,1,,18-Q.Harris complete to 11-S.Bracey. 11-S.Bracey to BAMA 35 for 2 yards (15-X.McKinney).
+Alabama,3Q,9,97,46,1,pass,8,successful,,0.71,0.60,0.48,,T.Tagovailoa,J.Jeudy,,,,,13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy runs ob at BAMA 43 for 8 yards.
+Alabama,3Q,9,98,47,2,run,3,successful,0.50,,0.61,0.49,N.Harris,,,L.Johnson,,1,,22-N.Harris to BAMA 46 for 3 yards (33-L.Johnson).
+Alabama,3Q,9,99,48,1,pass,6,successful,,0.73,0.62,0.48,,T.Tagovailoa,M.Forristall,J.Waters,,1,,13-T.Tagovailoa complete to 87-M.Forristall. 87-M.Forristall to DUK 48 for 6 yards (7-J.Waters).
+Alabama,3Q,9,100,49,2,run,4,successful,0.52,,0.63,0.49,N.Harris,,,D.Singleton,,1,,22-N.Harris pushed ob at DUK 44 for 4 yards (16-D.Singleton).
+Alabama,3Q,9,101,50,1,no play,15,successful,,,0.64,,,,,,,,,"Penalty on DUK 92-E.Cerenord, Unsportsmanlike conduct, 15 yards, enforced at DUK 44. No Play."
+Alabama,3Q,9,102,51,1,pass,,not successful,,0.70,0.62,0.48,,T.Tagovailoa,J.Jeudy,,,,,13-T.Tagovailoa incomplete. Intended for 4-J.Jeudy.
+Alabama,3Q,9,103,52,2,pass,18,explosive,,0.71,0.63,0.47,,T.Tagovailoa,J.Jeudy,D.Singleton,,1,,13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy pushed ob at DUK 11 for 18 yards (16-D.Singleton).
+Alabama,3Q,9,104,53,1,pass,10,successful,,0.72,0.64,0.46,,T.Tagovailoa,J.Jeudy,V.Dimukeje,M.Carter,0.5,0.5,"13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy to DUK 1 for 10 yards (51-V.Dimukeje,26-M.Carter)."
+Alabama,3Q,9,105,54,1,no play,0,successful,,,0.65,,,,,L.Young,,1,,"24-T.Lewis to DUK 4 for -3 yards (23-L.Young). Team penalty on DUK, 12 players, 0 yards, enforced at DUK 1. No Play."
+Alabama,3Q,9,106,55,1,run,0,not successful,0.50,,0.63,0.47,B.Robinson,,,S.Heyward,D.Singleton,0.5,0.5,"24-B.Robinson to DUK 1 for no gain (42-S.Heyward,16-D.Singleton)."
+Alabama,3Q,9,107,56,2,pass,1,successful,,0.73,0.64,0.46,,T.Tagovailoa,M.Tennison,,,,, 13-T.Tagovailoa complete to 88-M.Tennison. 88-M.Tennison runs 1 yard for a touchdown.
+Duke,3Q,8,110,45,1,pass,,not successful,,0.21,0.24,0.50,,Q.Harris,B.Brown,P.Surtain,,,,"18-Q.Harris complete to 8-B.Brown. 8-B.Brown to DUK 29, FUMBLES (2-P.Surtain). 7-T.Diggs to DUK 28 for no gain."
+Alabama,3Q,10,111,57,1,pass,,not successful,,0.70,0.63,0.45,,T.Tagovailoa,J.Waddle,,,,,13-T.Tagovailoa incomplete. Intended for 17-J.Waddle.
+Alabama,3Q,10,112,58,2,run,15,explosive,0.52,,0.63,0.46,N.Harris,,,M.Waters,,1,,22-N.Harris pushed ob at DUK 13 for 15 yards (10-M.Waters).
+Alabama,3Q,10,113,59,1,no play,5,successful,,,0.64,,,,,,,,,"Penalty on DUK 95-T.McSwain, Offside, 5 yards, enforced at DUK 13. No Play."
+Alabama,3Q,10,114,60,1,pass,8,successful,,0.71,0.65,0.45,,T.Tagovailoa,D.Smith,,,,, 13-T.Tagovailoa complete to 6-D.Smith. 6-D.Smith runs 8 yards for a touchdown.
+Duke,3Q,9,117,46,1,pass,,not successful,,0.20,0.23,0.49,,Q.Harris,A.Young,,,,,18-Q.Harris incomplete. Intended for 81-A.Young.
+Duke,3Q,9,119,48,2,run,12,not successful,0.25,,0.23,0.50,D.Jackson,,,T.Lewis,,1,,25-D.Jackson to DUK 25 for 12 yards (24-T.Lewis).
+Duke,3Q,9,120,49,3,run,5,not successful,0.24,,0.22,0.51,D.Jackson,,,X.McKinney,L.Ray,0.5,0.5,"25-D.Jackson to DUK 30 for 5 yards (15-X.McKinney,89-L.Ray)."
+Alabama,3Q,11,122,61,1,run,0,not successful,0.50,,0.64,0.46,B.Robinson,,,T.McSwain,,1,,24-B.Robinson to BAMA 10 for no gain (95-T.McSwain).
+Alabama,3Q,11,123,62,2,pass,14,successful,,0.72,0.64,0.45,,T.Tagovailoa,B.Robinson,C.Rumph,,1,,13-T.Tagovailoa complete to 24-B.Robinson. 24-B.Robinson pushed ob at BAMA 24 for 14 yards (96-C.Rumph).
+Alabama,3Q,11,124,63,1,run,1,not successful,0.48,,0.63,0.46,B.Robinson,,,D.Singleton,,1,,24-B.Robinson to BAMA 25 for 1 yard (16-D.Singleton).
+Alabama,3Q,11,125,64,2,pass,21,explosive,,0.73,0.64,0.45,,T.Tagovailoa,J.Waddle,K.Quansah,,1,,13-T.Tagovailoa complete to 17-J.Waddle. 17-J.Waddle to BAMA 46 for 21 yards (49-K.Quansah).
+Alabama,3Q,11,126,65,1,run,6,successful,0.50,,0.64,0.46,T.Tagovailoa,,,K.Quansah,,1,,13-T.Tagovailoa scrambles to DUK 48 for 6 yards (49-K.Quansah).
+Alabama,3Q,11,127,66,2,run,5,successful,0.52,,0.65,0.47,B.Robinson,,,S.Heyward,B.Hill,0.5,0.5,"24-B.Robinson to DUK 43 for 5 yards (42-S.Heyward,32-B.Hill)."
+Alabama,3Q,11,128,67,1,run,1,not successful,0.50,,0.64,0.48,B.Robinson,,,D.Jordan,D.Carter,0.5,0.5,"24-B.Robinson to DUK 42 for 1 yard (86-D.Jordan,90-D.Carter)."
+Alabama,3Q,11,129,68,2,pass,21,explosive,,0.74,0.65,0.47,,T.Tagovailoa,J.Jeudy,L.Johnson,,1,,13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy to DUK 21 for 21 yards (33-L.Johnson).
+Alabama,3Q,11,130,69,1,pass,21,explosive,,0.75,0.65,0.47,,T.Tagovailoa,J.Jeudy,,,,, 13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy runs 21 yards for a touchdown.
+Duke,3Q,10,133,51,1,pass,15,successful,,0.24,0.24,0.50,,Q.Harris,A.Young,,,,,"18-Q.Harris incomplete. Intended for 81-A.Young. Penalty on BAMA 28-J.Jobe, Pass interference, 15 yards, enforced at DUK 25. No Play."
+Duke,3Q,10,134,52,1,run,2,not successful,0.23,,0.23,0.51,Q.Harris,,,C.Harris,,1,,18-Q.Harris to DUK 42 for 2 yards (8-C.Harris).
+Duke,3Q,10,135,53,2,run,8,successful,0.26,,0.25,0.52,D.Jackson,,,X.McKinney,A.Jennings,0.5,0.5,"25-D.Jackson to BAMA 50 for 8 yards (15-X.McKinney,33-A.Jennings)."
+Duke,3Q,10,136,54,1,pass,,not successful,,0.23,0.24,0.51,,Q.Harris,,,,,,18-Q.Harris incomplete. INTERCEPTED by 7-T.Diggs at BAMA 26. 7-T.Diggs to BAMA 26 for no gain.
+Alabama,3Q,12,138,71,1,run,14,successful,0.52,,0.66,0.48,N.Harris,,,K.Quansah,,1,,22-N.Harris to BAMA 27 for 14 yards (49-K.Quansah).
+Alabama,4Q,13,139,72,1,pass,9,successful,,0.76,0.66,0.47,,M.Jones,J.Waddle,S.Heyward,,1,,10-M.Jones complete to 17-J.Waddle. 17-J.Waddle pushed ob at BAMA 36 for 9 yards (42-S.Heyward).
+Alabama,4Q,13,140,73,2,run,3,successful,0.53,,0.67,0.48,N.Harris,,,T.Hornbuckle,D.Singleton,0.5,0.5,"22-N.Harris to BAMA 39 for 3 yards (59-T.Hornbuckle,16-D.Singleton)."
+Alabama,4Q,13,141,74,1,pass,8,successful,,0.76,0.67,0.47,,M.Jones,M.Tennison,D.Singleton,,1,,10-M.Jones complete to 88-M.Tennison. 88-M.Tennison to BAMA 47 for 8 yards (16-D.Singleton).
+Alabama,4Q,13,142,75,2,run,4,successful,0.55,,0.68,0.48,N.Harris,,,L.Johnson,,1,,22-N.Harris pushed ob at DUK 49 for 4 yards (33-L.Johnson).
+Alabama,4Q,13,143,76,1,run,-3,not successful,0.53,,0.67,0.48,N.Harris,,,S.Heyward,,1,,22-N.Harris to BAMA 48 for -3 yards (42-S.Heyward).
+Alabama,4Q,13,144,77,2,penalty,,not successful,,,0.66,,,,,S.Jones,,1,,"10-M.Jones to BAMA 48 for no gain (53-S.Jones). Penalty on BAMA 74-J.Wills, Holding, declined."
+Alabama,4Q,13,146,79,3,pass,5,not successful,,0.74,0.65,0.48,,M.Jones,J.Waddle,M.Carter,L.Johnson,0.5,0.5,"10-M.Jones complete to 17-J.Waddle. 17-J.Waddle to DUK 42 for 5 yards (26-M.Carter,33-L.Johnson)."
+Alabama,4Q,13,147,80,4,run,4,successful,0.55,,0.65,0.49,M.Jones,,,K.Quansah,,1,,10-M.Jones to DUK 38 for 4 yards (49-K.Quansah).
+Alabama,4Q,13,148,81,1,run,-1,not successful,0.53,,0.64,0.49,J.Ford,,,T.McSwain,C.Rumph,0.5,0.5,"27-J.Ford to DUK 39 for -1 yard (95-T.McSwain,96-C.Rumph)."
+Alabama,4Q,13,149,82,2,pass,,not successful,,0.72,0.64,0.49,,M.Jones,T.Shavers,,,,,10-M.Jones incomplete. Intended for 14-T.Shavers.
+Alabama,4Q,13,150,83,3,pass,9,not successful,,0.70,0.63,0.48,,M.Jones,J.Ford,M.Waters,,1,,10-M.Jones complete to 27-J.Ford. 27-J.Ford pushed ob at DUK 30 for 9 yards (10-M.Waters).
+Duke,4Q,11,152,55,1,run,2,not successful,0.25,,0.24,0.52,M.Durant,,,P.Mathis,,1,,21-M.Durant to DUK 32 for 2 yards (48-P.Mathis).
+Duke,4Q,11,153,56,2,run,3,not successful,0.24,,0.23,0.53,M.Durant,,,M.Benton,,1,,21-M.Durant to DUK 35 for 3 yards (36-M.Benton).
+Duke,4Q,11,154,57,3,pass,1,not successful,,0.22,0.23,0.52,,Q.Harris,M.Durant,P.Surtain,,1,,18-Q.Harris complete to 21-M.Durant. 21-M.Durant to DUK 36 for 1 yard (2-P.Surtain).
+Alabama,4Q,14,156,85,1,run,4,not successful,0.51,,0.62,0.49,J.Ford,,,J.Alexander,,1,,27-J.Ford to DUK 45 for 4 yards (30-J.Alexander).
+Alabama,4Q,14,157,86,2,run,1,not successful,0.50,,0.61,0.49,K.Robinson,,,D.Jordan,K.Quansah,0.5,0.5,"2-K.Robinson to DUK 44 for 1 yard (86-D.Jordan,49-K.Quansah)."
+Alabama,4Q,14,158,87,3,run,4,not successful,0.49,,0.60,0.50,K.Robinson,,,L.Young,,1,,2-K.Robinson to DUK 40 for 4 yards (23-L.Young).
+Alabama,4Q,14,159,88,4,run,3,successful,0.50,,0.61,0.51,J.Ford,,,K.Quansah,T.McSwain,0.5,0.5,"27-J.Ford to DUK 37 for 3 yards (49-K.Quansah,95-T.McSwain)."
+Alabama,4Q,14,160,89,1,run,37,explosive,0.51,,0.61,0.51,J.Ford,,,,,,, 27-J.Ford runs 37 yards for a touchdown.
+Duke,4Q,12,163,59,1,run,3,not successful,0.23,,0.22,0.53,B.Brown,,,B.Young,,1,,8-B.Brown to DUK 28 for 3 yards (47-B.Young).
+Duke,4Q,12,164,60,2,pass,8,successful,,0.25,0.24,0.52,,Q.Harris,N.Gray,J.Moody,S.Wynn,0.5,0.5,"18-Q.Harris complete to 87-N.Gray. 87-N.Gray to DUK 36 for 8 yards (42-J.Moody,90-S.Wynn)."
+Duke,4Q,12,165,61,1,run,-8,not successful,0.22,,0.24,0.53,8,,,,,,,to DUK 28 for -8 yards.
+Duke,4Q,12,166,62,2,run,6,not successful,0.21,,0.23,0.54,M.Durant,,,J.Moody,P.Mathis,0.5,0.5,"21-M.Durant to DUK 34 for 6 yards (42-J.Moody,48-P.Mathis)."
+Duke,4Q,12,167,63,3,pass,15,successful,,0.28,0.25,0.53,,Q.Harris,D.Philyaw-Johnson,,,,,"18-Q.Harris incomplete. Intended for 85-D.Philyaw-Johnson. Penalty on BAMA 11-S.Carter, Pass interference, 15 yards, enforced at DUK 34. No Play."
+Duke,4Q,12,168,64,1,run,1,not successful,0.21,,0.24,0.54,Q.Harris,,,P.Mathis,,1,,18-Q.Harris to BAMA 50 for 1 yard (48-P.Mathis).
+Duke,4Q,12,169,65,2,run,7,successful,0.23,,0.25,0.55,M.Durant,,,,,,,21-M.Durant to BAMA 43 for 7 yards.
+Duke,4Q,12,170,66,3,run,3,successful,0.26,,0.27,0.55,M.Durant,,,P.Mathis,,1,,21-M.Durant to BAMA 40 for 3 yards (48-P.Mathis).
+Duke,4Q,12,171,67,1,pass,,not successful,,0.27,0.26,0.54,,Q.Harris,A.Young,,,,,"18-Q.Harris incomplete. Intended for 81-A.Young, INTERCEPTED by 6-J.Battle at BAMA End Zone. 6-J.Battle, touchback."
