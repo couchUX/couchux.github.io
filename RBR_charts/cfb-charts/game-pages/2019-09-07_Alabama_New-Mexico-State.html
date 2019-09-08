@@ -42,11 +42,16 @@
     </div>
 
     <!-- Bar charts -->
+    <h3>Success and Explosiveness by Play Type</h3>
+    <div class="chartOuter" id="playTypeOuter">
+      <canvas id="playTypeChart" height="240" width="400"></canvas>
+    </div>
+    
     <h3>Success and Explosiveness by Quarter</h3>
     <div class="chartOuter" id="quartersOuter">
       <canvas id="quartersChart" height="240" width="400"></canvas>
     </div>
-
+    
     <h3>Success and Explosiveness by Down</h3>
     <div class="chartOuter" id="downsOuter">
       <canvas id="downsChart" height="240" width="400"></canvas>
@@ -147,6 +152,7 @@
           gameData = data;
 
           teamSrChart(teamOneData, teamTwoData, "teamsSr");
+          playTypeChart(teamOneData, teamTwoData, "playType");
           playMap(teamOneData, "playMapTeam", "legendOuter");
           playMap(teamTwoData, "playMapOpponent", "legendOpponentOuter");
           teamSwitcher(); // goes with play maps

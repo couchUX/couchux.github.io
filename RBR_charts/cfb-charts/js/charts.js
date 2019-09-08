@@ -16,7 +16,7 @@ function unique(thisData,thisColumn) {
     function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } }
     var newArray = _toConsumableArray(new Set(thisData.map(function (data) { return data[thisColumn]; })));
     return newArray;
-}
+};
 
 // colors for points on line and scatter charts
 function fillColors(thisData,thisTeam) {
@@ -216,7 +216,7 @@ function teamSwitcher() {
 
 
 //  BAR SR CHART TEMPLATE
-function barSrChart(thisTeam,thatTeam,thisId,thisColumn,labelChar) {
+function barSrChart(thisData,thisTeam,thatTeam,thisId,thisColumn,labelChar) {
     var container = document.getElementById(outerId(thisId)); 
     container.insertAdjacentHTML('beforebegin',barSrLegend(thisTeam));
     container.insertAdjacentHTML('beforebegin',barSrLegend(thatTeam));
@@ -227,7 +227,7 @@ function barSrChart(thisTeam,thatTeam,thisId,thisColumn,labelChar) {
     var xrArrayOpp = [];
 
     function columnArrays(thisTeam,thisColumnValue,thisXrArray,thisSrArray) {
-        teamPlays = gameData.filter(function(play) { return play.team == thisTeam.name; });
+        teamPlays = thisData.filter(function(play) { return play.team == thisTeam.name; });
         columnPlays = teamPlays.filter(function(play) { return play[thisColumn] == thisColumnValue});
         
         columnPlaysExplosive = columnPlays.filter(function(play) { return play.play_result == "explosive"});
@@ -238,7 +238,7 @@ function barSrChart(thisTeam,thatTeam,thisId,thisColumn,labelChar) {
 
     };
 
-    var uniqueColumnValues = unique(gameData,thisColumn);
+    var uniqueColumnValues = unique(thisData,thisColumn);
 
     uniqueColumnValues.forEach(function(value) {
         columnArrays(teamOneData,value,xrArray,srArray);
@@ -306,17 +306,20 @@ function barSrChart(thisTeam,thatTeam,thisId,thisColumn,labelChar) {
     }
  //   QUARTERS CHART
 function quartersChart(thisTeam,thatTeam,thisId) {
-    barSrChart(thisTeam,thatTeam,thisId,'quarter','');
+    thisData = gameData;
+    barSrChart(thisData,thisTeam,thatTeam,thisId,'quarter','');
 }
 
  //   DOWNS CHART
 function downsChart(thisTeam,thatTeam,thisId) {
-    barSrChart(thisTeam,thatTeam,thisId,'down','D');
+    thisData = gameData;
+    barSrChart(thisData,thisTeam,thatTeam,thisId,'down','D');
 }
 
  //   PLAY TYPE CHART
 function playTypeChart(thisTeam,thatTeam,thisId) {
-    barSrChart(thisTeam,thatTeam,thisId,'play_type','');
+    thisData = gameData.filter(function(play) { return play.play_type == "run" || play.play_type == "pass"; });
+    barSrChart(thisData,thisTeam,thatTeam,thisId,'play_type','');
 }
 
 //   RUN RATE CHART
