@@ -215,7 +215,7 @@ teamColors = {
     "Minot State": { "name": "Minot State", "color": "rgba(230, 50, 85, 0.8)","colorDark": "rgba(120, 7, 29, 0.8)", "colorLight": "rgba(254, 231, 235, 0.8)" },
     "Mississippi": { "name": "Mississippi", "color": "rgba(227, 54, 82, 0.8)","colorDark": "rgba(118, 9, 27, 0.8)", "colorLight": "rgba(253, 231, 235, 0.8)" },
     "Mississippi College": { "name": "Mississippi College", "color": "rgba(37, 145, 244, 0.8)","colorDark": "rgba(0, 67, 128, 0.8)", "colorLight": "rgba(230, 243, 255, 0.8)" },
-    "": { "name": "", "color": "rgba(244, 37, 37, 0.8)","colorDark": "rgba(128, 0, 0, 0.8)", "colorLight": "rgba(255, 230, 230, 0.8)" },
+    "Mississippi State": { "name": "Mississippi State", "color": "rgba(244, 37, 37, 0.8)","colorDark": "rgba(128, 0, 0, 0.8)", "colorLight": "rgba(255, 230, 230, 0.8)" },
     "Mississippi Valley State": { "name": "Mississippi Valley State", "color": "rgba(45, 235, 142, 0.8)","colorDark": "rgba(5, 123, 65, 0.8)", "colorLight": "rgba(230, 254, 242, 0.8)" },
     "Missouri": { "name": "Missouri", "color": "rgba(229, 177, 51, 0.8)","colorDark": "rgba(120, 87, 8, 0.8)", "colorLight": "rgba(253, 247, 231, 0.8)" },
     "Missouri State": { "name": "Missouri State", "color": "rgba(235, 46, 137, 0.8)","colorDark": "rgba(123, 5, 62, 0.8)", "colorLight": "rgba(254, 230, 242, 0.8)" },
