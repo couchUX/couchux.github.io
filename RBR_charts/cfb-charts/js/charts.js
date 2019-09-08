@@ -308,19 +308,19 @@ function barSrChart(thisData,thisTeam,thatTeam,thisId,thisColumn,labelChar) {
 function quartersChart(thisTeam,thatTeam,thisId) {
     thisData = gameData;
     barSrChart(thisData,thisTeam,thatTeam,thisId,'quarter','');
-}
+};
 
  //   DOWNS CHART
 function downsChart(thisTeam,thatTeam,thisId) {
     thisData = gameData;
     barSrChart(thisData,thisTeam,thatTeam,thisId,'down','D');
-}
+};
 
  //   PLAY TYPE CHART
 function playTypeChart(thisTeam,thatTeam,thisId) {
     thisData = gameData.filter(function(play) { return play.play_type == "run" || play.play_type == "pass"; });
     barSrChart(thisData,thisTeam,thatTeam,thisId,'play_type','');
-}
+};
 
 //   RUN RATE CHART
 function runRateChart(thisTeam, thisId) {
