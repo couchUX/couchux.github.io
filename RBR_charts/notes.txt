@@ -3,14 +3,17 @@ To-do:
     Scatter chart:
         - running plays as a different shape -- **DONE**
         - team-switcher: hide/show entire chart in css, not data load -- **DONE**
+        - get quarters markers on here. custom axis? can reuse this for all line charts, I think.
+
+    Total SR over time
+        - first pass new line chart (requires combining this data at the source) **DONE**
+        - get quarters markers on here. custom axis?
 
     Quarters chart:
         - first pass **DONE**
         - get the labels correct (download new csv)   **DONE**
         - SR Avg line **DONE**
 
-    Total SR over time
-        - first pass new line chart (requires combining this data at the source) **DONE**
 
     Downs chart:
         - first pass **DONE**
