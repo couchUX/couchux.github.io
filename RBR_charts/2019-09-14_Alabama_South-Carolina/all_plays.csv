@@ -1,0 +1,136 @@
+team,quarter,drive_team,play_count,play_count_team,down,play_type,yards_total,play_result,run_sr,pass_sr,total_sr,run_rate,runner,passer,receiver,tackler_one,tackler_two,tackler_one_credit,tackler_two_credit,play_description
+Alabama,1Q,1,2,1,1,run,75,explosive,1.00,,1.00,1.00,H.Ruggs,,,,,,,11-H.Ruggs runs 75 yards for a touchdown.
+New Mexico State,1Q,1,5,1,1,pass,0,not successful,,0.00,0.00,0.00,,J.Adkins,J.Huntley,T.Diggs,,1,,14-J.Adkins complete to 1-J.Huntley. 1-J.Huntley to NMS 25 for no gain (7-T.Diggs).
+New Mexico State,1Q,1,6,2,2,pass,2,not successful,,0.00,0.00,0.00,,J.Adkins,J.Huntley,J.Mayden,,1,,14-J.Adkins complete to 1-J.Huntley. 1-J.Huntley pushed ob at NMS 27 for 2 yards (21-J.Mayden).
+New Mexico State,1Q,1,7,3,3,pass,,not successful,,0.00,0.00,0.00,,J.Adkins,O.Clark,,,,,14-J.Adkins incomplete. Intended for 2-O.Clark.
+Alabama,1Q,2,9,2,1,pass,17,explosive,,1.00,1.00,0.50,,T.Tagovailoa,J.Jeudy,A.Perkins,,1,,13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy pushed ob at BAMA 28 for 17 yards (19-A.Perkins).
+Alabama,1Q,2,10,3,1,run,3,not successful,0.50,,0.67,0.67,N.Harris,,,J.Hartfield,,1,,22-N.Harris to BAMA 31 for 3 yards (12-J.Hartfield).
+Alabama,1Q,2,11,4,2,pass,22,explosive,,1.00,0.75,0.50,,T.Tagovailoa,D.Smith,S.Lomax,,1,,13-T.Tagovailoa complete to 6-D.Smith. 6-D.Smith to NMS 47 for 22 yards (22-S.Lomax).
+Alabama,1Q,2,12,5,1,pass,2,not successful,,0.67,0.60,0.40,,T.Tagovailoa,H.Ruggs,S.Lomax,,1,,13-T.Tagovailoa complete to 11-H.Ruggs. 11-H.Ruggs to NMS 45 for 2 yards (22-S.Lomax).
+Alabama,1Q,2,13,6,2,run,1,not successful,0.33,,0.50,0.50,N.Harris,,,J.Hartfield,,1,,22-N.Harris to NMS 44 for 1 yard (12-J.Hartfield).
+Alabama,1Q,2,14,7,3,pass,12,successful,,0.75,0.57,0.43,,T.Tagovailoa,D.Smith,S.Lomax,,1,,13-T.Tagovailoa complete to 6-D.Smith. 6-D.Smith to NMS 32 for 12 yards (22-S.Lomax).
+Alabama,1Q,2,15,8,2,no play,15,successful,,,0.63,,,,,,,,,"13-T.Tagovailoa incomplete. Intended for 6-D.Smith. Penalty on NMS 10-C.Wilcots, Personal Foul, 15 yards, enforced at NMS 32. No Play."
+Alabama,1Q,2,16,9,1,pass,,not successful,,0.60,0.56,0.38,,T.Tagovailoa,D.Smith,,,,,13-T.Tagovailoa incomplete. Intended for 6-D.Smith.
+Alabama,1Q,2,17,10,2,run,8,successful,0.50,,0.60,0.44,B.Robinson,,,S.Lomax,,1,,24-B.Robinson to NMS 24 for 8 yards (22-S.Lomax).
+Alabama,1Q,2,18,11,3,run,3,successful,0.60,,0.64,0.50,B.Robinson,,,X.Yarberough,D.Richardson,0.5,0.5,"24-B.Robinson to NMS 21 for 3 yards (88-X.Yarberough,3-D.Richardson)."
+Alabama,1Q,2,19,12,1,pass,21,explosive,,0.67,0.67,0.45,,T.Tagovailoa,J.Jeudy,,,,,13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy runs 21 yards for a touchdown.
+New Mexico State,1Q,2,22,5,1,run,4,not successful,0.00,,0.00,0.25,C.Gibson,,,D.Dale,R.Davis,0.5,0.5,"25-C.Gibson to NMS 29 for 4 yards (94-D.Dale,99-R.Davis)."
+New Mexico State,1Q,2,23,6,2,pass,9,successful,,0.25,0.20,0.20,,J.Adkins,D.Dan,D.Wright,,1,,14-J.Adkins complete to 9-D.Dan. 9-D.Dan to NMS 38 for 9 yards (3-D.Wright).
+New Mexico State,1Q,2,24,7,1,run,0,not successful,0.00,,0.17,0.33,C.Gibson,,,R.Davis,T.Lewis,0.5,0.5,"25-C.Gibson to NMS 38 for no gain (99-R.Davis,24-T.Lewis)."
+New Mexico State,1Q,2,25,8,2,pass,6,not successful,,0.20,0.14,0.29,,J.Adkins,J.Huntley,X.McKinney,,1,,14-J.Adkins complete to 1-J.Huntley. 1-J.Huntley pushed ob at NMS 44 for 6 yards (15-X.McKinney).
+New Mexico State,1Q,2,26,9,3,pass,,not successful,,0.17,0.13,0.25,,J.Adkins,I.Lottie,,,,,14-J.Adkins incomplete. Intended for 10-I.Lottie.
+Alabama,1Q,3,28,13,1,run,5,successful,0.67,,0.69,0.50,N.Harris,,,D.Richardson,,1,,22-N.Harris to BAMA 26 for 5 yards (3-D.Richardson).
+Alabama,1Q,3,29,14,2,run,1,not successful,0.57,,0.64,0.54,N.Harris,,,D.Richardson,,1,,22-N.Harris to BAMA 27 for 1 yard (3-D.Richardson).
+Alabama,1Q,3,30,15,3,pass,,not successful,,0.57,0.60,0.50,,T.Tagovailoa,J.Waddle,,,,,13-T.Tagovailoa incomplete. Intended for 17-J.Waddle.
+New Mexico State,1Q,3,32,11,1,pass,-2,not successful,,0.14,0.11,0.22,,J.Adkins,O.Clark,S.Lee,,1,,14-J.Adkins complete to 2-O.Clark. 2-O.Clark pushed ob at NMS 34 for -2 yards (35-S.Lee).
+New Mexico State,1Q,3,33,12,2,run,-1,not successful,0.00,,0.10,0.30,J.Huntley,,,R.Davis,,1,,1-J.Huntley to NMS 33 for -1 yard (99-R.Davis).
+New Mexico State,1Q,3,34,13,3,pass,,not successful,,0.13,0.09,0.27,,J.Adkins,O.Clark,,,,,14-J.Adkins incomplete. Intended for 2-O.Clark.
+Alabama,1Q,4,36,17,1,pass,,not successful,,0.50,0.56,0.47,,T.Tagovailoa,J.Jeudy,,,,,13-T.Tagovailoa incomplete. Intended for 4-J.Jeudy.
+Alabama,1Q,4,37,18,2,pass,7,successful,,0.56,0.59,0.44,,T.Tagovailoa,J.Jeudy,S.Lomax,,1,,13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy pushed ob at BAMA 19 for 7 yards (22-S.Lomax).
+Alabama,1Q,4,38,19,3,pass,,not successful,,0.50,0.56,0.41,,T.Tagovailoa,J.Waddle,,,,,13-T.Tagovailoa incomplete. Intended for 17-J.Waddle.
+New Mexico State,1Q,4,40,15,1,pass,,not successful,,0.11,0.08,0.25,,J.Adkins,,,,,,14-J.Adkins incomplete.
+New Mexico State,1Q,4,41,16,2,run,,not successful,0.00,,0.08,0.31,J.Huntley,,,X.McKinney,,,,"1-J.Huntley to NMS 50, FUMBLES (15-X.McKinney). 35-S.Lee to NMS 50 for no gain."
+Alabama,1Q,5,42,21,1,run,5,successful,0.63,,0.58,0.44,N.Harris,,,S.Lomax,J.Fergurson,0.5,0.5,"22-N.Harris to NMS 45 for 5 yards (22-S.Lomax,7-J.Fergurson)."
+Alabama,1Q,5,43,22,2,run,4,successful,0.67,,0.60,0.47,N.Harris,,,C.Wilcots,J.Hartfield,0.5,0.5,"22-N.Harris to NMS 41 for 4 yards (10-C.Wilcots,12-J.Hartfield)."
+Alabama,1Q,5,44,23,3,run,19,explosive,0.70,,0.62,0.50,N.Harris,,,C.Cook,,1,,22-N.Harris pushed ob at NMS 22 for 19 yards (11-C.Cook).
+Alabama,1Q,5,45,24,1,pass,,not successful,,0.45,0.59,0.48,,T.Tagovailoa,H.Ruggs,,,,,13-T.Tagovailoa incomplete. Intended for 11-H.Ruggs.
+Alabama,1Q,5,46,25,2,run,-1,not successful,0.64,,0.57,0.50,B.Robinson,,,J.Williams,,1,,24-B.Robinson to NMS 23 for -1 yard (95-J.Williams).
+Alabama,1Q,5,47,26,3,pass,23,explosive,,0.50,0.58,0.48,,T.Tagovailoa,J.Jeudy,,,,,13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy runs 23 yards for a touchdown.
+New Mexico State,2Q,5,50,17,1,pass,-7,not successful,,0.10,0.07,0.29,,J.Adkins,,A.Jennings,,1,,14-J.Adkins sacked at NMS 18 for -7 yards (33-A.Jennings).
+New Mexico State,2Q,5,51,18,2,pass,12,successful,,0.18,0.13,0.27,,J.Adkins,O.Clark,J.Mayden,,1,,14-J.Adkins complete to 2-O.Clark. 2-O.Clark to NMS 30 for 12 yards (21-J.Mayden).
+New Mexico State,2Q,5,52,19,3,pass,3,not successful,,0.17,0.13,0.25,,J.Adkins,C.Gibson,T.Diggs,,1,,14-J.Adkins complete to 25-C.Gibson. 25-C.Gibson pushed ob at NMS 33 for 3 yards (7-T.Diggs).
+Alabama,2Q,6,54,27,1,pass,39,explosive,,0.54,0.60,0.46,,T.Tagovailoa,H.Ruggs,J.Simmons,,1,,13-T.Tagovailoa complete to 11-H.Ruggs. 11-H.Ruggs pushed ob at NMS 33 for 39 yards (17-J.Simmons).
+Alabama,2Q,6,55,28,1,run,8,successful,0.67,,0.62,0.48,B.Robinson,,,C.Wilcots,,1,,24-B.Robinson to NMS 25 for 8 yards (10-C.Wilcots).
+Alabama,2Q,6,56,29,2,run,3,successful,0.69,,0.63,0.50,B.Robinson,,,D.Richardson,A.Perkins,0.5,0.5,"24-B.Robinson to NMS 22 for 3 yards (3-D.Richardson,19-A.Perkins)."
+Alabama,2Q,6,57,30,1,run,2,not successful,0.64,,0.61,0.52,B.Robinson,,,D.Richardson,J.Williams,0.5,0.5,"24-B.Robinson to NMS 20 for 2 yards (3-D.Richardson,95-J.Williams)."
+Alabama,2Q,6,59,32,2,pass,,not successful,,0.50,0.59,0.50,,T.Tagovailoa,J.Jeudy,,,,,13-T.Tagovailoa incomplete. Intended for 4-J.Jeudy.
+Alabama,2Q,6,60,33,3,pass,15,explosive,,0.53,0.60,0.48,,T.Tagovailoa,H.Ruggs,J.Simmons,R.Buford,0.5,0.5,"13-T.Tagovailoa complete to 11-H.Ruggs. 11-H.Ruggs to NMS 10 for 15 yards (17-J.Simmons,1-R.Buford)."
+Alabama,2Q,6,61,34,1,pass,10,successful,,0.56,0.61,0.47,,T.Tagovailoa,H.Ruggs,,,,,13-T.Tagovailoa complete to 11-H.Ruggs. 11-H.Ruggs runs 10 yards for a touchdown.
+New Mexico State,2Q,6,64,21,1,run,1,not successful,0.00,,0.12,0.29,C.Gibson,,,S.Lee,R.Davis,0.5,0.5,"25-C.Gibson to NMS 26 for 1 yard (35-S.Lee,99-R.Davis)."
+New Mexico State,2Q,6,65,22,2,pass,4,not successful,,0.15,0.11,0.28,,J.Adkins,J.Huntley,S.Lee,,1,,14-J.Adkins complete to 1-J.Huntley. 1-J.Huntley pushed ob at NMS 30 for 4 yards (35-S.Lee).
+New Mexico State,2Q,6,66,23,3,penalty,,successful,,,0.16,,,,,J.Battle,,1,,"14-J.Adkins to NMS 36 for 6 yards (9-J.Battle). Penalty on BAMA 7-T.Diggs, Offside, declined."
+New Mexico State,2Q,6,67,24,1,pass,15,explosive,,0.21,0.20,0.26,,J.Adkins,O.Clark,,,,,14-J.Adkins complete to 2-O.Clark. 2-O.Clark to BAMA 49 for 15 yards.
+New Mexico State,2Q,6,68,25,1,run,2,not successful,0.00,,0.19,0.30,C.Gibson,,,X.McKinney,A.Jennings,0.5,0.5,"25-C.Gibson to BAMA 47 for 2 yards (15-X.McKinney,33-A.Jennings)."
+New Mexico State,2Q,6,69,26,2,pass,10,successful,,0.27,0.23,0.29,,J.Adkins,T.Abraham,X.McKinney,,1,,14-J.Adkins complete to 8-T.Abraham. 8-T.Abraham to BAMA 37 for 10 yards (15-X.McKinney).
+New Mexico State,2Q,6,70,27,1,run,-2,not successful,0.00,,0.22,0.32,C.Gibson,,,T.Lewis,,1,,25-C.Gibson to BAMA 39 for -2 yards (24-T.Lewis).
+New Mexico State,2Q,6,71,28,2,pass,,not successful,,0.25,0.21,0.30,,J.Adkins,O.Clark,,,,,14-J.Adkins incomplete. Intended for 2-O.Clark.
+New Mexico State,2Q,6,72,29,3,pass,,not successful,,0.24,0.20,0.29,,J.Adkins,T.Nicholson,,,,,"14-J.Adkins incomplete. Intended for 13-T.Nicholson, INTERCEPTED by 2-P.Surtain at BAMA 16. 2-P.Surtain to BAMA 16 for no gain."
+Alabama,2Q,7,73,35,1,run,3,not successful,0.60,,0.59,0.48,N.Harris,,,J.Fergurson,,1,,22-N.Harris to BAMA 19 for 3 yards (7-J.Fergurson).
+Alabama,2Q,7,74,36,2,pass,29,explosive,,0.59,0.61,0.47,,T.Tagovailoa,J.Waddle,J.Hood,,1,,13-T.Tagovailoa complete to 17-J.Waddle. 17-J.Waddle to BAMA 48 for 29 yards (20-J.Hood).
+Alabama,2Q,7,75,37,1,pass,12,successful,,0.61,0.62,0.45,,T.Tagovailoa,N.Harris,J.Simmons,S.Jackson,0.5,0.5,"13-T.Tagovailoa complete to 22-N.Harris. 22-N.Harris to NMS 40 for 12 yards (17-J.Simmons,28-S.Jackson)."
+Alabama,2Q,7,76,38,1,pass,10,successful,,0.63,0.63,0.44,,T.Tagovailoa,J.Jeudy,,,,,13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy pushed ob at NMS 30 for 10 yards.
+Alabama,2Q,7,77,39,1,run,5,successful,0.63,,0.64,0.46,N.Harris,,,J.Fergurson,,1,,22-N.Harris to NMS 25 for 5 yards (7-J.Fergurson).
+Alabama,2Q,7,78,40,2,run,25,explosive,0.65,,0.65,0.47,T.Tagovailoa,,,,,,,13-T.Tagovailoa runs 25 yards for a touchdown.
+New Mexico State,2Q,7,81,30,1,run,1,not successful,0.00,,0.19,0.32,C.Gibson,,,R.Davis,D.Dale,0.5,0.5,"25-C.Gibson to NMS 36 for 1 yard (99-R.Davis,94-D.Dale)."
+New Mexico State,2Q,7,82,31,2,pass,1,not successful,,0.22,0.19,0.31,,J.Adkins,O.Clark,X.McKinney,,1,,14-J.Adkins complete to 2-O.Clark. 2-O.Clark to NMS 37 for 1 yard (15-X.McKinney).
+New Mexico State,2Q,7,83,32,3,pass,0,not successful,,0.21,0.18,0.30,,J.Adkins,,L.Ray,,1,,"14-J.Adkins sacked at NMS 26 for -11 yards, FUMBLES (89-L.Ray). 50-A.Young to NMS 26 for no gain."
+Alabama,2Q,8,85,41,1,pass,,not successful,,0.60,0.63,0.46,,T.Tagovailoa,J.Jeudy,,,,,13-T.Tagovailoa incomplete. Intended for 4-J.Jeudy.
+Alabama,2Q,8,86,42,2,pass,,not successful,,0.57,0.62,0.45,,T.Tagovailoa,T.Shavers,,,,,13-T.Tagovailoa incomplete. Intended for 14-T.Shavers.
+Alabama,2Q,8,87,43,3,pass,3,not successful,,0.55,0.60,0.44,,T.Tagovailoa,J.Jeudy,R.Buford,,1,,13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy pushed ob at NMS 30 for 3 yards (1-R.Buford).
+New Mexico State,2Q,8,90,34,1,run,3,not successful,0.00,,0.17,0.32,C.Gibson,,,S.Lee,R.Davis,0.5,0.5,"25-C.Gibson to NMS 28 for 3 yards (35-S.Lee,99-R.Davis)."
+New Mexico State,2Q,8,91,35,2,run,3,not successful,0.00,,0.17,0.34,C.Gibson,,,A.Jennings,,1,,25-C.Gibson to NMS 31 for 3 yards (33-A.Jennings).
+New Mexico State,3Q,9,93,36,1,run,2,not successful,0.00,,0.16,0.37,J.Huntley,,,L.Ray,,1,,1-J.Huntley to NMS 27 for 2 yards (89-L.Ray).
+New Mexico State,3Q,9,94,37,2,pass,9,successful,,0.25,0.19,0.35,,J.Adkins,J.Huntley,T.Diggs,,1,,14-J.Adkins complete to 1-J.Huntley. 1-J.Huntley to NMS 36 for 9 yards (7-T.Diggs).
+New Mexico State,3Q,9,95,38,1,pass,,not successful,,0.24,0.18,0.34,,J.Adkins,T.Nicholson,,,,,14-J.Adkins incomplete. Intended for 13-T.Nicholson.
+New Mexico State,3Q,9,96,39,2,pass,-3,not successful,,0.23,0.18,0.33,,J.Adkins,C.Gibson,S.Carter,,1,,14-J.Adkins complete to 25-C.Gibson. 25-C.Gibson to NMS 33 for -3 yards (5-S.Carter).
+New Mexico State,3Q,9,97,40,3,pass,,not successful,,0.22,0.17,0.32,,J.Adkins,T.Nicholson,,,,,14-J.Adkins incomplete. Intended for 13-T.Nicholson.
+Alabama,3Q,9,99,45,1,run,2,not successful,0.61,,0.59,0.45,B.Robinson,,,R.Hodge,,1,,24-B.Robinson to BAMA 47 for 2 yards (23-R.Hodge).
+Alabama,3Q,9,100,46,2,run,5,not successful,0.58,,0.57,0.46,B.Robinson,,,J.Simmons,,1,,24-B.Robinson to NMS 48 for 5 yards (17-J.Simmons).
+Alabama,3Q,9,101,47,3,pass,2,not successful,,0.52,0.56,0.45,,T.Tagovailoa,D.Smith,,,,,13-T.Tagovailoa complete to 6-D.Smith. 6-D.Smith to NMS 46 for 2 yards.
+Alabama,3Q,9,102,48,4,run,8,successful,0.60,,0.57,0.47,T.Tagovailoa,,,J.Simmons,,1,,13-T.Tagovailoa to NMS 38 for 8 yards (17-J.Simmons).
+Alabama,3Q,9,103,49,1,pass,3,not successful,,0.50,0.56,0.45,,T.Tagovailoa,J.Jeudy,J.Simmons,,1,,13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy to NMS 35 for 3 yards (17-J.Simmons).
+Alabama,3Q,9,104,50,2,run,6,successful,0.62,,0.57,0.47,B.Robinson,,,B.Robinson,,1,,24-B.Robinson to NMS 29 for 6 yards (24-B.Robinson).
+Alabama,3Q,9,105,51,3,run,5,successful,0.64,,0.57,0.48,B.Robinson,,,J.Graves,,1,,24-B.Robinson to NMS 24 for 5 yards (47-J.Graves).
+Alabama,3Q,9,106,52,1,run,16,explosive,0.65,,0.58,0.49,B.Robinson,,,T.Brohard,,1,,24-B.Robinson to NMS 8 for 16 yards (80-T.Brohard).
+Alabama,3Q,9,107,53,1,run,8,successful,0.67,,0.59,0.50,N.Harris,,,,,,,22-N.Harris runs 8 yards for a touchdown.
+New Mexico State,3Q,10,110,42,1,run,13,successful,0.08,,0.19,0.34,D.Dan,,,M.Benton,,1,,9-D.Dan to NMS 38 for 13 yards (36-M.Benton).
+New Mexico State,3Q,10,111,43,1,pass,13,successful,,0.25,0.22,0.33,,J.Adkins,D.Dan,X.McKinney,,1,,14-J.Adkins complete to 9-D.Dan. 9-D.Dan to BAMA 49 for 13 yards (15-X.McKinney).
+New Mexico State,3Q,10,112,44,1,pass,,not successful,,0.24,0.21,0.32,,J.Adkins,T.Warner,,,,,14-J.Adkins incomplete. Intended for 7-T.Warner.
+New Mexico State,3Q,10,113,45,2,pass,44,explosive,,0.27,0.23,0.32,,J.Adkins,T.Nicholson,T.Diggs,,1,,14-J.Adkins complete to 13-T.Nicholson. 13-T.Nicholson to BAMA 5 for 44 yards (7-T.Diggs).
+New Mexico State,3Q,10,114,46,1,run,1,not successful,0.08,,0.23,0.33,C.Gibson,,,J.Jobe,,1,,25-C.Gibson to BAMA 4 for 1 yard (28-J.Jobe).
+New Mexico State,3Q,10,115,47,2,run,0,not successful,0.07,,0.22,0.35,J.Adkins,,,S.Lee,C.Harris,0.5,0.5,"14-J.Adkins to BAMA 4 for no gain (35-S.Lee,8-C.Harris)."
+New Mexico State,3Q,10,116,48,3,pass,4,successful,,0.30,0.24,0.34,,J.Adkins,J.Huntley,,,,,14-J.Adkins complete to 1-J.Huntley. 1-J.Huntley runs 4 yards for a touchdown.
+Alabama,3Q,10,119,54,1,pass,,not successful,,0.48,0.58,0.49,,M.Jones,J.Jeudy,,,,,10-M.Jones incomplete. Intended for 4-J.Jeudy.
+Alabama,3Q,10,120,55,2,pass,23,explosive,,0.50,0.59,0.48,,M.Jones,J.Waddle,J.Simmons,,1,,10-M.Jones complete to 17-J.Waddle. 17-J.Waddle pushed ob at NMS 47 for 23 yards (17-J.Simmons).
+Alabama,3Q,10,121,56,1,run,7,successful,0.68,,0.60,0.49,N.Harris,,,A.Perkins,,1,,22-N.Harris to NMS 40 for 7 yards (19-A.Perkins).
+Alabama,3Q,10,122,57,2,pass,,not successful,,0.48,0.58,0.48,,M.Jones,N.Harris,,,,,10-M.Jones incomplete. Intended for 22-N.Harris.
+Alabama,3Q,10,123,58,3,run,7,successful,0.69,,0.59,0.49,N.Harris,,,J.Fergurson,,1,,22-N.Harris to NMS 33 for 7 yards (7-J.Fergurson).
+Alabama,3Q,10,124,59,1,pass,14,successful,,0.50,0.60,0.48,,M.Jones,D.Smith,R.Buford,A.Perkins,0.5,0.5,"10-M.Jones complete to 6-D.Smith. 6-D.Smith to NMS 19 for 14 yards (1-R.Buford,19-A.Perkins)."
+Alabama,3Q,10,125,60,1,pass,19,explosive,,0.52,0.61,0.47,,M.Jones,J.Jeudy,,,,,10-M.Jones complete to 4-J.Jeudy. 4-J.Jeudy runs 19 yards for a touchdown.
+New Mexico State,3Q,11,128,49,1,run,5,successful,0.13,,0.26,0.36,J.Adkins,,,J.Mayden,,1,,14-J.Adkins to NMS 30 for 5 yards (21-J.Mayden).
+New Mexico State,3Q,11,129,50,2,pass,,not successful,,0.29,0.25,0.35,,J.Adkins,N.Mitchell,P.Surtain,,,,"14-J.Adkins complete to 20-N.Mitchell. 20-N.Mitchell to NMS 43, FUMBLES (2-P.Surtain). 28-J.Jobe to NMS 36 for 7 yards (16-P.Theisler)."
+Alabama,3Q,11,130,61,1,pass,,not successful,,0.50,0.60,0.46,,M.Jones,J.Billingsley,,,,,10-M.Jones incomplete. Intended for 19-J.Billingsley.
+Alabama,3Q,11,131,62,2,run,5,not successful,0.67,,0.59,0.47,J.Ford,,,J.Fergurson,J.Williams,0.5,0.5,"27-J.Ford to NMS 31 for 5 yards (7-J.Fergurson,95-J.Williams)."
+Alabama,3Q,11,132,63,3,pass,,not successful,,0.48,0.58,0.47,,M.Jones,T.Shavers,,,,,10-M.Jones incomplete. Intended for 14-T.Shavers.
+New Mexico State,3Q,12,135,51,1,pass,5,successful,,0.31,0.27,0.34,,J.Adkins,R.Downs,M.Benton,,1,,14-J.Adkins complete to 4-R.Downs. 4-R.Downs to NMS 30 for 5 yards (36-M.Benton).
+New Mexico State,3Q,12,136,52,2,pass,-5,not successful,,0.30,0.26,0.33,,J.Adkins,,C.Allen,D.Hellams,0.5,0.5,"14-J.Adkins sacked at NMS 25 for -5 yards. Team penalty on NMS, Illegal shift, declined. (4-C.Allen,29-D.Hellams)."
+New Mexico State,3Q,12,137,53,3,pass,,not successful,,0.29,0.26,0.33,,J.Adkins,T.Warner,,,,,14-J.Adkins incomplete. Intended for 7-T.Warner.
+Alabama,3Q,12,139,65,1,run,74,explosive,0.68,,0.58,0.47,K.Robinson,,,,,,,2-K.Robinson runs 74 yards for a touchdown.
+New Mexico State,3Q,13,142,55,1,run,1,not successful,0.13,,0.25,0.34,C.Gibson,,,S.Wynn,C.Barmore,0.5,0.5,"25-C.Gibson to NMS 26 for 1 yard (90-S.Wynn,58-C.Barmore)."
+New Mexico State,4Q,14,143,56,2,pass,0,not successful,,0.28,0.24,0.33,,J.Adkins,E.Anderson,D.Hellams,,1,,14-J.Adkins complete to 22-E.Anderson. 22-E.Anderson pushed ob at NMS 26 for no gain (29-D.Hellams).
+New Mexico State,4Q,14,144,57,3,pass,,not successful,,0.27,0.24,0.33,,J.Adkins,N.Mitchell,,,,,14-J.Adkins incomplete. Intended for 20-N.Mitchell.
+Alabama,4Q,13,146,66,1,run,5,successful,0.69,,0.59,0.48,K.Robinson,,,T.Brohard,,1,,2-K.Robinson to BAMA 14 for 5 yards (80-T.Brohard).
+Alabama,4Q,13,147,67,2,run,3,not successful,0.67,,0.58,0.49,K.Robinson,,,M.Vigne,,1,,2-K.Robinson to BAMA 17 for 3 yards (99-M.Vigne).
+Alabama,4Q,13,148,68,3,pass,-3,not successful,,0.47,0.57,0.48,,M.Jones,J.Metchie,J.Hood,,1,,10-M.Jones complete to 8-J.Metchie. 8-J.Metchie to BAMA 14 for -3 yards (20-J.Hood).
+New Mexico State,4Q,15,150,59,1,run,22,explosive,0.18,,0.25,0.34,J.Foley,,,J.Battle,,1,,26-J.Foley pushed ob at BAMA 35 for 22 yards (9-J.Battle).
+New Mexico State,4Q,15,151,60,1,run,2,not successful,0.17,,0.25,0.35,J.Foley,,,C.Barmore,,1,,26-J.Foley to BAMA 33 for 2 yards (58-C.Barmore).
+New Mexico State,4Q,15,152,61,2,pass,,not successful,,0.26,0.25,0.35,,M.Romero,M.Young,,,,,3-M.Romero incomplete. Intended for 44-M.Young.
+New Mexico State,4Q,15,153,62,3,pass,7,not successful,,0.26,0.24,0.34,,M.Romero,E.Anderson,J.Battle,J.Robinson,0.5,0.5,"3-M.Romero complete to 22-E.Anderson. 22-E.Anderson to BAMA 26 for 7 yards (9-J.Battle,27-J.Robinson)."
+Alabama,4Q,14,156,70,1,run,1,not successful,0.65,,0.56,0.49,K.Robinson,,,J.Segura,,1,,2-K.Robinson to BAMA 26 for 1 yard (72-J.Segura).
+Alabama,4Q,14,157,71,2,run,-3,not successful,0.63,,0.55,0.50,K.Robinson,,,K.Koffie,,1,,2-K.Robinson to BAMA 23 for -3 yards (5-K.Koffie).
+Alabama,4Q,14,158,72,3,pass,5,not successful,,0.45,0.55,0.49,,M.Jones,G.Amos,K.Koffie,,1,,10-M.Jones complete to 40-G.Amos. 40-G.Amos to BAMA 28 for 5 yards (5-K.Koffie).
+New Mexico State,4Q,16,160,64,1,run,9,successful,0.21,,0.25,0.35,J.Foley,,,J.Battle,J.Armour-Davis,0.5,0.5,"26-J.Foley to NMS 42 for 9 yards (9-J.Battle,22-J.Armour-Davis)."
+New Mexico State,4Q,16,161,65,2,run,10,successful,0.25,,0.27,0.36,M.Romero,,,S.Carter,,1,,3-M.Romero to BAMA 48 for 10 yards (11-S.Carter).
+New Mexico State,4Q,16,162,66,1,run,7,successful,0.29,,0.28,0.38,J.Foley,,,K.Mwikuta,,1,,26-J.Foley to BAMA 41 for 7 yards (30-K.Mwikuta).
+New Mexico State,4Q,16,163,67,2,run,6,successful,0.32,,0.29,0.39,J.Foley,,,J.Jobe,D.Hellams,0.5,0.5,"26-J.Foley to BAMA 35 for 6 yards (28-J.Jobe,29-D.Hellams)."
+New Mexico State,4Q,16,164,68,1,run,2,not successful,0.30,,0.29,0.40,E.Anderson,,,S.Wynn,C.Barmore,0.5,0.5,"22-E.Anderson to BAMA 33 for 2 yards (90-S.Wynn,58-C.Barmore)."
+New Mexico State,4Q,16,165,69,2,pass,9,successful,,0.28,0.30,0.39,,M.Romero,E.Anderson,B.Young,,1,,3-M.Romero complete to 22-E.Anderson. 22-E.Anderson to BAMA 24 for 9 yards (47-B.Young).
+New Mexico State,4Q,16,166,70,1,run,6,successful,0.33,,0.31,0.40,E.Anderson,,,B.Young,T.Musika,0.5,0.5,"22-E.Anderson to BAMA 18 for 6 yards (47-B.Young,91-T.Musika)."
+New Mexico State,4Q,16,167,71,2,run,2,not successful,0.32,,0.31,0.41,J.Foley,,,J.Battle,A.Kaho,0.5,0.5,"26-J.Foley to BAMA 16 for 2 yards (9-J.Battle,10-A.Kaho)."
+New Mexico State,4Q,16,168,72,3,run,3,successful,0.35,,0.32,0.42,J.Foley,,,A.Kaho,K.Mwikuta,0.5,0.5,"26-J.Foley to BAMA 13 for 3 yards (10-A.Kaho,30-K.Mwikuta)."
+New Mexico State,4Q,16,169,73,1,pass,,not successful,,0.27,0.31,0.41,,M.Romero,N.Mitchell,,,,,3-M.Romero incomplete. Intended for 20-N.Mitchell.
+New Mexico State,4Q,16,170,74,2,run,9,successful,0.37,,0.32,0.42,D.Dan,,,J.Moody,,1,,9-D.Dan pushed ob at BAMA 4 for 9 yards (42-J.Moody).
+New Mexico State,4Q,16,171,75,3,run,2,successful,0.39,,0.33,0.43,E.Anderson,,,A.Kaho,K.Mwikuta,0.5,0.5,"22-E.Anderson to BAMA 2 for 2 yards (10-A.Kaho,30-K.Mwikuta)."
+New Mexico State,4Q,16,172,76,1,run,0,not successful,0.38,,0.33,0.44,M.Romero,,,J.Moody,B.Young,0.5,0.5,"3-M.Romero to BAMA 2 for no gain (42-J.Moody,47-B.Young)."
+New Mexico State,4Q,16,173,77,2,pass,,not successful,,0.26,0.32,0.43,,M.Romero,E.Anderson,,,,,3-M.Romero incomplete. Intended for 22-E.Anderson.
+New Mexico State,4Q,16,174,78,3,pass,,not successful,,0.26,0.32,0.43,,M.Romero,T.Nicholson,,,,,3-M.Romero incomplete. Intended for 13-T.Nicholson.
