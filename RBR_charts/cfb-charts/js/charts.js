@@ -3,10 +3,11 @@
 
 // Global chart options
 Chart.defaults.global.legend = false;
-Chart.defaults.global.borderWidth = 4;
+// Chart.defaults.global.elements.line.borderWidth = 4;
 
-var srAverage = 0.4;
-var srAverageColor = "#818181";
+var srAverage = 0.42;
+var srAverageColor = "#A0A0A0";
+var quarterLinesColor = "#C5C5C5";
 
 // Extract unique Quarters: I copied and adjusted from an ES6 solution run through Babel. I don't really get it.
 function unique(thisData,thisColumn) { 
@@ -49,6 +50,25 @@ function chartId(thisId) {
 };
 function outerId(thisId) {
     return thisId + "Outer";
+};
+// to extract the first play from each quarter and make marker lines from them
+function quarterFinder(thisQuarter)  {
+    return gameData.find(function (play) { return play.quarter == thisQuarter; }); 
+};
+function runForQuarters(thisData,thisMax) {
+    quartersArray = [];
+    thisData.forEach(function(value) {
+        var quarterX = quarterFinder(value);
+
+        quartersArray.push(
+            { x: quarterX.play_count, y: -0.1 },
+            { x: quarterX.play_count, y: 1.1 },
+            { x: thisMax, y: 1.1 },
+            { x: thisMax, y: -0.1 }
+        );
+    });
+
+    return quartersArray;
 };
 
 function barSrLegend(teamName) {
@@ -99,7 +119,13 @@ function teamSrChart(thisTeam,thatTeam,thisId) {
     var teamSr = teamPlays.map(function(play) { return { x: play.play_count, y: play.total_sr }; });
     var opponentSr = opponentPlays.map(function(play) { return { x: play.play_count, y: play.total_sr }; });
 
-    var srAverageLine = gameData.map(function(play) { return { x: play.i, y: srAverage }; });
+    var playsMax = Math.max.apply(Math, gameData.map(function(play) { return play.play_count; }));
+    var srAverageLine = [ { x: 0, y: srAverage },{ x: playsMax, y: srAverage } ];
+    
+    var uniqueQuarters = unique(gameData,"quarter");
+    runForQuarters(uniqueQuarters,playsMax);
+    var quarterXs = quartersArray;
+    
     
     var ctx = $(addId(chartId(thisId)));
     new Chart(ctx, {
@@ -130,6 +156,15 @@ function teamSrChart(thisTeam,thatTeam,thisId) {
                 data: srAverageLine,
                 borderColor: srAverageColor,
                 borderWidth: 1,
+                fill: false,
+                pointRadius: 0,
+            },
+            {
+                label: "Quarter lines",
+                data: quarterXs,
+                borderColor: quarterLinesColor,
+                borderWidth: 1,
+                lineTension: 0,
                 fill: false,
                 pointRadius: 0,
             }],
@@ -164,19 +199,33 @@ function playMap(thisTeam,thisId,legendId) {
     var yardsMax = Math.max.apply(Math, gameData.map(function(play) { return play.yards_total; }));
     var teamPlayCountAndYards = teamPlays.map(function(play) { return { x: play.play_count, y: play.yards_total }; });
 
+    var uniqueQuarters = unique(gameData,"quarter");
+    runForQuarters(uniqueQuarters,playsMax);
+    var quarterXs = quartersArray;
+
     var ctx = $(addId(chartId(thisId)));
     new Chart(ctx, {
         type: 'scatter',
         data: {
             labels: playCount,
             datasets: [{
-            data: teamPlayCountAndYards,
-            pointBackgroundColor: fillColors(teamPlays,thisTeam),
-            borderColor: thisTeam.colorDark,
-            borderWidth: 1,
-            pointRadius: pointSize(teamPlays),
-            pointStyle: pointShape(teamPlays),
-            }] 
+                data: teamPlayCountAndYards,
+                pointBackgroundColor: fillColors(teamPlays,thisTeam),
+                borderColor: thisTeam.colorDark,
+                borderWidth: 1,
+                pointRadius: pointSize(teamPlays),
+                pointStyle: pointShape(teamPlays),
+            },
+            {
+                label: "Quarter lines",
+                data: quarterXs,
+                borderColor: srAverageColor,
+                borderWidth: 1,
+                lineTension: 0,
+                fill: false,
+                pointRadius: 0,
+                type: 'line'
+            }], 
         },
         options: {
             maintainAspectRatio: false,
@@ -331,8 +380,35 @@ function runRateChart(thisTeam, thisId) {
     var playCount = teamPlays.map(function(play) { return play.play_count });
     var playCountAndRunRate = teamPlays.map(function(play) { return { x: play.play_count, y: play.run_rate }; });
 
+    var playsMax = Math.max.apply(Math, teamPlays.map(function(play) { return play.play_count; }));
+
     var rrAverage = 0.5;
-    var rrAverageLine = gameData.map(function(play) { return { x: play.i, y: rrAverage }; });
+    var rrAverageLine = [ { x: 0, y: rrAverage },{ x: playsMax, y: rrAverage } ];
+    
+
+    var uniqueQuarters = unique(teamPlays,"quarter");
+    runForQuartersTeam(uniqueQuarters,playsMax);
+    var quarterXs = quartersArray;
+
+    // putting these here for now, need to consolidate
+    function quarterFinderTeam(thisQuarter)  {
+        return teamPlays.find(function (play) { return play.quarter == thisQuarter; }); 
+    };
+    function runForQuartersTeam(thisData,thisMax) {
+        quartersArray = [];
+        thisData.forEach(function(value) {
+            var quarterX = quarterFinderTeam(value);
+    
+            quartersArray.push(
+                { x: quarterX.play_count, y: -0.1 },
+                { x: quarterX.play_count, y: 1.1 },
+                { x: thisMax, y: 1.1 },
+                { x: thisMax, y: -0.1 }
+            );
+        });
+    
+        return quartersArray;
+    };
     
     var ctx = $(addId(chartId(thisId)));
     new Chart(ctx, {
@@ -357,7 +433,16 @@ function runRateChart(thisTeam, thisId) {
                 pointBorderWidth: 1,
                 fill: false,
                 pointRadius: 0,
-            }] 
+            },
+            {
+                label: "Quarter lines",
+                data: quarterXs,
+                borderColor: quarterLinesColor,
+                borderWidth: 1,
+                lineTension: 0,
+                fill: false,
+                pointRadius: 0,
+            }], 
         },
         options: {
             maintainAspectRatio: false,
@@ -392,7 +477,32 @@ function runPassSrChart(thisTeam, thisId) {
     var playCountAndRunSr = runPlays.map(function(play) { return { x: play.play_count, y: play.run_sr }; });
     var playCountAndPassSr = passPlays.map(function(play) { return { x: play.play_count, y: play.pass_sr }; });
 
-    var srAverageLine = gameData.map(function(play) { return { x: play.i, y: srAverage }; });
+    var playsMax = Math.max.apply(Math, teamPlays.map(function(play) { return play.play_count; }));
+    var srAverageLine = [ { x: 0, y: srAverage },{ x: playsMax, y: srAverage } ];
+
+    var uniqueQuarters = unique(teamPlays,"quarter");
+    runForQuartersTeam(uniqueQuarters,playsMax);
+    var quarterXs = quartersArray;
+
+    // putting these here for now, need to consolidate
+    function quarterFinderTeam(thisQuarter)  {
+        return teamPlays.find(function (play) { return play.quarter == thisQuarter; }); 
+    };
+    function runForQuartersTeam(thisData,thisMax) {
+        quartersArray = [];
+        thisData.forEach(function(value) {
+            var quarterX = quarterFinderTeam(value);
+    
+            quartersArray.push(
+                { x: quarterX.play_count, y: -0.1 },
+                { x: quarterX.play_count, y: 1.1 },
+                { x: thisMax, y: 1.1 },
+                { x: thisMax, y: -0.1 }
+            );
+        });
+    
+        return quartersArray;
+    };
     
     var ctx = $(addId(chartId(thisId)));
     new Chart(ctx, {
@@ -430,6 +540,15 @@ function runPassSrChart(thisTeam, thisId) {
                 data: srAverageLine,
                 borderColor: srAverageColor,
                 borderWidth: 1,
+                fill: false,
+                pointRadius: 0,
+            },
+            {
+                label: "Quarter lines",
+                data: quarterXs,
+                borderColor: quarterLinesColor,
+                borderWidth: 1,
+                lineTension: 0,
                 fill: false,
                 pointRadius: 0,
             }],
