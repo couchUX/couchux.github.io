@@ -78,19 +78,24 @@ body {
   border-radius: 2px;
 }
 
-.switchBtn {
+button.switchBtn {
+  color: #1E1E1E;
   width: 100%;
   background: none;
-  border: 1px solid lightgray; 
+  border: 1px solid #CECECE; 
   padding: 10px;
   border-radius: 4px; 
   margin-bottom: 32px;
+  text-transform: none;
+  box-shadow: 0 4px 0 -2px #EFEFEF;
 }
-.switchBtn:hover {
+button.switchBtn:hover, button.switchBrn:active {
+  color: #1E1E1E;
   background: #FAFAFA;
+  border-color: #B9B9B9;
 }
-.switchBtn:active {
-  background: #D8d8d8;
+button.switchBtn:active {  
+  background: #D8D8D8;
 }
 
 /*
