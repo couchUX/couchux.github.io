@@ -24,17 +24,17 @@
     <!-- Overview charts -->
     <h3>Team success rates (cumulative)</h3>
     <div class="chartOuter" id="teamsSrOuter">
-      <canvas id="teamsSrChart" height="240" width="400"></canvas>
+      <canvas id="teamsSrChart" height="300" width="400"></canvas>
     </div>
 
     <h3>Play Map: Yards and Result by Play</h3>
-    <div id="legendOuter" class="teamMap hide"></div>
-    <div class="teamMap hide" id="playMapTeamOuter">
-      <canvas id="playMapTeamChart" height="280" width="400"></canvas>
+    <div id="legendOuter" class="teamMap"></div>
+    <div class="teamMap" id="playMapTeamOuter">
+      <canvas id="playMapTeamChart" height="300" width="400"></canvas>
     </div>
-    <div id="legendOpponentOuter" class="teamMap"></div>
-    <div class="teamMap" id="playMapOpponentOuter">
-      <canvas id="playMapOpponentChart" height="280" width="400"></canvas>
+    <div id="legendOpponentOuter" class="teamMap hide"></div>
+    <div class="teamMap hide" id="playMapOpponentOuter">
+      <canvas id="playMapOpponentChart" height="300" width="400"></canvas>
     </div>
     
     <div class="buttonOuter">
@@ -44,17 +44,17 @@
     <!-- Bar charts -->
     <h3>Success and Explosiveness by Play Type</h3>
     <div class="chartOuter" id="playTypeOuter">
-      <canvas id="playTypeChart" height="240" width="400"></canvas>
+      <canvas id="playTypeChart" height="300" width="400"></canvas>
     </div>
     
     <h3>Success and Explosiveness by Quarter</h3>
     <div class="chartOuter" id="quartersOuter">
-      <canvas id="quartersChart" height="240" width="400"></canvas>
+      <canvas id="quartersChart" height="300" width="400"></canvas>
     </div>
     
     <h3>Success and Explosiveness by Down</h3>
     <div class="chartOuter" id="downsOuter">
-      <canvas id="downsChart" height="240" width="400"></canvas>
+      <canvas id="downsChart" height="300" width="400"></canvas>
     </div>
 
     <!-- Line charts -->
@@ -174,14 +174,6 @@
 
         }); };
     </script>
-
-
-    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-    <script>
-      window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-      ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
-    </script>
-    <script src="https://www.google-analytics.com/analytics.js" async></script>
   
   </div>
 </body>
