@@ -1,156 +1,121 @@
 team,quarter,drive_team,play_count,play_count_team,down,play_type,yards_total,play_result,run_sr,pass_sr,total_sr,run_rate,runner,passer,receiver,tackler_one,tackler_two,tackler_one_credit,tackler_two_credit,play_description
-Alabama,1Q,1,2,1,1,pass,9,successful,,1.00,1.00,0.00,,T.Tagovailoa,D.Smith,J.Ibe,,1,,13-T.Tagovailoa complete to 6-D.Smith. 6-D.Smith to BAMA 44 for 9 yards (29-J.Ibe).
-Alabama,1Q,1,3,2,2,run,12,successful,1.00,,1.00,0.50,N.Harris,,,J.Ibe,,1,,22-N.Harris to SC 44 for 12 yards (29-J.Ibe).
-Alabama,1Q,1,4,3,1,pass,20,explosive,,1.00,1.00,0.33,,T.Tagovailoa,D.Smith,J.Williams,,1,,13-T.Tagovailoa complete to 6-D.Smith. 6-D.Smith to SC 24 for 20 yards (21-J.Williams).
-Alabama,1Q,1,5,4,1,pass,,not successful,,0.67,0.75,0.25,,T.Tagovailoa,D.Smith,,,,,13-T.Tagovailoa incomplete. Intended for 6-D.Smith.
-Alabama,1Q,1,6,5,2,pass,24,explosive,,0.75,0.80,0.20,,T.Tagovailoa,N.Harris,,,,, 13-T.Tagovailoa complete to 22-N.Harris. 22-N.Harris runs 24 yards for a touchdown.
-South Carolina,1Q,1,9,1,1,pass,13,successful,,1.00,1.00,0.00,,R.Hilinski,B.Edwards,E.Smith,,1,,3-R.Hilinski complete to 89-B.Edwards. 89-B.Edwards to SC 27 for 13 yards (25-E.Smith).
-South Carolina,1Q,1,10,2,1,pass,,not successful,,0.50,0.50,0.00,,R.Hilinski,B.Edwards,,,,,3-R.Hilinski incomplete. Intended for 89-B.Edwards.
-South Carolina,1Q,1,11,3,2,pass,5,not successful,,0.33,0.33,0.00,,R.Hilinski,K.Markway,P.Surtain,,1,,3-R.Hilinski complete to 84-K.Markway. 84-K.Markway to SC 32 for 5 yards (2-P.Surtain).
-South Carolina,1Q,1,12,4,3,pass,5,successful,,0.50,0.50,0.00,,R.Hilinski,B.Edwards,P.Surtain,,1,,3-R.Hilinski complete to 89-B.Edwards. 89-B.Edwards to SC 37 for 5 yards (2-P.Surtain).
-South Carolina,1Q,1,13,5,3,pass,4,not successful,,0.40,0.40,0.00,,R.Hilinski,B.Edwards,P.Surtain,,1,,3-R.Hilinski complete to 89-B.Edwards. 89-B.Edwards to SC 36 for 4 yards (2-P.Surtain).
-South Carolina,1Q,1,14,6,4,run,4,successful,1.00,,0.50,0.17,R.Dowdle,,,A.Jennings,,1,,5-R.Dowdle to SC 40 for 4 yards (33-A.Jennings).
-South Carolina,1Q,1,15,7,1,run,4,not successful,0.50,,0.43,0.29,R.Dowdle,,,S.Lee,,1,,5-R.Dowdle pushed ob at SC 44 for 4 yards (35-S.Lee).
-South Carolina,1Q,1,16,8,2,pass,3,not successful,,0.33,0.38,0.25,,R.Hilinski,S.Smith,X.McKinney,,1,,3-R.Hilinski complete to 13-S.Smith. 13-S.Smith to SC 47 for 3 yards (15-X.McKinney).
-South Carolina,1Q,1,17,9,3,no play,5,successful,,,0.44,,,,,,,,,"3-R.Hilinski incomplete. INTERCEPTED by 2-P.Surtain at BAMA 47. 2-P.Surtain to BAMA 47 for no gain. Team penalty on BAMA, 12 men in the huddle, 5 yards, enforced at SC 47. No Play."
-South Carolina,1Q,1,18,10,1,run,7,successful,0.67,,0.50,0.33,T.Feaster,,,R.Davis,S.Carter,0.5,0.5,"4-T.Feaster to BAMA 41 for 7 yards (99-R.Davis,11-S.Carter)."
-South Carolina,1Q,1,19,11,2,pass,6,successful,,0.43,0.55,0.30,,R.Hilinski,N.Muse,C.Harris,,1,,3-R.Hilinski complete to 9-N.Muse. 9-N.Muse to BAMA 35 for 6 yards (8-C.Harris).
-South Carolina,1Q,1,20,12,1,pass,11,successful,,0.50,0.58,0.27,,R.Hilinski,B.Edwards,X.McKinney,S.Lee,0.5,0.5,"3-R.Hilinski complete to 89-B.Edwards. 89-B.Edwards to BAMA 24 for 11 yards (15-X.McKinney,35-S.Lee)."
-South Carolina,1Q,1,21,13,1,pass,,not successful,,0.44,0.54,0.25,,R.Hilinski,J.Vann,,,,,3-R.Hilinski incomplete. Intended for 6-J.Vann.
-South Carolina,1Q,1,22,14,2,run,2,not successful,0.50,,0.50,0.31,T.Feaster,,,R.Davis,,1,,4-T.Feaster to BAMA 22 for 2 yards (99-R.Davis).
-South Carolina,1Q,1,23,15,3,pass,-4,not successful,,0.40,0.47,0.29,,R.Hilinski,,J.Battle,,1,,3-R.Hilinski sacked at BAMA 26 for -4 yards (9-J.Battle).
-Alabama,1Q,2,26,6,1,pass,-4,not successful,,0.60,0.67,0.17,,T.Tagovailoa,,J.Kinlaw,,1,,13-T.Tagovailoa sacked at BAMA 21 for -4 yards (3-J.Kinlaw).
-Alabama,1Q,2,27,7,2,pass,3,not successful,,0.50,0.57,0.14,,T.Tagovailoa,B.Robinson,A.Sterling,,1,,13-T.Tagovailoa complete to 24-B.Robinson. 24-B.Robinson to BAMA 24 for 3 yards (15-A.Sterling).
-Alabama,1Q,2,28,8,3,pass,-8,not successful,,0.43,0.50,0.13,,T.Tagovailoa,,R.Roderick,,1,,13-T.Tagovailoa sacked at BAMA 16 for -8 yards (10-R.Roderick).
-South Carolina,1Q,2,30,17,1,run,3,not successful,0.40,,0.44,0.33,T.Feaster,,,L.Ray,,1,,4-T.Feaster to BAMA 27 for 3 yards (89-L.Ray).
-South Carolina,1Q,2,31,18,2,pass,-6,not successful,,0.36,0.41,0.31,,R.Hilinski,,D.Dale,,1,,3-R.Hilinski sacked at BAMA 33 for -6 yards (94-D.Dale).
-South Carolina,1Q,2,32,19,3,pass,,not successful,,0.33,0.39,0.29,,R.Hilinski,N.Muse,,,,,3-R.Hilinski incomplete. Intended for 9-N.Muse.
-South Carolina,1Q,2,33,20,4,run,-10,successful,0.50,,0.42,0.33,P.White,,,,,,,"43-P.White runs 33 yards for a touchdown. Penalty on SC 84-K.Markway, Holding, 10 yards, enforced at BAMA 30."
-Alabama,1Q,3,35,10,1,pass,8,successful,,0.50,0.56,0.11,,T.Tagovailoa,J.Jeudy,J.Ibe,I.Mukuamu,0.5,0.5,"13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy to BAMA 12 for 8 yards (29-J.Ibe,24-I.Mukuamu)."
-Alabama,1Q,3,36,11,2,run,7,successful,1.00,,0.60,0.20,N.Harris,,,I.Mukuamu,,1,,22-N.Harris to BAMA 19 for 7 yards (24-I.Mukuamu).
-Alabama,1Q,3,37,12,1,pass,0,not successful,,0.44,0.55,0.18,,T.Tagovailoa,N.Harris,K.Enagbare,,1,,13-T.Tagovailoa complete to 22-N.Harris. 22-N.Harris to BAMA 19 for no gain (52-K.Enagbare).
-Alabama,1Q,3,38,13,2,pass,81,explosive,,0.50,0.58,0.17,,T.Tagovailoa,H.Ruggs,,,,, 13-T.Tagovailoa complete to 11-H.Ruggs. 11-H.Ruggs runs 81 yards for a touchdown.
-South Carolina,1Q,3,41,22,1,run,2,not successful,0.43,,0.40,0.37,R.Dowdle,,,L.Ray,D.Dale,0.5,0.5,"5-R.Dowdle to SC 27 for 2 yards (89-L.Ray,94-D.Dale)."
-South Carolina,1Q,3,42,23,2,pass,10,successful,,0.38,0.43,0.35,,R.Hilinski,N.Muse,P.Mathis,,1,,3-R.Hilinski complete to 9-N.Muse. 9-N.Muse to SC 37 for 10 yards (48-P.Mathis).
-South Carolina,1Q,3,43,24,1,pass,27,explosive,,0.43,0.45,0.33,,R.Hilinski,B.Edwards,X.McKinney,,1,,3-R.Hilinski complete to 89-B.Edwards. 89-B.Edwards to BAMA 36 for 27 yards (15-X.McKinney).
-South Carolina,1Q,3,44,25,1,pass,,not successful,,0.40,0.43,0.32,,R.Hilinski,K.Markway,,,,,3-R.Hilinski incomplete. Intended for 84-K.Markway.
-South Carolina,1Q,3,45,26,2,pass,,not successful,,0.38,0.42,0.30,,R.Hilinski,J.Vann,,,,,3-R.Hilinski incomplete. Intended for 6-J.Vann.
-South Carolina,1Q,3,47,28,3,pass,31,explosive,,0.41,0.44,0.29,,R.Hilinski,S.Smith,,,,, 3-R.Hilinski complete to 13-S.Smith. 13-S.Smith runs 31 yards for a touchdown.
-Alabama,1Q,4,50,14,1,pass,,not successful,,0.45,0.54,0.15,,T.Tagovailoa,J.Jeudy,,,,,13-T.Tagovailoa incomplete. Intended for 4-J.Jeudy.
-Alabama,1Q,4,51,15,2,pass,18,explosive,,0.50,0.57,0.14,,T.Tagovailoa,D.Smith,J.Robinson,,1,,13-T.Tagovailoa complete to 6-D.Smith. 6-D.Smith to BAMA 43 for 18 yards (7-J.Robinson).
-Alabama,1Q,4,52,16,1,run,6,successful,1.00,,0.60,0.20,B.Robinson,,,D.Fennell,T.Brunson,0.5,0.5,"24-B.Robinson to BAMA 49 for 6 yards (35-D.Fennell,6-T.Brunson)."
-Alabama,2Q,5,54,18,2,pass,34,explosive,,0.54,0.63,0.19,,T.Tagovailoa,B.Robinson,E.Jones,,1,,13-T.Tagovailoa complete to 24-B.Robinson. 24-B.Robinson pushed ob at SC 22 for 34 yards (53-E.Jones).
-Alabama,2Q,5,56,20,1,pass,,not successful,,0.50,0.59,0.18,,T.Tagovailoa,D.Smith,,,,,13-T.Tagovailoa incomplete. Intended for 6-D.Smith.
-Alabama,2Q,5,57,21,2,pass,18,explosive,,0.53,0.61,0.17,,T.Tagovailoa,D.Smith,D.Wonnum,,1,,13-T.Tagovailoa complete to 6-D.Smith. 6-D.Smith pushed ob at SC 9 for 18 yards (8-D.Wonnum).
-Alabama,2Q,5,58,22,1,pass,4,not successful,,0.50,0.58,0.16,,T.Tagovailoa,H.Ruggs,J.Ibe,,1,,13-T.Tagovailoa complete to 11-H.Ruggs. 11-H.Ruggs pushed ob at SC 5 for 4 yards (29-J.Ibe).
-Alabama,2Q,5,59,23,2,pass,,not successful,,0.47,0.55,0.15,,T.Tagovailoa,J.Jeudy,,,,,13-T.Tagovailoa incomplete. Intended for 4-J.Jeudy.
-Alabama,2Q,5,60,24,3,pass,,not successful,,0.44,0.52,0.14,,T.Tagovailoa,D.Smith,,,,,13-T.Tagovailoa incomplete. Intended for 6-D.Smith.
-South Carolina,2Q,4,63,29,1,pass,,not successful,,0.39,0.42,0.28,,R.Hilinski,B.Edwards,,,,,3-R.Hilinski incomplete. Intended for 89-B.Edwards.
-South Carolina,2Q,4,64,30,2,pass,,not successful,,0.37,0.41,0.27,,R.Hilinski,S.Smith,,,,,3-R.Hilinski incomplete. Intended for 13-S.Smith.
-South Carolina,2Q,4,65,31,3,pass,8,not successful,,0.35,0.39,0.26,,R.Hilinski,K.Markway,X.McKinney,,1,,3-R.Hilinski complete to 84-K.Markway. 84-K.Markway to SC 33 for 8 yards (15-X.McKinney).
-Alabama,2Q,6,68,26,1,pass,-3,not successful,,0.42,0.50,0.14,,T.Tagovailoa,H.Ruggs,S.Greene,,1,,13-T.Tagovailoa complete to 11-H.Ruggs. 11-H.Ruggs to BAMA 32 for -3 yards (44-S.Greene).
-Alabama,2Q,6,69,27,2,pass,5,not successful,,0.40,0.48,0.13,,T.Tagovailoa,H.Ruggs,J.Robinson,,1,,13-T.Tagovailoa complete to 11-H.Ruggs. 11-H.Ruggs to BAMA 37 for 5 yards (7-J.Robinson).
-Alabama,2Q,6,70,28,3,pass,13,successful,,0.43,0.50,0.13,,T.Tagovailoa,D.Smith,I.Mukuamu,,1,,13-T.Tagovailoa complete to 6-D.Smith. 6-D.Smith to BAMA 50 for 13 yards (24-I.Mukuamu).
-Alabama,2Q,6,71,29,1,run,4,not successful,0.75,,0.48,0.16,N.Harris,,,D.Wonnum,A.Sterling,0.5,0.5,"22-N.Harris to SC 46 for 4 yards (8-D.Wonnum,15-A.Sterling)."
-Alabama,2Q,6,72,30,2,run,3,not successful,0.60,,0.46,0.19,N.Harris,,,J.Horn,K.Smith,0.5,0.5,"22-N.Harris to SC 43 for 3 yards (1-J.Horn,95-K.Smith)."
-Alabama,2Q,6,73,31,3,run,1,not successful,0.50,,0.44,0.22,N.Harris,,,R.Roderick,,1,,22-N.Harris to SC 42 for 1 yard (10-R.Roderick).
-Alabama,2Q,6,74,32,4,pass,42,explosive,,0.45,0.46,0.21,,T.Tagovailoa,N.Harris,,,,, 13-T.Tagovailoa complete to 22-N.Harris. 22-N.Harris runs 42 yards for a touchdown.
-South Carolina,2Q,5,77,34,1,pass,6,successful,,0.38,0.41,0.25,,R.Hilinski,N.Muse,J.Mayden,,1,,3-R.Hilinski complete to 9-N.Muse. 9-N.Muse to SC 31 for 6 yards (21-J.Mayden).
-South Carolina,2Q,5,78,35,2,run,0,not successful,0.38,,0.40,0.28,R.Dowdle,,,R.Davis,,1,,5-R.Dowdle to SC 31 for no gain (99-R.Davis).
-South Carolina,2Q,5,79,36,3,pass,-1,not successful,,0.36,0.39,0.27,,R.Hilinski,N.Muse,X.McKinney,,1,,3-R.Hilinski complete to 9-N.Muse. 9-N.Muse to SC 30 for -1 yard (15-X.McKinney).
-South Carolina,2Q,5,80,37,4,run,2,not successful,0.33,,0.38,0.29,S.Smith,,,S.Bolden,,1,,13-S.Smith to SC 32 for 2 yards (18-S.Bolden).
-Alabama,2Q,7,81,33,1,pass,12,successful,,0.48,0.48,0.21,,T.Tagovailoa,J.Jeudy,,,,,"13-T.Tagovailoa incomplete. Intended for 4-J.Jeudy. Penalty on SC 1-J.Horn, Pass interference, 12 yards, enforced at SC 32. No Play."
-Alabama,2Q,7,83,35,1,run,5,not successful,0.43,,0.47,0.23,J.Waddle,,,J.Robinson,,1,,17-J.Waddle to SC 30 for 5 yards (7-J.Robinson).
-Alabama,2Q,7,84,36,2,pass,,not successful,,0.46,0.45,0.23,,T.Tagovailoa,M.Tennison,,,,,13-T.Tagovailoa incomplete. Intended for 88-M.Tennison.
-Alabama,2Q,7,85,37,3,pass,10,not successful,,0.44,0.44,0.22,,T.Tagovailoa,N.Harris,J.Kinlaw,E.Jones,0.5,0.5,"13-T.Tagovailoa complete to 22-N.Harris. 22-N.Harris to SC 20 for 10 yards (3-J.Kinlaw,53-E.Jones)."
-South Carolina,2Q,6,87,38,1,no play,15,successful,,,0.39,,,,,,,,,"3-R.Hilinski incomplete. Intended for 89-B.Edwards. Team penalty on BAMA, Offside, declined. Penalty on BAMA 89-L.Ray, Roughing the passer, 15 yards, enforced at SC 20. No Play."
-South Carolina,2Q,6,89,40,1,pass,3,not successful,,0.35,0.38,0.28,,R.Hilinski,J.Vann,S.Carter,,1,,3-R.Hilinski complete to 6-J.Vann. 6-J.Vann to SC 33 for 3 yards (5-S.Carter).
-South Carolina,2Q,6,91,42,2,run,3,not successful,0.30,,0.37,0.30,T.Feaster,,,R.Davis,C.Harris,0.5,0.5,"4-T.Feaster to SC 41 for 3 yards (99-R.Davis,8-C.Harris)."
-South Carolina,2Q,6,92,43,3,pass,5,successful,,0.38,0.39,0.29,,R.Hilinski,B.Edwards,T.Diggs,,1,,3-R.Hilinski complete to 89-B.Edwards. 89-B.Edwards to SC 46 for 5 yards (7-T.Diggs).
-South Carolina,2Q,6,93,44,1,pass,10,successful,,0.40,0.41,0.29,,R.Hilinski,B.Edwards,X.McKinney,,1,,3-R.Hilinski complete to 89-B.Edwards. 89-B.Edwards to BAMA 44 for 10 yards (15-X.McKinney).
-South Carolina,2Q,6,94,45,1,run,6,successful,0.36,,0.42,0.31,T.Feaster,,,D.Dale,S.Lee,0.5,0.5,"4-T.Feaster to BAMA 38 for 6 yards (94-D.Dale,35-S.Lee)."
-South Carolina,2Q,6,95,46,2,pass,,not successful,,0.38,0.41,0.30,,R.Hilinski,S.Smith,,,,,3-R.Hilinski incomplete. Intended for 13-S.Smith.
-South Carolina,2Q,6,96,47,3,pass,10,successful,,0.41,0.43,0.29,,R.Hilinski,O.Smith,P.Surtain,,1,,3-R.Hilinski complete to 18-O.Smith. 18-O.Smith to BAMA 28 for 10 yards (2-P.Surtain).
-South Carolina,2Q,6,97,48,1,pass,11,successful,,0.43,0.44,0.28,,R.Hilinski,R.Dowdle,P.Surtain,,1,,3-R.Hilinski complete to 5-R.Dowdle. 5-R.Dowdle to BAMA 17 for 11 yards (2-P.Surtain).
-South Carolina,2Q,6,98,49,1,pass,13,successful,,0.45,0.45,0.28,,R.Hilinski,K.Markway,C.Harris,,1,,3-R.Hilinski complete to 84-K.Markway. 84-K.Markway to BAMA 4 for 13 yards (8-C.Harris).
-South Carolina,2Q,6,99,50,1,run,3,successful,0.42,,0.47,0.29,R.Dowdle,,,C.Harris,,1,,5-R.Dowdle to BAMA 1 for 3 yards (8-C.Harris).
-South Carolina,2Q,6,100,51,2,pass,,not successful,,0.43,0.45,0.29,,R.Hilinski,K.Markway,,,,,3-R.Hilinski incomplete. Intended for 84-K.Markway.
-South Carolina,2Q,6,101,52,3,run,0,not successful,0.38,,0.44,0.30,R.Hilinski,,,,,,,"3-R.Hilinski to BAMA 3, FUMBLES. 3-R.Hilinski to BAMA 3 for no gain."
-South Carolina,2Q,6,102,53,4,pass,,not successful,,0.42,0.43,0.30,,R.Hilinski,J.Vann,,,,,3-R.Hilinski incomplete. Intended for 6-J.Vann.
-South Carolina,3Q,7,104,54,1,run,22,explosive,0.43,,0.45,0.31,R.Dowdle,,,A.Jennings,,1,,5-R.Dowdle to SC 41 for 22 yards (33-A.Jennings).
-South Carolina,3Q,7,105,55,1,pass,9,successful,,0.44,0.46,0.30,,R.Hilinski,K.Markway,T.Diggs,M.Jones,0.5,0.5,"3-R.Hilinski complete to 84-K.Markway. 84-K.Markway to BAMA 50 for 9 yards (7-T.Diggs,10-M.Jones). Team penalty on BAMA, 12 players, declined."
-South Carolina,3Q,7,106,56,2,pass,10,successful,,0.45,0.47,0.30,,R.Hilinski,B.Edwards,S.Carter,,1,,3-R.Hilinski complete to 89-B.Edwards. 89-B.Edwards to BAMA 40 for 10 yards (5-S.Carter).
-South Carolina,3Q,7,107,57,1,run,9,successful,0.47,,0.48,0.31,R.Dowdle,,,T.Diggs,A.Kaho,0.5,0.5,"5-R.Dowdle to BAMA 31 for 9 yards (7-T.Diggs,10-A.Kaho)."
-South Carolina,3Q,7,108,58,2,pass,0,not successful,,0.44,0.47,0.31,,R.Hilinski,R.Dowdle,P.Surtain,,1,,3-R.Hilinski complete to 5-R.Dowdle. 5-R.Dowdle to BAMA 31 for no gain (2-P.Surtain).
-South Carolina,3Q,7,109,59,3,run,2,successful,0.50,,0.48,0.32,R.Hilinski,,,P.Mathis,,1,,3-R.Hilinski to BAMA 29 for 2 yards (48-P.Mathis).
-South Carolina,3Q,7,110,60,1,pass,20,explosive,,0.46,0.49,0.31,,R.Hilinski,S.Smith,X.McKinney,,1,,3-R.Hilinski complete to 13-S.Smith. 13-S.Smith to BAMA 9 for 20 yards (15-X.McKinney).
-South Carolina,3Q,7,111,61,1,pass,4,not successful,,0.44,0.48,0.31,,R.Hilinski,O.Smith,S.Lee,P.Surtain,0.5,0.5,"3-R.Hilinski complete to 18-O.Smith. 18-O.Smith to BAMA 5 for 4 yards (35-S.Lee,2-P.Surtain)."
-South Carolina,3Q,7,112,62,2,pass,-5,not successful,,0.43,0.47,0.30,,R.Hilinski,B.Edwards,T.Lewis,,1,,3-R.Hilinski complete to 89-B.Edwards. 89-B.Edwards to BAMA 10 for -5 yards (24-T.Lewis).
-South Carolina,3Q,7,113,63,3,pass,,not successful,,0.42,0.46,0.30,,R.Hilinski,T.Feaster,,,,,3-R.Hilinski incomplete. Intended for 4-T.Feaster.
-Alabama,3Q,8,116,39,1,pass,,not successful,,0.42,0.42,0.21,,T.Tagovailoa,D.Smith,,,,,13-T.Tagovailoa incomplete. Intended for 6-D.Smith.
-Alabama,3Q,8,117,40,2,pass,5,not successful,,0.41,0.41,0.21,,T.Tagovailoa,D.Smith,J.Robinson,,1,,13-T.Tagovailoa complete to 6-D.Smith. 6-D.Smith to BAMA 30 for 5 yards (7-J.Robinson).
-Alabama,3Q,8,118,41,3,pass,17,explosive,,0.43,0.43,0.20,,T.Tagovailoa,H.Ruggs,T.Brunson,,1,,13-T.Tagovailoa complete to 11-H.Ruggs. 11-H.Ruggs to BAMA 47 for 17 yards (6-T.Brunson).
-Alabama,3Q,8,119,42,1,run,11,successful,0.50,,0.44,0.22,N.Harris,,,J.Williams,E.Jones,0.5,0.5,"22-N.Harris to SC 42 for 11 yards (21-J.Williams,53-E.Jones)."
-Alabama,3Q,8,120,43,1,pass,42,explosive,,0.45,0.46,0.22,,T.Tagovailoa,D.Smith,,,,, 13-T.Tagovailoa complete to 6-D.Smith. 6-D.Smith runs 42 yards for a touchdown.
-South Carolina,3Q,8,123,65,1,pass,,not successful,,0.41,0.46,0.29,,R.Hilinski,J.Vann,,,,,3-R.Hilinski incomplete. Intended for 6-J.Vann.
-South Carolina,3Q,8,124,66,2,run,5,not successful,0.47,,0.45,0.30,T.Feaster,,,S.Lee,A.Jennings,0.5,0.5,"4-T.Feaster to SC 19 for 5 yards (35-S.Lee,33-A.Jennings)."
-South Carolina,3Q,8,125,67,3,pass,18,explosive,,0.43,0.46,0.30,,R.Hilinski,S.Smith,S.Carter,,1,,3-R.Hilinski complete to 13-S.Smith. 13-S.Smith to SC 37 for 18 yards (5-S.Carter).
-South Carolina,3Q,8,126,68,1,pass,,not successful,,0.41,0.45,0.29,,R.Hilinski,D.Joyner,,,,,3-R.Hilinski incomplete. Intended for 7-D.Joyner.
-South Carolina,3Q,8,127,69,2,run,7,successful,0.50,,0.46,0.31,R.Dowdle,,,P.Mathis,,1,,5-R.Dowdle to SC 44 for 7 yards (48-P.Mathis).
-South Carolina,3Q,8,128,70,3,pass,4,successful,,0.43,0.47,0.30,,R.Hilinski,B.Edwards,P.Surtain,,1,,3-R.Hilinski complete to 89-B.Edwards. 89-B.Edwards to SC 48 for 4 yards (2-P.Surtain).
-South Carolina,3Q,8,129,71,1,pass,,not successful,,0.42,0.46,0.30,,R.Hilinski,,A.Jennings,,,,"3-R.Hilinski sacked at BAMA 47 for 5 yards, FUMBLES (33-A.Jennings). 94-D.Dale to BAMA 47 for no gain."
-Alabama,3Q,9,130,44,1,pass,-10,not successful,,0.43,0.45,0.21,,T.Tagovailoa,J.Jeudy,,,,,"13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy to SC 40 for 13 yards. Penalty on BAMA 10-M.Jones, Holding, 10 yards, enforced at SC 40."
-Alabama,3Q,9,131,45,1,run,11,successful,0.56,,0.46,0.23,B.Robinson,,,E.Jones,,1,,24-B.Robinson to SC 39 for 11 yards (53-E.Jones).
-Alabama,3Q,9,132,46,1,run,3,not successful,0.50,,0.45,0.25,B.Robinson,,,J.Kinlaw,,1,,24-B.Robinson to SC 36 for 3 yards (3-J.Kinlaw).
-Alabama,3Q,9,133,47,2,run,5,successful,0.55,,0.46,0.27,B.Robinson,,,J.Kinlaw,,1,,24-B.Robinson to SC 31 for 5 yards (3-J.Kinlaw).
-Alabama,3Q,9,134,48,3,run,2,successful,0.58,,0.48,0.29,S.Bolden,,,K.Smith,,1,,18-S.Bolden to SC 29 for 2 yards (95-K.Smith).
-Alabama,3Q,9,135,49,1,pass,7,successful,,0.45,0.49,0.28,,T.Tagovailoa,M.Forristall,,,,,13-T.Tagovailoa complete to 87-M.Forristall. 87-M.Forristall to SC 22 for 7 yards.
-Alabama,3Q,9,136,50,2,pass,,not successful,,0.44,0.48,0.27,,T.Tagovailoa,J.Jeudy,,,,,13-T.Tagovailoa incomplete. Intended for 4-J.Jeudy.
-Alabama,3Q,9,137,51,3,pass,6,successful,,0.45,0.49,0.27,,T.Tagovailoa,J.Jeudy,I.Mukuamu,,1,,13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy pushed ob at SC 16 for 6 yards (24-I.Mukuamu).
-Alabama,3Q,9,138,52,1,pass,12,successful,,0.47,0.50,0.26,,T.Tagovailoa,M.Tennison,R.Roderick,,1,,13-T.Tagovailoa complete to 88-M.Tennison. 88-M.Tennison pushed ob at SC 4 for 12 yards (10-R.Roderick).
-Alabama,3Q,9,139,53,1,run,-2,not successful,0.54,,0.49,0.28,N.Harris,,,E.Jones,,1,,22-N.Harris to SC 6 for -2 yards (53-E.Jones).
-Alabama,3Q,9,140,54,2,pass,4,not successful,,0.46,0.48,0.27,,T.Tagovailoa,J.Jeudy,I.Mukuamu,,1,,13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy pushed ob at SC 2 for 4 yards (24-I.Mukuamu).
-Alabama,3Q,9,141,55,3,run,-1,not successful,0.50,,0.47,0.29,B.Robinson,,,E.Jones,,1,,24-B.Robinson to SC 3 for -1 yard (53-E.Jones).
-South Carolina,3Q,9,144,72,1,run,12,successful,0.53,,0.47,0.31,R.Dowdle,,,X.McKinney,J.Mayden,0.5,0.5,"5-R.Dowdle to SC 37 for 12 yards (15-X.McKinney,21-J.Mayden)."
-South Carolina,3Q,9,145,73,1,run,33,explosive,0.55,,0.48,0.32,R.Dowdle,,,J.Mayden,,1,,5-R.Dowdle to BAMA 30 for 33 yards (21-J.Mayden).
-South Carolina,3Q,9,146,74,1,pass,,not successful,,0.41,0.47,0.31,,R.Hilinski,N.Muse,,,,,3-R.Hilinski incomplete. Intended for 9-N.Muse.
-South Carolina,3Q,9,147,75,2,pass,,not successful,,0.40,0.46,0.31,,R.Hilinski,O.Smith,,,,,3-R.Hilinski incomplete. Intended for 18-O.Smith.
-South Carolina,4Q,10,148,76,3,pass,,not successful,,0.39,0.46,0.30,,R.Hilinski,K.Markway,,,,,3-R.Hilinski incomplete. Intended for 84-K.Markway.
-Alabama,4Q,10,151,57,1,pass,18,explosive,,0.47,0.48,0.28,,T.Tagovailoa,H.Ruggs,I.Mukuamu,,1,,13-T.Tagovailoa complete to 11-H.Ruggs. 11-H.Ruggs to SC 22 for 18 yards (24-I.Mukuamu).
-Alabama,4Q,10,152,58,1,pass,11,successful,,0.49,0.49,0.27,,T.Tagovailoa,N.Harris,I.Mukuamu,T.Brunson,0.5,0.5,"13-T.Tagovailoa complete to 22-N.Harris. 22-N.Harris to SC 11 for 11 yards (24-I.Mukuamu,6-T.Brunson)."
-Alabama,4Q,10,153,59,1,pass,11,successful,,0.50,0.50,0.27,,T.Tagovailoa,D.Smith,,,,, 13-T.Tagovailoa complete to 6-D.Smith. 6-D.Smith runs 11 yards for a touchdown.
-South Carolina,4Q,11,156,78,1,no play,10,successful,,,0.46,,,,,,,,,"3-R.Hilinski incomplete. Intended for 13-S.Smith. Penalty on BAMA 28-J.Jobe, Holding, 10 yards, enforced at SC 25. No Play."
-South Carolina,4Q,11,157,79,1,pass,10,successful,,0.40,0.47,0.30,,R.Hilinski,S.Smith,P.Surtain,J.Jobe,0.5,0.5,"3-R.Hilinski complete to 13-S.Smith. 13-S.Smith to SC 45 for 10 yards (2-P.Surtain,28-J.Jobe)."
-South Carolina,4Q,11,158,80,1,run,2,not successful,0.52,,0.46,0.31,R.Dowdle,,,A.Jennings,,1,,5-R.Dowdle to SC 47 for 2 yards (33-A.Jennings).
-South Carolina,4Q,11,159,81,2,pass,5,not successful,,0.40,0.46,0.30,,R.Hilinski,J.Vann,J.Jobe,,1,,3-R.Hilinski complete to 6-J.Vann. 6-J.Vann to BAMA 48 for 5 yards (28-J.Jobe).
-South Carolina,4Q,11,160,82,3,pass,9,successful,,0.41,0.47,0.30,,R.Hilinski,J.Vann,J.Jobe,,1,,3-R.Hilinski complete to 6-J.Vann. 6-J.Vann to BAMA 39 for 9 yards (28-J.Jobe).
-South Carolina,4Q,11,161,83,1,run,6,successful,0.55,,0.47,0.31,T.Feaster,,,S.Lee,X.McKinney,0.5,0.5,"4-T.Feaster to BAMA 33 for 6 yards (35-S.Lee,15-X.McKinney)."
-South Carolina,4Q,11,162,84,2,run,-1,not successful,0.52,,0.47,0.32,T.Feaster,,,A.Jennings,,1,,4-T.Feaster to BAMA 34 for -1 yard (33-A.Jennings).
-South Carolina,4Q,11,163,85,3,pass,,not successful,,0.40,0.46,0.32,,R.Hilinski,O.Smith,,,,,3-R.Hilinski incomplete. Intended for 18-O.Smith.
-South Carolina,4Q,11,164,86,4,pass,10,successful,,0.41,0.47,0.31,,R.Hilinski,T.Feaster,S.Lee,,1,,3-R.Hilinski complete to 4-T.Feaster. 4-T.Feaster to BAMA 24 for 10 yards (35-S.Lee).
-South Carolina,4Q,11,165,87,1,run,-3,not successful,0.50,,0.46,0.32,T.Feaster,,,A.Kaho,,1,,4-T.Feaster to BAMA 27 for -3 yards (10-A.Kaho).
-South Carolina,4Q,11,166,88,2,pass,,not successful,,0.40,0.46,0.32,,R.Hilinski,O.Smith,,,,,"3-R.Hilinski incomplete. Intended for 18-O.Smith, INTERCEPTED by 15-X.McKinney at BAMA End Zone. 15-X.McKinney, touchback."
-Alabama,4Q,11,167,60,1,pass,12,successful,,0.51,0.51,0.26,,T.Tagovailoa,J.Waddle,R.Roderick,,1,,13-T.Tagovailoa complete to 17-J.Waddle. 17-J.Waddle to BAMA 32 for 12 yards (10-R.Roderick).
-Alabama,4Q,11,168,61,1,run,11,successful,0.53,,0.52,0.28,B.Robinson,,,D.Wonnum,,1,,24-B.Robinson to BAMA 43 for 11 yards (8-D.Wonnum).
-Alabama,4Q,11,169,62,1,run,-2,not successful,0.50,,0.51,0.29,B.Robinson,,,J.Dixon,,1,,24-B.Robinson to BAMA 41 for -2 yards (22-J.Dixon).
-Alabama,4Q,11,170,63,2,pass,7,not successful,,0.50,0.50,0.29,,M.Jones,J.Jeudy,E.Jones,,1,,10-M.Jones complete to 4-J.Jeudy. 4-J.Jeudy pushed ob at BAMA 48 for 7 yards (53-E.Jones).
-Alabama,4Q,11,171,64,3,pass,30,explosive,,0.51,0.51,0.28,,M.Jones,J.Jeudy,J.Ibe,,1,,10-M.Jones complete to 4-J.Jeudy. 4-J.Jeudy to SC 22 for 30 yards (29-J.Ibe).
-Alabama,4Q,11,172,65,1,run,0,not successful,0.47,,0.50,0.29,B.Robinson,,,I.Mukuamu,R.Roderick,0.5,0.5,"24-B.Robinson to SC 22 for no gain (24-I.Mukuamu,10-R.Roderick)."
-Alabama,4Q,11,173,66,2,run,4,not successful,0.44,,0.49,0.31,K.Robinson,,,E.Jones,,1,,2-K.Robinson to SC 18 for 4 yards (53-E.Jones).
-Alabama,4Q,11,174,67,3,pass,14,successful,,0.52,0.50,0.30,,M.Jones,S.Bolden,J.Dixon,,1,,10-M.Jones complete to 18-S.Bolden. 18-S.Bolden to SC 4 for 14 yards (22-J.Dixon).
-Alabama,4Q,11,175,68,1,run,3,successful,0.47,,0.51,0.31,K.Robinson,,,J.Ibe,,1,,2-K.Robinson to SC 1 for 3 yards (29-J.Ibe).
-Alabama,4Q,11,177,70,2,run,2,not successful,0.45,,0.50,0.32,K.Robinson,,,T.Brunson,R.Roderick,0.5,0.5,"2-K.Robinson to SC 4 for 2 yards (6-T.Brunson,10-R.Roderick)."
-Alabama,4Q,11,178,71,3,run,3,not successful,0.43,,0.49,0.33,K.Robinson,,,D.Wonnum,R.Roderick,0.5,0.5,"2-K.Robinson to SC 1 for 3 yards (8-D.Wonnum,10-R.Roderick)."
-Alabama,4Q,11,179,72,4,run,1,successful,0.45,,0.50,0.34,M.Jones,,,,,,, 10-M.Jones runs 1 yard for a touchdown.
-South Carolina,4Q,12,182,89,1,pass,8,successful,,0.42,0.46,0.31,,R.Hilinski,S.Smith,J.Mayden,,1,,3-R.Hilinski complete to 13-S.Smith. 13-S.Smith to SC 32 for 8 yards (21-J.Mayden).
-South Carolina,4Q,12,183,90,2,pass,10,successful,,0.43,0.47,0.31,,R.Hilinski,R.Dowdle,J.Jobe,,1,,3-R.Hilinski complete to 5-R.Dowdle. 5-R.Dowdle to SC 42 for 10 yards (28-J.Jobe).
-South Carolina,4Q,12,184,91,1,run,4,not successful,0.48,,0.46,0.32,R.Dowdle,,,J.Jobe,M.Benton,0.5,0.5,"5-R.Dowdle to SC 46 for 4 yards (28-J.Jobe,36-M.Benton)."
-South Carolina,4Q,12,185,92,2,pass,,not successful,,0.42,0.46,0.31,,R.Hilinski,R.Dowdle,,,,,3-R.Hilinski incomplete. Intended for 5-R.Dowdle.
-South Carolina,4Q,12,186,93,3,pass,7,successful,,0.43,0.46,0.31,,R.Hilinski,T.Feaster,J.Jobe,,1,,3-R.Hilinski complete to 4-T.Feaster. 4-T.Feaster to BAMA 47 for 7 yards (28-J.Jobe).
-South Carolina,4Q,12,187,94,1,run,5,successful,0.50,,0.47,0.32,T.Feaster,,,D.Wright,C.Barmore,0.5,0.5,"4-T.Feaster to BAMA 42 for 5 yards (3-D.Wright,58-C.Barmore)."
-South Carolina,4Q,12,188,95,2,pass,13,successful,,0.44,0.48,0.31,,R.Hilinski,D.Joyner,M.Benton,,1,,3-R.Hilinski complete to 7-D.Joyner. 7-D.Joyner to BAMA 29 for 13 yards (36-M.Benton).
-South Carolina,4Q,12,189,96,1,pass,,not successful,,0.43,0.47,0.31,,R.Hilinski,T.Feaster,,,,,3-R.Hilinski incomplete. Intended for 4-T.Feaster.
-South Carolina,4Q,12,190,97,2,pass,6,not successful,,0.42,0.47,0.31,,R.Hilinski,J.Vann,M.Benton,,1,,3-R.Hilinski complete to 6-J.Vann. 6-J.Vann to BAMA 23 for 6 yards (36-M.Benton).
-South Carolina,4Q,12,191,98,3,pass,,not successful,,0.42,0.46,0.30,,R.Hilinski,O.Smith,,,,,3-R.Hilinski incomplete. Intended for 18-O.Smith.
-South Carolina,4Q,12,192,99,4,no play,12,successful,,,0.47,,,,,,,,,"3-R.Hilinski incomplete. Intended for 18-O.Smith. Penalty on BAMA 58-C.Barmore, Roughing the passer, 12 yards, enforced at BAMA 23. No Play."
-South Carolina,4Q,12,193,100,1,pass,11,successful,,0.43,0.47,0.30,,R.Hilinski,K.Markway,,,,, 3-R.Hilinski complete to 84-K.Markway. 84-K.Markway runs 11 yards for a touchdown.
+Southern Miss,1Q,1,2,1,1,pass,2,not successful,,0.00,0.00,0.00,,J.Abraham,J.Adams,,,,,15-J.Abraham complete to 2-J.Adams. 2-J.Adams to USM 27 for 2 yards.
+Southern Miss,1Q,1,3,2,2,pass,,not successful,,0.00,0.00,0.00,,J.Abraham,D.Harris,,,,,15-J.Abraham incomplete. Intended for 18-D.Harris.
+Southern Miss,1Q,1,4,3,3,pass,-2,not successful,,0.00,0.00,0.00,,J.Abraham,J.Adams,,,,,15-J.Abraham complete to 2-J.Adams. 2-J.Adams to USM 25 for -2 yards.
+Alabama,1Q,1,6,1,1,pass,12,successful,,1.00,1.00,0.00,,T.Tagovailoa,H.Ruggs,,,,,13-T.Tagovailoa complete to 11-H.Ruggs. 11-H.Ruggs to USM 42 for 12 yards.
+Alabama,1Q,1,7,2,1,pass,-3,not successful,,0.50,0.50,0.00,,T.Tagovailoa,J.Jeudy,,,,,13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy to USM 45 for -3 yards.
+Alabama,1Q,1,8,3,2,pass,45,explosive,,0.67,0.67,0.00,,T.Tagovailoa,H.Ruggs,,,,, 13-T.Tagovailoa complete to 11-H.Ruggs. 11-H.Ruggs runs 45 yards for a touchdown.
+Southern Miss,1Q,2,11,5,1,run,11,successful,1.00,,0.25,0.25,J.Abraham,,,,,,,15-J.Abraham pushed ob at USM 32 for 11 yards.
+Southern Miss,1Q,2,12,6,1,run,21,explosive,1.00,,0.40,0.40,D.Harris,,,,,,,18-D.Harris to BAMA 47 for 21 yards.
+Southern Miss,1Q,2,13,7,1,run,1,not successful,0.67,,0.33,0.50,K.Perkins,,,,,,,33-K.Perkins to BAMA 46 for 1 yard.
+Southern Miss,1Q,2,14,8,2,pass,,not successful,,0.00,0.29,0.43,,J.Abraham,J.Mitchell,,,,,15-J.Abraham incomplete. Intended for 80-J.Mitchell.
+Southern Miss,1Q,2,15,9,3,pass,7,not successful,,0.00,0.25,0.38,,J.Abraham,Q.Watkins,,,,,15-J.Abraham complete to 16-Q.Watkins. 16-Q.Watkins to BAMA 39 for 7 yards.
+Southern Miss,1Q,2,16,10,4,run,3,successful,0.75,,0.33,0.44,D.Harris,,,,,,,18-D.Harris to BAMA 36 for 3 yards.
+Southern Miss,1Q,2,17,11,1,run,2,not successful,0.60,,0.30,0.50,J.Adams,,,,,,,2-J.Adams to BAMA 34 for 2 yards.
+Southern Miss,1Q,2,18,12,2,pass,,not successful,,0.00,0.27,0.45,,J.Abraham,T.Jones,,,,,15-J.Abraham incomplete. Intended for 5-T.Jones.
+Southern Miss,1Q,2,19,13,3,pass,0,not successful,,0.00,0.25,0.42,,J.Abraham,,A.Jennings,,1,,"15-J.Abraham sacked at BAMA 48 for -14 yards. Penalty on USM 15-J.Abraham, Intentional grounding, 0 yards, enforced at BAMA 48. (33-A.Jennings)."
+Alabama,1Q,2,21,4,1,run,11,successful,1.00,,0.75,0.25,N.Harris,,,,,,,22-N.Harris to BAMA 20 for 11 yards.
+Alabama,1Q,2,22,5,1,run,6,successful,1.00,,0.80,0.40,N.Harris,,,,,,,22-N.Harris to BAMA 26 for 6 yards.
+Alabama,1Q,2,23,6,2,pass,74,explosive,,0.75,0.83,0.33,,T.Tagovailoa,H.Ruggs,,,,, 13-T.Tagovailoa complete to 11-H.Ruggs. 11-H.Ruggs runs 74 yards for a touchdown.
+Southern Miss,1Q,3,26,15,1,run,3,not successful,0.50,,0.23,0.46,K.Perkins,,,,,,,33-K.Perkins to USM 47 for 3 yards.
+Southern Miss,1Q,3,27,16,2,pass,9,successful,,0.13,0.29,0.43,,J.Abraham,D.Harris,,,,,15-J.Abraham complete to 18-D.Harris. 18-D.Harris runs ob at BAMA 44 for 9 yards.
+Southern Miss,1Q,3,28,17,1,run,1,not successful,0.43,,0.27,0.47,D.Harris,,,,,,,18-D.Harris to BAMA 43 for 1 yard.
+Southern Miss,1Q,3,29,18,2,pass,,not successful,,0.11,0.25,0.44,,J.Abraham,Q.Watkins,,,,,15-J.Abraham incomplete. Intended for 16-Q.Watkins.
+Southern Miss,1Q,3,30,19,3,pass,,not successful,,0.10,0.24,0.41,,J.Abraham,Q.Watkins,,,,,"15-J.Abraham incomplete. Intended for 16-Q.Watkins, INTERCEPTED by 7-T.Diggs at BAMA 14. 7-T.Diggs to BAMA 9 for -5 yards."
+Alabama,1Q,3,31,7,1,run,-1,not successful,0.67,,0.71,0.43,N.Harris,,,,,,,22-N.Harris to BAMA 8 for -1 yard.
+Alabama,1Q,3,32,8,2,run,4,not successful,0.50,,0.63,0.50,N.Harris,,,,,,,22-N.Harris to BAMA 12 for 4 yards.
+Alabama,1Q,3,33,9,3,pass,15,successful,,0.80,0.67,0.44,,T.Tagovailoa,J.Waddle,,,,,"13-T.Tagovailoa incomplete. Intended for 17-J.Waddle. Penalty on USM 29-E.Gunn, Pass interference, 15 yards, enforced at BAMA 12. No Play."
+Alabama,1Q,3,34,10,1,pass,3,not successful,,0.67,0.60,0.40,,T.Tagovailoa,J.Waddle,,,,,13-T.Tagovailoa complete to 17-J.Waddle. 17-J.Waddle to BAMA 30 for 3 yards.
+Alabama,1Q,3,35,11,2,run,4,not successful,0.40,,0.55,0.45,B.Robinson,,,,,,,24-B.Robinson to BAMA 34 for 4 yards.
+Alabama,1Q,3,36,12,3,pass,15,explosive,,0.71,0.58,0.42,,T.Tagovailoa,J.Waddle,,,,,13-T.Tagovailoa complete to 17-J.Waddle. 17-J.Waddle pushed ob at BAMA 49 for 15 yards.
+Alabama,1Q,3,37,13,1,pass,,not successful,,0.63,0.54,0.38,,T.Tagovailoa,J.Jeudy,,,,,13-T.Tagovailoa incomplete. Intended for 4-J.Jeudy.
+Alabama,1Q,3,38,14,2,pass,9,successful,,0.67,0.57,0.36,,T.Tagovailoa,D.Smith,,,,,13-T.Tagovailoa complete to 6-D.Smith. 6-D.Smith to USM 42 for 9 yards.
+Alabama,1Q,3,39,15,3,run,4,successful,0.50,,0.60,0.40,N.Harris,,,,,,,22-N.Harris to USM 38 for 4 yards.
+Alabama,1Q,3,40,16,1,run,8,successful,0.57,,0.63,0.44,N.Harris,,,,,,,22-N.Harris to USM 30 for 8 yards.
+Alabama,2Q,4,41,17,2,pass,25,explosive,,0.70,0.65,0.41,,T.Tagovailoa,J.Waddle,,,,,13-T.Tagovailoa complete to 17-J.Waddle. 17-J.Waddle to USM 5 for 25 yards.
+Alabama,2Q,4,42,18,1,pass,5,successful,,0.73,0.67,0.39,,T.Tagovailoa,N.Harris,,,,, 13-T.Tagovailoa complete to 22-N.Harris. 22-N.Harris runs 5 yards for a touchdown.
+Southern Miss,2Q,4,45,20,1,pass,,not successful,,0.09,0.22,0.39,,J.Abraham,J.Mitchell,,,,,15-J.Abraham incomplete. Intended for 80-J.Mitchell.
+Southern Miss,2Q,4,46,21,2,run,-3,not successful,0.38,,0.21,0.42,D.Harris,,,,,,,18-D.Harris to USM 22 for -3 yards.
+Southern Miss,2Q,4,47,22,3,penalty,,not successful,,,0.20,,,,,,,,,"2-J.Adams to USM 26 for 4 yards. Penalty on USM 5-T.Jones, Personal Foul, declined."
+Alabama,2Q,5,49,19,1,pass,17,explosive,,0.75,0.68,0.37,,T.Tagovailoa,H.Ruggs,,,,,13-T.Tagovailoa complete to 11-H.Ruggs. 11-H.Ruggs to USM 39 for 17 yards.
+Alabama,2Q,5,50,20,1,run,4,not successful,0.50,,0.65,0.40,B.Robinson,,,,,,,24-B.Robinson to USM 35 for 4 yards.
+Alabama,2Q,5,51,21,2,pass,18,explosive,,0.77,0.67,0.38,,T.Tagovailoa,J.Jeudy,,,,,13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy to USM 17 for 18 yards.
+Alabama,2Q,5,52,22,1,pass,17,explosive,,0.79,0.68,0.36,,T.Tagovailoa,J.Jeudy,,,,, 13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy runs 17 yards for a touchdown.
+Southern Miss,2Q,5,55,24,1,run,1,not successful,0.33,,0.19,0.45,S.Anderson,,,,,,,12-S.Anderson to USM 26 for 1 yard.
+Southern Miss,2Q,5,56,25,2,pass,17,explosive,,0.17,0.23,0.43,,J.Abraham,Q.Watkins,,,,,15-J.Abraham complete to 16-Q.Watkins. 16-Q.Watkins to USM 43 for 17 yards.
+Southern Miss,2Q,5,57,26,1,run,5,successful,0.40,,0.26,0.45,S.Anderson,,,,,,,12-S.Anderson to USM 48 for 5 yards.
+Southern Miss,2Q,5,58,27,2,run,7,successful,0.45,,0.29,0.48,S.Anderson,,,,,,,12-S.Anderson to BAMA 45 for 7 yards.
+Southern Miss,2Q,5,59,28,1,run,0,not successful,0.42,,0.28,0.50,S.Anderson,,,,,,,12-S.Anderson to BAMA 45 for no gain.
+Southern Miss,2Q,5,60,29,2,pass,,not successful,,0.15,0.27,0.48,,J.Abraham,J.Mitchell,,,,,15-J.Abraham incomplete. Intended for 80-J.Mitchell.
+Southern Miss,2Q,5,61,30,3,pass,-8,not successful,,0.14,0.26,0.46,,J.Abraham,,S.Lee,,1,,15-J.Abraham sacked at USM 47 for -8 yards (35-S.Lee).
+Alabama,2Q,6,63,23,1,run,9,successful,0.56,,0.70,0.39,N.Harris,,,,,,,22-N.Harris to BAMA 29 for 9 yards.
+Alabama,2Q,6,64,24,2,run,5,successful,0.60,,0.71,0.42,N.Harris,,,,,,,22-N.Harris to BAMA 34 for 5 yards.
+Alabama,2Q,6,65,25,1,run,4,not successful,0.55,,0.68,0.44,N.Harris,,,,,,,22-N.Harris to BAMA 38 for 4 yards.
+Alabama,2Q,6,66,26,2,pass,1,not successful,,0.73,0.65,0.42,,T.Tagovailoa,M.Forristall,,,,,13-T.Tagovailoa complete to 87-M.Forristall. 87-M.Forristall to BAMA 39 for 1 yard.
+Alabama,2Q,6,67,27,3,pass,,not successful,,0.69,0.63,0.41,,T.Tagovailoa,J.Jeudy,,,,,13-T.Tagovailoa incomplete. Intended for 4-J.Jeudy.
+Southern Miss,2Q,6,69,32,1,run,2,not successful,0.38,,0.25,0.48,D.Harris,,,,,,,18-D.Harris to USM 28 for 2 yards.
+Southern Miss,2Q,6,70,33,2,run,3,not successful,0.36,,0.24,0.50,D.Harris,,,,,,,18-D.Harris to USM 31 for 3 yards.
+Southern Miss,2Q,6,71,34,3,pass,37,explosive,,0.20,0.27,0.48,,J.Abraham,D.Harris,,,,,15-J.Abraham complete to 18-D.Harris. 18-D.Harris to BAMA 32 for 37 yards.
+Southern Miss,2Q,6,72,35,1,no play,15,successful,,,0.29,,,,,,,,,"Penalty on BAMA 28-J.Jobe, Personal Foul, 15 yards, enforced at BAMA 32. No Play."
+Southern Miss,2Q,6,73,36,1,pass,14,successful,,0.25,0.31,0.47,,J.Abraham,K.Perkins,,,,,15-J.Abraham complete to 33-K.Perkins. 33-K.Perkins to BAMA 3 for 14 yards.
+Southern Miss,2Q,6,74,37,1,run,-1,not successful,0.33,,0.30,0.48,K.Perkins,,,,,,,33-K.Perkins to BAMA 4 for -1 yard.
+Southern Miss,2Q,6,75,38,2,pass,4,successful,,0.29,0.32,0.47,,J.Abraham,D.Harris,,,,, 15-J.Abraham complete to 18-D.Harris. 18-D.Harris runs 4 yards for a touchdown.
+Alabama,2Q,7,78,29,1,run,8,successful,0.58,,0.64,0.43,T.Tagovailoa,,,,,,,13-T.Tagovailoa to BAMA 33 for 8 yards.
+Alabama,2Q,7,79,30,2,pass,-6,not successful,,0.65,0.62,0.41,,T.Tagovailoa,,S.Bozeman,,1,,13-T.Tagovailoa sacked at BAMA 27 for -6 yards (28-S.Bozeman).
+Alabama,2Q,7,80,31,3,pass,,not successful,,0.61,0.60,0.40,,T.Tagovailoa,,,,,,13-T.Tagovailoa incomplete.
+Alabama,3Q,8,83,33,1,pass,-4,not successful,,0.58,0.58,0.39,,T.Tagovailoa,J.Metchie,,,,,13-T.Tagovailoa complete to 8-J.Metchie. 8-J.Metchie to BAMA 19 for -4 yards.
+Alabama,3Q,8,84,34,2,pass,36,explosive,,0.60,0.59,0.38,,T.Tagovailoa,J.Jeudy,,,,,13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy to USM 45 for 36 yards.
+Alabama,3Q,8,85,35,1,pass,,not successful,,0.57,0.58,0.36,,T.Tagovailoa,D.Smith,,,,,13-T.Tagovailoa incomplete. Intended for 6-D.Smith.
+Alabama,3Q,8,86,36,2,run,12,successful,0.62,,0.59,0.38,N.Harris,,,,,,,22-N.Harris to USM 33 for 12 yards.
+Alabama,3Q,8,87,37,1,run,13,successful,0.64,,0.60,0.40,N.Harris,,,,,,,22-N.Harris to USM 20 for 13 yards.
+Alabama,3Q,8,88,38,1,pass,20,explosive,,0.59,0.61,0.39,,T.Tagovailoa,J.Jeudy,,,,, 13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy runs 20 yards for a touchdown.
+Southern Miss,3Q,8,91,39,1,run,0,not successful,0.31,,0.31,0.48,J.Abraham,,,,,,,15-J.Abraham to USM 17 for no gain.
+Southern Miss,3Q,8,92,40,2,pass,12,successful,,0.33,0.33,0.47,,J.Abraham,J.Mitchell,,,,,15-J.Abraham complete to 80-J.Mitchell. 80-J.Mitchell to USM 29 for 12 yards.
+Southern Miss,3Q,8,93,41,1,pass,,not successful,,0.32,0.32,0.46,,J.Abraham,T.Jones,,,,,15-J.Abraham incomplete. Intended for 5-T.Jones.
+Southern Miss,3Q,8,94,42,2,pass,25,explosive,,0.35,0.34,0.44,,J.Abraham,T.Jones,,,,,15-J.Abraham complete to 5-T.Jones. 5-T.Jones to BAMA 46 for 25 yards.
+Southern Miss,3Q,8,95,43,1,run,2,not successful,0.29,,0.33,0.46,S.Anderson,,,,,,,12-S.Anderson to BAMA 44 for 2 yards.
+Southern Miss,3Q,8,96,44,2,pass,9,successful,,0.38,0.35,0.45,,J.Abraham,S.Anderson,,,,,15-J.Abraham complete to 12-S.Anderson. 12-S.Anderson to BAMA 35 for 9 yards.
+Southern Miss,3Q,8,97,45,1,run,4,not successful,0.28,,0.34,0.46,D.Harris,,,,,,,18-D.Harris to BAMA 31 for 4 yards.
+Southern Miss,3Q,8,98,46,2,run,,not successful,0.26,,0.33,0.48,D.Harris,,,P.Mathis,,,,"18-D.Harris to BAMA 28, FUMBLES (48-P.Mathis). 9-J.Battle to BAMA 32 for 4 yards."
+Alabama,3Q,9,99,39,1,run,5,successful,0.67,,0.62,0.41,B.Robinson,,,,,,,24-B.Robinson to BAMA 37 for 5 yards.
+Alabama,3Q,9,100,40,2,pass,3,not successful,,0.57,0.61,0.39,,T.Tagovailoa,B.Robinson,,,,,13-T.Tagovailoa complete to 24-B.Robinson. 24-B.Robinson to BAMA 40 for 3 yards.
+Alabama,3Q,9,101,41,3,run,14,successful,0.69,,0.62,0.41,B.Robinson,,,,,,,24-B.Robinson to USM 46 for 14 yards.
+Alabama,3Q,9,102,42,1,run,2,not successful,0.65,,0.60,0.43,B.Robinson,,,,,,,24-B.Robinson to USM 44 for 2 yards.
+Alabama,3Q,9,103,43,2,run,6,successful,0.67,,0.61,0.44,T.Tagovailoa,,,,,,,13-T.Tagovailoa scrambles to USM 38 for 6 yards.
+Alabama,3Q,9,104,44,3,run,17,explosive,0.68,,0.62,0.45,N.Harris,,,,,,,22-N.Harris to USM 21 for 17 yards.
+Alabama,3Q,9,105,45,1,pass,15,successful,,0.58,0.63,0.44,,T.Tagovailoa,D.Smith,,,,,"13-T.Tagovailoa incomplete. Intended for 6-D.Smith. Penalty on USM 25-T.Barnes, Pass interference, 15 yards, enforced at USM 21. No Play."
+Alabama,3Q,9,106,46,1,run,6,successful,0.70,,0.64,0.45,B.Robinson,,,,,,, 24-B.Robinson runs 6 yards for a touchdown.
+Southern Miss,3Q,9,109,47,1,pass,0,not successful,,0.36,0.33,0.46,,J.Abraham,Q.Watkins,,,,,15-J.Abraham complete to 16-Q.Watkins. 16-Q.Watkins to USM 25 for no gain.
+Southern Miss,3Q,9,110,48,2,pass,15,explosive,,0.39,0.34,0.45,,J.Abraham,J.Mitchell,,,,,15-J.Abraham complete to 80-J.Mitchell. 80-J.Mitchell to USM 40 for 15 yards.
+Southern Miss,3Q,9,111,49,1,run,3,not successful,0.25,,0.33,0.47,S.Anderson,,,,,,,12-S.Anderson to USM 43 for 3 yards.
+Southern Miss,3Q,9,112,50,2,pass,,not successful,,0.38,0.33,0.45,,J.Abraham,Q.Watkins,,,,,15-J.Abraham incomplete. Intended for 16-Q.Watkins.
+Southern Miss,3Q,9,113,51,3,pass,3,not successful,,0.36,0.32,0.44,,J.Abraham,J.Adams,,,,,15-J.Abraham complete to 2-J.Adams. 2-J.Adams to USM 46 for 3 yards.
+Alabama,3Q,10,115,47,1,run,1,not successful,0.67,,0.62,0.47,N.Harris,,,,,,,22-N.Harris to BAMA 27 for 1 yard.
+Alabama,3Q,10,116,48,2,pass,17,explosive,,0.60,0.63,0.46,,M.Jones,D.Smith,,,,,10-M.Jones complete to 6-D.Smith. 6-D.Smith pushed ob at BAMA 44 for 17 yards.
+Alabama,3Q,10,117,49,1,run,0,successful,0.68,,0.64,0.47,N.Harris,,,,,,,"22-N.Harris to USM 39, FUMBLES. recovers at the USM 39. to USM 39 for no gain."
+Alabama,3Q,10,118,50,1,run,-2,not successful,0.65,,0.63,0.48,B.Robinson,,,,,,,24-B.Robinson to USM 41 for -2 yards.
+Alabama,3Q,10,119,51,2,pass,8,not successful,,0.58,0.61,0.47,,M.Jones,J.Jeudy,,,,,10-M.Jones complete to 4-J.Jeudy. 4-J.Jeudy to USM 33 for 8 yards.
+Alabama,4Q,11,120,52,3,run,6,successful,0.67,,0.62,0.48,B.Robinson,,,,,,,24-B.Robinson to USM 27 for 6 yards.
+Alabama,4Q,11,121,53,1,run,-2,not successful,0.64,,0.61,0.49,J.Ford,,,,,,,27-J.Ford to USM 29 for -2 yards.
+Alabama,4Q,11,122,54,2,run,-2,not successful,0.62,,0.60,0.50,J.Ford,,,,,,,27-J.Ford to USM 31 for -2 yards.
+Alabama,4Q,11,123,55,3,pass,,not successful,,0.56,0.58,0.49,,M.Jones,,,,,,10-M.Jones incomplete. INTERCEPTED by 12-D.Thomas at USM 26. 12-D.Thomas to USM 26 for no gain.
+Southern Miss,4Q,10,124,53,1,pass,7,successful,,0.38,0.33,0.43,,J.Abraham,J.Adams,,,,,15-J.Abraham complete to 2-J.Adams. 2-J.Adams to USM 33 for 7 yards.
+Southern Miss,4Q,10,125,54,2,run,2,not successful,0.24,,0.33,0.45,K.Perkins,,,,,,,33-K.Perkins to USM 35 for 2 yards.
+Southern Miss,4Q,10,126,55,3,run,2,successful,0.27,,0.34,0.46,J.Abraham,,,,,,,15-J.Abraham to USM 37 for 2 yards.
+Southern Miss,4Q,10,127,56,1,run,4,not successful,0.26,,0.33,0.47,K.Perkins,,,,,,,33-K.Perkins to USM 41 for 4 yards.
+Southern Miss,4Q,10,128,57,2,pass,8,successful,,0.41,0.35,0.46,,J.Abraham,K.Perkins,,,,,15-J.Abraham complete to 33-K.Perkins. 33-K.Perkins to USM 49 for 8 yards.
+Southern Miss,4Q,10,129,58,1,run,1,not successful,0.25,,0.34,0.47,Q.Watkins,,,,,,,16-Q.Watkins to BAMA 50 for 1 yard.
+Southern Miss,4Q,10,130,59,2,pass,7,successful,,0.43,0.35,0.46,,J.Abraham,J.Adams,,,,,15-J.Abraham complete to 2-J.Adams. 2-J.Adams to BAMA 43 for 7 yards.
+Southern Miss,4Q,10,131,60,3,run,-2,not successful,0.24,,0.35,0.47,D.Maberry,,,,,,,7-D.Maberry to BAMA 45 for -2 yards.
+Alabama,4Q,12,135,56,1,run,7,successful,0.63,,0.59,0.50,J.Ford,,,,,,,27-J.Ford to USM 36 for 7 yards.
+Alabama,4Q,12,136,57,2,run,1,not successful,0.61,,0.58,0.51,C.Townsend,,,,,,,12-C.Townsend to USM 35 for 1 yard.
+Alabama,4Q,12,137,58,3,run,-3,not successful,0.59,,0.57,0.52,C.Townsend,,,,,,,12-C.Townsend to USM 38 for -3 yards.
+Alabama,4Q,12,138,59,4,pass,20,explosive,,0.57,0.58,0.51,,T.Tagovailoa,S.Bolden,,,,,"5-T.Tagovailoa complete to 18-S.Bolden. 18-S.Bolden to USM 18 for 20 yards. Penalty on USM 15-S.Showers, Holding, declined."
+Alabama,4Q,12,139,60,1,run,2,not successful,0.57,,0.57,0.52,J.Ford,,,,,,,27-J.Ford to USM 16 for 2 yards.
+Alabama,4Q,12,140,61,2,run,7,successful,0.58,,0.58,0.53,J.Ford,,,,,,,27-J.Ford to USM 9 for 7 yards.
+Alabama,4Q,12,141,62,3,run,2,successful,0.59,,0.58,0.53,J.Ford,,,,,,,27-J.Ford to USM 7 for 2 yards.
+Alabama,4Q,12,142,63,1,run,2,not successful,0.58,,0.57,0.54,J.Ford,,,,,,,27-J.Ford to USM 5 for 2 yards.
+Alabama,4Q,12,143,64,2,run,5,successful,0.59,,0.58,0.55,J.Ford,,,,,,, 27-J.Ford runs 5 yards for a touchdown.
+Southern Miss,4Q,11,146,64,1,run,1,not successful,0.23,,0.34,0.48,D.Maberry,,,,,,,7-D.Maberry to USM 26 for 1 yard.
+Southern Miss,4Q,11,147,65,2,run,-5,not successful,0.22,,0.33,0.49,D.Maberry,,,,,,,7-D.Maberry to USM 21 for -5 yards.
+Southern Miss,4Q,11,148,66,3,run,1,not successful,0.21,,0.33,0.50,D.Maberry,,,,,,,7-D.Maberry to USM 22 for 1 yard.
