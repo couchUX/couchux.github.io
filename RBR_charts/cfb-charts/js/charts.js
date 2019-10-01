@@ -469,7 +469,6 @@ function runPassSrChart(thisTeam, thisId) {
     var container = document.getElementById(outerId(thisId)); 
     container.insertAdjacentHTML('beforebegin',lineLegend(thisTeam));
 
-
     var teamPlays = gameData.filter(function(play) { return play.team == thisTeam.name; });
     var playCount = teamPlays.map(function(play) { return play.play_count });
     var runPlays = teamPlays.filter(function(play) { return play.play_type == "run"; });
