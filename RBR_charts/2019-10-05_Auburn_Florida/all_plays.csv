@@ -1,123 +1,141 @@
 team,quarter,drive_team,play_count,play_count_team,down,play_type,yards_total,play_result,run_sr,pass_sr,total_sr,run_rate,runner,passer,receiver,tackler_one,tackler_two,tackler_one_credit,tackler_two_credit,play_description
-North Carolina,1Q,1,2,1,1,run,8,successful,1.00,,1.00,1.00,M.Carter,,,J.Skalski,T.Muse,0.5,0.5,"8-M.Carter to NC 33 for 8 yards (47-J.Skalski,19-T.Muse)."
-North Carolina,1Q,1,3,2,2,run,1,not successful,0.50,,0.50,1.00,M.Carter,,,L.Rudolph,,1,,8-M.Carter to NC 34 for 1 yard (34-L.Rudolph).
-North Carolina,1Q,1,4,3,3,pass,26,explosive,,1.00,0.67,0.67,,S.Howell,J.Williams,T.Muse,,1,,7-S.Howell complete to 25-J.Williams. 25-J.Williams to CLE 40 for 26 yards (19-T.Muse).
-North Carolina,1Q,1,5,4,1,pass,40,explosive,,1.00,0.75,0.50,,S.Howell,D.Brown,,,,, 7-S.Howell complete to 2-D.Brown. 2-D.Brown runs 40 yards for a touchdown.
-Clemson,1Q,1,8,1,1,pass,2,not successful,,0.00,0.00,0.00,,T.Lawrence,A.Rodgers,S.Duck,,1,,16-T.Lawrence complete to 3-A.Rodgers. 3-A.Rodgers to CLE 40 for 2 yards (29-S.Duck).
-Clemson,1Q,1,9,2,2,run,6,successful,1.00,,0.50,0.50,T.Etienne,,,C.Surratt,,1,,9-T.Etienne to CLE 46 for 6 yards (21-C.Surratt).
-Clemson,1Q,1,10,3,3,run,10,successful,1.00,,0.67,0.67,T.Lawrence,,,C.Kelly,,1,,16-T.Lawrence to NC 44 for 10 yards (9-C.Kelly).
-Clemson,1Q,1,11,4,1,pass,14,successful,,0.50,0.75,0.50,,T.Lawrence,J.Ross,,,,,16-T.Lawrence complete to 8-J.Ross. 8-J.Ross to NC 30 for 14 yards.
-Clemson,1Q,1,12,5,1,pass,2,not successful,,0.33,0.60,0.40,,T.Lawrence,J.Ross,T.Morrison,,1,,16-T.Lawrence complete to 8-J.Ross. 8-J.Ross to NC 28 for 2 yards (4-T.Morrison).
-Clemson,1Q,1,13,6,2,run,6,successful,1.00,,0.67,0.50,T.Lawrence,,,C.Kelly,,1,,16-T.Lawrence to NC 22 for 6 yards (9-C.Kelly).
-Clemson,1Q,1,14,7,3,pass,0,not successful,,0.25,0.57,0.43,,T.Lawrence,A.Rodgers,D.Ross,,1,,16-T.Lawrence complete to 3-A.Rodgers. 3-A.Rodgers to NC 22 for no gain (3-D.Ross).
-North Carolina,1Q,2,16,5,1,run,4,not successful,0.33,,0.60,0.60,S.Howell,,,J.Skalski,,1,,7-S.Howell to NC 27 for 4 yards (47-J.Skalski).
-North Carolina,1Q,2,17,6,2,pass,,not successful,,0.67,0.50,0.50,,S.Howell,B.Corrales,,,,,7-S.Howell incomplete. Intended for 15-B.Corrales.
-North Carolina,1Q,2,18,7,3,pass,-3,not successful,,0.50,0.43,0.43,,S.Howell,M.Carter,J.Skalski,,1,,7-S.Howell complete to 8-M.Carter. 8-M.Carter to NC 24 for -3 yards (47-J.Skalski).
-Clemson,1Q,2,20,9,1,run,2,not successful,0.75,,0.50,0.50,T.Etienne,,,J.Strowbridge,C.Surratt,0.5,0.5,"9-T.Etienne to CLE 35 for 2 yards (55-J.Strowbridge,21-C.Surratt)."
-Clemson,1Q,2,21,10,2,pass,,not successful,,0.20,0.44,0.44,,T.Lawrence,J.Ross,,,,,16-T.Lawrence incomplete. Intended for 8-J.Ross.
-Clemson,1Q,2,22,11,3,pass,,not successful,,0.17,0.40,0.40,,T.Lawrence,J.Chalk,,,,,16-T.Lawrence incomplete. Intended for 25-J.Chalk.
-North Carolina,1Q,3,24,9,1,run,4,not successful,0.25,,0.38,0.50,J.Williams,,,J.Williams,,1,,25-J.Williams to NC 28 for 4 yards (59-J.Williams).
-North Carolina,1Q,3,25,10,2,pass,,not successful,,0.40,0.33,0.44,,S.Howell,B.Corrales,,,,,7-S.Howell incomplete. Intended for 15-B.Corrales.
-North Carolina,1Q,3,26,11,3,pass,9,successful,,0.50,0.40,0.40,,S.Howell,J.Williams,J.Phillips,,1,,7-S.Howell complete to 25-J.Williams. 25-J.Williams to NC 37 for 9 yards (25-J.Phillips).
-North Carolina,1Q,3,27,12,1,pass,11,successful,,0.57,0.45,0.36,,S.Howell,D.Brown,C.Smith,,1,,7-S.Howell complete to 2-D.Brown. 2-D.Brown to NC 48 for 11 yards (43-C.Smith).
-North Carolina,1Q,3,28,13,1,run,3,not successful,0.20,,0.42,0.42,J.Williams,,,K.Wallace,X.Thomas,0.5,0.5,"25-J.Williams to CLE 49 for 3 yards (12-K.Wallace,3-X.Thomas)."
-North Carolina,1Q,3,29,14,2,pass,6,successful,,0.63,0.46,0.38,,S.Howell,D.Newsome,I.Simmons,,1,,7-S.Howell complete to 5-D.Newsome. 5-D.Newsome to CLE 43 for 6 yards (11-I.Simmons).
-North Carolina,1Q,3,30,15,3,run,1,successful,0.33,,0.50,0.43,A.Williams,,,I.Simmons,T.Davis,0.5,0.5,"24-A.Williams to CLE 42 for 1 yard (11-I.Simmons,13-T.Davis)."
-North Carolina,1Q,3,31,16,1,pass,,not successful,,0.56,0.47,0.40,,S.Howell,D.Newsome,,,,,7-S.Howell incomplete. Intended for 5-D.Newsome.
-North Carolina,1Q,3,32,17,2,pass,-4,not successful,,0.50,0.44,0.38,,S.Howell,M.Carter,I.Simmons,,1,,7-S.Howell complete to 8-M.Carter. 8-M.Carter to CLE 46 for -4 yards (11-I.Simmons).
-North Carolina,1Q,3,33,18,3,pass,,not successful,,0.45,0.41,0.35,,S.Howell,C.Tucker,,,,,7-S.Howell incomplete. Intended for 86-C.Tucker.
-Clemson,1Q,3,36,14,1,run,0,not successful,0.60,,0.36,0.45,T.Etienne,,,J.Gemmel,,1,,9-T.Etienne to CLE 6 for no gain (44-J.Gemmel).
-Clemson,1Q,3,37,15,2,pass,16,explosive,,0.29,0.42,0.42,,T.Lawrence,T.Higgins,,,,,16-T.Lawrence complete to 5-T.Higgins. 5-T.Higgins to CLE 22 for 16 yards.
-Clemson,1Q,3,38,16,1,run,4,not successful,0.50,,0.38,0.46,L.Dixon,,,D.Ross,T.Hopper,0.5,0.5,"23-L.Dixon to CLE 26 for 4 yards (3-D.Ross,42-T.Hopper)."
-Clemson,1Q,3,39,17,2,run,2,not successful,0.43,,0.36,0.50,L.Dixon,,,J.Strowbridge,T.Hopper,0.5,0.5,"23-L.Dixon to CLE 28 for 2 yards (55-J.Strowbridge,42-T.Hopper)."
-Clemson,2Q,4,40,18,3,pass,16,explosive,,0.38,0.40,0.47,,T.Lawrence,T.Higgins,S.Duck,,1,,16-T.Lawrence complete to 5-T.Higgins. 5-T.Higgins to CLE 44 for 16 yards (29-S.Duck).
-Clemson,2Q,4,41,19,1,run,9,successful,0.50,,0.44,0.50,L.Dixon,,,C.Surratt,M.Dorn,0.5,0.5,"23-L.Dixon to NC 47 for 9 yards (21-C.Surratt,1-M.Dorn)."
-Clemson,2Q,4,42,20,2,run,6,successful,0.56,,0.47,0.53,T.Etienne,,,J.Gemmel,,1,,9-T.Etienne to NC 41 for 6 yards (44-J.Gemmel).
-Clemson,2Q,4,43,21,1,pass,31,explosive,,0.44,0.50,0.50,,T.Lawrence,J.Ross,S.Duck,,1,,16-T.Lawrence complete to 8-J.Ross. 8-J.Ross to NC 10 for 31 yards (29-S.Duck).
-Clemson,2Q,4,44,22,1,run,-3,not successful,0.50,,0.47,0.53,T.Lawrence,,,C.Surratt,,1,,16-T.Lawrence to NC 13 for -3 yards (21-C.Surratt).
-Clemson,2Q,4,45,23,2,run,13,successful,0.55,,0.50,0.55,T.Etienne,,,,,,, 9-T.Etienne runs 13 yards for a touchdown.
-North Carolina,2Q,4,48,20,1,pass,-7,not successful,,0.42,0.39,0.33,,S.Howell,,J.Williams,,1,,7-S.Howell sacked at NC 18 for -7 yards (59-J.Williams).
-North Carolina,2Q,4,49,21,2,run,8,not successful,0.29,,0.37,0.37,M.Carter,,,I.Simmons,C.Smith,0.5,0.5,"8-M.Carter to NC 26 for 8 yards (11-I.Simmons,43-C.Smith)."
-North Carolina,2Q,4,50,22,3,pass,,not successful,,0.38,0.35,0.35,,S.Howell,D.Brown,,,,,7-S.Howell incomplete. Intended for 2-D.Brown.
-Clemson,2Q,5,52,24,1,run,9,successful,0.58,,0.52,0.57,T.Etienne,,,M.Dorn,C.Surratt,0.5,0.5,"9-T.Etienne to CLE 37 for 9 yards (1-M.Dorn,21-C.Surratt)."
-Clemson,2Q,5,53,25,2,run,,not successful,0.54,,0.50,0.59,T.Etienne,,,J.Gemmel,,,,"9-T.Etienne to CLE 42, FUMBLES (44-J.Gemmel). 55-J.Strowbridge to CLE 42 for no gain."
-North Carolina,2Q,5,54,24,1,run,31,explosive,0.38,,0.38,0.38,M.Carter,,,T.Muse,,1,,8-M.Carter pushed ob at CLE 11 for 31 yards (19-T.Muse).
-North Carolina,2Q,5,55,25,1,pass,4,not successful,,0.36,0.36,0.36,,S.Howell,B.Corrales,A.Terrell,,1,,7-S.Howell complete to 15-B.Corrales. 15-B.Corrales pushed ob at CLE 7 for 4 yards (8-A.Terrell).
-North Carolina,2Q,5,57,27,2,run,2,not successful,0.33,,0.35,0.39,M.Carter,,,J.Skalski,C.Smith,0.5,0.5,"8-M.Carter to CLE 10 for 2 yards (47-J.Skalski,43-C.Smith)."
-North Carolina,2Q,5,58,28,3,pass,10,successful,,0.40,0.38,0.38,,S.Howell,B.Corrales,,,,, 7-S.Howell complete to 15-B.Corrales. 15-B.Corrales runs 10 yards for a touchdown.
-Clemson,2Q,6,61,26,1,run,2,not successful,0.50,,0.48,0.61,T.Etienne,,,T.Morrison,B.Ross,0.5,0.5,"9-T.Etienne to CLE 27 for 2 yards (4-T.Morrison,56-B.Ross)."
-Clemson,2Q,6,62,27,2,pass,,not successful,,0.40,0.46,0.58,,T.Lawrence,A.Rodgers,,,,,16-T.Lawrence incomplete. Intended for 3-A.Rodgers.
-Clemson,2Q,6,63,28,3,pass,-9,not successful,,0.36,0.44,0.56,,T.Lawrence,,C.Surratt,,1,,16-T.Lawrence sacked at CLE 18 for -9 yards (21-C.Surratt).
-North Carolina,2Q,6,67,30,1,run,-1,not successful,0.30,,0.36,0.40,J.Williams,,,T.Muse,,1,,25-J.Williams to NC 34 for -1 yard (19-T.Muse).
-North Carolina,2Q,6,68,31,2,run,2,not successful,0.27,,0.35,0.42,D.Brown,,,I.Simmons,,1,,2-D.Brown to NC 36 for 2 yards (11-I.Simmons).
-North Carolina,2Q,6,69,32,3,pass,,not successful,,0.38,0.33,0.41,,S.Howell,D.Newsome,,,,,7-S.Howell incomplete. Intended for 5-D.Newsome.
-Clemson,2Q,7,71,31,1,pass,0,not successful,,0.33,0.42,0.54,,T.Lawrence,D.Overton,J.Gemmel,,1,,16-T.Lawrence complete to 14-D.Overton. 14-D.Overton to CLE 22 for no gain (44-J.Gemmel).
-Clemson,2Q,7,72,32,2,run,6,not successful,0.47,,0.41,0.56,T.Etienne,,,M.Dorn,,1,,9-T.Etienne to CLE 28 for 6 yards (1-M.Dorn).
-Clemson,2Q,7,73,33,3,run,16,explosive,0.50,,0.43,0.57,T.Lawrence,,,D.Chapman,,1,,16-T.Lawrence to CLE 44 for 16 yards (13-D.Chapman).
-Clemson,2Q,7,74,34,1,pass,28,explosive,,0.38,0.45,0.55,,T.Lawrence,T.Higgins,T.Morrison,,1,,16-T.Lawrence complete to 5-T.Higgins. 5-T.Higgins to NC 28 for 28 yards (4-T.Morrison).
-Clemson,2Q,7,75,35,1,run,0,not successful,0.47,,0.43,0.57,T.Lawrence,,,J.Strowbridge,T.Fox,0.5,0.5,"16-T.Lawrence to NC 28 for no gain (55-J.Strowbridge,12-T.Fox)."
-Clemson,2Q,7,76,36,2,run,1,not successful,0.44,,0.42,0.58,T.Etienne,,,A.Crawford,T.Fox,0.5,0.5,"9-T.Etienne to NC 27 for 1 yard (92-A.Crawford,56-T.Fox)."
-Clemson,2Q,7,77,37,3,pass,17,explosive,,0.43,0.44,0.56,,T.Lawrence,T.Higgins,D.Chapman,,1,,16-T.Lawrence complete to 5-T.Higgins. 5-T.Higgins to NC 10 for 17 yards (13-D.Chapman).
-Clemson,2Q,7,78,38,1,run,6,successful,0.47,,0.45,0.58,T.Lawrence,,,J.Gemmel,T.Fox,0.5,0.5,"16-T.Lawrence to NC 4 for 6 yards (44-J.Gemmel,56-T.Fox)."
-Clemson,2Q,7,79,39,2,run,1,not successful,0.45,,0.44,0.59,T.Etienne,,,D.Chapman,,1,,9-T.Etienne to NC 3 for 1 yard (13-D.Chapman).
-Clemson,2Q,7,80,40,3,run,3,successful,0.48,,0.46,0.60,T.Lawrence,,,,,,, 16-T.Lawrence runs 3 yards for a touchdown.
-North Carolina,2Q,7,84,35,1,run,15,explosive,0.33,,0.36,0.43,M.Carter,,,N.Turner,,1,,8-M.Carter to NC 30 for 15 yards (24-N.Turner).
-Clemson,3Q,8,86,41,1,pass,10,successful,,0.47,0.47,0.58,,T.Lawrence,A.Rodgers,T.Morrison,,1,,16-T.Lawrence complete to 3-A.Rodgers. 3-A.Rodgers to CLE 46 for 10 yards (4-T.Morrison).
-Clemson,3Q,8,87,42,1,run,2,not successful,0.45,,0.46,0.59,T.Etienne,,,C.Surratt,J.Strowbridge,0.5,0.5,"9-T.Etienne to CLE 48 for 2 yards (21-C.Surratt,55-J.Strowbridge)."
-Clemson,3Q,8,88,43,2,pass,4,not successful,,0.44,0.45,0.58,,T.Lawrence,T.Etienne,S.Duck,,1,,16-T.Lawrence complete to 9-T.Etienne. 9-T.Etienne to NC 48 for 4 yards (29-S.Duck).
-Clemson,3Q,8,90,45,3,pass,14,successful,,0.47,0.46,0.56,,T.Lawrence,T.Higgins,C.Kelly,,1,,16-T.Lawrence complete to 5-T.Higgins. 5-T.Higgins to NC 39 for 14 yards (9-C.Kelly).
-Clemson,3Q,8,91,46,1,pass,,not successful,,0.44,0.45,0.55,,T.Lawrence,J.Chalk,,,,,16-T.Lawrence incomplete. Intended for 25-J.Chalk.
-Clemson,3Q,8,92,47,2,run,9,successful,0.48,,0.46,0.56,T.Etienne,,,D.Ross,,1,,9-T.Etienne to NC 30 for 9 yards (3-D.Ross).
-Clemson,3Q,8,94,49,3,pass,,not successful,,0.42,0.45,0.55,,T.Lawrence,J.Ross,,,,,16-T.Lawrence incomplete. Intended for 8-J.Ross.
-Clemson,3Q,8,95,50,4,pass,,not successful,,0.40,0.44,0.53,,T.Lawrence,T.Higgins,,,,,16-T.Lawrence incomplete. Intended for 5-T.Higgins.
-North Carolina,3Q,8,96,36,1,run,-1,not successful,0.31,,0.34,0.45,M.Carter,,,I.Simmons,J.Foster,0.5,0.5,"8-M.Carter to NC 34 for -1 yard (11-I.Simmons,35-J.Foster)."
-North Carolina,3Q,8,97,37,2,pass,,not successful,,0.35,0.33,0.43,,S.Howell,D.Brown,,,,,7-S.Howell incomplete. Intended for 2-D.Brown.
-North Carolina,3Q,8,98,38,3,pass,3,not successful,,0.33,0.32,0.42,,S.Howell,R.Groves,A.Terrell,,1,,7-S.Howell complete to 4-R.Groves. 4-R.Groves to NC 37 for 3 yards (8-A.Terrell).
-Clemson,3Q,9,100,51,1,pass,10,successful,,0.43,0.45,0.52,,T.Lawrence,J.Chalk,J.Gemmel,,1,,16-T.Lawrence complete to 25-J.Chalk. 25-J.Chalk to CLE 30 for 10 yards (44-J.Gemmel).
-Clemson,3Q,9,101,52,1,run,5,successful,0.50,,0.47,0.53,T.Etienne,,,S.Duck,,1,,9-T.Etienne to CLE 35 for 5 yards (29-S.Duck).
-Clemson,3Q,9,102,53,2,pass,-1,not successful,,0.41,0.46,0.52,,T.Lawrence,C.Powell,,,,,16-T.Lawrence complete to 17-C.Powell. 17-C.Powell to CLE 34 for -1 yard.
-Clemson,3Q,9,104,55,3,pass,,not successful,,0.39,0.45,0.51,,T.Lawrence,,,,,,16-T.Lawrence incomplete.
-North Carolina,3Q,9,106,40,1,run,3,not successful,0.29,,0.31,0.44,M.Carter,,,D.Johnson,B.Spector,0.5,0.5,"8-M.Carter to NC 30 for 3 yards (14-D.Johnson,10-B.Spector)."
-North Carolina,3Q,9,107,41,2,run,8,successful,0.33,,0.33,0.45,M.Carter,,,D.Johnson,,1,,8-M.Carter to NC 38 for 8 yards (14-D.Johnson).
-North Carolina,3Q,9,108,42,1,run,4,not successful,0.31,,0.32,0.47,M.Carter,,,J.Venables,B.Spector,0.5,0.5,"8-M.Carter to NC 42 for 4 yards (15-J.Venables,10-B.Spector)."
-North Carolina,3Q,9,109,43,2,pass,,not successful,,0.32,0.31,0.46,,S.Howell,D.Brown,,,,,7-S.Howell incomplete. Intended for 2-D.Brown.
-North Carolina,3Q,9,110,44,3,pass,,not successful,,0.30,0.31,0.44,,S.Howell,D.Brown,,,,,7-S.Howell incomplete. Intended for 2-D.Brown.
-Clemson,3Q,10,112,57,1,run,5,successful,0.52,,0.46,0.52,L.Dixon,,,A.Cater,C.Kelly,0.5,0.5,"23-L.Dixon to CLE 15 for 5 yards (33-A.Cater,9-C.Kelly)."
-Clemson,3Q,10,113,58,2,pass,,not successful,,0.38,0.45,0.51,,T.Lawrence,J.Ross,,,,,16-T.Lawrence incomplete. Intended for 8-J.Ross.
-Clemson,3Q,10,114,59,3,pass,,not successful,,0.36,0.44,0.50,,T.Lawrence,T.Higgins,,,,,16-T.Lawrence incomplete. Intended for 5-T.Higgins.
-North Carolina,3Q,10,116,46,1,run,12,successful,0.35,,0.32,0.46,J.Williams,,,K.Wallace,,1,,25-J.Williams to NC 43 for 12 yards (12-K.Wallace).
-North Carolina,3Q,10,117,47,1,run,3,not successful,0.33,,0.32,0.47,S.Howell,,,N.Turner,,1,,7-S.Howell to NC 46 for 3 yards (24-N.Turner).
-North Carolina,3Q,10,118,48,2,pass,-9,not successful,,0.29,0.31,0.46,,S.Howell,,I.Simmons,,1,,7-S.Howell sacked at NC 37 for -9 yards (11-I.Simmons).
-North Carolina,3Q,10,119,49,3,pass,-4,not successful,,0.27,0.30,0.45,,S.Howell,,T.Davis,,1,,7-S.Howell sacked at NC 33 for -4 yards (13-T.Davis).
-Clemson,3Q,11,121,61,1,pass,,not successful,,0.35,0.43,0.49,,T.Lawrence,J.Ross,,,,,16-T.Lawrence incomplete. Intended for 8-J.Ross.
-Clemson,3Q,11,122,62,2,pass,-1,not successful,,0.33,0.42,0.48,,T.Lawrence,T.Etienne,A.Cater,,1,,16-T.Lawrence complete to 9-T.Etienne. 9-T.Etienne to CLE 29 for -1 yard (33-A.Cater).
-Clemson,3Q,11,123,63,3,pass,,not successful,,0.32,0.42,0.47,,T.Lawrence,T.Higgins,,,,,16-T.Lawrence incomplete. Intended for 5-T.Higgins.
-North Carolina,3Q,11,125,51,1,run,1,not successful,0.32,,0.29,0.46,M.Carter,,,A.Terrell,J.Mascoll,0.5,0.5,"8-M.Carter to NC 30 for 1 yard (8-A.Terrell,7-J.Mascoll)."
-North Carolina,4Q,12,126,52,2,run,6,not successful,0.30,,0.29,0.48,M.Carter,,,N.Pinckney,K.Wallace,0.5,0.5,"8-M.Carter to NC 36 for 6 yards (44-N.Pinckney,12-K.Wallace)."
-North Carolina,4Q,12,127,53,3,pass,10,successful,,0.30,0.30,0.47,,S.Howell,D.Newsome,K.Wallace,,1,,7-S.Howell complete to 5-D.Newsome. 5-D.Newsome to NC 46 for 10 yards (12-K.Wallace).
-North Carolina,4Q,12,128,54,1,run,9,successful,0.33,,0.32,0.48,M.Carter,,,A.Terrell,,1,,8-M.Carter pushed ob at CLE 45 for 9 yards (8-A.Terrell).
-North Carolina,4Q,12,129,55,2,pass,,not successful,,0.29,0.31,0.47,,S.Howell,,,,,,7-S.Howell incomplete.
-North Carolina,4Q,12,130,56,3,run,0,not successful,0.32,,0.30,0.48,S.Howell,,,I.Simmons,J.Foster,0.5,0.5,"7-S.Howell to CLE 45 for no gain (11-I.Simmons,35-J.Foster)."
-North Carolina,4Q,12,131,57,4,run,0,not successful,0.30,,0.30,0.49,J.Williams,,,I.Simmons,N.Turner,0.5,0.5,"25-J.Williams to CLE 45 for no gain (11-I.Simmons,24-N.Turner)."
-Clemson,4Q,12,132,65,1,run,7,successful,0.54,,0.43,0.48,T.Lawrence,,,D.Ross,,1,,16-T.Lawrence to NC 48 for 7 yards (3-D.Ross).
-Clemson,4Q,12,133,66,2,pass,,not successful,,0.31,0.42,0.47,,T.Lawrence,,,,,,16-T.Lawrence incomplete.
-Clemson,4Q,12,134,67,3,pass,6,successful,,0.33,0.43,0.46,,T.Lawrence,J.Chalk,T.Fox,,1,,16-T.Lawrence complete to 25-J.Chalk. 25-J.Chalk to NC 42 for 6 yards (12-T.Fox).
-Clemson,4Q,12,135,68,1,run,7,successful,0.56,,0.44,0.47,T.Lawrence,,,A.Crawford,C.Kelly,0.5,0.5,"16-T.Lawrence to NC 35 for 7 yards (92-A.Crawford,9-C.Kelly)."
-Clemson,4Q,12,137,70,2,run,2,not successful,0.54,,0.43,0.48,T.Lawrence,,,T.Fox,,1,,16-T.Lawrence scrambles to NC 38 for 2 yards (56-T.Fox).
-Clemson,4Q,12,138,71,3,pass,38,explosive,,0.35,0.44,0.47,,T.Lawrence,T.Higgins,,,,, 16-T.Lawrence complete to 5-T.Higgins. 5-T.Higgins runs 38 yards for a touchdown.
-North Carolina,4Q,13,141,58,1,run,0,not successful,0.29,,0.29,0.50,J.Williams,,,J.Foster,,1,,25-J.Williams to NC 25 for no gain (35-J.Foster).
-North Carolina,4Q,13,142,59,2,run,5,not successful,0.28,,0.29,0.51,S.Howell,,,X.Thomas,J.Skalski,0.5,0.5,"7-S.Howell scrambles to NC 30 for 5 yards (3-X.Thomas,47-J.Skalski)."
-North Carolina,4Q,13,143,60,3,pass,12,successful,,0.32,0.30,0.50,,S.Howell,D.Brown,D.Kendrick,,1,,7-S.Howell complete to 2-D.Brown. 2-D.Brown to NC 42 for 12 yards (1-D.Kendrick).
-North Carolina,4Q,13,144,61,1,pass,,not successful,,0.31,0.29,0.49,,S.Howell,D.Newsome,,,,,7-S.Howell incomplete. Intended for 5-D.Newsome.
-North Carolina,4Q,13,145,62,2,run,-2,not successful,0.27,,0.29,0.50,M.Carter,,,N.Turner,,1,,8-M.Carter to NC 40 for -2 yards (24-N.Turner).
-North Carolina,4Q,13,146,63,3,pass,11,not successful,,0.30,0.28,0.49,,S.Howell,B.Corrales,N.Turner,,1,,7-S.Howell complete to 15-B.Corrales. 15-B.Corrales to CLE 49 for 11 yards (24-N.Turner).
-North Carolina,4Q,13,147,64,4,run,3,successful,0.30,,0.30,0.50,S.Howell,,,J.Foster,K.Wallace,0.5,0.5,"7-S.Howell to CLE 46 for 3 yards (35-J.Foster,12-K.Wallace)."
-North Carolina,4Q,13,148,65,1,pass,,not successful,,0.29,0.29,0.49,,S.Howell,D.Newsome,,,,,7-S.Howell incomplete. Intended for 5-D.Newsome.
-North Carolina,4Q,13,149,66,2,run,8,successful,0.32,,0.30,0.50,M.Carter,,,X.Thomas,,1,,8-M.Carter to CLE 38 for 8 yards (3-X.Thomas).
-North Carolina,4Q,13,150,67,3,run,-2,not successful,0.31,,0.30,0.51,M.Carter,,,J.Foster,X.Thomas,0.5,0.5,"8-M.Carter to CLE 40 for -2 yards (35-J.Foster,3-X.Thomas)."
-North Carolina,4Q,13,151,68,4,pass,7,successful,,0.31,0.31,0.50,,S.Howell,R.Groves,N.Turner,,1,,7-S.Howell complete to 4-R.Groves. 4-R.Groves to CLE 33 for 7 yards (24-N.Turner).
-North Carolina,4Q,13,152,69,1,run,2,not successful,0.30,,0.31,0.51,J.Williams,,,T.Davis,,1,,25-J.Williams to CLE 31 for 2 yards (13-T.Davis).
-North Carolina,4Q,13,153,70,2,run,6,successful,0.32,,0.32,0.52,J.Williams,,,D.Kendrick,,1,,25-J.Williams to CLE 25 for 6 yards (1-D.Kendrick).
-North Carolina,4Q,13,154,71,3,run,22,explosive,0.34,,0.33,0.52,J.Williams,,,I.Simmons,,1,,25-J.Williams to CLE 3 for 22 yards (11-I.Simmons).
-North Carolina,4Q,13,155,72,1,pass,2,successful,,0.33,0.34,0.52,,S.Howell,J.Bargas,,,,,7-S.Howell complete to 80-J.Bargas. 80-J.Bargas to CLE 1 for 2 yards.
-North Carolina,4Q,13,156,73,2,run,1,successful,0.36,,0.35,0.52,J.Williams,,,,,,, 25-J.Williams runs 1 yard for a touchdown.
+Auburn,1Q,1,2,1,1,pass,,not successful,,0.00,0.00,0.00,,B.Nix,J.Whitlow,,,,,10-B.Nix incomplete. Intended for 28-J.Whitlow.
+Auburn,1Q,1,3,2,2,run,1,not successful,0.00,,0.00,0.50,J.Whitlow,,,A.Burney,J.Greenard,0.5,0.5,"28-J.Whitlow to AUB 26 for 1 yard (30-A.Burney,58-J.Greenard)."
+Auburn,1Q,1,4,3,3,pass,,not successful,,0.00,0.00,0.33,,B.Nix,S.Williams,,,,,10-B.Nix incomplete. Intended for 18-S.Williams.
+Florida,1Q,1,6,1,1,run,0,not successful,0.00,,0.00,1.00,L.Perine,,,D.Brown,,1,,2-L.Perine to FLA 36 for no gain (5-D.Brown).
+Florida,1Q,1,7,2,2,pass,64,explosive,,1.00,0.50,0.50,,K.Trask,F.Swain,,,,, 11-K.Trask complete to 16-F.Swain. 16-F.Swain runs 64 yards for a touchdown.
+Auburn,1Q,2,10,5,1,pass,,not successful,,0.00,0.00,0.25,,B.Nix,E.Stove,,,,,10-B.Nix incomplete. Intended for 12-E.Stove.
+Auburn,1Q,2,11,6,2,run,9,successful,0.50,,0.20,0.40,B.Nix,,,L.Perine,,1,,10-B.Nix scrambles to AUB 35 for 9 yards (2-L.Perine).
+Auburn,1Q,2,12,7,3,run,0,not successful,0.33,,0.17,0.50,J.Whitlow,,,A.Shuler,D.Reese II,0.5,0.5,"28-J.Whitlow to AUB 35 for no gain (88-A.Shuler,33-D.Reese II)."
+Florida,1Q,2,14,3,1,pass,4,not successful,,0.50,0.33,0.33,,K.Trask,K.Pitts,J.Dinson,,1,,11-K.Trask complete to 84-K.Pitts. 84-K.Pitts to FLA 27 for 4 yards (20-J.Dinson).
+Florida,1Q,2,15,4,2,pass,,not successful,,0.33,0.25,0.25,,K.Trask,J.Copeland,,,,,11-K.Trask incomplete. Intended for 15-J.Copeland.
+Florida,1Q,2,16,5,3,pass,10,successful,,0.50,0.40,0.20,,K.Trask,L.Perine,O.Pappoe,,1,,11-K.Trask complete to 2-L.Perine. 2-L.Perine pushed ob at FLA 37 for 10 yards (10-O.Pappoe).
+Florida,1Q,2,17,6,1,pass,-1,not successful,,0.40,0.33,0.17,,K.Trask,L.Perine,Z.McClain,,1,,11-K.Trask complete to 2-L.Perine. 2-L.Perine to FLA 36 for -1 yard (35-Z.McClain).
+Florida,1Q,2,18,7,2,pass,26,explosive,,0.50,0.43,0.14,,K.Trask,F.Swain,C.Tutt,,1,,11-K.Trask complete to 16-F.Swain. 16-F.Swain to AUB 38 for 26 yards (6-C.Tutt).
+Florida,1Q,2,20,9,1,pass,,not successful,,0.43,0.38,0.13,,K.Trask,,C.Tutt,,,,"11-K.Trask sacked at FLA 39 for -13 yards, FUMBLES (6-C.Tutt). 31-C.Wooten to FLA 39 for no gain."
+Auburn,1Q,3,21,9,1,pass,,not successful,,0.00,0.14,0.43,,B.Nix,J.Whitlow,,,,,10-B.Nix incomplete. Intended for 28-J.Whitlow.
+Auburn,1Q,3,22,10,2,run,-1,not successful,0.25,,0.13,0.50,B.Nix,,,D.Stiner,,1,,10-B.Nix to FLA 40 for -1 yard (13-D.Stiner).
+Auburn,1Q,3,23,11,3,pass,10,not successful,,0.00,0.11,0.44,,B.Nix,E.Stove,D.Stiner,Z.Carter,0.5,0.5,"10-B.Nix complete to 12-E.Stove. 12-E.Stove to FLA 30 for 10 yards (13-D.Stiner,17-Z.Carter)."
+Florida,1Q,3,26,10,1,pass,1,not successful,,0.38,0.33,0.11,,K.Trask,T.Cleveland,R.McCreary,,1,,11-K.Trask complete to 89-T.Cleveland. 89-T.Cleveland to FLA 26 for 1 yard (23-R.McCreary).
+Florida,1Q,3,27,11,2,pass,,not successful,,0.33,0.30,0.10,,K.Trask,J.Hammond,,,,,11-K.Trask incomplete. Intended for 10-J.Hammond.
+Florida,1Q,3,28,12,3,pass,15,successful,,0.40,0.36,0.09,,K.Trask,K.Pitts,,,,,"11-K.Trask incomplete. Intended for 84-K.Pitts. Penalty on AUB 21-S.Monday, Pass interference, 15 yards, enforced at FLA 26. No Play."
+Florida,1Q,3,29,13,1,run,,not successful,0.00,,0.33,0.17,D.Pierce,,,K.Britt,,,,"27-D.Pierce to FLA 44, FUMBLES (33-K.Britt). 94-T.Truesdell to FLA 44 for no gain."
+Auburn,1Q,4,30,13,1,run,3,not successful,0.20,,0.10,0.50,K.Martin,,,T.Slaton,,1,,9-K.Martin to FLA 41 for 3 yards (56-T.Slaton).
+Auburn,1Q,4,31,14,2,pass,,not successful,,0.00,0.09,0.45,,B.Nix,A.Schwartz,,,,,10-B.Nix incomplete. Intended for 5-A.Schwartz.
+Auburn,1Q,4,32,15,3,pass,13,successful,,0.14,0.17,0.42,,B.Nix,W.Hastings,D.Reese,,1,,10-B.Nix complete to 33-W.Hastings. 33-W.Hastings to FLA 28 for 13 yards (4-D.Reese).
+Auburn,1Q,4,33,16,1,run,6,successful,0.33,,0.23,0.46,K.Martin,,,D.Reese,J.Greenard,0.5,0.5,"9-K.Martin to FLA 22 for 6 yards (4-D.Reese,58-J.Greenard)."
+Auburn,1Q,4,34,17,2,run,1,not successful,0.29,,0.21,0.50,K.Martin,,,K.Campbell,J.Moon,0.5,0.5,"9-K.Martin to FLA 21 for 1 yard (55-K.Campbell,7-J.Moon)."
+Auburn,1Q,4,35,18,3,run,0,not successful,0.25,,0.20,0.53,J.Whitlow,,,J.Taylor,D.Reese II,0.5,0.5,"28-J.Whitlow to FLA 21 for no gain (29-J.Taylor,33-D.Reese II)."
+Florida,1Q,4,38,14,1,pass,,not successful,,0.36,0.31,0.15,,K.Trask,V.Jefferson,,,,,11-K.Trask incomplete. Intended for 12-V.Jefferson.
+Florida,1Q,4,39,15,2,pass,3,not successful,,0.33,0.29,0.14,,K.Trask,L.Perine,R.McCreary,,1,,11-K.Trask complete to 2-L.Perine. 2-L.Perine to FLA 28 for 3 yards (23-R.McCreary).
+Florida,1Q,4,40,16,3,pass,3,not successful,,0.31,0.27,0.13,,K.Trask,L.Perine,O.Pappoe,J.Davis,0.5,0.5,"11-K.Trask complete to 2-L.Perine. 2-L.Perine to FLA 31 for 3 yards (10-O.Pappoe,13-J.Davis)."
+Florida,1Q,4,42,18,1,run,3,not successful,0.00,,0.25,0.19,E.Jones,,,J.Dinson,M.McClain,0.5,0.5,"5-E.Jones to AUB 14 for 3 yards (20-J.Dinson,17-M.McClain)."
+Florida,1Q,4,43,19,2,pass,0,not successful,,0.29,0.24,0.18,,E.Jones,K.Pitts,J.Dinson,,1,,5-E.Jones complete to 84-K.Pitts. 84-K.Pitts to AUB 14 for no gain (20-J.Dinson).
+Florida,1Q,4,44,20,3,pass,-9,not successful,,0.27,0.22,0.17,,K.Trask,,K.Britt,,1,,"11-K.Trask sacked at AUB 23 for -9 yards, FUMBLES (33-K.Britt). 5-D.Brown to FLA 35 for 42 yards."
+Auburn,2Q,5,45,20,1,run,-4,not successful,0.22,,0.19,0.56,A.Schwartz,,,J.Houston,,1,,5-A.Schwartz to FLA 39 for -4 yards (41-J.Houston).
+Auburn,2Q,5,46,21,2,pass,-15,not successful,,0.13,0.18,0.53,,B.Nix,,E.Stove,,,,"10-B.Nix incomplete. INTERCEPTED by 31-S.Davis at FLA 26. 31-S.Davis to AUB 33 for 41 yards (12-E.Stove). Penalty on AUB 71-J.Driscoll, Personal Foul, 15 yards, enforced at AUB 33."
+Florida,2Q,5,48,22,1,run,10,successful,0.25,,0.26,0.21,L.Perine,,,C.Wooten,,1,,2-L.Perine to AUB 13 for 10 yards (31-C.Wooten).
+Florida,2Q,5,49,23,2,pass,13,successful,,0.31,0.30,0.20,,K.Trask,J.Hammond,,,,, 11-K.Trask complete to 10-J.Hammond. 10-J.Hammond runs 13 yards for a touchdown.
+Auburn,2Q,6,52,22,1,pass,4,not successful,,0.11,0.17,0.50,,B.Nix,E.Stove,M.Wilson,,1,,10-B.Nix complete to 12-E.Stove. 12-E.Stove to AUB 29 for 4 yards (3-M.Wilson).
+Auburn,2Q,6,53,23,2,run,4,not successful,0.20,,0.16,0.53,J.Whitlow,,,A.Burney,D.Reese,0.5,0.5,"28-J.Whitlow to AUB 33 for 4 yards (30-A.Burney,4-D.Reese)."
+Auburn,2Q,6,54,24,3,run,1,not successful,0.18,,0.15,0.55,J.Whitlow,,,M.Diabate,L.Ancrum,0.5,0.5,"28-J.Whitlow to AUB 34 for 1 yard (11-M.Diabate,98-L.Ancrum)."
+Florida,2Q,6,56,24,1,pass,,not successful,,0.29,0.29,0.19,,K.Trask,F.Swain,,,,,11-K.Trask incomplete. Intended for 16-F.Swain.
+Florida,2Q,6,57,25,2,pass,7,successful,,0.33,0.32,0.18,,K.Trask,K.Pitts,S.Monday,K.Britt,0.5,0.5,"11-K.Trask complete to 84-K.Pitts. 84-K.Pitts to FLA 34 for 7 yards (21-S.Monday,33-K.Britt)."
+Florida,2Q,6,58,26,3,pass,9,successful,,0.37,0.35,0.17,,K.Trask,K.Pitts,J.Davis,,1,,11-K.Trask complete to 84-K.Pitts. 84-K.Pitts to FLA 43 for 9 yards (13-J.Davis).
+Florida,2Q,6,59,27,3,pass,,not successful,,0.35,0.33,0.17,,K.Trask,K.Pitts,,,,,11-K.Trask incomplete. Intended for 84-K.Pitts.
+Florida,2Q,6,60,28,4,run,-1,not successful,0.20,,0.32,0.20,T.Townsend,,,C.Wooten,,1,,43-T.Townsend to FLA 33 for -1 yard (31-C.Wooten).
+Auburn,2Q,7,61,26,1,pass,32,explosive,,0.20,0.19,0.52,,B.Nix,S.Williams,,,,, 10-B.Nix complete to 18-S.Williams. 18-S.Williams runs 32 yards for a touchdown.
+Florida,2Q,7,64,29,1,pass,,not successful,,0.33,0.31,0.19,,K.Trask,J.Hammond,,,,,11-K.Trask incomplete. Intended for 10-J.Hammond.
+Florida,2Q,7,65,30,2,run,8,successful,0.33,,0.33,0.22,L.Perine,,,N.Igbinoghene,O.Pappoe,0.5,0.5,"2-L.Perine to FLA 33 for 8 yards (4-N.Igbinoghene,10-O.Pappoe)."
+Florida,2Q,7,66,31,3,run,6,successful,0.43,,0.36,0.25,E.Jones,,,J.Dinson,,1,,5-E.Jones to FLA 39 for 6 yards (20-J.Dinson).
+Florida,2Q,7,67,32,1,pass,,not successful,,0.32,0.34,0.24,,E.Jones,F.Swain,,,,,5-E.Jones incomplete. Intended for 16-F.Swain.
+Florida,2Q,7,68,33,2,pass,14,successful,,0.35,0.37,0.23,,E.Jones,F.Swain,,,,,5-E.Jones complete to 16-F.Swain. 16-F.Swain to AUB 47 for 14 yards.
+Florida,2Q,7,69,34,1,pass,20,explosive,,0.38,0.39,0.23,,E.Jones,F.Swain,Z.McClain,,1,,5-E.Jones complete to 16-F.Swain. 16-F.Swain to AUB 27 for 20 yards (35-Z.McClain).
+Florida,2Q,7,70,35,1,run,3,not successful,0.38,,0.38,0.25,L.Perine,,,N.Coe,C.Wooten,0.5,0.5,"2-L.Perine to AUB 24 for 3 yards (91-N.Coe,31-C.Wooten)."
+Florida,2Q,7,71,36,2,pass,-2,not successful,,0.36,0.36,0.24,,E.Jones,T.Cleveland,J.Davis,,1,,5-E.Jones complete to 89-T.Cleveland. 89-T.Cleveland to AUB 26 for -2 yards (13-J.Davis).
+Florida,2Q,7,72,37,3,run,2,not successful,0.33,,0.35,0.26,L.Perine,,,J.Davis,,1,,2-L.Perine to AUB 24 for 2 yards (13-J.Davis).
+Auburn,2Q,8,76,28,1,pass,-2,not successful,,0.18,0.18,0.50,,B.Nix,S.Williams,B.Stewart,,1,,10-B.Nix complete to 18-S.Williams. 18-S.Williams to AUB 18 for -2 yards (2-B.Stewart).
+Auburn,2Q,8,77,29,2,run,9,not successful,0.17,,0.17,0.52,B.Nix,,,D.Reese II,J.Greenard,0.5,0.5,"10-B.Nix scrambles to AUB 27 for 9 yards (33-D.Reese II,58-J.Greenard)."
+Auburn,2Q,8,78,30,3,run,6,not successful,0.15,,0.17,0.54,B.Nix,,,M.Wilson,,1,,10-B.Nix scrambles to AUB 33 for 6 yards (3-M.Wilson).
+Florida,2Q,8,80,39,1,run,2,not successful,0.30,,0.34,0.29,M.Davis,,,M.Davidson,,1,,20-M.Davis to FLA 22 for 2 yards (3-M.Davidson).
+Florida,2Q,8,81,40,2,run,8,successful,0.36,,0.36,0.31,M.Davis,,,Z.McClain,,1,,20-M.Davis to FLA 30 for 8 yards (35-Z.McClain).
+Florida,2Q,8,82,41,1,run,4,not successful,0.33,,0.35,0.32,E.Jones,,,M.Davidson,Z.McClain,0.5,0.5,"5-E.Jones to FLA 34 for 4 yards (3-M.Davidson,35-Z.McClain)."
+Florida,2Q,8,83,42,2,pass,,not successful,,0.35,0.34,0.32,,E.Jones,K.Pitts,,,,,5-E.Jones incomplete. Intended for 84-K.Pitts.
+Florida,2Q,8,84,43,3,pass,-4,not successful,,0.33,0.33,0.31,,E.Jones,K.Pitts,J.Dinson,D.Thomas,0.5,0.5,"5-E.Jones complete to 84-K.Pitts. 84-K.Pitts to FLA 30 for -4 yards (20-J.Dinson,24-D.Thomas)."
+Auburn,2Q,9,86,32,1,pass,,not successful,,0.17,0.16,0.52,,B.Nix,S.Williams,,,,,10-B.Nix incomplete. Intended for 18-S.Williams.
+Auburn,2Q,9,87,33,2,pass,,not successful,,0.15,0.15,0.50,,B.Nix,S.Williams,,,,,10-B.Nix incomplete. Intended for 18-S.Williams.
+Auburn,2Q,9,88,34,3,pass,,not successful,,0.14,0.15,0.48,,B.Nix,A.Schwartz,,,,,10-B.Nix incomplete. Intended for 5-A.Schwartz.
+Florida,2Q,9,90,45,1,pass,,not successful,,0.32,0.33,0.30,,K.Trask,K.Pitts,,,,,11-K.Trask incomplete. Intended for 84-K.Pitts.
+Florida,2Q,9,93,48,2,run,6,not successful,0.31,,0.32,0.32,L.Perine,,,J.Dinson,,1,,2-L.Perine to FLA 23 for 6 yards (20-J.Dinson).
+Florida,2Q,9,94,49,3,pass,10,not successful,,0.31,0.31,0.31,,K.Trask,V.Jefferson,J.Davis,,1,,11-K.Trask complete to 12-V.Jefferson. 12-V.Jefferson to FLA 33 for 10 yards (13-J.Davis).
+Florida,2Q,9,95,50,4,penalty,,not successful,,,0.30,,,,,,,,,"Team penalty on FLA, Delay of game, declined."
+Florida,2Q,9,96,51,4,pass,,not successful,,0.30,0.30,0.30,,K.Trask,,,,,,11-K.Trask incomplete.
+Florida,3Q,10,98,52,1,pass,,not successful,,0.29,0.29,0.30,,K.Trask,F.Swain,,,,,11-K.Trask incomplete. Intended for 16-F.Swain.
+Florida,3Q,10,99,53,2,pass,,not successful,,0.28,0.28,0.29,,K.Trask,K.Pitts,,,,,11-K.Trask incomplete. Intended for 84-K.Pitts.
+Florida,3Q,10,100,54,3,pass,12,successful,,0.30,0.30,0.28,,K.Trask,F.Swain,R.McCreary,,1,,11-K.Trask complete to 16-F.Swain. 16-F.Swain to FLA 37 for 12 yards (23-R.McCreary).
+Florida,3Q,10,101,55,1,pass,3,not successful,,0.29,0.29,0.28,,K.Trask,K.Pitts,N.Igbinoghene,,1,,11-K.Trask complete to 84-K.Pitts. 84-K.Pitts to FLA 40 for 3 yards (4-N.Igbinoghene).
+Florida,3Q,10,102,56,2,pass,7,successful,,0.31,0.31,0.27,,K.Trask,K.Pitts,J.Sherwood,,1,,11-K.Trask complete to 84-K.Pitts. 84-K.Pitts to FLA 47 for 7 yards (9-J.Sherwood).
+Florida,3Q,10,103,57,2,pass,6,successful,,0.33,0.32,0.27,,K.Trask,K.Pitts,J.Sherwood,,1,,11-K.Trask complete to 84-K.Pitts. 84-K.Pitts to FLA 46 for 6 yards (9-J.Sherwood).
+Florida,3Q,10,104,58,3,run,-1,not successful,0.29,,0.31,0.28,K.Trask,,,T.Truesdell,Z.McClain,0.5,0.5,"11-K.Trask to FLA 45 for -1 yard (94-T.Truesdell,35-Z.McClain)."
+Auburn,3Q,10,106,36,1,run,4,not successful,0.14,,0.14,0.50,J.Whitlow,,,D.Reese II,L.Ancrum,0.5,0.5,"28-J.Whitlow to AUB 24 for 4 yards (33-D.Reese II,98-L.Ancrum)."
+Auburn,3Q,10,107,37,2,run,5,successful,0.20,,0.17,0.52,B.Nix,,,A.Burney,J.Greenard,0.5,0.5,"10-B.Nix to AUB 29 for 5 yards (30-A.Burney,58-J.Greenard)."
+Auburn,3Q,10,108,38,3,run,0,not successful,0.19,,0.17,0.53,J.Whitlow,,,D.Reese II,J.Moon,0.5,0.5,"28-J.Whitlow to AUB 29 for no gain (33-D.Reese II,7-J.Moon)."
+Florida,3Q,11,110,60,1,pass,3,successful,,0.35,0.33,0.27,,K.Trask,V.Jefferson,,,,,"11-K.Trask incomplete. Intended for 12-V.Jefferson. Penalty on AUB 23-R.McCreary, Pass interference, 3 yards, enforced at FLA 33. No Play."
+Florida,3Q,11,111,61,1,run,3,not successful,0.27,,0.32,0.29,M.Davis,,,J.Dinson,,1,,20-M.Davis to FLA 39 for 3 yards (20-J.Dinson).
+Florida,3Q,11,112,62,2,pass,,not successful,,0.34,0.31,0.28,,K.Trask,T.Cleveland,,,,,11-K.Trask incomplete. Intended for 89-T.Cleveland.
+Florida,3Q,11,113,63,3,pass,,not successful,,0.33,0.31,0.28,,K.Trask,J.Hammond,,,,,11-K.Trask incomplete. Intended for 10-J.Hammond.
+Auburn,3Q,11,115,40,1,pass,12,successful,,0.20,0.19,0.52,,B.Nix,S.Cannella,M.Wilson,S.Davis,0.5,0.5,"10-B.Nix complete to 80-S.Cannella. 80-S.Cannella to AUB 32 for 12 yards (3-M.Wilson,31-S.Davis)."
+Auburn,3Q,11,116,41,1,run,3,not successful,0.18,,0.19,0.53,J.Whitlow,,,Z.Carter,S.Davis,0.5,0.5,"28-J.Whitlow to AUB 35 for 3 yards (17-Z.Carter,31-S.Davis)."
+Auburn,3Q,11,117,42,2,run,3,not successful,0.17,,0.18,0.55,J.Whitlow,,,J.Houston,J.Greenard,0.5,0.5,"28-J.Whitlow to AUB 38 for 3 yards (41-J.Houston,58-J.Greenard)."
+Auburn,3Q,11,119,44,3,pass,,not successful,,0.19,0.18,0.53,,B.Nix,S.Williams,,,,,10-B.Nix incomplete. Intended for 18-S.Williams.
+Florida,3Q,12,121,65,1,run,1,not successful,0.25,,0.30,0.29,L.Perine,,,O.Pappoe,K.Britt,0.5,0.5,"2-L.Perine to FLA 28 for 1 yard (10-O.Pappoe,33-K.Britt)."
+Florida,3Q,12,122,66,2,pass,7,successful,,0.35,0.32,0.29,,K.Trask,V.Jefferson,,,,,"11-K.Trask incomplete. Intended for 12-V.Jefferson. Penalty on AUB 4-N.Igbinoghene, Pass interference, 7 yards, enforced at FLA 28. No Play."
+Florida,3Q,12,123,67,1,pass,11,successful,,0.37,0.33,0.28,,K.Trask,V.Jefferson,,,,,"11-K.Trask incomplete. Intended for 12-V.Jefferson. Penalty on AUB 4-N.Igbinoghene, Pass interference, 11 yards, enforced at FLA 35. No Play."
+Florida,3Q,12,124,68,1,pass,10,successful,,0.38,0.34,0.28,,K.Trask,F.Swain,,,,,11-K.Trask complete to 16-F.Swain. 16-F.Swain to AUB 44 for 10 yards.
+Florida,3Q,12,126,70,1,pass,-3,not successful,,0.37,0.33,0.27,,K.Trask,,T.Moultry,,1,,11-K.Trask sacked at FLA 43 for -3 yards (55-T.Moultry).
+Florida,3Q,12,127,71,2,run,3,not successful,0.24,,0.33,0.28,L.Perine,,,B.Bryant,O.Pappoe,0.5,0.5,"2-L.Perine to FLA 46 for 3 yards (1-B.Bryant,10-O.Pappoe)."
+Florida,3Q,12,128,72,3,pass,4,not successful,,0.36,0.32,0.28,,K.Trask,T.Grimes,B.Bryant,J.Davis,0.5,0.5,"11-K.Trask complete to 8-T.Grimes. 8-T.Grimes to FLA 50 for 4 yards (1-B.Bryant,13-J.Davis)."
+Auburn,3Q,12,130,46,1,run,1,not successful,0.16,,0.17,0.54,J.Whitlow,,,A.Shuler,D.Reese II,0.5,0.5,"28-J.Whitlow to AUB 6 for 1 yard (88-A.Shuler,33-D.Reese II)."
+Auburn,3Q,12,131,47,2,run,14,successful,0.20,,0.19,0.56,J.Whitlow,,,T.Dean,V.Miller,0.5,0.5,"28-J.Whitlow to AUB 20 for 14 yards (21-T.Dean,51-V.Miller)."
+Auburn,3Q,12,132,48,1,run,8,successful,0.24,,0.22,0.57,J.Whitlow,,,D.Reese II,T.Dean,0.5,0.5,"28-J.Whitlow to AUB 28 for 8 yards (33-D.Reese II,21-T.Dean)."
+Auburn,3Q,12,133,49,2,run,9,successful,0.27,,0.24,0.58,J.Whitlow,,,D.Stiner,D.Reese II,0.5,0.5,"28-J.Whitlow to AUB 37 for 9 yards (13-D.Stiner,33-D.Reese II)."
+Auburn,3Q,12,134,50,1,run,4,not successful,0.26,,0.23,0.59,K.Martin,,,K.Campbell,Z.Carter,0.5,0.5,"9-K.Martin to AUB 41 for 4 yards (55-K.Campbell,17-Z.Carter)."
+Auburn,3Q,12,135,51,2,pass,46,explosive,,0.24,0.25,0.58,,B.Nix,S.Williams,,,,,10-B.Nix complete to 18-S.Williams. 18-S.Williams to FLA 13 for 46 yards.
+Auburn,3Q,12,136,52,1,pass,3,not successful,,0.22,0.24,0.56,,B.Nix,S.Williams,J.Greenard,,1,,10-B.Nix complete to 18-S.Williams. 18-S.Williams to FLA 10 for 3 yards (58-J.Greenard).
+Auburn,3Q,12,137,53,2,pass,,not successful,,0.21,0.24,0.55,,B.Nix,S.Williams,,,,,10-B.Nix incomplete. Intended for 18-S.Williams.
+Auburn,3Q,12,139,55,3,pass,,not successful,,0.20,0.23,0.53,,B.Nix,,,,,,"10-B.Nix incomplete. INTERCEPTED by 13-D.Stiner at FLA End Zone. 13-D.Stiner, touchback."
+Florida,3Q,13,140,74,1,run,2,not successful,0.22,,0.32,0.29,M.Davis,,,Z.McClain,J.Dinson,0.5,0.5,"20-M.Davis to FLA 22 for 2 yards (35-Z.McClain,20-J.Dinson)."
+Florida,4Q,14,141,75,2,pass,32,explosive,,0.38,0.33,0.29,,K.Trask,K.Pitts,N.Igbinoghene,Z.McClain,0.5,0.5,"11-K.Trask complete to 84-K.Pitts. 84-K.Pitts to AUB 46 for 32 yards (4-N.Igbinoghene,35-Z.McClain)."
+Florida,4Q,14,142,76,1,run,1,not successful,0.21,,0.32,0.30,M.Davis,,,D.Newkirk,,1,,20-M.Davis to AUB 45 for 1 yard (44-D.Newkirk).
+Florida,4Q,14,143,77,2,pass,10,successful,,0.39,0.33,0.29,,K.Trask,J.Hammond,N.Igbinoghene,,1,,11-K.Trask complete to 10-J.Hammond. 10-J.Hammond to AUB 35 for 10 yards (4-N.Igbinoghene).
+Florida,4Q,14,144,78,1,pass,17,explosive,,0.40,0.34,0.29,,K.Trask,K.Pitts,R.McCreary,,1,,11-K.Trask complete to 84-K.Pitts. 84-K.Pitts to AUB 18 for 17 yards (23-R.McCreary).
+Florida,4Q,14,145,79,1,run,-2,not successful,0.20,,0.34,0.30,K.Trask,,,K.Britt,D.Hall,0.5,0.5,"11-K.Trask to AUB 20 for -2 yards (33-K.Britt,29-D.Hall)."
+Florida,4Q,14,146,80,2,pass,,not successful,,0.40,0.33,0.29,,K.Trask,,D.Brown,,,,"11-K.Trask sacked at AUB 29 for -9 yards, FUMBLES (5-D.Brown). 5-D.Brown to AUB 40 for 11 yards."
+Auburn,4Q,13,147,56,1,run,6,successful,0.29,,0.25,0.55,J.Whitlow,,,V.Miller,D.Stiner,0.5,0.5,"28-J.Whitlow to AUB 46 for 6 yards (51-V.Miller,13-D.Stiner)."
+Auburn,4Q,13,148,57,2,run,16,explosive,0.32,,0.27,0.56,J.Whitlow,,,A.Shuler,,1,,28-J.Whitlow to FLA 38 for 16 yards (88-A.Shuler).
+Auburn,4Q,13,149,58,1,run,2,not successful,0.31,,0.26,0.57,B.Nix,,,S.Davis,,1,,"10-B.Nix scrambles, pushed ob at FLA 36 for 2 yards (31-S.Davis)."
+Auburn,4Q,13,150,59,2,pass,,not successful,,0.19,0.26,0.55,,B.Nix,S.Cannella,,,,,10-B.Nix incomplete. Intended for 80-S.Cannella.
+Auburn,4Q,13,151,60,3,pass,-22,not successful,,0.18,0.25,0.54,,B.Nix,,Z.Carter,,1,,10-B.Nix sacked at AUB 42 for -22 yards (17-Z.Carter).
+Florida,4Q,15,153,81,1,run,88,explosive,0.24,,0.34,0.30,L.Perine,,,,,,, 2-L.Perine runs 88 yards for a touchdown.
+Auburn,4Q,14,156,62,1,run,3,not successful,0.30,,0.24,0.55,J.Whitlow,,,S.Davis,Z.Carter,0.5,0.5,"28-J.Whitlow to AUB 28 for 3 yards (31-S.Davis,17-Z.Carter)."
+Auburn,4Q,14,157,63,2,pass,5,successful,,0.22,0.26,0.54,,B.Nix,J.Wilson,C.Henderson,,1,,10-B.Nix complete to 42-J.Wilson. 42-J.Wilson pushed ob at AUB 33 for 5 yards (1-C.Henderson).
+Auburn,4Q,14,158,64,3,run,4,successful,0.32,,0.27,0.55,J.Whitlow,,,D.Reese II,B.Stewart,0.5,0.5,"28-J.Whitlow to AUB 37 for 4 yards (33-D.Reese II,2-B.Stewart)."
+Auburn,4Q,14,159,65,1,run,10,successful,0.34,,0.29,0.56,B.Nix,,,A.Burney,,1,,10-B.Nix scrambles to AUB 47 for 10 yards (30-A.Burney).
+Auburn,4Q,14,160,66,1,run,4,not successful,0.33,,0.28,0.57,J.Whitlow,,,S.Davis,D.Reese II,0.5,0.5,"28-J.Whitlow to FLA 49 for 4 yards (31-S.Davis,33-D.Reese II)."
+Auburn,4Q,14,161,67,2,pass,-6,not successful,,0.21,0.28,0.56,,B.Nix,,J.Houston,,1,,10-B.Nix sacked at AUB 45 for -6 yards (41-J.Houston).
+Auburn,4Q,14,162,68,3,pass,,not successful,,0.20,0.27,0.55,,B.Nix,W.Hastings,,,,,10-B.Nix incomplete. Intended for 33-W.Hastings.
+Auburn,4Q,14,163,69,4,run,6,not successful,0.32,,0.27,0.55,B.Nix,,,A.Shuler,J.Houston,0.5,0.5,"10-B.Nix scrambles to FLA 49 for 6 yards (88-A.Shuler,41-J.Houston)."
+Florida,4Q,16,164,82,1,run,3,not successful,0.23,,0.34,0.31,L.Perine,,,D.Brown,J.Dinson,0.5,0.5,"2-L.Perine to AUB 48 for 3 yards (5-D.Brown,20-J.Dinson)."
+Florida,4Q,16,165,83,2,run,6,successful,0.26,,0.35,0.32,J.Hammond,,,C.Johnson,,1,,10-J.Hammond to AUB 42 for 6 yards (45-C.Johnson).
+Florida,4Q,16,166,84,3,pass,4,successful,,0.41,0.36,0.32,,L.Krull,K.Trask,D.Thomas,,1,,7-L.Krull complete to 11-K.Trask. 11-K.Trask to AUB 38 for 4 yards (24-D.Thomas).
+Florida,4Q,16,167,85,1,run,2,not successful,0.25,,0.35,0.33,K.Trask,,,K.Britt,J.Dinson,0.5,0.5,"11-K.Trask to AUB 36 for 2 yards (33-K.Britt,20-J.Dinson)."
+Florida,4Q,16,168,86,2,run,1,not successful,0.24,,0.35,0.34,L.Perine,,,J.Sherwood,D.Brown,0.5,0.5,"2-L.Perine to AUB 35 for 1 yard (9-J.Sherwood,5-D.Brown)."
+Florida,4Q,16,169,87,3,run,0,not successful,0.23,,0.34,0.35,K.Trask,,,D.Brown,Z.McClain,0.5,0.5,"11-K.Trask to AUB 35 for no gain (5-D.Brown,35-Z.McClain)."
+Auburn,4Q,15,171,70,1,pass,10,successful,,0.23,0.28,0.54,,B.Nix,M.Miller,M.Diabate,,1,,10-B.Nix complete to 32-M.Miller. 32-M.Miller pushed ob at AUB 20 for 10 yards (11-M.Diabate).
+Auburn,4Q,15,172,71,1,pass,,not successful,,0.22,0.28,0.53,,B.Nix,W.Hastings,,,,,10-B.Nix incomplete. Intended for 33-W.Hastings.
+Auburn,4Q,15,173,72,2,pass,12,successful,,0.25,0.29,0.53,,B.Nix,M.Miller,S.Davis,,1,,10-B.Nix complete to 32-M.Miller. 32-M.Miller to AUB 32 for 12 yards (31-S.Davis).
+Auburn,4Q,15,174,73,1,pass,,not successful,,0.24,0.28,0.52,,B.Nix,W.Hastings,,,,,"10-B.Nix incomplete. Intended for 33-W.Hastings, INTERCEPTED by 3-M.Wilson at FLA 47. 3-M.Wilson to FLA 47 for no gain."
+Florida,4Q,17,175,89,1,run,6,successful,0.26,,0.35,0.36,L.Perine,,,K.Britt,B.Bryant,0.5,0.5,"2-L.Perine to AUB 47 for 6 yards (33-K.Britt,1-B.Bryant)."
+Florida,4Q,17,176,90,2,run,-2,not successful,0.25,,0.35,0.36,L.Perine,,,D.Thomas,T.Truesdell,0.5,0.5,"2-L.Perine to AUB 49 for -2 yards (24-D.Thomas,94-T.Truesdell)."
+Florida,4Q,17,177,91,3,run,1,not successful,0.24,,0.34,0.37,L.Perine,,,N.Coe,T.Truesdell,0.5,0.5,"2-L.Perine to AUB 48 for 1 yard (91-N.Coe,94-T.Truesdell)."
+Auburn,4Q,16,179,74,1,run,15,explosive,0.34,,0.30,0.52,K.Martin,,,K.Bogle,S.Davis,0.5,0.5,"9-K.Martin to AUB 35 for 15 yards (97-K.Bogle,31-S.Davis)."

@@ -1,123 +1,133 @@
 team,quarter,drive_team,play_count,play_count_team,down,play_type,yards_total,play_result,run_sr,pass_sr,total_sr,run_rate,runner,passer,receiver,tackler_one,tackler_two,tackler_one_credit,tackler_two_credit,play_description
-North Carolina,1Q,1,2,1,1,run,8,successful,1.00,,1.00,1.00,M.Carter,,,J.Skalski,T.Muse,0.5,0.5,"8-M.Carter to NC 33 for 8 yards (47-J.Skalski,19-T.Muse)."
-North Carolina,1Q,1,3,2,2,run,1,not successful,0.50,,0.50,1.00,M.Carter,,,L.Rudolph,,1,,8-M.Carter to NC 34 for 1 yard (34-L.Rudolph).
-North Carolina,1Q,1,4,3,3,pass,26,explosive,,1.00,0.67,0.67,,S.Howell,J.Williams,T.Muse,,1,,7-S.Howell complete to 25-J.Williams. 25-J.Williams to CLE 40 for 26 yards (19-T.Muse).
-North Carolina,1Q,1,5,4,1,pass,40,explosive,,1.00,0.75,0.50,,S.Howell,D.Brown,,,,, 7-S.Howell complete to 2-D.Brown. 2-D.Brown runs 40 yards for a touchdown.
-Clemson,1Q,1,8,1,1,pass,2,not successful,,0.00,0.00,0.00,,T.Lawrence,A.Rodgers,S.Duck,,1,,16-T.Lawrence complete to 3-A.Rodgers. 3-A.Rodgers to CLE 40 for 2 yards (29-S.Duck).
-Clemson,1Q,1,9,2,2,run,6,successful,1.00,,0.50,0.50,T.Etienne,,,C.Surratt,,1,,9-T.Etienne to CLE 46 for 6 yards (21-C.Surratt).
-Clemson,1Q,1,10,3,3,run,10,successful,1.00,,0.67,0.67,T.Lawrence,,,C.Kelly,,1,,16-T.Lawrence to NC 44 for 10 yards (9-C.Kelly).
-Clemson,1Q,1,11,4,1,pass,14,successful,,0.50,0.75,0.50,,T.Lawrence,J.Ross,,,,,16-T.Lawrence complete to 8-J.Ross. 8-J.Ross to NC 30 for 14 yards.
-Clemson,1Q,1,12,5,1,pass,2,not successful,,0.33,0.60,0.40,,T.Lawrence,J.Ross,T.Morrison,,1,,16-T.Lawrence complete to 8-J.Ross. 8-J.Ross to NC 28 for 2 yards (4-T.Morrison).
-Clemson,1Q,1,13,6,2,run,6,successful,1.00,,0.67,0.50,T.Lawrence,,,C.Kelly,,1,,16-T.Lawrence to NC 22 for 6 yards (9-C.Kelly).
-Clemson,1Q,1,14,7,3,pass,0,not successful,,0.25,0.57,0.43,,T.Lawrence,A.Rodgers,D.Ross,,1,,16-T.Lawrence complete to 3-A.Rodgers. 3-A.Rodgers to NC 22 for no gain (3-D.Ross).
-North Carolina,1Q,2,16,5,1,run,4,not successful,0.33,,0.60,0.60,S.Howell,,,J.Skalski,,1,,7-S.Howell to NC 27 for 4 yards (47-J.Skalski).
-North Carolina,1Q,2,17,6,2,pass,,not successful,,0.67,0.50,0.50,,S.Howell,B.Corrales,,,,,7-S.Howell incomplete. Intended for 15-B.Corrales.
-North Carolina,1Q,2,18,7,3,pass,-3,not successful,,0.50,0.43,0.43,,S.Howell,M.Carter,J.Skalski,,1,,7-S.Howell complete to 8-M.Carter. 8-M.Carter to NC 24 for -3 yards (47-J.Skalski).
-Clemson,1Q,2,20,9,1,run,2,not successful,0.75,,0.50,0.50,T.Etienne,,,J.Strowbridge,C.Surratt,0.5,0.5,"9-T.Etienne to CLE 35 for 2 yards (55-J.Strowbridge,21-C.Surratt)."
-Clemson,1Q,2,21,10,2,pass,,not successful,,0.20,0.44,0.44,,T.Lawrence,J.Ross,,,,,16-T.Lawrence incomplete. Intended for 8-J.Ross.
-Clemson,1Q,2,22,11,3,pass,,not successful,,0.17,0.40,0.40,,T.Lawrence,J.Chalk,,,,,16-T.Lawrence incomplete. Intended for 25-J.Chalk.
-North Carolina,1Q,3,24,9,1,run,4,not successful,0.25,,0.38,0.50,J.Williams,,,J.Williams,,1,,25-J.Williams to NC 28 for 4 yards (59-J.Williams).
-North Carolina,1Q,3,25,10,2,pass,,not successful,,0.40,0.33,0.44,,S.Howell,B.Corrales,,,,,7-S.Howell incomplete. Intended for 15-B.Corrales.
-North Carolina,1Q,3,26,11,3,pass,9,successful,,0.50,0.40,0.40,,S.Howell,J.Williams,J.Phillips,,1,,7-S.Howell complete to 25-J.Williams. 25-J.Williams to NC 37 for 9 yards (25-J.Phillips).
-North Carolina,1Q,3,27,12,1,pass,11,successful,,0.57,0.45,0.36,,S.Howell,D.Brown,C.Smith,,1,,7-S.Howell complete to 2-D.Brown. 2-D.Brown to NC 48 for 11 yards (43-C.Smith).
-North Carolina,1Q,3,28,13,1,run,3,not successful,0.20,,0.42,0.42,J.Williams,,,K.Wallace,X.Thomas,0.5,0.5,"25-J.Williams to CLE 49 for 3 yards (12-K.Wallace,3-X.Thomas)."
-North Carolina,1Q,3,29,14,2,pass,6,successful,,0.63,0.46,0.38,,S.Howell,D.Newsome,I.Simmons,,1,,7-S.Howell complete to 5-D.Newsome. 5-D.Newsome to CLE 43 for 6 yards (11-I.Simmons).
-North Carolina,1Q,3,30,15,3,run,1,successful,0.33,,0.50,0.43,A.Williams,,,I.Simmons,T.Davis,0.5,0.5,"24-A.Williams to CLE 42 for 1 yard (11-I.Simmons,13-T.Davis)."
-North Carolina,1Q,3,31,16,1,pass,,not successful,,0.56,0.47,0.40,,S.Howell,D.Newsome,,,,,7-S.Howell incomplete. Intended for 5-D.Newsome.
-North Carolina,1Q,3,32,17,2,pass,-4,not successful,,0.50,0.44,0.38,,S.Howell,M.Carter,I.Simmons,,1,,7-S.Howell complete to 8-M.Carter. 8-M.Carter to CLE 46 for -4 yards (11-I.Simmons).
-North Carolina,1Q,3,33,18,3,pass,,not successful,,0.45,0.41,0.35,,S.Howell,C.Tucker,,,,,7-S.Howell incomplete. Intended for 86-C.Tucker.
-Clemson,1Q,3,36,14,1,run,0,not successful,0.60,,0.36,0.45,T.Etienne,,,J.Gemmel,,1,,9-T.Etienne to CLE 6 for no gain (44-J.Gemmel).
-Clemson,1Q,3,37,15,2,pass,16,explosive,,0.29,0.42,0.42,,T.Lawrence,T.Higgins,,,,,16-T.Lawrence complete to 5-T.Higgins. 5-T.Higgins to CLE 22 for 16 yards.
-Clemson,1Q,3,38,16,1,run,4,not successful,0.50,,0.38,0.46,L.Dixon,,,D.Ross,T.Hopper,0.5,0.5,"23-L.Dixon to CLE 26 for 4 yards (3-D.Ross,42-T.Hopper)."
-Clemson,1Q,3,39,17,2,run,2,not successful,0.43,,0.36,0.50,L.Dixon,,,J.Strowbridge,T.Hopper,0.5,0.5,"23-L.Dixon to CLE 28 for 2 yards (55-J.Strowbridge,42-T.Hopper)."
-Clemson,2Q,4,40,18,3,pass,16,explosive,,0.38,0.40,0.47,,T.Lawrence,T.Higgins,S.Duck,,1,,16-T.Lawrence complete to 5-T.Higgins. 5-T.Higgins to CLE 44 for 16 yards (29-S.Duck).
-Clemson,2Q,4,41,19,1,run,9,successful,0.50,,0.44,0.50,L.Dixon,,,C.Surratt,M.Dorn,0.5,0.5,"23-L.Dixon to NC 47 for 9 yards (21-C.Surratt,1-M.Dorn)."
-Clemson,2Q,4,42,20,2,run,6,successful,0.56,,0.47,0.53,T.Etienne,,,J.Gemmel,,1,,9-T.Etienne to NC 41 for 6 yards (44-J.Gemmel).
-Clemson,2Q,4,43,21,1,pass,31,explosive,,0.44,0.50,0.50,,T.Lawrence,J.Ross,S.Duck,,1,,16-T.Lawrence complete to 8-J.Ross. 8-J.Ross to NC 10 for 31 yards (29-S.Duck).
-Clemson,2Q,4,44,22,1,run,-3,not successful,0.50,,0.47,0.53,T.Lawrence,,,C.Surratt,,1,,16-T.Lawrence to NC 13 for -3 yards (21-C.Surratt).
-Clemson,2Q,4,45,23,2,run,13,successful,0.55,,0.50,0.55,T.Etienne,,,,,,, 9-T.Etienne runs 13 yards for a touchdown.
-North Carolina,2Q,4,48,20,1,pass,-7,not successful,,0.42,0.39,0.33,,S.Howell,,J.Williams,,1,,7-S.Howell sacked at NC 18 for -7 yards (59-J.Williams).
-North Carolina,2Q,4,49,21,2,run,8,not successful,0.29,,0.37,0.37,M.Carter,,,I.Simmons,C.Smith,0.5,0.5,"8-M.Carter to NC 26 for 8 yards (11-I.Simmons,43-C.Smith)."
-North Carolina,2Q,4,50,22,3,pass,,not successful,,0.38,0.35,0.35,,S.Howell,D.Brown,,,,,7-S.Howell incomplete. Intended for 2-D.Brown.
-Clemson,2Q,5,52,24,1,run,9,successful,0.58,,0.52,0.57,T.Etienne,,,M.Dorn,C.Surratt,0.5,0.5,"9-T.Etienne to CLE 37 for 9 yards (1-M.Dorn,21-C.Surratt)."
-Clemson,2Q,5,53,25,2,run,,not successful,0.54,,0.50,0.59,T.Etienne,,,J.Gemmel,,,,"9-T.Etienne to CLE 42, FUMBLES (44-J.Gemmel). 55-J.Strowbridge to CLE 42 for no gain."
-North Carolina,2Q,5,54,24,1,run,31,explosive,0.38,,0.38,0.38,M.Carter,,,T.Muse,,1,,8-M.Carter pushed ob at CLE 11 for 31 yards (19-T.Muse).
-North Carolina,2Q,5,55,25,1,pass,4,not successful,,0.36,0.36,0.36,,S.Howell,B.Corrales,A.Terrell,,1,,7-S.Howell complete to 15-B.Corrales. 15-B.Corrales pushed ob at CLE 7 for 4 yards (8-A.Terrell).
-North Carolina,2Q,5,57,27,2,run,2,not successful,0.33,,0.35,0.39,M.Carter,,,J.Skalski,C.Smith,0.5,0.5,"8-M.Carter to CLE 10 for 2 yards (47-J.Skalski,43-C.Smith)."
-North Carolina,2Q,5,58,28,3,pass,10,successful,,0.40,0.38,0.38,,S.Howell,B.Corrales,,,,, 7-S.Howell complete to 15-B.Corrales. 15-B.Corrales runs 10 yards for a touchdown.
-Clemson,2Q,6,61,26,1,run,2,not successful,0.50,,0.48,0.61,T.Etienne,,,T.Morrison,B.Ross,0.5,0.5,"9-T.Etienne to CLE 27 for 2 yards (4-T.Morrison,56-B.Ross)."
-Clemson,2Q,6,62,27,2,pass,,not successful,,0.40,0.46,0.58,,T.Lawrence,A.Rodgers,,,,,16-T.Lawrence incomplete. Intended for 3-A.Rodgers.
-Clemson,2Q,6,63,28,3,pass,-9,not successful,,0.36,0.44,0.56,,T.Lawrence,,C.Surratt,,1,,16-T.Lawrence sacked at CLE 18 for -9 yards (21-C.Surratt).
-North Carolina,2Q,6,67,30,1,run,-1,not successful,0.30,,0.36,0.40,J.Williams,,,T.Muse,,1,,25-J.Williams to NC 34 for -1 yard (19-T.Muse).
-North Carolina,2Q,6,68,31,2,run,2,not successful,0.27,,0.35,0.42,D.Brown,,,I.Simmons,,1,,2-D.Brown to NC 36 for 2 yards (11-I.Simmons).
-North Carolina,2Q,6,69,32,3,pass,,not successful,,0.38,0.33,0.41,,S.Howell,D.Newsome,,,,,7-S.Howell incomplete. Intended for 5-D.Newsome.
-Clemson,2Q,7,71,31,1,pass,0,not successful,,0.33,0.42,0.54,,T.Lawrence,D.Overton,J.Gemmel,,1,,16-T.Lawrence complete to 14-D.Overton. 14-D.Overton to CLE 22 for no gain (44-J.Gemmel).
-Clemson,2Q,7,72,32,2,run,6,not successful,0.47,,0.41,0.56,T.Etienne,,,M.Dorn,,1,,9-T.Etienne to CLE 28 for 6 yards (1-M.Dorn).
-Clemson,2Q,7,73,33,3,run,16,explosive,0.50,,0.43,0.57,T.Lawrence,,,D.Chapman,,1,,16-T.Lawrence to CLE 44 for 16 yards (13-D.Chapman).
-Clemson,2Q,7,74,34,1,pass,28,explosive,,0.38,0.45,0.55,,T.Lawrence,T.Higgins,T.Morrison,,1,,16-T.Lawrence complete to 5-T.Higgins. 5-T.Higgins to NC 28 for 28 yards (4-T.Morrison).
-Clemson,2Q,7,75,35,1,run,0,not successful,0.47,,0.43,0.57,T.Lawrence,,,J.Strowbridge,T.Fox,0.5,0.5,"16-T.Lawrence to NC 28 for no gain (55-J.Strowbridge,12-T.Fox)."
-Clemson,2Q,7,76,36,2,run,1,not successful,0.44,,0.42,0.58,T.Etienne,,,A.Crawford,T.Fox,0.5,0.5,"9-T.Etienne to NC 27 for 1 yard (92-A.Crawford,56-T.Fox)."
-Clemson,2Q,7,77,37,3,pass,17,explosive,,0.43,0.44,0.56,,T.Lawrence,T.Higgins,D.Chapman,,1,,16-T.Lawrence complete to 5-T.Higgins. 5-T.Higgins to NC 10 for 17 yards (13-D.Chapman).
-Clemson,2Q,7,78,38,1,run,6,successful,0.47,,0.45,0.58,T.Lawrence,,,J.Gemmel,T.Fox,0.5,0.5,"16-T.Lawrence to NC 4 for 6 yards (44-J.Gemmel,56-T.Fox)."
-Clemson,2Q,7,79,39,2,run,1,not successful,0.45,,0.44,0.59,T.Etienne,,,D.Chapman,,1,,9-T.Etienne to NC 3 for 1 yard (13-D.Chapman).
-Clemson,2Q,7,80,40,3,run,3,successful,0.48,,0.46,0.60,T.Lawrence,,,,,,, 16-T.Lawrence runs 3 yards for a touchdown.
-North Carolina,2Q,7,84,35,1,run,15,explosive,0.33,,0.36,0.43,M.Carter,,,N.Turner,,1,,8-M.Carter to NC 30 for 15 yards (24-N.Turner).
-Clemson,3Q,8,86,41,1,pass,10,successful,,0.47,0.47,0.58,,T.Lawrence,A.Rodgers,T.Morrison,,1,,16-T.Lawrence complete to 3-A.Rodgers. 3-A.Rodgers to CLE 46 for 10 yards (4-T.Morrison).
-Clemson,3Q,8,87,42,1,run,2,not successful,0.45,,0.46,0.59,T.Etienne,,,C.Surratt,J.Strowbridge,0.5,0.5,"9-T.Etienne to CLE 48 for 2 yards (21-C.Surratt,55-J.Strowbridge)."
-Clemson,3Q,8,88,43,2,pass,4,not successful,,0.44,0.45,0.58,,T.Lawrence,T.Etienne,S.Duck,,1,,16-T.Lawrence complete to 9-T.Etienne. 9-T.Etienne to NC 48 for 4 yards (29-S.Duck).
-Clemson,3Q,8,90,45,3,pass,14,successful,,0.47,0.46,0.56,,T.Lawrence,T.Higgins,C.Kelly,,1,,16-T.Lawrence complete to 5-T.Higgins. 5-T.Higgins to NC 39 for 14 yards (9-C.Kelly).
-Clemson,3Q,8,91,46,1,pass,,not successful,,0.44,0.45,0.55,,T.Lawrence,J.Chalk,,,,,16-T.Lawrence incomplete. Intended for 25-J.Chalk.
-Clemson,3Q,8,92,47,2,run,9,successful,0.48,,0.46,0.56,T.Etienne,,,D.Ross,,1,,9-T.Etienne to NC 30 for 9 yards (3-D.Ross).
-Clemson,3Q,8,94,49,3,pass,,not successful,,0.42,0.45,0.55,,T.Lawrence,J.Ross,,,,,16-T.Lawrence incomplete. Intended for 8-J.Ross.
-Clemson,3Q,8,95,50,4,pass,,not successful,,0.40,0.44,0.53,,T.Lawrence,T.Higgins,,,,,16-T.Lawrence incomplete. Intended for 5-T.Higgins.
-North Carolina,3Q,8,96,36,1,run,-1,not successful,0.31,,0.34,0.45,M.Carter,,,I.Simmons,J.Foster,0.5,0.5,"8-M.Carter to NC 34 for -1 yard (11-I.Simmons,35-J.Foster)."
-North Carolina,3Q,8,97,37,2,pass,,not successful,,0.35,0.33,0.43,,S.Howell,D.Brown,,,,,7-S.Howell incomplete. Intended for 2-D.Brown.
-North Carolina,3Q,8,98,38,3,pass,3,not successful,,0.33,0.32,0.42,,S.Howell,R.Groves,A.Terrell,,1,,7-S.Howell complete to 4-R.Groves. 4-R.Groves to NC 37 for 3 yards (8-A.Terrell).
-Clemson,3Q,9,100,51,1,pass,10,successful,,0.43,0.45,0.52,,T.Lawrence,J.Chalk,J.Gemmel,,1,,16-T.Lawrence complete to 25-J.Chalk. 25-J.Chalk to CLE 30 for 10 yards (44-J.Gemmel).
-Clemson,3Q,9,101,52,1,run,5,successful,0.50,,0.47,0.53,T.Etienne,,,S.Duck,,1,,9-T.Etienne to CLE 35 for 5 yards (29-S.Duck).
-Clemson,3Q,9,102,53,2,pass,-1,not successful,,0.41,0.46,0.52,,T.Lawrence,C.Powell,,,,,16-T.Lawrence complete to 17-C.Powell. 17-C.Powell to CLE 34 for -1 yard.
-Clemson,3Q,9,104,55,3,pass,,not successful,,0.39,0.45,0.51,,T.Lawrence,,,,,,16-T.Lawrence incomplete.
-North Carolina,3Q,9,106,40,1,run,3,not successful,0.29,,0.31,0.44,M.Carter,,,D.Johnson,B.Spector,0.5,0.5,"8-M.Carter to NC 30 for 3 yards (14-D.Johnson,10-B.Spector)."
-North Carolina,3Q,9,107,41,2,run,8,successful,0.33,,0.33,0.45,M.Carter,,,D.Johnson,,1,,8-M.Carter to NC 38 for 8 yards (14-D.Johnson).
-North Carolina,3Q,9,108,42,1,run,4,not successful,0.31,,0.32,0.47,M.Carter,,,J.Venables,B.Spector,0.5,0.5,"8-M.Carter to NC 42 for 4 yards (15-J.Venables,10-B.Spector)."
-North Carolina,3Q,9,109,43,2,pass,,not successful,,0.32,0.31,0.46,,S.Howell,D.Brown,,,,,7-S.Howell incomplete. Intended for 2-D.Brown.
-North Carolina,3Q,9,110,44,3,pass,,not successful,,0.30,0.31,0.44,,S.Howell,D.Brown,,,,,7-S.Howell incomplete. Intended for 2-D.Brown.
-Clemson,3Q,10,112,57,1,run,5,successful,0.52,,0.46,0.52,L.Dixon,,,A.Cater,C.Kelly,0.5,0.5,"23-L.Dixon to CLE 15 for 5 yards (33-A.Cater,9-C.Kelly)."
-Clemson,3Q,10,113,58,2,pass,,not successful,,0.38,0.45,0.51,,T.Lawrence,J.Ross,,,,,16-T.Lawrence incomplete. Intended for 8-J.Ross.
-Clemson,3Q,10,114,59,3,pass,,not successful,,0.36,0.44,0.50,,T.Lawrence,T.Higgins,,,,,16-T.Lawrence incomplete. Intended for 5-T.Higgins.
-North Carolina,3Q,10,116,46,1,run,12,successful,0.35,,0.32,0.46,J.Williams,,,K.Wallace,,1,,25-J.Williams to NC 43 for 12 yards (12-K.Wallace).
-North Carolina,3Q,10,117,47,1,run,3,not successful,0.33,,0.32,0.47,S.Howell,,,N.Turner,,1,,7-S.Howell to NC 46 for 3 yards (24-N.Turner).
-North Carolina,3Q,10,118,48,2,pass,-9,not successful,,0.29,0.31,0.46,,S.Howell,,I.Simmons,,1,,7-S.Howell sacked at NC 37 for -9 yards (11-I.Simmons).
-North Carolina,3Q,10,119,49,3,pass,-4,not successful,,0.27,0.30,0.45,,S.Howell,,T.Davis,,1,,7-S.Howell sacked at NC 33 for -4 yards (13-T.Davis).
-Clemson,3Q,11,121,61,1,pass,,not successful,,0.35,0.43,0.49,,T.Lawrence,J.Ross,,,,,16-T.Lawrence incomplete. Intended for 8-J.Ross.
-Clemson,3Q,11,122,62,2,pass,-1,not successful,,0.33,0.42,0.48,,T.Lawrence,T.Etienne,A.Cater,,1,,16-T.Lawrence complete to 9-T.Etienne. 9-T.Etienne to CLE 29 for -1 yard (33-A.Cater).
-Clemson,3Q,11,123,63,3,pass,,not successful,,0.32,0.42,0.47,,T.Lawrence,T.Higgins,,,,,16-T.Lawrence incomplete. Intended for 5-T.Higgins.
-North Carolina,3Q,11,125,51,1,run,1,not successful,0.32,,0.29,0.46,M.Carter,,,A.Terrell,J.Mascoll,0.5,0.5,"8-M.Carter to NC 30 for 1 yard (8-A.Terrell,7-J.Mascoll)."
-North Carolina,4Q,12,126,52,2,run,6,not successful,0.30,,0.29,0.48,M.Carter,,,N.Pinckney,K.Wallace,0.5,0.5,"8-M.Carter to NC 36 for 6 yards (44-N.Pinckney,12-K.Wallace)."
-North Carolina,4Q,12,127,53,3,pass,10,successful,,0.30,0.30,0.47,,S.Howell,D.Newsome,K.Wallace,,1,,7-S.Howell complete to 5-D.Newsome. 5-D.Newsome to NC 46 for 10 yards (12-K.Wallace).
-North Carolina,4Q,12,128,54,1,run,9,successful,0.33,,0.32,0.48,M.Carter,,,A.Terrell,,1,,8-M.Carter pushed ob at CLE 45 for 9 yards (8-A.Terrell).
-North Carolina,4Q,12,129,55,2,pass,,not successful,,0.29,0.31,0.47,,S.Howell,,,,,,7-S.Howell incomplete.
-North Carolina,4Q,12,130,56,3,run,0,not successful,0.32,,0.30,0.48,S.Howell,,,I.Simmons,J.Foster,0.5,0.5,"7-S.Howell to CLE 45 for no gain (11-I.Simmons,35-J.Foster)."
-North Carolina,4Q,12,131,57,4,run,0,not successful,0.30,,0.30,0.49,J.Williams,,,I.Simmons,N.Turner,0.5,0.5,"25-J.Williams to CLE 45 for no gain (11-I.Simmons,24-N.Turner)."
-Clemson,4Q,12,132,65,1,run,7,successful,0.54,,0.43,0.48,T.Lawrence,,,D.Ross,,1,,16-T.Lawrence to NC 48 for 7 yards (3-D.Ross).
-Clemson,4Q,12,133,66,2,pass,,not successful,,0.31,0.42,0.47,,T.Lawrence,,,,,,16-T.Lawrence incomplete.
-Clemson,4Q,12,134,67,3,pass,6,successful,,0.33,0.43,0.46,,T.Lawrence,J.Chalk,T.Fox,,1,,16-T.Lawrence complete to 25-J.Chalk. 25-J.Chalk to NC 42 for 6 yards (12-T.Fox).
-Clemson,4Q,12,135,68,1,run,7,successful,0.56,,0.44,0.47,T.Lawrence,,,A.Crawford,C.Kelly,0.5,0.5,"16-T.Lawrence to NC 35 for 7 yards (92-A.Crawford,9-C.Kelly)."
-Clemson,4Q,12,137,70,2,run,2,not successful,0.54,,0.43,0.48,T.Lawrence,,,T.Fox,,1,,16-T.Lawrence scrambles to NC 38 for 2 yards (56-T.Fox).
-Clemson,4Q,12,138,71,3,pass,38,explosive,,0.35,0.44,0.47,,T.Lawrence,T.Higgins,,,,, 16-T.Lawrence complete to 5-T.Higgins. 5-T.Higgins runs 38 yards for a touchdown.
-North Carolina,4Q,13,141,58,1,run,0,not successful,0.29,,0.29,0.50,J.Williams,,,J.Foster,,1,,25-J.Williams to NC 25 for no gain (35-J.Foster).
-North Carolina,4Q,13,142,59,2,run,5,not successful,0.28,,0.29,0.51,S.Howell,,,X.Thomas,J.Skalski,0.5,0.5,"7-S.Howell scrambles to NC 30 for 5 yards (3-X.Thomas,47-J.Skalski)."
-North Carolina,4Q,13,143,60,3,pass,12,successful,,0.32,0.30,0.50,,S.Howell,D.Brown,D.Kendrick,,1,,7-S.Howell complete to 2-D.Brown. 2-D.Brown to NC 42 for 12 yards (1-D.Kendrick).
-North Carolina,4Q,13,144,61,1,pass,,not successful,,0.31,0.29,0.49,,S.Howell,D.Newsome,,,,,7-S.Howell incomplete. Intended for 5-D.Newsome.
-North Carolina,4Q,13,145,62,2,run,-2,not successful,0.27,,0.29,0.50,M.Carter,,,N.Turner,,1,,8-M.Carter to NC 40 for -2 yards (24-N.Turner).
-North Carolina,4Q,13,146,63,3,pass,11,not successful,,0.30,0.28,0.49,,S.Howell,B.Corrales,N.Turner,,1,,7-S.Howell complete to 15-B.Corrales. 15-B.Corrales to CLE 49 for 11 yards (24-N.Turner).
-North Carolina,4Q,13,147,64,4,run,3,successful,0.30,,0.30,0.50,S.Howell,,,J.Foster,K.Wallace,0.5,0.5,"7-S.Howell to CLE 46 for 3 yards (35-J.Foster,12-K.Wallace)."
-North Carolina,4Q,13,148,65,1,pass,,not successful,,0.29,0.29,0.49,,S.Howell,D.Newsome,,,,,7-S.Howell incomplete. Intended for 5-D.Newsome.
-North Carolina,4Q,13,149,66,2,run,8,successful,0.32,,0.30,0.50,M.Carter,,,X.Thomas,,1,,8-M.Carter to CLE 38 for 8 yards (3-X.Thomas).
-North Carolina,4Q,13,150,67,3,run,-2,not successful,0.31,,0.30,0.51,M.Carter,,,J.Foster,X.Thomas,0.5,0.5,"8-M.Carter to CLE 40 for -2 yards (35-J.Foster,3-X.Thomas)."
-North Carolina,4Q,13,151,68,4,pass,7,successful,,0.31,0.31,0.50,,S.Howell,R.Groves,N.Turner,,1,,7-S.Howell complete to 4-R.Groves. 4-R.Groves to CLE 33 for 7 yards (24-N.Turner).
-North Carolina,4Q,13,152,69,1,run,2,not successful,0.30,,0.31,0.51,J.Williams,,,T.Davis,,1,,25-J.Williams to CLE 31 for 2 yards (13-T.Davis).
-North Carolina,4Q,13,153,70,2,run,6,successful,0.32,,0.32,0.52,J.Williams,,,D.Kendrick,,1,,25-J.Williams to CLE 25 for 6 yards (1-D.Kendrick).
-North Carolina,4Q,13,154,71,3,run,22,explosive,0.34,,0.33,0.52,J.Williams,,,I.Simmons,,1,,25-J.Williams to CLE 3 for 22 yards (11-I.Simmons).
-North Carolina,4Q,13,155,72,1,pass,2,successful,,0.33,0.34,0.52,,S.Howell,J.Bargas,,,,,7-S.Howell complete to 80-J.Bargas. 80-J.Bargas to CLE 1 for 2 yards.
-North Carolina,4Q,13,156,73,2,run,1,successful,0.36,,0.35,0.52,J.Williams,,,,,,, 25-J.Williams runs 1 yard for a touchdown.
+Kansas,1Q,1,2,1,1,run,-1,not successful,0.00,,0.00,1.00,P.Williams,,,J.Terry,,1,,1-P.Williams to KAN 24 for -1 yard (40-J.Terry).
+Kansas,1Q,1,3,2,2,run,0,not successful,0.00,,0.00,1.00,P.Williams,,,D.White,,1,,1-P.Williams to KAN 24 for no gain (23-D.White).
+Kansas,1Q,1,4,3,3,pass,14,successful,,1.00,0.33,0.67,,C.Stanley,D.Charlot,,,,,"9-C.Stanley incomplete. Intended for 2-D.Charlot. Penalty on OKL 11-P.Motley, Pass interference, 14 yards, enforced at KAN 24. No Play."
+Kansas,1Q,1,5,4,1,pass,2,not successful,,0.50,0.25,0.50,,C.Stanley,P.Williams,K.Murray,,1,,9-C.Stanley complete to 1-P.Williams. 1-P.Williams to KAN 40 for 2 yards (9-K.Murray).
+Kansas,1Q,1,6,5,2,run,-1,not successful,0.00,,0.20,0.60,P.Williams,,,R.Perkins,,1,,1-P.Williams to KAN 39 for -1 yard (7-R.Perkins).
+Kansas,1Q,1,7,6,3,pass,,not successful,,0.33,0.17,0.50,,C.Stanley,A.Parchment,,,,,9-C.Stanley incomplete. Intended for 4-A.Parchment.
+Oklahoma,1Q,1,9,1,1,run,0,not successful,0.00,,0.00,1.00,T.Sermon,,,A.Kamara,,1,,4-T.Sermon to OKL 25 for no gain (5-A.Kamara).
+Oklahoma,1Q,1,10,2,2,pass,,not successful,,0.00,0.00,0.50,,J.Hurts,C.Lamb,,,,,"1-J.Hurts incomplete. Intended for 2-C.Lamb. Penalty on OKL 2-C.Lamb, Pass interference, declined."
+Oklahoma,1Q,1,11,3,3,pass,15,explosive,,0.50,0.33,0.33,,J.Hurts,J.Haselwood,C.Harris,,1,,1-J.Hurts complete to 11-J.Haselwood. 11-J.Haselwood to OKL 40 for 15 yards (2-C.Harris).
+Oklahoma,1Q,1,12,4,1,run,1,not successful,0.00,,0.25,0.50,J.Hurts,,,K.Johnson,,1,,1-J.Hurts scrambles to OKL 41 for 1 yard (15-K.Johnson).
+Oklahoma,1Q,1,13,5,2,run,-1,not successful,0.00,,0.20,0.60,J.Hurts,,,B.Torneden,,1,,1-J.Hurts to OKL 40 for -1 yard (1-B.Torneden).
+Oklahoma,1Q,1,14,6,3,pass,,not successful,,0.33,0.17,0.50,,J.Hurts,C.Rambo,,,,,1-J.Hurts incomplete. Intended for 14-C.Rambo.
+Kansas,1Q,2,18,10,1,run,7,successful,0.25,,0.29,0.57,P.Williams,,,T.Brown,,1,,1-P.Williams to KAN 8 for 7 yards (6-T.Brown).
+Kansas,1Q,2,19,11,2,run,24,explosive,0.40,,0.38,0.63,P.Williams,,,P.Motley,,1,,1-P.Williams to KAN 32 for 24 yards (11-P.Motley).
+Kansas,1Q,2,20,12,1,pass,12,successful,,0.50,0.44,0.56,,C.Stanley,S.Robinson,D.Turner-Yell,,1,,9-C.Stanley complete to 5-S.Robinson. 5-S.Robinson to KAN 44 for 12 yards (32-D.Turner-Yell).
+Kansas,1Q,2,21,13,1,run,1,not successful,0.33,,0.40,0.60,P.Williams,,,D.Turner-Yell,,1,,1-P.Williams to KAN 45 for 1 yard (32-D.Turner-Yell).
+Kansas,1Q,2,22,14,2,run,4,not successful,0.29,,0.36,0.64,V.Gardner,,,N.Gallimore,,1,,18-V.Gardner to KAN 49 for 4 yards (90-N.Gallimore).
+Kansas,1Q,2,23,15,3,pass,6,successful,,0.60,0.42,0.58,,C.Stanley,J.Sosinski,B.Radley-Hiles,,1,,9-C.Stanley complete to 82-J.Sosinski. 82-J.Sosinski pushed ob at OKL 45 for 6 yards (44-B.Radley-Hiles).
+Kansas,1Q,2,24,16,1,pass,19,explosive,,0.67,0.46,0.54,,C.Stanley,S.Robinson,T.Brown,,1,,9-C.Stanley complete to 5-S.Robinson. 5-S.Robinson to OKL 26 for 19 yards (6-T.Brown).
+Kansas,1Q,2,25,17,1,pass,4,not successful,,0.57,0.43,0.50,,C.Stanley,P.Williams,D.Ugwoegbu,,1,,9-C.Stanley complete to 1-P.Williams. 1-P.Williams to OKL 22 for 4 yards (34-D.Ugwoegbu).
+Kansas,1Q,2,26,18,2,pass,22,explosive,,0.63,0.47,0.47,,C.Stanley,D.Charlot,,,,, 9-C.Stanley complete to 2-D.Charlot. 2-D.Charlot runs 22 yards for a touchdown.
+Oklahoma,1Q,2,29,8,1,run,5,successful,0.25,,0.29,0.57,T.Sermon,,,K.Mayberry,,1,,4-T.Sermon to OKL 28 for 5 yards (8-K.Mayberry).
+Oklahoma,1Q,2,30,9,2,pass,11,successful,,0.50,0.38,0.50,,J.Hurts,R.Stevenson,,,,,1-J.Hurts complete to 29-R.Stevenson. 29-R.Stevenson to OKL 39 for 11 yards.
+Oklahoma,1Q,2,31,10,1,run,24,explosive,0.40,,0.44,0.56,T.Sermon,,,B.Torneden,,1,,4-T.Sermon to KAN 37 for 24 yards (1-B.Torneden).
+Oklahoma,1Q,2,32,11,1,pass,,not successful,,0.40,0.40,0.50,,J.Hurts,N.Basquine,,,,,1-J.Hurts incomplete. Intended for 83-N.Basquine.
+Oklahoma,1Q,2,33,12,2,pass,20,explosive,,0.50,0.45,0.45,,J.Hurts,B.Willis,J.McCullough,,1,,1-J.Hurts complete to 81-B.Willis. 81-B.Willis to KAN 17 for 20 yards (12-J.McCullough).
+Oklahoma,1Q,2,34,13,1,pass,15,successful,,0.57,0.50,0.42,,J.Hurts,J.Hall,,,,,"1-J.Hurts incomplete. Intended for 27-J.Hall. Penalty on KAN 15-K.Johnson, Pass interference, 15 yards, enforced at KAN 17. No Play."
+Oklahoma,1Q,2,35,14,1,run,2,successful,0.50,,0.54,0.46,T.Sermon,,,,,,, 4-T.Sermon runs 2 yards for a touchdown.
+Kansas,1Q,3,38,19,1,pass,,not successful,,0.56,0.44,0.44,,C.Stanley,A.Parchment,,,,,9-C.Stanley incomplete. Intended for 4-A.Parchment.
+Kansas,1Q,3,39,20,2,run,0,not successful,0.25,,0.41,0.47,V.Gardner,,,P.Motley,,1,,18-V.Gardner to KAN 20 for no gain (11-P.Motley).
+Kansas,1Q,3,40,21,3,pass,11,successful,,0.60,0.44,0.44,,C.Stanley,A.Parchment,J.Davis,,1,,9-C.Stanley complete to 4-A.Parchment. 4-A.Parchment to KAN 31 for 11 yards (4-J.Davis).
+Kansas,2Q,4,41,22,1,pass,-6,not successful,,0.55,0.42,0.42,,C.Stanley,,R.Perkins,,1,,9-C.Stanley sacked at KAN 25 for -6 yards (7-R.Perkins).
+Kansas,2Q,4,42,23,2,run,3,not successful,0.22,,0.40,0.45,P.Williams,,,L.Stokes,,1,,1-P.Williams to KAN 28 for 3 yards (96-L.Stokes).
+Kansas,2Q,4,43,24,3,run,23,explosive,0.30,,0.43,0.48,P.Williams,,,J.Davis,,1,,1-P.Williams to OKL 49 for 23 yards (4-J.Davis).
+Kansas,2Q,4,44,25,1,run,1,not successful,0.27,,0.41,0.50,P.Williams,,,R.Perkins,,1,,1-P.Williams to OKL 48 for 1 yard (7-R.Perkins).
+Kansas,2Q,4,45,26,2,run,0,not successful,0.25,,0.39,0.52,P.Williams,,,K.Murray,,1,,1-P.Williams to OKL 48 for no gain (9-K.Murray).
+Kansas,2Q,4,46,27,3,run,7,not successful,0.23,,0.38,0.54,P.Williams,,,J.Davis,N.Bonitto,0.5,0.5,"1-P.Williams to OKL 41 for 7 yards (4-J.Davis,35-N.Bonitto)."
+Kansas,2Q,4,47,28,4,pass,,not successful,,0.50,0.36,0.52,,C.Stanley,J.Sosinski,,,,,9-C.Stanley incomplete. Intended for 82-J.Sosinski.
+Oklahoma,2Q,3,48,15,1,pass,,not successful,,0.50,0.50,0.43,,J.Hurts,C.Lamb,,,,,1-J.Hurts incomplete. Intended for 2-C.Lamb.
+Oklahoma,2Q,3,49,16,2,pass,15,explosive,,0.56,0.53,0.40,,J.Hurts,C.Lamb,H.Defense,,1,,1-J.Hurts complete to 2-C.Lamb. 2-C.Lamb to KAN 43 for 15 yards (13-H.Defense).
+Oklahoma,2Q,3,50,17,1,pass,19,explosive,,0.60,0.56,0.38,,J.Hurts,L.Morris,M.Lee,,1,,1-J.Hurts complete to 84-L.Morris. 84-L.Morris pushed ob at KAN 24 for 19 yards (11-M.Lee).
+Oklahoma,2Q,3,52,19,1,no play,15,successful,,,0.59,,,,,,,,,"Penalty on KAN 11-M.Lee, Personal Foul, 15 yards, enforced at KAN 34. No Play."
+Oklahoma,2Q,3,53,20,1,run,5,successful,0.57,,0.61,0.41,T.Sermon,,,J.McCullough,,1,,4-T.Sermon to KAN 14 for 5 yards (12-J.McCullough).
+Oklahoma,2Q,3,54,21,2,run,12,successful,0.63,,0.63,0.44,J.Hurts,,,J.McCullough,A.Kamara,0.5,0.5,"1-J.Hurts scrambles to KAN 2 for 12 yards (12-J.McCullough,5-A.Kamara)."
+Oklahoma,2Q,3,55,22,1,run,1,successful,0.67,,0.65,0.47,T.Sermon,,,K.Johnson,,1,,4-T.Sermon to KAN 1 for 1 yard (15-K.Johnson).
+Oklahoma,2Q,3,56,23,2,run,1,successful,0.70,,0.67,0.50,J.Hurts,,,,,,, 1-J.Hurts runs 1 yard for a touchdown.
+Kansas,2Q,5,60,29,1,run,36,explosive,0.29,,0.38,0.54,P.Williams,,,T.Brown,,1,,1-P.Williams to KAN 45 for 36 yards (6-T.Brown).
+Kansas,2Q,5,61,30,1,run,0,not successful,0.27,,0.37,0.56,P.Williams,,,B.Asamoah,,1,,1-P.Williams to KAN 45 for no gain (24-B.Asamoah).
+Kansas,2Q,5,62,31,2,run,1,not successful,0.25,,0.36,0.57,P.Williams,,,N.Bonitto,,1,,1-P.Williams to KAN 46 for 1 yard (35-N.Bonitto).
+Kansas,2Q,5,63,32,3,pass,,not successful,,0.46,0.34,0.55,,C.Stanley,J.Sosinski,,,,,9-C.Stanley incomplete. Intended for 82-J.Sosinski.
+Oklahoma,2Q,4,65,24,1,run,3,not successful,0.64,,0.64,0.52,T.Sermon,,,A.Kamara,,1,,4-T.Sermon to OKL 11 for 3 yards (5-A.Kamara).
+Oklahoma,2Q,4,66,25,2,pass,24,explosive,,0.64,0.65,0.50,,J.Hurts,N.Basquine,,,,,1-J.Hurts complete to 83-N.Basquine. 83-N.Basquine to OKL 35 for 24 yards.
+Oklahoma,2Q,4,67,26,1,pass,17,explosive,,0.67,0.67,0.48,,J.Hurts,J.Hall,E.Hempstead,A.Kamara,0.5,0.5,"1-J.Hurts complete to 27-J.Hall. 27-J.Hall to KAN 48 for 17 yards (3-E.Hempstead,5-A.Kamara)."
+Oklahoma,2Q,4,68,27,1,pass,18,explosive,,0.69,0.68,0.46,,J.Hurts,B.Willis,B.Torneden,,1,,1-J.Hurts complete to 81-B.Willis. 81-B.Willis pushed ob at KAN 30 for 18 yards (1-B.Torneden).
+Oklahoma,2Q,4,69,28,1,run,2,not successful,0.58,,0.65,0.48,T.Sermon,,,C.Cole,,1,,4-T.Sermon to KAN 28 for 2 yards (94-C.Cole).
+Oklahoma,2Q,4,70,29,2,pass,21,explosive,,0.71,0.67,0.46,,N.Basquine,J.Hurts,D.Ferguson,G.Potter,0.5,0.5,"83-N.Basquine complete to 1-J.Hurts. 1-J.Hurts to KAN 7 for 21 yards (7-D.Ferguson,19-G.Potter)."
+Oklahoma,2Q,4,72,31,1,pass,-8,not successful,,0.67,0.64,0.44,,J.Hurts,,A.Kamara,,1,,"1-J.Hurts sacked at KAN 25 for -8 yards. Penalty on OKL 52-T.Robinson, Holding, declined. (5-A.Kamara)."
+Oklahoma,2Q,4,73,32,2,run,-3,not successful,0.54,,0.62,0.46,C.Lamb,,,D.Ferguson,,1,,2-C.Lamb 1-J.Hurts to KAN 48 for -3 yards (7-D.Ferguson).
+Oklahoma,2Q,4,74,33,3,pass,19,explosive,,0.69,0.63,0.45,,J.Hurts,G.Calcaterra,D.Ferguson,,1,,1-J.Hurts complete to 80-G.Calcaterra. 80-G.Calcaterra pushed ob at KAN 29 for 19 yards (7-D.Ferguson).
+Kansas,2Q,6,77,34,1,run,3,not successful,0.24,,0.33,0.57,C.Stanley,,,D.Turner-Yell,,1,,9-C.Stanley to KAN 5 for 3 yards (32-D.Turner-Yell).
+Kansas,2Q,6,78,35,2,run,2,not successful,0.22,,0.32,0.58,P.Williams,,,K.Murray,,1,,1-P.Williams to KAN 7 for 2 yards (9-K.Murray).
+Kansas,2Q,6,79,36,3,run,-5,not successful,0.21,,0.31,0.59,P.Williams,,,N.Gallimore,,1,,1-P.Williams to KAN 2 for -5 yards (90-N.Gallimore).
+Oklahoma,2Q,5,81,36,1,pass,10,successful,,0.71,0.65,0.43,,J.Hurts,C.Lamb,,,,, 1-J.Hurts complete to 2-C.Lamb. 2-C.Lamb runs 10 yards for a touchdown.
+Kansas,2Q,7,84,38,1,pass,6,successful,,0.50,0.33,0.58,,C.Stanley,P.Williams,N.Bonitto,,1,,9-C.Stanley complete to 1-P.Williams. 1-P.Williams to KAN 31 for 6 yards (35-N.Bonitto).
+Kansas,2Q,7,85,39,2,pass,,not successful,,0.47,0.32,0.56,,C.Stanley,A.Parchment,,,,,9-C.Stanley incomplete. Intended for 4-A.Parchment.
+Kansas,2Q,7,86,40,3,pass,-5,not successful,,0.44,0.31,0.54,,C.Stanley,K.Lassiter,D.Turner-Yell,,1,,9-C.Stanley complete to 8-K.Lassiter. 8-K.Lassiter to KAN 26 for -5 yards (32-D.Turner-Yell).
+Oklahoma,3Q,6,88,37,1,run,1,not successful,0.50,,0.63,0.45,T.Sermon,,,J.McCullough,,1,,4-T.Sermon to OKL 17 for 1 yard (12-J.McCullough).
+Oklahoma,3Q,6,89,38,2,pass,,not successful,,0.67,0.61,0.44,,J.Hurts,T.Sermon,,,,,1-J.Hurts incomplete. Intended for 4-T.Sermon.
+Oklahoma,3Q,6,90,39,3,run,24,explosive,0.53,,0.62,0.45,J.Hurts,,,M.Lee,,1,,1-J.Hurts scrambles to OKL 41 for 24 yards (11-M.Lee).
+Oklahoma,3Q,6,91,40,1,pass,8,successful,,0.68,0.63,0.44,,J.Hurts,N.Basquine,J.McCullough,B.Torneden,0.5,0.5,"1-J.Hurts complete to 83-N.Basquine. 83-N.Basquine to OKL 49 for 8 yards (12-J.McCullough,1-B.Torneden)."
+Oklahoma,3Q,6,92,41,2,run,7,successful,0.56,,0.64,0.46,J.Hurts,,,J.McCullough,,1,,1-J.Hurts to KAN 44 for 7 yards (12-J.McCullough).
+Oklahoma,3Q,6,93,42,1,run,9,successful,0.59,,0.65,0.47,T.Sermon,,,B.Torneden,,1,,4-T.Sermon to KAN 35 for 9 yards (1-B.Torneden).
+Oklahoma,3Q,6,94,43,2,pass,11,successful,,0.70,0.66,0.46,,J.Hurts,J.Haselwood,H.Defense,,1,,1-J.Hurts complete to 11-J.Haselwood. 11-J.Haselwood to KAN 24 for 11 yards (13-H.Defense).
+Oklahoma,3Q,6,96,45,1,run,19,explosive,0.61,,0.67,0.47,T.Sermon,,,B.Torneden,,1,,4-T.Sermon to KAN 10 for 19 yards (1-B.Torneden).
+Oklahoma,3Q,6,97,46,1,run,5,successful,0.63,,0.68,0.49,R.Stevenson,,,N.Stevens-McKenzie,,1,,29-R.Stevenson to KAN 5 for 5 yards (9-N.Stevens-McKenzie).
+Oklahoma,3Q,6,98,47,2,run,5,successful,0.65,,0.68,0.50,J.Hurts,,,,,,, 1-J.Hurts runs 5 yards for a touchdown.
+Kansas,3Q,8,101,41,1,pass,,not successful,,0.41,0.31,0.53,,C.Stanley,D.Charlot,,,,,9-C.Stanley incomplete. Intended for 2-D.Charlot.
+Kansas,3Q,8,102,42,2,pass,,not successful,,0.39,0.30,0.51,,C.Stanley,S.Robinson,,,,,9-C.Stanley incomplete. Intended for 5-S.Robinson.
+Kansas,3Q,8,103,43,3,run,4,not successful,0.20,,0.29,0.53,C.Stanley,,,K.Murray,,1,,9-C.Stanley scrambles to KAN 29 for 4 yards (9-K.Murray).
+Oklahoma,3Q,7,105,48,1,run,19,explosive,0.67,,0.69,0.51,J.Hurts,,,,,,,1-J.Hurts runs ob at OKL 36 for 19 yards.
+Oklahoma,3Q,7,106,49,1,pass,,not successful,,0.67,0.67,0.50,,J.Hurts,J.Haselwood,,,,,1-J.Hurts incomplete. Intended for 11-J.Haselwood.
+Oklahoma,3Q,7,107,50,2,pass,11,successful,,0.68,0.68,0.49,,J.Hurts,J.Hall,E.Hempstead,,1,,1-J.Hurts complete to 27-J.Hall. 27-J.Hall to OKL 47 for 11 yards (3-E.Hempstead).
+Oklahoma,3Q,7,108,51,1,run,35,explosive,0.68,,0.69,0.50,R.Stevenson,,,C.Harris,,1,,29-R.Stevenson to KAN 18 for 35 yards (2-C.Harris).
+Oklahoma,3Q,7,109,52,1,run,-1,not successful,0.65,,0.67,0.51,J.Hurts,,,,,,,1-J.Hurts runs ob at KAN 19 for -1 yard.
+Oklahoma,3Q,7,110,53,2,run,4,not successful,0.63,,0.66,0.52,R.Stevenson,,,J.Brown,,1,,29-R.Stevenson to KAN 15 for 4 yards (90-J.Brown).
+Oklahoma,3Q,7,111,54,3,pass,15,explosive,,0.70,0.67,0.51,,J.Hurts,T.Sermon,,,,, 1-J.Hurts complete to 4-T.Sermon. 4-T.Sermon runs 15 yards for a touchdown.
+Kansas,3Q,9,114,45,1,run,4,not successful,0.19,,0.28,0.54,P.Williams,,,K.Murray,J.Terry,0.5,0.5,"1-P.Williams to KAN 32 for 4 yards (9-K.Murray,40-J.Terry)."
+Kansas,3Q,9,115,46,2,run,3,not successful,0.18,,0.28,0.55,P.Williams,,,J.Terry,,1,,1-P.Williams to KAN 35 for 3 yards (40-J.Terry).
+Kansas,3Q,9,116,47,3,pass,11,successful,,0.42,0.29,0.54,,C.Stanley,D.Charlot,P.Motley,,1,,9-C.Stanley complete to 2-D.Charlot. 2-D.Charlot to KAN 46 for 11 yards (11-P.Motley).
+Kansas,3Q,9,117,48,1,run,2,not successful,0.17,,0.29,0.55,C.Stanley,,,R.Jones,,1,,9-C.Stanley to KAN 48 for 2 yards (21-R.Jones).
+Kansas,3Q,9,118,49,2,run,16,explosive,0.21,,0.30,0.56,P.Williams,,,D.White,,1,,1-P.Williams to OKL 36 for 16 yards (23-D.White).
+Kansas,3Q,9,119,50,1,run,0,not successful,0.20,,0.30,0.57,P.Williams,,,,,,,1-P.Williams to OKL 36 for no gain.
+Kansas,3Q,9,121,52,2,pass,-8,not successful,,0.40,0.29,0.56,,C.Stanley,,B.Asamoah,,1,,9-C.Stanley sacked at OKL 44 for -8 yards (24-B.Asamoah).
+Kansas,3Q,9,122,53,3,pass,,not successful,,0.38,0.28,0.54,,C.Stanley,A.Parchment,,,,,"9-C.Stanley incomplete. Intended for 4-A.Parchment. Penalty on KAN 4-A.Parchment, Ineligible player downfield during passing down, declined."
+Oklahoma,3Q,8,124,55,1,run,4,not successful,0.60,,0.65,0.52,R.Stevenson,,,N.Stevens-McKenzie,,1,,29-R.Stevenson to OKL 20 for 4 yards (9-N.Stevens-McKenzie).
+Oklahoma,3Q,8,125,56,2,pass,,not successful,,0.67,0.64,0.51,,J.Hurts,C.Rambo,,,,,1-J.Hurts incomplete. Intended for 14-C.Rambo.
+Oklahoma,3Q,8,126,57,3,pass,10,successful,,0.68,0.65,0.50,,J.Hurts,C.Rambo,,,,,1-J.Hurts complete to 14-C.Rambo. 14-C.Rambo to OKL 30 for 10 yards.
+Oklahoma,3Q,8,127,58,1,pass,5,successful,,0.69,0.65,0.49,,J.Hurts,T.Sermon,K.Mayberry,C.Cole,0.5,0.5,"1-J.Hurts complete to 4-T.Sermon. 4-T.Sermon to OKL 35 for 5 yards (8-K.Mayberry,94-C.Cole)."
+Oklahoma,4Q,9,128,59,2,pass,,not successful,,0.67,0.64,0.48,,J.Hurts,T.Sermon,,,,,"1-J.Hurts incomplete. Intended for 4-T.Sermon, INTERCEPTED by 9-N.Stevens-McKenzie at KAN 34. 9-N.Stevens-McKenzie to KAN 34 for no gain."
+Kansas,4Q,10,129,55,1,pass,3,not successful,,0.36,0.28,0.53,,C.Stanley,P.Williams,K.Murray,,1,,9-C.Stanley complete to 1-P.Williams. 1-P.Williams to KAN 37 for 3 yards (9-K.Murray).
+Kansas,4Q,10,130,56,2,run,6,successful,0.23,,0.29,0.54,P.Williams,,,D.Turner-Yell,,1,,1-P.Williams to KAN 43 for 6 yards (32-D.Turner-Yell).
+Kansas,4Q,10,131,57,3,run,9,successful,0.26,,0.31,0.55,P.Williams,,,K.Mann,,1,,1-P.Williams to OKL 48 for 9 yards (55-K.Mann).
+Kansas,4Q,10,132,58,1,run,1,not successful,0.25,,0.30,0.56,V.Gardner,,,B.Asamoah,,1,,18-V.Gardner to OKL 47 for 1 yard (24-B.Asamoah).
+Kansas,4Q,10,134,60,2,pass,12,successful,,0.39,0.31,0.55,,C.Stanley,A.Parchment,P.Motley,,1,,9-C.Stanley complete to 4-A.Parchment. 4-A.Parchment to OKL 40 for 12 yards (11-P.Motley).
+Kansas,4Q,10,135,61,3,run,1,not successful,0.24,,0.31,0.56,P.Williams,,,N.Gallimore,,1,,1-P.Williams to OKL 39 for 1 yard (90-N.Gallimore).
+Kansas,4Q,10,136,62,4,pass,,not successful,,0.38,0.30,0.55,,C.Stanley,J.Luavasa,,,,,9-C.Stanley incomplete. Intended for 87-J.Luavasa.
+Oklahoma,4Q,10,137,60,1,run,61,explosive,0.62,,0.65,0.49,R.Stevenson,,,,,,, 29-R.Stevenson runs 61 yards for a touchdown.
+Kansas,4Q,11,140,63,1,no play,15,successful,,,0.31,,,,,,,,,"9-C.Stanley incomplete. Intended for 4-A.Parchment. Penalty on OKL 38-B.Mead, Roughing the passer, 15 yards, enforced at KAN 25. No Play."
+Kansas,4Q,11,141,64,1,pass,11,successful,,0.40,0.33,0.54,,C.Stanley,A.Parchment,D.Turner-Yell,,1,,9-C.Stanley complete to 4-A.Parchment. 4-A.Parchment to OKL 49 for 11 yards (32-D.Turner-Yell).
+Kansas,4Q,11,142,65,1,no play,10,successful,,,0.34,,,,,,,,,"9-C.Stanley incomplete. INTERCEPTED by 25-J.Broiles at OKL 27. 25-J.Broiles to KAN 19 for 54 yards. Penalty on OKL 25-J.Broiles, Holding, 10 yards, enforced at OKL 49. No Play."
+Kansas,4Q,11,143,66,1,pass,39,explosive,,0.42,0.35,0.53,,C.Stanley,S.Robinson,,,,, 9-C.Stanley complete to 5-S.Robinson. 5-S.Robinson runs 39 yards for a touchdown.
+Oklahoma,4Q,11,147,62,1,pass,14,successful,,0.68,0.65,0.48,,T.Mordecai,D.Stoops,R.Thomas,,1,,15-T.Mordecai complete to 12-D.Stoops. 12-D.Stoops to OKL 34 for 14 yards (24-R.Thomas).
+Oklahoma,4Q,11,148,63,2,no play,15,successful,,,0.66,,,,,D.Moragne,,1,,"24-B.Asamoah to OKL 31 for -3 yards (97-D.Moragne). Penalty on KAN 97-D.Moragne, Facemasking, 15 yards, enforced at OKL 34. No Play."
+Oklahoma,4Q,11,149,64,1,run,-1,not successful,0.59,,0.65,0.49,T.Mordecai,,,D.Ford,,1,,15-T.Mordecai to OKL 48 for -1 yard (27-D.Ford).
+Oklahoma,4Q,11,150,65,2,run,8,successful,0.61,,0.66,0.50,T.Mordecai,,,K.Johnson,,1,,15-T.Mordecai to KAN 44 for 8 yards (15-K.Johnson).
+Oklahoma,4Q,11,151,66,3,pass,14,successful,,0.69,0.66,0.49,,T.Mordecai,T.Bridges,,,,,15-T.Mordecai complete to 8-T.Bridges. 8-T.Bridges to KAN 30 for 14 yards.
+Oklahoma,4Q,11,152,67,1,run,6,successful,0.62,,0.67,0.50,M.Major,,,R.Thomas,,1,,24-M.Major to KAN 24 for 6 yards (24-R.Thomas).
+Oklahoma,4Q,11,153,68,2,run,5,successful,0.63,,0.67,0.51,M.Major,,,D.Ferguson,,1,,24-M.Major to KAN 19 for 5 yards (7-D.Ferguson).
+Oklahoma,4Q,11,154,69,1,run,4,not successful,0.61,,0.66,0.52,M.Major,,,J.Dineen,,1,,24-M.Major to KAN 15 for 4 yards (43-J.Dineen).
+Oklahoma,4Q,11,155,70,2,run,0,not successful,0.59,,0.65,0.52,M.Major,,,C.Cole,,1,,24-M.Major to KAN 15 for no gain (94-C.Cole).
+Oklahoma,4Q,11,156,71,3,pass,,not successful,,0.67,0.64,0.52,,T.Mordecai,T.Wease,,,,,15-T.Mordecai incomplete. Intended for 10-T.Wease.
+Kansas,4Q,12,159,67,1,pass,5,successful,,0.44,0.36,0.52,,C.Stanley,P.Williams,P.Fields,,1,,9-C.Stanley complete to 1-P.Williams. 1-P.Williams to KAN 35 for 5 yards (10-P.Fields).
+Kansas,4Q,12,160,68,2,pass,,not successful,,0.43,0.36,0.51,,C.Stanley,S.Robinson,,,,,9-C.Stanley incomplete. Intended for 5-S.Robinson.
+Kansas,4Q,12,161,69,3,pass,11,successful,,0.45,0.37,0.50,,C.Stanley,A.Parchment,,,,,9-C.Stanley complete to 4-A.Parchment. 4-A.Parchment to KAN 46 for 11 yards.
+Kansas,4Q,12,162,70,1,pass,37,explosive,,0.47,0.38,0.49,,C.Stanley,S.Robinson,P.Motley,,1,,9-C.Stanley complete to 5-S.Robinson. 5-S.Robinson pushed ob at OKL 17 for 37 yards (11-P.Motley).
+Kansas,4Q,12,163,71,1,pass,-7,not successful,,0.45,0.37,0.48,,C.Stanley,,P.Fields,,1,,9-C.Stanley sacked at OKL 24 for -7 yards (10-P.Fields).
+Kansas,4Q,12,164,72,2,pass,24,explosive,,0.47,0.38,0.48,,C.Stanley,S.Robinson,,,,, 9-C.Stanley complete to 5-S.Robinson. 5-S.Robinson runs 24 yards for a touchdown.
+Oklahoma,4Q,12,167,73,1,run,11,successful,0.61,,0.65,0.52,T.Pledger,,,C.Harris,,1,,22-T.Pledger to KAN 38 for 11 yards (2-C.Harris).
+Oklahoma,4Q,12,168,74,1,run,7,successful,0.62,,0.65,0.53,T.Pledger,,,S.Parker,,1,,22-T.Pledger to KAN 31 for 7 yards (14-S.Parker).
+Oklahoma,4Q,12,169,75,2,run,0,not successful,0.60,,0.64,0.54,B.Willis,,,R.Thomas,D.Ford,0.5,0.5,"81-B.Willis to KAN 31 for no gain (24-R.Thomas,27-D.Ford)."
+Oklahoma,4Q,12,170,76,3,pass,5,successful,,0.68,0.65,0.53,,T.Mordecai,T.Bridges,C.Harris,,1,,15-T.Mordecai complete to 8-T.Bridges. 8-T.Bridges to KAN 26 for 5 yards (2-C.Harris).
+Oklahoma,4Q,12,171,77,1,run,12,successful,0.61,,0.65,0.54,T.Pledger,,,K.Johnson,D.Ferguson,0.5,0.5,"22-T.Pledger to KAN 14 for 12 yards (15-K.Johnson,7-D.Ferguson)."
