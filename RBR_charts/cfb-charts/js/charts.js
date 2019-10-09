@@ -197,6 +197,7 @@ function playMap(thisTeam,thisId,legendId) {
     var playCount = gameData.map(function(play) { return play.play_count });
     var playsMax = Math.max.apply(Math, gameData.map(function(play) { return play.play_count; }));
     var yardsMax = Math.max.apply(Math, gameData.map(function(play) { return play.yards_total; }));
+    var yardsMin = Math.min.apply(Math, gameData.map(function(play) { return play.yards_total; }));
     var teamPlayCountAndYards = teamPlays.map(function(play) { return { x: play.play_count, y: play.yards_total }; });
 
     var uniqueQuarters = unique(gameData,"quarter");
@@ -240,7 +241,7 @@ function playMap(thisTeam,thisId,legendId) {
             scales: {
             yAxes: [{
                 ticks: {
-                suggestedMin: -10,
+                suggestedMin: yardsMin,
                 max: yardsMax,
                 }
             }],

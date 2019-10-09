@@ -1,0 +1,180 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="../cfb-charts/css/normalize.css">
+  <link rel="stylesheet" href="../cfb-charts/css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+
+</head>
+
+<body>
+  <div id="main">
+    
+    <!-- Overview charts -->
+    <h3>Team success rates (cumulative)</h3>
+    <div class="chartOuter" id="teamsSrOuter">
+      <canvas id="teamsSrChart" height="300" width="400"></canvas>
+    </div>
+
+    <h3>Play Map: Yards and Result by Play</h3>
+    <div id="legendOuter" class="teamMap"></div>
+    <div class="teamMap" id="playMapTeamOuter">
+      <canvas id="playMapTeamChart" height="300" width="400"></canvas>
+    </div>
+    <div id="legendOpponentOuter" class="teamMap hide"></div>
+    <div class="teamMap hide" id="playMapOpponentOuter">
+      <canvas id="playMapOpponentChart" height="300" width="400"></canvas>
+    </div>
+    
+    <div class="buttonOuter">
+      <button class="switchBtn">Switch team</button>
+    </div>
+
+    <!-- Bar charts -->
+    <h3>Success and Explosiveness by Play Type</h3>
+    <div class="chartOuter" id="playTypeOuter">
+      <canvas id="playTypeChart" height="300" width="400"></canvas>
+    </div>
+    
+    <h3>Success and Explosiveness by Quarter</h3>
+    <div class="chartOuter" id="quartersOuter">
+      <canvas id="quartersChart" height="300" width="400"></canvas>
+    </div>
+    
+    <h3>Success and Explosiveness by Down</h3>
+    <div class="chartOuter" id="downsOuter">
+      <canvas id="downsChart" height="300" width="400"></canvas>
+    </div>
+
+    <!-- Line charts -->
+    <h3>Rushing Rate (cumulative), Auburn</h3>
+    <div class="chartOuter" id="runRateOuter">
+      <canvas id="runRateChart" height="240" width="400"></canvas>
+    </div>
+   
+    <h3>Rushing Rate (cumulative), Florida</h3>
+    <div class="chartOuter" id="runRateOpponentOuter">
+      <canvas id="runRateOpponentChart" height="240" width="400"></canvas>
+    </div>
+    
+    <h3>Running and Passing Success (cumulative)</h3>
+    <div class="chartOuter" id="runPassSrOuter">
+      <canvas id="runPassSrChart" height="240" width="400"></canvas>
+    </div>
+
+    <h3>Rushing and Passing Success (cumulative), Florida</h3>
+    <div class="chartOuter" id="runPassSrOpponentOuter">
+      <canvas id="runPassSrOpponentChart" height="240" width="400"></canvas>
+    </div>
+    
+    <!-- Auburn player charts -->
+    <h3>Top Runners (in order of appearance), Auburn</h3>
+    <div class="chartOuter" id="runnersOuter">
+      <canvas id="runnersChart" height="200" width="400"></canvas>
+    </div>
+    
+    <h3>Top Passers (in order of appearance), Auburn</h3>
+    <div class="chartOuter" id="passersOuter">
+      <canvas id="passersChart" height="100" width="400"></canvas>
+    </div>
+    
+    <h3>Top Receivers (in order of appearance), Auburn</h3>
+    <div class="chartOuter" id="receiversOuter">
+      <canvas id="receiversChart" height="300" width="400"></canvas>
+    </div>
+    
+    <h3>Top Tacklers (in order of appearance), Auburn</h3>
+    <div class="chartOuter" id="tacklersOuter">
+      <canvas id="tacklersChart" height="480" width="400"></canvas>
+    </div>
+    
+    <!-- Opponent player charts -->
+    <h3>Top Runners (in order of appearance), Florida</h3>
+    <div class="chartOuter" id="runnersOpponentOuter">
+      <canvas id="runnersOpponentChart" height="200" width="400"></canvas>
+    </div>
+    
+    <h3>Top Passers (in order of appearance), Florida</h3>
+    <div class="chartOuter" id="passersOpponentOuter">
+      <canvas id="passersOpponentChart" height="100" width="400"></canvas>
+    </div>
+    
+    <h3>Top Receivers (in order of appearance), Florida</h3>
+    <div class="chartOuter" id="receiversOpponentOuter">
+      <canvas id="receiversOpponentChart" height="300" width="400"></canvas>
+    </div>
+    
+    <h3>Top Tacklers (in order of appearance), Florida</h3>
+    <div class="chartOuter" id="tacklersOpponentOuter">
+      <canvas id="tacklersOpponentChart" height="480" width="400"></canvas>
+    </div>
+  
+
+    <script src="../js/vendor/modernizr-3.7.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@0.7.0"></script> -->
+    <script src="../cfb-charts/js/plugins.js"></script>
+    <script src="../cfb-charts/js/main.js"></script>
+    <script src=" ../cfb-charts/js/ncaa-colors-calc.js"></script>
+    <script src="../cfb-charts/js/charts.js"></script>
+  
+    
+
+    <!-- script for chart js -->
+    <script>
+      // paste this data each time. Consider writing a JSON file for all colors that will let us just plug in the names.
+      assignTeams("Auburn", "Florida");
+      var gameData;
+
+      allCharts("all_plays.csv");
+      // prefix for RBR: https://couchux.github.io/RBR_charts/...
+      
+      function allCharts(csv) {
+        d3.csv(csv, function(data) {
+          data.forEach(function(d){ d['play_count'] = +d['play_count']; });
+          data.forEach(function(d){ d['play_count_team'] = +d['play_count_team']; }); 
+          data.forEach(function(d){ d['drive_team'] = +d['drive_team']; });
+          data.forEach(function(d){ d['yards_total'] = +d['yards_total']; });
+          data.forEach(function(d){ d['down'] = +d['down']; });
+          gameData = data;
+
+          teamSrChart(teamOneData, teamTwoData, "teamsSr");
+          playTypeChart(teamOneData, teamTwoData, "playType");
+          playMap(teamOneData, "playMapTeam", "legendOuter");
+          playMap(teamTwoData, "playMapOpponent", "legendOpponentOuter");
+          teamSwitcher(); // goes with play maps
+          quartersChart(teamOneData, teamTwoData, "quarters");
+          downsChart(teamOneData, teamTwoData, "downs");
+          runRateChart(teamOneData, "runRate");
+          runRateChart(teamTwoData, "runRateOpponent");
+          runPassSrChart(teamOneData, "runPassSr");
+          runPassSrChart(teamTwoData, "runPassSrOpponent");
+          runnersChart(teamOneData,"runners");
+          passersChart(teamOneData,"passers");
+          receiversChart(teamOneData,"receivers");
+          tacklersChart(teamOneData,teamTwoData,"tacklers");
+          runnersChart(teamTwoData,"runnersOpponent");
+          passersChart(teamTwoData,"passersOpponent");
+          receiversChart(teamTwoData,"receiversOpponent");
+          tacklersChart(teamTwoData,teamOneData,"tacklersOpponent");
+
+        }); };
+    </script>
+  
+  </div>
+</body>
+</html>
