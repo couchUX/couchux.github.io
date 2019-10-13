@@ -1,143 +1,170 @@
 team,quarter,drive_team,play_count,play_count_team,down,play_type,yards_total,play_result,run_sr,pass_sr,total_sr,run_rate,runner,passer,receiver,tackler_one,tackler_two,tackler_one_credit,tackler_two_credit,play_description
-Texas A&M,1Q,1,2,1,1,run,4,not successful,0.00,,0.00,1.00,K.Mond,,,R.Davis,,1,,11-K.Mond scrambles to TXAM 29 for 4 yards (99-R.Davis).
-Texas A&M,1Q,1,3,2,2,pass,5,successful,,1.00,0.50,0.50,,K.Mond,K.Rogers,T.Diggs,,1,,11-K.Mond complete to 13-K.Rogers. 13-K.Rogers to TXAM 34 for 5 yards (7-T.Diggs).
-Texas A&M,1Q,1,4,3,3,run,1,successful,0.50,,0.67,0.67,I.Spiller,,,R.Davis,B.Young,0.5,0.5,"28-I.Spiller to TXAM 35 for 1 yard (99-R.Davis,47-B.Young)."
-Texas A&M,1Q,1,5,4,1,run,4,not successful,0.33,,0.50,0.75,I.Spiller,,,S.Lee,,1,,28-I.Spiller to TXAM 39 for 4 yards (35-S.Lee).
-Texas A&M,1Q,1,6,5,2,run,11,successful,0.50,,0.60,0.80,I.Spiller,,,X.McKinney,,1,,28-I.Spiller to BAMA 50 for 11 yards (15-X.McKinney).
-Texas A&M,1Q,1,7,6,1,run,1,not successful,0.40,,0.50,0.83,I.Spiller,,,T.Lewis,,1,,28-I.Spiller to BAMA 49 for 1 yard (24-T.Lewis).
-Texas A&M,1Q,1,8,7,2,pass,11,successful,,1.00,0.57,0.71,,K.Mond,J.Ausbon,S.Lee,,1,,11-K.Mond complete to 2-J.Ausbon. 2-J.Ausbon to BAMA 38 for 11 yards (35-S.Lee).
-Texas A&M,1Q,1,9,8,1,pass,5,successful,,1.00,0.63,0.63,,K.Mond,Q.Davis,S.Carter,A.Jennings,0.5,0.5,"11-K.Mond complete to 1-Q.Davis. 1-Q.Davis to BAMA 33 for 5 yards (5-S.Carter,33-A.Jennings)."
-Texas A&M,1Q,1,10,9,2,run,1,not successful,0.33,,0.56,0.67,I.Spiller,,,S.Lee,,1,,28-I.Spiller to BAMA 32 for 1 yard (35-S.Lee).
-Texas A&M,1Q,1,11,10,3,run,3,not successful,0.29,,0.50,0.70,I.Spiller,,,S.Lee,X.McKinney,0.5,0.5,"28-I.Spiller to BAMA 29 for 3 yards (35-S.Lee,15-X.McKinney)."
-Texas A&M,1Q,1,12,11,3,run,4,successful,0.38,,0.55,0.73,I.Spiller,,,S.Lee,X.McKinney,0.5,0.5,"28-I.Spiller to BAMA 28 for 4 yards (35-S.Lee,15-X.McKinney)."
-Texas A&M,1Q,1,13,12,1,pass,14,successful,,1.00,0.58,0.67,,K.Mond,I.Spiller,P.Surtain,,1,,11-K.Mond complete to 28-I.Spiller. 28-I.Spiller pushed ob at BAMA 14 for 14 yards (2-P.Surtain).
-Texas A&M,1Q,1,14,13,1,no play,5,successful,,,0.62,,,,,,,,,"Penalty on BAMA 2-P.Surtain, Offside, 5 yards, enforced at BAMA 14. No Play."
-Texas A&M,1Q,1,15,14,1,no play,4,successful,,,0.64,,,,,P.Mathis,X.McKinney,0.5,0.5,"28-I.Spiller to BAMA 7 for 2 yards (48-P.Mathis,15-X.McKinney). Penalty on BAMA 33-A.Jennings, Offside, 4 yards, enforced at BAMA 9. No Play."
-Texas A&M,1Q,1,16,15,1,pass,-15,not successful,,0.80,0.60,0.62,,K.Mond,Q.Davis,,,,,"11-K.Mond complete to 1-Q.Davis. 1-Q.Davis to BAMA 1 for 4 yards. Penalty on TXAM 13-K.Rogers, Personal Foul, 15 yards, enforced at BAMA 1."
-Texas A&M,1Q,1,17,16,1,run,7,successful,0.44,,0.63,0.64,K.Mond,,,A.Jennings,,1,,11-K.Mond to BAMA 9 for 7 yards (33-A.Jennings).
-Texas A&M,1Q,1,18,17,2,run,8,successful,0.50,,0.65,0.67,K.Mond,,,P.Mathis,,1,,11-K.Mond to BAMA 1 for 8 yards (48-P.Mathis).
-Texas A&M,1Q,1,19,18,1,run,1,successful,0.55,,0.67,0.69,K.Mond,,,,,,, 11-K.Mond runs 1 yard for a touchdown.
-Alabama,1Q,1,22,1,1,pass,3,not successful,,0.00,0.00,0.00,,T.Tagovailoa,N.Harris,B.Johnson,,1,,13-T.Tagovailoa complete to 22-N.Harris. 22-N.Harris pushed ob at BAMA 30 for 3 yards (1-B.Johnson).
-Alabama,1Q,1,23,2,2,pass,11,successful,,0.50,0.50,0.00,,T.Tagovailoa,D.Smith,M.Jones,,1,,13-T.Tagovailoa complete to 6-D.Smith. 6-D.Smith to BAMA 41 for 11 yards (10-M.Jones).
-Alabama,1Q,1,24,3,1,pass,,not successful,,0.33,0.33,0.00,,T.Tagovailoa,D.Smith,,,,,13-T.Tagovailoa incomplete. Intended for 6-D.Smith.
-Alabama,1Q,1,25,4,2,run,4,not successful,0.00,,0.25,0.25,N.Harris,,,B.Johnson,D.Richardson,0.5,0.5,"22-N.Harris to BAMA 45 for 4 yards (1-B.Johnson,26-D.Richardson)."
-Alabama,1Q,1,26,5,3,pass,7,successful,,0.50,0.40,0.20,,T.Tagovailoa,J.Jeudy,C.Oliver,,1,,13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy to TXAM 48 for 7 yards (21-C.Oliver).
-Alabama,1Q,1,27,6,1,pass,4,not successful,,0.40,0.33,0.17,,T.Tagovailoa,D.Smith,C.Oliver,K.Carper,0.5,0.5,"13-T.Tagovailoa complete to 6-D.Smith. 6-D.Smith to TXAM 44 for 4 yards (21-C.Oliver,14-K.Carper)."
-Alabama,1Q,1,28,7,2,run,10,successful,0.50,,0.43,0.29,N.Harris,,,D.Richardson,,1,,22-N.Harris to TXAM 34 for 10 yards (26-D.Richardson).
-Alabama,1Q,1,29,8,1,pass,,not successful,,0.33,0.38,0.25,,T.Tagovailoa,D.Smith,,,,,13-T.Tagovailoa incomplete. Intended for 6-D.Smith.
-Alabama,1Q,1,30,9,2,run,3,not successful,0.33,,0.33,0.33,N.Harris,,,K.Carper,J.Peevy,0.5,0.5,"22-N.Harris to TXAM 31 for 3 yards (14-K.Carper,92-J.Peevy)."
-Alabama,1Q,1,31,10,3,pass,31,explosive,,0.43,0.40,0.30,,T.Tagovailoa,J.Waddle,,,,, 13-T.Tagovailoa complete to 17-J.Waddle. 17-J.Waddle runs 31 yards for a touchdown.
-Texas A&M,1Q,2,34,19,1,pass,,not successful,,0.67,0.63,0.65,,K.Mond,Q.Davis,,,,,11-K.Mond incomplete. Intended for 1-Q.Davis.
-Texas A&M,1Q,2,35,20,2,run,-4,not successful,0.50,,0.60,0.67,K.Mond,,,A.Jennings,,1,,11-K.Mond to TXAM 21 for -4 yards (33-A.Jennings).
-Texas A&M,1Q,2,36,21,3,pass,-2,not successful,,0.57,0.57,0.63,,K.Mond,,J.Eboigbe,S.Lee,0.5,0.5,"11-K.Mond sacked at TXAM 19 for -2 yards (92-J.Eboigbe,35-S.Lee)."
-Alabama,1Q,2,38,11,1,no play,10,successful,,,0.45,,,,,,,,,"13-T.Tagovailoa incomplete. Intended for 4-J.Jeudy. Penalty on TXAM 2-E.Blades, Holding, 10 yards, enforced at BAMA 43. No Play."
-Alabama,1Q,2,39,12,1,pass,0,not successful,,0.38,0.42,0.27,,T.Tagovailoa,N.Harris,M.Jones,,1,,13-T.Tagovailoa complete to 22-N.Harris. 22-N.Harris to TXAM 47 for no gain (10-M.Jones).
-Alabama,1Q,2,40,13,2,pass,,not successful,,0.33,0.38,0.25,,T.Tagovailoa,D.Smith,,,,,13-T.Tagovailoa incomplete. Intended for 6-D.Smith.
-Alabama,1Q,2,41,14,3,pass,47,explosive,,0.40,0.43,0.23,,T.Tagovailoa,D.Smith,,,,, 13-T.Tagovailoa complete to 6-D.Smith. 6-D.Smith runs 47 yards for a touchdown.
-Texas A&M,1Q,3,44,23,1,pass,31,explosive,,0.63,0.59,0.60,,K.Mond,J.Ausbon,,,,,11-K.Mond complete to 2-J.Ausbon. 2-J.Ausbon to BAMA 44 for 31 yards.
-Texas A&M,1Q,3,45,24,1,run,2,not successful,0.46,,0.57,0.62,I.Spiller,,,S.Lee,,1,,28-I.Spiller to BAMA 42 for 2 yards (35-S.Lee).
-Texas A&M,2Q,4,47,26,2,pass,14,successful,,0.67,0.58,0.59,,K.Mond,Q.Davis,J.Mayden,X.McKinney,0.5,0.5,"11-K.Mond complete to 1-Q.Davis. 1-Q.Davis to BAMA 33 for 14 yards (21-J.Mayden,15-X.McKinney)."
-Texas A&M,2Q,4,48,27,1,pass,,not successful,,0.60,0.56,0.57,,K.Mond,Q.Davis,,,,,11-K.Mond incomplete. Intended for 1-Q.Davis.
-Texas A&M,2Q,4,49,28,2,pass,0,not successful,,0.55,0.54,0.54,,K.Mond,I.Spiller,S.Carter,,1,,11-K.Mond complete to 28-I.Spiller. 28-I.Spiller to BAMA 33 for no gain (5-S.Carter).
-Texas A&M,2Q,4,50,29,3,pass,17,explosive,,0.58,0.56,0.52,,K.Mond,Q.Davis,S.Carter,,1,,11-K.Mond complete to 1-Q.Davis. 1-Q.Davis pushed ob at BAMA 16 for 17 yards (5-S.Carter).
-Texas A&M,2Q,4,51,30,1,run,2,not successful,0.43,,0.54,0.54,K.Mond,,,X.McKinney,,1,,11-K.Mond scrambles to BAMA 14 for 2 yards (15-X.McKinney).
-Texas A&M,2Q,4,52,31,2,pass,,not successful,,0.54,0.52,0.52,,K.Mond,J.Ausbon,,,,,11-K.Mond incomplete. Intended for 2-J.Ausbon.
-Texas A&M,2Q,4,53,32,3,pass,,not successful,,0.50,0.50,0.50,,K.Mond,K.Rogers,,,,,11-K.Mond incomplete. Intended for 13-K.Rogers.
-Alabama,2Q,3,57,15,1,run,3,not successful,0.25,,0.40,0.29,B.Robinson,,,C.Chattman,,1,,24-B.Robinson to BAMA 41 for 3 yards (22-C.Chattman).
-Alabama,2Q,3,58,16,2,pass,13,successful,,0.45,0.44,0.27,,T.Tagovailoa,D.Smith,M.Jones,,1,,13-T.Tagovailoa complete to 6-D.Smith. 6-D.Smith pushed ob at TXAM 46 for 13 yards (10-M.Jones).
-Alabama,2Q,3,59,17,1,pass,10,successful,,0.50,0.47,0.25,,T.Tagovailoa,B.Robinson,A.Hines,,1,,13-T.Tagovailoa complete to 24-B.Robinson. 24-B.Robinson pushed ob at TXAM 36 for 10 yards (19-A.Hines).
-Alabama,2Q,3,60,18,1,run,15,explosive,0.40,,0.50,0.29,B.Robinson,,,D.Richardson,D.Leal,0.5,0.5,"24-B.Robinson to TXAM 21 for 15 yards (26-D.Richardson,8-D.Leal)."
-Alabama,2Q,3,61,19,1,run,-2,not successful,0.33,,0.47,0.33,B.Robinson,,,T.Johnson,J.Madubuike,0.5,0.5,"24-B.Robinson to TXAM 23 for -2 yards (3-T.Johnson,52-J.Madubuike)."
-Alabama,2Q,3,62,20,2,pass,7,not successful,,0.46,0.45,0.32,,T.Tagovailoa,J.Waddle,C.Chattman,,1,,13-T.Tagovailoa complete to 17-J.Waddle. 17-J.Waddle to TXAM 16 for 7 yards (22-C.Chattman).
-Alabama,2Q,3,63,21,3,pass,,not successful,,0.43,0.43,0.30,,T.Tagovailoa,J.Jeudy,,,,,13-T.Tagovailoa incomplete. Intended for 4-J.Jeudy.
-Texas A&M,2Q,5,66,34,1,run,-3,not successful,0.40,,0.48,0.52,I.Spiller,,,C.Harris,,1,,28-I.Spiller to TXAM 22 for -3 yards (8-C.Harris).
-Texas A&M,2Q,5,67,35,2,pass,-4,not successful,,0.47,0.47,0.50,,K.Mond,,T.Lewis,,1,,11-K.Mond sacked at TXAM 18 for -4 yards (24-T.Lewis).
-Texas A&M,2Q,5,68,36,3,pass,-4,not successful,,0.44,0.45,0.48,,K.Mond,,C.Barmore,,1,,11-K.Mond sacked at TXAM 14 for -4 yards (58-C.Barmore).
-Alabama,2Q,4,70,23,1,run,3,not successful,0.29,,0.41,0.33,N.Harris,,,B.Johnson,,1,,22-N.Harris to TXAM 16 for 3 yards (1-B.Johnson).
-Alabama,2Q,4,71,24,2,pass,,not successful,,0.40,0.39,0.32,,T.Tagovailoa,N.Harris,,,,,13-T.Tagovailoa incomplete. Intended for 22-N.Harris.
-Alabama,2Q,4,72,25,3,pass,16,explosive,,0.44,0.42,0.30,,T.Tagovailoa,N.Harris,,,,, 13-T.Tagovailoa complete to 22-N.Harris. 22-N.Harris runs 16 yards for a touchdown.
-Texas A&M,2Q,6,75,38,1,pass,,not successful,,0.41,0.44,0.47,,K.Mond,Q.Davis,,,,,11-K.Mond incomplete. Intended for 1-Q.Davis.
-Texas A&M,2Q,6,76,39,2,run,,not successful,0.38,,0.43,0.48,I.Spiller,,,S.Carter,,,,"28-I.Spiller to TXAM 26, FUMBLES (5-S.Carter). 15-X.McKinney to TXAM 26 for no gain."
-Alabama,2Q,5,77,26,1,pass,7,successful,,0.47,0.44,0.29,,T.Tagovailoa,D.Smith,B.Johnson,,1,,13-T.Tagovailoa complete to 6-D.Smith. 6-D.Smith to TXAM 19 for 7 yards (1-B.Johnson).
-Alabama,2Q,5,78,27,2,run,0,not successful,0.25,,0.42,0.32,B.Robinson,,,D.Richardson,T.Johnson,0.5,0.5,"24-B.Robinson to TXAM 19 for no gain (26-D.Richardson,3-T.Johnson)."
-Alabama,2Q,5,79,28,3,pass,5,successful,,0.50,0.44,0.31,,T.Tagovailoa,J.Jeudy,C.Chattman,,1,,13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy to TXAM 14 for 5 yards (22-C.Chattman).
-Alabama,2Q,5,80,29,1,run,-1,not successful,0.22,,0.43,0.33,N.Harris,,,B.Johnson,,1,,22-N.Harris to TXAM 15 for -1 yard (1-B.Johnson).
-Alabama,2Q,5,81,30,2,run,2,not successful,0.20,,0.41,0.36,N.Harris,,,J.Madubuike,,1,,22-N.Harris to TXAM 13 for 2 yards (52-J.Madubuike).
-Alabama,2Q,5,82,31,3,pass,,not successful,,0.47,0.40,0.34,,T.Tagovailoa,J.Jeudy,J.Jeudy,H.Ruggs,,,"13-T.Tagovailoa incomplete. Intended for 4-J.Jeudy, INTERCEPTED by 26-D.Richardson at TXAM End Zone. 26-D.Richardson to TXAM 16 for 16 yards (4-J.Jeudy,11-H.Ruggs)."
-Texas A&M,2Q,7,83,40,1,run,5,successful,0.41,,0.44,0.50,I.Spiller,,,D.Dale,,1,,28-I.Spiller to TXAM 21 for 5 yards (94-D.Dale).
-Texas A&M,2Q,7,84,41,2,pass,10,successful,,0.44,0.46,0.49,,K.Mond,A.Smith,S.Carter,,1,,11-K.Mond complete to 17-A.Smith. 17-A.Smith to TXAM 31 for 10 yards (5-S.Carter).
-Texas A&M,2Q,7,85,42,1,pass,,not successful,,0.42,0.45,0.47,,K.Mond,I.Spiller,,,,,11-K.Mond incomplete. Intended for 28-I.Spiller.
-Texas A&M,2Q,7,86,43,2,pass,15,successful,,0.45,0.46,0.46,,K.Mond,J.Ausbon,P.Surtain,,1,,"11-K.Mond complete to 2-J.Ausbon. 2-J.Ausbon to TXAM 40 for 9 yards (2-P.Surtain). Penalty on BAMA 33-A.Jennings, Roughing the passer, 15 yards, enforced at TXAM 40."
-Texas A&M,2Q,7,87,44,1,pass,11,successful,,0.48,0.48,0.45,,K.Mond,A.Smith,X.McKinney,,1,,11-K.Mond complete to 17-A.Smith. 17-A.Smith to BAMA 34 for 11 yards (15-X.McKinney).
-Texas A&M,2Q,7,89,46,1,pass,3,not successful,,0.45,0.46,0.44,,K.Mond,I.Spiller,X.McKinney,,1,,11-K.Mond complete to 28-I.Spiller. 28-I.Spiller to BAMA 41 for 3 yards (15-X.McKinney).
-Texas A&M,2Q,7,90,47,2,pass,11,not successful,,0.43,0.45,0.43,,K.Mond,I.Spiller,A.Jennings,,1,,11-K.Mond complete to 28-I.Spiller. 28-I.Spiller pushed ob at BAMA 30 for 11 yards (33-A.Jennings).
-Texas A&M,2Q,7,91,48,3,no play,15,successful,,,0.47,,,,,,,,,"11-K.Mond incomplete. Intended for 1-Q.Davis. Penalty on BAMA 58-C.Barmore, Personal Foul, 15 yards, enforced at BAMA 30. No Play."
-Texas A&M,2Q,7,92,49,1,pass,,not successful,,0.42,0.45,0.41,,K.Mond,I.Spiller,,,,,11-K.Mond incomplete. Intended for 28-I.Spiller.
-Alabama,3Q,6,95,32,1,run,6,successful,0.27,,0.42,0.37,N.Harris,,,A.Hines,J.Madubuike,0.5,0.5,"22-N.Harris to BAMA 46 for 6 yards (19-A.Hines,52-J.Madubuike)."
-Alabama,3Q,6,96,33,2,pass,,not successful,,0.45,0.41,0.35,,T.Tagovailoa,H.Ruggs,,,,,13-T.Tagovailoa incomplete. Intended for 11-H.Ruggs.
-Alabama,3Q,6,97,34,3,pass,12,successful,,0.48,0.42,0.34,,T.Tagovailoa,J.Jeudy,E.Blades,,1,,13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy pushed ob at TXAM 42 for 12 yards (2-E.Blades).
-Alabama,3Q,6,98,35,1,run,11,successful,0.33,,0.44,0.36,N.Harris,,,E.Blades,,1,,22-N.Harris pushed ob at TXAM 31 for 11 yards (2-E.Blades).
-Alabama,3Q,6,99,36,1,pass,26,explosive,,0.50,0.46,0.35,,T.Tagovailoa,J.Jeudy,D.Richardson,,1,,13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy pushed ob at TXAM 5 for 26 yards (26-D.Richardson).
-Alabama,3Q,6,100,37,1,pass,-10,not successful,,0.48,0.44,0.34,,T.Tagovailoa,,A.Hansford,,1,,13-T.Tagovailoa sacked at TXAM 15 for -10 yards (33-A.Hansford).
-Alabama,3Q,6,101,38,2,pass,11,successful,,0.50,0.46,0.33,,T.Tagovailoa,M.Forristall,B.Johnson,,1,,13-T.Tagovailoa complete to 87-M.Forristall. 87-M.Forristall to TXAM 4 for 11 yards (1-B.Johnson).
-Alabama,3Q,6,103,40,3,pass,,not successful,,0.48,0.45,0.32,,T.Tagovailoa,J.Waddle,,,,,13-T.Tagovailoa incomplete. Intended for 17-J.Waddle.
-Texas A&M,3Q,8,106,51,1,pass,4,not successful,,0.40,0.44,0.40,,K.Mond,J.Ausbon,S.Lee,J.Mayden,0.5,0.5,"11-K.Mond complete to 2-J.Ausbon. 2-J.Ausbon to TXAM 29 for 4 yards (35-S.Lee,21-J.Mayden)."
-Texas A&M,3Q,8,107,52,2,pass,,not successful,,0.38,0.43,0.40,,K.Mond,Q.Davis,,,,,11-K.Mond incomplete. Intended for 1-Q.Davis.
-Texas A&M,3Q,8,108,53,3,pass,-3,not successful,,0.37,0.43,0.39,,K.Mond,,T.Lewis,,1,,11-K.Mond sacked at TXAM 26 for -3 yards (24-T.Lewis).
-Alabama,3Q,7,110,42,1,pass,,not successful,,0.46,0.44,0.32,,T.Tagovailoa,J.Jeudy,,,,,13-T.Tagovailoa incomplete. Intended for 4-J.Jeudy.
-Alabama,3Q,7,111,43,2,pass,10,successful,,0.48,0.45,0.31,,T.Tagovailoa,J.Waddle,B.Johnson,,1,,13-T.Tagovailoa complete to 17-J.Waddle. 17-J.Waddle pushed ob at TXAM 45 for 10 yards (1-B.Johnson).
-Alabama,3Q,7,113,45,1,pass,12,successful,,0.50,0.46,0.30,,T.Tagovailoa,D.Smith,C.Chattman,M.Jones,0.5,0.5,"13-T.Tagovailoa complete to 6-D.Smith. 6-D.Smith to TXAM 38 for 12 yards (22-C.Chattman,10-M.Jones)."
-Alabama,3Q,7,114,46,2,run,5,successful,0.38,,0.48,0.32,N.Harris,,,C.Chattman,B.Johnson,0.5,0.5,"22-N.Harris to TXAM 33 for 5 yards (22-C.Chattman,1-B.Johnson)."
-Alabama,3Q,7,115,47,1,pass,33,explosive,,0.52,0.49,0.31,,T.Tagovailoa,H.Ruggs,,,,, 13-T.Tagovailoa complete to 11-H.Ruggs. 11-H.Ruggs runs 33 yards for a touchdown.
-Texas A&M,3Q,9,118,55,1,run,20,explosive,0.44,,0.44,0.40,K.Mond,,,S.Lee,,1,,11-K.Mond scrambles to TXAM 38 for 20 yards (35-S.Lee).
-Texas A&M,3Q,9,119,56,1,pass,12,successful,,0.39,0.45,0.39,,K.Mond,Q.Davis,B.Davis,,1,,11-K.Mond complete to 1-Q.Davis. 1-Q.Davis pushed ob at TXAM 50 for 12 yards (1-B.Davis).
-Texas A&M,3Q,9,120,57,1,no play,10,successful,,,0.46,,,,,K.Mond,,1,,"11-K.Mond incomplete. Intended for 2-J.Ausbon, INTERCEPTED by 7-T.Diggs at BAMA 47. 7-T.Diggs pushed ob at TXAM 16 for 37 yards (11-K.Mond). Penalty on BAMA 7-T.Diggs, Holding, 10 yards, enforced at TXAM 50. No Play."
-Texas A&M,3Q,9,121,58,1,pass,,not successful,,0.38,0.45,0.38,,K.Mond,A.Smith,,,,,11-K.Mond incomplete. Intended for 17-A.Smith.
-Texas A&M,3Q,9,122,59,2,pass,15,explosive,,0.40,0.46,0.38,,K.Mond,Q.Davis,J.Mayden,,1,,11-K.Mond complete to 1-Q.Davis. 1-Q.Davis to BAMA 25 for 15 yards (21-J.Mayden).
-Texas A&M,3Q,9,123,60,1,pass,,not successful,,0.39,0.45,0.37,,K.Mond,Q.Davis,,,,,11-K.Mond incomplete. Intended for 1-Q.Davis.
-Texas A&M,3Q,9,124,61,2,pass,25,explosive,,0.41,0.46,0.36,,K.Mond,J.Wydermyer,,,,, 11-K.Mond complete to 85-J.Wydermyer. 85-J.Wydermyer runs 25 yards for a touchdown.
-Alabama,3Q,8,128,49,1,pass,23,explosive,,0.53,0.50,0.30,,T.Tagovailoa,B.Robinson,D.Renfro,,1,,13-T.Tagovailoa complete to 24-B.Robinson. 24-B.Robinson pushed ob at BAMA 39 for 23 yards (29-D.Renfro).
-Alabama,3Q,8,129,50,1,run,6,successful,0.43,,0.51,0.32,N.Harris,,,L.O'Neal,,1,,22-N.Harris to BAMA 45 for 6 yards (9-L.O'Neal).
-Alabama,3Q,8,130,51,2,run,3,successful,0.47,,0.52,0.33,N.Harris,,,D.Richardson,J.Madubuike,0.5,0.5,"22-N.Harris to BAMA 48 for 3 yards (26-D.Richardson,52-J.Madubuike)."
-Alabama,3Q,8,131,52,3,run,4,successful,0.50,,0.53,0.35,B.Robinson,,,D.Richardson,J.Peevy,0.5,0.5,"24-B.Robinson to TXAM 48 for 4 yards (26-D.Richardson,92-J.Peevy)."
-Alabama,3Q,8,132,53,1,pass,,not successful,,0.52,0.52,0.34,,T.Tagovailoa,J.Jeudy,,,,,13-T.Tagovailoa incomplete. Intended for 4-J.Jeudy.
-Alabama,3Q,8,133,54,2,run,0,not successful,0.47,,0.51,0.35,N.Harris,,,A.Hines,T.Johnson,0.5,0.5,"22-N.Harris to TXAM 48 for no gain (19-A.Hines,3-T.Johnson)."
-Alabama,3Q,8,134,55,3,pass,,not successful,,0.50,0.50,0.35,,T.Tagovailoa,J.Jeudy,,,,,13-T.Tagovailoa incomplete. Intended for 4-J.Jeudy.
-Texas A&M,3Q,10,136,62,1,pass,14,successful,,0.42,0.47,0.35,,K.Mond,Q.Davis,,,,,11-K.Mond complete to 1-Q.Davis. 1-Q.Davis runs ob at TXAM 36 for 14 yards.
-Texas A&M,3Q,10,137,63,1,pass,,not successful,,0.41,0.46,0.35,,K.Mond,K.Rogers,,,,,11-K.Mond incomplete. Intended for 13-K.Rogers.
-Texas A&M,3Q,10,139,65,2,pass,,not successful,,0.40,0.46,0.34,,K.Mond,J.Kibodi,,,,,11-K.Mond incomplete. Intended for 23-J.Kibodi.
-Texas A&M,3Q,10,140,66,3,pass,13,not successful,,0.39,0.45,0.33,,K.Mond,I.Spiller,T.Diggs,S.Carter,0.5,0.5,"11-K.Mond complete to 28-I.Spiller. 28-I.Spiller to TXAM 34 for 13 yards (7-T.Diggs,5-S.Carter)."
-Alabama,3Q,9,142,57,1,pass,,not successful,,0.48,0.49,0.34,,T.Tagovailoa,D.Smith,,,,,13-T.Tagovailoa incomplete. Intended for 6-D.Smith.
-Alabama,4Q,10,143,58,2,run,15,explosive,0.50,,0.50,0.35,N.Harris,,,B.Johnson,A.Hines,0.5,0.5,"22-N.Harris to TXAM 18 for 15 yards (1-B.Johnson,19-A.Hines)."
-Alabama,4Q,10,144,59,1,run,14,successful,0.53,,0.51,0.37,N.Harris,,,D.Richardson,K.Carper,0.5,0.5,"22-N.Harris to TXAM 4 for 14 yards (26-D.Richardson,14-K.Carper)."
-Alabama,4Q,10,145,60,1,run,2,successful,0.55,,0.52,0.38,N.Harris,,,J.Madubuike,D.Leal,0.5,0.5,"22-N.Harris to TXAM 2 for 2 yards (52-J.Madubuike,8-D.Leal)."
-Alabama,4Q,10,146,61,2,run,2,successful,0.57,,0.53,0.39,B.Robinson,,,,,,, 24-B.Robinson runs 2 yards for a touchdown.
-Texas A&M,4Q,11,149,68,1,pass,-3,not successful,,0.38,0.44,0.33,,K.Mond,,A.Jennings,,1,,11-K.Mond sacked at TXAM 22 for -3 yards (33-A.Jennings).
-Texas A&M,4Q,11,150,69,2,pass,,not successful,,0.37,0.43,0.32,,K.Mond,A.Smith,,,,,11-K.Mond incomplete. Intended for 17-A.Smith.
-Texas A&M,4Q,11,151,70,3,run,2,not successful,0.42,,0.43,0.33,K.Mond,,,S.Carter,,1,,"11-K.Mond to TXAM 22, FUMBLES. 11-K.Mond recovers at the TXAM 22. 11-K.Mond to TXAM 24 for 2 yards (5-S.Carter)."
-Texas A&M,4Q,11,152,71,4,punt,,not successful,,,0.42,,,,,,,,, punts -9 yards from TXAM 24 blocked by 10-A.Kaho. 14-T.Shavers runs 2 yards for a touchdown.
-Texas A&M,4Q,12,155,72,1,run,3,not successful,0.40,,0.41,0.34,J.Kibodi,,,A.Jennings,,1,,23-J.Kibodi to TXAM 28 for 3 yards (33-A.Jennings).
-Texas A&M,4Q,12,156,73,2,pass,6,successful,,0.38,0.42,0.34,,K.Mond,J.Wydermyer,P.Surtain,,1,,11-K.Mond complete to 85-J.Wydermyer. 85-J.Wydermyer pushed ob at TXAM 34 for 6 yards (2-P.Surtain).
-Texas A&M,4Q,12,157,74,3,run,5,successful,0.43,,0.43,0.35,J.Kibodi,,,A.Jennings,D.Dale,0.5,0.5,"23-J.Kibodi to TXAM 39 for 5 yards (33-A.Jennings,94-D.Dale)."
-Texas A&M,4Q,12,158,75,1,pass,,not successful,,0.38,0.42,0.34,,K.Mond,Q.Davis,,,,,11-K.Mond incomplete. Intended for 1-Q.Davis.
-Texas A&M,4Q,12,159,76,2,pass,7,successful,,0.39,0.43,0.34,,K.Mond,J.Kibodi,C.Allen,,1,,11-K.Mond complete to 23-J.Kibodi. 23-J.Kibodi to TXAM 46 for 7 yards (4-C.Allen).
-Texas A&M,4Q,12,160,77,3,run,36,explosive,0.45,,0.44,0.35,K.Mond,,,J.Mayden,T.Diggs,0.5,0.5,"11-K.Mond scrambles to BAMA 18 for 36 yards (21-J.Mayden,7-T.Diggs)."
-Texas A&M,4Q,12,161,78,1,pass,18,explosive,,0.40,0.45,0.34,,K.Mond,J.Wydermyer,,,,, 11-K.Mond complete to 85-J.Wydermyer. 85-J.Wydermyer runs 18 yards for a touchdown.
-Alabama,4Q,12,165,62,1,run,0,not successful,0.55,,0.52,0.40,N.Harris,,,B.Johnson,,1,,22-N.Harris to BAMA 33 for no gain (1-B.Johnson).
-Alabama,4Q,12,166,63,2,run,25,explosive,0.57,,0.53,0.41,N.Harris,,,D.Richardson,,1,,22-N.Harris pushed ob at TXAM 42 for 25 yards (26-D.Richardson).
-Alabama,4Q,12,167,64,1,run,-4,not successful,0.54,,0.52,0.42,N.Harris,,,A.Hines,,1,,22-N.Harris to TXAM 46 for -4 yards (19-A.Hines).
-Alabama,4Q,12,168,65,2,pass,5,not successful,,0.47,0.51,0.41,,T.Tagovailoa,D.Smith,B.Brown,C.Chattman,0.5,0.5,"13-T.Tagovailoa complete to 6-D.Smith. 6-D.Smith to TXAM 41 for 5 yards (5-B.Brown,22-C.Chattman)."
-Alabama,4Q,12,169,66,3,pass,,not successful,,0.46,0.50,0.41,,T.Tagovailoa,N.Harris,,,,,13-T.Tagovailoa incomplete. Intended for 22-N.Harris.
-Texas A&M,4Q,13,171,79,1,run,22,explosive,0.48,,0.46,0.35,K.Mond,,,,,,,"11-K.Mond scrambles, runs ob at TXAM 40 for 22 yards."
-Texas A&M,4Q,13,172,80,1,run,8,successful,0.50,,0.46,0.36,K.Mond,,,C.Harris,,1,,11-K.Mond scrambles to TXAM 48 for 8 yards (8-C.Harris).
-Texas A&M,4Q,13,173,81,2,pass,5,successful,,0.42,0.47,0.36,,K.Mond,J.Ausbon,T.Diggs,,1,,11-K.Mond complete to 2-J.Ausbon. 2-J.Ausbon to BAMA 47 for 5 yards (7-T.Diggs).
-Texas A&M,4Q,13,174,82,1,pass,,not successful,,0.41,0.47,0.35,,K.Mond,,,,,,11-K.Mond incomplete.
-Texas A&M,4Q,13,175,83,2,pass,,not successful,,0.40,0.46,0.35,,K.Mond,J.Kibodi,,,,,11-K.Mond incomplete. Intended for 23-J.Kibodi.
-Texas A&M,4Q,13,176,84,3,pass,,not successful,,0.39,0.45,0.34,,K.Mond,J.Ausbon,,,,,11-K.Mond incomplete. Intended for 2-J.Ausbon.
-Texas A&M,4Q,13,177,85,4,pass,,not successful,,0.38,0.45,0.34,,K.Mond,J.Ausbon,,,,,11-K.Mond incomplete. Intended for 2-J.Ausbon.
-Alabama,4Q,13,179,69,1,run,8,successful,0.56,,0.51,0.42,B.Robinson,,,D.Leal,C.Chattman,0.5,0.5,"24-B.Robinson to TXAM 49 for 8 yards (8-D.Leal,22-C.Chattman)."
-Alabama,4Q,13,181,71,2,run,6,successful,0.58,,0.52,0.43,B.Robinson,,,D.Richardson,,1,,24-B.Robinson pushed ob at TXAM 43 for 6 yards (26-D.Richardson).
-Alabama,4Q,13,182,72,3,run,3,successful,0.59,,0.52,0.44,B.Robinson,,,L.O'Neal,J.Madubuike,0.5,0.5,"24-B.Robinson to TXAM 40 for 3 yards (9-L.O'Neal,52-J.Madubuike)."
-Alabama,4Q,13,183,73,1,penalty,-15,not successful,,,0.52,,,,,A.Hines,,1,,"24-B.Robinson to TXAM 28 for 12 yards (19-A.Hines). Penalty on BAMA 74-J.Wills, Unsportsmanlike conduct, 15 yards, enforced at TXAM 28."
-Alabama,4Q,13,184,74,1,run,5,successful,0.61,,0.52,0.44,N.Harris,,,B.Johnson,,1,,22-N.Harris to TXAM 38 for 5 yards (1-B.Johnson).
-Alabama,4Q,13,185,75,2,run,5,successful,0.62,,0.53,0.45,N.Harris,,,B.Brown,D.Richardson,0.5,0.5,"22-N.Harris to TXAM 33 for 5 yards (5-B.Brown,26-D.Richardson)."
+Georgia,1Q,1,2,1,1,run,4,not successful,0.00,,0.00,1.00,D.Swift,,,K.Smith,J.Kinlaw,0.5,0.5,"7-D.Swift to UGA 29 for 4 yards (95-K.Smith,3-J.Kinlaw)."
+Georgia,1Q,1,3,2,2,pass,8,successful,,1.00,0.50,0.50,,J.Fromm,L.Cager,I.Mukuamu,,1,,11-J.Fromm complete to 15-L.Cager. 15-L.Cager to UGA 37 for 8 yards (24-I.Mukuamu).
+Georgia,1Q,1,4,3,1,pass,14,successful,,1.00,0.67,0.33,,J.Fromm,T.Simmons,,,,,11-J.Fromm complete to 87-T.Simmons. 87-T.Simmons runs ob at SC 49 for 14 yards.
+Georgia,1Q,1,5,4,1,run,7,successful,0.50,,0.75,0.50,D.Swift,,,S.Greene,I.Mukuamu,0.5,0.5,"7-D.Swift to SC 42 for 7 yards (44-S.Greene,24-I.Mukuamu)."
+Georgia,1Q,1,6,5,2,run,5,successful,0.67,,0.80,0.60,D.Swift,,,S.Greene,,1,,7-D.Swift to SC 37 for 5 yards (44-S.Greene).
+Georgia,1Q,1,7,6,1,pass,2,not successful,,0.67,0.67,0.50,,J.Fromm,D.Swift,T.Brunson,,1,,11-J.Fromm complete to 7-D.Swift. 7-D.Swift to SC 35 for 2 yards (6-T.Brunson).
+Georgia,1Q,1,8,7,2,run,3,not successful,0.50,,0.57,0.57,D.Swift,,,S.Greene,,1,,7-D.Swift to SC 32 for 3 yards (44-S.Greene).
+Georgia,1Q,1,9,8,3,pass,-1,not successful,,0.50,0.50,0.50,,J.Fromm,,K.Enagbare,,1,,11-J.Fromm sacked at SC 33 for -1 yard (52-K.Enagbare).
+South Carolina,1Q,1,12,1,1,run,1,not successful,0.00,,0.00,1.00,S.Smith,,,T.Crowder,A.Ojulari,0.5,0.5,"13-S.Smith to SC 26 for 1 yard (30-T.Crowder,13-A.Ojulari)."
+South Carolina,1Q,1,13,2,2,pass,,not successful,,0.00,0.00,0.50,,R.Hilinski,C.Dawkins,,,,,3-R.Hilinski incomplete. Intended for 83-C.Dawkins.
+South Carolina,1Q,1,14,3,3,pass,5,not successful,,0.00,0.00,0.33,,R.Hilinski,B.Edwards,J.Reed,,1,,3-R.Hilinski complete to 89-B.Edwards. 89-B.Edwards to SC 31 for 5 yards (20-J.Reed).
+Georgia,1Q,2,16,10,1,pass,4,not successful,,0.40,0.44,0.44,,J.Fromm,D.Robertson,J.Horn,,1,,11-J.Fromm complete to 16-D.Robertson. 16-D.Robertson pushed ob at UGA 15 for 4 yards (1-J.Horn).
+Georgia,1Q,2,17,11,2,run,5,successful,0.60,,0.50,0.50,J.Cook,,,R.Roderick,I.Mukuamu,0.5,0.5,"4-J.Cook to UGA 20 for 5 yards (10-R.Roderick,24-I.Mukuamu)."
+Georgia,1Q,2,18,12,3,run,2,successful,0.67,,0.55,0.55,D.Swift,,,J.Kinlaw,A.Sterling,0.5,0.5,"7-D.Swift to UGA 22 for 2 yards (3-J.Kinlaw,15-A.Sterling)."
+Georgia,1Q,2,19,13,1,run,7,successful,0.71,,0.58,0.58,Z.White,,,I.Mukuamu,,1,,3-Z.White to UGA 29 for 7 yards (24-I.Mukuamu).
+Georgia,1Q,2,20,14,2,run,-2,not successful,0.63,,0.54,0.62,Z.White,,,T.Brunson,,1,,3-Z.White to UGA 27 for -2 yards (6-T.Brunson).
+Georgia,1Q,2,21,15,3,pass,,not successful,,0.33,0.50,0.57,,J.Fromm,E.Wolf,,,,,11-J.Fromm incomplete. Intended for 17-E.Wolf.
+South Carolina,1Q,2,23,5,1,run,6,successful,0.50,,0.25,0.50,R.Dowdle,,,M.Barnett,A.Ojulari,0.5,0.5,"5-R.Dowdle to SC 13 for 6 yards (94-M.Barnett,13-A.Ojulari)."
+South Carolina,1Q,2,24,6,2,run,2,not successful,0.33,,0.20,0.60,R.Dowdle,,,M.Rice,,1,,5-R.Dowdle to SC 15 for 2 yards (32-M.Rice).
+South Carolina,1Q,2,25,7,3,pass,12,successful,,0.33,0.33,0.50,,R.Hilinski,N.Muse,,,,,"3-R.Hilinski incomplete. Intended for 9-N.Muse. Penalty on UGA 20-J.Reed, Pass interference, 12 yards, enforced at SC 15. No Play."
+South Carolina,1Q,2,26,8,1,run,1,not successful,0.25,,0.29,0.57,R.Dowdle,,,M.Rice,,1,,5-R.Dowdle to SC 28 for 1 yard (32-M.Rice).
+South Carolina,1Q,2,27,9,2,pass,,not successful,,0.25,0.25,0.50,,R.Hilinski,K.Markway,,,,,3-R.Hilinski incomplete. Intended for 84-K.Markway.
+South Carolina,1Q,2,28,10,3,pass,15,explosive,,0.40,0.33,0.44,,R.Hilinski,B.Edwards,,,,,3-R.Hilinski complete to 89-B.Edwards. 89-B.Edwards to SC 43 for 15 yards.
+South Carolina,1Q,2,29,11,1,run,2,not successful,0.20,,0.30,0.50,T.Feaster,,,M.Barnett,T.Crowder,0.5,0.5,"4-T.Feaster to SC 45 for 2 yards (94-M.Barnett,30-T.Crowder)."
+South Carolina,1Q,2,30,12,2,pass,3,not successful,,0.33,0.27,0.45,,R.Hilinski,J.Vann,J.Reed,,1,,3-R.Hilinski complete to 6-J.Vann. 6-J.Vann to SC 48 for 3 yards (20-J.Reed).
+South Carolina,1Q,2,31,13,3,pass,11,successful,,0.43,0.33,0.42,,R.Hilinski,N.Muse,D.Daniel,,1,,3-R.Hilinski complete to 9-N.Muse. 9-N.Muse to UGA 41 for 11 yards (14-D.Daniel).
+South Carolina,1Q,2,33,15,1,pass,46,explosive,,0.50,0.38,0.38,,R.Hilinski,B.Edwards,,,,, 3-R.Hilinski complete to 89-B.Edwards. 89-B.Edwards runs 46 yards for a touchdown.
+Georgia,1Q,3,36,17,1,run,12,successful,0.67,,0.53,0.60,D.Swift,,,I.Mukuamu,,1,,7-D.Swift to UGA 37 for 12 yards (24-I.Mukuamu).
+Georgia,1Q,3,37,18,1,pass,,not successful,,0.29,0.50,0.56,,J.Fromm,L.Cager,,,,,11-J.Fromm incomplete. Intended for 15-L.Cager.
+Georgia,1Q,3,38,19,2,run,5,not successful,0.60,,0.47,0.59,D.Swift,,,K.Enagbare,,1,,7-D.Swift to UGA 42 for 5 yards (52-K.Enagbare).
+Georgia,1Q,3,39,20,3,pass,10,successful,,0.38,0.50,0.56,,J.Fromm,J.Cook,I.Mukuamu,,1,,11-J.Fromm complete to 4-J.Cook. 4-J.Cook to SC 48 for 10 yards (24-I.Mukuamu).
+Georgia,1Q,3,40,21,1,pass,11,successful,,0.44,0.53,0.53,,J.Fromm,G.Pickens,J.Horn,,1,,11-J.Fromm complete to 1-G.Pickens. 1-G.Pickens to SC 37 for 11 yards (1-J.Horn).
+Georgia,2Q,4,41,22,1,penalty,14,successful,,,0.55,,,,,T.Brunson,,1,,"7-D.Swift to SC 29 for 8 yards (6-T.Brunson). Penalty on SC 6-T.Brunson, Personal Foul, 14 yards, enforced at SC 29."
+Georgia,2Q,4,42,23,1,pass,11,successful,,0.50,0.57,0.50,,J.Fromm,D.Blaylock,J.Robinson,,1,,11-J.Fromm complete to 8-D.Blaylock. 8-D.Blaylock to SC 4 for 11 yards (7-J.Robinson).
+Georgia,2Q,4,43,24,1,run,3,successful,0.64,,0.59,0.52,D.Swift,,,R.Roderick,E.Jones,0.5,0.5,"7-D.Swift to SC 1 for 3 yards (10-R.Roderick,53-E.Jones)."
+Georgia,2Q,4,44,25,2,run,1,successful,0.67,,0.61,0.55,D.Swift,,,,,,, 7-D.Swift runs 1 yard for a touchdown.
+South Carolina,2Q,3,47,16,1,pass,6,successful,,0.56,0.43,0.36,,R.Hilinski,B.Edwards,T.Crowder,M.Rice,0.5,0.5,"3-R.Hilinski complete to 89-B.Edwards. 89-B.Edwards to SC 31 for 6 yards (30-T.Crowder,32-M.Rice)."
+South Carolina,2Q,3,48,17,2,pass,2,not successful,,0.50,0.40,0.33,,R.Hilinski,B.Edwards,E.Stokes,,1,,3-R.Hilinski complete to 89-B.Edwards. 89-B.Edwards to SC 33 for 2 yards (27-E.Stokes).
+South Carolina,2Q,3,49,18,3,pass,7,successful,,0.55,0.44,0.31,,R.Hilinski,N.Muse,E.Stokes,,1,,3-R.Hilinski complete to 9-N.Muse. 9-N.Muse to SC 40 for 7 yards (27-E.Stokes).
+South Carolina,2Q,3,50,19,1,run,9,successful,0.33,,0.47,0.35,R.Dowdle,,,M.Rice,D.Daniel,0.5,0.5,"5-R.Dowdle to SC 49 for 9 yards (32-M.Rice,14-D.Daniel)."
+South Carolina,2Q,3,51,20,2,run,1,successful,0.43,,0.50,0.39,R.Dowdle,,,D.Marshall,,1,,5-R.Dowdle to UGA 50 for 1 yard (51-D.Marshall).
+South Carolina,2Q,3,52,21,1,pass,3,not successful,,0.50,0.47,0.37,,R.Hilinski,R.Dowdle,J.Reed,,1,,3-R.Hilinski complete to 5-R.Dowdle. 5-R.Dowdle to UGA 47 for 3 yards (20-J.Reed).
+South Carolina,2Q,3,53,22,2,run,1,not successful,0.38,,0.45,0.40,T.Feaster,,,N.Dean,,1,,4-T.Feaster to UGA 46 for 1 yard (17-N.Dean).
+South Carolina,2Q,3,54,23,3,pass,5,not successful,,0.46,0.43,0.38,,R.Hilinski,K.Markway,E.Stokes,,1,,3-R.Hilinski complete to 84-K.Markway. 84-K.Markway to UGA 41 for 5 yards (27-E.Stokes).
+Georgia,2Q,5,57,26,1,run,12,successful,0.69,,0.63,0.57,Z.White,,,D.Wonnum,,1,,3-Z.White to UGA 24 for 12 yards (8-D.Wonnum).
+Georgia,2Q,5,58,27,1,run,4,not successful,0.64,,0.60,0.58,Z.White,,,E.Jones,D.Staley,0.5,0.5,"3-Z.White to UGA 28 for 4 yards (53-E.Jones,30-D.Staley)."
+Georgia,2Q,5,59,28,2,run,7,successful,0.67,,0.62,0.60,Z.White,,,E.Jones,D.Staley,0.5,0.5,"3-Z.White to UGA 35 for 7 yards (53-E.Jones,30-D.Staley)."
+Georgia,2Q,5,60,29,1,pass,,not successful,,0.45,0.59,0.58,,J.Fromm,Z.White,,,,,11-J.Fromm incomplete. Intended for 3-Z.White.
+Georgia,2Q,5,61,30,2,run,5,not successful,0.63,,0.57,0.59,D.Swift,,,K.Smith,,1,,7-D.Swift to UGA 40 for 5 yards (95-K.Smith).
+Georgia,2Q,5,62,31,3,pass,18,explosive,,0.50,0.59,0.57,,J.Fromm,L.Cager,,,,,11-J.Fromm complete to 15-L.Cager. 15-L.Cager to SC 42 for 18 yards.
+Georgia,2Q,5,63,32,1,pass,,not successful,,0.46,0.57,0.55,,J.Fromm,G.Pickens,,,,,11-J.Fromm incomplete. Intended for 1-G.Pickens.
+Georgia,2Q,5,64,33,2,pass,-2,not successful,,0.43,0.55,0.53,,J.Fromm,J.Cook,S.Greene,,1,,11-J.Fromm complete to 4-J.Cook. 4-J.Cook to SC 44 for -2 yards (44-S.Greene).
+Georgia,2Q,5,65,34,3,pass,6,not successful,,0.40,0.53,0.52,,J.Fromm,T.Simmons,A.Sterling,D.Wonnum,0.5,0.5,"11-J.Fromm complete to 87-T.Simmons. 87-T.Simmons to SC 38 for 6 yards (15-A.Sterling,8-D.Wonnum)."
+Georgia,2Q,5,66,35,4,pass,,not successful,,0.38,0.52,0.50,,J.Fromm,D.Robertson,,,,,11-J.Fromm incomplete. Intended for 16-D.Robertson.
+South Carolina,2Q,4,67,26,1,pass,0,not successful,,0.43,0.41,0.36,,R.Hilinski,S.Smith,T.Crowder,A.Ojulari,0.5,0.5,"3-R.Hilinski complete to 13-S.Smith. 13-S.Smith to SC 38 for no gain (30-T.Crowder,13-A.Ojulari)."
+South Carolina,2Q,4,68,27,2,pass,11,successful,,0.47,0.43,0.35,,R.Hilinski,C.Dawkins,E.Stokes,,1,,3-R.Hilinski complete to 83-C.Dawkins. 83-C.Dawkins to SC 49 for 11 yards (27-E.Stokes).
+South Carolina,2Q,4,69,28,1,run,13,successful,0.44,,0.46,0.38,R.Dowdle,,,J.Reed,,1,,5-R.Dowdle to UGA 38 for 13 yards (20-J.Reed).
+South Carolina,2Q,4,70,29,1,run,3,not successful,0.40,,0.44,0.40,R.Dowdle,,,T.Crowder,M.Rice,0.5,0.5,"5-R.Dowdle to UGA 35 for 3 yards (30-T.Crowder,32-M.Rice)."
+South Carolina,2Q,4,71,30,2,pass,,not successful,,0.44,0.42,0.38,,R.Hilinski,N.Muse,,,,,3-R.Hilinski incomplete. Intended for 9-N.Muse.
+South Carolina,2Q,4,72,31,3,pass,3,not successful,,0.41,0.41,0.37,,R.Hilinski,S.Smith,D.Wilson,,1,,3-R.Hilinski complete to 13-S.Smith. 13-S.Smith to UGA 32 for 3 yards (1-D.Wilson).
+Georgia,2Q,6,75,36,1,run,5,successful,0.65,,0.53,0.52,D.Swift,,,A.Sterling,,1,,7-D.Swift to UGA 30 for 5 yards (15-A.Sterling).
+Georgia,2Q,6,76,37,2,run,1,not successful,0.61,,0.51,0.53,D.Swift,,,J.Kinlaw,E.Jones,0.5,0.5,"7-D.Swift to UGA 31 for 1 yard (3-J.Kinlaw,53-E.Jones)."
+Georgia,2Q,6,77,38,3,pass,10,successful,,0.41,0.53,0.51,,J.Fromm,L.Cager,J.Horn,,1,,11-J.Fromm complete to 15-L.Cager. 15-L.Cager to UGA 41 for 10 yards (1-J.Horn).
+Georgia,2Q,6,78,39,1,pass,6,successful,,0.44,0.54,0.50,,J.Fromm,G.Pickens,T.Brunson,,1,,11-J.Fromm complete to 1-G.Pickens. 1-G.Pickens to UGA 47 for 6 yards (6-T.Brunson).
+Georgia,2Q,6,79,40,2,pass,,not successful,,0.42,0.53,0.49,,J.Fromm,,,,,, 11-J.Fromm incomplete. INTERCEPTED by 24-I.Mukuamu at SC 47. 24-I.Mukuamu runs 53 yards for a touchdown.
+Georgia,2Q,7,82,41,1,run,14,successful,0.63,,0.54,0.50,D.Swift,,,E.Jones,,1,,7-D.Swift to UGA 39 for 14 yards (53-E.Jones).
+Georgia,2Q,7,83,42,1,pass,,not successful,,0.40,0.53,0.49,,J.Fromm,D.Swift,,,,,11-J.Fromm incomplete. Intended for 7-D.Swift.
+Georgia,2Q,7,84,43,2,pass,,not successful,,0.38,0.51,0.48,,J.Fromm,T.Simmons,,,,,11-J.Fromm incomplete. Intended for 87-T.Simmons.
+Georgia,2Q,7,85,44,3,pass,12,successful,,0.41,0.52,0.46,,J.Fromm,L.Cager,J.Horn,,1,,11-J.Fromm complete to 15-L.Cager. 15-L.Cager to SC 49 for 12 yards (1-J.Horn).
+Georgia,2Q,7,86,45,1,pass,-6,not successful,,0.39,0.51,0.45,,J.Fromm,,J.Kinlaw,,1,,11-J.Fromm sacked at UGA 45 for -6 yards (3-J.Kinlaw).
+Georgia,2Q,7,87,46,2,pass,19,explosive,,0.42,0.52,0.44,,J.Fromm,G.Pickens,T.Brunson,I.Mukuamu,0.5,0.5,"11-J.Fromm complete to 1-G.Pickens. 1-G.Pickens to SC 36 for 19 yards (6-T.Brunson,24-I.Mukuamu)."
+Georgia,2Q,7,88,47,2,pass,,not successful,,0.40,0.51,0.43,,J.Fromm,C.Woerner,,,,,11-J.Fromm incomplete. Intended for 89-C.Woerner.
+South Carolina,3Q,6,91,33,1,run,17,explosive,0.45,,0.43,0.39,R.Dowdle,,,W.Grant,,1,,5-R.Dowdle to SC 42 for 17 yards (84-W.Grant).
+South Carolina,3Q,6,92,34,1,run,5,successful,0.50,,0.45,0.41,R.Dowdle,,,M.Barnett,T.Crowder,0.5,0.5,"5-R.Dowdle to SC 47 for 5 yards (94-M.Barnett,30-T.Crowder)."
+South Carolina,3Q,6,93,35,2,pass,,not successful,,0.39,0.43,0.40,,R.Hilinski,B.Edwards,,,,,3-R.Hilinski incomplete. Intended for 89-B.Edwards.
+South Carolina,3Q,6,94,36,3,pass,,not successful,,0.37,0.42,0.39,,R.Hilinski,,,,,,3-R.Hilinski incomplete.
+Georgia,3Q,8,96,49,1,run,2,not successful,0.60,,0.50,0.44,D.Swift,,,I.Mukuamu,,1,,7-D.Swift to UGA 12 for 2 yards (24-I.Mukuamu).
+Georgia,3Q,8,97,50,2,run,2,not successful,0.57,,0.49,0.46,Z.White,,,D.Wonnum,,1,,3-Z.White to UGA 14 for 2 yards (79-D.Wonnum).
+Georgia,3Q,8,98,51,3,no play,10,successful,,,0.50,,,,,,,,,"11-J.Fromm incomplete. Intended for 1-G.Pickens. Penalty on SC 29-J.Ibe, Holding, 10 yards, enforced at UGA 14. No Play."
+Georgia,3Q,8,99,52,1,pass,13,successful,,0.42,0.51,0.45,,J.Fromm,D.Robertson,J.Ibe,,1,,11-J.Fromm complete to 16-D.Robertson. 16-D.Robertson to UGA 37 for 13 yards (29-J.Ibe).
+Georgia,3Q,8,100,53,1,run,1,not successful,0.55,,0.50,0.46,Z.White,,,R.Sandidge,,1,,3-Z.White to UGA 38 for 1 yard (90-R.Sandidge).
+Georgia,3Q,8,101,54,2,run,3,not successful,0.52,,0.49,0.47,Z.White,,,E.Jones,,1,,3-Z.White to UGA 41 for 3 yards (53-E.Jones).
+Georgia,3Q,8,102,55,3,pass,,not successful,,0.41,0.48,0.46,,J.Fromm,D.Robertson,,,,,11-J.Fromm incomplete. Intended for 16-D.Robertson.
+South Carolina,3Q,7,105,39,1,pass,-5,not successful,,0.35,0.41,0.38,,R.Hilinski,S.Smith,J.Reed,T.Crowder,0.5,0.5,"3-R.Hilinski complete to 13-S.Smith. 13-S.Smith to SC 10 for -5 yards (20-J.Reed,30-T.Crowder)."
+South Carolina,3Q,7,106,40,2,run,2,not successful,0.46,,0.39,0.39,T.Feaster,,,A.Ojulari,,1,,4-T.Feaster to SC 12 for 2 yards (13-A.Ojulari).
+South Carolina,3Q,7,107,41,3,pass,4,not successful,,0.33,0.38,0.38,,R.Hilinski,B.Edwards,J.Young,D.Daniel,0.5,0.5,"3-R.Hilinski complete to 89-B.Edwards. 89-B.Edwards to SC 16 for 4 yards (92-J.Young,14-D.Daniel)."
+South Carolina,3Q,7,108,42,4,no play,15,successful,,,0.40,,,,,,,,,"Penalty on UGA 19-A.Anderson, Roughing the passer, 15 yards, enforced at SC 16. No Play."
+South Carolina,3Q,7,109,43,1,run,0,not successful,0.43,,0.39,0.40,T.Feaster,,,M.Rice,N.Johnson,0.5,0.5,"4-T.Feaster to SC 31 for no gain (32-M.Rice,72-N.Johnson)."
+South Carolina,3Q,7,111,45,2,pass,,not successful,,0.32,0.38,0.39,,D.Joyner,J.Vann,,,,,7-D.Joyner incomplete. Intended for 6-J.Vann.
+South Carolina,3Q,7,112,46,3,run,17,explosive,0.47,,0.39,0.41,T.Feaster,,,J.Reed,,1,,4-T.Feaster to SC 43 for 17 yards (20-J.Reed).
+South Carolina,3Q,7,113,47,1,run,1,not successful,0.44,,0.38,0.42,R.Dowdle,,,J.Reed,M.Rice,0.5,0.5,"5-R.Dowdle to SC 44 for 1 yard (20-J.Reed,32-M.Rice)."
+South Carolina,3Q,7,114,48,2,pass,7,successful,,0.35,0.40,0.41,,D.Joyner,J.Vann,D.Daniel,,1,,7-D.Joyner complete to 6-J.Vann. 6-J.Vann to UGA 49 for 7 yards (14-D.Daniel).
+South Carolina,3Q,7,115,49,3,pass,,not successful,,0.33,0.39,0.40,,D.Joyner,J.Vann,,,,,7-D.Joyner incomplete. Intended for 6-J.Vann.
+Georgia,3Q,9,117,57,1,run,7,successful,0.54,,0.49,0.47,Z.White,,,D.Wonnum,,1,,3-Z.White to UGA 27 for 7 yards (8-D.Wonnum).
+Georgia,3Q,9,118,58,2,run,0,not successful,0.52,,0.48,0.48,Z.White,,,R.Sandidge,,1,,3-Z.White to UGA 27 for no gain (90-R.Sandidge).
+Georgia,3Q,9,119,59,3,pass,6,successful,,0.43,0.49,0.47,,J.Fromm,G.Pickens,I.Mukuamu,,1,,11-J.Fromm complete to 1-G.Pickens. 1-G.Pickens to UGA 33 for 6 yards (24-I.Mukuamu).
+Georgia,3Q,9,120,60,1,pass,-4,not successful,,0.41,0.48,0.46,,J.Fromm,,D.Wonnum,K.Smith,0.5,0.5,"11-J.Fromm sacked at UGA 29 for -4 yards (8-D.Wonnum,95-K.Smith)."
+Georgia,3Q,9,121,61,2,pass,6,not successful,,0.40,0.47,0.45,,J.Fromm,D.Swift,T.Brunson,,1,,11-J.Fromm complete to 7-D.Swift. 7-D.Swift to UGA 35 for 6 yards (6-T.Brunson).
+Georgia,3Q,9,122,62,3,pass,,not successful,,0.39,0.47,0.45,,J.Fromm,D.Swift,,,,,"11-J.Fromm incomplete. Intended for 7-D.Swift. Penalty on UGA 71-A.Thomas, Holding, declined."
+South Carolina,3Q,8,124,51,1,pass,5,successful,,0.36,0.40,0.39,,D.Joyner,R.Dowdle,M.Rice,,1,,7-D.Joyner complete to 5-R.Dowdle. 5-R.Dowdle pushed ob at SC 22 for 5 yards (32-M.Rice).
+South Carolina,3Q,8,125,52,2,run,0,not successful,0.41,,0.40,0.40,R.Dowdle,,,M.Rice,,1,,5-R.Dowdle to SC 22 for no gain (32-M.Rice).
+South Carolina,3Q,8,126,53,3,run,4,not successful,0.39,,0.39,0.42,D.Joyner,,,T.Crowder,,1,,7-D.Joyner scrambles to SC 26 for 4 yards (30-T.Crowder).
+Georgia,3Q,10,128,64,1,pass,33,explosive,,0.41,0.47,0.44,,J.Fromm,G.Pickens,J.Robinson,,1,,11-J.Fromm complete to 1-G.Pickens. 1-G.Pickens to SC 44 for 33 yards (7-J.Robinson).
+Georgia,3Q,10,129,65,1,pass,8,successful,,0.42,0.48,0.43,,J.Fromm,T.Simmons,J.Robinson,A.DeLoach,0.5,0.5,"11-J.Fromm complete to 87-T.Simmons. 87-T.Simmons to SC 36 for 8 yards (7-J.Robinson,59-A.DeLoach)."
+Georgia,3Q,10,130,66,2,penalty,-10,not successful,,,0.48,,,,,T.Brunson,J.Horn,0.5,0.5,"4-J.Cook to SC 31 for 5 yards (6-T.Brunson,1-J.Horn). Penalty on UGA 74-B.Cleveland, Holding, 10 yards, enforced at SC 31."
+Georgia,3Q,10,131,67,2,pass,11,successful,,0.44,0.48,0.42,,J.Fromm,D.Robertson,I.Mukuamu,J.Robinson,0.5,0.5,"11-J.Fromm complete to 16-D.Robertson. 16-D.Robertson to SC 30 for 11 yards (24-I.Mukuamu,7-J.Robinson)."
+Georgia,4Q,11,132,68,1,run,,not successful,0.50,,0.48,0.43,J.Fromm,,,,,,,"11-J.Fromm to SC 29, FUMBLES. 6-T.Brunson to SC 29 for no gain."
+South Carolina,4Q,9,133,55,1,run,3,not successful,0.37,,0.38,0.43,T.Feaster,,,M.Barnett,,1,,4-T.Feaster to SC 32 for 3 yards (94-M.Barnett).
+South Carolina,4Q,9,134,56,2,run,10,successful,0.40,,0.39,0.44,D.Joyner,,,E.Stokes,W.Grant,0.5,0.5,"7-D.Joyner scrambles to SC 42 for 10 yards (27-E.Stokes,84-W.Grant)."
+South Carolina,4Q,9,135,57,1,run,2,not successful,0.38,,0.38,0.46,R.Dowdle,,,D.Wyatt,,1,,5-R.Dowdle to SC 44 for 2 yards (95-D.Wyatt).
+South Carolina,4Q,9,137,59,2,pass,,not successful,,0.35,0.38,0.45,,D.Joyner,S.Smith,,,,,7-D.Joyner incomplete. Intended for 13-S.Smith.
+South Carolina,4Q,9,138,60,3,pass,,not successful,,0.33,0.37,0.44,,D.Joyner,S.Smith,,,,,7-D.Joyner incomplete. Intended for 13-S.Smith.
+Georgia,4Q,12,140,69,1,run,5,successful,0.52,,0.48,0.44,D.Swift,,,T.Brunson,E.Jones,0.5,0.5,"7-D.Swift to UGA 24 for 5 yards (6-T.Brunson,53-E.Jones)."
+Georgia,4Q,12,141,70,2,run,2,not successful,0.50,,0.48,0.45,D.Swift,,,A.Sterling,,1,,7-D.Swift to UGA 26 for 2 yards (15-A.Sterling).
+Georgia,4Q,12,142,71,3,pass,4,successful,,0.46,0.48,0.44,,J.Fromm,T.Simmons,,,,,"11-J.Fromm incomplete. Intended for 87-T.Simmons. Penalty on SC 24-I.Mukuamu, Pass interference, 4 yards, enforced at UGA 26. No Play."
+Georgia,4Q,12,143,72,1,run,5,successful,0.52,,0.49,0.45,D.Swift,,,E.Jones,D.Wonnum,0.5,0.5,"7-D.Swift to UGA 35 for 5 yards (53-E.Jones,8-D.Wonnum)."
+Georgia,4Q,12,144,73,2,run,-1,not successful,0.50,,0.49,0.46,Z.White,,,E.Jones,K.Smith,0.5,0.5,"3-Z.White to UGA 34 for -1 yard (53-E.Jones,95-K.Smith)."
+Georgia,4Q,12,145,74,3,pass,15,explosive,,0.47,0.49,0.45,,J.Fromm,Z.White,R.Roderick,,1,,11-J.Fromm complete to 3-Z.White. 3-Z.White to UGA 49 for 15 yards (10-R.Roderick).
+Georgia,4Q,12,146,75,1,pass,,not successful,,0.46,0.49,0.45,,J.Fromm,E.Wolf,,,,,11-J.Fromm incomplete. Intended for 17-E.Wolf.
+Georgia,4Q,12,147,76,2,pass,7,successful,,0.47,0.49,0.44,,J.Fromm,J.Cook,J.Ibe,,1,,11-J.Fromm complete to 4-J.Cook. 4-J.Cook to SC 44 for 7 yards (29-J.Ibe).
+Georgia,4Q,12,148,77,3,pass,,not successful,,0.46,0.49,0.43,,J.Fromm,M.Landers,,,,,"11-J.Fromm incomplete. Intended for 5-M.Landers, INTERCEPTED by 24-I.Mukuamu at SC 35. 24-I.Mukuamu to SC 35 for no gain."
+South Carolina,4Q,10,150,63,1,pass,11,successful,,0.36,0.38,0.43,,D.Joyner,S.Smith,J.Reed,,1,,7-D.Joyner complete to 13-S.Smith. 13-S.Smith to SC 41 for 11 yards (20-J.Reed).
+South Carolina,4Q,10,151,64,2,run,3,successful,0.41,,0.39,0.44,D.Joyner,,,J.Reed,,1,,7-D.Joyner to SC 44 for 3 yards (20-J.Reed).
+South Carolina,4Q,10,152,65,3,pass,5,successful,,0.38,0.40,0.43,,D.Joyner,S.Smith,D.Wilson,,1,,7-D.Joyner complete to 13-S.Smith. 13-S.Smith to SC 49 for 5 yards (1-D.Wilson).
+South Carolina,4Q,10,153,66,1,run,3,not successful,0.39,,0.40,0.44,R.Dowdle,,,T.Crowder,,1,,5-R.Dowdle to UGA 48 for 3 yards (30-T.Crowder).
+South Carolina,4Q,10,154,67,2,run,2,not successful,0.38,,0.39,0.45,R.Dowdle,,,T.Crowder,,1,,5-R.Dowdle to UGA 46 for 2 yards (30-T.Crowder).
+South Carolina,4Q,10,155,68,3,pass,,not successful,,0.37,0.38,0.44,,D.Joyner,S.Smith,,,,,7-D.Joyner incomplete. Intended for 13-S.Smith.
+Georgia,4Q,13,157,78,1,pass,,not successful,,0.45,0.48,0.43,,J.Fromm,G.Pickens,,,,,11-J.Fromm incomplete. Intended for 1-G.Pickens.
+Georgia,4Q,13,158,79,2,run,9,successful,0.52,,0.49,0.44,D.Swift,,,S.Greene,,1,,7-D.Swift to UGA 13 for 9 yards (44-S.Greene).
+Georgia,4Q,13,159,80,3,no play,6,successful,,,0.49,,,,,,,,,"Penalty on SC 3-J.Kinlaw, Offside, 6 yards, enforced at UGA 13. No Play."
+Georgia,4Q,13,160,81,1,run,7,successful,0.53,,0.50,0.44,J.Fromm,,,,,,,"11-J.Fromm scrambles, runs ob at UGA 26 for 7 yards."
+Georgia,4Q,13,161,82,2,pass,16,explosive,,0.46,0.51,0.44,,J.Fromm,D.Blaylock,,,,,11-J.Fromm complete to 8-D.Blaylock. 8-D.Blaylock to UGA 42 for 16 yards.
+Georgia,4Q,13,162,83,1,pass,12,successful,,0.48,0.51,0.43,,J.Fromm,G.Pickens,J.Horn,,1,,11-J.Fromm complete to 1-G.Pickens. 1-G.Pickens to SC 46 for 12 yards (1-J.Horn).
+Georgia,4Q,13,163,84,1,run,3,not successful,0.52,,0.51,0.44,D.Swift,,,K.Enagbare,R.Roderick,0.5,0.5,"7-D.Swift to SC 43 for 3 yards (52-K.Enagbare,10-R.Roderick)."
+Georgia,4Q,13,164,85,2,pass,,not successful,,0.47,0.50,0.43,,J.Fromm,D.Blaylock,,,,,11-J.Fromm incomplete. Intended for 8-D.Blaylock.
+Georgia,4Q,13,165,86,3,pass,17,explosive,,0.48,0.51,0.43,,J.Fromm,D.Robertson,,,,,11-J.Fromm complete to 16-D.Robertson. 16-D.Robertson runs ob at SC 26 for 17 yards.
+Georgia,4Q,13,166,87,1,pass,11,successful,,0.49,0.51,0.42,,J.Fromm,G.Pickens,J.Horn,,1,,11-J.Fromm complete to 1-G.Pickens. 1-G.Pickens pushed ob at SC 15 for 11 yards (1-J.Horn).
+Georgia,4Q,13,167,88,1,pass,,not successful,,0.48,0.51,0.42,,J.Fromm,D.Robertson,,,,,11-J.Fromm incomplete. Intended for 16-D.Robertson.
+Georgia,4Q,13,168,89,2,run,4,not successful,0.50,,0.50,0.43,Z.White,,,K.Smith,A.Sterling,0.5,0.5,"3-Z.White to SC 11 for 4 yards (95-K.Smith,15-A.Sterling)."
+Georgia,4Q,13,169,90,3,pass,,not successful,,0.47,0.49,0.42,,J.Fromm,E.Wolf,,,,,11-J.Fromm incomplete. Intended for 17-E.Wolf.
+Georgia,4Q,13,170,91,4,no play,5,successful,,,0.50,,,,,,,,,"11-J.Fromm incomplete. Intended for 17-E.Wolf. Penalty on SC 7-J.Robinson, Holding, 5 yards, enforced at SC 11. No Play."
+Georgia,4Q,13,171,92,1,pass,6,successful,,0.48,0.51,0.41,,J.Fromm,D.Robertson,,,,, 11-J.Fromm complete to 16-D.Robertson. 16-D.Robertson runs 6 yards for a touchdown.
+South Carolina,4Q,11,174,70,1,pass,13,successful,,0.39,0.39,0.44,,D.Joyner,N.Muse,E.Stokes,,1,,7-D.Joyner complete to 9-N.Muse. 9-N.Muse pushed ob at SC 38 for 13 yards (27-E.Stokes).
+South Carolina,4Q,11,175,71,1,pass,,not successful,,0.38,0.39,0.43,,D.Joyner,R.Dowdle,,,,,7-D.Joyner incomplete. Intended for 5-R.Dowdle.
+South Carolina,4Q,11,176,72,2,pass,15,successful,,0.39,0.40,0.42,,D.Joyner,C.Dawkins,,,,,"7-D.Joyner incomplete. Intended for 83-C.Dawkins. Penalty on UGA 14-D.Daniel, Pass interference, 15 yards, enforced at SC 38. No Play."
+South Carolina,4Q,11,177,73,1,pass,-2,not successful,,0.38,0.39,0.41,,D.Joyner,R.Dowdle,R.LeCounte,,1,,7-D.Joyner complete to 5-R.Dowdle. 5-R.Dowdle to UGA 49 for -2 yards (2-R.LeCounte).
+South Carolina,4Q,11,178,74,2,run,6,not successful,0.36,,0.38,0.42,D.Joyner,,,N.Smith,,1,,7-D.Joyner scrambles to UGA 43 for 6 yards (4-N.Smith).
+South Carolina,4Q,11,179,75,3,run,3,not successful,0.35,,0.38,0.43,D.Joyner,,,A.Anderson,,1,,7-D.Joyner scrambles to UGA 40 for 3 yards (19-A.Anderson).
+Georgia,4Q,14,181,93,1,pass,,not successful,,0.47,0.50,0.41,,J.Fromm,D.Swift,,,,,11-J.Fromm incomplete. Intended for 7-D.Swift.
+Georgia,4Q,14,182,94,2,run,8,successful,0.51,,0.51,0.42,D.Swift,,,T.Brunson,,1,,7-D.Swift to UGA 48 for 8 yards (6-T.Brunson).
+Georgia,4Q,14,183,95,3,run,9,successful,0.53,,0.51,0.42,J.Fromm,,,,,,,"11-J.Fromm scrambles, runs ob at SC 43 for 9 yards."
+Georgia,4Q,14,184,96,1,pass,5,successful,,0.48,0.52,0.42,,J.Fromm,T.Simmons,I.Mukuamu,,1,,11-J.Fromm complete to 87-T.Simmons. 87-T.Simmons to SC 38 for 5 yards (24-I.Mukuamu).
+Georgia,4Q,14,185,97,2,pass,,not successful,,0.47,0.51,0.41,,J.Fromm,E.Wolf,,,,,11-J.Fromm incomplete. Intended for 17-E.Wolf.
+Georgia,4Q,14,187,99,3,pass,,not successful,,0.46,0.51,0.41,,J.Fromm,,,,,,11-J.Fromm incomplete.
+Georgia,#VALUE!,15,188,100,1,run,4,not successful,0.51,,0.50,0.42,D.Swift,,,E.Jones,K.Smith,0.5,0.5,"7-D.Swift to SC 21 for 4 yards (53-E.Jones,95-K.Smith)."
+Georgia,#VALUE!,15,189,101,2,pass,,not successful,,0.45,0.49,0.41,,J.Fromm,,,,,,11-J.Fromm incomplete. INTERCEPTED by 24-I.Mukuamu at SC 14. 24-I.Mukuamu to SC 14 for no gain.
+South Carolina,#VALUE!,12,190,77,1,run,3,not successful,0.33,,0.37,0.44,R.Dowdle,,,M.Rice,,1,,5-R.Dowdle to UGA 22 for 3 yards (32-M.Rice).
+South Carolina,#VALUE!,12,191,78,2,run,5,successful,0.36,,0.38,0.45,R.Dowdle,,,A.Ojulari,,1,,5-R.Dowdle to UGA 17 for 5 yards (13-A.Ojulari).
+South Carolina,#VALUE!,12,192,79,3,run,1,not successful,0.34,,0.38,0.46,R.Dowdle,,,M.Herring,,1,,5-R.Dowdle to UGA 16 for 1 yard (10-M.Herring).
+South Carolina,#VALUE!,13,194,81,1,run,7,successful,0.37,,0.38,0.47,B.Edwards,,,M.Rice,,1,,89-B.Edwards to UGA 18 for 7 yards (32-M.Rice).
+South Carolina,#VALUE!,13,195,82,2,run,2,not successful,0.35,,0.38,0.48,D.Joyner,,,T.Crowder,,1,,"7-D.Joyner scrambles, pushed ob at UGA 16 for 2 yards (30-T.Crowder)."
+South Carolina,#VALUE!,13,196,83,3,run,0,not successful,0.34,,0.37,0.48,R.Dowdle,,,T.Clark,,1,,5-R.Dowdle to UGA 16 for no gain (52-T.Clark).
+South Carolina,#VALUE!,13,197,84,4,run,8,successful,0.36,,0.38,0.49,R.Dowdle,,,M.Rice,T.Crowder,0.5,0.5,"5-R.Dowdle to UGA 8 for 8 yards (32-M.Rice,30-T.Crowder)."
+South Carolina,#VALUE!,13,198,85,1,run,2,not successful,0.35,,0.38,0.50,T.Feaster,,,M.Barnett,T.Clark,0.5,0.5,"4-T.Feaster to UGA 6 for 2 yards (94-M.Barnett,52-T.Clark)."
+South Carolina,#VALUE!,13,200,87,2,run,1,not successful,0.34,,0.37,0.51,R.Dowdle,,,A.Ojulari,,1,,5-R.Dowdle pushed ob at UGA 2 for 1 yard (13-A.Ojulari).
+South Carolina,#VALUE!,13,201,88,3,run,-4,not successful,0.33,,0.37,0.51,R.Dowdle,,,T.Clark,,1,,5-R.Dowdle to UGA 6 for -4 yards (52-T.Clark).
+Georgia,#VALUE!,16,203,102,1,run,0,not successful,0.50,,0.49,0.42,D.Swift,,,T.Brunson,,1,,7-D.Swift to SC 25 for no gain (6-T.Brunson).
+Georgia,#VALUE!,16,204,103,2,pass,,not successful,,0.44,0.48,0.41,,J.Fromm,C.Woerner,,,,,11-J.Fromm incomplete. Intended for 89-C.Woerner.
+Georgia,#VALUE!,16,205,104,3,pass,,not successful,,0.44,0.48,0.41,,J.Fromm,D.Robertson,,,,,11-J.Fromm incomplete. Intended for 16-D.Robertson.

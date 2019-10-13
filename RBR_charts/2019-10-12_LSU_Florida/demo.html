@@ -58,7 +58,7 @@
     </div>
 
     <!-- Line charts -->
-    <h3>Rushing Rate (cumulative), Alabama</h3>
+    <h3>Rushing Rate (cumulative), LSU</h3>
     <div class="chartOuter" id="runRateOuter">
       <canvas id="runRateChart" height="240" width="400"></canvas>
     </div>
@@ -78,44 +78,44 @@
       <canvas id="runPassSrOpponentChart" height="240" width="400"></canvas>
     </div>
     
-    <!-- Alabama player charts -->
-    <h3>Top Runners (in order of appearance), Alabama</h3>
+    <!-- LSU player charts -->
+    <h3>Top Runners (in order of appearance), LSU</h3>
     <div class="chartOuter" id="runnersOuter">
       <canvas id="runnersChart" height="200" width="400"></canvas>
     </div>
     
-    <h3>Top Passers (in order of appearance), Alabama</h3>
+    <h3>Top Passers (in order of appearance), LSU</h3>
     <div class="chartOuter" id="passersOuter">
       <canvas id="passersChart" height="100" width="400"></canvas>
     </div>
     
-    <h3>Top Receivers (in order of appearance), Alabama</h3>
+    <h3>Top Receivers (in order of appearance), LSU</h3>
     <div class="chartOuter" id="receiversOuter">
       <canvas id="receiversChart" height="300" width="400"></canvas>
     </div>
     
-    <h3>Top Tacklers (in order of appearance), Alabama</h3>
+    <h3>Top Tacklers (in order of appearance), LSU</h3>
     <div class="chartOuter" id="tacklersOuter">
       <canvas id="tacklersChart" height="480" width="400"></canvas>
     </div>
     
     <!-- Opponent player charts -->
-    <h3>Top Runners (in order of appearance), Opponent</h3>
+    <h3>Top Runners (in order of appearance), Florida</h3>
     <div class="chartOuter" id="runnersOpponentOuter">
       <canvas id="runnersOpponentChart" height="200" width="400"></canvas>
     </div>
     
-    <h3>Top Passers (in order of appearance), Opponent</h3>
+    <h3>Top Passers (in order of appearance), Florida</h3>
     <div class="chartOuter" id="passersOpponentOuter">
       <canvas id="passersOpponentChart" height="100" width="400"></canvas>
     </div>
     
-    <h3>Top Receivers (in order of appearance), Opponent</h3>
+    <h3>Top Receivers (in order of appearance), Florida</h3>
     <div class="chartOuter" id="receiversOpponentOuter">
       <canvas id="receiversOpponentChart" height="300" width="400"></canvas>
     </div>
     
-    <h3>Top Tacklers (in order of appearance), Opponent</h3>
+    <h3>Top Tacklers (in order of appearance), Florida</h3>
     <div class="chartOuter" id="tacklersOpponentOuter">
       <canvas id="tacklersOpponentChart" height="480" width="400"></canvas>
     </div>
@@ -137,15 +137,8 @@
     <!-- script for chart js -->
     <script>
       // paste this data each time. Consider writing a JSON file for all colors that will let us just plug in the names.
-      assignTeams("Alabama", "Texas A&M");
+      assignTeams("LSU", "Florida");
       var gameData;
-
-      teamTwoData = {
-        name: "Texas A&M",
-        color: "rgba(80,0,0,0.55)",
-        colorLight: "rgba(80,0,0,0.33)",
-        colorDark: "rgba(80,0,0,0.95)",
-      }
 
       allCharts("all_plays.csv");
       // prefix for RBR: https://couchux.github.io/RBR_charts/...
