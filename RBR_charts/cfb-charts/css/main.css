@@ -81,21 +81,29 @@ body {
 button.switchBtn {
   color: #1E1E1E;
   width: 100%;
-  background: none;
+  background: white;
   border: 1px solid #CECECE; 
   padding: 10px;
+  font-size: 14px;
   border-radius: 4px; 
   margin-bottom: 32px;
   text-transform: none;
   box-shadow: 0 4px 0 -2px #EFEFEF;
 }
-button.switchBtn:hover, button.switchBrn:active {
-  color: #1E1E1E;
+button.switchBtn:hover {
+  color: inherit;
   background: #FAFAFA;
   border-color: #B9B9B9;
 }
+button.switchBtn:focus {  
+  color: inherit;
+  background: white;
+
+}
 button.switchBtn:active {  
+  color: inherit;
   background: #D8D8D8;
+  border-color: #B9B9B9;
 }
 
 /*
