@@ -153,18 +153,18 @@ Georgia,4Q,14,183,95,3,run,9,successful,0.53,,0.51,0.42,J.Fromm,,,,,,,"11-J.From
 Georgia,4Q,14,184,96,1,pass,5,successful,,0.48,0.52,0.42,,J.Fromm,T.Simmons,I.Mukuamu,,1,,11-J.Fromm complete to 87-T.Simmons. 87-T.Simmons to SC 38 for 5 yards (24-I.Mukuamu).
 Georgia,4Q,14,185,97,2,pass,,not successful,,0.47,0.51,0.41,,J.Fromm,E.Wolf,,,,,11-J.Fromm incomplete. Intended for 17-E.Wolf.
 Georgia,4Q,14,187,99,3,pass,,not successful,,0.46,0.51,0.41,,J.Fromm,,,,,,11-J.Fromm incomplete.
-Georgia,#VALUE!,15,188,100,1,run,4,not successful,0.51,,0.50,0.42,D.Swift,,,E.Jones,K.Smith,0.5,0.5,"7-D.Swift to SC 21 for 4 yards (53-E.Jones,95-K.Smith)."
-Georgia,#VALUE!,15,189,101,2,pass,,not successful,,0.45,0.49,0.41,,J.Fromm,,,,,,11-J.Fromm incomplete. INTERCEPTED by 24-I.Mukuamu at SC 14. 24-I.Mukuamu to SC 14 for no gain.
-South Carolina,#VALUE!,12,190,77,1,run,3,not successful,0.33,,0.37,0.44,R.Dowdle,,,M.Rice,,1,,5-R.Dowdle to UGA 22 for 3 yards (32-M.Rice).
-South Carolina,#VALUE!,12,191,78,2,run,5,successful,0.36,,0.38,0.45,R.Dowdle,,,A.Ojulari,,1,,5-R.Dowdle to UGA 17 for 5 yards (13-A.Ojulari).
-South Carolina,#VALUE!,12,192,79,3,run,1,not successful,0.34,,0.38,0.46,R.Dowdle,,,M.Herring,,1,,5-R.Dowdle to UGA 16 for 1 yard (10-M.Herring).
-South Carolina,#VALUE!,13,194,81,1,run,7,successful,0.37,,0.38,0.47,B.Edwards,,,M.Rice,,1,,89-B.Edwards to UGA 18 for 7 yards (32-M.Rice).
-South Carolina,#VALUE!,13,195,82,2,run,2,not successful,0.35,,0.38,0.48,D.Joyner,,,T.Crowder,,1,,"7-D.Joyner scrambles, pushed ob at UGA 16 for 2 yards (30-T.Crowder)."
-South Carolina,#VALUE!,13,196,83,3,run,0,not successful,0.34,,0.37,0.48,R.Dowdle,,,T.Clark,,1,,5-R.Dowdle to UGA 16 for no gain (52-T.Clark).
-South Carolina,#VALUE!,13,197,84,4,run,8,successful,0.36,,0.38,0.49,R.Dowdle,,,M.Rice,T.Crowder,0.5,0.5,"5-R.Dowdle to UGA 8 for 8 yards (32-M.Rice,30-T.Crowder)."
-South Carolina,#VALUE!,13,198,85,1,run,2,not successful,0.35,,0.38,0.50,T.Feaster,,,M.Barnett,T.Clark,0.5,0.5,"4-T.Feaster to UGA 6 for 2 yards (94-M.Barnett,52-T.Clark)."
-South Carolina,#VALUE!,13,200,87,2,run,1,not successful,0.34,,0.37,0.51,R.Dowdle,,,A.Ojulari,,1,,5-R.Dowdle pushed ob at UGA 2 for 1 yard (13-A.Ojulari).
-South Carolina,#VALUE!,13,201,88,3,run,-4,not successful,0.33,,0.37,0.51,R.Dowdle,,,T.Clark,,1,,5-R.Dowdle to UGA 6 for -4 yards (52-T.Clark).
-Georgia,#VALUE!,16,203,102,1,run,0,not successful,0.50,,0.49,0.42,D.Swift,,,T.Brunson,,1,,7-D.Swift to SC 25 for no gain (6-T.Brunson).
-Georgia,#VALUE!,16,204,103,2,pass,,not successful,,0.44,0.48,0.41,,J.Fromm,C.Woerner,,,,,11-J.Fromm incomplete. Intended for 89-C.Woerner.
-Georgia,#VALUE!,16,205,104,3,pass,,not successful,,0.44,0.48,0.41,,J.Fromm,D.Robertson,,,,,11-J.Fromm incomplete. Intended for 16-D.Robertson.
+Georgia,OT,15,188,100,1,run,4,not successful,0.51,,0.50,0.42,D.Swift,,,E.Jones,K.Smith,0.5,0.5,"7-D.Swift to SC 21 for 4 yards (53-E.Jones,95-K.Smith)."
+Georgia,OT,15,189,101,2,pass,,not successful,,0.45,0.49,0.41,,J.Fromm,,,,,,11-J.Fromm incomplete. INTERCEPTED by 24-I.Mukuamu at SC 14. 24-I.Mukuamu to SC 14 for no gain.
+South Carolina,OT,12,190,77,1,run,3,not successful,0.33,,0.37,0.44,R.Dowdle,,,M.Rice,,1,,5-R.Dowdle to UGA 22 for 3 yards (32-M.Rice).
+South Carolina,OT,12,191,78,2,run,5,successful,0.36,,0.38,0.45,R.Dowdle,,,A.Ojulari,,1,,5-R.Dowdle to UGA 17 for 5 yards (13-A.Ojulari).
+South Carolina,OT,12,192,79,3,run,1,not successful,0.34,,0.38,0.46,R.Dowdle,,,M.Herring,,1,,5-R.Dowdle to UGA 16 for 1 yard (10-M.Herring).
+South Carolina,2OT,13,194,81,1,run,7,successful,0.37,,0.38,0.47,B.Edwards,,,M.Rice,,1,,89-B.Edwards to UGA 18 for 7 yards (32-M.Rice).
+South Carolina,2OT,13,195,82,2,run,2,not successful,0.35,,0.38,0.48,D.Joyner,,,T.Crowder,,1,,"7-D.Joyner scrambles, pushed ob at UGA 16 for 2 yards (30-T.Crowder)."
+South Carolina,2OT,13,196,83,3,run,0,not successful,0.34,,0.37,0.48,R.Dowdle,,,T.Clark,,1,,5-R.Dowdle to UGA 16 for no gain (52-T.Clark).
+South Carolina,2OT,13,197,84,4,run,8,successful,0.36,,0.38,0.49,R.Dowdle,,,M.Rice,T.Crowder,0.5,0.5,"5-R.Dowdle to UGA 8 for 8 yards (32-M.Rice,30-T.Crowder)."
+South Carolina,2OT,13,198,85,1,run,2,not successful,0.35,,0.38,0.50,T.Feaster,,,M.Barnett,T.Clark,0.5,0.5,"4-T.Feaster to UGA 6 for 2 yards (94-M.Barnett,52-T.Clark)."
+South Carolina,2OT,13,200,87,2,run,1,not successful,0.34,,0.37,0.51,R.Dowdle,,,A.Ojulari,,1,,5-R.Dowdle pushed ob at UGA 2 for 1 yard (13-A.Ojulari).
+South Carolina,2OT,13,201,88,3,run,-4,not successful,0.33,,0.37,0.51,R.Dowdle,,,T.Clark,,1,,5-R.Dowdle to UGA 6 for -4 yards (52-T.Clark).
+Georgia,2OT,16,203,102,1,run,0,not successful,0.50,,0.49,0.42,D.Swift,,,T.Brunson,,1,,7-D.Swift to SC 25 for no gain (6-T.Brunson).
+Georgia,2OT,16,204,103,2,pass,,not successful,,0.44,0.48,0.41,,J.Fromm,C.Woerner,,,,,11-J.Fromm incomplete. Intended for 89-C.Woerner.
+Georgia,2OT,16,205,104,3,pass,,not successful,,0.44,0.48,0.41,,J.Fromm,D.Robertson,,,,,11-J.Fromm incomplete. Intended for 16-D.Robertson.
