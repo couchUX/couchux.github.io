@@ -372,6 +372,11 @@ function playTypeChart(thisTeam,thatTeam,thisId) {
     barSrChart(thisData,thisTeam,thatTeam,thisId,'play_type','');
 };
 
+//   RED ZONE CHART
+function redZoneChart(thisTeam,thatTeam,thisId) {
+    barSrChart(thisData,thisTeam,thatTeam,thisId,'red_zone','');
+};
+
 //   RUN RATE CHART
 function runRateChart(thisTeam, thisId) {
     var container = document.getElementById(outerId(thisId)); 
