@@ -3,6 +3,34 @@
 
 // Global chart options
 Chart.defaults.global.legend = false;
+Chart.plugins.unregister(ChartDataLabels);
+Chart.defaults.global.defaultFontFamily = 'Roboto';
+
+
+Chart.helpers.merge(Chart.defaults.global.plugins.datalabels, {
+    color: function(context) {
+        var index = context.dataIndex;
+        var value = context.dataset.data[index];
+        return value > 0 ? 'white' :  
+            'rgba(255,255,255,0)';
+    },
+    backgroundColor: function(context) {
+        var index = context.dataIndex;
+        var value = context.dataset.data[index];
+        return value > 0 ? 'rgba(0,0,0,0.28)' :  
+            'rgba(255,255,255,0)';
+    },
+    // backgroundColor: 'rgba(0,0,0,0.3)',
+    borderRadius: 4,
+    padding: {
+        top: 3,
+        bottom: 1,
+        left: 5,
+        right: 5,
+    }
+});
+
+
 // Chart.defaults.global.elements.line.borderWidth = 4;
 
 var srAverage = 0.42;
@@ -128,7 +156,7 @@ function teamSrChart(thisTeam,thatTeam,thisId) {
     
     
     var ctx = $(addId(chartId(thisId)));
-    new Chart(ctx, {
+    new Chart(ctx, {    
         type: 'line',
         data: {
             labels: playCount,
@@ -312,6 +340,7 @@ function barSrChart(thisData,thisTeam,thatTeam,thisId,thisColumn,labelChar) {
     
     var ctx = $(addId(chartId(thisId)));
     new Chart(ctx, {
+        plugins: [ChartDataLabels],
         type: 'bar',
         data: {
             labels: uniqueColumnValues,
@@ -342,7 +371,12 @@ function barSrChart(thisData,thisTeam,thatTeam,thisId,thisColumn,labelChar) {
                 borderWidth: 1,
                 fill: false,
                 pointRadius: 0,
-                type: 'line'
+                type: 'line',
+                datalabels: {
+                    labels: {
+                        title: null
+                    }
+                }
             }],
         },
         options: {
@@ -376,6 +410,13 @@ function barSrChart(thisData,thisTeam,thatTeam,thisId,thisColumn,labelChar) {
                     }
                 }
             },
+            plugins: {
+                datalabels: {
+                    formatter: function(value, context) {
+                        return Math.round(value*100) + '%';
+                    },
+                }
+            }
         }
     });
     
@@ -667,6 +708,7 @@ function playersChart(thisTeam, thisId, thisColumn) {
     var ctx = $(addId(chartId(thisId)));
     new Chart(ctx, {
         type: 'horizontalBar',
+        plugins: [ChartDataLabels],
         data: {
             labels: uniqueColumnValues,
             datasets: [{
@@ -760,6 +802,7 @@ function tacklersChart(thisTeam,thatTeam,thisId) {
     var ctx = $(addId(chartId(thisId)));
     new Chart(ctx, {
         type: 'horizontalBar',
+        plugins: [ChartDataLabels],
         data: {
             labels: uniqueColumnValues,
 
