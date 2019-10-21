@@ -374,6 +374,7 @@ function playTypeChart(thisTeam,thatTeam,thisId) {
 
 //   RED ZONE CHART
 function redZoneChart(thisTeam,thatTeam,thisId) {
+    thisData = gameData.filter(function(play) { return play.red_zone == "Normal" || play.red_zone == "Red Zone"; });
     barSrChart(thisData,thisTeam,thatTeam,thisId,'red_zone','');
 };
 

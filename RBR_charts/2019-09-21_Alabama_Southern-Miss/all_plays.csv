@@ -1,121 +1,121 @@
-team,quarter,drive_team,play_count,play_count_team,down,play_type,yards_total,play_result,run_sr,pass_sr,total_sr,run_rate,runner,passer,receiver,tackler_one,tackler_two,tackler_one_credit,tackler_two_credit,play_description
-Southern Miss,1Q,1,2,1,1,pass,2,not successful,,0.00,0.00,0.00,,J.Abraham,J.Adams,,,,,15-J.Abraham complete to 2-J.Adams. 2-J.Adams to USM 27 for 2 yards.
-Southern Miss,1Q,1,3,2,2,pass,,not successful,,0.00,0.00,0.00,,J.Abraham,D.Harris,,,,,15-J.Abraham incomplete. Intended for 18-D.Harris.
-Southern Miss,1Q,1,4,3,3,pass,-2,not successful,,0.00,0.00,0.00,,J.Abraham,J.Adams,,,,,15-J.Abraham complete to 2-J.Adams. 2-J.Adams to USM 25 for -2 yards.
-Alabama,1Q,1,6,1,1,pass,12,successful,,1.00,1.00,0.00,,T.Tagovailoa,H.Ruggs,,,,,13-T.Tagovailoa complete to 11-H.Ruggs. 11-H.Ruggs to USM 42 for 12 yards.
-Alabama,1Q,1,7,2,1,pass,-3,not successful,,0.50,0.50,0.00,,T.Tagovailoa,J.Jeudy,,,,,13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy to USM 45 for -3 yards.
-Alabama,1Q,1,8,3,2,pass,45,explosive,,0.67,0.67,0.00,,T.Tagovailoa,H.Ruggs,,,,, 13-T.Tagovailoa complete to 11-H.Ruggs. 11-H.Ruggs runs 45 yards for a touchdown.
-Southern Miss,1Q,2,11,5,1,run,11,successful,1.00,,0.25,0.25,J.Abraham,,,,,,,15-J.Abraham pushed ob at USM 32 for 11 yards.
-Southern Miss,1Q,2,12,6,1,run,21,explosive,1.00,,0.40,0.40,D.Harris,,,,,,,18-D.Harris to BAMA 47 for 21 yards.
-Southern Miss,1Q,2,13,7,1,run,1,not successful,0.67,,0.33,0.50,K.Perkins,,,,,,,33-K.Perkins to BAMA 46 for 1 yard.
-Southern Miss,1Q,2,14,8,2,pass,,not successful,,0.00,0.29,0.43,,J.Abraham,J.Mitchell,,,,,15-J.Abraham incomplete. Intended for 80-J.Mitchell.
-Southern Miss,1Q,2,15,9,3,pass,7,not successful,,0.00,0.25,0.38,,J.Abraham,Q.Watkins,,,,,15-J.Abraham complete to 16-Q.Watkins. 16-Q.Watkins to BAMA 39 for 7 yards.
-Southern Miss,1Q,2,16,10,4,run,3,successful,0.75,,0.33,0.44,D.Harris,,,,,,,18-D.Harris to BAMA 36 for 3 yards.
-Southern Miss,1Q,2,17,11,1,run,2,not successful,0.60,,0.30,0.50,J.Adams,,,,,,,2-J.Adams to BAMA 34 for 2 yards.
-Southern Miss,1Q,2,18,12,2,pass,,not successful,,0.00,0.27,0.45,,J.Abraham,T.Jones,,,,,15-J.Abraham incomplete. Intended for 5-T.Jones.
-Southern Miss,1Q,2,19,13,3,pass,0,not successful,,0.00,0.25,0.42,,J.Abraham,,A.Jennings,,1,,"15-J.Abraham sacked at BAMA 48 for -14 yards. Penalty on USM 15-J.Abraham, Intentional grounding, 0 yards, enforced at BAMA 48. (33-A.Jennings)."
-Alabama,1Q,2,21,4,1,run,11,successful,1.00,,0.75,0.25,N.Harris,,,,,,,22-N.Harris to BAMA 20 for 11 yards.
-Alabama,1Q,2,22,5,1,run,6,successful,1.00,,0.80,0.40,N.Harris,,,,,,,22-N.Harris to BAMA 26 for 6 yards.
-Alabama,1Q,2,23,6,2,pass,74,explosive,,0.75,0.83,0.33,,T.Tagovailoa,H.Ruggs,,,,, 13-T.Tagovailoa complete to 11-H.Ruggs. 11-H.Ruggs runs 74 yards for a touchdown.
-Southern Miss,1Q,3,26,15,1,run,3,not successful,0.50,,0.23,0.46,K.Perkins,,,,,,,33-K.Perkins to USM 47 for 3 yards.
-Southern Miss,1Q,3,27,16,2,pass,9,successful,,0.13,0.29,0.43,,J.Abraham,D.Harris,,,,,15-J.Abraham complete to 18-D.Harris. 18-D.Harris runs ob at BAMA 44 for 9 yards.
-Southern Miss,1Q,3,28,17,1,run,1,not successful,0.43,,0.27,0.47,D.Harris,,,,,,,18-D.Harris to BAMA 43 for 1 yard.
-Southern Miss,1Q,3,29,18,2,pass,,not successful,,0.11,0.25,0.44,,J.Abraham,Q.Watkins,,,,,15-J.Abraham incomplete. Intended for 16-Q.Watkins.
-Southern Miss,1Q,3,30,19,3,pass,,not successful,,0.10,0.24,0.41,,J.Abraham,Q.Watkins,,,,,"15-J.Abraham incomplete. Intended for 16-Q.Watkins, INTERCEPTED by 7-T.Diggs at BAMA 14. 7-T.Diggs to BAMA 9 for -5 yards."
-Alabama,1Q,3,31,7,1,run,-1,not successful,0.67,,0.71,0.43,N.Harris,,,,,,,22-N.Harris to BAMA 8 for -1 yard.
-Alabama,1Q,3,32,8,2,run,4,not successful,0.50,,0.63,0.50,N.Harris,,,,,,,22-N.Harris to BAMA 12 for 4 yards.
-Alabama,1Q,3,33,9,3,pass,15,successful,,0.80,0.67,0.44,,T.Tagovailoa,J.Waddle,,,,,"13-T.Tagovailoa incomplete. Intended for 17-J.Waddle. Penalty on USM 29-E.Gunn, Pass interference, 15 yards, enforced at BAMA 12. No Play."
-Alabama,1Q,3,34,10,1,pass,3,not successful,,0.67,0.60,0.40,,T.Tagovailoa,J.Waddle,,,,,13-T.Tagovailoa complete to 17-J.Waddle. 17-J.Waddle to BAMA 30 for 3 yards.
-Alabama,1Q,3,35,11,2,run,4,not successful,0.40,,0.55,0.45,B.Robinson,,,,,,,24-B.Robinson to BAMA 34 for 4 yards.
-Alabama,1Q,3,36,12,3,pass,15,explosive,,0.71,0.58,0.42,,T.Tagovailoa,J.Waddle,,,,,13-T.Tagovailoa complete to 17-J.Waddle. 17-J.Waddle pushed ob at BAMA 49 for 15 yards.
-Alabama,1Q,3,37,13,1,pass,,not successful,,0.63,0.54,0.38,,T.Tagovailoa,J.Jeudy,,,,,13-T.Tagovailoa incomplete. Intended for 4-J.Jeudy.
-Alabama,1Q,3,38,14,2,pass,9,successful,,0.67,0.57,0.36,,T.Tagovailoa,D.Smith,,,,,13-T.Tagovailoa complete to 6-D.Smith. 6-D.Smith to USM 42 for 9 yards.
-Alabama,1Q,3,39,15,3,run,4,successful,0.50,,0.60,0.40,N.Harris,,,,,,,22-N.Harris to USM 38 for 4 yards.
-Alabama,1Q,3,40,16,1,run,8,successful,0.57,,0.63,0.44,N.Harris,,,,,,,22-N.Harris to USM 30 for 8 yards.
-Alabama,2Q,4,41,17,2,pass,25,explosive,,0.70,0.65,0.41,,T.Tagovailoa,J.Waddle,,,,,13-T.Tagovailoa complete to 17-J.Waddle. 17-J.Waddle to USM 5 for 25 yards.
-Alabama,2Q,4,42,18,1,pass,5,successful,,0.73,0.67,0.39,,T.Tagovailoa,N.Harris,,,,, 13-T.Tagovailoa complete to 22-N.Harris. 22-N.Harris runs 5 yards for a touchdown.
-Southern Miss,2Q,4,45,20,1,pass,,not successful,,0.09,0.22,0.39,,J.Abraham,J.Mitchell,,,,,15-J.Abraham incomplete. Intended for 80-J.Mitchell.
-Southern Miss,2Q,4,46,21,2,run,-3,not successful,0.38,,0.21,0.42,D.Harris,,,,,,,18-D.Harris to USM 22 for -3 yards.
-Southern Miss,2Q,4,47,22,3,penalty,,not successful,,,0.20,,,,,,,,,"2-J.Adams to USM 26 for 4 yards. Penalty on USM 5-T.Jones, Personal Foul, declined."
-Alabama,2Q,5,49,19,1,pass,17,explosive,,0.75,0.68,0.37,,T.Tagovailoa,H.Ruggs,,,,,13-T.Tagovailoa complete to 11-H.Ruggs. 11-H.Ruggs to USM 39 for 17 yards.
-Alabama,2Q,5,50,20,1,run,4,not successful,0.50,,0.65,0.40,B.Robinson,,,,,,,24-B.Robinson to USM 35 for 4 yards.
-Alabama,2Q,5,51,21,2,pass,18,explosive,,0.77,0.67,0.38,,T.Tagovailoa,J.Jeudy,,,,,13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy to USM 17 for 18 yards.
-Alabama,2Q,5,52,22,1,pass,17,explosive,,0.79,0.68,0.36,,T.Tagovailoa,J.Jeudy,,,,, 13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy runs 17 yards for a touchdown.
-Southern Miss,2Q,5,55,24,1,run,1,not successful,0.33,,0.19,0.45,S.Anderson,,,,,,,12-S.Anderson to USM 26 for 1 yard.
-Southern Miss,2Q,5,56,25,2,pass,17,explosive,,0.17,0.23,0.43,,J.Abraham,Q.Watkins,,,,,15-J.Abraham complete to 16-Q.Watkins. 16-Q.Watkins to USM 43 for 17 yards.
-Southern Miss,2Q,5,57,26,1,run,5,successful,0.40,,0.26,0.45,S.Anderson,,,,,,,12-S.Anderson to USM 48 for 5 yards.
-Southern Miss,2Q,5,58,27,2,run,7,successful,0.45,,0.29,0.48,S.Anderson,,,,,,,12-S.Anderson to BAMA 45 for 7 yards.
-Southern Miss,2Q,5,59,28,1,run,0,not successful,0.42,,0.28,0.50,S.Anderson,,,,,,,12-S.Anderson to BAMA 45 for no gain.
-Southern Miss,2Q,5,60,29,2,pass,,not successful,,0.15,0.27,0.48,,J.Abraham,J.Mitchell,,,,,15-J.Abraham incomplete. Intended for 80-J.Mitchell.
-Southern Miss,2Q,5,61,30,3,pass,-8,not successful,,0.14,0.26,0.46,,J.Abraham,,S.Lee,,1,,15-J.Abraham sacked at USM 47 for -8 yards (35-S.Lee).
-Alabama,2Q,6,63,23,1,run,9,successful,0.56,,0.70,0.39,N.Harris,,,,,,,22-N.Harris to BAMA 29 for 9 yards.
-Alabama,2Q,6,64,24,2,run,5,successful,0.60,,0.71,0.42,N.Harris,,,,,,,22-N.Harris to BAMA 34 for 5 yards.
-Alabama,2Q,6,65,25,1,run,4,not successful,0.55,,0.68,0.44,N.Harris,,,,,,,22-N.Harris to BAMA 38 for 4 yards.
-Alabama,2Q,6,66,26,2,pass,1,not successful,,0.73,0.65,0.42,,T.Tagovailoa,M.Forristall,,,,,13-T.Tagovailoa complete to 87-M.Forristall. 87-M.Forristall to BAMA 39 for 1 yard.
-Alabama,2Q,6,67,27,3,pass,,not successful,,0.69,0.63,0.41,,T.Tagovailoa,J.Jeudy,,,,,13-T.Tagovailoa incomplete. Intended for 4-J.Jeudy.
-Southern Miss,2Q,6,69,32,1,run,2,not successful,0.38,,0.25,0.48,D.Harris,,,,,,,18-D.Harris to USM 28 for 2 yards.
-Southern Miss,2Q,6,70,33,2,run,3,not successful,0.36,,0.24,0.50,D.Harris,,,,,,,18-D.Harris to USM 31 for 3 yards.
-Southern Miss,2Q,6,71,34,3,pass,37,explosive,,0.20,0.27,0.48,,J.Abraham,D.Harris,,,,,15-J.Abraham complete to 18-D.Harris. 18-D.Harris to BAMA 32 for 37 yards.
-Southern Miss,2Q,6,72,35,1,no play,15,successful,,,0.29,,,,,,,,,"Penalty on BAMA 28-J.Jobe, Personal Foul, 15 yards, enforced at BAMA 32. No Play."
-Southern Miss,2Q,6,73,36,1,pass,14,successful,,0.25,0.31,0.47,,J.Abraham,K.Perkins,,,,,15-J.Abraham complete to 33-K.Perkins. 33-K.Perkins to BAMA 3 for 14 yards.
-Southern Miss,2Q,6,74,37,1,run,-1,not successful,0.33,,0.30,0.48,K.Perkins,,,,,,,33-K.Perkins to BAMA 4 for -1 yard.
-Southern Miss,2Q,6,75,38,2,pass,4,successful,,0.29,0.32,0.47,,J.Abraham,D.Harris,,,,, 15-J.Abraham complete to 18-D.Harris. 18-D.Harris runs 4 yards for a touchdown.
-Alabama,2Q,7,78,29,1,run,8,successful,0.58,,0.64,0.43,T.Tagovailoa,,,,,,,13-T.Tagovailoa to BAMA 33 for 8 yards.
-Alabama,2Q,7,79,30,2,pass,-6,not successful,,0.65,0.62,0.41,,T.Tagovailoa,,S.Bozeman,,1,,13-T.Tagovailoa sacked at BAMA 27 for -6 yards (28-S.Bozeman).
-Alabama,2Q,7,80,31,3,pass,,not successful,,0.61,0.60,0.40,,T.Tagovailoa,,,,,,13-T.Tagovailoa incomplete.
-Alabama,3Q,8,83,33,1,pass,-4,not successful,,0.58,0.58,0.39,,T.Tagovailoa,J.Metchie,,,,,13-T.Tagovailoa complete to 8-J.Metchie. 8-J.Metchie to BAMA 19 for -4 yards.
-Alabama,3Q,8,84,34,2,pass,36,explosive,,0.60,0.59,0.38,,T.Tagovailoa,J.Jeudy,,,,,13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy to USM 45 for 36 yards.
-Alabama,3Q,8,85,35,1,pass,,not successful,,0.57,0.58,0.36,,T.Tagovailoa,D.Smith,,,,,13-T.Tagovailoa incomplete. Intended for 6-D.Smith.
-Alabama,3Q,8,86,36,2,run,12,successful,0.62,,0.59,0.38,N.Harris,,,,,,,22-N.Harris to USM 33 for 12 yards.
-Alabama,3Q,8,87,37,1,run,13,successful,0.64,,0.60,0.40,N.Harris,,,,,,,22-N.Harris to USM 20 for 13 yards.
-Alabama,3Q,8,88,38,1,pass,20,explosive,,0.59,0.61,0.39,,T.Tagovailoa,J.Jeudy,,,,, 13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy runs 20 yards for a touchdown.
-Southern Miss,3Q,8,91,39,1,run,0,not successful,0.31,,0.31,0.48,J.Abraham,,,,,,,15-J.Abraham to USM 17 for no gain.
-Southern Miss,3Q,8,92,40,2,pass,12,successful,,0.33,0.33,0.47,,J.Abraham,J.Mitchell,,,,,15-J.Abraham complete to 80-J.Mitchell. 80-J.Mitchell to USM 29 for 12 yards.
-Southern Miss,3Q,8,93,41,1,pass,,not successful,,0.32,0.32,0.46,,J.Abraham,T.Jones,,,,,15-J.Abraham incomplete. Intended for 5-T.Jones.
-Southern Miss,3Q,8,94,42,2,pass,25,explosive,,0.35,0.34,0.44,,J.Abraham,T.Jones,,,,,15-J.Abraham complete to 5-T.Jones. 5-T.Jones to BAMA 46 for 25 yards.
-Southern Miss,3Q,8,95,43,1,run,2,not successful,0.29,,0.33,0.46,S.Anderson,,,,,,,12-S.Anderson to BAMA 44 for 2 yards.
-Southern Miss,3Q,8,96,44,2,pass,9,successful,,0.38,0.35,0.45,,J.Abraham,S.Anderson,,,,,15-J.Abraham complete to 12-S.Anderson. 12-S.Anderson to BAMA 35 for 9 yards.
-Southern Miss,3Q,8,97,45,1,run,4,not successful,0.28,,0.34,0.46,D.Harris,,,,,,,18-D.Harris to BAMA 31 for 4 yards.
-Southern Miss,3Q,8,98,46,2,run,,not successful,0.26,,0.33,0.48,D.Harris,,,P.Mathis,,,,"18-D.Harris to BAMA 28, FUMBLES (48-P.Mathis). 9-J.Battle to BAMA 32 for 4 yards."
-Alabama,3Q,9,99,39,1,run,5,successful,0.67,,0.62,0.41,B.Robinson,,,,,,,24-B.Robinson to BAMA 37 for 5 yards.
-Alabama,3Q,9,100,40,2,pass,3,not successful,,0.57,0.61,0.39,,T.Tagovailoa,B.Robinson,,,,,13-T.Tagovailoa complete to 24-B.Robinson. 24-B.Robinson to BAMA 40 for 3 yards.
-Alabama,3Q,9,101,41,3,run,14,successful,0.69,,0.62,0.41,B.Robinson,,,,,,,24-B.Robinson to USM 46 for 14 yards.
-Alabama,3Q,9,102,42,1,run,2,not successful,0.65,,0.60,0.43,B.Robinson,,,,,,,24-B.Robinson to USM 44 for 2 yards.
-Alabama,3Q,9,103,43,2,run,6,successful,0.67,,0.61,0.44,T.Tagovailoa,,,,,,,13-T.Tagovailoa scrambles to USM 38 for 6 yards.
-Alabama,3Q,9,104,44,3,run,17,explosive,0.68,,0.62,0.45,N.Harris,,,,,,,22-N.Harris to USM 21 for 17 yards.
-Alabama,3Q,9,105,45,1,pass,15,successful,,0.58,0.63,0.44,,T.Tagovailoa,D.Smith,,,,,"13-T.Tagovailoa incomplete. Intended for 6-D.Smith. Penalty on USM 25-T.Barnes, Pass interference, 15 yards, enforced at USM 21. No Play."
-Alabama,3Q,9,106,46,1,run,6,successful,0.70,,0.64,0.45,B.Robinson,,,,,,, 24-B.Robinson runs 6 yards for a touchdown.
-Southern Miss,3Q,9,109,47,1,pass,0,not successful,,0.36,0.33,0.46,,J.Abraham,Q.Watkins,,,,,15-J.Abraham complete to 16-Q.Watkins. 16-Q.Watkins to USM 25 for no gain.
-Southern Miss,3Q,9,110,48,2,pass,15,explosive,,0.39,0.34,0.45,,J.Abraham,J.Mitchell,,,,,15-J.Abraham complete to 80-J.Mitchell. 80-J.Mitchell to USM 40 for 15 yards.
-Southern Miss,3Q,9,111,49,1,run,3,not successful,0.25,,0.33,0.47,S.Anderson,,,,,,,12-S.Anderson to USM 43 for 3 yards.
-Southern Miss,3Q,9,112,50,2,pass,,not successful,,0.38,0.33,0.45,,J.Abraham,Q.Watkins,,,,,15-J.Abraham incomplete. Intended for 16-Q.Watkins.
-Southern Miss,3Q,9,113,51,3,pass,3,not successful,,0.36,0.32,0.44,,J.Abraham,J.Adams,,,,,15-J.Abraham complete to 2-J.Adams. 2-J.Adams to USM 46 for 3 yards.
-Alabama,3Q,10,115,47,1,run,1,not successful,0.67,,0.62,0.47,N.Harris,,,,,,,22-N.Harris to BAMA 27 for 1 yard.
-Alabama,3Q,10,116,48,2,pass,17,explosive,,0.60,0.63,0.46,,M.Jones,D.Smith,,,,,10-M.Jones complete to 6-D.Smith. 6-D.Smith pushed ob at BAMA 44 for 17 yards.
-Alabama,3Q,10,117,49,1,run,0,successful,0.68,,0.64,0.47,N.Harris,,,,,,,"22-N.Harris to USM 39, FUMBLES. recovers at the USM 39. to USM 39 for no gain."
-Alabama,3Q,10,118,50,1,run,-2,not successful,0.65,,0.63,0.48,B.Robinson,,,,,,,24-B.Robinson to USM 41 for -2 yards.
-Alabama,3Q,10,119,51,2,pass,8,not successful,,0.58,0.61,0.47,,M.Jones,J.Jeudy,,,,,10-M.Jones complete to 4-J.Jeudy. 4-J.Jeudy to USM 33 for 8 yards.
-Alabama,4Q,11,120,52,3,run,6,successful,0.67,,0.62,0.48,B.Robinson,,,,,,,24-B.Robinson to USM 27 for 6 yards.
-Alabama,4Q,11,121,53,1,run,-2,not successful,0.64,,0.61,0.49,J.Ford,,,,,,,27-J.Ford to USM 29 for -2 yards.
-Alabama,4Q,11,122,54,2,run,-2,not successful,0.62,,0.60,0.50,J.Ford,,,,,,,27-J.Ford to USM 31 for -2 yards.
-Alabama,4Q,11,123,55,3,pass,,not successful,,0.56,0.58,0.49,,M.Jones,,,,,,10-M.Jones incomplete. INTERCEPTED by 12-D.Thomas at USM 26. 12-D.Thomas to USM 26 for no gain.
-Southern Miss,4Q,10,124,53,1,pass,7,successful,,0.38,0.33,0.43,,J.Abraham,J.Adams,,,,,15-J.Abraham complete to 2-J.Adams. 2-J.Adams to USM 33 for 7 yards.
-Southern Miss,4Q,10,125,54,2,run,2,not successful,0.24,,0.33,0.45,K.Perkins,,,,,,,33-K.Perkins to USM 35 for 2 yards.
-Southern Miss,4Q,10,126,55,3,run,2,successful,0.27,,0.34,0.46,J.Abraham,,,,,,,15-J.Abraham to USM 37 for 2 yards.
-Southern Miss,4Q,10,127,56,1,run,4,not successful,0.26,,0.33,0.47,K.Perkins,,,,,,,33-K.Perkins to USM 41 for 4 yards.
-Southern Miss,4Q,10,128,57,2,pass,8,successful,,0.41,0.35,0.46,,J.Abraham,K.Perkins,,,,,15-J.Abraham complete to 33-K.Perkins. 33-K.Perkins to USM 49 for 8 yards.
-Southern Miss,4Q,10,129,58,1,run,1,not successful,0.25,,0.34,0.47,Q.Watkins,,,,,,,16-Q.Watkins to BAMA 50 for 1 yard.
-Southern Miss,4Q,10,130,59,2,pass,7,successful,,0.43,0.35,0.46,,J.Abraham,J.Adams,,,,,15-J.Abraham complete to 2-J.Adams. 2-J.Adams to BAMA 43 for 7 yards.
-Southern Miss,4Q,10,131,60,3,run,-2,not successful,0.24,,0.35,0.47,D.Maberry,,,,,,,7-D.Maberry to BAMA 45 for -2 yards.
-Alabama,4Q,12,135,56,1,run,7,successful,0.63,,0.59,0.50,J.Ford,,,,,,,27-J.Ford to USM 36 for 7 yards.
-Alabama,4Q,12,136,57,2,run,1,not successful,0.61,,0.58,0.51,C.Townsend,,,,,,,12-C.Townsend to USM 35 for 1 yard.
-Alabama,4Q,12,137,58,3,run,-3,not successful,0.59,,0.57,0.52,C.Townsend,,,,,,,12-C.Townsend to USM 38 for -3 yards.
-Alabama,4Q,12,138,59,4,pass,20,explosive,,0.57,0.58,0.51,,T.Tagovailoa,S.Bolden,,,,,"5-T.Tagovailoa complete to 18-S.Bolden. 18-S.Bolden to USM 18 for 20 yards. Penalty on USM 15-S.Showers, Holding, declined."
-Alabama,4Q,12,139,60,1,run,2,not successful,0.57,,0.57,0.52,J.Ford,,,,,,,27-J.Ford to USM 16 for 2 yards.
-Alabama,4Q,12,140,61,2,run,7,successful,0.58,,0.58,0.53,J.Ford,,,,,,,27-J.Ford to USM 9 for 7 yards.
-Alabama,4Q,12,141,62,3,run,2,successful,0.59,,0.58,0.53,J.Ford,,,,,,,27-J.Ford to USM 7 for 2 yards.
-Alabama,4Q,12,142,63,1,run,2,not successful,0.58,,0.57,0.54,J.Ford,,,,,,,27-J.Ford to USM 5 for 2 yards.
-Alabama,4Q,12,143,64,2,run,5,successful,0.59,,0.58,0.55,J.Ford,,,,,,, 27-J.Ford runs 5 yards for a touchdown.
-Southern Miss,4Q,11,146,64,1,run,1,not successful,0.23,,0.34,0.48,D.Maberry,,,,,,,7-D.Maberry to USM 26 for 1 yard.
-Southern Miss,4Q,11,147,65,2,run,-5,not successful,0.22,,0.33,0.49,D.Maberry,,,,,,,7-D.Maberry to USM 21 for -5 yards.
-Southern Miss,4Q,11,148,66,3,run,1,not successful,0.21,,0.33,0.50,D.Maberry,,,,,,,7-D.Maberry to USM 22 for 1 yard.
+team,quarter,drive_team,play_count,play_count_team,down,red_zone,play_type,yards_total,play_result,run_sr,pass_sr,total_sr,run_rate,runner,passer,receiver,tackler_one,tackler_two,tackler_one_credit,tackler_two_credit,play_description
+Southern Miss,1Q,1,2,1,1,Normal,pass,2,not successful,,0.00,0.00,0.00,,J.Abraham,J.Adams,,,,,15-J.Abraham complete to 2-J.Adams. 2-J.Adams to USM 27 for 2 yards.
+Southern Miss,1Q,1,3,2,2,Normal,pass,,not successful,,0.00,0.00,0.00,,J.Abraham,D.Harris,,,,,15-J.Abraham incomplete. Intended for 18-D.Harris.
+Southern Miss,1Q,1,4,3,3,Normal,pass,-2,not successful,,0.00,0.00,0.00,,J.Abraham,J.Adams,,,,,15-J.Abraham complete to 2-J.Adams. 2-J.Adams to USM 25 for -2 yards.
+Alabama,1Q,1,6,1,1,Normal,pass,12,successful,,1.00,1.00,0.00,,T.Tagovailoa,H.Ruggs,,,,,13-T.Tagovailoa complete to 11-H.Ruggs. 11-H.Ruggs to USM 42 for 12 yards.
+Alabama,1Q,1,7,2,1,Normal,pass,-3,not successful,,0.50,0.50,0.00,,T.Tagovailoa,J.Jeudy,,,,,13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy to USM 45 for -3 yards.
+Alabama,1Q,1,8,3,2,Normal,pass,45,explosive,,0.67,0.67,0.00,,T.Tagovailoa,H.Ruggs,,,,, 13-T.Tagovailoa complete to 11-H.Ruggs. 11-H.Ruggs runs 45 yards for a touchdown.
+Southern Miss,1Q,2,11,5,1,Normal,run,11,successful,1.00,,0.25,0.25,J.Abraham,,,,,,,15-J.Abraham pushed ob at USM 32 for 11 yards.
+Southern Miss,1Q,2,12,6,1,Normal,run,21,explosive,1.00,,0.40,0.40,D.Harris,,,,,,,18-D.Harris to BAMA 47 for 21 yards.
+Southern Miss,1Q,2,13,7,1,Normal,run,1,not successful,0.67,,0.33,0.50,K.Perkins,,,,,,,33-K.Perkins to BAMA 46 for 1 yard.
+Southern Miss,1Q,2,14,8,2,Normal,pass,,not successful,,0.00,0.29,0.43,,J.Abraham,J.Mitchell,,,,,15-J.Abraham incomplete. Intended for 80-J.Mitchell.
+Southern Miss,1Q,2,15,9,3,Normal,pass,7,not successful,,0.00,0.25,0.38,,J.Abraham,Q.Watkins,,,,,15-J.Abraham complete to 16-Q.Watkins. 16-Q.Watkins to BAMA 39 for 7 yards.
+Southern Miss,1Q,2,16,10,4,Normal,run,3,successful,0.75,,0.33,0.44,D.Harris,,,,,,,18-D.Harris to BAMA 36 for 3 yards.
+Southern Miss,1Q,2,17,11,1,Normal,run,2,not successful,0.60,,0.30,0.50,J.Adams,,,,,,,2-J.Adams to BAMA 34 for 2 yards.
+Southern Miss,1Q,2,18,12,2,Normal,pass,,not successful,,0.00,0.27,0.45,,J.Abraham,T.Jones,,,,,15-J.Abraham incomplete. Intended for 5-T.Jones.
+Southern Miss,1Q,2,19,13,3,Normal,pass,0,not successful,,0.00,0.25,0.42,,J.Abraham,,A.Jennings,,1,,"15-J.Abraham sacked at BAMA 48 for -14 yards. Penalty on USM 15-J.Abraham, Intentional grounding, 0 yards, enforced at BAMA 48. (33-A.Jennings)."
+Alabama,1Q,2,21,4,1,Normal,run,11,successful,1.00,,0.75,0.25,N.Harris,,,,,,,22-N.Harris to BAMA 20 for 11 yards.
+Alabama,1Q,2,22,5,1,Normal,run,6,successful,1.00,,0.80,0.40,N.Harris,,,,,,,22-N.Harris to BAMA 26 for 6 yards.
+Alabama,1Q,2,23,6,2,Normal,pass,74,explosive,,0.75,0.83,0.33,,T.Tagovailoa,H.Ruggs,,,,, 13-T.Tagovailoa complete to 11-H.Ruggs. 11-H.Ruggs runs 74 yards for a touchdown.
+Southern Miss,1Q,3,26,15,1,Normal,run,3,not successful,0.50,,0.23,0.46,K.Perkins,,,,,,,33-K.Perkins to USM 47 for 3 yards.
+Southern Miss,1Q,3,27,16,2,Normal,pass,9,successful,,0.13,0.29,0.43,,J.Abraham,D.Harris,,,,,15-J.Abraham complete to 18-D.Harris. 18-D.Harris runs ob at BAMA 44 for 9 yards.
+Southern Miss,1Q,3,28,17,1,Normal,run,1,not successful,0.43,,0.27,0.47,D.Harris,,,,,,,18-D.Harris to BAMA 43 for 1 yard.
+Southern Miss,1Q,3,29,18,2,Normal,pass,,not successful,,0.11,0.25,0.44,,J.Abraham,Q.Watkins,,,,,15-J.Abraham incomplete. Intended for 16-Q.Watkins.
+Southern Miss,1Q,3,30,19,3,Normal,pass,,not successful,,0.10,0.24,0.41,,J.Abraham,Q.Watkins,,,,,"15-J.Abraham incomplete. Intended for 16-Q.Watkins, INTERCEPTED by 7-T.Diggs at BAMA 14. 7-T.Diggs to BAMA 9 for -5 yards."
+Alabama,1Q,3,31,7,1,Normal,run,-1,not successful,0.67,,0.71,0.43,N.Harris,,,,,,,22-N.Harris to BAMA 8 for -1 yard.
+Alabama,1Q,3,32,8,2,Normal,run,4,not successful,0.50,,0.63,0.50,N.Harris,,,,,,,22-N.Harris to BAMA 12 for 4 yards.
+Alabama,1Q,3,33,9,3,Normal,pass,15,successful,,0.80,0.67,0.44,,T.Tagovailoa,J.Waddle,,,,,"13-T.Tagovailoa incomplete. Intended for 17-J.Waddle. Penalty on USM 29-E.Gunn, Pass interference, 15 yards, enforced at BAMA 12. No Play."
+Alabama,1Q,3,34,10,1,Normal,pass,3,not successful,,0.67,0.60,0.40,,T.Tagovailoa,J.Waddle,,,,,13-T.Tagovailoa complete to 17-J.Waddle. 17-J.Waddle to BAMA 30 for 3 yards.
+Alabama,1Q,3,35,11,2,Normal,run,4,not successful,0.40,,0.55,0.45,B.Robinson,,,,,,,24-B.Robinson to BAMA 34 for 4 yards.
+Alabama,1Q,3,36,12,3,Normal,pass,15,explosive,,0.71,0.58,0.42,,T.Tagovailoa,J.Waddle,,,,,13-T.Tagovailoa complete to 17-J.Waddle. 17-J.Waddle pushed ob at BAMA 49 for 15 yards.
+Alabama,1Q,3,37,13,1,Normal,pass,,not successful,,0.63,0.54,0.38,,T.Tagovailoa,J.Jeudy,,,,,13-T.Tagovailoa incomplete. Intended for 4-J.Jeudy.
+Alabama,1Q,3,38,14,2,Normal,pass,9,successful,,0.67,0.57,0.36,,T.Tagovailoa,D.Smith,,,,,13-T.Tagovailoa complete to 6-D.Smith. 6-D.Smith to USM 42 for 9 yards.
+Alabama,1Q,3,39,15,3,Normal,run,4,successful,0.50,,0.60,0.40,N.Harris,,,,,,,22-N.Harris to USM 38 for 4 yards.
+Alabama,1Q,3,40,16,1,Normal,run,8,successful,0.57,,0.63,0.44,N.Harris,,,,,,,22-N.Harris to USM 30 for 8 yards.
+Alabama,2Q,4,41,17,2,Normal,pass,25,explosive,,0.70,0.65,0.41,,T.Tagovailoa,J.Waddle,,,,,13-T.Tagovailoa complete to 17-J.Waddle. 17-J.Waddle to USM 5 for 25 yards.
+Alabama,2Q,4,42,18,1,Red Zone,pass,5,successful,,0.73,0.67,0.39,,T.Tagovailoa,N.Harris,,,,, 13-T.Tagovailoa complete to 22-N.Harris. 22-N.Harris runs 5 yards for a touchdown.
+Southern Miss,2Q,4,45,20,1,Normal,pass,,not successful,,0.09,0.22,0.39,,J.Abraham,J.Mitchell,,,,,15-J.Abraham incomplete. Intended for 80-J.Mitchell.
+Southern Miss,2Q,4,46,21,2,Normal,run,-3,not successful,0.38,,0.21,0.42,D.Harris,,,,,,,18-D.Harris to USM 22 for -3 yards.
+Southern Miss,2Q,4,47,22,3,Normal,penalty,,not successful,,,0.20,,,,,,,,,"2-J.Adams to USM 26 for 4 yards. Penalty on USM 5-T.Jones, Personal Foul, declined."
+Alabama,2Q,5,49,19,1,Normal,pass,17,explosive,,0.75,0.68,0.37,,T.Tagovailoa,H.Ruggs,,,,,13-T.Tagovailoa complete to 11-H.Ruggs. 11-H.Ruggs to USM 39 for 17 yards.
+Alabama,2Q,5,50,20,1,Normal,run,4,not successful,0.50,,0.65,0.40,B.Robinson,,,,,,,24-B.Robinson to USM 35 for 4 yards.
+Alabama,2Q,5,51,21,2,Normal,pass,18,explosive,,0.77,0.67,0.38,,T.Tagovailoa,J.Jeudy,,,,,13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy to USM 17 for 18 yards.
+Alabama,2Q,5,52,22,1,Red Zone,pass,17,explosive,,0.79,0.68,0.36,,T.Tagovailoa,J.Jeudy,,,,, 13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy runs 17 yards for a touchdown.
+Southern Miss,2Q,5,55,24,1,Normal,run,1,not successful,0.33,,0.19,0.45,S.Anderson,,,,,,,12-S.Anderson to USM 26 for 1 yard.
+Southern Miss,2Q,5,56,25,2,Normal,pass,17,explosive,,0.17,0.23,0.43,,J.Abraham,Q.Watkins,,,,,15-J.Abraham complete to 16-Q.Watkins. 16-Q.Watkins to USM 43 for 17 yards.
+Southern Miss,2Q,5,57,26,1,Normal,run,5,successful,0.40,,0.26,0.45,S.Anderson,,,,,,,12-S.Anderson to USM 48 for 5 yards.
+Southern Miss,2Q,5,58,27,2,Normal,run,7,successful,0.45,,0.29,0.48,S.Anderson,,,,,,,12-S.Anderson to BAMA 45 for 7 yards.
+Southern Miss,2Q,5,59,28,1,Normal,run,0,not successful,0.42,,0.28,0.50,S.Anderson,,,,,,,12-S.Anderson to BAMA 45 for no gain.
+Southern Miss,2Q,5,60,29,2,Normal,pass,,not successful,,0.15,0.27,0.48,,J.Abraham,J.Mitchell,,,,,15-J.Abraham incomplete. Intended for 80-J.Mitchell.
+Southern Miss,2Q,5,61,30,3,Normal,pass,-8,not successful,,0.14,0.26,0.46,,J.Abraham,,S.Lee,,1,,15-J.Abraham sacked at USM 47 for -8 yards (35-S.Lee).
+Alabama,2Q,6,63,23,1,Normal,run,9,successful,0.56,,0.70,0.39,N.Harris,,,,,,,22-N.Harris to BAMA 29 for 9 yards.
+Alabama,2Q,6,64,24,2,Normal,run,5,successful,0.60,,0.71,0.42,N.Harris,,,,,,,22-N.Harris to BAMA 34 for 5 yards.
+Alabama,2Q,6,65,25,1,Normal,run,4,not successful,0.55,,0.68,0.44,N.Harris,,,,,,,22-N.Harris to BAMA 38 for 4 yards.
+Alabama,2Q,6,66,26,2,Normal,pass,1,not successful,,0.73,0.65,0.42,,T.Tagovailoa,M.Forristall,,,,,13-T.Tagovailoa complete to 87-M.Forristall. 87-M.Forristall to BAMA 39 for 1 yard.
+Alabama,2Q,6,67,27,3,Normal,pass,,not successful,,0.69,0.63,0.41,,T.Tagovailoa,J.Jeudy,,,,,13-T.Tagovailoa incomplete. Intended for 4-J.Jeudy.
+Southern Miss,2Q,6,69,32,1,Normal,run,2,not successful,0.38,,0.25,0.48,D.Harris,,,,,,,18-D.Harris to USM 28 for 2 yards.
+Southern Miss,2Q,6,70,33,2,Normal,run,3,not successful,0.36,,0.24,0.50,D.Harris,,,,,,,18-D.Harris to USM 31 for 3 yards.
+Southern Miss,2Q,6,71,34,3,Normal,pass,37,explosive,,0.20,0.27,0.48,,J.Abraham,D.Harris,,,,,15-J.Abraham complete to 18-D.Harris. 18-D.Harris to BAMA 32 for 37 yards.
+Southern Miss,2Q,6,72,35,1,Normal,no play,15,successful,,,0.29,,,,,,,,,"Penalty on BAMA 28-J.Jobe, Personal Foul, 15 yards, enforced at BAMA 32. No Play."
+Southern Miss,2Q,6,73,36,1,Red Zone,pass,14,successful,,0.25,0.31,0.47,,J.Abraham,K.Perkins,,,,,15-J.Abraham complete to 33-K.Perkins. 33-K.Perkins to BAMA 3 for 14 yards.
+Southern Miss,2Q,6,74,37,1,Red Zone,run,-1,not successful,0.33,,0.30,0.48,K.Perkins,,,,,,,33-K.Perkins to BAMA 4 for -1 yard.
+Southern Miss,2Q,6,75,38,2,Red Zone,pass,4,successful,,0.29,0.32,0.47,,J.Abraham,D.Harris,,,,, 15-J.Abraham complete to 18-D.Harris. 18-D.Harris runs 4 yards for a touchdown.
+Alabama,2Q,7,78,29,1,Normal,run,8,successful,0.58,,0.64,0.43,T.Tagovailoa,,,,,,,13-T.Tagovailoa to BAMA 33 for 8 yards.
+Alabama,2Q,7,79,30,2,Normal,pass,-6,not successful,,0.65,0.62,0.41,,T.Tagovailoa,,S.Bozeman,,1,,13-T.Tagovailoa sacked at BAMA 27 for -6 yards (28-S.Bozeman).
+Alabama,2Q,7,80,31,3,Normal,pass,,not successful,,0.61,0.60,0.40,,T.Tagovailoa,,,,,,13-T.Tagovailoa incomplete.
+Alabama,3Q,8,83,33,1,Normal,pass,-4,not successful,,0.58,0.58,0.39,,T.Tagovailoa,J.Metchie,,,,,13-T.Tagovailoa complete to 8-J.Metchie. 8-J.Metchie to BAMA 19 for -4 yards.
+Alabama,3Q,8,84,34,2,Normal,pass,36,explosive,,0.60,0.59,0.38,,T.Tagovailoa,J.Jeudy,,,,,13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy to USM 45 for 36 yards.
+Alabama,3Q,8,85,35,1,Normal,pass,,not successful,,0.57,0.58,0.36,,T.Tagovailoa,D.Smith,,,,,13-T.Tagovailoa incomplete. Intended for 6-D.Smith.
+Alabama,3Q,8,86,36,2,Normal,run,12,successful,0.62,,0.59,0.38,N.Harris,,,,,,,22-N.Harris to USM 33 for 12 yards.
+Alabama,3Q,8,87,37,1,Normal,run,13,successful,0.64,,0.60,0.40,N.Harris,,,,,,,22-N.Harris to USM 20 for 13 yards.
+Alabama,3Q,8,88,38,1,Normal,pass,20,explosive,,0.59,0.61,0.39,,T.Tagovailoa,J.Jeudy,,,,, 13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy runs 20 yards for a touchdown.
+Southern Miss,3Q,8,91,39,1,Normal,run,0,not successful,0.31,,0.31,0.48,J.Abraham,,,,,,,15-J.Abraham to USM 17 for no gain.
+Southern Miss,3Q,8,92,40,2,Normal,pass,12,successful,,0.33,0.33,0.47,,J.Abraham,J.Mitchell,,,,,15-J.Abraham complete to 80-J.Mitchell. 80-J.Mitchell to USM 29 for 12 yards.
+Southern Miss,3Q,8,93,41,1,Normal,pass,,not successful,,0.32,0.32,0.46,,J.Abraham,T.Jones,,,,,15-J.Abraham incomplete. Intended for 5-T.Jones.
+Southern Miss,3Q,8,94,42,2,Normal,pass,25,explosive,,0.35,0.34,0.44,,J.Abraham,T.Jones,,,,,15-J.Abraham complete to 5-T.Jones. 5-T.Jones to BAMA 46 for 25 yards.
+Southern Miss,3Q,8,95,43,1,Normal,run,2,not successful,0.29,,0.33,0.46,S.Anderson,,,,,,,12-S.Anderson to BAMA 44 for 2 yards.
+Southern Miss,3Q,8,96,44,2,Normal,pass,9,successful,,0.38,0.35,0.45,,J.Abraham,S.Anderson,,,,,15-J.Abraham complete to 12-S.Anderson. 12-S.Anderson to BAMA 35 for 9 yards.
+Southern Miss,3Q,8,97,45,1,Normal,run,4,not successful,0.28,,0.34,0.46,D.Harris,,,,,,,18-D.Harris to BAMA 31 for 4 yards.
+Southern Miss,3Q,8,98,46,2,Normal,run,,not successful,0.26,,0.33,0.48,D.Harris,,,P.Mathis,,,,"18-D.Harris to BAMA 28, FUMBLES (48-P.Mathis). 9-J.Battle to BAMA 32 for 4 yards."
+Alabama,3Q,9,99,39,1,Normal,run,5,successful,0.67,,0.62,0.41,B.Robinson,,,,,,,24-B.Robinson to BAMA 37 for 5 yards.
+Alabama,3Q,9,100,40,2,Normal,pass,3,not successful,,0.57,0.61,0.39,,T.Tagovailoa,B.Robinson,,,,,13-T.Tagovailoa complete to 24-B.Robinson. 24-B.Robinson to BAMA 40 for 3 yards.
+Alabama,3Q,9,101,41,3,Normal,run,14,successful,0.69,,0.62,0.41,B.Robinson,,,,,,,24-B.Robinson to USM 46 for 14 yards.
+Alabama,3Q,9,102,42,1,Normal,run,2,not successful,0.65,,0.60,0.43,B.Robinson,,,,,,,24-B.Robinson to USM 44 for 2 yards.
+Alabama,3Q,9,103,43,2,Normal,run,6,successful,0.67,,0.61,0.44,T.Tagovailoa,,,,,,,13-T.Tagovailoa scrambles to USM 38 for 6 yards.
+Alabama,3Q,9,104,44,3,Normal,run,17,explosive,0.68,,0.62,0.45,N.Harris,,,,,,,22-N.Harris to USM 21 for 17 yards.
+Alabama,3Q,9,105,45,1,Normal,pass,15,successful,,0.58,0.63,0.44,,T.Tagovailoa,D.Smith,,,,,"13-T.Tagovailoa incomplete. Intended for 6-D.Smith. Penalty on USM 25-T.Barnes, Pass interference, 15 yards, enforced at USM 21. No Play."
+Alabama,3Q,9,106,46,1,Red Zone,run,6,successful,0.70,,0.64,0.45,B.Robinson,,,,,,, 24-B.Robinson runs 6 yards for a touchdown.
+Southern Miss,3Q,9,109,47,1,Normal,pass,0,not successful,,0.36,0.33,0.46,,J.Abraham,Q.Watkins,,,,,15-J.Abraham complete to 16-Q.Watkins. 16-Q.Watkins to USM 25 for no gain.
+Southern Miss,3Q,9,110,48,2,Normal,pass,15,explosive,,0.39,0.34,0.45,,J.Abraham,J.Mitchell,,,,,15-J.Abraham complete to 80-J.Mitchell. 80-J.Mitchell to USM 40 for 15 yards.
+Southern Miss,3Q,9,111,49,1,Normal,run,3,not successful,0.25,,0.33,0.47,S.Anderson,,,,,,,12-S.Anderson to USM 43 for 3 yards.
+Southern Miss,3Q,9,112,50,2,Normal,pass,,not successful,,0.38,0.33,0.45,,J.Abraham,Q.Watkins,,,,,15-J.Abraham incomplete. Intended for 16-Q.Watkins.
+Southern Miss,3Q,9,113,51,3,Normal,pass,3,not successful,,0.36,0.32,0.44,,J.Abraham,J.Adams,,,,,15-J.Abraham complete to 2-J.Adams. 2-J.Adams to USM 46 for 3 yards.
+Alabama,3Q,10,115,47,1,Normal,run,1,not successful,0.67,,0.62,0.47,N.Harris,,,,,,,22-N.Harris to BAMA 27 for 1 yard.
+Alabama,3Q,10,116,48,2,Normal,pass,17,explosive,,0.60,0.63,0.46,,M.Jones,D.Smith,,,,,10-M.Jones complete to 6-D.Smith. 6-D.Smith pushed ob at BAMA 44 for 17 yards.
+Alabama,3Q,10,117,49,1,Normal,run,0,successful,0.68,,0.64,0.47,N.Harris,,,,,,,"22-N.Harris to USM 39, FUMBLES. recovers at the USM 39. to USM 39 for no gain."
+Alabama,3Q,10,118,50,1,Normal,run,-2,not successful,0.65,,0.63,0.48,B.Robinson,,,,,,,24-B.Robinson to USM 41 for -2 yards.
+Alabama,3Q,10,119,51,2,Normal,pass,8,not successful,,0.58,0.61,0.47,,M.Jones,J.Jeudy,,,,,10-M.Jones complete to 4-J.Jeudy. 4-J.Jeudy to USM 33 for 8 yards.
+Alabama,4Q,11,120,52,3,Normal,run,6,successful,0.67,,0.62,0.48,B.Robinson,,,,,,,24-B.Robinson to USM 27 for 6 yards.
+Alabama,4Q,11,121,53,1,Normal,run,-2,not successful,0.64,,0.61,0.49,J.Ford,,,,,,,27-J.Ford to USM 29 for -2 yards.
+Alabama,4Q,11,122,54,2,Normal,run,-2,not successful,0.62,,0.60,0.50,J.Ford,,,,,,,27-J.Ford to USM 31 for -2 yards.
+Alabama,4Q,11,123,55,3,Normal,pass,,not successful,,0.56,0.58,0.49,,M.Jones,,,,,,10-M.Jones incomplete. INTERCEPTED by 12-D.Thomas at USM 26. 12-D.Thomas to USM 26 for no gain.
+Southern Miss,4Q,10,124,53,1,Normal,pass,7,successful,,0.38,0.33,0.43,,J.Abraham,J.Adams,,,,,15-J.Abraham complete to 2-J.Adams. 2-J.Adams to USM 33 for 7 yards.
+Southern Miss,4Q,10,125,54,2,Normal,run,2,not successful,0.24,,0.33,0.45,K.Perkins,,,,,,,33-K.Perkins to USM 35 for 2 yards.
+Southern Miss,4Q,10,126,55,3,Normal,run,2,successful,0.27,,0.34,0.46,J.Abraham,,,,,,,15-J.Abraham to USM 37 for 2 yards.
+Southern Miss,4Q,10,127,56,1,Normal,run,4,not successful,0.26,,0.33,0.47,K.Perkins,,,,,,,33-K.Perkins to USM 41 for 4 yards.
+Southern Miss,4Q,10,128,57,2,Normal,pass,8,successful,,0.41,0.35,0.46,,J.Abraham,K.Perkins,,,,,15-J.Abraham complete to 33-K.Perkins. 33-K.Perkins to USM 49 for 8 yards.
+Southern Miss,4Q,10,129,58,1,Normal,run,1,not successful,0.25,,0.34,0.47,Q.Watkins,,,,,,,16-Q.Watkins to BAMA 50 for 1 yard.
+Southern Miss,4Q,10,130,59,2,Normal,pass,7,successful,,0.43,0.35,0.46,,J.Abraham,J.Adams,,,,,15-J.Abraham complete to 2-J.Adams. 2-J.Adams to BAMA 43 for 7 yards.
+Southern Miss,4Q,10,131,60,3,Normal,run,-2,not successful,0.24,,0.35,0.47,D.Maberry,,,,,,,7-D.Maberry to BAMA 45 for -2 yards.
+Alabama,4Q,12,135,56,1,Normal,run,7,successful,0.63,,0.59,0.50,J.Ford,,,,,,,27-J.Ford to USM 36 for 7 yards.
+Alabama,4Q,12,136,57,2,Normal,run,1,not successful,0.61,,0.58,0.51,C.Townsend,,,,,,,12-C.Townsend to USM 35 for 1 yard.
+Alabama,4Q,12,137,58,3,Normal,run,-3,not successful,0.59,,0.57,0.52,C.Townsend,,,,,,,12-C.Townsend to USM 38 for -3 yards.
+Alabama,4Q,12,138,59,4,Normal,pass,20,explosive,,0.57,0.58,0.51,,T.Tagovailoa,S.Bolden,,,,,"5-T.Tagovailoa complete to 18-S.Bolden. 18-S.Bolden to USM 18 for 20 yards. Penalty on USM 15-S.Showers, Holding, declined."
+Alabama,4Q,12,139,60,1,Red Zone,run,2,not successful,0.57,,0.57,0.52,J.Ford,,,,,,,27-J.Ford to USM 16 for 2 yards.
+Alabama,4Q,12,140,61,2,Red Zone,run,7,successful,0.58,,0.58,0.53,J.Ford,,,,,,,27-J.Ford to USM 9 for 7 yards.
+Alabama,4Q,12,141,62,3,Red Zone,run,2,successful,0.59,,0.58,0.53,J.Ford,,,,,,,27-J.Ford to USM 7 for 2 yards.
+Alabama,4Q,12,142,63,1,Red Zone,run,2,not successful,0.58,,0.57,0.54,J.Ford,,,,,,,27-J.Ford to USM 5 for 2 yards.
+Alabama,4Q,12,143,64,2,Red Zone,run,5,successful,0.59,,0.58,0.55,J.Ford,,,,,,, 27-J.Ford runs 5 yards for a touchdown.
+Southern Miss,4Q,11,146,64,1,Normal,run,1,not successful,0.23,,0.34,0.48,D.Maberry,,,,,,,7-D.Maberry to USM 26 for 1 yard.
+Southern Miss,4Q,11,147,65,2,Normal,run,-5,not successful,0.22,,0.33,0.49,D.Maberry,,,,,,,7-D.Maberry to USM 21 for -5 yards.
+Southern Miss,4Q,11,148,66,3,Normal,run,1,not successful,0.21,,0.33,0.50,D.Maberry,,,,,,,7-D.Maberry to USM 22 for 1 yard.
