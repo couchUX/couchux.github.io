@@ -21,6 +21,7 @@
 <body>
   <div id="main">
 
+    <!-- Overview charts -->
     <h3>Team success rates (cumulative)</h3>
     <div class="chartOuter" id="teamsSrOuter">
       <canvas id="teamsSrChart" height="240" width="400"></canvas>
@@ -40,6 +41,7 @@
       <button class="switchBtn">Switch team</button>
     </div>
 
+    <!-- Bar charts -->
     <h3>Success and Explosiveness by Quarter</h3>
     <div class="chartOuter" id="quartersOuter">
       <canvas id="quartersChart" height="240" width="400"></canvas>
@@ -47,37 +49,75 @@
 
     <h3>Success and Explosiveness by Down</h3>
     <div class="chartOuter" id="downsOuter">
-      <canvas id="downsChart" height="300" width="400"></canvas>
+      <canvas id="downsChart" height="240" width="400"></canvas>
     </div>
 
-    <h3>Rushing Rate (cumulative)</h3>
+    <h3>Success and Explosiveness in the Red Zone</h3>
+    <div class="chartOuter" id="redZoneOuter">
+      <canvas id="redZoneChart" height="300" width="400"></canvas>
+    </div>
+
+    <!-- Line charts -->
+    <h3>Rushing Rate (cumulative), Alabama</h3>
     <div class="chartOuter" id="runRateOuter">
       <canvas id="runRateChart" height="240" width="400"></canvas>
     </div>
-
+    
+    <h3>Rushing Rate (cumulative), Opponent</h3>
+    <div class="chartOuter" id="runRateOpponentOuter">
+      <canvas id="runRateOpponentChart" height="240" width="400"></canvas>
+    </div>
+    
     <h3>Running and Passing Success (cumulative)</h3>
     <div class="chartOuter" id="runPassSrOuter">
       <canvas id="runPassSrChart" height="240" width="400"></canvas>
     </div>
+
+    <h3>Rushing and Passing Success (cumulative), Opponent</h3>
+    <div class="chartOuter" id="runPassSrOpponentOuter">
+      <canvas id="runPassSrOpponentChart" height="240" width="400"></canvas>
+    </div>
     
-    <h3>Top Runners (in order of appearance)</h3>
+    <!-- Alabama player charts -->
+    <h3>Top Runners (in order of appearance), Alabama</h3>
     <div class="chartOuter" id="runnersOuter">
       <canvas id="runnersChart" height="200" width="400"></canvas>
     </div>
     
-    <h3>Top Passers (in order of appearance)</h3>
+    <h3>Top Passers (in order of appearance), Alabama</h3>
     <div class="chartOuter" id="passersOuter">
       <canvas id="passersChart" height="100" width="400"></canvas>
     </div>
     
-    <h3>Top Receivers (in order of appearance)</h3>
+    <h3>Top Receivers (in order of appearance), Alabama</h3>
     <div class="chartOuter" id="receiversOuter">
       <canvas id="receiversChart" height="300" width="400"></canvas>
     </div>
     
-    <h3>Top Tacklers (in order of appearance)</h3>
+    <h3>Top Tacklers (in order of appearance), Alabama</h3>
     <div class="chartOuter" id="tacklersOuter">
       <canvas id="tacklersChart" height="480" width="400"></canvas>
+    </div>
+    
+    <!-- Opponent player charts -->
+    <h3>Top Runners (in order of appearance), Opponent</h3>
+    <div class="chartOuter" id="runnersOpponentOuter">
+      <canvas id="runnersOpponentChart" height="200" width="400"></canvas>
+    </div>
+    
+    <h3>Top Passers (in order of appearance), Opponent</h3>
+    <div class="chartOuter" id="passersOpponentOuter">
+      <canvas id="passersOpponentChart" height="100" width="400"></canvas>
+    </div>
+    
+    <h3>Top Receivers (in order of appearance), Opponent</h3>
+    <div class="chartOuter" id="receiversOpponentOuter">
+      <canvas id="receiversOpponentChart" height="300" width="400"></canvas>
+    </div>
+    
+    <h3>Top Tacklers (in order of appearance), Opponent</h3>
+    <div class="chartOuter" id="tacklersOpponentOuter">
+      <canvas id="tacklersOpponentChart" height="480" width="400"></canvas>
     </div>
   
 
@@ -92,7 +132,6 @@
     <script src="../cfb-charts/js/charts.js"></script>
   
     
-
     <!-- script for chart js -->
     <script>
       // paste this data each time. Consider writing a JSON file for all colors that will let us just plug in the names.
@@ -100,7 +139,7 @@
       var gameData;
 
       allCharts("all_plays.csv");
-      // version for RBR: allCharts("https://couchux.github.io/RBR_charts/2019-01-07_Alabama_Clemson/all_plays.csv");
+      // prefix for RBR: https://couchux.github.io/RBR_charts/...
       
       function allCharts(csv) {
         d3.csv(csv, function(data) {
@@ -117,12 +156,19 @@
           teamSwitcher(); // goes with play maps
           quartersChart(teamOneData, teamTwoData, "quarters");
           downsChart(teamOneData, teamTwoData, "downs");
+          redZoneChart(teamOneData, teamTwoData, "redZone");
           runRateChart(teamOneData, "runRate");
+          runRateChart(teamTwoData, "runRateOpponent");
           runPassSrChart(teamOneData, "runPassSr");
+          runPassSrChart(teamTwoData, "runPassSrOpponent");
           runnersChart(teamOneData,"runners");
           passersChart(teamOneData,"passers");
           receiversChart(teamOneData,"receivers");
           tacklersChart(teamOneData,teamTwoData,"tacklers");
+          runnersChart(teamTwoData,"runnersOpponent");
+          passersChart(teamTwoData,"passersOpponent");
+          receiversChart(teamTwoData,"receiversOpponent");
+          tacklersChart(teamTwoData,teamOneData,"tacklersOpponent");
           
           // load more charts here
 
