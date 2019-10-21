@@ -182,7 +182,20 @@ function teamSrChart(thisTeam,thatTeam,thisId) {
                 xAxes: [{
                     display: false,
                 }],
-            }
+            },
+            tooltips: {
+                callbacks: {
+                    label: function(tooltipItem, data) {
+                        var label = data.datasets[tooltipItem.datasetIndex].label || '';
+    
+                        if (label) {
+                            label += ': ';
+                        }
+                        label += Math.round(tooltipItem.yLabel * 100) + "%";
+                        return label;
+                    }
+                }
+            },
         }
     });
     
@@ -252,7 +265,7 @@ function playMap(thisTeam,thisId,legendId) {
                 suggestedMax: playsMax,
                 }
             }],
-            }
+            },
         }
     });
 
@@ -338,7 +351,7 @@ function barSrChart(thisData,thisTeam,thatTeam,thisId,thisColumn,labelChar) {
             scales: {
                 xAxes: [{
                     ticks: {
-                        callback: function(value) {return value + labelChar },
+                        callback: function(value) { return value + labelChar },
                         stacked: true,
                         suggestedMax: 1,
                     }
@@ -346,10 +359,23 @@ function barSrChart(thisData,thisTeam,thatTeam,thisId,thisColumn,labelChar) {
                 yAxes: [{
                     ticks: {
                         suggestedMax: 1,
-                        callback: function(value) {return value * 100 + "%" }
+                        callback: function(value) { return value * 100 + "%" }
                     }
                 }]
-            }
+            },
+            tooltips: {
+                callbacks: {
+                    label: function(tooltipItem, data) {
+                        var label = data.datasets[tooltipItem.datasetIndex].label || '';
+    
+                        if (label) {
+                            label += ': ';
+                        }
+                        label += Math.round(tooltipItem.yLabel * 100) + "%";
+                        return label;
+                    }
+                }
+            },
         }
     });
     
@@ -464,7 +490,20 @@ function runRateChart(thisTeam, thisId) {
                 xAxes: [{
                     display: false,
                 }],
-            }
+            },
+            tooltips: {
+                callbacks: {
+                    label: function(tooltipItem, data) {
+                        var label = data.datasets[tooltipItem.datasetIndex].label || '';
+    
+                        if (label) {
+                            label += ': ';
+                        }
+                        label += Math.round(tooltipItem.yLabel * 100) + "%";
+                        return label;
+                    }
+                }
+            },
         }
     });
     
@@ -572,7 +611,20 @@ function runPassSrChart(thisTeam, thisId) {
                 xAxes: [{
                     display: false,
                 }],
-            }
+            },
+            tooltips: {
+                callbacks: {
+                    label: function(tooltipItem, data) {
+                        var label = data.datasets[tooltipItem.datasetIndex].label || '';
+    
+                        if (label) {
+                            label += ': ';
+                        }
+                        label += Math.round(tooltipItem.yLabel * 100) + "%";
+                        return label;
+                    }
+                }
+            },
         }
     });
     
