@@ -1,132 +1,128 @@
 team,quarter,drive_team,play_count,play_count_team,down,red_zone,play_type,yards_total,play_result,run_sr,pass_sr,total_sr,run_rate,runner,passer,receiver,tackler_one,tackler_two,tackler_one_credit,tackler_two_credit,play_description
-Tennessee,1Q,1,2,1,1,Normal,run,-1,not successful,0.00,,0.00,1.00,T.Chandler,,,R.Davis,A.Jennings,0.5,0.5,"8-T.Chandler to TEN 14 for -1 yard (99-R.Davis,33-A.Jennings)."
-Tennessee,1Q,1,3,2,2,Normal,pass,3,not successful,,0.00,0.00,0.50,,B.Maurer,D.Wood-Anderson,,,,,18-B.Maurer complete to 4-D.Wood-Anderson. 4-D.Wood-Anderson to TEN 17 for 3 yards.
-Tennessee,1Q,1,4,3,3,Normal,pass,,not successful,,0.00,0.00,0.33,,B.Maurer,J.Jennings,,,,,18-B.Maurer incomplete. Intended for 15-J.Jennings.
-Alabama,1Q,1,7,1,1,Normal,pass,19,explosive,,1.00,1.00,0.00,,T.Tagovailoa,J.Jeudy,K.George,,1,,13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy to TEN 16 for 19 yards (41-K.George).
-Alabama,1Q,1,8,2,1,Red Zone,run,6,successful,1.00,,1.00,0.50,N.Harris,,,D.Johnson,T.Jackson,0.5,0.5,"22-N.Harris to TEN 10 for 6 yards (13-D.Johnson,26-T.Jackson)."
-Alabama,1Q,1,10,4,2,Red Zone,pass,13,successful,,1.00,1.00,0.33,,T.Tagovailoa,H.Ruggs,,,,,"13-T.Tagovailoa incomplete. Intended for 11-H.Ruggs. Penalty on TEN 20-B.Thompson, Pass interference, 13 yards, enforced at TEN 15. No Play."
-Alabama,1Q,1,11,5,1,Red Zone,run,1,successful,1.00,,1.00,0.50,N.Harris,,,S.Shamburger,D.Middleton,0.5,0.5,"22-N.Harris to TEN 1 for 1 yard (12-S.Shamburger,97-D.Middleton)."
-Alabama,1Q,1,12,6,2,Red Zone,no play,0,successful,,,1.00,,,,,,,,,"13-T.Tagovailoa incomplete. Intended for 87-M.Forristall. Penalty on TEN 18-N.Warrior, Holding, 0 yards, enforced at TEN 1. No Play."
-Alabama,1Q,1,13,7,1,Red Zone,run,1,successful,1.00,,1.00,0.60,N.Harris,,,,,,, 22-N.Harris runs 1 yard for a touchdown.
-Tennessee,1Q,2,16,6,1,Normal,pass,5,successful,,0.33,0.25,0.25,,B.Maurer,J.Jennings,J.Mayden,,1,,18-B.Maurer complete to 15-J.Jennings. 15-J.Jennings to TEN 25 for 5 yards (21-J.Mayden).
-Tennessee,1Q,2,17,7,2,Normal,run,8,successful,0.50,,0.40,0.40,T.Jordan,,,C.Harris,,1,,9-T.Jordan to TEN 33 for 8 yards (8-C.Harris).
-Tennessee,1Q,2,18,8,1,Normal,pass,,not successful,,0.25,0.33,0.33,,B.Maurer,J.Jennings,J.Jennings,,,,"18-B.Maurer incomplete. Intended for 15-J.Jennings, INTERCEPTED by 21-J.Mayden at TEN 42. 21-J.Mayden to TEN 38 for 4 yards (15-J.Jennings)."
-Alabama,1Q,2,19,8,1,Normal,pass,14,successful,,1.00,1.00,0.50,,T.Tagovailoa,N.Harris,D.Taylor,,1,,13-T.Tagovailoa complete to 22-N.Harris. 22-N.Harris to TEN 24 for 14 yards (19-D.Taylor).
-Alabama,1Q,2,20,9,1,Normal,pass,-2,not successful,,0.75,0.88,0.43,,T.Tagovailoa,H.Ruggs,B.Thompson,,1,,13-T.Tagovailoa complete to 11-H.Ruggs. 11-H.Ruggs to TEN 26 for -2 yards (20-B.Thompson).
-Alabama,1Q,2,21,10,2,Normal,pass,9,successful,,0.80,0.89,0.38,,T.Tagovailoa,N.Harris,D.Bituli,,1,,13-T.Tagovailoa complete to 22-N.Harris. 22-N.Harris pushed ob at TEN 17 for 9 yards (35-D.Bituli).
-Alabama,1Q,2,22,11,3,Red Zone,pass,15,explosive,,0.83,0.90,0.33,,T.Tagovailoa,J.Jeudy,B.Thompson,,1,,13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy to TEN 2 for 15 yards (20-B.Thompson).
-Alabama,1Q,2,23,12,1,Red Zone,pass,,not successful,,0.71,0.82,0.30,,T.Tagovailoa,,H.Ruggs,,,,13-T.Tagovailoa incomplete. INTERCEPTED by 18-N.Warrior at TEN End Zone. 18-N.Warrior to BAMA 41 for 59 yards (11-H.Ruggs).
-Tennessee,1Q,3,24,9,1,Normal,run,1,not successful,0.33,,0.29,0.43,T.Jordan,,,T.Lewis,,1,,9-T.Jordan to BAMA 40 for 1 yard (24-T.Lewis).
-Tennessee,1Q,3,25,10,2,Normal,run,-1,not successful,0.25,,0.25,0.50,B.Maurer,,,T.Lewis,,1,,18-B.Maurer to BAMA 41 for -1 yard (24-T.Lewis).
-Tennessee,1Q,3,26,11,3,Normal,pass,20,explosive,,0.40,0.33,0.44,,B.Maurer,J.Palmer,,,,,"18-B.Maurer complete to 5-J.Palmer. 5-J.Palmer to BAMA 21 for 20 yards. Penalty on BAMA 99-R.Davis, Offside, declined."
-Tennessee,1Q,3,27,12,1,Normal,no play,10,successful,,,0.40,,,,,,,,,"18-B.Maurer incomplete. Intended for 4-D.Wood-Anderson. Penalty on BAMA 24-T.Lewis, Holding, 10 yards, enforced at BAMA 21. No Play."
-Tennessee,1Q,3,29,14,1,Normal,pass,18,explosive,,0.50,0.45,0.40,,B.Maurer,J.Jennings,C.Harris,X.McKinney,0.5,0.5,"18-B.Maurer complete to 15-J.Jennings. 15-J.Jennings to BAMA 3 for 18 yards (8-C.Harris,15-X.McKinney)."
-Tennessee,1Q,3,30,15,2,Red Zone,run,1,not successful,0.20,,0.42,0.45,E.Gray,,,T.Lewis,,1,,3-E.Gray to BAMA 2 for 1 yard (24-T.Lewis).
-Tennessee,1Q,3,31,16,3,Red Zone,run,2,successful,0.33,,0.46,0.50,B.Maurer,,,,,,, 18-B.Maurer runs 2 yards for a touchdown.
-Alabama,1Q,3,34,13,1,Normal,run,13,successful,1.00,,0.83,0.36,N.Harris,,,T.Jackson,,1,,22-N.Harris to BAMA 48 for 13 yards (26-T.Jackson).
-Alabama,1Q,3,35,14,1,Normal,run,5,successful,1.00,,0.85,0.42,N.Harris,,,M.Butler,D.Bituli,0.5,0.5,"22-N.Harris to TEN 47 for 5 yards (94-M.Butler,35-D.Bituli)."
-Alabama,1Q,3,36,15,2,Normal,run,5,successful,1.00,,0.86,0.46,N.Harris,,,G.Emerson,,1,,22-N.Harris to TEN 42 for 5 yards (90-G.Emerson).
-Alabama,1Q,3,37,16,1,Normal,pass,18,explosive,,0.75,0.87,0.43,,T.Tagovailoa,H.Ruggs,T.Jackson,,1,,13-T.Tagovailoa complete to 11-H.Ruggs. 11-H.Ruggs pushed ob at TEN 24 for 18 yards (26-T.Jackson).
-Alabama,1Q,3,38,17,1,Normal,penalty,10,successful,,,0.88,,,,,K.Bennett,A.Taylor,0.5,0.5,"22-N.Harris to TEN 19 for 5 yards (95-K.Bennett,2-A.Taylor). Penalty on TEN 35-D.Bituli, Personal Foul, 10 yards, enforced at TEN 19."
-Alabama,1Q,3,39,18,1,Red Zone,run,9,successful,1.00,,0.88,0.47,B.Robinson,,,,,,, 24-B.Robinson runs 9 yards for a touchdown.
-Tennessee,1Q,4,43,18,1,Normal,pass,16,explosive,,0.57,0.50,0.46,,B.Maurer,J.Jennings,J.Mayden,X.McKinney,0.5,0.5,"18-B.Maurer complete to 15-J.Jennings. 15-J.Jennings to TEN 36 for 16 yards (21-J.Mayden,15-X.McKinney)."
-Tennessee,1Q,4,44,19,1,Normal,run,1,not successful,0.29,,0.47,0.50,T.Jordan,,,T.Lewis,R.Davis,0.5,0.5,"9-T.Jordan to TEN 37 for 1 yard (24-T.Lewis,99-R.Davis)."
-Tennessee,1Q,4,45,20,2,Normal,pass,8,successful,,0.63,0.50,0.47,,J.Guarantano,J.Jennings,J.Mayden,,1,,2-J.Guarantano complete to 15-J.Jennings. 15-J.Jennings to TEN 45 for 8 yards (21-J.Mayden).
-Tennessee,2Q,5,46,21,3,Normal,run,2,successful,0.38,,0.53,0.50,T.Jordan,,,A.Jennings,,1,,9-T.Jordan to TEN 47 for 2 yards (33-A.Jennings).
-Tennessee,2Q,5,47,22,1,Normal,pass,,not successful,,0.56,0.50,0.47,,J.Guarantano,J.Jennings,,,,,2-J.Guarantano incomplete. Intended for 15-J.Jennings.
-Tennessee,2Q,5,48,23,2,Normal,run,33,explosive,0.44,,0.53,0.50,T.Jordan,,,P.Surtain,,1,,9-T.Jordan to BAMA 20 for 33 yards (2-P.Surtain).
-Tennessee,2Q,5,49,24,1,Normal,run,2,not successful,0.40,,0.50,0.53,J.Guarantano,,,S.Lee,,1,,2-J.Guarantano to BAMA 18 for 2 yards (35-S.Lee).
-Tennessee,2Q,5,50,25,2,Red Zone,pass,13,successful,,0.60,0.52,0.50,,J.Guarantano,M.Callaway,,,,,"2-J.Guarantano incomplete. Intended for 1-M.Callaway. Penalty on BAMA 2-P.Surtain, Pass interference, 13 yards, enforced at BAMA 18. No Play."
-Tennessee,2Q,5,52,27,1,Red Zone,run,0,not successful,0.36,,0.50,0.52,T.Jordan,,,C.Harris,,1,,9-T.Jordan to BAMA 10 for no gain (8-C.Harris).
-Tennessee,2Q,5,53,28,2,Red Zone,pass,-10,not successful,,0.55,0.48,0.50,,J.Guarantano,A.Pope,,,,,"2-J.Guarantano incomplete. Intended for 81-A.Pope. Team penalty on TEN, Ineligible player downfield during passing down, declined. Penalty on TEN 75-J.Carvin, Holding, 10 yards, enforced at BAMA 10. Team penalty on TEN, Holding, declined."
-Tennessee,2Q,5,54,29,2,Normal,pass,,not successful,,0.50,0.46,0.48,,J.Guarantano,M.Callaway,,,,,2-J.Guarantano incomplete. Intended for 1-M.Callaway.
-Tennessee,2Q,5,55,30,3,Normal,pass,,not successful,,0.46,0.44,0.46,,J.Guarantano,J.Jennings,,,,,2-J.Guarantano incomplete. Intended for 15-J.Jennings.
-Alabama,2Q,4,58,19,1,Normal,pass,14,successful,,0.78,0.89,0.44,,T.Tagovailoa,M.Forristall,T.Jackson,,1,,13-T.Tagovailoa complete to 87-M.Forristall. 87-M.Forristall to BAMA 39 for 14 yards (26-T.Jackson).
-Alabama,2Q,4,59,20,1,Normal,pass,48,explosive,,0.80,0.89,0.41,,T.Tagovailoa,H.Ruggs,T.Jackson,,1,,13-T.Tagovailoa complete to 11-H.Ruggs. 11-H.Ruggs to TEN 13 for 48 yards (26-T.Jackson).
-Alabama,2Q,4,60,21,1,Red Zone,run,-3,not successful,0.88,,0.85,0.44,N.Harris,,,K.Bennett,,1,,22-N.Harris to TEN 16 for -3 yards (95-K.Bennett).
-Alabama,2Q,4,61,22,2,Red Zone,pass,8,not successful,,0.73,0.81,0.42,,T.Tagovailoa,B.Robinson,D.Bituli,,1,,13-T.Tagovailoa complete to 24-B.Robinson. 24-B.Robinson to TEN 8 for 8 yards (35-D.Bituli).
-Alabama,2Q,4,62,23,3,Red Zone,pass,7,successful,,0.75,0.82,0.40,,T.Tagovailoa,J.Jeudy,D.Bituli,N.Warrior,0.5,0.5,"13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy to TEN 1 for 7 yards (35-D.Bituli,18-N.Warrior)."
-Alabama,2Q,4,63,24,3,Red Zone,pass,7,successful,,0.77,0.83,0.38,,T.Tagovailoa,J.Jeudy,D.Bituli,N.Warrior,0.5,0.5,"13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy to TEN 1 for 7 yards (35-D.Bituli,18-N.Warrior)."
-Alabama,2Q,4,64,25,1,Red Zone,no play,0,successful,,,0.83,,,,,,,,,"Penalty on TEN 35-D.Bituli, Personal Foul, 0 yards, enforced at TEN 1. No Play."
-Alabama,2Q,4,65,26,1,Red Zone,run,1,successful,0.89,,0.84,0.41,N.Harris,,,,,,, 22-N.Harris runs 1 yard for a touchdown.
-Tennessee,2Q,6,68,32,1,Normal,pass,,not successful,,0.43,0.42,0.44,,J.Guarantano,,,,,,2-J.Guarantano incomplete.
-Tennessee,2Q,6,69,33,2,Normal,run,11,successful,0.42,,0.44,0.46,T.Jordan,,,C.Harris,S.Carter,0.5,0.5,"9-T.Jordan to TEN 35 for 11 yards (8-C.Harris,5-S.Carter)."
-Tennessee,2Q,6,70,34,1,Normal,pass,15,successful,,0.47,0.46,0.44,,J.Guarantano,J.Palmer,,,,,"2-J.Guarantano incomplete. Intended for 5-J.Palmer. Penalty on BAMA 7-T.Diggs, Pass interference, 15 yards, enforced at TEN 35. No Play."
-Tennessee,2Q,6,71,35,1,Normal,pass,,not successful,,0.44,0.45,0.43,,J.Guarantano,A.Pope,,,,,2-J.Guarantano incomplete. Intended for 81-A.Pope.
-Tennessee,2Q,6,72,36,2,Normal,pass,0,not successful,,0.41,0.43,0.41,,J.Guarantano,J.Jennings,J.Mayden,,1,,"2-J.Guarantano complete to 15-J.Jennings. 15-J.Jennings to BAMA 45, FUMBLES (21-J.Mayden). 4-D.Wood-Anderson to BAMA 45 for no gain."
-Tennessee,2Q,6,73,37,2,Normal,pass,,not successful,,0.39,0.42,0.40,,J.Guarantano,J.Jennings,,,,,2-J.Guarantano incomplete. Intended for 15-J.Jennings.
-Tennessee,2Q,6,74,38,3,Normal,run,1,not successful,0.38,,0.41,0.42,J.Guarantano,,,C.Barmore,,1,,"2-J.Guarantano scrambles, pushed ob at BAMA 49 for 1 yard (58-C.Barmore)."
-Alabama,2Q,5,76,27,1,Normal,pass,-5,not successful,,0.71,0.81,0.39,,T.Tagovailoa,,G.Emerson,,1,,13-T.Tagovailoa sacked at BAMA 16 for -5 yards (90-G.Emerson).
-Alabama,2Q,5,77,28,2,Normal,pass,5,not successful,,0.67,0.78,0.38,,T.Tagovailoa,B.Robinson,Q.Crouch,,1,,13-T.Tagovailoa complete to 24-B.Robinson. 24-B.Robinson to BAMA 21 for 5 yards (27-Q.Crouch).
-Alabama,2Q,5,78,29,3,Normal,pass,13,successful,,0.69,0.79,0.36,,M.Jones,J.Waddle,K.Bennett,J.McCollough,0.5,0.5,"10-M.Jones complete to 17-J.Waddle. 17-J.Waddle to BAMA 34 for 13 yards (95-K.Bennett,22-J.McCollough)."
-Alabama,2Q,5,79,30,1,Normal,run,3,not successful,0.80,,0.76,0.38,N.Harris,,,J.Mincey,K.Bennett,0.5,0.5,"22-N.Harris to BAMA 37 for 3 yards (99-J.Mincey,95-K.Bennett)."
-Alabama,2Q,5,80,31,2,Normal,pass,,not successful,,0.65,0.73,0.37,,M.Jones,M.Tennison,,,,,10-M.Jones incomplete. Intended for 88-M.Tennison.
-Alabama,2Q,5,81,32,3,Normal,pass,-10,not successful,,0.61,0.71,0.36,,M.Jones,,J.McCollough,,1,,10-M.Jones sacked at BAMA 27 for -10 yards (22-J.McCollough).
-Tennessee,2Q,7,83,40,1,Normal,pass,1,not successful,,0.37,0.39,0.41,,J.Guarantano,T.Chandler,J.Mayden,,1,,2-J.Guarantano complete to 8-T.Chandler. 8-T.Chandler to TEN 41 for 1 yard (21-J.Mayden).
-Tennessee,2Q,7,84,41,2,Normal,run,7,successful,0.43,,0.41,0.42,T.Jordan,,,T.Lewis,T.Diggs,0.5,0.5,"9-T.Jordan to TEN 48 for 7 yards (24-T.Lewis,7-T.Diggs)."
-Tennessee,2Q,7,85,42,3,Normal,pass,-3,not successful,,0.35,0.40,0.41,,J.Guarantano,,S.Lee,,1,,2-J.Guarantano sacked at TEN 45 for -3 yards (35-S.Lee).
-Alabama,2Q,6,87,34,1,Normal,run,12,successful,0.82,,0.72,0.38,N.Harris,,,M.Butler,G.Emerson,0.5,0.5,"22-N.Harris to BAMA 29 for 12 yards (94-M.Butler,90-G.Emerson)."
-Alabama,2Q,6,88,35,1,Normal,pass,,not successful,,0.58,0.70,0.37,,M.Jones,J.Jeudy,,,,,10-M.Jones incomplete. Intended for 4-J.Jeudy.
-Alabama,2Q,6,89,36,2,Normal,run,4,not successful,0.75,,0.68,0.39,N.Harris,,,J.Peterson,Q.Crouch,0.5,0.5,"22-N.Harris to BAMA 33 for 4 yards (6-J.Peterson,27-Q.Crouch)."
-Alabama,2Q,6,90,37,3,Normal,run,15,explosive,0.77,,0.69,0.41,N.Harris,,,S.Shamburger,,1,,22-N.Harris to BAMA 48 for 15 yards (12-S.Shamburger).
-Alabama,2Q,6,91,38,1,Normal,pass,21,explosive,,0.60,0.69,0.39,,M.Jones,N.Harris,J.Peterson,,1,,10-M.Jones complete to 22-N.Harris. 22-N.Harris to TEN 31 for 21 yards (6-J.Peterson).
-Alabama,2Q,6,92,39,1,Normal,pass,,not successful,,0.57,0.68,0.38,,M.Jones,M.Forristall,,,,,10-M.Jones incomplete. Intended for 87-M.Forristall.
-Alabama,2Q,6,93,40,2,Normal,pass,8,successful,,0.59,0.68,0.37,,M.Jones,M.Forristall,K.George,,1,,10-M.Jones complete to 87-M.Forristall. 87-M.Forristall pushed ob at TEN 23 for 8 yards (41-K.George).
-Alabama,3Q,7,96,42,1,Normal,run,-3,not successful,0.71,,0.67,0.39,N.Harris,,,M.Butler,Q.Crouch,0.5,0.5,"22-N.Harris to BAMA 6 for -3 yards (94-M.Butler,27-Q.Crouch)."
-Alabama,3Q,7,97,43,2,Normal,run,3,not successful,0.67,,0.65,0.41,N.Harris,,,G.Emerson,D.Middleton,0.5,0.5,"22-N.Harris to BAMA 9 for 3 yards (90-G.Emerson,97-D.Middleton)."
-Alabama,3Q,7,98,44,3,Normal,pass,4,not successful,,0.57,0.63,0.39,,M.Jones,N.Harris,D.Middleton,,1,,10-M.Jones complete to 22-N.Harris. 22-N.Harris to BAMA 13 for 4 yards (97-D.Middleton).
-Tennessee,3Q,8,100,44,1,Normal,run,25,explosive,0.47,,0.42,0.43,T.Chandler,,,X.McKinney,,1,,8-T.Chandler pushed ob at BAMA 30 for 25 yards (15-X.McKinney).
-Tennessee,3Q,8,101,45,1,Normal,run,0,not successful,0.44,,0.41,0.44,T.Chandler,,,D.Dale,,1,,8-T.Chandler to BAMA 30 for no gain (94-D.Dale).
-Tennessee,3Q,8,102,46,2,Normal,pass,9,successful,,0.38,0.42,0.43,,J.Guarantano,J.Jennings,S.Carter,,1,,2-J.Guarantano complete to 15-J.Jennings. 15-J.Jennings to BAMA 21 for 9 yards (5-S.Carter).
-Tennessee,3Q,8,103,47,3,Normal,run,2,successful,0.47,,0.44,0.45,J.Guarantano,,,S.Carter,B.Young,0.5,0.5,"2-J.Guarantano to BAMA 19 for 2 yards (5-S.Carter,47-B.Young)."
-Tennessee,3Q,8,104,48,1,Red Zone,run,2,not successful,0.44,,0.43,0.46,T.Jordan,,,B.Young,S.Lee,0.5,0.5,"9-T.Jordan to BAMA 17 for 2 yards (47-B.Young,35-S.Lee)."
-Tennessee,3Q,8,105,49,2,Red Zone,pass,,not successful,,0.36,0.41,0.45,,J.Guarantano,M.Callaway,,,,,2-J.Guarantano incomplete. Intended for 1-M.Callaway.
-Tennessee,3Q,8,106,50,3,Red Zone,pass,10,successful,,0.39,0.43,0.44,,J.Guarantano,J.Jennings,S.Carter,,1,,2-J.Guarantano complete to 15-J.Jennings. 15-J.Jennings to BAMA 7 for 10 yards (5-S.Carter).
-Tennessee,3Q,8,108,52,1,Red Zone,pass,,not successful,,0.38,0.42,0.43,,J.Guarantano,T.Byrd,,,,,"2-J.Guarantano incomplete. Intended for 10-T.Byrd. Team penalty on TEN, Illegal formation, declined."
-Tennessee,3Q,8,109,53,2,Red Zone,run,2,not successful,0.42,,0.41,0.44,T.Jordan,,,A.Jennings,,1,,9-T.Jordan to BAMA 15 for 2 yards (33-A.Jennings).
-Tennessee,3Q,8,110,54,3,Red Zone,pass,,not successful,,0.36,0.40,0.43,,J.Guarantano,J.Jennings,,,,,2-J.Guarantano incomplete. Intended for 15-J.Jennings.
-Alabama,3Q,8,113,46,1,Normal,pass,,not successful,,0.54,0.62,0.38,,M.Jones,J.Jeudy,,,,,10-M.Jones incomplete. Intended for 4-J.Jeudy.
-Alabama,3Q,8,114,47,2,Normal,pass,,not successful,,0.52,0.60,0.38,,M.Jones,J.Jeudy,,,,,10-M.Jones incomplete. Intended for 4-J.Jeudy.
-Alabama,3Q,8,115,48,3,Normal,no play,15,successful,,,0.61,,,,,,,,,"10-M.Jones incomplete. Intended for 22-N.Harris. Penalty on TEN 19-D.Taylor, Unnecessary roughness, 15 yards, enforced at BAMA 24. No Play."
-Alabama,3Q,8,116,49,1,Normal,run,5,successful,0.69,,0.62,0.39,N.Harris,,,N.Warrior,,1,,22-N.Harris to BAMA 44 for 5 yards (18-N.Warrior).
-Alabama,3Q,8,117,50,2,Normal,run,3,not successful,0.65,,0.61,0.40,N.Harris,,,G.Emerson,M.Butler,0.5,0.5,"22-N.Harris to BAMA 47 for 3 yards (90-G.Emerson,94-M.Butler)."
-Alabama,3Q,8,118,51,3,Normal,run,12,successful,0.67,,0.62,0.42,N.Harris,,,K.Bennett,G.Emerson,0.5,0.5,"22-N.Harris to TEN 41 for 12 yards (95-K.Bennett,90-G.Emerson)."
-Alabama,3Q,8,119,52,1,Normal,pass,18,explosive,,0.54,0.63,0.41,,M.Jones,D.Smith,J.McCollough,,1,,10-M.Jones complete to 6-D.Smith. 6-D.Smith to TEN 23 for 18 yards (22-J.McCollough).
-Alabama,3Q,8,120,53,1,Normal,run,9,successful,0.68,,0.63,0.42,N.Harris,,,Q.Crouch,,1,,22-N.Harris to TEN 14 for 9 yards (27-Q.Crouch).
-Alabama,3Q,8,121,54,2,Red Zone,run,9,successful,0.70,,0.64,0.43,N.Harris,,,A.Taylor,,1,,22-N.Harris to TEN 5 for 9 yards (2-A.Taylor).
-Alabama,3Q,8,122,55,1,Red Zone,run,-1,not successful,0.67,,0.63,0.45,N.Harris,,,D.Middleton,,1,,22-N.Harris to TEN 6 for -1 yard (97-D.Middleton).
-Alabama,3Q,8,123,56,2,Red Zone,pass,6,successful,,0.56,0.63,0.44,,S.Bolden,M.Forristall,,,,, 18-S.Bolden complete to 87-M.Forristall. 87-M.Forristall runs 6 yards for a touchdown.
-Tennessee,3Q,9,126,56,1,Normal,pass,15,successful,,0.38,0.41,0.42,,J.Guarantano,J.Jennings,,,,,"2-J.Guarantano incomplete. Intended for 15-J.Jennings. Penalty on BAMA 15-X.McKinney, Pass interference, 15 yards, enforced at TEN 23. No Play."
-Tennessee,3Q,9,127,57,1,Normal,run,4,not successful,0.40,,0.40,0.43,E.Gray,,,C.Harris,P.Mathis,0.5,0.5,"3-E.Gray to TEN 42 for 4 yards (8-C.Harris,48-P.Mathis)."
-Tennessee,3Q,9,128,58,2,Normal,run,1,not successful,0.38,,0.40,0.45,J.Guarantano,,,A.Jennings,,1,,"2-J.Guarantano scrambles, pushed ob at TEN 43 for 1 yard (33-A.Jennings)."
-Tennessee,3Q,9,129,59,3,Normal,pass,-8,not successful,,0.37,0.39,0.44,,J.Guarantano,,T.Lewis,,1,,2-J.Guarantano sacked at TEN 35 for -8 yards (24-T.Lewis).
-Alabama,3Q,9,131,57,1,Normal,run,6,successful,0.68,,0.64,0.45,B.Robinson,,,S.Shamburger,J.Peterson,0.5,0.5,"24-B.Robinson to BAMA 35 for 6 yards (12-S.Shamburger,6-J.Peterson)."
-Alabama,3Q,9,132,58,2,Normal,penalty,-10,not successful,,,0.63,,,,,J.McCollough,,1,,"24-B.Robinson pushed ob at BAMA 41 for 6 yards (22-J.McCollough). Penalty on BAMA 74-J.Wills, Holding, 10 yards, enforced at BAMA 35. Team penalty on BAMA, Holding, declined."
-Alabama,3Q,9,133,59,2,Normal,pass,8,not successful,,0.54,0.62,0.44,,M.Jones,H.Ruggs,M.Butler,,1,,10-M.Jones complete to 11-H.Ruggs. 11-H.Ruggs to BAMA 33 for 8 yards (94-M.Butler).
-Alabama,3Q,9,134,60,3,Normal,run,4,not successful,0.65,,0.61,0.45,M.Jones,,,H.To'o To'o,,1,,10-M.Jones scrambles to BAMA 37 for 4 yards (11-H.To'o To'o).
-Tennessee,3Q,10,136,61,1,Normal,run,5,successful,0.41,,0.40,0.45,T.Jordan,,,S.Carter,X.McKinney,0.5,0.5,"9-T.Jordan to TEN 39 for 5 yards (5-S.Carter,15-X.McKinney)."
-Tennessee,4Q,11,137,62,2,Normal,run,1,not successful,0.39,,0.39,0.46,J.Jennings,,,A.Jennings,T.Musika,0.5,0.5,"15-J.Jennings to TEN 40 for 1 yard (33-A.Jennings,91-T.Musika)."
-Tennessee,4Q,11,138,63,3,Normal,pass,13,successful,,0.39,0.40,0.45,,J.Guarantano,M.Callaway,P.Surtain,,1,,2-J.Guarantano complete to 1-M.Callaway. 1-M.Callaway to BAMA 47 for 13 yards (2-P.Surtain).
-Tennessee,4Q,11,139,64,1,Normal,run,5,successful,0.42,,0.42,0.46,T.Jordan,,,T.Musika,R.Davis,0.5,0.5,"9-T.Jordan to BAMA 42 for 5 yards (91-T.Musika,99-R.Davis)."
-Tennessee,4Q,11,140,65,2,Normal,run,0,not successful,0.40,,0.41,0.47,T.Jordan,,,A.Jennings,,1,,9-T.Jordan to BAMA 42 for no gain (33-A.Jennings).
-Tennessee,4Q,11,141,66,3,Normal,pass,8,successful,,0.41,0.42,0.46,,J.Guarantano,T.Chandler,M.Benton,,1,,2-J.Guarantano complete to 8-T.Chandler. 8-T.Chandler pushed ob at BAMA 34 for 8 yards (36-M.Benton).
-Tennessee,4Q,11,142,67,1,Normal,run,-1,not successful,0.38,,0.41,0.47,T.Chandler,,,C.Harris,,1,,8-T.Chandler to BAMA 35 for -1 yard (8-C.Harris).
-Tennessee,4Q,11,144,69,2,Normal,pass,6,not successful,,0.40,0.40,0.46,,J.Guarantano,D.Wood-Anderson,C.Harris,,1,,2-J.Guarantano complete to 4-D.Wood-Anderson. 4-D.Wood-Anderson to BAMA 34 for 6 yards (8-C.Harris).
-Tennessee,4Q,11,145,70,3,Normal,pass,15,successful,,0.42,0.41,0.46,,J.Guarantano,M.Callaway,,,,,"2-J.Guarantano incomplete. Intended for 1-M.Callaway. Penalty on BAMA 2-P.Surtain, Pass interference, 15 yards, enforced at BAMA 34. No Play."
-Tennessee,4Q,11,146,71,1,Red Zone,run,8,successful,0.41,,0.42,0.47,T.Jordan,,,T.Diggs,J.Mayden,0.5,0.5,"9-T.Jordan to BAMA 11 for 8 yards (7-T.Diggs,21-J.Mayden)."
-Tennessee,4Q,11,147,72,2,Red Zone,run,9,successful,0.43,,0.43,0.47,T.Jordan,,,X.McKinney,,1,,9-T.Jordan pushed ob at BAMA 2 for 9 yards (15-X.McKinney).
-Tennessee,4Q,11,148,73,1,Red Zone,run,-1,not successful,0.41,,0.43,0.48,T.Jordan,,,D.Dale,,1,,9-T.Jordan to BAMA 3 for -1 yard (94-D.Dale).
-Tennessee,4Q,11,149,74,2,Red Zone,run,1,not successful,0.40,,0.42,0.49,T.Jordan,,,A.Jennings,,1,,9-T.Jordan to BAMA 2 for 1 yard (33-A.Jennings).
-Tennessee,4Q,11,150,75,3,Red Zone,run,1,not successful,0.39,,0.41,0.50,C.Fils-aime,,,S.Lee,B.Young,0.5,0.5,"27-C.Fils-aime to BAMA 1 for 1 yard (35-S.Lee,47-B.Young)."
-Tennessee,4Q,11,151,76,4,Red Zone,run,,successful,0.41,,0.42,0.51,J.Guarantano,,,S.Lee,,,," 2-J.Guarantano Downed at the BAMA End Zone to BAMA 1, FUMBLES (35-S.Lee). 7-T.Diggs runs 100 yards for a touchdown."
-Tennessee,4Q,12,154,77,1,Normal,run,7,successful,0.42,,0.43,0.52,E.Gray,,,S.Lee,,1,,3-E.Gray to TEN 32 for 7 yards (35-S.Lee).
-Tennessee,4Q,12,155,78,2,Normal,pass,,not successful,,0.41,0.42,0.51,,J.Shrout,J.Palmer,,,,,12-J.Shrout incomplete. Intended for 5-J.Palmer.
-Tennessee,4Q,12,157,80,3,Normal,pass,-12,not successful,,0.39,0.42,0.50,,J.Shrout,,T.Lewis,,1,,12-J.Shrout sacked at TEN 15 for -12 yards (24-T.Lewis).
-Alabama,4Q,11,159,62,1,Normal,run,11,successful,0.67,,0.61,0.46,B.Robinson,,,N.Warrior,J.McCollough,0.5,0.5,"24-B.Robinson to TEN 27 for 11 yards (18-N.Warrior,22-J.McCollough)."
-Alabama,4Q,11,160,63,1,Normal,run,5,successful,0.68,,0.62,0.47,B.Robinson,,,A.Taylor,,1,,24-B.Robinson to TEN 22 for 5 yards (2-A.Taylor).
-Alabama,4Q,11,161,64,2,Normal,run,0,not successful,0.65,,0.61,0.48,B.Robinson,,,D.Johnson,W.Burrell,0.5,0.5,"24-B.Robinson to TEN 22 for no gain (13-D.Johnson,4-W.Burrell)."
-Alabama,4Q,11,162,65,3,Normal,run,6,successful,0.67,,0.62,0.49,B.Robinson,,,D.Taylor,S.Shamburger,0.5,0.5,"24-B.Robinson to TEN 16 for 6 yards (19-D.Taylor,12-S.Shamburger)."
-Alabama,4Q,11,163,66,1,Red Zone,run,3,not successful,0.64,,0.61,0.50,B.Robinson,,,N.Warrior,,1,,24-B.Robinson to TEN 13 for 3 yards (18-N.Warrior).
-Alabama,4Q,11,164,67,2,Red Zone,run,4,not successful,0.62,,0.60,0.51,K.Robinson,,,J.Peterson,A.Solomon,0.5,0.5,"2-K.Robinson to TEN 9 for 4 yards (6-J.Peterson,98-A.Solomon)."
-Alabama,4Q,11,165,68,3,Red Zone,run,2,not successful,0.60,,0.59,0.52,K.Robinson,,,J.Abercrombie,A.Solomon,0.5,0.5,"2-K.Robinson to TEN 7 for 2 yards (79-J.Abercrombie,98-A.Solomon)."
-Alabama,4Q,11,166,69,4,Red Zone,run,0,not successful,0.58,,0.58,0.53,K.Robinson,,,A.Solomon,,1,,2-K.Robinson to TEN 7 for no gain (98-A.Solomon).
+Arkansas,1Q,1,2,1,1,Normal,run,1,not successful,0.00,,0.00,1.00,R.Boyd,,,D.Dale,,1,,5-R.Boyd to ARK 26 for 1 yard (94-D.Dale).
+Arkansas,1Q,1,3,2,2,Normal,run,2,not successful,0.00,,0.00,1.00,R.Boyd,,,C.Harris,S.Lee,0.5,0.5,"5-R.Boyd to ARK 28 for 2 yards (8-C.Harris,35-S.Lee)."
+Arkansas,1Q,1,4,3,3,Normal,pass,22,explosive,,1.00,0.33,0.67,,N.Starkel,R.Boyd,D.Wright,T.Diggs,0.5,0.5,"17-N.Starkel complete to 5-R.Boyd. 5-R.Boyd to BAMA 50 for 22 yards (3-D.Wright,7-T.Diggs)."
+Arkansas,1Q,1,5,4,1,Normal,pass,,not successful,,0.50,0.25,0.50,,N.Starkel,D.Whaley,,,,,17-N.Starkel incomplete. Intended for 21-D.Whaley.
+Arkansas,1Q,1,6,5,2,Normal,run,2,not successful,0.00,,0.20,0.60,D.Whaley,,,C.Harris,,1,,21-D.Whaley to BAMA 48 for 2 yards (8-C.Harris).
+Arkansas,1Q,1,7,6,3,Normal,pass,,not successful,,0.33,0.17,0.50,,N.Starkel,D.Whaley,,,,,17-N.Starkel incomplete. Intended for 21-D.Whaley.
+Alabama,1Q,1,9,1,1,Normal,run,3,not successful,0.00,,0.00,1.00,N.Harris,,,T.Smith,M.Soli,0.5,0.5,"22-N.Harris to BAMA 21 for 3 yards (52-T.Smith,11-M.Soli)."
+Alabama,1Q,1,10,2,2,Normal,pass,14,successful,,1.00,0.50,0.50,,M.Jones,J.Jeudy,D.Harris,,1,,10-M.Jones complete to 4-J.Jeudy. 4-J.Jeudy to BAMA 35 for 14 yards (8-D.Harris).
+Alabama,1Q,1,11,3,1,Normal,run,3,not successful,0.00,,0.33,0.67,N.Harris,,,G.Richardson,,1,,22-N.Harris to BAMA 38 for 3 yards (6-G.Richardson).
+Alabama,1Q,1,12,4,2,Normal,pass,6,successful,,1.00,0.50,0.50,,M.Jones,D.Smith,H.Henry,D.Harris,0.5,0.5,"10-M.Jones complete to 6-D.Smith. 6-D.Smith to BAMA 44 for 6 yards (27-H.Henry,8-D.Harris)."
+Alabama,1Q,1,13,5,3,Normal,run,5,successful,0.33,,0.60,0.60,N.Harris,,,K.Curl,J.McClellion,0.5,0.5,"22-N.Harris to BAMA 49 for 5 yards (2-K.Curl,4-J.McClellion)."
+Alabama,1Q,1,14,6,1,Normal,run,13,successful,0.50,,0.67,0.67,N.Harris,,,J.Bell,,1,,22-N.Harris to ARK 38 for 13 yards (86-J.Bell).
+Alabama,1Q,1,15,7,1,Normal,run,4,not successful,0.40,,0.57,0.71,N.Harris,,,J.Foucha,,1,,22-N.Harris pushed ob at ARK 34 for 4 yards (7-J.Foucha).
+Alabama,1Q,1,16,8,2,Normal,pass,0,not successful,,0.67,0.50,0.63,,M.Jones,M.Forristall,K.Curl,G.Brooks,0.5,0.5,"10-M.Jones complete to 87-M.Forristall. 87-M.Forristall to ARK 34 for no gain (2-K.Curl,9-G.Brooks)."
+Alabama,1Q,1,17,9,3,Normal,pass,8,successful,,0.75,0.56,0.56,,M.Jones,J.Jeudy,J.Foucha,,1,,10-M.Jones complete to 4-J.Jeudy. 4-J.Jeudy pushed ob at ARK 26 for 8 yards (7-J.Foucha).
+Alabama,1Q,1,18,10,1,Normal,pass,11,successful,,0.80,0.60,0.50,,M.Jones,M.Forristall,D.Harris,,1,,10-M.Jones complete to 87-M.Forristall. 87-M.Forristall pushed ob at ARK 15 for 11 yards (8-D.Harris).
+Alabama,1Q,1,19,11,1,Red Zone,run,1,not successful,0.33,,0.55,0.55,B.Robinson,,,J.Foucha,,1,,24-B.Robinson to ARK 14 for 1 yard (7-J.Foucha).
+Alabama,1Q,1,20,12,2,Red Zone,pass,,not successful,,0.67,0.50,0.50,,M.Jones,D.Smith,,,,,10-M.Jones incomplete. Intended for 6-D.Smith.
+Alabama,1Q,1,21,13,3,Red Zone,run,1,not successful,0.29,,0.46,0.54,M.Jones,,,G.Richardson,,1,,10-M.Jones scrambles to ARK 13 for 1 yard (6-G.Richardson).
+Arkansas,1Q,2,24,8,1,Normal,pass,15,explosive,,0.50,0.29,0.43,,N.Starkel,T.Burks,A.Jennings,,1,,17-N.Starkel complete to 16-T.Burks. 16-T.Burks pushed ob at ARK 40 for 15 yards (33-A.Jennings).
+Arkansas,1Q,2,25,9,1,Normal,pass,10,successful,,0.60,0.38,0.38,,J.Jones,R.Boyd,J.Battle,C.Harris,0.5,0.5,"9-J.Jones complete to 5-R.Boyd. 5-R.Boyd to BAMA 50 for 10 yards (9-J.Battle,8-C.Harris)."
+Arkansas,1Q,2,26,10,1,Normal,run,9,successful,0.25,,0.44,0.44,R.Boyd,,,A.Jennings,,1,,5-R.Boyd to BAMA 41 for 9 yards (33-A.Jennings).
+Arkansas,1Q,2,27,11,2,Normal,run,,not successful,0.20,,0.40,0.50,C.Harris,,,T.Burks,,,,"to BAMA 49, FUMBLES. 8-C.Harris to ARK 14 for 37 yards (16-T.Burks)."
+Alabama,1Q,2,28,15,1,Red Zone,pass,,successful,,0.71,0.50,0.50,,M.Jones,H.Ruggs,,,,,10-M.Jones incomplete. Intended for 11-H.Ruggs.
+Alabama,1Q,2,29,16,1,Red Zone,pass,14,successful,,0.75,0.53,0.47,,M.Jones,H.Ruggs,,,,, 10-M.Jones complete to 11-H.Ruggs. 11-H.Ruggs runs 14 yards for a touchdown.
+Arkansas,1Q,3,32,12,1,Normal,run,2,not successful,0.17,,0.36,0.55,R.Boyd,,,C.Harris,,1,,5-R.Boyd to ARK 27 for 2 yards (8-C.Harris).
+Arkansas,1Q,3,33,13,2,Normal,pass,,not successful,,0.50,0.33,0.50,,N.Starkel,M.Woods,,,,,17-N.Starkel incomplete. Intended for 8-M.Woods.
+Arkansas,1Q,3,34,14,3,Normal,pass,15,explosive,,0.57,0.38,0.46,,N.Starkel,D.Whaley,P.Surtain,,1,,17-N.Starkel complete to 21-D.Whaley. 21-D.Whaley to ARK 42 for 15 yards (2-P.Surtain).
+Arkansas,1Q,3,35,15,1,Normal,run,4,not successful,0.14,,0.36,0.50,D.Whaley,,,R.Davis,P.Mathis,0.5,0.5,"21-D.Whaley to ARK 46 for 4 yards (99-R.Davis,48-P.Mathis)."
+Arkansas,1Q,3,36,16,2,Normal,pass,,not successful,,0.50,0.33,0.47,,N.Starkel,D.Whaley,X.McKinney,,,,"17-N.Starkel incomplete. Intended for 21-D.Whaley, INTERCEPTED by 33-A.Jennings at ARK 48. 33-A.Jennings to ARK 48 for no gain (15-X.McKinney)."
+Alabama,1Q,3,37,17,1,Normal,pass,,not successful,,0.67,0.50,0.44,,M.Jones,J.Jeudy,,,,,10-M.Jones incomplete. Intended for 4-J.Jeudy.
+Alabama,1Q,3,38,18,2,Normal,run,7,successful,0.38,,0.53,0.47,N.Harris,,,H.Henry,B.Pool,0.5,0.5,"22-N.Harris to ARK 41 for 7 yards (27-H.Henry,10-B.Pool)."
+Alabama,1Q,3,39,19,3,Normal,run,20,explosive,0.44,,0.56,0.50,N.Harris,,,D.Harris,,1,,22-N.Harris to ARK 21 for 20 yards (8-D.Harris).
+Alabama,1Q,3,40,20,1,Normal,pass,7,successful,,0.70,0.58,0.47,,M.Jones,D.Smith,G.Brooks,,1,,10-M.Jones complete to 6-D.Smith. 6-D.Smith pushed ob at ARK 14 for 7 yards (9-G.Brooks).
+Alabama,1Q,3,41,21,2,Red Zone,pass,14,successful,,0.73,0.60,0.45,,M.Jones,J.Jeudy,,,,, 10-M.Jones complete to 4-J.Jeudy. 4-J.Jeudy runs 14 yards for a touchdown.
+Arkansas,1Q,4,44,17,1,Normal,run,3,not successful,0.13,,0.31,0.50,R.Boyd,,,T.Lewis,,1,,5-R.Boyd to ARK 29 for 3 yards (24-T.Lewis).
+Arkansas,2Q,5,45,18,2,Normal,pass,,not successful,,0.44,0.29,0.47,,N.Starkel,T.Burks,,,,,17-N.Starkel incomplete. Intended for 16-T.Burks.
+Arkansas,2Q,5,47,20,3,Normal,pass,,not successful,,0.40,0.28,0.44,,N.Starkel,M.Woods,,,,,17-N.Starkel incomplete. Intended for 8-M.Woods.
+Alabama,2Q,4,49,22,1,Normal,run,7,successful,0.50,,0.62,0.48,B.Robinson,,,M.Agim,,1,,24-B.Robinson to BAMA 37 for 7 yards (3-M.Agim).
+Alabama,2Q,4,50,23,2,Normal,pass,47,explosive,,0.75,0.64,0.45,,M.Jones,D.Smith,L.Bishop,,1,,10-M.Jones complete to 6-D.Smith. 6-D.Smith pushed ob at ARK 16 for 47 yards (24-L.Bishop).
+Alabama,2Q,4,51,24,1,Red Zone,pass,,not successful,,0.69,0.61,0.43,,M.Jones,H.Ruggs,,,,,10-M.Jones incomplete. Intended for 11-H.Ruggs.
+Alabama,2Q,4,52,25,2,Red Zone,run,2,not successful,0.45,,0.58,0.46,B.Robinson,,,C.Clay,M.Agim,0.5,0.5,"24-B.Robinson to ARK 14 for 2 yards (13-C.Clay,3-M.Agim)."
+Alabama,2Q,4,53,26,3,Red Zone,pass,13,successful,,0.71,0.60,0.44,,M.Jones,H.Ruggs,J.Foucha,,1,,10-M.Jones complete to 11-H.Ruggs. 11-H.Ruggs to ARK 1 for 13 yards (7-J.Foucha).
+Alabama,2Q,4,54,27,1,Red Zone,run,1,successful,0.50,,0.62,0.46,N.Harris,,,,,,, 22-N.Harris runs 1 yard for a touchdown.
+Arkansas,2Q,6,57,22,1,Normal,run,2,not successful,0.11,,0.26,0.47,D.Whaley,,,R.Davis,,1,,21-D.Whaley to ARK 4 for 2 yards (99-R.Davis).
+Arkansas,2Q,6,58,23,2,Normal,pass,,not successful,,0.36,0.25,0.45,,N.Starkel,T.Knox,,,,,17-N.Starkel incomplete. Intended for 7-T.Knox.
+Arkansas,2Q,6,59,24,3,Normal,pass,,not successful,,0.33,0.24,0.43,,N.Starkel,T.Burks,,,,,17-N.Starkel incomplete. Intended for 16-T.Burks.
+Alabama,2Q,5,61,28,1,Normal,pass,24,explosive,,0.73,0.63,0.44,,M.Jones,J.Jeudy,K.Curl,,1,,10-M.Jones complete to 4-J.Jeudy. 4-J.Jeudy pushed ob at ARK 24 for 24 yards (2-K.Curl).
+Alabama,2Q,5,62,29,1,Normal,pass,18,explosive,,0.75,0.64,0.43,,M.Jones,H.Ruggs,J.Foucha,,1,,10-M.Jones complete to 11-H.Ruggs. 11-H.Ruggs pushed ob at ARK 6 for 18 yards (7-J.Foucha).
+Alabama,2Q,5,63,30,1,Red Zone,run,5,successful,0.54,,0.66,0.45,N.Harris,,,J.Foucha,M.Soli,0.5,0.5,"22-N.Harris to ARK 1 for 5 yards (7-J.Foucha,11-M.Soli)."
+Alabama,2Q,5,64,31,2,Red Zone,run,1,successful,0.57,,0.67,0.47,N.Harris,,,,,,, 22-N.Harris runs 1 yard for a touchdown.
+Arkansas,2Q,7,67,26,1,Normal,pass,3,not successful,,0.31,0.23,0.41,,N.Starkel,C.O'Grady,X.McKinney,,1,,17-N.Starkel complete to 85-C.O'Grady. 85-C.O'Grady to ARK 32 for 3 yards (15-X.McKinney).
+Arkansas,2Q,7,68,27,2,Normal,pass,3,not successful,,0.29,0.22,0.39,,N.Starkel,C.O'Grady,J.Battle,,1,,17-N.Starkel complete to 85-C.O'Grady. 85-C.O'Grady to ARK 35 for 3 yards (9-J.Battle).
+Arkansas,2Q,7,69,28,3,Normal,no play,10,successful,,,0.25,,,,,,,,,"17-N.Starkel incomplete. Intended for 16-T.Burks. Penalty on BAMA 33-A.Jennings, Holding, 10 yards, enforced at ARK 35. No Play."
+Arkansas,2Q,7,70,29,1,Normal,pass,,not successful,,0.27,0.24,0.38,,N.Starkel,M.Woods,,,,,17-N.Starkel incomplete. Intended for 8-M.Woods.
+Arkansas,2Q,7,71,30,2,Normal,pass,,not successful,,0.25,0.23,0.36,,N.Starkel,M.Woods,,,,,17-N.Starkel incomplete. Intended for 8-M.Woods.
+Arkansas,2Q,7,72,31,3,Normal,pass,,not successful,,0.24,0.22,0.35,,N.Starkel,D.Whaley,,,,,17-N.Starkel incomplete. Intended for 21-D.Whaley.
+Alabama,2Q,6,74,32,1,Normal,run,3,not successful,0.53,,0.65,0.48,B.Robinson,,,D.Harris,J.Marshall,0.5,0.5,"24-B.Robinson to BAMA 20 for 3 yards (8-D.Harris,42-J.Marshall)."
+Alabama,2Q,6,75,33,2,Normal,pass,-10,not successful,,0.71,0.63,0.47,,M.Jones,D.Smith,,,,,"10-M.Jones complete to 6-D.Smith. 6-D.Smith to BAMA 27 for 7 yards. Penalty on BAMA 4-J.Jeudy, Holding, 10 yards, enforced at BAMA 27."
+Alabama,2Q,6,76,34,2,Normal,pass,1,not successful,,0.67,0.61,0.45,,M.Jones,J.Jeudy,B.Pool,,1,,10-M.Jones complete to 4-J.Jeudy. 4-J.Jeudy to BAMA 18 for 1 yard (10-B.Pool).
+Alabama,2Q,6,77,35,3,Normal,pass,2,not successful,,0.63,0.59,0.44,,M.Jones,J.Jeudy,K.Curl,D.Harris,0.5,0.5,"10-M.Jones complete to 4-J.Jeudy. 4-J.Jeudy to BAMA 20 for 2 yards (2-K.Curl,8-D.Harris)."
+Arkansas,2Q,8,79,33,1,Normal,run,-1,not successful,0.10,,0.21,0.37,R.Boyd,,,P.Surtain,,1,,5-R.Boyd pushed ob at ARK 30 for -1 yard (2-P.Surtain).
+Arkansas,2Q,8,80,34,2,Normal,run,3,not successful,0.09,,0.21,0.39,T.Burks,,,R.Davis,,1,,16-T.Burks to ARK 33 for 3 yards (99-R.Davis).
+Arkansas,2Q,8,81,35,3,Normal,pass,,not successful,,0.22,0.20,0.38,,N.Starkel,T.Knox,C.O'Grady,,,,"17-N.Starkel incomplete. Intended for 7-T.Knox, INTERCEPTED by 2-P.Surtain at ARK 49. 2-P.Surtain to ARK 25 for 24 yards (85-C.O'Grady)."
+Alabama,2Q,7,82,37,1,Normal,run,13,successful,0.56,,0.60,0.46,N.Harris,,,J.Foucha,,1,,22-N.Harris pushed ob at ARK 12 for 13 yards (7-J.Foucha).
+Alabama,2Q,7,83,38,1,Red Zone,pass,0,not successful,,0.60,0.58,0.44,,M.Jones,J.Waddle,K.Curl,,1,,10-M.Jones complete to 17-J.Waddle. 17-J.Waddle to ARK 12 for no gain (2-K.Curl).
+Alabama,2Q,7,84,39,2,Red Zone,pass,,not successful,,0.57,0.57,0.43,,M.Jones,J.Jeudy,,,,,10-M.Jones incomplete. Intended for 4-J.Jeudy.
+Alabama,2Q,7,85,40,3,Red Zone,run,0,not successful,0.53,,0.55,0.45,N.Harris,,,B.Pool,D.Harris,0.5,0.5,"22-N.Harris to ARK 12 for no gain (10-B.Pool,8-D.Harris)."
+Arkansas,2Q,9,88,36,1,Normal,run,5,successful,0.17,,0.23,0.40,R.Boyd,,,C.Harris,,1,,5-R.Boyd to ARK 30 for 5 yards (8-C.Harris).
+Arkansas,2Q,9,89,37,2,Normal,run,12,successful,0.23,,0.25,0.42,R.Boyd,,,S.Lee,,1,,5-R.Boyd pushed ob at ARK 42 for 12 yards (35-S.Lee).
+Arkansas,2Q,9,90,38,1,Normal,run,5,successful,0.29,,0.27,0.44,D.Whaley,,,T.Lewis,,1,,21-D.Whaley to ARK 47 for 5 yards (24-T.Lewis).
+Arkansas,2Q,9,91,39,2,Normal,run,7,successful,0.33,,0.29,0.45,D.Whaley,,,S.Carter,,1,,21-D.Whaley to BAMA 46 for 7 yards (5-S.Carter).
+Arkansas,2Q,9,92,40,1,Normal,no play,15,successful,,,0.31,,,,,,,,,"17-N.Starkel incomplete. Intended for 8-M.Woods. Penalty on BAMA 33-A.Jennings, Personal Foul, 15 yards, enforced at BAMA 46. No Play."
+Arkansas,2Q,9,93,41,1,Normal,run,7,successful,0.38,,0.33,0.47,T.Hammonds,,,T.Diggs,,1,,41-T.Hammonds to BAMA 24 for 7 yards (7-T.Diggs).
+Arkansas,2Q,9,94,42,2,Normal,pass,,not successful,,0.21,0.32,0.46,,N.Starkel,C.O'Grady,,,,,17-N.Starkel incomplete. Intended for 85-C.O'Grady.
+Arkansas,2Q,9,95,43,3,Normal,pass,,not successful,,0.20,0.32,0.44,,N.Starkel,,,,,," 17-N.Starkel incomplete. INTERCEPTED by 7-T.Diggs at BAMA 16. 7-T.Diggs runs 84 yards for a touchdown. Penalty on ARK 7-T.Knox, Pass interference, declined."
+Arkansas,2Q,10,98,44,1,Normal,run,4,not successful,0.35,,0.31,0.46,R.Boyd,,,A.Jennings,,1,,5-R.Boyd to ARK 30 for 4 yards (33-A.Jennings).
+Alabama,3Q,9,100,43,1,Normal,run,11,successful,0.56,,0.56,0.46,N.Harris,,,H.Henry,,1,,22-N.Harris to BAMA 47 for 11 yards (27-H.Henry).
+Alabama,3Q,9,101,44,1,Normal,pass,9,successful,,0.59,0.58,0.45,,M.Jones,J.Waddle,G.Brooks,,1,,10-M.Jones complete to 17-J.Waddle. 17-J.Waddle to ARK 44 for 9 yards (9-G.Brooks).
+Alabama,3Q,9,102,45,2,Normal,run,2,successful,0.58,,0.59,0.46,B.Robinson,,,D.Harris,M.Agim,0.5,0.5,"24-B.Robinson to ARK 42 for 2 yards (8-D.Harris,3-M.Agim)."
+Alabama,3Q,9,103,46,1,Normal,run,2,not successful,0.55,,0.57,0.48,B.Robinson,,,D.Harris,M.Agim,0.5,0.5,"24-B.Robinson to ARK 40 for 2 yards (8-D.Harris,3-M.Agim)."
+Alabama,3Q,9,104,47,2,Normal,pass,40,explosive,,0.61,0.58,0.47,,M.Jones,J.Jeudy,,,,, 10-M.Jones complete to 4-J.Jeudy. 4-J.Jeudy runs 40 yards for a touchdown.
+Arkansas,3Q,11,107,45,1,Normal,pass,-7,not successful,,0.19,0.30,0.45,,J.Jones,,S.Lee,,1,,9-J.Jones sacked at ARK 33 for -7 yards (35-S.Lee).
+Arkansas,3Q,11,108,46,2,Normal,pass,12,successful,,0.23,0.32,0.44,,J.Jones,R.Boyd,J.Jobe,,1,,9-J.Jones complete to 5-R.Boyd. 5-R.Boyd pushed ob at ARK 45 for 12 yards (28-J.Jobe).
+Arkansas,3Q,11,109,47,3,Normal,pass,,not successful,,0.22,0.31,0.43,,J.Jones,,,,,,9-J.Jones incomplete.
+Alabama,3Q,10,111,48,1,Normal,run,0,not successful,0.52,,0.57,0.48,B.Robinson,,,K.Curl,,1,,24-B.Robinson to BAMA 22 for no gain (2-K.Curl).
+Alabama,3Q,10,112,49,2,Normal,pass,2,not successful,,0.58,0.56,0.47,,T.Tagovailoa,H.Ruggs,B.Pool,,1,,5-T.Tagovailoa complete to 11-H.Ruggs. 11-H.Ruggs pushed ob at BAMA 24 for 2 yards (10-B.Pool).
+Alabama,3Q,10,113,50,3,Normal,pass,8,successful,,0.60,0.57,0.46,,T.Tagovailoa,B.Robinson,K.Curl,L.Bishop,0.5,0.5,"5-T.Tagovailoa complete to 24-B.Robinson. 24-B.Robinson pushed ob at BAMA 32 for 8 yards (2-K.Curl,24-L.Bishop)."
+Alabama,3Q,10,114,51,1,Normal,run,-2,not successful,0.50,,0.55,0.47,B.Robinson,,,M.Agim,,1,,24-B.Robinson to BAMA 30 for -2 yards (3-M.Agim).
+Alabama,3Q,10,115,52,2,Normal,pass,9,successful,,0.62,0.56,0.46,,T.Tagovailoa,J.Waddle,M.Smith,,1,,5-T.Tagovailoa complete to 17-J.Waddle. 17-J.Waddle to BAMA 39 for 9 yards (26-M.Smith).
+Alabama,3Q,10,116,53,3,Normal,pass,,not successful,,0.59,0.55,0.45,,T.Tagovailoa,J.Billingsley,,,,,5-T.Tagovailoa incomplete. Intended for 19-J.Billingsley.
+Arkansas,3Q,12,118,49,1,Normal,run,6,successful,0.39,,0.33,0.44,J.Jones,,,J.Battle,,1,,9-J.Jones to ARK 21 for 6 yards (9-J.Battle).
+Arkansas,3Q,12,119,50,2,Normal,run,3,successful,0.42,,0.34,0.45,D.Whaley,,,P.Surtain,P.Mathis,0.5,0.5,"21-D.Whaley to ARK 24 for 3 yards (2-P.Surtain,48-P.Mathis)."
+Arkansas,3Q,12,120,51,3,Normal,run,-2,not successful,0.40,,0.33,0.47,D.Whaley,,,S.Lee,,1,,21-D.Whaley to ARK 22 for -2 yards (35-S.Lee).
+Arkansas,3Q,12,121,52,4,Normal,no play,5,successful,,,0.35,,,,,,,,,"42-S.Loy punts 33 yards from ARK 22 to BAMA 45, fair catch by 17-J.Waddle. Penalty on BAMA 1-B.Davis, Offside, 5 yards, enforced at ARK 22. No Play."
+Arkansas,3Q,12,122,53,1,Normal,run,9,successful,0.43,,0.36,0.48,R.Boyd,,,S.Lee,,1,,5-R.Boyd to ARK 36 for 9 yards (35-S.Lee).
+Arkansas,3Q,12,123,54,2,Normal,run,12,successful,0.45,,0.38,0.49,J.Jones,,,J.Jobe,,1,,9-J.Jones pushed ob at ARK 48 for 12 yards (28-J.Jobe).
+Arkansas,3Q,12,124,55,1,Normal,pass,11,successful,,0.25,0.39,0.48,,J.Jones,R.Boyd,C.Harris,,1,,9-J.Jones complete to 5-R.Boyd. 5-R.Boyd to BAMA 41 for 11 yards (8-C.Harris).
+Arkansas,3Q,12,125,56,1,Normal,run,9,successful,0.48,,0.40,0.49,D.Whaley,,,S.Lee,X.McKinney,0.5,0.5,"21-D.Whaley to BAMA 32 for 9 yards (35-S.Lee,15-X.McKinney)."
+Arkansas,3Q,12,126,57,2,Normal,run,5,successful,0.50,,0.41,0.50,J.Jones,,,X.McKinney,,1,,9-J.Jones to BAMA 27 for 5 yards (15-X.McKinney).
+Arkansas,3Q,12,127,58,1,Normal,pass,9,successful,,0.28,0.42,0.49,,J.Jones,D.Whaley,T.Lewis,,1,,9-J.Jones complete to 21-D.Whaley. 21-D.Whaley to BAMA 18 for 9 yards (24-T.Lewis).
+Arkansas,3Q,12,128,59,2,Red Zone,pass,-1,not successful,,0.27,0.42,0.48,,J.Jones,C.O'Grady,M.Benton,,1,,9-J.Jones complete to 85-C.O'Grady. 85-C.O'Grady to BAMA 19 for -1 yard (36-M.Benton).
+Arkansas,3Q,12,129,60,3,Red Zone,run,10,successful,0.52,,0.43,0.49,D.Whaley,,,S.Lee,,1,,21-D.Whaley to BAMA 9 for 10 yards (35-S.Lee).
+Arkansas,3Q,12,130,61,1,Red Zone,run,1,not successful,0.50,,0.42,0.50,J.Jones,,,M.Benton,,1,,9-J.Jones to BAMA 8 for 1 yard (36-M.Benton).
+Arkansas,4Q,13,131,62,2,Red Zone,pass,8,successful,,0.30,0.43,0.49,,J.Jones,C.O'Grady,,,,,9-J.Jones complete to 85-C.O'Grady. 85-C.O'Grady runs 8 yards for a touchdown.
+Alabama,4Q,11,134,55,1,Normal,run,6,successful,0.52,,0.56,0.46,B.Robinson,,,M.Mason,,1,,24-B.Robinson to BAMA 12 for 6 yards (18-M.Mason).
+Alabama,4Q,11,135,56,2,Normal,pass,5,successful,,0.61,0.57,0.45,,T.Tagovailoa,J.Metchie,G.Morgan,,1,,5-T.Tagovailoa complete to 8-J.Metchie. 8-J.Metchie to BAMA 17 for 5 yards (31-G.Morgan).
+Alabama,4Q,11,136,57,1,Normal,run,5,successful,0.54,,0.58,0.46,B.Robinson,,,J.Foucha,G.Morgan,0.5,0.5,"24-B.Robinson to BAMA 22 for 5 yards (7-J.Foucha,31-G.Morgan)."
+Alabama,4Q,11,137,58,2,Normal,run,-1,not successful,0.52,,0.57,0.47,B.Robinson,,,D.Edwards,,1,,24-B.Robinson to BAMA 21 for -1 yard (22-D.Edwards).
+Alabama,4Q,11,138,59,3,Normal,pass,6,successful,,0.62,0.57,0.46,,T.Tagovailoa,J.Waddle,M.Brown,,1,,5-T.Tagovailoa complete to 17-J.Waddle. 17-J.Waddle pushed ob at BAMA 27 for 6 yards (21-M.Brown).
+Alabama,4Q,11,139,60,1,Normal,run,37,explosive,0.54,,0.58,0.47,B.Robinson,,,J.Foucha,,1,,24-B.Robinson pushed ob at ARK 36 for 37 yards (7-J.Foucha).
+Alabama,4Q,11,140,61,1,Normal,run,1,not successful,0.52,,0.57,0.48,K.Robinson,,,I.Nichols,,1,,2-K.Robinson to ARK 35 for 1 yard (93-I.Nichols).
+Alabama,4Q,11,141,62,2,Normal,pass,15,explosive,,0.63,0.58,0.47,,T.Tagovailoa,J.Waddle,J.Foucha,,1,,5-T.Tagovailoa complete to 17-J.Waddle. 17-J.Waddle pushed ob at ARK 20 for 15 yards (7-J.Foucha).
+Alabama,4Q,11,142,63,1,Normal,run,5,successful,0.54,,0.59,0.48,B.Robinson,,,H.Henry,J.Bell,0.5,0.5,"24-B.Robinson to ARK 15 for 5 yards (27-H.Henry,86-J.Bell)."
+Alabama,4Q,11,143,64,2,Red Zone,run,2,not successful,0.52,,0.58,0.49,K.Robinson,,,M.Brown,,1,,2-K.Robinson to ARK 13 for 2 yards (21-M.Brown).
+Alabama,4Q,11,144,65,3,Red Zone,run,5,successful,0.53,,0.58,0.50,K.Robinson,,,J.Foucha,,1,,2-K.Robinson to ARK 8 for 5 yards (7-J.Foucha).
+Alabama,4Q,11,145,66,1,Red Zone,run,5,successful,0.55,,0.59,0.51,K.Robinson,,,A.Parker,,1,,2-K.Robinson to ARK 3 for 5 yards (28-A.Parker).
+Alabama,4Q,11,146,67,2,Red Zone,run,0,not successful,0.53,,0.58,0.52,K.Robinson,,,J.Marshall,B.Pool,0.5,0.5,"2-K.Robinson to ARK 3 for no gain (42-J.Marshall,10-B.Pool)."
+Alabama,4Q,11,147,68,3,Red Zone,run,-2,not successful,0.52,,0.57,0.52,T.Tagovailoa,,,M.Mason,,1,,5-T.Tagovailoa to ARK 5 for -2 yards (18-M.Mason).
+Alabama,4Q,11,148,69,4,Red Zone,pass,,not successful,,0.61,0.56,0.52,,T.Tagovailoa,T.Shavers,,,,,5-T.Tagovailoa incomplete. Intended for 14-T.Shavers.
+Arkansas,4Q,14,149,63,1,Normal,run,3,not successful,0.48,,0.42,0.50,R.Boyd,,,A.Kaho,,1,,5-R.Boyd to ARK 8 for 3 yards (10-A.Kaho).
+Arkansas,4Q,14,150,64,2,Normal,run,1,not successful,0.46,,0.41,0.51,R.Boyd,,,A.Kaho,,1,,5-R.Boyd to ARK 9 for 1 yard (10-A.Kaho).
+Arkansas,4Q,14,151,65,3,Normal,run,-3,not successful,0.45,,0.41,0.52,J.Jones,,,C.Barmore,,1,,9-J.Jones to ARK 6 for -3 yards (58-C.Barmore).
+Alabama,4Q,12,153,70,1,Normal,run,3,not successful,0.50,,0.55,0.52,K.Robinson,,,G.Morgan,J.Foucha,0.5,0.5,"2-K.Robinson to BAMA 45 for 3 yards (31-G.Morgan,7-J.Foucha)."
+Alabama,4Q,12,154,71,2,Normal,run,4,not successful,0.49,,0.55,0.53,K.Robinson,,,J.Foucha,G.Morgan,0.5,0.5,"2-K.Robinson to BAMA 49 for 4 yards (7-J.Foucha,31-G.Morgan)."
+Alabama,4Q,12,155,72,3,Normal,run,4,successful,0.50,,0.55,0.54,K.Robinson,,,Z.Williams,,1,,2-K.Robinson to ARK 47 for 4 yards (56-Z.Williams).
+Alabama,4Q,12,156,73,1,Normal,run,5,successful,0.51,,0.56,0.54,K.Robinson,,,G.Morgan,C.Clay,0.5,0.5,"2-K.Robinson to ARK 42 for 5 yards (31-G.Morgan,13-C.Clay)."
