@@ -141,8 +141,9 @@ function teamSrChart(thisTeam,thatTeam,thisId) {
     var container = document.getElementById(outerId(thisId)); 
     container.insertAdjacentHTML('beforebegin',teamLinesLegend(thisTeam,thatTeam));
 
-    var teamPlays = gameData.filter(function(play) { return play.team == thisTeam.name; });
-    var opponentPlays = gameData.filter(function(play) { return play.team == thatTeam.name; });
+    var runPassPlays = gameData.filter(function(play) { return play.play_type == "run" || play.play_type == "pass"; });
+    var teamPlays = runPassPlays.filter(function(play) { return play.team == thisTeam.name; });
+    var opponentPlays = runPassPlays.filter(function(play) { return play.team == thatTeam.name; });
     var playCount = gameData.map(function(play) { return play.play_count });
     var teamSr = teamPlays.map(function(play) { return { x: play.play_count, y: play.total_sr }; });
     var opponentSr = opponentPlays.map(function(play) { return { x: play.play_count, y: play.total_sr }; });
@@ -423,13 +424,13 @@ function barSrChart(thisData,thisTeam,thatTeam,thisId,thisColumn,labelChar) {
     }
  //   QUARTERS CHART
 function quartersChart(thisTeam,thatTeam,thisId) {
-    thisData = gameData;
+    thisData = gameData.filter(function(play) { return play.play_type == "run" || play.play_type == "pass"; });
     barSrChart(thisData,thisTeam,thatTeam,thisId,'quarter','');
 };
 
  //   DOWNS CHART
 function downsChart(thisTeam,thatTeam,thisId) {
-    thisData = gameData;
+    thisData = gameData.filter(function(play) { return play.play_type == "run" || play.play_type == "pass"; });
     barSrChart(thisData,thisTeam,thatTeam,thisId,'down','D');
 };
 
@@ -441,7 +442,8 @@ function playTypeChart(thisTeam,thatTeam,thisId) {
 
 //   RED ZONE CHART
 function redZoneChart(thisTeam,thatTeam,thisId) {
-    thisData = gameData.filter(function(play) { return play.red_zone == "Normal" || play.red_zone == "Red Zone"; });
+    runPassPlays = gameData.filter(function(play) { return play.play_type == "run" || play.play_type == "pass"; });
+    thisData = runPassPlays.filter(function(play) { return play.red_zone == "Normal" || play.red_zone == "Red Zone"; });
     barSrChart(thisData,thisTeam,thatTeam,thisId,'red_zone','');
 };
 
