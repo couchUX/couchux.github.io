@@ -340,7 +340,7 @@ function barSrChart(thisData,thisTeam,thatTeam,thisId,thisColumn,labelChar) {
     
     var ctx = $(addId(chartId(thisId)));
     new Chart(ctx, {
-        plugins: [ChartDataLabels],
+        // plugins: [ChartDataLabels],
         type: 'bar',
         data: {
             labels: uniqueColumnValues,
@@ -410,13 +410,13 @@ function barSrChart(thisData,thisTeam,thatTeam,thisId,thisColumn,labelChar) {
                     }
                 }
             },
-            plugins: {
-                datalabels: {
-                    formatter: function(value, context) {
-                        return Math.round(value*100) + '%';
-                    },
-                }
-            }
+            // plugins: {
+            //     datalabels: {
+            //         formatter: function(value, context) {
+            //             return Math.round(value*100) + '%';
+            //         },
+            //     }
+            // }
         }
     });
     
