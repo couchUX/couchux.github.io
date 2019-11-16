@@ -1,161 +1,167 @@
 team,quarter,drive_team,play_count,play_count_team,down,red_zone,play_type,yards_total,play_result,run_sr,pass_sr,total_sr,run_rate,runner,passer,receiver,tackler_one,tackler_two,tackler_one_credit,tackler_two_credit,play_description
-Alabama,1Q,1,2,1,1,Red Zone,pass,8,successful,,1.00,1.00,0.00,,T.Tagovailoa,J.Jeudy,J.Julius,,1,,13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy to BAMA 18 for 8 yards (26-J.Julius).
-Alabama,1Q,1,3,2,2,Red Zone,run,8,successful,1.00,,1.00,0.50,N.Harris,,,A.Linton,,1,,22-N.Harris to BAMA 26 for 8 yards (29-A.Linton).
+,1Q,,,,,,,,3,,,,,,,,,,,,
+Alabama,1Q,1,2,1,1,Normal,pass,8,successful,,1.00,1.00,0.00,,T.Tagovailoa,J.Jeudy,J.Julius,,1,,13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy to BAMA 18 for 8 yards (26-J.Julius).
+Alabama,1Q,1,3,2,2,Normal,run,8,successful,1.00,,1.00,0.50,N.Harris,,,A.Linton,,1,,22-N.Harris to BAMA 26 for 8 yards (29-A.Linton).
 Alabama,1Q,1,4,3,1,Normal,pass,,not successful,,0.50,0.67,0.33,,T.Tagovailoa,M.Forristall,,,,,13-T.Tagovailoa incomplete. Intended for 87-M.Forristall.
 Alabama,1Q,1,5,4,2,Normal,pass,74,explosive,,0.67,0.75,0.25,,T.Tagovailoa,D.Smith,,,,, 13-T.Tagovailoa complete to 6-D.Smith. 6-D.Smith runs 74 yards for a touchdown.
-Mississippi,1Q,1,8,1,1,Red Zone,run,2,not successful,0.00,,0.00,1.00,S.Phillips,,,C.Harris,A.Jennings,0.5,0.5,"22-S.Phillips to MIS 17 for 2 yards (8-C.Harris,33-A.Jennings)."
-Mississippi,1Q,1,9,2,2,Red Zone,run,5,not successful,0.00,,0.00,1.00,J.Plumlee,,,X.McKinney,,1,,10-J.Plumlee to MIS 22 for 5 yards (15-X.McKinney).
+Mississippi,1Q,1,8,1,1,Normal,run,2,not successful,0.00,,0.00,1.00,S.Phillips,,,C.Harris,A.Jennings,0.5,0.5,"22-S.Phillips to MIS 17 for 2 yards (8-C.Harris,33-A.Jennings)."
+Mississippi,1Q,1,9,2,2,Normal,run,5,not successful,0.00,,0.00,1.00,J.Plumlee,,,X.McKinney,,1,,10-J.Plumlee to MIS 22 for 5 yards (15-X.McKinney).
 Mississippi,1Q,1,10,3,3,Normal,pass,,not successful,,0.00,0.00,0.67,,J.Plumlee,D.Drummond,,,,,10-J.Plumlee incomplete. Intended for 11-D.Drummond.
 Mississippi,1Q,1,12,5,4,Normal,punt,,successful,,,0.25,,,,,,,,,"96-M.Brown punts 42 yards from MIS 22. 17-J.Waddle to BAMA 35, FUMBLES. 21-A.Finley to BAMA 30 for no gain."
 Mississippi,1Q,1,13,6,1,Normal,run,13,successful,0.33,,0.40,0.75,J.Plumlee,,,,,,,10-J.Plumlee runs ob at BAMA 17 for 13 yards.
-Mississippi,1Q,1,14,7,1,Normal,run,6,successful,0.50,,0.50,0.80,J.Plumlee,,,T.Lewis,,1,,10-J.Plumlee to BAMA 11 for 6 yards (24-T.Lewis).
-Mississippi,1Q,1,15,8,2,Normal,run,2,not successful,0.40,,0.43,0.83,S.Phillips,,,B.Young,J.Battle,0.5,0.5,"22-S.Phillips to BAMA 9 for 2 yards (47-B.Young,9-J.Battle)."
-Mississippi,1Q,1,16,9,3,Normal,run,4,successful,0.50,,0.50,0.86,J.Plumlee,,,R.Davis,B.Young,0.5,0.5,"10-J.Plumlee to BAMA 5 for 4 yards (99-R.Davis,47-B.Young)."
-Mississippi,1Q,1,17,10,1,Normal,run,3,successful,0.57,,0.56,0.88,S.Phillips,,,R.Davis,S.Lee,0.5,0.5,"22-S.Phillips to BAMA 2 for 3 yards (99-R.Davis,35-S.Lee)."
-Mississippi,1Q,1,18,11,2,Normal,run,1,not successful,0.50,,0.50,0.89,S.Phillips,,,R.Davis,A.Jennings,0.5,0.5,"22-S.Phillips to BAMA 1 for 1 yard (99-R.Davis,33-A.Jennings)."
-Mississippi,1Q,1,19,12,3,Normal,run,1,successful,0.56,,0.55,0.90,J.Plumlee,,,,,,, 10-J.Plumlee runs 1 yard for a touchdown.
-Alabama,1Q,2,23,6,1,Normal,run,5,successful,1.00,,0.80,0.40,N.Harris,,,J.Haynes,,1,,22-N.Harris to MIS 50 for 5 yards (5-J.Haynes).
-Alabama,1Q,2,24,7,2,Normal,run,2,not successful,0.67,,0.67,0.50,N.Harris,,,Q.Sheppard,A.Robinson,0.5,0.5,"22-N.Harris to MIS 48 for 2 yards (97-Q.Sheppard,38-A.Robinson)."
-Alabama,1Q,2,25,8,3,Normal,pass,11,successful,,0.75,0.71,0.43,,T.Tagovailoa,H.Ruggs,D.Prince,,1,,13-T.Tagovailoa complete to 11-H.Ruggs. 11-H.Ruggs to MIS 37 for 11 yards (24-D.Prince).
-Alabama,1Q,2,26,9,1,Normal,pass,-6,not successful,,0.60,0.63,0.38,,T.Tagovailoa,,B.Jones,,1,,13-T.Tagovailoa sacked at MIS 43 for -6 yards (95-B.Jones).
-Alabama,1Q,2,27,10,2,Normal,pass,9,not successful,,0.50,0.56,0.33,,T.Tagovailoa,D.Smith,K.Smith,,1,,13-T.Tagovailoa complete to 6-D.Smith. 6-D.Smith to MIS 34 for 9 yards (20-K.Smith).
-Alabama,1Q,2,28,11,3,Normal,pass,-2,not successful,,0.43,0.50,0.30,,T.Tagovailoa,N.Harris,S.Williams,,1,,13-T.Tagovailoa complete to 22-N.Harris. 22-N.Harris to MIS 36 for -2 yards (13-S.Williams).
-Mississippi,1Q,2,31,13,1,Red Zone,run,15,explosive,0.60,,0.58,0.91,J.Ealy,,,X.McKinney,,1,,9-J.Ealy to MIS 34 for 15 yards (15-X.McKinney).
+Mississippi,1Q,1,14,7,1,Red Zone,run,6,successful,0.50,,0.50,0.80,J.Plumlee,,,T.Lewis,,1,,10-J.Plumlee to BAMA 11 for 6 yards (24-T.Lewis).
+Mississippi,1Q,1,15,8,2,Red Zone,run,2,not successful,0.40,,0.43,0.83,S.Phillips,,,B.Young,J.Battle,0.5,0.5,"22-S.Phillips to BAMA 9 for 2 yards (47-B.Young,9-J.Battle)."
+Mississippi,1Q,1,16,9,3,Red Zone,run,4,successful,0.50,,0.50,0.86,J.Plumlee,,,R.Davis,B.Young,0.5,0.5,"10-J.Plumlee to BAMA 5 for 4 yards (99-R.Davis,47-B.Young)."
+Mississippi,1Q,1,17,10,1,Red Zone,run,3,successful,0.57,,0.56,0.88,S.Phillips,,,R.Davis,S.Lee,0.5,0.5,"22-S.Phillips to BAMA 2 for 3 yards (99-R.Davis,35-S.Lee)."
+Mississippi,1Q,1,18,11,2,Red Zone,run,1,not successful,0.50,,0.50,0.89,S.Phillips,,,R.Davis,A.Jennings,0.5,0.5,"22-S.Phillips to BAMA 1 for 1 yard (99-R.Davis,33-A.Jennings)."
+Mississippi,1Q,1,19,12,3,Red Zone,run,1,successful,0.56,,0.55,0.90,J.Plumlee,,,,,,, 10-J.Plumlee runs 1 yard for a touchdown.
+Alabama,1Q,2,22,5,1,Normal,pass,15,successful,,0.75,0.80,0.20,,T.Tagovailoa,J.Jeudy,,,,,"13-T.Tagovailoa incomplete. Intended for 4-J.Jeudy. Penalty on MIS 26-J.Julius, Pass interference, 15 yards, enforced at BAMA 30. No Play."
+Alabama,1Q,2,23,6,1,Normal,run,5,successful,1.00,,0.83,0.33,N.Harris,,,J.Haynes,,1,,22-N.Harris to MIS 50 for 5 yards (5-J.Haynes).
+Alabama,1Q,2,24,7,2,Normal,run,2,not successful,0.67,,0.71,0.43,N.Harris,,,Q.Sheppard,A.Robinson,0.5,0.5,"22-N.Harris to MIS 48 for 2 yards (97-Q.Sheppard,38-A.Robinson)."
+Alabama,1Q,2,25,8,3,Normal,pass,11,successful,,0.80,0.75,0.38,,T.Tagovailoa,H.Ruggs,D.Prince,,1,,13-T.Tagovailoa complete to 11-H.Ruggs. 11-H.Ruggs to MIS 37 for 11 yards (24-D.Prince).
+Alabama,1Q,2,26,9,1,Normal,pass,-6,not successful,,0.67,0.67,0.33,,T.Tagovailoa,,B.Jones,,1,,13-T.Tagovailoa sacked at MIS 43 for -6 yards (95-B.Jones).
+Alabama,1Q,2,27,10,2,Normal,pass,9,not successful,,0.57,0.60,0.30,,T.Tagovailoa,D.Smith,K.Smith,,1,,13-T.Tagovailoa complete to 6-D.Smith. 6-D.Smith to MIS 34 for 9 yards (20-K.Smith).
+Alabama,1Q,2,28,11,3,Normal,pass,-2,not successful,,0.50,0.55,0.27,,T.Tagovailoa,N.Harris,S.Williams,,1,,13-T.Tagovailoa complete to 22-N.Harris. 22-N.Harris to MIS 36 for -2 yards (13-S.Williams).
+Mississippi,1Q,2,31,13,1,Normal,run,15,explosive,0.60,,0.58,0.91,J.Ealy,,,X.McKinney,,1,,9-J.Ealy to MIS 34 for 15 yards (15-X.McKinney).
 Mississippi,1Q,2,32,14,1,Normal,run,3,not successful,0.55,,0.54,0.92,J.Plumlee,,,P.Mathis,,1,,10-J.Plumlee to MIS 37 for 3 yards (48-P.Mathis).
 Mississippi,1Q,2,33,15,2,Normal,pass,28,explosive,,0.50,0.57,0.85,,J.Plumlee,E.Moore,,,,,10-J.Plumlee complete to 8-E.Moore. 8-E.Moore to BAMA 35 for 28 yards.
 Mississippi,1Q,2,34,16,1,Normal,run,1,not successful,0.50,,0.53,0.86,S.Phillips,,,P.Mathis,,1,,22-S.Phillips to BAMA 34 for 1 yard (48-P.Mathis).
 Mississippi,1Q,2,36,18,2,Normal,run,2,not successful,0.46,,0.50,0.87,S.Conner,,,S.Lee,,1,,24-S.Conner to BAMA 27 for 2 yards (35-S.Lee).
 Mississippi,1Q,2,37,19,3,Normal,run,2,successful,0.50,,0.53,0.88,S.Conner,,,R.Davis,,1,,24-S.Conner to BAMA 25 for 2 yards (99-R.Davis).
 Mississippi,1Q,2,38,20,1,Normal,run,8,successful,0.53,,0.56,0.88,J.Plumlee,,,,,,,10-J.Plumlee scrambles to BAMA 17 for 8 yards.
-Mississippi,1Q,2,39,21,2,Normal,pass,1,not successful,,0.33,0.53,0.83,,J.Plumlee,J.Pellerin,X.McKinney,,1,,10-J.Plumlee complete to 7-J.Pellerin. 7-J.Pellerin to BAMA 16 for 1 yard (15-X.McKinney).
-Mississippi,1Q,2,40,22,3,Normal,run,2,successful,0.56,,0.55,0.84,J.Plumlee,,,C.Harris,A.Jennings,0.5,0.5,"10-J.Plumlee to BAMA 14 for 2 yards (8-C.Harris,33-A.Jennings)."
-Mississippi,1Q,2,41,23,1,Normal,run,4,not successful,0.53,,0.52,0.85,S.Conner,,,C.Harris,,1,,24-S.Conner to BAMA 10 for 4 yards (8-C.Harris).
-Mississippi,1Q,2,42,24,2,Normal,run,-2,not successful,0.50,,0.50,0.86,S.Phillips,,,A.Jennings,D.Dale,0.5,0.5,"22-S.Phillips to BAMA 12 for -2 yards (33-A.Jennings,94-D.Dale)."
-Mississippi,1Q,2,44,26,3,Normal,run,1,not successful,0.47,,0.48,0.86,J.Plumlee,,,A.Jennings,,1,,10-J.Plumlee to BAMA 16 for 1 yard (33-A.Jennings).
-Alabama,1Q,3,47,14,1,Normal,run,12,successful,0.75,,0.55,0.36,B.Robinson,,,M.Hartsfield,,1,,24-B.Robinson to BAMA 46 for 12 yards (15-M.Hartsfield).
-Alabama,1Q,3,48,15,1,Normal,run,10,successful,0.80,,0.58,0.42,B.Robinson,,,D.Prince,,1,,24-B.Robinson to MIS 44 for 10 yards (24-D.Prince).
-Alabama,1Q,3,49,16,1,Normal,pass,17,explosive,,0.50,0.62,0.38,,T.Tagovailoa,J.Jeudy,J.Jones,,1,,13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy to MIS 27 for 17 yards (31-J.Jones).
-Alabama,1Q,3,50,17,1,Normal,pass,10,successful,,0.56,0.64,0.36,,T.Tagovailoa,D.Smith,J.Jones,,1,,13-T.Tagovailoa complete to 6-D.Smith. 6-D.Smith to MIS 17 for 10 yards (31-J.Jones).
-Alabama,1Q,3,51,18,1,Normal,pass,1,not successful,,0.50,0.60,0.33,,T.Tagovailoa,J.Jeudy,K.Smith,M.Hartsfield,0.5,0.5,"13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy to MIS 16 for 1 yard (20-K.Smith,15-M.Hartsfield)."
-Alabama,2Q,4,52,19,2,Normal,pass,11,successful,,0.55,0.63,0.31,,T.Tagovailoa,J.Jeudy,J.Jones,,1,,13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy to MIS 5 for 11 yards (31-J.Jones).
-Alabama,2Q,4,53,20,1,Normal,pass,10,successful,,0.58,0.65,0.29,,T.Tagovailoa,J.Waddle,,,,,"13-T.Tagovailoa complete to 17-J.Waddle. 17-J.Waddle to MIS 5 for no gain. Penalty on BAMA 4-J.Jeudy, Holding, 10 yards, enforced at MIS 5."
-Alabama,2Q,4,54,21,1,Normal,run,8,successful,0.83,,0.67,0.33,B.Robinson,,,J.Jones,,1,,24-B.Robinson to MIS 7 for 8 yards (10-J.Jones).
-Alabama,2Q,4,55,22,2,Normal,run,7,successful,0.86,,0.68,0.37,T.Tagovailoa,,,,,,," 13-T.Tagovailoa scrambles, runs 7 yards for a touchdown."
+Mississippi,1Q,2,39,21,2,Red Zone,pass,1,not successful,,0.33,0.53,0.83,,J.Plumlee,J.Pellerin,X.McKinney,,1,,10-J.Plumlee complete to 7-J.Pellerin. 7-J.Pellerin to BAMA 16 for 1 yard (15-X.McKinney).
+Mississippi,1Q,2,40,22,3,Red Zone,run,2,successful,0.56,,0.55,0.84,J.Plumlee,,,C.Harris,A.Jennings,0.5,0.5,"10-J.Plumlee to BAMA 14 for 2 yards (8-C.Harris,33-A.Jennings)."
+Mississippi,1Q,2,41,23,1,Red Zone,run,4,not successful,0.53,,0.52,0.85,S.Conner,,,C.Harris,,1,,24-S.Conner to BAMA 10 for 4 yards (8-C.Harris).
+Mississippi,1Q,2,42,24,2,Red Zone,run,-2,not successful,0.50,,0.50,0.86,S.Phillips,,,A.Jennings,D.Dale,0.5,0.5,"22-S.Phillips to BAMA 12 for -2 yards (33-A.Jennings,94-D.Dale)."
+Mississippi,1Q,2,44,26,3,Red Zone,run,1,not successful,0.47,,0.48,0.86,J.Plumlee,,,A.Jennings,,1,,10-J.Plumlee to BAMA 16 for 1 yard (33-A.Jennings).
+Alabama,1Q,3,47,14,1,Normal,run,12,successful,0.75,,0.58,0.33,B.Robinson,,,M.Hartsfield,,1,,24-B.Robinson to BAMA 46 for 12 yards (15-M.Hartsfield).
+Alabama,1Q,3,48,15,1,Normal,run,10,successful,0.80,,0.62,0.38,B.Robinson,,,D.Prince,,1,,24-B.Robinson to MIS 44 for 10 yards (24-D.Prince).
+Alabama,1Q,3,49,16,1,Normal,pass,17,explosive,,0.56,0.64,0.36,,T.Tagovailoa,J.Jeudy,J.Jones,,1,,13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy to MIS 27 for 17 yards (31-J.Jones).
+Alabama,1Q,3,50,17,1,Normal,pass,10,successful,,0.60,0.67,0.33,,T.Tagovailoa,D.Smith,J.Jones,,1,,13-T.Tagovailoa complete to 6-D.Smith. 6-D.Smith to MIS 17 for 10 yards (31-J.Jones).
+Alabama,1Q,3,51,18,1,Red Zone,pass,1,not successful,,0.55,0.63,0.31,,T.Tagovailoa,J.Jeudy,K.Smith,M.Hartsfield,0.5,0.5,"13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy to MIS 16 for 1 yard (20-K.Smith,15-M.Hartsfield)."
+Alabama,2Q,4,52,19,2,Red Zone,pass,11,successful,,0.58,0.65,0.29,,T.Tagovailoa,J.Jeudy,J.Jones,,1,,13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy to MIS 5 for 11 yards (31-J.Jones).
+Alabama,2Q,4,53,20,1,Red Zone,pass,-10,not successful,,0.54,0.61,0.28,,T.Tagovailoa,J.Waddle,,,,,"13-T.Tagovailoa complete to 17-J.Waddle. 17-J.Waddle to MIS 5 for no gain. Penalty on BAMA 4-J.Jeudy, Holding, 10 yards, enforced at MIS 5."
+Alabama,2Q,4,54,21,1,Red Zone,run,8,successful,0.83,,0.63,0.32,B.Robinson,,,J.Jones,,1,,24-B.Robinson to MIS 7 for 8 yards (10-J.Jones).
+Alabama,2Q,4,55,22,2,Red Zone,run,7,successful,0.86,,0.65,0.35,T.Tagovailoa,,,,,,," 13-T.Tagovailoa scrambles, runs 7 yards for a touchdown."
 Mississippi,2Q,3,58,28,1,Normal,run,13,successful,0.50,,0.50,0.87,J.Plumlee,,,X.McKinney,,1,,10-J.Plumlee to MIS 38 for 13 yards (15-X.McKinney).
 Mississippi,2Q,3,59,29,1,Normal,run,-1,not successful,0.48,,0.48,0.88,J.Ealy,,,S.Carter,C.Harris,0.5,0.5,"9-J.Ealy to MIS 37 for -1 yard (5-S.Carter,8-C.Harris)."
 Mississippi,2Q,3,60,30,2,Normal,run,1,not successful,0.45,,0.46,0.88,J.Plumlee,,,C.Allen,,1,,10-J.Plumlee scrambles to MIS 38 for 1 yard (4-C.Allen).
 Mississippi,2Q,3,61,31,3,Normal,run,5,not successful,0.43,,0.44,0.88,J.Plumlee,,,T.Diggs,,1,,10-J.Plumlee to MIS 43 for 5 yards (7-T.Diggs).
-Alabama,2Q,5,63,23,1,Red Zone,pass,45,explosive,,0.62,0.70,0.35,,T.Tagovailoa,D.Smith,J.Jones,,1,,13-T.Tagovailoa complete to 6-D.Smith. 6-D.Smith to MIS 37 for 45 yards (31-J.Jones).
-Alabama,2Q,5,65,25,1,Normal,run,9,successful,0.88,,0.71,0.38,N.Harris,,,J.Stanley,,1,,22-N.Harris to MIS 23 for 9 yards (28-J.Stanley).
-Alabama,2Q,5,66,26,1,Normal,run,5,successful,0.89,,0.73,0.41,N.Harris,,,Q.Sheppard,B.Jones,0.5,0.5,"22-N.Harris to MIS 18 for 5 yards (97-Q.Sheppard,95-B.Jones)."
-Alabama,2Q,5,67,27,2,Normal,pass,,not successful,,0.57,0.70,0.39,,T.Tagovailoa,J.Jeudy,,,,,13-T.Tagovailoa incomplete. Intended for 4-J.Jeudy.
-Alabama,2Q,5,68,28,3,Normal,run,1,not successful,0.80,,0.67,0.42,T.Tagovailoa,,,J.Coatney,,1,,13-T.Tagovailoa scrambles to MIS 17 for 1 yard (40-J.Coatney).
+Alabama,2Q,5,63,23,1,Normal,pass,45,explosive,,0.57,0.67,0.33,,T.Tagovailoa,D.Smith,J.Jones,,1,,13-T.Tagovailoa complete to 6-D.Smith. 6-D.Smith to MIS 37 for 45 yards (31-J.Jones).
+Alabama,2Q,5,64,24,1,Normal,no play,5,successful,,,0.68,,,,,J.Julius,,1,,"13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy to MIS 37 for no gain (26-J.Julius). Team penalty on MIS, 12 players, 5 yards, enforced at MIS 37. No Play."
+Alabama,2Q,5,65,25,1,Normal,run,9,successful,0.88,,0.70,0.36,N.Harris,,,J.Stanley,,1,,22-N.Harris to MIS 23 for 9 yards (28-J.Stanley).
+Alabama,2Q,5,66,26,1,Normal,run,5,successful,0.89,,0.71,0.39,N.Harris,,,Q.Sheppard,B.Jones,0.5,0.5,"22-N.Harris to MIS 18 for 5 yards (97-Q.Sheppard,95-B.Jones)."
+Alabama,2Q,5,67,27,2,Red Zone,pass,,not successful,,0.53,0.68,0.38,,T.Tagovailoa,J.Jeudy,,,,,13-T.Tagovailoa incomplete. Intended for 4-J.Jeudy.
+Alabama,2Q,5,68,28,3,Red Zone,run,1,not successful,0.80,,0.65,0.40,T.Tagovailoa,,,J.Coatney,,1,,13-T.Tagovailoa scrambles to MIS 17 for 1 yard (40-J.Coatney).
 Mississippi,2Q,4,71,33,1,Normal,pass,,not successful,,0.25,0.43,0.85,,J.Plumlee,,,,,,10-J.Plumlee incomplete.
 Mississippi,2Q,4,72,34,2,Normal,pass,5,not successful,,0.20,0.41,0.82,,J.Plumlee,E.Moore,S.Carter,,1,,10-J.Plumlee complete to 8-E.Moore. 8-E.Moore to MIS 40 for 5 yards (5-S.Carter).
-Mississippi,2Q,4,74,36,1,Normal,run,-1,not successful,0.42,,0.40,0.83,J.Ealy,,,C.Harris,,1,,9-J.Ealy to MIS 44 for -1 yard (8-C.Harris).
-Mississippi,2Q,4,75,37,2,Normal,run,2,not successful,0.40,,0.39,0.83,J.Plumlee,,,D.Dale,,1,,10-J.Plumlee to MIS 46 for 2 yards (94-D.Dale).
-Mississippi,2Q,4,76,38,3,Normal,pass,,not successful,,0.17,0.38,0.81,,J.Plumlee,J.Pellerin,,,,,10-J.Plumlee incomplete. Intended for 7-J.Pellerin.
-Alabama,2Q,6,78,30,1,Normal,pass,,not successful,,0.53,0.64,0.40,,T.Tagovailoa,J.Jeudy,,,,,13-T.Tagovailoa incomplete. Intended for 4-J.Jeudy.
-Alabama,2Q,6,79,31,2,Normal,run,7,successful,0.82,,0.65,0.42,B.Robinson,,,D.Evans,,1,,24-B.Robinson to MIS 47 for 7 yards (35-D.Evans).
-Alabama,2Q,6,81,33,3,Normal,pass,25,explosive,,0.56,0.67,0.41,,T.Tagovailoa,J.Jeudy,J.Jones,,1,,13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy to MIS 27 for 25 yards (10-J.Jones).
-Alabama,2Q,6,82,34,1,Normal,pass,2,not successful,,0.53,0.64,0.39,,T.Tagovailoa,D.Smith,K.Smith,,1,,13-T.Tagovailoa complete to 6-D.Smith. 6-D.Smith to MIS 25 for 2 yards (20-K.Smith).
-Alabama,2Q,6,83,35,2,Normal,pass,,not successful,,0.50,0.62,0.38,,T.Tagovailoa,H.Ruggs,,,,,13-T.Tagovailoa incomplete. Intended for 11-H.Ruggs.
-Alabama,2Q,6,84,36,3,Normal,pass,25,explosive,,0.53,0.63,0.37,,T.Tagovailoa,D.Smith,,,,, 13-T.Tagovailoa complete to 6-D.Smith. 6-D.Smith runs 25 yards for a touchdown.
-Mississippi,2Q,5,87,40,1,Normal,no play,12,successful,,,0.39,,,,,,,,,"Penalty on MIS 3-D.Gregory, Illegal block in the back, 12 yards, enforced at MIS 25. No Play."
-Mississippi,2Q,5,88,41,1,Red Zone,run,1,not successful,0.38,,0.38,0.81,S.Conner,,,S.Carter,A.Jennings,0.5,0.5,"24-S.Conner to MIS 14 for 1 yard (5-S.Carter,33-A.Jennings)."
-Mississippi,2Q,5,89,42,2,Red Zone,pass,,not successful,,0.14,0.37,0.79,,J.Plumlee,B.Sanders,,,,,10-J.Plumlee incomplete. Intended for 13-B.Sanders.
-Mississippi,2Q,5,90,43,3,Red Zone,pass,4,not successful,,0.13,0.36,0.76,,J.Plumlee,S.Phillips,P.Surtain,,1,,10-J.Plumlee complete to 22-S.Phillips. 22-S.Phillips to MIS 18 for 4 yards (2-P.Surtain).
-Alabama,2Q,7,92,37,1,Normal,run,10,successful,0.83,,0.65,0.39,N.Harris,,,J.Julius,,1,,22-N.Harris to MIS 35 for 10 yards (26-J.Julius).
-Alabama,2Q,7,93,38,1,Normal,pass,,not successful,,0.50,0.63,0.38,,T.Tagovailoa,H.Ruggs,,,,,13-T.Tagovailoa incomplete. Intended for 11-H.Ruggs.
-Alabama,2Q,7,94,39,2,Normal,pass,9,successful,,0.52,0.64,0.36,,T.Tagovailoa,B.Robinson,L.Henry,,1,,13-T.Tagovailoa complete to 24-B.Robinson. 24-B.Robinson to MIS 26 for 9 yards (1-L.Henry).
-Alabama,2Q,7,95,40,3,Normal,run,3,successful,0.85,,0.65,0.38,B.Robinson,,,J.Coatney,,1,,24-B.Robinson to MIS 23 for 3 yards (40-J.Coatney).
-Alabama,2Q,7,96,41,1,Normal,pass,,not successful,,0.50,0.63,0.37,,T.Tagovailoa,B.Robinson,,,,,13-T.Tagovailoa incomplete. Intended for 24-B.Robinson.
-Alabama,2Q,7,97,42,2,Normal,pass,,not successful,,0.48,0.61,0.36,,T.Tagovailoa,H.Ruggs,,,,,13-T.Tagovailoa incomplete. Intended for 11-H.Ruggs.
-Alabama,2Q,7,98,43,3,Normal,pass,23,explosive,,0.50,0.62,0.35,,T.Tagovailoa,D.Smith,,,,, 13-T.Tagovailoa complete to 6-D.Smith. 6-D.Smith runs 23 yards for a touchdown.
+Mississippi,2Q,4,73,35,3,Normal,no play,5,successful,,,0.43,,,,,,,,,"10-J.Plumlee incomplete. Penalty on BAMA 94-D.Dale, 12 players, 5 yards, enforced at MIS 40. No Play."
+Mississippi,2Q,4,74,36,1,Normal,run,-1,not successful,0.42,,0.42,0.83,J.Ealy,,,C.Harris,,1,,9-J.Ealy to MIS 44 for -1 yard (8-C.Harris).
+Mississippi,2Q,4,75,37,2,Normal,run,2,not successful,0.40,,0.41,0.83,J.Plumlee,,,D.Dale,,1,,10-J.Plumlee to MIS 46 for 2 yards (94-D.Dale).
+Mississippi,2Q,4,76,38,3,Normal,pass,,not successful,,0.17,0.39,0.81,,J.Plumlee,J.Pellerin,,,,,10-J.Plumlee incomplete. Intended for 7-J.Pellerin.
+Alabama,2Q,6,78,30,1,Normal,pass,,not successful,,0.50,0.63,0.38,,T.Tagovailoa,J.Jeudy,,,,,13-T.Tagovailoa incomplete. Intended for 4-J.Jeudy.
+Alabama,2Q,6,79,31,2,Normal,run,7,successful,0.82,,0.64,0.41,B.Robinson,,,D.Evans,,1,,24-B.Robinson to MIS 47 for 7 yards (35-D.Evans).
+Alabama,2Q,6,81,33,3,Normal,pass,25,explosive,,0.53,0.66,0.39,,T.Tagovailoa,J.Jeudy,J.Jones,,1,,13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy to MIS 27 for 25 yards (10-J.Jones).
+Alabama,2Q,6,82,34,1,Normal,pass,2,not successful,,0.50,0.63,0.38,,T.Tagovailoa,D.Smith,K.Smith,,1,,13-T.Tagovailoa complete to 6-D.Smith. 6-D.Smith to MIS 25 for 2 yards (20-K.Smith).
+Alabama,2Q,6,83,35,2,Normal,pass,,not successful,,0.47,0.61,0.37,,T.Tagovailoa,H.Ruggs,,,,,13-T.Tagovailoa incomplete. Intended for 11-H.Ruggs.
+Alabama,2Q,6,84,36,3,Normal,pass,25,explosive,,0.50,0.63,0.35,,T.Tagovailoa,D.Smith,,,,, 13-T.Tagovailoa complete to 6-D.Smith. 6-D.Smith runs 25 yards for a touchdown.
+Mississippi,2Q,5,88,41,1,Normal,run,1,not successful,0.38,,0.38,0.81,S.Conner,,,S.Carter,A.Jennings,0.5,0.5,"24-S.Conner to MIS 14 for 1 yard (5-S.Carter,33-A.Jennings)."
+Mississippi,2Q,5,89,42,2,Normal,pass,,not successful,,0.14,0.37,0.79,,J.Plumlee,B.Sanders,,,,,10-J.Plumlee incomplete. Intended for 13-B.Sanders.
+Mississippi,2Q,5,90,43,3,Normal,pass,4,not successful,,0.13,0.36,0.76,,J.Plumlee,S.Phillips,P.Surtain,,1,,10-J.Plumlee complete to 22-S.Phillips. 22-S.Phillips to MIS 18 for 4 yards (2-P.Surtain).
+Alabama,2Q,7,92,37,1,Normal,run,10,successful,0.83,,0.64,0.38,N.Harris,,,J.Julius,,1,,22-N.Harris to MIS 35 for 10 yards (26-J.Julius).
+Alabama,2Q,7,93,38,1,Normal,pass,,not successful,,0.48,0.62,0.36,,T.Tagovailoa,H.Ruggs,,,,,13-T.Tagovailoa incomplete. Intended for 11-H.Ruggs.
+Alabama,2Q,7,94,39,2,Normal,pass,9,successful,,0.50,0.63,0.35,,T.Tagovailoa,B.Robinson,L.Henry,,1,,13-T.Tagovailoa complete to 24-B.Robinson. 24-B.Robinson to MIS 26 for 9 yards (1-L.Henry).
+Alabama,2Q,7,95,40,3,Normal,run,3,successful,0.85,,0.64,0.37,B.Robinson,,,J.Coatney,,1,,24-B.Robinson to MIS 23 for 3 yards (40-J.Coatney).
+Alabama,2Q,7,96,41,1,Normal,pass,,not successful,,0.48,0.62,0.36,,T.Tagovailoa,B.Robinson,,,,,13-T.Tagovailoa incomplete. Intended for 24-B.Robinson.
+Alabama,2Q,7,97,42,2,Normal,pass,,not successful,,0.46,0.61,0.35,,T.Tagovailoa,H.Ruggs,,,,,13-T.Tagovailoa incomplete. Intended for 11-H.Ruggs.
+Alabama,2Q,7,98,43,3,Normal,pass,23,explosive,,0.48,0.62,0.34,,T.Tagovailoa,D.Smith,,,,, 13-T.Tagovailoa complete to 6-D.Smith. 6-D.Smith runs 23 yards for a touchdown.
 Mississippi,2Q,6,101,45,1,Normal,pass,7,successful,,0.22,0.38,0.74,,J.Plumlee,E.Moore,S.Carter,,1,,10-J.Plumlee complete to 8-E.Moore. 8-E.Moore to MIS 32 for 7 yards (5-S.Carter).
 Mississippi,2Q,6,102,46,2,Normal,run,1,not successful,0.37,,0.37,0.75,J.Plumlee,,,C.Harris,X.McKinney,0.5,0.5,"10-J.Plumlee to MIS 33 for 1 yard (8-C.Harris,15-X.McKinney)."
 Mississippi,2Q,6,103,47,3,Normal,pass,,not successful,,0.20,0.36,0.73,,J.Plumlee,O.Cooley,,,,,10-J.Plumlee incomplete. Intended for 15-O.Cooley.
 Mississippi,2Q,6,104,48,4,Normal,punt,,successful,,,0.38,,,,,M.Brown,,1,,96-M.Brown punts 39 yards from MIS 33. 17-J.Waddle to MIS 43 for 29 yards (96-M.Brown).
-Mississippi,2Q,6,105,49,1,Normal,penalty,15,successful,,,0.39,,,,,,,,,"Penalty on MIS 55-B.Brown, Tripping, 15 yards, enforced at MIS 43."
-Alabama,2Q,8,106,44,1,Normal,no play,5,successful,,,0.63,,,,,J.Stanley,K.Smith,0.5,0.5,"22-N.Harris to MIS 15 for 13 yards (28-J.Stanley,20-K.Smith). Penalty on BAMA 84-J.Lanier, Illegal shift, 5 yards, enforced at MIS 28. No Play."
-Alabama,2Q,8,107,45,1,Normal,pass,33,explosive,,0.52,0.64,0.34,,T.Tagovailoa,D.Smith,,,,, 13-T.Tagovailoa complete to 6-D.Smith. 6-D.Smith runs 33 yards for a touchdown.
-Mississippi,2Q,7,110,50,1,Normal,run,6,successful,0.39,,0.40,0.74,S.Conner,,,B.Young,S.Lee,0.5,0.5,"24-S.Conner to MIS 31 for 6 yards (47-B.Young,35-S.Lee)."
-Mississippi,2Q,7,112,52,1,Normal,penalty,15,successful,,,0.42,,,,,,,,,"10-J.Plumlee runs ob at MIS 39 for 3 yards. Penalty on MIS 7-J.Pellerin, Personal Foul, 15 yards, enforced at MIS 39."
-Mississippi,2Q,7,113,53,1,Normal,run,4,not successful,0.38,,0.41,0.74,S.Conner,,,C.Allen,X.McKinney,0.5,0.5,"24-S.Conner to MIS 28 for 4 yards (4-C.Allen,15-X.McKinney)."
-Mississippi,2Q,7,114,54,2,Normal,pass,,not successful,,0.18,0.40,0.73,,J.Plumlee,D.Jackson,,,,,10-J.Plumlee incomplete. Intended for 5-D.Jackson.
-Mississippi,3Q,8,116,55,1,Normal,run,7,successful,0.40,,0.41,0.73,J.Plumlee,,,X.McKinney,,1,,10-J.Plumlee to MIS 32 for 7 yards (15-X.McKinney).
-Mississippi,3Q,8,117,56,2,Normal,pass,,not successful,,0.17,0.40,0.71,,J.Plumlee,E.Moore,,,,,10-J.Plumlee incomplete. Intended for 8-E.Moore.
-Mississippi,3Q,8,118,57,3,Normal,run,3,successful,0.42,,0.42,0.72,J.Plumlee,,,R.Davis,,1,,10-J.Plumlee to MIS 35 for 3 yards (99-R.Davis).
-Mississippi,3Q,8,119,58,1,Normal,run,5,successful,0.44,,0.43,0.73,J.Plumlee,,,X.McKinney,,1,,10-J.Plumlee to MIS 40 for 5 yards (15-X.McKinney).
-Mississippi,3Q,8,120,59,2,Normal,pass,16,explosive,,0.23,0.44,0.71,,J.Plumlee,J.Mingo,X.McKinney,,1,,10-J.Plumlee complete to 1-J.Mingo. 1-J.Mingo to BAMA 44 for 16 yards (15-X.McKinney).
-Mississippi,3Q,8,121,60,1,Normal,pass,-5,not successful,,0.21,0.43,0.70,,J.Plumlee,,T.Lewis,,1,,10-J.Plumlee sacked at BAMA 49 for -5 yards (24-T.Lewis).
-Mississippi,3Q,8,122,61,2,Normal,pass,,not successful,,0.20,0.42,0.68,,J.Plumlee,D.Drummond,,,,,10-J.Plumlee incomplete. Intended for 11-D.Drummond.
-Mississippi,3Q,8,123,62,3,Normal,run,6,not successful,0.42,,0.42,0.69,J.Plumlee,,,J.Battle,,1,,10-J.Plumlee scrambles to BAMA 43 for 6 yards (9-J.Battle).
-Alabama,3Q,9,125,46,1,Normal,pass,21,explosive,,0.54,0.65,0.33,,T.Tagovailoa,J.Jeudy,M.Hartsfield,,1,,13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy to BAMA 41 for 21 yards (15-M.Hartsfield).
-Alabama,3Q,9,127,48,1,Normal,run,12,successful,0.86,,0.66,0.35,N.Harris,,,L.Henry,,1,,22-N.Harris to MIS 42 for 12 yards (1-L.Henry).
-Alabama,3Q,9,129,50,1,Normal,pass,27,explosive,,0.56,0.67,0.34,,T.Tagovailoa,D.Smith,,,,, 13-T.Tagovailoa complete to 6-D.Smith. 6-D.Smith runs 27 yards for a touchdown.
-Mississippi,3Q,9,132,64,1,Normal,run,5,successful,0.44,,0.43,0.69,J.Ealy,,,R.Davis,P.Mathis,0.5,0.5,"9-J.Ealy to MIS 30 for 5 yards (99-R.Davis,48-P.Mathis)."
-Mississippi,3Q,9,133,65,2,Normal,pass,,not successful,,0.19,0.42,0.68,,J.Plumlee,D.Gregory,,,,,10-J.Plumlee incomplete. Intended for 3-D.Gregory.
-Mississippi,3Q,9,134,66,3,Normal,run,11,successful,0.46,,0.43,0.69,J.Plumlee,,,S.Carter,,1,,10-J.Plumlee scrambles to MIS 41 for 11 yards (5-S.Carter).
-Mississippi,3Q,9,135,67,1,Normal,pass,32,explosive,,0.24,0.44,0.67,,J.Plumlee,J.Mingo,P.Surtain,,1,,10-J.Plumlee complete to 1-J.Mingo. 1-J.Mingo to BAMA 27 for 32 yards (2-P.Surtain).
-Mississippi,3Q,9,137,69,1,Normal,run,4,not successful,0.44,,0.43,0.68,J.Ealy,,,S.Carter,,1,,9-J.Ealy to BAMA 12 for 4 yards (5-S.Carter).
-Mississippi,3Q,9,138,70,2,Normal,run,3,not successful,0.43,,0.42,0.69,J.Ealy,,,P.Mathis,R.Davis,0.5,0.5,"9-J.Ealy to BAMA 9 for 3 yards (48-P.Mathis,99-R.Davis)."
-Mississippi,3Q,9,139,71,3,Normal,pass,9,successful,,0.28,0.43,0.67,,J.Plumlee,J.Ealy,,,,, 10-J.Plumlee complete to 9-J.Ealy. 9-J.Ealy runs 9 yards for a touchdown.
-Alabama,3Q,10,142,51,1,Normal,run,2,not successful,0.80,,0.65,0.36,B.Robinson,,,J.Stanley,,1,,24-B.Robinson to MIS 37 for 2 yards (28-J.Stanley).
-Alabama,3Q,10,143,52,2,Normal,pass,21,explosive,,0.57,0.66,0.35,,T.Tagovailoa,M.Forristall,D.Evans,,1,,13-T.Tagovailoa complete to 87-M.Forristall. 87-M.Forristall to MIS 16 for 21 yards (35-D.Evans).
-Alabama,3Q,10,144,53,1,Normal,run,1,not successful,0.75,,0.64,0.36,B.Robinson,,,L.Henry,,1,,24-B.Robinson to MIS 15 for 1 yard (1-L.Henry).
-Alabama,3Q,10,145,54,2,Normal,run,5,not successful,0.71,,0.63,0.38,B.Robinson,,,C.Wiley,,1,,24-B.Robinson to MIS 10 for 5 yards (99-C.Wiley).
-Alabama,3Q,10,146,55,3,Normal,pass,,not successful,,0.55,0.62,0.37,,T.Tagovailoa,M.Forristall,,,,,13-T.Tagovailoa incomplete. Intended for 87-M.Forristall.
-Mississippi,3Q,10,148,72,1,Normal,pass,,not successful,,0.26,0.43,0.66,,J.Plumlee,E.Moore,,,,,10-J.Plumlee incomplete. Intended for 8-E.Moore.
-Mississippi,3Q,10,149,73,2,Normal,pass,,not successful,,0.25,0.42,0.65,,J.Plumlee,D.Drummond,,,,,10-J.Plumlee incomplete. Intended for 11-D.Drummond.
-Mississippi,3Q,10,150,74,3,Normal,pass,,not successful,,0.24,0.41,0.64,,J.Plumlee,E.Moore,,,,,10-J.Plumlee incomplete. Intended for 8-E.Moore.
-Mississippi,3Q,10,151,75,4,Normal,punt,,not successful,,,0.41,,,,,,,,, 96-M.Brown punts 0 yards from MIS 20 blocked by 10-A.Kaho. 10-A.Kaho runs no gain for a touchdown.
-Mississippi,3Q,11,154,76,1,Normal,run,20,explosive,0.45,,0.42,0.64,S.Phillips,,,X.McKinney,,1,,22-S.Phillips to MIS 45 for 20 yards (15-X.McKinney).
-Mississippi,3Q,11,155,77,1,Normal,pass,,not successful,,0.23,0.41,0.63,,J.Plumlee,M.Battle,,,,,10-J.Plumlee incomplete. Intended for 6-M.Battle.
-Mississippi,3Q,11,156,78,2,Normal,pass,,not successful,,0.22,0.40,0.62,,J.Plumlee,D.Jackson,,,,,10-J.Plumlee incomplete. Intended for 5-D.Jackson.
-Mississippi,3Q,11,157,79,3,Normal,run,10,successful,0.46,,0.41,0.63,J.Plumlee,,,B.Young,,1,,10-J.Plumlee scrambles to BAMA 45 for 10 yards (47-B.Young).
-Mississippi,3Q,11,158,80,1,Normal,run,6,successful,0.48,,0.42,0.63,J.Ealy,,,T.Musika,S.Lee,0.5,0.5,"9-J.Ealy to BAMA 39 for 6 yards (91-T.Musika,35-S.Lee)."
-Mississippi,3Q,11,159,81,2,Normal,run,0,not successful,0.46,,0.41,0.64,#VALUE!,,,A.Jennings,R.Davis,0.5,0.5,"to BAMA 40, FUMBLES. recovers at the BAMA 40. to BAMA 40 for no gain (33-A.Jennings,99-R.Davis)."
-Mississippi,3Q,11,160,82,3,Normal,run,3,not successful,0.45,,0.41,0.65,J.Plumlee,,,A.Jennings,R.Davis,0.5,0.5,"10-J.Plumlee scrambles to BAMA 37 for 3 yards (33-A.Jennings,99-R.Davis)."
-Mississippi,3Q,11,161,83,4,Normal,pass,,not successful,,0.21,0.40,0.64,,J.Plumlee,E.Moore,,,,,10-J.Plumlee incomplete. Intended for 8-E.Moore.
+Mississippi,2Q,6,105,49,1,Normal,penalty,-15,not successful,,,0.37,,,,,,,,,"Penalty on MIS 55-B.Brown, Tripping, 15 yards, enforced at MIS 43."
+Alabama,2Q,8,107,45,1,Normal,pass,33,explosive,,0.50,0.63,0.33,,T.Tagovailoa,D.Smith,,,,, 13-T.Tagovailoa complete to 6-D.Smith. 6-D.Smith runs 33 yards for a touchdown.
+Mississippi,2Q,7,110,50,1,Normal,run,6,successful,0.39,,0.38,0.74,S.Conner,,,B.Young,S.Lee,0.5,0.5,"24-S.Conner to MIS 31 for 6 yards (47-B.Young,35-S.Lee)."
+Mississippi,2Q,7,111,51,2,Normal,no play,5,successful,,,0.40,,,,,,,,,"Penalty on BAMA 33-A.Jennings, Offside, 5 yards, enforced at MIS 31. No Play."
+Mississippi,2Q,7,112,52,1,Normal,penalty,-15,not successful,,,0.39,,,,,,,,,"10-J.Plumlee runs ob at MIS 39 for 3 yards. Penalty on MIS 7-J.Pellerin, Personal Foul, 15 yards, enforced at MIS 39."
+Mississippi,2Q,7,113,53,1,Normal,run,4,not successful,0.38,,0.38,0.74,S.Conner,,,C.Allen,X.McKinney,0.5,0.5,"24-S.Conner to MIS 28 for 4 yards (4-C.Allen,15-X.McKinney)."
+Mississippi,2Q,7,114,54,2,Normal,pass,,not successful,,0.18,0.37,0.73,,J.Plumlee,D.Jackson,,,,,10-J.Plumlee incomplete. Intended for 5-D.Jackson.
+Mississippi,3Q,8,116,55,1,Normal,run,7,successful,0.40,,0.38,0.73,J.Plumlee,,,X.McKinney,,1,,10-J.Plumlee to MIS 32 for 7 yards (15-X.McKinney).
+Mississippi,3Q,8,117,56,2,Normal,pass,,not successful,,0.17,0.38,0.71,,J.Plumlee,E.Moore,,,,,10-J.Plumlee incomplete. Intended for 8-E.Moore.
+Mississippi,3Q,8,118,57,3,Normal,run,3,successful,0.42,,0.39,0.72,J.Plumlee,,,R.Davis,,1,,10-J.Plumlee to MIS 35 for 3 yards (99-R.Davis).
+Mississippi,3Q,8,119,58,1,Normal,run,5,successful,0.44,,0.40,0.73,J.Plumlee,,,X.McKinney,,1,,10-J.Plumlee to MIS 40 for 5 yards (15-X.McKinney).
+Mississippi,3Q,8,120,59,2,Normal,pass,16,explosive,,0.23,0.41,0.71,,J.Plumlee,J.Mingo,X.McKinney,,1,,10-J.Plumlee complete to 1-J.Mingo. 1-J.Mingo to BAMA 44 for 16 yards (15-X.McKinney).
+Mississippi,3Q,8,121,60,1,Normal,pass,-5,not successful,,0.21,0.40,0.70,,J.Plumlee,,T.Lewis,,1,,10-J.Plumlee sacked at BAMA 49 for -5 yards (24-T.Lewis).
+Mississippi,3Q,8,122,61,2,Normal,pass,,not successful,,0.20,0.40,0.68,,J.Plumlee,D.Drummond,,,,,10-J.Plumlee incomplete. Intended for 11-D.Drummond.
+Mississippi,3Q,8,123,62,3,Normal,run,6,not successful,0.42,,0.39,0.69,J.Plumlee,,,J.Battle,,1,,10-J.Plumlee scrambles to BAMA 43 for 6 yards (9-J.Battle).
+Alabama,3Q,9,125,46,1,Normal,pass,21,explosive,,0.52,0.63,0.33,,T.Tagovailoa,J.Jeudy,M.Hartsfield,,1,,13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy to BAMA 41 for 21 yards (15-M.Hartsfield).
+Alabama,3Q,9,126,47,1,Normal,no play,5,successful,,,0.64,,,,,T.Tisdale,,1,,"22-N.Harris to BAMA 46 for 5 yards (22-T.Tisdale). Team penalty on MIS, Holding, 5 yards, enforced at BAMA 41. No Play."
+Alabama,3Q,9,127,48,1,Normal,run,12,successful,0.86,,0.65,0.34,N.Harris,,,L.Henry,,1,,22-N.Harris to MIS 42 for 12 yards (1-L.Henry).
+Alabama,3Q,9,128,49,1,Normal,no play,15,successful,,,0.66,,,,,Q.Sheppard,,1,,"22-N.Harris to MIS 42 for no gain (97-Q.Sheppard). Penalty on MIS 10-J.Jones, Illegal use of hands, 15 yards, enforced at MIS 42. No Play."
+Alabama,3Q,9,129,50,1,Normal,pass,27,explosive,,0.54,0.67,0.33,,T.Tagovailoa,D.Smith,,,,, 13-T.Tagovailoa complete to 6-D.Smith. 6-D.Smith runs 27 yards for a touchdown.
+Mississippi,3Q,9,132,64,1,Normal,run,5,successful,0.44,,0.40,0.69,J.Ealy,,,R.Davis,P.Mathis,0.5,0.5,"9-J.Ealy to MIS 30 for 5 yards (99-R.Davis,48-P.Mathis)."
+Mississippi,3Q,9,133,65,2,Normal,pass,,not successful,,0.19,0.39,0.68,,J.Plumlee,D.Gregory,,,,,10-J.Plumlee incomplete. Intended for 3-D.Gregory.
+Mississippi,3Q,9,134,66,3,Normal,run,11,successful,0.46,,0.40,0.69,J.Plumlee,,,S.Carter,,1,,10-J.Plumlee scrambles to MIS 41 for 11 yards (5-S.Carter).
+Mississippi,3Q,9,135,67,1,Normal,pass,32,explosive,,0.24,0.41,0.67,,J.Plumlee,J.Mingo,P.Surtain,,1,,10-J.Plumlee complete to 1-J.Mingo. 1-J.Mingo to BAMA 27 for 32 yards (2-P.Surtain).
+Mississippi,3Q,9,136,68,1,Normal,pass,11,successful,,0.28,0.42,0.66,,J.Plumlee,J.Mingo,,,,,"10-J.Plumlee incomplete. Intended for 1-J.Mingo. Penalty on BAMA 2-P.Surtain, Pass interference, 11 yards, enforced at BAMA 27. No Play."
+Mississippi,3Q,9,137,69,1,Red Zone,run,4,not successful,0.44,,0.42,0.67,J.Ealy,,,S.Carter,,1,,9-J.Ealy to BAMA 12 for 4 yards (5-S.Carter).
+Mississippi,3Q,9,138,70,2,Red Zone,run,3,not successful,0.43,,0.41,0.67,J.Ealy,,,P.Mathis,R.Davis,0.5,0.5,"9-J.Ealy to BAMA 9 for 3 yards (48-P.Mathis,99-R.Davis)."
+Mississippi,3Q,9,139,71,3,Red Zone,pass,9,successful,,0.32,0.42,0.66,,J.Plumlee,J.Ealy,,,,, 10-J.Plumlee complete to 9-J.Ealy. 9-J.Ealy runs 9 yards for a touchdown.
+Alabama,3Q,10,142,51,1,Normal,run,2,not successful,0.80,,0.65,0.35,B.Robinson,,,J.Stanley,,1,,24-B.Robinson to MIS 37 for 2 yards (28-J.Stanley).
+Alabama,3Q,10,143,52,2,Normal,pass,21,explosive,,0.55,0.66,0.34,,T.Tagovailoa,M.Forristall,D.Evans,,1,,13-T.Tagovailoa complete to 87-M.Forristall. 87-M.Forristall to MIS 16 for 21 yards (35-D.Evans).
+Alabama,3Q,10,144,53,1,Red Zone,run,1,not successful,0.75,,0.65,0.36,B.Robinson,,,L.Henry,,1,,24-B.Robinson to MIS 15 for 1 yard (1-L.Henry).
+Alabama,3Q,10,145,54,2,Red Zone,run,5,not successful,0.71,,0.63,0.37,B.Robinson,,,C.Wiley,,1,,24-B.Robinson to MIS 10 for 5 yards (99-C.Wiley).
+Alabama,3Q,10,146,55,3,Red Zone,pass,,not successful,,0.53,0.62,0.36,,T.Tagovailoa,M.Forristall,,,,,13-T.Tagovailoa incomplete. Intended for 87-M.Forristall.
+Mississippi,3Q,10,148,72,1,Normal,pass,,not successful,,0.30,0.41,0.65,,J.Plumlee,E.Moore,,,,,10-J.Plumlee incomplete. Intended for 8-E.Moore.
+Mississippi,3Q,10,149,73,2,Normal,pass,,not successful,,0.29,0.41,0.64,,J.Plumlee,D.Drummond,,,,,10-J.Plumlee incomplete. Intended for 11-D.Drummond.
+Mississippi,3Q,10,150,74,3,Normal,pass,,not successful,,0.27,0.40,0.63,,J.Plumlee,E.Moore,,,,,10-J.Plumlee incomplete. Intended for 8-E.Moore.
+Mississippi,3Q,10,151,75,4,Normal,punt,,not successful,,,0.39,,,,,,,,, 96-M.Brown punts 0 yards from MIS 20 blocked by 10-A.Kaho. 10-A.Kaho runs no gain for a touchdown.
+Mississippi,3Q,11,154,76,1,Normal,run,20,explosive,0.45,,0.40,0.63,S.Phillips,,,X.McKinney,,1,,22-S.Phillips to MIS 45 for 20 yards (15-X.McKinney).
+Mississippi,3Q,11,155,77,1,Normal,pass,,not successful,,0.26,0.40,0.62,,J.Plumlee,M.Battle,,,,,10-J.Plumlee incomplete. Intended for 6-M.Battle.
+Mississippi,3Q,11,156,78,2,Normal,pass,,not successful,,0.25,0.39,0.61,,J.Plumlee,D.Jackson,,,,,10-J.Plumlee incomplete. Intended for 5-D.Jackson.
+Mississippi,3Q,11,157,79,3,Normal,run,10,successful,0.46,,0.40,0.62,J.Plumlee,,,B.Young,,1,,10-J.Plumlee scrambles to BAMA 45 for 10 yards (47-B.Young).
+Mississippi,3Q,11,158,80,1,Normal,run,6,successful,0.48,,0.41,0.63,J.Ealy,,,T.Musika,S.Lee,0.5,0.5,"9-J.Ealy to BAMA 39 for 6 yards (91-T.Musika,35-S.Lee)."
+Mississippi,3Q,11,159,81,2,Normal,run,0,not successful,0.46,,0.40,0.63,#VALUE!,,,A.Jennings,R.Davis,0.5,0.5,"to BAMA 40, FUMBLES. recovers at the BAMA 40. to BAMA 40 for no gain (33-A.Jennings,99-R.Davis)."
+Mississippi,3Q,11,160,82,3,Normal,run,3,not successful,0.45,,0.40,0.64,J.Plumlee,,,A.Jennings,R.Davis,0.5,0.5,"10-J.Plumlee scrambles to BAMA 37 for 3 yards (33-A.Jennings,99-R.Davis)."
+Mississippi,3Q,11,161,83,4,Normal,pass,,not successful,,0.24,0.39,0.63,,J.Plumlee,E.Moore,,,,,10-J.Plumlee incomplete. Intended for 8-E.Moore.
 Alabama,3Q,12,162,57,1,Normal,run,7,successful,0.72,,0.63,0.38,N.Harris,,,J.Jones,J.Stanley,0.5,0.5,"22-N.Harris to BAMA 44 for 7 yards (10-J.Jones,28-J.Stanley)."
-Alabama,3Q,12,163,58,2,Normal,pass,,not successful,,0.53,0.61,0.38,,T.Tagovailoa,D.Smith,,,,,13-T.Tagovailoa incomplete. Intended for 6-D.Smith.
-Alabama,3Q,12,164,59,3,Normal,pass,2,not successful,,0.52,0.60,0.37,,T.Tagovailoa,N.Harris,A.Finley,,1,,13-T.Tagovailoa complete to 22-N.Harris. 22-N.Harris to BAMA 46 for 2 yards (21-A.Finley).
-Mississippi,3Q,12,166,84,1,Red Zone,run,26,explosive,0.47,,0.41,0.64,S.Conner,,,X.McKinney,,1,,24-S.Conner to MIS 43 for 26 yards (15-X.McKinney).
-Mississippi,3Q,12,167,85,1,Normal,run,-2,not successful,0.45,,0.41,0.65,S.Conner,,,C.Allen,,1,,24-S.Conner to MIS 41 for -2 yards (4-C.Allen).
-Mississippi,3Q,12,168,86,2,Normal,run,18,explosive,0.47,,0.41,0.65,S.Conner,,,J.Mayden,,1,,24-S.Conner to BAMA 41 for 18 yards (21-J.Mayden).
-Mississippi,3Q,12,169,87,1,Normal,run,-1,not successful,0.46,,0.41,0.66,J.Plumlee,,,J.Eboigbe,C.Allen,0.5,0.5,"10-J.Plumlee to BAMA 42 for -1 yard (92-J.Eboigbe,4-C.Allen)."
-Mississippi,4Q,13,170,88,2,Normal,pass,13,successful,,0.24,0.42,0.65,,J.Plumlee,J.Pellerin,X.McKinney,,1,,10-J.Plumlee complete to 7-J.Pellerin. 7-J.Pellerin to BAMA 29 for 13 yards (15-X.McKinney).
-Mississippi,4Q,13,171,89,1,Normal,run,2,not successful,0.45,,0.41,0.65,J.Plumlee,,,R.Davis,,1,,10-J.Plumlee to BAMA 27 for 2 yards (99-R.Davis).
-Mississippi,4Q,13,172,90,2,Normal,run,1,not successful,0.44,,0.41,0.66,S.Conner,,,A.Jennings,,1,,24-S.Conner to BAMA 26 for 1 yard (33-A.Jennings).
-Mississippi,4Q,13,173,91,3,Normal,pass,,not successful,,0.23,0.40,0.65,,J.Plumlee,,,,,,10-J.Plumlee incomplete.
-Mississippi,4Q,13,174,92,4,Normal,pass,26,explosive,,0.26,0.41,0.64,,J.Plumlee,J.Mingo,,,,, 10-J.Plumlee complete to 1-J.Mingo. 1-J.Mingo runs 26 yards for a touchdown.
-Alabama,4Q,13,178,61,1,Normal,pass,15,explosive,,0.53,0.61,0.36,,T.Tagovailoa,D.Smith,A.Finley,,1,,13-T.Tagovailoa complete to 6-D.Smith. 6-D.Smith to BAMA 40 for 15 yards (21-A.Finley).
-Alabama,4Q,13,179,62,1,Normal,pass,,not successful,,0.52,0.60,0.35,,T.Tagovailoa,J.Metchie,,,,,13-T.Tagovailoa incomplete. Intended for 8-J.Metchie.
-Alabama,4Q,13,180,63,2,Normal,run,12,successful,0.74,,0.60,0.37,B.Robinson,,,J.Stanley,,1,,24-B.Robinson to MIS 48 for 12 yards (28-J.Stanley).
-Alabama,4Q,13,181,64,1,Normal,pass,-2,not successful,,0.50,0.59,0.36,,T.Tagovailoa,J.Jeudy,A.Finley,,1,,13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy to MIS 50 for -2 yards (21-A.Finley).
-Alabama,4Q,13,182,65,2,Normal,pass,11,successful,,0.51,0.60,0.35,,T.Tagovailoa,D.Smith,A.Cistrunk,C.Wiley,0.5,0.5,"13-T.Tagovailoa complete to 6-D.Smith. 6-D.Smith to MIS 39 for 11 yards (36-A.Cistrunk,99-C.Wiley)."
+Alabama,3Q,12,163,58,2,Normal,pass,,not successful,,0.52,0.62,0.37,,T.Tagovailoa,D.Smith,,,,,13-T.Tagovailoa incomplete. Intended for 6-D.Smith.
+Alabama,3Q,12,164,59,3,Normal,pass,2,not successful,,0.50,0.60,0.36,,T.Tagovailoa,N.Harris,A.Finley,,1,,13-T.Tagovailoa complete to 22-N.Harris. 22-N.Harris to BAMA 46 for 2 yards (21-A.Finley).
+Mississippi,3Q,12,166,84,1,Normal,run,26,explosive,0.47,,0.40,0.63,S.Conner,,,X.McKinney,,1,,24-S.Conner to MIS 43 for 26 yards (15-X.McKinney).
+Mississippi,3Q,12,167,85,1,Normal,run,-2,not successful,0.45,,0.39,0.64,S.Conner,,,C.Allen,,1,,24-S.Conner to MIS 41 for -2 yards (4-C.Allen).
+Mississippi,3Q,12,168,86,2,Normal,run,18,explosive,0.47,,0.40,0.64,S.Conner,,,J.Mayden,,1,,24-S.Conner to BAMA 41 for 18 yards (21-J.Mayden).
+Mississippi,3Q,12,169,87,1,Normal,run,-1,not successful,0.46,,0.40,0.65,J.Plumlee,,,J.Eboigbe,C.Allen,0.5,0.5,"10-J.Plumlee to BAMA 42 for -1 yard (92-J.Eboigbe,4-C.Allen)."
+Mississippi,4Q,13,170,88,2,Normal,pass,13,successful,,0.27,0.41,0.64,,J.Plumlee,J.Pellerin,X.McKinney,,1,,10-J.Plumlee complete to 7-J.Pellerin. 7-J.Pellerin to BAMA 29 for 13 yards (15-X.McKinney).
+Mississippi,4Q,13,171,89,1,Normal,run,2,not successful,0.45,,0.40,0.64,J.Plumlee,,,R.Davis,,1,,10-J.Plumlee to BAMA 27 for 2 yards (99-R.Davis).
+Mississippi,4Q,13,172,90,2,Normal,run,1,not successful,0.44,,0.40,0.65,S.Conner,,,A.Jennings,,1,,24-S.Conner to BAMA 26 for 1 yard (33-A.Jennings).
+Mississippi,4Q,13,173,91,3,Normal,pass,,not successful,,0.26,0.39,0.64,,J.Plumlee,,,,,,10-J.Plumlee incomplete.
+Mississippi,4Q,13,174,92,4,Normal,pass,26,explosive,,0.29,0.40,0.63,,J.Plumlee,J.Mingo,,,,, 10-J.Plumlee complete to 1-J.Mingo. 1-J.Mingo runs 26 yards for a touchdown.
+Alabama,4Q,13,178,61,1,Normal,pass,15,explosive,,0.52,0.61,0.35,,T.Tagovailoa,D.Smith,A.Finley,,1,,13-T.Tagovailoa complete to 6-D.Smith. 6-D.Smith to BAMA 40 for 15 yards (21-A.Finley).
+Alabama,4Q,13,179,62,1,Normal,pass,,not successful,,0.50,0.60,0.35,,T.Tagovailoa,J.Metchie,,,,,13-T.Tagovailoa incomplete. Intended for 8-J.Metchie.
+Alabama,4Q,13,180,63,2,Normal,run,12,successful,0.74,,0.61,0.36,B.Robinson,,,J.Stanley,,1,,24-B.Robinson to MIS 48 for 12 yards (28-J.Stanley).
+Alabama,4Q,13,181,64,1,Normal,pass,-2,not successful,,0.49,0.60,0.35,,T.Tagovailoa,J.Jeudy,A.Finley,,1,,13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy to MIS 50 for -2 yards (21-A.Finley).
+Alabama,4Q,13,182,65,2,Normal,pass,11,successful,,0.50,0.60,0.35,,T.Tagovailoa,D.Smith,A.Cistrunk,C.Wiley,0.5,0.5,"13-T.Tagovailoa complete to 6-D.Smith. 6-D.Smith to MIS 39 for 11 yards (36-A.Cistrunk,99-C.Wiley)."
 Alabama,4Q,13,183,66,3,Normal,run,0,not successful,0.70,,0.59,0.36,B.Robinson,,,C.Wiley,A.Cistrunk,0.5,0.5,"24-B.Robinson to MIS 39 for no gain (99-C.Wiley,36-A.Cistrunk)."
-Alabama,4Q,13,184,67,4,Normal,run,5,successful,0.71,,0.60,0.38,S.Bolden,,,Q.Bivens,J.Stanley,0.5,0.5,"18-S.Bolden to MIS 34 for 5 yards (94-Q.Bivens,28-J.Stanley)."
-Alabama,4Q,13,185,68,1,Normal,run,13,successful,0.73,,0.60,0.39,N.Harris,,,D.Evans,,1,,22-N.Harris to MIS 21 for 13 yards (35-D.Evans).
-Alabama,4Q,13,186,69,1,Normal,pass,3,not successful,,0.50,0.59,0.38,,T.Tagovailoa,J.Jeudy,M.Hartsfield,,1,,13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy to MIS 18 for 3 yards (15-M.Hartsfield).
-Alabama,4Q,13,187,70,2,Normal,pass,-1,not successful,,0.49,0.58,0.37,,T.Tagovailoa,,B.Jones,,1,,13-T.Tagovailoa sacked at MIS 19 for -1 yard (95-B.Jones).
-Alabama,4Q,13,188,71,3,Normal,pass,19,explosive,,0.50,0.59,0.37,,T.Tagovailoa,M.Forristall,,,,, 13-T.Tagovailoa complete to 87-M.Forristall. 87-M.Forristall runs 19 yards for a touchdown.
-Mississippi,4Q,14,191,93,1,Normal,run,3,not successful,0.43,,0.40,0.64,J.Ealy,,,S.Lee,A.Kaho,0.5,0.5,"9-J.Ealy to MIS 28 for 3 yards (35-S.Lee,10-A.Kaho)."
-Mississippi,4Q,14,192,94,2,Normal,run,30,explosive,0.44,,0.41,0.65,J.Ealy,,,S.Lee,P.Surtain,0.5,0.5,"9-J.Ealy to BAMA 42 for 30 yards (35-S.Lee,2-P.Surtain)."
+Alabama,4Q,13,184,67,4,Normal,run,5,successful,0.71,,0.60,0.37,S.Bolden,,,Q.Bivens,J.Stanley,0.5,0.5,"18-S.Bolden to MIS 34 for 5 yards (94-Q.Bivens,28-J.Stanley)."
+Alabama,4Q,13,185,68,1,Normal,run,13,successful,0.73,,0.61,0.38,N.Harris,,,D.Evans,,1,,22-N.Harris to MIS 21 for 13 yards (35-D.Evans).
+Alabama,4Q,13,186,69,1,Normal,pass,3,not successful,,0.49,0.60,0.37,,T.Tagovailoa,J.Jeudy,M.Hartsfield,,1,,13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy to MIS 18 for 3 yards (15-M.Hartsfield).
+Alabama,4Q,13,187,70,2,Red Zone,pass,-1,not successful,,0.47,0.59,0.37,,T.Tagovailoa,,B.Jones,,1,,13-T.Tagovailoa sacked at MIS 19 for -1 yard (95-B.Jones).
+Alabama,4Q,13,188,71,3,Red Zone,pass,19,explosive,,0.49,0.59,0.36,,T.Tagovailoa,M.Forristall,,,,, 13-T.Tagovailoa complete to 87-M.Forristall. 87-M.Forristall runs 19 yards for a touchdown.
+Mississippi,4Q,14,191,93,1,Normal,run,3,not successful,0.43,,0.39,0.64,J.Ealy,,,S.Lee,A.Kaho,0.5,0.5,"9-J.Ealy to MIS 28 for 3 yards (35-S.Lee,10-A.Kaho)."
+Mississippi,4Q,14,192,94,2,Normal,run,30,explosive,0.44,,0.40,0.64,J.Ealy,,,S.Lee,P.Surtain,0.5,0.5,"9-J.Ealy to BAMA 42 for 30 yards (35-S.Lee,2-P.Surtain)."
 Mississippi,4Q,14,193,95,1,Normal,run,3,not successful,0.43,,0.40,0.65,J.Ealy,,,X.McKinney,A.Kaho,0.5,0.5,"9-J.Ealy to BAMA 39 for 3 yards (15-X.McKinney,10-A.Kaho)."
-Mississippi,4Q,14,194,96,2,Normal,run,1,not successful,0.42,,0.40,0.66,J.Ealy,,,T.Musika,B.Davis,0.5,0.5,"9-J.Ealy to BAMA 38 for 1 yard (91-T.Musika,1-B.Davis)."
-Mississippi,4Q,14,195,97,3,Normal,pass,,not successful,,0.25,0.40,0.65,,J.Plumlee,O.Cooley,,,,,10-J.Plumlee incomplete. Intended for 15-O.Cooley.
-Mississippi,4Q,14,196,98,4,Normal,pass,,not successful,,0.24,0.39,0.64,,J.Plumlee,,O.Cooley,,,,10-J.Plumlee incomplete. INTERCEPTED by 21-J.Mayden at BAMA 14. 21-J.Mayden to BAMA 50 for 36 yards (15-O.Cooley).
-Alabama,4Q,14,197,72,1,Normal,run,8,successful,0.74,,0.60,0.38,K.Robinson,,,L.Knox,,1,,2-K.Robinson to MIS 42 for 8 yards (16-L.Knox).
-Alabama,4Q,14,198,73,2,Normal,run,6,successful,0.75,,0.60,0.39,K.Robinson,,,A.Finley,J.Jones,0.5,0.5,"2-K.Robinson to MIS 36 for 6 yards (21-A.Finley,31-J.Jones)."
-Alabama,4Q,14,199,74,1,Normal,run,3,not successful,0.72,,0.59,0.40,K.Robinson,,,J.Jones,,1,,2-K.Robinson to MIS 33 for 3 yards (31-J.Jones).
-Alabama,4Q,14,200,75,2,Normal,run,3,not successful,0.69,,0.58,0.41,K.Robinson,,,J.Coatney,,1,,2-K.Robinson to MIS 30 for 3 yards (40-J.Coatney).
-Alabama,4Q,14,201,76,3,Normal,run,0,not successful,0.67,,0.58,0.42,K.Robinson,,,D.Evans,,1,,2-K.Robinson to MIS 30 for no gain (35-D.Evans).
-Alabama,4Q,14,202,77,4,Normal,pass,,not successful,,0.49,0.57,0.41,,M.Jones,J.Metchie,,,,,10-M.Jones incomplete. Intended for 8-J.Metchie.
-Mississippi,4Q,15,203,99,1,Normal,run,5,successful,0.43,,0.40,0.65,G.Tisdale,,,J.Battle,M.Collins,0.5,0.5,"14-G.Tisdale to MIS 35 for 5 yards (9-J.Battle,31-M.Collins)."
-Mississippi,4Q,15,204,100,2,Normal,run,3,not successful,0.43,,0.39,0.65,I.Woullard,,,C.Barmore,,1,,26-I.Woullard to MIS 38 for 3 yards (58-C.Barmore).
-Mississippi,4Q,15,205,101,3,Normal,run,1,not successful,0.42,,0.39,0.65,I.Woullard,,,A.Kaho,K.Mwikuta,0.5,0.5,"26-I.Woullard to MIS 39 for 1 yard (10-A.Kaho,30-K.Mwikuta)."
-Mississippi,4Q,15,206,102,4,Normal,run,5,successful,0.43,,0.40,0.66,G.Tisdale,,,J.Jobe,,1,,14-G.Tisdale to MIS 44 for 5 yards (28-J.Jobe).
-Mississippi,4Q,15,207,103,1,Normal,pass,28,explosive,,0.27,0.40,0.65,,G.Tisdale,D.Jackson,J.Jobe,,1,,14-G.Tisdale complete to 5-D.Jackson. 5-D.Jackson to BAMA 28 for 28 yards (28-J.Jobe).
-Mississippi,4Q,15,208,104,1,Normal,pass,28,explosive,,0.29,0.41,0.64,,G.Tisdale,J.Jackson,,,,, 14-G.Tisdale complete to 17-J.Jackson. 17-J.Jackson runs 28 yards for a touchdown.
+Mississippi,4Q,14,194,96,2,Normal,run,1,not successful,0.42,,0.39,0.65,J.Ealy,,,T.Musika,B.Davis,0.5,0.5,"9-J.Ealy to BAMA 38 for 1 yard (91-T.Musika,1-B.Davis)."
+Mississippi,4Q,14,195,97,3,Normal,pass,,not successful,,0.28,0.39,0.64,,J.Plumlee,O.Cooley,,,,,10-J.Plumlee incomplete. Intended for 15-O.Cooley.
+Mississippi,4Q,14,196,98,4,Normal,pass,,not successful,,0.27,0.38,0.63,,J.Plumlee,,O.Cooley,,,,10-J.Plumlee incomplete. INTERCEPTED by 21-J.Mayden at BAMA 14. 21-J.Mayden to BAMA 50 for 36 yards (15-O.Cooley).
+Alabama,4Q,14,197,72,1,Normal,run,8,successful,0.74,,0.60,0.37,K.Robinson,,,L.Knox,,1,,2-K.Robinson to MIS 42 for 8 yards (16-L.Knox).
+Alabama,4Q,14,198,73,2,Normal,run,6,successful,0.75,,0.61,0.38,K.Robinson,,,A.Finley,J.Jones,0.5,0.5,"2-K.Robinson to MIS 36 for 6 yards (21-A.Finley,31-J.Jones)."
+Alabama,4Q,14,199,74,1,Normal,run,3,not successful,0.72,,0.60,0.39,K.Robinson,,,J.Jones,,1,,2-K.Robinson to MIS 33 for 3 yards (31-J.Jones).
+Alabama,4Q,14,200,75,2,Normal,run,3,not successful,0.69,,0.59,0.40,K.Robinson,,,J.Coatney,,1,,2-K.Robinson to MIS 30 for 3 yards (40-J.Coatney).
+Alabama,4Q,14,201,76,3,Normal,run,0,not successful,0.67,,0.58,0.41,K.Robinson,,,D.Evans,,1,,2-K.Robinson to MIS 30 for no gain (35-D.Evans).
+Alabama,4Q,14,202,77,4,Normal,pass,,not successful,,0.48,0.57,0.40,,M.Jones,J.Metchie,,,,,10-M.Jones incomplete. Intended for 8-J.Metchie.
+Mississippi,4Q,15,203,99,1,Normal,run,5,successful,0.43,,0.39,0.64,G.Tisdale,,,J.Battle,M.Collins,0.5,0.5,"14-G.Tisdale to MIS 35 for 5 yards (9-J.Battle,31-M.Collins)."
+Mississippi,4Q,15,204,100,2,Normal,run,3,not successful,0.43,,0.38,0.64,I.Woullard,,,C.Barmore,,1,,26-I.Woullard to MIS 38 for 3 yards (58-C.Barmore).
+Mississippi,4Q,15,205,101,3,Normal,run,1,not successful,0.42,,0.38,0.65,I.Woullard,,,A.Kaho,K.Mwikuta,0.5,0.5,"26-I.Woullard to MIS 39 for 1 yard (10-A.Kaho,30-K.Mwikuta)."
+Mississippi,4Q,15,206,102,4,Normal,run,5,successful,0.43,,0.39,0.65,G.Tisdale,,,J.Jobe,,1,,14-G.Tisdale to MIS 44 for 5 yards (28-J.Jobe).
+Mississippi,4Q,15,207,103,1,Normal,pass,28,explosive,,0.29,0.39,0.64,,G.Tisdale,D.Jackson,J.Jobe,,1,,14-G.Tisdale complete to 5-D.Jackson. 5-D.Jackson to BAMA 28 for 28 yards (28-J.Jobe).
+Mississippi,4Q,15,208,104,1,Normal,pass,28,explosive,,0.31,0.40,0.64,,G.Tisdale,J.Jackson,,,,, 14-G.Tisdale complete to 17-J.Jackson. 17-J.Jackson runs 28 yards for a touchdown.
