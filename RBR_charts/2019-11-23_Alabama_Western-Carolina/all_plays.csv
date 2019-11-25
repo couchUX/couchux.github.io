@@ -1,0 +1,123 @@
+team,quarter,drive_team,play_count,play_count_team,down,red_zone,play_type,yards_total,play_result,run_sr,pass_sr,total_sr,run_rate,runner,passer,receiver,tackler_one,tackler_two,tackler_one_credit,tackler_two_credit,play_description
+Alabama,1Q,1,2,1,1,Normal,pass,4,not successful,,0.00,0.00,0.00,,T.Tagovailoa,H.Ruggs,E.Thompson,B.Cole,0.5,0.5,"13-T.Tagovailoa complete to 11-H.Ruggs. 11-H.Ruggs to BAMA 49 for 4 yards (40-E.Thompson,32-B.Cole)."
+Alabama,1Q,1,4,3,2,Normal,run,1,not successful,0.00,,0.00,0.50,N.Harris,,,C.Rivers,J.Crumedy,0.5,0.5,"22-N.Harris to BAMA 45 for 1 yard (5-C.Rivers,84-J.Crumedy)."
+Alabama,1Q,1,5,4,3,Normal,pass,37,explosive,,0.50,0.33,0.33,,T.Tagovailoa,J.Jeudy,B.Cole,,1,,13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy to MSST 18 for 37 yards (32-B.Cole).
+Alabama,1Q,1,6,5,1,Red Zone,run,8,successful,0.50,,0.50,0.50,N.Harris,,,T.Williams,,1,,22-N.Harris to MSST 10 for 8 yards (13-T.Williams).
+Alabama,1Q,1,7,6,2,Red Zone,run,10,successful,0.67,,0.60,0.60,N.Harris,,,,,,, 22-N.Harris runs 10 yards for a touchdown.
+Mississippi State,1Q,1,10,1,1,Normal,pass,,not successful,,0.00,0.00,0.00,,T.Stevens,F.Green,T.Stevens,K.Hill,,,"7-T.Stevens incomplete. Intended for 82-F.Green, INTERCEPTED by 35-S.Lee at MSST 29. 35-S.Lee to MSST 19 for 10 yards (7-T.Stevens,8-K.Hill)."
+Alabama,1Q,2,11,7,1,Red Zone,pass,19,explosive,,0.67,0.67,0.50,,T.Tagovailoa,N.Harris,,,,, 13-T.Tagovailoa complete to 22-N.Harris. 22-N.Harris runs 19 yards for a touchdown.
+Mississippi State,1Q,2,14,2,1,Normal,run,7,successful,1.00,,0.50,0.50,K.Hill,,,A.Jennings,,1,,8-K.Hill to MSST 32 for 7 yards (33-A.Jennings).
+Mississippi State,1Q,2,15,3,2,Normal,run,27,explosive,1.00,,0.67,0.67,T.Stevens,,,X.McKinney,,1,,7-T.Stevens to BAMA 41 for 27 yards (15-X.McKinney).
+Mississippi State,1Q,2,16,4,1,Normal,run,3,not successful,0.67,,0.50,0.75,K.Hill,,,S.Lee,X.McKinney,0.5,0.5,"8-K.Hill to BAMA 38 for 3 yards (35-S.Lee,15-X.McKinney)."
+Mississippi State,1Q,2,17,5,2,Normal,run,1,not successful,0.50,,0.40,0.80,K.Hill,,,C.Harris,,1,,8-K.Hill to BAMA 37 for 1 yard (8-C.Harris).
+Mississippi State,1Q,2,18,6,3,Normal,no play,15,successful,,,0.50,,,,,R.Davis,,1,,"7-T.Stevens sacked at BAMA 44 for -7 yards. Penalty on BAMA 99-R.Davis, Facemasking ball carrier or quarterback, 15 yards, enforced at BAMA 37. No Play. (99-R.Davis)."
+Mississippi State,1Q,2,19,7,1,Normal,pass,19,explosive,,0.50,0.57,0.67,,T.Stevens,K.Hill,,,,,7-T.Stevens complete to 8-K.Hill. 8-K.Hill pushed ob at BAMA 3 for 19 yards.
+Mississippi State,1Q,2,20,8,1,Red Zone,run,2,successful,0.60,,0.63,0.71,K.Hill,,,S.Lee,P.Mathis,0.5,0.5,"8-K.Hill to BAMA 1 for 2 yards (35-S.Lee,48-P.Mathis)."
+Mississippi State,1Q,2,21,9,2,Red Zone,run,0,not successful,0.50,,0.56,0.75,K.Hill,,,S.Lee,,1,,8-K.Hill to BAMA 1 for no gain (35-S.Lee).
+Mississippi State,1Q,2,22,10,3,Red Zone,run,1,successful,0.57,,0.60,0.78,K.Hill,,,,,,, 8-K.Hill runs 1 yard for a touchdown.
+Alabama,1Q,3,25,8,1,Normal,pass,-8,not successful,,0.50,0.57,0.43,,T.Tagovailoa,,N.Pickering,E.Thompson,0.5,0.5,"13-T.Tagovailoa sacked at BAMA 22 for -8 yards (22-N.Pickering,40-E.Thompson)."
+Alabama,1Q,3,26,9,2,Normal,pass,8,successful,,0.60,0.63,0.38,,T.Tagovailoa,H.Ruggs,,,,,"13-T.Tagovailoa incomplete. Intended for 11-H.Ruggs. Penalty on MSST 3-C.Dantzler, Pass interference, 8 yards, enforced at BAMA 22. No Play."
+Alabama,1Q,3,27,10,1,Normal,run,14,successful,0.75,,0.67,0.44,N.Harris,,,C.Dantzler,,1,,22-N.Harris pushed ob at BAMA 44 for 14 yards (3-C.Dantzler).
+Alabama,1Q,3,28,11,1,Normal,run,0,not successful,0.60,,0.60,0.50,N.Harris,,,C.Morgan,,1,,22-N.Harris to BAMA 44 for no gain (29-C.Morgan).
+Alabama,1Q,3,29,12,2,Normal,run,1,not successful,0.50,,0.55,0.55,N.Harris,,,C.Rivers,B.Cole,0.5,0.5,"22-N.Harris to BAMA 45 for 1 yard (5-C.Rivers,32-B.Cole)."
+Alabama,1Q,3,30,13,3,Normal,pass,15,explosive,,0.67,0.58,0.50,,T.Tagovailoa,J.Jeudy,C.Morgan,,1,,13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy pushed ob at MSST 40 for 15 yards (29-C.Morgan).
+Alabama,1Q,3,31,14,1,Normal,pass,-15,not successful,,0.57,0.54,0.46,,T.Tagovailoa,J.Jeudy,J.Landrews,,1,,"13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy to MSST 4 for 36 yards (11-J.Landrews). Penalty on BAMA 4-J.Jeudy, Facemasking, 15 yards, enforced at MSST 4."
+Alabama,1Q,3,32,15,1,Red Zone,run,-2,not successful,0.43,,0.50,0.50,N.Harris,,,M.Spencer,,1,,22-N.Harris to MSST 21 for -2 yards (42-M.Spencer).
+Alabama,1Q,3,34,17,2,Normal,pass,23,explosive,,0.63,0.53,0.47,,T.Tagovailoa,N.Harris,C.Morgan,E.Thompson,0.5,0.5,"13-T.Tagovailoa complete to 22-N.Harris. 22-N.Harris pushed ob at MSST 14 for 23 yards (29-C.Morgan,40-E.Thompson)."
+Alabama,1Q,3,35,18,3,Red Zone,pass,4,successful,,0.67,0.56,0.44,,T.Tagovailoa,J.Waddle,,,,,"13-T.Tagovailoa incomplete. Intended for 17-J.Waddle. Penalty on MSST 32-B.Cole, Pass interference, 4 yards, enforced at MSST 14. No Play."
+Alabama,1Q,3,36,19,1,Red Zone,pass,0,not successful,,0.60,0.53,0.41,,T.Tagovailoa,D.Smith,T.Williams,,1,,"13-T.Tagovailoa complete to 6-D.Smith. 6-D.Smith to MSST 5, FUMBLES (13-T.Williams). 11-H.Ruggs to MSST 5 for no gain."
+Alabama,1Q,3,37,20,2,Red Zone,run,5,successful,0.50,,0.56,0.44,N.Harris,,,,,,, 22-N.Harris runs 5 yards for a touchdown.
+Mississippi State,1Q,3,40,11,1,Normal,pass,-10,not successful,,0.33,0.55,0.70,,T.Stevens,D.Thomas,S.Carter,X.McKinney,0.5,0.5,"7-T.Stevens complete to 2-D.Thomas. 2-D.Thomas to MSST 26 for 1 yard (5-S.Carter,15-X.McKinney). Penalty on MSST 5-O.Mitchell, Holding, 10 yards, enforced at MSST 26."
+Mississippi State,1Q,3,41,12,1,Normal,pass,-1,not successful,,0.25,0.50,0.64,,T.Stevens,N.Gibson,S.Carter,,1,,7-T.Stevens complete to 21-N.Gibson. 21-N.Gibson to MSST 15 for -1 yard (5-S.Carter).
+Mississippi State,1Q,3,42,13,2,Normal,pass,,not successful,,0.20,0.46,0.58,,T.Stevens,O.Mitchell,,,,,7-T.Stevens incomplete. Intended for 5-O.Mitchell.
+Mississippi State,1Q,3,43,14,3,Normal,run,9,not successful,0.50,,0.43,0.62,N.Gibson,,,A.Jennings,S.Lee,0.5,0.5,"21-N.Gibson to MSST 24 for 9 yards (33-A.Jennings,35-S.Lee)."
+Alabama,1Q,4,45,21,1,Normal,pass,19,explosive,,0.64,0.58,0.42,,T.Tagovailoa,J.Billingsley,C.Dantzler,C.Morgan,0.5,0.5,"13-T.Tagovailoa complete to 19-J.Billingsley. 19-J.Billingsley pushed ob at BAMA 50 for 19 yards (3-C.Dantzler,29-C.Morgan)."
+Alabama,1Q,4,46,22,1,Normal,run,9,successful,0.56,,0.60,0.45,B.Robinson,,,E.Thompson,J.Landrews,0.5,0.5,"24-B.Robinson to MSST 41 for 9 yards (40-E.Thompson,11-J.Landrews)."
+Alabama,2Q,5,47,23,2,Normal,run,6,successful,0.60,,0.62,0.48,B.Robinson,,,L.Lewis,,1,,24-B.Robinson to MSST 35 for 6 yards (10-L.Lewis).
+Alabama,2Q,5,48,24,1,Normal,pass,35,explosive,,0.67,0.64,0.45,,T.Tagovailoa,J.Waddle,,,,, 13-T.Tagovailoa complete to 17-J.Waddle. 17-J.Waddle runs 35 yards for a touchdown.
+Mississippi State,2Q,4,51,16,1,Normal,run,3,not successful,0.44,,0.40,0.64,K.Hill,,,A.Jennings,S.Lee,0.5,0.5,"8-K.Hill to MSST 28 for 3 yards (33-A.Jennings,35-S.Lee)."
+Mississippi State,2Q,4,52,17,2,Normal,pass,2,not successful,,0.17,0.38,0.60,,T.Stevens,K.Hill,S.Lee,T.Diggs,0.5,0.5,"7-T.Stevens complete to 8-K.Hill. 8-K.Hill to MSST 30 for 2 yards (35-S.Lee,7-T.Diggs)."
+Mississippi State,2Q,4,53,18,3,Normal,pass,2,not successful,,0.14,0.35,0.56,,T.Stevens,S.Guidry,X.McKinney,S.Carter,0.5,0.5,"7-T.Stevens complete to 1-S.Guidry. 1-S.Guidry to MSST 32 for 2 yards (15-X.McKinney,5-S.Carter)."
+Alabama,2Q,6,55,25,1,Normal,pass,,not successful,,0.62,0.61,0.43,,T.Tagovailoa,J.Jeudy,,,,,13-T.Tagovailoa incomplete. Intended for 4-J.Jeudy.
+Alabama,2Q,6,56,26,2,Normal,run,12,successful,0.64,,0.63,0.46,N.Harris,,,C.Morgan,T.Williams,0.5,0.5,"22-N.Harris to BAMA 42 for 12 yards (29-C.Morgan,13-T.Williams)."
+Alabama,2Q,6,58,28,1,Normal,run,-1,not successful,0.58,,0.60,0.48,N.Harris,,,M.Spencer,,1,,22-N.Harris to BAMA 26 for -1 yard (42-M.Spencer).
+Alabama,2Q,6,59,29,2,Normal,run,0,not successful,0.54,,0.58,0.50,T.Tagovailoa,,,J.Crumedy,,1,,13-T.Tagovailoa scrambles to BAMA 26 for no gain (84-J.Crumedy).
+Alabama,2Q,6,60,30,3,Normal,pass,13,successful,,0.64,0.59,0.48,,T.Tagovailoa,D.Smith,,,,,13-T.Tagovailoa complete to 6-D.Smith. 6-D.Smith runs ob at BAMA 39 for 13 yards.
+Alabama,2Q,6,61,31,1,Normal,run,0,not successful,0.50,,0.57,0.50,N.Harris,,,L.Lewis,J.Crumedy,0.5,0.5,"22-N.Harris to BAMA 39 for no gain (10-L.Lewis,84-J.Crumedy)."
+Alabama,2Q,6,62,32,2,Normal,pass,34,explosive,,0.67,0.59,0.48,,T.Tagovailoa,D.Smith,M.Emerson,,1,,13-T.Tagovailoa complete to 6-D.Smith. 6-D.Smith to MSST 27 for 34 yards (1-M.Emerson).
+Alabama,2Q,6,63,33,1,Normal,pass,,not successful,,0.63,0.57,0.47,,T.Tagovailoa,D.Smith,,,,,13-T.Tagovailoa incomplete. Intended for 6-D.Smith.
+Alabama,2Q,6,64,34,2,Normal,pass,2,not successful,,0.59,0.55,0.45,,T.Tagovailoa,J.Jeudy,C.Morgan,J.Landrews,0.5,0.5,"13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy to MSST 25 for 2 yards (29-C.Morgan,11-J.Landrews)."
+Alabama,2Q,6,65,35,3,Normal,pass,12,successful,,0.61,0.56,0.44,,T.Tagovailoa,J.Jeudy,E.Thompson,,1,,13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy to MSST 13 for 12 yards (40-E.Thompson).
+Alabama,2Q,6,66,36,1,Red Zone,run,6,successful,0.53,,0.58,0.45,N.Harris,,,T.Williams,,1,,22-N.Harris to MSST 7 for 6 yards (13-T.Williams).
+Alabama,2Q,6,67,37,2,Red Zone,pass,2,not successful,,0.58,0.56,0.44,,T.Tagovailoa,J.Jeudy,J.Landrews,,1,,13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy pushed ob at MSST 5 for 2 yards (11-J.Landrews).
+Alabama,2Q,6,68,38,3,Red Zone,run,5,successful,0.56,,0.57,0.46,N.Harris,,,,,,, 22-N.Harris runs 5 yards for a touchdown.
+Mississippi State,2Q,5,71,20,1,Normal,run,2,not successful,0.40,,0.33,0.59,I.Zuber,,,P.Surtain,,1,,12-I.Zuber pushed ob at MSST 18 for 2 yards (2-P.Surtain).
+Mississippi State,2Q,5,72,21,2,Normal,pass,,not successful,,0.13,0.32,0.56,,T.Stevens,I.Zuber,,,,,7-T.Stevens incomplete. Intended for 12-I.Zuber.
+Mississippi State,2Q,5,73,22,3,Normal,no play,15,successful,,,0.35,,,,,,,,,"7-T.Stevens incomplete. Intended for 1-S.Guidry. Penalty on BAMA 15-X.McKinney, Roughing the passer, 15 yards, enforced at MSST 18. No Play."
+Mississippi State,2Q,5,74,23,1,Normal,run,2,not successful,0.36,,0.33,0.58,K.Hill,,,A.Jennings,,1,,8-K.Hill to MSST 35 for 2 yards (33-A.Jennings).
+Mississippi State,2Q,5,75,24,2,Normal,run,3,not successful,0.33,,0.32,0.60,K.Hill,,,S.Lee,,1,,8-K.Hill pushed ob at MSST 38 for 3 yards (35-S.Lee).
+Mississippi State,2Q,5,76,25,3,Normal,pass,,not successful,,0.11,0.30,0.57,,T.Stevens,I.Zuber,,,,,7-T.Stevens incomplete. Intended for 12-I.Zuber.
+Alabama,2Q,7,78,39,1,Normal,run,6,successful,0.59,,0.58,0.47,B.Robinson,,,M.Spencer,,1,,24-B.Robinson to BAMA 32 for 6 yards (42-M.Spencer).
+Alabama,2Q,7,79,40,2,Normal,pass,,not successful,,0.55,0.57,0.46,,T.Tagovailoa,J.Waddle,,,,,13-T.Tagovailoa incomplete. Intended for 17-J.Waddle.
+Alabama,2Q,7,80,41,3,Normal,pass,,not successful,,0.52,0.55,0.45,,T.Tagovailoa,,,,,,13-T.Tagovailoa incomplete.
+Mississippi State,2Q,6,82,27,1,Normal,penalty,-10,not successful,,,0.29,,,,,P.Surtain,,1,,"8-K.Hill pushed ob at MSST 28 for 2 yards (2-P.Surtain). Penalty on MSST 78-T.Phillips, Holding, 10 yards, enforced at MSST 28."
+Mississippi State,2Q,6,83,28,1,Normal,pass,0,not successful,,0.10,0.28,0.55,,T.Stevens,K.Hill,S.Carter,,1,,7-T.Stevens complete to 8-K.Hill. 8-K.Hill to MSST 18 for no gain (5-S.Carter).
+Mississippi State,2Q,6,84,29,2,Normal,pass,5,not successful,,0.09,0.27,0.52,,T.Stevens,N.Gibson,A.Jennings,S.Lee,0.5,0.5,"7-T.Stevens complete to 21-N.Gibson. 21-N.Gibson to MSST 23 for 5 yards (33-A.Jennings,35-S.Lee)."
+Mississippi State,2Q,6,85,30,3,Normal,run,2,not successful,0.31,,0.26,0.54,T.Stevens,,,C.Barmore,R.Davis,0.5,0.5,"7-T.Stevens scrambles to MSST 25 for 2 yards (58-C.Barmore,99-R.Davis)."
+Mississippi State,3Q,7,88,32,1,Normal,run,4,not successful,0.29,,0.25,0.56,K.Hill,,,T.Diggs,,1,,8-K.Hill pushed ob at MSST 29 for 4 yards (7-T.Diggs).
+Mississippi State,3Q,7,89,33,2,Normal,run,46,explosive,0.33,,0.28,0.58,T.Stevens,,,P.Surtain,,1,,7-T.Stevens to BAMA 25 for 46 yards (2-P.Surtain).
+Mississippi State,3Q,7,90,34,1,Normal,run,1,not successful,0.31,,0.27,0.59,K.Hill,,,B.Young,P.Mathis,0.5,0.5,"8-K.Hill to BAMA 24 for 1 yard (47-B.Young,48-P.Mathis)."
+Mississippi State,3Q,7,91,35,2,Normal,pass,5,not successful,,0.08,0.26,0.57,,T.Stevens,D.Thomas,S.Carter,,1,,7-T.Stevens complete to 2-D.Thomas. 2-D.Thomas pushed ob at BAMA 19 for 5 yards (5-S.Carter).
+Mississippi State,3Q,7,92,36,3,Red Zone,run,2,not successful,0.29,,0.25,0.59,T.Stevens,,,X.McKinney,,1,,7-T.Stevens to BAMA 17 for 2 yards (15-X.McKinney).
+Mississippi State,3Q,7,93,37,4,Red Zone,run,1,not successful,0.28,,0.24,0.60,K.Hill,,,A.Jennings,C.Harris,0.5,0.5,"8-K.Hill to BAMA 16 for 1 yard (33-A.Jennings,8-C.Harris)."
+Alabama,3Q,8,94,43,1,Normal,pass,10,successful,,0.55,0.56,0.44,,M.Jones,J.Jeudy,E.Thompson,,1,,10-M.Jones complete to 4-J.Jeudy. 4-J.Jeudy to BAMA 25 for 10 yards (40-E.Thompson).
+Alabama,3Q,8,95,44,1,Normal,run,20,explosive,0.61,,0.58,0.45,N.Harris,,,T.Williams,F.Lovett,0.5,0.5,"22-N.Harris to BAMA 45 for 20 yards (13-T.Williams,54-F.Lovett)."
+Alabama,3Q,8,96,45,1,Normal,pass,9,successful,,0.57,0.59,0.44,,M.Jones,N.Harris,C.Rivers,L.Lewis,0.5,0.5,"10-M.Jones complete to 22-N.Harris. 22-N.Harris to MSST 46 for 9 yards (5-C.Rivers,10-L.Lewis)."
+Alabama,3Q,8,97,46,2,Normal,run,9,successful,0.63,,0.60,0.45,N.Harris,,,S.Preston,T.Williams,0.5,0.5,"22-N.Harris to MSST 37 for 9 yards (12-S.Preston,13-T.Williams)."
+Alabama,3Q,8,98,47,1,Normal,pass,26,explosive,,0.58,0.60,0.44,,M.Jones,H.Ruggs,S.Preston,,1,,10-M.Jones complete to 11-H.Ruggs. 11-H.Ruggs pushed ob at MSST 11 for 26 yards (12-S.Preston).
+Alabama,3Q,8,99,48,1,Red Zone,run,-1,not successful,0.60,,0.59,0.45,N.Harris,,,E.Thompson,L.Lewis,0.5,0.5,"22-N.Harris to MSST 12 for -1 yard (40-E.Thompson,10-L.Lewis)."
+Alabama,3Q,8,100,49,2,Red Zone,run,1,not successful,0.57,,0.58,0.47,N.Harris,,,M.Spencer,,1,,22-N.Harris to MSST 11 for 1 yard (42-M.Spencer).
+Alabama,3Q,8,101,50,3,Red Zone,pass,7,not successful,,0.56,0.57,0.46,,M.Jones,H.Ruggs,E.Thompson,F.Peters,0.5,0.5,"10-M.Jones complete to 11-H.Ruggs. 11-H.Ruggs to MSST 4 for 7 yards (40-E.Thompson,38-F.Peters)."
+Mississippi State,3Q,8,104,38,1,Normal,run,6,successful,0.32,,0.26,0.61,K.Hill,,,C.Harris,P.Mathis,0.5,0.5,"8-K.Hill to MSST 31 for 6 yards (8-C.Harris,48-P.Mathis)."
+Mississippi State,3Q,8,105,39,2,Normal,pass,30,explosive,,0.15,0.29,0.59,,T.Stevens,F.Green,J.Mayden,,1,,7-T.Stevens complete to 82-F.Green. 82-F.Green pushed ob at BAMA 39 for 30 yards (21-J.Mayden).
+Mississippi State,3Q,8,106,40,1,Normal,run,5,successful,0.35,,0.31,0.61,K.Hill,,,S.Carter,,1,,8-K.Hill to BAMA 34 for 5 yards (5-S.Carter).
+Mississippi State,3Q,8,107,41,2,Normal,run,-6,not successful,0.33,,0.30,0.62,K.Hill,,,C.Harris,T.Lewis,0.5,0.5,"8-K.Hill to BAMA 40 for -6 yards (8-C.Harris,24-T.Lewis)."
+Mississippi State,3Q,8,108,42,3,Normal,pass,,not successful,,0.14,0.29,0.60,,T.Stevens,O.Mitchell,,,,,7-T.Stevens incomplete. Intended for 5-O.Mitchell.
+Alabama,3Q,9,110,52,1,Normal,run,3,not successful,0.55,,0.55,0.47,B.Robinson,,,B.Cole,A.Brule,0.5,0.5,"24-B.Robinson to BAMA 15 for 3 yards (32-B.Cole,18-A.Brule)."
+Alabama,3Q,9,111,53,2,Normal,pass,18,explosive,,0.58,0.56,0.46,,M.Jones,D.Smith,J.Landrews,,1,,10-M.Jones complete to 6-D.Smith. 6-D.Smith pushed ob at BAMA 33 for 18 yards (11-J.Landrews).
+Alabama,3Q,9,112,54,1,Normal,pass,16,explosive,,0.59,0.57,0.45,,M.Jones,D.Smith,S.Preston,,1,,10-M.Jones complete to 6-D.Smith. 6-D.Smith to BAMA 49 for 16 yards (12-S.Preston).
+Alabama,3Q,9,114,56,1,Normal,run,3,not successful,0.52,,0.56,0.46,B.Robinson,,,T.Washington,B.Cole,0.5,0.5,"24-B.Robinson to BAMA 47 for 3 yards (41-T.Washington,32-B.Cole)."
+Alabama,3Q,9,115,57,2,Normal,pass,8,not successful,,0.57,0.55,0.45,,M.Jones,D.Smith,C.Dantzler,,1,,10-M.Jones complete to 6-D.Smith. 6-D.Smith to MSST 45 for 8 yards (3-C.Dantzler).
+Alabama,3Q,9,116,58,3,Normal,pass,,not successful,,0.55,0.54,0.44,,M.Jones,B.Robinson,,,,,10-M.Jones incomplete. Intended for 24-B.Robinson.
+Mississippi State,3Q,9,118,44,1,Normal,run,3,not successful,0.32,,0.28,0.61,N.Gibson,,,B.Young,T.Musika,0.5,0.5,"21-N.Gibson to MSST 11 for 3 yards (47-B.Young,91-T.Musika)."
+Mississippi State,3Q,9,119,45,2,Normal,run,12,successful,0.35,,0.30,0.62,T.Stevens,,,C.Harris,,1,,7-T.Stevens to MSST 23 for 12 yards (8-C.Harris).
+Mississippi State,4Q,10,120,46,1,Normal,run,-3,not successful,0.33,,0.29,0.63,T.Stevens,,,A.Jennings,,1,,7-T.Stevens to MSST 20 for -3 yards (33-A.Jennings).
+Mississippi State,4Q,10,121,47,2,Normal,penalty,,successful,,,0.31,,,,,P.Surtain,,1,,"7-T.Stevens scrambles, pushed ob at MSST 37 for 17 yards (2-P.Surtain). Penalty on BAMA 33-A.Jennings, Offside, declined."
+Mississippi State,4Q,10,122,48,1,Normal,run,4,not successful,0.32,,0.30,0.64,N.Gibson,,,B.Young,S.Carter,0.5,0.5,"21-N.Gibson to MSST 41 for 4 yards (47-B.Young,5-S.Carter)."
+Mississippi State,4Q,10,123,49,2,Normal,pass,,not successful,,0.13,0.30,0.63,,T.Stevens,S.Guidry,,,,,7-T.Stevens incomplete. Intended for 1-S.Guidry.
+Mississippi State,4Q,10,124,50,3,Normal,pass,10,successful,,0.19,0.31,0.61,,T.Stevens,S.Guidry,J.Mayden,T.Lewis,0.5,0.5,"7-T.Stevens complete to 1-S.Guidry. 1-S.Guidry to BAMA 49 for 10 yards (21-J.Mayden,24-T.Lewis)."
+Mississippi State,4Q,10,125,51,1,Normal,run,6,successful,0.35,,0.33,0.62,N.Gibson,,,P.Surtain,,1,,21-N.Gibson pushed ob at BAMA 43 for 6 yards (2-P.Surtain).
+Mississippi State,4Q,10,126,52,2,Normal,run,-1,not successful,0.33,,0.32,0.63,T.Stevens,,,C.Barmore,P.Mathis,0.5,0.5,"7-T.Stevens to BAMA 44 for -1 yard (58-C.Barmore,48-P.Mathis)."
+Mississippi State,4Q,10,127,53,3,Normal,run,4,not successful,0.32,,0.31,0.64,N.Gibson,,,A.Jennings,J.Battle,0.5,0.5,"21-N.Gibson to BAMA 40 for 4 yards (33-A.Jennings,9-J.Battle)."
+Mississippi State,4Q,10,128,54,4,Normal,pass,6,successful,,0.24,0.33,0.62,,T.Stevens,S.Guidry,S.Lee,C.Harris,0.5,0.5,"7-T.Stevens complete to 1-S.Guidry. 1-S.Guidry to BAMA 34 for 6 yards (35-S.Lee,8-C.Harris)."
+Mississippi State,4Q,10,129,55,1,Normal,run,-1,not successful,0.31,,0.32,0.63,G.Shrader,,,T.Diggs,T.Lewis,0.5,0.5,"6-G.Shrader to BAMA 35 for -1 yard (7-T.Diggs,24-T.Lewis)."
+Mississippi State,4Q,10,130,56,2,Normal,pass,,not successful,,0.22,0.31,0.62,,T.Stevens,S.Guidry,,,,,7-T.Stevens incomplete. Intended for 1-S.Guidry.
+Mississippi State,4Q,10,131,57,3,Normal,run,5,not successful,0.30,,0.31,0.63,N.Gibson,,,S.Lee,J.Mayden,0.5,0.5,"21-N.Gibson to BAMA 30 for 5 yards (35-S.Lee,21-J.Mayden)."
+Mississippi State,4Q,10,132,58,4,Normal,pass,,not successful,,0.21,0.30,0.61,,T.Stevens,I.Zuber,,,,,7-T.Stevens incomplete. Intended for 12-I.Zuber.
+Alabama,4Q,10,133,60,1,Normal,run,14,successful,0.54,,0.55,0.45,T.Shavers,,,B.Cole,T.Williams,0.5,0.5,"14-T.Shavers pushed ob at BAMA 44 for 14 yards (32-B.Cole,13-T.Williams)."
+Alabama,4Q,10,134,61,1,Normal,run,7,successful,0.56,,0.56,0.46,B.Robinson,,,T.Williams,J.Crumedy,0.5,0.5,"24-B.Robinson to MSST 49 for 7 yards (13-T.Williams,84-J.Crumedy)."
+Alabama,4Q,10,135,62,2,Normal,run,2,not successful,0.54,,0.55,0.47,B.Robinson,,,J.Landrews,T.Washington,0.5,0.5,"24-B.Robinson to MSST 47 for 2 yards (11-J.Landrews,41-T.Washington)."
+Alabama,4Q,10,136,63,3,Normal,run,20,explosive,0.56,,0.55,0.48,B.Robinson,,,S.Preston,,1,,24-B.Robinson pushed ob at MSST 27 for 20 yards (12-S.Preston).
+Alabama,4Q,10,137,64,1,Normal,run,1,not successful,0.54,,0.54,0.49,K.Robinson,,,F.Lovett,,1,,2-K.Robinson to MSST 26 for 1 yard (54-F.Lovett).
+Alabama,4Q,10,138,65,2,Normal,pass,,not successful,,0.53,0.53,0.48,,M.Jones,T.Shavers,,,,,10-M.Jones incomplete. Intended for 14-T.Shavers.
+Alabama,4Q,10,139,66,3,Normal,pass,,not successful,,0.52,0.53,0.47,,M.Jones,K.Robinson,,,,,10-M.Jones incomplete. Intended for 2-K.Robinson.
+Alabama,4Q,10,140,67,4,Normal,pass,,not successful,,0.50,0.52,0.47,,M.Jones,S.Bolden,,,,,10-M.Jones incomplete. Intended for 18-S.Bolden.
+Mississippi State,4Q,11,141,59,1,Normal,run,2,not successful,0.29,,0.30,0.62,T.Stevens,,,B.Young,S.Wynn,0.5,0.5,"7-T.Stevens scrambles to MSST 28 for 2 yards (47-B.Young,90-S.Wynn)."
+Mississippi State,4Q,11,142,60,2,Normal,run,4,not successful,0.28,,0.29,0.63,N.Gibson,,,C.Barmore,S.Wynn,0.5,0.5,"21-N.Gibson to MSST 32 for 4 yards (58-C.Barmore,90-S.Wynn)."
+Mississippi State,4Q,11,143,61,3,Normal,run,20,explosive,0.30,,0.30,0.63,N.Gibson,,,A.Kaho,,1,,21-N.Gibson pushed ob at BAMA 48 for 20 yards (10-A.Kaho).
+Mississippi State,4Q,11,144,62,1,Normal,pass,,not successful,,0.20,0.30,0.62,,T.Stevens,G.Spivey,,,,,7-T.Stevens incomplete. Intended for 11-G.Spivey.
+Mississippi State,4Q,11,145,63,2,Normal,pass,3,not successful,,0.19,0.29,0.61,,T.Stevens,L.Witherspoon,J.Mayden,T.Diggs,0.5,0.5,"7-T.Stevens complete to 22-L.Witherspoon. 22-L.Witherspoon pushed ob at BAMA 45 for 3 yards (21-J.Mayden,7-T.Diggs)."
+Mississippi State,4Q,11,146,64,3,Normal,run,1,not successful,0.29,,0.29,0.62,N.Gibson,,,C.Barmore,,1,,21-N.Gibson to BAMA 44 for 1 yard (58-C.Barmore).
+Mississippi State,4Q,11,147,65,4,Normal,pass,-8,not successful,,0.18,0.28,0.61,,T.Stevens,,B.Davis,,1,,7-T.Stevens sacked at MSST 48 for -8 yards (1-B.Davis).
+Alabama,4Q,11,148,68,1,Normal,run,0,not successful,0.52,,0.51,0.48,K.Robinson,,,K.Jones,,1,,2-K.Robinson to MSST 48 for no gain (52-K.Jones).
+Alabama,4Q,11,149,69,2,Normal,run,9,successful,0.53,,0.52,0.48,K.Robinson,,,J.Landrews,E.Thompson,0.5,0.5,"2-K.Robinson to MSST 39 for 9 yards (11-J.Landrews,40-E.Thompson)."
