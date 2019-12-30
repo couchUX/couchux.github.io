@@ -1,150 +1,158 @@
 team,quarter,drive_team,play_count,play_count_team,down,red_zone,play_type,yards_total,play_result,run_sr,pass_sr,total_sr,run_rate,runner,passer,receiver,tackler_one,tackler_two,tackler_one_credit,tackler_two_credit,play_description
-Auburn,1Q,1,2,1,1,Normal,pass,0,successful,,1.00,1.00,0.00,,B.Nix,A.Schwartz,C.Harris,,1,,"10-B.Nix complete to 5-A.Schwartz. 5-A.Schwartz to AUB 38, FUMBLES (8-C.Harris). 11-S.Jackson to AUB 38 for no gain."
-Auburn,1Q,1,3,2,1,Normal,pass,20,explosive,,1.00,1.00,0.00,,B.Nix,S.Williams,T.Diggs,,1,,10-B.Nix complete to 18-S.Williams. 18-S.Williams pushed ob at BAMA 42 for 20 yards (7-T.Diggs).
-Auburn,1Q,1,4,3,1,Normal,run,3,not successful,0.00,,0.67,0.33,D.Williams,,,A.Jennings,,1,,3-D.Williams to BAMA 39 for 3 yards (33-A.Jennings).
-Auburn,1Q,1,5,4,2,Normal,run,-3,not successful,0.00,,0.50,0.50,B.Nix,,,J.Mayden,,1,,10-B.Nix pushed ob at BAMA 42 for -3 yards (21-J.Mayden).
-Auburn,1Q,1,6,5,3,Normal,pass,,not successful,,0.67,0.40,0.40,,B.Nix,S.Jackson,,,,,10-B.Nix incomplete. Intended for 11-S.Jackson.
-Alabama,1Q,1,8,1,1,Normal,run,9,successful,1.00,,1.00,1.00,N.Harris,,,D.Thomas,,1,,22-N.Harris to BAMA 29 for 9 yards (24-D.Thomas).
-Alabama,1Q,1,9,2,2,Normal,run,4,successful,1.00,,1.00,1.00,N.Harris,,,O.Pappoe,,1,,22-N.Harris to BAMA 33 for 4 yards (10-O.Pappoe).
-Alabama,1Q,1,10,3,1,Normal,pass,2,not successful,,0.00,0.67,0.67,,M.Jones,J.Jeudy,O.Pappoe,J.Dinson,0.5,0.5,"10-M.Jones complete to 4-J.Jeudy. 4-J.Jeudy to BAMA 35 for 2 yards (10-O.Pappoe,20-J.Dinson)."
-Alabama,1Q,1,11,4,2,Normal,pass,6,successful,,0.50,0.75,0.50,,M.Jones,N.Harris,N.Igbinoghene,,1,,10-M.Jones complete to 22-N.Harris. 22-N.Harris pushed ob at BAMA 41 for 6 yards (4-N.Igbinoghene).
-Alabama,1Q,1,12,5,3,Normal,no play,5,successful,,,0.80,,,,,,,,,"Team penalty on AUB, Illegal formation, 5 yards, enforced at BAMA 41. No Play."
-Alabama,1Q,1,13,6,1,Normal,run,17,explosive,1.00,,0.83,0.60,N.Harris,,,N.Igbinoghene,,1,,22-N.Harris pushed ob at AUB 37 for 17 yards (4-N.Igbinoghene).
-Alabama,1Q,1,15,8,1,Normal,run,23,explosive,1.00,,0.86,0.67,N.Harris,,,J.Dinson,,1,,22-N.Harris pushed ob at AUB 24 for 23 yards (20-J.Dinson).
-Alabama,1Q,1,16,9,1,Normal,pass,,not successful,,0.33,0.75,0.57,,M.Jones,D.Smith,,,,,10-M.Jones incomplete. Intended for 6-D.Smith.
-Alabama,1Q,1,17,10,2,Normal,run,-1,not successful,0.80,,0.67,0.63,N.Harris,,,D.Brown,,1,,22-N.Harris to AUB 25 for -1 yard (5-D.Brown).
-Alabama,1Q,1,18,11,3,Normal,pass,,not successful,,0.25,0.60,0.56,,M.Jones,M.Tennison,,,,,10-M.Jones incomplete. Intended for 88-M.Tennison.
-Auburn,1Q,2,21,7,1,Normal,pass,2,not successful,,0.50,0.33,0.33,,B.Nix,M.Hill,C.Barmore,X.McKinney,0.5,0.5,"10-B.Nix complete to 19-M.Hill. 19-M.Hill to AUB 31 for 2 yards (58-C.Barmore,15-X.McKinney)."
-Auburn,1Q,2,22,8,2,Normal,pass,,not successful,,0.40,0.29,0.29,,B.Nix,S.Williams,,,,,10-B.Nix incomplete. Intended for 18-S.Williams.
-Auburn,1Q,2,23,9,3,Normal,pass,,not successful,,0.33,0.25,0.25,,B.Nix,S.Jackson,,,,,10-B.Nix incomplete. Intended for 11-S.Jackson.
-Alabama,1Q,2,25,13,1,Normal,run,7,successful,0.83,,0.64,0.60,N.Harris,,,D.Thomas,Z.McClain,0.5,0.5,"22-N.Harris to BAMA 24 for 7 yards (24-D.Thomas,35-Z.McClain)."
-Alabama,1Q,2,26,14,2,Normal,pass,-7,not successful,,0.20,0.58,0.55,,M.Jones,H.Ruggs,D.Thomas,,1,,10-M.Jones complete to 11-H.Ruggs. 11-H.Ruggs to BAMA 17 for -7 yards (24-D.Thomas).
-Alabama,1Q,2,27,15,3,Normal,run,11,successful,0.86,,0.62,0.58,M.Jones,,,D.Brown,,1,,"10-M.Jones scrambles, pushed ob at BAMA 28 for 11 yards (5-D.Brown)."
-Alabama,1Q,2,28,16,1,Normal,pass,-8,not successful,,0.17,0.57,0.54,,M.Jones,,S.Monday,,1,,10-M.Jones sacked at BAMA 20 for -8 yards (21-S.Monday).
-Alabama,1Q,2,29,17,2,Normal,pass,3,not successful,,0.14,0.53,0.50,,M.Jones,N.Harris,Z.McClain,,1,,10-M.Jones complete to 22-N.Harris. 22-N.Harris to BAMA 23 for 3 yards (35-Z.McClain).
-Alabama,1Q,2,31,19,3,Normal,pass,4,not successful,,0.13,0.50,0.47,,M.Jones,N.Harris,O.Pappoe,T.Moultry,0.5,0.5,"10-M.Jones complete to 22-N.Harris. 22-N.Harris to BAMA 22 for 4 yards (10-O.Pappoe,55-T.Moultry)."
-Auburn,1Q,3,33,11,1,Normal,run,15,explosive,0.33,,0.33,0.33,J.Whitlow,,,S.Lee,,1,,28-J.Whitlow pushed ob at BAMA 17 for 15 yards (35-S.Lee).
-Auburn,1Q,3,34,12,1,Red Zone,penalty,7,successful,,,0.40,,,,,X.McKinney,,1,,"28-J.Whitlow to BAMA 14 for 3 yards (15-X.McKinney). Penalty on BAMA 35-S.Lee, Facemasking, 7 yards, enforced at BAMA 14."
-Auburn,1Q,3,35,13,1,Red Zone,run,7,successful,0.50,,0.45,0.40,B.Nix,,,,,,, 10-B.Nix runs 7 yards for a touchdown.
-Alabama,1Q,3,39,21,1,Normal,pass,6,successful,,0.22,0.53,0.44,,M.Jones,D.Smith,N.Igbinoghene,,1,,10-M.Jones complete to 6-D.Smith. 6-D.Smith pushed ob at BAMA 31 for 6 yards (4-N.Igbinoghene).
-Alabama,1Q,3,40,22,2,Normal,run,5,successful,0.88,,0.56,0.47,N.Harris,,,C.Wooten,,1,,22-N.Harris to BAMA 36 for 5 yards (31-C.Wooten).
-Alabama,1Q,3,41,23,1,Normal,no play,5,successful,,,0.58,,,,,D.Thomas,,1,,"10-M.Jones complete to 6-D.Smith. 6-D.Smith to BAMA 41 for 5 yards (24-D.Thomas). Penalty on AUB 13-J.Davis, Offside, 5 yards, enforced at BAMA 36. No Play."
-Alabama,1Q,3,42,24,1,Normal,run,1,not successful,0.78,,0.55,0.50,M.Jones,,,M.Davidson,,1,,10-M.Jones scrambles to BAMA 42 for 1 yard (3-M.Davidson).
-Alabama,1Q,3,43,25,2,Normal,run,14,successful,0.80,,0.57,0.53,N.Harris,,,D.Thomas,K.Britt,0.5,0.5,"22-N.Harris to AUB 44 for 14 yards (24-D.Thomas,33-K.Britt)."
-Alabama,2Q,4,44,26,1,Normal,pass,3,not successful,,0.20,0.55,0.50,,M.Jones,J.Waddle,J.Davis,,1,,10-M.Jones complete to 17-J.Waddle. 17-J.Waddle 11-H.Ruggs pushed ob at AUB 41 for 3 yards (13-J.Davis).
-Alabama,2Q,4,45,27,2,Normal,pass,,not successful,,0.18,0.52,0.48,,M.Jones,,,,,,10-M.Jones incomplete.
-Alabama,2Q,4,46,28,3,Normal,pass,6,not successful,,0.17,0.50,0.45,,M.Jones,J.Jeudy,J.Dinson,,1,,10-M.Jones complete to 4-J.Jeudy. 4-J.Jeudy to AUB 35 for 6 yards (20-J.Dinson).
-Alabama,2Q,4,47,29,4,Normal,run,3,successful,0.82,,0.52,0.48,S.Bolden,,,D.Thomas,,1,,18-S.Bolden to AUB 32 for 3 yards (24-D.Thomas).
-Alabama,2Q,4,48,30,1,Normal,run,4,not successful,0.75,,0.50,0.50,N.Harris,,,J.Dinson,Z.McClain,0.5,0.5,"22-N.Harris to AUB 28 for 4 yards (20-J.Dinson,35-Z.McClain)."
-Alabama,2Q,4,49,31,2,Normal,pass,10,successful,,0.23,0.52,0.48,,M.Jones,J.Jeudy,S.Monday,,1,,10-M.Jones complete to 4-J.Jeudy. 4-J.Jeudy pushed ob at AUB 18 for 10 yards (21-S.Monday).
-Alabama,2Q,4,50,32,1,Red Zone,run,2,not successful,0.69,,0.50,0.50,B.Robinson,,,J.Dinson,T.Truesdell,0.5,0.5,"24-B.Robinson to AUB 16 for 2 yards (20-J.Dinson,94-T.Truesdell)."
-Alabama,2Q,4,51,33,2,Red Zone,pass,7,successful,,0.29,0.52,0.48,,M.Jones,B.Robinson,C.Wooten,,1,,10-M.Jones complete to 24-B.Robinson. 24-B.Robinson to AUB 9 for 7 yards (31-C.Wooten).
-Alabama,2Q,4,52,34,3,Red Zone,run,3,successful,0.71,,0.53,0.50,N.Harris,,,S.Monday,,1,,22-N.Harris to AUB 6 for 3 yards (21-S.Monday).
-Alabama,2Q,4,53,35,1,Red Zone,run,6,successful,0.73,,0.55,0.52,N.Harris,,,,,,, 22-N.Harris runs 6 yards for a touchdown.
-Auburn,2Q,4,56,14,1,Normal,pass,,not successful,,0.29,0.42,0.36,,B.Nix,J.Shenker,,,,,10-B.Nix incomplete. Intended for 47-J.Shenker.
-Auburn,2Q,4,57,15,2,Normal,pass,,not successful,,0.25,0.38,0.33,,B.Nix,S.Jackson,,,,,10-B.Nix incomplete. Intended for 11-S.Jackson.
-Auburn,2Q,4,58,16,3,Normal,pass,15,successful,,0.33,0.43,0.31,,B.Nix,S.Williams,,,,,"10-B.Nix incomplete. Intended for 18-S.Williams. Penalty on BAMA 2-P.Surtain, Pass interference, 15 yards, enforced at AUB 25. No Play."
-Auburn,2Q,4,59,17,1,Normal,run,11,successful,0.60,,0.47,0.36,J.Whitlow,,,J.Mayden,,1,,28-J.Whitlow to BAMA 49 for 11 yards (21-J.Mayden).
-Auburn,2Q,4,60,18,1,Normal,run,-1,not successful,0.50,,0.44,0.40,J.Whitlow,,,R.Davis,,1,,28-J.Whitlow to BAMA 50 for -1 yard (99-R.Davis).
-Auburn,2Q,4,61,19,2,Normal,pass,,not successful,,0.30,0.41,0.38,,B.Nix,S.Williams,,,,,10-B.Nix incomplete. Intended for 18-S.Williams.
-Auburn,2Q,4,62,20,3,Normal,pass,12,successful,,0.36,0.44,0.35,,B.Nix,J.Whitlow,S.Lee,,1,,10-B.Nix complete to 28-J.Whitlow. 28-J.Whitlow to BAMA 38 for 12 yards (35-S.Lee).
-Auburn,2Q,4,63,21,1,Normal,run,14,successful,0.57,,0.47,0.39,B.Nix,,,S.Lee,,1,,"10-B.Nix scrambles, pushed ob at BAMA 24 for 14 yards (35-S.Lee)."
-Auburn,2Q,4,64,22,1,Normal,run,-3,not successful,0.50,,0.45,0.42,D.Williams,,,C.Barmore,,1,,3-D.Williams to BAMA 27 for -3 yards (58-C.Barmore).
-Auburn,2Q,4,65,23,2,Normal,pass,,not successful,,0.33,0.43,0.40,,B.Nix,S.Williams,,,,,10-B.Nix incomplete. Intended for 18-S.Williams.
-Auburn,2Q,4,66,24,3,Normal,run,2,not successful,0.44,,0.41,0.43,D.Williams,,,R.Davis,,1,,3-D.Williams to BAMA 25 for 2 yards (99-R.Davis).
-Alabama,2Q,5,69,36,1,Normal,run,4,not successful,0.69,,0.53,0.53,N.Harris,,,D.Newkirk,O.Pappoe,0.5,0.5,"22-N.Harris to BAMA 16 for 4 yards (44-D.Newkirk,10-O.Pappoe)."
-Alabama,2Q,5,70,37,2,Normal,run,-2,not successful,0.65,,0.52,0.55,N.Harris,,,O.Pappoe,D.Newkirk,0.5,0.5,"22-N.Harris to BAMA 14 for -2 yards (10-O.Pappoe,44-D.Newkirk)."
-Alabama,2Q,5,71,38,3,Normal,pass,,not successful,,0.27,0.50,0.53,,M.Jones,J.Jeudy,,,,," 10-M.Jones incomplete. Intended for 4-J.Jeudy, INTERCEPTED by 21-S.Monday at BAMA 29. 21-S.Monday runs 29 yards for a touchdown."
-Auburn,2Q,6,76,26,1,Normal,pass,,not successful,,0.31,0.39,0.41,,B.Nix,S.Williams,,,,,10-B.Nix incomplete. Intended for 18-S.Williams.
-Auburn,2Q,6,77,27,2,Normal,run,,not successful,0.40,,0.38,0.43,J.Whitlow,,,X.McKinney,,,,"28-J.Whitlow to AUB 37, FUMBLES (15-X.McKinney). 8-C.Harris to AUB 37 for no gain."
-Alabama,2Q,7,78,39,1,Normal,pass,33,explosive,,0.31,0.51,0.52,,M.Jones,D.Smith,J.Dinson,,1,,10-M.Jones complete to 6-D.Smith. 6-D.Smith pushed ob at AUB 4 for 33 yards (20-J.Dinson).
-Alabama,2Q,7,79,40,1,Red Zone,run,1,not successful,0.61,,0.50,0.53,N.Harris,,,D.Brown,,1,,22-N.Harris to AUB 3 for 1 yard (5-D.Brown).
-Alabama,2Q,7,80,41,2,Red Zone,pass,,not successful,,0.29,0.49,0.51,,M.Jones,N.Harris,,,,,10-M.Jones incomplete. Intended for 22-N.Harris.
-Alabama,2Q,7,81,42,3,Red Zone,pass,3,successful,,0.33,0.50,0.50,,M.Jones,H.Ruggs,,,,, 10-M.Jones complete to 11-H.Ruggs. 11-H.Ruggs runs 3 yards for a touchdown.
-Auburn,2Q,7,84,28,1,Normal,run,5,successful,0.45,,0.40,0.46,D.Williams,,,A.Jennings,,1,,3-D.Williams to AUB 30 for 5 yards (33-A.Jennings).
-Auburn,2Q,7,85,29,2,Normal,pass,5,successful,,0.36,0.42,0.44,,B.Nix,M.Hill,J.Mayden,,1,,10-B.Nix complete to 19-M.Hill. 19-M.Hill to AUB 35 for 5 yards (21-J.Mayden).
-Auburn,2Q,7,86,30,1,Normal,run,0,not successful,0.42,,0.41,0.46,D.Williams,,,A.Jennings,,1,,3-D.Williams to AUB 35 for no gain (33-A.Jennings).
-Auburn,2Q,7,87,31,2,Normal,run,3,not successful,0.38,,0.39,0.48,D.Williams,,,R.Davis,,1,,3-D.Williams to AUB 38 for 3 yards (99-R.Davis).
-Auburn,2Q,7,88,32,3,Normal,pass,37,explosive,,0.40,0.41,0.46,,B.Nix,S.Williams,,,,,10-B.Nix complete to 18-S.Williams. 18-S.Williams to BAMA 25 for 37 yards.
-Auburn,2Q,7,89,33,1,Normal,pass,11,successful,,0.44,0.43,0.45,,B.Nix,W.Hastings,,,,,10-B.Nix complete to 33-W.Hastings. 33-W.Hastings runs ob at BAMA 14 for 11 yards.
-Auburn,2Q,7,90,34,1,Red Zone,pass,14,successful,,0.47,0.45,0.43,,B.Nix,S.Cannella,,,,, 10-B.Nix complete to 80-S.Cannella. 80-S.Cannella runs 14 yards for a touchdown.
-Alabama,2Q,8,93,43,1,Normal,pass,4,not successful,,0.32,0.49,0.49,,M.Jones,J.Jeudy,S.Monday,,1,,10-M.Jones complete to 4-J.Jeudy. 4-J.Jeudy to BAMA 42 for 4 yards (21-S.Monday).
-Alabama,2Q,8,94,44,2,Normal,pass,58,explosive,,0.35,0.50,0.47,,M.Jones,J.Waddle,,,,, 10-M.Jones complete to 17-J.Waddle. 17-J.Waddle runs 58 yards for a touchdown.
-Auburn,2Q,8,97,35,1,Normal,pass,,not successful,,0.44,0.44,0.42,,B.Nix,J.Whitlow,,,,,10-B.Nix incomplete. Intended for 28-J.Whitlow.
-Auburn,2Q,8,98,36,2,Normal,pass,14,successful,,0.47,0.45,0.41,,B.Nix,E.Stove,J.Battle,,1,,10-B.Nix complete to 12-E.Stove. 12-E.Stove to AUB 49 for 14 yards (9-J.Battle).
-Auburn,2Q,8,99,37,2,Normal,pass,,not successful,,0.45,0.44,0.39,,B.Nix,E.Stove,,,,,10-B.Nix incomplete. Intended for 12-E.Stove.
-Auburn,2Q,8,100,38,3,Normal,pass,17,explosive,,0.48,0.46,0.38,,B.Nix,J.Whitlow,S.Lee,,1,,10-B.Nix complete to 28-J.Whitlow. 28-J.Whitlow to BAMA 34 for 17 yards (35-S.Lee).
-Alabama,3Q,9,103,45,1,Normal,run,-1,not successful,0.58,,0.49,0.49,N.Harris,,,,,,,22-N.Harris to BAMA 11 for -1 yard.
-Alabama,3Q,9,104,46,2,Normal,pass,,not successful,,0.33,0.48,0.48,,M.Jones,D.Smith,,,,,10-M.Jones incomplete. Intended for 6-D.Smith.
-Alabama,3Q,9,105,47,3,Normal,pass,,not successful,,0.32,0.47,0.46,,M.Jones,,,,,,10-M.Jones incomplete.
-Alabama,3Q,9,106,48,4,Normal,punt,,not successful,,,0.45,,,,,J.Billingsley,,,,"99-T.Perine punts 41 yards from BAMA 11. 6-C.Tutt to BAMA 42, FUMBLES (19-J.Billingsley). out of bounds at the BAMA 42."
-Auburn,3Q,9,107,40,1,Normal,run,5,successful,0.43,,0.47,0.40,D.Williams,,,P.Mathis,,1,,3-D.Williams to BAMA 37 for 5 yards (48-P.Mathis).
-Auburn,3Q,9,108,41,2,Normal,run,1,not successful,0.40,,0.46,0.42,D.Williams,,,R.Davis,,1,,3-D.Williams to BAMA 36 for 1 yard (99-R.Davis).
-Auburn,3Q,9,109,42,3,Normal,pass,,not successful,,0.45,0.45,0.41,,B.Nix,J.Whitlow,,,,,10-B.Nix incomplete. Intended for 28-J.Whitlow.
-Auburn,3Q,9,110,43,4,Normal,no play,5,successful,,,0.46,,,,,,,,,"Penalty on BAMA 7-T.Diggs, Offside, 5 yards, enforced at BAMA 36. No Play."
-Auburn,3Q,9,111,44,1,Normal,pass,7,successful,,0.48,0.48,0.39,,B.Nix,E.Stove,X.McKinney,,1,,10-B.Nix complete to 12-E.Stove. 12-E.Stove pushed ob at BAMA 24 for 7 yards (15-X.McKinney).
-Auburn,3Q,9,112,45,2,Normal,run,-1,not successful,0.38,,0.46,0.41,B.Nix,,,T.Lewis,,1,,10-B.Nix to BAMA 25 for -1 yard (24-T.Lewis).
-Auburn,3Q,9,113,46,3,Normal,pass,,not successful,,0.46,0.45,0.40,,B.Nix,H.Joiner,,,,,10-B.Nix incomplete. Intended for 22-H.Joiner.
-Alabama,3Q,10,116,49,1,Normal,run,3,not successful,0.55,,0.44,0.48,N.Harris,,,Z.McClain,,1,,22-N.Harris to BAMA 27 for 3 yards (35-Z.McClain).
-Alabama,3Q,10,117,50,2,Normal,run,5,successful,0.57,,0.46,0.49,N.Harris,,,D.Thomas,,1,,22-N.Harris pushed ob at BAMA 32 for 5 yards (24-D.Thomas).
-Alabama,3Q,10,118,51,3,Normal,run,12,successful,0.59,,0.47,0.50,N.Harris,,,Z.McClain,,1,,22-N.Harris to BAMA 44 for 12 yards (35-Z.McClain).
-Alabama,3Q,10,119,52,1,Normal,pass,15,explosive,,0.35,0.48,0.49,,M.Jones,H.Ruggs,R.McCreary,,1,,10-M.Jones complete to 11-H.Ruggs. 11-H.Ruggs pushed ob at AUB 41 for 15 yards (23-R.McCreary).
-Alabama,3Q,10,120,53,1,Normal,pass,,not successful,,0.33,0.47,0.48,,M.Jones,D.Smith,,,,,10-M.Jones incomplete. Intended for 6-D.Smith.
-Alabama,3Q,10,121,54,2,Normal,pass,4,not successful,,0.32,0.46,0.47,,M.Jones,J.Jeudy,J.Dinson,,1,,10-M.Jones complete to 4-J.Jeudy. 4-J.Jeudy to AUB 37 for 4 yards (20-J.Dinson).
-Alabama,3Q,10,122,55,3,Normal,no play,15,successful,,,0.47,,,,,,,,,"Penalty on AUB 20-J.Dinson, Personal Foul, 15 yards, enforced at AUB 37. No Play."
-Alabama,3Q,10,123,56,1,Normal,pass,13,successful,,0.35,0.48,0.46,,M.Jones,N.Harris,J.Dinson,J.Sherwood,0.5,0.5,"10-M.Jones complete to 22-N.Harris. 22-N.Harris to AUB 9 for 13 yards (20-J.Dinson,9-J.Sherwood)."
-Alabama,3Q,10,124,57,1,Red Zone,run,1,not successful,0.57,,0.47,0.47,N.Harris,,,Z.McClain,,1,,22-N.Harris to AUB 8 for 1 yard (35-Z.McClain).
-Alabama,3Q,10,125,58,2,Red Zone,run,2,not successful,0.54,,0.46,0.48,M.Jones,,,,,,,10-M.Jones scrambles to AUB 6 for 2 yards.
-Alabama,3Q,10,126,59,3,Red Zone,no play,3,successful,,,0.47,,,,,,,,,"10-M.Jones incomplete. Intended for 6-D.Smith. Penalty on AUB 13-J.Davis, Holding, declined. Penalty on AUB 3-M.Davidson, Roughing the passer, 3 yards, enforced at AUB 6. No Play."
-Alabama,3Q,10,127,60,1,Red Zone,run,-1,not successful,0.52,,0.46,0.49,N.Harris,,,Z.McClain,K.Britt,0.5,0.5,"22-N.Harris to AUB 4 for -1 yard (35-Z.McClain,33-K.Britt)."
-Alabama,3Q,10,128,61,2,Red Zone,pass,2,successful,,0.37,0.47,0.48,,M.Jones,J.Billingsley,,,,,"10-M.Jones incomplete. Intended for 19-J.Billingsley. Penalty on AUB 9-J.Sherwood, Pass interference, 2 yards, enforced at AUB 4. No Play."
-Alabama,3Q,10,129,62,1,Red Zone,pass,,not successful,,0.36,0.47,0.47,,M.Jones,N.Harris,,,,," 10-M.Jones incomplete. Intended for 22-N.Harris, INTERCEPTED by 35-Z.McClain at AUB End Zone. 35-Z.McClain runs 100 yards for a touchdown."
-Alabama,3Q,11,132,63,1,Normal,pass,1,not successful,,0.34,0.46,0.46,,M.Jones,D.Smith,J.Davis,,1,,10-M.Jones complete to 6-D.Smith. 6-D.Smith to BAMA 38 for 1 yard (13-J.Davis).
-Alabama,3Q,11,133,64,2,Normal,pass,24,explosive,,0.37,0.47,0.45,,M.Jones,H.Ruggs,D.Thomas,,1,,10-M.Jones complete to 11-H.Ruggs. 11-H.Ruggs to AUB 38 for 24 yards (24-D.Thomas).
-Alabama,3Q,11,134,65,1,Normal,pass,,not successful,,0.35,0.46,0.45,,M.Jones,J.Jeudy,,,,,10-M.Jones incomplete. Intended for 4-J.Jeudy.
-Alabama,3Q,11,135,66,2,Normal,pass,26,explosive,,0.38,0.47,0.44,,M.Jones,D.Smith,J.Dinson,,1,,10-M.Jones complete to 6-D.Smith. 6-D.Smith to AUB 12 for 26 yards (20-J.Dinson).
-Alabama,3Q,11,136,67,1,Red Zone,pass,12,successful,,0.39,0.48,0.43,,M.Jones,J.Waddle,,,,, 10-M.Jones complete to 17-J.Waddle. 17-J.Waddle runs 12 yards for a touchdown.
-Auburn,3Q,11,139,48,1,Normal,run,17,explosive,0.41,,0.47,0.41,J.Whitlow,,,X.McKinney,,1,,28-J.Whitlow to AUB 43 for 17 yards (15-X.McKinney).
-Auburn,3Q,11,140,49,1,Normal,run,1,not successful,0.39,,0.45,0.43,H.Joiner,,,C.Harris,,1,,22-H.Joiner to AUB 44 for 1 yard (8-C.Harris).
-Auburn,3Q,11,141,50,2,Normal,pass,,not successful,,0.44,0.44,0.42,,B.Nix,S.Williams,,,,,10-B.Nix incomplete. Intended for 18-S.Williams.
-Auburn,3Q,11,142,51,3,Normal,pass,,not successful,,0.42,0.43,0.41,,B.Nix,E.Stove,,,,,10-B.Nix incomplete. Intended for 12-E.Stove.
-Alabama,3Q,12,145,68,1,Normal,run,1,not successful,0.50,,0.47,0.44,N.Harris,,,K.Britt,,1,,22-N.Harris to BAMA 11 for 1 yard (33-K.Britt).
-Alabama,3Q,12,146,69,2,Normal,pass,,not successful,,0.38,0.46,0.43,,M.Jones,D.Smith,,,,,10-M.Jones incomplete. Intended for 6-D.Smith.
-Alabama,3Q,12,147,70,3,Normal,pass,,not successful,,0.37,0.45,0.43,,M.Jones,H.Ruggs,,,,,10-M.Jones incomplete. Intended for 11-H.Ruggs.
-Auburn,3Q,12,149,54,1,Normal,run,36,explosive,0.42,,0.45,0.42,J.Whitlow,,,X.McKinney,,1,,28-J.Whitlow pushed ob at BAMA 22 for 36 yards (15-X.McKinney).
-Auburn,3Q,12,150,55,1,Normal,run,1,not successful,0.40,,0.44,0.43,J.Whitlow,,,S.Lee,,1,,28-J.Whitlow to BAMA 21 for 1 yard (35-S.Lee).
-Auburn,3Q,12,151,56,2,Normal,pass,,not successful,,0.41,0.43,0.43,,B.Nix,S.Williams,,,,,10-B.Nix incomplete. Intended for 18-S.Williams.
-Auburn,3Q,12,153,58,3,Normal,pass,10,not successful,,0.39,0.42,0.42,,B.Nix,E.Stove,X.McKinney,,1,,10-B.Nix complete to 12-E.Stove. 12-E.Stove to BAMA 26 for 10 yards (15-X.McKinney).
-Alabama,3Q,13,156,72,1,Normal,pass,33,explosive,,0.39,0.46,0.42,,M.Jones,H.Ruggs,D.Thomas,,1,,10-M.Jones complete to 11-H.Ruggs. 11-H.Ruggs pushed ob at BAMA 43 for 33 yards (24-D.Thomas).
-Alabama,3Q,13,157,73,1,Normal,run,5,successful,0.52,,0.47,0.43,N.Harris,,,K.Britt,,1,,22-N.Harris to BAMA 48 for 5 yards (33-K.Britt).
-Alabama,4Q,14,158,74,2,Normal,pass,,not successful,,0.38,0.46,0.42,,M.Jones,H.Ruggs,,,,,10-M.Jones incomplete. Intended for 11-H.Ruggs.
-Alabama,4Q,14,160,76,3,Normal,pass,14,successful,,0.39,0.47,0.42,,M.Jones,D.Smith,R.McCreary,,1,,10-M.Jones complete to 6-D.Smith. 6-D.Smith to AUB 43 for 14 yards (23-R.McCreary).
-Alabama,4Q,14,161,77,1,Normal,no play,5,successful,,,0.48,,,,,,,,,"22-N.Harris to AUB 39 for 4 yards. Team penalty on AUB, Illegal formation, 5 yards, enforced at AUB 43. No Play."
-Alabama,4Q,14,162,78,1,Normal,run,10,successful,0.54,,0.49,0.42,N.Harris,,,Z.McClain,K.Britt,0.5,0.5,"22-N.Harris to AUB 28 for 10 yards (35-Z.McClain,33-K.Britt)."
-Alabama,4Q,14,163,79,1,Normal,pass,28,explosive,,0.41,0.49,0.42,,M.Jones,J.Waddle,,,,, 10-M.Jones complete to 17-J.Waddle. 17-J.Waddle runs 28 yards for a touchdown.
-Auburn,4Q,13,167,60,1,Normal,run,15,explosive,0.43,,0.43,0.43,B.Nix,,,,,,,10-B.Nix runs ob at AUB 38 for 15 yards.
-Auburn,4Q,13,168,61,1,Normal,run,3,not successful,0.41,,0.42,0.44,J.Whitlow,,,D.Douglas,A.Jennings,0.5,0.5,"28-J.Whitlow to AUB 41 for 3 yards (20-D.Douglas,33-A.Jennings)."
-Auburn,4Q,13,169,62,2,Normal,pass,14,successful,,0.41,0.43,0.43,,B.Nix,S.Shivers,,,,,"10-B.Nix complete to 8-S.Shivers. 8-S.Shivers to AUB 43 for 2 yards. Team penalty on BAMA, Roughing the passer, 14 yards, enforced at AUB 43."
-Auburn,4Q,13,170,63,1,Normal,run,2,not successful,0.39,,0.43,0.44,J.Whitlow,,,R.Davis,,1,,28-J.Whitlow to BAMA 41 for 2 yards (99-R.Davis).
-Auburn,4Q,13,171,64,2,Normal,run,3,not successful,0.38,,0.42,0.45,J.Whitlow,,,R.Davis,,1,,28-J.Whitlow to BAMA 38 for 3 yards (99-R.Davis).
-Auburn,4Q,13,172,65,3,Normal,pass,9,successful,,0.43,0.43,0.44,,B.Nix,S.Williams,T.Diggs,,1,,10-B.Nix complete to 18-S.Williams. 18-S.Williams pushed ob at BAMA 29 for 9 yards (7-T.Diggs).
-Auburn,4Q,13,173,66,1,Normal,run,1,not successful,0.36,,0.42,0.45,J.Whitlow,,,A.Jennings,,1,,28-J.Whitlow to BAMA 28 for 1 yard (33-A.Jennings).
-Auburn,4Q,13,174,67,2,Normal,run,12,successful,0.38,,0.43,0.46,B.Nix,,,J.Mayden,,1,,10-B.Nix scrambles to BAMA 16 for 12 yards (21-J.Mayden).
-Auburn,4Q,13,175,68,1,Red Zone,pass,0,not successful,,0.42,0.42,0.46,,B.Nix,E.Stove,A.Jennings,,1,,10-B.Nix complete to 12-E.Stove. 12-E.Stove to BAMA 16 for no gain (33-A.Jennings).
-Auburn,4Q,13,176,69,2,Red Zone,run,5,not successful,0.37,,0.42,0.47,J.Whitlow,,,R.Davis,J.Mayden,0.5,0.5,"28-J.Whitlow to BAMA 11 for 5 yards (99-R.Davis,21-J.Mayden)."
-Auburn,4Q,13,177,70,3,Red Zone,run,11,successful,0.39,,0.43,0.47,S.Shivers,,,,,,, 8-S.Shivers runs 11 yards for a touchdown.
-Alabama,4Q,15,181,81,1,Normal,pass,28,explosive,,0.43,0.50,0.41,,M.Jones,H.Ruggs,J.Dinson,,1,,10-M.Jones complete to 11-H.Ruggs. 11-H.Ruggs to AUB 40 for 28 yards (20-J.Dinson).
-Alabama,4Q,15,182,82,1,Normal,run,9,successful,0.55,,0.51,0.42,N.Harris,,,K.Britt,N.Igbinoghene,0.5,0.5,"22-N.Harris to AUB 31 for 9 yards (33-K.Britt,4-N.Igbinoghene)."
-Alabama,4Q,15,183,83,2,Normal,run,-3,not successful,0.53,,0.50,0.43,B.Robinson,,,D.Brown,,1,,24-B.Robinson to AUB 34 for -3 yards (5-D.Brown).
-Alabama,4Q,15,185,85,3,Normal,run,2,not successful,0.52,,0.49,0.44,M.Jones,,,N.Coe,D.Brown,0.5,0.5,"10-M.Jones to AUB 37 for 2 yards (91-N.Coe,5-D.Brown)."
-Alabama,4Q,15,186,86,4,Normal,run,18,explosive,0.53,,0.50,0.44,M.Jones,,,J.Davis,,1,,10-M.Jones to AUB 19 for 18 yards (13-J.Davis).
-Alabama,4Q,15,187,87,1,Red Zone,run,4,not successful,0.52,,0.49,0.45,N.Harris,,,Z.McClain,,1,,22-N.Harris to AUB 15 for 4 yards (35-Z.McClain).
-Alabama,4Q,15,188,88,2,Red Zone,run,5,successful,0.53,,0.50,0.46,N.Harris,,,Z.McClain,,1,,22-N.Harris to AUB 10 for 5 yards (35-Z.McClain).
-Alabama,4Q,15,189,89,3,Red Zone,run,1,successful,0.54,,0.51,0.47,M.Jones,,,M.Davidson,T.Truesdell,0.5,0.5,"10-M.Jones to AUB 9 for 1 yard (3-M.Davidson,94-T.Truesdell)."
-Alabama,4Q,15,190,90,1,Red Zone,run,-1,not successful,0.53,,0.50,0.47,N.Harris,,,Z.McClain,D.Brown,0.5,0.5,"22-N.Harris to AUB 10 for -1 yard (35-Z.McClain,5-D.Brown)."
-Alabama,4Q,15,192,92,2,Red Zone,run,5,not successful,0.51,,0.49,0.48,M.Jones,,,B.Bryant,,1,,10-M.Jones to AUB 10 for 5 yards (1-B.Bryant).
-Alabama,4Q,15,193,93,3,Red Zone,pass,-1,not successful,,0.41,0.49,0.47,,M.Jones,M.Jones,D.Brown,,1,,10-M.Jones complete to 10-M.Jones. 10-M.Jones to AUB 11 for -1 yard (5-D.Brown).
-Auburn,4Q,14,195,71,1,Normal,run,2,not successful,0.38,,0.42,0.48,J.Whitlow,,,P.Mathis,,1,,28-J.Whitlow to AUB 22 for 2 yards (48-P.Mathis).
-Auburn,4Q,14,196,72,2,Normal,run,1,not successful,0.37,,0.41,0.49,J.Whitlow,,,S.Lee,,1,,28-J.Whitlow to AUB 23 for 1 yard (35-S.Lee).
-Auburn,4Q,14,197,73,3,Normal,run,3,not successful,0.35,,0.41,0.50,J.Whitlow,,,X.McKinney,,1,,28-J.Whitlow to AUB 26 for 3 yards (15-X.McKinney).
-Auburn,4Q,14,198,74,4,Normal,no play,5,successful,,,0.42,,,,,,,,,"Team penalty on BAMA, 12 men in the huddle, 5 yards, enforced at AUB 26. No Play."
+Ohio State,1Q,1,2,1,1,Normal,pass,9,successful,,1.00,1.00,0.00,,J.Fields,K.Hill,J.Skalski,,1,,1-J.Fields complete to 14-K.Hill. 14-K.Hill to OSU 34 for 9 yards (47-J.Skalski).
+Ohio State,1Q,1,3,2,2,Normal,pass,8,successful,,1.00,1.00,0.00,,J.Fields,B.Victor,D.Kendrick,,1,,1-J.Fields complete to 9-B.Victor. 9-B.Victor to OSU 42 for 8 yards (1-D.Kendrick).
+Ohio State,1Q,1,4,3,1,Normal,run,4,not successful,0.00,,0.67,0.33,J.Dobbins,,,J.Foster,,1,,2-J.Dobbins to OSU 46 for 4 yards (35-J.Foster).
+Ohio State,1Q,1,5,4,2,Normal,pass,11,successful,,1.00,0.75,0.25,,J.Fields,L.Farrell,J.Skalski,,1,,1-J.Fields complete to 89-L.Farrell. 89-L.Farrell to CLE 43 for 11 yards (47-J.Skalski).
+Ohio State,1Q,1,6,5,1,Normal,pass,16,explosive,,1.00,0.80,0.20,,J.Fields,C.Olave,C.Smith,,1,,1-J.Fields complete to 17-C.Olave. 17-C.Olave to CLE 27 for 16 yards (43-C.Smith).
+Ohio State,1Q,1,7,6,1,Normal,pass,5,successful,,1.00,0.83,0.17,,J.Fields,G.Wilson,,,,,"1-J.Fields incomplete. Intended for 5-G.Wilson. Team penalty on CLE, Offside, 5 yards, enforced at CLE 27."
+Ohio State,1Q,1,8,7,1,Normal,pass,22,explosive,,1.00,0.86,0.14,,J.Fields,G.Wilson,D.Kendrick,,1,,"1-J.Fields complete to 5-G.Wilson. 5-G.Wilson to CLE 5 for 22 yards (1-D.Kendrick). Team penalty on CLE, Offside, declined."
+Ohio State,1Q,1,9,8,1,Red Zone,pass,-2,not successful,,0.86,0.75,0.13,,J.Fields,J.Dobbins,D.Kendrick,,1,,1-J.Fields complete to 2-J.Dobbins. 2-J.Dobbins to CLE 7 for -2 yards (1-D.Kendrick).
+Ohio State,1Q,1,10,9,2,Red Zone,run,3,not successful,0.00,,0.67,0.22,J.Dobbins,,,C.Smith,,1,,2-J.Dobbins to CLE 4 for 3 yards (43-C.Smith).
+Ohio State,1Q,1,11,10,3,Red Zone,pass,,not successful,,0.75,0.60,0.20,,J.Fields,C.Olave,,,,,1-J.Fields incomplete. Intended for 17-C.Olave.
+Clemson,1Q,1,14,1,1,Normal,run,8,successful,1.00,,1.00,1.00,T.Etienne,,,J.Okudah,,1,,9-T.Etienne to CLE 33 for 8 yards (1-J.Okudah).
+Clemson,1Q,1,15,2,2,Normal,pass,21,explosive,,1.00,1.00,0.50,,T.Lawrence,T.Higgins,J.Fuller,,1,,16-T.Lawrence complete to 5-T.Higgins. 5-T.Higgins to OSU 46 for 21 yards (4-J.Fuller).
+Clemson,1Q,1,16,3,1,Normal,run,0,not successful,0.50,,0.67,0.67,T.Lawrence,,,M.Harrison,,1,,16-T.Lawrence to OSU 46 for no gain (39-M.Harrison).
+Clemson,1Q,1,18,5,2,Normal,pass,3,not successful,,0.50,0.50,0.50,,T.Lawrence,D.Overton,J.Okudah,,1,,16-T.Lawrence complete to 14-D.Overton. 14-D.Overton to OSU 38 for 3 yards (1-J.Okudah).
+Clemson,1Q,1,19,6,3,Normal,run,3,successful,0.67,,0.60,0.60,T.Lawrence,,,,,,,16-T.Lawrence to OSU 35 for 3 yards.
+Clemson,1Q,1,20,7,1,Normal,pass,3,not successful,,0.33,0.50,0.50,,T.Lawrence,J.Ross,D.Arnette,,1,,16-T.Lawrence complete to 8-J.Ross. 8-J.Ross to OSU 32 for 3 yards (3-D.Arnette).
+Clemson,1Q,1,21,8,2,Normal,pass,,not successful,,0.25,0.43,0.43,,T.Lawrence,J.Ross,,,,,16-T.Lawrence incomplete. Intended for 8-J.Ross.
+Clemson,1Q,1,22,9,3,Normal,pass,,not successful,,0.20,0.38,0.38,,T.Lawrence,D.Overton,,,,,16-T.Lawrence incomplete. Intended for 14-D.Overton.
+Ohio State,1Q,2,24,12,1,Normal,run,68,explosive,0.33,,0.64,0.27,J.Dobbins,,,,,,, 2-J.Dobbins runs 68 yards for a touchdown.
+Clemson,1Q,2,27,11,1,Normal,run,0,not successful,0.50,,0.33,0.44,T.Etienne,,,M.Harrison,,1,,9-T.Etienne to CLE 22 for no gain (39-M.Harrison).
+Clemson,1Q,2,28,12,2,Normal,pass,,not successful,,0.17,0.30,0.40,,T.Lawrence,T.Etienne,,,,,16-T.Lawrence incomplete. Intended for 9-T.Etienne.
+Clemson,1Q,2,29,13,3,Normal,pass,27,explosive,,0.29,0.36,0.36,,T.Lawrence,D.Overton,,,,,16-T.Lawrence complete to 14-D.Overton. 14-D.Overton to CLE 49 for 27 yards.
+Clemson,1Q,2,30,14,1,Normal,run,4,not successful,0.40,,0.33,0.42,T.Lawrence,,,D.Hamilton,,1,,16-T.Lawrence to OSU 47 for 4 yards (53-D.Hamilton).
+Clemson,1Q,2,31,15,2,Normal,pass,2,not successful,,0.25,0.31,0.38,,T.Lawrence,L.Dixon,P.Werner,T.Smith,0.5,0.5,"16-T.Lawrence complete to 23-L.Dixon. 23-L.Dixon to OSU 45 for 2 yards (20-P.Werner,11-T.Smith)."
+Clemson,1Q,2,32,16,3,Normal,pass,,not successful,,0.22,0.29,0.36,,T.Lawrence,A.Rodgers,,,,,16-T.Lawrence incomplete. Intended for 3-A.Rodgers.
+Ohio State,1Q,3,34,13,1,Normal,run,1,not successful,0.25,,0.58,0.33,J.Dobbins,,,J.Williams,,1,,2-J.Dobbins to OSU 10 for 1 yard (59-J.Williams).
+Ohio State,1Q,3,36,15,2,Normal,pass,0,not successful,,0.67,0.54,0.31,,J.Fields,A.Mack,A.Terrell,C.Smith,0.5,0.5,"1-J.Fields complete to 11-A.Mack. 11-A.Mack to OSU 5 for no gain (8-A.Terrell,43-C.Smith)."
+Ohio State,1Q,3,37,16,3,Normal,pass,15,explosive,,0.70,0.57,0.29,,J.Fields,K.Hill,D.Kendrick,X.Thomas,0.5,0.5,"1-J.Fields complete to 14-K.Hill. 14-K.Hill to OSU 20 for 15 yards (1-D.Kendrick,3-X.Thomas)."
+Ohio State,1Q,3,38,17,1,Normal,run,1,not successful,0.20,,0.53,0.33,J.Dobbins,,,J.Skalski,B.Dawkins,0.5,0.5,"2-J.Dobbins to OSU 21 for 1 yard (47-J.Skalski,9-B.Dawkins)."
+Ohio State,1Q,3,39,18,2,Normal,pass,,not successful,,0.64,0.50,0.31,,J.Fields,K.Hill,,,,,1-J.Fields incomplete. Intended for 14-K.Hill.
+Ohio State,1Q,3,40,19,3,Normal,pass,-6,not successful,,0.58,0.47,0.29,,J.Fields,,J.Foster,J.Skalski,0.5,0.5,"1-J.Fields sacked at OSU 15 for -6 yards (35-J.Foster,47-J.Skalski)."
+Clemson,1Q,3,43,19,1,Normal,pass,9,successful,,0.30,0.33,0.33,,T.Lawrence,J.Ross,,,,,16-T.Lawrence complete to 8-J.Ross. 8-J.Ross to OSU 49 for 9 yards.
+Clemson,1Q,3,44,20,2,Normal,run,4,not successful,0.33,,0.31,0.38,T.Etienne,,,P.Werner,,1,,9-T.Etienne to OSU 45 for 4 yards (20-P.Werner).
+Clemson,1Q,3,45,21,3,Normal,pass,-7,not successful,,0.27,0.29,0.35,,T.Lawrence,,T.Friday,,1,,16-T.Lawrence sacked at CLE 48 for -7 yards (54-T.Friday).
+Ohio State,1Q,4,47,21,1,Normal,pass,,not successful,,0.54,0.44,0.28,,J.Fields,K.Hill,,,,,1-J.Fields incomplete. Intended for 14-K.Hill.
+Ohio State,1Q,4,48,22,2,Normal,pass,8,successful,,0.57,0.47,0.26,,J.Fields,G.Wilson,A.Terrell,,1,,1-J.Fields complete to 5-G.Wilson. 5-G.Wilson to OSU 28 for 8 yards (8-A.Terrell).
+Ohio State,1Q,4,49,23,3,Normal,run,64,explosive,0.33,,0.50,0.30,J.Dobbins,,,T.Muse,,1,,2-J.Dobbins to CLE 8 for 64 yards (19-T.Muse).
+Ohio State,2Q,5,50,24,1,Red Zone,pass,,not successful,,0.53,0.48,0.29,,J.Fields,K.Hill,,,,,1-J.Fields incomplete. Intended for 14-K.Hill.
+Ohio State,2Q,5,51,25,2,Red Zone,run,3,not successful,0.29,,0.45,0.32,J.Dobbins,,,C.Smith,,1,,2-J.Dobbins to CLE 5 for 3 yards (43-C.Smith).
+Ohio State,2Q,5,52,26,3,Red Zone,pass,5,successful,,0.56,0.48,0.30,,J.Fields,J.Dobbins,,,,,1-J.Fields complete to 2-J.Dobbins. 2-J.Dobbins runs 5 yards for a touchdown.
+Ohio State,2Q,5,53,27,3,Red Zone,pass,,not successful,,0.53,0.46,0.29,,J.Fields,J.Dobbins,,,,,1-J.Fields incomplete. Intended for 2-J.Dobbins.
+Clemson,2Q,4,56,23,1,Normal,pass,5,successful,,0.33,0.33,0.33,,T.Lawrence,J.Ross,M.Harrison,,1,,16-T.Lawrence complete to 8-J.Ross. 8-J.Ross to CLE 30 for 5 yards (39-M.Harrison).
+Clemson,2Q,4,57,24,2,Normal,run,3,not successful,0.29,,0.32,0.37,T.Lawrence,,,Z.Harrison,,1,,16-T.Lawrence to CLE 33 for 3 yards (33-Z.Harrison).
+Clemson,2Q,4,58,25,3,Normal,run,1,not successful,0.25,,0.30,0.40,T.Etienne,,,P.Werner,,1,,9-T.Etienne to CLE 34 for 1 yard (20-P.Werner).
+Ohio State,2Q,6,60,29,1,Normal,pass,7,successful,,0.56,0.48,0.28,,J.Fields,B.Victor,,,,,"1-J.Fields incomplete. Intended for 9-B.Victor. Penalty on CLE 8-A.Terrell, Pass interference, 7 yards, enforced at OSU 14. No Play."
+Ohio State,2Q,6,61,30,1,Normal,run,0,not successful,0.25,,0.46,0.31,J.Fields,,,L.Rudolph,,1,,1-J.Fields to OSU 21 for no gain (34-L.Rudolph).
+Ohio State,2Q,6,62,31,2,Normal,pass,24,explosive,,0.58,0.48,0.30,,J.Fields,A.Mack,A.Terrell,,1,,1-J.Fields complete to 11-A.Mack. 11-A.Mack to OSU 45 for 24 yards (8-A.Terrell).
+Ohio State,2Q,6,63,32,1,Normal,run,3,not successful,0.22,,0.46,0.32,J.Fields,,,K.Wallace,,1,,1-J.Fields to OSU 48 for 3 yards (12-K.Wallace).
+Ohio State,2Q,6,64,33,2,Normal,pass,6,successful,,0.60,0.48,0.31,,J.Fields,J.Ruckert,K.Wallace,,1,,1-J.Fields complete to 88-J.Ruckert. 88-J.Ruckert to CLE 46 for 6 yards (12-K.Wallace).
+Ohio State,2Q,6,65,34,3,Normal,run,3,successful,0.30,,0.50,0.33,J.Fields,,,T.Davis,,1,,1-J.Fields to CLE 43 for 3 yards (13-T.Davis).
+Ohio State,2Q,6,66,35,1,Normal,run,-1,not successful,0.27,,0.48,0.35,M.Teague,,,X.Thomas,C.Smith,0.5,0.5,"33-M.Teague to CLE 44 for -1 yard (3-X.Thomas,43-C.Smith)."
+Ohio State,2Q,6,67,36,2,Normal,run,21,explosive,0.33,,0.50,0.38,J.Fields,,,,,,,1-J.Fields to CLE 23 for 21 yards.
+Ohio State,2Q,6,68,37,1,Normal,pass,,not successful,,0.57,0.48,0.36,,J.Fields,K.Hill,,,,,1-J.Fields incomplete. Intended for 14-K.Hill.
+Ohio State,2Q,6,69,38,2,Normal,run,2,not successful,0.31,,0.47,0.38,M.Teague,,,A.Terrell,,1,,33-M.Teague to CLE 21 for 2 yards (8-A.Terrell).
+Ohio State,2Q,6,71,40,3,Red Zone,run,5,successful,0.36,,0.49,0.40,M.Teague,,,D.Johnson,,1,,33-M.Teague to CLE 11 for 5 yards (14-D.Johnson).
+Ohio State,2Q,6,73,42,1,Red Zone,pass,,not successful,,0.55,0.47,0.39,,J.Fields,A.Mack,,,,,1-J.Fields incomplete. Intended for 11-A.Mack.
+Ohio State,2Q,6,74,43,2,Red Zone,pass,,not successful,,0.52,0.46,0.38,,J.Fields,J.Dobbins,,,,,1-J.Fields incomplete. Intended for 2-J.Dobbins.
+Ohio State,2Q,6,75,44,3,Red Zone,pass,,not successful,,0.50,0.45,0.37,,J.Fields,B.Victor,,,,,1-J.Fields incomplete. Intended for 9-B.Victor.
+Clemson,2Q,5,78,27,1,Normal,pass,,not successful,,0.31,0.29,0.38,,T.Lawrence,J.Ross,,,,,16-T.Lawrence incomplete. Intended for 8-J.Ross.
+Clemson,2Q,5,79,28,2,Normal,run,8,successful,0.33,,0.32,0.41,T.Etienne,,,J.Okudah,,1,,9-T.Etienne to CLE 33 for 8 yards (1-J.Okudah).
+Clemson,2Q,5,80,29,3,Normal,run,6,successful,0.40,,0.35,0.43,T.Lawrence,,,D.Hamilton,J.Fuller,0.5,0.5,"16-T.Lawrence to CLE 39 for 6 yards (53-D.Hamilton,4-J.Fuller)."
+Clemson,2Q,5,81,30,1,Normal,pass,11,successful,,0.36,0.38,0.42,,T.Lawrence,T.Etienne,T.Borland,,1,,16-T.Lawrence complete to 9-T.Etienne. 9-T.Etienne to OSU 50 for 11 yards (32-T.Borland).
+Clemson,2Q,5,82,31,1,Normal,run,5,successful,0.45,,0.40,0.44,T.Lawrence,,,T.Borland,J.Okudah,0.5,0.5,"16-T.Lawrence to OSU 45 for 5 yards (32-T.Borland,1-J.Okudah)."
+Clemson,2Q,5,83,32,2,Normal,pass,,not successful,,0.33,0.38,0.42,,T.Lawrence,L.Dixon,,,,,16-T.Lawrence incomplete. Intended for 23-L.Dixon.
+Clemson,2Q,5,84,33,3,Normal,pass,-8,not successful,,0.31,0.37,0.41,,T.Lawrence,,S.Wade,,1,,16-T.Lawrence sacked at CLE 47 for -8 yards (24-S.Wade).
+Clemson,2Q,5,85,34,3,Normal,no play,15,successful,,,0.39,,,,,S.Wade,,1,,"16-T.Lawrence sacked at CLE 47 for -8 yards. Penalty on OSU 24-S.Wade, Personal Foul, 15 yards, enforced at OSU 45. No Play. (24-S.Wade)."
+Clemson,2Q,5,86,35,1,Normal,run,-1,not successful,0.42,,0.38,0.43,T.Etienne,,,R.Landers,,1,,9-T.Etienne to OSU 31 for -1 yard (67-R.Landers).
+Clemson,2Q,5,87,36,2,Normal,pass,15,successful,,0.35,0.40,0.41,,T.Lawrence,J.Ross,,,,,"16-T.Lawrence incomplete. Intended for 8-J.Ross. Penalty on OSU 10-A.Riep, Pass interference, 15 yards, enforced at OSU 31. No Play."
+Clemson,2Q,5,88,37,1,Red Zone,run,0,not successful,0.38,,0.39,0.43,T.Etienne,,,M.Harrison,,1,,9-T.Etienne to OSU 16 for no gain (39-M.Harrison).
+Clemson,2Q,5,89,38,2,Red Zone,run,8,successful,0.43,,0.41,0.45,T.Lawrence,,,J.Fuller,,1,,16-T.Lawrence scrambles to OSU 8 for 8 yards (4-J.Fuller).
+Clemson,2Q,5,90,39,3,Red Zone,run,8,successful,0.47,,0.42,0.47,T.Etienne,,,,,,, 9-T.Etienne runs 8 yards for a touchdown.
+Ohio State,2Q,7,93,46,1,Normal,run,0,not successful,0.33,,0.44,0.38,J.Dobbins,,,J.Skalski,,1,,2-J.Dobbins to OSU 25 for no gain (47-J.Skalski).
+Ohio State,2Q,7,94,47,2,Normal,pass,9,successful,,0.52,0.45,0.38,,J.Fields,G.Wilson,D.Kendrick,,1,,1-J.Fields complete to 5-G.Wilson. 5-G.Wilson to OSU 34 for 9 yards (1-D.Kendrick).
+Ohio State,2Q,7,95,48,3,Normal,run,-2,not successful,0.31,,0.44,0.39,J.Dobbins,,,T.Davis,,1,,2-J.Dobbins to OSU 32 for -2 yards (13-T.Davis).
+Clemson,2Q,6,97,40,1,Normal,pass,,not successful,,0.33,0.41,0.45,,T.Lawrence,J.Ross,,,,,16-T.Lawrence incomplete. Intended for 8-J.Ross.
+Clemson,2Q,6,98,41,2,Normal,pass,,not successful,,0.32,0.40,0.44,,T.Lawrence,J.Ross,,,,,16-T.Lawrence incomplete. Intended for 8-J.Ross.
+Clemson,2Q,6,99,42,3,Normal,pass,16,explosive,,0.35,0.42,0.43,,T.Lawrence,J.Ross,J.Proctor,,1,,16-T.Lawrence complete to 8-J.Ross. 8-J.Ross to CLE 33 for 16 yards (41-J.Proctor).
+Clemson,2Q,6,100,43,1,Normal,pass,,not successful,,0.33,0.41,0.42,,T.Lawrence,D.Overton,,,,,16-T.Lawrence incomplete. Intended for 14-D.Overton.
+Clemson,2Q,6,101,44,2,Normal,run,67,explosive,0.50,,0.42,0.43,T.Lawrence,,,,,,, 16-T.Lawrence runs 67 yards for a touchdown.
+Ohio State,2Q,8,104,50,1,Normal,run,2,not successful,0.29,,0.43,0.40,M.Teague,,,J.Skalski,,1,,33-M.Teague to OSU 27 for 2 yards (47-J.Skalski).
+Ohio State,2Q,8,105,51,2,Normal,pass,,not successful,,0.50,0.42,0.40,,J.Fields,K.Hill,,,,,1-J.Fields incomplete. Intended for 14-K.Hill.
+Ohio State,2Q,8,106,52,3,Normal,run,-1,not successful,0.28,,0.41,0.41,M.Teague,,,X.Thomas,,1,,33-M.Teague to OSU 26 for -1 yard (3-X.Thomas).
+Clemson,3Q,8,109,45,1,Normal,pass,12,successful,,0.36,0.44,0.42,,T.Lawrence,T.Higgins,,,,,"16-T.Lawrence incomplete. Intended for 5-T.Higgins. Penalty on OSU 3-D.Arnette, Pass interference, 12 yards, enforced at CLE 25. No Play."
+Clemson,3Q,8,110,46,1,Normal,run,7,successful,0.53,,0.45,0.44,T.Etienne,,,A.Riep,J.Fuller,0.5,0.5,"9-T.Etienne to CLE 44 for 7 yards (10-A.Riep,4-J.Fuller)."
+Clemson,3Q,8,111,47,2,Normal,pass,,not successful,,0.35,0.44,0.43,,T.Lawrence,T.Higgins,,,,,16-T.Lawrence incomplete. Intended for 5-T.Higgins.
+Clemson,3Q,8,112,48,3,Normal,pass,,not successful,,0.33,0.43,0.41,,T.Lawrence,T.Higgins,,,,,16-T.Lawrence incomplete. Intended for 5-T.Higgins.
+Ohio State,3Q,9,114,54,1,Normal,pass,13,successful,,0.52,0.42,0.40,,J.Fields,B.Victor,D.Kendrick,,1,,1-J.Fields complete to 9-B.Victor. 9-B.Victor to OSU 16 for 13 yards (1-D.Kendrick).
+Ohio State,3Q,9,115,55,1,Normal,run,1,not successful,0.26,,0.41,0.41,M.Teague,,,C.Smith,J.Skalski,0.5,0.5,"33-M.Teague to OSU 17 for 1 yard (43-C.Smith,47-J.Skalski)."
+Ohio State,3Q,9,116,56,2,Normal,pass,22,explosive,,0.54,0.43,0.40,,J.Fields,K.Hill,,,,,1-J.Fields complete to 14-K.Hill. 14-K.Hill to OSU 39 for 22 yards.
+Ohio State,3Q,9,117,57,1,Normal,pass,11,successful,,0.55,0.44,0.40,,J.Fields,C.Olave,,,,,1-J.Fields complete to 17-C.Olave. 17-C.Olave to OSU 50 for 11 yards.
+Ohio State,3Q,9,118,58,1,Normal,run,1,not successful,0.25,,0.43,0.41,M.Teague,,,D.Kendrick,,1,,33-M.Teague to CLE 49 for 1 yard (1-D.Kendrick).
+Ohio State,3Q,9,119,59,2,Normal,run,3,not successful,0.24,,0.42,0.42,J.Fields,,,J.Williams,C.Smith,0.5,0.5,"1-J.Fields to CLE 46 for 3 yards (59-J.Williams,43-C.Smith)."
+Ohio State,3Q,9,120,60,3,Normal,run,1,not successful,0.23,,0.41,0.43,J.Fields,,,T.Davis,,1,,1-J.Fields scrambles to CLE 45 for 1 yard (13-T.Davis).
+Clemson,3Q,9,122,50,1,Normal,pass,,not successful,,0.32,0.42,0.40,,T.Lawrence,J.Ross,,,,,16-T.Lawrence incomplete. Intended for 8-J.Ross.
+Clemson,3Q,9,123,51,2,Normal,pass,10,successful,,0.35,0.43,0.40,,T.Lawrence,T.Higgins,A.Riep,P.Werner,0.5,0.5,"16-T.Lawrence complete to 5-T.Higgins. 5-T.Higgins to CLE 11 for 10 yards (10-A.Riep,20-P.Werner)."
+Clemson,3Q,9,124,52,1,Normal,pass,3,not successful,,0.33,0.42,0.39,,T.Lawrence,T.Higgins,J.Okudah,,1,,16-T.Lawrence complete to 5-T.Higgins. 5-T.Higgins to CLE 14 for 3 yards (1-J.Okudah).
+Clemson,3Q,9,125,53,2,Normal,run,1,not successful,0.50,,0.41,0.40,T.Lawrence,,,B.Browning,C.Young,0.5,0.5,"16-T.Lawrence to CLE 15 for 1 yard (5-B.Browning,2-C.Young)."
+Clemson,3Q,9,126,54,3,Normal,pass,,not successful,,0.32,0.40,0.39,,T.Lawrence,A.Rodgers,,,,,16-T.Lawrence incomplete. Intended for 3-A.Rodgers.
+Clemson,3Q,9,127,55,4,Normal,no play,15,successful,,,0.42,,,,,,,,,"48-W.Spiers punts 40 yards from CLE 15 to OSU 45, fair catch by 5-G.Wilson. Penalty on OSU 26-C.Brown, Roughing the kicker, 15 yards, enforced at CLE 15. No Play."
+Clemson,3Q,9,128,56,1,Normal,run,17,explosive,0.53,,0.43,0.40,L.Dixon,,,C.Young,,1,,23-L.Dixon to CLE 47 for 17 yards (2-C.Young).
+Clemson,3Q,9,129,57,1,Normal,pass,53,explosive,,0.34,0.44,0.40,,T.Lawrence,T.Etienne,,,,, 16-T.Lawrence complete to 9-T.Etienne. 9-T.Etienne runs 53 yards for a touchdown.
+Ohio State,3Q,10,132,62,1,Normal,pass,,not successful,,0.53,0.40,0.42,,J.Fields,A.Mack,,,,,1-J.Fields incomplete. Intended for 11-A.Mack.
+Ohio State,3Q,10,133,63,2,Normal,run,2,not successful,0.22,,0.40,0.43,J.Dobbins,,,J.Foster,,1,,2-J.Dobbins to OSU 27 for 2 yards (35-J.Foster).
+Ohio State,3Q,10,134,64,3,Normal,pass,-7,not successful,,0.52,0.39,0.43,,J.Fields,,B.Spector,,1,,1-J.Fields sacked at OSU 20 for -7 yards (10-B.Spector).
+Clemson,3Q,10,136,58,1,Normal,run,1,not successful,0.50,,0.43,0.41,T.Etienne,,,B.Browning,,1,,9-T.Etienne to CLE 30 for 1 yard (5-B.Browning).
+Clemson,3Q,10,137,59,2,Normal,pass,-10,not successful,,0.33,0.42,0.40,,T.Lawrence,,D.Hamilton,,1,,16-T.Lawrence sacked at CLE 20 for -10 yards (53-D.Hamilton).
+Clemson,3Q,10,138,60,3,Normal,pass,29,explosive,,0.35,0.43,0.39,,T.Lawrence,J.Ross,J.Okudah,,1,,"16-T.Lawrence complete to 8-J.Ross. 8-J.Ross to CLE 30, FUMBLES (1-J.Okudah). 4-J.Fuller runs 29 yards for a touchdown."
+Clemson,3Q,10,139,61,3,Normal,pass,,not successful,,0.34,0.43,0.38,,T.Lawrence,J.Ross,,,,,16-T.Lawrence incomplete. Intended for 8-J.Ross.
+Ohio State,3Q,11,141,66,1,Normal,run,2,not successful,0.21,,0.38,0.44,J.Fields,,,J.Williams,,1,,1-J.Fields to OSU 47 for 2 yards (59-J.Williams).
+Ohio State,3Q,11,142,67,2,Normal,pass,,not successful,,0.50,0.38,0.43,,J.Fields,C.Olave,,,,,1-J.Fields incomplete. Intended for 17-C.Olave.
+Ohio State,3Q,11,143,68,3,Normal,pass,,not successful,,0.48,0.37,0.42,,J.Fields,B.Victor,,,,,"1-J.Fields incomplete. Intended for 9-B.Victor, INTERCEPTED by 11-I.Simmons at CLE 33. 11-I.Simmons to CLE 36 for 3 yards."
+Clemson,3Q,11,144,63,1,Normal,pass,11,successful,,0.36,0.44,0.38,,T.Lawrence,J.Ngata,T.Borland,,1,,16-T.Lawrence complete to 10-J.Ngata. 10-J.Ngata to CLE 47 for 11 yards (32-T.Borland).
+Clemson,3Q,11,145,64,1,Normal,run,6,successful,0.52,,0.45,0.39,T.Lawrence,,,T.Borland,,1,,16-T.Lawrence to OSU 47 for 6 yards (32-T.Borland).
+Clemson,3Q,11,146,65,2,Normal,pass,-1,not successful,,0.35,0.44,0.38,,T.Lawrence,T.Higgins,M.Harrison,P.Werner,0.5,0.5,"16-T.Lawrence complete to 5-T.Higgins. 5-T.Higgins to OSU 48 for -1 yard (39-M.Harrison,20-P.Werner)."
+Clemson,3Q,11,147,66,3,Normal,pass,-8,not successful,,0.34,0.43,0.38,,T.Lawrence,,B.Browning,,1,,16-T.Lawrence sacked at CLE 44 for -8 yards (5-B.Browning).
+Ohio State,3Q,12,149,69,1,Normal,pass,8,successful,,0.50,0.38,0.41,,J.Fields,A.Mack,D.Kendrick,,1,,1-J.Fields complete to 11-A.Mack. 11-A.Mack to OSU 24 for 8 yards (1-D.Kendrick).
+Ohio State,3Q,12,150,70,2,Normal,pass,7,successful,,0.51,0.39,0.41,,J.Fields,K.Hill,A.Terrell,,1,,1-J.Fields complete to 14-K.Hill. 14-K.Hill to OSU 31 for 7 yards (8-A.Terrell).
+Ohio State,3Q,12,151,71,1,Normal,run,5,successful,0.24,,0.40,0.42,J.Dobbins,,,N.Turner,,1,,2-J.Dobbins to OSU 36 for 5 yards (24-N.Turner).
+Ohio State,3Q,12,152,72,2,Normal,pass,1,not successful,,0.50,0.39,0.41,,J.Fields,K.Hill,,,,,1-J.Fields complete to 14-K.Hill. 14-K.Hill to OSU 37 for 1 yard.
+Ohio State,4Q,13,154,74,3,Normal,pass,11,successful,,0.51,0.40,0.40,,J.Fields,J.Dobbins,T.Muse,,1,,1-J.Fields complete to 2-J.Dobbins. 2-J.Dobbins to OSU 43 for 11 yards (19-T.Muse).
+Ohio State,4Q,13,155,75,1,Normal,pass,-5,not successful,,0.50,0.40,0.40,,J.Fields,,B.Spector,,1,,1-J.Fields sacked at OSU 38 for -5 yards (10-B.Spector).
+Ohio State,4Q,13,156,76,2,Normal,pass,17,explosive,,0.51,0.41,0.39,,J.Fields,B.Victor,,,,,1-J.Fields complete to 9-B.Victor. 9-B.Victor to CLE 45 for 17 yards.
+Ohio State,4Q,13,157,77,1,Normal,pass,9,successful,,0.53,0.42,0.38,,J.Fields,A.Mack,D.Kendrick,,1,,1-J.Fields complete to 11-A.Mack. 11-A.Mack to CLE 36 for 9 yards (1-D.Kendrick).
+Ohio State,4Q,13,158,78,2,Normal,run,4,successful,0.27,,0.42,0.39,J.Dobbins,,,J.Skalski,B.Spector,0.5,0.5,"2-J.Dobbins to CLE 32 for 4 yards (47-J.Skalski,10-B.Spector)."
+Ohio State,4Q,13,159,79,1,Normal,pass,7,successful,,0.54,0.43,0.39,,J.Fields,J.Dobbins,I.Simmons,,1,,1-J.Fields complete to 2-J.Dobbins. 2-J.Dobbins to CLE 25 for 7 yards (11-I.Simmons).
+Ohio State,4Q,13,160,80,2,Normal,pass,,not successful,,0.52,0.43,0.38,,J.Fields,,,,,,1-J.Fields incomplete.
+Ohio State,4Q,13,161,81,3,Normal,run,2,not successful,0.26,,0.42,0.39,J.Dobbins,,,J.Foster,,1,,2-J.Dobbins to CLE 23 for 2 yards (35-J.Foster).
+Ohio State,4Q,13,162,82,4,Normal,pass,23,explosive,,0.53,0.43,0.39,,J.Fields,C.Olave,,,,, 1-J.Fields complete to 17-C.Olave. 17-C.Olave runs 23 yards for a touchdown.
+Clemson,4Q,12,165,68,1,Normal,run,16,explosive,0.55,,0.44,0.39,T.Lawrence,,,J.Fuller,,1,,16-T.Lawrence to CLE 41 for 16 yards (4-J.Fuller).
+Clemson,4Q,12,166,69,1,Normal,run,2,not successful,0.52,,0.43,0.40,T.Lawrence,,,Z.Harrison,P.Werner,0.5,0.5,"16-T.Lawrence to CLE 43 for 2 yards (33-Z.Harrison,20-P.Werner)."
+Clemson,4Q,12,167,70,2,Normal,pass,,not successful,,0.33,0.43,0.39,,T.Lawrence,T.Higgins,,,,,16-T.Lawrence incomplete. Intended for 5-T.Higgins.
+Clemson,4Q,12,168,71,3,Normal,pass,3,not successful,,0.32,0.42,0.38,,T.Lawrence,J.Ross,J.Proctor,,1,,16-T.Lawrence complete to 8-J.Ross. 8-J.Ross to CLE 46 for 3 yards (41-J.Proctor).
+Ohio State,4Q,14,170,83,1,Normal,no play,10,successful,,,0.44,,,,,,,,,"1-J.Fields incomplete. Intended for 88-J.Ruckert. Penalty on CLE 12-K.Wallace, Holding, 10 yards, enforced at OSU 11. No Play."
+Ohio State,4Q,14,171,84,1,Normal,run,11,successful,0.29,,0.44,0.39,J.Dobbins,,,I.Simmons,K.Wallace,0.5,0.5,"2-J.Dobbins to OSU 32 for 11 yards (11-I.Simmons,12-K.Wallace)."
+Ohio State,4Q,14,172,85,1,Normal,pass,-11,not successful,,0.52,0.44,0.39,,J.Fields,,K.Wallace,,1,,1-J.Fields sacked at OSU 21 for -11 yards (12-K.Wallace).
+Ohio State,4Q,14,173,86,2,Normal,no play,10,successful,,,0.45,,,,,,,,,"1-J.Fields incomplete. Intended for 88-J.Ruckert, INTERCEPTED by 1-D.Kendrick at CLE 42. 1-D.Kendrick to OSU 31 for 27 yards. Penalty on CLE 1-D.Kendrick, Holding, 10 yards, enforced at OSU 21. No Play."
+Ohio State,4Q,14,174,87,1,Normal,run,1,not successful,0.28,,0.44,0.40,J.Dobbins,,,T.Davis,,1,,2-J.Dobbins to OSU 32 for 1 yard (13-T.Davis).
+Ohio State,4Q,14,175,88,2,Normal,run,8,successful,0.30,,0.45,0.41,J.Fields,,,C.Smith,,1,,1-J.Fields 5-G.Wilson to OSU 40 for 8 yards (43-C.Smith).
+Ohio State,4Q,14,176,89,3,Normal,run,1,successful,0.32,,0.45,0.41,J.Fields,,,,,,,1-J.Fields to OSU 41 for 1 yard.
+Ohio State,4Q,14,177,90,1,Normal,run,2,not successful,0.31,,0.45,0.42,J.Dobbins,,,T.Muse,,1,,2-J.Dobbins to OSU 43 for 2 yards (19-T.Muse).
+Ohio State,4Q,14,178,91,2,Normal,pass,12,successful,,0.53,0.46,0.42,,J.Fields,A.Mack,K.Wallace,,1,,1-J.Fields complete to 11-A.Mack. 11-A.Mack to CLE 45 for 12 yards (12-K.Wallace).
+Ohio State,4Q,14,179,92,1,Normal,run,6,successful,0.33,,0.46,0.42,J.Dobbins,,,I.Simmons,,1,,2-J.Dobbins to CLE 39 for 6 yards (11-I.Simmons).
+Ohio State,4Q,14,180,93,2,Normal,run,-1,not successful,0.32,,0.46,0.43,J.Dobbins,,,J.Foster,,1,,2-J.Dobbins to CLE 40 for -1 yard (35-J.Foster).
+Ohio State,4Q,14,181,94,3,Normal,pass,1,not successful,,0.52,0.45,0.43,,J.Fields,A.Mack,C.Smith,,1,,1-J.Fields complete to 11-A.Mack. 11-A.Mack to CLE 39 for 1 yard (43-C.Smith).
+Ohio State,4Q,14,182,95,4,Normal,penalty,,not successful,,,0.45,,,,,,,,,"Team penalty on OSU, Delay of game, declined."
+Clemson,4Q,13,184,73,1,Normal,pass,11,successful,,0.34,0.43,0.38,,T.Lawrence,J.Ross,A.Riep,,1,,16-T.Lawrence complete to 8-J.Ross. 8-J.Ross to CLE 17 for 11 yards (10-A.Riep).
+Clemson,4Q,13,185,74,1,Normal,run,11,successful,0.54,,0.44,0.39,T.Lawrence,,,J.Proctor,J.Cornell,0.5,0.5,"16-T.Lawrence to CLE 28 for 11 yards (41-J.Proctor,9-J.Cornell)."
+Clemson,4Q,13,186,75,1,Normal,pass,38,explosive,,0.36,0.45,0.38,,T.Lawrence,A.Rodgers,J.Proctor,,1,,16-T.Lawrence complete to 3-A.Rodgers. 3-A.Rodgers to OSU 34 for 38 yards (41-J.Proctor).
+Clemson,4Q,13,187,76,1,Normal,pass,34,explosive,,0.38,0.45,0.38,,T.Lawrence,T.Etienne,,,,, 16-T.Lawrence complete to 9-T.Etienne. 9-T.Etienne runs 34 yards for a touchdown.
+Ohio State,4Q,15,190,97,1,Normal,pass,13,successful,,0.53,0.45,0.42,,J.Fields,J.Dobbins,C.Smith,,1,,1-J.Fields complete to 2-J.Dobbins. 2-J.Dobbins to OSU 38 for 13 yards (43-C.Smith).
+Ohio State,4Q,15,191,98,1,Normal,pass,9,successful,,0.54,0.46,0.41,,J.Fields,J.Dobbins,J.Skalski,,1,,1-J.Fields complete to 2-J.Dobbins. 2-J.Dobbins to OSU 47 for 9 yards (47-J.Skalski).
+Ohio State,4Q,15,192,99,2,Normal,pass,13,successful,,0.55,0.47,0.41,,J.Fields,K.Hill,I.Simmons,,1,,1-J.Fields complete to 14-K.Hill. 14-K.Hill to CLE 40 for 13 yards (11-I.Simmons).
+Ohio State,4Q,15,193,100,1,Normal,pass,9,successful,,0.56,0.47,0.40,,J.Fields,J.Dobbins,A.Terrell,,1,,1-J.Fields complete to 2-J.Dobbins. 2-J.Dobbins to CLE 31 for 9 yards (8-A.Terrell).
+Ohio State,4Q,15,194,101,2,Normal,pass,,not successful,,0.55,0.47,0.40,,J.Fields,A.Mack,,,,,1-J.Fields incomplete. Intended for 11-A.Mack.
+Ohio State,4Q,15,195,102,3,Normal,run,5,successful,0.34,,0.47,0.41,J.Fields,,,C.Smith,,1,,1-J.Fields to CLE 26 for 5 yards (43-C.Smith).
+Ohio State,4Q,15,196,103,1,Normal,run,3,not successful,0.33,,0.47,0.41,J.Fields,,,C.Smith,,1,,1-J.Fields to CLE 23 for 3 yards (43-C.Smith).
+Ohio State,4Q,15,197,104,2,Normal,pass,,not successful,,0.54,0.46,0.41,,J.Fields,C.Olave,,,,,"1-J.Fields incomplete. Intended for 17-C.Olave, INTERCEPTED by 24-N.Turner at CLE End Zone. 24-N.Turner, touchback."

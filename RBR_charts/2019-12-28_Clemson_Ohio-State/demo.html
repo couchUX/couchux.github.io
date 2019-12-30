@@ -63,12 +63,12 @@
     </div>
 
     <!-- Line charts -->
-    <h3>Rushing Rate (cumulative), Alabama</h3>
+    <h3>Rushing Rate (cumulative), Clemson</h3>
     <div class="chartOuter" id="runRateOuter">
       <canvas id="runRateChart" height="240" width="400"></canvas>
     </div>
    
-    <h3>Rushing Rate (cumulative), Opponent</h3>
+    <h3>Rushing Rate (cumulative), Ohio State</h3>
     <div class="chartOuter" id="runRateOpponentOuter">
       <canvas id="runRateOpponentChart" height="240" width="400"></canvas>
     </div>
@@ -78,49 +78,49 @@
       <canvas id="runPassSrChart" height="240" width="400"></canvas>
     </div>
 
-    <h3>Rushing and Passing Success (cumulative), Opponent</h3>
+    <h3>Rushing and Passing Success (cumulative), Ohio State</h3>
     <div class="chartOuter" id="runPassSrOpponentOuter">
       <canvas id="runPassSrOpponentChart" height="240" width="400"></canvas>
     </div>
     
-    <!-- Alabama player charts -->
-    <h3>Top Runners (in order of appearance), Alabama</h3>
+    <!-- Clemson player charts -->
+    <h3>Top Runners (in order of appearance), Clemson</h3>
     <div class="chartOuter" id="runnersOuter">
       <canvas id="runnersChart" height="200" width="400"></canvas>
     </div>
     
-    <h3>Top Passers (in order of appearance), Alabama</h3>
+    <h3>Top Passers (in order of appearance), Clemson</h3>
     <div class="chartOuter" id="passersOuter">
       <canvas id="passersChart" height="100" width="400"></canvas>
     </div>
     
-    <h3>Top Receivers (in order of appearance), Alabama</h3>
+    <h3>Top Receivers (in order of appearance), Clemson</h3>
     <div class="chartOuter" id="receiversOuter">
       <canvas id="receiversChart" height="300" width="400"></canvas>
     </div>
     
-    <h3>Top Tacklers (in order of appearance), Alabama</h3>
+    <h3>Top Tacklers (in order of appearance), Clemson</h3>
     <div class="chartOuter" id="tacklersOuter">
       <canvas id="tacklersChart" height="480" width="400"></canvas>
     </div>
     
     <!-- Opponent player charts -->
-    <h3>Top Runners (in order of appearance), Opponent</h3>
+    <h3>Top Runners (in order of appearance), Ohio State</h3>
     <div class="chartOuter" id="runnersOpponentOuter">
       <canvas id="runnersOpponentChart" height="200" width="400"></canvas>
     </div>
     
-    <h3>Top Passers (in order of appearance), Opponent</h3>
+    <h3>Top Passers (in order of appearance), Ohio State</h3>
     <div class="chartOuter" id="passersOpponentOuter">
       <canvas id="passersOpponentChart" height="100" width="400"></canvas>
     </div>
     
-    <h3>Top Receivers (in order of appearance), Opponent</h3>
+    <h3>Top Receivers (in order of appearance), Ohio State</h3>
     <div class="chartOuter" id="receiversOpponentOuter">
       <canvas id="receiversOpponentChart" height="300" width="400"></canvas>
     </div>
     
-    <h3>Top Tacklers (in order of appearance), Opponent</h3>
+    <h3>Top Tacklers (in order of appearance), Ohio State</h3>
     <div class="chartOuter" id="tacklersOpponentOuter">
       <canvas id="tacklersOpponentChart" height="480" width="400"></canvas>
     </div>
@@ -142,7 +142,7 @@
     <!-- script for chart js -->
     <script>
       // paste this data each time. Consider writing a JSON file for all colors that will let us just plug in the names.
-      assignTeams("Clemson", "Ohio St.");
+      assignTeams("Clemson", "Ohio State");
       var gameData;
 
       allCharts("all_plays.csv");
