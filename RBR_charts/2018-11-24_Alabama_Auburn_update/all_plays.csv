@@ -1,140 +1,141 @@
 team,quarter,drive_team,play_count,play_count_team,down,red_zone,play_type,yards_total,play_result,run_sr,pass_sr,total_sr,run_rate,runner,passer,receiver,tackler_one,tackler_two,tackler_one_credit,tackler_two_credit,play_description
-Michigan,1Q,1,2,1,1,Normal,pass,,not successful,,0.00,0.00,0.00,,S.Patterson,N.Collins,,,,,2-S.Patterson incomplete. Intended for 4-N.Collins.
-Michigan,1Q,1,3,2,2,Normal,run,2,not successful,0.00,,0.00,0.50,D.Peoples-Jones,,,A.Jennings,J.Mayden,0.5,0.5,"9-D.Peoples-Jones pushed ob at BAMA 48 for 2 yards (33-A.Jennings,21-J.Mayden)."
-Michigan,1Q,1,4,3,3,Normal,pass,,not successful,,0.00,0.00,0.33,,S.Patterson,N.Collins,,,,,2-S.Patterson incomplete. Intended for 4-N.Collins.
-Alabama,1Q,1,6,1,1,Normal,pass,85,explosive,,1.00,1.00,0.00,,M.Jones,J.Jeudy,,,,, 10-M.Jones complete to 4-J.Jeudy. 4-J.Jeudy runs 85 yards for a touchdown.
-Michigan,1Q,2,9,5,1,Normal,pass,7,successful,,0.33,0.25,0.25,,S.Patterson,G.Jackson,A.Jennings,,1,,2-S.Patterson complete to 15-G.Jackson. 15-G.Jackson to MICH 27 for 7 yards (33-A.Jennings).
-Michigan,1Q,2,10,6,2,Normal,run,3,successful,0.50,,0.40,0.40,H.Haskins,,,C.Harris,,1,,25-H.Haskins to MICH 30 for 3 yards (8-C.Harris).
-Michigan,1Q,2,11,7,1,Normal,run,3,not successful,0.33,,0.33,0.50,G.Jackson,,,C.Barmore,X.McKinney,0.5,0.5,"15-G.Jackson to MICH 33 for 3 yards (58-C.Barmore,15-X.McKinney)."
-Michigan,1Q,2,12,8,2,Normal,pass,,not successful,,0.25,0.29,0.43,,S.Patterson,S.McKeon,,,,,2-S.Patterson incomplete. Intended for 84-S.McKeon.
-Michigan,1Q,2,13,9,3,Normal,pass,,not successful,,0.20,0.25,0.38,,S.Patterson,R.Bell,,,,,2-S.Patterson incomplete. Intended for 8-R.Bell.
-Alabama,1Q,2,15,2,1,Normal,pass,15,explosive,,1.00,1.00,0.00,,M.Jones,D.Smith,J.Metellus,,1,,10-M.Jones complete to 6-D.Smith. 6-D.Smith to BAMA 46 for 15 yards (14-J.Metellus).
-Alabama,1Q,2,16,3,1,Normal,run,2,not successful,0.00,,0.67,0.33,N.Harris,,,K.Hudson,A.Thomas,0.5,0.5,"22-N.Harris to BAMA 48 for 2 yards (7-K.Hudson,1-A.Thomas)."
-Alabama,1Q,2,17,4,2,Normal,pass,2,not successful,,0.67,0.50,0.25,,M.Jones,H.Ruggs,J.Metellus,,1,,10-M.Jones complete to 11-H.Ruggs. 11-H.Ruggs to BAMA 50 for 2 yards (14-J.Metellus).
-Alabama,1Q,2,18,5,3,Normal,pass,,not successful,,0.50,0.40,0.20,,M.Jones,H.Ruggs,,,,,10-M.Jones incomplete. Intended for 11-H.Ruggs.
-Michigan,1Q,3,21,11,1,Normal,run,12,successful,0.50,,0.33,0.44,Z.Charbonnet,,,J.Battle,X.McKinney,0.5,0.5,"24-Z.Charbonnet to MICH 27 for 12 yards (9-J.Battle,15-X.McKinney)."
-Michigan,1Q,3,22,12,1,Normal,pass,,not successful,,0.17,0.30,0.40,,S.Patterson,N.Collins,,,,,2-S.Patterson incomplete. Intended for 4-N.Collins.
-Michigan,1Q,3,23,13,2,Normal,run,9,successful,0.60,,0.36,0.45,Z.Charbonnet,,,C.Harris,J.Mayden,0.5,0.5,"24-Z.Charbonnet to MICH 36 for 9 yards (8-C.Harris,21-J.Mayden)."
-Michigan,1Q,3,24,14,3,Normal,run,12,successful,0.67,,0.42,0.50,Z.Charbonnet,,,J.Mayden,A.Jennings,0.5,0.5,"24-Z.Charbonnet to MICH 48 for 12 yards (21-J.Mayden,33-A.Jennings)."
-Michigan,1Q,3,25,15,1,Normal,pass,34,explosive,,0.29,0.46,0.46,,S.Patterson,D.Peoples-Jones,J.Mayden,,1,,2-S.Patterson complete to 9-D.Peoples-Jones. 9-D.Peoples-Jones to BAMA 18 for 34 yards (21-J.Mayden).
-Michigan,1Q,3,26,16,1,Red Zone,run,11,successful,0.71,,0.50,0.50,H.Haskins,,,X.McKinney,,1,,25-H.Haskins to BAMA 7 for 11 yards (15-X.McKinney).
-Michigan,1Q,3,27,17,1,Red Zone,pass,7,successful,,0.38,0.53,0.47,,S.Patterson,N.Eubanks,,,,, 2-S.Patterson complete to 82-N.Eubanks. 82-N.Eubanks runs 7 yards for a touchdown.
-Alabama,1Q,3,30,8,1,Normal,run,3,not successful,0.00,,0.33,0.33,N.Harris,,,C.McGrone,J.Glasgow,0.5,0.5,"22-N.Harris to BAMA 28 for 3 yards (44-C.McGrone,29-J.Glasgow)."
-Alabama,1Q,3,31,9,2,Normal,pass,21,explosive,,0.60,0.43,0.29,,M.Jones,J.Jeudy,D.Hill,,1,,10-M.Jones complete to 4-J.Jeudy. 4-J.Jeudy pushed ob at BAMA 49 for 21 yards (30-D.Hill).
-Alabama,1Q,3,32,10,1,Normal,run,3,not successful,0.00,,0.38,0.38,N.Harris,,,K.Hudson,C.McGrone,0.5,0.5,"22-N.Harris to MICH 48 for 3 yards (7-K.Hudson,44-C.McGrone)."
-Alabama,1Q,3,33,11,2,Normal,pass,-3,not successful,,0.50,0.33,0.33,,M.Jones,J.Billingsley,J.Glasgow,,1,,10-M.Jones complete to 19-J.Billingsley. 19-J.Billingsley to BAMA 49 for -3 yards (29-J.Glasgow).
-Alabama,1Q,3,34,12,3,Normal,pass,,not successful,,0.43,0.30,0.30,,M.Jones,J.Waddle,,,,,10-M.Jones incomplete. Intended for 17-J.Waddle.
-Michigan,1Q,4,36,18,1,Normal,run,7,successful,0.75,,0.56,0.50,H.Haskins,,,A.Jennings,,1,,25-H.Haskins to MICH 8 for 7 yards (33-A.Jennings).
-Michigan,1Q,4,37,19,2,Normal,run,11,successful,0.78,,0.59,0.53,Z.Charbonnet,,,C.Allen,,1,,24-Z.Charbonnet to MICH 19 for 11 yards (4-C.Allen).
-Michigan,1Q,4,38,20,1,Normal,run,2,not successful,0.70,,0.56,0.56,Z.Charbonnet,,,C.Allen,T.Musika,0.5,0.5,"24-Z.Charbonnet to MICH 21 for 2 yards (4-C.Allen,91-T.Musika)."
-Michigan,1Q,4,39,21,2,Normal,pass,8,successful,,0.44,0.58,0.53,,S.Patterson,M.Sainristil,P.Surtain,S.Carter,0.5,0.5,"2-S.Patterson complete to 19-M.Sainristil. 19-M.Sainristil to MICH 29 for 8 yards (2-P.Surtain,5-S.Carter)."
-Michigan,1Q,4,40,22,1,Normal,run,11,successful,0.73,,0.60,0.55,Z.Charbonnet,,,J.Mayden,,1,,24-Z.Charbonnet to MICH 40 for 11 yards (21-J.Mayden).
-Michigan,1Q,4,41,23,1,Normal,pass,40,explosive,,0.50,0.62,0.52,,S.Patterson,G.Jackson,J.Battle,,1,,2-S.Patterson complete to 15-G.Jackson. 15-G.Jackson pushed ob at BAMA 20 for 40 yards (9-J.Battle).
-Michigan,1Q,4,42,24,1,Normal,pass,0,successful,,0.55,0.64,0.50,,S.Patterson,,C.Barmore,,1,,"2-S.Patterson sacked at BAMA 26 for -6 yards, FUMBLES (58-C.Barmore). 9-D.Peoples-Jones to BAMA 23 for no gain."
-Michigan,1Q,4,43,25,1,Normal,pass,,not successful,,0.50,0.61,0.48,,S.Patterson,,,,,,2-S.Patterson incomplete.
-Michigan,1Q,4,44,26,2,Normal,run,2,not successful,0.67,,0.58,0.50,S.Patterson,,,S.Lee,,1,,2-S.Patterson pushed ob at BAMA 18 for 2 yards (35-S.Lee).
-Michigan,1Q,4,45,27,3,Red Zone,pass,,not successful,,0.46,0.56,0.48,,S.Patterson,N.Eubanks,,,,,2-S.Patterson incomplete. Intended for 82-N.Eubanks.
-Alabama,1Q,4,48,14,1,Normal,pass,,not successful,,0.38,0.27,0.27,,M.Jones,H.Ruggs,,,,,10-M.Jones incomplete. Intended for 11-H.Ruggs.
-Alabama,2Q,5,49,15,2,Normal,run,25,explosive,0.25,,0.33,0.33,N.Harris,,,J.Glasgow,,1,,22-N.Harris pushed ob at BAMA 48 for 25 yards (29-J.Glasgow).
-Alabama,2Q,5,50,16,1,Normal,run,1,not successful,0.20,,0.31,0.38,J.Jeudy,,,A.Thomas,,1,,4-J.Jeudy to BAMA 49 for 1 yard (1-A.Thomas).
-Alabama,2Q,5,51,17,2,Normal,pass,-1,not successful,,0.33,0.29,0.36,,M.Jones,D.Smith,D.Hill,,1,,10-M.Jones complete to 6-D.Smith. 6-D.Smith to BAMA 48 for -1 yard (30-D.Hill).
-Alabama,2Q,5,52,18,3,Normal,pass,,not successful,,0.30,0.27,0.33,,M.Jones,J.Jeudy,,,,,10-M.Jones incomplete. Intended for 4-J.Jeudy.
-Michigan,2Q,5,54,29,1,Normal,run,6,successful,0.69,,0.58,0.50,Z.Charbonnet,,,P.Mathis,,1,,24-Z.Charbonnet to MICH 26 for 6 yards (48-P.Mathis).
-Michigan,2Q,5,55,30,2,Normal,run,7,successful,0.71,,0.59,0.52,Z.Charbonnet,,,S.Lee,,1,,24-Z.Charbonnet to MICH 33 for 7 yards (35-S.Lee).
-Michigan,2Q,5,56,31,1,Normal,pass,7,successful,,0.50,0.61,0.50,,S.Patterson,N.Eubanks,,,,,2-S.Patterson complete to 82-N.Eubanks. 82-N.Eubanks to MICH 40 for 7 yards.
-Michigan,2Q,5,57,32,2,Normal,run,-1,not successful,0.67,,0.59,0.52,Z.Charbonnet,,,C.Harris,,1,,24-Z.Charbonnet to MICH 39 for -1 yard (8-C.Harris).
-Michigan,2Q,5,58,33,3,Normal,run,7,successful,0.69,,0.60,0.53,S.Patterson,,,S.Lee,,1,,2-S.Patterson to MICH 46 for 7 yards (35-S.Lee).
-Michigan,2Q,5,59,34,1,Normal,run,7,successful,0.71,,0.61,0.55,H.Haskins,,,X.McKinney,T.Musika,0.5,0.5,"25-H.Haskins to BAMA 47 for 7 yards (15-X.McKinney,91-T.Musika)."
-Michigan,2Q,5,60,35,2,Normal,run,2,not successful,0.67,,0.59,0.56,H.Haskins,,,T.Musika,A.Jennings,0.5,0.5,"25-H.Haskins to BAMA 45 for 2 yards (91-T.Musika,33-A.Jennings)."
-Michigan,2Q,5,61,36,3,Normal,run,5,successful,0.68,,0.61,0.58,S.Patterson,,,,,,,2-S.Patterson to BAMA 40 for 5 yards.
-Michigan,2Q,5,63,38,1,Normal,pass,22,explosive,,0.53,0.62,0.56,,S.Patterson,R.Bell,P.Surtain,X.McKinney,0.5,0.5,"2-S.Patterson complete to 8-R.Bell. 8-R.Bell to BAMA 28 for 22 yards (2-P.Surtain,15-X.McKinney)."
-Michigan,2Q,5,64,39,1,Normal,pass,,not successful,,0.50,0.60,0.54,,S.Patterson,D.Peoples-Jones,,,,,2-S.Patterson incomplete. Intended for 9-D.Peoples-Jones.
-Michigan,2Q,5,65,40,2,Normal,run,4,not successful,0.65,,0.58,0.56,Z.Charbonnet,,,C.Barmore,A.Jennings,0.5,0.5,"24-Z.Charbonnet to BAMA 24 for 4 yards (58-C.Barmore,33-A.Jennings)."
-Michigan,2Q,5,66,41,3,Normal,pass,-8,not successful,,0.47,0.57,0.54,,S.Patterson,R.Bell,,,,,"2-S.Patterson complete to 8-R.Bell. 8-R.Bell to BAMA 16 for 8 yards. Penalty on MICH 8-R.Bell, Pass touched by receiver who went OOB, 8 yards, enforced at BAMA 16."
-Alabama,2Q,6,69,20,1,Normal,pass,9,successful,,0.36,0.31,0.31,,M.Jones,J.Jeudy,J.Metellus,A.Hutchinson,0.5,0.5,"10-M.Jones complete to 4-J.Jeudy. 4-J.Jeudy to BAMA 34 for 9 yards (14-J.Metellus,97-A.Hutchinson)."
-Alabama,2Q,6,70,21,2,Normal,run,4,successful,0.33,,0.35,0.35,N.Harris,,,A.Hutchinson,M.Danna,0.5,0.5,"22-N.Harris to BAMA 38 for 4 yards (97-A.Hutchinson,4-M.Danna)."
-Alabama,2Q,6,71,22,1,Normal,pass,17,explosive,,0.42,0.39,0.33,,M.Jones,J.Jeudy,,,,,10-M.Jones complete to 4-J.Jeudy. 4-J.Jeudy runs ob at MICH 45 for 17 yards.
-Alabama,2Q,6,72,23,1,Normal,run,4,not successful,0.29,,0.37,0.37,N.Harris,,,M.Danna,,1,,22-N.Harris to MICH 41 for 4 yards (4-M.Danna).
-Alabama,2Q,6,73,24,2,Normal,pass,15,successful,,0.46,0.40,0.35,,M.Jones,J.Jeudy,,,,,"10-M.Jones incomplete. Intended for 4-J.Jeudy. Penalty on MICH 24-L.Hill, Pass interference, 15 yards, enforced at MICH 41. No Play."
-Alabama,2Q,6,74,25,1,Normal,pass,,not successful,,0.43,0.38,0.33,,M.Jones,D.Smith,,,,,10-M.Jones incomplete. Intended for 6-D.Smith.
-Alabama,2Q,6,75,26,2,Normal,run,5,not successful,0.25,,0.36,0.36,N.Harris,,,J.Metellus,,1,,22-N.Harris pushed ob at MICH 21 for 5 yards (14-J.Metellus).
-Alabama,2Q,6,77,28,3,Normal,no play,13,successful,,,0.39,,,,,,,,,"10-M.Jones incomplete. Intended for 22-N.Harris. Penalty on MICH 97-A.Hutchinson, Roughing the passer, 13 yards, enforced at MICH 26. No Play."
-Alabama,2Q,6,78,29,1,Red Zone,run,4,not successful,0.22,,0.38,0.39,N.Harris,,,J.Metellus,L.Hill,0.5,0.5,"22-N.Harris to MICH 9 for 4 yards (14-J.Metellus,24-L.Hill)."
-Alabama,2Q,6,79,30,2,Red Zone,run,9,successful,0.30,,0.40,0.42,N.Harris,,,,,,, 22-N.Harris runs 9 yards for a touchdown.
-Michigan,2Q,6,82,43,1,Normal,pass,18,explosive,,0.50,0.58,0.53,,S.Patterson,N.Collins,J.Jobe,,1,,2-S.Patterson complete to 4-N.Collins. 4-N.Collins to MICH 43 for 18 yards (28-J.Jobe).
-Michigan,2Q,6,83,44,1,Normal,no play,5,successful,,,0.59,,,,,,,,,"Penalty on BAMA 92-J.Eboigbe, Offside, 5 yards, enforced at MICH 43. No Play."
-Michigan,2Q,6,84,45,1,Normal,run,3,successful,0.67,,0.60,0.54,H.Haskins,,,S.Lee,,1,,25-H.Haskins to BAMA 49 for 3 yards (35-S.Lee).
-Michigan,2Q,6,85,46,2,Normal,run,4,successful,0.68,,0.61,0.55,H.Haskins,,,C.Harris,,1,,25-H.Haskins to BAMA 45 for 4 yards (8-C.Harris).
-Michigan,2Q,6,86,47,1,Normal,run,5,successful,0.70,,0.62,0.56,H.Haskins,,,J.Jobe,,1,,25-H.Haskins to BAMA 40 for 5 yards (28-J.Jobe).
-Michigan,2Q,6,87,48,2,Normal,run,2,not successful,0.67,,0.60,0.57,H.Haskins,,,R.Davis,C.Harris,0.5,0.5,"25-H.Haskins to BAMA 38 for 2 yards (99-R.Davis,8-C.Harris)."
-Michigan,2Q,6,88,49,3,Normal,run,1,not successful,0.64,,0.59,0.58,H.Haskins,,,A.Jennings,C.Harris,0.5,0.5,"25-H.Haskins to BAMA 37 for 1 yard (33-A.Jennings,8-C.Harris)."
-Michigan,2Q,6,89,50,4,Normal,run,2,successful,0.65,,0.60,0.59,H.Haskins,,,A.Jennings,,1,,25-H.Haskins to BAMA 35 for 2 yards (33-A.Jennings).
-Michigan,2Q,6,90,51,1,Normal,pass,,not successful,,0.47,0.59,0.58,,S.Patterson,S.McKeon,,,,,2-S.Patterson incomplete. Intended for 84-S.McKeon.
-Michigan,2Q,6,91,52,2,Normal,pass,-4,not successful,,0.45,0.57,0.57,,S.Patterson,,A.Jennings,T.Musika,0.5,0.5,"2-S.Patterson sacked at BAMA 39 for -4 yards (33-A.Jennings,91-T.Musika)."
-Alabama,3Q,7,94,31,1,Normal,run,-3,not successful,0.27,,0.38,0.44,N.Harris,,,A.Hutchinson,,1,,22-N.Harris to BAMA 22 for -3 yards (97-A.Hutchinson).
-Alabama,3Q,7,95,32,2,Normal,pass,25,explosive,,0.47,0.41,0.42,,M.Jones,H.Ruggs,J.Metellus,V.Gray,0.5,0.5,"10-M.Jones complete to 11-H.Ruggs. 11-H.Ruggs to BAMA 47 for 25 yards (14-J.Metellus,31-V.Gray)."
-Alabama,3Q,7,96,33,1,Normal,run,11,successful,0.33,,0.43,0.44,N.Harris,,,J.Glasgow,,1,,22-N.Harris to MICH 42 for 11 yards (29-J.Glasgow).
-Alabama,3Q,7,97,34,1,Normal,pass,42,explosive,,0.50,0.45,0.43,,M.Jones,D.Smith,,,,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith runs 42 yards for a touchdown.
-Michigan,3Q,7,100,54,1,Normal,run,9,successful,0.67,,0.58,0.57,R.Bell,,,J.Jobe,,1,,8-R.Bell to MICH 46 for 9 yards (28-J.Jobe).
-Michigan,3Q,7,101,55,2,Normal,pass,,not successful,,0.43,0.57,0.56,,S.Patterson,D.Peoples-Jones,,,,,2-S.Patterson incomplete. Intended for 9-D.Peoples-Jones.
-Michigan,3Q,7,103,57,3,Normal,pass,8,successful,,0.45,0.58,0.55,,S.Patterson,G.Jackson,X.McKinney,,1,,2-S.Patterson complete to 15-G.Jackson. 15-G.Jackson to MICH 49 for 8 yards (15-X.McKinney).
-Michigan,3Q,7,104,58,1,Normal,pass,,not successful,,0.43,0.57,0.54,,S.Patterson,D.Peoples-Jones,,,,,2-S.Patterson incomplete. Intended for 9-D.Peoples-Jones.
-Michigan,3Q,7,105,59,2,Normal,run,1,not successful,0.64,,0.56,0.55,H.Haskins,,,P.Mathis,R.Davis,0.5,0.5,"25-H.Haskins to MICH 50 for 1 yard (48-P.Mathis,99-R.Davis)."
-Michigan,3Q,7,106,60,3,Normal,pass,-8,not successful,,0.42,0.55,0.54,,S.Patterson,,X.McKinney,,1,,2-S.Patterson sacked at MICH 42 for -8 yards (15-X.McKinney).
-Alabama,3Q,8,108,35,1,Normal,run,0,not successful,0.31,,0.43,0.45,H.Ruggs,,,J.Glasgow,,1,,11-H.Ruggs to BAMA 39 for no gain (29-J.Glasgow).
-Alabama,3Q,8,109,36,2,Normal,run,3,not successful,0.29,,0.42,0.47,B.Robinson,,,C.McGrone,J.Uche,0.5,0.5,"24-B.Robinson to BAMA 42 for 3 yards (44-C.McGrone,6-J.Uche)."
-Alabama,3Q,8,110,37,3,Normal,pass,,not successful,,0.47,0.41,0.45,,M.Jones,H.Ruggs,,,,,10-M.Jones incomplete. Intended for 11-H.Ruggs.
-Michigan,3Q,8,112,62,1,Normal,run,6,successful,0.66,,0.56,0.55,Z.Charbonnet,,,C.Harris,S.Lee,0.5,0.5,"24-Z.Charbonnet to MICH 24 for 6 yards (8-C.Harris,35-S.Lee)."
-Michigan,3Q,8,113,63,2,Normal,run,-1,not successful,0.63,,0.55,0.56,G.Jackson,,,C.Allen,,1,,15-G.Jackson pushed ob at MICH 23 for -1 yard (4-C.Allen).
-Michigan,3Q,8,114,64,3,Normal,pass,6,successful,,0.44,0.55,0.55,,S.Patterson,R.Bell,P.Surtain,,1,,2-S.Patterson complete to 8-R.Bell. 8-R.Bell to MICH 29 for 6 yards (2-P.Surtain).
-Michigan,3Q,8,115,65,1,Normal,pass,,not successful,,0.42,0.54,0.54,,S.Patterson,R.Bell,,,,,2-S.Patterson incomplete. Intended for 8-R.Bell.
-Michigan,3Q,8,116,66,2,Normal,run,2,not successful,0.61,,0.53,0.54,Z.Charbonnet,,,P.Surtain,X.McKinney,0.5,0.5,"24-Z.Charbonnet to MICH 31 for 2 yards (2-P.Surtain,15-X.McKinney)."
-Michigan,3Q,8,117,67,3,Normal,pass,,not successful,,0.41,0.53,0.53,,S.Patterson,R.Bell,,,,,2-S.Patterson incomplete. Intended for 8-R.Bell.
-Alabama,3Q,9,119,39,1,Normal,pass,7,successful,,0.50,0.42,0.44,,M.Jones,J.Waddle,J.Glasgow,,1,,10-M.Jones complete to 17-J.Waddle. 17-J.Waddle to BAMA 42 for 7 yards (29-J.Glasgow).
-Alabama,3Q,9,121,41,2,Normal,run,18,explosive,0.33,,0.44,0.45,B.Robinson,,,D.Hill,A.Hutchinson,0.5,0.5,"24-B.Robinson to MICH 45 for 18 yards (30-D.Hill,97-A.Hutchinson)."
-Alabama,3Q,9,122,42,1,Normal,run,-5,not successful,0.31,,0.43,0.47,B.Robinson,,,D.Hill,A.Hutchinson,0.5,0.5,"24-B.Robinson to MICH 50 for -5 yards (30-D.Hill,97-A.Hutchinson)."
-Alabama,3Q,9,123,43,2,Normal,pass,,not successful,,0.47,0.42,0.46,,M.Jones,J.Jeudy,,,,,10-M.Jones incomplete. Intended for 4-J.Jeudy.
-Alabama,3Q,9,125,45,3,Normal,pass,11,not successful,,0.45,0.41,0.44,,M.Jones,M.Forristall,J.Metellus,,1,,10-M.Jones complete to 87-M.Forristall. 87-M.Forristall to MICH 44 for 11 yards (14-J.Metellus).
-Michigan,3Q,9,127,69,1,Normal,run,5,successful,0.63,,0.53,0.54,H.Haskins,,,J.Jobe,X.McKinney,0.5,0.5,"25-H.Haskins to MICH 9 for 5 yards (28-J.Jobe,15-X.McKinney)."
-Michigan,3Q,9,128,70,2,Normal,run,2,not successful,0.61,,0.52,0.55,H.Haskins,,,T.Musika,P.Mathis,0.5,0.5,"25-H.Haskins to MICH 11 for 2 yards (91-T.Musika,48-P.Mathis)."
-Michigan,3Q,9,129,71,3,Normal,pass,19,explosive,,0.43,0.53,0.54,,S.Patterson,H.Haskins,C.Harris,,1,,2-S.Patterson complete to 25-H.Haskins. 25-H.Haskins to MICH 30 for 19 yards (8-C.Harris).
-Michigan,3Q,9,130,72,1,Normal,run,8,successful,0.62,,0.54,0.55,S.Patterson,,,X.McKinney,,1,,"2-S.Patterson scrambles, pushed ob at MICH 38 for 8 yards (15-X.McKinney)."
-Michigan,3Q,9,131,73,2,Normal,run,3,successful,0.63,,0.55,0.56,Z.Charbonnet,,,S.Carter,,1,,24-Z.Charbonnet to MICH 41 for 3 yards (5-S.Carter).
-Michigan,3Q,9,132,74,1,Normal,pass,,not successful,,0.41,0.54,0.55,,S.Patterson,R.Bell,,,,,2-S.Patterson incomplete. Intended for 8-R.Bell.
-Michigan,3Q,9,135,77,2,Normal,pass,17,explosive,,0.43,0.55,0.54,,S.Patterson,R.Bell,S.Lee,,1,,2-S.Patterson complete to 8-R.Bell. 8-R.Bell to MICH 48 for 17 yards (35-S.Lee).
-Michigan,3Q,9,136,78,3,Normal,pass,12,successful,,0.45,0.55,0.53,,S.Patterson,N.Collins,P.Surtain,J.Mayden,0.5,0.5,"2-S.Patterson complete to 4-N.Collins. 4-N.Collins to BAMA 40 for 12 yards (2-P.Surtain,21-J.Mayden)."
-Michigan,4Q,10,137,79,1,Normal,run,2,not successful,0.61,,0.54,0.54,H.Haskins,,,A.Jennings,P.Mathis,0.5,0.5,"25-H.Haskins to BAMA 38 for 2 yards (33-A.Jennings,48-P.Mathis)."
-Michigan,4Q,10,138,80,2,Normal,run,7,successful,0.62,,0.55,0.54,S.Patterson,,,J.Jobe,,1,,2-S.Patterson pushed ob at BAMA 31 for 7 yards (28-J.Jobe).
-Michigan,4Q,10,139,81,3,Normal,run,1,successful,0.63,,0.56,0.55,H.Haskins,,,J.Battle,,1,,25-H.Haskins to BAMA 30 for 1 yard (9-J.Battle).
-Michigan,4Q,10,140,82,1,Normal,pass,0,not successful,,0.44,0.55,0.54,,S.Patterson,,S.Lee,,1,,"2-S.Patterson sacked at BAMA 40 for -10 yards, FUMBLES (35-S.Lee). 24-Z.Charbonnet to BAMA 43 for no gain."
-Michigan,4Q,10,141,83,2,Normal,pass,,not successful,,0.42,0.54,0.54,,S.Patterson,R.Bell,,,,,2-S.Patterson incomplete. Intended for 8-R.Bell.
-Michigan,4Q,10,142,84,3,Normal,pass,2,not successful,,0.41,0.53,0.53,,S.Patterson,G.Jackson,P.Surtain,,1,,2-S.Patterson complete to 15-G.Jackson. 15-G.Jackson to BAMA 41 for 2 yards (2-P.Surtain).
-Alabama,4Q,10,144,47,1,Normal,run,-1,not successful,0.29,,0.39,0.46,N.Harris,,,C.McGrone,J.Metellus,0.5,0.5,"22-N.Harris to BAMA 8 for -1 yard (44-C.McGrone,14-J.Metellus)."
-Alabama,4Q,10,145,48,2,Normal,pass,,not successful,,0.43,0.38,0.45,,M.Jones,J.Jeudy,,,,,10-M.Jones incomplete. Intended for 4-J.Jeudy.
-Alabama,4Q,10,146,49,3,Normal,pass,14,successful,,0.45,0.40,0.44,,M.Jones,J.Jeudy,D.Hill,,1,,10-M.Jones complete to 4-J.Jeudy. 4-J.Jeudy pushed ob at BAMA 22 for 14 yards (30-D.Hill).
-Alabama,4Q,10,147,50,1,Normal,pass,58,explosive,,0.48,0.41,0.43,,M.Jones,J.Jeudy,V.Gray,,1,,10-M.Jones complete to 4-J.Jeudy. 4-J.Jeudy to MICH 20 for 58 yards (31-V.Gray).
-Alabama,4Q,10,148,51,1,Normal,pass,20,explosive,,0.50,0.43,0.41,,M.Jones,M.Forristall,,,,," 10-M.Jones complete to 87-M.Forristall. 87-M.Forristall runs 20 yards for a touchdown. Penalty on MICH 29-J.Glasgow, Holding, declined."
-Michigan,4Q,11,151,86,1,Normal,run,4,not successful,0.62,,0.53,0.53,H.Haskins,,,S.Lee,S.Carter,0.5,0.5,"25-H.Haskins to MICH 38 for 4 yards (35-S.Lee,5-S.Carter)."
-Michigan,4Q,11,152,87,2,Normal,pass,11,successful,,0.43,0.53,0.53,,S.Patterson,N.Collins,P.Surtain,,1,,2-S.Patterson complete to 4-N.Collins. 4-N.Collins to MICH 49 for 11 yards (2-P.Surtain).
-Michigan,4Q,11,153,88,1,Normal,pass,,not successful,,0.42,0.53,0.52,,S.Patterson,N.Collins,,,,,2-S.Patterson incomplete. Intended for 4-N.Collins.
-Michigan,4Q,11,154,89,2,Normal,run,-1,not successful,0.60,,0.52,0.53,H.Haskins,,,C.Harris,,1,,25-H.Haskins to MICH 48 for -1 yard (8-C.Harris).
-Michigan,4Q,11,155,90,3,Normal,pass,,not successful,,0.41,0.51,0.52,,S.Patterson,M.Sainristil,,,,,2-S.Patterson incomplete. Intended for 19-M.Sainristil.
-Alabama,4Q,11,157,52,1,Normal,run,0,not successful,0.28,,0.42,0.43,N.Harris,,,C.McGrone,J.Glasgow,0.5,0.5,"22-N.Harris to BAMA 18 for no gain (44-C.McGrone,29-J.Glasgow)."
-Alabama,4Q,11,158,53,2,Normal,run,0,not successful,0.26,,0.41,0.44,M.Jones,,,M.Danna,C.Hinton,0.5,0.5,"10-M.Jones scrambles to BAMA 18 for no gain (4-M.Danna,15-C.Hinton)."
-Alabama,4Q,11,159,54,3,Normal,pass,,not successful,,0.48,0.40,0.43,,M.Jones,D.Smith,,,,,10-M.Jones incomplete. Intended for 6-D.Smith.
-Michigan,4Q,12,161,92,1,Normal,pass,,not successful,,0.39,0.51,0.51,,S.Patterson,N.Eubanks,,,,,"2-S.Patterson incomplete. Intended for 82-N.Eubanks, INTERCEPTED by 5-S.Carter at BAMA 25. 5-S.Carter runs ob at BAMA 25 for no gain."
-Alabama,4Q,12,162,56,1,Normal,run,5,successful,0.30,,0.41,0.44,N.Harris,,,J.Metellus,,1,,22-N.Harris to BAMA 30 for 5 yards (14-J.Metellus).
-Alabama,4Q,12,163,57,2,Normal,run,1,not successful,0.29,,0.40,0.46,N.Harris,,,J.Metellus,,1,,22-N.Harris to BAMA 31 for 1 yard (14-J.Metellus).
-Alabama,4Q,12,164,58,3,Normal,pass,5,successful,,0.50,0.42,0.45,,M.Jones,M.Forristall,J.Metellus,,1,,10-M.Jones complete to 87-M.Forristall. 87-M.Forristall to BAMA 36 for 5 yards (14-J.Metellus).
-Alabama,4Q,12,165,59,1,Normal,run,6,successful,0.32,,0.43,0.46,N.Harris,,,K.Hudson,K.Paye,0.5,0.5,"22-N.Harris to BAMA 42 for 6 yards (7-K.Hudson,19-K.Paye)."
-Alabama,4Q,12,166,60,2,Normal,run,19,explosive,0.35,,0.44,0.47,N.Harris,,,J.Glasgow,,1,,22-N.Harris to MICH 39 for 19 yards (29-J.Glasgow).
-Alabama,4Q,12,167,61,1,Normal,run,16,explosive,0.38,,0.45,0.48,N.Harris,,,J.Glasgow,A.Thomas,0.5,0.5,"22-N.Harris to MICH 23 for 16 yards (29-J.Glasgow,1-A.Thomas)."
-Alabama,4Q,12,168,62,1,Normal,run,5,successful,0.40,,0.46,0.49,N.Harris,,,C.McGrone,J.Glasgow,0.5,0.5,"22-N.Harris to MICH 18 for 5 yards (44-C.McGrone,29-J.Glasgow)."
-Alabama,4Q,12,169,63,2,Red Zone,run,2,not successful,0.38,,0.45,0.50,N.Harris,,,K.Hudson,,1,,22-N.Harris to MICH 16 for 2 yards (7-K.Hudson).
-Alabama,4Q,12,170,64,3,Red Zone,run,12,successful,0.41,,0.46,0.51,N.Harris,,,A.Thomas,,1,,22-N.Harris pushed ob at MICH 4 for 12 yards (1-A.Thomas).
-Alabama,4Q,12,171,65,1,Red Zone,run,0,not successful,0.39,,0.45,0.52,N.Harris,,,T.Black,,1,,22-N.Harris to MICH 4 for no gain (7-T.Black).
-Alabama,4Q,12,172,66,2,Red Zone,run,2,not successful,0.38,,0.45,0.53,N.Harris,,,M.Danna,D.Hill,0.5,0.5,"22-N.Harris to MICH 2 for 2 yards (4-M.Danna,30-D.Hill)."
-Alabama,4Q,12,173,67,3,Red Zone,run,2,successful,0.40,,0.46,0.54,N.Harris,,,,,,, 22-N.Harris runs 2 yards for a touchdown.
-Michigan,4Q,13,176,93,1,Normal,pass,7,successful,,0.41,0.51,0.51,,S.Patterson,N.Collins,S.Lee,,1,,2-S.Patterson complete to 4-N.Collins. 4-N.Collins to BAMA 41 for 7 yards (35-S.Lee).
-Michigan,4Q,13,177,94,2,Normal,pass,,not successful,,0.40,0.51,0.50,,S.Patterson,,,,,,2-S.Patterson incomplete.
-Michigan,4Q,13,178,95,3,Normal,pass,,not successful,,0.39,0.50,0.49,,S.Patterson,,,,,,"2-S.Patterson incomplete. INTERCEPTED by 28-J.Jobe at BAMA End Zone. 28-J.Jobe, touchback."
+Auburn,1Q,1,2,1,1,Normal,pass,,not successful,,0.00,0.00,0.00,,J.Stidham,S.Williams,,,,,8-J.Stidham incomplete. Intended for 18-S.Williams.
+Auburn,1Q,1,3,2,2,Normal,pass,,not successful,,0.00,0.00,0.00,,J.Stidham,D.Slayton,,,,,8-J.Stidham incomplete. Intended for 81-D.Slayton.
+Auburn,1Q,1,4,3,3,Normal,pass,,not successful,,0.00,0.00,0.00,,J.Stidham,S.Williams,,,,,8-J.Stidham incomplete. Intended for 18-S.Williams.
+Alabama,1Q,1,7,2,1,Normal,run,5,successful,1.00,,1.00,1.00,D.Harris,,,D.Davis,,1,,34-D.Harris to BAMA 18 for 5 yards (57-D.Davis).
+Alabama,1Q,1,8,3,2,Normal,pass,13,successful,,1.00,1.00,0.50,,T.Tagovailoa,J.Jeudy,N.Igbinoghene,,1,,13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy pushed ob at BAMA 31 for 13 yards (4-N.Igbinoghene).
+Alabama,1Q,1,9,4,1,Normal,run,3,not successful,0.50,,0.67,0.67,D.Harris,,,D.Brown,D.Russell,0.5,0.5,"34-D.Harris to BAMA 34 for 3 yards (5-D.Brown,95-D.Russell)."
+Alabama,1Q,1,10,5,2,Normal,pass,11,successful,,1.00,0.75,0.50,,T.Tagovailoa,I.Smith,D.Thomas,,1,,13-T.Tagovailoa complete to 82-I.Smith. 82-I.Smith to BAMA 45 for 11 yards (24-D.Thomas).
+Alabama,1Q,1,11,6,1,Normal,run,5,successful,0.67,,0.80,0.60,D.Harris,,,D.Russell,D.Williams,0.5,0.5,"34-D.Harris to BAMA 50 for 5 yards (95-D.Russell,49-D.Williams)."
+Alabama,1Q,1,12,7,2,Normal,pass,,not successful,,0.67,0.67,0.50,,T.Tagovailoa,H.Ruggs,,,,,13-T.Tagovailoa incomplete. Intended for 11-H.Ruggs.
+Alabama,1Q,1,13,8,3,Normal,pass,,not successful,,0.50,0.57,0.43,,T.Tagovailoa,J.Jeudy,,,,,13-T.Tagovailoa incomplete. Intended for 4-J.Jeudy.
+Auburn,1Q,2,15,5,1,Normal,run,1,not successful,0.00,,0.00,0.25,J.Whitlow,,,C.Miller,M.Wilson,0.5,0.5,"28-J.Whitlow to AUB 13 for 1 yard (47-C.Miller,30-M.Wilson)."
+Auburn,1Q,2,16,6,2,Normal,run,8,successful,0.50,,0.20,0.40,K.Martin,,,D.Thompson,,1,,9-K.Martin to AUB 21 for 8 yards (14-D.Thompson).
+Auburn,1Q,2,17,7,3,Normal,run,4,successful,0.67,,0.33,0.50,K.Martin,,,S.Carter,I.Buggs,0.5,0.5,"9-K.Martin to AUB 25 for 4 yards (5-S.Carter,49-I.Buggs)."
+Auburn,1Q,2,18,8,1,Normal,penalty,-10,not successful,,,0.29,,,,,,,,,"25-S.Shivers to AUB 26 for 1 yard. Penalty on AUB 80-S.Cannella, Holding, 10 yards, enforced at AUB 26."
+Auburn,1Q,2,20,10,1,Normal,pass,,not successful,,0.00,0.25,0.43,,J.Stidham,J.Whitlow,,,,,8-J.Stidham incomplete. Intended for 28-J.Whitlow.
+Auburn,1Q,2,21,11,2,Normal,pass,1,not successful,,0.00,0.22,0.38,,J.Stidham,R.Davis,L.Ray,X.McKinney,0.5,0.5,"8-J.Stidham complete to 23-R.Davis. 23-R.Davis to AUB 9 for 1 yard (89-L.Ray,15-X.McKinney)."
+Auburn,1Q,2,22,12,3,Normal,run,0,not successful,0.50,,0.20,0.44,J.Whitlow,,,C.Miller,,1,,28-J.Whitlow to AUB 9 for no gain (47-C.Miller).
+Alabama,1Q,2,24,10,1,Normal,pass,,not successful,,0.40,0.50,0.38,,T.Tagovailoa,J.Jeudy,,,,,13-T.Tagovailoa incomplete. Intended for 4-J.Jeudy.
+Alabama,1Q,2,25,11,2,Normal,pass,21,explosive,,0.50,0.56,0.33,,T.Tagovailoa,H.Ruggs,J.Davis,,1,,13-T.Tagovailoa complete to 11-H.Ruggs. 11-H.Ruggs to AUB 13 for 21 yards (13-J.Davis).
+Alabama,1Q,2,26,12,1,Red Zone,pass,4,not successful,,0.43,0.50,0.30,,T.Tagovailoa,H.Ruggs,D.Davis,D.Thomas,0.5,0.5,"13-T.Tagovailoa complete to 11-H.Ruggs. 11-H.Ruggs pushed ob at AUB 9 for 4 yards (57-D.Davis,24-D.Thomas)."
+Alabama,1Q,2,27,13,2,Red Zone,run,2,not successful,0.50,,0.45,0.36,J.Jacobs,,,M.Davidson,D.Davis,0.5,0.5,"8-J.Jacobs to AUB 7 for 2 yards (3-M.Davidson,57-D.Davis)."
+Alabama,1Q,2,28,14,3,Red Zone,run,7,successful,0.60,,0.50,0.42,T.Tagovailoa,,,,,,, 13-T.Tagovailoa runs 7 yards for a touchdown.
+Auburn,1Q,3,31,14,1,Normal,run,8,successful,0.60,,0.27,0.50,J.Whitlow,,,D.Thompson,,1,,28-J.Whitlow to AUB 35 for 8 yards (14-D.Thompson).
+Auburn,1Q,3,32,15,2,Normal,run,4,successful,0.67,,0.33,0.55,J.Whitlow,,,M.Wilson,A.Jennings,0.5,0.5,"28-J.Whitlow to AUB 39 for 4 yards (30-M.Wilson,33-A.Jennings)."
+Auburn,1Q,3,33,16,1,Normal,run,8,successful,0.71,,0.38,0.58,J.Whitlow,,,S.Smith,,1,,28-J.Whitlow to AUB 47 for 8 yards (4-S.Smith).
+Auburn,1Q,3,34,17,2,Normal,run,1,not successful,0.63,,0.36,0.62,J.Whitlow,,,D.Moses,,1,,28-J.Whitlow to AUB 48 for 1 yard (32-D.Moses).
+Auburn,1Q,3,35,18,3,Normal,run,4,successful,0.67,,0.40,0.64,J.Whitlow,,,S.Smith,L.Ray,0.5,0.5,"28-J.Whitlow to BAMA 48 for 4 yards (4-S.Smith,89-L.Ray)."
+Auburn,1Q,3,36,19,1,Normal,pass,12,successful,,0.17,0.44,0.60,,J.Stidham,R.Davis,M.Wilson,,1,,8-J.Stidham complete to 23-R.Davis. 23-R.Davis to BAMA 36 for 12 yards (30-M.Wilson).
+Auburn,1Q,3,37,20,1,Normal,pass,-3,not successful,,0.14,0.41,0.56,,J.Stidham,,L.Ray,,1,,8-J.Stidham sacked at BAMA 39 for -3 yards (89-L.Ray).
+Auburn,1Q,3,38,21,2,Normal,pass,,not successful,,0.13,0.39,0.53,,J.Stidham,A.Schwartz,,,,,8-J.Stidham incomplete. Intended for 5-A.Schwartz.
+Auburn,1Q,3,39,22,3,Normal,pass,25,explosive,,0.22,0.42,0.50,,J.Stidham,J.Whitlow,P.Surtain,,1,,8-J.Stidham complete to 28-J.Whitlow. 28-J.Whitlow pushed ob at BAMA 14 for 25 yards (2-P.Surtain).
+Auburn,1Q,3,40,23,1,Red Zone,no play,5,successful,,,0.45,,,,,L.Ray,,1,,"28-J.Whitlow to BAMA 14 for no gain (89-L.Ray). Team penalty on BAMA, 12 men in the huddle, 5 yards, enforced at BAMA 14. No Play."
+Auburn,1Q,3,41,24,1,Red Zone,run,9,successful,0.70,,0.48,0.53,A.Schwartz,,,,,,, 5-A.Schwartz runs 9 yards for a touchdown.
+Alabama,1Q,3,44,15,1,Normal,run,1,not successful,0.50,,0.46,0.46,N.Harris,,,T.Truesdell,,1,,22-N.Harris to BAMA 36 for 1 yard (94-T.Truesdell).
+Alabama,1Q,3,45,16,2,Normal,pass,4,not successful,,0.38,0.43,0.43,,T.Tagovailoa,D.Smith,J.Dean,,1,,13-T.Tagovailoa complete to 6-D.Smith. 6-D.Smith pushed ob at BAMA 40 for 4 yards (12-J.Dean).
+Alabama,1Q,3,46,17,3,Normal,run,21,explosive,0.57,,0.47,0.47,T.Tagovailoa,,,D.Thomas,,1,,"13-T.Tagovailoa scrambles, pushed ob at AUB 39 for 21 yards (24-D.Thomas)."
+Alabama,1Q,3,47,18,1,Normal,pass,2,not successful,,0.33,0.44,0.44,,T.Tagovailoa,N.Harris,D.Williams,,1,,13-T.Tagovailoa complete to 22-N.Harris. 22-N.Harris to AUB 37 for 2 yards (49-D.Williams).
+Alabama,1Q,3,48,19,2,Normal,pass,15,successful,,0.40,0.47,0.41,,T.Tagovailoa,J.Jacobs,,,,,"13-T.Tagovailoa complete to 8-J.Jacobs. 8-J.Jacobs pushed ob at AUB 30 for 7 yards. Penalty on AUB 57-D.Davis, Facemasking, 15 yards, enforced at AUB 30."
+Alabama,2Q,4,49,20,1,Red Zone,run,1,not successful,0.50,,0.44,0.44,N.Harris,,,S.Monday,D.Brown,0.5,0.5,"22-N.Harris to AUB 14 for 1 yard (21-S.Monday,5-D.Brown)."
+Alabama,2Q,4,50,21,2,Red Zone,pass,10,successful,,0.45,0.47,0.42,,T.Tagovailoa,J.Jeudy,J.Davis,,1,,13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy pushed ob at AUB 4 for 10 yards (13-J.Davis).
+Alabama,2Q,4,51,22,1,Red Zone,pass,4,successful,,0.50,0.50,0.40,,T.Tagovailoa,H.Ruggs,,,,, 13-T.Tagovailoa complete to 11-H.Ruggs. 11-H.Ruggs runs 4 yards for a touchdown.
+Auburn,2Q,4,54,25,1,Normal,pass,-2,not successful,,0.20,0.45,0.50,,J.Stidham,R.Davis,S.Carter,X.McKinney,0.5,0.5,"8-J.Stidham complete to 23-R.Davis. 23-R.Davis to AUB 23 for -2 yards (5-S.Carter,15-X.McKinney)."
+Auburn,2Q,4,55,26,2,Normal,pass,,not successful,,0.18,0.43,0.48,,J.Stidham,,,,,,8-J.Stidham incomplete.
+Auburn,2Q,4,57,28,3,Normal,pass,,not successful,,0.17,0.42,0.45,,J.Stidham,S.Williams,,,,,8-J.Stidham incomplete. Intended for 18-S.Williams.
+Alabama,2Q,5,59,23,1,Normal,pass,11,successful,,0.54,0.52,0.38,,T.Tagovailoa,D.Harris,K.Britt,,1,,13-T.Tagovailoa complete to 34-D.Harris. 34-D.Harris to BAMA 43 for 11 yards (33-K.Britt).
+Alabama,2Q,5,60,24,1,Normal,run,8,successful,0.56,,0.55,0.41,D.Harris,,,N.Igbinoghene,D.Williams,0.5,0.5,"34-D.Harris to AUB 49 for 8 yards (4-N.Igbinoghene,49-D.Williams)."
+Alabama,2Q,5,61,25,2,Normal,pass,,not successful,,0.50,0.52,0.39,,T.Tagovailoa,I.Smith,,,,,13-T.Tagovailoa incomplete. Intended for 82-I.Smith.
+Alabama,2Q,5,62,26,3,Normal,run,13,successful,0.60,,0.54,0.42,J.Jacobs,,,N.Igbinoghene,,1,,8-J.Jacobs pushed ob at AUB 36 for 13 yards (4-N.Igbinoghene).
+Alabama,2Q,5,64,28,1,Normal,pass,15,successful,,0.53,0.56,0.40,,T.Tagovailoa,J.Waddle,,,,,"13-T.Tagovailoa incomplete. Intended for 17-J.Waddle. Penalty on AUB 13-J.Davis, Pass interference, 15 yards, enforced at AUB 41. No Play."
+Alabama,2Q,5,65,29,1,Normal,run,4,not successful,0.55,,0.54,0.42,D.Harris,,,D.Brown,D.Williams,0.5,0.5,"34-D.Harris to AUB 22 for 4 yards (5-D.Brown,49-D.Williams)."
+Alabama,2Q,5,66,30,2,Normal,pass,,not successful,,0.50,0.52,0.41,,T.Tagovailoa,I.Smith,,,,,13-T.Tagovailoa incomplete. Intended for 82-I.Smith.
+Alabama,2Q,5,67,31,3,Normal,pass,11,successful,,0.53,0.54,0.39,,T.Tagovailoa,H.Ruggs,N.Igbinoghene,,1,,13-T.Tagovailoa complete to 11-H.Ruggs. 11-H.Ruggs to AUB 11 for 11 yards (4-N.Igbinoghene).
+Alabama,2Q,5,68,32,1,Red Zone,pass,0,not successful,,0.50,0.52,0.38,,T.Tagovailoa,J.Jeudy,J.Sherwood,,1,,13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy to AUB 11 for no gain (9-J.Sherwood).
+Alabama,2Q,5,69,33,2,Red Zone,pass,0,not successful,,0.47,0.50,0.37,,T.Tagovailoa,,D.Davis,J.Sherwood,0.5,0.5,"13-T.Tagovailoa sacked at AUB 21 for -10 yards. Penalty on BAMA 13-T.Tagovailoa, Intentional grounding, 0 yards, enforced at AUB 21. (57-D.Davis,9-J.Sherwood)."
+Alabama,2Q,5,70,34,3,Normal,pass,10,not successful,,0.45,0.48,0.35,,T.Tagovailoa,J.Waddle,,,,,13-T.Tagovailoa complete to 17-J.Waddle. 17-J.Waddle to AUB 11 for 10 yards.
+Auburn,2Q,5,73,30,1,Normal,pass,,not successful,,0.15,0.40,0.43,,J.Stidham,J.Shenker,,,,,8-J.Stidham incomplete. Intended for 47-J.Shenker.
+Auburn,2Q,5,74,31,2,Normal,run,3,not successful,0.64,,0.38,0.46,J.Whitlow,,,P.Mathis,R.Davis,0.5,0.5,"28-J.Whitlow to AUB 28 for 3 yards (48-P.Mathis,99-R.Davis)."
+Auburn,2Q,5,75,32,3,Normal,no play,15,successful,,,0.41,,,,,M.Wilson,A.Williams,0.5,0.5,"8-J.Stidham sacked at AUB 17 for -11 yards. Penalty on BAMA 92-Q.Williams, Facemasking, 15 yards, enforced at AUB 28. No Play. (30-M.Wilson,79-A.Williams)."
+Auburn,2Q,5,76,33,1,Normal,run,3,not successful,0.58,,0.39,0.48,A.Schwartz,,,S.Smith,,1,,5-A.Schwartz pushed ob at AUB 46 for 3 yards (4-S.Smith).
+Auburn,2Q,5,77,34,2,Normal,pass,,not successful,,0.14,0.38,0.46,,J.Stidham,,,,,,8-J.Stidham incomplete.
+Auburn,2Q,5,78,35,3,Normal,pass,,not successful,,0.13,0.37,0.44,,J.Stidham,D.Slayton,,,,,8-J.Stidham incomplete. Intended for 81-D.Slayton.
+Alabama,2Q,6,80,36,1,Normal,run,-1,not successful,0.50,,0.47,0.38,J.Jacobs,,,D.Davis,,1,,8-J.Jacobs to BAMA 15 for -1 yard (57-D.Davis).
+Alabama,2Q,6,81,37,2,Normal,pass,8,successful,,0.48,0.48,0.36,,T.Tagovailoa,J.Jeudy,J.Davis,,1,,13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy to BAMA 23 for 8 yards (13-J.Davis).
+Alabama,2Q,6,82,38,3,Normal,run,2,not successful,0.46,,0.47,0.38,J.Jacobs,,,C.Miller,,1,,8-J.Jacobs to BAMA 25 for 2 yards (8-C.Miller).
+Auburn,2Q,6,84,37,1,Normal,pass,0,not successful,,0.13,0.35,0.43,,J.Stidham,A.Schwartz,S.Smith,,1,,"8-J.Stidham complete to 5-A.Schwartz. 5-A.Schwartz to BAMA 23, FUMBLES (4-S.Smith). 76-P.Wanogho to BAMA 23 for no gain."
+Auburn,2Q,6,85,38,2,Normal,pass,23,explosive,,0.18,0.38,0.41,,R.Davis,M.Miller,,,,, 23-R.Davis complete to 32-M.Miller. 32-M.Miller runs 23 yards for a touchdown.
+Alabama,2Q,7,88,40,1,Normal,pass,,not successful,,0.45,0.46,0.37,,T.Tagovailoa,H.Ruggs,,,,,13-T.Tagovailoa incomplete. Intended for 11-H.Ruggs.
+Alabama,2Q,7,89,41,2,Normal,run,1,not successful,0.43,,0.44,0.39,N.Harris,,,B.Bryant,M.Atkinson,0.5,0.5,"22-N.Harris to BAMA 26 for 1 yard (1-B.Bryant,48-M.Atkinson)."
+Alabama,2Q,7,90,42,3,Normal,run,8,not successful,0.40,,0.43,0.41,T.Tagovailoa,,,N.Igbinoghene,,1,,"13-T.Tagovailoa scrambles, pushed ob at BAMA 34 for 8 yards (4-N.Igbinoghene)."
+Auburn,2Q,7,92,39,1,Normal,run,7,successful,0.62,,0.39,0.43,J.Whitlow,,,D.Thompson,D.Moses,0.5,0.5,"28-J.Whitlow to AUB 27 for 7 yards (14-D.Thompson,32-D.Moses)."
+Auburn,2Q,7,93,40,2,Normal,run,3,successful,0.64,,0.41,0.45,J.Whitlow,,,Q.Williams,L.Ray,0.5,0.5,"28-J.Whitlow to AUB 30 for 3 yards (92-Q.Williams,89-L.Ray)."
+Auburn,2Q,7,94,41,1,Normal,run,2,not successful,0.60,,0.40,0.47,S.Shivers,,,R.Davis,,1,,25-S.Shivers to AUB 32 for 2 yards (99-R.Davis).
+Auburn,2Q,7,95,42,2,Normal,run,1,not successful,0.56,,0.39,0.48,J.Whitlow,,,R.Davis,S.Carter,0.5,0.5,"28-J.Whitlow to AUB 33 for 1 yard (99-R.Davis,5-S.Carter)."
+Alabama,3Q,8,97,44,1,Normal,run,1,not successful,0.38,,0.42,0.42,D.Harris,,,D.Williams,,1,,34-D.Harris to BAMA 26 for 1 yard (49-D.Williams).
+Alabama,3Q,8,98,45,2,Normal,pass,8,successful,,0.48,0.44,0.41,,T.Tagovailoa,I.Smith,D.Williams,,1,,13-T.Tagovailoa complete to 82-I.Smith. 82-I.Smith to BAMA 34 for 8 yards (49-D.Williams).
+Alabama,3Q,8,99,46,3,Normal,run,12,successful,0.41,,0.45,0.43,J.Jacobs,,,J.Dinson,J.Dean,0.5,0.5,"8-J.Jacobs pushed ob at BAMA 46 for 12 yards (20-J.Dinson,12-J.Dean)."
+Alabama,3Q,8,100,47,1,Normal,pass,8,successful,,0.50,0.46,0.41,,T.Tagovailoa,I.Smith,J.Davis,,1,,13-T.Tagovailoa complete to 82-I.Smith. 82-I.Smith to AUB 46 for 8 yards (13-J.Davis).
+Alabama,3Q,8,101,48,2,Normal,pass,46,explosive,,0.52,0.48,0.40,,T.Tagovailoa,J.Jeudy,,,,, 13-T.Tagovailoa complete to 4-J.Jeudy. 4-J.Jeudy runs 46 yards for a touchdown.
+Auburn,3Q,8,104,43,1,Normal,pass,,not successful,,0.17,0.38,0.47,,J.Stidham,D.Slayton,,,,,8-J.Stidham incomplete. Intended for 81-D.Slayton.
+Auburn,3Q,8,105,44,2,Normal,run,1,not successful,0.53,,0.37,0.49,J.Whitlow,,,D.Moses,,1,,28-J.Whitlow to AUB 26 for 1 yard (32-D.Moses).
+Auburn,3Q,8,106,45,3,Normal,pass,6,not successful,,0.16,0.36,0.47,,J.Stidham,A.Schwartz,S.Carter,,1,,8-J.Stidham complete to 5-A.Schwartz. 5-A.Schwartz to AUB 32 for 6 yards (5-S.Carter).
+Alabama,3Q,9,108,49,1,Normal,pass,8,successful,,0.54,0.49,0.40,,T.Tagovailoa,D.Smith,R.McCreary,,1,,13-T.Tagovailoa complete to 6-D.Smith. 6-D.Smith to BAMA 39 for 8 yards (17-R.McCreary).
+Alabama,3Q,9,109,50,2,Normal,pass,11,successful,,0.56,0.50,0.39,,T.Tagovailoa,J.Jacobs,J.Davis,,1,,13-T.Tagovailoa complete to 8-J.Jacobs. 8-J.Jacobs to BAMA 50 for 11 yards (13-J.Davis).
+Alabama,3Q,9,110,51,1,Normal,penalty,15,successful,,,0.51,,,,,D.Russell,,1,,"22-N.Harris to AUB 48 for 2 yards (95-D.Russell). Penalty on AUB 95-D.Russell, Facemasking, 15 yards, enforced at AUB 48."
+Alabama,3Q,9,111,52,1,Normal,pass,33,explosive,,0.57,0.52,0.38,,T.Tagovailoa,J.Jacobs,,,,, 13-T.Tagovailoa complete to 8-J.Jacobs. 8-J.Jacobs runs 33 yards for a touchdown.
+Auburn,3Q,9,114,47,1,Normal,run,4,not successful,0.50,,0.35,0.49,J.Whitlow,,,D.Moses,R.Davis,0.5,0.5,"28-J.Whitlow to AUB 25 for 4 yards (32-D.Moses,99-R.Davis)."
+Auburn,3Q,9,115,48,2,Normal,pass,,not successful,,0.15,0.34,0.47,,J.Stidham,D.Slayton,,,,,8-J.Stidham incomplete. Intended for 81-D.Slayton.
+Auburn,3Q,9,116,49,3,Normal,pass,4,not successful,,0.14,0.33,0.46,,J.Stidham,R.Davis,S.Smith,J.Mayden,0.5,0.5,"8-J.Stidham complete to 23-R.Davis. 23-R.Davis to AUB 29 for 4 yards (4-S.Smith,21-J.Mayden)."
+Auburn,3Q,9,117,50,4,Normal,penalty,15,successful,,,0.35,,,,,,,,,"Penalty on BAMA 21-J.Mayden, Unnecessary roughness, 15 yards, enforced at AUB 29."
+Auburn,3Q,9,118,51,1,Normal,run,1,not successful,0.47,,0.34,0.48,J.Whitlow,,,A.Jennings,M.Wilson,0.5,0.5,"28-J.Whitlow to AUB 45 for 1 yard (33-A.Jennings,30-M.Wilson)."
+Auburn,3Q,9,119,52,2,Normal,pass,,not successful,,0.14,0.33,0.46,,J.Stidham,D.Slayton,,,,,8-J.Stidham incomplete. Intended for 81-D.Slayton.
+Auburn,3Q,9,120,53,3,Normal,pass,11,successful,,0.17,0.35,0.45,,J.Stidham,D.Slayton,,,,,8-J.Stidham complete to 81-D.Slayton. 81-D.Slayton to BAMA 44 for 11 yards.
+Auburn,3Q,9,121,54,1,Normal,no play,15,successful,,,0.36,,,,,,,,,"Penalty on BAMA 5-S.Carter, Roughing the passer, 15 yards, enforced at BAMA 44. No Play."
+Auburn,3Q,9,122,55,1,Normal,pass,4,not successful,,0.17,0.35,0.44,,J.Stidham,E.Stove,R.Davis,,1,,8-J.Stidham complete to 12-E.Stove. 12-E.Stove to BAMA 25 for 4 yards (99-R.Davis).
+Auburn,3Q,9,123,56,2,Normal,pass,,not successful,,0.16,0.35,0.43,,J.Stidham,A.Schwartz,,,,,8-J.Stidham incomplete. Intended for 5-A.Schwartz.
+Auburn,3Q,9,124,57,3,Normal,pass,2,not successful,,0.15,0.34,0.42,,J.Stidham,J.Whitlow,A.Jennings,,1,,8-J.Stidham complete to 28-J.Whitlow. 28-J.Whitlow to BAMA 23 for 2 yards (33-A.Jennings).
+Auburn,3Q,9,125,58,4,Normal,pass,3,not successful,,0.15,0.33,0.41,,M.Willis,A.Carlson,P.Surtain,,1,,14-M.Willis complete to 26-A.Carlson. 26-A.Carlson to BAMA 20 for 3 yards (2-P.Surtain).
+Alabama,3Q,10,126,53,1,Normal,pass,2,not successful,,0.55,0.51,0.37,,T.Tagovailoa,J.Jacobs,D.Brown,J.Sherwood,0.5,0.5,"13-T.Tagovailoa complete to 8-J.Jacobs. 8-J.Jacobs to BAMA 22 for 2 yards (5-D.Brown,9-J.Sherwood)."
+Alabama,3Q,10,127,54,2,Normal,run,4,not successful,0.39,,0.50,0.38,D.Harris,,,K.Britt,,1,,34-D.Harris to BAMA 26 for 4 yards (33-K.Britt).
+Alabama,3Q,10,128,55,3,Normal,pass,,not successful,,0.53,0.49,0.38,,T.Tagovailoa,H.Ruggs,,,,,13-T.Tagovailoa incomplete. Intended for 11-H.Ruggs.
+Auburn,3Q,10,130,59,1,Normal,run,4,not successful,0.45,,0.33,0.43,J.Whitlow,,,K.Anderson,,1,,28-J.Whitlow to AUB 44 for 4 yards (31-K.Anderson).
+Auburn,3Q,10,131,60,2,Normal,pass,4,not successful,,0.14,0.32,0.42,,J.Stidham,A.Schwartz,S.Smith,,1,,8-J.Stidham complete to 5-A.Schwartz. 5-A.Schwartz to AUB 48 for 4 yards (4-S.Smith).
+Auburn,3Q,10,132,61,3,Normal,pass,52,explosive,,0.17,0.33,0.41,,J.Stidham,D.Slayton,,,,, 8-J.Stidham complete to 81-D.Slayton. 81-D.Slayton runs 52 yards for a touchdown.
+Alabama,3Q,11,135,57,1,Normal,pass,20,explosive,,0.55,0.50,0.37,,T.Tagovailoa,D.Smith,D.Thomas,,1,,13-T.Tagovailoa complete to 6-D.Smith. 6-D.Smith to BAMA 45 for 20 yards (24-D.Thomas).
+Alabama,3Q,11,136,58,1,Normal,run,15,explosive,0.42,,0.51,0.38,N.Harris,,,N.Igbinoghene,D.Thomas,0.5,0.5,"22-N.Harris to AUB 40 for 15 yards (4-N.Igbinoghene,24-D.Thomas)."
+Alabama,3Q,11,137,59,1,Normal,pass,40,explosive,,0.56,0.52,0.37,,T.Tagovailoa,D.Smith,,,,, 13-T.Tagovailoa complete to 6-D.Smith. 6-D.Smith runs 40 yards for a touchdown.
+Auburn,3Q,11,140,62,1,Normal,run,2,not successful,0.43,,0.33,0.42,J.Whitlow,,,R.Davis,D.Moses,0.5,0.5,"28-J.Whitlow to AUB 24 for 2 yards (99-R.Davis,32-D.Moses)."
+Auburn,3Q,11,141,63,2,Normal,pass,0,not successful,,0.17,0.32,0.41,,J.Stidham,,Q.Williams,,1,,"8-J.Stidham sacked at AUB 13 for -11 yards. Penalty on AUB 8-J.Stidham, Intentional grounding, 0 yards, enforced at AUB 13. (92-Q.Williams)."
+Auburn,3Q,11,142,64,3,Normal,pass,-3,not successful,,0.16,0.32,0.40,,J.Stidham,,A.Jennings,,1,,8-J.Stidham sacked at AUB 10 for -3 yards (33-A.Jennings).
+Alabama,3Q,12,144,60,1,Normal,run,3,not successful,0.40,,0.51,0.38,D.Harris,,,D.Williams,,1,,34-D.Harris to AUB 40 for 3 yards (49-D.Williams).
+Alabama,4Q,13,145,61,2,Normal,run,8,successful,0.43,,0.52,0.40,D.Harris,,,D.Williams,,1,,34-D.Harris to AUB 32 for 8 yards (49-D.Williams).
+Alabama,4Q,13,146,62,1,Normal,pass,10,successful,,0.58,0.53,0.39,,T.Tagovailoa,J.Waddle,N.Igbinoghene,,1,,13-T.Tagovailoa complete to 17-J.Waddle. 17-J.Waddle pushed ob at AUB 22 for 10 yards (4-N.Igbinoghene).
+Alabama,4Q,13,147,63,1,Normal,pass,22,explosive,,0.59,0.54,0.38,,T.Tagovailoa,H.Ruggs,,,,, 13-T.Tagovailoa complete to 11-H.Ruggs. 11-H.Ruggs runs 22 yards for a touchdown.
+Auburn,4Q,12,150,66,1,Normal,run,5,successful,0.45,,0.33,0.42,S.Shivers,,,L.Ray,,1,,25-S.Shivers to AUB 30 for 5 yards (89-L.Ray).
+Auburn,4Q,12,151,67,2,Normal,run,4,successful,0.48,,0.34,0.43,J.Stidham,,,M.Wilson,,1,,8-J.Stidham to AUB 34 for 4 yards (30-M.Wilson).
+Auburn,4Q,12,152,68,3,Normal,run,2,successful,0.50,,0.35,0.44,J.Whitlow,,,L.Ray,A.Jennings,0.5,0.5,"28-J.Whitlow to AUB 36 for 2 yards (89-L.Ray,33-A.Jennings)."
+Auburn,4Q,12,153,69,1,Normal,run,2,not successful,0.48,,0.34,0.45,S.Shivers,,,A.Jennings,R.Davis,0.5,0.5,"25-S.Shivers to AUB 38 for 2 yards (33-A.Jennings,99-R.Davis)."
+Auburn,4Q,12,154,70,2,Normal,run,2,not successful,0.46,,0.34,0.46,S.Shivers,,,X.McKinney,,1,,25-S.Shivers to AUB 40 for 2 yards (15-X.McKinney).
+Auburn,4Q,12,155,71,3,Normal,run,7,successful,0.48,,0.35,0.47,J.Stidham,,,A.Jennings,,1,,8-J.Stidham scrambles to AUB 47 for 7 yards (33-A.Jennings).
+Auburn,4Q,12,156,72,1,Normal,run,3,not successful,0.46,,0.34,0.47,S.Shivers,,,Q.Williams,,1,,25-S.Shivers to AUB 50 for 3 yards (92-Q.Williams).
+Auburn,4Q,12,157,73,2,Normal,run,4,not successful,0.45,,0.34,0.48,S.Shivers,,,D.Moses,X.McKinney,0.5,0.5,"25-S.Shivers to BAMA 46 for 4 yards (32-D.Moses,15-X.McKinney)."
+Auburn,4Q,12,158,74,3,Normal,pass,,not successful,,0.16,0.33,0.48,,J.Stidham,J.Harris,M.Horton,,,,"8-J.Stidham incomplete. Intended for 85-J.Harris, INTERCEPTED by 33-A.Jennings at BAMA 39. 33-A.Jennings to BAMA 47 for 8 yards (64-M.Horton)."
+Alabama,4Q,14,159,64,1,Normal,pass,53,explosive,,0.60,0.54,0.38,,J.Hurts,J.Waddle,,,,, 2-J.Hurts complete to 17-J.Waddle. 17-J.Waddle runs 53 yards for a touchdown.
+Auburn,4Q,13,162,75,1,Normal,run,8,successful,0.47,,0.34,0.48,A.Schwartz,,,X.McKinney,,1,,5-A.Schwartz pushed ob at AUB 33 for 8 yards (15-X.McKinney).
+Auburn,4Q,13,163,76,2,Normal,run,1,not successful,0.45,,0.34,0.49,J.Whitlow,,,S.Carter,D.Moses,0.5,0.5,"28-J.Whitlow to AUB 34 for 1 yard (5-S.Carter,32-D.Moses)."
+Auburn,4Q,13,164,77,3,Normal,run,6,successful,0.47,,0.35,0.50,J.Whitlow,,,A.Jennings,,1,,28-J.Whitlow to AUB 40 for 6 yards (33-A.Jennings).
+Auburn,4Q,13,165,78,1,Normal,run,3,not successful,0.45,,0.34,0.51,S.Shivers,,,D.Moses,,1,,25-S.Shivers to AUB 43 for 3 yards (32-D.Moses).
+Auburn,4Q,13,166,79,2,Normal,pass,,not successful,,0.15,0.34,0.50,,J.Stidham,J.Whitlow,,,,,8-J.Stidham incomplete. Intended for 28-J.Whitlow.
+Auburn,4Q,13,167,80,3,Normal,no play,15,successful,,,0.35,,,,,,,,,"8-J.Stidham incomplete. Intended for 80-S.Cannella. Penalty on BAMA 92-Q.Williams, Roughing the passer, 15 yards, enforced at AUB 43. No Play."
+Auburn,4Q,13,168,81,1,Normal,pass,8,successful,,0.18,0.36,0.49,,J.Stidham,E.Stove,P.Surtain,,1,,8-J.Stidham complete to 12-E.Stove. 12-E.Stove to BAMA 34 for 8 yards (2-P.Surtain).
+Auburn,4Q,13,169,82,2,Normal,run,-2,not successful,0.44,,0.35,0.50,J.Stidham,,,D.Moses,,1,,8-J.Stidham to BAMA 36 for -2 yards (32-D.Moses).
+Auburn,4Q,13,171,84,3,Normal,pass,,not successful,,0.17,0.35,0.49,,J.Stidham,J.Whitlow,,,,,8-J.Stidham incomplete. Intended for 28-J.Whitlow.
+Alabama,4Q,15,173,65,1,Normal,run,3,not successful,0.41,,0.53,0.39,N.Harris,,,J.Davis,K.Britt,0.5,0.5,"22-N.Harris to BAMA 13 for 3 yards (13-J.Davis,33-K.Britt)."
+Alabama,4Q,15,174,66,2,Normal,run,2,not successful,0.39,,0.53,0.40,N.Harris,,,K.Britt,,1,,22-N.Harris to BAMA 15 for 2 yards (33-K.Britt).
+Alabama,4Q,15,175,67,3,Normal,run,3,not successful,0.38,,0.52,0.41,J.Hurts,,,D.Williams,,1,,2-J.Hurts scrambles to BAMA 18 for 3 yards (49-D.Williams).
+Auburn,4Q,14,177,86,1,Normal,run,4,not successful,0.43,,0.34,0.50,M.Willis,,,S.Carter,,1,,14-M.Willis to AUB 47 for 4 yards (5-S.Carter).
+Auburn,4Q,14,178,87,2,Normal,run,5,successful,0.44,,0.35,0.51,M.Willis,,,D.Thompson,L.Ray,0.5,0.5,"14-M.Willis to BAMA 48 for 5 yards (14-D.Thompson,89-L.Ray)."
+Auburn,4Q,14,179,88,3,Normal,run,3,successful,0.46,,0.36,0.51,S.Shivers,,,L.Ray,J.Dwight,0.5,0.5,"25-S.Shivers to BAMA 45 for 3 yards (89-L.Ray,95-J.Dwight)."
+Auburn,4Q,14,180,89,1,Normal,run,9,successful,0.47,,0.37,0.52,M.Willis,,,E.Anoma,,1,,14-M.Willis to BAMA 36 for 9 yards (9-E.Anoma).
+Auburn,4Q,14,181,90,2,Normal,run,2,successful,0.49,,0.38,0.53,S.Shivers,,,P.Mathis,L.Ray,0.5,0.5,"25-S.Shivers to BAMA 34 for 2 yards (48-P.Mathis,89-L.Ray)."
