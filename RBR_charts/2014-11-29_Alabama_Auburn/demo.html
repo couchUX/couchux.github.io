@@ -99,10 +99,6 @@
       <canvas id="receiversChart" height="300" width="400"></canvas>
     </div>
     
-    <h3>Top Tacklers (in order of appearance), Alabama</h3>
-    <div class="chartOuter" id="tacklersOuter">
-      <canvas id="tacklersChart" height="480" width="400"></canvas>
-    </div>
     
     <!-- Opponent player charts -->
     <h3>Top Runners (in order of appearance), Auburn</h3>
@@ -120,10 +116,6 @@
       <canvas id="receiversOpponentChart" height="300" width="400"></canvas>
     </div>
     
-    <h3>Top Tacklers (in order of appearance), Auburn</h3>
-    <div class="chartOuter" id="tacklersOpponentOuter">
-      <canvas id="tacklersOpponentChart" height="480" width="400"></canvas>
-    </div>
   
 
     <script src="../cfb-charts/js/vendor/modernizr-3.7.1.min.js"></script>
@@ -172,11 +164,9 @@
           runnersChart(teamOneData,"runners");
           passersChart(teamOneData,"passers");
           receiversChart(teamOneData,"receivers");
-          tacklersChart(teamOneData,teamTwoData,"tacklers");
           runnersChart(teamTwoData,"runnersOpponent");
           passersChart(teamTwoData,"passersOpponent");
           receiversChart(teamTwoData,"receiversOpponent");
-          tacklersChart(teamTwoData,teamOneData,"tacklersOpponent");
 
         }); };
     </script>

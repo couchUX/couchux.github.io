@@ -83,47 +83,6 @@
       <canvas id="runPassSrOpponentChart" height="240" width="400"></canvas>
     </div>
     
-    <!-- Alabama player charts -->
-    <h3>Top Runners (in order of appearance), Alabama</h3>
-    <div class="chartOuter" id="runnersOuter">
-      <canvas id="runnersChart" height="200" width="400"></canvas>
-    </div>
-    
-    <h3>Top Passers (in order of appearance), Alabama</h3>
-    <div class="chartOuter" id="passersOuter">
-      <canvas id="passersChart" height="100" width="400"></canvas>
-    </div>
-    
-    <h3>Top Receivers (in order of appearance), Alabama</h3>
-    <div class="chartOuter" id="receiversOuter">
-      <canvas id="receiversChart" height="300" width="400"></canvas>
-    </div>
-    
-    <h3>Top Tacklers (in order of appearance), Alabama</h3>
-    <div class="chartOuter" id="tacklersOuter">
-      <canvas id="tacklersChart" height="480" width="400"></canvas>
-    </div>
-    
-    <!-- Opponent player charts -->
-    <h3>Top Runners (in order of appearance), Auburn</h3>
-    <div class="chartOuter" id="runnersOpponentOuter">
-      <canvas id="runnersOpponentChart" height="200" width="400"></canvas>
-    </div>
-    
-    <h3>Top Passers (in order of appearance), Auburn</h3>
-    <div class="chartOuter" id="passersOpponentOuter">
-      <canvas id="passersOpponentChart" height="100" width="400"></canvas>
-    </div>
-    
-    <h3>Top Receivers (in order of appearance), Auburn</h3>
-    <div class="chartOuter" id="receiversOpponentOuter">
-      <canvas id="receiversOpponentChart" height="300" width="400"></canvas>
-    </div>
-    
-    <h3>Top Tacklers (in order of appearance), Auburn</h3>
-    <div class="chartOuter" id="tacklersOpponentOuter">
-      <canvas id="tacklersOpponentChart" height="480" width="400"></canvas>
-    </div>
   
 
     <script src="../cfb-charts/js/vendor/modernizr-3.7.1.min.js"></script>
@@ -169,14 +128,7 @@
           runRateChart(teamTwoData, "runRateOpponent");
           runPassSrChart(teamOneData, "runPassSr");
           runPassSrChart(teamTwoData, "runPassSrOpponent");
-          runnersChart(teamOneData,"runners");
-          passersChart(teamOneData,"passers");
-          receiversChart(teamOneData,"receivers");
-          tacklersChart(teamOneData,teamTwoData,"tacklers");
-          runnersChart(teamTwoData,"runnersOpponent");
-          passersChart(teamTwoData,"passersOpponent");
-          receiversChart(teamTwoData,"receiversOpponent");
-          tacklersChart(teamTwoData,teamOneData,"tacklersOpponent");
+         
 
         }); };
     </script>
