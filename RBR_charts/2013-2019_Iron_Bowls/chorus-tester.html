@@ -1,0 +1,113 @@
+<!-- file links and prep -->
+<link rel="stylesheet" href="https://couchux.github.io/RBR_charts/cfb-charts/css/main.css">
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js"></script>
+
+ <!-- script for chart js -->
+     <!-- script for chart js -->
+     <script> 
+        yearLabels = ['2013','2014','2015','2016','2017','2018','2019','Avg']
+        bama = {
+          name: 'Alabama',
+          color: 'rgba(244, 37, 37, 0.8)',
+          colorDark: 'rgba(128, 0, 0, 0.8)',
+          totalSr:  [0.43,0.34,0.41,0.36,0.32,0.37,0.36,0.37],
+          rushSr:    [0.5,0.33,0.41,0.33,0.43,0.3,0.43,0.39],
+          passSr:   [0.13,0.32,0.34,0.33,0.2,0.4,0.21,0.27],
+          totalXr:  [0.09,0.23,0.09,0.12,0.12,0.15,0.13,0.13],
+          rushXr:    [0.09,0.17,0.08,0.09,0.11,0.08,0.08,0.1],
+          passXr:   [0.3,0.32,0.12,0.16,0.14,0.2,0.2,0.21],
+
+        }
+        barn = {
+          name: 'Auburn',
+          color: 'rgba(73, 133, 207, 0.8)',
+          colorDark: 'rgba(20, 59, 107, 0.8)',
+          totalSr:  [0.42,0.34,0.22,0.15,0.30,0.34,0.30,0.29],
+          rushSr:    [0.52,0.38,0.38,0.29,0.23,0.49,0.22,0.35],
+          passSr:   [0.00,0.27,0.00,0.00,0.33,0.08,0.32,0.14],
+          totalXr:  [0.09,0.12,0.08,0.07,0.11,0.04,0.11,0.09],
+          rushXr:    [0.08,0.05,0.00,0.00,0.06,0.00,0.13,0.05],
+          passXr:   [0.10,0.20,0.19,0.14,0.20,0.09,0.10,0.15],
+        }
+        
+        srXrTemplate('yearsSrXrChart',bama.totalXr,'Bama XR',bama.totalSr,'Bama SR',barn.totalXr,'Barn XR',barn.totalSr,'Barn SR')
+        srXrTemplate('yearsRushSrXrChart',bama.rushXr,'Bama Rush XR',bama.rushSr,'Bama Rush SR',barn.rushXr,'Barn Rush XR',barn.rushSr,'Barn Rush SR')
+        srXrTemplate('yearsPassSrXrChart',bama.passXr,'Bama Pass XR',bama.passSr,'Bama Pass SR',barn.passXr,'Barn Pass XR',barn.passSr,'Barn Pass XR')
+        
+        function srXrTemplate(thisId,teamXr,teamXrLabel,teamSr,teamSrLabel,oppXr,oppXrLabel,oppSr,oppSrLabel) {
+          var ctx = document.getElementById(thisId);
+          new Chart(ctx, {
+              // plugins: [ChartDataLabels],
+              type: 'bar',
+              data: {
+                  labels: yearLabels,
+                  datasets: [{
+                      stack: bama.name,
+                      data: teamXr,
+                      backgroundColor: bama.colorDark,
+                      label: teamXrLabel,
+                  },
+                  {
+                      stack: bama.name,
+                      data: teamSr,
+                      backgroundColor: bama.color,
+                      label: teamSrLabel,
+                  }, 
+                  {
+                      stack: barn.name,
+                      data: oppXr,
+                      backgroundColor: barn.colorDark,
+                      label: oppXrLabel,
+                  }, 
+                  {
+                      stack: barn.name,
+                      data: oppSr,
+                      backgroundColor: barn.color,
+                      label: oppSrLabel,
+                  }]
+              },
+              options: {
+                  maintainAspectRatio: false,
+                  showAnimation: false,
+                  legend: {
+                    display: true,
+                    position: 'bottom',
+                    align: 'left',
+                    labels: {
+                      boxWidth: 12,
+                    }
+                  },
+                  scales: {
+                      xAxes: [{
+                          ticks: {
+                              callback: function(value) { return value },
+                              stacked: true,
+                          }
+                      }],
+                      yAxes: [{
+                          ticks: {
+                              suggestedMax: 0.8,
+                              callback: function(value) { return value * 100 + "%" }
+                          }
+                      }]
+                  },                
+                  tooltips: {
+                      callbacks: {
+                          label: function(tooltipItem, data) {
+                              var label = data.datasets[tooltipItem.datasetIndex].label || '';
+          
+                              if (label) {
+                                  label += ': ';
+                              }
+                              label += Math.round(tooltipItem.yLabel * 100) + "%";
+                              return label;
+                          }
+                      }
+                  },
+              }
+          });
+        }
+        
+  </script>
