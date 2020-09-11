@@ -1,0 +1,144 @@
+team,quarter,drive_team,play_count,play_count_team,down,red_zone,play_type,yards_total,play_result,run_sr,pass_sr,total_sr,run_rate,runner,passer,receiver,tackler_one,tackler_two,tackler_one_credit,tackler_two_credit,play_description
+Alabama,1Q,1,2,1,1,Normal,run,31,explosive,1.00,,1.00,1.00,#VALUE!,,,,,,,Yeldon rush middle for 31 yards to the Auburn45.
+Alabama,1Q,1,3,2,1,Normal,pass,10,successful,,1.00,1.00,0.50,,#VALUE!,,,,,,McCarron pass completion to the right to Cooper for 10 yards to the Auburn35.
+Alabama,1Q,1,4,3,1,Normal,run,5,successful,1.00,,1.00,0.67,#VALUE!,,,,,,,Yeldon rush middle for 5 yards to the Auburn30.
+Alabama,1Q,1,5,4,2,Normal,run,3,not successful,0.67,,0.75,0.75,#VALUE!,,,,,,,Yeldon rush right for 3 yards to the Auburn27.
+Alabama,1Q,1,6,5,3,Normal,run,-1,not successful,0.50,,0.60,0.80,1,,,,,,,Yeldon rush middle for -1 yard to the Auburn27.
+Auburn,1Q,2,8,1,1,Normal,run,14,successful,1.00,,1.00,1.00,#VALUE!,,,,,,,Grant rush for 14 yards to the Auburn42.
+Auburn,1Q,2,9,2,1,Normal,run,3,not successful,0.50,,0.50,1.00,#VALUE!,,,,,,,Mason rush middle for 3 yards to the Auburn45.
+Auburn,1Q,2,10,3,2,Normal,run,3,not successful,0.33,,0.33,1.00,#VALUE!,,,,,,,Mason rush middle for 3 yards to the Auburn48.
+Auburn,1Q,2,11,4,3,Normal,pass,,not successful,,0.00,0.25,0.75,,#VALUE!,,,,,,Marshall incomplete pass to the right.
+Alabama,1Q,2,13,7,1,Normal,pass,6,successful,,1.00,0.67,0.67,,#VALUE!,,,,,,McCarron pass completion to the left to Cooper for 6 yards to the Ala26.
+Alabama,1Q,2,14,8,2,Normal,run,1,not successful,0.40,,0.57,0.71,#VALUE!,,,,,,,Yeldon rush middle for 1 yard to the Ala27.
+Alabama,1Q,2,15,9,3,Normal,pass,,not successful,,0.67,0.50,0.63,,#VALUE!,,,,,,McCarron incomplete pass to the middle.
+Auburn,1Q,3,17,6,1,Normal,run,2,not successful,0.25,,0.20,0.80,#VALUE!,,,,,,,Marshall rush for 2 yards to the Auburn36.
+Auburn,1Q,3,18,7,1,Normal,pass,2,not successful,,0.00,0.17,0.67,,#VALUE!,,,,,,Marshall pass completion to the right to Louis for 2 yards to the Auburn27.
+Auburn,1Q,3,19,8,2,Normal,run,-2,not successful,0.20,,0.14,0.71,2,,,,,,,Grant rush for -2 yards to the Auburn26.
+Auburn,1Q,3,20,9,3,Normal,pass,21,explosive,,0.33,0.25,0.63,,#VALUE!,,,,,,Marshall pass completion to the right to Coates for 21 yards to the Auburn47.
+Auburn,1Q,3,21,10,1,Normal,run,7,successful,0.33,,0.33,0.67,#VALUE!,,,,,,,Mason rush for 7 yards to the Ala46.
+Auburn,1Q,3,22,11,2,Normal,run,1,not successful,0.29,,0.30,0.70,#VALUE!,,,,,,,Mason rush middle for 1 yard to the Ala45.
+Auburn,1Q,3,23,12,3,Normal,run,45,explosive,0.38,,0.36,0.73,#VALUE!,,,,,,, Marshall rush middle for 45 yards for a TOUCHDOWN.
+Alabama,1Q,3,25,11,1,Normal,run,5,successful,0.50,,0.56,0.67,#VALUE!,,,,,,,Yeldon rush right for 5 yards to the Ala30.
+Alabama,1Q,3,26,12,2,Normal,pass,,not successful,,0.50,0.50,0.60,,#VALUE!,,,,,,McCarron incomplete pass to the middle.
+Alabama,1Q,3,27,13,3,Normal,pass,4,not successful,,0.40,0.45,0.55,,#VALUE!,,,,,,McCarron pass completion to the middle to White for 4 yards to the Ala34.
+Auburn,1Q,4,29,13,1,Red Zone,run,8,successful,0.44,,0.42,0.75,#VALUE!,,,,,,,Mason rush for 8 yards to the Auburn24.
+Auburn,1Q,4,30,14,2,Normal,run,5,successful,0.50,,0.46,0.77,#VALUE!,,,,,,,Marshall rush middle for 5 yards to the Auburn29.
+Auburn,1Q,4,32,16,1,Normal,run,3,not successful,0.45,,0.43,0.79,#VALUE!,,,,,,,Mason rush middle for 3 yards to the Auburn32.
+Auburn,1Q,4,33,17,2,Normal,pass,-10,not successful,,0.25,0.40,0.73,,10,,,,,,Marshall sacked by Allen for -10 yards to the Auburn22.
+Auburn,1Q,4,34,18,3,Normal,run,2,not successful,0.42,,0.38,0.75,#VALUE!,,,,,,,Mason rush for 2 yards to the Auburn24.
+Alabama,1Q,4,36,15,1,Normal,pass,,not successful,,0.33,0.42,0.50,,#VALUE!,,,,,,McCarron incomplete pass to the right.
+Alabama,1Q,4,37,16,2,Normal,run,11,successful,0.57,,0.46,0.54,#VALUE!,,,,,,,Drake rush for 11 yards to the Ala44.
+Alabama,1Q,4,38,17,1,Normal,run,9,successful,0.63,,0.50,0.57,#VALUE!,,,,,,,Drake rush middle for 9 yards to the Auburn47.
+Alabama,2Q,5,39,18,2,Normal,run,6,successful,0.67,,0.53,0.60,#VALUE!,,,,,,, Drake rush middle for 6 yards to the Auburn41.
+Alabama,2Q,5,40,19,1,Normal,pass,-6,not successful,,0.29,0.50,0.56,,6,,,,,,McCarron sacked by Wright for -6 yards to the Auburn47.
+Alabama,2Q,5,41,20,2,Normal,pass,,not successful,,0.25,0.47,0.53,,#VALUE!,,,,,,McCarron incomplete pass to the left.
+Alabama,2Q,5,42,21,3,Normal,pass,9,not successful,,0.22,0.44,0.50,,#VALUE!,,,,,,McCarron pass completion to the middle to White for 9 yards to the Auburn38.
+Alabama,2Q,5,43,22,4,Normal,pass,11,successful,,0.30,0.47,0.47,,#VALUE!,,,,,,McCarron pass completion to the right to Howard for 11 yards to the Auburn22.
+Alabama,2Q,5,44,23,1,Normal,pass,12,successful,,0.36,0.50,0.45,,#VALUE!,,,,,,McCarron pass completion to the left to Howard for 12 yards to the Auburn10.
+Alabama,2Q,5,45,24,1,Red Zone,run,7,successful,0.70,,0.52,0.48,#VALUE!,,,,,,,Drake rush right for 7 yards to the Auburn3.
+Alabama,2Q,5,46,25,2,Red Zone,pass,3,successful,,0.42,0.55,0.45,,#VALUE!,,,,,, McCarron pass completion to the right to Fowler for 3 yards for a TOUCHDOWN.
+Auburn,2Q,5,48,20,1,Normal,run,4,not successful,0.38,,0.35,0.76,#VALUE!,,,,,,,Mason rush for 4 yards to the Auburn25.
+Auburn,2Q,5,49,21,2,Normal,pass,-2,not successful,,0.20,0.33,0.72,,2,,,,,,Marshall sacked by Dickson for -2 yards to the Auburn23.
+Auburn,2Q,5,50,22,3,Normal,pass,10,successful,,0.33,0.37,0.68,,#VALUE!,,,,,,Marshall pass completion to the right to Uzomah for 10 yards to the Auburn33.
+Auburn,2Q,5,51,23,1,Normal,run,2,successful,0.43,,0.40,0.70,#VALUE!,,,,,,,Mason rush for 2 yards to the Auburn35.
+Auburn,2Q,5,52,24,1,Normal,,,not successful,,,0.38,,,,,,,,,Mason fumbles
+Alabama,2Q,6,53,26,1,Normal,pass,9,successful,,0.46,0.57,0.43,,#VALUE!,,,,,,McCarron pass completion to the middle to Yeldon for 9 yards to the Auburn27.
+Alabama,2Q,6,54,27,2,Normal,run,-1,not successful,0.64,,0.54,0.46,1,,,,,,,Yeldon rush left for -1 yard to the Auburn28.
+Alabama,2Q,6,55,28,3,Normal,run,8,successful,0.67,,0.56,0.48,#VALUE!,,,,,,,Yeldon rush right for 8 yards to the Auburn20.
+Alabama,2Q,6,56,29,1,Normal,pass,20,explosive,,0.50,0.58,0.46,,#VALUE!,,,,,, McCarron pass completion to the middle to Norwood for 20 yards for a TOUCHDOWN.
+Auburn,2Q,6,58,25,1,Normal,pass,-3,not successful,,0.29,0.36,0.67,,3,,,,,,Marshall pass completion to the left to Louis for -3 yards to the Auburn22.
+Auburn,2Q,6,59,26,2,Normal,pass,,not successful,,0.25,0.35,0.64,,#VALUE!,,,,,,Marshall incomplete pass to the middle.
+Auburn,2Q,6,60,27,3,Normal,pass,-6,not successful,,0.22,0.33,0.61,,6,,,,,,Marshall sacked by Hubbard for -6 yards to the Auburn16.
+Alabama,2Q,7,62,30,1,Normal,run,13,successful,0.69,,0.59,0.48,#VALUE!,,,,,,,Yeldon rush for 13 yards to the Auburn43.
+Alabama,2Q,7,63,31,1,Normal,pass,,not successful,,0.47,0.57,0.46,,#VALUE!,,,,,,McCarron incomplete pass to the right.
+Alabama,2Q,7,64,32,2,Normal,pass,14,successful,,0.50,0.59,0.45,,#VALUE!,,,,,,McCarron pass completion to the middle to Norwood for 14 yards to the Auburn29.
+Alabama,2Q,7,65,33,1,Normal,run,28,explosive,0.71,,0.60,0.47,#VALUE!,,,,,,,Cooper rush for 28 yards to the Auburn1.
+Alabama,2Q,7,66,34,1,Red Zone,run,1,successful,0.73,,0.61,0.48,#VALUE!,,,,,,, Yeldon rush middle for 1 yard for a TOUCHDOWN.
+Auburn,2Q,7,68,29,1,Red Zone,run,8,successful,0.47,,0.36,0.63,#VALUE!,,,,,,,Mason rush right for 8 yards to the Auburn27.
+Auburn,2Q,7,69,30,2,Normal,run,40,explosive,0.50,,0.38,0.64,#VALUE!,,,,,,,Mason rush middle for 40 yards to the Ala33.
+Auburn,2Q,7,70,31,1,Normal,run,10,successful,0.53,,0.41,0.65,#VALUE!,,,,,,,Mason rush middle for 10 yards to the Ala23.
+Auburn,2Q,7,71,32,1,Normal,run,6,successful,0.56,,0.43,0.67,#VALUE!,,,,,,,Mason rush middle for 6 yards to the Ala17.
+Auburn,2Q,7,72,33,2,Red Zone,run,0,not successful,0.53,,0.41,0.68,#VALUE!,,,,,,,Mason rush middle for 0 yards.
+Auburn,2Q,7,73,34,3,Red Zone,run,16,explosive,0.55,,0.43,0.69,#VALUE!,,,,,,,Marshall rush for 16 yards to the Ala1.
+Auburn,2Q,7,74,35,1,Red Zone,run,1,successful,0.57,,0.45,0.70,#VALUE!,,,,,,, Mason rush middle for 1 yard for a TOUCHDOWN.
+Alabama,2Q,8,76,35,1,Normal,run,7,successful,0.75,,0.63,0.50,#VALUE!,,,,,,,McCarron rush for 7 yards to the Ala33.
+Alabama,2Q,8,77,36,2,Normal,run,2,not successful,0.71,,0.61,0.52,#VALUE!,,,,,,,Yeldon rush middle for 2 yards to the Ala35.
+Alabama,2Q,8,78,37,1,Normal,pass,,not successful,,0.47,0.59,0.50,,#VALUE!,,,,,,McCarron incomplete pass to the middle.
+Alabama,2Q,8,79,38,2,Normal,run,2,not successful,0.67,,0.57,0.51,#VALUE!,,,,,,,Yeldon rush middle for 2 yards to the Ala37.
+Alabama,2Q,8,80,39,3,Normal,run,6,not successful,0.63,,0.56,0.53,#VALUE!,,,,,,,Yeldon rush middle for 6 yards to the Ala43.
+Auburn,3Q,8,82,36,1,Normal,run,7,successful,0.59,,0.47,0.71,#VALUE!,,,,,,,Marshall rush middle for 7 yards to the Auburn38.
+Auburn,3Q,8,83,37,2,Normal,run,7,successful,0.61,,0.48,0.72,#VALUE!,,,,,,,Marshall rush middle for 7 yards to the Auburn45.
+Auburn,3Q,8,84,38,1,Normal,run,10,successful,0.63,,0.50,0.73,#VALUE!,,,,,,,Mason rush for 10 yards to the Ala45.
+Auburn,3Q,8,85,39,1,Normal,pass,10,successful,,0.30,0.51,0.71,,#VALUE!,,,,,,Marshall pass completion to the right to Bray for 10 yards to the Ala35.
+Auburn,3Q,8,86,40,1,Normal,run,5,successful,0.64,,0.53,0.71,#VALUE!,,,,,,,Mason rush middle for 5 yards to the Ala30.
+Auburn,3Q,8,87,41,2,Normal,pass,4,successful,,0.36,0.54,0.69,,#VALUE!,,,,,,Marshall pass completion to the left to Bray for 4 yards to the Ala26.
+Auburn,3Q,8,88,42,3,Normal,run,11,successful,0.65,,0.55,0.70,#VALUE!,,,,,,,Mason rush for 11 yards to the Ala15.
+Auburn,3Q,8,89,43,1,Red Zone,run,2,not successful,0.63,,0.54,0.71,#VALUE!,,,,,,,Marshall rush for 2 yards to the Ala13.
+Auburn,3Q,8,90,44,2,Red Zone,pass,13,successful,,0.42,0.55,0.69,,#VALUE!,,,,,, Marshall pass completion to the right to Uzomah for 13 yards for a TOUCHDOWN.
+Alabama,3Q,10,92,40,1,Normal,run,6,successful,0.65,,0.57,0.54,#VALUE!,,,,,,,Yeldon rush for 6 yards to the Ala31.
+Alabama,3Q,10,93,41,2,Normal,pass,-1,not successful,,0.44,0.55,0.53,,1,,,,,,McCarron pass completion to the middle to Yeldon for -1 yard to the Ala25.
+Alabama,3Q,10,94,42,3,Normal,pass,,not successful,,0.42,0.54,0.51,,#VALUE!,,,,,,McCarron incomplete pass to the right.
+Auburn,3Q,9,96,45,1,Normal,run,12,successful,0.64,,0.56,0.70,#VALUE!,,,,,,,Marshall rush middle for 12 yards to the Auburn34.
+Auburn,3Q,9,97,46,1,Normal,run,11,successful,0.66,,0.57,0.71,#VALUE!,,,,,,,Marshall rush for 11 yards to the Auburn45.
+Auburn,3Q,9,98,47,1,Normal,run,0,not successful,0.63,,0.56,0.71,#VALUE!,,,,,,,Grant rush for 0 yards.
+Auburn,3Q,9,99,48,2,Normal,run,10,successful,0.65,,0.57,0.72,#VALUE!,,,,,,,Marshall rush for 10 yards to the Ala45.
+Auburn,3Q,9,100,49,3,Normal,run,3,successful,0.66,,0.58,0.73,#VALUE!,,,,,,,Mason rush middle for 3 yards to the Ala42.
+Auburn,3Q,9,101,50,1,Normal,run,5,successful,0.67,,0.59,0.73,#VALUE!,,,,,,,Mason rush middle for 5 yards to the Ala37.
+Auburn,3Q,9,102,51,2,Normal,pass,-4,not successful,,0.38,0.57,0.72,,4,,,,,,Marshall pass completion to the left to Bray for -4 yards to the Ala41.
+Auburn,3Q,9,103,52,3,Normal,pass,-2,not successful,,0.36,0.56,0.70,,2,,,,,,Marshall pass completion to the right to Grant for -2 yards to the Ala43.
+Alabama,3Q,11,105,44,1,Red Zone,run,2,not successful,0.62,,0.53,0.53,#VALUE!,,,,,,,Yeldon rush middle for 2 yards to the Ala3.
+Alabama,3Q,11,106,45,2,Red Zone,run,-1,not successful,0.59,,0.51,0.54,1,,,,,,,Yeldon rush for -1 yard to the Ala2.
+Alabama,3Q,11,107,46,3,Red Zone,pass,54,explosive,,0.45,0.52,0.52,,#VALUE!,,,,,,McCarron pass completion to the right to Cooper for 54 yards to the Auburn44.
+Alabama,3Q,11,108,47,1,Normal,run,1,not successful,0.57,,0.51,0.53,#VALUE!,,,,,,,Yeldon rush middle for 1 yard to the Auburn43.
+Alabama,3Q,11,109,48,2,Normal,run,9,successful,0.58,,0.52,0.55,#VALUE!,,,,,,,McCarron rush for 9 yards to the Auburn34.
+Alabama,3Q,11,110,49,1,Normal,pass,7,successful,,0.48,0.53,0.53,,#VALUE!,,,,,,McCarron pass completion to the right to Jones for 7 yards to the Auburn27.
+Alabama,3Q,11,111,50,2,Normal,run,4,successful,0.60,,0.54,0.54,#VALUE!,,,,,,,Yeldon rush for 4 yards to the Auburn22.
+Alabama,3Q,11,112,51,1,Normal,pass,,not successful,,0.45,0.53,0.53,,#VALUE!,,,,,,McCarron incomplete pass to the left.
+Alabama,3Q,11,113,52,2,Normal,pass,11,successful,,0.48,0.54,0.52,,#VALUE!,,,,,,McCarron pass completion to the middle to Norwood for 11 yards to the Auburn16.
+Alabama,3Q,11,114,53,3,Red Zone,run,5,successful,0.62,,0.55,0.53,#VALUE!,,,,,,,McCarron rush middle for 5 yards to the Auburn11.
+Alabama,3Q,11,115,54,1,Red Zone,pass,,not successful,,0.46,0.54,0.52,,#VALUE!,,,,,,McCarron incomplete pass to the right.
+Alabama,4Q,12,116,55,2,Red Zone,pass,0,not successful,,0.44,0.53,0.51,,#VALUE!,,,,,, McCarron pass completion to the right to Cooper for 0 yards.
+Alabama,4Q,12,117,56,3,Red Zone,pass,,not successful,,0.42,0.52,0.50,,#VALUE!,,,,,,McCarron incomplete pass to the right.
+Auburn,4Q,10,119,54,1,Normal,run,15,explosive,0.68,,0.57,0.71,#VALUE!,,,,,,,Grant rush for 15 yards to the Auburn35.
+Auburn,4Q,10,120,55,1,Normal,run,8,successful,0.69,,0.58,0.71,#VALUE!,,,,,,,Marshall rush middle for 8 yards to the Auburn43.
+Auburn,4Q,10,121,56,2,Normal,run,1,not successful,0.67,,0.57,0.72,#VALUE!,,,,,,,Mason rush middle for 1 yard to the Auburn44.
+Auburn,4Q,10,122,57,3,Normal,run,3,successful,0.68,,0.58,0.73,#VALUE!,,,,,,,Mason rush middle for 3 yards to the Auburn47.
+Auburn,4Q,10,123,58,1,Normal,run,3,not successful,0.66,,0.57,0.73,#VALUE!,,,,,,,Mason rush middle for 3 yards to the 50.
+Auburn,4Q,10,124,59,2,Normal,run,3,not successful,0.64,,0.56,0.74,#VALUE!,,,,,,,Marshall rush middle for 3 yards to the Ala47.
+Auburn,4Q,10,125,60,3,Normal,pass,,not successful,,0.33,0.55,0.72,,#VALUE!,,,,,,Marshall incomplete pass to the right.
+Alabama,4Q,13,127,58,1,Red Zone,pass,99,explosive,,0.44,0.53,0.49,,#VALUE!,,,,,, McCarron pass completion to the right to Cooper for 99 yards for a TOUCHDOWN.
+Auburn,4Q,11,129,62,1,Normal,run,4,not successful,0.63,,0.54,0.73,Payne,,,,,,,Artis-Payne rush middle for 4 yards to the Auburn30.
+Auburn,4Q,11,130,63,2,Normal,run,1,not successful,0.61,,0.53,0.73,Payne,,,,,,,Artis-Payne rush middle for 1 yard to the Auburn31.
+Auburn,4Q,11,131,64,3,Normal,pass,4,not successful,,0.31,0.52,0.72,,Payne,,,,,,Marshall pass completion to the left to Artis-Payne for 4 yards to the Auburn35.
+Auburn,4Q,11,132,65,4,Normal,run,0,not successful,0.60,,0.51,0.72,#VALUE!,,,,,,,Marshall rush middle for 0 yards.
+Alabama,4Q,14,133,59,1,Normal,run,13,successful,0.63,,0.54,0.50,#VALUE!,,,,,,,Yeldon rush middle for 13 yards to the Auburn22.
+Alabama,4Q,14,134,60,1,Normal,run,7,successful,0.64,,0.55,0.51,#VALUE!,,,,,,,Yeldon rush right for 7 yards to the Auburn15.
+Alabama,4Q,14,135,61,2,Red Zone,run,2,not successful,0.62,,0.54,0.52,#VALUE!,,,,,,,Yeldon rush middle for 2 yards to the Auburn13.
+Alabama,4Q,14,136,62,3,Red Zone,run,0,not successful,0.60,,0.53,0.53,#VALUE!,,,,,,,Yeldon rush middle for 0 yards.
+Alabama,4Q,14,137,63,4,Red Zone,run,-1,not successful,0.58,,0.52,0.53,1,,,,,,,Yeldon rush middle for -1 yard to the Auburn14.
+Auburn,4Q,12,138,66,1,Red Zone,pass,-9,not successful,,0.29,0.50,0.71,,9,,,,,,Marshall sacked by DePriest for -9 yards to the Auburn5.
+Auburn,4Q,12,139,67,2,Red Zone,pass,,not successful,,0.28,0.49,0.70,,#VALUE!,,,,,,Marshall incomplete pass to the middle.
+Auburn,4Q,12,140,68,3,Red Zone,pass,,not successful,,0.26,0.48,0.69,,#VALUE!,,,,,,Marshall incomplete pass to the right.
+Alabama,4Q,15,142,64,1,Normal,run,0,not successful,0.56,,0.51,0.54,#VALUE!,,,,,,,Yeldon rush middle for 0 yards.
+Alabama,4Q,15,143,65,2,Normal,pass,8,successful,,0.46,0.52,0.53,,#VALUE!,,,,,,McCarron pass completion to the left to Cooper for 8 yards to the Auburn17.
+Alabama,4Q,15,144,66,3,Normal,pass,,not successful,,0.45,0.51,0.52,,#VALUE!,,,,,,McCarron incomplete pass to the middle.
+Auburn,4Q,13,146,70,1,Normal,run,8,successful,0.60,,0.49,0.69,#VALUE!,,,,,,,Mason rush middle for 8 yards to the Auburn43.
+Auburn,4Q,13,147,71,2,Normal,run,0,not successful,0.59,,0.48,0.70,#VALUE!,,,,,,,Mason rush middle for 0 yards.
+Auburn,4Q,13,148,72,3,Normal,run,4,successful,0.60,,0.49,0.70,#VALUE!,,,,,,,Mason rush middle for 4 yards to the Auburn47.
+Auburn,4Q,13,149,73,1,Normal,run,5,successful,0.61,,0.50,0.71,#VALUE!,,,,,,,Mason rush left for 5 yards to the Ala48.
+Auburn,4Q,13,150,74,2,Normal,run,3,not successful,0.60,,0.49,0.71,#VALUE!,,,,,,,Mason rush middle for 3 yards to the Ala45.
+Auburn,4Q,13,151,75,3,Normal,run,6,successful,0.60,,0.50,0.72,#VALUE!,,,,,,,Mason rush middle for 6 yards to the Ala39.
+Auburn,4Q,13,152,76,1,Normal,pass,39,explosive,,0.30,0.51,0.71,,#VALUE!,,,,,, Marshall pass completion to the left to Coates for 39 yards for a TOUCHDOWN.
+Alabama,4Q,16,154,68,1,Normal,pass,,not successful,,0.43,0.50,0.52,,#VALUE!,,,,,,McCarron incomplete pass to the left.
+Alabama,4Q,16,155,69,2,Normal,run,9,successful,0.58,,0.51,0.52,#VALUE!,,,,,,,Yeldon rush middle for 9 yards to the Ala38.
+Alabama,4Q,16,156,70,3,Normal,run,26,explosive,0.59,,0.52,0.53,#VALUE!,,,,,,,Yeldon rush for 26 yards to the Auburn38.
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,0.5555555556,,,,,,,,,,,,
+,,,,,,,,,7,0.5,,,,,,,,,,,
+,,,,,,,,,14,,,,,,,,,,,,
