@@ -85,6 +85,7 @@ function quarterFinder(thisQuarter)  {
 };
 function runForQuarters(thisData,thisMax) {
     quartersArray = [];
+    quartersArrayLg = [];
     thisData.forEach(function(value) {
         var quarterX = quarterFinder(value);
 
@@ -93,6 +94,13 @@ function runForQuarters(thisData,thisMax) {
             { x: quarterX.play_count, y: 1.1 },
             { x: thisMax, y: 1.1 },
             { x: thisMax, y: -0.1 }
+        );
+
+        quartersArrayLg.push(
+            { x: quarterX.play_count, y: -50 },
+            { x: quarterX.play_count, y: 100 },
+            { x: thisMax, y: 100 },
+            { x: thisMax, y: -50 }
         );
     });
 
@@ -244,30 +252,31 @@ function playMap(thisTeam,thisId,legendId) {
 
     var uniqueQuarters = unique(gameData,"quarter");
     runForQuarters(uniqueQuarters,playsMax);
-    var quarterXs = quartersArray;
+    var quarterXs = quartersArrayLg;
+    var borderNoLineColor = 'rgba(0,0,0,0)';
 
     var ctx = $(addId(chartId(thisId)));
     new Chart(ctx, {
-        type: 'scatter',
+        type: 'line',
         data: {
             labels: playCount,
             datasets: [{
                 data: teamPlayCountAndYards,
+                borderColor: borderNoLineColor,
                 pointBackgroundColor: fillColors(teamPlays,thisTeam),
-                borderColor: thisTeam.colorDark,
-                borderWidth: 1,
+                pointBorderColor: thisTeam.colorDark,
+                fill: false,
                 pointRadius: pointSize(teamPlays),
                 pointStyle: pointShape(teamPlays),
             },
             {
                 label: "Quarter lines",
                 data: quarterXs,
-                borderColor: srAverageColor,
+                borderColor: quarterLinesColor,
                 borderWidth: 1,
                 lineTension: 0,
                 fill: false,
-                pointRadius: 0,
-                type: 'line'
+                pointRadius: 0
             }], 
         },
         options: {
@@ -284,15 +293,17 @@ function playMap(thisTeam,thisId,legendId) {
             yAxes: [{
                 ticks: {
                 suggestedMin: yardsMin,
+                min: -15,
                 max: yardsMax,
                 }
             }],
             xAxes: [{
-                ticks: {
                 display: false,
-                suggestedMin: 1,
-                suggestedMax: playsMax,
-                }
+                // ticks: {
+                
+                // suggestedMin: 1,
+                // suggestedMax: playsMax,
+                // }
             }],
             },
         }
