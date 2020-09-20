@@ -1,11 +1,7 @@
-//   UTILITIES
-
-
 // Global chart options
 Chart.defaults.global.legend = false;
 Chart.plugins.unregister(ChartDataLabels);
 Chart.defaults.global.defaultFontFamily = 'Roboto';
-
 
 Chart.helpers.merge(Chart.defaults.global.plugins.datalabels, {
     color: function(context) {
@@ -30,7 +26,6 @@ Chart.helpers.merge(Chart.defaults.global.plugins.datalabels, {
     }
 });
 
-
 // Chart.defaults.global.elements.line.borderWidth = 4;
 
 var srAverage = 0.42;
@@ -45,6 +40,30 @@ function unique(thisData,thisColumn) {
     function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } }
     var newArray = _toConsumableArray(new Set(thisData.map(function (data) { return data[thisColumn]; })));
     return newArray;
+};
+
+// Extract the first play from each quarter and make marker lines from them
+function quarterFinder(thisQuarter,thisData)  {
+    return thisData.find(function (play) { return play.quarter == thisQuarter; }); 
+}
+function runForQuarters(theseQuarters,thisData,thisMax) {
+    quartersArray = [];
+    quartersArrayLg = [];
+    theseQuarters.forEach(function(value) {
+        var quarterX = quarterFinder(value,thisData);
+        quartersArray.push(
+            { x: quarterX.play_count, y: -0.1 },
+            { x: quarterX.play_count, y: 1.1 },
+            { x: thisMax, y: 1.1 },
+            { x: thisMax, y: -0.1 }
+        );
+        quartersArrayLg.push(
+            { x: quarterX.play_count, y: -50 },
+            { x: quarterX.play_count, y: 100 },
+            { x: thisMax, y: 100 },
+            { x: thisMax, y: -50 }
+        );
+    });
 };
 
 // colors for points on line and scatter charts
@@ -79,33 +98,8 @@ function chartId(thisId) {
 function outerId(thisId) {
     return thisId + "Outer";
 };
-// to extract the first play from each quarter and make marker lines from them
-function quarterFinder(thisQuarter)  {
-    return gameData.find(function (play) { return play.quarter == thisQuarter; }); 
-};
-function runForQuarters(thisData,thisMax) {
-    quartersArray = [];
-    quartersArrayLg = [];
-    thisData.forEach(function(value) {
-        var quarterX = quarterFinder(value);
 
-        quartersArray.push(
-            { x: quarterX.play_count, y: -0.1 },
-            { x: quarterX.play_count, y: 1.1 },
-            { x: thisMax, y: 1.1 },
-            { x: thisMax, y: -0.1 }
-        );
 
-        quartersArrayLg.push(
-            { x: quarterX.play_count, y: -50 },
-            { x: quarterX.play_count, y: 100 },
-            { x: thisMax, y: 100 },
-            { x: thisMax, y: -50 }
-        );
-    });
-
-    return quartersArray;
-};
 
 function barSrLegend(teamName) {
     return "<div class='legend'>"
@@ -144,6 +138,7 @@ function teamLinesLegend(teamName,opponentName) {
 };
 
 
+
 //   CUMULATIVE SUCCESS RATE, BOTH TEAMS
 function teamSrChart(thisTeam,thatTeam,thisId) {
     var container = document.getElementById(outerId(thisId)); 
@@ -160,7 +155,7 @@ function teamSrChart(thisTeam,thatTeam,thisId) {
     var srAverageLine = [ { x: 0, y: srAverage },{ x: playsMax, y: srAverage } ];
     
     var uniqueQuarters = unique(gameData,"quarter");
-    runForQuarters(uniqueQuarters,playsMax);
+    runForQuarters(uniqueQuarters,gameData,playsMax);
     var quarterXs = quartersArray;
     
     
@@ -251,7 +246,7 @@ function playMap(thisTeam,thisId,legendId) {
     var teamPlayCountAndYards = teamPlays.map(function(play) { return { x: play.play_count, y: play.yards_total }; });
 
     var uniqueQuarters = unique(gameData,"quarter");
-    runForQuarters(uniqueQuarters,playsMax);
+    runForQuarters(uniqueQuarters,gameData,playsMax);
     var quarterXs = quartersArrayLg;
     var borderNoLineColor = 'rgba(0,0,0,0)';
 
@@ -474,28 +469,8 @@ function runRateChart(thisTeam, thisId) {
     
 
     var uniqueQuarters = unique(teamPlays,"quarter");
-    runForQuartersTeam(uniqueQuarters,playsMax);
+    runForQuarters(uniqueQuarters,teamPlays,playsMax);
     var quarterXs = quartersArray;
-
-    // putting these here for now, need to consolidate
-    function quarterFinderTeam(thisQuarter)  {
-        return teamPlays.find(function (play) { return play.quarter == thisQuarter; }); 
-    };
-    function runForQuartersTeam(thisData,thisMax) {
-        quartersArray = [];
-        thisData.forEach(function(value) {
-            var quarterX = quarterFinderTeam(value);
-    
-            quartersArray.push(
-                { x: quarterX.play_count, y: -0.1 },
-                { x: quarterX.play_count, y: 1.1 },
-                { x: thisMax, y: 1.1 },
-                { x: thisMax, y: -0.1 }
-            );
-        });
-    
-        return quartersArray;
-    };
     
     var ctx = $(addId(chartId(thisId)));
     new Chart(ctx, {
@@ -580,28 +555,8 @@ function runPassSrChart(thisTeam, thisId) {
     var srAverageLine = [ { x: 0, y: srAverage },{ x: playsMax, y: srAverage } ];
 
     var uniqueQuarters = unique(teamPlays,"quarter");
-    runForQuartersTeam(uniqueQuarters,playsMax);
+    runForQuarters(uniqueQuarters,teamPlays,playsMax);
     var quarterXs = quartersArray;
-
-    // putting these here for now, need to consolidate
-    function quarterFinderTeam(thisQuarter)  {
-        return teamPlays.find(function (play) { return play.quarter == thisQuarter; }); 
-    };
-    function runForQuartersTeam(thisData,thisMax) {
-        quartersArray = [];
-        thisData.forEach(function(value) {
-            var quarterX = quarterFinderTeam(value);
-    
-            quartersArray.push(
-                { x: quarterX.play_count, y: -0.1 },
-                { x: quarterX.play_count, y: 1.1 },
-                { x: thisMax, y: 1.1 },
-                { x: thisMax, y: -0.1 }
-            );
-        });
-    
-        return quartersArray;
-    };
     
     var ctx = $(addId(chartId(thisId)));
     new Chart(ctx, {
@@ -681,7 +636,6 @@ function runPassSrChart(thisTeam, thisId) {
             },
         }
     });
-    
     };
 
 
@@ -709,7 +663,6 @@ function playersChart(thisTeam, thisId, thisColumn) {
 
         columnPlaysNotSuccessful = columnPlays.filter(function(play) { return play.play_result == "not successful"});
         thisNspArray.push(columnPlaysNotSuccessful.length);
-
     };
 
     var uniqueColumnValues = unique(realPlays,thisColumn);
@@ -797,7 +750,6 @@ function tacklersChart(thisTeam,thatTeam,thisId) {
             arrayHalf = columnPlaysHalf.filter(function(play) { return play.play_result == thisResult});
             arrayTwo = columnPlaysTwo.filter(function(play) { return play.play_result == thisResult});
             thisArray.push(array.length + arrayHalf.length / 2 + arrayTwo.length / 2);
-            // thisArray.sort(function(a, b){return b-a});
         };
 
         returnByResult(thisXpArray,"explosive");
