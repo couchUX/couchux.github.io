@@ -1,0 +1,145 @@
+team,quarter,drive_team,play_count,play_count_team,down,red_zone,play_type,yards_total,play_result,run_sr,pass_sr,total_sr,run_rate,runner,passer,receiver,tackler_one,tackler_two,tackler_one_credit,tackler_two_credit,play_description
+Alabama,1Q,1,2,1,1,Normal,pass,,not successful,,0.00,0.00,0.00,,M.Jones,J.Waddle,,,,, 10-M.Jones incomplete. Intended for 17-J.Waddle. 
+Alabama,1Q,1,3,2,2,Normal,run,6,not successful,0.00,,0.00,0.50,N.Harris,,,J.Bledsoe,,1,, 22-N.Harris to BAMA 31 for 6 yards (1-J.Bledsoe). 
+Alabama,1Q,1,4,3,3,Normal,pass,,not successful,,0.00,0.00,0.33,,M.Jones,D.Smith,,,,, 10-M.Jones incomplete. Intended for 6-D.Smith. 
+Missouri,1Q,1,6,1,1,Normal,run,0,not successful,0.00,,0.00,1.00,D.Hazelton,,,J.Battle,,1,, 7-D.Hazelton to MIZ 36 for no gain (9-J.Battle). 
+Missouri,1Q,1,7,2,2,Normal,pass,,not successful,,0.00,0.00,0.50,,S.Robinson,D.Hazelton,,,,, 3-S.Robinson incomplete. Intended for 7-D.Hazelton. 
+Missouri,1Q,1,8,3,3,Normal,pass,-10,not successful,,0.00,0.00,0.33,,S.Robinson,,C.Harris,,1,, 3-S.Robinson sacked at MIZ 26 for -10 yards (8-C.Harris). 
+Alabama,1Q,2,10,5,1,Normal,pass,3,not successful,,0.00,0.00,0.25,,M.Jones,J.Waddle,T.Gillespie,,1,, 10-M.Jones complete to 17-J.Waddle. 17-J.Waddle to BAMA 37 for 3 yards (9-T.Gillespie). 
+Alabama,1Q,2,11,6,2,Normal,pass,20,explosive,,0.25,0.20,0.20,,M.Jones,J.Metchie,E.Rakestraw,,1,, 10-M.Jones complete to 8-J.Metchie. 8-J.Metchie to MIZ 43 for 20 yards (2-E.Rakestraw). 
+Alabama,1Q,2,12,7,1,Normal,run,-2,not successful,0.00,,0.17,0.33,N.Harris,,,N.Bolton,,1,, 22-N.Harris to MIZ 45 for -2 yards (32-N.Bolton). 
+Alabama,1Q,2,13,8,2,Normal,run,11,successful,0.33,,0.29,0.43,N.Harris,,,T.Gillespie,D.Nicholson,0.5,0.5," 22-N.Harris to MIZ 34 for 11 yards (9-T.Gillespie,11-D.Nicholson). "
+Alabama,1Q,2,14,9,3,Normal,run,4,successful,0.50,,0.38,0.50,M.Jones,,,J.Bledsoe,,1,, 10-M.Jones to MIZ 30 for 4 yards (1-J.Bledsoe). 
+Alabama,1Q,2,15,10,1,Normal,pass,,not successful,,0.20,0.33,0.44,,M.Jones,D.Smith,,,,, 10-M.Jones incomplete. Intended for 6-D.Smith. 
+Alabama,1Q,2,16,11,2,Normal,run,13,successful,0.60,,0.40,0.50,N.Harris,,,T.Gillespie,N.Bolton,0.5,0.5," 22-N.Harris pushed ob at MIZ 17 for 13 yards (9-T.Gillespie,32-N.Bolton). "
+Alabama,1Q,2,17,12,1,Red Zone,run,5,successful,0.67,,0.45,0.55,N.Harris,,,D.Robinson,,1,, 22-N.Harris to MIZ 12 for 5 yards (6-D.Robinson). 
+Alabama,1Q,2,18,13,2,Red Zone,pass,7,successful,,0.33,0.50,0.50,,M.Jones,D.Smith,T.Gillespie,,1,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith pushed ob at MIZ 5 for 7 yards (9-T.Gillespie). 
+Alabama,1Q,2,19,14,1,Red Zone,run,2,not successful,0.57,,0.46,0.54,N.Harris,,,T.Gillespie,,1,, 22-N.Harris to MIZ 3 for 2 yards (9-T.Gillespie). 
+Alabama,1Q,2,20,15,2,Red Zone,run,2,not successful,0.50,,0.43,0.57,N.Harris,,,D.Nicholson,,1,, 22-N.Harris to MIZ 1 for 2 yards (11-D.Nicholson). 
+Alabama,1Q,2,21,16,3,Red Zone,run,1,successful,0.56,,0.47,0.60,N.Harris,,,,,,, 22-N.Harris runs 1 yard for a touchdown. 
+Missouri,1Q,2,24,5,1,Normal,pass,23,explosive,,0.33,0.25,0.25,,S.Robinson,J.Knox,J.Moody,,1,, 3-S.Robinson complete to 9-J.Knox. 9-J.Knox to MIZ 48 for 23 yards (42-J.Moody). 
+Missouri,1Q,2,25,6,1,Normal,run,11,successful,0.50,,0.40,0.40,L.Rountree,,,L.Ray,,1,, 34-L.Rountree to BAMA 41 for 11 yards (18-L.Ray). 
+Missouri,1Q,2,27,8,1,Normal,pass,11,successful,,0.50,0.50,0.33,,S.Robinson,J.Knox,M.Moore,,1,, 3-S.Robinson complete to 9-J.Knox. 9-J.Knox to BAMA 35 for 11 yards (13-M.Moore). 
+Missouri,1Q,2,28,9,2,Normal,pass,,not successful,,0.40,0.43,0.29,,S.Robinson,T.Badie,,,,, 3-S.Robinson incomplete. Intended for 1-T.Badie. 
+Missouri,1Q,2,29,10,3,Normal,pass,2,not successful,,0.33,0.38,0.25,,S.Robinson,D.Hazelton,J.Jobe,,1,, 3-S.Robinson complete to 7-D.Hazelton. 7-D.Hazelton to BAMA 33 for 2 yards (28-J.Jobe). 
+Missouri,1Q,2,30,11,4,Normal,run,-1,not successful,0.33,,0.33,0.33,L.Rountree,,,D.Moses,,1,, 34-L.Rountree to BAMA 34 for -1 yard (32-D.Moses). 
+Alabama,1Q,3,31,17,1,Normal,pass,46,explosive,,0.43,0.50,0.56,,M.Jones,J.Waddle,T.Gillespie,,1,, 10-M.Jones complete to 17-J.Waddle. 17-J.Waddle to MIZ 20 for 46 yards (9-T.Gillespie). 
+Alabama,1Q,3,32,18,1,Normal,run,2,not successful,0.50,,0.47,0.59,N.Harris,,,T.Jeffcoat,N.Bolton,0.5,0.5," 22-N.Harris to MIZ 18 for 2 yards (18-T.Jeffcoat,32-N.Bolton). "
+Alabama,1Q,3,33,19,2,Red Zone,pass,,not successful,,0.38,0.44,0.56,,M.Jones,D.Smith,,,,, 10-M.Jones incomplete. Intended for 6-D.Smith. 
+Alabama,1Q,3,34,20,3,Red Zone,pass,18,explosive,,0.44,0.47,0.53,,M.Jones,J.Waddle,,,,, 10-M.Jones complete to 17-J.Waddle. 17-J.Waddle runs 18 yards for a touchdown. 
+Missouri,1Q,3,37,12,1,Normal,run,-1,not successful,0.25,,0.30,0.40,T.Badie,,,M.Moore,,1,, 1-T.Badie to MIZ 44 for -1 yard (13-M.Moore). 
+Missouri,1Q,3,38,13,2,Normal,run,5,not successful,0.20,,0.27,0.45,L.Rountree,,,D.Wright,,1,, 34-L.Rountree to MIZ 49 for 5 yards (3-D.Wright). 
+Missouri,1Q,3,39,14,3,Normal,no play,9,successful,,,0.33,,,,,D.Moses,,1,," 3-S.Robinson sacked at MIZ 37 for -12 yards. Team penalty on BAMA, Holding, 9 yards, enforced at MIZ 49. No Play. (32-D.Moses). "
+Missouri,1Q,3,40,15,1,Normal,run,0,not successful,0.17,,0.31,0.50,S.Robinson,,,J.Jobe,,1,," 3-S.Robinson to BAMA 42, FUMBLES (28-J.Jobe). 3-S.Robinson to BAMA 42 for no gain. "
+Missouri,1Q,3,41,16,2,Normal,pass,,not successful,,0.29,0.29,0.46,,S.Robinson,K.Chism,,,,, 3-S.Robinson incomplete. Intended for 6-K.Chism. 
+Missouri,1Q,3,42,17,3,Normal,pass,,not successful,,0.25,0.27,0.43,,S.Robinson,L.Rountree,,,,, 3-S.Robinson incomplete. Intended for 34-L.Rountree. 
+Alabama,1Q,4,44,21,1,Normal,run,8,successful,0.55,,0.50,0.55,N.Harris,,,D.Nicholson,,1,, 22-N.Harris to BAMA 17 for 8 yards (11-D.Nicholson). 
+Alabama,1Q,4,45,22,2,Normal,run,18,explosive,0.58,,0.52,0.57,N.Harris,,,M.Manuel,,1,, 22-N.Harris to BAMA 35 for 18 yards (3-M.Manuel). 
+Alabama,1Q,4,46,23,1,Normal,pass,-2,not successful,,0.40,0.50,0.55,,M.Jones,B.Robinson,M.Manuel,D.Nicholson,0.5,0.5," 10-M.Jones complete to 4-B.Robinson. 4-B.Robinson to BAMA 33 for -2 yards (3-M.Manuel,11-D.Nicholson). "
+Alabama,1Q,4,47,24,2,Normal,pass,,not successful,,0.36,0.48,0.52,,M.Jones,B.Robinson,,,,, 10-M.Jones incomplete. Intended for 4-B.Robinson. 
+Alabama,1Q,4,48,25,3,Normal,pass,22,explosive,,0.42,0.50,0.50,,M.Jones,J.Metchie,M.Manuel,,1,, 10-M.Jones complete to 8-J.Metchie. 8-J.Metchie to MIZ 45 for 22 yards (3-M.Manuel). 
+Alabama,1Q,4,49,26,1,Normal,pass,34,explosive,,0.46,0.52,0.48,,M.Jones,M.Forristall,T.Gillespie,,1,, 10-M.Jones complete to 87-M.Forristall. 87-M.Forristall to MIZ 11 for 34 yards (9-T.Gillespie). 
+Alabama,2Q,5,50,27,1,Red Zone,pass,11,successful,,0.50,0.54,0.46,,M.Jones,J.Waddle,,,,, 10-M.Jones complete to 17-J.Waddle. 17-J.Waddle runs 11 yards for a touchdown. 
+Alabama,2Q,5,51,28,1,Red Zone,pass,10,successful,,0.53,0.56,0.44,,M.Jones,J.Waddle,,,,, 10-M.Jones complete to 17-J.Waddle. 17-J.Waddle to MIZ 1 for 10 yards. 
+Alabama,2Q,5,52,29,1,Red Zone,run,1,successful,0.62,,0.57,0.46,N.Harris,,,,,,, 22-N.Harris runs 1 yard for a touchdown. 
+Missouri,2Q,4,55,19,1,Normal,pass,6,successful,,0.33,0.31,0.40,,C.Bazelak,D.Hazelton,D.Moses,,1,, 8-C.Bazelak complete to 7-D.Hazelton. 7-D.Hazelton to MIZ 21 for 6 yards (32-D.Moses). 
+Missouri,2Q,4,56,20,2,Normal,run,10,successful,0.29,,0.35,0.44,T.Badie,,,J.Battle,,1,, 1-T.Badie to MIZ 31 for 10 yards (9-J.Battle). 
+Missouri,2Q,4,57,21,1,Normal,pass,1,not successful,,0.30,0.33,0.41,,C.Bazelak,D.Parker,C.Harris,,1,, 8-C.Bazelak complete to 82-D.Parker. 82-D.Parker to MIZ 32 for 1 yard (8-C.Harris). 
+Missouri,2Q,4,58,22,2,Normal,pass,,not successful,,0.27,0.32,0.39,,C.Bazelak,D.Hazelton,,,,, 8-C.Bazelak incomplete. Intended for 7-D.Hazelton. 
+Missouri,2Q,4,59,23,3,Normal,pass,,not successful,,0.25,0.30,0.37,,C.Bazelak,D.Hazelton,,,,, 8-C.Bazelak incomplete. Intended for 7-D.Hazelton. 
+Alabama,2Q,6,61,30,1,Normal,run,-12,not successful,0.57,,0.55,0.48,D.Smith,,,J.Bledsoe,,1,, 6-D.Smith to BAMA 12 for -12 yards (1-J.Bledsoe). 
+Alabama,2Q,6,63,32,2,Normal,pass,8,not successful,,0.50,0.53,0.47,,M.Jones,J.Waddle,D.Nicholson,,1,, 10-M.Jones complete to 17-J.Waddle. 17-J.Waddle to BAMA 15 for 8 yards (11-D.Nicholson). 
+Alabama,2Q,6,64,33,3,Normal,pass,5,not successful,,0.47,0.52,0.45,,M.Jones,N.Harris,N.Bolton,D.Nicholson,0.5,0.5," 10-M.Jones complete to 22-N.Harris. 22-N.Harris to BAMA 20 for 5 yards (32-N.Bolton,11-D.Nicholson). "
+Missouri,2Q,5,66,25,1,Normal,pass,4,not successful,,0.23,0.29,0.35,,S.Robinson,D.Hazelton,C.Harris,,1,, 3-S.Robinson complete to 7-D.Hazelton. 7-D.Hazelton to MIZ 44 for 4 yards (8-C.Harris). 
+Missouri,2Q,5,67,26,2,Normal,run,-1,not successful,0.25,,0.27,0.38,S.Robinson,,,D.Wright,,1,, 3-S.Robinson to MIZ 43 for -1 yard (3-D.Wright). 
+Missouri,2Q,5,68,27,3,Normal,pass,13,successful,,0.29,0.30,0.36,,S.Robinson,D.Gicinto,J.Jobe,,1,, 3-S.Robinson complete to 14-D.Gicinto. 14-D.Gicinto to BAMA 44 for 13 yards (28-J.Jobe). 
+Missouri,2Q,5,69,28,1,Normal,pass,,not successful,,0.27,0.29,0.35,,S.Robinson,D.Gicinto,,,,, 3-S.Robinson incomplete. Intended for 14-D.Gicinto. 
+Missouri,2Q,5,70,29,2,Normal,pass,9,successful,,0.31,0.32,0.33,,S.Robinson,D.Hazelton,J.Battle,,1,, 3-S.Robinson complete to 7-D.Hazelton. 7-D.Hazelton to BAMA 35 for 9 yards (9-J.Battle). 
+Missouri,2Q,5,71,30,3,Normal,run,3,successful,0.33,,0.35,0.36,S.Robinson,,,,,,, 3-S.Robinson to BAMA 32 for 3 yards. 
+Missouri,2Q,5,72,31,1,Normal,run,9,successful,0.40,,0.37,0.38,L.Rountree,,,J.Jobe,,1,, 34-L.Rountree to BAMA 23 for 9 yards (28-J.Jobe). 
+Missouri,2Q,5,73,32,2,Normal,run,8,successful,0.45,,0.39,0.41,L.Rountree,,,J.Battle,,1,, 34-L.Rountree to BAMA 15 for 8 yards (9-J.Battle). 
+Missouri,2Q,5,74,33,1,Red Zone,run,2,not successful,0.42,,0.38,0.43,L.Rountree,,,D.Wright,,1,, 34-L.Rountree to BAMA 13 for 2 yards (3-D.Wright). 
+Missouri,2Q,5,75,34,2,Red Zone,run,-3,not successful,0.38,,0.37,0.45,S.Robinson,,,D.Moses,,1,, 3-S.Robinson pushed ob at BAMA 16 for -3 yards (32-D.Moses). 
+Missouri,2Q,5,76,35,3,Red Zone,run,6,not successful,0.36,,0.35,0.47,J.Knox,,,,,,, 9-J.Knox runs ob at BAMA 10 for 6 yards. 
+Alabama,2Q,7,80,36,1,Normal,run,4,not successful,0.53,,0.50,0.47,N.Harris,,,N.Bolton,,1,, 22-N.Harris to BAMA 24 for 4 yards (32-N.Bolton). 
+Alabama,2Q,7,81,37,2,Normal,pass,13,successful,,0.50,0.52,0.45,,M.Jones,D.Smith,E.Rakestraw,,1,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith to BAMA 37 for 13 yards (2-E.Rakestraw). 
+Alabama,2Q,7,83,39,1,Normal,pass,3,not successful,,0.47,0.50,0.44,,M.Jones,N.Harris,J.Bledsoe,D.Nicholson,0.5,0.5," 10-M.Jones complete to 22-N.Harris. 22-N.Harris to BAMA 35 for 3 yards (1-J.Bledsoe,11-D.Nicholson). "
+Alabama,2Q,7,84,40,2,Normal,pass,13,successful,,0.50,0.51,0.43,,M.Jones,J.Waddle,,,,, 10-M.Jones complete to 17-J.Waddle. 17-J.Waddle to BAMA 48 for 13 yards. 
+Alabama,2Q,7,85,41,1,Normal,pass,14,successful,,0.52,0.53,0.42,,M.Jones,D.Smith,M.Manuel,,1,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith to MIZ 38 for 14 yards (3-M.Manuel). 
+Alabama,2Q,7,86,42,1,Normal,pass,2,not successful,,0.50,0.51,0.41,,M.Jones,D.Smith,E.Rakestraw,,1,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith to MIZ 36 for 2 yards (2-E.Rakestraw). 
+Alabama,2Q,7,87,43,2,Normal,run,9,successful,0.56,,0.53,0.42,B.Robinson,,,M.Utsey,,1,, 4-B.Robinson to MIZ 27 for 9 yards (90-M.Utsey). 
+Alabama,2Q,7,88,44,1,Normal,run,4,not successful,0.53,,0.51,0.44,B.Robinson,,,T.Jeffcoat,,1,, 4-B.Robinson to MIZ 23 for 4 yards (18-T.Jeffcoat). 
+Alabama,2Q,7,89,45,2,Normal,pass,,not successful,,0.48,0.50,0.43,,M.Jones,B.Robinson,,,,, 10-M.Jones incomplete. Intended for 4-B.Robinson. 
+Alabama,2Q,7,90,46,3,Normal,pass,23,explosive,,0.50,0.51,0.41,,M.Jones,J.Waddle,,,,, 10-M.Jones complete to 17-J.Waddle. 17-J.Waddle runs 23 yards for a touchdown. 
+Missouri,2Q,6,94,37,1,Normal,run,2,not successful,0.33,,0.34,0.48,S.Robinson,,,L.Ray,,1,, 3-S.Robinson to MIZ 27 for 2 yards (18-L.Ray). 
+Missouri,2Q,6,95,38,2,Normal,run,6,successful,0.38,,0.36,0.50,L.Rountree,,,M.Moore,,1,, 34-L.Rountree to MIZ 33 for 6 yards (13-M.Moore). 
+Missouri,2Q,6,96,39,3,Normal,pass,7,successful,,0.35,0.38,0.48,,S.Robinson,B.Banister,,,,, 3-S.Robinson complete to 11-B.Banister. 11-B.Banister to MIZ 40 for 7 yards. 
+Missouri,2Q,6,97,40,1,Normal,run,3,not successful,0.35,,0.37,0.50,K.Abrams-Draine,,,C.Harris,,1,, 15-K.Abrams-Draine to MIZ 43 for 3 yards (8-C.Harris). 
+Missouri,2Q,6,98,41,2,Normal,pass,-5,not successful,,0.33,0.36,0.49,,S.Robinson,S.Robinson,,,,," 3-S.Robinson complete to 3-S.Robinson. 3-S.Robinson to MIZ 31 for -12 yards. Penalty on MIZ 3-S.Robinson, Illegal Forward Pass, 5 yards, enforced at MIZ 31. "
+Missouri,3Q,7,100,42,1,Normal,run,3,not successful,0.33,,0.35,0.50,J.Knox,,,D.Wright,,1,, 9-J.Knox to MIZ 28 for 3 yards (3-D.Wright). 
+Missouri,3Q,7,102,44,2,Normal,pass,9,not successful,,0.32,0.34,0.49,,S.Robinson,K.Chism,J.Jobe,,1,, 3-S.Robinson complete to 6-K.Chism. 6-K.Chism to MIZ 27 for 9 yards (28-J.Jobe). 
+Missouri,3Q,7,103,45,3,Normal,pass,14,successful,,0.35,0.36,0.47,,S.Robinson,J.Knox,P.Surtain,,1,, 3-S.Robinson complete to 9-J.Knox. 9-J.Knox to MIZ 41 for 14 yards (2-P.Surtain). 
+Missouri,3Q,7,104,46,1,Normal,pass,6,successful,,0.38,0.38,0.46,,S.Robinson,D.Parker,W.Anderson,,1,, 3-S.Robinson complete to 82-D.Parker. 82-D.Parker to MIZ 47 for 6 yards (31-W.Anderson). 
+Missouri,3Q,7,105,47,2,Normal,run,,not successful,0.32,,0.37,0.48,S.Robinson,,,,,,," 3-S.Robinson to MIZ 37, FUMBLES. 2-P.Surtain to MIZ 37 for no gain. "
+Alabama,3Q,8,106,47,1,Normal,run,4,not successful,0.50,,0.50,0.43,N.Harris,,,N.Bolton,T.Williams,0.5,0.5," 22-N.Harris to MIZ 33 for 4 yards (32-N.Bolton,0-T.Williams). "
+Alabama,3Q,8,107,48,2,Normal,pass,10,successful,,0.52,0.51,0.42,,M.Jones,D.Smith,D.Nicholson,,1,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith to MIZ 23 for 10 yards (11-D.Nicholson). 
+Alabama,3Q,8,108,49,1,Normal,run,4,not successful,0.47,,0.50,0.43,N.Harris,,,K.Whiteside,,1,, 22-N.Harris to MIZ 19 for 4 yards (78-K.Whiteside). 
+Alabama,3Q,8,109,50,2,Red Zone,run,11,successful,0.50,,0.51,0.44,N.Harris,,,D.Nicholson,,1,, 22-N.Harris to MIZ 8 for 11 yards (11-D.Nicholson). 
+Alabama,3Q,8,110,51,1,Red Zone,run,8,successful,0.52,,0.52,0.46,N.Harris,,,,,,, 22-N.Harris runs 8 yards for a touchdown. 
+Missouri,3Q,8,113,48,1,Normal,pass,9,successful,,0.41,0.38,0.46,,S.Robinson,N.Hea,D.Wright,,1,, 3-S.Robinson complete to 48-N.Hea. 48-N.Hea to MIZ 34 for 9 yards (3-D.Wright). 
+Missouri,3Q,8,114,49,2,Normal,run,5,successful,0.35,,0.40,0.48,L.Rountree,,,D.Wright,,1,, 34-L.Rountree to MIZ 39 for 5 yards (3-D.Wright). 
+Missouri,3Q,8,115,50,1,Normal,run,3,not successful,0.33,,0.39,0.49,L.Rountree,,,J.Eboigbe,,1,, 34-L.Rountree to MIZ 42 for 3 yards (92-J.Eboigbe). 
+Missouri,3Q,8,116,51,2,Normal,run,6,successful,0.36,,0.40,0.50,L.Rountree,,,P.Mathis,,1,, 34-L.Rountree to MIZ 48 for 6 yards (48-P.Mathis). 
+Missouri,3Q,8,117,52,3,Normal,run,2,successful,0.39,,0.41,0.51,L.Rountree,,,W.Anderson,,1,, 34-L.Rountree to MIZ 50 for 2 yards (31-W.Anderson). 
+Missouri,3Q,8,118,53,1,Normal,run,1,not successful,0.38,,0.40,0.52,T.Badie,,,C.Harris,,1,, 1-T.Badie to BAMA 49 for 1 yard (8-C.Harris). 
+Missouri,3Q,8,119,54,2,Normal,pass,9,successful,,0.43,0.42,0.51,,S.Robinson,T.Dove,D.Wright,,1,, 3-S.Robinson complete to 86-T.Dove. 86-T.Dove to BAMA 40 for 9 yards (3-D.Wright). 
+Missouri,3Q,8,120,55,1,Normal,run,1,not successful,0.36,,0.41,0.52,T.Badie,,,W.Anderson,,1,, 1-T.Badie to BAMA 39 for 1 yard (31-W.Anderson). 
+Missouri,3Q,8,121,56,2,Normal,pass,-1,not successful,,0.42,0.40,0.51,,S.Robinson,D.Parker,C.Harris,,1,, 3-S.Robinson complete to 82-D.Parker. 82-D.Parker to BAMA 40 for -1 yard (8-C.Harris). 
+Missouri,3Q,8,122,57,3,Normal,run,6,not successful,0.35,,0.39,0.52,L.Rountree,,,D.Moses,,1,, 34-L.Rountree to BAMA 34 for 6 yards (32-D.Moses). 
+Missouri,3Q,8,123,58,4,Normal,pass,12,successful,,0.44,0.40,0.51,,S.Robinson,B.Banister,D.Wright,,1,, 3-S.Robinson complete to 11-B.Banister. 11-B.Banister to BAMA 22 for 12 yards (3-D.Wright). 
+Missouri,3Q,8,124,59,1,Normal,run,1,not successful,0.33,,0.40,0.52,L.Rountree,,,L.Ray,,1,, 34-L.Rountree to BAMA 21 for 1 yard (18-L.Ray). 
+Missouri,3Q,8,125,60,2,Normal,pass,0,not successful,,0.42,0.39,0.51,,S.Robinson,J.Knox,J.Battle,,1,, 3-S.Robinson complete to 9-J.Knox. 9-J.Knox to BAMA 21 for no gain (9-J.Battle). 
+Missouri,3Q,8,126,61,3,Normal,pass,13,successful,,0.44,0.40,0.50,,S.Robinson,D.Hazelton,,,,, 3-S.Robinson complete to 7-D.Hazelton. 7-D.Hazelton to BAMA 8 for 13 yards. 
+Missouri,3Q,8,127,62,1,Red Zone,run,4,successful,0.36,,0.41,0.51,L.Rountree,,,J.Battle,,1,, 34-L.Rountree to BAMA 4 for 4 yards (9-J.Battle). 
+Missouri,3Q,8,128,63,2,Red Zone,pass,,not successful,,0.43,0.40,0.50,,S.Robinson,D.Parker,,,,, 3-S.Robinson incomplete. Intended for 82-D.Parker. 
+Missouri,3Q,8,129,64,3,Red Zone,pass,-16,not successful,,0.41,0.40,0.49,,S.Robinson,,L.Ray,,1,, 3-S.Robinson sacked at BAMA 20 for -16 yards (18-L.Ray). 
+Alabama,3Q,9,132,52,1,Normal,run,0,not successful,0.50,,0.51,0.47,T.Sanders,,,N.Bolton,,1,, 24-T.Sanders to BAMA 25 for no gain (32-N.Bolton). 
+Alabama,3Q,9,133,53,2,Normal,pass,6,not successful,,0.50,0.50,0.46,,B.Young,D.Smith,A.Sparks,,1,, 9-B.Young complete to 6-D.Smith. 6-D.Smith to BAMA 31 for 6 yards (14-A.Sparks). 
+Alabama,4Q,10,134,54,3,Normal,pass,23,explosive,,0.52,0.51,0.45,,B.Young,D.Smith,T.Gillespie,,1,, 9-B.Young complete to 6-D.Smith. 6-D.Smith to MIZ 46 for 23 yards (9-T.Gillespie). 
+Alabama,4Q,10,135,55,1,Normal,pass,,not successful,,0.50,0.50,0.44,,B.Young,D.Smith,,,,, 9-B.Young incomplete. Intended for 6-D.Smith. 
+Alabama,4Q,10,136,56,2,Normal,run,1,not successful,0.48,,0.49,0.45,T.Sanders,,,N.Bolton,A.Byers,0.5,0.5," 24-T.Sanders to MIZ 45 for 1 yard (32-N.Bolton,97-A.Byers). "
+Alabama,4Q,10,137,57,3,Normal,pass,14,successful,,0.52,0.50,0.44,,B.Young,D.Smith,E.Rakestraw,,1,, 9-B.Young complete to 6-D.Smith. 6-D.Smith to MIZ 31 for 14 yards (2-E.Rakestraw). 
+Alabama,4Q,10,138,58,1,Normal,run,1,not successful,0.46,,0.49,0.45,B.Robinson,,,K.Whiteside,,1,, 4-B.Robinson to MIZ 30 for 1 yard (78-K.Whiteside). 
+Alabama,4Q,10,139,59,2,Normal,run,7,successful,0.48,,0.50,0.46,B.Young,,,,,,, 9-B.Young scrambles to MIZ 23 for 7 yards. 
+Alabama,4Q,10,140,60,3,Normal,run,4,successful,0.50,,0.51,0.47,B.Robinson,,,M.Utsey,,1,, 4-B.Robinson to MIZ 19 for 4 yards (90-M.Utsey). 
+Alabama,4Q,10,141,61,1,Red Zone,run,-2,not successful,0.48,,0.50,0.48,T.Sanders,,,C.Wilkins,,1,, 24-T.Sanders to MIZ 21 for -2 yards (40-C.Wilkins). 
+Alabama,4Q,10,142,62,2,Normal,pass,-2,not successful,,0.50,0.49,0.47,,B.Young,T.Sanders,M.Manuel,,1,, 9-B.Young complete to 24-T.Sanders. 24-T.Sanders to MIZ 23 for -2 yards (3-M.Manuel). 
+Alabama,4Q,10,144,64,3,Normal,pass,,not successful,,0.48,0.48,0.47,,B.Young,,T.Williams,,,," 9-B.Young sacked at MIZ 35 for -7 yards, FUMBLES (0-T.Williams). 32-N.Bolton to MIZ 43 for 8 yards (69-L.Dickerson). "
+Missouri,4Q,9,145,66,1,Normal,pass,3,not successful,,0.40,0.39,0.48,,S.Robinson,K.Chism,,,,, 3-S.Robinson complete to 6-K.Chism. 6-K.Chism to MIZ 46 for 3 yards. 
+Missouri,4Q,9,146,67,2,Normal,pass,54,explosive,,0.42,0.40,0.47,,S.Robinson,T.Badie,,,,, 3-S.Robinson complete to 1-T.Badie. 1-T.Badie runs 54 yards for a touchdown. 
+Alabama,4Q,11,149,65,1,Normal,run,-1,not successful,0.46,,0.47,0.47,T.Sanders,,,M.Manuel,,1,, 24-T.Sanders to BAMA 24 for -1 yard (3-M.Manuel). 
+Alabama,4Q,11,150,66,2,Normal,run,-1,not successful,0.45,,0.47,0.48,T.Sanders,,,M.Manuel,,1,, 24-T.Sanders to BAMA 23 for -1 yard (3-M.Manuel). 
+Alabama,4Q,11,151,67,3,Normal,pass,13,successful,,0.50,0.48,0.48,,B.Young,J.Waddle,J.Carlies,,1,, 9-B.Young complete to 17-J.Waddle. 17-J.Waddle to BAMA 36 for 13 yards (17-J.Carlies). 
+Alabama,4Q,11,152,68,1,Normal,run,0,not successful,0.43,,0.47,0.48,T.Sanders,,,C.Wilkins,,1,, 24-T.Sanders to BAMA 36 for no gain (40-C.Wilkins). 
+Alabama,4Q,11,153,69,2,Normal,run,12,successful,0.45,,0.48,0.49,B.Young,,,,,,, 9-B.Young to BAMA 48 for 12 yards. 
+Alabama,4Q,11,154,70,1,Normal,pass,,not successful,,0.48,0.47,0.48,,B.Young,D.Smith,,,,, 9-B.Young incomplete. Intended for 6-D.Smith. 
+Alabama,4Q,11,155,71,2,Normal,run,2,not successful,0.44,,0.46,0.49,T.Sanders,,,M.Utsey,,1,, 24-T.Sanders to BAMA 50 for 2 yards (90-M.Utsey). 
+Alabama,4Q,11,156,72,3,Normal,pass,-10,not successful,,0.47,0.45,0.48,,B.Young,,T.Jeffcoat,,1,, 9-B.Young sacked at BAMA 40 for -10 yards (18-T.Jeffcoat). 
+Alabama,4Q,11,157,73,4,Normal,punt,,successful,,,0.46,,,,,,,,," 98-S.Johnson punts 45 yards from BAMA 40. 11-B.Banister to MIZ 18, FUMBLES. 45-T.Fletcher recovers at the MIZ 18. 45-T.Fletcher to MIZ 18 for no gain. "
+Alabama,4Q,11,158,74,1,Red Zone,run,2,not successful,0.42,,0.46,0.49,T.Sanders,,,T.Williams,,1,, 24-T.Sanders to MIZ 16 for 2 yards (0-T.Williams). 
+Alabama,4Q,11,159,75,2,Red Zone,run,0,not successful,0.41,,0.45,0.50,T.Sanders,,,K.Whiteside,C.Wilkins,0.5,0.5," 24-T.Sanders to MIZ 16 for no gain (78-K.Whiteside,40-C.Wilkins). "
+Alabama,4Q,11,160,76,3,Red Zone,pass,,not successful,,0.46,0.44,0.49,,B.Young,J.Waddle,,,,, 9-B.Young incomplete. Intended for 17-J.Waddle. 
+Missouri,4Q,10,163,68,1,Normal,pass,,not successful,,0.41,0.39,0.47,,C.Bazelak,T.Badie,,,,, 8-C.Bazelak incomplete. Intended for 1-T.Badie. 
+Missouri,4Q,10,164,69,2,Normal,pass,,not successful,,0.39,0.39,0.46,,C.Bazelak,E.Young,,,,, 8-C.Bazelak incomplete. Intended for 4-E.Young. 
+Missouri,4Q,10,165,70,3,Normal,pass,15,explosive,,0.41,0.40,0.45,,C.Bazelak,J.Knox,J.Jobe,,1,, 8-C.Bazelak complete to 9-J.Knox. 9-J.Knox to MIZ 40 for 15 yards (28-J.Jobe). 
+Missouri,4Q,10,166,71,1,Normal,run,9,successful,0.38,,0.41,0.46,C.Bazelak,,,D.Sanders,,1,, 8-C.Bazelak to MIZ 49 for 9 yards (16-D.Sanders). 
+Missouri,4Q,10,167,72,2,Normal,pass,,not successful,,0.40,0.40,0.45,,C.Bazelak,D.Hazelton,,,,, 8-C.Bazelak incomplete. Intended for 7-D.Hazelton. 
+Missouri,4Q,10,168,73,3,Normal,run,2,successful,0.40,,0.41,0.46,D.Downing,,,J.Moody,,1,, 28-D.Downing to BAMA 49 for 2 yards (42-J.Moody). 
+Missouri,4Q,10,169,74,1,Normal,pass,8,successful,,0.42,0.42,0.45,,C.Bazelak,B.Banister,D.Wright,,1,, 8-C.Bazelak complete to 11-B.Banister. 11-B.Banister to BAMA 41 for 8 yards (3-D.Wright). 
+Missouri,4Q,10,170,75,2,Normal,pass,7,successful,,0.43,0.43,0.45,,C.Bazelak,D.Downing,J.Moody,,1,, 8-C.Bazelak complete to 28-D.Downing. 28-D.Downing to BAMA 34 for 7 yards (42-J.Moody). 
+Missouri,4Q,10,171,76,1,Normal,pass,-4,not successful,,0.42,0.42,0.44,,C.Bazelak,,J.Jobe,,1,, 8-C.Bazelak sacked at BAMA 38 for -4 yards (28-J.Jobe). 
+Missouri,4Q,10,172,77,2,Normal,pass,22,explosive,,0.44,0.43,0.43,,C.Bazelak,D.Gicinto,,,,, 8-C.Bazelak complete to 14-D.Gicinto. 14-D.Gicinto to BAMA 16 for 22 yards. 
+Missouri,4Q,10,173,78,1,Red Zone,pass,,not successful,,0.43,0.42,0.43,,C.Bazelak,D.Gicinto,,,,, 8-C.Bazelak incomplete. Intended for 14-D.Gicinto. 
+Missouri,4Q,10,174,79,2,Red Zone,pass,9,successful,,0.44,0.43,0.42,,C.Bazelak,D.Gicinto,D.Wright,,1,, 8-C.Bazelak complete to 14-D.Gicinto. 14-D.Gicinto to BAMA 7 for 9 yards (3-D.Wright). 
+Missouri,4Q,10,175,80,3,Red Zone,pass,,not successful,,0.43,0.42,0.42,,C.Bazelak,T.Badie,,,,, 8-C.Bazelak incomplete. Intended for 1-T.Badie. 
+Missouri,4Q,10,176,81,4,Red Zone,run,7,successful,0.42,,0.43,0.42,C.Bazelak,,,,,,," 8-C.Bazelak scrambles, runs 7 yards for a touchdown. "
