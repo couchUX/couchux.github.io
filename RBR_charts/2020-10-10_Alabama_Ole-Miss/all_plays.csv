@@ -1,137 +1,165 @@
 team,quarter,drive_team,play_count,play_count_team,down,red_zone,play_type,yards_total,play_result,run_sr,pass_sr,total_sr,run_rate,runner,passer,receiver,tackler_one,tackler_two,tackler_one_credit,tackler_two_credit,play_description
-Texas A&M,1Q,1,2,1,1,Normal,pass,14,successful,,1.00,1.00,0.00,,K.Mond,J.Preston,P.Surtain,D.Wright,0.5,0.5," 11-K.Mond complete to 5-J.Preston. 5-J.Preston to TXAM 39 for 14 yards (2-P.Surtain,3-D.Wright). "
-Texas A&M,1Q,1,3,2,1,Normal,pass,9,successful,,1.00,1.00,0.00,,K.Mond,K.Brown,M.Moore,,1,, 11-K.Mond complete to 18-K.Brown. 18-K.Brown to TXAM 48 for 9 yards (13-M.Moore). 
-Texas A&M,1Q,1,4,3,2,Normal,run,5,successful,1.00,,1.00,0.33,I.Spiller,,,J.Jobe,,1,, 28-I.Spiller to BAMA 47 for 5 yards (28-J.Jobe). 
-Texas A&M,1Q,1,5,4,1,Normal,run,6,successful,1.00,,1.00,0.50,I.Spiller,,,J.Jobe,,1,, 28-I.Spiller to BAMA 41 for 6 yards (28-J.Jobe). 
-Texas A&M,1Q,1,6,5,2,Normal,pass,6,successful,,1.00,1.00,0.40,,K.Mond,J.Wydermyer,C.Harris,,1,, 11-K.Mond complete to 85-J.Wydermyer. 85-J.Wydermyer to BAMA 35 for 6 yards (8-C.Harris). 
-Texas A&M,1Q,1,7,6,1,Normal,pass,,not successful,,0.75,0.83,0.33,,K.Mond,C.Lane,,,,, 11-K.Mond incomplete. Intended for 2-C.Lane. 
-Texas A&M,1Q,1,8,7,2,Normal,run,14,successful,1.00,,0.86,0.43,A.Smith,,,J.Jobe,,1,, 0-A.Smith to BAMA 21 for 14 yards (28-J.Jobe). 
-Texas A&M,1Q,1,9,8,1,Normal,pass,1,not successful,,0.60,0.75,0.38,,K.Mond,A.Smith,J.Battle,M.Moore,0.5,0.5," 11-K.Mond complete to 0-A.Smith. 0-A.Smith to BAMA 20 for 1 yard (9-J.Battle,13-M.Moore). "
-Texas A&M,1Q,1,10,9,2,Normal,pass,,not successful,,0.50,0.67,0.33,,K.Mond,C.Lane,,,,, 11-K.Mond incomplete. Intended for 2-C.Lane. 
-Texas A&M,1Q,1,11,10,3,Normal,pass,,not successful,,0.43,0.60,0.30,,K.Mond,J.Preston,,,,, 11-K.Mond incomplete. Intended for 5-J.Preston. 
-Alabama,1Q,1,13,1,1,Normal,run,6,successful,1.00,,1.00,1.00,N.Harris,,,M.Jones,,1,, 22-N.Harris to BAMA 26 for 6 yards (0-M.Jones). 
-Alabama,1Q,1,15,3,2,Normal,run,1,not successful,0.50,,0.50,1.00,N.Harris,,,B.Johnson,,1,, 22-N.Harris to BAMA 22 for 1 yard (1-B.Johnson). 
-Alabama,1Q,1,16,4,3,Normal,pass,78,explosive,,1.00,0.67,0.67,,M.Jones,J.Metchie,,,,, 10-M.Jones complete to 8-J.Metchie. 8-J.Metchie runs 78 yards for a touchdown. 
-Texas A&M,1Q,2,19,12,1,Normal,pass,13,successful,,0.50,0.64,0.27,,K.Mond,J.Preston,D.Moses,,1,, 11-K.Mond complete to 5-J.Preston. 5-J.Preston to TXAM 38 for 13 yards (32-D.Moses). 
-Texas A&M,1Q,2,20,13,1,Normal,pass,,not successful,,0.44,0.58,0.25,,K.Mond,D.Demas,,,,, 11-K.Mond incomplete. Intended for 1-D.Demas. 
-Texas A&M,1Q,2,21,14,2,Normal,run,2,not successful,0.75,,0.54,0.31,A.Smith,,,J.Eboigbe,,1,, 0-A.Smith to TXAM 40 for 2 yards (92-J.Eboigbe). 
-Texas A&M,1Q,2,23,16,3,Normal,pass,,not successful,,0.40,0.50,0.29,,K.Mond,C.Lane,,,,, 11-K.Mond incomplete. Intended for 2-C.Lane. 
-Alabama,1Q,2,26,5,1,Normal,run,0,not successful,0.33,,0.50,0.75,N.Harris,,,B.Brown,,1,, 22-N.Harris to BAMA 34 for no gain (5-B.Brown). 
-Alabama,1Q,2,27,6,2,Normal,pass,1,not successful,,0.50,0.40,0.60,,M.Jones,J.Metchie,J.Jones,,1,, 10-M.Jones complete to 8-J.Metchie. 8-J.Metchie to BAMA 35 for 1 yard (17-J.Jones). 
-Alabama,1Q,2,28,7,3,Normal,pass,35,explosive,,0.67,0.50,0.50,,M.Jones,J.Metchie,,,,, 10-M.Jones complete to 8-J.Metchie. 8-J.Metchie to TXAM 30 for 35 yards. 
-Alabama,1Q,2,29,8,1,Normal,no play,5,successful,,,0.57,,,,,A.Hansford,D.Richardson,0.5,0.5," 22-N.Harris to TXAM 28 for 2 yards (33-A.Hansford,26-D.Richardson). Team penalty on TXAM, 12 players, 5 yards, enforced at TXAM 30. No Play. "
-Alabama,1Q,2,30,9,1,Normal,pass,12,successful,,0.75,0.63,0.43,,M.Jones,M.Forristall,E.Young,,1,, 10-M.Jones complete to 87-M.Forristall. 87-M.Forristall to TXAM 13 for 12 yards (4-E.Young). 
-Alabama,1Q,2,31,10,1,Red Zone,pass,4,not successful,,0.60,0.56,0.38,,M.Jones,J.Waddle,J.Jones,,1,, 10-M.Jones complete to 17-J.Waddle. 17-J.Waddle to TXAM 9 for 4 yards (17-J.Jones). 
-Alabama,1Q,2,32,11,2,Red Zone,run,3,not successful,0.25,,0.50,0.44,J.Waddle,,,D.Richardson,,1,, 17-J.Waddle to TXAM 6 for 3 yards (26-D.Richardson). 
-Alabama,1Q,2,33,12,3,Red Zone,run,6,successful,0.40,,0.55,0.50,N.Harris,,,,,,, 22-N.Harris runs 6 yards for a touchdown. 
-Texas A&M,1Q,3,36,19,1,Normal,run,4,not successful,0.60,,0.47,0.33,K.Mond,,,P.Mathis,,1,, 11-K.Mond to TXAM 29 for 4 yards (48-P.Mathis). 
-Texas A&M,1Q,3,37,20,2,Normal,run,3,not successful,0.50,,0.44,0.38,I.Spiller,,,P.Mathis,,1,, 28-I.Spiller to TXAM 32 for 3 yards (48-P.Mathis). 
-Texas A&M,1Q,3,38,21,3,Normal,no play,10,successful,,,0.47,,,,,,,,," 11-K.Mond incomplete. Intended for 85-J.Wydermyer. Penalty on BAMA 3-D.Wright, Holding, 10 yards, enforced at TXAM 32. No Play. "
-Texas A&M,1Q,3,39,22,1,Normal,run,6,successful,0.57,,0.50,0.41,K.Mond,,,C.Harris,,1,, 11-K.Mond to TXAM 48 for 6 yards (8-C.Harris). 
-Texas A&M,1Q,3,40,23,2,Normal,run,5,successful,0.63,,0.53,0.44,A.Smith,,,C.Allen,C.Harris,0.5,0.5," 0-A.Smith to BAMA 47 for 5 yards (4-C.Allen,8-C.Harris). "
-Texas A&M,1Q,3,41,24,1,Normal,pass,47,explosive,,0.45,0.55,0.42,,K.Mond,A.Smith,,,,, 11-K.Mond complete to 0-A.Smith. 0-A.Smith runs 47 yards for a touchdown. 
-Alabama,1Q,3,44,13,1,Normal,pass,20,explosive,,0.67,0.58,0.45,,M.Jones,D.Smith,K.Carper,,1,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith to BAMA 45 for 20 yards (14-K.Carper). 
-Alabama,1Q,3,45,14,1,Normal,pass,23,explosive,,0.71,0.62,0.42,,M.Jones,J.Waddle,L.O'Neal,D.Morris,0.5,0.5," 10-M.Jones complete to 17-J.Waddle. 17-J.Waddle to TXAM 32 for 23 yards (9-L.O'Neal,7-D.Morris). "
-Alabama,1Q,3,46,15,1,Normal,pass,,not successful,,0.63,0.57,0.38,,M.Jones,B.Robinson,,,,, 10-M.Jones incomplete. Intended for 4-B.Robinson. 
-Alabama,1Q,3,47,16,2,Normal,run,0,not successful,0.33,,0.53,0.43,B.Robinson,,,A.White,L.O'Neal,0.5,0.5," 4-B.Robinson to TXAM 32 for no gain (32-A.White,9-L.O'Neal). "
-Alabama,2Q,4,48,17,3,Normal,pass,,not successful,,0.56,0.50,0.40,,M.Jones,,N.Harris,,,, 10-M.Jones incomplete. INTERCEPTED by 8-D.Leal at TXAM 40. 8-D.Leal to BAMA 17 for 43 yards (22-N.Harris). 
-Texas A&M,2Q,4,49,25,1,Red Zone,pass,17,explosive,,0.50,0.57,0.40,,K.Mond,R.Renick,,,,, 11-K.Mond complete to 46-R.Renick. 46-R.Renick runs 17 yards for a touchdown. 
-Alabama,2Q,5,52,18,1,Normal,run,3,not successful,0.29,,0.47,0.44,N.Harris,,,K.Carper,,1,, 22-N.Harris to BAMA 28 for 3 yards (14-K.Carper). 
-Alabama,2Q,5,53,19,2,Normal,run,5,successful,0.38,,0.50,0.47,N.Harris,,,A.White,,1,, 22-N.Harris to BAMA 33 for 5 yards (32-A.White). 
-Alabama,2Q,5,54,20,3,Normal,pass,,not successful,,0.50,0.47,0.44,,M.Jones,J.Waddle,,,,, 10-M.Jones incomplete. Intended for 17-J.Waddle. 
-Texas A&M,2Q,5,56,26,1,Normal,run,4,not successful,0.56,,0.55,0.43,I.Spiller,,,J.Eboigbe,,1,, 28-I.Spiller to TXAM 31 for 4 yards (92-J.Eboigbe). 
-Texas A&M,2Q,5,57,27,2,Normal,run,3,not successful,0.50,,0.52,0.45,I.Spiller,,,C.Harris,L.Ray,0.5,0.5," 28-I.Spiller to TXAM 34 for 3 yards (8-C.Harris,18-L.Ray). "
-Texas A&M,2Q,5,58,28,3,Normal,pass,,not successful,,0.46,0.50,0.43,,K.Mond,K.Brown,,,,, 11-K.Mond incomplete. Intended for 18-K.Brown. 
-Alabama,2Q,6,60,22,1,Normal,pass,17,explosive,,0.55,0.50,0.42,,M.Jones,J.Waddle,D.Morris,,1,, 10-M.Jones complete to 17-J.Waddle. 17-J.Waddle to TXAM 49 for 17 yards (7-D.Morris). 
-Alabama,2Q,6,61,23,1,Normal,pass,20,explosive,,0.58,0.52,0.40,,M.Jones,D.Smith,D.Morris,,1,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith to TXAM 29 for 20 yards (7-D.Morris). 
-Alabama,2Q,6,62,24,1,Normal,run,6,successful,0.44,,0.55,0.43,N.Harris,,,D.Richardson,,1,, 22-N.Harris to TXAM 23 for 6 yards (26-D.Richardson). 
-Alabama,2Q,6,63,25,2,Normal,run,3,successful,0.50,,0.57,0.45,N.Harris,,,B.Johnson,,1,, 22-N.Harris to TXAM 20 for 3 yards (1-B.Johnson). 
-Alabama,2Q,6,64,26,3,Normal,run,2,successful,0.55,,0.58,0.48,M.Jones,,,M.Clemons,,1,, 10-M.Jones to TXAM 18 for 2 yards (2-M.Clemons). 
-Alabama,2Q,6,65,27,1,Red Zone,pass,16,explosive,,0.62,0.60,0.46,,M.Jones,N.Harris,B.Johnson,,1,, 10-M.Jones complete to 22-N.Harris. 22-N.Harris to TXAM 2 for 16 yards (1-B.Johnson). 
-Alabama,2Q,6,66,28,1,Red Zone,run,2,successful,0.58,,0.62,0.48,N.Harris,,,,,,, 22-N.Harris runs 2 yards for a touchdown. 
-Texas A&M,2Q,6,69,30,1,Normal,pass,,not successful,,0.43,0.48,0.42,,K.Mond,A.Smith,,,,, 11-K.Mond incomplete. Intended for 0-A.Smith. 
-Texas A&M,2Q,6,70,31,2,Normal,run,3,not successful,0.45,,0.46,0.44,K.Mond,,,D.Moses,,1,, 11-K.Mond to TXAM 28 for 3 yards (32-D.Moses). 
-Texas A&M,2Q,6,71,32,3,Normal,pass,10,successful,,0.47,0.48,0.42,,K.Mond,J.Wydermyer,D.Hellams,,1,, 11-K.Mond complete to 85-J.Wydermyer. 85-J.Wydermyer to TXAM 38 for 10 yards (29-D.Hellams). 
-Texas A&M,2Q,6,72,33,1,Normal,pass,,not successful,,0.44,0.46,0.41,,K.Mond,J.Wydermyer,,,,, 11-K.Mond incomplete. Intended for 85-J.Wydermyer. 
-Texas A&M,2Q,6,74,35,2,Normal,pass,7,not successful,,0.41,0.45,0.39,,K.Mond,C.Lane,,,,, 11-K.Mond complete to 2-C.Lane. 2-C.Lane to TXAM 35 for 7 yards. 
-Texas A&M,2Q,6,75,36,3,Normal,pass,,not successful,,0.39,0.43,0.38,,K.Mond,,,,,, 11-K.Mond incomplete. INTERCEPTED by 3-D.Wright at TXAM 47. 3-D.Wright runs 47 yards for a touchdown. 
-Texas A&M,2Q,7,78,37,1,Normal,run,7,successful,0.50,,0.45,0.40,I.Spiller,,,C.Harris,,1,, 28-I.Spiller to TXAM 32 for 7 yards (8-C.Harris). 
-Texas A&M,2Q,7,79,38,2,Normal,run,0,not successful,0.46,,0.44,0.42,I.Spiller,,,B.Young,M.Moore,0.5,0.5," 28-I.Spiller to TXAM 32 for no gain (47-B.Young,13-M.Moore). "
-Texas A&M,2Q,7,80,39,3,Normal,run,10,successful,0.50,,0.45,0.44,A.Smith,,,J.Battle,,1,, 0-A.Smith to TXAM 42 for 10 yards (9-J.Battle). 
-Texas A&M,2Q,7,81,40,1,Normal,pass,,not successful,,0.37,0.44,0.42,,K.Mond,J.Preston,,,,, 11-K.Mond incomplete. Intended for 5-J.Preston. 
-Texas A&M,2Q,7,82,41,2,Normal,pass,15,explosive,,0.40,0.46,0.41,,K.Mond,A.Smith,W.Anderson,,1,, 11-K.Mond complete to 0-A.Smith. 0-A.Smith to BAMA 43 for 15 yards (31-W.Anderson). 
-Texas A&M,2Q,7,83,42,1,Normal,pass,9,successful,,0.43,0.47,0.40,,K.Mond,K.Brown,J.Battle,,1,, 11-K.Mond complete to 18-K.Brown. 18-K.Brown to BAMA 34 for 9 yards (9-J.Battle). 
-Texas A&M,2Q,7,84,43,2,Normal,run,-2,not successful,0.47,,0.46,0.42,I.Spiller,,,B.Young,,1,, 28-I.Spiller to BAMA 36 for -2 yards (47-B.Young). 
-Texas A&M,2Q,7,85,44,3,Normal,run,1,not successful,0.44,,0.45,0.43,I.Spiller,,,C.Allen,,1,, 28-I.Spiller to BAMA 35 for 1 yard (4-C.Allen). 
-Texas A&M,2Q,7,86,45,4,Normal,pass,,not successful,,0.41,0.44,0.42,,K.Mond,A.Smith,,,,, 11-K.Mond incomplete. Intended for 0-A.Smith. 
-Alabama,2Q,8,87,29,1,Normal,pass,10,successful,,0.64,0.63,0.46,,M.Jones,N.Harris,B.Johnson,,1,, 10-M.Jones complete to 22-N.Harris. 22-N.Harris to BAMA 46 for 10 yards (1-B.Johnson). 
-Alabama,2Q,8,88,30,1,Normal,pass,11,successful,,0.67,0.64,0.44,,M.Jones,M.Forristall,J.Jones,,1,, 10-M.Jones complete to 87-M.Forristall. 87-M.Forristall to TXAM 43 for 11 yards (17-J.Jones). 
-Alabama,2Q,8,89,31,1,Normal,pass,,not successful,,0.63,0.62,0.43,,M.Jones,D.Smith,,,,, 10-M.Jones incomplete. Intended for 6-D.Smith. 
-Alabama,2Q,8,90,32,2,Normal,pass,11,successful,,0.65,0.63,0.41,,M.Jones,J.Waddle,M.Jones,,1,, 10-M.Jones complete to 17-J.Waddle. 17-J.Waddle to TXAM 32 for 11 yards (0-M.Jones). 
-Alabama,2Q,8,91,33,1,Normal,run,4,not successful,0.54,,0.61,0.43,N.Harris,,,J.Peevy,,1,, 22-N.Harris to TXAM 28 for 4 yards (92-J.Peevy). 
-Alabama,2Q,8,92,34,2,Normal,pass,4,not successful,,0.61,0.59,0.42,,M.Jones,J.Metchie,J.Jones,D.Morris,0.5,0.5," 10-M.Jones complete to 8-J.Metchie. 8-J.Metchie to TXAM 24 for 4 yards (17-J.Jones,7-D.Morris). "
-Alabama,2Q,8,93,35,3,Normal,pass,9,successful,,0.63,0.61,0.41,,M.Jones,D.Smith,A.White,J.Jones,0.5,0.5," 10-M.Jones complete to 6-D.Smith. 6-D.Smith to TXAM 15 for 9 yards (32-A.White,17-J.Jones). "
-Alabama,2Q,8,94,36,1,Red Zone,pass,13,successful,,0.65,0.62,0.39,,M.Jones,D.Smith,,,,," 10-M.Jones incomplete. Intended for 6-D.Smith. Penalty on TXAM 14-K.Carper, Pass interference, 13 yards, enforced at TXAM 15. No Play. "
-Alabama,2Q,8,95,37,1,Red Zone,pass,2,successful,,0.67,0.63,0.38,,M.Jones,D.Smith,,,,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith runs 2 yards for a touchdown. 
-Alabama,3Q,9,99,38,1,Normal,pass,,not successful,,0.64,0.61,0.37,,M.Jones,D.Smith,,,,, 10-M.Jones incomplete. Intended for 6-D.Smith. 
-Alabama,3Q,9,100,39,2,Normal,run,2,not successful,0.50,,0.59,0.39,N.Harris,,,B.Johnson,,1,, 22-N.Harris to BAMA 27 for 2 yards (1-B.Johnson). 
-Alabama,3Q,9,101,40,3,Normal,pass,,not successful,,0.61,0.58,0.38,,M.Jones,J.Metchie,,,,, 10-M.Jones incomplete. Intended for 8-J.Metchie. 
-Texas A&M,3Q,9,103,46,1,Normal,run,8,successful,0.47,,0.45,0.44,K.Mond,,,D.Moses,,1,," 11-K.Mond scrambles, pushed ob at BAMA 45 for 8 yards (32-D.Moses). "
-Texas A&M,3Q,9,104,47,2,Normal,run,2,successful,0.50,,0.46,0.45,I.Spiller,,,D.Moses,,1,, 28-I.Spiller to BAMA 43 for 2 yards (32-D.Moses). 
-Texas A&M,3Q,9,105,48,1,Normal,pass,3,not successful,,0.39,0.45,0.44,,K.Mond,C.Lane,M.Moore,,1,, 11-K.Mond complete to 2-C.Lane. 2-C.Lane to BAMA 40 for 3 yards (13-M.Moore). 
-Texas A&M,3Q,9,106,49,2,Normal,pass,,not successful,,0.38,0.44,0.43,,K.Mond,C.Lane,,,,, 11-K.Mond incomplete. Intended for 2-C.Lane. 
-Texas A&M,3Q,9,107,50,3,Normal,pass,15,explosive,,0.40,0.45,0.42,,K.Mond,J.Wydermyer,J.Battle,,1,, 11-K.Mond complete to 85-J.Wydermyer. 85-J.Wydermyer to BAMA 25 for 15 yards (9-J.Battle). 
-Texas A&M,3Q,9,108,51,1,Normal,pass,,not successful,,0.38,0.44,0.41,,K.Mond,A.Smith,,,,, 11-K.Mond incomplete. Intended for 0-A.Smith. 
-Texas A&M,3Q,9,109,52,2,Normal,run,-2,not successful,0.47,,0.43,0.42,K.Mond,,,C.Allen,,1,, 11-K.Mond to BAMA 27 for -2 yards (4-C.Allen). 
-Texas A&M,3Q,9,110,53,3,Normal,pass,15,explosive,,0.41,0.45,0.41,,K.Mond,C.Lane,D.Wright,,1,, 11-K.Mond complete to 2-C.Lane. 2-C.Lane to BAMA 12 for 15 yards (3-D.Wright). 
-Texas A&M,3Q,9,111,54,1,Red Zone,run,-1,not successful,0.45,,0.44,0.43,K.Mond,,,P.Mathis,,1,, 11-K.Mond to BAMA 13 for -1 yard (48-P.Mathis). 
-Texas A&M,3Q,9,112,55,2,Red Zone,pass,,not successful,,0.39,0.43,0.42,,K.Mond,,,,,, 11-K.Mond incomplete. 
-Texas A&M,3Q,9,113,56,3,Red Zone,pass,10,not successful,,0.38,0.42,0.41,,K.Mond,J.Wydermyer,J.Battle,,1,, 11-K.Mond complete to 85-J.Wydermyer. 85-J.Wydermyer to BAMA 3 for 10 yards (9-J.Battle). 
-Texas A&M,3Q,9,114,57,3,Red Zone,pass,,not successful,,0.37,0.41,0.40,,K.Mond,J.Wydermyer,,,,, 11-K.Mond incomplete. Intended for 85-J.Wydermyer. 
-Alabama,3Q,10,117,42,1,Normal,pass,-10,not successful,,0.58,0.56,0.37,,M.Jones,D.Smith,,,,," 10-M.Jones complete to 6-D.Smith. 6-D.Smith to BAMA 28 for 3 yards. Penalty on BAMA 70-A.Leatherwood, Holding, 10 yards, enforced at BAMA 28. "
-Alabama,3Q,10,119,44,1,Normal,run,5,not successful,0.47,,0.55,0.38,N.Harris,,,M.Clemons,,1,, 22-N.Harris to BAMA 18 for 5 yards (2-M.Clemons). 
-Alabama,3Q,10,121,46,2,Normal,pass,87,explosive,,0.60,0.56,0.38,,M.Jones,J.Waddle,,,,, 10-M.Jones complete to 17-J.Waddle. 17-J.Waddle runs 87 yards for a touchdown. 
-Texas A&M,3Q,10,124,59,1,Normal,pass,10,successful,,0.39,0.42,0.39,,K.Mond,J.Wydermyer,W.Anderson,,1,, 11-K.Mond complete to 85-J.Wydermyer. 85-J.Wydermyer to TXAM 35 for 10 yards (31-W.Anderson). 
-Texas A&M,3Q,10,125,60,1,Normal,pass,18,explosive,,0.41,0.43,0.38,,K.Mond,J.Wydermyer,D.Wright,J.Battle,0.5,0.5," 11-K.Mond complete to 85-J.Wydermyer. 85-J.Wydermyer to BAMA 47 for 18 yards (3-D.Wright,9-J.Battle). "
-Texas A&M,3Q,10,126,61,1,Normal,pass,3,not successful,,0.39,0.43,0.38,,K.Mond,A.Smith,C.Harris,,1,, 11-K.Mond complete to 0-A.Smith. 0-A.Smith to BAMA 44 for 3 yards (8-C.Harris). 
-Texas A&M,3Q,10,127,62,2,Normal,pass,6,successful,,0.41,0.44,0.37,,K.Mond,C.Chapman,M.Moore,,1,, 11-K.Mond complete to 81-C.Chapman. 81-C.Chapman to BAMA 38 for 6 yards (13-M.Moore). 
-Texas A&M,3Q,10,128,63,3,Normal,run,1,successful,0.48,,0.45,0.38,K.Mond,,,B.Young,P.Mathis,0.5,0.5," 11-K.Mond to BAMA 37 for 1 yard (47-B.Young,48-P.Mathis). "
-Texas A&M,3Q,10,129,64,1,Normal,run,-4,not successful,0.45,,0.44,0.39,I.Spiller,,,W.Anderson,,1,, 28-I.Spiller to BAMA 41 for -4 yards (31-W.Anderson). 
-Texas A&M,3Q,10,130,65,2,Normal,pass,2,not successful,,0.40,0.43,0.39,,K.Mond,C.Lane,M.Moore,,1,, 11-K.Mond complete to 2-C.Lane. 2-C.Lane to BAMA 39 for 2 yards (13-M.Moore). 
-Texas A&M,3Q,10,132,67,3,Normal,pass,18,explosive,,0.42,0.44,0.38,,K.Mond,C.Lane,,,,, 11-K.Mond complete to 2-C.Lane. 2-C.Lane to BAMA 26 for 18 yards. 
-Texas A&M,3Q,10,133,68,1,Normal,pass,5,successful,,0.43,0.45,0.37,,K.Mond,J.Wydermyer,C.Harris,,1,, 11-K.Mond complete to 85-J.Wydermyer. 85-J.Wydermyer to BAMA 21 for 5 yards (8-C.Harris). 
-Texas A&M,3Q,10,134,69,2,Normal,pass,,not successful,,0.42,0.44,0.37,,K.Mond,A.Smith,,,,, 11-K.Mond incomplete. Intended for 0-A.Smith. 
-Texas A&M,3Q,10,135,70,3,Normal,run,-2,not successful,0.43,,0.44,0.38,A.Smith,,,D.Moses,J.Battle,0.5,0.5," 0-A.Smith to BAMA 23 for -2 yards (32-D.Moses,9-J.Battle). "
-Texas A&M,3Q,10,136,71,4,Normal,pass,,not successful,,0.41,0.43,0.37,,K.Mond,J.Preston,,,,, 11-K.Mond incomplete. Intended for 5-J.Preston. 
-Alabama,3Q,11,137,47,1,Normal,run,4,not successful,0.44,,0.55,0.39,B.Robinson,,,B.Johnson,D.Hunter,0.5,0.5," 4-B.Robinson to BAMA 28 for 4 yards (1-B.Johnson,6-D.Hunter). "
-Alabama,4Q,12,138,48,2,Normal,run,12,successful,0.47,,0.56,0.40,B.Robinson,,,A.White,K.Carper,0.5,0.5," 4-B.Robinson to BAMA 40 for 12 yards (32-A.White,14-K.Carper). "
-Alabama,4Q,12,139,49,1,Normal,run,16,explosive,0.50,,0.57,0.42,B.Robinson,,,K.Carper,,1,, 4-B.Robinson to TXAM 44 for 16 yards (14-K.Carper). 
-Alabama,4Q,12,140,50,1,Normal,run,2,not successful,0.47,,0.56,0.43,B.Robinson,,,L.O'Neal,,1,, 4-B.Robinson to TXAM 42 for 2 yards (9-L.O'Neal). 
-Alabama,4Q,12,141,51,2,Normal,pass,15,successful,,0.62,0.57,0.42,,M.Jones,J.Metchie,,,,," 10-M.Jones incomplete. Intended for 8-J.Metchie. Penalty on TXAM 17-J.Jones, Pass interference, 15 yards, enforced at TXAM 42. No Play. "
-Alabama,4Q,12,142,52,1,Normal,pass,9,successful,,0.63,0.57,0.41,,M.Jones,D.Smith,L.O'Neal,,1,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith to TXAM 18 for 9 yards (9-L.O'Neal). 
-Alabama,4Q,12,143,53,2,Red Zone,run,7,successful,0.50,,0.58,0.43,B.Robinson,,,A.White,B.Johnson,0.5,0.5," 4-B.Robinson to TXAM 11 for 7 yards (32-A.White,1-B.Johnson). "
-Alabama,4Q,12,144,54,1,Red Zone,run,5,successful,0.52,,0.59,0.44,B.Robinson,,,M.Jackson,B.Brown,0.5,0.5," 4-B.Robinson to TXAM 6 for 5 yards (35-M.Jackson,5-B.Brown). "
-Alabama,4Q,12,145,55,2,Red Zone,run,-2,not successful,0.50,,0.58,0.45,B.Robinson,,,A.Hansford,,1,, 4-B.Robinson to TXAM 8 for -2 yards (33-A.Hansford). 
-Alabama,4Q,12,146,56,3,Red Zone,pass,,not successful,,0.61,0.57,0.44,,M.Jones,M.Forristall,,,,, 10-M.Jones incomplete. Intended for 87-M.Forristall. 
-Texas A&M,4Q,11,149,72,1,Normal,pass,43,explosive,,0.43,0.44,0.37,,K.Mond,A.Smith,J.Jobe,,1,, 11-K.Mond complete to 0-A.Smith. 0-A.Smith to BAMA 32 for 43 yards (28-J.Jobe). 
-Texas A&M,4Q,11,150,73,1,Normal,run,0,not successful,0.42,,0.43,0.38,K.Mond,,,C.Harris,,1,, 11-K.Mond scrambles to BAMA 32 for no gain (8-C.Harris). 
-Texas A&M,4Q,11,151,74,2,Normal,pass,4,not successful,,0.41,0.42,0.37,,K.Mond,J.Wydermyer,C.Harris,,1,, 11-K.Mond complete to 85-J.Wydermyer. 85-J.Wydermyer to BAMA 28 for 4 yards (8-C.Harris). 
-Texas A&M,4Q,11,152,75,3,Normal,pass,14,successful,,0.43,0.43,0.36,,K.Mond,J.Wydermyer,D.Hellams,,1,, 11-K.Mond complete to 85-J.Wydermyer. 85-J.Wydermyer to BAMA 14 for 14 yards (29-D.Hellams). 
-Texas A&M,4Q,11,153,76,1,Red Zone,pass,,not successful,,0.42,0.43,0.36,,K.Mond,R.Renick,,,,, 11-K.Mond incomplete. Intended for 46-R.Renick. 
-Texas A&M,4Q,11,154,77,2,Red Zone,pass,,not successful,,0.41,0.42,0.35,,K.Mond,R.Renick,,,,, 11-K.Mond incomplete. Intended for 46-R.Renick. 
-Texas A&M,4Q,11,155,78,3,Red Zone,pass,14,successful,,0.42,0.43,0.35,,K.Mond,A.Smith,,,,, 11-K.Mond complete to 0-A.Smith. 0-A.Smith runs 14 yards for a touchdown. 
-Alabama,4Q,13,158,58,1,Normal,pass,-4,not successful,,0.59,0.56,0.43,,M.Jones,,M.Clemons,,1,, 10-M.Jones sacked at BAMA 21 for -4 yards (2-M.Clemons). 
-Alabama,4Q,13,159,59,2,Normal,run,14,successful,0.52,,0.57,0.44,B.Robinson,,,B.Johnson,,1,, 4-B.Robinson to BAMA 35 for 14 yards (1-B.Johnson). 
-Alabama,4Q,13,160,60,1,Normal,run,2,not successful,0.50,,0.56,0.45,B.Robinson,,,B.Brown,,1,, 4-B.Robinson to BAMA 37 for 2 yards (5-B.Brown). 
-Alabama,4Q,13,161,61,2,Normal,pass,63,explosive,,0.60,0.56,0.44,,M.Jones,J.Metchie,,,,, 10-M.Jones complete to 8-J.Metchie. 8-J.Metchie runs 63 yards for a touchdown. 
-Texas A&M,4Q,12,164,79,1,Normal,pass,17,explosive,,0.43,0.44,0.34,,H.King,C.Lane,,,,, 13-H.King complete to 2-C.Lane. 2-C.Lane to TXAM 47 for 17 yards. 
-Texas A&M,4Q,12,165,80,1,Normal,run,8,successful,0.44,,0.44,0.35,H.King,,,D.Hellams,,1,, 13-H.King scrambles to BAMA 45 for 8 yards (29-D.Hellams). 
-Texas A&M,4Q,12,166,81,2,Normal,pass,,not successful,,0.43,0.44,0.35,,H.King,C.Lane,,,,, 13-H.King incomplete. Intended for 2-C.Lane. 
-Texas A&M,4Q,12,167,82,3,Normal,run,7,successful,0.46,,0.45,0.36,H.King,,,J.Battle,,1,, 13-H.King to BAMA 38 for 7 yards (9-J.Battle). 
-Texas A&M,4Q,12,168,83,1,Normal,run,3,not successful,0.44,,0.44,0.36,H.King,,,J.Battle,D.Moses,0.5,0.5," 13-H.King to BAMA 35 for 3 yards (9-J.Battle,32-D.Moses). "
-Texas A&M,4Q,12,169,84,2,Normal,run,3,not successful,0.43,,0.43,0.37,H.King,,,C.Harris,,1,, 13-H.King to BAMA 32 for 3 yards (8-C.Harris). 
-Texas A&M,4Q,12,170,85,3,Normal,run,22,explosive,0.45,,0.44,0.38,H.King,,,J.Battle,,1,, 13-H.King to BAMA 10 for 22 yards (9-J.Battle). 
-Texas A&M,4Q,12,171,86,1,Red Zone,pass,,not successful,,0.42,0.44,0.38,,H.King,,,,,," 13-H.King incomplete. INTERCEPTED by 13-M.Moore at BAMA End Zone. 13-M.Moore, touchback. "
-Alabama,4Q,14,172,62,1,Normal,run,9,successful,0.52,,0.57,0.45,T.Sanders,,,A.White,D.Hunter,0.5,0.5," 24-T.Sanders to BAMA 29 for 9 yards (32-A.White,6-D.Hunter). "
-Alabama,4Q,14,173,63,2,Normal,run,-9,not successful,0.50,,0.56,0.46,9,,,D.Hunter,,1,, to BAMA 20 for -9 yards (6-D.Hunter). 
-Alabama,4Q,14,174,64,3,Normal,run,5,not successful,0.48,,0.55,0.47,T.Sanders,,,C.Russell,,1,, 24-T.Sanders to BAMA 25 for 5 yards (24-C.Russell). 
+Ole Miss,1Q,1,2,1,1,Normal,pass,17,explosive,,1.00,1.00,0.00,,M.Corral,E.Moore,J.Battle,C.Harris,0.5,0.5," 2-M.Corral complete to 8-E.Moore. 8-E.Moore to MIS 42 for 17 yards (9-J.Battle,8-C.Harris). "
+Ole Miss,1Q,1,3,2,1,Normal,pass,52,explosive,,1.00,1.00,0.00,,M.Corral,K.Yeboah,C.Harris,P.Surtain,0.5,0.5," 2-M.Corral complete to 84-K.Yeboah. 84-K.Yeboah to BAMA 6 for 52 yards (8-C.Harris,2-P.Surtain). "
+Ole Miss,1Q,1,4,3,1,Red Zone,pass,,not successful,,0.67,0.67,0.00,,M.Corral,E.Moore,,,,, 2-M.Corral incomplete. Intended for 8-E.Moore. 
+Ole Miss,1Q,1,5,4,2,Red Zone,pass,6,successful,,0.75,0.75,0.00,,M.Corral,K.Yeboah,,,,, 2-M.Corral complete to 84-K.Yeboah. 84-K.Yeboah runs 6 yards for a touchdown. 
+Alabama,1Q,1,8,1,1,Normal,run,7,successful,1.00,,1.00,1.00,N.Harris,,,K.Hill,T.Tisdale,0.5,0.5," 22-N.Harris to BAMA 22 for 7 yards (55-K.Hill,22-T.Tisdale). "
+Alabama,1Q,1,9,2,2,Normal,pass,4,successful,,1.00,1.00,0.50,,M.Jones,J.Waddle,A.Finley,,1,, 10-M.Jones complete to 17-J.Waddle. 17-J.Waddle to BAMA 26 for 4 yards (21-A.Finley). 
+Alabama,1Q,1,10,3,1,Normal,pass,18,explosive,,1.00,1.00,0.33,,M.Jones,J.Waddle,M.Sanogo,,1,, 10-M.Jones complete to 17-J.Waddle. 17-J.Waddle to BAMA 44 for 18 yards (46-M.Sanogo). 
+Alabama,1Q,1,11,4,1,Normal,run,0,not successful,0.50,,0.75,0.50,N.Harris,,,T.Tisdale,T.Robinson,0.5,0.5," 22-N.Harris to BAMA 44 for no gain (22-T.Tisdale,95-T.Robinson). "
+Alabama,1Q,1,12,5,2,Normal,pass,22,explosive,,1.00,0.80,0.40,,M.Jones,J.Waddle,K.Smith,,1,, 10-M.Jones complete to 17-J.Waddle. 17-J.Waddle to MIS 34 for 22 yards (20-K.Smith). 
+Alabama,1Q,1,13,6,1,Normal,run,3,not successful,0.33,,0.67,0.50,N.Harris,,,J.Jones,,1,, 22-N.Harris to MIS 31 for 3 yards (38-J.Jones). 
+Alabama,1Q,1,14,7,2,Normal,run,3,not successful,0.25,,0.57,0.57,N.Harris,,,D.Gill,,1,, 22-N.Harris to MIS 28 for 3 yards (14-D.Gill). 
+Alabama,1Q,1,15,8,3,Normal,pass,4,successful,,1.00,0.63,0.50,,M.Jones,N.Harris,M.Sanogo,,1,, 10-M.Jones complete to 22-N.Harris. 22-N.Harris to MIS 24 for 4 yards (46-M.Sanogo). 
+Alabama,1Q,1,16,9,1,Normal,pass,10,successful,,1.00,0.67,0.44,,M.Jones,D.Smith,J.Jones,,1,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith to MIS 14 for 10 yards (38-J.Jones). 
+Alabama,1Q,1,17,10,1,Red Zone,pass,14,successful,,1.00,0.70,0.40,,M.Jones,D.Smith,,,,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith runs 14 yards for a touchdown. 
+Ole Miss,1Q,2,20,5,1,Normal,run,3,not successful,0.00,,0.60,0.20,E.Moore,,,P.Surtain,,1,, 8-E.Moore to MIS 28 for 3 yards (2-P.Surtain). 
+Ole Miss,1Q,2,21,6,2,Normal,pass,,not successful,,0.60,0.50,0.17,,M.Corral,J.Ealy,,,,, 2-M.Corral incomplete. Intended for 9-J.Ealy. 
+Ole Miss,1Q,2,22,7,3,Normal,pass,17,explosive,,0.67,0.57,0.14,,M.Corral,K.Yeboah,D.Hellams,,1,, 2-M.Corral complete to 84-K.Yeboah. 84-K.Yeboah to MIS 45 for 17 yards (29-D.Hellams). 
+Ole Miss,1Q,2,23,8,1,Normal,pass,11,successful,,0.71,0.63,0.13,,M.Corral,J.Mingo,,,,, 2-M.Corral complete to 1-J.Mingo. 1-J.Mingo to BAMA 44 for 11 yards. 
+Ole Miss,1Q,2,24,9,1,Normal,run,9,successful,0.50,,0.67,0.22,J.Ealy,,,D.Wright,C.Barmore,0.5,0.5," 9-J.Ealy to BAMA 35 for 9 yards (3-D.Wright,58-C.Barmore). "
+Ole Miss,1Q,2,25,10,2,Normal,run,-18,not successful,0.33,,0.60,0.30,18,,,,,,, to MIS 47 for -18 yards. 
+Ole Miss,1Q,2,26,11,3,Normal,run,2,not successful,0.25,,0.55,0.36,M.Corral,,,W.Anderson,,1,, 2-M.Corral scrambles to MIS 49 for 2 yards (31-W.Anderson). 
+Alabama,1Q,2,28,11,1,Normal,run,12,successful,0.40,,0.73,0.45,N.Harris,,,K.Smith,,1,, 22-N.Harris to BAMA 32 for 12 yards (20-K.Smith). 
+Alabama,1Q,2,29,12,1,Normal,run,11,successful,0.50,,0.75,0.50,J.Waddle,,,J.Jones,,1,, 17-J.Waddle to BAMA 43 for 11 yards (38-J.Jones). 
+Alabama,1Q,2,30,13,1,Normal,pass,9,successful,,1.00,0.77,0.46,,M.Jones,J.Metchie,J.Hawkins,,1,, 10-M.Jones complete to 8-J.Metchie. 8-J.Metchie to MIS 48 for 9 yards (23-J.Hawkins). 
+Alabama,1Q,2,31,14,2,Normal,run,0,not successful,0.43,,0.71,0.50,N.Harris,,,L.Henry,,1,, 22-N.Harris to MIS 48 for no gain (0-L.Henry). 
+Alabama,1Q,2,32,15,3,Normal,run,5,successful,0.50,,0.73,0.53,N.Harris,,,J.Jordan,M.Sanogo,0.5,0.5," 22-N.Harris to MIS 43 for 5 yards (2-J.Jordan,46-M.Sanogo). "
+Alabama,1Q,2,33,16,1,Normal,pass,14,successful,,1.00,0.75,0.50,,M.Jones,N.Harris,A.Cistrunk,,1,, 10-M.Jones complete to 22-N.Harris. 22-N.Harris to MIS 29 for 14 yards (36-A.Cistrunk). 
+Alabama,1Q,2,34,17,1,Normal,run,8,successful,0.56,,0.76,0.53,B.Robinson,,,A.Cistrunk,,1,, 4-B.Robinson to MIS 21 for 8 yards (36-A.Cistrunk). 
+Alabama,1Q,2,35,18,2,Normal,pass,7,successful,,1.00,0.78,0.50,,M.Jones,D.Smith,K.Smith,,1,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith to MIS 14 for 7 yards (20-K.Smith). 
+Alabama,1Q,2,36,19,1,Red Zone,pass,13,successful,,1.00,0.79,0.47,,M.Jones,M.Forristall,Z.Baker,,1,, 10-M.Jones complete to 87-M.Forristall. 87-M.Forristall to MIS 1 for 13 yards (30-Z.Baker). 
+Alabama,1Q,2,37,20,1,Red Zone,run,,not successful,0.50,,0.75,0.50,N.Harris,,,J.Hawkins,,,," 22-N.Harris to MIS 1, FUMBLES (23-J.Hawkins). 23-J.Hawkins to MIS 7 for 6 yards (6-D.Smith). "
+Ole Miss,1Q,3,38,13,1,Normal,run,34,explosive,0.40,,0.58,0.42,S.Conner,,,D.Moses,,1,, 24-S.Conner to MIS 41 for 34 yards (32-D.Moses). 
+Ole Miss,1Q,3,39,14,1,Normal,pass,11,successful,,0.75,0.62,0.38,,M.Corral,D.Drummond,J.Jobe,,1,, 2-M.Corral complete to 11-D.Drummond. 11-D.Drummond to BAMA 48 for 11 yards (28-J.Jobe). 
+Ole Miss,1Q,3,40,15,1,Normal,pass,1,not successful,,0.67,0.57,0.36,,M.Corral,E.Moore,W.Anderson,,1,, 2-M.Corral complete to 8-E.Moore. 8-E.Moore to BAMA 47 for 1 yard (31-W.Anderson). 
+Ole Miss,1Q,3,41,16,2,Normal,pass,10,successful,,0.70,0.60,0.33,,M.Corral,E.Moore,M.Moore,,1,, 2-M.Corral complete to 8-E.Moore. 8-E.Moore to BAMA 37 for 10 yards (13-M.Moore). 
+Ole Miss,1Q,3,42,17,1,Normal,run,11,successful,0.50,,0.63,0.38,J.Ealy,,,J.Battle,,1,, 9-J.Ealy to BAMA 26 for 11 yards (9-J.Battle). 
+Ole Miss,1Q,3,43,18,1,Normal,pass,-2,not successful,,0.64,0.59,0.35,,M.Corral,E.Moore,D.Moses,J.Battle,0.5,0.5," 2-M.Corral complete to 8-E.Moore. 8-E.Moore to BAMA 28 for -2 yards (32-D.Moses,9-J.Battle). "
+Ole Miss,2Q,4,44,19,2,Normal,pass,,not successful,,0.58,0.56,0.33,,M.Corral,J.Mingo,,,,, 2-M.Corral incomplete. Intended for 1-J.Mingo. 
+Ole Miss,2Q,4,46,21,3,Normal,run,22,explosive,0.57,,0.58,0.37,J.Ealy,,,J.Battle,C.Harris,0.5,0.5," 9-J.Ealy to BAMA 21 for 22 yards (9-J.Battle,8-C.Harris). "
+Ole Miss,2Q,4,47,22,4,Normal,pass,18,explosive,,0.62,0.60,0.35,,M.Corral,J.Ealy,C.Harris,,1,, 2-M.Corral complete to 9-J.Ealy. 9-J.Ealy to BAMA 3 for 18 yards (8-C.Harris). 
+Ole Miss,2Q,4,48,23,1,Red Zone,run,3,successful,0.63,,0.62,0.38,J.Ealy,,,,,,," 9-J.Ealy runs 3 yards for a touchdown. Team penalty on BAMA, 12 men in the huddle, declined. "
+Alabama,2Q,3,51,21,1,Normal,pass,20,explosive,,1.00,0.76,0.48,,M.Jones,D.Smith,A.Finley,K.Smith,0.5,0.5," 10-M.Jones complete to 6-D.Smith. 6-D.Smith to BAMA 45 for 20 yards (21-A.Finley,20-K.Smith). "
+Alabama,2Q,3,52,22,1,Normal,pass,15,explosive,,1.00,0.77,0.45,,M.Jones,D.Smith,K.Smith,,1,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith to MIS 40 for 15 yards (20-K.Smith). 
+Alabama,2Q,3,53,23,1,Normal,run,6,successful,0.55,,0.78,0.48,N.Harris,,,L.Henry,,1,, 22-N.Harris to MIS 34 for 6 yards (0-L.Henry). 
+Alabama,2Q,3,54,24,2,Normal,pass,,not successful,,0.92,0.75,0.46,,M.Jones,D.Smith,,,,, 10-M.Jones incomplete. Intended for 6-D.Smith. 
+Alabama,2Q,3,55,25,3,Normal,pass,-6,not successful,,0.86,0.72,0.44,,M.Jones,,S.Williams,,1,, 10-M.Jones sacked at MIS 40 for -6 yards (13-S.Williams). 
+Ole Miss,2Q,5,57,24,1,Normal,run,0,not successful,0.56,,0.59,0.41,S.Conner,,,W.Anderson,,1,, 24-S.Conner to MIS 20 for no gain (31-W.Anderson). 
+Ole Miss,2Q,5,58,25,2,Normal,run,8,successful,0.60,,0.61,0.43,S.Conner,,,D.Wright,,1,, 24-S.Conner to MIS 28 for 8 yards (3-D.Wright). 
+Ole Miss,2Q,5,59,26,3,Normal,pass,7,successful,,0.64,0.63,0.42,,M.Corral,E.Moore,M.Moore,,1,, 2-M.Corral complete to 8-E.Moore. 8-E.Moore to MIS 35 for 7 yards (13-M.Moore). 
+Ole Miss,2Q,5,60,27,1,Normal,pass,,not successful,,0.60,0.60,0.40,,M.Corral,J.Mingo,,,,, 2-M.Corral incomplete. Intended for 1-J.Mingo. 
+Ole Miss,2Q,5,61,28,2,Normal,run,7,successful,0.64,,0.62,0.42,M.Corral,,,D.Moses,,1,, 2-M.Corral to MIS 42 for 7 yards (32-D.Moses). 
+Ole Miss,2Q,5,62,29,3,Normal,pass,,not successful,,0.56,0.59,0.41,,M.Corral,D.Drummond,,,,, 2-M.Corral incomplete. Intended for 11-D.Drummond. 
+Alabama,2Q,4,64,27,1,Normal,run,18,explosive,0.58,,0.73,0.46,B.Robinson,,,J.Hawkins,,1,, 4-B.Robinson to BAMA 46 for 18 yards (23-J.Hawkins). 
+Alabama,2Q,4,65,28,1,Normal,run,-2,not successful,0.54,,0.70,0.48,B.Robinson,,,S.Williams,,1,, 4-B.Robinson to BAMA 44 for -2 yards (13-S.Williams). 
+Alabama,2Q,4,66,29,2,Normal,pass,36,explosive,,0.87,0.71,0.46,,M.Jones,D.Smith,A.Finley,,1,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith to MIS 20 for 36 yards (21-A.Finley). 
+Alabama,2Q,4,67,30,1,Normal,run,14,successful,0.57,,0.72,0.48,B.Robinson,,,J.Hawkins,D.Leonard,0.5,0.5," 4-B.Robinson to MIS 6 for 14 yards (23-J.Hawkins,24-D.Leonard). "
+Alabama,2Q,4,68,31,1,Red Zone,run,5,successful,0.60,,0.73,0.50,B.Robinson,,,T.Tisdale,,1,, 4-B.Robinson to MIS 1 for 5 yards (22-T.Tisdale). 
+Alabama,2Q,4,69,32,2,Red Zone,run,1,successful,0.63,,0.74,0.52,B.Robinson,,,,,,, 4-B.Robinson runs 1 yard for a touchdown. 
+Ole Miss,2Q,6,72,31,1,Normal,run,5,successful,0.67,,0.61,0.43,J.Ealy,,,D.Wright,,1,, 9-J.Ealy to MIS 30 for 5 yards (3-D.Wright). 
+Ole Miss,2Q,6,73,32,2,Normal,run,6,successful,0.69,,0.62,0.45,J.Ealy,,,D.Dale,,1,, 9-J.Ealy to MIS 36 for 6 yards (94-D.Dale). 
+Ole Miss,2Q,6,74,33,1,Normal,run,4,not successful,0.64,,0.60,0.47,J.Ealy,,,D.Moses,M.Moore,0.5,0.5," 9-J.Ealy to MIS 40 for 4 yards (32-D.Moses,13-M.Moore). "
+Ole Miss,2Q,6,75,34,2,Normal,run,2,not successful,0.60,,0.58,0.48,J.Ealy,,,C.Allen,P.Surtain,0.5,0.5," 9-J.Ealy to MIS 42 for 2 yards (4-C.Allen,2-P.Surtain). "
+Ole Miss,2Q,6,76,35,3,Normal,run,14,successful,0.63,,0.59,0.50,M.Corral,,,C.Harris,,1,, 2-M.Corral scrambles to BAMA 44 for 14 yards (8-C.Harris). 
+Ole Miss,2Q,6,77,36,1,Normal,run,4,not successful,0.59,,0.58,0.52,S.Conner,,,D.Sanders,P.Mathis,0.5,0.5," 24-S.Conner to BAMA 40 for 4 yards (16-D.Sanders,48-P.Mathis). "
+Ole Miss,2Q,6,78,37,2,Normal,run,1,not successful,0.56,,0.56,0.53,M.Corral,,,C.Harris,,1,, 2-M.Corral scrambles to BAMA 39 for 1 yard (8-C.Harris). 
+Ole Miss,2Q,6,79,38,3,Normal,run,4,not successful,0.53,,0.54,0.54,S.Conner,,,L.Ray,,1,, 24-S.Conner to BAMA 35 for 4 yards (18-L.Ray). 
+Ole Miss,2Q,6,80,39,4,Normal,run,26,explosive,0.55,,0.56,0.56,S.Conner,,,J.Battle,,1,, 24-S.Conner to BAMA 9 for 26 yards (9-J.Battle). 
+Ole Miss,2Q,6,81,40,1,Red Zone,run,7,successful,0.57,,0.57,0.57,S.Conner,,,D.Sanders,D.Wright,0.5,0.5," 24-S.Conner to BAMA 2 for 7 yards (16-D.Sanders,3-D.Wright). "
+Ole Miss,2Q,6,82,41,2,Red Zone,run,2,successful,0.59,,0.58,0.58,S.Conner,,,,,,, 24-S.Conner runs 2 yards for a touchdown. 
+Alabama,2Q,5,86,33,1,Normal,pass,3,not successful,,0.81,0.72,0.50,,M.Jones,D.Smith,T.Robinson,,1,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith to BAMA 28 for 3 yards (95-T.Robinson). 
+Alabama,2Q,5,87,34,2,Normal,pass,15,explosive,,0.82,0.73,0.48,,M.Jones,J.Waddle,M.Sanogo,,1,, 10-M.Jones complete to 17-J.Waddle. 17-J.Waddle to BAMA 43 for 15 yards (46-M.Sanogo). 
+Alabama,2Q,5,88,35,1,Normal,pass,,not successful,,0.78,0.71,0.47,,M.Jones,J.Metchie,,,,, 10-M.Jones incomplete. Intended for 8-J.Metchie. 
+Alabama,2Q,5,89,36,2,Normal,run,5,not successful,0.59,,0.69,0.49,N.Harris,,,M.Sanogo,,1,, 22-N.Harris to BAMA 48 for 5 yards (46-M.Sanogo). 
+Alabama,2Q,5,90,37,3,Normal,run,5,successful,0.61,,0.69,0.50,M.Jones,,,,,,, 10-M.Jones scrambles to MIS 47 for 5 yards. 
+Alabama,2Q,5,91,38,1,Normal,no play,10,successful,,,0.70,,,,,,,,," Penalty on MIS 46-M.Sanogo, Holding, 10 yards, enforced at MIS 47. No Play. "
+Alabama,2Q,5,92,39,1,Normal,pass,,not successful,,0.74,0.68,0.49,,M.Jones,J.Metchie,,,,, 10-M.Jones incomplete. Intended for 8-J.Metchie. 
+Alabama,2Q,5,93,40,2,Normal,pass,32,explosive,,0.75,0.69,0.47,,M.Jones,J.Metchie,J.Hawkins,,1,, 10-M.Jones complete to 8-J.Metchie. 8-J.Metchie to MIS 5 for 32 yards (23-J.Hawkins). 
+Alabama,2Q,5,94,41,1,Red Zone,run,5,successful,0.63,,0.70,0.49,N.Harris,,,,,,, 22-N.Harris runs 5 yards for a touchdown. 
+Ole Miss,2Q,7,97,42,1,Normal,run,3,not successful,0.57,,0.56,0.59,J.Ealy,,,D.Moses,D.Wright,0.5,0.5," 9-J.Ealy to MIS 28 for 3 yards (32-D.Moses,3-D.Wright). "
+Ole Miss,2Q,7,98,43,2,Normal,run,1,not successful,0.54,,0.55,0.60,J.Ealy,,,D.Moses,,1,, 9-J.Ealy to MIS 29 for 1 yard (32-D.Moses). 
+Alabama,3Q,6,100,42,1,Normal,pass,9,successful,,0.76,0.71,0.48,,M.Jones,D.Smith,J.Hawkins,,1,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith to BAMA 24 for 9 yards (23-J.Hawkins). 
+Alabama,3Q,6,101,43,2,Normal,run,35,explosive,0.65,,0.71,0.49,N.Harris,,,J.Jones,,1,, 22-N.Harris to MIS 41 for 35 yards (38-J.Jones). 
+Alabama,3Q,6,102,44,1,Normal,pass,8,successful,,0.77,0.72,0.48,,M.Jones,D.Smith,J.Hawkins,,1,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith to MIS 33 for 8 yards (23-J.Hawkins). 
+Alabama,3Q,6,103,45,2,Normal,run,33,explosive,0.67,,0.73,0.49,N.Harris,,,,,,, 22-N.Harris runs 33 yards for a touchdown. 
+Ole Miss,3Q,8,106,44,1,Normal,run,4,not successful,0.52,,0.54,0.61,S.Conner,,,L.Ray,D.Dale,0.5,0.5," 24-S.Conner to MIS 25 for 4 yards (18-L.Ray,94-D.Dale). "
+Ole Miss,3Q,8,107,45,2,Normal,run,7,successful,0.54,,0.55,0.62,S.Conner,,,D.Moses,,1,, 24-S.Conner to MIS 32 for 7 yards (32-D.Moses). 
+Ole Miss,3Q,8,108,46,1,Normal,pass,68,explosive,,0.59,0.56,0.60,,M.Corral,K.Yeboah,,,,, 2-M.Corral complete to 84-K.Yeboah. 84-K.Yeboah runs 68 yards for a touchdown. 
+Alabama,3Q,7,111,46,1,Normal,run,5,successful,0.68,,0.73,0.50,B.Robinson,,,S.Williams,A.Cistrunk,0.5,0.5," 4-B.Robinson to MIS 47 for 5 yards (13-S.Williams,36-A.Cistrunk). "
+Alabama,3Q,7,112,47,2,Normal,pass,14,successful,,0.78,0.74,0.49,,M.Jones,D.Smith,K.Smith,,1,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith to MIS 33 for 14 yards (20-K.Smith). 
+Alabama,3Q,7,113,48,1,Normal,run,3,not successful,0.65,,0.72,0.50,B.Robinson,,,M.Sanogo,A.Cistrunk,0.5,0.5," 4-B.Robinson to MIS 30 for 3 yards (46-M.Sanogo,36-A.Cistrunk). "
+Alabama,3Q,7,114,49,2,Normal,pass,,not successful,,0.75,0.71,0.49,,M.Jones,D.Smith,,,,, 10-M.Jones incomplete. Intended for 6-D.Smith. 
+Alabama,3Q,7,115,50,3,Normal,pass,15,successful,,0.76,0.71,0.48,,M.Jones,D.Smith,,,,," 10-M.Jones incomplete. Intended for 6-D.Smith. Penalty on MIS 20-K.Smith, Pass interference, 15 yards, enforced at MIS 30. No Play. "
+Alabama,3Q,7,117,52,1,Normal,pass,17,explosive,,0.77,0.72,0.47,,M.Jones,J.Metchie,A.Cistrunk,,1,, 10-M.Jones complete to 8-J.Metchie. 8-J.Metchie to MIS 3 for 17 yards (36-A.Cistrunk). 
+Alabama,3Q,7,118,53,1,Red Zone,pass,3,successful,,0.78,0.73,0.46,,M.Jones,M.Forristall,,,,, 10-M.Jones complete to 87-M.Forristall. 87-M.Forristall runs 3 yards for a touchdown. 
+Ole Miss,3Q,9,121,47,1,Normal,run,0,not successful,0.52,,0.55,0.61,M.Corral,,,C.Allen,,1,, 2-M.Corral scrambles to MIS 25 for no gain (4-C.Allen). 
+Ole Miss,3Q,9,123,49,2,Normal,pass,27,explosive,,0.61,0.56,0.60,,M.Corral,E.Moore,D.Hellams,,1,, 2-M.Corral complete to 8-E.Moore. 8-E.Moore to MIS 40 for 27 yards (29-D.Hellams). 
+Ole Miss,3Q,9,124,50,1,Normal,run,3,not successful,0.50,,0.54,0.61,M.Corral,,,D.Moses,,1,," 2-M.Corral scrambles, pushed ob at MIS 43 for 3 yards (32-D.Moses). "
+Ole Miss,3Q,9,125,51,2,Normal,run,2,not successful,0.48,,0.53,0.62,J.Ealy,,,B.Young,W.Anderson,0.5,0.5," 9-J.Ealy to MIS 45 for 2 yards (47-B.Young,31-W.Anderson). "
+Ole Miss,3Q,9,126,52,3,Normal,run,15,explosive,0.50,,0.54,0.63,M.Corral,,,,,,, 2-M.Corral scrambles to BAMA 40 for 15 yards. 
+Ole Miss,3Q,9,127,53,1,Normal,no play,10,successful,,,0.55,,,,,,,,," Penalty on BAMA 13-M.Moore, Holding, 10 yards, enforced at BAMA 40. No Play. "
+Ole Miss,3Q,9,128,54,1,Normal,run,0,not successful,0.48,,0.54,0.63,S.Conner,,,L.Ray,,1,, 24-S.Conner to BAMA 30 for no gain (18-L.Ray). 
+Ole Miss,3Q,9,129,55,2,Normal,run,2,not successful,0.47,,0.53,0.64,S.Conner,,,D.Moses,L.Ray,0.5,0.5," 24-S.Conner to BAMA 28 for 2 yards (32-D.Moses,18-L.Ray). "
+Ole Miss,3Q,9,130,56,3,Normal,run,14,successful,0.48,,0.54,0.65,S.Conner,,,P.Surtain,J.Battle,0.5,0.5," 24-S.Conner to BAMA 14 for 14 yards (2-P.Surtain,9-J.Battle). "
+Ole Miss,3Q,9,131,57,1,Red Zone,run,5,successful,0.50,,0.55,0.65,S.Conner,,,C.Allen,,1,, 24-S.Conner to BAMA 9 for 5 yards (4-C.Allen). 
+Ole Miss,3Q,9,132,58,2,Red Zone,run,9,successful,0.51,,0.56,0.66,J.Ealy,,,,,,, 9-J.Ealy runs 9 yards for a touchdown. 
+Alabama,3Q,8,135,54,1,Normal,run,4,not successful,0.63,,0.71,0.47,N.Harris,,,L.Henry,M.Sanogo,0.5,0.5," 22-N.Harris to BAMA 32 for 4 yards (0-L.Henry,46-M.Sanogo). "
+Alabama,3Q,8,136,55,2,Normal,pass,4,not successful,,0.75,0.70,0.46,,M.Jones,D.Smith,K.Smith,,1,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith to BAMA 36 for 4 yards (20-K.Smith). 
+Alabama,3Q,8,137,56,3,Normal,pass,15,explosive,,0.76,0.70,0.45,,M.Jones,D.Smith,K.Smith,,1,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith to MIS 49 for 15 yards (20-K.Smith). 
+Alabama,3Q,8,138,57,1,Normal,pass,24,explosive,,0.77,0.71,0.44,,M.Jones,N.Harris,J.Richardson,,1,, 10-M.Jones complete to 22-N.Harris. 22-N.Harris to MIS 25 for 24 yards (19-J.Richardson). 
+Alabama,3Q,8,139,58,1,Normal,pass,17,explosive,,0.77,0.71,0.44,,M.Jones,J.Metchie,A.Finley,,1,, 10-M.Jones complete to 8-J.Metchie. 8-J.Metchie to MIS 8 for 17 yards (21-A.Finley). 
+Alabama,3Q,8,140,59,1,Red Zone,run,5,successful,0.64,,0.72,0.45,N.Harris,,,R.Anderson,A.Cistrunk,0.5,0.5," 22-N.Harris to MIS 3 for 5 yards (89-R.Anderson,36-A.Cistrunk). "
+Alabama,3Q,8,141,60,2,Red Zone,run,3,successful,0.65,,0.72,0.46,N.Harris,,,,,,, 22-N.Harris runs 3 yards for a touchdown. 
+Ole Miss,3Q,10,144,59,1,Normal,run,-1,not successful,0.50,,0.55,0.67,M.Corral,,,P.Mathis,,1,, 2-M.Corral scrambles to MIS 24 for -1 yard (48-P.Mathis). 
+Ole Miss,3Q,10,145,60,2,Normal,run,-2,not successful,0.49,,0.54,0.67,J.Ealy,,,C.Allen,P.Mathis,0.5,0.5," 9-J.Ealy to MIS 22 for -2 yards (4-C.Allen,48-P.Mathis). "
+Ole Miss,3Q,10,146,61,3,Normal,pass,15,explosive,,0.63,0.54,0.66,,M.Corral,S.Conner,J.Battle,,1,, 2-M.Corral complete to 24-S.Conner. 24-S.Conner to MIS 37 for 15 yards (9-J.Battle). 
+Ole Miss,3Q,10,147,62,1,Normal,pass,-15,not successful,,0.60,0.53,0.65,,M.Corral,K.Yeboah,,,,," 2-M.Corral complete to 84-K.Yeboah. 84-K.Yeboah to MIS 38 for 1 yard. Penalty on MIS 8-E.Moore, Illegal block in the back, 15 yards, enforced at MIS 38. "
+Ole Miss,3Q,10,148,63,1,Normal,run,2,not successful,0.47,,0.53,0.66,J.Ealy,,,D.Dale,,1,, 9-J.Ealy to MIS 25 for 2 yards (94-D.Dale). 
+Ole Miss,3Q,10,149,64,2,Normal,pass,16,explosive,,0.62,0.53,0.64,,M.Corral,E.Moore,C.Harris,,1,, 2-M.Corral complete to 8-E.Moore. 8-E.Moore to MIS 41 for 16 yards (8-C.Harris). 
+Ole Miss,4Q,11,150,65,3,Normal,run,15,explosive,0.49,,0.54,0.65,J.Ealy,,,W.Anderson,D.Hellams,0.5,0.5," 9-J.Ealy to BAMA 44 for 15 yards (31-W.Anderson,29-D.Hellams). "
+Ole Miss,4Q,11,151,66,1,Normal,pass,11,successful,,0.64,0.55,0.64,,M.Corral,E.Moore,J.Battle,,1,, 2-M.Corral complete to 8-E.Moore. 8-E.Moore to BAMA 33 for 11 yards (9-J.Battle). 
+Ole Miss,4Q,11,152,67,1,Normal,pass,13,successful,,0.65,0.56,0.63,,M.Corral,,,,,," 2-M.Corral incomplete. INTERCEPTED by 29-D.Hellams at BAMA 25. 29-D.Hellams to BAMA 25 for no gain. Penalty on BAMA 29-D.Hellams, Pass interference, 13 yards, enforced at BAMA 33. No Play. "
+Ole Miss,4Q,11,153,68,1,Normal,run,-1,not successful,0.48,,0.55,0.63,S.Conner,,,C.Harris,C.Allen,0.5,0.5," 24-S.Conner to BAMA 21 for -1 yard (8-C.Harris,4-C.Allen). "
+Ole Miss,4Q,11,154,69,2,Normal,run,4,not successful,0.46,,0.54,0.64,M.Corral,,,C.Harris,,1,, 2-M.Corral scrambles to BAMA 17 for 4 yards (8-C.Harris). 
+Ole Miss,4Q,11,155,70,3,Red Zone,run,6,not successful,0.45,,0.53,0.65,M.Corral,,,D.Hellams,,1,, 2-M.Corral scrambles to BAMA 11 for 6 yards (29-D.Hellams). 
+Ole Miss,4Q,11,156,71,4,Red Zone,run,2,successful,0.47,,0.54,0.65,S.Conner,,,J.Eboigbe,P.Mathis,0.5,0.5," 24-S.Conner to BAMA 9 for 2 yards (92-J.Eboigbe,48-P.Mathis). "
+Ole Miss,4Q,11,157,72,1,Red Zone,run,2,not successful,0.45,,0.53,0.66,S.Conner,,,D.Moses,P.Surtain,0.5,0.5," 24-S.Conner to BAMA 7 for 2 yards (32-D.Moses,2-P.Surtain). "
+Ole Miss,4Q,11,158,73,2,Red Zone,run,6,successful,0.47,,0.54,0.66,S.Conner,,,D.Moses,J.Battle,0.5,0.5," 24-S.Conner to BAMA 1 for 6 yards (32-D.Moses,9-J.Battle). "
+Ole Miss,4Q,11,159,74,3,Red Zone,run,0,not successful,0.46,,0.53,0.67,J.Plumlee,,,D.Moses,,1,," 10-J.Plumlee to BAMA 1, FUMBLES (32-D.Moses). 13-M.Moore to BAMA 1 for no gain. "
+Ole Miss,4Q,11,160,75,3,Red Zone,run,0,not successful,0.45,,0.52,0.67,J.Plumlee,,,D.Moses,,1,, 10-J.Plumlee to BAMA 1 for no gain (32-D.Moses). 
+Ole Miss,4Q,11,161,76,4,Red Zone,run,1,successful,0.46,,0.53,0.68,S.Conner,,,,,,, 24-S.Conner runs 1 yard for a touchdown. 
+Alabama,4Q,9,164,61,1,Normal,pass,16,explosive,,0.78,0.73,0.45,,M.Jones,J.Waddle,,,,, 10-M.Jones complete to 17-J.Waddle. 17-J.Waddle to MIS 28 for 16 yards. 
+Alabama,4Q,9,165,62,1,Normal,run,3,not successful,0.63,,0.72,0.46,N.Harris,,,D.Gill,,1,, 22-N.Harris to MIS 25 for 3 yards (14-D.Gill). 
+Alabama,4Q,9,166,63,2,Normal,pass,9,successful,,0.79,0.72,0.45,,M.Jones,D.Smith,J.Jones,,1,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith to MIS 16 for 9 yards (38-J.Jones). 
+Alabama,4Q,9,167,64,1,Red Zone,run,16,explosive,0.64,,0.73,0.46,N.Harris,,,,,,, 22-N.Harris runs 16 yards for a touchdown. 
+Ole Miss,4Q,12,170,77,1,Normal,run,2,not successful,0.45,,0.52,0.68,J.Ealy,,,D.Dale,C.Allen,0.5,0.5," 9-J.Ealy to MIS 27 for 2 yards (94-D.Dale,4-C.Allen). "
+Ole Miss,4Q,12,171,78,2,Normal,run,23,explosive,0.46,,0.53,0.68,J.Ealy,,,D.Hellams,,1,, 9-J.Ealy to MIS 50 for 23 yards (29-D.Hellams). 
+Ole Miss,4Q,12,172,79,1,Normal,pass,10,successful,,0.67,0.53,0.68,,M.Corral,E.Moore,J.Battle,,1,, 2-M.Corral complete to 8-E.Moore. 8-E.Moore to BAMA 40 for 10 yards (9-J.Battle). 
+Ole Miss,4Q,12,173,80,1,Normal,pass,23,explosive,,0.68,0.54,0.67,,M.Corral,K.Yeboah,M.Moore,,1,, 2-M.Corral complete to 84-K.Yeboah. 84-K.Yeboah to BAMA 17 for 23 yards (13-M.Moore). 
+Ole Miss,4Q,12,174,81,1,Red Zone,run,3,not successful,0.45,,0.53,0.67,S.Conner,,,M.Moore,J.Eboigbe,0.5,0.5," 24-S.Conner to BAMA 14 for 3 yards (13-M.Moore,92-J.Eboigbe). "
+Ole Miss,4Q,12,175,82,2,Red Zone,run,-2,not successful,0.44,,0.53,0.68,S.Conner,,,D.Dale,,1,, 24-S.Conner to BAMA 16 for -2 yards (94-D.Dale). 
+Ole Miss,4Q,12,176,83,3,Normal,run,-5,not successful,0.43,,0.52,0.68,5,,,,,,, to BAMA 21 for -5 yards. 
+Alabama,4Q,10,179,65,1,Normal,run,15,explosive,0.66,,0.73,0.47,N.Harris,,,M.Sanogo,A.Cistrunk,0.5,0.5," 22-N.Harris to BAMA 25 for 15 yards (46-M.Sanogo,36-A.Cistrunk). "
+Alabama,4Q,10,180,66,1,Normal,run,17,explosive,0.67,,0.73,0.48,B.Robinson,,,T.Robinson,,1,, 4-B.Robinson to BAMA 42 for 17 yards (95-T.Robinson). 
+Alabama,4Q,10,181,67,1,Normal,run,2,not successful,0.65,,0.72,0.48,N.Harris,,,M.Sanogo,,1,, 22-N.Harris to BAMA 44 for 2 yards (46-M.Sanogo). 
+Alabama,4Q,10,182,68,2,Normal,run,8,successful,0.66,,0.73,0.49,B.Robinson,,,J.Richardson,,1,, 4-B.Robinson to MIS 48 for 8 yards (19-J.Richardson). 
+Alabama,4Q,10,183,69,2,Normal,run,7,successful,0.67,,0.73,0.50,B.Robinson,,,J.Richardson,,1,, 4-B.Robinson to MIS 49 for 7 yards (19-J.Richardson). 
+Alabama,4Q,10,184,70,3,Normal,run,2,successful,0.68,,0.74,0.51,M.Jones,,,S.Williams,T.Tisdale,0.5,0.5," 10-M.Jones to MIS 47 for 2 yards (13-S.Williams,22-T.Tisdale). "
+Alabama,4Q,10,185,71,1,Normal,pass,45,explosive,,0.79,0.74,0.50,,M.Jones,J.Waddle,A.Finley,,1,, 10-M.Jones complete to 17-J.Waddle. 17-J.Waddle to MIS 2 for 45 yards (21-A.Finley). 
+Alabama,4Q,10,186,72,1,Red Zone,run,-2,not successful,0.66,,0.73,0.51,2,,,,,,, to MIS 4 for -2 yards. 
+Alabama,4Q,10,189,75,2,Red Zone,run,14,successful,0.67,,0.73,0.51,D.Smith,,,,,,, 6-D.Smith runs 14 yards for a touchdown. 
+Ole Miss,4Q,13,192,85,1,Normal,run,1,not successful,0.43,,0.51,0.68,J.Ealy,,,C.Barmore,,1,, 9-J.Ealy to MIS 26 for 1 yard (58-C.Barmore). 
+Ole Miss,4Q,13,193,86,2,Normal,run,2,not successful,0.42,,0.51,0.69,J.Ealy,,,L.Ray,,1,, 9-J.Ealy to MIS 28 for 2 yards (18-L.Ray). 
+Ole Miss,4Q,13,194,87,3,Normal,pass,46,explosive,,0.69,0.51,0.68,,M.Corral,E.Moore,J.Battle,,1,, 2-M.Corral complete to 8-E.Moore. 8-E.Moore to BAMA 26 for 46 yards (9-J.Battle). 
+Ole Miss,4Q,13,195,88,1,Normal,no play,13,successful,,,0.52,,,,,,,,," Penalty on BAMA 9-J.Battle, Personal Foul, 13 yards, enforced at BAMA 26. No Play. "
+Ole Miss,4Q,13,196,89,1,Red Zone,pass,,not successful,,0.67,0.51,0.67,,M.Corral,D.Drummond,,,,, 2-M.Corral incomplete. Intended for 11-D.Drummond. 
+Ole Miss,4Q,13,197,90,2,Red Zone,run,2,not successful,0.41,,0.51,0.67,M.Corral,,,L.Ray,,1,, 2-M.Corral scrambles to BAMA 11 for 2 yards (18-L.Ray). 
+Ole Miss,4Q,13,198,91,3,Red Zone,pass,,not successful,,0.64,0.50,0.67,,M.Corral,,,,,, 2-M.Corral incomplete. 
+Alabama,4Q,11,201,76,1,Normal,run,3,not successful,0.65,,0.72,0.52,N.Harris,,,L.Henry,S.David,0.5,0.5," 22-N.Harris to MIS 41 for 3 yards (0-L.Henry,93-S.David). "
+Alabama,4Q,11,202,77,2,Normal,run,2,not successful,0.63,,0.71,0.53,N.Harris,,,Q.Bivens,R.Anderson,0.5,0.5," 22-N.Harris to MIS 39 for 2 yards (94-Q.Bivens,89-R.Anderson). "
+Alabama,4Q,11,203,78,3,Normal,run,39,explosive,0.64,,0.72,0.53,N.Harris,,,,,,, 22-N.Harris runs 39 yards for a touchdown. 
+Ole Miss,4Q,14,206,93,1,Normal,pass,0,not successful,,0.62,0.49,0.66,,M.Corral,E.Moore,M.Moore,,1,, 2-M.Corral complete to 8-E.Moore. 8-E.Moore to MIS 19 for no gain (13-M.Moore). 
+Ole Miss,4Q,14,207,94,2,Normal,pass,-3,not successful,,0.60,0.49,0.65,,M.Corral,,C.Barmore,,1,, 2-M.Corral sacked at MIS 16 for -3 yards (58-C.Barmore). 
+Ole Miss,4Q,14,208,95,3,Normal,pass,14,successful,,0.61,0.49,0.64,,J.Plumlee,K.Yeboah,M.Moore,,1,, 10-J.Plumlee complete to 84-K.Yeboah. 84-K.Yeboah to MIS 30 for 14 yards (13-M.Moore). 
+Ole Miss,4Q,14,209,96,1,Normal,pass,-10,not successful,,0.59,0.49,0.64,,M.Corral,,C.Allen,,1,, 2-M.Corral sacked at MIS 20 for -10 yards (4-C.Allen). 
