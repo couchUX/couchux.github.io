@@ -1,0 +1,152 @@
+team,quarter,drive_team,play_count,play_count_team,down,red_zone,play_type,yards_total,play_result,run_sr,pass_sr,total_sr,run_rate,runner,passer,receiver,tackler_one,tackler_two,tackler_one_credit,tackler_two_credit,play_description
+Alabama,1Q,1,2,1,1,Normal,pass,,not successful,,0.00,0.00,0.00,,M.Jones,,,,,, 10-M.Jones incomplete. INTERCEPTED by 2-R.LeCounte at BAMA 41. 2-R.LeCounte to BAMA 41 for no gain. 
+Georgia,1Q,1,3,1,1,Normal,pass,10,successful,,1.00,1.00,0.00,,S.Bennett,T.McKitty,D.Wright,,1,, 13-S.Bennett complete to 87-T.McKitty. 87-T.McKitty to BAMA 31 for 10 yards (3-D.Wright). 
+Georgia,1Q,1,4,2,1,Normal,pass,,not successful,,0.50,0.50,0.00,,S.Bennett,G.Pickens,,,,, 13-S.Bennett incomplete. Intended for 1-G.Pickens. 
+Georgia,1Q,1,5,3,2,Normal,pass,,not successful,,0.33,0.33,0.00,,S.Bennett,,W.McClendon,,,, 13-S.Bennett incomplete. INTERCEPTED by 92-J.Eboigbe at BAMA 38. 92-J.Eboigbe to BAMA 42 for 4 yards (70-W.McClendon). 
+Alabama,1Q,2,6,2,1,Normal,run,2,not successful,0.00,,0.00,0.50,N.Harris,,,J.Davis,,1,, 22-N.Harris to BAMA 44 for 2 yards (99-J.Davis). 
+Alabama,1Q,2,7,3,2,Normal,pass,16,explosive,,0.50,0.33,0.33,,M.Jones,J.Waddle,M.Herring,,1,, 10-M.Jones complete to 17-J.Waddle. 17-J.Waddle to UGA 40 for 16 yards (10-M.Herring). 
+Alabama,1Q,2,8,4,1,Normal,pass,40,explosive,,0.67,0.50,0.25,,M.Jones,J.Metchie,,,,, 10-M.Jones complete to 8-J.Metchie. 8-J.Metchie runs 40 yards for a touchdown. 
+Georgia,1Q,2,12,5,1,Normal,pass,4,not successful,,0.25,0.25,0.00,,S.Bennett,K.Jackson,J.Jobe,D.Hellams,0.5,0.5," 13-S.Bennett complete to 10-K.Jackson. 10-K.Jackson to UGA 29 for 4 yards (28-J.Jobe,29-D.Hellams). "
+Georgia,1Q,2,13,6,2,Normal,pass,5,not successful,,0.20,0.20,0.00,,S.Bennett,J.Cook,P.Surtain,,1,, 13-S.Bennett complete to 4-J.Cook. 4-J.Cook pushed ob at UGA 34 for 5 yards (2-P.Surtain). 
+Georgia,1Q,2,14,7,3,Normal,pass,-12,not successful,,0.17,0.17,0.00,,S.Bennett,,D.Moses,,1,, 13-S.Bennett sacked at UGA 22 for -12 yards (32-D.Moses). 
+Alabama,1Q,3,16,5,1,Normal,run,17,explosive,0.50,,0.60,0.40,N.Harris,,,M.Webb,L.Cine,0.5,0.5," 22-N.Harris to BAMA 40 for 17 yards (23-M.Webb,16-L.Cine). "
+Alabama,1Q,3,17,6,1,Normal,pass,,not successful,,0.50,0.50,0.33,,M.Jones,N.Harris,,,,, 10-M.Jones incomplete. Intended for 22-N.Harris. 
+Alabama,1Q,3,18,7,2,Normal,run,0,not successful,0.33,,0.43,0.43,N.Harris,,,L.Cine,,1,, 22-N.Harris to BAMA 40 for no gain (16-L.Cine). 
+Alabama,1Q,3,19,8,3,Normal,pass,8,not successful,,0.40,0.38,0.38,,M.Jones,J.Metchie,T.Stevenson,,1,, 10-M.Jones complete to 8-J.Metchie. 8-J.Metchie to BAMA 48 for 8 yards (7-T.Stevenson). 
+Georgia,1Q,3,21,9,1,Normal,run,-1,not successful,0.00,,0.14,0.14,Z.White,,,B.Young,,1,, 3-Z.White to UGA 15 for -1 yard (47-B.Young). 
+Georgia,1Q,3,22,10,2,Normal,run,12,successful,0.50,,0.25,0.25,Z.White,,,C.Harris,D.Hellams,0.5,0.5," 3-Z.White to UGA 27 for 12 yards (8-C.Harris,29-D.Hellams). "
+Georgia,1Q,3,23,11,1,Normal,pass,,not successful,,0.14,0.22,0.22,,S.Bennett,,,,,, 13-S.Bennett incomplete. 
+Georgia,1Q,3,24,12,2,Normal,run,3,not successful,0.33,,0.20,0.30,Z.White,,,D.Moses,,1,, 3-Z.White to UGA 30 for 3 yards (32-D.Moses). 
+Georgia,1Q,3,25,13,3,Normal,pass,,not successful,,0.13,0.18,0.27,,S.Bennett,K.Jackson,,,,, 13-S.Bennett incomplete. Intended for 10-K.Jackson. 
+Alabama,1Q,4,27,10,1,Normal,run,7,successful,0.50,,0.44,0.44,N.Harris,,,T.Campbell,N.Smith,0.5,0.5," 22-N.Harris to BAMA 14 for 7 yards (3-T.Campbell,4-N.Smith). "
+Alabama,1Q,4,28,11,2,Normal,run,2,not successful,0.40,,0.40,0.50,N.Harris,,,J.Rochester,Q.Walker,0.5,0.5," 22-N.Harris to BAMA 16 for 2 yards (92-J.Rochester,25-Q.Walker). "
+Alabama,1Q,4,29,12,3,Normal,run,8,successful,0.50,,0.45,0.55,N.Harris,,,E.Stokes,R.LeCounte,0.5,0.5," 22-N.Harris to BAMA 24 for 8 yards (27-E.Stokes,2-R.LeCounte). "
+Alabama,1Q,4,30,13,1,Normal,pass,,not successful,,0.33,0.42,0.50,,M.Jones,J.Waddle,,,,, 10-M.Jones incomplete. Intended for 17-J.Waddle. 
+Alabama,1Q,4,31,14,2,Normal,run,3,not successful,0.43,,0.38,0.54,N.Harris,,,M.Herring,,1,, 22-N.Harris to BAMA 27 for 3 yards (10-M.Herring). 
+Alabama,1Q,4,32,15,3,Normal,pass,,not successful,,0.29,0.36,0.50,,M.Jones,S.Bolden,,,,, 10-M.Jones incomplete. Intended for 18-S.Bolden. 
+Georgia,1Q,4,34,15,1,Normal,run,5,successful,0.50,,0.25,0.33,K.McIntosh,,,M.Moore,C.Harris,0.5,0.5," 6-K.McIntosh to UGA 48 for 5 yards (13-M.Moore,8-C.Harris). "
+Georgia,1Q,4,35,16,2,Normal,run,7,successful,0.60,,0.31,0.38,K.McIntosh,,,D.Moses,,1,, 6-K.McIntosh to BAMA 45 for 7 yards (32-D.Moses). 
+Georgia,1Q,4,36,17,1,Normal,pass,,not successful,,0.11,0.29,0.36,,S.Bennett,K.Jackson,,,,, 13-S.Bennett incomplete. Intended for 10-K.Jackson. 
+Georgia,1Q,4,37,18,2,Normal,run,24,explosive,0.67,,0.33,0.40,K.Milton,,,D.Hellams,,1,, 22-K.Milton to BAMA 21 for 24 yards (29-D.Hellams). 
+Georgia,1Q,4,38,19,1,Normal,run,1,not successful,0.57,,0.31,0.44,K.Milton,,,W.Anderson,C.Barmore,0.5,0.5," 22-K.Milton to BAMA 20 for 1 yard (31-W.Anderson,58-C.Barmore). "
+Georgia,1Q,4,39,20,2,Normal,pass,,not successful,,0.10,0.29,0.41,,S.Bennett,J.Burton,,,,, 13-S.Bennett incomplete. Intended for 7-J.Burton. 
+Georgia,1Q,4,40,21,3,Normal,pass,10,successful,,0.18,0.33,0.39,,S.Bennett,J.Cook,D.Moses,,1,, 13-S.Bennett complete to 4-J.Cook. 4-J.Cook to BAMA 10 for 10 yards (32-D.Moses). 
+Georgia,1Q,4,41,22,1,Red Zone,run,10,successful,0.63,,0.37,0.42,Z.White,,,,,,, 3-Z.White runs 10 yards for a touchdown. 
+Alabama,1Q,5,44,17,1,Normal,pass,12,successful,,0.38,0.40,0.47,,M.Jones,D.Smith,E.Stokes,,1,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith to BAMA 37 for 12 yards (27-E.Stokes). 
+Alabama,1Q,5,45,18,1,Normal,run,11,successful,0.50,,0.44,0.50,N.Harris,,,J.Rochester,,1,, 22-N.Harris to BAMA 48 for 11 yards (92-J.Rochester). 
+Alabama,1Q,5,46,19,1,Normal,pass,,not successful,,0.33,0.41,0.47,,M.Jones,J.Metchie,,,,, 10-M.Jones incomplete. Intended for 8-J.Metchie. 
+Alabama,1Q,5,47,20,2,Normal,run,5,not successful,0.44,,0.39,0.50,B.Robinson,,,L.Cine,D.Wyatt,0.5,0.5," 4-B.Robinson to UGA 47 for 5 yards (16-L.Cine,95-D.Wyatt). "
+Alabama,1Q,5,48,21,3,Normal,pass,,not successful,,0.30,0.37,0.47,,M.Jones,J.Metchie,,,,, 10-M.Jones incomplete. Intended for 8-J.Metchie. 
+Georgia,1Q,5,50,23,1,Normal,run,4,not successful,0.56,,0.35,0.45,K.Milton,,,D.Moses,D.Dale,0.5,0.5," 22-K.Milton to UGA 18 for 4 yards (32-D.Moses,94-D.Dale). "
+Georgia,2Q,6,51,24,2,Normal,pass,82,explosive,,0.25,0.38,0.43,,S.Bennett,J.Cook,,,,, 13-S.Bennett complete to 4-J.Cook. 4-J.Cook runs 82 yards for a touchdown. 
+Alabama,2Q,6,54,23,1,Normal,pass,17,explosive,,0.36,0.40,0.45,,M.Jones,D.Smith,T.Campbell,,1,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith to BAMA 42 for 17 yards (3-T.Campbell). 
+Alabama,2Q,6,55,24,1,Normal,pass,13,successful,,0.42,0.43,0.43,,M.Jones,D.Smith,T.Stevenson,,1,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith to UGA 45 for 13 yards (7-T.Stevenson). 
+Alabama,2Q,6,56,25,1,Normal,pass,,not successful,,0.38,0.41,0.41,,M.Jones,D.Smith,,,,, 10-M.Jones incomplete. Intended for 6-D.Smith. 
+Alabama,2Q,6,57,26,2,Normal,pass,12,successful,,0.43,0.43,0.39,,M.Jones,D.Smith,L.Cine,,1,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith to UGA 33 for 12 yards (16-L.Cine). 
+Alabama,2Q,6,58,27,1,Normal,pass,0,not successful,,0.40,0.42,0.38,,M.Jones,,M.Herring,,1,," 10-M.Jones sacked at UGA 45 for -12 yards. Penalty on BAMA 10-M.Jones, Intentional grounding, 0 yards, enforced at UGA 45. (10-M.Herring). "
+Alabama,2Q,6,59,28,2,Normal,pass,3,not successful,,0.38,0.40,0.36,,M.Jones,J.Waddle,M.Rice,,1,, 10-M.Jones complete to 17-J.Waddle. 17-J.Waddle to UGA 42 for 3 yards (32-M.Rice). 
+Alabama,2Q,6,60,29,3,Normal,no play,9,successful,,,0.42,,,,,E.Stokes,,1,," 10-M.Jones complete to 6-D.Smith. 6-D.Smith to UGA 30 for 12 yards (27-E.Stokes). Penalty on UGA 27-E.Stokes, Holding, 9 yards, enforced at UGA 42. No Play. "
+Alabama,2Q,6,61,30,1,Normal,run,3,not successful,0.40,,0.41,0.38,N.Harris,,,D.Wyatt,M.Rice,0.5,0.5," 22-N.Harris to UGA 30 for 3 yards (95-D.Wyatt,32-M.Rice). "
+Alabama,2Q,6,62,31,2,Normal,run,5,successful,0.45,,0.43,0.41,N.Harris,,,M.Rice,N.Smith,0.5,0.5," 22-N.Harris to UGA 25 for 5 yards (32-M.Rice,4-N.Smith). "
+Alabama,2Q,6,63,32,3,Normal,pass,4,successful,,0.41,0.45,0.39,,M.Jones,M.Forristall,,,,, 10-M.Jones complete to 87-M.Forristall. 87-M.Forristall to UGA 21 for 4 yards. 
+Alabama,2Q,6,64,33,1,Normal,run,5,successful,0.50,,0.47,0.41,N.Harris,,,J.Johnson,T.Walker,0.5,0.5," 22-N.Harris to UGA 16 for 5 yards (11-J.Johnson,44-T.Walker). "
+Alabama,2Q,6,65,34,2,Red Zone,run,2,not successful,0.46,,0.45,0.43,B.Robinson,,,Q.Walker,,1,, 4-B.Robinson to UGA 14 for 2 yards (25-Q.Walker). 
+Alabama,2Q,6,66,35,3,Red Zone,pass,-1,not successful,,0.39,0.44,0.42,,M.Jones,,J.Johnson,,1,, 10-M.Jones sacked at UGA 15 for -1 yard (11-J.Johnson). 
+Georgia,2Q,7,69,25,1,Normal,run,5,successful,0.60,,0.41,0.45,J.Cook,,,D.Dale,,1,, 4-J.Cook to UGA 28 for 5 yards (94-D.Dale). 
+Georgia,2Q,7,70,26,2,Normal,run,3,not successful,0.55,,0.39,0.48,J.Cook,,,J.Eboigbe,,1,, 4-J.Cook to UGA 31 for 3 yards (92-J.Eboigbe). 
+Georgia,2Q,7,71,27,3,Normal,pass,19,explosive,,0.31,0.42,0.46,,S.Bennett,G.Pickens,D.Wright,,1,, 13-S.Bennett complete to 1-G.Pickens. 1-G.Pickens pushed ob at UGA 50 for 19 yards (3-D.Wright). 
+Georgia,2Q,7,72,28,1,Normal,run,7,successful,0.58,,0.44,0.48,S.Bennett,,,,,,," 13-S.Bennett scrambles, runs ob at BAMA 43 for 7 yards. "
+Georgia,2Q,7,73,29,2,Normal,pass,,not successful,,0.29,0.42,0.46,,S.Bennett,K.Jackson,,,,, 13-S.Bennett incomplete. Intended for 10-K.Jackson. 
+Georgia,2Q,7,74,30,3,Normal,pass,6,successful,,0.33,0.44,0.44,,S.Bennett,J.FitzPatrick,C.Allen,,1,, 13-S.Bennett complete to 86-J.FitzPatrick. 86-J.FitzPatrick to BAMA 37 for 6 yards (4-C.Allen). 
+Georgia,2Q,7,75,31,1,Normal,pass,,not successful,,0.31,0.43,0.43,,S.Bennett,J.Burton,,,,, 13-S.Bennett incomplete. Intended for 7-J.Burton. 
+Georgia,2Q,7,76,32,2,Normal,pass,4,not successful,,0.29,0.41,0.41,,S.Bennett,J.Cook,J.Jobe,W.Anderson,0.5,0.5," 13-S.Bennett complete to 4-J.Cook. 4-J.Cook to BAMA 33 for 4 yards (28-J.Jobe,31-W.Anderson). "
+Georgia,2Q,7,77,33,3,Normal,pass,,not successful,,0.28,0.40,0.40,,S.Bennett,K.McIntosh,,,,, 13-S.Bennett incomplete. Intended for 6-K.McIntosh. 
+Alabama,2Q,7,80,37,1,Normal,pass,38,explosive,,0.42,0.45,0.41,,M.Jones,J.Waddle,M.Rice,,1,, 10-M.Jones complete to 17-J.Waddle. 17-J.Waddle to UGA 37 for 38 yards (32-M.Rice). 
+Alabama,2Q,7,81,38,1,Normal,pass,2,not successful,,0.40,0.44,0.39,,M.Jones,J.Metchie,M.Rice,,1,, 10-M.Jones complete to 8-J.Metchie. 8-J.Metchie to UGA 35 for 2 yards (32-M.Rice). 
+Alabama,2Q,7,82,39,2,Normal,run,0,not successful,0.43,,0.43,0.41,B.Robinson,,,A.Ojulari,,1,, 4-B.Robinson to UGA 35 for no gain (13-A.Ojulari). 
+Alabama,2Q,7,83,40,3,Normal,pass,15,explosive,,0.43,0.44,0.40,,M.Jones,D.Smith,T.Stevenson,,1,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith to UGA 20 for 15 yards (7-T.Stevenson). 
+Alabama,2Q,7,84,41,1,Normal,run,3,not successful,0.40,,0.43,0.42,N.Harris,,,L.Cine,,1,, 22-N.Harris to UGA 17 for 3 yards (16-L.Cine). 
+Alabama,2Q,7,85,42,2,Red Zone,pass,17,explosive,,0.45,0.45,0.41,,M.Jones,D.Smith,,,,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith runs 17 yards for a touchdown. 
+Georgia,2Q,8,88,35,1,Normal,pass,10,successful,,0.32,0.42,0.39,,S.Bennett,G.Pickens,D.Hellams,,1,, 13-S.Bennett complete to 1-G.Pickens. 1-G.Pickens to UGA 44 for 10 yards (29-D.Hellams). 
+Georgia,2Q,8,89,36,1,Normal,penalty,,not successful,,,0.41,,,,,D.Moses,D.Dale,0.5,0.5," 13-S.Bennett scrambles to BAMA 47 for 9 yards (32-D.Moses,94-D.Dale). Penalty on BAMA 84-J.Lanier, Offside, declined. "
+Georgia,2Q,8,90,37,2,Normal,run,5,successful,0.62,,0.42,0.41,Z.White,,,P.Surtain,D.Dale,0.5,0.5," 3-Z.White to BAMA 42 for 5 yards (2-P.Surtain,94-D.Dale). "
+Georgia,2Q,8,91,38,1,Normal,pass,,not successful,,0.30,0.41,0.39,,S.Bennett,J.Burton,,,,, 13-S.Bennett incomplete. Intended for 7-J.Burton. 
+Georgia,2Q,8,92,39,2,Normal,run,3,not successful,0.57,,0.40,0.41,K.Milton,,,D.Moses,,1,, 22-K.Milton to BAMA 39 for 3 yards (32-D.Moses). 
+Georgia,2Q,8,93,40,3,Normal,pass,19,explosive,,0.33,0.42,0.40,,S.Bennett,G.Pickens,D.Wright,,1,, 13-S.Bennett complete to 1-G.Pickens. 1-G.Pickens pushed ob at BAMA 20 for 19 yards (3-D.Wright). 
+Georgia,2Q,8,94,41,1,Normal,pass,,not successful,,0.32,0.41,0.39,,S.Bennett,J.Burton,,,,, 13-S.Bennett incomplete. Intended for 7-J.Burton. 
+Georgia,2Q,8,95,42,2,Normal,run,6,not successful,0.53,,0.39,0.41,S.Bennett,,,,,,, 13-S.Bennett runs ob at BAMA 14 for 6 yards. 
+Georgia,2Q,8,96,43,3,Red Zone,pass,4,successful,,0.35,0.41,0.39,,S.Bennett,J.Burton,P.Surtain,C.Allen,0.5,0.5," 13-S.Bennett complete to 7-J.Burton. 7-J.Burton to BAMA 10 for 4 yards (2-P.Surtain,4-C.Allen). "
+Georgia,2Q,8,97,44,3,Red Zone,pass,3,not successful,,0.33,0.40,0.38,,S.Bennett,J.Burton,P.Surtain,C.Allen,0.5,0.5," 13-S.Bennett complete to 7-J.Burton. 7-J.Burton to BAMA 11 for 3 yards (2-P.Surtain,4-C.Allen). "
+Georgia,2Q,8,98,45,4,Red Zone,no play,6,successful,,,0.41,,,,,,,,," Penalty on BAMA 58-C.Barmore, Offside, 6 yards, enforced at BAMA 11. No Play. "
+Georgia,2Q,8,99,46,1,Red Zone,pass,,not successful,,0.32,0.40,0.38,,S.Bennett,D.Washington,,,,, 13-S.Bennett incomplete. Intended for 0-D.Washington. 
+Georgia,2Q,8,100,47,2,Red Zone,pass,,not successful,,0.31,0.40,0.37,,S.Bennett,J.Burton,,,,, 13-S.Bennett incomplete. Intended for 7-J.Burton. 
+Georgia,2Q,8,101,48,3,Red Zone,pass,5,successful,,0.33,0.41,0.36,,S.Bennett,J.Burton,,,,, 13-S.Bennett complete to 7-J.Burton. 7-J.Burton runs 5 yards for a touchdown. 
+Alabama,2Q,8,104,43,1,Normal,run,14,successful,0.44,,0.46,0.42,N.Harris,,,T.Campbell,,1,, 22-N.Harris to BAMA 39 for 14 yards (3-T.Campbell). 
+Alabama,2Q,8,105,44,1,Normal,pass,14,successful,,0.48,0.48,0.41,,M.Jones,M.Forristall,T.Stevenson,,1,, 10-M.Jones complete to 87-M.Forristall. 87-M.Forristall to UGA 47 for 14 yards (7-T.Stevenson). 
+Alabama,2Q,8,106,45,1,Normal,pass,13,successful,,0.50,0.49,0.40,,M.Jones,J.Waddle,,,,, 10-M.Jones complete to 17-J.Waddle. 17-J.Waddle to UGA 34 for 13 yards. 
+Georgia,3Q,9,109,49,1,Normal,run,8,successful,0.56,,0.42,0.37,K.Milton,,,D.Moses,D.Hellams,0.5,0.5," 22-K.Milton to UGA 47 for 8 yards (32-D.Moses,29-D.Hellams). "
+Georgia,3Q,9,110,50,2,Normal,run,4,successful,0.59,,0.43,0.39,K.Milton,,,C.Barmore,,1,, 22-K.Milton to BAMA 49 for 4 yards (58-C.Barmore). 
+Georgia,3Q,9,111,51,1,Normal,pass,0,not successful,,0.32,0.43,0.38,,S.Bennett,,C.Barmore,,1,," 13-S.Bennett sacked at UGA 49 for -2 yards, FUMBLES (58-C.Barmore). 13-S.Bennett to UGA 49 for no gain. "
+Georgia,3Q,9,112,52,2,Normal,run,7,not successful,0.56,,0.42,0.39,Z.White,,,D.Hellams,W.Anderson,0.5,0.5," 3-Z.White to BAMA 44 for 7 yards (29-D.Hellams,31-W.Anderson). "
+Georgia,3Q,9,113,53,3,Normal,pass,,not successful,,0.31,0.41,0.38,,S.Bennett,J.Burton,,,,, 13-S.Bennett incomplete. Intended for 7-J.Burton. 
+Alabama,3Q,9,115,47,1,Normal,pass,13,successful,,0.52,0.50,0.39,,M.Jones,D.Smith,T.Campbell,,1,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith to BAMA 23 for 13 yards (3-T.Campbell). 
+Alabama,3Q,9,116,48,1,Normal,pass,,not successful,,0.50,0.49,0.38,,M.Jones,,,,,, 10-M.Jones incomplete. 
+Alabama,3Q,9,117,49,2,Normal,pass,14,successful,,0.52,0.50,0.37,,M.Jones,D.Smith,M.Webb,,1,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith pushed ob at BAMA 37 for 14 yards (23-M.Webb). 
+Alabama,3Q,9,118,50,1,Normal,no play,10,successful,,,0.51,,,,,,,,," 10-M.Jones incomplete. Intended for 17-J.Waddle. Penalty on UGA 2-R.LeCounte, Holding, 10 yards, enforced at BAMA 37. No Play. "
+Alabama,3Q,9,119,51,1,Normal,run,4,not successful,0.41,,0.50,0.39,N.Harris,,,Q.Walker,J.Rochester,0.5,0.5," 22-N.Harris to UGA 49 for 4 yards (25-Q.Walker,92-J.Rochester). "
+Alabama,3Q,9,120,52,2,Normal,pass,10,successful,,0.54,0.51,0.38,,M.Jones,N.Harris,R.LeCounte,,1,, 10-M.Jones complete to 22-N.Harris. 22-N.Harris to UGA 39 for 10 yards (2-R.LeCounte). 
+Alabama,3Q,9,121,53,1,Normal,pass,1,not successful,,0.52,0.50,0.37,,M.Jones,J.Waddle,J.Johnson,L.Cine,0.5,0.5," 10-M.Jones complete to 17-J.Waddle. 17-J.Waddle to UGA 38 for 1 yard (11-J.Johnson,16-L.Cine). "
+Alabama,3Q,9,122,54,2,Normal,run,4,not successful,0.39,,0.49,0.38,N.Harris,,,M.Herring,,1,, 22-N.Harris to UGA 34 for 4 yards (10-M.Herring). 
+Alabama,3Q,9,123,55,3,Normal,pass,-7,not successful,,0.50,0.48,0.38,,M.Jones,,N.Dean,,1,, 10-M.Jones sacked at UGA 41 for -7 yards (17-N.Dean). 
+Georgia,3Q,10,125,55,1,Normal,run,4,not successful,0.53,,0.40,0.40,Z.White,,,D.Moses,D.Dale,0.5,0.5," 3-Z.White to UGA 13 for 4 yards (32-D.Moses,94-D.Dale). "
+Georgia,3Q,10,126,56,2,Normal,run,5,successful,0.55,,0.41,0.41,Z.White,,,W.Anderson,D.Dale,0.5,0.5," 3-Z.White to UGA 18 for 5 yards (31-W.Anderson,94-D.Dale). "
+Georgia,3Q,10,127,57,3,Normal,run,3,successful,0.57,,0.42,0.42,Z.White,,,D.Moses,J.Eboigbe,0.5,0.5," 3-Z.White to UGA 21 for 3 yards (32-D.Moses,92-J.Eboigbe). "
+Georgia,3Q,10,128,58,1,Normal,pass,14,successful,,0.33,0.43,0.41,,S.Bennett,J.Burton,,,,, 13-S.Bennett complete to 7-J.Burton. 7-J.Burton to UGA 35 for 14 yards. 
+Georgia,3Q,10,129,59,1,Normal,run,4,not successful,0.55,,0.43,0.42,J.Burton,,,J.Jobe,D.Hellams,0.5,0.5," 7-J.Burton to UGA 39 for 4 yards (28-J.Jobe,29-D.Hellams). "
+Georgia,3Q,10,130,60,2,Normal,run,2,not successful,0.52,,0.42,0.43,J.Cook,,,J.Jobe,,1,, 4-J.Cook pushed ob at UGA 41 for 2 yards (28-J.Jobe). 
+Georgia,3Q,10,131,61,3,Normal,pass,2,not successful,,0.32,0.41,0.43,,S.Bennett,G.Pickens,P.Surtain,,1,, 13-S.Bennett complete to 1-G.Pickens. 1-G.Pickens pushed ob at UGA 43 for 2 yards (2-P.Surtain). 
+Alabama,3Q,10,133,57,1,Normal,run,1,not successful,0.37,,0.47,0.39,B.Robinson,,,J.Davis,T.Walker,0.5,0.5," 4-B.Robinson to BAMA 10 for 1 yard (99-J.Davis,44-T.Walker). "
+Alabama,3Q,10,134,58,2,Normal,pass,90,explosive,,0.52,0.48,0.38,,M.Jones,J.Waddle,,,,, 10-M.Jones complete to 17-J.Waddle. 17-J.Waddle runs 90 yards for a touchdown. 
+Georgia,3Q,11,137,63,1,Normal,pass,36,explosive,,0.34,0.42,0.42,,S.Bennett,J.Burton,D.Hellams,,1,, 13-S.Bennett complete to 7-J.Burton. 7-J.Burton pushed ob at BAMA 35 for 36 yards (29-D.Hellams). 
+Georgia,3Q,11,138,64,1,Normal,run,10,successful,0.54,,0.43,0.43,J.Cook,,,M.Moore,,1,, 4-J.Cook to BAMA 25 for 10 yards (13-M.Moore). 
+Georgia,3Q,11,139,65,1,Normal,pass,,not successful,,0.33,0.42,0.42,,S.Bennett,,,,,, 13-S.Bennett incomplete. 
+Georgia,3Q,11,140,66,2,Normal,pass,,not successful,,0.32,0.42,0.41,,S.Bennett,G.Pickens,,,,, 13-S.Bennett incomplete. Intended for 1-G.Pickens. 
+Georgia,3Q,11,141,67,3,Normal,pass,,not successful,,0.31,0.41,0.41,,S.Bennett,J.Burton,W.McClendon,,,," 13-S.Bennett incomplete. Intended for 7-J.Burton, INTERCEPTED by 13-M.Moore at BAMA 2. 13-M.Moore pushed ob at BAMA 44 for 42 yards (70-W.McClendon). "
+Alabama,3Q,11,142,59,1,Normal,pass,11,successful,,0.53,0.49,0.37,,M.Jones,M.Forristall,N.Dean,,1,, 10-M.Jones complete to 87-M.Forristall. 87-M.Forristall to UGA 45 for 11 yards (17-N.Dean). 
+Alabama,3Q,11,143,60,1,Normal,pass,34,explosive,,0.55,0.50,0.37,,M.Jones,D.Smith,,,,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith to UGA 11 for 34 yards. 
+Alabama,3Q,11,144,61,1,Red Zone,run,3,not successful,0.35,,0.49,0.38,N.Harris,,,M.Webb,J.Davis,0.5,0.5," 22-N.Harris to UGA 8 for 3 yards (23-M.Webb,99-J.Davis). "
+Alabama,3Q,11,145,62,2,Red Zone,run,-2,not successful,0.33,,0.48,0.39,J.Waddle,,,R.LeCounte,,1,, 17-J.Waddle to UGA 10 for -2 yards (2-R.LeCounte). 
+Alabama,3Q,11,146,63,3,Red Zone,pass,8,successful,,0.56,0.49,0.38,,M.Jones,D.Smith,,,,," 10-M.Jones incomplete. Intended for 6-D.Smith. Penalty on UGA 27-E.Stokes, Pass interference, 8 yards, enforced at UGA 10. No Play. "
+Alabama,3Q,11,147,64,1,Red Zone,run,2,successful,0.36,,0.50,0.39,N.Harris,,,,,,, 22-N.Harris runs 2 yards for a touchdown. 
+Georgia,3Q,12,151,69,1,Normal,pass,,not successful,,0.31,0.40,0.40,,S.Bennett,J.Burton,,,,, 13-S.Bennett incomplete. Intended for 7-J.Burton. 
+Georgia,3Q,12,152,70,2,Normal,run,9,not successful,0.52,,0.40,0.41,Z.White,,,J.Jobe,D.Hellams,0.5,0.5," 3-Z.White to UGA 42 for 9 yards (28-J.Jobe,29-D.Hellams). "
+Georgia,4Q,13,153,71,3,Normal,pass,10,not successful,,0.30,0.39,0.40,,S.Bennett,,,,,," 13-S.Bennett incomplete. INTERCEPTED by 3-D.Wright at BAMA 47. 3-D.Wright to UGA 35 for 18 yards. Penalty on BAMA 31-W.Anderson, Illegal block in the back, 10 yards, enforced at UGA 35. "
+Alabama,4Q,12,154,65,1,Normal,penalty,-10,not successful,,,0.49,,,,,,,,," 22-N.Harris to UGA 43 for 2 yards. Penalty on BAMA 87-M.Forristall, Holding, 10 yards, enforced at UGA 43. "
+Alabama,4Q,12,155,66,1,Normal,run,3,not successful,0.35,,0.48,0.40,N.Harris,,,N.Dean,,1,, 22-N.Harris to BAMA 50 for 3 yards (17-N.Dean). 
+Alabama,4Q,12,156,67,2,Normal,no play,10,successful,,,0.49,,,,,,,,," 10-M.Jones incomplete. Intended for 17-J.Waddle. Penalty on UGA 7-T.Stevenson, Holding, 10 yards, enforced at BAMA 50. No Play. "
+Alabama,4Q,12,157,68,1,Normal,run,5,successful,0.38,,0.50,0.41,N.Harris,,,L.Cine,,1,, 22-N.Harris to UGA 35 for 5 yards (16-L.Cine). 
+Alabama,4Q,12,158,69,2,Normal,run,3,not successful,0.36,,0.49,0.42,N.Harris,,,T.Stevenson,,1,, 22-N.Harris to UGA 32 for 3 yards (7-T.Stevenson). 
+Alabama,4Q,12,159,70,3,Normal,run,3,successful,0.38,,0.50,0.43,N.Harris,,,M.Rice,L.Cine,0.5,0.5," 22-N.Harris to UGA 29 for 3 yards (32-M.Rice,16-L.Cine). "
+Alabama,4Q,12,160,71,1,Normal,run,5,successful,0.41,,0.51,0.44,B.Robinson,,,N.Smith,,1,, 4-B.Robinson to UGA 24 for 5 yards (4-N.Smith). 
+Alabama,4Q,12,161,72,2,Normal,run,3,not successful,0.39,,0.50,0.45,N.Harris,,,D.Wyatt,J.Davis,0.5,0.5," 22-N.Harris to UGA 21 for 3 yards (95-D.Wyatt,99-J.Davis). "
+Alabama,4Q,12,162,73,3,Normal,run,7,successful,0.41,,0.51,0.46,N.Harris,,,E.Stokes,,1,, 22-N.Harris to UGA 14 for 7 yards (27-E.Stokes). 
+Alabama,4Q,12,163,74,1,Red Zone,run,1,not successful,0.40,,0.50,0.47,N.Harris,,,A.Ojulari,,1,, 22-N.Harris to UGA 13 for 1 yard (13-A.Ojulari). 
+Alabama,4Q,12,164,75,2,Red Zone,pass,13,successful,,0.57,0.51,0.46,,M.Jones,D.Smith,,,,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith runs 13 yards for a touchdown. 
+Georgia,4Q,14,167,72,1,Normal,pass,,not successful,,0.29,0.38,0.40,,S.Bennett,J.Cook,,,,, 13-S.Bennett incomplete. Intended for 4-J.Cook. 
+Georgia,4Q,14,168,73,2,Normal,pass,3,not successful,,0.28,0.38,0.39,,S.Bennett,G.Pickens,D.Hellams,,1,, 13-S.Bennett complete to 1-G.Pickens. 1-G.Pickens to UGA 35 for 3 yards (29-D.Hellams). 
+Georgia,4Q,14,169,74,3,Normal,pass,19,explosive,,0.30,0.39,0.38,,S.Bennett,K.Jackson,,,,, 13-S.Bennett complete to 10-K.Jackson. 10-K.Jackson to BAMA 46 for 19 yards. 
+Georgia,4Q,14,170,75,1,Normal,pass,,not successful,,0.29,0.38,0.38,,S.Bennett,K.Jackson,,,,, 13-S.Bennett incomplete. Intended for 10-K.Jackson. 
+Georgia,4Q,14,171,76,2,Normal,no play,10,successful,,,0.39,,,,,C.Allen,,1,," 13-S.Bennett sacked at BAMA 45 for 1 yard. Penalty on BAMA 28-J.Jobe, Holding, 10 yards, enforced at BAMA 46. No Play. (4-C.Allen). "
+Georgia,4Q,14,172,77,1,Normal,pass,18,explosive,,0.31,0.40,0.37,,S.Bennett,M.Rosemy-Jacksaint,,,,, 13-S.Bennett complete to 81-M.Rosemy-Jacksaint. 81-M.Rosemy-Jacksaint runs ob at BAMA 18 for 18 yards. 
+Georgia,4Q,14,173,78,1,Red Zone,run,-4,not successful,0.50,,0.39,0.38,J.Cook,,,C.Allen,,1,, 4-J.Cook to BAMA 22 for -4 yards (4-C.Allen). 
+Georgia,4Q,14,174,79,2,Normal,pass,,not successful,,0.30,0.39,0.38,,S.Bennett,K.Jackson,,,,, 13-S.Bennett incomplete. Intended for 10-K.Jackson. 
+Georgia,4Q,14,175,80,3,Normal,run,4,not successful,0.48,,0.38,0.39,S.Bennett,,,C.Allen,,1,, 13-S.Bennett scrambles to BAMA 18 for 4 yards (4-C.Allen). 
+Alabama,4Q,13,177,76,1,Normal,pass,7,successful,,0.58,0.51,0.45,,M.Jones,D.Smith,N.Smith,,1,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith to BAMA 27 for 7 yards (4-N.Smith). 
+Alabama,4Q,13,178,77,2,Normal,run,4,successful,0.42,,0.52,0.46,N.Harris,,,Q.Walker,,1,, 22-N.Harris to BAMA 31 for 4 yards (25-Q.Walker). 
+Alabama,4Q,13,179,78,1,Normal,run,4,not successful,0.41,,0.51,0.47,N.Harris,,,N.Dean,,1,, 22-N.Harris to BAMA 35 for 4 yards (17-N.Dean). 
+Alabama,4Q,13,180,79,2,Normal,run,10,successful,0.42,,0.52,0.48,N.Harris,,,R.LeCounte,,1,, 22-N.Harris to BAMA 45 for 10 yards (2-R.LeCounte). 
+Alabama,4Q,13,181,80,1,Normal,run,5,successful,0.44,,0.53,0.49,N.Harris,,,R.LeCounte,C.Tindall,0.5,0.5," 22-N.Harris to BAMA 50 for 5 yards (2-R.LeCounte,41-C.Tindall). "
+Alabama,4Q,13,182,81,2,Normal,run,5,successful,0.46,,0.53,0.49,B.Robinson,,,J.Rochester,Q.Walker,0.5,0.5," 4-B.Robinson to UGA 45 for 5 yards (92-J.Rochester,25-Q.Walker). "
+Alabama,4Q,13,183,82,1,Normal,run,2,not successful,0.44,,0.53,0.50,B.Robinson,,,Q.Walker,,1,, 4-B.Robinson to UGA 43 for 2 yards (25-Q.Walker). 
+Alabama,4Q,13,184,83,2,Normal,run,7,successful,0.46,,0.53,0.51,N.Harris,,,E.Stokes,Q.Walker,0.5,0.5," 22-N.Harris to UGA 36 for 7 yards (27-E.Stokes,25-Q.Walker). "
+Alabama,4Q,13,185,84,3,Normal,run,2,successful,0.47,,0.54,0.51,N.Harris,,,J.Johnson,,1,, 22-N.Harris to UGA 34 for 2 yards (11-J.Johnson). 
