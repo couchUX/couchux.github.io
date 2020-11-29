@@ -1,0 +1,129 @@
+team,quarter,drive_team,play_count,play_count_team,down,red_zone,play_type,yards_total,play_result,run_sr,pass_sr,total_sr,run_rate,runner,passer,receiver,tackler_one,tackler_two,tackler_one_credit,tackler_two_credit,play_description
+Kentucky,1Q,1,2,1,1,Normal,run,12,successful,1.00,,1.00,1.00,A.Rose,,,D.Wright,C.Harris,0.5,0.5," 10-A.Rose to KEN 32 for 12 yards (3-D.Wright,8-C.Harris). "
+Kentucky,1Q,1,3,2,1,Normal,run,1,not successful,0.50,,0.50,1.00,A.Rose,,,W.Anderson,P.Mathis,0.5,0.5," 10-A.Rose to KEN 33 for 1 yard (31-W.Anderson,48-P.Mathis). "
+Kentucky,1Q,1,4,3,2,Normal,run,3,not successful,0.33,,0.33,1.00,A.Rose,,,T.Smith,P.Mathis,0.5,0.5," 10-A.Rose to KEN 36 for 3 yards (50-T.Smith,48-P.Mathis). "
+Kentucky,1Q,1,5,4,3,Normal,run,0,not successful,0.25,,0.25,1.00,T.Wilson,,,,,,," 3-T.Wilson to KEN 28, FUMBLES. 3-T.Wilson recovers at the KEN 28. 3-T.Wilson to KEN 28 for no gain. "
+Alabama,1Q,1,7,1,1,Normal,pass,34,explosive,,1.00,1.00,0.00,,M.Jones,J.Billingsley,B.Echols,,1,, 10-M.Jones complete to 19-J.Billingsley. 19-J.Billingsley to KEN 21 for 34 yards (26-B.Echols). 
+Alabama,1Q,1,8,2,1,Normal,run,1,not successful,0.00,,0.50,0.50,N.Harris,,,J.Paschal,,1,, 22-N.Harris to KEN 20 for 1 yard (4-J.Paschal). 
+Alabama,1Q,1,9,3,2,Normal,pass,16,explosive,,1.00,0.67,0.33,,M.Jones,D.Smith,D.Square,Y.Corker,0.5,0.5," 10-M.Jones complete to 6-D.Smith. 6-D.Smith to KEN 4 for 16 yards (5-D.Square,29-Y.Corker). "
+Alabama,1Q,1,10,4,1,Red Zone,run,3,successful,0.50,,0.75,0.50,N.Harris,,,J.Paschal,D.Square,0.5,0.5," 22-N.Harris to KEN 1 for 3 yards (4-J.Paschal,5-D.Square). "
+Alabama,1Q,1,11,5,2,Red Zone,run,0,not successful,0.33,,0.60,0.60,N.Harris,,,T.Ajian,Y.Corker,0.5,0.5," 22-N.Harris to KEN 1 for no gain (23-T.Ajian,29-Y.Corker). "
+Alabama,1Q,1,12,6,3,Red Zone,run,1,successful,0.50,,0.67,0.67,N.Harris,,,,,,, 22-N.Harris runs 1 yard for a touchdown. 
+Kentucky,1Q,2,15,6,1,Normal,pass,13,successful,,1.00,0.40,0.80,,T.Wilson,K.Upshaw,D.Wright,,1,, 3-T.Wilson complete to 88-K.Upshaw. 88-K.Upshaw to KEN 40 for 13 yards (3-D.Wright). 
+Kentucky,1Q,2,16,7,1,Normal,run,8,successful,0.40,,0.50,0.83,K.Smoke,,,J.Jobe,,1,, 20-K.Smoke to KEN 48 for 8 yards (28-J.Jobe). 
+Kentucky,1Q,2,17,8,2,Normal,run,2,successful,0.50,,0.57,0.86,K.Smoke,,,D.Dale,,1,, 20-K.Smoke to KEN 50 for 2 yards (94-D.Dale). 
+Kentucky,1Q,2,18,9,1,Normal,pass,33,explosive,,1.00,0.63,0.75,,T.Wilson,J.Ali,J.Battle,,1,, 3-T.Wilson complete to 6-J.Ali. 6-J.Ali to BAMA 17 for 33 yards (9-J.Battle). 
+Kentucky,1Q,2,19,10,1,Red Zone,run,2,not successful,0.43,,0.56,0.78,K.Smoke,,,D.Dale,,1,, 20-K.Smoke to BAMA 15 for 2 yards (94-D.Dale). 
+Kentucky,1Q,2,20,11,2,Red Zone,pass,12,successful,,1.00,0.60,0.70,,T.Wilson,K.Smoke,,,,," 3-T.Wilson complete to 20-K.Smoke. 20-K.Smoke to BAMA 3 for 12 yards. Team penalty on BAMA, Offside, declined. "
+Kentucky,1Q,2,23,14,2,Normal,pass,5,not successful,,0.75,0.55,0.64,,T.Wilson,J.Ali,D.Wright,,1,, 3-T.Wilson complete to 6-J.Ali. 6-J.Ali to BAMA 15 for 5 yards (3-D.Wright). 
+Kentucky,1Q,2,24,15,3,Red Zone,pass,,not successful,,0.60,0.50,0.58,,T.Wilson,J.Ali,,,,, 3-T.Wilson incomplete. Intended for 6-J.Ali. 
+Alabama,1Q,2,27,7,1,Normal,pass,24,explosive,,1.00,0.71,0.57,,M.Jones,N.Harris,T.Ajian,,1,, 10-M.Jones complete to 22-N.Harris. 22-N.Harris to BAMA 49 for 24 yards (23-T.Ajian). 
+Alabama,1Q,2,28,8,1,Normal,run,2,not successful,0.40,,0.63,0.63,N.Harris,,,D.Square,J.Wright,0.5,0.5," 22-N.Harris to KEN 49 for 2 yards (5-D.Square,15-J.Wright). "
+Alabama,1Q,2,29,9,2,Normal,run,-2,not successful,0.33,,0.56,0.67,N.Harris,,,J.Weaver,,1,, 22-N.Harris to BAMA 49 for -2 yards (13-J.Weaver). 
+Alabama,1Q,2,30,10,3,Normal,pass,,not successful,,0.75,0.50,0.60,,M.Jones,D.Smith,,,,, 10-M.Jones incomplete. Intended for 6-D.Smith. 
+Kentucky,1Q,3,32,17,1,Normal,run,7,successful,0.50,,0.54,0.62,T.Wilson,,,D.Wright,C.Harris,0.5,0.5," 3-T.Wilson to KEN 27 for 7 yards (3-D.Wright,8-C.Harris). "
+Kentucky,1Q,3,33,18,2,Normal,run,14,successful,0.56,,0.57,0.64,A.Rose,,,J.Jobe,,1,, 10-A.Rose to KEN 41 for 14 yards (28-J.Jobe). 
+Kentucky,1Q,3,34,19,1,Normal,run,1,not successful,0.50,,0.53,0.67,A.Rose,,,T.Smith,,1,, 10-A.Rose to KEN 42 for 1 yard (50-T.Smith). 
+Kentucky,1Q,3,35,20,2,Normal,pass,9,successful,,0.67,0.56,0.63,,T.Wilson,J.Ali,J.Battle,,1,, 3-T.Wilson complete to 6-J.Ali. 6-J.Ali to BAMA 49 for 9 yards (9-J.Battle). 
+Kentucky,1Q,3,36,21,1,Normal,run,2,not successful,0.45,,0.53,0.65,K.Smoke,,,C.Harris,,1,, 22-K.Smoke to BAMA 47 for 2 yards (8-C.Harris). 
+Kentucky,1Q,3,38,23,2,Normal,pass,15,successful,,0.71,0.56,0.61,,T.Wilson,D.Harris,,,,," 3-T.Wilson incomplete. Intended for 86-D.Harris. Team penalty on BAMA, Illegal use of hands, declined. Penalty on BAMA 28-J.Jobe, Pass interference, 15 yards, enforced at KEN 48. No Play. "
+Kentucky,1Q,3,39,24,1,Normal,pass,17,explosive,,0.75,0.58,0.58,,T.Wilson,K.Upshaw,J.Jobe,J.Battle,0.5,0.5," 3-T.Wilson complete to 88-K.Upshaw. 88-K.Upshaw to BAMA 20 for 17 yards (28-J.Jobe,9-J.Battle). "
+Kentucky,2Q,4,40,25,1,Normal,pass,5,successful,,0.78,0.60,0.55,,T.Wilson,J.Ali,D.Wright,,1,, 3-T.Wilson complete to 6-J.Ali. 6-J.Ali to BAMA 15 for 5 yards (3-D.Wright). 
+Kentucky,2Q,4,41,26,2,Red Zone,run,7,successful,0.50,,0.62,0.57,A.Rose,,,C.Harris,,1,, 10-A.Rose to BAMA 8 for 7 yards (8-C.Harris). 
+Kentucky,2Q,4,42,27,1,Red Zone,run,1,not successful,0.46,,0.59,0.59,A.Rose,,,J.Eboigbe,P.Mathis,0.5,0.5," 10-A.Rose to BAMA 7 for 1 yard (92-J.Eboigbe,48-P.Mathis). "
+Kentucky,2Q,4,43,28,2,Red Zone,pass,,not successful,,0.70,0.57,0.57,,T.Wilson,J.Ali,,,,, 3-T.Wilson incomplete. Intended for 6-J.Ali. 
+Kentucky,2Q,4,44,29,3,Red Zone,run,1,not successful,0.43,,0.54,0.58,T.Wilson,,,C.Barmore,,1,, 3-T.Wilson to BAMA 6 for 1 yard (58-C.Barmore). 
+Kentucky,2Q,4,45,30,4,Normal,run,,not successful,0.40,,0.52,0.60,M.Ruffolo,,,,,,," to BAMA 6, FUMBLES. 96-M.Ruffolo to BAMA 42 for no gain. "
+Alabama,2Q,3,46,12,1,Normal,pass,3,not successful,,0.60,0.45,0.55,,M.Jones,S.Bolden,,,,, 10-M.Jones complete to 18-S.Bolden. 18-S.Bolden to BAMA 45 for 3 yards. 
+Alabama,2Q,3,47,13,2,Normal,pass,27,explosive,,0.67,0.50,0.50,,M.Jones,J.Billingsley,,,,, 10-M.Jones complete to 19-J.Billingsley. 19-J.Billingsley to KEN 28 for 27 yards. 
+Alabama,2Q,3,48,14,1,Normal,no play,14,successful,,,0.54,,,,,,,,," 10-M.Jones incomplete. Penalty on KEN 92-P.Hoskins, Personal Foul, 14 yards, enforced at KEN 28. No Play. "
+Alabama,2Q,3,49,15,1,Red Zone,pass,4,not successful,,0.57,0.50,0.46,,M.Jones,S.Bolden,J.Wright,,1,, 10-M.Jones complete to 18-S.Bolden. 18-S.Bolden to KEN 10 for 4 yards (15-J.Wright). 
+Alabama,2Q,3,50,16,2,Red Zone,pass,10,successful,,0.63,0.53,0.43,,M.Jones,D.Smith,,,,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith runs 10 yards for a touchdown. 
+Kentucky,2Q,5,54,31,1,Normal,run,1,not successful,0.38,,0.50,0.62,K.Smoke,,,C.Harris,,1,, 22-K.Smoke to KEN 35 for 1 yard (8-C.Harris). 
+Kentucky,2Q,5,55,32,2,Normal,run,3,not successful,0.35,,0.48,0.63,K.Smoke,,,B.Young,,1,, 22-K.Smoke to KEN 38 for 3 yards (47-B.Young). 
+Kentucky,2Q,5,56,33,3,Normal,pass,21,explosive,,0.73,0.50,0.61,,T.Wilson,I.Epps,D.Wright,,1,, 3-T.Wilson complete to 81-I.Epps. 81-I.Epps to BAMA 41 for 21 yards (3-D.Wright). 
+Kentucky,2Q,5,57,34,1,Normal,pass,0,not successful,,0.67,0.48,0.59,,T.Wilson,K.Smoke,M.Moore,,1,, 3-T.Wilson complete to 22-K.Smoke. 22-K.Smoke to BAMA 41 for no gain (13-M.Moore). 
+Kentucky,2Q,5,58,35,2,Normal,pass,,not successful,,0.62,0.47,0.57,,T.Wilson,K.Smoke,,,,, 3-T.Wilson incomplete. Intended for 22-K.Smoke. 
+Kentucky,2Q,5,59,36,3,Normal,pass,14,successful,,0.64,0.48,0.55,,T.Wilson,K.Upshaw,P.Surtain,,1,, 3-T.Wilson complete to 88-K.Upshaw. 88-K.Upshaw to BAMA 27 for 14 yards (2-P.Surtain). 
+Kentucky,2Q,5,60,37,1,Normal,pass,,not successful,,0.60,0.47,0.53,,T.Wilson,K.Smoke,,,,, 3-T.Wilson incomplete. Intended for 22-K.Smoke. 
+Kentucky,2Q,5,61,38,2,Normal,run,2,not successful,0.33,,0.45,0.55,T.Wilson,,,C.Allen,,1,, 3-T.Wilson to BAMA 25 for 2 yards (4-C.Allen). 
+Kentucky,2Q,5,62,39,3,Normal,pass,,not successful,,0.56,0.44,0.53,,T.Wilson,J.Ali,,,,, 3-T.Wilson incomplete. Intended for 6-J.Ali. 
+Alabama,2Q,4,64,17,1,Normal,run,1,not successful,0.29,,0.50,0.47,N.Harris,,,J.Paschal,M.Bembry,0.5,0.5," 22-N.Harris to BAMA 26 for 1 yard (4-J.Paschal,42-M.Bembry). "
+Alabama,2Q,4,65,18,2,Normal,pass,18,explosive,,0.67,0.53,0.44,,M.Jones,D.Smith,V.Tisdale,,1,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith to BAMA 44 for 18 yards (7-V.Tisdale). 
+Alabama,2Q,4,66,19,1,Normal,pass,,not successful,,0.60,0.50,0.41,,M.Jones,D.Smith,,,,, 10-M.Jones incomplete. Intended for 6-D.Smith. 
+Alabama,2Q,4,67,20,2,Normal,run,14,successful,0.38,,0.53,0.44,N.Harris,,,V.Tisdale,,1,, 22-N.Harris to KEN 42 for 14 yards (7-V.Tisdale). 
+Alabama,2Q,4,68,21,1,Normal,run,42,explosive,0.44,,0.55,0.47,N.Harris,,,,,,," 22-N.Harris runs 42 yards for a touchdown. Team penalty on KEN, 12 players, declined. "
+Kentucky,2Q,6,71,41,1,Normal,run,3,not successful,0.32,,0.43,0.54,A.Rose,,,C.Harris,P.Mathis,0.5,0.5," 10-A.Rose to KEN 21 for 3 yards (8-C.Harris,48-P.Mathis). "
+Kentucky,2Q,6,72,42,2,Normal,pass,3,not successful,,0.53,0.42,0.53,,T.Wilson,I.Epps,M.Moore,,1,, 3-T.Wilson complete to 81-I.Epps. 81-I.Epps to KEN 24 for 3 yards (13-M.Moore). 
+Kentucky,2Q,6,73,43,3,Normal,pass,,not successful,,0.50,0.41,0.51,,T.Wilson,A.Dailey,,,,, 3-T.Wilson incomplete. Intended for 89-A.Dailey. 
+Alabama,2Q,5,75,22,1,Normal,pass,3,not successful,,0.55,0.52,0.45,,M.Jones,N.Harris,J.Watson,,1,, 10-M.Jones complete to 22-N.Harris. 22-N.Harris to BAMA 32 for 3 yards (31-J.Watson). 
+Alabama,2Q,5,77,24,2,Normal,pass,9,successful,,0.58,0.55,0.43,,M.Jones,S.Bolden,M.Bembry,,1,, 10-M.Jones complete to 18-S.Bolden. 18-S.Bolden to BAMA 46 for 9 yards (42-M.Bembry). 
+Alabama,2Q,5,78,25,1,Normal,pass,17,explosive,,0.62,0.57,0.41,,M.Jones,J.Billingsley,,,,, 10-M.Jones complete to 19-J.Billingsley. 19-J.Billingsley to KEN 37 for 17 yards. 
+Alabama,2Q,5,79,26,1,Normal,pass,,not successful,,0.57,0.54,0.39,,M.Jones,D.Smith,,,,, 10-M.Jones incomplete. Intended for 6-D.Smith. 
+Alabama,2Q,5,80,27,2,Normal,pass,19,explosive,,0.60,0.56,0.38,,M.Jones,D.Smith,B.Echols,,1,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith to KEN 18 for 19 yards (26-B.Echols). 
+Alabama,2Q,5,81,28,1,Red Zone,pass,18,explosive,,0.63,0.58,0.36,,M.Jones,J.Metchie,,,,, 10-M.Jones complete to 8-J.Metchie. 8-J.Metchie runs 18 yards for a touchdown. 
+Kentucky,2Q,7,84,45,1,Normal,run,3,not successful,0.30,,0.39,0.53,K.Smoke,,,J.Battle,,1,, 22-K.Smoke to KEN 28 for 3 yards (9-J.Battle). 
+Kentucky,2Q,7,85,46,2,Normal,run,3,not successful,0.29,,0.38,0.54,K.Smoke,,,W.Anderson,P.Mathis,0.5,0.5," 22-K.Smoke to KEN 31 for 3 yards (31-W.Anderson,48-P.Mathis). "
+Alabama,3Q,6,87,29,1,Normal,run,-6,not successful,0.40,,0.56,0.38,N.Harris,,,J.Watson,,1,, 22-N.Harris to BAMA 19 for -6 yards (31-J.Watson). 
+Alabama,3Q,6,88,30,2,Normal,run,9,not successful,0.36,,0.54,0.41,N.Harris,,,Q.Mosely,,1,, 22-N.Harris to BAMA 28 for 9 yards (21-Q.Mosely). 
+Alabama,3Q,6,89,31,3,Normal,pass,18,explosive,,0.65,0.55,0.39,,M.Jones,D.Smith,B.Echols,,1,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith to BAMA 46 for 18 yards (26-B.Echols). 
+Alabama,3Q,6,90,32,1,Normal,pass,15,successful,,0.67,0.57,0.38,,M.Jones,D.Smith,,,,," 10-M.Jones incomplete. Intended for 6-D.Smith. Penalty on KEN 29-Y.Corker, Pass interference, 15 yards, enforced at BAMA 46. No Play. "
+Alabama,3Q,6,91,33,1,Normal,pass,,not successful,,0.63,0.55,0.37,,M.Jones,D.Smith,N.Harris,,,," 10-M.Jones incomplete. Intended for 6-D.Smith, INTERCEPTED by 1-K.Joseph at KEN 1. 1-K.Joseph to KEN 22 for 21 yards (22-N.Harris). "
+Kentucky,3Q,8,92,47,1,Normal,run,20,explosive,0.32,,0.40,0.55,A.Rose,,,J.Jobe,,1,, 10-A.Rose pushed ob at KEN 42 for 20 yards (28-J.Jobe). 
+Kentucky,3Q,8,93,48,1,Normal,pass,,not successful,,0.47,0.39,0.54,,T.Wilson,K.Upshaw,,,,, 3-T.Wilson incomplete. Intended for 88-K.Upshaw. 
+Kentucky,3Q,8,94,49,2,Normal,run,3,not successful,0.30,,0.38,0.55,T.Wilson,,,C.Harris,,1,, 3-T.Wilson to KEN 45 for 3 yards (8-C.Harris). 
+Kentucky,3Q,8,95,50,3,Normal,pass,,not successful,,0.45,0.37,0.53,,T.Wilson,J.Ali,,,,, 3-T.Wilson incomplete. Intended for 6-J.Ali. 
+Alabama,3Q,7,97,34,1,Normal,run,0,not successful,0.33,,0.53,0.39,B.Robinson,,,Q.Bohanna,,1,, 4-B.Robinson to BAMA 20 for no gain (95-Q.Bohanna). 
+Alabama,3Q,7,98,35,2,Normal,pass,,not successful,,0.60,0.52,0.38,,M.Jones,C.Tucker,,,,, 10-M.Jones incomplete. Intended for 86-C.Tucker. 
+Alabama,3Q,7,99,36,3,Normal,pass,,not successful,,0.57,0.50,0.36,,M.Jones,J.Metchie,,,,, 10-M.Jones incomplete. Intended for 8-J.Metchie. 
+Kentucky,3Q,9,101,52,1,Normal,pass,,not successful,,0.43,0.36,0.52,,T.Wilson,,,,,, 3-T.Wilson incomplete. INTERCEPTED by 9-J.Battle at KEN 45. 9-J.Battle runs 45 yards for a touchdown. 
+Kentucky,3Q,10,104,53,1,Normal,run,2,not successful,0.29,,0.36,0.53,K.Smoke,,,C.Barmore,,1,, 22-K.Smoke to KEN 27 for 2 yards (58-C.Barmore). 
+Kentucky,3Q,10,105,54,2,Normal,pass,,not successful,,0.41,0.35,0.52,,J.Gatewood,J.Ali,,,,, 2-J.Gatewood incomplete. Intended for 6-J.Ali. 
+Kentucky,3Q,10,107,56,3,Normal,pass,,not successful,,0.39,0.34,0.51,,J.Gatewood,M.Drennen,,,,, 2-J.Gatewood incomplete. Intended for 5-M.Drennen. 
+Alabama,3Q,9,109,38,1,Normal,run,7,successful,0.38,,0.51,0.38,B.Robinson,,,J.Wright,B.Echols,0.5,0.5," 4-B.Robinson to KEN 22 for 7 yards (15-J.Wright,26-B.Echols). "
+Alabama,3Q,9,110,39,2,Normal,pass,,not successful,,0.55,0.50,0.37,,M.Jones,J.Metchie,,,,, 10-M.Jones incomplete. Intended for 8-J.Metchie. 
+Alabama,3Q,9,111,40,3,Normal,pass,5,successful,,0.57,0.51,0.36,,M.Jones,D.Smith,Q.Mosely,,1,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith to KEN 17 for 5 yards (21-Q.Mosely). 
+Alabama,3Q,9,112,41,1,Red Zone,pass,,not successful,,0.54,0.50,0.35,,M.Jones,D.Smith,,,,, 10-M.Jones incomplete. Intended for 6-D.Smith. 
+Alabama,3Q,9,113,42,2,Red Zone,run,11,successful,0.43,,0.51,0.37,B.Robinson,,,Y.Corker,J.Paschal,0.5,0.5," 4-B.Robinson to KEN 6 for 11 yards (29-Y.Corker,4-J.Paschal). "
+Alabama,3Q,9,114,43,1,Red Zone,pass,5,successful,,0.56,0.53,0.36,,M.Jones,D.Smith,Q.Mosely,,1,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith to KEN 1 for 5 yards (21-Q.Mosely). 
+Alabama,3Q,9,115,44,2,Red Zone,run,1,successful,0.47,,0.54,0.38,B.Robinson,,,,,,, 4-B.Robinson runs 1 yard for a touchdown. 
+Kentucky,3Q,11,118,58,1,Normal,run,6,successful,0.32,,0.35,0.52,A.Rose,,,D.Hellams,B.Young,0.5,0.5," 10-A.Rose to KEN 31 for 6 yards (29-D.Hellams,47-B.Young). "
+Kentucky,3Q,11,119,59,2,Normal,pass,,not successful,,0.38,0.35,0.51,,J.Gatewood,K.Upshaw,,,,, 2-J.Gatewood incomplete. Intended for 88-K.Upshaw. 
+Kentucky,3Q,11,120,60,3,Normal,pass,,not successful,,0.36,0.34,0.50,,J.Gatewood,I.Epps,,,,, 2-J.Gatewood incomplete. Intended for 81-I.Epps. 
+Alabama,3Q,10,122,45,1,Normal,pass,35,explosive,,0.58,0.55,0.37,,B.Young,D.Smith,B.Echols,,1,, 9-B.Young complete to 6-D.Smith. 6-D.Smith to KEN 41 for 35 yards (26-B.Echols). 
+Alabama,3Q,10,123,46,1,Normal,no play,15,successful,,,0.56,,,,,,,,," Team penalty on KEN, Roughing the passer, 15 yards, enforced at KEN 41. No Play. "
+Alabama,3Q,10,124,47,1,Normal,run,10,successful,0.50,,0.57,0.38,N.Harris,,,B.Echols,M.McCall,0.5,0.5," 22-N.Harris to KEN 16 for 10 yards (26-B.Echols,50-M.McCall). "
+Alabama,3Q,10,125,48,1,Red Zone,run,8,successful,0.53,,0.58,0.40,N.Harris,,,P.Hoskins,Q.Mosely,0.5,0.5," 22-N.Harris to KEN 8 for 8 yards (92-P.Hoskins,21-Q.Mosely). "
+Alabama,3Q,10,126,49,2,Red Zone,run,3,successful,0.56,,0.59,0.41,B.Robinson,,,D.Square,,1,, 4-B.Robinson to KEN 5 for 3 yards (5-D.Square). 
+Alabama,3Q,10,127,50,1,Red Zone,run,0,not successful,0.53,,0.57,0.42,B.Robinson,,,D.Square,,1,, 4-B.Robinson to KEN 5 for no gain (5-D.Square). 
+Alabama,3Q,10,128,51,2,Red Zone,pass,-8,not successful,,0.56,0.56,0.41,,B.Young,,J.Watson,,1,, 9-B.Young sacked at KEN 13 for -8 yards (31-J.Watson). 
+Alabama,3Q,10,130,53,3,Red Zone,pass,18,explosive,,0.57,0.57,0.40,,B.Young,D.Smith,,,,, 9-B.Young complete to 6-D.Smith. 6-D.Smith runs 18 yards for a touchdown. 
+Kentucky,3Q,12,133,62,1,Normal,run,1,not successful,0.31,,0.33,0.51,J.McClain,,,C.Harris,,1,, 17-J.McClain to KEN 26 for 1 yard (8-C.Harris). 
+Kentucky,3Q,12,134,63,2,Normal,pass,-7,not successful,,0.35,0.33,0.50,,B.Allen,,C.Harris,,1,, 11-B.Allen sacked at KEN 19 for -7 yards (8-C.Harris). 
+Kentucky,3Q,12,135,64,3,Normal,pass,-2,not successful,,0.33,0.32,0.49,,B.Allen,,C.Allen,,1,, 11-B.Allen sacked at KEN 17 for -2 yards (4-C.Allen). 
+Alabama,4Q,11,137,54,1,Normal,run,5,successful,0.55,,0.58,0.42,J.McClellan,,,J.Weaver,K.Looney,0.5,0.5," 21-J.McClellan to BAMA 49 for 5 yards (13-J.Weaver,59-K.Looney). "
+Alabama,4Q,11,138,55,2,Normal,run,4,successful,0.57,,0.59,0.43,J.McClellan,,,J.Rogers,,1,, 21-J.McClellan to KEN 47 for 4 yards (52-J.Rogers). 
+Alabama,4Q,11,139,56,3,Normal,run,3,successful,0.59,,0.60,0.44,J.McClellan,,,J.Casey,I.Gibson,0.5,0.5," 21-J.McClellan to KEN 44 for 3 yards (6-J.Casey,96-I.Gibson). "
+Alabama,4Q,11,140,57,1,Normal,run,16,explosive,0.61,,0.60,0.45,J.McClellan,,,K.Joseph,,1,, 21-J.McClellan pushed ob at KEN 28 for 16 yards (1-K.Joseph). 
+Alabama,4Q,11,141,58,1,Normal,run,3,not successful,0.58,,0.59,0.46,R.Williams,,,C.Dort,,1,, 23-R.Williams to KEN 25 for 3 yards (3-C.Dort). 
+Alabama,4Q,11,142,59,2,Normal,run,11,successful,0.60,,0.60,0.47,R.Williams,,,C.Valentine,Q.Mosely,0.5,0.5," 23-R.Williams to KEN 14 for 11 yards (14-C.Valentine,21-Q.Mosely). "
+Alabama,4Q,11,143,60,1,Red Zone,run,2,not successful,0.58,,0.59,0.48,R.Williams,,,M.McCall,J.Casey,0.5,0.5," 23-R.Williams to KEN 12 for 2 yards (50-M.McCall,6-J.Casey). "
+Alabama,4Q,11,144,61,2,Red Zone,run,9,successful,0.59,,0.60,0.49,R.Williams,,,Y.Corker,,1,, 23-R.Williams to KEN 3 for 9 yards (29-Y.Corker). 
+Alabama,4Q,11,145,62,1,Red Zone,run,1,not successful,0.57,,0.59,0.50,R.Williams,,,Y.Corker,M.McCall,0.5,0.5," 23-R.Williams to KEN 2 for 1 yard (29-Y.Corker,50-M.McCall). "
+Alabama,4Q,11,146,63,2,Red Zone,run,2,successful,0.59,,0.59,0.51,R.Williams,,,,,,, 23-R.Williams runs 2 yards for a touchdown. 
+Kentucky,4Q,14,149,66,1,Normal,pass,,not successful,,0.32,0.31,0.48,,B.Allen,I.Cummings,,,,, 11-B.Allen incomplete. Intended for 84-I.Cummings. 
+Kentucky,4Q,14,150,67,2,Normal,run,-1,not successful,0.30,,0.31,0.49,J.McClain,,,B.Young,,1,, 17-J.McClain to KEN 24 for -1 yard (47-B.Young). 
+Kentucky,4Q,14,151,68,3,Normal,pass,,not successful,,0.31,0.30,0.48,,B.Allen,B.Oliver,,,,, 11-B.Allen incomplete. Intended for 85-B.Oliver. 
+Alabama,4Q,12,153,64,1,Normal,run,11,successful,0.60,,0.60,0.52,J.McClellan,,,J.Geiger,,1,, 21-J.McClellan to BAMA 38 for 11 yards (34-J.Geiger). 
+Alabama,4Q,12,154,65,1,Normal,run,2,not successful,0.58,,0.59,0.53,J.McClellan,,,J.Casey,,1,, 21-J.McClellan to BAMA 40 for 2 yards (6-J.Casey). 
+Alabama,4Q,12,155,66,2,Normal,run,23,explosive,0.59,,0.60,0.53,J.McClellan,,,K.McDaniel,,1,, 21-J.McClellan to KEN 37 for 23 yards (47-K.McDaniel). 
+Alabama,4Q,12,156,67,1,Normal,run,8,successful,0.61,,0.60,0.54,J.McClellan,,,J.Rogers,J.Geiger,0.5,0.5," 21-J.McClellan to KEN 29 for 8 yards (52-J.Rogers,34-J.Geiger). "
+Alabama,4Q,12,157,68,2,Normal,run,1,not successful,0.59,,0.59,0.55,R.Williams,,,M.Douglass,J.Casey,0.5,0.5," 23-R.Williams to KEN 28 for 1 yard (11-M.Douglass,6-J.Casey). "
+Alabama,4Q,12,158,69,3,Normal,run,4,successful,0.60,,0.60,0.56,R.Williams,,,J.Rogers,,1,, 23-R.Williams to KEN 24 for 4 yards (52-J.Rogers). 
+Alabama,4Q,12,159,70,1,Normal,run,-1,not successful,0.58,,0.59,0.56,R.Williams,,,J.Mahone,,1,, 23-R.Williams to KEN 25 for -1 yard (93-J.Mahone). 
+Alabama,4Q,12,160,71,2,Normal,run,-2,not successful,0.57,,0.58,0.57,R.Williams,,,J.Casey,,1,, 23-R.Williams to KEN 27 for -2 yards (6-J.Casey). 
+Alabama,4Q,12,161,72,3,Normal,run,8,not successful,0.55,,0.57,0.58,J.McClellan,,,J.Williams,,1,, 21-J.McClellan to KEN 19 for 8 yards (27-J.Williams). 
+Alabama,4Q,12,162,73,4,Red Zone,run,19,explosive,0.56,,0.58,0.58,J.McClellan,,,,,,, 21-J.McClellan runs 19 yards for a touchdown. 
+Kentucky,4Q,15,165,70,1,Normal,run,3,not successful,0.29,,0.30,0.49,T.Tisdale,,,T.Smith,,1,, 33-T.Tisdale to KEN 28 for 3 yards (50-T.Smith). 
+Kentucky,4Q,15,166,71,2,Normal,run,4,not successful,0.28,,0.29,0.50,T.Tisdale,,,J.Burroughs,B.Ingraham,0.5,0.5," 33-T.Tisdale to KEN 32 for 4 yards (98-J.Burroughs,52-B.Ingraham). "
+Kentucky,4Q,15,167,72,3,Normal,run,-2,not successful,0.27,,0.29,0.51,T.Tisdale,,,T.Smith,,1,, 33-T.Tisdale to KEN 30 for -2 yards (50-T.Smith). 
