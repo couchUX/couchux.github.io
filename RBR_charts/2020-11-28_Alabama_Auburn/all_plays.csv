@@ -109,7 +109,7 @@ Auburn,4Q,10,139,68,1,Normal,run,0,not successful,0.29,,0.31,0.36,M.Richards,,,B
 Auburn,4Q,10,140,69,2,Normal,pass,10,successful,,0.34,0.32,0.36,,B.Nix,E.Stove,C.Harris,,1,, 10-B.Nix complete to 12-E.Stove. 12-E.Stove pushed ob at AUB 35 for 10 yards (8-C.Harris). 
 Auburn,4Q,10,141,70,1,Normal,run,3,not successful,0.27,,0.32,0.37,M.Richards,,,P.Mathis,,1,, 28-M.Richards to AUB 38 for 3 yards (48-P.Mathis). 
 Auburn,4Q,10,142,71,2,Normal,run,-2,not successful,0.26,,0.31,0.38,M.Richards,,,W.Anderson,,1,, 28-M.Richards to AUB 36 for -2 yards (31-W.Anderson). 
-Auburn,4Q,10,143,72,3,Normal,pass,,not successful,,0.33,0.31,0.37,,B.Nix,,B.Nix,,,, 10-B.Nix incomplete. INTERCEPTED by 14-B.Branch at AUB 37. 14-B.Branch to AUB 7 for 30 yards (10-B.Nix). 
+Auburn,4Q,10,143,72,3,Normal,pass,,not successful,,0.33,0.31,0.37,,B.Nix,,,,,, 10-B.Nix incomplete. INTERCEPTED by 14-B.Branch at AUB 37. 14-B.Branch to AUB 7 for 30 yards (10-B.Nix). 
 Alabama,4Q,13,144,56,1,Red Zone,run,,not successful,0.52,,0.56,0.43,B.Robinson,,,S.Monday,,,," 4-B.Robinson to AUB 3, FUMBLES (21-S.Monday). 20-J.Sherwood to AUB 3 for no gain. "
 Auburn,4Q,11,145,73,1,Normal,run,3,not successful,0.25,,0.30,0.38,M.Richards,,,J.Jobe,,1,, 28-M.Richards pushed ob at AUB 7 for 3 yards (28-J.Jobe). 
 Auburn,4Q,11,146,74,2,Normal,run,4,not successful,0.24,,0.30,0.39,B.Nix,,,C.Barmore,,1,, 10-B.Nix to AUB 11 for 4 yards (58-C.Barmore). 
