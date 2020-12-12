@@ -1,150 +1,139 @@
 team,quarter,drive_team,play_count,play_count_team,down,red_zone,play_type,yards_total,play_result,run_sr,pass_sr,total_sr,run_rate,runner,passer,receiver,tackler_one,tackler_two,tackler_one_credit,tackler_two_credit,play_description
-Alabama,1Q,1,2,1,1,Normal,pass,8,successful,,1.00,1.00,0.00,,M.Jones,D.Smith,T.Harris,C.Flott,0.5,0.5," 10-M.Jones complete to 6-D.Smith. 6-D.Smith to BAMA 33 for 8 yards (4-T.Harris,25-C.Flott). "
-Alabama,1Q,1,3,2,2,Normal,run,12,successful,1.00,,1.00,0.50,N.Harris,,,J.Stevens,,1,, 22-N.Harris to BAMA 45 for 12 yards (7-J.Stevens). 
-Alabama,1Q,1,4,3,1,Normal,pass,5,successful,,1.00,1.00,0.33,,M.Jones,D.Smith,J.Stevens,,1,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith to BAMA 50 for 5 yards (7-J.Stevens). 
-Alabama,1Q,1,5,4,2,Normal,run,2,not successful,0.50,,0.75,0.50,N.Harris,,,N.Farrell,A.Gaye,0.5,0.5," 22-N.Harris to LSU 48 for 2 yards (92-N.Farrell,11-A.Gaye). "
-Alabama,1Q,1,6,5,3,Normal,no play,5,successful,,,0.80,,,,,,,,," Penalty on LSU 92-N.Farrell, Offside, 5 yards, enforced at LSU 48. No Play. "
-Alabama,1Q,1,7,6,1,Normal,pass,24,explosive,,1.00,0.83,0.40,,M.Jones,J.Metchie,T.Harris,,1,, 10-M.Jones complete to 8-J.Metchie. 8-J.Metchie to LSU 19 for 24 yards (4-T.Harris). 
-Alabama,1Q,1,8,7,1,Red Zone,run,5,successful,0.67,,0.86,0.50,N.Harris,,,C.Flott,J.Stevens,0.5,0.5," 22-N.Harris to LSU 14 for 5 yards (25-C.Flott,7-J.Stevens). "
-Alabama,1Q,1,9,8,2,Red Zone,run,14,successful,0.75,,0.88,0.57,N.Harris,,,,,,, 22-N.Harris runs 14 yards for a touchdown. 
-LSU,1Q,1,12,1,1,Normal,pass,5,successful,,1.00,1.00,0.00,,T.Finley,T.Carter,D.Wright,,1,, 11-T.Finley complete to 44-T.Carter. 44-T.Carter to LSU 30 for 5 yards (3-D.Wright). 
-LSU,1Q,1,13,2,2,Normal,run,3,not successful,0.00,,0.50,0.50,T.Davis-Price,,,J.Eboigbe,,1,, 3-T.Davis-Price to LSU 33 for 3 yards (92-J.Eboigbe). 
-LSU,1Q,1,14,3,3,Normal,pass,8,successful,,1.00,0.67,0.33,,T.Finley,K.Boutte,J.Jobe,,1,, 11-T.Finley complete to 1-K.Boutte. 1-K.Boutte pushed ob at LSU 41 for 8 yards (28-J.Jobe). 
-LSU,1Q,1,15,4,1,Normal,pass,10,successful,,1.00,0.75,0.25,,T.Finley,A.Gilbert,D.Wright,,1,, 11-T.Finley complete to 2-A.Gilbert. 2-A.Gilbert pushed ob at BAMA 49 for 10 yards (3-D.Wright). 
-LSU,1Q,1,16,5,1,Normal,pass,,not successful,,0.75,0.60,0.20,,T.Finley,A.Gilbert,,,,, 11-T.Finley incomplete. Intended for 2-A.Gilbert. 
-LSU,1Q,1,17,6,2,Normal,pass,15,explosive,,0.80,0.67,0.17,,T.Finley,A.Gilbert,J.Jobe,,1,, 11-T.Finley complete to 2-A.Gilbert. 2-A.Gilbert to BAMA 34 for 15 yards (28-J.Jobe). 
-LSU,1Q,1,18,7,1,Normal,pass,10,successful,,0.83,0.71,0.14,,T.Finley,K.Boutte,J.Jobe,,1,, 11-T.Finley complete to 1-K.Boutte. 1-K.Boutte to BAMA 24 for 10 yards (28-J.Jobe). 
-LSU,1Q,1,19,8,1,Normal,pass,,not successful,,0.71,0.63,0.13,,T.Finley,T.Bradford,,,,, 11-T.Finley incomplete. Intended for 8-T.Bradford. 
-LSU,1Q,1,20,9,2,Normal,run,9,successful,0.50,,0.67,0.22,T.Davis-Price,,,J.Battle,,1,, 3-T.Davis-Price to BAMA 15 for 9 yards (9-J.Battle). 
-LSU,1Q,1,21,10,3,Red Zone,run,0,not successful,0.33,,0.60,0.30,T.Davis-Price,,,T.Smith,,1,, 3-T.Davis-Price to BAMA 15 for no gain (50-T.Smith). 
-LSU,1Q,1,22,11,4,Red Zone,run,0,not successful,0.25,,0.55,0.36,T.Davis-Price,,,W.Anderson,C.Harris,0.5,0.5," 3-T.Davis-Price to BAMA 15 for no gain (31-W.Anderson,8-C.Harris). "
-Alabama,1Q,2,23,9,1,Normal,pass,27,explosive,,1.00,0.89,0.50,,M.Jones,J.Billingsley,M.Baskerville,,1,, 10-M.Jones complete to 19-J.Billingsley. 19-J.Billingsley to BAMA 42 for 27 yards (23-M.Baskerville). 
-Alabama,1Q,2,24,10,1,Normal,run,28,explosive,0.80,,0.90,0.56,N.Harris,,,D.Clark,,1,, 22-N.Harris pushed ob at LSU 30 for 28 yards (18-D.Clark). 
-Alabama,1Q,2,25,11,1,Normal,no play,15,successful,,,0.91,,,,,,,,," Penalty on LSU 7-J.Stevens, Personal Foul, 15 yards, enforced at LSU 30. No Play. "
-Alabama,1Q,2,26,12,1,Red Zone,pass,12,successful,,1.00,0.92,0.50,,M.Jones,D.Smith,J.Stevens,,1,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith pushed ob at LSU 3 for 12 yards (7-J.Stevens). 
-Alabama,1Q,2,27,13,1,Red Zone,run,2,successful,0.83,,0.92,0.55,N.Harris,,,D.Clark,,1,, 22-N.Harris to LSU 1 for 2 yards (18-D.Clark). 
-Alabama,1Q,2,28,14,2,Red Zone,run,0,not successful,0.71,,0.86,0.58,N.Harris,,,J.Guillory,J.Roy,0.5,0.5," 22-N.Harris to LSU 1 for no gain (90-J.Guillory,99-J.Roy). "
-Alabama,1Q,2,29,15,2,Red Zone,run,1,successful,0.75,,0.87,0.62,N.Harris,,,,,,, 22-N.Harris runs 1 yard for a touchdown. 
-LSU,1Q,2,32,12,1,Normal,run,2,not successful,0.20,,0.50,0.42,J.Emery,,,C.Harris,D.Moses,0.5,0.5," 4-J.Emery to LSU 27 for 2 yards (8-C.Harris,32-D.Moses). "
-LSU,1Q,2,33,13,2,Normal,pass,,not successful,,0.63,0.46,0.38,,T.Finley,K.Moore,,,,, 11-T.Finley incomplete. Intended for 5-K.Moore. 
-LSU,1Q,2,34,14,3,Normal,pass,-2,not successful,,0.56,0.43,0.36,,T.Finley,,W.Anderson,,1,, 11-T.Finley sacked at LSU 25 for -2 yards (31-W.Anderson). 
-Alabama,1Q,3,36,16,1,Normal,no play,5,successful,,,0.88,,,,,,,,," Penalty on LSU 99-J.Roy, Offside, 5 yards, enforced at LSU 47. No Play. "
-Alabama,1Q,3,37,17,1,Normal,pass,-5,not successful,,0.83,0.82,0.57,,M.Jones,N.Harris,J.Stevens,,1,, 10-M.Jones complete to 22-N.Harris. 22-N.Harris to LSU 47 for -5 yards (7-J.Stevens). 
-Alabama,1Q,3,38,18,2,Normal,run,9,successful,0.78,,0.83,0.60,N.Harris,,,J.Roy,J.Stevens,0.5,0.5," 22-N.Harris to LSU 38 for 9 yards (99-J.Roy,7-J.Stevens). "
-Alabama,1Q,3,39,19,3,Normal,run,0,not successful,0.70,,0.79,0.63,N.Harris,,,J.Stevens,G.Logan,0.5,0.5," 22-N.Harris to LSU 38 for no gain (7-J.Stevens,97-G.Logan). "
-Alabama,1Q,3,40,20,4,Normal,pass,14,successful,,0.86,0.80,0.59,,M.Jones,J.Billingsley,D.Stingley,,1,, 10-M.Jones complete to 19-J.Billingsley. 19-J.Billingsley to LSU 24 for 14 yards (24-D.Stingley). 
-Alabama,1Q,3,41,21,1,Normal,pass,24,explosive,,0.88,0.81,0.56,,M.Jones,J.Billingsley,,,,, 10-M.Jones complete to 19-J.Billingsley. 19-J.Billingsley runs 24 yards for a touchdown. 
-LSU,1Q,3,44,16,1,Normal,pass,9,successful,,0.60,0.47,0.33,,T.Finley,J.Kirklin,M.Moore,,1,, 11-T.Finley complete to 13-J.Kirklin. 13-J.Kirklin to LSU 14 for 9 yards (13-M.Moore). 
-LSU,1Q,3,45,17,2,Normal,pass,4,successful,,0.64,0.50,0.31,,T.Finley,K.Moore,D.Wright,,1,, 11-T.Finley complete to 5-K.Moore. 5-K.Moore to LSU 18 for 4 yards (3-D.Wright). 
-LSU,1Q,3,46,18,1,Normal,pass,,not successful,,0.58,0.47,0.29,,T.Finley,J.Kirklin,,,,, 11-T.Finley incomplete. Intended for 13-J.Kirklin. 
-LSU,1Q,3,47,19,2,Normal,run,1,not successful,0.17,,0.44,0.33,T.Davis-Price,,,C.Harris,,1,, 3-T.Davis-Price to LSU 19 for 1 yard (8-C.Harris). 
-LSU,1Q,3,48,20,3,Normal,pass,8,not successful,,0.54,0.42,0.32,,T.Finley,K.Boutte,W.Anderson,,1,, 11-T.Finley complete to 1-K.Boutte. 1-K.Boutte to LSU 27 for 8 yards (31-W.Anderson). 
-LSU,1Q,3,49,21,4,Normal,no play,15,successful,,,0.45,,,,,,,,," Penalty on BAMA 8-C.Harris, Roughing the passer, 15 yards, enforced at LSU 27. No Play. "
-LSU,1Q,3,50,22,1,Normal,pass,,not successful,,0.50,0.43,0.30,,T.Finley,T.Davis-Price,,,,, 11-T.Finley incomplete. Intended for 3-T.Davis-Price. 
-LSU,1Q,3,51,23,2,Normal,pass,9,successful,,0.53,0.45,0.29,,T.Finley,K.Boutte,J.Jobe,,1,, 11-T.Finley complete to 1-K.Boutte. 1-K.Boutte to BAMA 49 for 9 yards (28-J.Jobe). 
-LSU,1Q,3,52,24,3,Normal,run,5,successful,0.29,,0.48,0.32,T.Finley,,,W.Anderson,,1,, 11-T.Finley to BAMA 44 for 5 yards (31-W.Anderson). 
-LSU,2Q,4,53,25,1,Normal,pass,0,successful,,0.56,0.50,0.30,,T.Finley,K.Boutte,,,,," 11-T.Finley complete to 1-K.Boutte. 1-K.Boutte to BAMA End Zone, FUMBLES. 13-J.Kirklin runs no gain for a touchdown. "
-Alabama,2Q,4,56,22,1,Normal,run,6,successful,0.73,,0.82,0.58,B.Robinson,,,J.Cox,,1,, 4-B.Robinson to BAMA 31 for 6 yards (19-J.Cox). 
-Alabama,2Q,4,57,23,2,Normal,run,4,successful,0.75,,0.83,0.60,B.Robinson,,,J.Roy,,1,, 4-B.Robinson to BAMA 35 for 4 yards (99-J.Roy). 
-Alabama,2Q,4,58,24,1,Normal,pass,65,explosive,,0.89,0.83,0.57,,M.Jones,D.Smith,,,,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith runs 65 yards for a touchdown. 
-LSU,2Q,5,61,26,1,Normal,run,0,not successful,0.25,,0.48,0.33,J.Emery,,,D.Dale,P.Mathis,0.5,0.5," 4-J.Emery to LSU 31 for no gain (94-D.Dale,48-P.Mathis). "
-LSU,2Q,5,62,27,2,Normal,no play,15,successful,,,0.50,,,,,,,,," 11-T.Finley incomplete. Intended for 10-J.Jenkins. Penalty on BAMA 3-D.Wright, Personal Foul, 15 yards, enforced at LSU 31. No Play. "
-LSU,2Q,5,63,28,1,Normal,pass,,not successful,,0.53,0.48,0.32,,T.Finley,J.Kirklin,,,,, 11-T.Finley incomplete. Intended for 13-J.Kirklin. 
-LSU,2Q,5,64,29,2,Normal,run,54,explosive,0.33,,0.50,0.35,J.Emery,,,,,,, 4-J.Emery runs 54 yards for a touchdown. 
-Alabama,2Q,5,67,25,1,Normal,run,6,successful,0.77,,0.84,0.59,N.Harris,,,E.Ricks,A.Gaye,0.5,0.5," 22-N.Harris to BAMA 31 for 6 yards (1-E.Ricks,11-A.Gaye). "
-Alabama,2Q,5,68,26,2,Normal,pass,8,successful,,0.90,0.85,0.57,,M.Jones,N.Harris,M.Baskerville,C.Flott,0.5,0.5," 10-M.Jones complete to 22-N.Harris. 22-N.Harris to BAMA 39 for 8 yards (23-M.Baskerville,25-C.Flott). "
-Alabama,2Q,5,69,27,1,Normal,pass,61,explosive,,0.91,0.85,0.54,,M.Jones,D.Smith,,,,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith runs 61 yards for a touchdown. 
-LSU,2Q,6,72,30,1,Normal,run,20,explosive,0.40,,0.52,0.37,J.Emery,,,C.Allen,D.Moses,0.5,0.5," 4-J.Emery to LSU 45 for 20 yards (4-C.Allen,32-D.Moses). "
-LSU,2Q,6,73,31,1,Normal,pass,,not successful,,0.50,0.50,0.36,,T.Finley,,,,,, 11-T.Finley incomplete. 
-LSU,2Q,6,74,32,2,Normal,pass,15,explosive,,0.53,0.52,0.34,,T.Finley,T.Carter,D.Hellams,,1,, 11-T.Finley complete to 44-T.Carter. 44-T.Carter to BAMA 40 for 15 yards (29-D.Hellams). 
-LSU,2Q,6,75,33,1,Normal,pass,,not successful,,0.50,0.50,0.33,,T.Finley,K.Boutte,,,,, 11-T.Finley incomplete. Intended for 1-K.Boutte. 
-LSU,2Q,6,76,34,2,Normal,run,-4,not successful,0.36,,0.48,0.35,J.Emery,,,C.Harris,,1,, 4-J.Emery to BAMA 44 for -4 yards (8-C.Harris). 
-LSU,2Q,6,77,35,3,Normal,pass,0,not successful,,0.48,0.47,0.34,,T.Finley,,C.Barmore,,1,," 11-T.Finley sacked at BAMA 47 for -3 yards, FUMBLES (58-C.Barmore). 11-T.Finley to BAMA 47 for no gain. "
-Alabama,2Q,6,79,28,1,Normal,run,5,successful,0.79,,0.86,0.56,N.Harris,,,T.Harris,D.Clark,0.5,0.5," 22-N.Harris to BAMA 16 for 5 yards (4-T.Harris,18-D.Clark). "
-Alabama,2Q,6,81,30,2,Normal,pass,13,successful,,0.92,0.86,0.54,,M.Jones,J.Metchie,J.Ward,J.Cox,0.5,0.5," 10-M.Jones complete to 8-J.Metchie. 8-J.Metchie to BAMA 21 for 13 yards (5-J.Ward,19-J.Cox). "
-Alabama,2Q,6,82,31,1,Normal,run,0,not successful,0.73,,0.83,0.56,N.Harris,,,J.Roy,M.Baskerville,0.5,0.5," 22-N.Harris to BAMA 21 for no gain (99-J.Roy,23-M.Baskerville). "
-Alabama,2Q,6,83,32,2,Normal,pass,,not successful,,0.85,0.81,0.54,,M.Jones,J.Metchie,,,,, 10-M.Jones incomplete. Intended for 8-J.Metchie. 
-Alabama,2Q,6,85,34,3,Normal,pass,48,explosive,,0.86,0.81,0.52,,M.Jones,D.Smith,D.Stingley,,1,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith to LSU 26 for 48 yards (24-D.Stingley). 
-Alabama,2Q,6,86,35,1,Normal,run,7,successful,0.75,,0.82,0.53,N.Harris,,,J.Cox,T.Harris,0.5,0.5," 22-N.Harris to LSU 19 for 7 yards (19-J.Cox,4-T.Harris). "
-Alabama,2Q,6,87,36,2,Red Zone,run,4,successful,0.76,,0.82,0.55,B.Robinson,,,N.Farrell,,1,, 4-B.Robinson to LSU 15 for 4 yards (92-N.Farrell). 
-Alabama,2Q,6,88,37,1,Red Zone,run,3,not successful,0.72,,0.80,0.56,N.Harris,,,J.Cox,,1,, 22-N.Harris to LSU 12 for 3 yards (19-J.Cox). 
-Alabama,2Q,6,89,38,2,Red Zone,run,0,not successful,0.68,,0.78,0.58,N.Harris,,,D.Clark,J.Stevens,0.5,0.5," 22-N.Harris to LSU 12 for no gain (18-D.Clark,7-J.Stevens). "
-Alabama,2Q,6,90,39,3,Red Zone,pass,,not successful,,0.80,0.76,0.56,,M.Jones,N.Harris,,,,, 10-M.Jones incomplete. Intended for 22-N.Harris. 
-LSU,2Q,7,93,37,1,Normal,run,5,successful,0.42,,0.49,0.36,T.Davis-Price,,,P.Mathis,J.Eboigbe,0.5,0.5," 3-T.Davis-Price to LSU 30 for 5 yards (48-P.Mathis,92-J.Eboigbe). "
-LSU,2Q,7,94,38,2,Normal,pass,,not successful,,0.45,0.47,0.35,,T.Finley,K.Boutte,,,,, 11-T.Finley incomplete. Intended for 1-K.Boutte. 
-LSU,2Q,7,95,39,3,Normal,pass,,not successful,,0.43,0.46,0.34,,T.Finley,A.Gilbert,,,,, 11-T.Finley incomplete. Intended for 2-A.Gilbert. 
-Alabama,2Q,7,97,41,1,Normal,run,9,successful,0.70,,0.76,0.57,N.Harris,,,M.Hampton,,1,, 22-N.Harris to LSU 49 for 9 yards (14-M.Hampton). 
-Alabama,2Q,7,98,42,2,Normal,run,15,explosive,0.71,,0.77,0.58,N.Harris,,,D.Stingley,D.Clark,0.5,0.5," 22-N.Harris to LSU 34 for 15 yards (24-D.Stingley,18-D.Clark). "
-Alabama,2Q,7,99,43,1,Normal,pass,14,successful,,0.81,0.78,0.57,,M.Jones,J.Metchie,M.Hampton,,1,, 10-M.Jones complete to 8-J.Metchie. 8-J.Metchie to LSU 20 for 14 yards (14-M.Hampton). 
-Alabama,2Q,7,100,44,1,Normal,pass,,not successful,,0.76,0.76,0.55,,M.Jones,M.Forristall,,,,, 10-M.Jones incomplete. Intended for 87-M.Forristall. 
-Alabama,2Q,7,101,45,2,Normal,pass,,not successful,,0.72,0.74,0.54,,M.Jones,N.Harris,,,,, 10-M.Jones incomplete. Intended for 22-N.Harris. 
-Alabama,2Q,7,102,46,3,Normal,pass,20,explosive,,0.74,0.74,0.53,,M.Jones,D.Smith,,,,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith runs 20 yards for a touchdown. 
-LSU,2Q,8,105,41,1,Normal,pass,,not successful,,0.42,0.45,0.33,,T.Finley,J.Emery,,,,, 11-T.Finley incomplete. Intended for 4-J.Emery. 
-LSU,2Q,8,106,42,2,Normal,run,9,successful,0.46,,0.46,0.35,J.Emery,,,P.Mathis,B.Young,0.5,0.5," 4-J.Emery to LSU 32 for 9 yards (48-P.Mathis,47-B.Young). "
-LSU,2Q,8,107,43,3,Normal,pass,,not successful,,0.40,0.45,0.34,,T.Finley,K.Boutte,,,,, 11-T.Finley incomplete. Intended for 1-K.Boutte. 
-LSU,3Q,9,110,45,1,Normal,pass,3,not successful,,0.38,0.44,0.33,,T.Finley,K.Moore,,,,, 11-T.Finley complete to 5-K.Moore. 5-K.Moore to LSU 35 for 3 yards. 
-LSU,3Q,9,111,46,2,Normal,pass,-5,not successful,,0.37,0.43,0.33,,T.Finley,,J.Jobe,,1,, 11-T.Finley sacked at LSU 30 for -5 yards (28-J.Jobe). 
-LSU,3Q,9,112,47,3,Normal,pass,,not successful,,0.36,0.42,0.32,,T.Finley,J.Jenkins,,,,, 11-T.Finley incomplete. Intended for 10-J.Jenkins. 
-Alabama,3Q,9,114,47,1,Normal,run,9,successful,0.73,,0.75,0.54,N.Harris,,,D.Clark,A.Anthony,0.5,0.5," 22-N.Harris to BAMA 34 for 9 yards (18-D.Clark,3-A.Anthony). "
-Alabama,3Q,9,115,48,2,Normal,run,3,successful,0.74,,0.76,0.55,N.Harris,,,N.Farrell,D.Clark,0.5,0.5," 22-N.Harris to BAMA 37 for 3 yards (92-N.Farrell,18-D.Clark). "
-Alabama,3Q,9,116,49,1,Normal,pass,,not successful,,0.70,0.74,0.53,,M.Jones,D.Smith,,,,, 10-M.Jones incomplete. Intended for 6-D.Smith. 
-Alabama,3Q,9,117,50,2,Normal,pass,3,not successful,,0.67,0.72,0.52,,M.Jones,J.Billingsley,M.Baskerville,,1,, 10-M.Jones complete to 19-J.Billingsley. 19-J.Billingsley to BAMA 40 for 3 yards (23-M.Baskerville). 
-Alabama,3Q,9,118,51,3,Normal,pass,,not successful,,0.64,0.71,0.51,,M.Jones,J.Metchie,,,,, 10-M.Jones incomplete. Intended for 8-J.Metchie. 
-LSU,3Q,10,120,49,1,Normal,run,4,not successful,0.43,,0.41,0.33,T.Davis-Price,,,D.Hellams,M.Moore,0.5,0.5," 3-T.Davis-Price to LSU 31 for 4 yards (29-D.Hellams,13-M.Moore). "
-LSU,3Q,10,121,50,2,Normal,pass,-9,not successful,,0.34,0.40,0.33,,T.Finley,,B.Young,W.Anderson,0.5,0.5," 11-T.Finley sacked at LSU 22 for -9 yards (47-B.Young,31-W.Anderson). "
-LSU,3Q,10,122,51,3,Normal,pass,,not successful,,0.33,0.39,0.32,,T.Finley,K.Boutte,,,,, 11-T.Finley incomplete. Intended for 1-K.Boutte. 
-Alabama,3Q,10,124,53,1,Normal,pass,12,successful,,0.65,0.71,0.50,,M.Jones,D.Smith,E.Ricks,,1,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith to LSU 47 for 12 yards (1-E.Ricks). 
-Alabama,3Q,10,125,54,1,Normal,run,4,not successful,0.71,,0.70,0.51,N.Harris,,,D.Clark,N.Farrell,0.5,0.5," 22-N.Harris to LSU 43 for 4 yards (18-D.Clark,92-N.Farrell). "
-Alabama,3Q,10,126,55,2,Normal,pass,10,successful,,0.67,0.71,0.50,,M.Jones,N.Harris,D.Stingley,,1,, 10-M.Jones complete to 22-N.Harris. 22-N.Harris to LSU 33 for 10 yards (24-D.Stingley). 
-Alabama,3Q,10,127,56,2,Normal,pass,,not successful,,0.64,0.69,0.49,,M.Jones,N.Harris,,,,, 10-M.Jones incomplete. Intended for 22-N.Harris. 
-Alabama,3Q,10,128,57,3,Normal,pass,,not successful,,0.62,0.68,0.48,,M.Jones,S.Bolden,J.Ward,,,," 10-M.Jones complete to 18-S.Bolden. 18-S.Bolden to LSU 24, FUMBLES (5-J.Ward). 24-D.Stingley to LSU 26 for 2 yards (22-N.Harris). "
-LSU,3Q,11,129,53,1,Normal,run,2,not successful,0.40,,0.38,0.33,T.Davis-Price,,,J.Burroughs,D.Dale,0.5,0.5," 3-T.Davis-Price to LSU 28 for 2 yards (98-J.Burroughs,94-D.Dale). "
-LSU,3Q,11,130,54,2,Normal,pass,7,successful,,0.35,0.40,0.33,,T.Finley,J.Emery,D.Moses,,1,, 11-T.Finley complete to 4-J.Emery. 4-J.Emery to LSU 35 for 7 yards (32-D.Moses). 
-LSU,3Q,11,131,55,3,Normal,run,2,successful,0.44,,0.41,0.34,T.Finley,,,D.Dale,D.Hellams,0.5,0.5," 11-T.Finley to LSU 37 for 2 yards (94-D.Dale,29-D.Hellams). "
-LSU,3Q,11,132,56,1,Normal,pass,,not successful,,0.34,0.40,0.33,,T.Finley,A.Gilbert,C.Allen,,,," 11-T.Finley complete to 2-A.Gilbert. 2-A.Gilbert to LSU 38, FUMBLES (4-C.Allen). 4-C.Allen to LSU 34 for no gain (2-A.Gilbert). "
-Alabama,3Q,11,133,58,1,Normal,pass,7,successful,,0.63,0.69,0.47,,M.Jones,J.Metchie,E.Ricks,,1,, 10-M.Jones complete to 8-J.Metchie. 8-J.Metchie to LSU 27 for 7 yards (1-E.Ricks). 
-Alabama,3Q,11,134,59,2,Normal,run,6,successful,0.72,,0.69,0.48,B.Robinson,,,D.Clark,J.Cox,0.5,0.5," 4-B.Robinson to LSU 21 for 6 yards (18-D.Clark,19-J.Cox). "
-Alabama,3Q,11,135,60,1,Normal,run,-2,not successful,0.69,,0.68,0.49,B.Robinson,,,A.Gaye,,1,, 4-B.Robinson to LSU 23 for -2 yards (11-A.Gaye). 
-Alabama,3Q,11,136,61,2,Normal,run,6,not successful,0.67,,0.67,0.50,B.Robinson,,,M.Baskerville,,1,, 4-B.Robinson to LSU 17 for 6 yards (23-M.Baskerville). 
-Alabama,3Q,11,137,62,3,Red Zone,pass,6,successful,,0.64,0.67,0.49,,M.Jones,B.Robinson,J.Cox,,1,, 10-M.Jones complete to 4-B.Robinson. 4-B.Robinson to LSU 11 for 6 yards (19-J.Cox). 
-Alabama,3Q,11,138,63,1,Red Zone,run,11,successful,0.68,,0.68,0.50,N.Harris,,,,,,, 22-N.Harris runs 11 yards for a touchdown. 
-LSU,3Q,12,141,57,1,Normal,run,4,not successful,0.41,,0.39,0.35,M.Johnson,,,W.Anderson,,1,, 14-M.Johnson scrambles to LSU 29 for 4 yards (31-W.Anderson). 
-LSU,3Q,12,142,58,2,Normal,pass,3,not successful,,0.33,0.38,0.34,,M.Johnson,A.Gilbert,J.Battle,,1,, 14-M.Johnson complete to 2-A.Gilbert. 2-A.Gilbert to LSU 32 for 3 yards (9-J.Battle). 
-LSU,3Q,12,143,59,3,Normal,pass,13,successful,,0.35,0.40,0.33,,M.Johnson,T.Palmer,M.Moore,,1,, 14-M.Johnson complete to 33-T.Palmer. 33-T.Palmer to LSU 45 for 13 yards (13-M.Moore). 
-LSU,3Q,12,144,60,1,Normal,pass,12,successful,,0.37,0.41,0.33,,M.Johnson,T.Bradford,M.Moore,,1,, 14-M.Johnson complete to 8-T.Bradford. 8-T.Bradford to BAMA 43 for 12 yards (13-M.Moore). 
-LSU,3Q,12,145,61,1,Normal,pass,3,not successful,,0.36,0.40,0.32,,M.Johnson,T.Palmer,M.Moore,,1,, 14-M.Johnson complete to 33-T.Palmer. 33-T.Palmer to BAMA 40 for 3 yards (13-M.Moore). 
-LSU,3Q,12,146,62,2,Normal,pass,8,successful,,0.38,0.41,0.31,,M.Johnson,K.Boutte,D.Hellams,,1,, 14-M.Johnson complete to 1-K.Boutte. 1-K.Boutte to BAMA 32 for 8 yards (29-D.Hellams). 
-LSU,3Q,12,147,63,1,Normal,pass,,not successful,,0.37,0.40,0.31,,M.Johnson,K.Boutte,,,,, 14-M.Johnson incomplete. Intended for 1-K.Boutte. 
-LSU,3Q,12,148,64,2,Normal,run,-2,not successful,0.39,,0.40,0.32,J.Emery,,,C.Allen,,1,, 4-J.Emery to BAMA 34 for -2 yards (4-C.Allen). 
-LSU,3Q,12,149,65,3,Normal,pass,,not successful,,0.36,0.39,0.32,,M.Johnson,J.Jenkins,,,,, 14-M.Johnson incomplete. Intended for 10-J.Jenkins. 
-Alabama,3Q,12,152,64,1,Normal,pass,,not successful,,0.62,0.67,0.49,,M.Jones,J.Metchie,,,,, 10-M.Jones incomplete. Intended for 8-J.Metchie. 
-Alabama,3Q,12,153,65,2,Normal,run,4,not successful,0.66,,0.66,0.50,B.Robinson,,,N.Farrell,J.Cox,0.5,0.5," 4-B.Robinson to LSU 41 for 4 yards (92-N.Farrell,19-J.Cox). "
-Alabama,4Q,13,154,66,3,Normal,run,11,successful,0.67,,0.66,0.51,B.Robinson,,,J.Cox,,1,, 4-B.Robinson to LSU 30 for 11 yards (19-J.Cox). 
-Alabama,4Q,13,155,67,1,Normal,run,9,successful,0.68,,0.67,0.52,B.Robinson,,,A.Gaye,,1,, 4-B.Robinson to LSU 21 for 9 yards (11-A.Gaye). 
-Alabama,4Q,13,156,68,2,Normal,run,3,successful,0.69,,0.67,0.52,B.Robinson,,,M.Baskerville,,1,, 4-B.Robinson to LSU 18 for 3 yards (23-M.Baskerville). 
-Alabama,4Q,13,157,69,1,Red Zone,run,11,successful,0.70,,0.68,0.53,B.Robinson,,,C.Lewis,,1,, 4-B.Robinson to LSU 7 for 11 yards (31-C.Lewis). 
-Alabama,4Q,13,159,71,1,Red Zone,run,3,not successful,0.68,,0.67,0.54,J.McClellan,,,M.Baskerville,,1,, 21-J.McClellan to LSU 9 for 3 yards (23-M.Baskerville). 
-Alabama,4Q,13,160,72,2,Red Zone,pass,-7,not successful,,0.60,0.66,0.53,,B.Young,,A.Gaye,,1,, 9-B.Young sacked at LSU 16 for -7 yards (11-A.Gaye). 
-Alabama,4Q,13,161,73,3,Red Zone,pass,,not successful,,0.58,0.65,0.52,,B.Young,D.Smith,,,,, 9-B.Young incomplete. Intended for 6-D.Smith. 
-LSU,4Q,13,164,67,1,Normal,pass,21,explosive,,0.38,0.40,0.31,,M.Johnson,J.Kirklin,J.Battle,,1,, 14-M.Johnson complete to 13-J.Kirklin. 13-J.Kirklin to LSU 46 for 21 yards (9-J.Battle). 
-LSU,4Q,13,165,68,1,Normal,pass,13,successful,,0.39,0.41,0.31,,M.Johnson,T.Carter,J.Battle,C.Harris,0.5,0.5," 14-M.Johnson complete to 44-T.Carter. 44-T.Carter to BAMA 41 for 13 yards (9-J.Battle,8-C.Harris). "
-LSU,4Q,13,166,69,1,Normal,pass,,not successful,,0.38,0.40,0.30,,M.Johnson,,,,,, 14-M.Johnson incomplete. 
-LSU,4Q,13,167,70,2,Normal,pass,9,successful,,0.40,0.41,0.30,,M.Johnson,K.Moore,,,,, 14-M.Johnson complete to 5-K.Moore. 5-K.Moore to BAMA 32 for 9 yards. 
-LSU,4Q,13,168,71,3,Normal,run,3,successful,0.42,,0.42,0.31,M.Johnson,,,J.Eboigbe,W.Anderson,0.5,0.5," 14-M.Johnson to BAMA 29 for 3 yards (92-J.Eboigbe,31-W.Anderson). "
-LSU,4Q,13,169,72,1,Normal,pass,,not successful,,0.39,0.42,0.30,,M.Johnson,T.Bradford,,,,, 14-M.Johnson incomplete. Intended for 8-T.Bradford. 
-LSU,4Q,13,170,73,2,Normal,pass,-6,not successful,,0.38,0.41,0.30,,M.Johnson,,C.Harris,W.Anderson,0.5,0.5," 14-M.Johnson sacked at BAMA 35 for -6 yards (8-C.Harris,31-W.Anderson). "
-LSU,4Q,13,171,74,3,Normal,pass,15,explosive,,0.39,0.42,0.29,,M.Johnson,K.Boutte,M.Moore,,1,, 14-M.Johnson complete to 1-K.Boutte. 1-K.Boutte to BAMA 20 for 15 yards (13-M.Moore). 
-LSU,4Q,13,172,75,4,Normal,run,1,successful,0.45,,0.43,0.30,M.Johnson,,,J.McMillon,C.Harris,0.5,0.5," 14-M.Johnson to BAMA 19 for 1 yard (40-J.McMillon,8-C.Harris). "
-LSU,4Q,13,173,76,1,Red Zone,pass,9,successful,,0.40,0.43,0.30,,M.Johnson,K.Boutte,J.Jobe,J.Battle,0.5,0.5," 14-M.Johnson complete to 1-K.Boutte. 1-K.Boutte to BAMA 10 for 9 yards (28-J.Jobe,9-J.Battle). "
-LSU,4Q,13,174,77,2,Red Zone,run,5,successful,0.48,,0.44,0.31,T.Bradford,,,C.Harris,J.McMillon,0.5,0.5," 8-T.Bradford to BAMA 5 for 5 yards (8-C.Harris,40-J.McMillon). "
-LSU,4Q,13,175,78,1,Red Zone,pass,4,successful,,0.42,0.45,0.30,,M.Johnson,A.Gilbert,J.McMillon,,1,, 14-M.Johnson complete to 2-A.Gilbert. 2-A.Gilbert to BAMA 1 for 4 yards (40-J.McMillon). 
-LSU,4Q,13,176,79,2,Red Zone,run,0,not successful,0.45,,0.44,0.31,M.Johnson,,,J.Burroughs,D.Hellams,0.5,0.5," 14-M.Johnson to BAMA 1 for no gain (98-J.Burroughs,29-D.Hellams). "
-LSU,4Q,13,177,80,3,Red Zone,pass,,not successful,,0.41,0.44,0.31,,M.Johnson,T.Carter,,,,, 14-M.Johnson incomplete. Intended for 44-T.Carter. 
-LSU,4Q,13,178,81,4,Red Zone,pass,,not successful,,0.40,0.43,0.31,,M.Johnson,A.Gilbert,,,,, 14-M.Johnson incomplete. Intended for 2-A.Gilbert. 
-Alabama,4Q,14,179,75,1,Normal,run,2,not successful,0.66,,0.64,0.53,J.McClellan,,,D.Clark,,1,, 21-J.McClellan to BAMA 3 for 2 yards (18-D.Clark). 
-Alabama,4Q,14,180,76,2,Normal,run,11,successful,0.67,,0.64,0.54,J.McClellan,,,D.Stingley,D.Clark,0.5,0.5," 21-J.McClellan to BAMA 14 for 11 yards (24-D.Stingley,18-D.Clark). "
-Alabama,4Q,14,181,77,1,Normal,run,25,explosive,0.68,,0.65,0.54,J.McClellan,,,M.Hampton,,1,, 21-J.McClellan to BAMA 39 for 25 yards (14-M.Hampton). 
-Alabama,4Q,14,182,78,1,Normal,run,9,successful,0.68,,0.65,0.55,R.Williams,,,E.Ricks,,1,, 23-R.Williams to BAMA 48 for 9 yards (1-E.Ricks). 
-Alabama,4Q,14,183,79,2,Normal,run,3,successful,0.69,,0.66,0.56,R.Williams,,,N.Farrell,J.Roy,0.5,0.5," 23-R.Williams to LSU 49 for 3 yards (92-N.Farrell,99-J.Roy). "
-Alabama,4Q,14,184,80,1,Normal,run,7,successful,0.70,,0.66,0.56,R.Williams,,,J.Cox,D.Clark,0.5,0.5," 23-R.Williams to LSU 42 for 7 yards (19-J.Cox,18-D.Clark). "
-Alabama,4Q,14,185,81,2,Normal,run,7,successful,0.71,,0.67,0.57,J.McClellan,,,A.Anthony,D.Clark,0.5,0.5," 21-J.McClellan to LSU 35 for 7 yards (3-A.Anthony,18-D.Clark). "
+Arkansas,1Q,1,2,1,1,Normal,pass,16,explosive,,1.00,1.00,0.00,,F.Franks,M.Woods,C.Harris,,1,, 13-F.Franks complete to 8-M.Woods. 8-M.Woods to ARK 41 for 16 yards (8-C.Harris). 
+Arkansas,1Q,1,3,2,1,Normal,run,0,not successful,0.00,,0.50,0.50,F.Franks,,,,,,, 13-F.Franks to ARK 41 for no gain. 
+Arkansas,1Q,1,4,3,2,Normal,run,-1,not successful,0.00,,0.33,0.67,T.Smith,,,,,,, 22-T.Smith to ARK 40 for -1 yard. 
+Arkansas,1Q,1,5,4,3,Normal,pass,-5,not successful,,0.50,0.25,0.50,,F.Franks,,C.Barmore,,1,, 13-F.Franks sacked at ARK 35 for -5 yards (58-C.Barmore). 
+Alabama,1Q,1,7,1,1,Normal,run,1,not successful,0.00,,0.00,1.00,N.Harris,,,I.Nichols,,1,, 22-N.Harris to ARK 46 for 1 yard (93-I.Nichols). 
+Alabama,1Q,1,8,2,2,Normal,pass,,not successful,,0.00,0.00,0.50,,M.Jones,N.Harris,,,,, 10-M.Jones incomplete. Intended for 22-N.Harris. 
+Alabama,1Q,1,9,3,3,Normal,pass,10,successful,,0.50,0.33,0.33,,M.Jones,S.Bolden,A.Spivey,,1,, 10-M.Jones complete to 18-S.Bolden. 18-S.Bolden to ARK 36 for 10 yards (3-A.Spivey). 
+Alabama,1Q,1,10,4,1,Normal,run,4,not successful,0.00,,0.25,0.50,N.Harris,,,,,,, 22-N.Harris to ARK 32 for 4 yards. 
+Alabama,1Q,1,11,5,2,Normal,run,4,not successful,0.00,,0.20,0.60,N.Harris,,,J.Catalon,,1,, 22-N.Harris to ARK 28 for 4 yards (1-J.Catalon). 
+Alabama,1Q,1,12,6,3,Normal,run,0,not successful,0.00,,0.17,0.67,N.Harris,,,J.Catalon,J.Foucha,0.5,0.5," 22-N.Harris to ARK 28 for no gain (1-J.Catalon,7-J.Foucha). "
+Arkansas,1Q,2,15,6,1,Normal,run,16,explosive,0.33,,0.40,0.60,T.Smith,,,P.Surtain,,1,, 22-T.Smith to ARK 41 for 16 yards (2-P.Surtain). 
+Arkansas,1Q,2,16,7,1,Normal,pass,,not successful,,0.33,0.33,0.50,,F.Franks,M.Woods,,,,, 13-F.Franks incomplete. Intended for 8-M.Woods. 
+Arkansas,1Q,2,17,8,2,Normal,pass,11,successful,,0.50,0.43,0.43,,F.Franks,T.Burks,D.Wright,,1,, 13-F.Franks complete to 16-T.Burks. 16-T.Burks to BAMA 48 for 11 yards (3-D.Wright). 
+Arkansas,1Q,2,18,9,1,Normal,run,4,not successful,0.25,,0.38,0.50,F.Franks,,,,,,, 13-F.Franks to BAMA 44 for 4 yards. 
+Arkansas,1Q,2,19,10,2,Normal,run,1,not successful,0.20,,0.33,0.56,F.Franks,,,M.Moore,,1,, 13-F.Franks to BAMA 43 for 1 yard (13-M.Moore). 
+Arkansas,1Q,2,20,11,3,Normal,pass,24,explosive,,0.60,0.40,0.50,,F.Franks,T.Smith,B.Young,,1,, 13-F.Franks complete to 22-T.Smith. 22-T.Smith to BAMA 19 for 24 yards (47-B.Young). 
+Arkansas,1Q,2,21,12,1,Red Zone,run,3,not successful,0.17,,0.36,0.55,T.Hammonds,,,B.Young,,1,, 41-T.Hammonds to BAMA 16 for 3 yards (47-B.Young). 
+Arkansas,1Q,2,22,13,2,Red Zone,no play,8,successful,,,0.42,,,,,,,,," 13-F.Franks incomplete. Intended for 7-T.Knox. Penalty on BAMA 31-W.Anderson, Holding, 8 yards, enforced at BAMA 16. No Play. "
+Arkansas,1Q,2,24,15,1,Red Zone,pass,5,not successful,,0.50,0.38,0.50,,F.Franks,T.Burks,J.Battle,D.Moses,0.5,0.5," 13-F.Franks complete to 16-T.Burks. 16-T.Burks to BAMA 8 for 5 yards (9-J.Battle,32-D.Moses). "
+Arkansas,1Q,2,25,16,2,Red Zone,pass,-1,not successful,,0.43,0.36,0.46,,F.Franks,,W.Anderson,,1,, 13-F.Franks sacked at BAMA 9 for -1 yard (31-W.Anderson). 
+Arkansas,1Q,2,26,17,3,Red Zone,pass,,not successful,,0.38,0.33,0.43,,F.Franks,T.Knox,,,,, 13-F.Franks incomplete. Intended for 7-T.Knox. 
+Alabama,1Q,2,29,8,1,Normal,pass,6,successful,,0.67,0.29,0.57,,M.Jones,M.Forristall,L.Bishop,,1,, 10-M.Jones complete to 87-M.Forristall. 87-M.Forristall to BAMA 41 for 6 yards (24-L.Bishop). 
+Alabama,1Q,2,30,9,2,Normal,run,0,not successful,0.00,,0.25,0.63,N.Harris,,,,,,, 22-N.Harris to BAMA 41 for no gain. 
+Alabama,1Q,2,31,10,3,Normal,pass,10,successful,,0.75,0.33,0.56,,M.Jones,D.Smith,M.Brown,,1,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith to ARK 49 for 10 yards (21-M.Brown). 
+Alabama,1Q,2,32,11,1,Normal,pass,,not successful,,0.60,0.30,0.50,,M.Jones,D.Smith,,,,, 10-M.Jones incomplete. Intended for 6-D.Smith. 
+Alabama,1Q,2,33,12,2,Normal,pass,2,not successful,,0.50,0.27,0.45,,M.Jones,N.Harris,M.Brown,B.Pool,0.5,0.5," 10-M.Jones complete to 22-N.Harris. 22-N.Harris to ARK 47 for 2 yards (21-M.Brown,10-B.Pool). "
+Alabama,1Q,2,35,14,3,Normal,run,-1,not successful,0.00,,0.25,0.50,N.Harris,,,,,,, 22-N.Harris to ARK 43 for -1 yard. 
+Alabama,1Q,2,36,15,4,Normal,pass,,not successful,,0.43,0.23,0.46,,M.Jones,B.Robinson,,,,, 10-M.Jones incomplete. Intended for 4-B.Robinson. 
+Arkansas,1Q,3,37,19,1,Normal,run,3,not successful,0.14,,0.31,0.47,T.Smith,,,J.Eboigbe,,1,, 22-T.Smith to ARK 46 for 3 yards (92-J.Eboigbe). 
+Arkansas,1Q,3,39,21,2,Normal,run,6,not successful,0.13,,0.29,0.50,T.Smith,,,D.Moses,C.Barmore,0.5,0.5," 22-T.Smith to ARK 47 for 6 yards (32-D.Moses,58-C.Barmore). "
+Arkansas,1Q,3,41,23,3,Normal,pass,,not successful,,0.33,0.28,0.47,,K.Jefferson,T.Burks,,,,, 1-K.Jefferson incomplete. Intended for 16-T.Burks. 
+Arkansas,1Q,3,42,24,4,Normal,punt,,not successful,,,0.26,,,,,,,,, 30-R.Bauer punts 42 yards from ARK 42. 6-D.Smith runs 84 yards for a touchdown. 
+Arkansas,1Q,4,45,25,1,Normal,run,2,not successful,0.11,,0.25,0.50,T.Smith,,,J.Moody,D.Moses,0.5,0.5," 22-T.Smith to ARK 27 for 2 yards (42-J.Moody,32-D.Moses). "
+Arkansas,1Q,4,46,26,2,Normal,pass,-4,not successful,,0.30,0.24,0.47,,F.Franks,,P.Mathis,B.Young,0.5,0.5," 13-F.Franks sacked at ARK 23 for -4 yards (48-P.Mathis,47-B.Young). "
+Arkansas,1Q,4,47,27,3,Normal,pass,-8,not successful,,0.27,0.23,0.45,,F.Franks,,W.Anderson,,1,, 13-F.Franks sacked at ARK 15 for -8 yards (31-W.Anderson). 
+Alabama,1Q,4,49,16,1,Normal,run,17,explosive,0.14,,0.29,0.50,N.Harris,,,J.Catalon,,1,, 22-N.Harris to ARK 32 for 17 yards (1-J.Catalon). 
+Alabama,1Q,4,50,17,1,Normal,pass,6,successful,,0.50,0.33,0.47,,M.Jones,D.Smith,B.Pool,,1,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith to ARK 26 for 6 yards (10-B.Pool). 
+Alabama,2Q,5,51,18,2,Normal,run,2,not successful,0.13,,0.31,0.50,N.Harris,,,J.Marshall,A.Parker,0.5,0.5," 22-N.Harris to ARK 24 for 2 yards (42-J.Marshall,28-A.Parker). "
+Alabama,2Q,5,52,19,3,Normal,run,5,successful,0.22,,0.35,0.53,N.Harris,,,I.Nichols,S.Blair,0.5,0.5," 22-N.Harris to ARK 19 for 5 yards (93-I.Nichols,15-S.Blair). "
+Alabama,2Q,5,53,20,1,Red Zone,pass,13,successful,,0.56,0.39,0.50,,M.Jones,M.Forristall,B.Pool,,1,, 10-M.Jones complete to 87-M.Forristall. 87-M.Forristall to ARK 6 for 13 yards (10-B.Pool). 
+Alabama,2Q,5,54,21,1,Red Zone,run,2,not successful,0.20,,0.37,0.53,N.Harris,,,L.Bishop,J.Catalon,0.5,0.5," 22-N.Harris to ARK 4 for 2 yards (24-L.Bishop,1-J.Catalon). "
+Alabama,2Q,5,55,22,2,Red Zone,run,3,successful,0.27,,0.40,0.55,B.Robinson,,,I.Nichols,M.Mason,0.5,0.5," 4-B.Robinson to ARK 1 for 3 yards (93-I.Nichols,18-M.Mason). "
+Alabama,2Q,5,56,23,3,Red Zone,run,1,successful,0.33,,0.43,0.57,N.Harris,,,,,,, 22-N.Harris runs 1 yard for a touchdown. 
+Arkansas,2Q,5,59,29,1,Normal,pass,,not successful,,0.25,0.22,0.43,,F.Franks,,C.Allen,,,," 13-F.Franks sacked at ARK 16 for -9 yards, FUMBLES (4-C.Allen). 94-D.Dale to ARK 5 for no gain (62-B.Latham). "
+Alabama,2Q,6,60,24,1,Red Zone,run,5,successful,0.38,,0.45,0.59,N.Harris,,,,,,, 22-N.Harris runs 5 yards for a touchdown. 
+Arkansas,2Q,6,63,30,1,Normal,run,-3,not successful,0.10,,0.21,0.45,T.Hammonds,,,J.Battle,M.Moore,0.5,0.5," 41-T.Hammonds to ARK 21 for -3 yards (9-J.Battle,13-M.Moore). "
+Arkansas,2Q,6,64,31,2,Normal,pass,,not successful,,0.23,0.20,0.43,,K.Jefferson,T.Burks,,,,, 1-K.Jefferson incomplete. Intended for 16-T.Burks. 
+Arkansas,2Q,6,65,32,3,Normal,run,9,not successful,0.09,,0.19,0.46,K.Jefferson,,,D.Wright,,1,, 1-K.Jefferson to ARK 30 for 9 yards (3-D.Wright). 
+Alabama,2Q,7,67,25,1,Normal,pass,22,explosive,,0.60,0.48,0.57,,M.Jones,J.Metchie,B.Pool,M.Mason,0.5,0.5," 10-M.Jones complete to 8-J.Metchie. 8-J.Metchie to BAMA 50 for 22 yards (10-B.Pool,18-M.Mason). "
+Alabama,2Q,7,68,26,1,Normal,run,1,not successful,0.36,,0.46,0.58,B.Robinson,,,I.Nichols,H.Henry,0.5,0.5," 4-B.Robinson to ARK 49 for 1 yard (93-I.Nichols,27-H.Henry). "
+Alabama,2Q,7,69,27,2,Normal,pass,7,successful,,0.64,0.48,0.56,,M.Jones,B.Robinson,L.Bishop,B.Pool,0.5,0.5," 10-M.Jones complete to 4-B.Robinson. 4-B.Robinson to ARK 42 for 7 yards (24-L.Bishop,10-B.Pool). "
+Alabama,2Q,7,70,28,3,Normal,pass,3,successful,,0.67,0.50,0.54,,M.Jones,B.Robinson,B.Pool,,1,, 10-M.Jones complete to 4-B.Robinson. 4-B.Robinson to ARK 39 for 3 yards (10-B.Pool). 
+Alabama,2Q,7,71,29,1,Normal,no play,5,successful,,,0.52,,,,,,,,," Penalty on ARK 50-E.Gregory, Offside, 5 yards, enforced at ARK 39. No Play. "
+Alabama,2Q,7,72,30,1,Normal,run,6,successful,0.40,,0.54,0.56,B.Robinson,,,H.Henry,J.Marshall,0.5,0.5," 4-B.Robinson to ARK 28 for 6 yards (27-H.Henry,42-J.Marshall). "
+Alabama,2Q,7,73,31,1,Normal,pass,6,successful,,0.69,0.55,0.54,,M.Jones,B.Robinson,N.Turner,,1,, 10-M.Jones complete to 4-B.Robinson. 4-B.Robinson to ARK 22 for 6 yards (3-N.Turner). 
+Alabama,2Q,7,74,32,2,Normal,pass,20,explosive,,0.71,0.57,0.52,,M.Jones,J.Metchie,J.Foucha,,1,, 10-M.Jones complete to 8-J.Metchie. 8-J.Metchie to ARK 2 for 20 yards (7-J.Foucha). 
+Alabama,2Q,7,75,33,1,Red Zone,pass,1,successful,,0.73,0.58,0.50,,M.Jones,J.Billingsley,,,,," 10-M.Jones incomplete. Intended for 19-J.Billingsley. Penalty on ARK 1-J.Catalon, Pass interference, 1 yards, enforced at ARK 2. No Play. "
+Alabama,2Q,7,76,34,1,Red Zone,run,1,successful,0.44,,0.59,0.52,B.Robinson,,,,,,, 4-B.Robinson runs 1 yard for a touchdown. 
+Arkansas,2Q,7,79,34,1,Normal,run,4,not successful,0.08,,0.19,0.48,K.Jefferson,,,D.Dale,,1,, 1-K.Jefferson to ARK 29 for 4 yards (94-D.Dale). 
+Arkansas,2Q,7,80,35,2,Normal,run,3,not successful,0.08,,0.18,0.50,K.Jefferson,,,J.Moody,,1,, 1-K.Jefferson to ARK 32 for 3 yards (42-J.Moody). 
+Arkansas,2Q,7,81,36,3,Normal,run,0,not successful,0.07,,0.17,0.52,T.Smith,,,P.Mathis,,1,, 22-T.Smith to ARK 32 for no gain (48-P.Mathis). 
+Alabama,2Q,8,83,35,1,Normal,pass,6,successful,,0.75,0.61,0.50,,M.Jones,D.Smith,M.Mason,,1,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith to BAMA 36 for 6 yards (18-M.Mason). 
+Alabama,2Q,8,84,36,2,Normal,run,2,not successful,0.41,,0.59,0.52,N.Harris,,,R.Winkel,,1,, 22-N.Harris to BAMA 38 for 2 yards (71-R.Winkel). 
+Alabama,2Q,8,85,37,3,Normal,run,4,successful,0.44,,0.60,0.53,N.Harris,,,H.Henry,,1,, 22-N.Harris to BAMA 42 for 4 yards (27-H.Henry). 
+Alabama,2Q,8,86,38,1,Normal,run,1,not successful,0.42,,0.58,0.54,B.Robinson,,,E.Gregory,,1,, 4-B.Robinson to BAMA 43 for 1 yard (50-E.Gregory). 
+Alabama,2Q,8,87,39,2,Normal,pass,7,successful,,0.76,0.59,0.53,,M.Jones,M.Forristall,B.Pool,,1,, 10-M.Jones complete to 87-M.Forristall. 87-M.Forristall to BAMA 50 for 7 yards (10-B.Pool). 
+Alabama,2Q,8,88,40,3,Normal,run,8,successful,0.45,,0.61,0.54,B.Robinson,,,N.Turner,M.Brown,0.5,0.5," 4-B.Robinson to ARK 42 for 8 yards (3-N.Turner,21-M.Brown). "
+Alabama,2Q,8,89,41,1,Normal,pass,,not successful,,0.72,0.59,0.53,,M.Jones,J.Metchie,,,,, 10-M.Jones incomplete. Intended for 8-J.Metchie. 
+Alabama,2Q,8,90,42,2,Normal,pass,4,not successful,,0.68,0.58,0.51,,M.Jones,J.Metchie,M.Brown,J.Foucha,0.5,0.5," 10-M.Jones complete to 8-J.Metchie. 8-J.Metchie to ARK 38 for 4 yards (21-M.Brown,7-J.Foucha). "
+Alabama,2Q,8,91,43,3,Normal,pass,9,successful,,0.70,0.59,0.50,,M.Jones,M.Forristall,B.Pool,S.Blair,0.5,0.5," 10-M.Jones complete to 87-M.Forristall. 87-M.Forristall to ARK 29 for 9 yards (10-B.Pool,15-S.Blair). "
+Alabama,2Q,8,92,44,1,Normal,pass,8,successful,,0.71,0.60,0.49,,M.Jones,M.Forristall,,,,, 10-M.Jones complete to 87-M.Forristall. 87-M.Forristall to ARK 21 for 8 yards. 
+Alabama,2Q,8,93,45,2,Normal,pass,17,explosive,,0.73,0.60,0.48,,M.Jones,S.Bolden,M.Mason,,1,, 10-M.Jones complete to 18-S.Bolden. 18-S.Bolden to ARK 4 for 17 yards (18-M.Mason). 
+Alabama,2Q,8,94,46,1,Red Zone,pass,,not successful,,0.70,0.59,0.47,,M.Jones,S.Bolden,,,,, 10-M.Jones incomplete. Intended for 18-S.Bolden. 
+Alabama,2Q,8,95,47,2,Red Zone,run,4,successful,0.48,,0.60,0.48,B.Robinson,,,,,,, 4-B.Robinson runs 4 yards for a touchdown. 
+Arkansas,2Q,8,99,39,1,Normal,run,5,not successful,0.07,,0.17,0.54,T.Smith,,,J.Moody,D.Wright,0.5,0.5," 22-T.Smith to ARK 25 for 5 yards (42-J.Moody,3-D.Wright). "
+Arkansas,2Q,8,100,40,2,Normal,run,0,not successful,0.06,,0.16,0.55,T.Smith,,,B.Young,,1,, 22-T.Smith to ARK 25 for no gain (47-B.Young). 
+Alabama,3Q,9,102,48,1,Normal,run,4,not successful,0.45,,0.59,0.49,B.Robinson,,,B.Pool,J.Marshall,0.5,0.5," 4-B.Robinson to BAMA 15 for 4 yards (10-B.Pool,42-J.Marshall). "
+Alabama,3Q,9,103,49,2,Normal,pass,9,successful,,0.71,0.60,0.48,,M.Jones,M.Forristall,M.Brown,B.Pool,0.5,0.5," 10-M.Jones complete to 87-M.Forristall. 87-M.Forristall to BAMA 24 for 9 yards (21-M.Brown,10-B.Pool). "
+Alabama,3Q,9,104,50,1,Normal,run,3,not successful,0.43,,0.58,0.49,B.Robinson,,,E.Gregory,,1,, 4-B.Robinson to BAMA 27 for 3 yards (50-E.Gregory). 
+Alabama,3Q,9,105,51,2,Normal,run,6,successful,0.46,,0.59,0.50,B.Robinson,,,M.Mason,J.Catalon,0.5,0.5," 4-B.Robinson to BAMA 33 for 6 yards (18-M.Mason,1-J.Catalon). "
+Alabama,3Q,9,106,52,3,Normal,run,2,successful,0.48,,0.60,0.51,M.Jones,,,J.Foucha,N.Turner,0.5,0.5," 10-M.Jones to BAMA 35 for 2 yards (7-J.Foucha,3-N.Turner). "
+Alabama,3Q,9,107,53,1,Normal,pass,10,successful,,0.72,0.61,0.50,,M.Jones,S.Bolden,N.Turner,,1,, 10-M.Jones complete to 18-S.Bolden. 18-S.Bolden to BAMA 45 for 10 yards (3-N.Turner). 
+Alabama,3Q,9,108,54,1,Normal,pass,0,not successful,,0.69,0.60,0.49,,M.Jones,J.Baker,J.Catalon,,1,, 10-M.Jones complete to 5-J.Baker. 5-J.Baker to BAMA 45 for no gain (1-J.Catalon). 
+Alabama,3Q,9,109,55,2,Normal,pass,3,not successful,,0.67,0.58,0.48,,M.Jones,J.Metchie,L.Bishop,,1,, 10-M.Jones complete to 8-J.Metchie. 8-J.Metchie to BAMA 48 for 3 yards (24-L.Bishop). 
+Alabama,3Q,9,110,56,3,Normal,pass,23,explosive,,0.68,0.59,0.47,,M.Jones,J.Metchie,L.Bishop,,1,, 10-M.Jones complete to 8-J.Metchie. 8-J.Metchie to ARK 29 for 23 yards (24-L.Bishop). 
+Alabama,3Q,9,111,57,1,Normal,pass,6,successful,,0.69,0.60,0.46,,M.Jones,B.Robinson,J.Foucha,N.Turner,0.5,0.5," 10-M.Jones complete to 4-B.Robinson. 4-B.Robinson to ARK 23 for 6 yards (7-J.Foucha,3-N.Turner). "
+Alabama,3Q,9,112,58,2,Normal,run,8,successful,0.50,,0.61,0.47,B.Robinson,,,J.Catalon,M.Mason,0.5,0.5," 4-B.Robinson to ARK 15 for 8 yards (1-J.Catalon,18-M.Mason). "
+Alabama,3Q,9,113,59,1,Red Zone,run,5,successful,0.52,,0.61,0.48,B.Robinson,,,J.Catalon,I.Nichols,0.5,0.5," 4-B.Robinson to ARK 10 for 5 yards (1-J.Catalon,93-I.Nichols). "
+Alabama,3Q,9,114,60,2,Red Zone,pass,1,not successful,,0.67,0.60,0.47,,M.Jones,J.McClellan,S.Blair,,1,, 10-M.Jones complete to 21-J.McClellan. 21-J.McClellan to ARK 9 for 1 yard (15-S.Blair). 
+Alabama,3Q,9,115,61,3,Red Zone,pass,,not successful,,0.65,0.59,0.47,,M.Jones,,J.McClellan,,,, 10-M.Jones incomplete. INTERCEPTED by 1-J.Catalon at ARK End Zone. 1-J.Catalon to ARK 43 for 43 yards (21-J.McClellan). 
+Alabama,3Q,9,116,62,3,Red Zone,no play,5,successful,,,0.60,,,,,J.McClellan,,1,," 10-M.Jones incomplete. INTERCEPTED by 1-J.Catalon at ARK End Zone. 1-J.Catalon to ARK 43 for 43 yards (21-J.McClellan). Penalty on ARK 27-H.Henry, Personal Foul, 5 yards, enforced at ARK 9. No Play. "
+Alabama,3Q,9,117,63,1,Red Zone,run,4,successful,0.54,,0.61,0.47,B.Robinson,,,,,,, 4-B.Robinson runs 4 yards for a touchdown. 
+Arkansas,3Q,9,120,41,1,Normal,pass,,not successful,,0.21,0.16,0.53,,K.Jefferson,B.Kern,,,,, 1-K.Jefferson incomplete. Intended for 87-B.Kern. 
+Arkansas,3Q,9,121,42,2,Normal,pass,,not successful,,0.20,0.15,0.52,,K.Jefferson,T.Smith,,,,," 1-K.Jefferson incomplete. Intended for 22-T.Smith. Penalty on ARK 62-B.Latham, Holding, declined. "
+Arkansas,3Q,9,122,43,3,Normal,pass,-7,not successful,,0.19,0.15,0.50,,K.Jefferson,,C.Barmore,,1,, 1-K.Jefferson sacked at ARK 18 for -7 yards (58-C.Barmore). 
+Alabama,3Q,10,124,64,1,Normal,run,2,not successful,0.52,,0.60,0.48,J.McClellan,,,M.Miller,,1,, 21-J.McClellan to BAMA 36 for 2 yards (90-M.Miller). 
+Alabama,3Q,10,125,65,2,Normal,run,2,not successful,0.50,,0.59,0.49,J.McClellan,,,A.Parker,B.Pool,0.5,0.5," 21-J.McClellan to BAMA 38 for 2 yards (28-A.Parker,10-B.Pool). "
+Alabama,3Q,10,126,66,3,Normal,pass,,not successful,,0.63,0.58,0.48,,B.Young,X.Williams,,,,, 9-B.Young incomplete. Intended for 3-X.Williams. 
+Arkansas,3Q,10,128,45,1,Normal,run,2,not successful,0.06,,0.14,0.52,K.Jefferson,,,,,,, 1-K.Jefferson to ARK 28 for 2 yards. 
+Arkansas,3Q,10,129,46,2,Normal,run,6,successful,0.11,,0.17,0.53,T.Smith,,,J.McMillon,,1,, 22-T.Smith to ARK 34 for 6 yards (40-J.McMillon). 
+Arkansas,3Q,10,130,47,3,Normal,run,3,successful,0.16,,0.19,0.54,T.Smith,,,B.Young,J.McMillon,0.5,0.5," 22-T.Smith to ARK 37 for 3 yards (47-B.Young,40-J.McMillon). "
+Arkansas,3Q,10,131,48,1,Normal,pass,,not successful,,0.18,0.18,0.53,,K.Jefferson,B.Kern,,,,, 1-K.Jefferson incomplete. Intended for 87-B.Kern. 
+Arkansas,3Q,10,132,49,2,Normal,run,1,not successful,0.15,,0.18,0.54,T.Smith,,,J.Burroughs,J.McMillon,0.5,0.5," 22-T.Smith to ARK 38 for 1 yard (98-J.Burroughs,40-J.McMillon). "
+Arkansas,3Q,10,133,50,3,Normal,pass,18,explosive,,0.22,0.20,0.53,,K.Jefferson,M.Woods,P.Surtain,,1,, 1-K.Jefferson complete to 8-M.Woods. 8-M.Woods to BAMA 44 for 18 yards (2-P.Surtain). 
+Arkansas,3Q,10,134,51,1,Normal,run,,not successful,0.14,,0.20,0.54,K.Jefferson,,,J.Moody,,,," 1-K.Jefferson to BAMA 44, FUMBLES (42-J.Moody). 47-B.Young to BAMA 44 for no gain. "
+Alabama,3Q,11,135,68,1,Normal,pass,15,explosive,,0.64,0.58,0.48,,B.Young,J.Baker,N.Turner,,1,, 9-B.Young complete to 5-J.Baker. 5-J.Baker to ARK 41 for 15 yards (3-N.Turner). 
+Alabama,3Q,11,136,69,1,Normal,run,5,successful,0.52,,0.59,0.48,J.McClellan,,,M.Mason,J.Catalon,0.5,0.5," 21-J.McClellan to ARK 36 for 5 yards (18-M.Mason,1-J.Catalon). "
+Alabama,3Q,11,137,70,2,Normal,pass,6,successful,,0.65,0.60,0.48,,B.Young,S.Bolden,N.Turner,,1,, 9-B.Young complete to 18-S.Bolden. 18-S.Bolden to ARK 30 for 6 yards (3-N.Turner). 
+Alabama,3Q,11,138,71,1,Normal,run,5,successful,0.53,,0.60,0.48,R.Williams,,,B.Pool,I.Nichols,0.5,0.5," 23-R.Williams to ARK 25 for 5 yards (10-B.Pool,93-I.Nichols). "
+Alabama,4Q,12,139,72,2,Normal,run,7,successful,0.55,,0.61,0.49,R.Williams,,,L.Bishop,A.Parker,0.5,0.5," 23-R.Williams to ARK 18 for 7 yards (24-L.Bishop,28-A.Parker). "
+Alabama,4Q,12,140,73,1,Red Zone,run,7,successful,0.56,,0.61,0.50,R.Williams,,,J.Foucha,J.Catalon,0.5,0.5," 23-R.Williams to ARK 11 for 7 yards (7-J.Foucha,1-J.Catalon). "
+Alabama,4Q,12,141,74,2,Red Zone,run,,not successful,0.54,,0.61,0.51,R.Williams,,,J.Marshall,,,," 23-R.Williams to ARK 11, FUMBLES (42-J.Marshall). 7-J.Foucha to ARK 11 for no gain. "
+Arkansas,4Q,11,142,52,1,Normal,run,12,successful,0.18,,0.21,0.55,T.Smith,,,B.Branch,,1,, 22-T.Smith to ARK 23 for 12 yards (14-B.Branch). 
+Arkansas,4Q,11,143,53,1,Normal,run,7,successful,0.22,,0.23,0.56,F.Franks,,,,,,, 13-F.Franks to ARK 30 for 7 yards. 
+Arkansas,4Q,11,144,54,2,Normal,run,4,successful,0.25,,0.25,0.57,T.Smith,,,B.Young,B.Davis,0.5,0.5," 22-T.Smith to ARK 34 for 4 yards (47-B.Young,1-B.Davis). "
+Arkansas,4Q,11,145,55,1,Normal,run,3,not successful,0.24,,0.24,0.58,T.Smith,,,D.Hellams,,1,, 22-T.Smith to ARK 37 for 3 yards (29-D.Hellams). 
+Arkansas,4Q,11,146,56,2,Normal,run,5,successful,0.27,,0.26,0.59,T.Smith,,,J.Moody,,1,, 22-T.Smith to ARK 42 for 5 yards (42-J.Moody). 
+Arkansas,4Q,11,147,57,3,Normal,pass,-7,not successful,,0.21,0.26,0.58,,F.Franks,,S.Lee,,1,, 13-F.Franks sacked at ARK 35 for -7 yards (35-S.Lee). 
+Arkansas,4Q,11,148,58,4,Normal,no play,15,successful,,,0.27,,,,,,,,," 30-R.Bauer punts 38 yards from ARK 35 to BAMA 27, fair catch by 18-S.Bolden. Penalty on BAMA 10-A.Kaho, Roughing the kicker, 15 yards, enforced at ARK 35. No Play. "
+Arkansas,4Q,11,149,59,1,Normal,pass,6,successful,,0.25,0.29,0.57,,F.Franks,T.Knox,J.Armour-Davis,B.Branch,0.5,0.5," 13-F.Franks complete to 7-T.Knox. 7-T.Knox to BAMA 44 for 6 yards (5-J.Armour-Davis,14-B.Branch). "
+Arkansas,4Q,11,150,60,2,Normal,run,2,not successful,0.26,,0.28,0.57,T.Smith,,,T.Smith,,1,, 22-T.Smith to BAMA 42 for 2 yards (50-T.Smith). 
+Arkansas,4Q,11,151,61,3,Normal,run,,not successful,0.25,,0.27,0.58,T.Smith,,,J.Jobe,,,," 22-T.Smith to BAMA 39, FUMBLES (28-J.Jobe). 42-J.Moody to BAMA 39 for no gain. "
+Alabama,4Q,13,152,75,1,Normal,run,5,successful,0.56,,0.61,0.51,J.McClellan,,,B.Pool,A.Parker,0.5,0.5," 21-J.McClellan to BAMA 44 for 5 yards (10-B.Pool,28-A.Parker). "
+Alabama,4Q,13,153,76,2,Normal,run,1,not successful,0.54,,0.60,0.52,J.McClellan,,,M.Mason,,1,, 21-J.McClellan to BAMA 45 for 1 yard (18-M.Mason). 
+Alabama,4Q,13,154,77,3,Normal,pass,-2,not successful,,0.63,0.59,0.51,,B.Young,T.Jones-Bell,L.Bishop,,1,, 9-B.Young complete to 14-T.Jones-Bell. 14-T.Jones-Bell to BAMA 43 for -2 yards (24-L.Bishop). 
+Arkansas,4Q,12,156,62,1,Normal,run,11,successful,0.28,,0.29,0.59,F.Franks,,,,,,, 13-F.Franks to ARK 44 for 11 yards. 
+Arkansas,4Q,12,157,63,1,Normal,pass,8,successful,,0.29,0.30,0.58,,F.Franks,B.Kern,D.Hellams,,1,, 13-F.Franks complete to 87-B.Kern. 87-B.Kern to BAMA 48 for 8 yards (29-D.Hellams). 
+Arkansas,4Q,12,158,64,2,Normal,run,0,not successful,0.27,,0.30,0.59,T.Smith,,,J.Moody,,1,, 22-T.Smith to BAMA 48 for no gain (42-J.Moody). 
+Arkansas,4Q,12,159,65,3,Normal,run,5,successful,0.29,,0.31,0.60,F.Franks,,,,,,, 13-F.Franks to BAMA 43 for 5 yards. 
+Arkansas,4Q,12,160,66,1,Normal,pass,9,successful,,0.32,0.32,0.58,,F.Franks,M.Woods,D.Hellams,R.Williams,0.5,0.5," 13-F.Franks complete to 8-M.Woods. 8-M.Woods to BAMA 34 for 9 yards (29-D.Hellams,22-R.Williams). "
+Arkansas,4Q,12,161,67,2,Normal,run,-1,not successful,0.28,,0.32,0.59,T.Smith,,,B.Young,T.Smith,0.5,0.5," 22-T.Smith to BAMA 35 for -1 yard (47-B.Young,50-T.Smith). "
+Arkansas,4Q,12,162,68,3,Normal,pass,,not successful,,0.30,0.31,0.58,,T.Burks,,,,,," 16-T.Burks incomplete. INTERCEPTED by 14-B.Branch at BAMA End Zone. 14-B.Branch, touchback. "
+Alabama,4Q,14,163,79,1,Normal,run,80,explosive,0.55,,0.60,0.52,J.McClellan,,,,,,, 21-J.McClellan runs 80 yards for a touchdown. 
+Arkansas,4Q,13,166,69,1,Normal,run,1,not successful,0.27,,0.31,0.59,T.Hammonds,,,J.Burroughs,,1,, 41-T.Hammonds to ARK 26 for 1 yard (98-J.Burroughs). 
+Arkansas,4Q,13,167,70,2,Normal,run,7,successful,0.29,,0.32,0.60,T.Hammonds,,,D.Sanders,,1,, 41-T.Hammonds to ARK 33 for 7 yards (16-D.Sanders). 
+Arkansas,4Q,13,168,71,3,Normal,pass,11,successful,,0.33,0.33,0.59,,F.Franks,B.Kern,M.Banks,B.Branch,0.5,0.5," 13-F.Franks complete to 87-B.Kern. 87-B.Kern to ARK 44 for 11 yards (26-M.Banks,14-B.Branch). "
+Arkansas,4Q,13,169,72,1,Normal,pass,-8,not successful,,0.32,0.32,0.58,,F.Franks,,T.Smith,,1,, 13-F.Franks sacked at ARK 36 for -8 yards (50-T.Smith). 
+Arkansas,4Q,13,170,73,2,Normal,run,17,explosive,0.31,,0.33,0.58,T.Hammonds,,,B.Branch,,1,, 41-T.Hammonds to BAMA 47 for 17 yards (14-B.Branch). 
