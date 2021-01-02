@@ -1,0 +1,160 @@
+team,quarter,drive_team,play_count,play_count_team,down,red_zone,play_type,yards_total,play_result,run_sr,pass_sr,total_sr,run_rate,runner,passer,receiver,tackler_one,tackler_two,tackler_one_credit,tackler_two_credit,play_description
+Alabama,1Q,1,2,1,1,Normal,no play,5,successful,,,1.00,,,,,,,,," Penalty on FLA 27-D.Pierce, Offside, 5 yards, enforced at BAMA 25. No Play. "
+Alabama,1Q,1,3,2,1,Normal,run,2,not successful,0.00,,0.50,1.00,N.Harris,,,M.Diabate,V.Miller,0.5,0.5," 22-N.Harris to BAMA 32 for 2 yards (11-M.Diabate,51-V.Miller). "
+Alabama,1Q,1,4,3,2,Normal,pass,19,explosive,,1.00,0.67,0.50,,M.Jones,D.Smith,D.Stiner,,1,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith to FLA 49 for 19 yards (13-D.Stiner). 
+Alabama,1Q,1,5,4,1,Normal,run,7,successful,0.50,,0.75,0.67,N.Harris,,,M.Diabate,K.Bogle,0.5,0.5," 22-N.Harris to FLA 42 for 7 yards (11-M.Diabate,8-K.Bogle). "
+Alabama,1Q,1,6,5,2,Normal,run,13,successful,0.67,,0.80,0.75,N.Harris,,,V.Miller,,1,, 22-N.Harris to FLA 29 for 13 yards (51-V.Miller). 
+Alabama,1Q,1,7,6,1,Normal,pass,,not successful,,0.50,0.67,0.60,,M.Jones,,,,,, 10-M.Jones incomplete. 
+Alabama,1Q,1,8,7,2,Normal,pass,,not successful,,0.33,0.57,0.50,,M.Jones,S.Bolden,,,,, 10-M.Jones incomplete. Intended for 18-S.Bolden. 
+Alabama,1Q,1,10,9,3,Normal,pass,4,not successful,,0.25,0.50,0.43,,M.Jones,D.Smith,K.Elam,,1,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith to FLA 20 for 4 yards (5-K.Elam). 
+Alabama,1Q,1,11,10,3,Normal,pass,5,successful,,0.40,0.56,0.38,,M.Jones,D.Smith,K.Elam,,1,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith to FLA 19 for 5 yards (5-K.Elam). 
+Alabama,1Q,1,12,11,1,Red Zone,pass,11,successful,,0.50,0.60,0.33,,M.Jones,M.Forristall,V.Miller,,1,, 10-M.Jones complete to 87-M.Forristall. 87-M.Forristall to FLA 8 for 11 yards (51-V.Miller). 
+Alabama,1Q,1,13,12,1,Red Zone,run,8,successful,0.75,,0.64,0.40,N.Harris,,,,,,, 22-N.Harris runs 8 yards for a touchdown. 
+Florida,1Q,1,16,1,1,Normal,pass,4,not successful,,0.00,0.00,0.00,,K.Trask,M.Davis,,,,, 11-K.Trask complete to 20-M.Davis. 20-M.Davis to FLA 31 for 4 yards. 
+Florida,1Q,1,17,2,2,Normal,run,0,not successful,0.00,,0.00,0.50,K.Trask,,,,,,," 11-K.Trask to FLA 31, FUMBLES. 11-K.Trask to FLA 31 for no gain. "
+Florida,1Q,1,18,3,3,Normal,pass,15,explosive,,0.50,0.33,0.33,,K.Trask,K.Pitts,D.Wright,,1,, 11-K.Trask complete to 84-K.Pitts. 84-K.Pitts to FLA 46 for 15 yards (3-D.Wright). 
+Florida,1Q,1,19,4,1,Normal,penalty,15,successful,,,0.50,,,,,W.Anderson,,1,," 11-K.Trask scrambles to FLA 49 for 3 yards (31-W.Anderson). Penalty on BAMA 8-C.Harris, Personal Foul, 15 yards, enforced at FLA 49. "
+Florida,1Q,1,20,5,1,Normal,run,3,not successful,0.00,,0.40,0.50,K.Trask,,,W.Anderson,,1,, 11-K.Trask to FLA 49 for 3 yards (31-W.Anderson). 
+Florida,1Q,1,21,6,2,Normal,pass,,not successful,,0.33,0.33,0.40,,K.Trask,K.Pitts,,,,, 11-K.Trask incomplete. Intended for 84-K.Pitts. 
+Florida,1Q,1,22,7,3,Normal,pass,51,explosive,,0.50,0.43,0.33,,K.Trask,K.Toney,,,,, 11-K.Trask complete to 1-K.Toney. 1-K.Toney runs 51 yards for a touchdown. 
+Alabama,1Q,2,25,13,1,Normal,run,3,not successful,0.60,,0.58,0.45,N.Harris,,,J.Houston,,1,, 22-N.Harris to BAMA 12 for 3 yards (41-J.Houston). 
+Alabama,1Q,2,26,14,2,Normal,pass,24,explosive,,0.57,0.62,0.42,,M.Jones,D.Smith,D.Stiner,,1,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith to BAMA 36 for 24 yards (13-D.Stiner). 
+Alabama,1Q,2,27,15,1,Normal,pass,15,explosive,,0.63,0.64,0.38,,M.Jones,J.Billingsley,T.Dean,,1,, 10-M.Jones complete to 19-J.Billingsley. 19-J.Billingsley to FLA 49 for 15 yards (0-T.Dean). 
+Alabama,1Q,2,28,16,1,Normal,run,9,successful,0.67,,0.67,0.43,N.Harris,,,A.Burney,D.Stiner,0.5,0.5," 22-N.Harris to FLA 40 for 9 yards (30-A.Burney,13-D.Stiner). "
+Alabama,1Q,2,29,17,2,Normal,run,10,successful,0.71,,0.69,0.47,N.Harris,,,A.Burney,,1,, 22-N.Harris to FLA 30 for 10 yards (30-A.Burney). 
+Alabama,1Q,2,30,18,1,Normal,run,4,not successful,0.63,,0.65,0.50,N.Harris,,,J.Houston,,1,, 22-N.Harris to FLA 26 for 4 yards (41-J.Houston). 
+Alabama,1Q,2,31,19,2,Normal,pass,4,not successful,,0.56,0.61,0.47,,M.Jones,D.Smith,M.Wilson,,1,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith to FLA 22 for 4 yards (3-M.Wilson). 
+Alabama,1Q,2,32,20,3,Normal,pass,,not successful,,0.50,0.58,0.44,,M.Jones,,J.Metchie,,,," 10-M.Jones incomplete. INTERCEPTED by 0-T.Dean at FLA 12. 0-T.Dean to FLA 31, FUMBLES (8-J.Metchie). 6-D.Smith to FLA 31 for no gain. "
+Alabama,1Q,2,33,21,1,Normal,pass,31,explosive,,0.55,0.60,0.42,,M.Jones,D.Smith,,,,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith runs 31 yards for a touchdown. 
+Florida,1Q,2,36,8,1,Normal,pass,11,successful,,0.60,0.50,0.29,,K.Trask,K.Toney,J.Battle,J.Jobe,0.5,0.5," 11-K.Trask complete to 1-K.Toney. 1-K.Toney to FLA 32 for 11 yards (9-J.Battle,28-J.Jobe). "
+Florida,1Q,2,37,9,1,Normal,run,13,successful,0.33,,0.56,0.38,K.Toney,,,D.Wright,D.Moses,0.5,0.5," 1-K.Toney to FLA 45 for 13 yards (3-D.Wright,32-D.Moses). "
+Florida,1Q,2,38,10,1,Normal,pass,,not successful,,0.50,0.50,0.33,,K.Trask,J.Shorter,,,,, 11-K.Trask incomplete. Intended for 89-J.Shorter. 
+Florida,1Q,2,39,11,2,Normal,pass,10,successful,,0.57,0.55,0.30,,K.Trask,K.Pitts,P.Surtain,,1,, 11-K.Trask complete to 84-K.Pitts. 84-K.Pitts to BAMA 45 for 10 yards (2-P.Surtain). 
+Florida,1Q,2,40,12,1,Normal,pass,,not successful,,0.50,0.50,0.27,,K.Trask,T.Grimes,,,,, 11-K.Trask incomplete. Intended for 8-T.Grimes. 
+Florida,1Q,2,41,13,2,Normal,run,17,explosive,0.50,,0.54,0.33,E.Jones,,,C.Allen,,1,, 5-E.Jones to BAMA 28 for 17 yards (4-C.Allen). 
+Florida,1Q,2,42,14,1,Normal,pass,,not successful,,0.44,0.50,0.31,,K.Trask,K.Pitts,,,,, 11-K.Trask incomplete. Intended for 84-K.Pitts. 
+Florida,1Q,2,43,15,2,Normal,run,1,not successful,0.40,,0.47,0.36,N.Wright,,,C.Allen,C.Harris,0.5,0.5," 6-N.Wright to BAMA 27 for 1 yard (4-C.Allen,8-C.Harris). "
+Florida,1Q,2,44,16,3,Normal,run,4,not successful,0.33,,0.44,0.40,K.Trask,,,C.Barmore,,1,, 11-K.Trask to BAMA 23 for 4 yards (58-C.Barmore). 
+Alabama,1Q,3,47,22,1,Normal,run,4,not successful,0.56,,0.57,0.45,N.Harris,,,T.Slaton,,1,, 22-N.Harris to BAMA 31 for 4 yards (56-T.Slaton). 
+Alabama,1Q,3,48,23,2,Normal,run,3,not successful,0.50,,0.55,0.48,N.Harris,,,D.Stiner,,1,, 22-N.Harris to BAMA 34 for 3 yards (13-D.Stiner). 
+Alabama,1Q,3,49,24,3,Normal,no play,15,successful,,,0.57,,,,,,,,," 10-M.Jones incomplete. Intended for 8-J.Metchie. Penalty on FLA 17-Z.Carter, Personal Foul, 15 yards, enforced at BAMA 34. No Play. "
+Alabama,1Q,3,50,25,1,Normal,run,8,successful,0.55,,0.58,0.50,N.Harris,,,D.Stiner,B.Stewart,0.5,0.5," 22-N.Harris to FLA 43 for 8 yards (13-D.Stiner,2-B.Stewart). "
+Alabama,1Q,3,51,26,2,Normal,pass,-5,not successful,,0.50,0.56,0.48,,M.Jones,,A.Chatfield,,1,, 10-M.Jones sacked at FLA 48 for -5 yards (10-A.Chatfield). 
+Alabama,2Q,4,52,27,3,Normal,pass,15,explosive,,0.54,0.58,0.46,,M.Jones,S.Bolden,B.Stewart,,1,, 10-M.Jones complete to 18-S.Bolden. 18-S.Bolden to FLA 33 for 15 yards (2-B.Stewart). 
+Alabama,2Q,4,53,28,1,Normal,pass,,not successful,,0.50,0.56,0.44,,M.Jones,J.Metchie,,,,, 10-M.Jones incomplete. Intended for 8-J.Metchie. 
+Alabama,2Q,4,54,29,2,Normal,run,4,not successful,0.50,,0.54,0.46,N.Harris,,,K.Bogle,,1,, 22-N.Harris to FLA 29 for 4 yards (8-K.Bogle). 
+Alabama,2Q,4,55,30,3,Normal,pass,6,successful,,0.53,0.55,0.44,,M.Jones,N.Harris,V.Miller,M.Wilson,0.5,0.5," 10-M.Jones complete to 22-N.Harris. 22-N.Harris to FLA 23 for 6 yards (51-V.Miller,3-M.Wilson). "
+Alabama,2Q,4,56,31,1,Normal,pass,12,successful,,0.56,0.57,0.43,,M.Jones,X.Williams,M.Wilson,,1,, 10-M.Jones complete to 3-X.Williams. 3-X.Williams to FLA 11 for 12 yards (3-M.Wilson). 
+Alabama,2Q,4,57,32,1,Red Zone,run,5,successful,0.54,,0.58,0.45,N.Harris,,,B.Cox,,1,, 22-N.Harris to FLA 6 for 5 yards (1-B.Cox). 
+Alabama,2Q,4,58,33,2,Red Zone,run,-1,not successful,0.50,,0.56,0.47,N.Harris,,,M.Diabate,,1,, 22-N.Harris to FLA 7 for -1 yard (11-M.Diabate). 
+Alabama,2Q,4,59,34,3,Red Zone,pass,7,successful,,0.59,0.58,0.45,,M.Jones,N.Harris,,,,, 10-M.Jones complete to 22-N.Harris. 22-N.Harris runs 7 yards for a touchdown. 
+Florida,2Q,3,62,18,1,Normal,pass,,not successful,,0.40,0.41,0.38,,K.Trask,M.Davis,,,,, 11-K.Trask incomplete. Intended for 20-M.Davis. 
+Florida,2Q,3,63,19,2,Normal,pass,11,successful,,0.45,0.44,0.35,,K.Trask,M.Davis,J.Eboigbe,,1,, 11-K.Trask complete to 20-M.Davis. 20-M.Davis to FLA 43 for 11 yards (92-J.Eboigbe). 
+Florida,2Q,3,64,20,1,Normal,pass,-2,not successful,,0.42,0.42,0.33,,K.Trask,,C.Allen,,1,, 11-K.Trask sacked at FLA 41 for -2 yards (4-C.Allen). 
+Florida,2Q,3,65,21,2,Normal,run,1,not successful,0.29,,0.40,0.37,D.Pierce,,,D.Wright,W.Anderson,0.5,0.5," 27-D.Pierce to FLA 42 for 1 yard (3-D.Wright,31-W.Anderson). "
+Florida,2Q,3,66,22,3,Normal,pass,3,not successful,,0.38,0.38,0.35,,K.Trask,K.Toney,B.Branch,M.Moore,0.5,0.5," 11-K.Trask complete to 1-K.Toney. 1-K.Toney to FLA 45 for 3 yards (14-B.Branch,13-M.Moore). "
+Alabama,2Q,5,68,35,1,Normal,pass,8,successful,,0.61,0.59,0.44,,M.Jones,J.Metchie,J.Houston,,1,, 10-M.Jones complete to 8-J.Metchie. 8-J.Metchie to BAMA 38 for 8 yards (41-J.Houston). 
+Alabama,2Q,5,69,36,2,Normal,run,3,successful,0.53,,0.60,0.45,B.Robinson,,,B.Cox,D.Stiner,0.5,0.5," 4-B.Robinson to BAMA 41 for 3 yards (1-B.Cox,13-D.Stiner). "
+Alabama,2Q,5,70,37,1,Normal,pass,-4,not successful,,0.58,0.58,0.44,,M.Jones,,Z.Carter,,1,, 10-M.Jones sacked at BAMA 37 for -4 yards (17-Z.Carter). 
+Alabama,2Q,5,71,38,2,Normal,run,6,not successful,0.50,,0.57,0.46,B.Robinson,,,A.Burney,,1,, 4-B.Robinson to BAMA 43 for 6 yards (30-A.Burney). 
+Alabama,2Q,5,73,40,3,Normal,run,8,successful,0.53,,0.58,0.47,B.Robinson,,,A.Burney,,1,, 4-B.Robinson to FLA 44 for 8 yards (30-A.Burney). 
+Alabama,2Q,5,74,41,1,Normal,pass,5,successful,,0.60,0.59,0.46,,M.Jones,D.Smith,K.Elam,D.Stiner,0.5,0.5," 10-M.Jones complete to 6-D.Smith. 6-D.Smith to FLA 39 for 5 yards (5-K.Elam,13-D.Stiner). "
+Alabama,2Q,5,75,42,2,Normal,pass,,not successful,,0.57,0.58,0.45,,M.Jones,D.Smith,,,,, 10-M.Jones incomplete. Intended for 6-D.Smith. 
+Alabama,2Q,5,76,43,3,Normal,pass,4,not successful,,0.55,0.56,0.44,,M.Jones,D.Smith,A.Burney,,1,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith to FLA 35 for 4 yards (30-A.Burney). 
+Alabama,2Q,5,77,44,4,Normal,run,1,successful,0.56,,0.57,0.45,M.Forristall,,,J.Houston,,1,, 87-M.Forristall to FLA 34 for 1 yard (41-J.Houston). 
+Alabama,2Q,5,78,45,1,Normal,run,5,successful,0.58,,0.58,0.46,N.Harris,,,J.Houston,B.Stewart,0.5,0.5," 22-N.Harris to FLA 29 for 5 yards (41-J.Houston,2-B.Stewart). "
+Alabama,2Q,5,79,46,2,Normal,run,4,successful,0.60,,0.59,0.48,N.Harris,,,G.Dexter,,1,, 22-N.Harris to FLA 25 for 4 yards (9-G.Dexter). 
+Alabama,2Q,5,80,47,3,Normal,run,2,successful,0.62,,0.60,0.49,B.Robinson,,,J.Houston,G.Dexter,0.5,0.5," 4-B.Robinson to FLA 23 for 2 yards (41-J.Houston,9-G.Dexter). "
+Alabama,2Q,5,81,48,1,Normal,pass,23,explosive,,0.57,0.61,0.48,,M.Jones,N.Harris,,,,, 10-M.Jones complete to 22-N.Harris. 22-N.Harris runs 23 yards for a touchdown. 
+Florida,2Q,4,84,24,1,Normal,pass,39,explosive,,0.43,0.41,0.33,,K.Trask,K.Toney,J.Battle,,1,, 11-K.Trask complete to 1-K.Toney. 1-K.Toney to BAMA 36 for 39 yards (9-J.Battle). 
+Florida,2Q,4,85,25,1,Normal,pass,8,successful,,0.47,0.43,0.32,,K.Trask,K.Toney,D.Moses,,1,, 11-K.Trask complete to 1-K.Toney. 1-K.Toney to BAMA 28 for 8 yards (32-D.Moses). 
+Florida,2Q,4,86,26,2,Normal,pass,27,explosive,,0.50,0.46,0.30,,K.Trask,K.Toney,P.Surtain,,1,, 11-K.Trask complete to 1-K.Toney. 1-K.Toney to BAMA 1 for 27 yards (2-P.Surtain). 
+Florida,2Q,4,87,27,1,Red Zone,run,1,successful,0.38,,0.48,0.33,K.Trask,,,,,,, 11-K.Trask runs 1 yard for a touchdown. 
+Alabama,2Q,6,90,49,1,Normal,pass,,not successful,,0.54,0.60,0.47,,M.Jones,D.Smith,,,,, 10-M.Jones incomplete. Intended for 6-D.Smith. 
+Alabama,2Q,6,91,50,2,Normal,pass,25,explosive,,0.56,0.60,0.46,,M.Jones,S.Bolden,T.Dean,,1,, 10-M.Jones complete to 18-S.Bolden. 18-S.Bolden to BAMA 47 for 25 yards (0-T.Dean). 
+Alabama,2Q,6,92,51,1,Normal,pass,,not successful,,0.54,0.59,0.45,,M.Jones,N.Harris,,,,, 10-M.Jones incomplete. Intended for 22-N.Harris. 
+Alabama,2Q,6,93,52,2,Normal,pass,21,explosive,,0.56,0.60,0.44,,M.Jones,D.Smith,K.Bogle,,1,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith to FLA 32 for 21 yards (8-K.Bogle). 
+Alabama,2Q,6,94,53,1,Normal,pass,7,successful,,0.57,0.61,0.43,,M.Jones,M.Forristall,K.Bogle,,1,, 10-M.Jones complete to 87-M.Forristall. 87-M.Forristall to FLA 25 for 7 yards (8-K.Bogle). 
+Alabama,2Q,6,95,54,2,Normal,pass,,not successful,,0.55,0.60,0.42,,M.Jones,N.Harris,,,,, 10-M.Jones incomplete. Intended for 22-N.Harris. 
+Alabama,2Q,6,96,55,3,Normal,pass,8,successful,,0.57,0.60,0.41,,M.Jones,J.Metchie,A.Burney,,1,, 10-M.Jones complete to 8-J.Metchie. 8-J.Metchie to FLA 17 for 8 yards (30-A.Burney). 
+Alabama,2Q,6,97,56,1,Red Zone,pass,17,explosive,,0.58,0.61,0.40,,M.Jones,N.Harris,,,,, 10-M.Jones complete to 22-N.Harris. 22-N.Harris runs 17 yards for a touchdown. 
+Florida,2Q,5,100,28,1,Normal,pass,-4,not successful,,0.47,0.46,0.32,,K.Trask,,W.Anderson,,1,, 11-K.Trask sacked at FLA 27 for -4 yards (31-W.Anderson). 
+Florida,3Q,6,102,29,1,Normal,pass,13,successful,,0.50,0.48,0.31,,K.Trask,J.Copeland,M.Moore,J.Jobe,0.5,0.5," 11-K.Trask complete to 15-J.Copeland. 15-J.Copeland to FLA 38 for 13 yards (13-M.Moore,28-J.Jobe). "
+Florida,3Q,6,103,30,1,Normal,pass,5,successful,,0.53,0.50,0.30,,K.Trask,T.Grimes,J.Jobe,,1,, 11-K.Trask complete to 8-T.Grimes. 8-T.Grimes to FLA 43 for 5 yards (28-J.Jobe). 
+Florida,3Q,6,104,31,2,Normal,run,7,successful,0.44,,0.52,0.32,E.Jones,,,W.Anderson,,1,, 5-E.Jones to FLA 50 for 7 yards (31-W.Anderson). 
+Florida,3Q,6,105,32,1,Normal,pass,50,explosive,,0.55,0.53,0.31,,K.Trask,T.Grimes,,,,, 11-K.Trask complete to 8-T.Grimes. 8-T.Grimes runs 50 yards for a touchdown. 
+Alabama,3Q,7,108,57,1,Normal,pass,4,not successful,,0.56,0.60,0.40,,M.Jones,D.Smith,B.Stewart,,1,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith to BAMA 29 for 4 yards (2-B.Stewart). 
+Alabama,3Q,7,109,58,2,Normal,pass,26,explosive,,0.58,0.61,0.39,,M.Jones,J.Metchie,D.Stiner,,1,, 10-M.Jones complete to 8-J.Metchie. 8-J.Metchie to FLA 45 for 26 yards (13-D.Stiner). 
+Alabama,3Q,7,110,59,1,Normal,pass,,not successful,,0.56,0.60,0.38,,M.Jones,N.Harris,,,,, 10-M.Jones incomplete. Intended for 22-N.Harris. 
+Alabama,3Q,7,111,60,2,Normal,run,5,not successful,0.59,,0.59,0.39,N.Harris,,,B.Stewart,M.Diabate,0.5,0.5," 22-N.Harris to FLA 40 for 5 yards (2-B.Stewart,11-M.Diabate). "
+Alabama,3Q,7,112,61,3,Normal,run,2,not successful,0.57,,0.58,0.40,N.Harris,,,A.Burney,,1,, 22-N.Harris to FLA 38 for 2 yards (30-A.Burney). 
+Alabama,3Q,7,113,62,4,Normal,pass,1,not successful,,0.54,0.57,0.40,,M.Jones,D.Smith,K.Elam,,1,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith to FLA 37 for 1 yard (5-K.Elam). 
+Florida,3Q,7,114,33,1,Normal,pass,,not successful,,0.52,0.52,0.30,,K.Trask,K.Pitts,,,,, 11-K.Trask incomplete. Intended for 84-K.Pitts. 
+Florida,3Q,7,115,34,2,Normal,pass,15,successful,,0.55,0.53,0.29,,K.Trask,M.Davis,,,,," 11-K.Trask incomplete. Intended for 20-M.Davis. Penalty on BAMA 32-D.Moses, Pass interference, 15 yards, enforced at FLA 37. No Play. "
+Florida,3Q,7,116,35,1,Normal,pass,-3,not successful,,0.52,0.52,0.28,,K.Trask,,C.Harris,,1,, 11-K.Trask sacked at FLA 49 for -3 yards (8-C.Harris). 
+Florida,3Q,7,117,36,2,Normal,run,4,not successful,0.40,,0.50,0.30,K.Trask,,,J.Eboigbe,,1,, 11-K.Trask to BAMA 47 for 4 yards (92-J.Eboigbe). 
+Florida,3Q,7,118,37,3,Normal,pass,,not successful,,0.50,0.49,0.29,,K.Trask,M.Davis,,,,, 11-K.Trask incomplete. Intended for 20-M.Davis. 
+Alabama,3Q,8,120,63,1,Normal,pass,14,successful,,0.56,0.57,0.39,,M.Jones,N.Harris,J.Houston,,1,, 10-M.Jones complete to 22-N.Harris. 22-N.Harris to BAMA 23 for 14 yards (41-J.Houston). 
+Alabama,3Q,8,121,64,1,Normal,run,6,successful,0.58,,0.58,0.40,N.Harris,,,T.Dean,,1,, 22-N.Harris to BAMA 29 for 6 yards (0-T.Dean). 
+Alabama,3Q,8,122,65,2,Normal,pass,27,explosive,,0.57,0.59,0.39,,M.Jones,D.Smith,K.Elam,,1,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith to FLA 44 for 27 yards (5-K.Elam). 
+Alabama,3Q,8,124,67,1,Normal,pass,10,successful,,0.58,0.59,0.39,,M.Jones,D.Smith,B.Stewart,,1,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith to FLA 44 for 10 yards (2-B.Stewart). 
+Alabama,3Q,8,125,68,2,Normal,run,-3,not successful,0.56,,0.58,0.40,J.Billingsley,,,Z.Carter,,1,, 19-J.Billingsley to FLA 47 for -3 yards (17-Z.Carter). 
+Alabama,3Q,8,126,69,3,Normal,pass,4,not successful,,0.56,0.58,0.39,,M.Jones,M.Tennison,B.Stewart,,1,, 10-M.Jones complete to 88-M.Tennison. 88-M.Tennison to FLA 43 for 4 yards (2-B.Stewart). 
+Florida,3Q,8,128,39,1,Normal,pass,0,not successful,,0.48,0.47,0.29,,K.Trask,J.Copeland,D.Moses,,1,," 11-K.Trask complete to 15-J.Copeland. 15-J.Copeland to FLA 17, FUMBLES (32-D.Moses). 15-J.Copeland to FLA 13 for no gain. "
+Florida,3Q,8,129,40,2,Normal,pass,,not successful,,0.46,0.46,0.28,,K.Trask,K.Pitts,,,,, 11-K.Trask incomplete. Intended for 84-K.Pitts. 
+Florida,3Q,8,130,41,3,Normal,pass,20,explosive,,0.48,0.47,0.27,,K.Trask,K.Pitts,D.Wright,,1,, 11-K.Trask complete to 84-K.Pitts. 84-K.Pitts to FLA 33 for 20 yards (3-D.Wright). 
+Florida,3Q,8,131,42,1,Normal,pass,12,successful,,0.50,0.49,0.26,,K.Trask,N.Wright,,,,," 11-K.Trask incomplete. Intended for 6-N.Wright. Penalty on BAMA 32-D.Moses, Pass interference, 12 yards, enforced at FLA 33. No Play. "
+Florida,3Q,8,132,43,1,Normal,pass,25,explosive,,0.52,0.50,0.26,,K.Trask,T.Grimes,D.Wright,J.Battle,0.5,0.5," 11-K.Trask complete to 8-T.Grimes. 8-T.Grimes to BAMA 30 for 25 yards (3-D.Wright,9-J.Battle). "
+Florida,3Q,8,133,44,1,Normal,run,2,not successful,0.36,,0.49,0.28,K.Toney,,,C.Allen,,1,, 1-K.Toney to BAMA 28 for 2 yards (4-C.Allen). 
+Florida,3Q,8,134,45,2,Normal,run,6,successful,0.42,,0.50,0.29,N.Wright,,,B.Branch,,1,, 6-N.Wright to BAMA 22 for 6 yards (14-B.Branch). 
+Florida,3Q,8,135,46,3,Normal,run,3,successful,0.46,,0.51,0.31,K.Trask,,,B.Davis,,1,, 11-K.Trask to BAMA 19 for 3 yards (1-B.Davis). 
+Florida,3Q,8,136,47,1,Red Zone,pass,,not successful,,0.50,0.50,0.30,,K.Trask,J.Copeland,,,,, 11-K.Trask incomplete. Intended for 15-J.Copeland. 
+Florida,3Q,8,137,48,2,Red Zone,pass,6,not successful,,0.48,0.49,0.30,,K.Trask,N.Wright,D.Moses,,1,, 11-K.Trask complete to 6-N.Wright. 6-N.Wright to BAMA 13 for 6 yards (32-D.Moses). 
+Florida,3Q,8,138,49,3,Red Zone,run,4,successful,0.50,,0.50,0.31,K.Trask,,,D.Dale,,1,, 11-K.Trask to BAMA 9 for 4 yards (94-D.Dale). 
+Florida,3Q,8,139,50,1,Red Zone,run,6,successful,0.53,,0.51,0.33,K.Trask,,,D.Wright,C.Barmore,0.5,0.5," 11-K.Trask to BAMA 3 for 6 yards (3-D.Wright,58-C.Barmore). "
+Florida,3Q,8,140,51,2,Red Zone,run,3,successful,0.56,,0.52,0.34,N.Wright,,,,,,, 6-N.Wright runs 3 yards for a touchdown. 
+Alabama,3Q,9,143,71,1,Normal,pass,2,not successful,,0.55,0.57,0.38,,M.Jones,M.Forristall,M.Diabate,,1,, 10-M.Jones complete to 87-M.Forristall. 87-M.Forristall to BAMA 27 for 2 yards (11-M.Diabate). 
+Alabama,4Q,10,144,72,2,Normal,pass,7,successful,,0.56,0.57,0.38,,M.Jones,D.Smith,M.Diabate,K.Bogle,0.5,0.5," 10-M.Jones complete to 6-D.Smith. 6-D.Smith to BAMA 34 for 7 yards (11-M.Diabate,8-K.Bogle). "
+Alabama,4Q,10,145,73,3,Normal,run,1,successful,0.58,,0.58,0.39,M.Jones,,,,,,, 10-M.Jones to BAMA 35 for 1 yard. 
+Alabama,4Q,10,146,74,1,Normal,pass,20,explosive,,0.57,0.59,0.38,,M.Jones,J.Metchie,K.Elam,,1,, 10-M.Jones complete to 8-J.Metchie. 8-J.Metchie to FLA 45 for 20 yards (5-K.Elam). 
+Alabama,4Q,10,147,75,1,Normal,run,19,explosive,0.59,,0.59,0.39,N.Harris,,,V.Miller,,1,, 22-N.Harris to FLA 26 for 19 yards (51-V.Miller). 
+Alabama,4Q,10,148,76,1,Normal,pass,14,successful,,0.58,0.60,0.39,,M.Jones,J.Billingsley,K.Elam,,1,," 10-M.Jones complete to 19-J.Billingsley. 19-J.Billingsley to FLA 12 for 14 yards (5-K.Elam). Penalty on FLA 5-K.Elam, Pass interference, declined. "
+Alabama,4Q,10,149,77,1,Red Zone,run,0,not successful,0.57,,0.59,0.39,N.Harris,,,V.Miller,,1,, 22-N.Harris to FLA 12 for no gain (51-V.Miller). 
+Alabama,4Q,10,150,78,2,Red Zone,run,9,successful,0.59,,0.59,0.40,N.Harris,,,T.Dean,,1,, 22-N.Harris to FLA 3 for 9 yards (0-T.Dean). 
+Alabama,4Q,10,151,79,3,Red Zone,run,2,successful,0.60,,0.60,0.41,N.Harris,,,G.Dexter,,1,, 22-N.Harris to FLA 1 for 2 yards (9-G.Dexter). 
+Alabama,4Q,10,152,80,1,Red Zone,run,0,successful,0.61,,0.61,0.42,N.Harris,,,B.Stewart,,1,, 22-N.Harris to FLA 1 for no gain (2-B.Stewart). 
+Alabama,4Q,10,153,81,1,Red Zone,run,1,successful,0.63,,0.61,0.43,N.Harris,,,,,,, 22-N.Harris runs 1 yard for a touchdown. 
+Florida,4Q,9,156,52,1,Normal,pass,,not successful,,0.47,0.51,0.33,,K.Trask,,W.Anderson,,,," 11-K.Trask sacked at FLA 20 for -5 yards, FUMBLES (31-W.Anderson). 50-T.Smith to FLA 10 for no gain. "
+Alabama,4Q,11,157,82,1,Red Zone,run,1,not successful,0.61,,0.60,0.43,N.Harris,,,M.Diabate,,1,, 22-N.Harris to FLA 9 for 1 yard (11-M.Diabate). 
+Alabama,4Q,11,158,83,2,Red Zone,pass,,not successful,,0.57,0.59,0.43,,M.Jones,D.Smith,,,,, 10-M.Jones incomplete. Intended for 6-D.Smith. 
+Alabama,4Q,11,159,84,3,Red Zone,pass,7,not successful,,0.56,0.59,0.42,,M.Jones,D.Smith,B.Stewart,,1,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith to FLA 2 for 7 yards (2-B.Stewart). 
+Florida,4Q,10,162,53,1,Normal,pass,6,successful,,0.48,0.52,0.33,,K.Trask,K.Pitts,J.Battle,,1,, 11-K.Trask complete to 84-K.Pitts. 84-K.Pitts to FLA 31 for 6 yards (9-J.Battle). 
+Florida,4Q,10,163,54,2,Normal,pass,31,explosive,,0.50,0.53,0.32,,K.Trask,K.Pitts,J.Battle,,1,, 11-K.Trask complete to 84-K.Pitts. 84-K.Pitts to BAMA 38 for 31 yards (9-J.Battle). 
+Florida,4Q,10,164,55,1,Normal,pass,,not successful,,0.49,0.52,0.31,,K.Trask,J.Copeland,,,,, 11-K.Trask incomplete. Intended for 15-J.Copeland. 
+Florida,4Q,10,165,56,2,Normal,run,0,not successful,0.53,,0.51,0.33,M.Davis,,,C.Barmore,,1,," 20-M.Davis to BAMA 36, FUMBLES (58-C.Barmore). 15-J.Copeland to BAMA 36 for no gain. "
+Florida,4Q,10,166,57,3,Normal,no play,10,successful,,,0.52,,,,,,,,," 11-K.Trask incomplete. Intended for 84-K.Pitts. Penalty on BAMA 28-J.Jobe, Holding, 10 yards, enforced at BAMA 36. No Play. "
+Florida,4Q,10,167,58,1,Normal,pass,,not successful,,0.47,0.51,0.32,,K.Trask,T.Grimes,,,,, 11-K.Trask incomplete. Intended for 8-T.Grimes. 
+Florida,4Q,10,168,59,2,Normal,pass,,not successful,,0.46,0.50,0.31,,K.Trask,T.Grimes,,,,, 11-K.Trask incomplete. Intended for 8-T.Grimes. 
+Florida,4Q,10,169,60,3,Normal,pass,25,explosive,,0.47,0.51,0.31,,K.Trask,K.Pitts,J.Jobe,,1,, 11-K.Trask complete to 84-K.Pitts. 84-K.Pitts to BAMA 1 for 25 yards (28-J.Jobe). 
+Florida,4Q,10,170,61,1,Red Zone,run,0,not successful,0.50,,0.50,0.32,K.Trask,,,C.Allen,,1,, 11-K.Trask to BAMA 1 for no gain (4-C.Allen). 
+Florida,4Q,10,172,63,2,Red Zone,run,1,successful,0.53,,0.51,0.33,D.Pierce,,,,,,, 27-D.Pierce runs 1 yard for a touchdown. 
+Alabama,4Q,12,175,86,1,Normal,run,14,successful,0.62,,0.59,0.43,N.Harris,,,M.Diabate,M.Wilson,0.5,0.5," 22-N.Harris to BAMA 48 for 14 yards (11-M.Diabate,3-M.Wilson). "
+Alabama,4Q,12,176,87,1,Normal,no play,5,successful,,,0.60,,,,,,,,," Penalty on FLA 56-T.Slaton, Offside, 5 yards, enforced at BAMA 48. No Play. "
+Alabama,4Q,12,177,88,1,Normal,run,29,explosive,0.63,,0.60,0.44,N.Harris,,,D.Stiner,,1,, 22-N.Harris to FLA 18 for 29 yards (13-D.Stiner). 
+Alabama,4Q,12,178,89,1,Red Zone,run,3,not successful,0.61,,0.60,0.44,N.Harris,,,M.Diabate,,1,, 22-N.Harris to FLA 15 for 3 yards (11-M.Diabate). 
+Alabama,4Q,12,179,90,2,Red Zone,pass,15,explosive,,0.57,0.60,0.44,,M.Jones,D.Smith,,,,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith runs 15 yards for a touchdown. 
+Florida,4Q,11,183,64,1,Normal,pass,9,successful,,0.49,0.52,0.33,,K.Trask,K.Toney,M.Moore,C.Barmore,0.5,0.5," 11-K.Trask complete to 1-K.Toney. 1-K.Toney to FLA 34 for 9 yards (13-M.Moore,58-C.Barmore). "
+Florida,4Q,11,184,65,2,Normal,pass,,not successful,,0.48,0.51,0.32,,K.Trask,K.Pitts,,,,, 11-K.Trask incomplete. Intended for 84-K.Pitts. 
+Florida,4Q,11,185,66,3,Normal,pass,5,successful,,0.49,0.52,0.32,,K.Trask,K.Toney,B.Branch,,1,, 11-K.Trask complete to 1-K.Toney. 1-K.Toney to FLA 39 for 5 yards (14-B.Branch). 
+Florida,4Q,11,186,67,1,Normal,pass,15,successful,,0.50,0.52,0.31,,K.Trask,K.Pitts,,,,," 11-K.Trask incomplete. Intended for 84-K.Pitts. Penalty on BAMA 14-B.Branch, Pass interference, 15 yards, enforced at FLA 39. No Play. "
+Florida,4Q,11,187,68,1,Normal,pass,,not successful,,0.49,0.52,0.31,,K.Trask,J.Copeland,,,,, 11-K.Trask incomplete. Intended for 15-J.Copeland. 
+Florida,4Q,11,188,69,2,Normal,pass,13,successful,,0.50,0.52,0.30,,K.Trask,N.Wright,W.Anderson,,1,, 11-K.Trask complete to 6-N.Wright. 6-N.Wright to BAMA 33 for 13 yards (31-W.Anderson). 
+Florida,4Q,11,189,70,1,Normal,pass,8,successful,,0.51,0.53,0.30,,K.Trask,N.Wright,J.Jobe,,1,, 11-K.Trask complete to 6-N.Wright. 6-N.Wright to BAMA 25 for 8 yards (28-J.Jobe). 
+Florida,4Q,11,190,71,2,Normal,run,1,not successful,0.50,,0.52,0.31,N.Wright,,,D.Moses,,1,, 6-N.Wright to BAMA 24 for 1 yard (32-D.Moses). 
+Florida,4Q,11,191,72,3,Normal,run,4,successful,0.52,,0.53,0.32,K.Trask,,,D.Moses,C.Barmore,0.5,0.5," 11-K.Trask to BAMA 20 for 4 yards (32-D.Moses,58-C.Barmore). "
+Florida,4Q,11,192,73,1,Normal,pass,-2,not successful,,0.50,0.52,0.31,,K.Trask,T.Grimes,J.Battle,,1,, 11-K.Trask complete to 8-T.Grimes. 8-T.Grimes to BAMA 22 for -2 yards (9-J.Battle). 
+Florida,4Q,11,193,74,2,Normal,pass,22,explosive,,0.51,0.53,0.31,,K.Trask,K.Pitts,,,,, 11-K.Trask complete to 84-K.Pitts. 84-K.Pitts runs 22 yards for a touchdown. 
+Alabama,4Q,13,197,91,1,Normal,run,1,not successful,0.59,,0.59,0.45,N.Harris,,,M.Diabate,,1,, 22-N.Harris to BAMA 48 for 1 yard (11-M.Diabate). 
+Alabama,4Q,13,198,92,2,Normal,run,0,not successful,0.58,,0.59,0.45,N.Harris,,,A.Burney,,1,, 22-N.Harris to BAMA 48 for no gain (30-A.Burney). 
+Alabama,4Q,13,199,93,3,Normal,run,-2,not successful,0.56,,0.58,0.46,N.Harris,,,B.Stewart,A.Burney,0.5,0.5," 22-N.Harris to BAMA 46 for -2 yards (2-B.Stewart,30-A.Burney). "
+Florida,4Q,12,201,75,1,Normal,pass,-5,not successful,,0.50,0.52,0.30,,K.Trask,,C.Harris,,1,, 11-K.Trask sacked at FLA 7 for -5 yards (8-C.Harris). 
