@@ -1,7 +1,7 @@
 // Global chart options
 Chart.defaults.global.legend = false;
 Chart.plugins.unregister(ChartDataLabels);
-Chart.defaults.global.defaultFontFamily = 'Roboto';
+// Chart.defaults.global.defaultFontFamily = 'Roboto';
 
 Chart.helpers.merge(Chart.defaults.global.plugins.datalabels, {
     color: function(context) {
