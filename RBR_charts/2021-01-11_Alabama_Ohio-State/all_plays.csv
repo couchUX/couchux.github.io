@@ -1,136 +1,149 @@
 team,quarter,drive_team,play_count,play_count_team,down,red_zone,play_type,yards_total,play_result,run_sr,pass_sr,total_sr,run_rate,runner,passer,receiver,tackler_one,tackler_two,tackler_one_credit,tackler_two_credit,play_description
-Notre Dame,1Q,1,2,1,1,Normal,run,4,not successful,0.00,,0.00,1.00,I.Book,,,,,,," 12-I.Book scrambles, runs ob at ND 12 for 4 yards. "
-Notre Dame,1Q,1,3,2,2,Normal,run,15,explosive,0.50,,0.50,1.00,K.Williams,,,J.Jobe,,1,, 23-K.Williams to ND 27 for 15 yards (28-J.Jobe). 
-Notre Dame,1Q,1,5,4,2,Normal,pass,,not successful,,0.00,0.33,0.67,,I.Book,J.McKinley,,,,, 12-I.Book incomplete. Intended for 88-J.McKinley. 
-Notre Dame,1Q,1,6,5,3,Normal,run,7,not successful,0.33,,0.25,0.75,I.Book,,,D.Wright,,1,, 12-I.Book scrambles to ND 29 for 7 yards (3-D.Wright). 
-Alabama,1Q,1,8,1,1,Normal,pass,15,explosive,,1.00,1.00,0.00,,M.Jones,M.Forristall,S.Crawford,N.McCloud,0.5,0.5," 10-M.Jones complete to 87-M.Forristall. 87-M.Forristall to BAMA 36 for 15 yards (20-S.Crawford,4-N.McCloud). "
-Alabama,1Q,1,9,2,1,Normal,pass,14,successful,,1.00,1.00,0.00,,M.Jones,N.Harris,N.McCloud,M.Liufau,0.5,0.5," 10-M.Jones complete to 22-N.Harris. 22-N.Harris to BAMA 50 for 14 yards (4-N.McCloud,35-M.Liufau). "
-Alabama,1Q,1,10,3,1,Normal,pass,8,successful,,1.00,1.00,0.00,,M.Jones,J.Billingsley,J.Owusu-Koramoah,,1,, 10-M.Jones complete to 19-J.Billingsley. 19-J.Billingsley to ND 42 for 8 yards (6-J.Owusu-Koramoah). 
-Alabama,1Q,1,11,4,2,Normal,pass,5,successful,,1.00,1.00,0.00,,M.Jones,M.Forristall,M.Liufau,,1,, 10-M.Jones complete to 87-M.Forristall. 87-M.Forristall pushed ob at ND 37 for 5 yards (35-M.Liufau). 
-Alabama,1Q,1,12,5,1,Normal,run,11,successful,1.00,,1.00,0.20,N.Harris,,,K.Hamilton,,1,, 22-N.Harris to ND 26 for 11 yards (14-K.Hamilton). 
-Alabama,1Q,1,13,6,1,Normal,pass,,not successful,,0.80,0.83,0.17,,M.Jones,S.Bolden,,,,, 10-M.Jones incomplete. Intended for 18-S.Bolden. 
-Alabama,1Q,1,14,7,2,Normal,pass,26,explosive,,0.83,0.86,0.14,,M.Jones,D.Smith,,,,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith runs 26 yards for a touchdown. 
-Notre Dame,1Q,2,17,7,1,Normal,run,7,successful,0.50,,0.40,0.80,K.Williams,,,D.Hellams,,1,, 23-K.Williams to ND 32 for 7 yards (29-D.Hellams). 
-Notre Dame,1Q,2,18,8,2,Normal,run,1,not successful,0.40,,0.33,0.83,K.Williams,,,B.Branch,J.Eboigbe,0.5,0.5," 23-K.Williams to ND 33 for 1 yard (14-B.Branch,92-J.Eboigbe). "
-Notre Dame,1Q,2,19,9,3,Normal,pass,6,successful,,0.50,0.43,0.71,,I.Book,M.Mayer,,,,, 12-I.Book complete to 87-M.Mayer. 87-M.Mayer to ND 39 for 6 yards. 
-Notre Dame,1Q,2,20,10,1,Normal,run,7,successful,0.50,,0.50,0.75,K.Williams,,,D.Hellams,J.Jobe,0.5,0.5," 23-K.Williams to ND 46 for 7 yards (29-D.Hellams,28-J.Jobe). "
-Notre Dame,1Q,2,21,11,2,Normal,run,-4,not successful,0.43,,0.44,0.78,K.Williams,,,J.Battle,P.Surtain,0.5,0.5," 23-K.Williams to ND 42 for -4 yards (9-J.Battle,2-P.Surtain). "
-Notre Dame,1Q,2,22,12,3,Normal,run,2,not successful,0.38,,0.40,0.80,I.Book,,,C.Barmore,,1,, 12-I.Book to ND 44 for 2 yards (58-C.Barmore). 
-Alabama,1Q,2,24,8,1,Normal,run,15,explosive,1.00,,0.88,0.25,N.Harris,,,K.Hamilton,,1,, 22-N.Harris to BAMA 18 for 15 yards (14-K.Hamilton). 
-Alabama,1Q,2,25,9,1,Normal,pass,9,successful,,0.86,0.89,0.22,,M.Jones,D.Smith,N.McCloud,S.Crawford,0.5,0.5," 10-M.Jones complete to 6-D.Smith. 6-D.Smith to BAMA 27 for 9 yards (4-N.McCloud,20-S.Crawford). "
-Alabama,1Q,2,26,10,2,Normal,pass,8,successful,,0.88,0.90,0.20,,M.Jones,S.Bolden,K.Hamilton,,1,, 10-M.Jones complete to 18-S.Bolden. 18-S.Bolden to BAMA 35 for 8 yards (14-K.Hamilton). 
-Alabama,1Q,2,27,11,1,Normal,run,53,explosive,1.00,,0.91,0.27,N.Harris,,,C.Lewis,,1,, 22-N.Harris pushed ob at ND 12 for 53 yards (26-C.Lewis). 
-Alabama,1Q,2,28,12,1,Red Zone,pass,12,successful,,0.89,0.92,0.25,,M.Jones,J.Billingsley,,,,, 10-M.Jones complete to 19-J.Billingsley. 19-J.Billingsley runs 12 yards for a touchdown. 
-Notre Dame,1Q,3,31,14,1,Normal,run,3,not successful,0.33,,0.36,0.82,C.Tyree,,,W.Anderson,,1,, 25-C.Tyree to ND 28 for 3 yards (31-W.Anderson). 
-Notre Dame,1Q,3,32,15,2,Normal,pass,27,explosive,,0.67,0.42,0.75,,I.Book,C.Tyree,,,,, 12-I.Book complete to 25-C.Tyree. 25-C.Tyree runs ob at BAMA 45 for 27 yards. 
-Notre Dame,1Q,3,33,16,1,Normal,run,3,not successful,0.30,,0.38,0.77,C.Tyree,,,W.Anderson,,1,, 25-C.Tyree to BAMA 42 for 3 yards (31-W.Anderson). 
-Notre Dame,1Q,3,34,17,2,Normal,run,4,not successful,0.27,,0.36,0.79,C.Tyree,,,C.Harris,P.Mathis,0.5,0.5," 25-C.Tyree to BAMA 38 for 4 yards (8-C.Harris,48-P.Mathis). "
-Notre Dame,1Q,3,35,18,3,Normal,run,4,successful,0.33,,0.40,0.80,K.Williams,,,P.Mathis,,1,, 23-K.Williams to BAMA 34 for 4 yards (48-P.Mathis). 
-Notre Dame,1Q,3,36,19,1,Normal,pass,,not successful,,0.50,0.38,0.75,,I.Book,,,,,, 12-I.Book incomplete. 
-Notre Dame,1Q,3,37,20,2,Normal,run,9,successful,0.38,,0.41,0.76,K.Williams,,,D.Hellams,,1,, 23-K.Williams to BAMA 25 for 9 yards (29-D.Hellams). 
-Notre Dame,1Q,3,38,21,3,Normal,run,5,successful,0.43,,0.44,0.78,K.Williams,,,C.Harris,,1,, 23-K.Williams to BAMA 20 for 5 yards (8-C.Harris). 
-Notre Dame,2Q,4,39,22,1,Normal,pass,4,not successful,,0.40,0.42,0.74,,I.Book,K.Williams,D.Moses,,1,, 12-I.Book complete to 23-K.Williams. 23-K.Williams to BAMA 16 for 4 yards (32-D.Moses). 
-Notre Dame,2Q,4,40,23,2,Red Zone,run,4,not successful,0.40,,0.40,0.75,K.Williams,,,J.Jobe,,1,, 23-K.Williams to BAMA 12 for 4 yards (28-J.Jobe). 
-Notre Dame,2Q,4,41,24,3,Red Zone,run,3,successful,0.44,,0.43,0.76,K.Williams,,,J.Jobe,,1,, 23-K.Williams to BAMA 9 for 3 yards (28-J.Jobe). 
-Notre Dame,2Q,4,42,25,1,Red Zone,run,0,not successful,0.41,,0.41,0.77,K.Williams,,,C.Harris,,1,, 23-K.Williams to BAMA 9 for no gain (8-C.Harris). 
-Notre Dame,2Q,4,43,26,2,Red Zone,pass,6,not successful,,0.33,0.39,0.74,,I.Book,K.Williams,D.Hellams,D.Moses,0.5,0.5," 12-I.Book complete to 23-K.Williams. 23-K.Williams to BAMA 3 for 6 yards (29-D.Hellams,32-D.Moses). "
-Notre Dame,2Q,4,44,27,3,Red Zone,run,2,not successful,0.39,,0.38,0.75,I.Book,,,C.Barmore,,1,, 12-I.Book to BAMA 1 for 2 yards (58-C.Barmore). 
-Notre Dame,2Q,4,45,28,4,Red Zone,run,1,successful,0.42,,0.40,0.76,K.Williams,,,,,,, 23-K.Williams runs 1 yard for a touchdown. 
-Alabama,2Q,3,48,13,1,Normal,run,6,successful,1.00,,0.92,0.31,M.Jones,,,,,,, 10-M.Jones scrambles to BAMA 22 for 6 yards. 
-Alabama,2Q,3,49,14,2,Normal,pass,3,successful,,0.90,0.93,0.29,,M.Jones,J.Metchie,D.White,,1,, 10-M.Jones complete to 8-J.Metchie. 8-J.Metchie to BAMA 25 for 3 yards (40-D.White). 
-Alabama,2Q,3,50,15,3,Normal,run,2,successful,1.00,,0.93,0.33,M.Jones,,,O.Oghoufo,,1,, 10-M.Jones to BAMA 27 for 2 yards (29-O.Oghoufo). 
-Alabama,2Q,3,51,16,1,Normal,pass,24,explosive,,0.91,0.94,0.31,,M.Jones,D.Smith,S.Crawford,,1,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith to ND 49 for 24 yards (20-S.Crawford). 
-Alabama,2Q,3,52,17,1,Normal,pass,15,explosive,,0.92,0.94,0.29,,M.Jones,J.Billingsley,S.Crawford,,1,, 10-M.Jones complete to 19-J.Billingsley. 19-J.Billingsley to ND 34 for 15 yards (20-S.Crawford). 
-Alabama,2Q,3,53,18,1,Normal,pass,34,explosive,,0.92,0.94,0.28,,M.Jones,D.Smith,,,,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith runs 34 yards for a touchdown. 
-Notre Dame,2Q,5,56,29,1,Normal,run,3,not successful,0.40,,0.38,0.77,K.Williams,,,W.Anderson,,1,, 23-K.Williams to ND 28 for 3 yards (31-W.Anderson). 
-Notre Dame,2Q,5,57,30,2,Normal,pass,3,not successful,,0.29,0.37,0.74,,I.Book,K.Williams,W.Anderson,,1,, 12-I.Book complete to 23-K.Williams. 23-K.Williams to ND 31 for 3 yards (31-W.Anderson). 
-Notre Dame,2Q,5,58,31,3,Normal,pass,10,successful,,0.38,0.39,0.71,,I.Book,G.Takacs,D.Wright,,1,, 12-I.Book complete to 85-G.Takacs. 85-G.Takacs to ND 41 for 10 yards (3-D.Wright). 
-Notre Dame,2Q,5,59,32,1,Normal,pass,1,not successful,,0.33,0.38,0.69,,I.Book,K.Williams,D.Moses,,1,, 12-I.Book complete to 23-K.Williams. 23-K.Williams to ND 42 for 1 yard (32-D.Moses). 
-Notre Dame,2Q,5,60,33,2,Normal,run,1,not successful,0.38,,0.37,0.70,K.Williams,,,C.Barmore,D.Hellams,0.5,0.5," 23-K.Williams to ND 43 for 1 yard (58-C.Barmore,29-D.Hellams). "
-Notre Dame,2Q,5,61,34,3,Normal,pass,,not successful,,0.30,0.35,0.68,,I.Book,A.Davis,,,,, 12-I.Book incomplete. Intended for 3-A.Davis. 
-Alabama,2Q,4,63,19,1,Normal,run,7,successful,1.00,,0.95,0.32,N.Harris,,,D.White,,1,, 22-N.Harris to BAMA 30 for 7 yards (40-D.White). 
-Alabama,2Q,4,64,20,2,Normal,run,2,not successful,0.86,,0.90,0.35,N.Harris,,,J.Owusu-Koramoah,,1,, 22-N.Harris to BAMA 32 for 2 yards (6-J.Owusu-Koramoah). 
-Alabama,2Q,4,65,21,3,Normal,run,3,successful,0.88,,0.90,0.38,M.Jones,,,S.Crawford,J.Ademilola,0.5,0.5," 10-M.Jones to BAMA 35 for 3 yards (20-S.Crawford,57-J.Ademilola). "
-Alabama,2Q,4,66,22,1,Normal,run,2,not successful,0.78,,0.86,0.41,N.Harris,,,S.Simon,J.Ademilola,0.5,0.5," 22-N.Harris to BAMA 37 for 2 yards (33-S.Simon,19-J.Ademilola). "
-Alabama,2Q,4,67,23,2,Normal,pass,1,not successful,,0.86,0.83,0.39,,M.Jones,N.Harris,D.White,J.Ademilola,0.5,0.5," 10-M.Jones complete to 22-N.Harris. 22-N.Harris to BAMA 38 for 1 yard (40-D.White,57-J.Ademilola). "
-Alabama,2Q,4,68,24,3,Normal,pass,8,successful,,0.87,0.83,0.38,,M.Jones,D.Smith,S.Crawford,,1,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith to BAMA 46 for 8 yards (20-S.Crawford). 
-Alabama,2Q,4,69,25,1,Normal,run,3,not successful,0.70,,0.80,0.40,N.Harris,,,S.Crawford,,1,, 22-N.Harris to BAMA 49 for 3 yards (20-S.Crawford). 
-Alabama,2Q,4,70,26,2,Normal,run,-5,not successful,0.64,,0.77,0.42,D.Smith,,,K.Hamilton,,1,, 6-D.Smith to BAMA 44 for -5 yards (14-K.Hamilton). 
-Alabama,2Q,4,71,27,3,Normal,pass,,not successful,,0.81,0.74,0.41,,M.Jones,J.Metchie,,,,, 10-M.Jones incomplete. Intended for 8-J.Metchie. 
-Notre Dame,2Q,6,73,36,1,Normal,run,9,successful,0.41,,0.38,0.69,I.Book,,,,,,," 12-I.Book scrambles, runs ob at ND 20 for 9 yards. "
-Notre Dame,2Q,6,74,37,2,Normal,run,20,explosive,0.43,,0.39,0.70,I.Book,,,,,,, 12-I.Book to ND 40 for 20 yards. 
-Notre Dame,2Q,6,75,38,2,Normal,pass,20,explosive,,0.36,0.41,0.68,,I.Book,B.Skowronek,B.Branch,,1,, 12-I.Book complete to 11-B.Skowronek. 11-B.Skowronek to BAMA 40 for 20 yards (14-B.Branch). 
-Notre Dame,2Q,6,76,39,2,Normal,pass,-1,not successful,,0.33,0.40,0.66,,I.Book,K.Williams,,,,, 12-I.Book complete to 23-K.Williams. 23-K.Williams to BAMA 41 for -1 yard. 
-Notre Dame,2Q,6,77,40,3,Normal,pass,8,not successful,,0.31,0.39,0.64,,I.Book,K.Williams,,,,, 12-I.Book complete to 23-K.Williams. 23-K.Williams runs ob at BAMA 33 for 8 yards. 
-Alabama,3Q,6,80,29,1,Normal,run,2,not successful,0.58,,0.71,0.43,N.Harris,,,J.Owusu-Koramoah,,1,, 22-N.Harris to BAMA 27 for 2 yards (6-J.Owusu-Koramoah). 
-Alabama,3Q,6,81,30,2,Normal,pass,22,explosive,,0.82,0.72,0.41,,M.Jones,D.Smith,C.Lewis,,1,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith to BAMA 49 for 22 yards (26-C.Lewis). 
-Alabama,3Q,6,82,31,1,Normal,run,3,not successful,0.54,,0.70,0.43,N.Harris,,,D.White,K.Hinish,0.5,0.5," 22-N.Harris to ND 48 for 3 yards (40-D.White,41-K.Hinish). "
-Alabama,3Q,6,83,32,2,Normal,pass,5,successful,,0.83,0.71,0.42,,M.Jones,N.Harris,S.Crawford,N.McCloud,0.5,0.5," 10-M.Jones complete to 22-N.Harris. 22-N.Harris to ND 43 for 5 yards (20-S.Crawford,4-N.McCloud). "
-Alabama,3Q,6,84,33,3,Normal,run,6,successful,0.57,,0.72,0.44,N.Harris,,,M.Liufau,,1,, 22-N.Harris to ND 37 for 6 yards (35-M.Liufau). 
-Alabama,3Q,6,85,34,1,Normal,pass,,not successful,,0.79,0.70,0.42,,M.Jones,N.Harris,,,,, 10-M.Jones incomplete. Intended for 22-N.Harris. 
-Alabama,3Q,6,86,35,2,Normal,run,-1,not successful,0.53,,0.68,0.44,N.Harris,,,M.Liufau,,1,, 22-N.Harris to ND 38 for -1 yard (35-M.Liufau). 
-Alabama,3Q,6,87,36,3,Normal,pass,-8,not successful,,0.75,0.66,0.43,,M.Jones,M.Jones,J.Ademilola,,1,, 10-M.Jones complete to 10-M.Jones. 10-M.Jones to ND 46 for -8 yards (57-J.Ademilola). 
-Notre Dame,3Q,7,89,42,1,Normal,run,0,not successful,0.42,,0.38,0.65,C.Flemister,,,W.Anderson,,1,, 20-C.Flemister to ND 10 for no gain (31-W.Anderson). 
-Notre Dame,3Q,7,90,43,2,Normal,pass,6,not successful,,0.29,0.37,0.63,,I.Book,B.Skowronek,,,,, 12-I.Book complete to 11-B.Skowronek. 11-B.Skowronek to ND 16 for 6 yards. 
-Notre Dame,3Q,7,91,44,3,Normal,pass,5,successful,,0.33,0.38,0.62,,I.Book,K.Williams,C.Harris,,1,, 12-I.Book complete to 23-K.Williams. 23-K.Williams to ND 21 for 5 yards (8-C.Harris). 
-Notre Dame,3Q,7,92,45,1,Normal,run,3,not successful,0.40,,0.38,0.63,I.Book,,,C.Barmore,,1,, 12-I.Book scrambles to ND 24 for 3 yards (58-C.Barmore). 
-Notre Dame,3Q,7,93,46,2,Normal,pass,10,successful,,0.38,0.39,0.61,,I.Book,M.Mayer,D.Hellams,,1,, 12-I.Book complete to 87-M.Mayer. 87-M.Mayer to ND 34 for 10 yards (29-D.Hellams). 
-Notre Dame,3Q,7,94,47,1,Normal,run,3,not successful,0.38,,0.38,0.62,C.Tyree,,,P.Surtain,,1,, 25-C.Tyree to ND 37 for 3 yards (2-P.Surtain). 
-Notre Dame,3Q,7,95,48,2,Normal,pass,,not successful,,0.35,0.37,0.60,,I.Book,,,,,, 12-I.Book incomplete. INTERCEPTED by 8-C.Harris at BAMA 38. 8-C.Harris to BAMA 38 for no gain. 
-Alabama,3Q,7,96,38,1,Normal,pass,40,explosive,,0.76,0.67,0.42,,M.Jones,J.Metchie,,,,, 10-M.Jones complete to 8-J.Metchie. 8-J.Metchie runs ob at ND 22 for 40 yards. 
-Alabama,3Q,7,98,40,1,Normal,pass,10,successful,,0.77,0.68,0.41,,M.Jones,N.Harris,D.White,,1,, 10-M.Jones complete to 22-N.Harris. 22-N.Harris pushed ob at ND 22 for 10 yards (40-D.White). 
-Alabama,3Q,7,99,41,2,Normal,run,6,not successful,0.50,,0.66,0.42,N.Harris,,,H.Cross,D.White,0.5,0.5," 22-N.Harris to ND 16 for 6 yards (56-H.Cross,40-D.White). "
-Alabama,3Q,7,100,42,3,Red Zone,run,9,successful,0.53,,0.67,0.44,M.Jones,,,,,,, 10-M.Jones scrambles to ND 7 for 9 yards. 
-Alabama,3Q,7,101,43,1,Red Zone,pass,7,successful,,0.78,0.68,0.43,,M.Jones,D.Smith,,,,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith runs 7 yards for a touchdown. 
-Notre Dame,3Q,8,104,49,1,Normal,run,4,not successful,0.37,,0.36,0.61,B.Skowronek,,,,,,, 11-B.Skowronek runs ob at ND 29 for 4 yards. 
-Notre Dame,3Q,8,105,50,2,Normal,no play,15,successful,,,0.38,,,,,,,,," 12-I.Book incomplete. Penalty on BAMA 47-B.Young, Roughing the passer, 15 yards, enforced at ND 29. No Play. "
-Notre Dame,3Q,8,106,51,1,Normal,pass,-14,not successful,,0.33,0.37,0.60,,I.Book,,C.Barmore,,1,, 12-I.Book sacked at ND 30 for -14 yards (58-C.Barmore). 
-Notre Dame,3Q,8,107,52,2,Normal,run,1,not successful,0.36,,0.36,0.61,K.Williams,,,C.Allen,T.Smith,0.5,0.5," 23-K.Williams to ND 31 for 1 yard (4-C.Allen,50-T.Smith). "
-Notre Dame,3Q,8,108,53,3,Normal,pass,7,not successful,,0.32,0.35,0.60,,D.Pyne,B.Skowronek,D.Hellams,C.Harris,0.5,0.5," 10-D.Pyne complete to 11-B.Skowronek. 11-B.Skowronek to ND 38 for 7 yards (29-D.Hellams,8-C.Harris). "
-Alabama,3Q,8,110,44,1,Normal,pass,11,successful,,0.79,0.68,0.41,,M.Jones,M.Forristall,S.Crawford,,1,, 10-M.Jones complete to 87-M.Forristall. 87-M.Forristall to BAMA 41 for 11 yards (20-S.Crawford). 
-Alabama,3Q,8,111,45,1,Normal,run,1,not successful,0.50,,0.67,0.43,N.Harris,,,K.Hinish,D.White,0.5,0.5," 22-N.Harris to BAMA 42 for 1 yard (41-K.Hinish,40-D.White). "
-Alabama,3Q,8,112,46,2,Normal,pass,14,successful,,0.80,0.67,0.42,,M.Jones,S.Bolden,J.Owusu-Koramoah,,1,, 10-M.Jones complete to 18-S.Bolden. 18-S.Bolden to ND 44 for 14 yards (6-J.Owusu-Koramoah). 
-Alabama,3Q,8,113,47,1,Normal,pass,,not successful,,0.77,0.66,0.41,,M.Jones,N.Harris,,,,, 10-M.Jones incomplete. Intended for 22-N.Harris. 
-Alabama,3Q,8,114,48,2,Normal,run,2,not successful,0.47,,0.64,0.42,N.Harris,,,D.White,,1,, 22-N.Harris to ND 42 for 2 yards (40-D.White). 
-Alabama,4Q,9,115,49,3,Normal,run,13,successful,0.50,,0.65,0.43,N.Harris,,,K.Hamilton,,1,, 22-N.Harris to ND 29 for 13 yards (14-K.Hamilton). 
-Alabama,4Q,9,116,50,1,Normal,pass,,not successful,,0.74,0.64,0.43,,M.Jones,D.Smith,,,,, 10-M.Jones incomplete. Intended for 6-D.Smith. 
-Alabama,4Q,9,117,51,2,Normal,run,2,not successful,0.48,,0.63,0.44,B.Robinson,,,H.Cross,J.Owusu-Koramoah,0.5,0.5," 4-B.Robinson to ND 27 for 2 yards (56-H.Cross,6-J.Owusu-Koramoah). "
-Alabama,4Q,9,118,52,3,Normal,pass,4,not successful,,0.71,0.61,0.43,,M.Jones,J.Billingsley,K.Hamilton,,1,, 10-M.Jones complete to 19-J.Billingsley. 19-J.Billingsley to ND 23 for 4 yards (14-K.Hamilton). 
-Notre Dame,4Q,9,121,55,1,Normal,pass,18,explosive,,0.35,0.37,0.58,,I.Book,J.McKinley,,,,," 12-I.Book complete to 88-J.McKinley. 88-J.McKinley runs ob at ND 43 for 18 yards. Penalty on BAMA 32-D.Moses, Holding, declined. "
-Notre Dame,4Q,9,122,56,1,Normal,pass,8,successful,,0.38,0.38,0.57,,I.Book,B.Skowronek,J.Battle,D.Hellams,0.5,0.5," 12-I.Book complete to 11-B.Skowronek. 11-B.Skowronek to BAMA 49 for 8 yards (9-J.Battle,29-D.Hellams). "
-Notre Dame,4Q,9,123,57,2,Normal,run,7,successful,0.38,,0.39,0.58,K.Williams,,,J.Jobe,D.Hellams,0.5,0.5," 23-K.Williams to BAMA 42 for 7 yards (28-J.Jobe,29-D.Hellams). "
-Notre Dame,4Q,9,124,58,1,Normal,pass,7,successful,,0.41,0.40,0.57,,I.Book,M.Mayer,D.Moses,J.Moody,0.5,0.5," 12-I.Book complete to 87-M.Mayer. 87-M.Mayer to BAMA 35 for 7 yards (32-D.Moses,42-J.Moody). "
-Notre Dame,4Q,9,125,59,2,Normal,pass,4,successful,,0.43,0.42,0.56,,I.Book,C.Tyree,W.Anderson,,1,, 12-I.Book complete to 25-C.Tyree. 25-C.Tyree to BAMA 31 for 4 yards (31-W.Anderson). 
-Notre Dame,4Q,9,126,60,1,Normal,pass,18,explosive,,0.46,0.43,0.55,,I.Book,M.Mayer,P.Surtain,,1,, 12-I.Book complete to 87-M.Mayer. 87-M.Mayer to BAMA 13 for 18 yards (2-P.Surtain). 
-Notre Dame,4Q,9,128,62,1,Red Zone,pass,4,not successful,,0.44,0.42,0.54,,I.Book,M.Mayer,D.Hellams,,1,, 12-I.Book complete to 87-M.Mayer. 87-M.Mayer to BAMA 14 for 4 yards (29-D.Hellams). 
-Notre Dame,4Q,9,129,63,2,Red Zone,run,1,not successful,0.37,,0.41,0.55,I.Book,,,B.Young,,1,, 12-I.Book scrambles to BAMA 13 for 1 yard (47-B.Young). 
-Notre Dame,4Q,9,130,64,3,Red Zone,pass,,not successful,,0.42,0.40,0.54,,I.Book,B.Skowronek,,,,, 12-I.Book incomplete. Intended for 11-B.Skowronek. 
-Notre Dame,4Q,9,131,65,4,Red Zone,pass,,not successful,,0.41,0.40,0.53,,I.Book,A.Davis,,,,, 12-I.Book incomplete. Intended for 3-A.Davis. 
-Alabama,4Q,10,132,54,1,Normal,pass,10,successful,,0.72,0.62,0.42,,M.Jones,J.Metchie,K.Hamilton,J.Owusu-Koramoah,0.5,0.5," 10-M.Jones complete to 8-J.Metchie. 8-J.Metchie to BAMA 24 for 10 yards (14-K.Hamilton,6-J.Owusu-Koramoah). "
-Alabama,4Q,10,133,55,1,Normal,run,2,not successful,0.45,,0.61,0.43,B.Robinson,,,J.Ademilola,D.White,0.5,0.5," 4-B.Robinson to BAMA 26 for 2 yards (57-J.Ademilola,40-D.White). "
-Alabama,4Q,10,134,56,2,Normal,no play,15,successful,,,0.62,,,,,,,,," 10-M.Jones incomplete. Intended for 6-D.Smith. Penalty on ND 19-J.Ademilola, Roughing the passer, 15 yards, enforced at BAMA 26. No Play. "
-Alabama,4Q,10,136,58,1,Normal,run,6,not successful,0.43,,0.60,0.44,B.Robinson,,,M.Liufau,,1,, 4-B.Robinson to BAMA 42 for 6 yards (35-M.Liufau). 
-Alabama,4Q,10,137,59,2,Normal,pass,0,not successful,,0.70,0.59,0.43,,M.Jones,X.Williams,M.Liufau,R.Mills,0.5,0.5," 10-M.Jones complete to 3-X.Williams. 3-X.Williams to BAMA 42 for no gain (35-M.Liufau,99-R.Mills). "
-Alabama,4Q,10,138,60,3,Normal,pass,0,not successful,,0.68,0.58,0.43,,M.Jones,,A.Ogundeji,J.Ademilola,0.5,0.5," 10-M.Jones sacked at BAMA 34 for -8 yards. Penalty on BAMA 10-M.Jones, Intentional grounding, 0 yards, enforced at BAMA 34. (91-A.Ogundeji,57-J.Ademilola). "
-Notre Dame,4Q,10,140,66,1,Normal,pass,3,not successful,,0.39,0.39,0.52,,I.Book,C.Tyree,J.Moody,,1,, 12-I.Book complete to 25-C.Tyree. 25-C.Tyree to ND 23 for 3 yards (42-J.Moody). 
-Notre Dame,4Q,10,141,67,2,Normal,pass,20,explosive,,0.41,0.40,0.51,,I.Book,L.Keys,D.Hellams,,1,, 12-I.Book complete to 13-L.Keys. 13-L.Keys to ND 43 for 20 yards (29-D.Hellams). 
-Notre Dame,4Q,10,142,68,1,Normal,run,3,not successful,0.35,,0.39,0.52,C.Tyree,,,D.Moses,,1,, 25-C.Tyree to ND 46 for 3 yards (32-D.Moses). 
-Notre Dame,4Q,10,143,69,2,Normal,pass,-1,not successful,,0.40,0.39,0.51,,I.Book,,D.Hellams,,1,, 12-I.Book sacked at ND 45 for -1 yard (29-D.Hellams). 
-Notre Dame,4Q,10,144,70,3,Normal,pass,,not successful,,0.39,0.38,0.50,,I.Book,M.Mayer,,,,, 12-I.Book incomplete. Intended for 87-M.Mayer. 
-Notre Dame,4Q,10,145,71,4,Normal,pass,15,explosive,,0.41,0.39,0.49,,I.Book,A.Davis,B.Branch,,1,, 12-I.Book complete to 3-A.Davis. 3-A.Davis to BAMA 40 for 15 yards (14-B.Branch). 
-Notre Dame,4Q,10,146,72,1,Normal,pass,,not successful,,0.39,0.38,0.48,,I.Book,B.Skowronek,,,,, 12-I.Book incomplete. Intended for 11-B.Skowronek. 
-Notre Dame,4Q,10,147,73,2,Normal,no play,15,successful,,,0.39,,,,,,,,," Team penalty on BAMA, Unsportsmanlike conduct, 15 yards, enforced at BAMA 40. No Play. "
-Notre Dame,4Q,10,148,74,1,Normal,pass,2,not successful,,0.38,0.39,0.48,,I.Book,J.McKinley,J.Battle,,1,, 12-I.Book complete to 88-J.McKinley. 88-J.McKinley to BAMA 23 for 2 yards (9-J.Battle). 
-Notre Dame,4Q,10,149,75,2,Normal,pass,10,successful,,0.40,0.40,0.47,,I.Book,M.Mayer,J.Battle,,1,, 12-I.Book complete to 87-M.Mayer. 87-M.Mayer to BAMA 13 for 10 yards (9-J.Battle). 
-Notre Dame,4Q,10,150,76,1,Red Zone,pass,,not successful,,0.39,0.39,0.46,,I.Book,,,,,, 12-I.Book incomplete. 
-Notre Dame,4Q,10,151,77,2,Red Zone,pass,5,not successful,,0.38,0.39,0.46,,I.Book,K.Williams,D.Wright,,1,, 12-I.Book complete to 23-K.Williams. 23-K.Williams pushed ob at BAMA 8 for 5 yards (3-D.Wright). 
-Notre Dame,4Q,10,152,78,3,Red Zone,pass,7,successful,,0.39,0.39,0.45,,I.Book,M.Mayer,D.Moses,J.Jobe,0.5,0.5," 12-I.Book complete to 87-M.Mayer. 87-M.Mayer to BAMA 1 for 7 yards (32-D.Moses,28-J.Jobe). "
-Notre Dame,4Q,10,153,79,1,Red Zone,run,0,not successful,0.34,,0.39,0.46,I.Book,,,J.Moody,,1,, 12-I.Book to BAMA 1 for no gain (42-J.Moody). 
-Notre Dame,4Q,10,154,80,2,Red Zone,run,1,successful,0.36,,0.40,0.46,I.Book,,,,,,," 12-I.Book runs 1 yard for a touchdown. Penalty on BAMA 28-J.Jobe, Offside, declined. "
-Notre Dame,4Q,11,157,81,1,Normal,pass,,not successful,,0.38,0.39,0.46,,I.Book,B.Skowronek,,,,, 12-I.Book incomplete. Intended for 11-B.Skowronek. 
-Notre Dame,4Q,11,158,82,2,Normal,run,11,successful,0.38,,0.40,0.47,I.Book,,,,,,, 12-I.Book scrambles to BAMA 42 for 11 yards. 
-Notre Dame,4Q,11,159,83,1,Normal,pass,14,successful,,0.40,0.41,0.46,,I.Book,J.McKinley,,,,," 12-I.Book incomplete. Intended for 88-J.McKinley. Penalty on BAMA 28-J.Jobe, Pass interference, 14 yards, enforced at BAMA 42. No Play. "
-Notre Dame,4Q,11,160,84,1,Normal,pass,,not successful,,0.39,0.40,0.45,,I.Book,,,,,, 12-I.Book incomplete. 
-Notre Dame,4Q,11,162,86,2,Normal,pass,3,not successful,,0.38,0.40,0.45,,I.Book,C.Tyree,,,,, 12-I.Book complete to 25-C.Tyree. 25-C.Tyree runs ob at BAMA 30 for 3 yards. 
-Notre Dame,4Q,11,163,87,3,Normal,run,15,explosive,0.40,,0.41,0.45,I.Book,,,J.Battle,,1,," 12-I.Book scrambles, pushed ob at BAMA 15 for 15 yards (9-J.Battle). "
-Notre Dame,4Q,11,164,88,1,Red Zone,pass,,not successful,,0.37,0.40,0.45,,I.Book,B.Skowronek,,,,, 12-I.Book incomplete. Intended for 11-B.Skowronek. 
+Ohio State,1Q,1,2,1,1,Normal,run,2,not successful,0.00,,0.00,1.00,T.Sermon,,,C.Harris,W.Anderson,0.5,0.5," 8-T.Sermon to OSU 27 for 2 yards (8-C.Harris,31-W.Anderson). "
+Ohio State,1Q,1,3,2,2,Normal,pass,,not successful,,0.00,0.00,0.50,,J.Fields,T.Sermon,,,,, 1-J.Fields incomplete. Intended for 8-T.Sermon. 
+Ohio State,1Q,1,4,3,3,Normal,run,1,not successful,0.00,,0.00,0.67,J.Fields,,,C.Allen,,1,, 1-J.Fields scrambles to OSU 28 for 1 yard (4-C.Allen). 
+Alabama,1Q,1,6,1,1,Normal,pass,,not successful,,0.00,0.00,0.00,,M.Jones,J.Metchie,,,,, 10-M.Jones incomplete. Intended for 8-J.Metchie. 
+Alabama,1Q,1,7,2,2,Normal,pass,22,explosive,,0.50,0.50,0.00,,M.Jones,D.Smith,M.Williamson,,1,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith to BAMA 44 for 22 yards (21-M.Williamson). 
+Alabama,1Q,1,8,3,1,Normal,pass,12,successful,,0.67,0.67,0.00,,M.Jones,N.Harris,T.Borland,,1,, 10-M.Jones complete to 22-N.Harris. 22-N.Harris to OSU 44 for 12 yards (32-T.Borland). 
+Alabama,1Q,1,9,4,1,Normal,run,2,not successful,0.00,,0.50,0.25,N.Harris,,,J.Cooper,,1,, 22-N.Harris to OSU 42 for 2 yards (0-J.Cooper). 
+Alabama,1Q,1,10,5,2,Normal,run,13,successful,0.50,,0.60,0.40,N.Harris,,,S.Wade,P.Werner,0.5,0.5," 22-N.Harris to OSU 29 for 13 yards (24-S.Wade,20-P.Werner). "
+Alabama,1Q,1,11,6,1,Normal,pass,9,successful,,0.75,0.67,0.33,,M.Jones,D.Smith,S.Banks,T.Borland,0.5,0.5," 10-M.Jones complete to 6-D.Smith. 6-D.Smith to OSU 20 for 9 yards (7-S.Banks,32-T.Borland). "
+Alabama,1Q,1,12,7,2,Normal,run,-2,not successful,0.33,,0.57,0.43,N.Harris,,,S.Wade,,1,, 22-N.Harris to OSU 22 for -2 yards (24-S.Wade). 
+Alabama,1Q,1,13,8,3,Normal,pass,15,explosive,,0.80,0.63,0.38,,M.Jones,J.Waddle,L.Ransom,,1,, 10-M.Jones complete to 17-J.Waddle. 17-J.Waddle pushed ob at OSU 7 for 15 yards (12-L.Ransom). 
+Alabama,1Q,1,14,9,1,Red Zone,pass,,not successful,,0.67,0.56,0.33,,M.Jones,D.Smith,,,,, 10-M.Jones incomplete. Intended for 6-D.Smith. 
+Alabama,1Q,1,15,10,2,Red Zone,pass,2,not successful,,0.57,0.50,0.30,,M.Jones,J.Metchie,S.Banks,,1,, 10-M.Jones complete to 8-J.Metchie. 8-J.Metchie to OSU 5 for 2 yards (7-S.Banks). 
+Alabama,1Q,1,16,11,3,Red Zone,pass,4,not successful,,0.50,0.45,0.27,,M.Jones,S.Bolden,,,,, 10-M.Jones complete to 18-S.Bolden. 18-S.Bolden runs ob at OSU 1 for 4 yards. 
+Alabama,1Q,1,17,12,4,Red Zone,run,1,successful,0.50,,0.50,0.33,N.Harris,,,,,,, 22-N.Harris runs 1 yard for a touchdown. 
+Ohio State,1Q,2,20,5,1,Normal,run,6,successful,0.33,,0.25,0.75,M.Teague,,,W.Anderson,,1,, 33-M.Teague to OSU 31 for 6 yards (31-W.Anderson). 
+Ohio State,1Q,2,21,6,2,Normal,pass,3,successful,,0.50,0.40,0.60,,J.Fields,C.Olave,D.Moses,,1,, 1-J.Fields complete to 2-C.Olave. 2-C.Olave to OSU 34 for 3 yards (32-D.Moses). 
+Ohio State,1Q,2,22,7,3,Normal,run,2,successful,0.50,,0.50,0.67,M.Teague,,,J.Battle,,1,, 33-M.Teague to OSU 36 for 2 yards (9-J.Battle). 
+Ohio State,1Q,2,23,8,1,Normal,pass,,not successful,,0.33,0.43,0.57,,J.Fields,G.Wilson,,,,, 1-J.Fields incomplete. Intended for 5-G.Wilson. 
+Ohio State,1Q,2,24,9,2,Normal,pass,20,explosive,,0.50,0.50,0.50,,J.Fields,C.Olave,D.Hellams,,1,, 1-J.Fields complete to 2-C.Olave. 2-C.Olave pushed ob at BAMA 44 for 20 yards (29-D.Hellams). 
+Ohio State,1Q,2,25,10,1,Normal,run,0,not successful,0.40,,0.44,0.56,M.Teague,,,C.Allen,C.Harris,0.5,0.5," 33-M.Teague to BAMA 44 for no gain (4-C.Allen,8-C.Harris). "
+Ohio State,1Q,2,26,11,2,Normal,pass,36,explosive,,0.60,0.50,0.50,,J.Fields,J.Ruckert,C.Harris,,1,, 1-J.Fields complete to 88-J.Ruckert. 88-J.Ruckert to BAMA 8 for 36 yards (8-C.Harris). 
+Ohio State,1Q,2,27,12,1,Red Zone,run,8,successful,0.50,,0.55,0.55,M.Teague,,,,,,, 33-M.Teague runs 8 yards for a touchdown. 
+Alabama,1Q,2,30,13,1,Normal,pass,32,explosive,,0.56,0.54,0.31,,M.Jones,D.Smith,M.Williamson,,1,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith pushed ob at OSU 43 for 32 yards (21-M.Williamson). 
+Alabama,1Q,2,31,14,1,Normal,pass,12,successful,,0.60,0.57,0.29,,M.Jones,D.Smith,S.Wade,,1,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith to OSU 31 for 12 yards (24-S.Wade). 
+Alabama,1Q,2,32,15,1,Normal,pass,9,successful,,0.64,0.60,0.27,,M.Jones,J.Metchie,,,,, 10-M.Jones complete to 8-J.Metchie. 8-J.Metchie runs ob at OSU 22 for 9 yards. 
+Alabama,1Q,2,33,16,2,Normal,pass,3,successful,,0.67,0.63,0.25,,M.Jones,D.Smith,J.Proctor,,1,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith to OSU 19 for 3 yards (41-J.Proctor). 
+Alabama,1Q,2,34,17,1,Red Zone,run,1,not successful,0.40,,0.59,0.29,N.Harris,,,T.Borland,,1,, 22-N.Harris to OSU 18 for 1 yard (32-T.Borland). 
+Alabama,1Q,2,35,18,2,Red Zone,run,6,not successful,0.33,,0.56,0.33,N.Harris,,,T.Friday,J.Hilliard,0.5,0.5," 22-N.Harris to OSU 12 for 6 yards (54-T.Friday,47-J.Hilliard). "
+Alabama,1Q,2,36,19,3,Red Zone,pass,2,not successful,,0.62,0.53,0.32,,M.Jones,J.Metchie,B.Browning,,1,, 10-M.Jones complete to 8-J.Metchie. 8-J.Metchie to OSU 10 for 2 yards (5-B.Browning). 
+Alabama,1Q,2,37,20,4,Red Zone,run,3,successful,0.43,,0.55,0.35,N.Harris,,,T.Borland,,1,, 22-N.Harris to OSU 7 for 3 yards (32-T.Borland). 
+Alabama,1Q,2,38,21,1,Red Zone,run,4,successful,0.50,,0.57,0.38,N.Harris,,,T.Borland,,1,, 22-N.Harris to OSU 3 for 4 yards (32-T.Borland). 
+Alabama,1Q,2,39,22,2,Red Zone,run,-2,not successful,0.44,,0.55,0.41,N.Harris,,,J.Hilliard,,1,, 22-N.Harris to OSU 5 for -2 yards (47-J.Hilliard). 
+Alabama,2Q,3,40,23,3,Red Zone,pass,5,successful,,0.64,0.57,0.39,,M.Jones,D.Smith,,,,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith runs 5 yards for a touchdown. 
+Ohio State,2Q,3,43,13,1,Normal,pass,14,successful,,0.67,0.58,0.50,,J.Fields,J.Williams,D.Hellams,,1,, 1-J.Fields complete to 6-J.Williams. 6-J.Williams to OSU 39 for 14 yards (29-D.Hellams). 
+Ohio State,2Q,3,44,14,1,Normal,run,3,not successful,0.43,,0.54,0.54,M.Teague,,,C.Barmore,,1,, 33-M.Teague to OSU 42 for 3 yards (58-C.Barmore). 
+Ohio State,2Q,3,45,15,2,Normal,pass,,not successful,,0.57,0.50,0.50,,J.Fields,,,,,, 1-J.Fields incomplete. 
+Ohio State,2Q,3,46,16,3,Normal,pass,13,successful,,0.63,0.53,0.47,,J.Fields,G.Wilson,D.Hellams,B.Branch,0.5,0.5," 1-J.Fields complete to 5-G.Wilson. 5-G.Wilson to BAMA 45 for 13 yards (29-D.Hellams,14-B.Branch). "
+Ohio State,2Q,3,48,18,1,Normal,run,6,not successful,0.38,,0.50,0.50,M.Teague,,,D.Moses,,1,, 33-M.Teague to BAMA 44 for 6 yards (32-D.Moses). 
+Ohio State,2Q,3,49,19,2,Normal,pass,,not successful,,0.56,0.47,0.47,,J.Fields,G.Wilson,,,,, 1-J.Fields incomplete. Intended for 5-G.Wilson. 
+Ohio State,2Q,3,50,20,3,Normal,pass,,not successful,,0.50,0.44,0.44,,J.Fields,M.Teague,,,,, 1-J.Fields incomplete. Intended for 33-M.Teague. 
+Alabama,2Q,4,52,24,1,Normal,pass,12,successful,,0.67,0.58,0.38,,M.Jones,D.Smith,S.Banks,,1,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith to BAMA 24 for 12 yards (7-S.Banks). 
+Alabama,2Q,4,53,25,1,Normal,pass,,not successful,,0.63,0.56,0.36,,M.Jones,,B.Browning,,,," 10-M.Jones sacked at BAMA 19 for -5 yards, FUMBLES (5-B.Browning). 5-B.Browning to BAMA 19 for no gain. "
+Ohio State,2Q,4,54,22,1,Red Zone,pass,15,successful,,0.55,0.47,0.42,,J.Fields,J.Williams,,,,," 1-J.Fields incomplete. Intended for 6-J.Williams. Penalty on BAMA 28-J.Jobe, Pass interference, 15 yards, enforced at BAMA 19. No Play. "
+Ohio State,2Q,4,55,23,1,Red Zone,run,4,successful,0.44,,0.50,0.45,M.Teague,,,,,,, 33-M.Teague runs 4 yards for a touchdown. 
+Alabama,2Q,5,58,26,1,Normal,pass,16,explosive,,0.65,0.58,0.35,,M.Jones,D.Smith,,,,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith runs ob at BAMA 41 for 16 yards. 
+Alabama,2Q,5,59,27,1,Normal,pass,13,successful,,0.67,0.59,0.33,,M.Jones,D.Smith,S.Banks,,1,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith to OSU 46 for 13 yards (7-S.Banks). 
+Alabama,2Q,5,60,28,1,Normal,run,13,successful,0.50,,0.61,0.36,N.Harris,,,S.Banks,B.Browning,0.5,0.5," 22-N.Harris to OSU 33 for 13 yards (7-S.Banks,5-B.Browning). "
+Alabama,2Q,5,61,29,1,Normal,run,7,successful,0.55,,0.62,0.38,M.Jones,,,,,,, 10-M.Jones scrambles to OSU 26 for 7 yards. 
+Alabama,2Q,5,62,30,2,Normal,pass,26,explosive,,0.68,0.63,0.37,,M.Jones,N.Harris,,,,, 10-M.Jones complete to 22-N.Harris. 22-N.Harris runs 26 yards for a touchdown. 
+Ohio State,2Q,5,65,24,1,Normal,run,3,not successful,0.40,,0.48,0.48,M.Teague,,,C.Barmore,D.Moses,0.5,0.5," 33-M.Teague to OSU 28 for 3 yards (58-C.Barmore,32-D.Moses). "
+Ohio State,2Q,5,66,25,2,Normal,run,28,explosive,0.45,,0.50,0.50,J.Fields,,,,,,," 1-J.Fields scrambles, runs ob at BAMA 44 for 28 yards. "
+Ohio State,2Q,5,67,26,1,Normal,run,29,explosive,0.50,,0.52,0.52,M.Teague,,,J.Battle,,1,, 33-M.Teague to BAMA 15 for 29 yards (9-J.Battle). 
+Ohio State,2Q,5,68,27,1,Red Zone,run,3,not successful,0.46,,0.50,0.54,M.Teague,,,D.Moses,,1,, 33-M.Teague to BAMA 12 for 3 yards (32-D.Moses). 
+Ohio State,2Q,5,69,28,2,Red Zone,run,-4,not successful,0.43,,0.48,0.56,M.Teague,,,C.Allen,,1,, 33-M.Teague to BAMA 16 for -4 yards (4-C.Allen). 
+Ohio State,2Q,5,70,29,3,Red Zone,no play,8,successful,,,0.50,,,,,,,,," 1-J.Fields incomplete. Intended for 88-J.Ruckert. Penalty on BAMA 9-J.Battle, Personal Foul, 8 yards, enforced at BAMA 16. No Play. "
+Ohio State,2Q,5,71,30,1,Red Zone,pass,,not successful,,0.50,0.48,0.54,,J.Fields,G.Wilson,,,,, 1-J.Fields incomplete. Intended for 5-G.Wilson. 
+Ohio State,2Q,5,72,31,2,Red Zone,run,2,not successful,0.40,,0.46,0.56,M.Teague,,,C.Allen,D.Moses,0.5,0.5," 33-M.Teague to BAMA 6 for 2 yards (4-C.Allen,32-D.Moses). "
+Ohio State,2Q,5,73,32,3,Red Zone,pass,,not successful,,0.46,0.45,0.54,,J.Fields,J.Ruckert,,,,, 1-J.Fields incomplete. Intended for 88-J.Ruckert. 
+Alabama,2Q,6,76,31,1,Normal,pass,,not successful,,0.65,0.61,0.35,,M.Jones,J.Metchie,,,,, 10-M.Jones incomplete. Intended for 8-J.Metchie. 
+Alabama,2Q,6,78,33,2,Normal,pass,16,explosive,,0.67,0.63,0.34,,M.Jones,J.Metchie,T.Borland,,1,, 10-M.Jones complete to 8-J.Metchie. 8-J.Metchie to BAMA 36 for 16 yards (32-T.Borland). 
+Alabama,2Q,6,79,34,1,Normal,run,6,successful,0.58,,0.64,0.36,N.Harris,,,W.Davis,,1,, 22-N.Harris to BAMA 42 for 6 yards (52-W.Davis). 
+Alabama,2Q,6,80,35,2,Normal,pass,44,explosive,,0.68,0.65,0.35,,M.Jones,D.Smith,J.Proctor,,1,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith pushed ob at OSU 14 for 44 yards (41-J.Proctor). 
+Alabama,2Q,6,81,36,1,Red Zone,pass,9,successful,,0.70,0.66,0.34,,M.Jones,J.Metchie,,,,," 10-M.Jones incomplete. Intended for 8-J.Metchie. Penalty on OSU 7-S.Banks, Pass interference, 9 yards, enforced at OSU 14. No Play. "
+Alabama,2Q,6,82,37,1,Red Zone,pass,5,successful,,0.71,0.67,0.33,,M.Jones,D.Smith,,,,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith runs 5 yards for a touchdown. 
+Ohio State,2Q,6,85,34,1,Normal,pass,,not successful,,0.43,0.43,0.52,,J.Fields,M.Teague,,,,, 1-J.Fields incomplete. Intended for 33-M.Teague. 
+Ohio State,2Q,6,86,35,2,Normal,pass,,not successful,,0.40,0.42,0.50,,J.Fields,G.Wilson,,,,, 1-J.Fields incomplete. Intended for 5-G.Wilson. 
+Ohio State,2Q,6,87,36,3,Normal,pass,4,not successful,,0.38,0.41,0.48,,J.Fields,M.Crowley,C.Harris,,1,, 1-J.Fields complete to 24-M.Crowley. 24-M.Crowley to OSU 29 for 4 yards (8-C.Harris). 
+Alabama,2Q,7,89,38,1,Normal,pass,14,successful,,0.72,0.68,0.32,,M.Jones,N.Harris,J.Proctor,,1,, 10-M.Jones complete to 22-N.Harris. 22-N.Harris to OSU 46 for 14 yards (41-J.Proctor). 
+Alabama,2Q,7,90,39,1,Normal,pass,4,not successful,,0.69,0.66,0.32,,M.Jones,N.Harris,J.Cooper,,1,, 10-M.Jones complete to 22-N.Harris. 22-N.Harris pushed ob at OSU 42 for 4 yards (0-J.Cooper). 
+Alabama,2Q,7,91,40,2,Normal,pass,42,explosive,,0.70,0.67,0.31,,M.Jones,D.Smith,,,,, 10-M.Jones complete to 6-D.Smith. 6-D.Smith runs 42 yards for a touchdown. 
+Ohio State,2Q,7,94,38,1,Normal,run,3,not successful,0.38,,0.39,0.50,M.Crowley,,,B.Branch,,1,, 24-M.Crowley to OSU 28 for 3 yards (14-B.Branch). 
+Ohio State,2Q,7,96,40,2,Normal,run,3,not successful,0.35,,0.38,0.52,M.Crowley,,,W.Anderson,,1,, 24-M.Crowley to OSU 21 for 3 yards (31-W.Anderson). 
+Ohio State,2Q,7,97,41,3,Normal,run,2,not successful,0.33,,0.37,0.53,M.Crowley,,,L.Ray,W.Anderson,0.5,0.5," 24-M.Crowley to OSU 23 for 2 yards (18-L.Ray,31-W.Anderson). "
+Alabama,2Q,8,99,41,1,Normal,pass,6,successful,,0.71,0.68,0.30,,M.Jones,J.Metchie,H.Garrett,,1,, 10-M.Jones complete to 8-J.Metchie. 8-J.Metchie to BAMA 34 for 6 yards (92-H.Garrett). 
+Alabama,2Q,8,100,42,2,Normal,pass,10,successful,,0.72,0.68,0.29,,M.Jones,N.Harris,B.Browning,,1,, 10-M.Jones complete to 22-N.Harris. 22-N.Harris to BAMA 44 for 10 yards (5-B.Browning). 
+Alabama,2Q,8,101,43,1,Normal,pass,7,successful,,0.73,0.69,0.29,,M.Jones,S.Bolden,,,,, 10-M.Jones complete to 18-S.Bolden. 18-S.Bolden to OSU 49 for 7 yards. 
+Alabama,2Q,8,103,45,2,Normal,pass,,not successful,,0.71,0.67,0.28,,M.Jones,X.Williams,,,,, 10-M.Jones incomplete. Intended for 3-X.Williams. 
+Alabama,2Q,8,104,46,3,Normal,pass,,not successful,,0.69,0.66,0.27,,M.Jones,D.Smith,,,,, 10-M.Jones incomplete. Intended for 6-D.Smith. 
+Alabama,3Q,9,107,48,1,Normal,run,13,successful,0.62,,0.67,0.29,N.Harris,,,J.Hilliard,,1,, 22-N.Harris to BAMA 36 for 13 yards (47-J.Hilliard). 
+Alabama,3Q,9,108,49,1,Normal,pass,,not successful,,0.67,0.65,0.28,,M.Jones,D.Smith,,,,, 10-M.Jones incomplete. Intended for 6-D.Smith. 
+Alabama,3Q,9,109,50,2,Normal,run,4,not successful,0.57,,0.64,0.30,N.Harris,,,P.Werner,,1,, 22-N.Harris to BAMA 40 for 4 yards (20-P.Werner). 
+Alabama,3Q,9,110,51,3,Normal,pass,9,successful,,0.68,0.65,0.29,,M.Jones,J.Metchie,S.Banks,,1,, 10-M.Jones complete to 8-J.Metchie. 8-J.Metchie to BAMA 49 for 9 yards (7-S.Banks). 
+Alabama,3Q,9,111,52,1,Normal,pass,13,successful,,0.69,0.65,0.29,,M.Jones,J.Waddle,,,,, 10-M.Jones complete to 17-J.Waddle. 17-J.Waddle to OSU 38 for 13 yards. 
+Alabama,3Q,9,112,53,1,Normal,run,1,not successful,0.53,,0.64,0.30,N.Harris,,,H.Garrett,,1,, 22-N.Harris to OSU 37 for 1 yard (92-H.Garrett). 
+Alabama,3Q,9,113,54,2,Normal,pass,10,successful,,0.69,0.65,0.29,,M.Jones,N.Harris,T.Borland,,1,, 10-M.Jones complete to 22-N.Harris. 22-N.Harris to OSU 27 for 10 yards (32-T.Borland). 
+Alabama,3Q,9,114,55,1,Normal,pass,-1,not successful,,0.68,0.63,0.29,,M.Jones,,A.Jackson,,1,, 10-M.Jones sacked at OSU 28 for -1 yard (52-A.Jackson). 
+Alabama,3Q,9,115,56,2,Normal,pass,12,successful,,0.68,0.64,0.28,,M.Jones,X.Williams,S.Banks,,1,, 10-M.Jones complete to 3-X.Williams. 3-X.Williams to OSU 16 for 12 yards (7-S.Banks). 
+Alabama,3Q,9,116,57,1,Red Zone,pass,5,successful,,0.69,0.65,0.28,,M.Jones,J.Billingsley,B.Browning,,1,, 10-M.Jones complete to 19-J.Billingsley. 19-J.Billingsley to OSU 11 for 5 yards (5-B.Browning). 
+Alabama,3Q,9,117,58,2,Red Zone,pass,,not successful,,0.68,0.64,0.27,,M.Jones,M.Forristall,,,,, 10-M.Jones incomplete. Intended for 87-M.Forristall. 
+Alabama,3Q,9,118,59,3,Red Zone,run,6,successful,0.56,,0.64,0.29,N.Harris,,,P.Werner,,1,, 22-N.Harris to OSU 5 for 6 yards (20-P.Werner). 
+Alabama,3Q,9,119,60,1,Red Zone,run,0,not successful,0.53,,0.63,0.30,N.Harris,,,P.Werner,T.Borland,0.5,0.5," 22-N.Harris to OSU 5 for no gain (20-P.Werner,32-T.Borland). "
+Alabama,3Q,9,120,61,2,Red Zone,pass,,not successful,,0.66,0.62,0.29,,M.Jones,J.Metchie,,,,, 10-M.Jones incomplete. Intended for 8-J.Metchie. 
+Alabama,3Q,9,121,62,3,Red Zone,pass,3,not successful,,0.64,0.61,0.29,,M.Jones,N.Harris,S.Wade,J.Hilliard,0.5,0.5," 10-M.Jones complete to 22-N.Harris. 22-N.Harris to OSU 2 for 3 yards (24-S.Wade,47-J.Hilliard). "
+Ohio State,3Q,9,124,43,1,Normal,pass,17,explosive,,0.41,0.39,0.51,,J.Fields,G.Wilson,,,,, 1-J.Fields complete to 5-G.Wilson. 5-G.Wilson runs ob at OSU 42 for 17 yards. 
+Ohio State,3Q,9,125,44,1,Normal,no play,5,successful,,,0.41,,,,,,,,," Penalty on BAMA 4-C.Allen, Offside, 5 yards, enforced at OSU 42. No Play. "
+Ohio State,3Q,9,126,45,1,Normal,run,33,explosive,0.37,,0.42,0.53,J.Fields,,,C.Harris,,1,, 1-J.Fields to BAMA 20 for 33 yards (8-C.Harris). 
+Ohio State,3Q,9,127,46,1,Normal,pass,20,explosive,,0.44,0.44,0.51,,J.Fields,G.Wilson,,,,, 1-J.Fields complete to 5-G.Wilson. 5-G.Wilson runs 20 yards for a touchdown. 
+Alabama,3Q,10,130,64,1,Normal,run,2,not successful,0.50,,0.60,0.30,B.Robinson,,,J.Hilliard,H.Garrett,0.5,0.5," 4-B.Robinson to BAMA 27 for 2 yards (47-J.Hilliard,92-H.Garrett). "
+Alabama,3Q,10,131,65,2,Normal,pass,6,successful,,0.65,0.61,0.30,,M.Jones,J.Waddle,,,,, 10-M.Jones complete to 17-J.Waddle. 17-J.Waddle runs ob at BAMA 33 for 6 yards. 
+Alabama,3Q,10,132,66,3,Normal,pass,22,explosive,,0.66,0.61,0.29,,M.Jones,J.Billingsley,T.Borland,,1,, 10-M.Jones complete to 19-J.Billingsley. 19-J.Billingsley to OSU 45 for 22 yards (32-T.Borland). 
+Alabama,3Q,10,133,67,1,Normal,run,10,successful,0.53,,0.62,0.30,M.Jones,,,P.Werner,,1,, 10-M.Jones scrambles to OSU 35 for 10 yards (20-P.Werner). 
+Alabama,3Q,10,134,68,1,Normal,run,4,not successful,0.50,,0.61,0.31,B.Robinson,,,P.Werner,T.Borland,0.5,0.5," 4-B.Robinson to OSU 31 for 4 yards (20-P.Werner,32-T.Borland). "
+Alabama,3Q,10,135,69,2,Normal,run,21,explosive,0.52,,0.62,0.32,B.Robinson,,,S.Wade,B.Browning,0.5,0.5," 4-B.Robinson to OSU 10 for 21 yards (24-S.Wade,5-B.Browning). "
+Alabama,3Q,10,136,70,1,Red Zone,run,5,successful,0.55,,0.62,0.33,B.Robinson,,,T.Borland,T.Vincent,0.5,0.5," 4-B.Robinson to OSU 5 for 5 yards (32-T.Borland,6-T.Vincent). "
+Alabama,3Q,10,137,71,2,Red Zone,pass,5,successful,,0.67,0.63,0.33,,M.Jones,S.Bolden,,,,, 10-M.Jones complete to 18-S.Bolden. 18-S.Bolden runs 5 yards for a touchdown. 
+Ohio State,3Q,10,140,47,1,Normal,pass,11,successful,,0.47,0.45,0.50,,J.Fields,C.Olave,,,,, 1-J.Fields complete to 2-C.Olave. 2-C.Olave runs ob at OSU 36 for 11 yards. 
+Ohio State,3Q,10,141,48,1,Normal,run,2,not successful,0.35,,0.44,0.51,M.Teague,,,D.Wright,,1,, 33-M.Teague pushed ob at OSU 38 for 2 yards (3-D.Wright). 
+Ohio State,3Q,10,142,49,2,Normal,run,4,not successful,0.33,,0.43,0.53,J.Fields,,,J.Jobe,,1,, 1-J.Fields to OSU 42 for 4 yards (28-J.Jobe). 
+Ohio State,3Q,10,143,50,3,Normal,run,3,not successful,0.32,,0.42,0.54,M.Teague,,,D.Moses,C.Barmore,0.5,0.5," 33-M.Teague to OSU 45 for 3 yards (32-D.Moses,58-C.Barmore). "
+Ohio State,3Q,10,144,51,4,Normal,run,-2,not successful,0.30,,0.41,0.55,M.Teague,,,C.Barmore,,1,, 33-M.Teague to OSU 43 for -2 yards (58-C.Barmore). 
+Alabama,3Q,11,145,72,1,Normal,run,0,not successful,0.52,,0.62,0.34,N.Harris,,,W.Davis,,1,, 22-N.Harris to OSU 43 for no gain (52-W.Davis). 
+Alabama,3Q,11,146,73,2,Normal,pass,27,explosive,,0.67,0.62,0.33,,M.Jones,J.Metchie,P.Werner,,1,, 10-M.Jones complete to 8-J.Metchie. 8-J.Metchie to OSU 16 for 27 yards (20-P.Werner). 
+Alabama,4Q,12,147,74,1,Red Zone,run,2,not successful,0.50,,0.61,0.34,N.Harris,,,T.Borland,,1,, 22-N.Harris to OSU 14 for 2 yards (32-T.Borland). 
+Alabama,4Q,12,148,75,2,Red Zone,pass,10,successful,,0.68,0.62,0.34,,M.Jones,J.Metchie,J.Proctor,T.Borland,0.5,0.5," 10-M.Jones complete to 8-J.Metchie. 8-J.Metchie to OSU 4 for 10 yards (41-J.Proctor,32-T.Borland). "
+Alabama,4Q,12,149,76,1,Red Zone,run,3,successful,0.52,,0.63,0.35,N.Harris,,,A.Jackson,,1,, 22-N.Harris to OSU 1 for 3 yards (52-A.Jackson). 
+Alabama,4Q,12,150,77,2,Red Zone,run,1,successful,0.54,,0.63,0.36,N.Harris,,,,,,, 22-N.Harris runs 1 yard for a touchdown. 
+Ohio State,4Q,11,153,52,1,Normal,run,0,not successful,0.29,,0.40,0.56,M.Crowley,,,C.Harris,,1,, 24-M.Crowley to OSU 25 for no gain (8-C.Harris). 
+Ohio State,4Q,11,154,53,2,Normal,pass,-3,not successful,,0.45,0.39,0.55,,J.Fields,C.Olave,P.Surtain,,1,, 1-J.Fields complete to 2-C.Olave. 2-C.Olave to OSU 22 for -3 yards (2-P.Surtain). 
+Ohio State,4Q,11,155,54,3,Normal,pass,14,successful,,0.48,0.40,0.53,,J.Fields,C.Olave,J.Jobe,,1,, 1-J.Fields complete to 2-C.Olave. 2-C.Olave pushed ob at OSU 36 for 14 yards (28-J.Jobe). 
+Ohio State,4Q,11,156,55,1,Normal,pass,10,successful,,0.50,0.42,0.52,,J.Fields,C.Olave,P.Surtain,,1,, 1-J.Fields complete to 2-C.Olave. 2-C.Olave pushed ob at OSU 46 for 10 yards (2-P.Surtain). 
+Ohio State,4Q,11,157,56,1,Normal,pass,,not successful,,0.48,0.41,0.51,,J.Fields,J.Williams,,,,, 1-J.Fields incomplete. Intended for 6-J.Williams. 
+Ohio State,4Q,11,158,57,2,Normal,pass,5,not successful,,0.46,0.40,0.50,,J.Fields,J.Smith-Njigba,B.Branch,,1,, 1-J.Fields complete to 11-J.Smith-Njigba. 11-J.Smith-Njigba to BAMA 49 for 5 yards (14-B.Branch). 
+Ohio State,4Q,11,160,59,3,Normal,pass,15,explosive,,0.48,0.41,0.49,,J.Fields,J.Smith-Njigba,B.Branch,,1,, 1-J.Fields complete to 11-J.Smith-Njigba. 11-J.Smith-Njigba to BAMA 39 for 15 yards (14-B.Branch). 
+Ohio State,4Q,11,161,60,1,Normal,run,2,not successful,0.28,,0.40,0.50,M.Crowley,,,B.Davis,,1,, 24-M.Crowley to BAMA 37 for 2 yards (1-B.Davis). 
+Ohio State,4Q,11,162,61,2,Normal,run,4,not successful,0.27,,0.40,0.51,M.Crowley,,,D.Wright,,1,, 24-M.Crowley to BAMA 33 for 4 yards (3-D.Wright). 
+Ohio State,4Q,11,163,62,3,Normal,run,7,successful,0.30,,0.41,0.52,J.Fields,,,,,,," 1-J.Fields scrambles, runs ob at BAMA 26 for 7 yards. "
+Ohio State,4Q,11,164,63,1,Normal,pass,6,successful,,0.50,0.42,0.51,,J.Fields,C.Olave,,,,, 1-J.Fields complete to 2-C.Olave. 2-C.Olave to BAMA 20 for 6 yards. 
+Ohio State,4Q,11,165,64,2,Normal,pass,20,explosive,,0.52,0.43,0.50,,J.Fields,J.Smith-Njigba,,,,, 1-J.Fields complete to 11-J.Smith-Njigba. 11-J.Smith-Njigba runs 20 yards for a touchdown. 
+Ohio State,4Q,11,166,65,2,Normal,pass,,not successful,,0.50,0.42,0.49,,J.Fields,J.Smith-Njigba,,,,, 1-J.Fields incomplete. Intended for 11-J.Smith-Njigba. 
+Ohio State,4Q,11,167,66,3,Normal,pass,8,successful,,0.52,0.43,0.48,,J.Fields,C.Olave,J.Jobe,,1,, 1-J.Fields complete to 2-C.Olave. 2-C.Olave to BAMA 12 for 8 yards (28-J.Jobe). 
+Ohio State,4Q,11,168,67,1,Red Zone,no play,6,successful,,,0.44,,,,,,,,," Penalty on BAMA 58-C.Barmore, Roughing the passer, 6 yards, enforced at BAMA 12. No Play. "
+Ohio State,4Q,11,169,68,1,Red Zone,pass,,not successful,,0.50,0.43,0.47,,J.Fields,M.Crowley,,,,, 1-J.Fields incomplete. Intended for 24-M.Crowley. 
+Ohio State,4Q,11,170,69,2,Red Zone,pass,,not successful,,0.48,0.43,0.47,,J.Fields,J.Smith-Njigba,,,,, 1-J.Fields incomplete. Intended for 11-J.Smith-Njigba. 
+Ohio State,4Q,11,171,70,3,Red Zone,pass,,not successful,,0.47,0.42,0.46,,J.Fields,C.Olave,,,,, 1-J.Fields incomplete. Intended for 2-C.Olave. 
+Ohio State,4Q,11,172,71,4,Red Zone,pass,,not successful,,0.45,0.41,0.45,,J.Fields,J.Fleming,,,,, 1-J.Fields incomplete. Intended for 4-J.Fleming. 
+Alabama,4Q,13,173,78,1,Normal,run,0,not successful,0.52,,0.62,0.36,N.Harris,,,J.Hilliard,,1,, 22-N.Harris to BAMA 6 for no gain (47-J.Hilliard). 
+Alabama,4Q,13,174,79,2,Normal,run,4,not successful,0.50,,0.61,0.37,N.Harris,,,T.Borland,P.Werner,0.5,0.5," 22-N.Harris to BAMA 10 for 4 yards (32-T.Borland,20-P.Werner). "
+Alabama,4Q,13,175,80,3,Normal,pass,,not successful,,0.67,0.61,0.37,,M.Jones,N.Harris,,,,, 10-M.Jones incomplete. Intended for 22-N.Harris. 
+Ohio State,4Q,12,177,72,1,Normal,pass,-6,not successful,,0.44,0.41,0.44,,J.Fields,,C.Barmore,,1,, 1-J.Fields sacked at OSU 47 for -6 yards (58-C.Barmore). 
+Ohio State,4Q,12,178,73,2,Normal,pass,1,not successful,,0.43,0.40,0.44,,J.Fields,M.Teague,J.Jobe,,1,, 1-J.Fields complete to 33-M.Teague. 33-M.Teague to OSU 48 for 1 yard (28-J.Jobe). 
+Ohio State,4Q,12,179,74,3,Normal,pass,,not successful,,0.42,0.39,0.43,,J.Fields,J.Williams,,,,, 1-J.Fields incomplete. Intended for 6-J.Williams. 
+Alabama,4Q,14,181,82,1,Normal,run,13,successful,0.52,,0.61,0.38,B.Robinson,,,J.Proctor,,1,, 4-B.Robinson to BAMA 31 for 13 yards (41-J.Proctor). 
+Alabama,4Q,14,182,83,1,Normal,run,4,not successful,0.50,,0.60,0.38,B.Robinson,,,T.Friday,,1,, 4-B.Robinson to BAMA 35 for 4 yards (54-T.Friday). 
+Alabama,4Q,14,183,84,2,Normal,run,6,successful,0.52,,0.61,0.39,B.Robinson,,,T.Vincent,Z.Harrison,0.5,0.5," 4-B.Robinson to BAMA 41 for 6 yards (6-T.Vincent,9-Z.Harrison). "
+Alabama,4Q,14,184,85,1,Normal,run,-1,not successful,0.50,,0.60,0.40,B.Robinson,,,J.Hilliard,,1,, 4-B.Robinson to BAMA 40 for -1 yard (47-J.Hilliard). 
+Alabama,4Q,14,185,86,2,Normal,run,2,not successful,0.48,,0.59,0.41,B.Robinson,,,D.Gant,,1,, 4-B.Robinson to BAMA 42 for 2 yards (19-D.Gant). 
+Alabama,4Q,14,186,87,3,Normal,run,13,successful,0.50,,0.60,0.41,B.Robinson,,,D.Gant,,1,, 4-B.Robinson to OSU 45 for 13 yards (19-D.Gant). 

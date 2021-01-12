@@ -137,7 +137,7 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@0.7.0"></script>
     <script src="../cfb-charts/js/plugins.js"></script>
-    <script src="../cfb-charts/js/main.js"></script>
+    <!-- <script src="../cfb-charts/js/main.js"></script> -->
     <script src=" ../cfb-charts/js/ncaa-colors-calc.js"></script>
     <script src="../cfb-charts/js/charts.js"></script>
   
@@ -148,12 +148,12 @@
       var gameData;
 
       // use if needed for a custom color override:
-      // teamTwoData = {
-      //   name: "Arkansas",
-      //   color: "rgba(237, 88, 125, 0.46)",
-      //   colorLight: "rgba(237, 88, 125, 0.24)",
-      //   colorDark: "rgba(237, 88, 125, 0.84)",
-      // }
+      teamTwoData = {
+        name: "Ohio State",
+        color: "rgba(00,0,0,0.45)",
+        colorLight: "rgba(00,0,0,0.28)",
+        colorDark: "rgba(0,0,0,0.85)",
+      }
 
       allCharts("all_plays.csv");
       // prefix for RBR: https://couchux.github.io/RBR_charts/...
