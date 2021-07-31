@@ -1,0 +1,12 @@
+[
+  {
+    "x": "Alabama",
+    "Success Rate": 0.57,
+    "Explosiveness Rate": 0.18
+  },
+  {
+    "x": "Florida",
+    "Success Rate": 0.48,
+    "Explosiveness Rate": 0.17
+  }
+]

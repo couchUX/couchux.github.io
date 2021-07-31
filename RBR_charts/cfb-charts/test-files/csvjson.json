@@ -1,0 +1,896 @@
+[
+  {
+    "Play per team": 1,
+    "offense": "Alabama",
+    "Rush Rate": "100.0%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 2,
+    "offense": "Alabama",
+    "Rush Rate": "50.0%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 3,
+    "offense": "Alabama",
+    "Rush Rate": "66.7%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 4,
+    "offense": "Alabama",
+    "Rush Rate": "75.0%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 5,
+    "offense": "Alabama",
+    "Rush Rate": "60.0%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 6,
+    "offense": "Alabama",
+    "Rush Rate": "50.0%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 7,
+    "offense": "Alabama",
+    "Rush Rate": "42.9%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 8,
+    "offense": "Alabama",
+    "Rush Rate": "37.5%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 9,
+    "offense": "Alabama",
+    "Rush Rate": "44.4%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 10,
+    "offense": "Alabama",
+    "Rush Rate": "50.0%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 11,
+    "offense": "Alabama",
+    "Rush Rate": "45.5%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 12,
+    "offense": "Alabama",
+    "Rush Rate": "41.7%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 13,
+    "offense": "Alabama",
+    "Rush Rate": "46.2%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 14,
+    "offense": "Alabama",
+    "Rush Rate": "50.0%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 15,
+    "offense": "Alabama",
+    "Rush Rate": "53.3%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 16,
+    "offense": "Alabama",
+    "Rush Rate": "50.0%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 17,
+    "offense": "Alabama",
+    "Rush Rate": "47.1%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 18,
+    "offense": "Alabama",
+    "Rush Rate": "44.4%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 19,
+    "offense": "Alabama",
+    "Rush Rate": "47.4%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 20,
+    "offense": "Alabama",
+    "Rush Rate": "50.0%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 21,
+    "offense": "Alabama",
+    "Rush Rate": "52.4%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 22,
+    "offense": "Alabama",
+    "Rush Rate": "50.0%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 23,
+    "offense": "Alabama",
+    "Rush Rate": "47.8%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 24,
+    "offense": "Alabama",
+    "Rush Rate": "45.8%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 25,
+    "offense": "Alabama",
+    "Rush Rate": "48.0%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 26,
+    "offense": "Alabama",
+    "Rush Rate": "46.2%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 27,
+    "offense": "Alabama",
+    "Rush Rate": "44.4%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 28,
+    "offense": "Alabama",
+    "Rush Rate": "46.4%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 29,
+    "offense": "Alabama",
+    "Rush Rate": "48.3%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 30,
+    "offense": "Alabama",
+    "Rush Rate": "46.7%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 31,
+    "offense": "Alabama",
+    "Rush Rate": "45.2%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 32,
+    "offense": "Alabama",
+    "Rush Rate": "46.9%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 33,
+    "offense": "Alabama",
+    "Rush Rate": "45.5%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 34,
+    "offense": "Alabama",
+    "Rush Rate": "47.1%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 35,
+    "offense": "Alabama",
+    "Rush Rate": "48.6%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 36,
+    "offense": "Alabama",
+    "Rush Rate": "47.2%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 37,
+    "offense": "Alabama",
+    "Rush Rate": "45.9%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 38,
+    "offense": "Alabama",
+    "Rush Rate": "44.7%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 39,
+    "offense": "Alabama",
+    "Rush Rate": "46.2%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 40,
+    "offense": "Alabama",
+    "Rush Rate": "47.5%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 41,
+    "offense": "Alabama",
+    "Rush Rate": "48.8%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 42,
+    "offense": "Alabama",
+    "Rush Rate": "50.0%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 43,
+    "offense": "Alabama",
+    "Rush Rate": "48.8%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 44,
+    "offense": "Alabama",
+    "Rush Rate": "47.7%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 45,
+    "offense": "Alabama",
+    "Rush Rate": "46.7%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 46,
+    "offense": "Alabama",
+    "Rush Rate": "45.7%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 47,
+    "offense": "Alabama",
+    "Rush Rate": "44.7%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 48,
+    "offense": "Alabama",
+    "Rush Rate": "43.8%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 49,
+    "offense": "Alabama",
+    "Rush Rate": "42.9%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 50,
+    "offense": "Alabama",
+    "Rush Rate": "42.0%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 51,
+    "offense": "Alabama",
+    "Rush Rate": "41.2%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 52,
+    "offense": "Alabama",
+    "Rush Rate": "40.4%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 53,
+    "offense": "Alabama",
+    "Rush Rate": "39.6%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 54,
+    "offense": "Alabama",
+    "Rush Rate": "38.9%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 55,
+    "offense": "Alabama",
+    "Rush Rate": "40.0%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 56,
+    "offense": "Alabama",
+    "Rush Rate": "41.1%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 57,
+    "offense": "Alabama",
+    "Rush Rate": "40.4%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 58,
+    "offense": "Alabama",
+    "Rush Rate": "39.7%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 59,
+    "offense": "Alabama",
+    "Rush Rate": "40.7%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 60,
+    "offense": "Alabama",
+    "Rush Rate": "40.0%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 61,
+    "offense": "Alabama",
+    "Rush Rate": "39.3%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 62,
+    "offense": "Alabama",
+    "Rush Rate": "40.3%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 63,
+    "offense": "Alabama",
+    "Rush Rate": "39.7%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 64,
+    "offense": "Alabama",
+    "Rush Rate": "39.1%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 65,
+    "offense": "Alabama",
+    "Rush Rate": "38.5%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 66,
+    "offense": "Alabama",
+    "Rush Rate": "39.4%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 67,
+    "offense": "Alabama",
+    "Rush Rate": "38.8%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 68,
+    "offense": "Alabama",
+    "Rush Rate": "39.7%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 69,
+    "offense": "Alabama",
+    "Rush Rate": "39.1%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 70,
+    "offense": "Alabama",
+    "Rush Rate": "40.0%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 71,
+    "offense": "Alabama",
+    "Rush Rate": "40.8%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 72,
+    "offense": "Alabama",
+    "Rush Rate": "41.7%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 73,
+    "offense": "Alabama",
+    "Rush Rate": "42.5%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 74,
+    "offense": "Alabama",
+    "Rush Rate": "43.2%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 75,
+    "offense": "Alabama",
+    "Rush Rate": "42.7%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 76,
+    "offense": "Alabama",
+    "Rush Rate": "42.1%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 77,
+    "offense": "Alabama",
+    "Rush Rate": "42.9%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 78,
+    "offense": "Alabama",
+    "Rush Rate": "43.6%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 79,
+    "offense": "Alabama",
+    "Rush Rate": "44.3%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 80,
+    "offense": "Alabama",
+    "Rush Rate": "43.8%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 81,
+    "offense": "Alabama",
+    "Rush Rate": "44.4%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 82,
+    "offense": "Alabama",
+    "Rush Rate": "45.1%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 83,
+    "offense": "Alabama",
+    "Rush Rate": "45.8%",
+    "colorMain": "rgba(244, 37, 37, 0.8)"
+  },
+  {
+    "Play per team": 1,
+    "offense": "Florida",
+    "Rush Rate": "0.0%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  },
+  {
+    "Play per team": 2,
+    "offense": "Florida",
+    "Rush Rate": "50.0%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  },
+  {
+    "Play per team": 3,
+    "offense": "Florida",
+    "Rush Rate": "33.3%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  },
+  {
+    "Play per team": 4,
+    "offense": "Florida",
+    "Rush Rate": "50.0%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  },
+  {
+    "Play per team": 5,
+    "offense": "Florida",
+    "Rush Rate": "40.0%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  },
+  {
+    "Play per team": 6,
+    "offense": "Florida",
+    "Rush Rate": "33.3%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  },
+  {
+    "Play per team": 7,
+    "offense": "Florida",
+    "Rush Rate": "28.6%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  },
+  {
+    "Play per team": 8,
+    "offense": "Florida",
+    "Rush Rate": "37.5%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  },
+  {
+    "Play per team": 9,
+    "offense": "Florida",
+    "Rush Rate": "33.3%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  },
+  {
+    "Play per team": 10,
+    "offense": "Florida",
+    "Rush Rate": "30.0%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  },
+  {
+    "Play per team": 11,
+    "offense": "Florida",
+    "Rush Rate": "27.3%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  },
+  {
+    "Play per team": 12,
+    "offense": "Florida",
+    "Rush Rate": "33.3%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  },
+  {
+    "Play per team": 13,
+    "offense": "Florida",
+    "Rush Rate": "30.8%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  },
+  {
+    "Play per team": 14,
+    "offense": "Florida",
+    "Rush Rate": "35.7%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  },
+  {
+    "Play per team": 15,
+    "offense": "Florida",
+    "Rush Rate": "40.0%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  },
+  {
+    "Play per team": 16,
+    "offense": "Florida",
+    "Rush Rate": "37.5%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  },
+  {
+    "Play per team": 17,
+    "offense": "Florida",
+    "Rush Rate": "35.3%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  },
+  {
+    "Play per team": 18,
+    "offense": "Florida",
+    "Rush Rate": "33.3%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  },
+  {
+    "Play per team": 19,
+    "offense": "Florida",
+    "Rush Rate": "36.8%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  },
+  {
+    "Play per team": 20,
+    "offense": "Florida",
+    "Rush Rate": "35.0%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  },
+  {
+    "Play per team": 21,
+    "offense": "Florida",
+    "Rush Rate": "33.3%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  },
+  {
+    "Play per team": 22,
+    "offense": "Florida",
+    "Rush Rate": "31.8%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  },
+  {
+    "Play per team": 23,
+    "offense": "Florida",
+    "Rush Rate": "30.4%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  },
+  {
+    "Play per team": 24,
+    "offense": "Florida",
+    "Rush Rate": "33.3%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  },
+  {
+    "Play per team": 25,
+    "offense": "Florida",
+    "Rush Rate": "32.0%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  },
+  {
+    "Play per team": 26,
+    "offense": "Florida",
+    "Rush Rate": "30.8%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  },
+  {
+    "Play per team": 27,
+    "offense": "Florida",
+    "Rush Rate": "29.6%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  },
+  {
+    "Play per team": 28,
+    "offense": "Florida",
+    "Rush Rate": "32.1%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  },
+  {
+    "Play per team": 29,
+    "offense": "Florida",
+    "Rush Rate": "31.0%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  },
+  {
+    "Play per team": 30,
+    "offense": "Florida",
+    "Rush Rate": "30.0%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  },
+  {
+    "Play per team": 31,
+    "offense": "Florida",
+    "Rush Rate": "29.0%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  },
+  {
+    "Play per team": 32,
+    "offense": "Florida",
+    "Rush Rate": "31.3%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  },
+  {
+    "Play per team": 33,
+    "offense": "Florida",
+    "Rush Rate": "30.3%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  },
+  {
+    "Play per team": 34,
+    "offense": "Florida",
+    "Rush Rate": "29.4%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  },
+  {
+    "Play per team": 35,
+    "offense": "Florida",
+    "Rush Rate": "28.6%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  },
+  {
+    "Play per team": 36,
+    "offense": "Florida",
+    "Rush Rate": "27.8%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  },
+  {
+    "Play per team": 37,
+    "offense": "Florida",
+    "Rush Rate": "27.0%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  },
+  {
+    "Play per team": 38,
+    "offense": "Florida",
+    "Rush Rate": "28.9%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  },
+  {
+    "Play per team": 39,
+    "offense": "Florida",
+    "Rush Rate": "30.8%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  },
+  {
+    "Play per team": 40,
+    "offense": "Florida",
+    "Rush Rate": "32.5%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  },
+  {
+    "Play per team": 41,
+    "offense": "Florida",
+    "Rush Rate": "31.7%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  },
+  {
+    "Play per team": 42,
+    "offense": "Florida",
+    "Rush Rate": "31.0%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  },
+  {
+    "Play per team": 43,
+    "offense": "Florida",
+    "Rush Rate": "32.6%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  },
+  {
+    "Play per team": 44,
+    "offense": "Florida",
+    "Rush Rate": "34.1%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  },
+  {
+    "Play per team": 45,
+    "offense": "Florida",
+    "Rush Rate": "35.6%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  },
+  {
+    "Play per team": 46,
+    "offense": "Florida",
+    "Rush Rate": "34.8%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  },
+  {
+    "Play per team": 47,
+    "offense": "Florida",
+    "Rush Rate": "34.0%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  },
+  {
+    "Play per team": 48,
+    "offense": "Florida",
+    "Rush Rate": "33.3%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  },
+  {
+    "Play per team": 49,
+    "offense": "Florida",
+    "Rush Rate": "32.7%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  },
+  {
+    "Play per team": 50,
+    "offense": "Florida",
+    "Rush Rate": "34.0%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  },
+  {
+    "Play per team": 51,
+    "offense": "Florida",
+    "Rush Rate": "33.3%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  },
+  {
+    "Play per team": 52,
+    "offense": "Florida",
+    "Rush Rate": "32.7%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  },
+  {
+    "Play per team": 53,
+    "offense": "Florida",
+    "Rush Rate": "32.1%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  },
+  {
+    "Play per team": 54,
+    "offense": "Florida",
+    "Rush Rate": "33.3%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  },
+  {
+    "Play per team": 55,
+    "offense": "Florida",
+    "Rush Rate": "34.5%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  },
+  {
+    "Play per team": 56,
+    "offense": "Florida",
+    "Rush Rate": "33.9%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  },
+  {
+    "Play per team": 57,
+    "offense": "Florida",
+    "Rush Rate": "33.3%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  },
+  {
+    "Play per team": 58,
+    "offense": "Florida",
+    "Rush Rate": "32.8%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  },
+  {
+    "Play per team": 59,
+    "offense": "Florida",
+    "Rush Rate": "32.2%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  },
+  {
+    "Play per team": 60,
+    "offense": "Florida",
+    "Rush Rate": "31.7%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  },
+  {
+    "Play per team": 61,
+    "offense": "Florida",
+    "Rush Rate": "31.1%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  },
+  {
+    "Play per team": 62,
+    "offense": "Florida",
+    "Rush Rate": "32.3%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  },
+  {
+    "Play per team": 63,
+    "offense": "Florida",
+    "Rush Rate": "33.3%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  },
+  {
+    "Play per team": 64,
+    "offense": "Florida",
+    "Rush Rate": "32.8%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  },
+  {
+    "Play per team": 65,
+    "offense": "Florida",
+    "Rush Rate": "32.3%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  },
+  {
+    "Play per team": 66,
+    "offense": "Florida",
+    "Rush Rate": "31.8%",
+    "colorMain": "rgba(244, 97, 37, 0.8)"
+  }
+]

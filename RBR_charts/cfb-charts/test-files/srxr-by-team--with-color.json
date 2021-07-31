@@ -1,0 +1,16 @@
+[
+  {
+    "x": "Alabama",
+    "Success Rate": 0.57,
+    "Explosiveness Rate": 0.18,
+    "successColor":"rgba(244, 37, 37, 0.8)",
+    "explosiveColor":"rgba(128, 0, 0, 0.8)"
+  },
+  {
+    "x": "Florida",
+    "Success Rate": 0.48,
+    "Explosiveness Rate": 0.17,
+    "successColor":"rgba(244, 97, 37, 0.8)",
+    "explosiveColor":"rgba(128, 37, 0, 0.8)"
+  }
+]
