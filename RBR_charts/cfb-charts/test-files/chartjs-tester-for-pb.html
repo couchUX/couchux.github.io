@@ -58,6 +58,7 @@
            
         const chartData = pageData
 
+        let labels = chartData.map(a => a.x);
         let successColors = chartData.map(a => a.successColor);
         let explosiveColors = chartData.map(a => a.explosiveColor);
         
@@ -66,7 +67,7 @@
         var myChart = new Chart(ctx, {
             type: 'bar',
             data: {
-                labels: ["Alabama","Florida"],
+                labels: labels,
                 datasets: [
                     {
                         label: 'Success Rate',
