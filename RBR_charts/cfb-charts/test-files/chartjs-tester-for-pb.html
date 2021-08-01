@@ -1,102 +1,25 @@
 <head>
 </head>
 <body>
-    
-<!-- CALL THIS IN THE FIRST HTML BLURB -->
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.0/chart.min.js"></script>
-    <!-- <script scr="CALL THE CHART TEMPLATE FORMULAS from a JS file on Github"></script> -->
-    <script src="csvjson.json"></script>
-    <script src="rootdata.js"></script>
-    <script src="simpledata.js"></script>
-    <script>
-        // pageData = dataLink => { import data from dataLink; }
-        // const obj = JSON.parse(json);
-        // const json = require('./csvjson.json');
-        
-        
-       
-        // const obj = JSON.parse(json);
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.0/chart.min.js"></script>
+<script src="chart-builder.js"></script>    
 
-        // pageData("/csvjson.json")
-        // const pageData = rootData
-        
-    </script>
-    
+<!-- set the chart container and appropriate id in HTML -->
+<div class="goals-list" style="font-family: sans-serif; line-height: 1.5; max-width: 800px; max-height: 500px; margin: auto; padding-top: 80px;">
+    <h3>2021 version goals</h3>
+    <ul style="padding-left: 24px;">
+        <li>Reduce 3rd parties (don't call JQuery or D3), use JSON or JS directly instead of CSV</li>
+        <li>Depend less on page context, e.g., charts on a page could come from multiple game (data) sources</li>
+        <li>Write less javascript, transform data outside of JS to give me more capability</li>
+        <li>But, still optimize for pages about a single game (many charts pulling from the same data)</li>
+    </ul>
+</div>
 
-<!-- THEN CALL THIS in EACH blurb for each chart -->
-    
-    <!-- set the chart container and appropriate id in HTML -->
-    <div class="goals-list" style="font-family: sans-serif; line-height: 1.5; max-width: 800px; max-height: 500px; margin: auto; padding-top: 80px;">
-        <h3>2021 version goals</h3>
-        <ul style="padding-left: 24px;">
-            <li>Reduce 3rd parties (don't call JQuery or D3), use JSON or JS directly instead of CSV</li>
-            <li>Depend less on page context, e.g., charts on a page could come from multiple game (data) sources</li>
-            <li>Write less javascript, transform data outside of JS to give me more capability</li>
-            <li>But, still optimize for pages about a single game (many charts pulling from the same data)</li>
-        </ul>
-    </div>
-    
-    <div class="chart-outer" style="max-width: 800px; max-height: 500px; margin: auto; padding-top: 80px;">
-        <canvas id="myChart" width="400" height="200"></canvas>
-    </div>
-        
-
-    <script>
-
-        
-        // call the data from the pageData, or direct from Github URL
-        // let chartData = pageData
-        // (OR)  let chartData = PULL DIRECT PER CHART FROM GITHUB URL?
-
-        // then set chart datasets through maps and filters below (pretend like it's not raw data below)
-        fetch('srxr-by-team--with-color.json')
-            .then(response => response.json())
-            .then(data => {
-                pageData = data;
-            
-           
-        const chartData = pageData
-
-        let labels = chartData.map(a => a.x);
-        let successColors = chartData.map(a => a.successColor);
-        let explosiveColors = chartData.map(a => a.explosiveColor);
-        
-        // and a lot of this chart building should be in the Formulas JS file (like above), not printed below
-        var ctx = document.getElementById('myChart').getContext('2d');
-        var myChart = new Chart(ctx, {
-            type: 'bar',
-            data: {
-                labels: labels,
-                datasets: [
-                    {
-                        label: 'Success Rate',
-                        data: chartData,
-                        backgroundColor: successColors,
-                        parsing: {
-                            yAxisKey: 'Success Rate',
-                        }
-                    },
-                    {
-                        label: 'Explosiveness Rate',
-                        data: chartData,
-                        backgroundColor: explosiveColors,
-                        parsing: {
-                            yAxisKey: 'Explosiveness Rate',
-                        },            
-                }]
-            },
-            options: {
-                scales: {
-                    y: {
-                        // beginAtZero: true,
-                    },
-                }
-            }
-        });
-
-    })
-    </script>
+<div class="chart-outer" style="max-width: 800px; max-height: 500px; margin: auto; padding-top: 80px;">
+    <canvas id="sr-xr-by-team" width="400" height="200"></canvas>
+    <script>srXrByTeam('srxr-by-team--with-color.json','sr-xr-by-team')</script>
+</div>
 
 
 </body>
