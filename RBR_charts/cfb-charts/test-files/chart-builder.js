@@ -1,7 +1,7 @@
 // chart config overall
 Chart.defaults.plugins.legend.align = 'start';
 Chart.defaults.plugins.legend.labels.boxWidth = 12;
-Chart.defaults.plugins.legend.labels.padding = 24;
+Chart.defaults.plugins.legend.labels.padding = 18;
 
 
 const srXrByTeam = (json,id) => {
@@ -37,18 +37,18 @@ const srXrByTeam = (json,id) => {
 const srXrByQuarter = (json,id) => {
     fetch(json).then(response => response.json()).then(data => { chartData = data;
 
-        let teamData = chartData.filter(({offense}) => offense == "Alabama");
-        let opponentData = chartData.filter(({offense}) => offense == "Florida");
+        let team = chartData.filter(({offense}) => offense == "Alabama");
+        let opponent = chartData.filter(({offense}) => offense == "Florida");
 
-        let labels = teamData.map(a => a.quarter);
-        let sr = teamData.map(a => a["Success Rate"]);
-        let xr = teamData.map(a => a["Explosiveness Rate"]);
-        let srOpp = opponentData.map(a => a["Success Rate"]);
-        let xrOpp = opponentData.map(a => a["Explosiveness Rate"]);
-        let sColors = teamData.map(a => a.colorMain);
-        let xColors = teamData.map(a => a.colorDark);
-        let sColorsOpp = opponentData.map(a => a.colorMain);
-        let xColorsOpp = opponentData.map(a => a.colorDark);
+        let labels = team.map(a => a.quarter);
+        let sr = team.map(a => a["Success Rate"]);
+        let xr = team.map(a => a["Explosiveness Rate"]);
+        let srOpp = opponent.map(a => a["Success Rate"]);
+        let xrOpp = opponent.map(a => a["Explosiveness Rate"]);
+        let sColors = team.map(a => a.colorMain);
+        let xColors = team.map(a => a.colorDark);
+        let sColorsOpp = opponent.map(a => a.colorMain);
+        let xColorsOpp = opponent.map(a => a.colorDark);
 
         const ctx = document.getElementById(id).getContext('2d');
         new Chart(ctx, {
@@ -57,29 +57,25 @@ const srXrByQuarter = (json,id) => {
                 labels: labels,
                 datasets: [
                     {
-                        stack: "Team",
-                        label: teamData[0].offense + ' SR',
-                        data: sr,
-                        backgroundColor: sColors,
-                        order: 1
-                    },{
-                        stack: "Team",
-                        label: teamData[0].offense + ' XR',
                         data: xr,
+                        stack: "Team",
+                        label: team[0].offense + ' XR',
                         backgroundColor: xColors,
-                        order: 0
                     },{
-                        stack: "Opponent",
-                        label: opponentData[0].offense + ' SR',
-                        data: srOpp,
-                        backgroundColor: sColorsOpp,
-                        order: 3
+                        data: sr,
+                        stack: "Team",
+                        label: team[0].offense + ' SR',
+                        backgroundColor: sColors,
                     },{
-                        stack: "Opponent",
-                        label: opponentData[0].offense + ' XR',
                         data: xrOpp,
+                        stack: "Opponent",
+                        label: opponent[0].offense + ' XR',
                         backgroundColor: xColorsOpp,
-                        order: 2
+                    },{
+                        data: srOpp,
+                        stack: "Opponent",
+                        label: opponent[0].offense + ' SR',
+                        backgroundColor: sColorsOpp,
                     }]
             },
         });
