@@ -1,3 +1,8 @@
+// chart config overall
+Chart.defaults.plugins.legend.align = 'start';
+Chart.defaults.plugins.legend.labels.boxWidth = 12;
+Chart.defaults.plugins.legend.labels.padding = 24;
+
 
 const srXrByTeam = (json,id) => {
     fetch(json).then(response => response.json()).then(data => { chartData = data;
@@ -32,24 +37,18 @@ const srXrByTeam = (json,id) => {
 const srXrByQuarter = (json,id) => {
     fetch(json).then(response => response.json()).then(data => { chartData = data;
 
-        // let labels = chartData.map(a => a.quarter);
-        // let successColors = chartData.map(a => a.colorMain);
-        // let explosiveColors = chartData.map(a => a.colorDark);
-        // let successColorsOpp = chartData.map(a => a.colorMainOpp);
-        // let explosiveColorsOpp = chartData.map(a => a.colorDarkOpp);
+        let teamData = chartData.filter(({offense}) => offense == "Alabama");
+        let opponentData = chartData.filter(({offense}) => offense == "Florida");
 
-        let teamOneData = chartData.filter(({offense}) => offense == "Alabama");
-        let teamTwoData = chartData.filter(({offense}) => offense == "Florida");
-
-        let labels = teamOneData.map(a => a.quarter);
-        let sr = teamOneData.map(a => a["Success Rate"]);
-        let xr = teamOneData.map(a => a["Explosiveness Rate"]);
-        let srOpp = teamTwoData.map(a => a["Success Rate"]);
-        let xrOpp = teamTwoData.map(a => a["Explosiveness Rate"]);
-        let successColors = teamOneData.map(a => a.colorMain);
-        let explosiveColors = teamOneData.map(a => a.colorDark);
-        let successColorsOpp = teamTwoData.map(a => a.colorMain);
-        let explosiveColorsOpp = teamTwoData.map(a => a.colorDark);
+        let labels = teamData.map(a => a.quarter);
+        let sr = teamData.map(a => a["Success Rate"]);
+        let xr = teamData.map(a => a["Explosiveness Rate"]);
+        let srOpp = opponentData.map(a => a["Success Rate"]);
+        let xrOpp = opponentData.map(a => a["Explosiveness Rate"]);
+        let sColors = teamData.map(a => a.colorMain);
+        let xColors = teamData.map(a => a.colorDark);
+        let sColorsOpp = opponentData.map(a => a.colorMain);
+        let xColorsOpp = opponentData.map(a => a.colorDark);
 
         const ctx = document.getElementById(id).getContext('2d');
         new Chart(ctx, {
@@ -58,42 +57,31 @@ const srXrByQuarter = (json,id) => {
                 labels: labels,
                 datasets: [
                     {
-                        stack: "Team One",
-                        label: 'Explosiveness Rate One',
-                        data: xr,
-                        backgroundColor: explosiveColors,
-                        // parsing: { yAxisKey: 'XR', xAxisKey: 'quarter' },            
-                    },{
-                        stack: "Team One",
-                        label: 'Success Rate One',
+                        stack: "Team",
+                        label: teamData[0].offense + ' SR',
                         data: sr,
-                        backgroundColor: successColors,
-                        // parsing: { yAxisKey: 'SR', xAxisKey: 'quarter' }
+                        backgroundColor: sColors,
+                        order: 1
                     },{
-                        stack: "Team Two",
-                        label: 'Explosiveness Rate Opponent',
-                        data: xrOpp,
-                        backgroundColor: explosiveColorsOpp,
-                        // parsing: { yAxisKey: 'XR Opponent', xAxisKey: 'quarter' },            
+                        stack: "Team",
+                        label: teamData[0].offense + ' XR',
+                        data: xr,
+                        backgroundColor: xColors,
+                        order: 0
                     },{
-                        stack: "Team Two",
-                        label: 'Success Rate Opponent',
+                        stack: "Opponent",
+                        label: opponentData[0].offense + ' SR',
                         data: srOpp,
-                        backgroundColor: successColorsOpp,
-                        // parsing: { yAxisKey: 'SR Opponent', xAxisKey: 'quarter' }
+                        backgroundColor: sColorsOpp,
+                        order: 3
+                    },{
+                        stack: "Opponent",
+                        label: opponentData[0].offense + ' XR',
+                        data: xrOpp,
+                        backgroundColor: xColorsOpp,
+                        order: 2
                     }]
             },
-            options: {
-                scales: {
-                    x: {
-                        // stacked: true
-                    },
-                    y: {
-                        // stacked: true
-                    },
-                // parsing: false
-                }
-            }
         });
     })
 }

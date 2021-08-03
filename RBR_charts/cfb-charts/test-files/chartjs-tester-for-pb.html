@@ -1,31 +1,30 @@
-<head>
+<head>    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.0/chart.min.js"></script>
+    <script src="chart-builder.js"></script>   
 </head>
-<body>
+<body> 
+    <!-- set the chart container and appropriate id in HTML -->
+    <div class="goals-list" style="font-family: sans-serif; line-height: 1.5; max-width: 800px; max-height: 500px; margin: auto; padding-top: 80px;">
+        <h3>2021 version goals</h3>
+        <ul style="padding-left: 24px;">
+            <li>Reduce 3rd parties (don't call JQuery or D3), use JSON or JS directly instead of CSV</li>
+            <li>Depend less on page context, e.g., charts on a page could come from multiple game (data) sources</li>
+            <li>Write less javascript, transform data outside of JS to give me more capability</li>
+            <li>But, still optimize for pages about a single game (many charts pulling from the same data)</li>
+        </ul>
+    </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.0/chart.min.js"></script>
-<script src="chart-builder.js"></script>    
+    <div class="chart-outer" style="max-width: 800px; max-height: 500px; margin: auto; padding-top: 80px;">
+        <canvas id="srxr-team" width="400" height="160"></canvas>
+    </div>
 
-<!-- set the chart container and appropriate id in HTML -->
-<div class="goals-list" style="font-family: sans-serif; line-height: 1.5; max-width: 800px; max-height: 500px; margin: auto; padding-top: 80px;">
-    <h3>2021 version goals</h3>
-    <ul style="padding-left: 24px;">
-        <li>Reduce 3rd parties (don't call JQuery or D3), use JSON or JS directly instead of CSV</li>
-        <li>Depend less on page context, e.g., charts on a page could come from multiple game (data) sources</li>
-        <li>Write less javascript, transform data outside of JS to give me more capability</li>
-        <li>But, still optimize for pages about a single game (many charts pulling from the same data)</li>
-    </ul>
-</div>
+    <div class="chart-outer" style="max-width: 800px; max-height: 500px; margin: auto; padding-top: 80px;">
+        <canvas id="srxr-quarter" width="400" height="160"></canvas>
+    </div>
 
-<div class="chart-outer" style="max-width: 800px; max-height: 500px; margin: auto; padding-top: 80px;">
-    <canvas id="srxr-team" width="400" height="200"></canvas>
-</div>
-
-<div class="chart-outer" style="max-width: 800px; max-height: 500px; margin: auto; padding-top: 80px;">
-    <canvas id="srxr-quarter" width="400" height="200"></canvas>
-</div>
-
-
-<script>srXrByTeam('json/srxr-team.json','srxr-team')</script>
-<script>srXrByQuarter('json/srxr-quarter.json','srxr-quarter')</script>
+    <script>
+        srXrByQuarter('json/srxr-quarter.json','srxr-quarter')
+        srXrByTeam('json/srxr-team.json','srxr-team')
+    </script>
 
 </body>
