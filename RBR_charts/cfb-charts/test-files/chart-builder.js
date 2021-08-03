@@ -28,8 +28,16 @@ const srXrByTeam = (json,id) => {
                         data: chartData,
                         backgroundColor: explosiveColors,
                         parsing: { yAxisKey: 'Explosiveness Rate' },            
-                }]
+                    }]
             },
+            options: {
+                scales: {
+                    y: {
+                        stacked: false,
+                        max: 1,
+                    },
+                }
+            }
         });
     })
 }
@@ -78,6 +86,14 @@ const srXrByQuarter = (json,id) => {
                         backgroundColor: sColorsOpp,
                     }]
             },
+            options: {
+                scales: {
+                    y: {
+                        stacked: false,
+                        max: 1,
+                    },
+                }
+            }
         });
     })
 }
