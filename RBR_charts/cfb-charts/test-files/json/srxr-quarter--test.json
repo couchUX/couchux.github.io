@@ -1,0 +1,71 @@
+[
+  {
+    "quarter": 1,
+    "offenseOne": "Alabama",
+    "colorMainOne": "rgba(244, 37, 37, 0.8)",
+    "colorDarkOne": "rgba(128, 0, 0, 0.8)",
+    "Explosiveness Rate One": 0.18,
+    "Success Rate One": 0.55,
+    "offenseTwo": "Florida",
+    "colorMainTwo": "rgba(244, 97, 37, 0.8)",
+    "colorDarkTwo": "rgba(128, 37, 0, 0.8)",
+    "Success Rate Two": 0.4,
+    "Explosiveness Rate Two": 0.2
+  },
+  {
+    "offense": "Alabama",
+    "quarter": 2,
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorDark": "rgba(128, 0, 0, 0.8)",
+    "Success Rate": 0.66,
+    "Explosiveness Rate": 0.17
+  },
+  {
+    "offense": "Alabama",
+    "quarter": 3,
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorDark": "rgba(128, 0, 0, 0.8)",
+    "Success Rate": 0.38,
+    "Explosiveness Rate": 0.15
+  },
+  {
+    "offense": "Alabama",
+    "quarter": 4,
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorDark": "rgba(128, 0, 0, 0.8)",
+    "Success Rate": 0.58,
+    "Explosiveness Rate": 0.21
+  },
+  {
+    "offense": "Florida",
+    "quarter": 1,
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorDark": "rgba(128, 37, 0, 0.8)",
+    "Success Rate": 0.4,
+    "Explosiveness Rate": 0.2
+  },
+  {
+    "offense": "Florida",
+    "quarter": 2,
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorDark": "rgba(128, 37, 0, 0.8)",
+    "Success Rate": 0.5,
+    "Explosiveness Rate": 0.2
+  },
+  {
+    "offense": "Florida",
+    "quarter": 3,
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorDark": "rgba(128, 37, 0, 0.8)",
+    "Success Rate": 0.55,
+    "Explosiveness Rate": 0.15
+  },
+  {
+    "offense": "Florida",
+    "quarter": 4,
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorDark": "rgba(128, 37, 0, 0.8)",
+    "Success Rate": 0.48,
+    "Explosiveness Rate": 0.14
+  }
+]

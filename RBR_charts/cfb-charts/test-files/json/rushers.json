@@ -1,0 +1,79 @@
+[
+  {
+    "offense": "Alabama",
+    "x": "Najee Harris",
+    "Explosive Count": 2,
+    "Success Count": 14,
+    "Unsuccessful Count": 15
+  },
+  {
+    "offense": "Alabama",
+    "x": "Brian Robinson Jr.",
+    "Explosive Count": 0,
+    "Success Count": 3,
+    "Unsuccessful Count": 1
+  },
+  {
+    "offense": "Alabama",
+    "x": "Mac Jones",
+    "Explosive Count": 0,
+    "Success Count": 1,
+    "Unsuccessful Count": 0
+  },
+  {
+    "offense": "Alabama",
+    "x": "Miller Forristall",
+    "Explosive Count": 0,
+    "Success Count": 1,
+    "Unsuccessful Count": 0
+  },
+  {
+    "offense": "Alabama",
+    "x": "Jahleel Billingsley",
+    "Explosive Count": 0,
+    "Success Count": 0,
+    "Unsuccessful Count": 1
+  },
+  {
+    "offense": "Florida",
+    "x": "Kyle Trask",
+    "Explosive Count": 0,
+    "Success Count": 5,
+    "Unsuccessful Count": 5
+  },
+  {
+    "offense": "Florida",
+    "x": "Nay'Quan Wright",
+    "Explosive Count": 0,
+    "Success Count": 2,
+    "Unsuccessful Count": 2
+  },
+  {
+    "offense": "Florida",
+    "x": "Emory Jones",
+    "Explosive Count": 1,
+    "Success Count": 1,
+    "Unsuccessful Count": 0
+  },
+  {
+    "offense": "Florida",
+    "x": "Dameon Pierce",
+    "Explosive Count": 0,
+    "Success Count": 1,
+    "Unsuccessful Count": 1
+  },
+  {
+    "offense": "Florida",
+    "x": "Kadarius Toney",
+    "Explosive Count": 0,
+    "Success Count": 1,
+    "Unsuccessful Count": 1
+  },
+  {
+    "offense": "Florida",
+    "x": "Malik Davis",
+    "Explosive Count": 0,
+    "Success Count": 0,
+    "Unsuccessful Count": 1
+  }
+]

@@ -1,0 +1,1045 @@
+[
+  {
+    "x": 1,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 1
+  },
+  {
+    "x": 2,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.5
+  },
+  {
+    "x": 3,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.67
+  },
+  {
+    "x": 4,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.75
+  },
+  {
+    "x": 5,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.6
+  },
+  {
+    "x": 6,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.5
+  },
+  {
+    "x": 7,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.43
+  },
+  {
+    "x": 8,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.38
+  },
+  {
+    "x": 9,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.44
+  },
+  {
+    "x": 10,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.5
+  },
+  {
+    "x": 11,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.45
+  },
+  {
+    "x": 12,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.42
+  },
+  {
+    "x": 13,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.46
+  },
+  {
+    "x": 14,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.5
+  },
+  {
+    "x": 15,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.53
+  },
+  {
+    "x": 16,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.5
+  },
+  {
+    "x": 17,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.47
+  },
+  {
+    "x": 18,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.44
+  },
+  {
+    "x": 19,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.47
+  },
+  {
+    "x": 20,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.5
+  },
+  {
+    "x": 21,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.52
+  },
+  {
+    "x": 22,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.5
+  },
+  {
+    "x": 23,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.48
+  },
+  {
+    "x": 24,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.46
+  },
+  {
+    "x": 25,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.48
+  },
+  {
+    "x": 26,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.46
+  },
+  {
+    "x": 27,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.44
+  },
+  {
+    "x": 28,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.46
+  },
+  {
+    "x": 29,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.48
+  },
+  {
+    "x": 30,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.47
+  },
+  {
+    "x": 31,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.45
+  },
+  {
+    "x": 32,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.47
+  },
+  {
+    "x": 33,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.45
+  },
+  {
+    "x": 34,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.47
+  },
+  {
+    "x": 35,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.49
+  },
+  {
+    "x": 36,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.47
+  },
+  {
+    "x": 37,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.46
+  },
+  {
+    "x": 38,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.45
+  },
+  {
+    "x": 39,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.46
+  },
+  {
+    "x": 40,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.48
+  },
+  {
+    "x": 41,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.49
+  },
+  {
+    "x": 42,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.5
+  },
+  {
+    "x": 43,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.49
+  },
+  {
+    "x": 44,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.48
+  },
+  {
+    "x": 45,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.47
+  },
+  {
+    "x": 46,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.46
+  },
+  {
+    "x": 47,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.45
+  },
+  {
+    "x": 48,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.44
+  },
+  {
+    "x": 49,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.43
+  },
+  {
+    "x": 50,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.42
+  },
+  {
+    "x": 51,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.41
+  },
+  {
+    "x": 52,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.4
+  },
+  {
+    "x": 53,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.4
+  },
+  {
+    "x": 54,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.39
+  },
+  {
+    "x": 55,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.4
+  },
+  {
+    "x": 56,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.41
+  },
+  {
+    "x": 57,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.4
+  },
+  {
+    "x": 58,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.4
+  },
+  {
+    "x": 59,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.41
+  },
+  {
+    "x": 60,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.4
+  },
+  {
+    "x": 61,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.39
+  },
+  {
+    "x": 62,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.4
+  },
+  {
+    "x": 63,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.4
+  },
+  {
+    "x": 64,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.39
+  },
+  {
+    "x": 65,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.38
+  },
+  {
+    "x": 66,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.39
+  },
+  {
+    "x": 67,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.39
+  },
+  {
+    "x": 68,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.4
+  },
+  {
+    "x": 69,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.39
+  },
+  {
+    "x": 70,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.4
+  },
+  {
+    "x": 71,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.41
+  },
+  {
+    "x": 72,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.42
+  },
+  {
+    "x": 73,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.42
+  },
+  {
+    "x": 74,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.43
+  },
+  {
+    "x": 75,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.43
+  },
+  {
+    "x": 76,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.42
+  },
+  {
+    "x": 77,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.43
+  },
+  {
+    "x": 78,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.44
+  },
+  {
+    "x": 79,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.44
+  },
+  {
+    "x": 80,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.44
+  },
+  {
+    "x": 81,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.44
+  },
+  {
+    "x": 82,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.45
+  },
+  {
+    "x": 83,
+    "offense": "Alabama",
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorLight": "rgba(255, 230, 230, 0.8)",
+    "Rush Rate": 0.46
+  },
+  {
+    "x": 1,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0
+  },
+  {
+    "x": 2,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0.5
+  },
+  {
+    "x": 3,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0.33
+  },
+  {
+    "x": 4,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0.5
+  },
+  {
+    "x": 5,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0.4
+  },
+  {
+    "x": 6,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0.33
+  },
+  {
+    "x": 7,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0.29
+  },
+  {
+    "x": 8,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0.38
+  },
+  {
+    "x": 9,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0.33
+  },
+  {
+    "x": 10,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0.3
+  },
+  {
+    "x": 11,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0.27
+  },
+  {
+    "x": 12,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0.33
+  },
+  {
+    "x": 13,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0.31
+  },
+  {
+    "x": 14,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0.36
+  },
+  {
+    "x": 15,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0.4
+  },
+  {
+    "x": 16,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0.38
+  },
+  {
+    "x": 17,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0.35
+  },
+  {
+    "x": 18,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0.33
+  },
+  {
+    "x": 19,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0.37
+  },
+  {
+    "x": 20,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0.35
+  },
+  {
+    "x": 21,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0.33
+  },
+  {
+    "x": 22,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0.32
+  },
+  {
+    "x": 23,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0.3
+  },
+  {
+    "x": 24,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0.33
+  },
+  {
+    "x": 25,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0.32
+  },
+  {
+    "x": 26,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0.31
+  },
+  {
+    "x": 27,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0.3
+  },
+  {
+    "x": 28,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0.32
+  },
+  {
+    "x": 29,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0.31
+  },
+  {
+    "x": 30,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0.3
+  },
+  {
+    "x": 31,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0.29
+  },
+  {
+    "x": 32,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0.31
+  },
+  {
+    "x": 33,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0.3
+  },
+  {
+    "x": 34,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0.29
+  },
+  {
+    "x": 35,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0.29
+  },
+  {
+    "x": 36,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0.28
+  },
+  {
+    "x": 37,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0.27
+  },
+  {
+    "x": 38,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0.29
+  },
+  {
+    "x": 39,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0.31
+  },
+  {
+    "x": 40,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0.33
+  },
+  {
+    "x": 41,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0.32
+  },
+  {
+    "x": 42,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0.31
+  },
+  {
+    "x": 43,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0.33
+  },
+  {
+    "x": 44,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0.34
+  },
+  {
+    "x": 45,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0.36
+  },
+  {
+    "x": 46,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0.35
+  },
+  {
+    "x": 47,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0.34
+  },
+  {
+    "x": 48,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0.33
+  },
+  {
+    "x": 49,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0.33
+  },
+  {
+    "x": 50,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0.34
+  },
+  {
+    "x": 51,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0.33
+  },
+  {
+    "x": 52,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0.33
+  },
+  {
+    "x": 53,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0.32
+  },
+  {
+    "x": 54,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0.33
+  },
+  {
+    "x": 55,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0.35
+  },
+  {
+    "x": 56,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0.34
+  },
+  {
+    "x": 57,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0.33
+  },
+  {
+    "x": 58,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0.33
+  },
+  {
+    "x": 59,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0.32
+  },
+  {
+    "x": 60,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0.32
+  },
+  {
+    "x": 61,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0.31
+  },
+  {
+    "x": 62,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0.32
+  },
+  {
+    "x": 63,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0.33
+  },
+  {
+    "x": 64,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0.33
+  },
+  {
+    "x": 65,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0.32
+  },
+  {
+    "x": 66,
+    "offense": "Florida",
+    "colorMain": "rgba(244, 97, 37, 0.8)",
+    "colorLight": "rgba(255, 237, 230, 0.8)",
+    "Rush Rate": 0.32
+  }
+]

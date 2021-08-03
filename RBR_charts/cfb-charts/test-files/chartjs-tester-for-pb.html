@@ -17,9 +17,15 @@
 </div>
 
 <div class="chart-outer" style="max-width: 800px; max-height: 500px; margin: auto; padding-top: 80px;">
-    <canvas id="sr-xr-by-team" width="400" height="200"></canvas>
-    <script>srXrByTeam('srxr-by-team--with-color.json','sr-xr-by-team')</script>
+    <canvas id="srxr-team" width="400" height="200"></canvas>
 </div>
 
+<div class="chart-outer" style="max-width: 800px; max-height: 500px; margin: auto; padding-top: 80px;">
+    <canvas id="srxr-quarter" width="400" height="200"></canvas>
+</div>
+
+
+<script>srXrByTeam('json/srxr-team.json','srxr-team')</script>
+<script>srXrByQuarter('json/srxr-quarter.json','srxr-quarter')</script>
 
 </body>

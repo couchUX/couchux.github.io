@@ -1,0 +1,114 @@
+[
+  {
+    "offense": "Alabama",
+    "x": "DeVonta Smith",
+    "Success Count": 4,
+    "Explosive Count": 6,
+    "Unsuccessful Catch Count": 1,
+    "Incomplete Count": 4
+  },
+  {
+    "offense": "Alabama",
+    "x": "Najee Harris",
+    "Success Count": 3,
+    "Explosive Count": 2,
+    "Unsuccessful Catch Count": 0,
+    "Incomplete Count": 0
+  },
+  {
+    "offense": "Alabama",
+    "x": "John Metchie III",
+    "Success Count": 2,
+    "Explosive Count": 2,
+    "Unsuccessful Catch Count": 0,
+    "Incomplete Count": 0
+  },
+  {
+    "offense": "Alabama",
+    "x": "Miller Forristall",
+    "Success Count": 2,
+    "Explosive Count": 0,
+    "Unsuccessful Catch Count": 1,
+    "Incomplete Count": 0
+  },
+  {
+    "offense": "Alabama",
+    "x": "Jahleel Billingsley",
+    "Success Count": 1,
+    "Explosive Count": 1,
+    "Unsuccessful Catch Count": 0,
+    "Incomplete Count": 0
+  },
+  {
+    "offense": "Alabama",
+    "x": "Xavier Williams",
+    "Success Count": 1,
+    "Explosive Count": 0,
+    "Unsuccessful Catch Count": 0,
+    "Incomplete Count": 0
+  },
+  {
+    "offense": "Alabama",
+    "x": "Slade Bolden",
+    "Success Count": 0,
+    "Explosive Count": 2,
+    "Unsuccessful Catch Count": 0,
+    "Incomplete Count": 0
+  },
+  {
+    "offense": "Alabama",
+    "x": "Major Tennison",
+    "Success Count": 0,
+    "Explosive Count": 0,
+    "Unsuccessful Catch Count": 1,
+    "Incomplete Count": 0
+  },
+  {
+    "offense": "Florida",
+    "x": "Kadarius Toney",
+    "Success Count": 4,
+    "Explosive Count": 3,
+    "Unsuccessful Catch Count": 1,
+    "Incomplete Count": 0
+  },
+  {
+    "offense": "Florida",
+    "x": "Kyle Pitts",
+    "Success Count": 2,
+    "Explosive Count": 5,
+    "Unsuccessful Catch Count": 0,
+    "Incomplete Count": 0
+  },
+  {
+    "offense": "Florida",
+    "x": "Nay'Quan Wright",
+    "Success Count": 2,
+    "Explosive Count": 0,
+    "Unsuccessful Catch Count": 1,
+    "Incomplete Count": 0
+  },
+  {
+    "offense": "Florida",
+    "x": "Trevon Grimes",
+    "Success Count": 1,
+    "Explosive Count": 2,
+    "Unsuccessful Catch Count": 1,
+    "Incomplete Count": 0
+  },
+  {
+    "offense": "Florida",
+    "x": "Malik Davis",
+    "Success Count": 1,
+    "Explosive Count": 0,
+    "Unsuccessful Catch Count": 1,
+    "Incomplete Count": 0
+  },
+  {
+    "offense": "Florida",
+    "x": "Jacob Copeland",
+    "Success Count": 1,
+    "Explosive Count": 0,
+    "Unsuccessful Catch Count": 0,
+    "Incomplete Count": 1
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "offense": "Alabama",
+    "x": "pass",
+    "Success Rate": 0.58,
+    "Explosiveness Rate": 0.29
+  },
+  {
+    "offense": "Alabama",
+    "x": "rush",
+    "Success Rate": 0.55,
+    "Explosiveness Rate": 0.05
+  },
+  {
+    "offense": "Florida",
+    "x": "pass",
+    "Success Rate": 0.47,
+    "Explosiveness Rate": 0.22
+  },
+  {
+    "offense": "Florida",
+    "x": "rush",
+    "Success Rate": 0.52,
+    "Explosiveness Rate": 0.05
+  }
+]

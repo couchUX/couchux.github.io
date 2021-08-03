@@ -1,0 +1,44 @@
+[
+  {
+    "offense": "Alabama",
+    "x": 1,
+    "Success Rate": 0.6,
+    "Explosiveness Rate": 0.18
+  },
+  {
+    "offense": "Alabama",
+    "x": 2,
+    "Success Rate": 0.5,
+    "Explosiveness Rate": 0.27
+  },
+  {
+    "offense": "Alabama",
+    "x": 3,
+    "Success Rate": 0.6,
+    "Explosiveness Rate": 0.07
+  },
+  {
+    "offense": "Alabama",
+    "x": 4,
+    "Success Rate": 0.5,
+    "Explosiveness Rate": 0
+  },
+  {
+    "offense": "Florida",
+    "x": 1,
+    "Success Rate": 0.39,
+    "Explosiveness Rate": 0.09
+  },
+  {
+    "offense": "Florida",
+    "x": 2,
+    "Success Rate": 0.5,
+    "Explosiveness Rate": 0.18
+  },
+  {
+    "offense": "Florida",
+    "x": 3,
+    "Success Rate": 0.73,
+    "Explosiveness Rate": 0.36
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "offense": "Alabama",
+    "x": "Mac Jones",
+    "Explosive Count": 13,
+    "Success Count": 13,
+    "Unsuccessful Catch Count": 3,
+    "Incomplete Count": 14
+  },
+  {
+    "offense": "Florida",
+    "x": "Kyle Trask",
+    "Explosive Count": 10,
+    "Success Count": 11,
+    "Unsuccessful Catch Count": 4,
+    "Incomplete Count": 15
+  }
+]

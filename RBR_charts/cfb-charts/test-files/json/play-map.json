@@ -1,0 +1,1492 @@
+[
+  {
+    "x": 1,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 1,
+    "yards_gained": 2,
+    "play_type": "rush",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 2,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 1,
+    "yards_gained": 19,
+    "play_type": "pass",
+    "successful": true,
+    "explosive": true
+  },
+  {
+    "x": 3,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 1,
+    "yards_gained": 7,
+    "play_type": "rush",
+    "successful": true,
+    "explosive": false
+  },
+  {
+    "x": 4,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 1,
+    "yards_gained": 13,
+    "play_type": "rush",
+    "successful": true,
+    "explosive": false
+  },
+  {
+    "x": 5,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 1,
+    "yards_gained": 0,
+    "play_type": "pass",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 6,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 1,
+    "yards_gained": 0,
+    "play_type": "pass",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 7,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 1,
+    "yards_gained": 5,
+    "play_type": "pass",
+    "successful": true,
+    "explosive": false
+  },
+  {
+    "x": 8,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 1,
+    "yards_gained": 11,
+    "play_type": "pass",
+    "successful": true,
+    "explosive": false
+  },
+  {
+    "x": 9,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 1,
+    "yards_gained": 8,
+    "play_type": "rush",
+    "successful": true,
+    "explosive": false
+  },
+  {
+    "x": 10,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 1,
+    "yards_gained": 4,
+    "play_type": "pass",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 11,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 1,
+    "yards_gained": 0,
+    "play_type": "rush",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 12,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 1,
+    "yards_gained": 15,
+    "play_type": "pass",
+    "successful": true,
+    "explosive": true
+  },
+  {
+    "x": 13,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 1,
+    "yards_gained": 3,
+    "play_type": "rush",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 14,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 1,
+    "yards_gained": 0,
+    "play_type": "pass",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 15,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 1,
+    "yards_gained": 51,
+    "play_type": "pass",
+    "successful": true,
+    "explosive": true
+  },
+  {
+    "x": 16,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 1,
+    "yards_gained": 3,
+    "play_type": "rush",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 17,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 1,
+    "yards_gained": 24,
+    "play_type": "pass",
+    "successful": true,
+    "explosive": true
+  },
+  {
+    "x": 18,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 1,
+    "yards_gained": 15,
+    "play_type": "pass",
+    "successful": true,
+    "explosive": true
+  },
+  {
+    "x": 19,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 1,
+    "yards_gained": 9,
+    "play_type": "rush",
+    "successful": true,
+    "explosive": false
+  },
+  {
+    "x": 20,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 1,
+    "yards_gained": 10,
+    "play_type": "rush",
+    "successful": true,
+    "explosive": false
+  },
+  {
+    "x": 21,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 1,
+    "yards_gained": 4,
+    "play_type": "rush",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 22,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 1,
+    "yards_gained": 4,
+    "play_type": "pass",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 23,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 1,
+    "yards_gained": 19,
+    "play_type": "pass",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 24,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 1,
+    "yards_gained": 31,
+    "play_type": "pass",
+    "successful": true,
+    "explosive": true
+  },
+  {
+    "x": 25,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 1,
+    "yards_gained": 11,
+    "play_type": "pass",
+    "successful": true,
+    "explosive": false
+  },
+  {
+    "x": 26,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 1,
+    "yards_gained": 13,
+    "play_type": "rush",
+    "successful": true,
+    "explosive": false
+  },
+  {
+    "x": 27,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 1,
+    "yards_gained": 0,
+    "play_type": "pass",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 28,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 1,
+    "yards_gained": 10,
+    "play_type": "pass",
+    "successful": true,
+    "explosive": false
+  },
+  {
+    "x": 29,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 1,
+    "yards_gained": 0,
+    "play_type": "pass",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 30,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 1,
+    "yards_gained": 17,
+    "play_type": "rush",
+    "successful": true,
+    "explosive": true
+  },
+  {
+    "x": 31,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 1,
+    "yards_gained": 0,
+    "play_type": "pass",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 32,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 1,
+    "yards_gained": 1,
+    "play_type": "rush",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 33,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 1,
+    "yards_gained": 4,
+    "play_type": "rush",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 34,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 1,
+    "yards_gained": 4,
+    "play_type": "rush",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 35,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 1,
+    "yards_gained": 3,
+    "play_type": "rush",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 36,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 1,
+    "yards_gained": 8,
+    "play_type": "rush",
+    "successful": true,
+    "explosive": false
+  },
+  {
+    "x": 37,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 1,
+    "yards_gained": -5,
+    "play_type": "pass",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 38,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 2,
+    "yards_gained": 15,
+    "play_type": "pass",
+    "successful": true,
+    "explosive": true
+  },
+  {
+    "x": 39,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 2,
+    "yards_gained": 0,
+    "play_type": "pass",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 40,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 2,
+    "yards_gained": 4,
+    "play_type": "rush",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 41,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 2,
+    "yards_gained": 6,
+    "play_type": "pass",
+    "successful": true,
+    "explosive": false
+  },
+  {
+    "x": 42,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 2,
+    "yards_gained": 12,
+    "play_type": "pass",
+    "successful": true,
+    "explosive": false
+  },
+  {
+    "x": 43,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 2,
+    "yards_gained": 5,
+    "play_type": "rush",
+    "successful": true,
+    "explosive": false
+  },
+  {
+    "x": 44,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 2,
+    "yards_gained": -1,
+    "play_type": "rush",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 45,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 2,
+    "yards_gained": 7,
+    "play_type": "pass",
+    "successful": true,
+    "explosive": false
+  },
+  {
+    "x": 46,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 2,
+    "yards_gained": 0,
+    "play_type": "pass",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 47,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 2,
+    "yards_gained": 11,
+    "play_type": "pass",
+    "successful": true,
+    "explosive": false
+  },
+  {
+    "x": 48,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 2,
+    "yards_gained": -2,
+    "play_type": "pass",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 49,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 2,
+    "yards_gained": 1,
+    "play_type": "rush",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 50,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 2,
+    "yards_gained": 3,
+    "play_type": "pass",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 51,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 2,
+    "yards_gained": 8,
+    "play_type": "pass",
+    "successful": true,
+    "explosive": false
+  },
+  {
+    "x": 52,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 2,
+    "yards_gained": 3,
+    "play_type": "rush",
+    "successful": true,
+    "explosive": false
+  },
+  {
+    "x": 53,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 2,
+    "yards_gained": -4,
+    "play_type": "pass",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 54,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 2,
+    "yards_gained": 6,
+    "play_type": "rush",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 55,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 2,
+    "yards_gained": 8,
+    "play_type": "rush",
+    "successful": true,
+    "explosive": false
+  },
+  {
+    "x": 56,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 2,
+    "yards_gained": 5,
+    "play_type": "pass",
+    "successful": true,
+    "explosive": false
+  },
+  {
+    "x": 57,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 2,
+    "yards_gained": 0,
+    "play_type": "pass",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 58,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 2,
+    "yards_gained": 4,
+    "play_type": "pass",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 59,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 2,
+    "yards_gained": 1,
+    "play_type": "rush",
+    "successful": true,
+    "explosive": false
+  },
+  {
+    "x": 60,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 2,
+    "yards_gained": 5,
+    "play_type": "rush",
+    "successful": true,
+    "explosive": false
+  },
+  {
+    "x": 61,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 2,
+    "yards_gained": 4,
+    "play_type": "rush",
+    "successful": true,
+    "explosive": false
+  },
+  {
+    "x": 62,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 2,
+    "yards_gained": 2,
+    "play_type": "rush",
+    "successful": true,
+    "explosive": false
+  },
+  {
+    "x": 63,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 2,
+    "yards_gained": 23,
+    "play_type": "pass",
+    "successful": true,
+    "explosive": true
+  },
+  {
+    "x": 64,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 2,
+    "yards_gained": 39,
+    "play_type": "pass",
+    "successful": true,
+    "explosive": true
+  },
+  {
+    "x": 65,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 2,
+    "yards_gained": 8,
+    "play_type": "pass",
+    "successful": true,
+    "explosive": false
+  },
+  {
+    "x": 66,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 2,
+    "yards_gained": 27,
+    "play_type": "pass",
+    "successful": true,
+    "explosive": true
+  },
+  {
+    "x": 67,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 2,
+    "yards_gained": 1,
+    "play_type": "rush",
+    "successful": true,
+    "explosive": false
+  },
+  {
+    "x": 68,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 2,
+    "yards_gained": 0,
+    "play_type": "pass",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 69,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 2,
+    "yards_gained": 25,
+    "play_type": "pass",
+    "successful": true,
+    "explosive": true
+  },
+  {
+    "x": 70,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 2,
+    "yards_gained": 0,
+    "play_type": "pass",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 71,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 2,
+    "yards_gained": 21,
+    "play_type": "pass",
+    "successful": true,
+    "explosive": true
+  },
+  {
+    "x": 72,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 2,
+    "yards_gained": 7,
+    "play_type": "pass",
+    "successful": true,
+    "explosive": false
+  },
+  {
+    "x": 73,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 2,
+    "yards_gained": 0,
+    "play_type": "pass",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 74,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 2,
+    "yards_gained": 8,
+    "play_type": "pass",
+    "successful": true,
+    "explosive": false
+  },
+  {
+    "x": 75,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 2,
+    "yards_gained": 17,
+    "play_type": "pass",
+    "successful": true,
+    "explosive": true
+  },
+  {
+    "x": 76,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 2,
+    "yards_gained": -4,
+    "play_type": "pass",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 77,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 3,
+    "yards_gained": 13,
+    "play_type": "pass",
+    "successful": true,
+    "explosive": false
+  },
+  {
+    "x": 78,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 3,
+    "yards_gained": 5,
+    "play_type": "pass",
+    "successful": true,
+    "explosive": false
+  },
+  {
+    "x": 79,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 3,
+    "yards_gained": 7,
+    "play_type": "rush",
+    "successful": true,
+    "explosive": false
+  },
+  {
+    "x": 80,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 3,
+    "yards_gained": 50,
+    "play_type": "pass",
+    "successful": true,
+    "explosive": true
+  },
+  {
+    "x": 81,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 3,
+    "yards_gained": 4,
+    "play_type": "pass",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 82,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 3,
+    "yards_gained": 26,
+    "play_type": "pass",
+    "successful": true,
+    "explosive": true
+  },
+  {
+    "x": 83,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 3,
+    "yards_gained": 0,
+    "play_type": "pass",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 84,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 3,
+    "yards_gained": 5,
+    "play_type": "rush",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 85,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 3,
+    "yards_gained": 2,
+    "play_type": "rush",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 86,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 3,
+    "yards_gained": 1,
+    "play_type": "pass",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 87,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 3,
+    "yards_gained": 0,
+    "play_type": "pass",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 88,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 3,
+    "yards_gained": -3,
+    "play_type": "pass",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 89,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 3,
+    "yards_gained": 4,
+    "play_type": "rush",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 90,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 3,
+    "yards_gained": 0,
+    "play_type": "pass",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 91,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 3,
+    "yards_gained": 14,
+    "play_type": "pass",
+    "successful": true,
+    "explosive": false
+  },
+  {
+    "x": 92,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 3,
+    "yards_gained": 6,
+    "play_type": "rush",
+    "successful": true,
+    "explosive": false
+  },
+  {
+    "x": 93,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 3,
+    "yards_gained": 27,
+    "play_type": "pass",
+    "successful": true,
+    "explosive": true
+  },
+  {
+    "x": 94,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 3,
+    "yards_gained": 10,
+    "play_type": "pass",
+    "successful": true,
+    "explosive": false
+  },
+  {
+    "x": 95,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 3,
+    "yards_gained": -3,
+    "play_type": "rush",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 96,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 3,
+    "yards_gained": 4,
+    "play_type": "pass",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 97,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 3,
+    "yards_gained": -7,
+    "play_type": "pass",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 98,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 3,
+    "yards_gained": 0,
+    "play_type": "pass",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 99,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 3,
+    "yards_gained": 20,
+    "play_type": "pass",
+    "successful": true,
+    "explosive": true
+  },
+  {
+    "x": 100,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 3,
+    "yards_gained": 25,
+    "play_type": "pass",
+    "successful": true,
+    "explosive": true
+  },
+  {
+    "x": 101,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 3,
+    "yards_gained": 2,
+    "play_type": "rush",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 102,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 3,
+    "yards_gained": 6,
+    "play_type": "rush",
+    "successful": true,
+    "explosive": false
+  },
+  {
+    "x": 103,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 3,
+    "yards_gained": 3,
+    "play_type": "rush",
+    "successful": true,
+    "explosive": false
+  },
+  {
+    "x": 104,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 3,
+    "yards_gained": 0,
+    "play_type": "pass",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 105,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 3,
+    "yards_gained": 6,
+    "play_type": "pass",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 106,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 3,
+    "yards_gained": 4,
+    "play_type": "rush",
+    "successful": true,
+    "explosive": false
+  },
+  {
+    "x": 107,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 3,
+    "yards_gained": 6,
+    "play_type": "rush",
+    "successful": true,
+    "explosive": false
+  },
+  {
+    "x": 108,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 3,
+    "yards_gained": 3,
+    "play_type": "rush",
+    "successful": true,
+    "explosive": false
+  },
+  {
+    "x": 109,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 3,
+    "yards_gained": 2,
+    "play_type": "pass",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 110,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 4,
+    "yards_gained": 7,
+    "play_type": "pass",
+    "successful": true,
+    "explosive": false
+  },
+  {
+    "x": 111,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 4,
+    "yards_gained": 1,
+    "play_type": "rush",
+    "successful": true,
+    "explosive": false
+  },
+  {
+    "x": 112,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 4,
+    "yards_gained": 20,
+    "play_type": "pass",
+    "successful": true,
+    "explosive": true
+  },
+  {
+    "x": 113,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 4,
+    "yards_gained": 19,
+    "play_type": "rush",
+    "successful": true,
+    "explosive": true
+  },
+  {
+    "x": 114,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 4,
+    "yards_gained": 14,
+    "play_type": "pass",
+    "successful": true,
+    "explosive": false
+  },
+  {
+    "x": 115,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 4,
+    "yards_gained": 0,
+    "play_type": "rush",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 116,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 4,
+    "yards_gained": 9,
+    "play_type": "rush",
+    "successful": true,
+    "explosive": false
+  },
+  {
+    "x": 117,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 4,
+    "yards_gained": 2,
+    "play_type": "rush",
+    "successful": true,
+    "explosive": false
+  },
+  {
+    "x": 118,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 4,
+    "yards_gained": 1,
+    "play_type": "rush",
+    "successful": true,
+    "explosive": false
+  },
+  {
+    "x": 119,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 4,
+    "yards_gained": -15,
+    "play_type": "pass",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 120,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 4,
+    "yards_gained": 1,
+    "play_type": "rush",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 121,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 4,
+    "yards_gained": 0,
+    "play_type": "pass",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 122,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 4,
+    "yards_gained": 7,
+    "play_type": "pass",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 123,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 4,
+    "yards_gained": 6,
+    "play_type": "pass",
+    "successful": true,
+    "explosive": false
+  },
+  {
+    "x": 124,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 4,
+    "yards_gained": 31,
+    "play_type": "pass",
+    "successful": true,
+    "explosive": true
+  },
+  {
+    "x": 125,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 4,
+    "yards_gained": 0,
+    "play_type": "pass",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 126,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 4,
+    "yards_gained": 2,
+    "play_type": "rush",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 127,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 4,
+    "yards_gained": 0,
+    "play_type": "pass",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 128,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 4,
+    "yards_gained": 0,
+    "play_type": "pass",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 129,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 4,
+    "yards_gained": 25,
+    "play_type": "pass",
+    "successful": true,
+    "explosive": true
+  },
+  {
+    "x": 130,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 4,
+    "yards_gained": 0,
+    "play_type": "rush",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 131,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 4,
+    "yards_gained": 1,
+    "play_type": "rush",
+    "successful": true,
+    "explosive": false
+  },
+  {
+    "x": 132,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 4,
+    "yards_gained": 14,
+    "play_type": "rush",
+    "successful": true,
+    "explosive": false
+  },
+  {
+    "x": 133,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 4,
+    "yards_gained": 29,
+    "play_type": "rush",
+    "successful": true,
+    "explosive": true
+  },
+  {
+    "x": 134,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 4,
+    "yards_gained": 3,
+    "play_type": "rush",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 135,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 4,
+    "yards_gained": 15,
+    "play_type": "pass",
+    "successful": true,
+    "explosive": true
+  },
+  {
+    "x": 136,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 4,
+    "yards_gained": 9,
+    "play_type": "pass",
+    "successful": true,
+    "explosive": false
+  },
+  {
+    "x": 137,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 4,
+    "yards_gained": 0,
+    "play_type": "pass",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 138,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 4,
+    "yards_gained": 5,
+    "play_type": "pass",
+    "successful": true,
+    "explosive": false
+  },
+  {
+    "x": 139,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 4,
+    "yards_gained": 0,
+    "play_type": "pass",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 140,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 4,
+    "yards_gained": 13,
+    "play_type": "pass",
+    "successful": true,
+    "explosive": false
+  },
+  {
+    "x": 141,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 4,
+    "yards_gained": 8,
+    "play_type": "pass",
+    "successful": true,
+    "explosive": false
+  },
+  {
+    "x": 142,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 4,
+    "yards_gained": 1,
+    "play_type": "rush",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 143,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 4,
+    "yards_gained": 4,
+    "play_type": "rush",
+    "successful": true,
+    "explosive": false
+  },
+  {
+    "x": 144,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 4,
+    "yards_gained": -2,
+    "play_type": "pass",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 145,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 4,
+    "yards_gained": 22,
+    "play_type": "pass",
+    "successful": true,
+    "explosive": true
+  },
+  {
+    "x": 146,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 4,
+    "yards_gained": 1,
+    "play_type": "rush",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 147,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 4,
+    "yards_gained": 0,
+    "play_type": "rush",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 148,
+    "offense_number": 1,
+    "offense": "Alabama",
+    "quarter": 4,
+    "yards_gained": -2,
+    "play_type": "rush",
+    "successful": false,
+    "explosive": false
+  },
+  {
+    "x": 149,
+    "offense_number": 2,
+    "offense": "Florida",
+    "quarter": 4,
+    "yards_gained": -5,
+    "play_type": "pass",
+    "successful": false,
+    "explosive": false
+  }
+]

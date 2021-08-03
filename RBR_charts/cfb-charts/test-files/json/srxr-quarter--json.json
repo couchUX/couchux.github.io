@@ -1,0 +1,46 @@
+[
+  {
+    "quarter": 1,
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorMainOpp": "rgba(244, 97, 37, 0.8)",
+    "colorDark": "rgba(128, 0, 0, 0.8)",
+    "colorDarkOpp": "rgba(128, 37, 0, 0.8)",
+    "SR": 0.55,
+    "SR Opponent": 0.4,
+    "XR": 0.18,
+    "XR Opponent": 0.2
+  },
+  {
+    "quarter": 2,
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorMainOpp": "rgba(244, 97, 37, 0.8)",
+    "colorDark": "rgba(128, 0, 0, 0.8)",
+    "colorDarkOpp": "rgba(128, 37, 0, 0.8)",
+    "SR": 0.66,
+    "SR Opponent": 0.5,
+    "XR": 0.17,
+    "XR Opponent": 0.2
+  },
+  {
+    "quarter": 3,
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorMainOpp": "rgba(244, 97, 37, 0.8)",
+    "colorDark": "rgba(128, 0, 0, 0.8)",
+    "colorDarkOpp": "rgba(128, 37, 0, 0.8)",
+    "SR": 0.38,
+    "SR Opponent": 0.55,
+    "XR": 0.15,
+    "XR Opponent": 0.15
+  },
+  {
+    "quarter": 4,
+    "colorMain": "rgba(244, 37, 37, 0.8)",
+    "colorMainOpp": "rgba(244, 97, 37, 0.8)",
+    "colorDark": "rgba(128, 0, 0, 0.8)",
+    "colorDarkOpp": "rgba(128, 37, 0, 0.8)",
+    "SR": 0.58,
+    "SR Opponent": 0.48,
+    "XR": 0.21,
+    "XR Opponent": 0.14
+  }
+]
