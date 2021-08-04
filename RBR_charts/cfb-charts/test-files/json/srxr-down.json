@@ -1,44 +1,65 @@
 [
   {
     "offense": "Alabama",
-    "x": 1,
-    "Success Rate": 0.6,
-    "Explosiveness Rate": 0.18
+    "down": 1,
+    "team_num": 1,
+    "color": "rgba(244, 37, 37, 0.8)",
+    "color_dark": "rgba(128, 0, 0, 0.8)",
+    "sr": 0.6,
+    "xr": 0.18
   },
   {
     "offense": "Alabama",
-    "x": 2,
-    "Success Rate": 0.5,
-    "Explosiveness Rate": 0.27
+    "down": 2,
+    "team_num": 1,
+    "color": "rgba(244, 37, 37, 0.8)",
+    "color_dark": "rgba(128, 0, 0, 0.8)",
+    "sr": 0.5,
+    "xr": 0.27
   },
   {
     "offense": "Alabama",
-    "x": 3,
-    "Success Rate": 0.6,
-    "Explosiveness Rate": 0.07
+    "down": 3,
+    "team_num": 1,
+    "color": "rgba(244, 37, 37, 0.8)",
+    "color_dark": "rgba(128, 0, 0, 0.8)",
+    "sr": 0.6,
+    "xr": 0.07
   },
   {
     "offense": "Alabama",
-    "x": 4,
-    "Success Rate": 0.5,
-    "Explosiveness Rate": 0
+    "down": 4,
+    "team_num": 1,
+    "color": "rgba(244, 37, 37, 0.8)",
+    "color_dark": "rgba(128, 0, 0, 0.8)",
+    "sr": 0.5,
+    "xr": 0
   },
   {
     "offense": "Florida",
-    "x": 1,
-    "Success Rate": 0.39,
-    "Explosiveness Rate": 0.09
+    "down": 1,
+    "team_num": 2,
+    "color": "rgba(244, 97, 37, 0.8)",
+    "color_dark": "rgba(128, 37, 0, 0.8)",
+    "sr": 0.39,
+    "xr": 0.09
   },
   {
     "offense": "Florida",
-    "x": 2,
-    "Success Rate": 0.5,
-    "Explosiveness Rate": 0.18
+    "down": 2,
+    "team_num": 2,
+    "color": "rgba(244, 97, 37, 0.8)",
+    "color_dark": "rgba(128, 37, 0, 0.8)",
+    "sr": 0.5,
+    "xr": 0.18
   },
   {
     "offense": "Florida",
-    "x": 3,
-    "Success Rate": 0.73,
-    "Explosiveness Rate": 0.36
+    "down": 3,
+    "team_num": 2,
+    "color": "rgba(244, 97, 37, 0.8)",
+    "color_dark": "rgba(128, 37, 0, 0.8)",
+    "sr": 0.73,
+    "xr": 0.36
   }
 ]

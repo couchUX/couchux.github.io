@@ -4,12 +4,13 @@ Chart.defaults.plugins.legend.labels.boxWidth = 12;
 Chart.defaults.plugins.legend.labels.padding = 18;
 
 
+// TEAM CHART -- consider consolidating with a Stacking variable
 const srXrByTeam = (json,id) => {
     fetch(json).then(response => response.json()).then(data => { chartData = data;
 
-        let labels = chartData.map(a => a.x);
-        let successColors = chartData.map(a => a.colorMain);
-        let explosiveColors = chartData.map(a => a.colorDark);
+        let labels = chartData.map(a => a.offense);
+        let successColors = chartData.map(a => a.color);
+        let explosiveColors = chartData.map(a => a.color_dark);
 
         const ctx = document.getElementById(id).getContext('2d');
         new Chart(ctx, {
@@ -21,13 +22,19 @@ const srXrByTeam = (json,id) => {
                         label: 'Success Rate',
                         data: chartData,
                         backgroundColor: successColors,
-                        parsing: { yAxisKey: 'Success Rate' }
+                        parsing: { 
+                            yAxisKey: 'sr',
+                            xAxisKey: 'offense' 
+                        }
                     },
                     {
                         label: 'Explosiveness Rate',
                         data: chartData,
                         backgroundColor: explosiveColors,
-                        parsing: { yAxisKey: 'Explosiveness Rate' },            
+                        parsing: { 
+                            yAxisKey: 'xr',
+                            xAxisKey: 'offense' 
+                        }
                     }]
             },
             options: {
@@ -42,21 +49,21 @@ const srXrByTeam = (json,id) => {
     })
 }
 
-const srXrByQuarter = (json,id) => {
+const srXrByQuarter = (thisCol,json,id) => {
     fetch(json).then(response => response.json()).then(data => { chartData = data;
 
-        let team = chartData.filter(({offense}) => offense == "Alabama");
-        let opponent = chartData.filter(({offense}) => offense == "Florida");
+        let team = chartData.filter(({team_num}) => team_num == 1);
+        let opponent = chartData.filter(({team_num}) => team_num == 2);
 
-        let labels = team.map(a => a.quarter);
-        let sr = team.map(a => a["Success Rate"]);
-        let xr = team.map(a => a["Explosiveness Rate"]);
-        let srOpp = opponent.map(a => a["Success Rate"]);
-        let xrOpp = opponent.map(a => a["Explosiveness Rate"]);
-        let sColors = team.map(a => a.colorMain);
-        let xColors = team.map(a => a.colorDark);
-        let sColorsOpp = opponent.map(a => a.colorMain);
-        let xColorsOpp = opponent.map(a => a.colorDark);
+        let labels = team.map(a => a[thisCol]);
+        let sr = team.map(a => a.sr);
+        let xr = team.map(a => a.xr);
+        let srOpp = opponent.map(a => a.sr);
+        let xrOpp = opponent.map(a => a.xr);
+        let sColors = team.map(a => a.color);
+        let xColors = team.map(a => a.color_dark);
+        let sColorsOpp = opponent.map(a => a.color);
+        let xColorsOpp = opponent.map(a => a.color_dark);
 
         const ctx = document.getElementById(id).getContext('2d');
         new Chart(ctx, {
@@ -82,7 +89,7 @@ const srXrByQuarter = (json,id) => {
                     },{
                         data: srOpp,
                         stack: "Opponent",
-                        label: opponent[0].offense + ' SR',
+                        label: opponent[0].offense + ' SR', 
                         backgroundColor: sColorsOpp,
                     }]
             },
@@ -92,6 +99,16 @@ const srXrByQuarter = (json,id) => {
                         stacked: false,
                         max: 1,
                     },
+                },
+                tooltips: {
+                    callbacks: {
+                        label: ({datasetIndex, yLabel}, {datasets}) => {
+                            let label = datasets[datasetIndex].label || '';
+                            if (label) { label += ': '; }
+                            label += `${Math.round(yLabel * 100)}%`;
+                            return label;
+                          }
+                    }
                 }
             }
         });

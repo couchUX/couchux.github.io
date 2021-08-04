@@ -1,26 +1,38 @@
 [
   {
     "offense": "Alabama",
-    "x": "pass",
-    "Success Rate": 0.58,
-    "Explosiveness Rate": 0.29
+    "play_type": "pass",
+    "team_num": 1,
+    "color": "rgba(244, 37, 37, 0.8)",
+    "color_dark": "rgba(128, 0, 0, 0.8)",
+    "sr": 0.58,
+    "xr": 0.29
   },
   {
     "offense": "Alabama",
-    "x": "rush",
-    "Success Rate": 0.55,
-    "Explosiveness Rate": 0.05
+    "play_type": "rush",
+    "team_num": 1,
+    "color": "rgba(244, 37, 37, 0.8)",
+    "color_dark": "rgba(128, 0, 0, 0.8)",
+    "sr": 0.55,
+    "xr": 0.05
   },
   {
     "offense": "Florida",
-    "x": "pass",
-    "Success Rate": 0.47,
-    "Explosiveness Rate": 0.22
+    "play_type": "pass",
+    "team_num": 2,
+    "color": "rgba(244, 97, 37, 0.8)",
+    "color_dark": "rgba(128, 37, 0, 0.8)",
+    "sr": 0.47,
+    "xr": 0.22
   },
   {
     "offense": "Florida",
-    "x": "rush",
-    "Success Rate": 0.52,
-    "Explosiveness Rate": 0.05
+    "play_type": "rush",
+    "team_num": 2,
+    "color": "rgba(244, 97, 37, 0.8)",
+    "color_dark": "rgba(128, 37, 0, 0.8)",
+    "sr": 0.52,
+    "xr": 0.05
   }
 ]

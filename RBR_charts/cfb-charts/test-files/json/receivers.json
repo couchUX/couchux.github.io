@@ -1,7 +1,7 @@
 [
   {
     "offense": "Alabama",
-    "x": "DeVonta Smith",
+    "receiver": "DeVonta Smith",
     "Success Count": 4,
     "Explosive Count": 6,
     "Unsuccessful Catch Count": 1,
@@ -9,7 +9,7 @@
   },
   {
     "offense": "Alabama",
-    "x": "Najee Harris",
+    "receiver": "Najee Harris",
     "Success Count": 3,
     "Explosive Count": 2,
     "Unsuccessful Catch Count": 0,
@@ -17,7 +17,7 @@
   },
   {
     "offense": "Alabama",
-    "x": "John Metchie III",
+    "receiver": "John Metchie III",
     "Success Count": 2,
     "Explosive Count": 2,
     "Unsuccessful Catch Count": 0,
@@ -25,7 +25,7 @@
   },
   {
     "offense": "Alabama",
-    "x": "Miller Forristall",
+    "receiver": "Miller Forristall",
     "Success Count": 2,
     "Explosive Count": 0,
     "Unsuccessful Catch Count": 1,
@@ -33,7 +33,7 @@
   },
   {
     "offense": "Alabama",
-    "x": "Jahleel Billingsley",
+    "receiver": "Jahleel Billingsley",
     "Success Count": 1,
     "Explosive Count": 1,
     "Unsuccessful Catch Count": 0,
@@ -41,7 +41,7 @@
   },
   {
     "offense": "Alabama",
-    "x": "Xavier Williams",
+    "receiver": "Xavier Williams",
     "Success Count": 1,
     "Explosive Count": 0,
     "Unsuccessful Catch Count": 0,
@@ -49,7 +49,7 @@
   },
   {
     "offense": "Alabama",
-    "x": "Slade Bolden",
+    "receiver": "Slade Bolden",
     "Success Count": 0,
     "Explosive Count": 2,
     "Unsuccessful Catch Count": 0,
@@ -57,7 +57,7 @@
   },
   {
     "offense": "Alabama",
-    "x": "Major Tennison",
+    "receiver": "Major Tennison",
     "Success Count": 0,
     "Explosive Count": 0,
     "Unsuccessful Catch Count": 1,
@@ -65,7 +65,7 @@
   },
   {
     "offense": "Florida",
-    "x": "Kadarius Toney",
+    "receiver": "Kadarius Toney",
     "Success Count": 4,
     "Explosive Count": 3,
     "Unsuccessful Catch Count": 1,
@@ -73,7 +73,7 @@
   },
   {
     "offense": "Florida",
-    "x": "Kyle Pitts",
+    "receiver": "Kyle Pitts",
     "Success Count": 2,
     "Explosive Count": 5,
     "Unsuccessful Catch Count": 0,
@@ -81,7 +81,7 @@
   },
   {
     "offense": "Florida",
-    "x": "Nay'Quan Wright",
+    "receiver": "Nay'Quan Wright",
     "Success Count": 2,
     "Explosive Count": 0,
     "Unsuccessful Catch Count": 1,
@@ -89,7 +89,7 @@
   },
   {
     "offense": "Florida",
-    "x": "Trevon Grimes",
+    "receiver": "Trevon Grimes",
     "Success Count": 1,
     "Explosive Count": 2,
     "Unsuccessful Catch Count": 1,
@@ -97,7 +97,7 @@
   },
   {
     "offense": "Florida",
-    "x": "Malik Davis",
+    "receiver": "Malik Davis",
     "Success Count": 1,
     "Explosive Count": 0,
     "Unsuccessful Catch Count": 1,
@@ -105,7 +105,7 @@
   },
   {
     "offense": "Florida",
-    "x": "Jacob Copeland",
+    "receiver": "Jacob Copeland",
     "Success Count": 1,
     "Explosive Count": 0,
     "Unsuccessful Catch Count": 0,

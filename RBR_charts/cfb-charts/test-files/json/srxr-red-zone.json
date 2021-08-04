@@ -1,26 +1,38 @@
 [
   {
     "offense": "Alabama",
-    "x": "Other",
-    "Success Rate": 0.56,
-    "Explosiveness Rate": 0.19
+    "red_zone": "Other",
+    "team_num": 1,
+    "color": "rgba(244, 37, 37, 0.8)",
+    "color_dark": "rgba(128, 0, 0, 0.8)",
+    "sr": 0.56,
+    "xr": 0.19
   },
   {
     "offense": "Alabama",
-    "x": "Red zone",
-    "Success Rate": 0.6,
-    "Explosiveness Rate": 0.13
+    "red_zone": "Red zone",
+    "team_num": 1,
+    "color": "rgba(244, 37, 37, 0.8)",
+    "color_dark": "rgba(128, 0, 0, 0.8)",
+    "sr": 0.6,
+    "xr": 0.13
   },
   {
     "offense": "Florida",
-    "x": "Other",
-    "Success Rate": 0.47,
-    "Explosiveness Rate": 0.19
+    "red_zone": "Other",
+    "team_num": 2,
+    "color": "rgba(244, 97, 37, 0.8)",
+    "color_dark": "rgba(128, 37, 0, 0.8)",
+    "sr": 0.47,
+    "xr": 0.19
   },
   {
     "offense": "Florida",
-    "x": "Red zone",
-    "Success Rate": 0.56,
-    "Explosiveness Rate": 0
+    "red_zone": "Red zone",
+    "team_num": 2,
+    "color": "rgba(244, 97, 37, 0.8)",
+    "color_dark": "rgba(128, 37, 0, 0.8)",
+    "sr": 0.56,
+    "xr": 0
   }
 ]

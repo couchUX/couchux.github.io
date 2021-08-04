@@ -2,65 +2,73 @@
   {
     "offense": "Alabama",
     "quarter": 1,
-    "colorMain": "rgba(244, 37, 37, 0.8)",
-    "colorDark": "rgba(128, 0, 0, 0.8)",
-    "Success Rate": 0.55,
-    "Explosiveness Rate": 0.18
+    "team_num": 1,
+    "color": "rgba(244, 37, 37, 0.8)",
+    "color_dark": "rgba(128, 0, 0, 0.8)",
+    "sr": 0.55,
+    "xr": 0.18
   },
   {
     "offense": "Alabama",
     "quarter": 2,
-    "colorMain": "rgba(244, 37, 37, 0.8)",
-    "colorDark": "rgba(128, 0, 0, 0.8)",
-    "Success Rate": 0.66,
-    "Explosiveness Rate": 0.17
+    "team_num": 1,
+    "color": "rgba(244, 37, 37, 0.8)",
+    "color_dark": "rgba(128, 0, 0, 0.8)",
+    "sr": 0.66,
+    "xr": 0.17
   },
   {
     "offense": "Alabama",
     "quarter": 3,
-    "colorMain": "rgba(244, 37, 37, 0.8)",
-    "colorDark": "rgba(128, 0, 0, 0.8)",
-    "Success Rate": 0.38,
-    "Explosiveness Rate": 0.15
+    "team_num": 1,
+    "color": "rgba(244, 37, 37, 0.8)",
+    "color_dark": "rgba(128, 0, 0, 0.8)",
+    "sr": 0.38,
+    "xr": 0.15
   },
   {
     "offense": "Alabama",
     "quarter": 4,
-    "colorMain": "rgba(244, 37, 37, 0.8)",
-    "colorDark": "rgba(128, 0, 0, 0.8)",
-    "Success Rate": 0.58,
-    "Explosiveness Rate": 0.21
+    "team_num": 1,
+    "color": "rgba(244, 37, 37, 0.8)",
+    "color_dark": "rgba(128, 0, 0, 0.8)",
+    "sr": 0.58,
+    "xr": 0.21
   },
   {
     "offense": "Florida",
     "quarter": 1,
-    "colorMain": "rgba(244, 97, 37, 0.8)",
-    "colorDark": "rgba(128, 37, 0, 0.8)",
-    "Success Rate": 0.4,
-    "Explosiveness Rate": 0.2
+    "team_num": 2,
+    "color": "rgba(244, 97, 37, 0.8)",
+    "color_dark": "rgba(128, 37, 0, 0.8)",
+    "sr": 0.4,
+    "xr": 0.2
   },
   {
     "offense": "Florida",
     "quarter": 2,
-    "colorMain": "rgba(244, 97, 37, 0.8)",
-    "colorDark": "rgba(128, 37, 0, 0.8)",
-    "Success Rate": 0.5,
-    "Explosiveness Rate": 0.2
+    "team_num": 2,
+    "color": "rgba(244, 97, 37, 0.8)",
+    "color_dark": "rgba(128, 37, 0, 0.8)",
+    "sr": 0.5,
+    "xr": 0.2
   },
   {
     "offense": "Florida",
     "quarter": 3,
-    "colorMain": "rgba(244, 97, 37, 0.8)",
-    "colorDark": "rgba(128, 37, 0, 0.8)",
-    "Success Rate": 0.55,
-    "Explosiveness Rate": 0.15
+    "team_num": 2,
+    "color": "rgba(244, 97, 37, 0.8)",
+    "color_dark": "rgba(128, 37, 0, 0.8)",
+    "sr": 0.55,
+    "xr": 0.15
   },
   {
     "offense": "Florida",
     "quarter": 4,
-    "colorMain": "rgba(244, 97, 37, 0.8)",
-    "colorDark": "rgba(128, 37, 0, 0.8)",
-    "Success Rate": 0.48,
-    "Explosiveness Rate": 0.14
+    "team_num": 2,
+    "color": "rgba(244, 97, 37, 0.8)",
+    "color_dark": "rgba(128, 37, 0, 0.8)",
+    "sr": 0.48,
+    "xr": 0.14
   }
 ]
