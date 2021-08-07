@@ -1,14 +1,15 @@
 // chart config overall
-Chart.defaults.plugins.legend.align = 'start';
+Chart.defaults.plugins.legend.align = 'center';
 Chart.defaults.plugins.legend.labels.boxWidth = 12;
 Chart.defaults.plugins.legend.labels.padding = 18;
 
+percentCallback = (value) => `${Math.round(value * 100)}%`
 
 // TEAM CHART -- consider consolidating with a Stacking variable
 const srXrByTeam = (json,id) => {
     fetch(json).then(response => response.json()).then(data => { chartData = data;
 
-        let labels = chartData.map(a => a.offense);
+        let labels = [...new Set(data.map(a => a.offense))];
         let successColors = chartData.map(a => a.color);
         let explosiveColors = chartData.map(a => a.color_dark);
 
@@ -40,8 +41,8 @@ const srXrByTeam = (json,id) => {
             options: {
                 scales: {
                     y: {
-                        stacked: false,
                         max: 1,
+                        ticks: { callback: percentCallback }
                     },
                 }
             }
@@ -49,13 +50,13 @@ const srXrByTeam = (json,id) => {
     })
 }
 
-const srXrByQuarter = (thisCol,json,id) => {
-    fetch(json).then(response => response.json()).then(data => { chartData = data;
+const srXrBars = (thisCol,json,id) => {
+    fetch(json).then(response => response.json()).then(data => { 
+        
+        let team = data.filter(({team_num}) => team_num == 1);
+        let opponent = data.filter(({team_num}) => team_num == 2);
+        let labels = [...new Set(data.map(a => a[thisCol]))];
 
-        let team = chartData.filter(({team_num}) => team_num == 1);
-        let opponent = chartData.filter(({team_num}) => team_num == 2);
-
-        let labels = team.map(a => a[thisCol]);
         let sr = team.map(a => a.sr);
         let xr = team.map(a => a.xr);
         let srOpp = opponent.map(a => a.sr);
@@ -98,18 +99,14 @@ const srXrByQuarter = (thisCol,json,id) => {
                     y: {
                         stacked: false,
                         max: 1,
-                    },
+                        ticks: { callback: percentCallback }
+                    }
                 },
                 tooltips: {
                     callbacks: {
-                        label: ({datasetIndex, yLabel}, {datasets}) => {
-                            let label = datasets[datasetIndex].label || '';
-                            if (label) { label += ': '; }
-                            label += `${Math.round(yLabel * 100)}%`;
-                            return label;
-                          }
+                        label: (value) => `${Math.round(value * 100)}%`   // why isn't this working?
                     }
-                }
+                } 
             }
         });
     })

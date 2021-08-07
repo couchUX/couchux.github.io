@@ -1,6 +1,15 @@
 [
   {
     "offense": "Alabama",
+    "play_type": "rush",
+    "team_num": 1,
+    "color": "rgba(244, 37, 37, 0.8)",
+    "color_dark": "rgba(128, 0, 0, 0.8)",
+    "sr": 0.55,
+    "xr": 0.05
+  },
+  {
+    "offense": "Alabama",
     "play_type": "pass",
     "team_num": 1,
     "color": "rgba(244, 37, 37, 0.8)",
@@ -9,12 +18,12 @@
     "xr": 0.29
   },
   {
-    "offense": "Alabama",
+    "offense": "Florida",
     "play_type": "rush",
-    "team_num": 1,
-    "color": "rgba(244, 37, 37, 0.8)",
-    "color_dark": "rgba(128, 0, 0, 0.8)",
-    "sr": 0.55,
+    "team_num": 2,
+    "color": "rgba(244, 97, 37, 0.8)",
+    "color_dark": "rgba(128, 37, 0, 0.8)",
+    "sr": 0.52,
     "xr": 0.05
   },
   {
@@ -25,14 +34,5 @@
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "sr": 0.47,
     "xr": 0.22
-  },
-  {
-    "offense": "Florida",
-    "play_type": "rush",
-    "team_num": 2,
-    "color": "rgba(244, 97, 37, 0.8)",
-    "color_dark": "rgba(128, 37, 0, 0.8)",
-    "sr": 0.52,
-    "xr": 0.05
   }
 ]
