@@ -1,114 +1,128 @@
 [
   {
+    "team_num": 1,
     "offense": "Alabama",
     "receiver": "DeVonta Smith",
-    "Success Count": 4,
-    "Explosive Count": 6,
-    "Unsuccessful Catch Count": 1,
-    "Incomplete Count": 4
+    "explosive_count": 6,
+    "successful_not_x": 4,
+    "unsuccessful_catches": 5,
+    "incomplete": 0
   },
   {
+    "team_num": 1,
     "offense": "Alabama",
     "receiver": "Najee Harris",
-    "Success Count": 3,
-    "Explosive Count": 2,
-    "Unsuccessful Catch Count": 0,
-    "Incomplete Count": 0
+    "explosive_count": 2,
+    "successful_not_x": 3,
+    "unsuccessful_catches": 0,
+    "incomplete": 0
   },
   {
+    "team_num": 1,
     "offense": "Alabama",
     "receiver": "John Metchie III",
-    "Success Count": 2,
-    "Explosive Count": 2,
-    "Unsuccessful Catch Count": 0,
-    "Incomplete Count": 0
+    "explosive_count": 2,
+    "successful_not_x": 2,
+    "unsuccessful_catches": 0,
+    "incomplete": 0
   },
   {
+    "team_num": 1,
     "offense": "Alabama",
     "receiver": "Miller Forristall",
-    "Success Count": 2,
-    "Explosive Count": 0,
-    "Unsuccessful Catch Count": 1,
-    "Incomplete Count": 0
+    "explosive_count": 0,
+    "successful_not_x": 2,
+    "unsuccessful_catches": 1,
+    "incomplete": 0
   },
   {
+    "team_num": 1,
     "offense": "Alabama",
     "receiver": "Jahleel Billingsley",
-    "Success Count": 1,
-    "Explosive Count": 1,
-    "Unsuccessful Catch Count": 0,
-    "Incomplete Count": 0
+    "explosive_count": 1,
+    "successful_not_x": 1,
+    "unsuccessful_catches": 0,
+    "incomplete": 0
   },
   {
+    "team_num": 1,
     "offense": "Alabama",
     "receiver": "Xavier Williams",
-    "Success Count": 1,
-    "Explosive Count": 0,
-    "Unsuccessful Catch Count": 0,
-    "Incomplete Count": 0
+    "explosive_count": 0,
+    "successful_not_x": 1,
+    "unsuccessful_catches": 0,
+    "incomplete": 0
   },
   {
+    "team_num": 1,
     "offense": "Alabama",
     "receiver": "Slade Bolden",
-    "Success Count": 0,
-    "Explosive Count": 2,
-    "Unsuccessful Catch Count": 0,
-    "Incomplete Count": 0
+    "explosive_count": 2,
+    "successful_not_x": 0,
+    "unsuccessful_catches": 0,
+    "incomplete": 0
   },
   {
+    "team_num": 1,
     "offense": "Alabama",
     "receiver": "Major Tennison",
-    "Success Count": 0,
-    "Explosive Count": 0,
-    "Unsuccessful Catch Count": 1,
-    "Incomplete Count": 0
+    "explosive_count": 0,
+    "successful_not_x": 0,
+    "unsuccessful_catches": 1,
+    "incomplete": 0
   },
   {
+    "team_num": 2,
     "offense": "Florida",
     "receiver": "Kadarius Toney",
-    "Success Count": 4,
-    "Explosive Count": 3,
-    "Unsuccessful Catch Count": 1,
-    "Incomplete Count": 0
+    "explosive_count": 3,
+    "successful_not_x": 4,
+    "unsuccessful_catches": 1,
+    "incomplete": 0
   },
   {
+    "team_num": 2,
     "offense": "Florida",
     "receiver": "Kyle Pitts",
-    "Success Count": 2,
-    "Explosive Count": 5,
-    "Unsuccessful Catch Count": 0,
-    "Incomplete Count": 0
+    "explosive_count": 5,
+    "successful_not_x": 2,
+    "unsuccessful_catches": 0,
+    "incomplete": 0
   },
   {
+    "team_num": 2,
     "offense": "Florida",
     "receiver": "Nay'Quan Wright",
-    "Success Count": 2,
-    "Explosive Count": 0,
-    "Unsuccessful Catch Count": 1,
-    "Incomplete Count": 0
+    "explosive_count": 0,
+    "successful_not_x": 2,
+    "unsuccessful_catches": 1,
+    "incomplete": 0
   },
   {
+    "team_num": 2,
     "offense": "Florida",
     "receiver": "Trevon Grimes",
-    "Success Count": 1,
-    "Explosive Count": 2,
-    "Unsuccessful Catch Count": 1,
-    "Incomplete Count": 0
+    "explosive_count": 2,
+    "successful_not_x": 1,
+    "unsuccessful_catches": 1,
+    "incomplete": 0
   },
   {
+    "team_num": 2,
     "offense": "Florida",
     "receiver": "Malik Davis",
-    "Success Count": 1,
-    "Explosive Count": 0,
-    "Unsuccessful Catch Count": 1,
-    "Incomplete Count": 0
+    "explosive_count": 0,
+    "successful_not_x": 1,
+    "unsuccessful_catches": 1,
+    "incomplete": 0
   },
   {
+    "team_num": 2,
     "offense": "Florida",
     "receiver": "Jacob Copeland",
-    "Success Count": 1,
-    "Explosive Count": 0,
-    "Unsuccessful Catch Count": 0,
-    "Incomplete Count": 1
+    "explosive_count": 0,
+    "successful_not_x": 1,
+    "unsuccessful_catches": 0,
+    "incomplete": 1
   }
 ]

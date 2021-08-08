@@ -1,79 +1,90 @@
 [
   {
+    "team_num": 1,
     "offense": "Alabama",
     "rusher": "Najee Harris",
-    "Explosive Count": 2,
-    "Success Count": 14,
-    "Unsuccessful Count": 15
+    "explosive_count": 2,
+    "successful_not_x": 14,
+    "unsuccessful": 15
   },
   {
+    "team_num": 1,
     "offense": "Alabama",
     "rusher": "Brian Robinson Jr.",
-    "Explosive Count": 0,
-    "Success Count": 3,
-    "Unsuccessful Count": 1
+    "explosive_count": 0,
+    "successful_not_x": 3,
+    "unsuccessful": 1
   },
   {
+    "team_num": 1,
     "offense": "Alabama",
     "rusher": "Mac Jones",
-    "Explosive Count": 0,
-    "Success Count": 1,
-    "Unsuccessful Count": 0
+    "explosive_count": 0,
+    "successful_not_x": 1,
+    "unsuccessful": 0
   },
   {
+    "team_num": 1,
     "offense": "Alabama",
     "rusher": "Miller Forristall",
-    "Explosive Count": 0,
-    "Success Count": 1,
-    "Unsuccessful Count": 0
+    "explosive_count": 0,
+    "successful_not_x": 1,
+    "unsuccessful": 0
   },
   {
+    "team_num": 1,
     "offense": "Alabama",
     "rusher": "Jahleel Billingsley",
-    "Explosive Count": 0,
-    "Success Count": 0,
-    "Unsuccessful Count": 1
+    "explosive_count": 0,
+    "successful_not_x": 0,
+    "unsuccessful": 1
   },
   {
+    "team_num": 2,
     "offense": "Florida",
     "rusher": "Kyle Trask",
-    "Explosive Count": 0,
-    "Success Count": 5,
-    "Unsuccessful Count": 5
+    "explosive_count": 0,
+    "successful_not_x": 5,
+    "unsuccessful": 5
   },
   {
+    "team_num": 2,
     "offense": "Florida",
     "rusher": "Nay'Quan Wright",
-    "Explosive Count": 0,
-    "Success Count": 2,
-    "Unsuccessful Count": 2
+    "explosive_count": 0,
+    "successful_not_x": 2,
+    "unsuccessful": 2
   },
   {
+    "team_num": 2,
     "offense": "Florida",
     "rusher": "Emory Jones",
-    "Explosive Count": 1,
-    "Success Count": 1,
-    "Unsuccessful Count": 0
+    "explosive_count": 1,
+    "successful_not_x": 1,
+    "unsuccessful": 0
   },
   {
+    "team_num": 2,
     "offense": "Florida",
     "rusher": "Dameon Pierce",
-    "Explosive Count": 0,
-    "Success Count": 1,
-    "Unsuccessful Count": 1
+    "explosive_count": 0,
+    "successful_not_x": 1,
+    "unsuccessful": 1
   },
   {
+    "team_num": 2,
     "offense": "Florida",
     "rusher": "Kadarius Toney",
-    "Explosive Count": 0,
-    "Success Count": 1,
-    "Unsuccessful Count": 1
+    "explosive_count": 0,
+    "successful_not_x": 1,
+    "unsuccessful": 1
   },
   {
+    "team_num": 2,
     "offense": "Florida",
     "rusher": "Malik Davis",
-    "Explosive Count": 0,
-    "Success Count": 0,
-    "Unsuccessful Count": 1
+    "explosive_count": 0,
+    "successful_not_x": 0,
+    "unsuccessful": 1
   }
 ]

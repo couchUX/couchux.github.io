@@ -1,65 +1,65 @@
 [
   {
     "offense": "Alabama",
-    "down": 1,
     "team_num": 1,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "sr": 0.6,
-    "xr": 0.18
+    "xr": 0.18,
+    "down": "1D"
   },
   {
     "offense": "Alabama",
-    "down": 2,
     "team_num": 1,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "sr": 0.5,
-    "xr": 0.27
+    "xr": 0.27,
+    "down": "2D"
   },
   {
     "offense": "Alabama",
-    "down": 3,
     "team_num": 1,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "sr": 0.6,
-    "xr": 0.07
+    "xr": 0.07,
+    "down": "3D"
   },
   {
     "offense": "Alabama",
-    "down": 4,
     "team_num": 1,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "sr": 0.5,
-    "xr": 0
+    "xr": 0,
+    "down": "4D"
   },
   {
     "offense": "Florida",
-    "down": 1,
     "team_num": 2,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "sr": 0.39,
-    "xr": 0.09
+    "xr": 0.09,
+    "down": "1D"
   },
   {
     "offense": "Florida",
-    "down": 2,
     "team_num": 2,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "sr": 0.5,
-    "xr": 0.18
+    "xr": 0.18,
+    "down": "2D"
   },
   {
     "offense": "Florida",
-    "down": 3,
     "team_num": 2,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "sr": 0.73,
-    "xr": 0.36
+    "xr": 0.36,
+    "down": "3D"
   }
 ]

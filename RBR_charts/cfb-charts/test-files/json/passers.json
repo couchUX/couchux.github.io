@@ -1,18 +1,20 @@
 [
   {
+    "team_num": 1,
     "offense": "Alabama",
-    "x": "Mac Jones",
-    "Explosive Count": 13,
-    "Success Count": 13,
-    "Unsuccessful Catch Count": 3,
-    "Incomplete Count": 14
+    "passer": "Mac Jones",
+    "explosive_count": 13,
+    "successful_not_x": 13,
+    "unsuccessful_catches": 7,
+    "incomplete": 10
   },
   {
+    "team_num": 2,
     "offense": "Florida",
-    "x": "Kyle Trask",
-    "Explosive Count": 10,
-    "Success Count": 11,
-    "Unsuccessful Catch Count": 4,
-    "Incomplete Count": 15
+    "passer": "Kyle Trask",
+    "explosive_count": 10,
+    "successful_not_x": 11,
+    "unsuccessful_catches": 4,
+    "incomplete": 15
   }
 ]
