@@ -32,12 +32,12 @@ const quarterMarker = (theseQuarters, thisData, thisMax, playCol) => {
 };
 
 // DOT COLORS SETUP
-function fillColors(data,xColor,sColor) {
-    let fillColors = data.map(({explosive, successful}) => 
-    explosive === 1 ? xColor :
-    successful === 1 ? sColor :
+function fillColors(team,xColor,sColor) {
+    let fillColor = team.map(({explosive, successful}) => 
+    explosive == 1 ? xColor :
+    successful == 1 ? sColor :
     "rgba(255,255,255,0.9)");       
-    return fillColors;
+    return fillColor;
 };
 
 // TEAM SRXR BAR CHART
@@ -216,8 +216,8 @@ const playMap = (json,id,teamNum) => {
                     {
                         label: 'Rush yards',
                         data: rushYards,
-                        backgroundColor: fillColors(team,xColor,sColor),
-                        hoverBackgroundColor: fillColors(team,xColor,sColor),
+                        backgroundColor: fillColors(rushes,xColor,sColor),
+                        hoverBackgroundColor: fillColors(rushes,xColor,sColor),
                         borderWidth: 0,
                         pointBorderWidth: 1,
                         borderColor: xColor,
@@ -229,8 +229,8 @@ const playMap = (json,id,teamNum) => {
                     {
                         label: 'Pass yards',
                         data: passYards,
-                        backgroundColor: fillColors(team,xColor,sColor),
-                        hoverBackgroundColor: fillColors(team,xColor,sColor),
+                        backgroundColor: fillColors(passes,xColor,sColor),
+                        hoverBackgroundColor: fillColors(passes,xColor,sColor),
                         borderWidth: 0,
                         pointBorderWidth: 1,
                         borderColor: xColor,
@@ -312,8 +312,8 @@ const srLinesPlayType = (json,id,teamNum) => {
                         data: rushSr,
                         label: team[0].offense + ' Rush SR',
                         borderColor: lineColor,
-                        backgroundColor: fillColors(team,xColor,sColor),
-                        hoverBackgroundColor: fillColors(team,xColor,sColor),
+                        backgroundColor: fillColors(rushes,xColor,sColor),
+                        hoverBackgroundColor: fillColors(rushes,xColor,sColor),
                         borderWidth: 2,
                         pointBorderWidth: 1,
                         pointStyle: 'circle',
@@ -325,8 +325,8 @@ const srLinesPlayType = (json,id,teamNum) => {
                         data: passSr,
                         label: team[0].offense + ' Pass SR',
                         borderColor: lineColor,
-                        backgroundColor: fillColors(team,xColor,sColor),
-                        hoverBackgroundColor: fillColors(team,xColor,sColor),
+                        backgroundColor: fillColors(passes,xColor,sColor),
+                        hoverBackgroundColor: fillColors(passes,xColor,sColor),
                         borderWidth: 2,
                         pointBorderWidth: 1,
                         pointStyle: 'triangle',
