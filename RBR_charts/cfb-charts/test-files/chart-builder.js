@@ -31,6 +31,14 @@ const quarterMarker = (theseQuarters, thisData, thisMax, playCol) => {
     });
 };
 
+// DOT COLORS SETUP
+function fillColors(data,xColor,sColor) {
+    let fillColors = data.map(({explosive, successful}) => 
+    explosive === 1 ? xColor :
+    successful === 1 ? sColor :
+    "rgba(255,255,255,0.9)");       
+    return fillColors;
+};
 
 // TEAM SRXR BAR CHART
 const srXrByTeam = (json,id) => {
@@ -110,21 +118,21 @@ const srxrLinesTeam = (json,id) => {
                         data: xr,
                         label: team[0].offense + ' XR',
                         borderColor: xColors,
-                        borderWidth: 2.5,
+                        borderWidth: 2.2,
                         pointRadius: 0,
                         tension: 0.3
                     },{
                         data: sr,
                         label: team[0].offense + ' SR',
                         borderColor: sColors,
-                        borderWidth: 2.5,
+                        borderWidth: 2.2,
                         pointRadius: 0,
                         tension: 0.3
                     },{
                         data: xrOpp,
                         label: opponent[0].offense + ' XR',
                         borderColor: xColorsOpp,
-                        borderWidth: 2.5,
+                        borderWidth: 2.2,
                         pointRadius: 0,
                         tension: 0.3,
                         borderDash: [4,4]
@@ -132,7 +140,7 @@ const srxrLinesTeam = (json,id) => {
                         data: srOpp,
                         label: opponent[0].offense + ' SR', 
                         borderColor: sColorsOpp,
-                        borderWidth: 2.5,
+                        borderWidth: 2.2,
                         pointRadius: 0,
                         tension: 0.3,
                         borderDash: [4,4]
@@ -177,6 +185,102 @@ const srxrLinesTeam = (json,id) => {
     })
 }
 
+// PLAY MAP
+const playMap = (json,id,teamNum) => {
+    fetch(json).then(response => response.json()).then(data => { 
+        
+        let team = data.filter(({team_num}) => team_num == teamNum);
+        let labels = data.map(a => a.play_num);
+        let rushes = team.filter(({play_type}) => play_type == "rush");
+        let passes = team.filter(({play_type}) => play_type == "pass");
+        
+        let playsMax = Math.max.apply(Math, data.map(({play_num}) => play_num));
+        let newQuarters = [...new Set(data.map(a => a.quarter))];
+        quarterMarker(newQuarters,data,playsMax,"play_num");
+
+        let rushYards = rushes.map(({play_num, yards_gained}) => ({ x: play_num, y: yards_gained }));
+        let passYards = passes.map(({play_num, yards_gained}) => ({ x: play_num, y: yards_gained }));
+        let yardsMax = Math.max.apply(Math, data.map(({yards_gained}) => yards_gained));
+        let yardsMin = Math.min.apply(Math, data.map(({yards_gained}) => yards_gained));
+        let zeroLine = [{ x: 0, y: 0 }, { x: playsMax, y: 0 }];
+    
+        let xColor = team.map(a => a.color_dark);
+        let sColor = team.map(a => a.color);
+
+        const ctx = document.getElementById(id).getContext('2d');
+        new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: labels,
+                datasets: [
+                    {
+                        label: 'Rush yards',
+                        data: rushYards,
+                        backgroundColor: fillColors(team,xColor,sColor),
+                        hoverBackgroundColor: fillColors(team,xColor,sColor),
+                        borderWidth: 0,
+                        pointBorderWidth: 1,
+                        borderColor: xColor,
+                        pointStyle: 'circle',
+                        pointRadius: 4,
+                        pointHoverRadius: 6,
+                        tension: 0.3
+                    },
+                    {
+                        label: 'Pass yards',
+                        data: passYards,
+                        backgroundColor: fillColors(team,xColor,sColor),
+                        hoverBackgroundColor: fillColors(team,xColor,sColor),
+                        borderWidth: 0,
+                        pointBorderWidth: 1,
+                        borderColor: xColor,
+                        pointStyle: 'triangle',
+                        radius: 6,
+                        pointRadius: 6,
+                        pointHoverRadius: 8,
+                        tension: 0.3,
+                        borderDash: [4,4],
+                    },
+                    {
+                        label: "Zero",
+                        data: zeroLine,
+                        borderColor: "#CECECE",
+                        borderWidth: 1,
+                        lineTension: 0,
+                        fill: false,
+                        pointRadius: 0,
+                    },
+                    {
+                        label: "Quarters",
+                        data: quartersArrayLg,
+                        borderColor: "#CECECE",
+                        borderWidth: 1,
+                        lineTension: 0,
+                        fill: false,
+                        pointRadius: 0,
+                    }],
+            },
+            options: {
+                scales: {
+                    y: {
+                        max: yardsMax,                        
+                        suggestedMin: yardsMin,
+                        min: -15,
+                    },
+                    x: {
+                        display: false,
+                    }
+                },
+                tooltips: {
+                    callbacks: {
+                        label: (value) => `${Math.round(value * 100)}%`   // why isn't this working?
+                    }
+                } 
+            }
+        });
+    })
+}
+
 // TEAM SR PLAY TYPE LINES
 const srLinesPlayType = (json,id,teamNum) => {
     fetch(json).then(response => response.json()).then(data => { 
@@ -195,6 +299,8 @@ const srLinesPlayType = (json,id,teamNum) => {
         let passSr = passes.map(({play_per_team, sr_so_far}) => ({ x: play_per_team, y: sr_so_far }));
         
         let lineColor = team.map(a => a.color_dark);
+        let xColor = team.map(a => a.color_dark);
+        let sColor = team.map(a => a.color);
 
         const ctx = document.getElementById(id).getContext('2d');
         new Chart(ctx, {
@@ -204,18 +310,29 @@ const srLinesPlayType = (json,id,teamNum) => {
                 datasets: [
                     {
                         data: rushSr,
-                        label: team[0].offense + 'Rush SR',
+                        label: team[0].offense + ' Rush SR',
                         borderColor: lineColor,
-                        borderWidth: 1.5,
+                        backgroundColor: fillColors(team,xColor,sColor),
+                        hoverBackgroundColor: fillColors(team,xColor,sColor),
+                        borderWidth: 2,
+                        pointBorderWidth: 1,
                         pointStyle: 'circle',
+                        pointRadius: 4,
+                        pointHoverRadius: 6,
                         tension: 0.3
                     },
                     {
                         data: passSr,
-                        label: team[0].offense + 'Pass SR',
+                        label: team[0].offense + ' Pass SR',
                         borderColor: lineColor,
-                        borderWidth: 1.5,
+                        backgroundColor: fillColors(team,xColor,sColor),
+                        hoverBackgroundColor: fillColors(team,xColor,sColor),
+                        borderWidth: 2,
+                        pointBorderWidth: 1,
                         pointStyle: 'triangle',
+                        radius: 6,
+                        pointRadius: 6,
+                        pointHoverRadius: 8,
                         tension: 0.3,
                         borderDash: [4,4],
                     },

@@ -19,6 +19,14 @@
     </div>
     
     <div class="chart-outer" style="max-width: 800px; max-height: 500px; margin: auto; padding-top: 80px;">
+        <canvas id="play-map" width="400" height="180"></canvas>
+    </div>
+    
+    <div class="chart-outer" style="max-width: 800px; max-height: 500px; margin: auto; padding-top: 80px;">
+        <canvas id="play-map-opp" width="400" height="180"></canvas>
+    </div>
+    
+    <div class="chart-outer" style="max-width: 800px; max-height: 500px; margin: auto; padding-top: 80px;">
         <canvas id="sr-lines-play-type" width="400" height="180"></canvas>
     </div>
 
@@ -49,6 +57,8 @@
 
     <script>
         srxrLinesTeam('json/srxr-lines-team.json','srxr-lines-team')
+        playMap('json/play-map.json','play-map',1)
+        playMap('json/play-map.json','play-map-opp',2)
         srLinesPlayType('json/sr-lines-play-type.json','sr-lines-play-type',1)
         srLinesPlayType('json/sr-lines-play-type.json','sr-lines-play-type-opp',2)
         srXrByTeam('json/srxr-team.json','srxr-team')
