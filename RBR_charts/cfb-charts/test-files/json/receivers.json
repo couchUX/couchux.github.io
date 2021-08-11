@@ -3,126 +3,168 @@
     "team_num": 1,
     "offense": "Alabama",
     "receiver": "DeVonta Smith",
+    "color": "rgba(244, 37, 37, 0.8)",
+    "color_dark": "rgba(128, 0, 0, 0.8)",
+    "color_light": "rgba(255, 230, 230, 0.8)",
     "explosive_count": 6,
     "successful_not_x": 4,
     "unsuccessful_catches": 5,
-    "incomplete": 0
+    "unsuccessful": 0
   },
   {
     "team_num": 1,
     "offense": "Alabama",
     "receiver": "Najee Harris",
+    "color": "rgba(244, 37, 37, 0.8)",
+    "color_dark": "rgba(128, 0, 0, 0.8)",
+    "color_light": "rgba(255, 230, 230, 0.8)",
     "explosive_count": 2,
     "successful_not_x": 3,
     "unsuccessful_catches": 0,
-    "incomplete": 0
+    "unsuccessful": 0
   },
   {
     "team_num": 1,
     "offense": "Alabama",
     "receiver": "John Metchie III",
+    "color": "rgba(244, 37, 37, 0.8)",
+    "color_dark": "rgba(128, 0, 0, 0.8)",
+    "color_light": "rgba(255, 230, 230, 0.8)",
     "explosive_count": 2,
     "successful_not_x": 2,
     "unsuccessful_catches": 0,
-    "incomplete": 0
+    "unsuccessful": 0
   },
   {
     "team_num": 1,
     "offense": "Alabama",
     "receiver": "Miller Forristall",
+    "color": "rgba(244, 37, 37, 0.8)",
+    "color_dark": "rgba(128, 0, 0, 0.8)",
+    "color_light": "rgba(255, 230, 230, 0.8)",
     "explosive_count": 0,
     "successful_not_x": 2,
     "unsuccessful_catches": 1,
-    "incomplete": 0
+    "unsuccessful": 0
   },
   {
     "team_num": 1,
     "offense": "Alabama",
     "receiver": "Jahleel Billingsley",
+    "color": "rgba(244, 37, 37, 0.8)",
+    "color_dark": "rgba(128, 0, 0, 0.8)",
+    "color_light": "rgba(255, 230, 230, 0.8)",
     "explosive_count": 1,
     "successful_not_x": 1,
     "unsuccessful_catches": 0,
-    "incomplete": 0
+    "unsuccessful": 0
   },
   {
     "team_num": 1,
     "offense": "Alabama",
     "receiver": "Xavier Williams",
+    "color": "rgba(244, 37, 37, 0.8)",
+    "color_dark": "rgba(128, 0, 0, 0.8)",
+    "color_light": "rgba(255, 230, 230, 0.8)",
     "explosive_count": 0,
     "successful_not_x": 1,
     "unsuccessful_catches": 0,
-    "incomplete": 0
+    "unsuccessful": 0
   },
   {
     "team_num": 1,
     "offense": "Alabama",
     "receiver": "Slade Bolden",
+    "color": "rgba(244, 37, 37, 0.8)",
+    "color_dark": "rgba(128, 0, 0, 0.8)",
+    "color_light": "rgba(255, 230, 230, 0.8)",
     "explosive_count": 2,
     "successful_not_x": 0,
     "unsuccessful_catches": 0,
-    "incomplete": 0
+    "unsuccessful": 0
   },
   {
     "team_num": 1,
     "offense": "Alabama",
     "receiver": "Major Tennison",
+    "color": "rgba(244, 37, 37, 0.8)",
+    "color_dark": "rgba(128, 0, 0, 0.8)",
+    "color_light": "rgba(255, 230, 230, 0.8)",
     "explosive_count": 0,
     "successful_not_x": 0,
     "unsuccessful_catches": 1,
-    "incomplete": 0
+    "unsuccessful": 0
   },
   {
     "team_num": 2,
     "offense": "Florida",
     "receiver": "Kadarius Toney",
+    "color": "rgba(244, 97, 37, 0.8)",
+    "color_dark": "rgba(128, 37, 0, 0.8)",
+    "color_light": "rgba(255, 237, 230, 0.8)",
     "explosive_count": 3,
     "successful_not_x": 4,
     "unsuccessful_catches": 1,
-    "incomplete": 0
+    "unsuccessful": 0
   },
   {
     "team_num": 2,
     "offense": "Florida",
     "receiver": "Kyle Pitts",
+    "color": "rgba(244, 97, 37, 0.8)",
+    "color_dark": "rgba(128, 37, 0, 0.8)",
+    "color_light": "rgba(255, 237, 230, 0.8)",
     "explosive_count": 5,
     "successful_not_x": 2,
     "unsuccessful_catches": 0,
-    "incomplete": 0
+    "unsuccessful": 0
   },
   {
     "team_num": 2,
     "offense": "Florida",
     "receiver": "Nay'Quan Wright",
+    "color": "rgba(244, 97, 37, 0.8)",
+    "color_dark": "rgba(128, 37, 0, 0.8)",
+    "color_light": "rgba(255, 237, 230, 0.8)",
     "explosive_count": 0,
     "successful_not_x": 2,
     "unsuccessful_catches": 1,
-    "incomplete": 0
+    "unsuccessful": 0
   },
   {
     "team_num": 2,
     "offense": "Florida",
     "receiver": "Trevon Grimes",
+    "color": "rgba(244, 97, 37, 0.8)",
+    "color_dark": "rgba(128, 37, 0, 0.8)",
+    "color_light": "rgba(255, 237, 230, 0.8)",
     "explosive_count": 2,
     "successful_not_x": 1,
     "unsuccessful_catches": 1,
-    "incomplete": 0
+    "unsuccessful": 0
   },
   {
     "team_num": 2,
     "offense": "Florida",
     "receiver": "Malik Davis",
+    "color": "rgba(244, 97, 37, 0.8)",
+    "color_dark": "rgba(128, 37, 0, 0.8)",
+    "color_light": "rgba(255, 237, 230, 0.8)",
     "explosive_count": 0,
     "successful_not_x": 1,
     "unsuccessful_catches": 1,
-    "incomplete": 0
+    "unsuccessful": 0
   },
   {
     "team_num": 2,
     "offense": "Florida",
     "receiver": "Jacob Copeland",
+    "color": "rgba(244, 97, 37, 0.8)",
+    "color_dark": "rgba(128, 37, 0, 0.8)",
+    "color_light": "rgba(255, 237, 230, 0.8)",
     "explosive_count": 0,
     "successful_not_x": 1,
     "unsuccessful_catches": 0,
-    "incomplete": 1
+    "unsuccessful": 1
   }
 ]

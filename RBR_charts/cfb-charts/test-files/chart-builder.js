@@ -10,6 +10,8 @@ const percentCallback = (value) => `${Math.round(value * 100)}%`
 const srAverage = 0.42;
 const srAverageColor = "#A0A0A0";
 const quarterLinesColor = "#C5C5C5";
+const unsuccessfulColor = "rgba(255,255,255,0.9)";
+const srAverageBarLine = [ srAverage, srAverage, srAverage, srAverage ];
 
 const quarterMarker = (theseQuarters, thisData, thisMax, playCol) => {
     quartersArray = [];
@@ -36,54 +38,9 @@ function fillColors(team,xColor,sColor) {
     let fillColor = team.map(({explosive, successful}) => 
     explosive == 1 ? xColor :
     successful == 1 ? sColor :
-    "rgba(255,255,255,0.9)");       
+    unsuccessfulColor);       
     return fillColor;
 };
-
-// TEAM SRXR BAR CHART
-const srXrByTeam = (json,id) => {
-    fetch(json).then(response => response.json()).then(data => { 
-
-        let labels = [...new Set(data.map(a => a.offense))];
-        let successColors = data.map(a => a.color);
-        let explosiveColors = data.map(a => a.color_dark);
-
-        const ctx = document.getElementById(id).getContext('2d');
-        new Chart(ctx, {
-            type: 'bar',
-            data: {
-                labels: labels,
-                datasets: [
-                    {
-                        label: 'Success Rate',
-                        data: data,
-                        backgroundColor: successColors,
-                        parsing: { 
-                            yAxisKey: 'sr',
-                            xAxisKey: 'offense' 
-                        }
-                    },
-                    {
-                        label: 'Explosiveness Rate',
-                        data: data,
-                        backgroundColor: explosiveColors,
-                        parsing: { 
-                            yAxisKey: 'xr',
-                            xAxisKey: 'offense' 
-                        }
-                    }]
-            },
-            options: {
-                scales: {
-                    y: {
-                        max: 1,
-                        ticks: { callback: percentCallback }
-                    },
-                }
-            }
-        });
-    })
-}
 
 // TEAM SR LINES CHART
 const srxrLinesTeam = (json,id) => {
@@ -96,7 +53,7 @@ const srxrLinesTeam = (json,id) => {
         let playsMax = Math.max.apply(Math, data.map(({play_num}) => play_num));
         let newQuarters = [...new Set(data.map(a => a.quarter))];
         quarterMarker(newQuarters,data,playsMax,"play_num");
-        var srAverageLine = [ { x: 0, y: srAverage },{ x: playsMax, y: srAverage } ];
+        let srAverageLine = [ { x: 0, y: srAverage },{ x: playsMax, y: srAverage } ];
 
         let sr = team.map(({play_num, sr_so_far}) => ({ x: play_num, y: sr_so_far }));
         let xr = team.map(({play_num, xr_so_far}) => ({ x: play_num, y: xr_so_far }));
@@ -147,9 +104,10 @@ const srxrLinesTeam = (json,id) => {
                     },
                     {
                         label: "League SR average",
-                        data: srAverageLine,
+                        data: srAverageBarLine,
                         borderColor: srAverageColor,
                         borderWidth: 1,
+                        pointRadius: 0,
                         fill: false,
                         pointRadius: 0,
                     },
@@ -172,7 +130,6 @@ const srxrLinesTeam = (json,id) => {
                     },
                     x: {
                         display: false,
-                        // beginAtZero: false,
                     }
                 },
                 tooltips: {
@@ -202,7 +159,16 @@ const playMap = (json,id,teamNum) => {
         let passYards = passes.map(({play_num, yards_gained}) => ({ x: play_num, y: yards_gained }));
         let yardsMax = Math.max.apply(Math, data.map(({yards_gained}) => yards_gained));
         let yardsMin = Math.min.apply(Math, data.map(({yards_gained}) => yards_gained));
-        let zeroLine = [{ x: 0, y: 0 }, { x: playsMax, y: 0 }];
+        let zeroLine = [
+            { x: 1, y: 0 },
+            { x: playsMax, y: 0 },
+        ];
+        let zeroShade = [
+            { x: 1, y: 0 },
+            { x: 1, y: yardsMin },
+            { x: playsMax, y: yardsMin },
+            { x: playsMax, y: 0 },
+        ];
     
         let xColor = team.map(a => a.color_dark);
         let sColor = team.map(a => a.color);
@@ -242,13 +208,24 @@ const playMap = (json,id,teamNum) => {
                         borderDash: [4,4],
                     },
                     {
-                        label: "Zero",
+                        label: "ZeroLine",
                         data: zeroLine,
-                        borderColor: "#CECECE",
+                        borderColor: quarterLinesColor,
                         borderWidth: 1,
                         lineTension: 0,
-                        fill: false,
+                        fill: true,
                         pointRadius: 0,
+                        backgroundColor: 'rgba(0,0,0,0.05)',
+                    },
+                    {
+                        label: "ZeroShade",
+                        data: zeroShade,
+                        borderColor: quarterLinesColor,
+                        borderWidth: 1,
+                        lineTension: 0,
+                        fill: true,
+                        pointRadius: 0,
+                        backgroundColor: 'rgba(0,0,0,0.05)',
                     },
                     {
                         label: "Quarters",
@@ -293,7 +270,7 @@ const srLinesPlayType = (json,id,teamNum) => {
         let playsMax = Math.max.apply(Math, team.map(({play_per_team}) => play_per_team));
         let newQuarters = [...new Set(team.map(a => a.quarter))];
         quarterMarker(newQuarters,team,playsMax,"play_per_team");
-        var srAverageLine = [ { x: 0, y: srAverage },{ x: playsMax, y: srAverage } ];
+        let srAverageLine = [ { x: 0, y: srAverage },{ x: playsMax, y: srAverage } ];
 
         let rushSr = rushes.map(({play_per_team, sr_so_far}) => ({ x: play_per_team, y: sr_so_far }));
         let passSr = passes.map(({play_per_team, sr_so_far}) => ({ x: play_per_team, y: sr_so_far }));
@@ -347,7 +324,7 @@ const srLinesPlayType = (json,id,teamNum) => {
                     {
                         label: "Quarters",
                         data: quartersArray,
-                        borderColor: "#CECECE",
+                        borderColor: quarterLinesColor,
                         borderWidth: 1,
                         lineTension: 0,
                         fill: false,
@@ -363,7 +340,6 @@ const srLinesPlayType = (json,id,teamNum) => {
                     },
                     x: {
                         display: false,
-                        // beginAtZero: false,
                     }
                 },
                 tooltips: {
@@ -371,6 +347,62 @@ const srLinesPlayType = (json,id,teamNum) => {
                         label: (value) => `${Math.round(value * 100)}%`   // why isn't this working?
                     }
                 } 
+            }
+        });
+    })
+}
+
+// TEAM SRXR BAR CHART
+const srXrByTeam = (json,id) => {
+    fetch(json).then(response => response.json()).then(data => { 
+
+        let labels = [...new Set(data.map(a => a.offense))];
+        let successColors = data.map(a => a.color);
+        let explosiveColors = data.map(a => a.color_dark);
+
+        const ctx = document.getElementById(id).getContext('2d');
+        new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: labels,
+                datasets: [
+                    {
+                        label: 'Success Rate',
+                        data: data,
+                        backgroundColor: successColors,
+                        parsing: { 
+                            yAxisKey: 'sr',
+                            xAxisKey: 'offense' 
+                        }
+                    },
+                    {
+                        label: 'Explosiveness Rate',
+                        data: data,
+                        backgroundColor: explosiveColors,
+                        parsing: { 
+                            yAxisKey: 'xr',
+                            xAxisKey: 'offense' 
+                        }
+                    },{
+                        type: 'line',
+                        data: srAverageBarLine,
+                        label: "Leave average",
+                        borderColor: '#757575',
+                        borderWidth: 2,
+                        borderDash: [3,4],
+                        pointRadius: 0,
+                        datalabels: {
+                            labels: { title: null }
+                        }
+                    }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        max: 1,
+                        ticks: { callback: percentCallback }
+                    },
+                }
             }
         });
     })
@@ -391,7 +423,7 @@ const srXrBars = (thisCol,json,id) => {
         let sColors = team.map(a => a.color);
         let xColors = team.map(a => a.color_dark);
         let sColorsOpp = opponent.map(a => a.color);
-        let xColorsOpp = opponent.map(a => a.color_dark);
+        let xColorsOpp = opponent.map(a => a.color_dark);        
 
         const ctx = document.getElementById(id).getContext('2d');
         new Chart(ctx, {
@@ -419,6 +451,17 @@ const srXrBars = (thisCol,json,id) => {
                         stack: "Opponent",
                         label: opponent[0].offense + ' SR', 
                         backgroundColor: sColorsOpp,
+                    },{
+                        type: 'line',
+                        data: srAverageBarLine,
+                        label: "Leave average",
+                        borderColor: '#757575',
+                        borderWidth: 2,
+                        borderDash: [3,4],
+                        pointRadius: 0,
+                        datalabels: {
+                            labels: { title: null }
+                        }
                     }]
             },
             options: {
@@ -429,6 +472,83 @@ const srXrBars = (thisCol,json,id) => {
                         ticks: { callback: percentCallback }
                     }
                 },
+                tooltips: {
+                    callbacks: {
+                        label: (value) => `${Math.round(value * 100)}%`   // why isn't this working?
+                    }
+                } 
+            }
+        });
+    })
+}
+
+// PLAYER CHARTS
+const playerChart = (thisCol,json,id,teamNum) => {
+    fetch(json).then(response => response.json()).then(data => { 
+        
+        let team = data.filter(({team_num}) => team_num == teamNum);
+        let labels = [...new Set(team.map(a => a[thisCol]))];
+
+        let explosive = team.map(a => a.explosive_count);
+        let successful = team.map(a => a.successful_not_x);
+        let unsuccessfulCatches = team.map(a => a.unsuccessful_catches);
+        let unsuccessful = team.map(a => a.unsuccessful);
+
+        let sColor = team.map(a => a.color);
+        let xColor = team.map(a => a.color_dark);
+        let cColor = team.map(a => a.color_light);
+        
+        const ctx = document.getElementById(id).getContext('2d');
+        new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: labels,
+                datasets: [
+                    {
+                        data: explosive,
+                        stack: 'One',
+                        axis: 'y',
+                        label: 'Explosive Plays',
+                        borderWidth: 0.8,
+                        borderColor: xColor,
+                        backgroundColor: xColor,
+                    },
+                    {
+                        data: successful,
+                        stack: 'One',
+                        axis: 'y',
+                        label: 'Successful Plays',
+                        borderWidth: 0.8,
+                        borderColor: xColor,
+                        backgroundColor: sColor,
+                    },
+                    {
+                        data: unsuccessfulCatches,
+                        stack: 'One',
+                        axis: 'y',
+                        label: 'Unsuccessful Catches',
+                        borderWidth: 0.8,
+                        borderColor: xColor,
+                        backgroundColor: cColor,
+                    },
+                    {
+                        data: unsuccessful,
+                        stack: 'One',
+                        axis: 'y',
+                        label: 'Unsuccessful Plays',
+                        borderWidth: 0.8,
+                        borderColor: xColor,
+                        backgroundColor: unsuccessfulColor,
+                    }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        stacked: true,
+                    }
+                
+                },
+                indexAxis: 'y',
                 tooltips: {
                     callbacks: {
                         label: (value) => `${Math.round(value * 100)}%`   // why isn't this working?

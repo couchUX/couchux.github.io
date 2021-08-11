@@ -3,6 +3,8 @@
     "team_num": 1,
     "offense": "Alabama",
     "rusher": "Najee Harris",
+    "color": "rgba(244, 37, 37, 0.8)",
+    "color_dark": "rgba(128, 0, 0, 0.8)",
     "explosive_count": 2,
     "successful_not_x": 14,
     "unsuccessful": 15
@@ -11,6 +13,8 @@
     "team_num": 1,
     "offense": "Alabama",
     "rusher": "Brian Robinson Jr.",
+    "color": "rgba(244, 37, 37, 0.8)",
+    "color_dark": "rgba(128, 0, 0, 0.8)",
     "explosive_count": 0,
     "successful_not_x": 3,
     "unsuccessful": 1
@@ -19,6 +23,8 @@
     "team_num": 1,
     "offense": "Alabama",
     "rusher": "Mac Jones",
+    "color": "rgba(244, 37, 37, 0.8)",
+    "color_dark": "rgba(128, 0, 0, 0.8)",
     "explosive_count": 0,
     "successful_not_x": 1,
     "unsuccessful": 0
@@ -27,6 +33,8 @@
     "team_num": 1,
     "offense": "Alabama",
     "rusher": "Miller Forristall",
+    "color": "rgba(244, 37, 37, 0.8)",
+    "color_dark": "rgba(128, 0, 0, 0.8)",
     "explosive_count": 0,
     "successful_not_x": 1,
     "unsuccessful": 0
@@ -35,6 +43,8 @@
     "team_num": 1,
     "offense": "Alabama",
     "rusher": "Jahleel Billingsley",
+    "color": "rgba(244, 37, 37, 0.8)",
+    "color_dark": "rgba(128, 0, 0, 0.8)",
     "explosive_count": 0,
     "successful_not_x": 0,
     "unsuccessful": 1
@@ -43,6 +53,8 @@
     "team_num": 2,
     "offense": "Florida",
     "rusher": "Kyle Trask",
+    "color": "rgba(244, 97, 37, 0.8)",
+    "color_dark": "rgba(128, 37, 0, 0.8)",
     "explosive_count": 0,
     "successful_not_x": 5,
     "unsuccessful": 5
@@ -51,6 +63,8 @@
     "team_num": 2,
     "offense": "Florida",
     "rusher": "Nay'Quan Wright",
+    "color": "rgba(244, 97, 37, 0.8)",
+    "color_dark": "rgba(128, 37, 0, 0.8)",
     "explosive_count": 0,
     "successful_not_x": 2,
     "unsuccessful": 2
@@ -59,6 +73,8 @@
     "team_num": 2,
     "offense": "Florida",
     "rusher": "Emory Jones",
+    "color": "rgba(244, 97, 37, 0.8)",
+    "color_dark": "rgba(128, 37, 0, 0.8)",
     "explosive_count": 1,
     "successful_not_x": 1,
     "unsuccessful": 0
@@ -67,6 +83,8 @@
     "team_num": 2,
     "offense": "Florida",
     "rusher": "Dameon Pierce",
+    "color": "rgba(244, 97, 37, 0.8)",
+    "color_dark": "rgba(128, 37, 0, 0.8)",
     "explosive_count": 0,
     "successful_not_x": 1,
     "unsuccessful": 1
@@ -75,6 +93,8 @@
     "team_num": 2,
     "offense": "Florida",
     "rusher": "Kadarius Toney",
+    "color": "rgba(244, 97, 37, 0.8)",
+    "color_dark": "rgba(128, 37, 0, 0.8)",
     "explosive_count": 0,
     "successful_not_x": 1,
     "unsuccessful": 1
@@ -83,6 +103,8 @@
     "team_num": 2,
     "offense": "Florida",
     "rusher": "Malik Davis",
+    "color": "rgba(244, 97, 37, 0.8)",
+    "color_dark": "rgba(128, 37, 0, 0.8)",
     "explosive_count": 0,
     "successful_not_x": 0,
     "unsuccessful": 1

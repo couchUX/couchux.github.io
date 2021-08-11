@@ -54,6 +54,34 @@
         <canvas id="srxr-red-zone" width="400" height="180"></canvas>
     </div>
 
+    <!-- Player charts, team -->
+    <div class="chart-outer" style="max-width: 800px; max-height: 500px; margin: auto; padding-top: 80px;">
+        <canvas id="rushers" width="400" height="180"></canvas>
+    </div>
+    
+    <div class="chart-outer" style="max-width: 800px; max-height: 500px; margin: auto; padding-top: 80px;">
+        <canvas id="passers" width="400" height="80"></canvas>
+    </div>
+    
+    <div class="chart-outer" style="max-width: 800px; max-height: 500px; margin: auto; padding-top: 80px;">
+        <canvas id="receivers" width="400" height="180"></canvas>
+    </div>
+   
+    <!-- Player charts, opponent -->
+    <div class="chart-outer" style="max-width: 800px; max-height: 500px; margin: auto; padding-top: 80px;">
+        <canvas id="rushersOpp" width="400" height="180"></canvas>
+    </div>
+    
+    <div class="chart-outer" style="max-width: 800px; max-height: 500px; margin: auto; padding-top: 80px;">
+        <canvas id="passersOpp" width="400" height="80"></canvas>
+    </div>
+    
+    <div class="chart-outer" style="max-width: 800px; max-height: 500px; margin: auto; padding-top: 80px;">
+        <canvas id="receiversOpp" width="400" height="180"></canvas>
+    </div>
+
+    
+
 
     <script>
         srxrLinesTeam('json/srxr-lines-team.json','srxr-lines-team')
@@ -66,6 +94,12 @@
         srXrBars('quarter','json/srxr-quarter.json','srxr-quarter')
         srXrBars('down','json/srxr-down.json','srxr-down')
         srXrBars('red_zone','json/srxr-red-zone.json','srxr-red-zone')
+        playerChart('rusher','json/rushers.json','rushers',1)
+        playerChart('passer','json/passers.json','passers',1)
+        playerChart('receiver','json/receivers.json','receivers',1)
+        playerChart('rusher','json/rushers.json','rushersOpp',2)
+        playerChart('passer','json/passers.json','passersOpp',2)
+        playerChart('receiver','json/receivers.json','receiversOpp',2)
     </script>
 
 </body>

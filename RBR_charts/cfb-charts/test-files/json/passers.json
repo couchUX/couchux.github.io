@@ -3,18 +3,24 @@
     "team_num": 1,
     "offense": "Alabama",
     "passer": "Mac Jones",
+    "color": "rgba(244, 37, 37, 0.8)",
+    "color_dark": "rgba(128, 0, 0, 0.8)",
+    "color_light": "rgba(255, 230, 230, 0.8)",
     "explosive_count": 13,
     "successful_not_x": 13,
     "unsuccessful_catches": 7,
-    "incomplete": 10
+    "unsuccessful": 10
   },
   {
     "team_num": 2,
     "offense": "Florida",
     "passer": "Kyle Trask",
+    "color": "rgba(244, 97, 37, 0.8)",
+    "color_dark": "rgba(128, 37, 0, 0.8)",
+    "color_light": "rgba(255, 237, 230, 0.8)",
     "explosive_count": 10,
     "successful_not_x": 11,
     "unsuccessful_catches": 4,
-    "incomplete": 15
+    "unsuccessful": 15
   }
 ]
