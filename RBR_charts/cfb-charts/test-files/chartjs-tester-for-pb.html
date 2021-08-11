@@ -1,10 +1,14 @@
 <head>    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.0/chart.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
     <script src="chart-builder.js"></script>   
+
+    <link rel="stylesheet" href="demo-styles.css">
+    <link rel="stylesheet" href="../../cfb-charts/css/main.css">
 </head>
 <body> 
     <!-- set the chart container and appropriate id in HTML -->
-    <div class="goals-list" style="font-family: sans-serif; line-height: 1.5; max-width: 800px; max-height: 500px; margin: auto; padding-top: 80px;">
+    <div class="goals-list">
         <h3>2021 version goals</h3>
         <ul style="padding-left: 24px;">
             <li>Reduce 3rd parties (don't call JQuery or D3), use JSON or JS directly instead of CSV</li>
@@ -13,93 +17,53 @@
             <li>But, still optimize for pages about a single game (many charts pulling from the same data)</li>
         </ul>
     </div>
-
-    <div class="chart-outer" style="max-width: 800px; max-height: 500px; margin: auto; padding-top: 80px;">
-        <canvas id="srxr-lines-team" width="400" height="180"></canvas>
-    </div>
     
-    <div class="chart-outer" style="max-width: 800px; max-height: 500px; margin: auto; padding-top: 80px;">
-        <canvas id="play-map" width="400" height="180"></canvas>
-    </div>
+    <!-- Initial team charts -->
+    <div class="chart"><canvas id="srxr-lines-team" width="400" height="160"></canvas></div>
+    <div class="chart"><canvas id="play-map" width="400" height="160"></canvas></div>
+    <div class="chart"><canvas id="play-map-opp" width="400" height="160"></canvas></div>
+    <div class="chart"><canvas id="sr-lines-play-type" width="400" height="160"></canvas></div>
+    <div class="chart"><canvas id="rush-rate" width="400" height="160"></canvas></div>
+    <div class="chart"><canvas id="sr-lines-play-type-opp" width="400" height="160"></canvas></div>
+    <div class="chart"><canvas id="rush-rate-opp" width="400" height="160"></canvas></div>
+
+    <!-- SRXR bar charts -->
+    <div class="chart"><canvas id="srxr-team" width="400" height="160"></canvas></div>
+    <div class="chart"><canvas id="srxr-play-type" width="400" height="160"></canvas></div>
+    <div class="chart"><canvas id="srxr-quarter" width="400" height="160"></canvas></div>
+    <div class="chart"><canvas id="srxr-down" width="400" height="160"></canvas></div>
+    <div class="chart"><canvas id="srxr-red-zone" width="400" height="160"></canvas></div>
     
-    <div class="chart-outer" style="max-width: 800px; max-height: 500px; margin: auto; padding-top: 80px;">
-        <canvas id="play-map-opp" width="400" height="180"></canvas>
-    </div>
-    
-    <div class="chart-outer" style="max-width: 800px; max-height: 500px; margin: auto; padding-top: 80px;">
-        <canvas id="sr-lines-play-type" width="400" height="180"></canvas>
-    </div>
-
-    <div class="chart-outer" style="max-width: 800px; max-height: 500px; margin: auto; padding-top: 80px;">
-        <canvas id="sr-lines-play-type-opp" width="400" height="180"></canvas>
-    </div>
-
-    <div class="chart-outer" style="max-width: 800px; max-height: 500px; margin: auto; padding-top: 80px;">
-        <canvas id="srxr-team" width="400" height="180"></canvas>
-    </div>
-    
-    <div class="chart-outer" style="max-width: 800px; max-height: 500px; margin: auto; padding-top: 80px;">
-        <canvas id="srxr-play-type" width="400" height="180"></canvas>
-    </div>
-
-    <div class="chart-outer" style="max-width: 800px; max-height: 500px; margin: auto; padding-top: 80px;">
-        <canvas id="srxr-quarter" width="400" height="180"></canvas>
-    </div>
-
-    <div class="chart-outer" style="max-width: 800px; max-height: 500px; margin: auto; padding-top: 80px;">
-        <canvas id="srxr-down" width="400" height="180"></canvas>
-    </div>
-
-    <div class="chart-outer" style="max-width: 800px; max-height: 500px; margin: auto; padding-top: 80px;">
-        <canvas id="srxr-red-zone" width="400" height="180"></canvas>
-    </div>
-
     <!-- Player charts, team -->
-    <div class="chart-outer" style="max-width: 800px; max-height: 500px; margin: auto; padding-top: 80px;">
-        <canvas id="rushers" width="400" height="180"></canvas>
-    </div>
-    
-    <div class="chart-outer" style="max-width: 800px; max-height: 500px; margin: auto; padding-top: 80px;">
-        <canvas id="passers" width="400" height="80"></canvas>
-    </div>
-    
-    <div class="chart-outer" style="max-width: 800px; max-height: 500px; margin: auto; padding-top: 80px;">
-        <canvas id="receivers" width="400" height="180"></canvas>
-    </div>
-   
-    <!-- Player charts, opponent -->
-    <div class="chart-outer" style="max-width: 800px; max-height: 500px; margin: auto; padding-top: 80px;">
-        <canvas id="rushersOpp" width="400" height="180"></canvas>
-    </div>
-    
-    <div class="chart-outer" style="max-width: 800px; max-height: 500px; margin: auto; padding-top: 80px;">
-        <canvas id="passersOpp" width="400" height="80"></canvas>
-    </div>
-    
-    <div class="chart-outer" style="max-width: 800px; max-height: 500px; margin: auto; padding-top: 80px;">
-        <canvas id="receiversOpp" width="400" height="180"></canvas>
-    </div>
+    <div class="chart"><canvas id="rushers" width="400" height="160"></canvas></div>
+    <div class="chart"><canvas id="rushersOpp" width="400" height="160"></canvas></div>
+    <div class="chart"><canvas id="passers" width="400" height="80"></canvas></div>
+    <div class="chart"><canvas id="passersOpp" width="400" height="80"></canvas></div>
+    <div class="chart"><canvas id="receivers" width="400" height="160"></canvas></div>
+    <div class="chart"><canvas id="receiversOpp" width="400" height="160"></canvas></div>
 
-    
-
-
+    <!-- Running the charts -->
     <script>
         srxrLinesTeam('json/srxr-lines-team.json','srxr-lines-team')
         playMap('json/play-map.json','play-map',1)
         playMap('json/play-map.json','play-map-opp',2)
         srLinesPlayType('json/sr-lines-play-type.json','sr-lines-play-type',1)
+        rushRate('json/rush-rate-lines.json','rush-rate',1)
         srLinesPlayType('json/sr-lines-play-type.json','sr-lines-play-type-opp',2)
+        rushRate('json/rush-rate-lines.json','rush-rate-opp',2)
+
         srXrByTeam('json/srxr-team.json','srxr-team')
         srXrBars('play_type','json/srxr-play-type.json','srxr-play-type')
         srXrBars('quarter','json/srxr-quarter.json','srxr-quarter')
         srXrBars('down','json/srxr-down.json','srxr-down')
         srXrBars('red_zone','json/srxr-red-zone.json','srxr-red-zone')
-        playerChart('rusher','json/rushers.json','rushers',1)
-        playerChart('passer','json/passers.json','passers',1)
-        playerChart('receiver','json/receivers.json','receivers',1)
-        playerChart('rusher','json/rushers.json','rushersOpp',2)
-        playerChart('passer','json/passers.json','passersOpp',2)
-        playerChart('receiver','json/receivers.json','receiversOpp',2)
+
+        players('rusher','json/rushers.json','rushers',1)
+        players('rusher','json/rushers.json','rushersOpp',2)
+        players('passer','json/passers.json','passers',1)
+        players('passer','json/passers.json','passersOpp',2)
+        players('receiver','json/receivers.json','receivers',1)
+        players('receiver','json/receivers.json','receiversOpp',2)
     </script>
 
 </body>

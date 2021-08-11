@@ -1,0 +1,16 @@
+
+.goals-list {
+    font-family: sans-serif;
+    line-height: 1.5;
+    max-width: 800px;
+    max-height: 500px;
+    margin: auto;
+    padding-top: 80px;
+}
+
+.chart {
+    max-width: 800px;
+    max-height: 500px;
+    margin: auto;
+    padding-top: 80px;
+}

@@ -34,12 +34,33 @@ const quarterMarker = (theseQuarters, thisData, thisMax, playCol) => {
 };
 
 // DOT COLORS SETUP
-function fillColors(team,xColor,sColor) {
-    let fillColor = team.map(({explosive, successful}) => 
+function fillColors(data,xColor,sColor) {
+    let fillColor = data.map(({explosive, successful}) => 
     explosive == 1 ? xColor :
     successful == 1 ? sColor :
     unsuccessfulColor);       
     return fillColor;
+};
+
+function pointStyle(data) {
+    let pointStyle = data.map(({play_type}) => 
+    play_type == "rush" ? 'circle' :
+    'triangle');
+    return pointStyle;
+};
+
+function pointSize(data) {
+    let pointSize = data.map(({play_type}) => 
+    play_type == "rush" ? 4 :
+    6);
+    return pointSize;
+};
+
+function pointSizeHover(data) {
+    let pointSizeHover = data.map(({play_type}) => 
+    play_type == "rush" ? 6 :
+    8);
+    return pointSizeHover;
 };
 
 // TEAM SR LINES CHART
@@ -352,6 +373,75 @@ const srLinesPlayType = (json,id,teamNum) => {
     })
 }
 
+// RUSh RATE
+const rushRate = (json,id,teamNum) => {
+    fetch(json).then(response => response.json()).then(data => { 
+        
+        let team = data.filter(({team_num}) => team_num == teamNum);
+        let labels = team.map(a => a.play_per_team);
+        
+        let playsMax = Math.max.apply(Math, team.map(({play_per_team}) => play_per_team));
+        let newQuarters = [...new Set(team.map(a => a.quarter))];
+        quarterMarker(newQuarters,team,playsMax,"play_per_team");
+        
+        let rushRate = team.map(({play_per_team, rush_rate}) => ({ x: play_per_team, y: rush_rate }));
+        
+        let bgColor = team.map(a => a.color_light);
+        let xColor = team.map(a => a.color_dark);
+        let sColor = team.map(a => a.color);
+
+        const ctx = document.getElementById(id).getContext('2d');
+        new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: labels,
+                datasets: [
+                    {
+                        data: rushRate,
+                        label: team[0].offense + ' Rush Rate',
+                        borderColor: xColor,
+                        backgroundColor: bgColor,
+                        pointBackgroundColor: fillColors(team,xColor,sColor),
+                        hoverBackgroundColor: fillColors(team,xColor,sColor),
+                        borderWidth: 2,
+                        pointBorderWidth: 1,
+                        pointStyle: pointStyle(team),
+                        pointRadius: pointSize(team),
+                        pointHoverRadius: pointSizeHover(team),
+                        tension: 0.3,
+                        fill: true
+                    },
+                    {
+                        label: "Quarters",
+                        data: quartersArray,
+                        borderColor: quarterLinesColor,
+                        borderWidth: 1,
+                        lineTension: 0,
+                        fill: false,
+                        pointRadius: 0,
+                    }],
+            },
+            options: {
+                scales: {
+                    y: {
+                        max: 1,
+                        min: 0,
+                        ticks: { callback: percentCallback }
+                    },
+                    x: {
+                        display: false,
+                    }
+                },
+                tooltips: {
+                    callbacks: {
+                        label: (value) => `${Math.round(value * 100)}%`   // why isn't this working?
+                    }
+                } 
+            }
+        });
+    })
+}
+
 // TEAM SRXR BAR CHART
 const srXrByTeam = (json,id) => {
     fetch(json).then(response => response.json()).then(data => { 
@@ -483,7 +573,7 @@ const srXrBars = (thisCol,json,id) => {
 }
 
 // PLAYER CHARTS
-const playerChart = (thisCol,json,id,teamNum) => {
+const players = (thisCol,json,id,teamNum) => {
     fetch(json).then(response => response.json()).then(data => { 
         
         let team = data.filter(({team_num}) => team_num == teamNum);

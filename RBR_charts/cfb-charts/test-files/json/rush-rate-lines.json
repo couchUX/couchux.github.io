@@ -1,1641 +1,1939 @@
 [
   {
-    "Play per team": 1,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 1,
     "play_type": "rush",
     "play_text": "Najee Harris run for 2 yds to the Alab 32",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 1
+    "rush_rate": 1
   },
   {
-    "Play per team": 2,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 2,
     "play_type": "pass",
     "play_text": "Mac Jones pass complete to DeVonta Smith for 19 yds to the Fla 49 for a 1ST down",
+    "successful": 1,
+    "explosive": 1,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.5
+    "rush_rate": 0.5
   },
   {
-    "Play per team": 3,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 3,
     "play_type": "rush",
     "play_text": "Najee Harris run for 7 yds to the Fla 42",
+    "successful": 1,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.67
+    "rush_rate": 0.6666666666666666
   },
   {
-    "Play per team": 4,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 4,
     "play_type": "rush",
     "play_text": "Najee Harris run for 13 yds to the Fla 29 for a 1ST down",
+    "successful": 1,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.75
+    "rush_rate": 0.75
   },
   {
-    "Play per team": 5,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 5,
     "play_type": "pass",
     "play_text": "Mac Jones pass incomplete",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.6
+    "rush_rate": 0.6
   },
   {
-    "Play per team": 6,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 6,
     "play_type": "pass",
     "play_text": "Mac Jones pass incomplete to Slade Bolden",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.5
+    "rush_rate": 0.5
   },
   {
-    "Play per team": 7,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 7,
     "play_type": "pass",
     "play_text": "Mac Jones pass complete to DeVonta Smith for 5 yds to the Fla 19 for a 1ST down",
+    "successful": 1,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.43
+    "rush_rate": 0.42857142857142855
   },
   {
-    "Play per team": 8,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 8,
     "play_type": "pass",
     "play_text": "Mac Jones pass complete to Miller Forristall for 11 yds to the Fla 8 for a 1ST down",
+    "successful": 1,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.38
+    "rush_rate": 0.375
   },
   {
-    "Play per team": 9,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 9,
     "play_type": "rush",
     "play_text": "Najee Harris run for 8 yds for a TD (Will Reichard KICK)",
+    "successful": 1,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.44
+    "rush_rate": 0.4444444444444444
   },
   {
-    "Play per team": 10,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 10,
     "play_type": "rush",
     "play_text": "Najee Harris run for 3 yds to the Alab 12",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.5
+    "rush_rate": 0.5
   },
   {
-    "Play per team": 11,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 11,
     "play_type": "pass",
     "play_text": "Mac Jones pass complete to DeVonta Smith for 24 yds to the Alab 36 for a 1ST down",
+    "successful": 1,
+    "explosive": 1,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.45
+    "rush_rate": 0.45454545454545453
   },
   {
-    "Play per team": 12,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 12,
     "play_type": "pass",
     "play_text": "Mac Jones pass complete to Jahleel Billingsley for 15 yds to the Fla 49 for a 1ST down",
+    "successful": 1,
+    "explosive": 1,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.42
+    "rush_rate": 0.4166666666666667
   },
   {
-    "Play per team": 13,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 13,
     "play_type": "rush",
     "play_text": "Najee Harris run for 9 yds to the Fla 40",
+    "successful": 1,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.46
+    "rush_rate": 0.46153846153846156
   },
   {
-    "Play per team": 14,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 14,
     "play_type": "rush",
     "play_text": "Najee Harris run for 10 yds to the Fla 30 for a 1ST down",
+    "successful": 1,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.5
+    "rush_rate": 0.5
   },
   {
-    "Play per team": 15,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 15,
     "play_type": "rush",
     "play_text": "Najee Harris run for 4 yds to the Fla 26",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.53
+    "rush_rate": 0.5333333333333333
   },
   {
-    "Play per team": 16,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 16,
     "play_type": "pass",
     "play_text": "Mac Jones pass complete to DeVonta Smith for 4 yds to the Fla 22",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.5
+    "rush_rate": 0.5
   },
   {
-    "Play per team": 17,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 17,
     "play_type": "pass",
     "play_text": "Mac Jones pass intercepted Trey Dean III return for 19 yds to the Fla 31 Trey Dean III fumbled, forced by John Metchie III, recovered by Alab DeVonta Smith",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.47
+    "rush_rate": 0.47058823529411764
   },
   {
-    "Play per team": 18,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 18,
     "play_type": "pass",
     "play_text": "Mac Jones pass complete to DeVonta Smith for 31 yds for a TD (Will Reichard KICK)",
+    "successful": 1,
+    "explosive": 1,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.44
+    "rush_rate": 0.4444444444444444
   },
   {
-    "Play per team": 19,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 19,
     "play_type": "rush",
     "play_text": "Najee Harris run for 4 yds to the Alab 31",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.47
+    "rush_rate": 0.47368421052631576
   },
   {
-    "Play per team": 20,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 20,
     "play_type": "rush",
     "play_text": "Najee Harris run for 3 yds to the Alab 34",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.5
+    "rush_rate": 0.5
   },
   {
-    "Play per team": 21,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 21,
     "play_type": "rush",
     "play_text": "Najee Harris run for 8 yds to the Fla 43",
+    "successful": 1,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.52
+    "rush_rate": 0.5238095238095238
   },
   {
-    "Play per team": 22,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 22,
     "play_type": "pass",
     "play_text": "Mac Jones sacked by Andrew Chatfield Jr. for a loss of 5 yards to the Fla 48",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.5
+    "rush_rate": 0.5
   },
   {
-    "Play per team": 23,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 23,
     "play_type": "pass",
     "play_text": "Mac Jones pass complete to Slade Bolden for 15 yds to the Fla 33 for a 1ST down",
+    "successful": 1,
+    "explosive": 1,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.48
+    "rush_rate": 0.4782608695652174
   },
   {
-    "Play per team": 24,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 24,
     "play_type": "pass",
     "play_text": "Mac Jones pass incomplete to John Metchie III",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.46
+    "rush_rate": 0.4583333333333333
   },
   {
-    "Play per team": 25,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 25,
     "play_type": "rush",
     "play_text": "Najee Harris run for 4 yds to the Fla 29",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.48
+    "rush_rate": 0.48
   },
   {
-    "Play per team": 26,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 26,
     "play_type": "pass",
     "play_text": "Mac Jones pass complete to Najee Harris for 6 yds to the Fla 23 for a 1ST down",
+    "successful": 1,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.46
+    "rush_rate": 0.46153846153846156
   },
   {
-    "Play per team": 27,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 27,
     "play_type": "pass",
     "play_text": "Mac Jones pass complete to Xavier Williams for 12 yds to the Fla 11 for a 1ST down",
+    "successful": 1,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.44
+    "rush_rate": 0.4444444444444444
   },
   {
-    "Play per team": 28,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 28,
     "play_type": "rush",
     "play_text": "Najee Harris run for 5 yds to the Fla 6",
+    "successful": 1,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.46
+    "rush_rate": 0.4642857142857143
   },
   {
-    "Play per team": 29,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 29,
     "play_type": "rush",
     "play_text": "Najee Harris run for a loss of 1 yard to the Fla 7",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.48
+    "rush_rate": 0.4827586206896552
   },
   {
-    "Play per team": 30,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 30,
     "play_type": "pass",
     "play_text": "Mac Jones pass complete to Najee Harris for 7 yds for a TD (Will Reichard KICK)",
+    "successful": 1,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.47
+    "rush_rate": 0.4666666666666667
   },
   {
-    "Play per team": 31,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 31,
     "play_type": "pass",
     "play_text": "Mac Jones pass complete to John Metchie III for 8 yds to the Alab 38",
+    "successful": 1,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.45
+    "rush_rate": 0.45161290322580644
   },
   {
-    "Play per team": 32,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 32,
     "play_type": "rush",
     "play_text": "Brian Robinson Jr. run for 3 yds to the Alab 41 for a 1ST down",
+    "successful": 1,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.47
+    "rush_rate": 0.46875
   },
   {
-    "Play per team": 33,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 33,
     "play_type": "pass",
     "play_text": "Mac Jones sacked by Zachary Carter for a loss of 4 yards to the Alab 37",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.45
+    "rush_rate": 0.45454545454545453
   },
   {
-    "Play per team": 34,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 34,
     "play_type": "rush",
     "play_text": "Brian Robinson Jr. run for 6 yds to the Alab 43",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.47
+    "rush_rate": 0.47058823529411764
   },
   {
-    "Play per team": 35,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 35,
     "play_type": "rush",
     "play_text": "Brian Robinson Jr. run for 8 yds to the Fla 44 for a 1ST down",
+    "successful": 1,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.49
+    "rush_rate": 0.4857142857142857
   },
   {
-    "Play per team": 36,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 36,
     "play_type": "pass",
     "play_text": "Mac Jones pass complete to DeVonta Smith for 5 yds to the Fla 39",
+    "successful": 1,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.47
+    "rush_rate": 0.4722222222222222
   },
   {
-    "Play per team": 37,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 37,
     "play_type": "pass",
     "play_text": "Mac Jones pass incomplete to DeVonta Smith",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.46
+    "rush_rate": 0.4594594594594595
   },
   {
-    "Play per team": 38,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 38,
     "play_type": "pass",
     "play_text": "Mac Jones pass complete to DeVonta Smith for 4 yds to the Fla 35",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.45
+    "rush_rate": 0.4473684210526316
   },
   {
-    "Play per team": 39,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 39,
     "play_type": "rush",
     "play_text": "Miller Forristall run for 1 yd to the Fla 34 for a 1ST down",
+    "successful": 1,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.46
+    "rush_rate": 0.46153846153846156
   },
   {
-    "Play per team": 40,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 40,
     "play_type": "rush",
     "play_text": "Najee Harris run for 5 yds to the Fla 29",
+    "successful": 1,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.48
+    "rush_rate": 0.475
   },
   {
-    "Play per team": 41,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 41,
     "play_type": "rush",
     "play_text": "Najee Harris run for 4 yds to the Fla 25",
+    "successful": 1,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.49
+    "rush_rate": 0.4878048780487805
   },
   {
-    "Play per team": 42,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 42,
     "play_type": "rush",
     "play_text": "Brian Robinson Jr. run for 2 yds to the Fla 23 for a 1ST down",
+    "successful": 1,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.5
+    "rush_rate": 0.5
   },
   {
-    "Play per team": 43,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 43,
     "play_type": "pass",
     "play_text": "Mac Jones pass complete to Najee Harris for 23 yds for a TD (Will Reichard KICK)",
+    "successful": 1,
+    "explosive": 1,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.49
+    "rush_rate": 0.4883720930232558
   },
   {
-    "Play per team": 44,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 44,
     "play_type": "pass",
     "play_text": "Mac Jones pass incomplete",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.48
+    "rush_rate": 0.4772727272727273
   },
   {
-    "Play per team": 45,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 45,
     "play_type": "pass",
     "play_text": "Mac Jones pass complete to Slade Bolden for 25 yds to the Alab 47 for a 1ST down",
+    "successful": 1,
+    "explosive": 1,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.47
+    "rush_rate": 0.4666666666666667
   },
   {
-    "Play per team": 46,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 46,
     "play_type": "pass",
     "play_text": "Mac Jones pass incomplete to Najee Harris",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.46
+    "rush_rate": 0.45652173913043476
   },
   {
-    "Play per team": 47,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 47,
     "play_type": "pass",
     "play_text": "Mac Jones pass complete to DeVonta Smith for 21 yds to the Fla 32 for a 1ST down",
+    "successful": 1,
+    "explosive": 1,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.45
+    "rush_rate": 0.44680851063829785
   },
   {
-    "Play per team": 48,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 48,
     "play_type": "pass",
     "play_text": "Mac Jones pass complete to Miller Forristall for 7 yds to the Fla 25",
+    "successful": 1,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.44
+    "rush_rate": 0.4375
   },
   {
-    "Play per team": 49,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 49,
     "play_type": "pass",
     "play_text": "Mac Jones pass incomplete to Najee Harris",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.43
+    "rush_rate": 0.42857142857142855
   },
   {
-    "Play per team": 50,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 50,
     "play_type": "pass",
     "play_text": "Mac Jones pass complete to John Metchie III for 8 yds to the Fla 17 for a 1ST down",
+    "successful": 1,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.42
+    "rush_rate": 0.42
   },
   {
-    "Play per team": 51,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 51,
     "play_type": "pass",
     "play_text": "Mac Jones pass complete to Najee Harris for 17 yds for a TD (Will Reichard KICK)",
+    "successful": 1,
+    "explosive": 1,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.41
+    "rush_rate": 0.4117647058823529
   },
   {
-    "Play per team": 52,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 52,
     "play_type": "pass",
     "play_text": "Mac Jones pass complete to DeVonta Smith for 4 yds to the Alab 29",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.4
+    "rush_rate": 0.40384615384615385
   },
   {
-    "Play per team": 53,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 53,
     "play_type": "pass",
     "play_text": "Mac Jones pass complete to John Metchie III for 26 yds to the Fla 45 for a 1ST down",
+    "successful": 1,
+    "explosive": 1,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.4
+    "rush_rate": 0.39622641509433965
   },
   {
-    "Play per team": 54,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 54,
     "play_type": "pass",
     "play_text": "Mac Jones pass incomplete to Najee Harris",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.39
+    "rush_rate": 0.3888888888888889
   },
   {
-    "Play per team": 55,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 55,
     "play_type": "rush",
     "play_text": "Najee Harris run for 5 yds to the Fla 40",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.4
+    "rush_rate": 0.4
   },
   {
-    "Play per team": 56,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 56,
     "play_type": "rush",
     "play_text": "Najee Harris run for 2 yds to the Fla 38",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.41
+    "rush_rate": 0.4107142857142857
   },
   {
-    "Play per team": 57,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 57,
     "play_type": "pass",
     "play_text": "Mac Jones pass complete to DeVonta Smith for 1 yd to the Fla 37",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.4
+    "rush_rate": 0.40350877192982454
   },
   {
-    "Play per team": 58,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 58,
     "play_type": "pass",
     "play_text": "Mac Jones pass complete to Najee Harris for 14 yds to the Alab 23 for a 1ST down",
+    "successful": 1,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.4
+    "rush_rate": 0.39655172413793105
   },
   {
-    "Play per team": 59,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 59,
     "play_type": "rush",
     "play_text": "Najee Harris run for 6 yds to the Alab 29",
+    "successful": 1,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.41
+    "rush_rate": 0.4067796610169492
   },
   {
-    "Play per team": 60,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 60,
     "play_type": "pass",
     "play_text": "Mac Jones pass complete to DeVonta Smith for 27 yds to the Fla 44 for a 1ST down",
+    "successful": 1,
+    "explosive": 1,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.4
+    "rush_rate": 0.4
   },
   {
-    "Play per team": 61,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 61,
     "play_type": "pass",
     "play_text": "Mac Jones pass complete to DeVonta Smith for 10 yds to the Fla 44",
+    "successful": 1,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.39
+    "rush_rate": 0.39344262295081966
   },
   {
-    "Play per team": 62,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 62,
     "play_type": "rush",
     "play_text": "Jahleel Billingsley run for a loss of 3 yards to the Fla 47",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.4
+    "rush_rate": 0.4032258064516129
   },
   {
-    "Play per team": 63,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 63,
     "play_type": "pass",
     "play_text": "Mac Jones pass complete to Major Tennison for 4 yds to the Fla 43",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.4
+    "rush_rate": 0.3968253968253968
   },
   {
-    "Play per team": 64,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 64,
     "play_type": "pass",
     "play_text": "Mac Jones pass complete to Miller Forristall for 2 yds to the Alab 27",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.39
+    "rush_rate": 0.390625
   },
   {
-    "Play per team": 65,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 65,
     "play_type": "pass",
     "play_text": "Mac Jones pass complete to DeVonta Smith for 7 yds to the Alab 34",
+    "successful": 1,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.38
+    "rush_rate": 0.38461538461538464
   },
   {
-    "Play per team": 66,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 66,
     "play_type": "rush",
     "play_text": "Mac Jones run for 1 yd to the Alab 35 for a 1ST down",
+    "successful": 1,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.39
+    "rush_rate": 0.3939393939393939
   },
   {
-    "Play per team": 67,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 67,
     "play_type": "pass",
     "play_text": "Mac Jones pass complete to John Metchie III for 20 yds to the Fla 45 for a 1ST down",
+    "successful": 1,
+    "explosive": 1,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.39
+    "rush_rate": 0.3880597014925373
   },
   {
-    "Play per team": 68,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 68,
     "play_type": "rush",
     "play_text": "Najee Harris run for 19 yds to the Fla 26 for a 1ST down",
+    "successful": 1,
+    "explosive": 1,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.4
+    "rush_rate": 0.39705882352941174
   },
   {
-    "Play per team": 69,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 69,
     "play_type": "pass",
     "play_text": "Mac Jones pass complete to Jahleel Billingsley for 14 yds to the Fla 12 for a 1ST down",
+    "successful": 1,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.39
+    "rush_rate": 0.391304347826087
   },
   {
-    "Play per team": 70,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 70,
     "play_type": "rush",
     "play_text": "Najee Harris run for no gain to the Fla 12",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.4
+    "rush_rate": 0.4
   },
   {
-    "Play per team": 71,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 71,
     "play_type": "rush",
     "play_text": "Najee Harris run for 9 yds to the Fla 3",
+    "successful": 1,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.41
+    "rush_rate": 0.4084507042253521
   },
   {
-    "Play per team": 72,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 72,
     "play_type": "rush",
     "play_text": "Najee Harris run for 2 yds to the Fla 1 for a 1ST down",
+    "successful": 1,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.42
+    "rush_rate": 0.4166666666666667
   },
   {
-    "Play per team": 73,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 73,
     "play_type": "rush",
     "play_text": "Najee Harris run for 1 yd for a TD (Will Reichard KICK)",
+    "successful": 1,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.42
+    "rush_rate": 0.4246575342465753
   },
   {
-    "Play per team": 74,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 74,
     "play_type": "rush",
     "play_text": "Najee Harris run for 1 yd to the Fla 9",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.43
+    "rush_rate": 0.43243243243243246
   },
   {
-    "Play per team": 75,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 75,
     "play_type": "pass",
     "play_text": "Mac Jones pass incomplete to DeVonta Smith",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.43
+    "rush_rate": 0.4266666666666667
   },
   {
-    "Play per team": 76,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 76,
     "play_type": "pass",
     "play_text": "Mac Jones pass complete to DeVonta Smith for 7 yds to the Fla 2",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.42
+    "rush_rate": 0.42105263157894735
   },
   {
-    "Play per team": 77,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 77,
     "play_type": "rush",
     "play_text": "Najee Harris run for 14 yds to the Alab 48 for a 1ST down",
+    "successful": 1,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.43
+    "rush_rate": 0.42857142857142855
   },
   {
-    "Play per team": 78,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 78,
     "play_type": "rush",
     "play_text": "Najee Harris run for 29 yds to the Fla 18 for a 1ST down",
+    "successful": 1,
+    "explosive": 1,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.44
+    "rush_rate": 0.4358974358974359
   },
   {
-    "Play per team": 79,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 79,
     "play_type": "rush",
     "play_text": "Najee Harris run for 3 yds to the Fla 15",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.44
+    "rush_rate": 0.4430379746835443
   },
   {
-    "Play per team": 80,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 80,
     "play_type": "pass",
     "play_text": "Mac Jones pass complete to DeVonta Smith for 15 yds for a TD (Will Reichard KICK)",
+    "successful": 1,
+    "explosive": 1,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.44
+    "rush_rate": 0.4375
   },
   {
-    "Play per team": 81,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 81,
     "play_type": "rush",
     "play_text": "Najee Harris run for 1 yd to the Alab 48",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.44
+    "rush_rate": 0.4444444444444444
   },
   {
-    "Play per team": 82,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 82,
     "play_type": "rush",
     "play_text": "Najee Harris run for no gain to the Alab 48",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.45
+    "rush_rate": 0.45121951219512196
   },
   {
-    "Play per team": 83,
     "team_num": 1,
     "offense": "Alabama",
+    "play_per_team": 83,
     "play_type": "rush",
     "play_text": "Najee Harris run for a loss of 2 yards to the Alab 46",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 37, 37, 0.8)",
     "color_dark": "rgba(128, 0, 0, 0.8)",
     "color_light": "rgba(255, 230, 230, 0.8)",
-    "Rush Rate": 0.46
+    "rush_rate": 0.4578313253012048
   },
   {
-    "Play per team": 1,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 1,
     "play_type": "pass",
     "play_text": "Kyle Trask pass complete to Malik Davis for 4 yds to the Fla 31",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0
+    "rush_rate": 0
   },
   {
-    "Play per team": 2,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 2,
     "play_type": "rush",
     "play_text": "Kyle Trask run for no gain to the Fla 31 Kyle Trask fumbled, recovered by Fla Kyle Trask",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0.5
+    "rush_rate": 0.5
   },
   {
-    "Play per team": 3,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 3,
     "play_type": "pass",
     "play_text": "Kyle Trask pass complete to Kyle Pitts for 15 yds to the Fla 46 for a 1ST down",
+    "successful": 1,
+    "explosive": 1,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0.33
+    "rush_rate": 0.3333333333333333
   },
   {
-    "Play per team": 4,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 4,
     "play_type": "rush",
     "play_text": "Kyle Trask run for 3 yds to the Fla 49",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0.5
+    "rush_rate": 0.5
   },
   {
-    "Play per team": 5,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 5,
     "play_type": "pass",
     "play_text": "Kyle Trask pass incomplete to Kyle Pitts",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0.4
+    "rush_rate": 0.4
   },
   {
-    "Play per team": 6,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 6,
     "play_type": "pass",
     "play_text": "Kyle Trask pass complete to Kadarius Toney for 51 yds for a TD (Evan McPherson KICK)",
+    "successful": 1,
+    "explosive": 1,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0.33
+    "rush_rate": 0.3333333333333333
   },
   {
-    "Play per team": 7,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 7,
     "play_type": "pass",
     "play_text": "Kyle Trask pass complete to Kadarius Toney for 11 yds to the Fla 32 for a 1ST down",
+    "successful": 1,
+    "explosive": 0,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0.29
+    "rush_rate": 0.2857142857142857
   },
   {
-    "Play per team": 8,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 8,
     "play_type": "rush",
     "play_text": "Kadarius Toney run for 13 yds to the Fla 45 for a 1ST down",
+    "successful": 1,
+    "explosive": 0,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0.38
+    "rush_rate": 0.375
   },
   {
-    "Play per team": 9,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 9,
     "play_type": "pass",
     "play_text": "Kyle Trask pass incomplete to Justin Shorter",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0.33
+    "rush_rate": 0.3333333333333333
   },
   {
-    "Play per team": 10,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 10,
     "play_type": "pass",
     "play_text": "Kyle Trask pass complete to Kyle Pitts for 10 yds to the Alab 45 for a 1ST down",
+    "successful": 1,
+    "explosive": 0,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0.3
+    "rush_rate": 0.3
   },
   {
-    "Play per team": 11,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 11,
     "play_type": "pass",
     "play_text": "Kyle Trask pass incomplete to Trevon Grimes",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0.27
+    "rush_rate": 0.2727272727272727
   },
   {
-    "Play per team": 12,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 12,
     "play_type": "rush",
     "play_text": "Emory Jones run for 17 yds to the Alab 28 for a 1ST down",
+    "successful": 1,
+    "explosive": 1,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0.33
+    "rush_rate": 0.3333333333333333
   },
   {
-    "Play per team": 13,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 13,
     "play_type": "pass",
     "play_text": "Kyle Trask pass incomplete to Kyle Pitts",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0.31
+    "rush_rate": 0.3076923076923077
   },
   {
-    "Play per team": 14,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 14,
     "play_type": "rush",
     "play_text": "Nay'Quan Wright run for 1 yd to the Alab 27",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0.36
+    "rush_rate": 0.35714285714285715
   },
   {
-    "Play per team": 15,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 15,
     "play_type": "rush",
     "play_text": "Kyle Trask run for 4 yds to the Alab 23",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0.4
+    "rush_rate": 0.4
   },
   {
-    "Play per team": 16,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 16,
     "play_type": "pass",
     "play_text": "Kyle Trask pass incomplete to Malik Davis",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0.38
+    "rush_rate": 0.375
   },
   {
-    "Play per team": 17,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 17,
     "play_type": "pass",
     "play_text": "Kyle Trask pass complete to Malik Davis for 11 yds to the Fla 43 for a 1ST down",
+    "successful": 1,
+    "explosive": 0,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0.35
+    "rush_rate": 0.35294117647058826
   },
   {
-    "Play per team": 18,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 18,
     "play_type": "pass",
     "play_text": "Kyle Trask sacked by Christopher Allen for a loss of 2 yards to the Fla 41",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0.33
+    "rush_rate": 0.3333333333333333
   },
   {
-    "Play per team": 19,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 19,
     "play_type": "rush",
     "play_text": "Dameon Pierce run for 1 yd to the Fla 42",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0.37
+    "rush_rate": 0.3684210526315789
   },
   {
-    "Play per team": 20,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 20,
     "play_type": "pass",
     "play_text": "Kyle Trask pass complete to Kadarius Toney for 3 yds to the Fla 45",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0.35
+    "rush_rate": 0.35
   },
   {
-    "Play per team": 21,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 21,
     "play_type": "pass",
     "play_text": "Kyle Trask pass complete to Kadarius Toney for 39 yds to the Alab 36 for a 1ST down",
+    "successful": 1,
+    "explosive": 1,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0.33
+    "rush_rate": 0.3333333333333333
   },
   {
-    "Play per team": 22,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 22,
     "play_type": "pass",
     "play_text": "Kyle Trask pass complete to Kadarius Toney for 8 yds to the Alab 28",
+    "successful": 1,
+    "explosive": 0,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0.32
+    "rush_rate": 0.3181818181818182
   },
   {
-    "Play per team": 23,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 23,
     "play_type": "pass",
     "play_text": "Kyle Trask pass complete to Kadarius Toney for 27 yds to the Alab 1 for a 1ST down",
+    "successful": 1,
+    "explosive": 1,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0.3
+    "rush_rate": 0.30434782608695654
   },
   {
-    "Play per team": 24,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 24,
     "play_type": "rush",
     "play_text": "Kyle Trask run for 1 yd for a TD (Evan McPherson KICK)",
+    "successful": 1,
+    "explosive": 0,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0.33
+    "rush_rate": 0.3333333333333333
   },
   {
-    "Play per team": 25,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 25,
     "play_type": "pass",
     "play_text": "Kyle Trask sacked by Will Anderson Jr. for a loss of 4 yards to the Fla 27",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0.32
+    "rush_rate": 0.32
   },
   {
-    "Play per team": 26,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 26,
     "play_type": "pass",
     "play_text": "Kyle Trask pass complete to Jacob Copeland for 13 yds to the Fla 38 for a 1ST down",
+    "successful": 1,
+    "explosive": 0,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0.31
+    "rush_rate": 0.3076923076923077
   },
   {
-    "Play per team": 27,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 27,
     "play_type": "pass",
     "play_text": "Kyle Trask pass complete to Trevon Grimes for 5 yds to the Fla 43",
+    "successful": 1,
+    "explosive": 0,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0.3
+    "rush_rate": 0.2962962962962963
   },
   {
-    "Play per team": 28,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 28,
     "play_type": "rush",
     "play_text": "Emory Jones run for 7 yds to the 50 yard line for a 1ST down",
+    "successful": 1,
+    "explosive": 0,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0.32
+    "rush_rate": 0.32142857142857145
   },
   {
-    "Play per team": 29,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 29,
     "play_type": "pass",
     "play_text": "Kyle Trask pass complete to Trevon Grimes for 50 yds for a TD (Evan McPherson KICK)",
+    "successful": 1,
+    "explosive": 1,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0.31
+    "rush_rate": 0.3103448275862069
   },
   {
-    "Play per team": 30,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 30,
     "play_type": "pass",
     "play_text": "Kyle Trask pass incomplete to Kyle Pitts",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0.3
+    "rush_rate": 0.3
   },
   {
-    "Play per team": 31,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 31,
     "play_type": "pass",
     "play_text": "Kyle Trask sacked by Christian Harris for a loss of 3 yards to the Fla 49",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0.29
+    "rush_rate": 0.2903225806451613
   },
   {
-    "Play per team": 32,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 32,
     "play_type": "rush",
     "play_text": "Kyle Trask run for 4 yds to the Alab 47",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0.31
+    "rush_rate": 0.3125
   },
   {
-    "Play per team": 33,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 33,
     "play_type": "pass",
     "play_text": "Kyle Trask pass incomplete to Malik Davis",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0.3
+    "rush_rate": 0.30303030303030304
   },
   {
-    "Play per team": 34,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 34,
     "play_type": "pass",
     "play_text": "Kyle Trask pass complete to Jacob Copeland for a loss of 7 yards Jacob Copeland fumbled, forced by Dylan Moses, recovered by Fla Jacob Copeland",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0.29
+    "rush_rate": 0.29411764705882354
   },
   {
-    "Play per team": 35,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 35,
     "play_type": "pass",
     "play_text": "Kyle Trask pass incomplete to Kyle Pitts",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0.29
+    "rush_rate": 0.2857142857142857
   },
   {
-    "Play per team": 36,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 36,
     "play_type": "pass",
     "play_text": "Kyle Trask pass complete to Kyle Pitts for 20 yds to the Fla 33 for a 1ST down",
+    "successful": 1,
+    "explosive": 1,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0.28
+    "rush_rate": 0.2777777777777778
   },
   {
-    "Play per team": 37,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 37,
     "play_type": "pass",
     "play_text": "Kyle Trask pass complete to Trevon Grimes for 25 yds to the Alab 30 for a 1ST down",
+    "successful": 1,
+    "explosive": 1,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0.27
+    "rush_rate": 0.2702702702702703
   },
   {
-    "Play per team": 38,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 38,
     "play_type": "rush",
     "play_text": "Kadarius Toney run for 2 yds to the Alab 28",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0.29
+    "rush_rate": 0.2894736842105263
   },
   {
-    "Play per team": 39,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 39,
     "play_type": "rush",
     "play_text": "Nay'Quan Wright run for 6 yds to the Alab 22",
+    "successful": 1,
+    "explosive": 0,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0.31
+    "rush_rate": 0.3076923076923077
   },
   {
-    "Play per team": 40,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 40,
     "play_type": "rush",
     "play_text": "Kyle Trask run for 3 yds to the Alab 19 for a 1ST down",
+    "successful": 1,
+    "explosive": 0,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0.33
+    "rush_rate": 0.325
   },
   {
-    "Play per team": 41,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 41,
     "play_type": "pass",
     "play_text": "Kyle Trask pass incomplete to Jacob Copeland",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0.32
+    "rush_rate": 0.3170731707317073
   },
   {
-    "Play per team": 42,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 42,
     "play_type": "pass",
     "play_text": "Kyle Trask pass complete to Nay'Quan Wright for 6 yds to the Alab 13",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0.31
+    "rush_rate": 0.30952380952380953
   },
   {
-    "Play per team": 43,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 43,
     "play_type": "rush",
     "play_text": "Kyle Trask run for 4 yds to the Alab 9 for a 1ST down",
+    "successful": 1,
+    "explosive": 0,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0.33
+    "rush_rate": 0.32558139534883723
   },
   {
-    "Play per team": 44,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 44,
     "play_type": "rush",
     "play_text": "Kyle Trask run for 6 yds to the Alab 3",
+    "successful": 1,
+    "explosive": 0,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0.34
+    "rush_rate": 0.3409090909090909
   },
   {
-    "Play per team": 45,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 45,
     "play_type": "rush",
     "play_text": "Nay'Quan Wright run for 3 yds for a TD (Evan McPherson KICK)",
+    "successful": 1,
+    "explosive": 0,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0.36
+    "rush_rate": 0.35555555555555557
   },
   {
-    "Play per team": 46,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 46,
     "play_type": "pass",
     "play_text": "Kyle Trask sacked by Will Anderson Jr. for a loss of 15 yards to the Fla 10 Kyle Trask fumbled, forced by Will Anderson Jr., recovered by Alab Tim Smith , return for 0 yards",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0.35
+    "rush_rate": 0.34782608695652173
   },
   {
-    "Play per team": 47,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 47,
     "play_type": "pass",
     "play_text": "Kyle Trask pass complete to Kyle Pitts for 6 yds to the Fla 31",
+    "successful": 1,
+    "explosive": 0,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0.34
+    "rush_rate": 0.3404255319148936
   },
   {
-    "Play per team": 48,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 48,
     "play_type": "pass",
     "play_text": "Kyle Trask pass complete to Kyle Pitts for 31 yds to the Alab 38 for a 1ST down",
+    "successful": 1,
+    "explosive": 1,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0.33
+    "rush_rate": 0.3333333333333333
   },
   {
-    "Play per team": 49,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 49,
     "play_type": "pass",
     "play_text": "Kyle Trask pass incomplete to Jacob Copeland",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0.33
+    "rush_rate": 0.32653061224489793
   },
   {
-    "Play per team": 50,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 50,
     "play_type": "rush",
     "play_text": "Malik Davis run for 2 yds to the Alab 36 Malik Davis fumbled, forced by Christian Barmore, recovered by Fla Jacob Copeland",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0.34
+    "rush_rate": 0.34
   },
   {
-    "Play per team": 51,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 51,
     "play_type": "pass",
     "play_text": "Kyle Trask pass incomplete",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0.33
+    "rush_rate": 0.3333333333333333
   },
   {
-    "Play per team": 52,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 52,
     "play_type": "pass",
     "play_text": "Kyle Trask pass incomplete to Trevon Grimes",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0.33
+    "rush_rate": 0.3269230769230769
   },
   {
-    "Play per team": 53,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 53,
     "play_type": "pass",
     "play_text": "Kyle Trask pass complete to Kyle Pitts for 25 yds to the Alab 1 for a 1ST down",
+    "successful": 1,
+    "explosive": 1,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0.32
+    "rush_rate": 0.32075471698113206
   },
   {
-    "Play per team": 54,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 54,
     "play_type": "rush",
     "play_text": "Kyle Trask run for no gain to the Alab 1",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0.33
+    "rush_rate": 0.3333333333333333
   },
   {
-    "Play per team": 55,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 55,
     "play_type": "rush",
     "play_text": "Dameon Pierce run for 1 yd for a TD (Evan McPherson KICK)",
+    "successful": 1,
+    "explosive": 0,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0.35
+    "rush_rate": 0.34545454545454546
   },
   {
-    "Play per team": 56,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 56,
     "play_type": "pass",
     "play_text": "Kyle Trask pass complete to Kadarius Toney for 9 yds to the Fla 34",
+    "successful": 1,
+    "explosive": 0,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0.34
+    "rush_rate": 0.3392857142857143
   },
   {
-    "Play per team": 57,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 57,
     "play_type": "pass",
     "play_text": "Kyle Trask pass incomplete to Kyle Pitts",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0.33
+    "rush_rate": 0.3333333333333333
   },
   {
-    "Play per team": 58,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 58,
     "play_type": "pass",
     "play_text": "Kyle Trask pass complete to Kadarius Toney for 5 yds to the Fla 39 for a 1ST down",
+    "successful": 1,
+    "explosive": 0,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0.33
+    "rush_rate": 0.3275862068965517
   },
   {
-    "Play per team": 59,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 59,
     "play_type": "pass",
     "play_text": "Kyle Trask pass incomplete to Jacob Copeland",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0.32
+    "rush_rate": 0.3220338983050847
   },
   {
-    "Play per team": 60,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 60,
     "play_type": "pass",
     "play_text": "Kyle Trask pass complete to Nay'Quan Wright for 13 yds to the Alab 33 for a 1ST down",
+    "successful": 1,
+    "explosive": 0,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0.32
+    "rush_rate": 0.31666666666666665
   },
   {
-    "Play per team": 61,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 61,
     "play_type": "pass",
     "play_text": "Kyle Trask pass complete to Nay'Quan Wright for 8 yds to the Alab 25",
+    "successful": 1,
+    "explosive": 0,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0.31
+    "rush_rate": 0.3114754098360656
   },
   {
-    "Play per team": 62,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 62,
     "play_type": "rush",
     "play_text": "Nay'Quan Wright run for 1 yd to the Alab 24",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0.32
+    "rush_rate": 0.3225806451612903
   },
   {
-    "Play per team": 63,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 63,
     "play_type": "rush",
     "play_text": "Kyle Trask run for 4 yds to the Alab 20 for a 1ST down",
+    "successful": 1,
+    "explosive": 0,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0.33
+    "rush_rate": 0.3333333333333333
   },
   {
-    "Play per team": 64,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 64,
     "play_type": "pass",
     "play_text": "Kyle Trask pass complete to Trevon Grimes for a loss of 2 yards to the Alab 22",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0.33
+    "rush_rate": 0.328125
   },
   {
-    "Play per team": 65,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 65,
     "play_type": "pass",
     "play_text": "Kyle Trask pass complete to Kyle Pitts for 22 yds for a TD Timeout FLORIDA, clock 02:07 ALABAMA Penalty, Defensive Pass Interference (Josh Jobe) to the Alab 1 (K. Trask Run For Two-point Conversion)",
+    "successful": 1,
+    "explosive": 1,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0.32
+    "rush_rate": 0.3230769230769231
   },
   {
-    "Play per team": 66,
     "team_num": 2,
     "offense": "Florida",
+    "play_per_team": 66,
     "play_type": "pass",
     "play_text": "Kyle Trask sacked by Christian Harris for a loss of 5 yards to the Fla 7",
+    "successful": 0,
+    "explosive": 0,
     "color": "rgba(244, 97, 37, 0.8)",
     "color_dark": "rgba(128, 37, 0, 0.8)",
     "color_light": "rgba(255, 237, 230, 0.8)",
-    "Rush Rate": 0.32
+    "rush_rate": 0.3181818181818182
   }
 ]
