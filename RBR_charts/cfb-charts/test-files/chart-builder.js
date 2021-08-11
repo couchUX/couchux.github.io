@@ -44,22 +44,19 @@ function fillColors(data,xColor,sColor) {
 
 function pointStyle(data) {
     let pointStyle = data.map(({play_type}) => 
-    play_type == "rush" ? 'circle' :
-    'triangle');
+    play_type == "rush" ? 'circle' : 'triangle');
     return pointStyle;
 };
 
 function pointSize(data) {
     let pointSize = data.map(({play_type}) => 
-    play_type == "rush" ? 4 :
-    6);
+    play_type == "rush" ? 4 : 6);
     return pointSize;
 };
 
 function pointSizeHover(data) {
     let pointSizeHover = data.map(({play_type}) => 
-    play_type == "rush" ? 6 :
-    8);
+    play_type == "rush" ? 6 : 8);
     return pointSizeHover;
 };
 
@@ -169,15 +166,13 @@ const playMap = (json,id,teamNum) => {
         
         let team = data.filter(({team_num}) => team_num == teamNum);
         let labels = data.map(a => a.play_num);
-        let rushes = team.filter(({play_type}) => play_type == "rush");
-        let passes = team.filter(({play_type}) => play_type == "pass");
         
         let playsMax = Math.max.apply(Math, data.map(({play_num}) => play_num));
         let newQuarters = [...new Set(data.map(a => a.quarter))];
         quarterMarker(newQuarters,data,playsMax,"play_num");
 
-        let rushYards = rushes.map(({play_num, yards_gained}) => ({ x: play_num, y: yards_gained }));
-        let passYards = passes.map(({play_num, yards_gained}) => ({ x: play_num, y: yards_gained }));
+        let yards = team.map(({play_num, yards_gained}) => ({ x: play_num, y: yards_gained }));
+    
         let yardsMax = Math.max.apply(Math, data.map(({yards_gained}) => yards_gained));
         let yardsMin = Math.min.apply(Math, data.map(({yards_gained}) => yards_gained));
         let zeroLine = [
@@ -201,32 +196,17 @@ const playMap = (json,id,teamNum) => {
                 labels: labels,
                 datasets: [
                     {
-                        label: 'Rush yards',
-                        data: rushYards,
-                        backgroundColor: fillColors(rushes,xColor,sColor),
-                        hoverBackgroundColor: fillColors(rushes,xColor,sColor),
+                        label: 'Yards',
+                        data: yards,
+                        backgroundColor: fillColors(team,xColor,sColor),
+                        hoverBackgroundColor: fillColors(team,xColor,sColor),
                         borderWidth: 0,
                         pointBorderWidth: 1,
                         borderColor: xColor,
-                        pointStyle: 'circle',
-                        pointRadius: 4,
-                        pointHoverRadius: 6,
+                        pointStyle: pointStyle(team),
+                        pointRadius: pointSize(team),
+                        pointHoverRadius: pointSizeHover(team),
                         tension: 0.3
-                    },
-                    {
-                        label: 'Pass yards',
-                        data: passYards,
-                        backgroundColor: fillColors(passes,xColor,sColor),
-                        hoverBackgroundColor: fillColors(passes,xColor,sColor),
-                        borderWidth: 0,
-                        pointBorderWidth: 1,
-                        borderColor: xColor,
-                        pointStyle: 'triangle',
-                        radius: 6,
-                        pointRadius: 6,
-                        pointHoverRadius: 8,
-                        tension: 0.3,
-                        borderDash: [4,4],
                     },
                     {
                         label: "ZeroLine",
