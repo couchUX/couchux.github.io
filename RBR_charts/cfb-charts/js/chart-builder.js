@@ -70,8 +70,21 @@ let zeroShade = (labl,x1,x2,x3,x4,y1,y2,y3,y4) => ({
     backgroundColor: 'rgba(0,0,0,0.05)',
 });
 
+// COLORS SETUP
+const colors = (data) => {
+    let s = data[0].hex;
+    let x = data[0].hex_dark;
+    let bg = s.slice(0,-2) + "25";
+    let colors = {
+        success: s,
+        explosive: x,
+        light: bg
+    }
+    return colors;
+}
+
 // POINT STYLES SETUP
-function fillColors(data,xColor,sColor) {
+const fillColors = (data,xColor,sColor) => {
     let fillColor = data.map(({explosive, successful}) => 
     explosive == 1 ? xColor :
     successful == 1 ? sColor :
@@ -79,13 +92,13 @@ function fillColors(data,xColor,sColor) {
     return fillColor;
 };
 
-function pointStyle(data) {
+const pointStyle = (data) => {
     let pointStyle = data.map(({play_type}) => 
     play_type == "rush" ? 'circle' : 'triangle');
     return pointStyle;
 };
 
-function pointSize(data) {
+const pointSize = (data) => {
     let pointSize = data.map(({play_type}) => 
     play_type == "rush" ? 4 : 5.5);
     return pointSize;
@@ -109,11 +122,6 @@ const teamLines = (json,thisGame,id) => {
         let xr = team.map(({play_num, team_xr}) => ({ x: play_num, y: team_xr }));
         let srOpp = opponent.map(({play_num, team_sr}) => ({ x: play_num, y: team_sr }));
         let xrOpp = opponent.map(({play_num, team_xr}) => ({ x: play_num, y: team_xr }));
-        
-        let sColor = team.map(a => a.hex);
-        let xColor = team.map(a => a.hex_dark);
-        let sColorOpp = opponent.map(a => a.hex);
-        let xColorOpp = opponent.map(a => a.hex_dark);
 
         let dataset = (d,l,bColor,dash) => ({
             data: d,
@@ -130,10 +138,10 @@ const teamLines = (json,thisGame,id) => {
             data: {
                 labels: labels,
                 datasets: [
-                    dataset(xr,team[0].offense + 'XR',xColor,[1,0]),
-                    dataset(sr,team[0].offense + 'SR',sColor,[1,0]),
-                    dataset(xrOpp,opponent[0].offense + 'XR',xColorOpp,[4,4]),
-                    dataset(srOpp,opponent[0].offense + 'SR',sColorOpp,[4,4]),
+                    dataset(xr,team[0].offense + 'XR',colors(team).explosive,[1,0]),
+                    dataset(sr,team[0].offense + 'SR',colors(team).success,[1,0]),
+                    dataset(xrOpp,opponent[0].offense + 'XR',colors(opponent).explosive,[4,4]),
+                    dataset(srOpp,opponent[0].offense + 'SR',colors(opponent).success,[4,4]),
                     quarterLines(quartersArray),
                     zeroShade("League SR Avg",1,1,playsMax,playsMax,0,srAvg,srAvg,0)
                 ],
@@ -172,9 +180,7 @@ const playMap = (json,thisGame,id,teamNum) => {
         let playsMax = Math.max.apply(Math, chart.map(({play_num}) => play_num));
         let newQuarters = [...new Set(chart.map(a => a.quarter))];
         quarterMarker(newQuarters,chart,playsMax,"play_num");
-
-        let xColor = team.map(a => a.hex_dark);
-        let sColor = team.map(a => a.hex);
+        let pointColor = fillColors(team,colors(team).explosive,colors(team).success);
         let yardsMax = Math.max.apply(Math, chart.map(({yards}) => yards));
         let yardsMin = Math.min.apply(Math, chart.map(({yards}) => yards));
 
@@ -187,10 +193,10 @@ const playMap = (json,thisGame,id,teamNum) => {
                     {
                         label: 'Yards',
                         data: yards,
-                        backgroundColor: fillColors(team,xColor,sColor),
-                        hoverBackgroundColor: fillColors(team,xColor,sColor),
+                        backgroundColor: pointColor,
+                        hoverBackgroundColor: pointColor,
                         borderWidth: 0,
-                        borderColor: xColor,
+                        borderColor: colors(team).explosive,
                         pointStyle: pointStyle(team),
                         pointRadius: pointSize(team),
                     },
@@ -236,10 +242,7 @@ const playTypeLines = (json,thisGame,id,teamNum) => {
 
         let rushSr = rushes.map(({team_play, sr}) => ({ x: team_play, y: sr }));
         let passSr = passes.map(({team_play, sr}) => ({ x: team_play, y: sr }));
-        
-        let lineColor = team.map(a => a.hex_dark);
-        let xColor = team.map(a => a.hex_dark);
-        let sColor = team.map(a => a.hex);
+        let lineColor = colors(team).explosive;
 
         const ctx = document.getElementById(id).getContext('2d');
         new Chart(ctx, {
@@ -251,8 +254,8 @@ const playTypeLines = (json,thisGame,id,teamNum) => {
                         data: rushSr,
                         label: team[0].offense + ' Rush SR',
                         borderColor: lineColor,
-                        backgroundColor: fillColors(rushes,xColor,sColor),
-                        hoverBackgroundColor: fillColors(rushes,xColor,sColor),
+                        backgroundColor: fillColors(rushes,colors(rushes).explosive,colors(rushes).success),
+                        hoverbackgroundColor: fillColors(rushes,colors(rushes).explosive,colors(rushes).success),
                         borderWidth: 2,
                         pointStyle: 'circle',
                         pointRadius: 4,
@@ -261,8 +264,8 @@ const playTypeLines = (json,thisGame,id,teamNum) => {
                         data: passSr,
                         label: team[0].offense + ' Pass SR',
                         borderColor: lineColor,
-                        backgroundColor: fillColors(passes,xColor,sColor),
-                        hoverBackgroundColor: fillColors(passes,xColor,sColor),
+                        backgroundColor: fillColors(passes,colors(passes).explosive,colors(passes).success),
+                        hoverbackgroundColor: fillColors(passes,colors(passes).explosive,colors(passes).success),
                         borderWidth: 2,
                         pointStyle: 'triangle',
                         radius: 6,
@@ -294,7 +297,7 @@ const playTypeLines = (json,thisGame,id,teamNum) => {
     })
 }
 
-// RUSh RATE
+// RUSH RATE
 const rushRate = (json,thisGame,id,teamNum) => {
     fetch(json).then(response => response.json()).then(data => { 
         
@@ -307,10 +310,6 @@ const rushRate = (json,thisGame,id,teamNum) => {
         let playsMax = Math.max.apply(Math, team.map(({team_play}) => team_play));
         let newQuarters = [...new Set(team.map(a => a.quarter))];
         quarterMarker(newQuarters,team,playsMax,"team_play");
-        
-        let bgColor = team.map(a => a.hex_light);
-        let xColor = team.map(a => a.hex_dark);
-        let sColor = team.map(a => a.hex);
 
         const ctx = document.getElementById(id).getContext('2d');
         new Chart(ctx, {
@@ -321,10 +320,10 @@ const rushRate = (json,thisGame,id,teamNum) => {
                     {
                         data: rushRate,
                         label: team[0].offense + ' Rush Rate',
-                        borderColor: xColor,
-                        backgroundColor: bgColor,
-                        pointBackgroundColor: fillColors(team,xColor,sColor),
-                        hoverBackgroundColor: fillColors(team,xColor,sColor),
+                        borderColor: colors(team).explosive,
+                        backgroundColor: colors(team).light,
+                        pointBackgroundColor: fillColors(team,colors(team).explosive,colors(team).success),
+                        hoverBackgroundColor: fillColors(team,colors(team).explosive,colors(team).success),
                         borderWidth: 2,
                         pointStyle: pointStyle(team),
                         pointRadius: pointSize(team),
@@ -411,10 +410,6 @@ const srXrBars = (json,thisGame,thisCol,id) => {
         let xr = team.map(a => a.xr);
         let srOpp = opponent.map(a => a.sr);
         let xrOpp = opponent.map(a => a.xr);
-        let sColors = team.map(a => a.hex);
-        let xColors = team.map(a => a.hex_dark);
-        let sColorsOpp = opponent.map(a => a.hex);
-        let xColorsOpp = opponent.map(a => a.hex_dark); 
         
         let dataset = (d,s,l,color) => ({
                 data: d,
@@ -429,10 +424,10 @@ const srXrBars = (json,thisGame,thisCol,id) => {
             data: {
                 labels: labels,
                 datasets: [
-                    dataset(xr,'Team',team[0].offense + ' XR',xColors),
-                    dataset(sr,'Team',team[0].offense + ' SR',sColors),
-                    dataset(xrOpp,'Opponent',team[0].offense + ' XR',xColorsOpp),
-                    dataset(srOpp,'Opponent',team[0].offense + ' SR',sColorsOpp),
+                    dataset(xr,'Team',team[0].offense + ' XR',colors(team).explosive),
+                    dataset(sr,'Team',team[0].offense + ' SR',colors(team).success),
+                    dataset(xrOpp,'Opponent',team[0].offense + ' XR',colors(opponent).explosive),
+                    dataset(srOpp,'Opponent',team[0].offense + ' SR',colors(opponent).success),
                     srAvgBarLine(),
                 ]
             },
@@ -467,17 +462,14 @@ const players = (json,thisGame,thisCol,id,teamNum) => {
         let successful = team.map(a => a.successful);
         let unsCatches = team.map(a => a.uns_catches);
         let unsuccessful = team.map(a => a.uns);
-
-        let sColor = team.map(a => a.hex);
-        let xColor = team.map(a => a.hex_dark);
-        let cColor = team.map(a => a.hex);
-
-        let dataset = (d,s,l,xColor,color) => ({
+        
+        let bColor = colors(team).explosive;
+        let dataset = (d,s,l,color) => ({
             data: d,
             stack: s,
             label: l,
             borderWidth: 0.8,
-            borderColor: xColor,
+            borderColor: bColor,
             backgroundColor: color,
         })
         
@@ -487,10 +479,10 @@ const players = (json,thisGame,thisCol,id,teamNum) => {
             data: {
                 labels: labels,
                 datasets: [
-                    dataset(explosive,'1','Explosive Plays',xColor,xColor),
-                    dataset(successful,'1','Successful Plays',xColor,sColor),
-                    dataset(unsCatches,'1','Unsuccessful Catches',xColor,cColor),
-                    dataset(unsuccessful,'1','Unsuccessful Plays',xColor,unsColor),
+                    dataset(explosive,'1','Explosive Plays',colors(team).explosive),
+                    dataset(successful,'1','Successful Plays',colors(team).success),
+                    dataset(unsCatches,'1','Unsuccessful Catches',colors(team).light),
+                    dataset(unsuccessful,'1','Unsuccessful Plays',unsColor),
                 ]
             },
             options: {
