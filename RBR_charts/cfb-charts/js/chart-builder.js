@@ -459,7 +459,7 @@ const players = (json,thisGame,thisCol,id,teamNum) => {
     fetch(json).then(response => response.json()).then(data => { 
 
         let game = data.filter(({game}) => game == thisGame);
-        let chart = game.filter(({chart}) => chart == 'plays');
+        let chart = game.filter(({chart}) => chart == thisCol);
         let team = chart.filter(({team_num}) => team_num == teamNum);
         let labels = [...new Set(team.map(a => a[thisCol]))];
 
@@ -470,10 +470,9 @@ const players = (json,thisGame,thisCol,id,teamNum) => {
 
         let sColor = team.map(a => a.hex);
         let xColor = team.map(a => a.hex_dark);
-        let cColor = team.map(a => a.hex_light);
+        let cColor = team.map(a => a.hex);
 
         let dataset = (d,s,l,xColor,color) => ({
-            
             data: d,
             stack: s,
             label: l,

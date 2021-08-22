@@ -726,7 +726,7 @@
   },
   {
     "game": "2020-12-19 Alabama at Florida",
-    "chart": "rushers",
+    "chart": "rusher",
     "team_num": 1,
     "offense": "Alabama",
     "play_num": "",
@@ -755,7 +755,7 @@
   },
   {
     "game": "2020-12-19 Alabama at Florida",
-    "chart": "rushers",
+    "chart": "rusher",
     "team_num": 1,
     "offense": "Alabama",
     "play_num": "",
@@ -784,7 +784,7 @@
   },
   {
     "game": "2020-12-19 Alabama at Florida",
-    "chart": "rushers",
+    "chart": "rusher",
     "team_num": 1,
     "offense": "Alabama",
     "play_num": "",
@@ -813,7 +813,7 @@
   },
   {
     "game": "2020-12-19 Alabama at Florida",
-    "chart": "rushers",
+    "chart": "rusher",
     "team_num": 1,
     "offense": "Alabama",
     "play_num": "",
@@ -842,7 +842,7 @@
   },
   {
     "game": "2020-12-19 Alabama at Florida",
-    "chart": "rushers",
+    "chart": "rusher",
     "team_num": 1,
     "offense": "Alabama",
     "play_num": "",
@@ -871,7 +871,7 @@
   },
   {
     "game": "2020-12-19 Alabama at Florida",
-    "chart": "rushers",
+    "chart": "rusher",
     "team_num": 2,
     "offense": "Florida",
     "play_num": "",
@@ -900,7 +900,7 @@
   },
   {
     "game": "2020-12-19 Alabama at Florida",
-    "chart": "rushers",
+    "chart": "rusher",
     "team_num": 2,
     "offense": "Florida",
     "play_num": "",
@@ -929,7 +929,7 @@
   },
   {
     "game": "2020-12-19 Alabama at Florida",
-    "chart": "rushers",
+    "chart": "rusher",
     "team_num": 2,
     "offense": "Florida",
     "play_num": "",
@@ -958,7 +958,7 @@
   },
   {
     "game": "2020-12-19 Alabama at Florida",
-    "chart": "rushers",
+    "chart": "rusher",
     "team_num": 2,
     "offense": "Florida",
     "play_num": "",
@@ -987,7 +987,7 @@
   },
   {
     "game": "2020-12-19 Alabama at Florida",
-    "chart": "rushers",
+    "chart": "rusher",
     "team_num": 2,
     "offense": "Florida",
     "play_num": "",
@@ -1016,7 +1016,7 @@
   },
   {
     "game": "2020-12-19 Alabama at Florida",
-    "chart": "rushers",
+    "chart": "rusher",
     "team_num": 2,
     "offense": "Florida",
     "play_num": "",
@@ -1045,7 +1045,7 @@
   },
   {
     "game": "2020-12-19 Alabama at Florida",
-    "chart": "passers",
+    "chart": "passer",
     "team_num": 1,
     "offense": "Alabama",
     "play_num": "",
@@ -1074,7 +1074,7 @@
   },
   {
     "game": "2020-12-19 Alabama at Florida",
-    "chart": "passers",
+    "chart": "passer",
     "team_num": 2,
     "offense": "Florida",
     "play_num": "",
@@ -1103,7 +1103,7 @@
   },
   {
     "game": "2020-12-19 Alabama at Florida",
-    "chart": "receivers",
+    "chart": "receiver",
     "team_num": 1,
     "offense": "Alabama",
     "play_num": "",
@@ -1132,7 +1132,7 @@
   },
   {
     "game": "2020-12-19 Alabama at Florida",
-    "chart": "receivers",
+    "chart": "receiver",
     "team_num": 1,
     "offense": "Alabama",
     "play_num": "",
@@ -1161,7 +1161,7 @@
   },
   {
     "game": "2020-12-19 Alabama at Florida",
-    "chart": "receivers",
+    "chart": "receiver",
     "team_num": 1,
     "offense": "Alabama",
     "play_num": "",
@@ -1190,7 +1190,7 @@
   },
   {
     "game": "2020-12-19 Alabama at Florida",
-    "chart": "receivers",
+    "chart": "receiver",
     "team_num": 1,
     "offense": "Alabama",
     "play_num": "",
@@ -1219,7 +1219,7 @@
   },
   {
     "game": "2020-12-19 Alabama at Florida",
-    "chart": "receivers",
+    "chart": "receiver",
     "team_num": 1,
     "offense": "Alabama",
     "play_num": "",
@@ -1248,7 +1248,7 @@
   },
   {
     "game": "2020-12-19 Alabama at Florida",
-    "chart": "receivers",
+    "chart": "receiver",
     "team_num": 1,
     "offense": "Alabama",
     "play_num": "",
@@ -1277,7 +1277,7 @@
   },
   {
     "game": "2020-12-19 Alabama at Florida",
-    "chart": "receivers",
+    "chart": "receiver",
     "team_num": 1,
     "offense": "Alabama",
     "play_num": "",
@@ -1306,7 +1306,7 @@
   },
   {
     "game": "2020-12-19 Alabama at Florida",
-    "chart": "receivers",
+    "chart": "receiver",
     "team_num": 1,
     "offense": "Alabama",
     "play_num": "",
@@ -1335,7 +1335,7 @@
   },
   {
     "game": "2020-12-19 Alabama at Florida",
-    "chart": "receivers",
+    "chart": "receiver",
     "team_num": 2,
     "offense": "Florida",
     "play_num": "",
@@ -1364,7 +1364,7 @@
   },
   {
     "game": "2020-12-19 Alabama at Florida",
-    "chart": "receivers",
+    "chart": "receiver",
     "team_num": 2,
     "offense": "Florida",
     "play_num": "",
@@ -1393,7 +1393,7 @@
   },
   {
     "game": "2020-12-19 Alabama at Florida",
-    "chart": "receivers",
+    "chart": "receiver",
     "team_num": 2,
     "offense": "Florida",
     "play_num": "",
@@ -1422,7 +1422,7 @@
   },
   {
     "game": "2020-12-19 Alabama at Florida",
-    "chart": "receivers",
+    "chart": "receiver",
     "team_num": 2,
     "offense": "Florida",
     "play_num": "",
@@ -1451,7 +1451,7 @@
   },
   {
     "game": "2020-12-19 Alabama at Florida",
-    "chart": "receivers",
+    "chart": "receiver",
     "team_num": 2,
     "offense": "Florida",
     "play_num": "",
@@ -1480,7 +1480,7 @@
   },
   {
     "game": "2020-12-19 Alabama at Florida",
-    "chart": "receivers",
+    "chart": "receiver",
     "team_num": 2,
     "offense": "Florida",
     "play_num": "",
