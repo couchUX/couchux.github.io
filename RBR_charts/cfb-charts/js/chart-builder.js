@@ -1,8 +1,9 @@
 // CHART STYLING
 Chart.defaults.plugins.legend.align = 'start';
 Chart.defaults.plugins.legend.labels.borderRadius = "15px";
-Chart.defaults.plugins.legend.labels.boxWidth = 12;
+Chart.defaults.plugins.legend.labels.boxWidth = 8;
 Chart.defaults.plugins.legend.labels.padding = 18;
+Chart.defaults.plugins.legend.labels.usePointStyle = true;
 Chart.defaults.elements.line.tension = 0.25;
 Chart.defaults.elements.line.borderWidth = 1;
 Chart.defaults.elements.point.pointRadius = 4;
@@ -104,10 +105,11 @@ const pointSize = (data) => {
     return pointSize;
 };
 
+
 // TEAM SR LINES CHART
 const teamLines = (json,thisGame,id) => {
     fetch(json).then(response => response.json()).then(data => { 
-        
+
         let game = data.filter(({game}) => game == thisGame);
         let chart = game.filter(({chart}) => chart == 'plays');
         let team = chart.filter(({team_num}) => team_num == 1);
@@ -161,7 +163,15 @@ const teamLines = (json,thisGame,id) => {
                     callbacks: {
                         label: (value) => `${Math.round(value * 100)}%`   // why isn't this working?
                     }
-                } 
+                },
+                plugins: {
+                    legend: {
+                        labels: {
+                            usePointStyle: false,
+                            boxWidth: 12,
+                        }
+                    }
+                }
             }
         });
     })
@@ -174,8 +184,12 @@ const playMap = (json,thisGame,id,teamNum) => {
         let game = data.filter(({game}) => game == thisGame);
         let chart = game.filter(({chart}) => chart == 'plays');
         let team = chart.filter(({team_num}) => team_num == teamNum);
+        let rushes = team.filter(({play_type}) => play_type == 'rush');
+        let passes = team.filter(({play_type}) => play_type == 'pass');
+
         let labels = chart.map(a => a.play_num);
-        let yards = team.map(({play_num, yards}) => ({ x: play_num, y: yards }));
+        let rushYards = rushes.map(({play_num, yards}) => ({ x: play_num, y: yards }));
+        let passYards = passes.map(({play_num, yards}) => ({ x: play_num, y: yards }));
         
         let playsMax = Math.max.apply(Math, chart.map(({play_num}) => play_num));
         let newQuarters = [...new Set(chart.map(a => a.quarter))];
@@ -191,17 +205,28 @@ const playMap = (json,thisGame,id,teamNum) => {
                 labels: labels,
                 datasets: [
                     {
-                        label: 'Yards',
-                        data: yards,
-                        backgroundColor: pointColor,
+                        label: 'Rush Yards',
+                        data: rushYards,
+                        backgroundColor: fillColors(rushes,colors(rushes).explosive,colors(rushes).success),
                         hoverBackgroundColor: pointColor,
                         borderWidth: 0,
-                        borderColor: colors(team).explosive,
-                        pointStyle: pointStyle(team),
-                        pointRadius: pointSize(team),
+                        borderColor: colors(rushes).explosive,
+                        pointStyle: pointStyle(rushes),
+                        pointRadius: pointSize(rushes),
+                        pointRadius: 4,
+                    },
+                    {
+                        label: 'Pass Yards',
+                        data: passYards,
+                        backgroundColor: fillColors(passes,colors(passes).explosive,colors(passes).success),
+                        hoverBackgroundColor: pointColor,
+                        borderWidth: 0,
+                        borderColor: colors(passes).explosive,
+                        pointStyle: pointStyle(passes),
+                        pointRadius: pointSize(passes),
                     },
                     quarterLines(quartersArrayLg),
-                    zeroShade(1,1,playsMax,playsMax,0,yardsMin,yardsMin,0) 
+                    zeroShade('< 0',1,1,playsMax,playsMax,0,yardsMin,yardsMin,0) 
                 ]
             },
             options: {
@@ -219,14 +244,14 @@ const playMap = (json,thisGame,id,teamNum) => {
                     callbacks: {
                         label: (value) => `${Math.round(value * 100)}%`   // why isn't this working?
                     }
-                } 
+                },
             }
         });
     })
 }
 
 // TEAM SR PLAY TYPE LINES
-const playTypeLines = (json,thisGame,id,teamNum) => {
+const typeLines = (json,thisGame,id,teamNum) => {
     fetch(json).then(response => response.json()).then(data => { 
         
         let game = data.filter(({game}) => game == thisGame);
@@ -354,7 +379,7 @@ const rushRate = (json,thisGame,id,teamNum) => {
 }
 
 // TEAM SRXR BAR CHART
-const srXrByTeam = (json,thisGame,id) => {
+const srXrTeams = (json,thisGame,id) => {
     fetch(json).then(response => response.json()).then(data => { 
 
         let game = data.filter(({game}) => game == thisGame);
@@ -399,7 +424,7 @@ const srXrByTeam = (json,thisGame,id) => {
 // STACKED BAR CHART TEMPLATE
 const srXrBars = (json,thisGame,thisCol,id) => {
     fetch(json).then(response => response.json()).then(data => { 
-        
+
         let game = data.filter(({game}) => game == thisGame);
         let chart = game.filter(({chart}) => chart == thisCol);
         let team = chart.filter(({team_num}) => team_num == 1);
@@ -496,4 +521,4 @@ const players = (json,thisGame,thisCol,id,teamNum) => {
             }
         });
     })
-}
+};
