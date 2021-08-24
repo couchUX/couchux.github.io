@@ -20,7 +20,7 @@ const srAvgBarLine = () => ({
     type: 'line',
     data: [ srAvg, srAvg, srAvg, srAvg ],
     barThickness: 6,
-    label: "Leave average",
+    label: "League Average",
     borderColor: '#757575',
     borderWidth: 2,
     borderDash: [3,3],
@@ -108,11 +108,11 @@ const pointSize = (data) => {
 
 // CHART WRAPPER THAT CALLS JSON
 chartData = (json,thisGame,chartType,id,teamNum,column) => {
-    fetch(json).then(response => response.json()).then(data => { chartType(data,thisGame,column,teamNum,id) });
+    fetch(json).then(response => response.json()).then(data => { chartType(data,thisGame,id,teamNum,column) });
 }
 
 // TEAM SR LINES CHART
-const teamLines = (data,thisGame,column,teamNum,id) => { 
+const teamLines = (data,thisGame,id,teamNum,column) => { 
 
     let game = data.filter(({game}) => game == thisGame);
     let chart = game.filter(({chart}) => chart == 'plays');
@@ -181,7 +181,7 @@ const teamLines = (data,thisGame,column,teamNum,id) => {
 };
 
 // PLAY MAP
-const playMap = (data,thisGame,column,teamNum,id) => {
+const playMap = (data,thisGame,id,teamNum,column) => {
         
     let game = data.filter(({game}) => game == thisGame);
     let chart = game.filter(({chart}) => chart == 'plays');
@@ -252,7 +252,7 @@ const playMap = (data,thisGame,column,teamNum,id) => {
 }
 
 // TEAM SR PLAY TYPE LINES
-const typeLines = (data,thisGame,column,teamNum,id) => {
+const typeLines = (data,thisGame,id,teamNum,column) => {
         
     let game = data.filter(({game}) => game == thisGame);
     let chart = game.filter(({chart}) => chart == 'plays');
@@ -322,7 +322,7 @@ const typeLines = (data,thisGame,column,teamNum,id) => {
 }
 
 // RUSH RATE
-const rushRate = (data,thisGame,column,teamNum,id) => {
+const rushRate = (data,thisGame,id,teamNum,column) => {
         
     let game = data.filter(({game}) => game == thisGame);
     let chart = game.filter(({chart}) => chart == 'plays');
@@ -376,7 +376,7 @@ const rushRate = (data,thisGame,column,teamNum,id) => {
 }
 
 // TEAM SRXR BAR CHART
-const srXrTeams = (data,thisGame,column,teamNum,id) => {
+const srXrTeams = (data,thisGame,id,teamNum,column) => {
 
     let game = data.filter(({game}) => game == thisGame);
     let chart = game.filter(({chart}) => chart == 'teams');
@@ -417,7 +417,7 @@ const srXrTeams = (data,thisGame,column,teamNum,id) => {
 }
 
 // STACKED BAR CHART TEMPLATE
-const srXrBars = (data,thisGame,column,teamNum,id) => {
+const srXrBars = (data,thisGame,id,teamNum,column) => {
 
     let game = data.filter(({game}) => game == thisGame);
     let chart = game.filter(({chart}) => chart == column);
@@ -468,7 +468,7 @@ const srXrBars = (data,thisGame,column,teamNum,id) => {
 }
 
 // PLAYER CHARTS
-const players = (data,thisGame,column,teamNum,id) => {
+const players = (data,thisGame,id,teamNum,column) => {
 
     let game = data.filter(({game}) => game == thisGame);
     let chart = game.filter(({chart}) => chart == column);

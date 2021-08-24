@@ -2,6 +2,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.0/chart.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
     <script src="../js/chart-builder.js"></script>
+    <link rel="shortcut icon" type="image/png" href="../nobo-ico.png"/>
 
     <!-- <link rel="stylesheet" href="../css/demo-styles.css"> -->
     <link rel="stylesheet" href="../css/main.css">
@@ -14,54 +15,60 @@
         </div>
         
         <!-- Initial team charts -->
-        <div class="chart"><canvas id="srxr-lines-team" width="400" height="200"></canvas></div>
-        <div class="chart"><canvas id="play-map" width="400" height="200"></canvas></div>
-        <div class="chart"><canvas id="play-map-opp" width="400" height="200"></canvas></div>
-        <div class="chart"><canvas id="sr-lines-play-type" width="400" height="200"></canvas></div>
-        <div class="chart"><canvas id="rush-rate" width="400" height="200"></canvas></div>
-        <div class="chart"><canvas id="sr-lines-play-type-opp" width="400" height="200"></canvas></div>
-        <div class="chart"><canvas id="rush-rate-opp" width="400" height="200"></canvas></div>
+        <div class="chart">SR and XR by Team<canvas id="srxr-lines-team" width="400" height="200"></canvas></div>
+        <div class="chart">Play Map, Team 1<canvas id="play-map" width="400" height="200"></canvas></div>
+        <div class="chart">Play Map, Team 2<canvas id="play-map-opp" width="400" height="200"></canvas></div>
+        <div class="chart">SR by Play Type, Team 1<canvas id="sr-lines" width="400" height="200"></canvas></div>
+        <div class="chart">Rush Rate, Team 1<canvas id="rush-rate" width="400" height="200"></canvas></div>
+        <div class="chart">SR by Play Type, Team 2<canvas id="sr-lines-opp" width="400" height="200"></canvas></div>
+        <div class="chart">Rush Rate, Team 2<canvas id="rush-rate-opp" width="400" height="200"></canvas></div>
 
         <!-- SRXR bar charts -->
-        <div class="chart"><canvas id="srxr-team" width="400" height="200"></canvas></div>
-        <div class="chart"><canvas id="srxr-play-type" width="400" height="200"></canvas></div>
-        <div class="chart"><canvas id="srxr-quarter" width="400" height="200"></canvas></div>
-        <div class="chart"><canvas id="srxr-down" width="400" height="200"></canvas></div>
-        <div class="chart"><canvas id="srxr-red-zone" width="400" height="200"></canvas></div>
+        <div class="chart">SR and XR by Team<canvas id="srxr-team" width="400" height="200"></canvas></div>
+        <div class="chart">SR and XR by Play Type<canvas id="srxr-play-type" width="400" height="200"></canvas></div>
+        <div class="chart">SR and XR by Quarter<canvas id="srxr-quarter" width="400" height="200"></canvas></div>
+        <div class="chart">SR and XR by Down<canvas id="srxr-down" width="400" height="200"></canvas></div>
+        <div class="chart">SR and XR by Red Zone<canvas id="srxr-red-zone" width="400" height="200"></canvas></div>
         
         <!-- Player charts, team -->
-        <div class="chart"><canvas id="rushers" width="400" height="200"></canvas></div>
-        <div class="chart"><canvas id="rushersOpp" width="400" height="200"></canvas></div>
-        <div class="chart"><canvas id="passers" width="400" height="100"></canvas></div>
-        <div class="chart"><canvas id="passersOpp" width="400" height="100"></canvas></div>
-        <div class="chart"><canvas id="receivers" width="400" height="200"></canvas></div>
-        <div class="chart"><canvas id="receiversOpp" width="400" height="200"></canvas></div>
+        <div class="chart">Top Rushers, Team 1<canvas id="rushers" width="400" height="200"></canvas></div>
+        <div class="chart">Top Rushers, Team 1<canvas id="rushersOpp" width="400" height="200"></canvas></div>
+        <div class="chart">Top Passers, Team 1<canvas id="passers" width="400" height="100"></canvas></div>
+        <div class="chart">Top Passers, Team 1<canvas id="passersOpp" width="400" height="100"></canvas></div>
+        <div class="chart">Top Receivers, Team 1<canvas id="receivers" width="400" height="200"></canvas></div>
+        <div class="chart">Top Receivers, Team 1<canvas id="receiversOpp" width="400" height="200"></canvas></div>
 
         <!-- Running the charts -->
         <script>
             let data = '../json/all-games.json';
-            let game = '2020-12-19 Alabama at Florida';
-            
-            chartData(data,game,teamLines,'srxr-lines-team')
-            chartData(data,game,playMap,'play-map',1)
-            chartData(data,game,playMap,'play-map-opp',2)
-            chartData(data,game,typeLines,'sr-lines-play-type',1)
-            chartData(data,game,typeLines,'sr-lines-play-type-opp',2)
-            chartData(data,game,rushRate,'rush-rate',1)
-            chartData(data,game,rushRate,'rush-rate-opp',2)
-            
-            chartData(data,game,srXrTeams,'srxr-team')
-            chartData(data,game,srXrBars,'srxr-play-type','','play_type')
-            chartData(data,game,srXrBars,'srxr-quarter','','quarter')
-            chartData(data,game,srXrBars,'srxr-down','','down')
-            chartData(data,game,srXrBars,'srxr-red-zone','','red_zone')
-            
-            chartData(data,game,players,'rushers',1,'rusher')
-            chartData(data,game,players,'rushersOpp',2,'rusher')
-            chartData(data,game,players,'passers',1,'passer')
-            chartData(data,game,players,'passersOpp',2,'passer')
-            chartData(data,game,players,'receivers',1,'receiver')
-            chartData(data,game,players,'receiversOpp',2,'receiver')
+            let game = '2020-12-12 Alabama at Arkansas';
+
+            fetch(data).then(response => response.json()).then(data => { 
+                
+                // line charts
+                teamLines(data,game,'srxr-lines-team')
+                playMap(data,game,'play-map',1)
+                playMap(data,game,'play-map-opp',2)
+                typeLines(data,game,'sr-lines',1)
+                typeLines(data,game,'sr-lines-opp',2)
+                rushRate(data,game,'rush-rate',1)
+                rushRate(data,game,'rush-rate-opp',2)
+
+                // bar charts
+                srXrTeams(data,game,'srxr-team')
+                srXrBars(data,game,'srxr-play-type','','play_type')
+                srXrBars(data,game,'srxr-quarter','','quarter')
+                srXrBars(data,game,'srxr-down','','down')
+                srXrBars(data,game,'srxr-red-zone','','red_zone')
+
+                // player charts
+                players(data,game,'rushers',1,'rusher')
+                players(data,game,'rushersOpp',2,'rusher')
+                players(data,game,'passers',1,'passer')
+                players(data,game,'passersOpp',2,'passer')
+                players(data,game,'receivers',1,'receiver')
+                players(data,game,'receiversOpp',2,'receiver')
+            });
 
         </script>
     </div>

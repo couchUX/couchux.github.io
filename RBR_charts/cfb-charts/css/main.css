@@ -26,6 +26,12 @@ body {
 .chartOuter, .chart {
   margin-bottom: 24px;
 }
+.chart {
+  font-weight: 500;
+}
+.chart canvas {
+  margin-top: 3px;
+}
 #main #playMapOuter {
   margin-bottom: 20px;
 }
