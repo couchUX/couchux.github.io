@@ -9,6 +9,12 @@ Chart.defaults.elements.line.borderWidth = 1;
 Chart.defaults.elements.point.pointRadius = 4;
 Chart.defaults.elements.point.pointHoverRadius = 8;
 Chart.defaults.elements.point.pointBorderWidth = 1;
+Chart.defaults.set('plugins.datalabels', {
+    color: 'white',
+    backgroundColor: '#26262660',
+    padding: 4,
+    borderRadius: 4,
+  });
 
 // CHART HELPERS
 const percentCallback = (value) => `${Math.round(value * 100)}%`
@@ -477,8 +483,10 @@ const players = (data,thisGame,id,teamNum,column) => {
 
     let explosive = team.map(a => a.explosive);
     let successful = team.map(a => a.successful);
-    let unsCatches = team.map(a => a.uns_catches);
     let unsuccessful = team.map(a => a.uns);
+    
+    let unsCatches = team.map(a => a.uns_catches);
+    // let unsCatches = (column) => { column == 'rusher' ? null : team.map(a => a.uns_catches) }
     
     let bColor = colors(team).explosive;
     let dataset = (d,s,l,color) => ({
@@ -489,19 +497,33 @@ const players = (data,thisGame,id,teamNum,column) => {
         borderColor: bColor,
         backgroundColor: color,
     })
+
+    let datasets = (column) =>
+        column == 'rusher' ? [
+            dataset(explosive,'1','Explosive Plays',colors(team).explosive),
+            dataset(successful,'1','Successful Plays',colors(team).success),
+            dataset(unsuccessful,'1','Unsuccessful Plays',unsColor),
+        ] :
+        column == 'receiver' ? [
+            dataset(explosive,'1','Explosive Plays',colors(team).explosive),
+            dataset(successful,'1','Successful Plays',colors(team).success),
+            dataset(unsCatches,'1','Unsuccessful Catches',colors(team).light),
+        ] :
+        [
+            dataset(explosive,'1','Explosive Plays',colors(team).explosive),
+            dataset(successful,'1','Successful Plays',colors(team).success),
+            dataset(unsCatches,'1','Unsuccessful Catches',colors(team).light),
+            dataset(unsuccessful,'1','Unsuccessful Plays',unsColor),
+        ] 
     
     const ctx = document.getElementById(id).getContext('2d');
     new Chart(ctx, {
         type: 'bar',
         data: {
             labels: labels,
-            datasets: [
-                dataset(explosive,'1','Explosive Plays',colors(team).explosive),
-                dataset(successful,'1','Successful Plays',colors(team).success),
-                dataset(unsCatches,'1','Unsuccessful Catches',colors(team).light),
-                dataset(unsuccessful,'1','Unsuccessful Plays',unsColor),
-            ]
+            datasets: datasets(column)
         },
+        plugins: [ChartDataLabels],
         options: {
             scales: { y: { stacked: true } },
             indexAxis: 'y',
