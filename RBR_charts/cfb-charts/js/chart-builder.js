@@ -19,6 +19,16 @@ Chart.defaults.set('plugins.datalabels', {
 // CHART HELPERS
 const percentCallback = (value) => `${Math.round(value * 100)}%`
 const unsColor = "rgba(255,255,255,0.9)";
+tooltipPercents = (dataset, formattedValue) => ({
+    plugins: {
+        tooltip: {
+            callbacks: {
+                label: ({dataset, formattedValue}) => `${dataset.label}: ${Math.round(formattedValue * 100)}%`,
+            }
+        }   
+    }
+})
+
 
 const srAvg = 0.42;
 const srAvgColor = "#A0A0A0";
@@ -26,7 +36,7 @@ const srAvgBarLine = () => ({
     type: 'line',
     data: [ srAvg, srAvg, srAvg, srAvg ],
     barThickness: 6,
-    label: "League Average",
+    label: "NCAA Avg SR",
     borderColor: '#757575',
     borderWidth: 2,
     borderDash: [3,3],
@@ -102,13 +112,13 @@ const fillColors = (data,xColor,sColor) => {
 
 const pointStyle = (data) => {
     let pointStyle = data.map(({play_type}) => 
-    play_type == "rush" ? 'circle' : 'triangle');
+    play_type == "Rush" ? 'circle' : 'triangle');
     return pointStyle;
 };
 
 const pointSize = (data) => {
     let pointSize = data.map(({play_type}) => 
-    play_type == "rush" ? 4 : 5.5);
+    play_type == "Rush" ? 4 : 5.5);
     return pointSize;
 };
 
@@ -150,10 +160,10 @@ const teamLines = (data,thisGame,id,teamNum,column) => {
         data: {
             labels: labels,
             datasets: [
-                dataset(xr,team[0].offense + 'XR',colors(team).explosive,[1,0]),
-                dataset(sr,team[0].offense + 'SR',colors(team).success,[1,0]),
-                dataset(xrOpp,opponent[0].offense + 'XR',colors(opponent).explosive,[4,4]),
-                dataset(srOpp,opponent[0].offense + 'SR',colors(opponent).success,[4,4]),
+                dataset(xr,team[0].offense + ' XR',colors(team).explosive,[1,0]),
+                dataset(sr,team[0].offense + ' SR',colors(team).success,[1,0]),
+                dataset(xrOpp,opponent[0].offense + ' XR',colors(opponent).explosive,[4,4]),
+                dataset(srOpp,opponent[0].offense + ' SR',colors(opponent).success,[4,4]),
                 quarterLines(quartersArray),
                 zeroShade("League SR Avg",1,1,playsMax,playsMax,0,srAvg,srAvg,0)
             ],
@@ -169,18 +179,14 @@ const teamLines = (data,thisGame,id,teamNum,column) => {
                     display: false,
                 }
             },
-            tooltips: {
-                callbacks: {
-                    label: (value) => `${Math.round(value * 100)}%`   // why isn't this working?
-                }
-            },
             plugins: {
                 legend: {
                     labels: {
                         usePointStyle: false,
                         boxWidth: 12,
                     }
-                }
+                },
+                tooltip: tooltipPercents(),
             }
         }
     });
@@ -192,8 +198,8 @@ const playMap = (data,thisGame,id,teamNum,column) => {
     let game = data.filter(({game}) => game == thisGame);
     let chart = game.filter(({chart}) => chart == 'plays');
     let team = chart.filter(({team_num}) => team_num == teamNum);
-    let rushes = team.filter(({play_type}) => play_type == 'rush');
-    let passes = team.filter(({play_type}) => play_type == 'pass');
+    let rushes = team.filter(({play_type}) => play_type == 'Rush');
+    let passes = team.filter(({play_type}) => play_type == 'Pass');
 
     let labels = chart.map(a => a.play_num);
     let rushYards = rushes.map(({play_num, yards}) => ({ x: play_num, y: yards }));
@@ -264,8 +270,8 @@ const typeLines = (data,thisGame,id,teamNum,column) => {
     let chart = game.filter(({chart}) => chart == 'plays');
     let team = chart.filter(({team_num}) => team_num == teamNum);
     let labels = team.map(a => a.team_play);
-    let rushes = team.filter(({play_type}) => play_type == "rush");
-    let passes = team.filter(({play_type}) => play_type == "pass");
+    let rushes = team.filter(({play_type}) => play_type == "Rush");
+    let passes = team.filter(({play_type}) => play_type == "Pass");
     
     let playsMax = Math.max.apply(Math, team.map(({team_play}) => team_play));
     let newQuarters = [...new Set(team.map(a => a.quarter))];
@@ -318,11 +324,9 @@ const typeLines = (data,thisGame,id,teamNum,column) => {
                     display: false,
                 }
             },
-            tooltips: {
-                callbacks: {
-                    label: (value) => `${Math.round(value * 100)}%`   // why isn't this working?
-                }
-            } 
+            plugins: {
+                tooltip: tooltipPercents()
+            }
         }
     });
 }
@@ -372,11 +376,9 @@ const rushRate = (data,thisGame,id,teamNum,column) => {
                     display: false,
                 }
             },
-            tooltips: {
-                callbacks: {
-                    label: (value) => `${Math.round(value * 100)}%`   // why isn't this working?
-                }
-            } 
+            plugins: {
+                tooltip: tooltipPercents()
+            }
         }
     });
 }
@@ -397,13 +399,13 @@ const srXrTeams = (data,thisGame,id,teamNum,column) => {
             labels: labels,
             datasets: [
                 {
-                    label: 'Success Rate',
+                    label: 'Success Rate (SR)',
                     data: chart,
                     backgroundColor: successColors,
                     parsing: { yAxisKey: 'sr', xAxisKey: 'offense' }
                 },
                 {
-                    label: 'Explosiveness Rate',
+                    label: 'Explosiveness Rate (XR)',
                     data: chart,
                     backgroundColor: explosiveColors,
                     parsing: { yAxisKey: 'xr', xAxisKey: 'offense' }
@@ -418,6 +420,9 @@ const srXrTeams = (data,thisGame,id,teamNum,column) => {
                     ticks: { callback: percentCallback }
                 },
             },
+            plugins: {
+                tooltip: tooltipPercents()
+            }
         }
     });
 }
@@ -451,8 +456,8 @@ const srXrBars = (data,thisGame,id,teamNum,column) => {
             datasets: [
                 dataset(xr,'Team',team[0].offense + ' XR',colors(team).explosive),
                 dataset(sr,'Team',team[0].offense + ' SR',colors(team).success),
-                dataset(xrOpp,'Opponent',team[0].offense + ' XR',colors(opponent).explosive),
-                dataset(srOpp,'Opponent',team[0].offense + ' SR',colors(opponent).success),
+                dataset(xrOpp,'Opponent',opponent[0].offense + ' XR',colors(opponent).explosive),
+                dataset(srOpp,'Opponent',opponent[0].offense + ' SR',colors(opponent).success),
                 srAvgBarLine(),
             ]
         },
@@ -464,11 +469,13 @@ const srXrBars = (data,thisGame,id,teamNum,column) => {
                     ticks: { callback: percentCallback }
                 }
             },
-            tooltips: {
-                callbacks: {
-                    label: (value) => `${Math.round(value * 100)}%`   // why isn't this working?
+            plugins: {
+                tooltip: {
+                    callbacks: {
+                        label: ({dataset, formattedValue}) => `${dataset.label}: ${Math.round(formattedValue * 100)}%`,
+                    }
                 }
-            } 
+            },
         }
     });
 }
@@ -483,10 +490,8 @@ const players = (data,thisGame,id,teamNum,column) => {
 
     let explosive = team.map(a => a.explosive);
     let successful = team.map(a => a.successful);
-    let unsuccessful = team.map(a => a.uns);
-    
+    let unsuccessful = team.map(a => a.uns);   
     let unsCatches = team.map(a => a.uns_catches);
-    // let unsCatches = (column) => { column == 'rusher' ? null : team.map(a => a.uns_catches) }
     
     let bColor = colors(team).explosive;
     let dataset = (d,s,l,color) => ({
@@ -524,14 +529,12 @@ const players = (data,thisGame,id,teamNum,column) => {
             datasets: datasets(column)
         },
         plugins: [ChartDataLabels],
+            datalabels: {
+                display: (context) => { return context.dataset.data[context.dataIndex] > 1 }  // this isn't working either
+            },
         options: {
             scales: { y: { stacked: true } },
             indexAxis: 'y',
-            tooltips: {
-                callbacks: {
-                    label: (value) => `${Math.round(value * 100)}%`   // why isn't this working?
-                }
-            } 
         }
     });
 };
