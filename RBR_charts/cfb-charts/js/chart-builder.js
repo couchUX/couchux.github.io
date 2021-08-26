@@ -1,4 +1,5 @@
 // CHART STYLING
+Chart.defaults.maintainAspectRatio = false;
 Chart.defaults.plugins.legend.align = 'start';
 Chart.defaults.plugins.legend.labels.borderRadius = "15px";
 Chart.defaults.plugins.legend.labels.boxWidth = 8;
@@ -19,13 +20,9 @@ Chart.defaults.set('plugins.datalabels', {
 // CHART HELPERS
 const percentCallback = (value) => `${Math.round(value * 100)}%`
 const unsColor = "rgba(255,255,255,0.9)";
-tooltipPercents = (dataset, formattedValue) => ({
-    plugins: {
-        tooltip: {
-            callbacks: {
-                label: ({dataset, formattedValue}) => `${dataset.label}: ${Math.round(formattedValue * 100)}%`,
-            }
-        }   
+tooltipPercents = (dataset, formattedValue) => ({ 
+    callbacks: {
+        label: ({dataset, formattedValue}) => `${dataset.label}: ${Math.round(formattedValue * 100)}%` 
     }
 })
 
@@ -84,7 +81,7 @@ let zeroShade = (labl,x1,x2,x3,x4,y1,y2,y3,y4) => ({
     tension: 0,
     fill: true,
     pointRadius: 0,
-    backgroundColor: 'rgba(0,0,0,0.05)',
+    backgroundColor: 'rgba(0,0,0,0.03)',
     pointStyle: 'rect',
 });
 
@@ -254,11 +251,14 @@ const playMap = (data,thisGame,id,teamNum,column) => {
                     display: false,
                 }
             },
-            tooltips: {
-                callbacks: {
-                    label: (value) => `${Math.round(value * 100)}%`   // why isn't this working?
-                }
-            },
+            plugins: {
+                tooltip: {
+                    callbacks: {
+                        title: (tooltipItems) => tooltipItems[0].dataIndex
+                        // label: ({dataset, formattedValue}) => `${dataset.dataIndex}: ${Math.round(formattedValue * 100)}%`,
+                    }
+                },
+            }
         }
     });
 }
@@ -470,11 +470,7 @@ const srXrBars = (data,thisGame,id,teamNum,column) => {
                 }
             },
             plugins: {
-                tooltip: {
-                    callbacks: {
-                        label: ({dataset, formattedValue}) => `${dataset.label}: ${Math.round(formattedValue * 100)}%`,
-                    }
-                }
+                tooltip: tooltipPercents(),
             },
         }
     });

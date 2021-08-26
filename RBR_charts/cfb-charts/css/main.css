@@ -28,6 +28,7 @@ body {
 }
 .chart {
   font-weight: 500;
+  height: 300px;
 }
 .chart canvas {
   margin-top: 3px;
