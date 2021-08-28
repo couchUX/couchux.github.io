@@ -9,6 +9,10 @@ html {
 body { 
   font-family: "Roboto", sans-serif;
 }
+
+h3 { 
+  margin-top: 0;
+}
 .hide {
   visibility: hidden;
   opacity: 0;
@@ -21,15 +25,11 @@ body {
   overflow: auto;
 }
 #main .chartOuter, #main .buttonOuter, #main .chart {
-  margin-bottom: 80px;
-}
-.chartOuter, .chart {
-  margin-bottom: 24px;
+  margin-bottom: 60px;
 }
 .chart {
   font-weight: 500;
   height: 300px;
-  margin-bottom: 12px;
 }
 .chart #passers, .chart #passersOpp {
   height: 150px;

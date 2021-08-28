@@ -3,7 +3,6 @@ Chart.defaults.maintainAspectRatio = false;
 Chart.defaults.plugins.legend.align = 'start';
 Chart.defaults.plugins.legend.labels.borderRadius = "15px";
 Chart.defaults.plugins.legend.labels.boxWidth = 8;
-Chart.defaults.plugins.legend.labels.padding = 18;
 Chart.defaults.plugins.legend.labels.usePointStyle = true;
 Chart.defaults.elements.line.tension = 0.25;
 Chart.defaults.elements.line.borderWidth = 1;
@@ -21,9 +20,7 @@ Chart.defaults.set('plugins.datalabels', {
 const percentCallback = (value) => `${Math.round(value * 100)}%`
 const unsColor = "rgba(255,255,255,0.9)";
 tooltipPercents = (dataset, formattedValue) => ({ 
-    callbacks: {
-        label: ({dataset, formattedValue}) => `${dataset.label}: ${Math.round(formattedValue * 100)}%` 
-    }
+    callbacks: { label: ({dataset, formattedValue}) => `${dataset.label}: ${Math.round(formattedValue * 100)}%` }
 })
 
 
