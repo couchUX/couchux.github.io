@@ -29,9 +29,10 @@ body {
 .chart {
   font-weight: 500;
   height: 300px;
+  margin-bottom: 12px;
 }
-.chart canvas {
-  margin-top: 3px;
+.chart #passers, .chart #passersOpp {
+  height: 150px;
 }
 #main #playMapOuter {
   margin-bottom: 20px;
@@ -100,6 +101,15 @@ button.switchBtn:active {
   color: inherit;
   background: #D8D8D8;
   border-color: #B9B9B9;
+}
+
+/* restyle stuff in RBR articles  */
+div hr.p-entry-hr {
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.c-entry-content h3 {
+  margin-top: 32px;
 }
 
 /*
