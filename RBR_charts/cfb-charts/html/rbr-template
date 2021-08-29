@@ -44,6 +44,12 @@ players(data,game,'receiversOpp',2,'receiver')
 <div class="chart"><canvas id="srxr-lines-team" width="400" height="250"></canvas></div>
 <div class="chart"><canvas id="srxr-team" width="400" height="250"></canvas></div>
 
+<!-- Play Maps -->
+<input type="checkbox" id="mapSwitch" />
+<div class="chart teamOne"><canvas id="play-map" width="400" height="250"></canvas></div>
+<div class="chart teamTwo"><canvas id="play-map-opp" width="400" height="250"></canvas></div>
+<label id="mapSwitchLabel" class="switchBtn" for="mapSwitch">Switch Team</label>
+
 <!-- SR over time -->
 <input type="checkbox" id="srSwitch" />
 <div class="chart teamOne"><canvas id="sr-lines" width="400" height="250"></canvas></div>
@@ -55,12 +61,6 @@ players(data,game,'receiversOpp',2,'receiver')
 <div class="chart teamOne"><canvas id="rush-rate" width="400" height="250"></canvas></div>
 <div class="chart teamTwo"><canvas id="rush-rate-opp" width="400" height="250"></canvas></div>
 <label id="rrSwitchLabel" class="switchBtn" for="rrSwitch">Switch Team</label>
-
-<!-- Play Maps -->
-<input type="checkbox" id="mapSwitch" />
-<div class="chart teamOne"><canvas id="play-map" width="400" height="250"></canvas></div>
-<div class="chart teamTwo"><canvas id="play-map-opp" width="400" height="250"></canvas></div>
-<label id="mapSwitchLabel" class="switchBtn" for="mapSwitch">Switch Team</label>
 
 <!-- SRXR bar charts -->
 <div class="chart"><canvas id="srxr-play-type" width="400" height="250"></canvas></div>

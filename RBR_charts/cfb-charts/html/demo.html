@@ -22,7 +22,7 @@
             <input type="checkbox" id="srSwitch" />
             <div class="chart teamOne"><canvas id="sr-lines" width="400" height="250"></canvas></div>
             <div class="chart teamTwo"><canvas id="sr-lines-opp" width="400" height="250"></canvas></div>
-            <label id="srSwitchLabel" class="switchBtn" for="srSwitch">Switch Team</label>
+            <label class="switchLabel switchBtn" for="srSwitch">Switch Team</label>
         </section>
 
         <!-- Rush Rate over time -->
@@ -31,7 +31,7 @@
             <input type="checkbox" id="rrSwitch" />
             <div class="chart teamOne"><canvas id="rush-rate" width="400" height="250"></canvas></div>
             <div class="chart teamTwo"><canvas id="rush-rate-opp" width="400" height="250"></canvas></div>
-            <label id="rrSwitchLabel" class="switchBtn" for="rrSwitch">Switch Team</label>
+            <label class="switchLabel switchBtn" for="rrSwitch">Switch Team</label>
         </section>  
 
         <!-- Play Maps -->
@@ -40,9 +40,22 @@
             <input type="checkbox" id="mapSwitch" />
             <div class="chart teamOne"><canvas id="play-map" width="400" height="250"></canvas></div>
             <div class="chart teamTwo"><canvas id="play-map-opp" width="400" height="250"></canvas></div>
-            <label id="mapSwitchLabel" class="switchBtn" for="mapSwitch">Switch Team</label>
+            <label class="switchLabel switchBtn" for="mapSwitch">Switch Team</label>
         </section>
-
+        
+        <!-- Play Map FOR ANOTHER TEAM -->
+        <section>
+            <h3>Play Maps</h3>
+            <input type="checkbox" id="otherSwitch" />
+            <div class="chart teamOne"><canvas id="play-map-ucla" width="400" height="250"></canvas></div>
+            <div class="chart teamTwo"><canvas id="play-map-opp-ucla" width="400" height="250"></canvas></div>
+            <label class="switchLabel switchBtn" for="otherSwitch">Switch Team</label>
+            <script>
+                chartData('../json/all-games.json','2021-08-28 Hawaii at UCLA',playMap,'play-map-ucla',1)
+                chartData('../json/all-games.json','2021-08-28 Hawaii at UCLA',playMap,'play-map-opp-ucla',2)
+            </script>
+        </section>
+        
         <!-- SRXR bar charts -->
         <h3>SR and XR by Play Type</h3><div class="chart"><canvas id="srxr-play-type" width="400" height="250"></canvas></div>
         <h3>SR and XR by Quarter</h3><div class="chart"><canvas id="srxr-quarter" width="400" height="250"></canvas></div>
@@ -61,6 +74,8 @@
         <script>
             let data = '../json/all-games.json';
             let game = '2020-12-19 Alabama at Florida';
+
+            
 
             fetch(data).then(response => response.json()).then(data => { 
                 
