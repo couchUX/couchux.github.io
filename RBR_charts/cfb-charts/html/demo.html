@@ -11,30 +11,42 @@
         <div class="headline">
             <h2>2021 version charts</h2>
         </div>
+
+        <!-- Team overview -->
+        <h3>SR and XR by Team</h3><div class="chart"><canvas id="srxr-lines-team" width="400" height="250"></canvas></div>
+        <h3>SR and XR by Team</h3><div class="chart"><canvas id="srxr-team" width="400" height="250"></canvas></div>
         
-        <!-- Initial team charts -->
-        <h3>SR and XR by Team</h3><div class="chart"><canvas id="srxr-lines-team" width="400" height="180"></canvas></div>
-        <h3>Play Map, Team 1</h3><div class="chart"><canvas id="play-map" width="400" height="180"></canvas></div>
-        <h3>Play Map, Team 2</h3><div class="chart"><canvas id="play-map-opp" width="400" height="180"></canvas></div>
-        <h3>SR by Play Type, Team 1</h3><div class="chart"><canvas id="sr-lines" width="400" height="180"></canvas></div>
-        <h3>Rush Rate, Team 1</h3><div class="chart"><canvas id="rush-rate" width="400" height="180"></canvas></div>
-        <h3>SR by Play Type, Team 2</h3><div class="chart"><canvas id="sr-lines-opp" width="400" height="180"></canvas></div>
-        <h3>Rush Rate, Team 2</h3><div class="chart"><canvas id="rush-rate-opp" width="400" height="180"></canvas></div>
+        <!-- SR and Rush Rate, over time -->
+        <h3>SR by Play Type</h3>
+        <input type="checkbox" id="mapSwitch" /><label id="mapSwitchLabel" style="display: none" class="switchBtn" for="mapSwitch">Switch Team</label>
+        <div class="chart teamOne"><canvas id="sr-lines" width="400" height="250"></canvas></div>
+        <div class="chart teamTwo"><canvas id="sr-lines-opp" width="400" height="250"></canvas></div>
+        <input type="checkbox" id="mapSwitch" /><label id="mapSwitchLabel" class="switchBtn" for="mapSwitch">Switch Team</label>
+        
+        <h3>Rush Rate</h3>
+        <div class="chart teamOne"><canvas id="rush-rate" width="400" height="250"></canvas></div>
+        <div class="chart teamTwo"><canvas id="rush-rate-opp" width="400" height="250"></canvas></div>
+        <input type="checkbox" id="mapSwitch" /><label id="mapSwitchLabel" class="switchBtn" for="mapSwitch">Switch Team</label>
+
+        <!-- Play Maps -->
+        <h3>Play Maps</h3>
+        <div class="chart teamOne"><canvas id="play-map" width="400" height="250"></canvas></div>
+        <div class="chart teamTwo"><canvas id="play-map-opp" width="400" height="250"></canvas></div>
+        <input type="checkbox" id="mapSwitch" /><label id="mapSwitchLabel" class="switchBtn" for="mapSwitch">Switch Team</label>
 
         <!-- SRXR bar charts -->
-        <h3>SR and XR by Team</h3><div class="chart"><canvas id="srxr-team" width="400" height="180"></canvas></div>
-        <h3>SR and XR by Play Type</h3><div class="chart"><canvas id="srxr-play-type" width="400" height="180"></canvas></div>
-        <h3>SR and XR by Quarter</h3><div class="chart"><canvas id="srxr-quarter" width="400" height="180"></canvas></div>
-        <h3>SR and XR by Down</h3><div class="chart"><canvas id="srxr-down" width="400" height="180"></canvas></div>
-        <h3>SR and XR by Red Zone</h3><div class="chart"><canvas id="srxr-red-zone" width="400" height="180"></canvas></div>
+        <h3>SR and XR by Play Type</h3><div class="chart"><canvas id="srxr-play-type" width="400" height="250"></canvas></div>
+        <h3>SR and XR by Quarter</h3><div class="chart"><canvas id="srxr-quarter" width="400" height="250"></canvas></div>
+        <h3>SR and XR by Down</h3><div class="chart"><canvas id="srxr-down" width="400" height="250"></canvas></div>
+        <h3>SR and XR by Red Zone</h3><div class="chart"><canvas id="srxr-red-zone" width="400" height="250"></canvas></div>
         
         <!-- Player charts, team -->
         <h3>Top Rushers, Team 1</h3><div class="chart"><canvas id="rushers" width="400" height="150"></canvas></div>
         <h3>Top Rushers, Team 2</h3><div class="chart"><canvas id="rushersOpp" width="400" height="150"></canvas></div>
-        <h3>Top Passers, Team 1</h3><div class="chart"><canvas id="passers" width="400" height="90"></canvas></div>
-        <h3>Top Passers, Team 2</h3><div class="chart"><canvas id="passersOpp" width="400" height="90"></canvas></div>
-        <h3>Top Receivers, Team 1</h3><div class="chart"><canvas id="receivers" width="400" height="180"></canvas></div>
-        <h3>Top Receivers, Team 2</h3><div class="chart"><canvas id="receiversOpp" width="400" height="180"></canvas></div>
+        <h3>Top Passers, Team 1</h3><div class="chart short"><canvas id="passers" width="400" height="100"></canvas></div>
+        <h3>Top Passers, Team 2</h3><div class="chart short"><canvas id="passersOpp" width="400" height="100"></canvas></div>
+        <h3>Top Receivers, Team 1</h3><div class="chart"><canvas id="receivers" width="400" height="250"></canvas></div>
+        <h3>Top Receivers, Team 2</h3><div class="chart"><canvas id="receiversOpp" width="400" height="250"></canvas></div>
 
         <!-- Running the charts -->
         <script>
@@ -45,12 +57,14 @@
                 
                 // line charts
                 teamLines(data,game,'srxr-lines-team')
-                playMap(data,game,'play-map',1)
-                playMap(data,game,'play-map-opp',2)
                 typeLines(data,game,'sr-lines',1)
                 typeLines(data,game,'sr-lines-opp',2)
                 rushRate(data,game,'rush-rate',1)
                 rushRate(data,game,'rush-rate-opp',2)
+                
+                // play maps
+                playMap(data,game,'play-map',1)
+                playMap(data,game,'play-map-opp',2)
 
                 // bar charts
                 srXrTeams(data,game,'srxr-team')

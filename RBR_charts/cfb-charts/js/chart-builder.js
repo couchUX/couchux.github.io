@@ -1,8 +1,10 @@
 // CHART STYLING
-Chart.defaults.maintainAspectRatio = false;
 Chart.defaults.plugins.legend.align = 'start';
+// Chart.defaults.plugins.legend.position = 'bottom';
+Chart.defaults.maintainAspectRatio = false;
 Chart.defaults.plugins.legend.labels.borderRadius = "15px";
 Chart.defaults.plugins.legend.labels.boxWidth = 8;
+Chart.defaults.plugins.legend.labels.padding = 12;
 Chart.defaults.plugins.legend.labels.usePointStyle = true;
 Chart.defaults.elements.line.tension = 0.25;
 Chart.defaults.elements.line.borderWidth = 1;
@@ -22,7 +24,6 @@ const unsColor = "rgba(255,255,255,0.9)";
 tooltipPercents = (dataset, formattedValue) => ({ 
     callbacks: { label: ({dataset, formattedValue}) => `${dataset.label}: ${Math.round(formattedValue * 100)}%` }
 })
-
 
 const srAvg = 0.42;
 const srAvgColor = "#A0A0A0";
@@ -213,7 +214,7 @@ const playMap = (data,thisGame,id,teamNum,column) => {
             labels: labels,
             datasets: [
                 {
-                    label: 'Rush Yards',
+                    label: team[0].offense + ' Rush Yards',
                     data: rushYards,
                     backgroundColor: fillColors(rushes,colors(rushes).explosive,colors(rushes).success),
                     hoverBackgroundColor: pointColor,
@@ -224,7 +225,7 @@ const playMap = (data,thisGame,id,teamNum,column) => {
                     pointRadius: 4,
                 },
                 {
-                    label: 'Pass Yards',
+                    label: team[0].offense + ' Pass Yards',
                     data: passYards,
                     backgroundColor: fillColors(passes,colors(passes).explosive,colors(passes).success),
                     hoverBackgroundColor: pointColor,
