@@ -115,31 +115,39 @@ div hr.p-entry-hr {
 
 /* Testing a ccs switcher */
 
-#mapSwitch {
+#srSwitch, #rrSwitch, #mapSwitch {
   display: none;
 }
-#mapSwitchLabel {
+#srSwitchLabel, #rrSwitchLabel, #mapSwitchLabel {
   display: block;
   box-sizing: border-box;
   margin: 12px 0;
   text-align: center;
 }
 
+#srSwitch:not(:checked) ~ .teamOne,
+#rrSwitch:not(:checked) ~ .teamOne,
 #mapSwitch:not(:checked) ~ .teamOne {
   visibility: visible;
   opacity: 1;
   position: inherit;
 }
+#srSwitch:not(:checked) ~ .teamTwo,
+#rrSwitch:not(:checked) ~ .teamTwo,
 #mapSwitch:not(:checked) ~ .teamTwo {
   visibility: hidden;
   opacity: 0;
   position: absolute;
 }
+#srSwitch:checked ~ .teamOne,
+#rrSwitch:checked ~ .teamOne,
 #mapSwitch:checked ~ .teamOne {
   visibility: hidden;
   opacity: 0;
   position: absolute;
 }
+#srSwitch:checked ~ .teamTwo,
+#rrSwitch:checked ~ .teamTwo,
 #mapSwitch:checked ~ .teamTwo {
   visibility: visible;
   opacity: 1;

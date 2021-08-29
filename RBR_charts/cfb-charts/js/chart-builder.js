@@ -1,6 +1,6 @@
 // CHART STYLING
-Chart.defaults.plugins.legend.align = 'start';
-// Chart.defaults.plugins.legend.position = 'bottom';
+// Chart.defaults.plugins.legend.align = 'start';
+Chart.defaults.plugins.legend.position = 'bottom';
 Chart.defaults.maintainAspectRatio = false;
 Chart.defaults.plugins.legend.labels.borderRadius = "15px";
 Chart.defaults.plugins.legend.labels.boxWidth = 8;
