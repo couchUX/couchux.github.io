@@ -60,6 +60,7 @@
         <h3>SR and XR by Play Type</h3><div class="chart"><canvas id="srxr-play-type" width="400" height="250"></canvas></div>
         <h3>SR and XR by Quarter</h3><div class="chart"><canvas id="srxr-quarter" width="400" height="250"></canvas></div>
         <h3>SR and XR by Down</h3><div class="chart"><canvas id="srxr-down" width="400" height="250"></canvas></div>
+        <h3>SR and XR by Down, UCLA vs. Hawaii</h3><div class="chart"><canvas id="srxr-down-ucla" width="400" height="250"></canvas></div>
         <h3>SR and XR by Red Zone</h3><div class="chart"><canvas id="srxr-red-zone" width="400" height="250"></canvas></div>
         
         <!-- Player charts, team -->
@@ -95,6 +96,7 @@
                 srXrBars(data,game,'srxr-play-type','','play_type')
                 srXrBars(data,game,'srxr-quarter','','quarter')
                 srXrBars(data,game,'srxr-down','','down')
+                srXrBars(data,'2021-08-28 Hawaii at UCLA','srxr-down-ucla','','down')
                 srXrBars(data,game,'srxr-red-zone','','red_zone')
 
                 // player charts
