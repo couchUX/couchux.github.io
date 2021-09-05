@@ -31,6 +31,7 @@ body {
 .chart {
   font-weight: 500;
   height: 320px;
+  margin-bottom: 12px;
 }
 .chart.short {
   height: 150px;
