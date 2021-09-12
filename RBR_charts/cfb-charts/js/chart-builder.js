@@ -20,6 +20,7 @@ Chart.defaults.set('plugins.datalabels', {
 // CHART HELPERS
 const percentCallback = (value) => `${Math.round(value * 100)}%`
 const unsColor = "rgba(255,255,255,0.9)";
+const intColor = "rgba(0,0,0,0.45)";
 tooltipPercents = (dataset, formattedValue) => ({ 
     callbacks: { label: ({dataset, formattedValue}) => `${dataset.label}: ${Math.round(formattedValue * 100)}%` }
 })
@@ -485,6 +486,7 @@ const players = (data,thisGame,id,teamNum,column) => {
     let successful = team.map(a => a.successful);
     let unsuccessful = team.map(a => a.uns);   
     let unsCatches = team.map(a => a.uns_catches);
+    let interceptions = team.map(a => a.int);
     
     let bColor = colors(team).explosive;
     let dataset = (d,s,l,color) => ({
@@ -512,6 +514,7 @@ const players = (data,thisGame,id,teamNum,column) => {
             dataset(successful,'1','Successful Plays',colors(team).success),
             dataset(unsCatches,'1','Unsuccessful Catches',colors(team).light),
             dataset(unsuccessful,'1','Unsuccessful Plays',unsColor),
+            dataset(interceptions,'1','Interceptions',intColor),
         ] 
     
     const ctx = document.getElementById(id).getContext('2d');
