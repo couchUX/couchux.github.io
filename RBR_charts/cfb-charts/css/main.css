@@ -31,6 +31,7 @@ body {
 .chart {
   font-weight: 500;
   height: 320px;
+  margin-bottom: 12px;
 }
 .chart.short {
   height: 150px;
@@ -110,7 +111,7 @@ div hr.p-entry-hr {
 }
 
 .c-entry-content h3 {
-  margin-top: 32px;
+  margin-top: 36px;
 }
 
 /* Testing a ccs switcher */
