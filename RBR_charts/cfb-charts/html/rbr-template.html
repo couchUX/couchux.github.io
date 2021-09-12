@@ -7,7 +7,7 @@
 <!-- Running the charts -->
 <script>
 let data = 'https://couchux.github.io/RBR_charts/cfb-charts/json/all-games.json';
-let game = '2020-12-19 Alabama at Florida';
+let game = '2021-09-04 Alabama at Miami';
 
 fetch(data).then(response => response.json()).then(data => { 
         
@@ -26,6 +26,7 @@ srXrBars(data,game,'srxr-play-type','','play_type')
 srXrBars(data,game,'srxr-quarter','','quarter')
 srXrBars(data,game,'srxr-down','','down')
 srXrBars(data,game,'srxr-red-zone','','red_zone')
+srXrBars(data,game,'srxr-distance','','distance')
 
 // player charts
 players(data,game,'rushers',1,'rusher')
@@ -67,6 +68,7 @@ players(data,game,'receiversOpp',2,'receiver')
 <div class="chart"><canvas id="srxr-quarter" width="400" height="250"></canvas></div>
 <div class="chart"><canvas id="srxr-down" width="400" height="250"></canvas></div>
 <div class="chart"><canvas id="srxr-red-zone" width="400" height="250"></canvas></div>
+<div class="chart"><canvas id="srxr-distance" width="400" height="250"></canvas></div>
 
 <!-- Player charts, team -->
 <div class="chart"><canvas id="rushers" width="400" height="150"></canvas></div>
