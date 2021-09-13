@@ -87,7 +87,7 @@ let zeroShade = (labl,x1,x2,x3,x4,y1,y2,y3,y4) => ({
 const colors = (data) => {
     let s = data[0].hex;
     let x = data[0].hex_dark;
-    let bg = s.slice(0,-2) + "25";
+    let bg = s.slice(0,-2) + "28";
     let colors = {
         success: s,
         explosive: x,
@@ -361,6 +361,7 @@ const rushRate = (data,thisGame,id,teamNum,column) => {
                     fill: true
                 },
                 quarterLines(quartersArray),
+                zeroShade("50/50",0,0,playsMax,playsMax,0,0.5,0.5,0)
             ],
         },
         options: {
