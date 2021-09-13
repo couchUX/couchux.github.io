@@ -501,20 +501,20 @@ const players = (data,thisGame,id,teamNum,column) => {
 
     let datasets = (column) =>
         column == 'rusher' ? [
-            dataset(explosive,'1','Explosive Plays',colors(team).explosive),
-            dataset(successful,'1','Successful Plays',colors(team).success),
-            dataset(unsuccessful,'1','Unsuccessful Plays',unsColor),
+            dataset(explosive,'1','Explosive Rushes',colors(team).explosive),
+            dataset(successful,'1','Successful Rushes',colors(team).success),
+            dataset(unsuccessful,'1','Unsuccessful Rushes',unsColor),
         ] :
         column == 'receiver' ? [
-            dataset(explosive,'1','Explosive Plays',colors(team).explosive),
-            dataset(successful,'1','Successful Plays',colors(team).success),
-            dataset(unsCatches,'1','Unsuccessful Catches',colors(team).light),
+            dataset(explosive,'1','Explosive Catches',colors(team).explosive),
+            dataset(successful,'1','Successful Catches',colors(team).success),
+            dataset(unsCatches,'1','Other Catches',colors(team).light),
         ] :
         [
-            dataset(explosive,'1','Explosive Plays',colors(team).explosive),
-            dataset(successful,'1','Successful Plays',colors(team).success),
-            dataset(unsCatches,'1','Unsuccessful Catches',colors(team).light),
-            dataset(unsuccessful,'1','Unsuccessful Plays',unsColor),
+            dataset(explosive,'1','Explosive',colors(team).explosive),
+            dataset(successful,'1','Successful',colors(team).success),
+            dataset(unsCatches,'1','Other Catches',colors(team).light),
+            dataset(unsuccessful,'1','Incompletes',unsColor),
             dataset(interceptions,'1','Interceptions',intColor),
         ] 
     
@@ -527,7 +527,7 @@ const players = (data,thisGame,id,teamNum,column) => {
         },
         plugins: [ChartDataLabels],
             datalabels: {
-                display: (context) => { return context.dataset.data[context.dataIndex] > 1 }  // this isn't working either
+                display: (context) => { return context.dataset.data[context.dataIndex] > 0 }  // this isn't working either
             },
         options: {
             scales: { y: { stacked: true } },
