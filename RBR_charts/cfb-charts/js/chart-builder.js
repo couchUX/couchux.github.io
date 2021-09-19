@@ -188,7 +188,7 @@ const teamLines = (data,thisGame,id,teamNum,column) => {
 };
 
 // PLAY MAP
-const playMap = (data,thisGame,id,teamNum,column) => {
+const playMap = (data,thisGame,id,teamNum) => {
         
     let game = data.filter(({game}) => game == thisGame);
     let chart = game.filter(({chart}) => chart == 'plays');
@@ -204,8 +204,8 @@ const playMap = (data,thisGame,id,teamNum,column) => {
     let newQuarters = [...new Set(chart.map(a => a.quarter))];
     quarterMarker(newQuarters,chart,playsMax,"play_num");
     let pointColor = fillColors(team,colors(team).explosive,colors(team).success);
-    let yardsMax = Math.max.apply(Math, chart.map(({yards}) => yards));
     let yardsMin = Math.min.apply(Math, chart.map(({yards}) => yards));
+    let yardsMax = Math.max.apply(Math, chart.map(({yards}) => yards));
 
     const ctx = document.getElementById(id).getContext('2d');
     new Chart(ctx, {
@@ -241,7 +241,7 @@ const playMap = (data,thisGame,id,teamNum,column) => {
         options: {
             scales: {
                 y: {
-                    max: yardsMax,                        
+                    max: yardsMax,                    
                     suggestedMin: yardsMin,
                     min: -15,
                 },
