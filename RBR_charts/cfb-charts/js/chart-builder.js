@@ -476,7 +476,7 @@ const srXrBars = (data,thisGame,id,teamNum,column) => {
 }
 
 // PLAYER CHARTS
-const players = (data,thisGame,id,teamNum,column) => {
+const players = (data,thisGame,id,teamNum,column,max) => {
 
     let game = data.filter(({game}) => game == thisGame);
     let chart = game.filter(({chart}) => chart == column);
@@ -490,9 +490,9 @@ const players = (data,thisGame,id,teamNum,column) => {
     let interceptions = team.map(a => a.int);
     
     let bColor = colors(team).explosive;
-    let dataset = (d,s,l,color) => ({
+    let dataset = (d,l,color) => ({
         data: d,
-        stack: s,
+        stack: 1,
         label: l,
         borderWidth: 0.8,
         borderColor: bColor,
@@ -501,21 +501,21 @@ const players = (data,thisGame,id,teamNum,column) => {
 
     let datasets = (column) =>
         column == 'rusher' ? [
-            dataset(explosive,'1','Explosive Rushes',colors(team).explosive),
-            dataset(successful,'1','Successful Rushes',colors(team).success),
-            dataset(unsuccessful,'1','Unsuccessful Rushes',unsColor),
+            dataset(explosive,'Explosive Rushes',colors(team).explosive),
+            dataset(successful,'Successful Rushes',colors(team).success),
+            dataset(unsuccessful,'Unsuccessful Rushes',unsColor),
         ] :
         column == 'receiver' ? [
-            dataset(explosive,'1','Explosive Catches',colors(team).explosive),
-            dataset(successful,'1','Successful Catches',colors(team).success),
-            dataset(unsCatches,'1','Other Catches',colors(team).light),
+            dataset(explosive,'Explosive Catches',colors(team).explosive),
+            dataset(successful,'Successful Catches',colors(team).success),
+            dataset(unsCatches,'Other Catches',colors(team).light),
         ] :
         [
-            dataset(explosive,'1','Explosive',colors(team).explosive),
-            dataset(successful,'1','Successful',colors(team).success),
-            dataset(unsCatches,'1','Other Catches',colors(team).light),
-            dataset(unsuccessful,'1','Incompletes',unsColor),
-            dataset(interceptions,'1','Interceptions',intColor),
+            dataset(explosive,'Explosive',colors(team).explosive),
+            dataset(successful,'Successful',colors(team).success),
+            dataset(unsCatches,'Other Catches',colors(team).light),
+            dataset(unsuccessful,'Incompletes',unsColor),
+            dataset(interceptions,'Interceptions',intColor),
         ] 
     
     const ctx = document.getElementById(id).getContext('2d');
@@ -530,7 +530,10 @@ const players = (data,thisGame,id,teamNum,column) => {
                 display: (context) => { return context.dataset.data[context.dataIndex] > 0 }  // this isn't working either
             },
         options: {
-            scales: { y: { stacked: true } },
+            scales: { 
+                y: { stacked: true }, 
+                x: { suggestedMax: max } 
+            },
             indexAxis: 'y',
         }
     });
