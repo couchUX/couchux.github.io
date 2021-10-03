@@ -15,6 +15,8 @@ fetch(data).then(response => response.json()).then(data => {
 teamLines(data,game,'srxr-lines-team')
 playMap(data,game,'play-map',1)
 playMap(data,game,'play-map-opp',2)
+extraMap(data,game,'extra-map',1,25)
+extraMap(data,game,'extra-map-opp',2,25)
 typeLines(data,game,'sr-lines',1)
 typeLines(data,game,'sr-lines-opp',2)
 rushRate(data,game,'rush-rate',1)
@@ -49,19 +51,24 @@ players(data,game,'receiversOpp',2,'receiver')
 <input type="checkbox" id="mapSwitch" />
 <div class="chart teamOne"><canvas id="play-map" width="400" height="250"></canvas></div>
 <div class="chart teamTwo"><canvas id="play-map-opp" width="400" height="250"></canvas></div>
-<label id="mapSwitchLabel" class="switchBtn switchLabel" for="mapSwitch">Switch Team</label>
+<label class="switchBtn switchLabel" for="mapSwitch">Switch Team</label>
+
+<input type="checkbox" id="extraSwitch" />
+<div class="chart teamOne"><canvas id="extra-map" width="400" height="250"></canvas></div>
+<div class="chart teamTwo"><canvas id="extra-map-opp" width="400" height="250"></canvas></div>
+<label class="switchBtn switchLabel" for="extraSwitch">Switch Team</label>
 
 <!-- SR over time -->
 <input type="checkbox" id="srSwitch" />
 <div class="chart teamOne"><canvas id="sr-lines" width="400" height="250"></canvas></div>
 <div class="chart teamTwo"><canvas id="sr-lines-opp" width="400" height="250"></canvas></div>
-<label id="srSwitchLabel" class="switchBtn switchLabel" for="srSwitch">Switch Team</label>
+<label class="switchBtn switchLabel" for="srSwitch">Switch Team</label>
 
 <!-- Rush tate over time -->
 <input type="checkbox" id="rrSwitch" />
 <div class="chart teamOne"><canvas id="rush-rate" width="400" height="250"></canvas></div>
 <div class="chart teamTwo"><canvas id="rush-rate-opp" width="400" height="250"></canvas></div>
-<label id="rrSwitchLabel" class="switchBtn switchLabel" for="rrSwitch">Switch Team</label>
+<label class="switchBtn switchLabel" for="rrSwitch">Switch Team</label>
 
 <!-- SRXR bar charts -->
 <div class="chart"><canvas id="srxr-play-type" width="400" height="250"></canvas></div>
