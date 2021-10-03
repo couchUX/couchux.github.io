@@ -299,7 +299,7 @@ const extraMap = (data,thisGame,id,teamNum,max) => {
             labels: labels,
             datasets: [
                 {
-                    label: team[0].offense + ' Extra Yards (Rush)',
+                    label: ' Extra Yards (Rush)',
                     data: rushYards,
                     backgroundColor: fillColors(rushes,colors(rushes).explosive,colors(rushes).success),
                     hoverBackgroundColor: pointColor,
