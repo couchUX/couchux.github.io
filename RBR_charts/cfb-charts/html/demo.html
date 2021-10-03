@@ -52,19 +52,6 @@
             <label class="switchLabel switchBtn" for="extraSwitch">Switch Team</label>
         </section>
         
-        <!-- Play Map FOR ANOTHER TEAM -->
-        <!-- <section>
-            <h3>Play Maps</h3>
-            <input type="checkbox" id="otherSwitch" />
-            <div class="chart teamOne"><canvas id="play-map-ucla" width="400" height="250"></canvas></div>
-            <div class="chart teamTwo"><canvas id="play-map-opp-ucla" width="400" height="250"></canvas></div>
-            <label class="switchLabel switchBtn" for="otherSwitch">Switch Team</label>
-            <script>
-                chartData('../json/all-games.json','2021-08-28 Hawaii at UCLA',playMap,'play-map-ucla',1)
-                chartData('../json/all-games.json','2021-08-28 Hawaii at UCLA',playMap,'play-map-opp-ucla',2)
-            </script>
-        </section> -->
-        
         <!-- SRXR bar charts -->
         <h3>SR and XR by Play Type</h3><div class="chart"><canvas id="srxr-play-type" width="400" height="250"></canvas></div>
         <h3>SR and XR by Quarter</h3><div class="chart"><canvas id="srxr-quarter" width="400" height="250"></canvas></div>
@@ -85,9 +72,6 @@
         <script>
             let data = '../json/all-games.json';
             let game = '2021-10-02 Ole Miss at Alabama';
-            // let game = '2021-09-25 Southern Mississippi at Alabama';
-
-            
 
             fetch(data).then(response => response.json()).then(data => { 
                 
@@ -101,8 +85,8 @@
                 // play maps
                 playMap(data,game,'play-map',1,'extra')
                 playMap(data,game,'play-map-opp',2,'extra')
-                extraMap(data,game,'extra-map',1)
-                extraMap(data,game,'extra-map-opp',2)
+                extraMap(data,game,'extra-map',1,25)
+                extraMap(data,game,'extra-map-opp',2,25)
 
                 // bar charts
                 srXrTeams(data,game,'srxr-team')
@@ -111,7 +95,6 @@
                 srXrBars(data,game,'srxr-down','','down')
                 srXrBars(data,game,'srxr-red-zone','','red_zone')
                 srXrBars(data,game,'srxr-distance','','distance')
-                // srXrBars(data,'2021-08-28 Hawaii at UCLA','srxr-down-ucla','','down')
 
                 // player charts
                 players(data,game,'rushers',1,'rusher')
