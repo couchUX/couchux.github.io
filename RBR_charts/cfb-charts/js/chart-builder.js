@@ -299,7 +299,7 @@ const extraMap = (data,thisGame,id,teamNum,max) => {
             labels: labels,
             datasets: [
                 {
-                    label: ' Extra Yards (Rush)',
+                    label: team[0].offense + ' Extra Yards (Rush)',
                     data: rushYards,
                     backgroundColor: fillColors(rushes,colors(rushes).explosive,colors(rushes).success),
                     hoverBackgroundColor: pointColor,
@@ -310,7 +310,7 @@ const extraMap = (data,thisGame,id,teamNum,max) => {
                     pointRadius: 4,
                 },
                 {
-                    label: ' Extra Yards (Pass)',
+                    label: team[0].offense + ' Extra Yards (Pass)',
                     data: passYards,
                     backgroundColor: fillColors(passes,colors(passes).explosive,colors(passes).success),
                     hoverBackgroundColor: pointColor,
