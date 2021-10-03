@@ -188,7 +188,7 @@ const teamLines = (data,thisGame,id,teamNum,column) => {
 };
 
 // PLAY MAP
-const playMap = (data,thisGame,id,teamNum) => {
+const playMap = (data,thisGame,id,teamNum,extra) => {
         
     let game = data.filter(({game}) => game == thisGame);
     let chart = game.filter(({chart}) => chart == 'plays');
@@ -199,6 +199,7 @@ const playMap = (data,thisGame,id,teamNum) => {
     let labels = chart.map(a => a.play_num);
     let rushYards = rushes.map(({play_num, yards}) => ({ x: play_num, y: yards }));
     let passYards = passes.map(({play_num, yards}) => ({ x: play_num, y: yards }));
+    let avgExtra = passes.map(({play_num, avg_extra_yards}) => ({ x: play_num, y: avg_extra_yards }));
     
     let playsMax = Math.max.apply(Math, chart.map(({play_num}) => play_num));
     let newQuarters = [...new Set(chart.map(a => a.quarter))];
@@ -206,6 +207,7 @@ const playMap = (data,thisGame,id,teamNum) => {
     let pointColor = fillColors(team,colors(team).explosive,colors(team).success);
     let yardsMin = Math.min.apply(Math, chart.map(({yards}) => yards));
     let yardsMax = Math.max.apply(Math, chart.map(({yards}) => yards));
+    let extraWidth = (extra) => extra == 'extra' ? 2.2 : 0;
 
     const ctx = document.getElementById(id).getContext('2d');
     new Chart(ctx, {
@@ -235,7 +237,96 @@ const playMap = (data,thisGame,id,teamNum) => {
                     pointRadius: pointSize(passes),
                 },
                 quarterLines(quartersArrayLg),
-                zeroShade('< 0',1,1,playsMax,playsMax,0,yardsMin,yardsMin,0) 
+                zeroShade('< 0',1,1,playsMax,playsMax,0,-25,-25,0),
+                {
+                    label: '(line) Avg Extra Yds',
+                    data: avgExtra,
+                    borderColor: colors(team).success,
+                    borderWidth: extraWidth(extra),
+                    pointRadius: 0,
+                } 
+            ]
+        },
+        options: {
+            scales: {
+                y: {
+                    max: yardsMax,                    
+                    suggestedMin: yardsMin,
+                    min: -15,
+                },
+                x: {
+                    display: false,
+                }
+            },
+            plugins: {
+                tooltip: {
+                    callbacks: {
+                        title: (tooltipItems) => tooltipItems[0].dataIndex
+                        // label: ({dataset, formattedValue}) => `${dataset.dataIndex}: ${Math.round(formattedValue * 100)}%`,
+                    }
+                },
+            }
+        }
+    });
+}
+
+// EXTRA YARDS MAP
+const extraMap = (data,thisGame,id,teamNum) => {
+        
+    let game = data.filter(({game}) => game == thisGame);
+    let chart = game.filter(({chart}) => chart == 'plays');
+    let team = chart.filter(({team_num}) => team_num == teamNum);
+    let rushes = team.filter(({play_type}) => play_type == 'Rush');
+    let passes = team.filter(({play_type}) => play_type == 'Pass');
+
+    let labels = chart.map(a => a.play_num);
+    let rushYards = rushes.map(({play_num, extra_yards}) => ({ x: play_num, y: extra_yards }));
+    let passYards = passes.map(({play_num, extra_yards}) => ({ x: play_num, y: extra_yards }));
+    let avgExtra = passes.map(({play_num, avg_extra_yards}) => ({ x: play_num, y: avg_extra_yards }));
+    
+    let playsMax = Math.max.apply(Math, chart.map(({play_num}) => play_num));
+    let newQuarters = [...new Set(chart.map(a => a.quarter))];
+    quarterMarker(newQuarters,chart,playsMax,"play_num");
+    let pointColor = fillColors(team,colors(team).explosive,colors(team).success);
+    let yardsMin = Math.min.apply(Math, chart.map(({extra_yards}) => extra_yards));
+    let yardsMax = Math.max.apply(Math, chart.map(({extra_yards}) => extra_yards));
+
+    const ctx = document.getElementById(id).getContext('2d');
+    new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: labels,
+            datasets: [
+                {
+                    label: team[0].offense + ' Rush Yards',
+                    data: rushYards,
+                    backgroundColor: fillColors(rushes,colors(rushes).explosive,colors(rushes).success),
+                    hoverBackgroundColor: pointColor,
+                    borderWidth: 0,
+                    borderColor: colors(rushes).explosive,
+                    pointStyle: pointStyle(rushes),
+                    pointRadius: pointSize(rushes),
+                    pointRadius: 4,
+                },
+                {
+                    label: team[0].offense + ' Pass Yards',
+                    data: passYards,
+                    backgroundColor: fillColors(passes,colors(passes).explosive,colors(passes).success),
+                    hoverBackgroundColor: pointColor,
+                    borderWidth: 0,
+                    borderColor: colors(passes).explosive,
+                    pointStyle: pointStyle(passes),
+                    pointRadius: pointSize(passes),
+                },
+                {
+                    label: team[0].offense + ' Average Extra Yards',
+                    data: avgExtra,
+                    borderColor: colors(team).success,
+                    borderWidth: 2.2,
+                    pointRadius: 0,
+                },
+                quarterLines(quartersArrayLg),
+                zeroShade('< 0',1,1,playsMax,playsMax,0,-25,-25,0) 
             ]
         },
         options: {

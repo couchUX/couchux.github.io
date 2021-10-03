@@ -116,7 +116,7 @@ div hr.p-entry-hr {
 
 /* Testing a ccs switcher */
 
-#srSwitch, #rrSwitch, #mapSwitch, #otherSwitch {
+#srSwitch, #rrSwitch, #mapSwitch, #extraSwitch, #otherSwitch {
   display: none;
 }
 .switchLabel {
@@ -129,6 +129,7 @@ div hr.p-entry-hr {
 #srSwitch:not(:checked) ~ .teamOne,
 #rrSwitch:not(:checked) ~ .teamOne,
 #mapSwitch:not(:checked) ~ .teamOne,
+#extraSwitch:not(:checked) ~ .teamOne,
 #otherSwitch:not(:checked) ~ .teamOne {
 visibility: visible;
   opacity: 1;
@@ -137,6 +138,7 @@ visibility: visible;
 #srSwitch:not(:checked) ~ .teamTwo,
 #rrSwitch:not(:checked) ~ .teamTwo,
 #mapSwitch:not(:checked) ~ .teamTwo,
+#extraSwitch:not(:checked) ~ .teamTwo,
 #otherSwitch:not(:checked) ~ .teamTwo {
   visibility: hidden;
   opacity: 0;
@@ -145,6 +147,7 @@ visibility: visible;
 #srSwitch:checked ~ .teamOne,
 #rrSwitch:checked ~ .teamOne,
 #mapSwitch:checked ~ .teamOne,
+#extraSwitch:checked ~ .teamOne,
 #otherSwitch:checked ~ .teamOne {
   visibility: hidden;
   opacity: 0;
@@ -153,6 +156,7 @@ visibility: visible;
 #srSwitch:checked ~ .teamTwo,
 #rrSwitch:checked ~ .teamTwo,
 #mapSwitch:checked ~ .teamTwo,
+#extraSwitch:checked ~ .teamTwo,
 #otherSwitch:checked ~ .teamTwo {
   visibility: visible;
   opacity: 1;
