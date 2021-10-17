@@ -43,6 +43,14 @@
             <div class="chart teamTwo"><canvas id="play-map-opp" width="400" height="250"></canvas></div>
             <label class="switchLabel switchBtn" for="mapSwitch">Switch Team</label>
         </section>
+
+        <section>
+            <h3>Extra Yards Maps</h3>
+            <input type="checkbox" id="extraSwitch" />
+            <div class="chart teamOne"><canvas id="extra-map" width="400" height="250"></canvas></div>
+            <div class="chart teamTwo"><canvas id="extra-map-opp" width="400" height="250"></canvas></div>
+            <label class="switchLabel switchBtn" for="extraSwitch">Switch Team</label>
+        </section>
         
         <!-- Play Map FOR ANOTHER TEAM -->
         <!-- <section>
@@ -76,7 +84,7 @@
         <!-- Running the charts -->
         <script>
             let data = '../json/all-games.json';
-            let game = '2021-09-25 Georgia State at Auburn';
+            let game = '2021-10-16 Ole Miss at Tennessee';
 
             
 
@@ -90,8 +98,10 @@
                 rushRate(data,game,'rush-rate-opp',2)
                 
                 // play maps
-                playMap(data,game,'play-map',1)
-                playMap(data,game,'play-map-opp',2)
+                playMap(data,game,'play-map',1,'extra')
+                playMap(data,game,'play-map-opp',2,'extra')
+                extraMap(data,game,'extra-map',1,25)
+                extraMap(data,game,'extra-map-opp',2,25)
 
                 // bar charts
                 srXrTeams(data,game,'srxr-team')

@@ -71,7 +71,7 @@
         <!-- Running the charts -->
         <script>
             let data = '../json/all-games.json';
-            let game = '2021-10-10 Alabama at Texas A&M';
+            let game = '2021-10-16 Alabama at Mississippi State';
 
             fetch(data).then(response => response.json()).then(data => { 
                 
@@ -85,8 +85,8 @@
                 // play maps
                 playMap(data,game,'play-map',1,'extra')
                 playMap(data,game,'play-map-opp',2,'extra')
-                extraMap(data,game,'extra-map',1,25)
-                extraMap(data,game,'extra-map-opp',2,25)
+                extraMap(data,game,'extra-map',1,70)
+                extraMap(data,game,'extra-map-opp',2,70)
 
                 // bar charts
                 srXrTeams(data,game,'srxr-team')
