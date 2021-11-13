@@ -58,7 +58,6 @@
         <h3>SR and XR by Down</h3><div class="chart"><canvas id="srxr-down" width="400" height="250"></canvas></div>
         <h3>SR and XR by Red Zone</h3><div class="chart"><canvas id="srxr-red-zone" width="400" height="250"></canvas></div>
         <h3>SR and XR by Distance to Go</h3><div class="chart"><canvas id="srxr-distance" width="400" height="250"></canvas></div>
-        <!-- <h3>SR and XR by Down, UCLA vs. Hawaii</h3><div class="chart"><canvas id="srxr-down-ucla" width="400" height="250"></canvas></div> -->
         
         <!-- Player charts, team -->
         <h3>Top Rushers, Team 1</h3><div class="chart"><canvas id="rushers" width="400" height="150"></canvas></div>
@@ -71,7 +70,7 @@
         <!-- Running the charts -->
         <script>
             let data = '../json/all-games-2.json';
-            let game = '2021-11-06 LSU at Alabama';
+            let game = '2021-11-13 New Mexico State at Alabama';
 
             fetch(data).then(response => response.json()).then(data => { 
                 
