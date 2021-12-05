@@ -70,7 +70,7 @@
         <!-- Running the charts -->
         <script>
             let data = '../json/all-games-2.json';
-            let game = '2021-11-27 Alabama at Auburn';
+            let game = '2021-12-04 Georgia at Alabama';
 
             fetch(data).then(response => response.json()).then(data => { 
                 
@@ -98,8 +98,8 @@
                 // player charts
                 players(data,game,'rushers',1,'rusher')
                 players(data,game,'rushersOpp',2,'rusher')
-                players(data,game,'passers',1,'passer')
-                players(data,game,'passersOpp',2,'passer')
+                players(data,game,'passers',1,'passer',50)
+                players(data,game,'passersOpp',2,'passer',50)
                 players(data,game,'receivers',1,'receiver')
                 players(data,game,'receiversOpp',2,'receiver')
             });
