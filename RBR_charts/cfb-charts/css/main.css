@@ -33,6 +33,11 @@ body {
   height: 320px;
   margin-bottom: 12px;
 }
+.chart.tall {
+  font-weight: 500;
+  height: 550px;
+  margin-bottom: 12px;
+}
 .chart.short {
   height: 150px;
 }
