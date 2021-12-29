@@ -1,6 +1,7 @@
 <!-- page prep -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.0/chart.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2"></script>
+<script src="https://couchux.github.io/RBR_charts/cfb-charts/js/patternomaly/dist/patternomaly.js"></script>
 <script src="https://couchux.github.io/RBR_charts/cfb-charts/js/chart-builder-2.js"></script>
 <link rel="stylesheet" href="https://couchux.github.io/RBR_charts/cfb-charts/css/main.css">
 
@@ -13,14 +14,14 @@ fetch(data).then(response => response.json()).then(data => {
         
 // line charts
 teamLines(data,game,'srxr-lines-team')
-playMap(data,game,'play-map',1)
-playMap(data,game,'play-map-opp',2)
 typeLines(data,game,'sr-lines',1)
 typeLines(data,game,'sr-lines-opp',2)
 rushRate(data,game,'rush-rate',1)
 rushRate(data,game,'rush-rate-opp',2)
 
-// drive charts
+// maps and drive charts
+playMap(data,game,'play-map',1,'extra')
+playMap(data,game,'play-map-opp',2,'extra')
 drives(data,game,'drive',1)
 drives(data,game,'drive-opp',2)
 
