@@ -1,13 +1,13 @@
 <!-- page prep -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.0/chart.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2"></script>
-<script src="https://couchux.github.io/RBR_charts/cfb-charts/js/chart-builder.js"></script>
+<script src="https://couchux.github.io/RBR_charts/cfb-charts/js/chart-builder-2.js"></script>
 <link rel="stylesheet" href="https://couchux.github.io/RBR_charts/cfb-charts/css/main.css">
 
 <!-- Running the charts -->
 <script>
-let data = 'https://couchux.github.io/RBR_charts/cfb-charts/json/all-games.json';
-let game = '2021-09-04 Alabama at Miami';
+let data = 'https://couchux.github.io/RBR_charts/cfb-charts/json/all-games-2B.json';
+let game = '2021-12-04 Georgia at Alabama';
 
 fetch(data).then(response => response.json()).then(data => { 
         
@@ -15,15 +15,16 @@ fetch(data).then(response => response.json()).then(data => {
 teamLines(data,game,'srxr-lines-team')
 playMap(data,game,'play-map',1)
 playMap(data,game,'play-map-opp',2)
-extraMap(data,game,'extra-map',1,25)
-extraMap(data,game,'extra-map-opp',2,25)
 typeLines(data,game,'sr-lines',1)
 typeLines(data,game,'sr-lines-opp',2)
 rushRate(data,game,'rush-rate',1)
 rushRate(data,game,'rush-rate-opp',2)
 
+// drive charts
+drives(data,game,'drive',1)
+drives(data,game,'drive-opp',2)
+
 // bar charts
-srXrTeams(data,game,'srxr-team')
 srXrBars(data,game,'srxr-play-type','','play_type')
 srXrBars(data,game,'srxr-quarter','','quarter')
 srXrBars(data,game,'srxr-down','','down')
@@ -31,12 +32,9 @@ srXrBars(data,game,'srxr-red-zone','','red_zone')
 srXrBars(data,game,'srxr-distance','','distance')
 
 // player charts
-players(data,game,'rushers',1,'rusher')
-players(data,game,'rushersOpp',2,'rusher')
-players(data,game,'passers',1,'passer')
-players(data,game,'passersOpp',2,'passer')
-players(data,game,'receivers',1,'receiver')
-players(data,game,'receiversOpp',2,'receiver')
+players(data,game,'rushers','rusher')
+players(data,game,'passers','passer')
+players(data,game,'receivers','receiver')
 
 });</script>
 
@@ -45,7 +43,6 @@ players(data,game,'receiversOpp',2,'receiver')
 
 <!-- Team overview -->
 <div class="chart"><canvas id="srxr-lines-team" width="400" height="250"></canvas></div>
-<div class="chart"><canvas id="srxr-team" width="400" height="250"></canvas></div>
 
 <!-- Play Maps -->
 <input type="checkbox" id="mapSwitch" />
@@ -53,10 +50,11 @@ players(data,game,'receiversOpp',2,'receiver')
 <div class="chart teamTwo"><canvas id="play-map-opp" width="400" height="250"></canvas></div>
 <label class="switchBtn switchLabel" for="mapSwitch">Switch Team</label>
 
-<input type="checkbox" id="extraSwitch" />
-<div class="chart teamOne"><canvas id="extra-map" width="400" height="250"></canvas></div>
-<div class="chart teamTwo"><canvas id="extra-map-opp" width="400" height="250"></canvas></div>
-<label class="switchBtn switchLabel" for="extraSwitch">Switch Team</label>
+<!-- Drives -->
+<input type="checkbox" id="driveSwitch" />
+<div class="chart teamOne"><canvas id="drive" width="400" height="250"></canvas></div>
+<div class="chart teamTwo"><canvas id="drive-opp" width="400" height="250"></canvas></div>
+<label class="switchLabel switchBtn" for="driveSwitch">Switch Team</label>
 
 <!-- SR over time -->
 <input type="checkbox" id="srSwitch" />
@@ -77,10 +75,7 @@ players(data,game,'receiversOpp',2,'receiver')
 <div class="chart"><canvas id="srxr-red-zone" width="400" height="250"></canvas></div>
 <div class="chart"><canvas id="srxr-distance" width="400" height="250"></canvas></div>
 
-<!-- Player charts, team -->
-<div class="chart"><canvas id="rushers" width="400" height="150"></canvas></div>
-<div class="chart"><canvas id="rushersOpp" width="400" height="150"></canvas></div>
+<!-- Player charts -->
+<div class="chart"><canvas id="rushers" width="400" height="250"></canvas></div>
 <div class="chart short"><canvas id="passers" width="400" height="100"></canvas></div>
-<div class="chart short"><canvas id="passersOpp" width="400" height="100"></canvas></div>
-<div class="chart"><canvas id="receivers" width="400" height="250"></canvas></div>
-<div class="chart"><canvas id="receiversOpp" width="400" height="250"></canvas></div>
+<div class="chart tall"><canvas id="receivers" width="100" height="400"></canvas></div>
