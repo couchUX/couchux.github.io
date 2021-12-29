@@ -41,13 +41,22 @@
             <label class="switchLabel switchBtn" for="mapSwitch">Switch Team</label>
         </section>
         
+        <!-- Drives -->
+         <section>
+            <h3>SR and XR by Drive</h3>
+            <input type="checkbox" id="driveSwitch" />
+            <div class="chart teamOne"><canvas id="drive" width="400" height="250"></canvas></div>
+            <div class="chart teamTwo"><canvas id="drive-opp" width="400" height="250"></canvas></div>
+            <label class="switchLabel switchBtn" for="driveSwitch">Switch Team</label>
+        </section>
+
         <!-- SRXR bar charts -->
         <h3>SR and XR by Play Type</h3><div class="chart"><canvas id="srxr-play-type" width="400" height="250"></canvas></div>
         <h3>SR and XR by Quarter</h3><div class="chart"><canvas id="srxr-quarter" width="400" height="250"></canvas></div>
         <h3>SR and XR by Down</h3><div class="chart"><canvas id="srxr-down" width="400" height="250"></canvas></div>
         <h3>SR and XR by Red Zone</h3><div class="chart"><canvas id="srxr-red-zone" width="400" height="250"></canvas></div>
         <h3>SR and XR by Distance to Go</h3><div class="chart"><canvas id="srxr-distance" width="400" height="250"></canvas></div>
-        
+               
         <!-- Player charts, team -->
         <h3>Top Rushers</h3><div class="chart"><canvas id="rushers" width="400" height="250"></canvas></div>
         <h3>Top Passers</h3><div class="chart short"><canvas id="passers" width="400" height="100"></canvas></div>
@@ -56,9 +65,9 @@
 
         <!-- Running the charts -->
         <script>
-            let data = '../json/all-games-2.json';
-            // let game = '2021-12-04 Georgia at Alabama';
-            let game = '2021-12-04 Baylor at Oklahoma State';
+            let data = '../json/all-games-2B.json';
+            let game = '2021-12-04 Georgia at Alabama';
+            // let game = '2021-12-04 Baylor at Oklahoma State';
 
             fetch(data).then(response => response.json()).then(data => { 
                 
@@ -79,6 +88,10 @@
                 srXrBars(data,game,'srxr-down','','down')
                 srXrBars(data,game,'srxr-red-zone','','red_zone')
                 srXrBars(data,game,'srxr-distance','','distance')
+                
+                // drives chart
+                drives(data,game,'drive',1)
+                drives(data,game,'drive-opp',2)
 
                 // player charts
                 players(data,game,'rushers','rusher')

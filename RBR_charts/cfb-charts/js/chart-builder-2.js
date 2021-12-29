@@ -441,6 +441,63 @@ const srXrBars = (data,thisGame,id,teamNum,column) => {
     });
 }
 
+// DRIVE BARS
+const drives = (data,thisGame,id,teamNum) => {
+
+    let game = data.filter(({game}) => game == thisGame);
+    let chart = game.filter(({chart}) => chart == "drive");
+    let team = chart.filter(({team_num}) => team_num == teamNum);
+    let labels = [...new Set(team.map(a => a["drive"]))];
+
+    let sr = team.map(a => a.sr);
+    let xr = team.map(a => a.xr);
+    let plays = team.map(a => a.count);
+    
+    let dataset = (d,s,l,color,axis,thick) => ({
+            data: d,
+            stack: s,
+            label: l,
+            backgroundColor: color,
+            yAxisID: axis,
+            barThickness: thick,
+    })
+
+    const ctx = document.getElementById(id).getContext('2d');
+    new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: labels,
+            datasets: [
+                dataset(xr,'SRXR',team[0].offense + ' XR',colors(team).explosive,"y"),
+                dataset(sr,'SRXR',team[0].offense + ' SR',colors(team).success,"y"),
+                dataset(plays,'Plays',team[0].offense + ' Plays','#A1A1A1CC',"y1",12),
+                // srAvgBarLine(),
+            ]
+        },
+        options: {
+            scales: {
+                y: {
+                    stacked: false,
+                    max: 1,
+                    ticks: { callback: percentCallback },
+                },
+                y1: {
+                    stacked: false,
+                    suggestedMax: 12,
+                    position: 'right',         
+                    grid: {
+                        lineWidth: 0,
+                    }
+                }
+                
+            },
+            plugins: {
+                tooltip: tooltipPercents(),
+            },
+        }
+    });
+}
+
 // PLAYER CHARTS
 const players = (data,thisGame,id,column,max) => {
 
