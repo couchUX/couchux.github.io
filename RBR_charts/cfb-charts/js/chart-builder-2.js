@@ -30,7 +30,6 @@ const srAvgColor = "#A0A0A0";
 const srAvgBarLine = () => ({
     type: 'line',
     data: [ srAvg, srAvg, srAvg, srAvg ],
-    barThickness: 6,
     label: "NCAA Avg SR",
     borderColor: '#757575',
     borderWidth: 2,
@@ -446,6 +445,7 @@ const drives = (data,thisGame,id,teamNum) => {
 
     let game = data.filter(({game}) => game == thisGame);
     let chart = game.filter(({chart}) => chart == "drive");
+    let playsMax = Math.max.apply(Math, chart.map(({count}) => count));
     let team = chart.filter(({team_num}) => team_num == teamNum);
     let labels = [...new Set(team.map(a => a["drive"]))];
 
@@ -453,28 +453,33 @@ const drives = (data,thisGame,id,teamNum) => {
     let xr = team.map(a => a.xr);
     let plays = team.map(a => a.count);
     
-    let dataset = (d,s,l,color,axis,thick) => ({
-            data: d,
-            stack: s,
-            label: l,
-            backgroundColor: color,
-            yAxisID: axis,
-            barThickness: thick,
+    let dataset = (d,s,l,color,axis,format,label) => ({
+        data: d,
+        stack: s,
+        label: l,
+        backgroundColor: color,
+        yAxisID: axis,
+        tooltip: format,
+        datalabels: {
+            labels: {
+                display: label
+            }
+        }
     })
 
     const ctx = document.getElementById(id).getContext('2d');
     new Chart(ctx, {
+        plugins: [ChartDataLabels],
         type: 'bar',
         data: {
             labels: labels,
             datasets: [
-                dataset(xr,'SRXR',team[0].offense + ' XR',colors(team).explosive,"y"),
-                dataset(sr,'SRXR',team[0].offense + ' SR',colors(team).success,"y"),
-                dataset(plays,'Plays',team[0].offense + ' Plays','#A1A1A1CC',"y1",12),
-                // srAvgBarLine(),
+                dataset(xr,'SRXR',team[0].offense + ' XR',colors(team).explosive,"y",tooltipPercents(),false),
+                dataset(sr,'SRXR',team[0].offense + ' SR',colors(team).success,"y",tooltipPercents(),false),
+                dataset(plays,'Plays','Plays in drive',pattern.draw('diagonal','#949494CC'),"y1",'',true),
             ]
         },
-        options: {
+        options: {            
             scales: {
                 y: {
                     stacked: false,
@@ -482,17 +487,9 @@ const drives = (data,thisGame,id,teamNum) => {
                     ticks: { callback: percentCallback },
                 },
                 y1: {
-                    stacked: false,
-                    suggestedMax: 12,
-                    position: 'right',         
-                    grid: {
-                        lineWidth: 0,
-                    }
+                    display: false,
+                    suggestedMax: playsMax,
                 }
-                
-            },
-            plugins: {
-                tooltip: tooltipPercents(),
             },
         }
     });
@@ -529,6 +526,9 @@ const players = (data,thisGame,id,column,max) => {
         borderWidth: 0.75,
         borderColor: "#303030CC",
         backgroundColor: color,
+        datalabels: {
+            display: (context) => { return context.dataset.data[context.dataIndex] > 0 }
+        }
     })
 
     let datasets = (column) =>
@@ -558,9 +558,6 @@ const players = (data,thisGame,id,column,max) => {
             datasets: datasets(column)
         },
         plugins: [ChartDataLabels],
-            datalabels: {
-                display: (context) => { return context.dataset.data[context.dataIndex] > 0 }  // this isn't working either
-            },
         options: {
             scales: { 
                 y: { stacked: true }, 

@@ -590,6 +590,9 @@ const players = (data,thisGame,id,teamNum,column,max) => {
         borderWidth: 0.8,
         borderColor: bColor,
         backgroundColor: color,
+        datalabels: {
+            display: (context) => { return context.dataset.data[context.dataIndex] > 0 }
+        }
     })
 
     let datasets = (column) =>
@@ -619,9 +622,6 @@ const players = (data,thisGame,id,teamNum,column,max) => {
             datasets: datasets(column)
         },
         plugins: [ChartDataLabels],
-            datalabels: {
-                display: (context) => { return context.dataset.data[context.dataIndex] > 0 }  // this isn't working either
-            },
         options: {
             scales: { 
                 y: { stacked: true }, 
