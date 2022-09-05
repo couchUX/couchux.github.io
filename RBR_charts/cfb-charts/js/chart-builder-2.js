@@ -538,8 +538,8 @@ const players = (data,thisGame,id,column,max) => {
             dataset(unsuccessful,'Unsuccessful Rushes',unsColor,colors(teamOne).explosive),
         ] :
         column == 'receiver' ? [    
-            dataset(explosive,'Explosive Rushes',barColor(chart,colors(teamOne).explosive,colors(teamTwo).explosive)),
-            dataset(successful,'Successful Rushes',barColor(chart,colors(teamOne).success,colors(teamTwo).success)),
+            dataset(explosive,'Explosive Catches',barColor(chart,colors(teamOne).explosive,colors(teamTwo).explosive)),
+            dataset(successful,'Successful Catches',barColor(chart,colors(teamOne).success,colors(teamTwo).success)),
             dataset(unsCatches,'Other Catches',barColor(chart,colors(teamOne).light,colors(teamTwo).light)),
         ] :
         [
