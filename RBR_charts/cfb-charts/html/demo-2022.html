@@ -55,6 +55,7 @@
         <!-- SRXR bar charts -->
         <h3>SR and XR by Play Type</h3><div class="chart"><canvas id="srxr-play-type" width="400" height="250"></canvas></div>
         <h3>SR and XR by Quarter</h3><div class="chart"><canvas id="srxr-quarter" width="400" height="250"></canvas></div>
+        <!-- <h3>SR and XR by Quarter, 2021 Iron Bowl</h3><div class="chart"><canvas id="srxr-quarter-ib" width="400" height="250"></canvas></div> -->
         <h3>SR and XR by Down</h3><div class="chart"><canvas id="srxr-down" width="400" height="250"></canvas></div>
         <h3>SR and XR by Red Zone</h3><div class="chart"><canvas id="srxr-red-zone" width="400" height="250"></canvas></div>
         <h3>SR and XR by Distance to Go</h3><div class="chart"><canvas id="srxr-distance" width="400" height="250"></canvas></div>
@@ -68,7 +69,7 @@
         <!-- Running the charts -->
         <script>
             let data = '../json/all-games-2022.json';
-            let game = '2022-09-03 Utah State at Alabama';
+            let game = '2022-09-10 Alabama at Texas';
 
             fetch(data).then(response => response.json()).then(data => { 
                 
@@ -86,6 +87,7 @@
                 // bar charts
                 srXrBars(data,game,'srxr-play-type','','play_type')
                 srXrBars(data,game,'srxr-quarter','','quarter')
+                // srXrBars('../json/all-games-2.json','2021-11-27 Alabama at Auburn','srxr-quarter-ib','','quarter')
                 srXrBars(data,game,'srxr-down','','down')
                 srXrBars(data,game,'srxr-red-zone','','red_zone')
                 srXrBars(data,game,'srxr-distance','','distance')
