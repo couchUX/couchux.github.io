@@ -9704,7 +9704,7 @@
     "red_zone": "",
     "distance": "",
     "yards": "",
-    "explosive": 0,
+    "explosive": 1,
     "successful": 1,
     "uns_catches": "",
     "uns": 4,
@@ -9807,7 +9807,7 @@
     "distance": "",
     "yards": "",
     "explosive": 1,
-    "successful": 5,
+    "successful": 6,
     "uns_catches": "",
     "uns": 14,
     "int": "",
@@ -11294,7 +11294,7 @@
     "offense": "Alabama",
     "play_num": 24,
     "team_play": 11,
-    "text": "Jase McClellan 81 Yd Run (Will Reichard Kick)",
+    "text": "Jase McClellan 81 yd run (Will Reichard Kick)",
     "play_type": "Rush",
     "quarter": 1,
     "drive": "",
@@ -11313,7 +11313,7 @@
     "team_sr": 0.64,
     "team_xr": 0.18,
     "rr": 0.45,
-    "rusher": "",
+    "rusher": "Jase McClellan",
     "passer": "",
     "receiver": "",
     "hex": "#E82525CC",
@@ -11498,7 +11498,7 @@
     "offense": "Texas",
     "play_num": 30,
     "team_play": 19,
-    "text": "Bijan Robinson 1 Yd Run (Bert Auburn Kick)",
+    "text": "Bijan Robinson 1 yd run (Bert Auburn Kick)",
     "play_type": "Rush",
     "quarter": 2,
     "drive": "",
@@ -11517,7 +11517,7 @@
     "team_sr": 0.58,
     "team_xr": 0.16,
     "rr": 0.37,
-    "rusher": "",
+    "rusher": "Bijan Robinson",
     "passer": "",
     "receiver": "",
     "hex": "#F47B25CC",
@@ -14116,14 +14116,14 @@
     "offense": "Alabama",
     "play_num": 107,
     "team_play": 48,
-    "text": "Bryce Young pass complete to Traeshon Holden for 12 yds to the Alab 34 for a 1ST down",
+    "text": "Bryce Young pass complete to Traeshon Holden for 11 yds to the Alab 34 for a 1ST down",
     "play_type": "Pass",
     "quarter": 4,
     "drive": "",
     "down": 1,
     "red_zone": "Other",
     "distance": 10,
-    "yards": 12,
+    "yards": 11,
     "explosive": 0,
     "successful": 1,
     "uns_catches": "",
@@ -14140,8 +14140,8 @@
     "receiver": "Traeshon Holden",
     "hex": "#E82525CC",
     "hex_dark": "#5A0000CC",
-    "extra_yards": 7,
-    "avg_extra_yards": -0.11
+    "extra_yards": 6,
+    "avg_extra_yards": -0.13
   },
   {
     "game": "2022-09-10 Alabama at Texas",
@@ -14175,7 +14175,7 @@
     "hex": "#E82525CC",
     "hex_dark": "#5A0000CC",
     "extra_yards": 16,
-    "avg_extra_yards": 0.22
+    "avg_extra_yards": 0.2
   },
   {
     "game": "2022-09-10 Alabama at Texas",
@@ -14209,7 +14209,7 @@
     "hex": "#E82525CC",
     "hex_dark": "#5A0000CC",
     "extra_yards": 3,
-    "avg_extra_yards": 0.27
+    "avg_extra_yards": 0.25
   },
   {
     "game": "2022-09-10 Alabama at Texas",
@@ -14243,7 +14243,7 @@
     "hex": "#E82525CC",
     "hex_dark": "#5A0000CC",
     "extra_yards": 1.6,
-    "avg_extra_yards": 0.3
+    "avg_extra_yards": 0.28
   },
   {
     "game": "2022-09-10 Alabama at Texas",
@@ -14277,7 +14277,7 @@
     "hex": "#E82525CC",
     "hex_dark": "#5A0000CC",
     "extra_yards": -1,
-    "avg_extra_yards": 0.28
+    "avg_extra_yards": 0.26
   },
   {
     "game": "2022-09-10 Alabama at Texas",
@@ -14311,7 +14311,7 @@
     "hex": "#E82525CC",
     "hex_dark": "#5A0000CC",
     "extra_yards": -0.2,
-    "avg_extra_yards": 0.27
+    "avg_extra_yards": 0.25
   },
   {
     "game": "2022-09-10 Alabama at Texas",
@@ -14345,7 +14345,7 @@
     "hex": "#E82525CC",
     "hex_dark": "#5A0000CC",
     "extra_yards": -1,
-    "avg_extra_yards": 0.24
+    "avg_extra_yards": 0.22
   },
   {
     "game": "2022-09-10 Alabama at Texas",
@@ -14379,7 +14379,7 @@
     "hex": "#E82525CC",
     "hex_dark": "#5A0000CC",
     "extra_yards": -1,
-    "avg_extra_yards": 0.22
+    "avg_extra_yards": 0.2
   },
   {
     "game": "2022-09-10 Alabama at Texas",
@@ -14651,7 +14651,7 @@
     "hex": "#E82525CC",
     "hex_dark": "#5A0000CC",
     "extra_yards": 3,
-    "avg_extra_yards": 0.27
+    "avg_extra_yards": 0.25
   },
   {
     "game": "2022-09-10 Alabama at Texas",
@@ -14685,7 +14685,7 @@
     "hex": "#E82525CC",
     "hex_dark": "#5A0000CC",
     "extra_yards": 18.6,
-    "avg_extra_yards": 0.59
+    "avg_extra_yards": 0.57
   },
   {
     "game": "2022-09-10 Alabama at Texas",
@@ -14719,7 +14719,7 @@
     "hex": "#E82525CC",
     "hex_dark": "#5A0000CC",
     "extra_yards": 0,
-    "avg_extra_yards": 0.58
+    "avg_extra_yards": 0.56
   },
   {
     "game": "2022-09-10 Alabama at Texas",
@@ -14753,7 +14753,7 @@
     "hex": "#E82525CC",
     "hex_dark": "#5A0000CC",
     "extra_yards": 1.5,
-    "avg_extra_yards": 0.6
+    "avg_extra_yards": 0.58
   },
   {
     "game": "2022-09-10 Alabama at Texas",
@@ -14787,7 +14787,7 @@
     "hex": "#E82525CC",
     "hex_dark": "#5A0000CC",
     "extra_yards": 15,
-    "avg_extra_yards": 0.84
+    "avg_extra_yards": 0.82
   },
   {
     "game": "2022-09-10 Alabama at Texas",
@@ -14821,7 +14821,7 @@
     "hex": "#E82525CC",
     "hex_dark": "#5A0000CC",
     "extra_yards": -5,
-    "avg_extra_yards": 0.74
+    "avg_extra_yards": 0.72
   },
   {
     "game": "2022-09-10 Alabama at Texas",
@@ -14855,7 +14855,7 @@
     "hex": "#E82525CC",
     "hex_dark": "#5A0000CC",
     "extra_yards": -7,
-    "avg_extra_yards": 0.62
+    "avg_extra_yards": 0.6
   },
   {
     "game": "2022-09-10 Alabama at Texas",
@@ -14889,7 +14889,7 @@
     "hex": "#E82525CC",
     "hex_dark": "#5A0000CC",
     "extra_yards": -7,
-    "avg_extra_yards": 0.5
+    "avg_extra_yards": 0.48
   },
   {
     "game": "2022-09-10 Alabama at Texas",
