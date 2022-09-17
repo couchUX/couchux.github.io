@@ -122,7 +122,7 @@ chartData = (json,thisGame,chartType,id,teamNum,column) => {
 }
 
 // TEAM SR LINES CHART
-const teamLines = (data,thisGame,id,teamNum,column) => { 
+const teamLines = (data,thisGame,id) => { 
 
     let game = data.filter(({game}) => game == thisGame);
     let chart = game.filter(({chart}) => chart == 'plays');
@@ -132,7 +132,7 @@ const teamLines = (data,thisGame,id,teamNum,column) => {
     
     let playsMax = Math.max.apply(Math, chart.map(({play_num}) => play_num));
     let newQuarters = [...new Set(chart.map(a => a.quarter))];
-    quarterMarker(newQuarters,data,playsMax,"play_num");
+    quarterMarker(newQuarters,chart,playsMax,"play_num");
 
     let sr = team.map(({play_num, team_sr}) => ({ x: play_num, y: team_sr }));
     let xr = team.map(({play_num, team_xr}) => ({ x: play_num, y: team_xr }));
