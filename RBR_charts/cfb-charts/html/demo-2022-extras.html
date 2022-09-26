@@ -43,6 +43,15 @@
             <label class="switchLabel switchBtn" for="mapSwitch">Switch Team</label>
         </section>
         
+        <!-- Play Maps, Game Three -->
+        <section>
+            <h3>Play Maps</h3>
+            <input type="checkbox" id="extraSwitch" />
+            <div class="chart teamOne"><canvas id="play-map-three" width="400" height="250"></canvas></div>
+            <div class="chart teamTwo"><canvas id="play-map-opp-three" width="400" height="250"></canvas></div>
+            <label class="switchLabel switchBtn" for="extraSwitch">Switch Team</label>
+        </section>
+        
         <!-- Drives -->
          <section>
             <h3>SR, XR, and Play Count by Drive</h3>
@@ -52,10 +61,20 @@
             <label class="switchLabel switchBtn" for="driveSwitch">Switch Team</label>
         </section>
 
+        <!-- Drives -->
+        <section>
+            <h3>SR, XR, and Play Count by Drive</h3>
+            <input type="checkbox" id="otherSwitch" />
+            <div class="chart teamOne"><canvas id="drive-two" width="400" height="250"></canvas></div>
+            <div class="chart teamTwo"><canvas id="drive-opp-two" width="400" height="250"></canvas></div>
+            <label class="switchLabel switchBtn" for="otherSwitch">Switch Team</label>
+        </section>
+
         <!-- SRXR bar charts -->
         <h3>SR and XR by Play Type</h3><div class="chart"><canvas id="srxr-play-type" width="400" height="250"></canvas></div>
         <h3>SR and XR by Quarter</h3><div class="chart"><canvas id="srxr-quarter" width="400" height="250"></canvas></div>
         <h3>SR and XR by Down</h3><div class="chart"><canvas id="srxr-down" width="400" height="250"></canvas></div>
+        <h3>SR and XR by Down</h3><div class="chart"><canvas id="srxr-down-two" width="400" height="250"></canvas></div>
         <h3>SR and XR by Red Zone</h3><div class="chart"><canvas id="srxr-red-zone" width="400" height="250"></canvas></div>
         <h3>SR and XR by Distance to Go</h3><div class="chart"><canvas id="srxr-distance" width="400" height="250"></canvas></div>
                
@@ -68,7 +87,9 @@
         <!-- Running the charts -->
         <script>
             let data = '../json/all-games-2022.json';
-            let game = '2022-09-24 USC at Oregon State';
+            let game = '2022-09-24 Vanderbilt at Alabama';
+            let gameTwo = '2022-09-24 Clemson at Wake Forest';
+            let gameThree = '2022-09-24 USC at Oregon State';
             
             // let data2 = '../json/all-games-2.json';
             // let game2 = '2021-11-27 Alabama at Auburn';
@@ -85,17 +106,22 @@
                 // play maps
                 playMap(data,game,'play-map',1,'extra')
                 playMap(data,game,'play-map-opp',2,'extra')
+                playMap(data,gameThree,'play-map-three',1,'extra')
+                playMap(data,gameThree,'play-map-opp-three',2,'extra')
 
                 // bar charts
                 srXrBars(data,game,'srxr-play-type','','play_type')
                 srXrBars(data,game,'srxr-quarter','','quarter')
                 srXrBars(data,game,'srxr-down','','down')
+                srXrBars(data,gameTwo,'srxr-down-two','','down')
                 srXrBars(data,game,'srxr-red-zone','','red_zone')
                 srXrBars(data,game,'srxr-distance','','distance')
                 
                 // drives chart
                 drives(data,game,'drive',1)
                 drives(data,game,'drive-opp',2)
+                drives(data,gameThree,'drive-two',1)
+                drives(data,gameThree,'drive-opp-two',2)
 
                 // player charts
                 players(data,game,'rushers','rusher')
