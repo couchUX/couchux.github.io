@@ -1,0 +1,342 @@
+<head>    
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="shortcut icon" type="image/png" href="../nobo-ico.png"/>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2"></script>
+    <script src="../js/chart-builder-2.js"></script>
+    <script src="../js/patternomaly/dist/patternomaly.js"></script>
+    
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body> 
+    <div id="main">
+        <!-- set the chart container and appropriate id in HTML -->
+        <div class="headline"><h1>2022 Recap Graphs</h1></div>
+        
+        <!-- SR XR by team and game -->
+        <section>
+            <h3>SR and XR by Team</h3>
+            <div class="chart"><canvas id="srxr-team-game" width="400" height="250"></canvas></div>
+        </section>
+
+        <section>
+            <!-- Bar Averages -->
+            <h3>Play Type Averages</h3>
+            <div class="chart"><canvas id="play-type" width="400" height="250"></canvas></div>
+            
+            <h3>Quarter Averages</h3>
+            <div class="chart"><canvas id="quarters" width="400" height="250"></canvas></div>
+            
+            <h3>Red Zone Averages</h3>
+            <div class="chart"><canvas id="red-zone" width="400" height="250"></canvas></div>
+
+            <h3>Distance Averages</h3>
+            <div class="chart"><canvas id="distance" width="400" height="250"></canvas></div>
+
+            <h3>Downs Averages</h3>
+            <div class="chart"><canvas id="downs" width="400" height="250"></canvas></div>
+        </section>
+
+        <section>
+            <!-- Player Totals -->
+            <h3>Passer totals</h3>
+            <div class="chart"><canvas id="passers" width="400" height="250"></canvas></div>
+            
+            <h3>Rusher totals</h3>
+            <div class="chart tall"><canvas id="rushers" width="400" height="400"></canvas></div>
+            
+            <h3>Receiver totals</h3>
+            <div class="chart extra-tall"><canvas id="receivers" width="400" height="250"></canvas></div>
+
+        </section>
+
+        <script>
+            Chart.defaults.plugins.legend.labels.usePointStyle = false;
+            Chart.defaults.plugins.legend.labels.boxWidth = 13;
+
+            
+            // season games SRXR
+            const season = document.getElementById('srxr-team-game');
+            new Chart(season, {
+                type: 'bar',
+                data: { 
+                labels: ['Utah State','Texas','Louisiana Monroe','Vanderbilt','Arkansas','Texas A&M','Tennessee','Mississippi State','LSU','Ole Miss','Austin Peay','Auburn'],
+                datasets: [
+                    {
+                        label: 'Bama XR',
+                        data: [0.19,0.11,0.18,0.22,0.14,0.1,0.16,0.13,0.11,0.04,0.12,0.17],
+                        stack: 1,
+                        backgroundColor: "#5A0000CC",
+                    },   
+                    {
+                        label: 'Bama SR',
+                        data: [0.54,0.41,0.54,0.53,0.45,0.4,0.52,0.33,0.37,0.41,0.56,0.58],
+                        stack: 1,
+                        backgroundColor: "#E82525CC",
+                    },
+                    {
+                        label: 'Vs. XR',
+                        data: [0.02,0.15,0.03,0.04,0.09,0.1,0.12,0.03,0.15,0.1,0.03,0.14,],
+                        stack: 2,
+                        backgroundColor: ['#004080CC','#803500CC','#2E2E2ECC','#404040CC','#B32463CC','#380F0FCC','#804100CC','#4D0D0FCC','#3A1867CC','#005280CC','#082578CC','#143B6BCC'],
+                    },   
+                    {
+                        label: 'Vs. SR',
+                        data: [0.22,0.42,0.3,0.29,0.39,0.32,0.58,0.34,0.45,0.46,0.28,0.42],
+                        stack: 2,
+                        backgroundColor: [ '#258CF4CC','#F47B25CC','#696969CC','#8C8C8CCC','#EB609ECC','#993737CC','#F48E25CC','#BA474BCC','#8450C8CC','#25AAF4CC','#3362E5CC','#4985CFCC'],
+                    },
+                ]
+                },
+                options: {
+                scales: {
+                    y: {
+                    beginAtZero: true,
+                    stacked: false,
+                    max: 1,
+                    }
+                }
+                }
+            });
+
+            // bar chart template
+            const bars = (id,labels,bamaXR,bamaSR,vsXR,vsSR) => {
+                const ctx = document.getElementById(id);
+                new Chart(ctx, {
+                type: 'bar',
+                data: { 
+                    labels: labels,
+                    datasets: [
+                        {
+                            label: 'Bama XR',
+                            data: bamaXR,
+                            stack: 1,
+                            backgroundColor: "#5A0000CC",
+                        },   
+                        {
+                            label: 'Bama SR',
+                            data: bamaSR,
+                            stack: 1,
+                            backgroundColor: "#E82525CC",
+                        },
+                        {
+                            label: 'Vs. XR',
+                            data: vsXR,
+                            stack: 2,
+                            backgroundColor: '#404040CC',
+                        },   
+                        {
+                            label: 'Vs. SR',
+                            data: vsSR,
+                            stack: 2,
+                            backgroundColor: '#8C8C8CCC',
+                        },
+
+
+                    ]
+                },
+                options: {
+                    scales: {
+                    y: {
+                        beginAtZero: true,
+                        stacked: false,
+                        max: 1,
+                    }
+                    }
+                }
+                })
+            };
+
+            bars(
+                    'quarters',
+                    ['1st','2nd','3rd','4th','OT'],
+                    [.18,.14,.09,.14,.00],
+                    [.48,.44,.46,.47,.43],
+                    [.08,.09,.08,.09,1],
+                    [.39,.37,.38,.36,1],
+                )
+            bars(
+                    'red-zone',
+                    ['Other','Red Zone'],
+                    [.17,.02],
+                    [.47,.46],
+                    [.10,.01],
+                    [.38,.42],
+                )
+            bars(
+                    'play-type',
+                    ['Rush','Pass'],
+                    [.09,.19],
+                    [.46,.48],
+                    [.05,.11],
+                    [.4,.34],
+                )
+            bars(
+                    'distance',
+                    ['0-3 yds','3-6 yds','7-9 yds','>=10 yds'],
+                    [0.09,0.14,0.17,0.15],
+                    [0.63,0.48,0.48,0.44],
+                    [0.09,0.05,0.06,0.1],
+                    [0.56,0.37,0.42,0.33],
+                )
+            bars(
+                    'downs',
+                    ['1D','2D','3D','4D'],
+                    [0.12,0.15,0.16,0.04],
+                    [0.47,0.47,0.46,0.5],
+                    [0.09,0.08,0.07,0.06],
+                    [0.4,0.38,0.31,0.28],
+                )
+
+
+            // passers chart
+            const passers = document.getElementById('passers');
+            new Chart(passers, {
+                type: 'bar',
+                data: { 
+                    labels: ['Bryce Young','Jalen Milroe','Ty Simpson'],
+                    datasets: [
+                        {
+                            label: 'Explosive',
+                            data: [73,8,0],
+                            stack: 1,
+                            backgroundColor: "#5A0000CC",
+                            borderColor: "#5A0000CC",
+                            borderWidth: 1,
+                        },   
+                        {
+                            label: 'Successful',
+                            data: [110,13,3],
+                            stack: 1,
+                            backgroundColor: "#E82525CC",
+                            borderColor: "#5A0000CC",
+                            borderWidth: 1,
+                        },
+                        {
+                            label: 'Unsuccessful Catch',
+                            data: [45,10,1],
+                            stack: 1,
+                            backgroundColor: "#E8252528",
+                            borderColor: "#5A0000CC",
+                            borderWidth: 1,
+                        },   
+                        {
+                            label: 'Unsuccessful',
+                            data: [126,18,1],
+                            stack: 1,
+                            backgroundColor: 'white',
+                            borderColor: "#5A0000CC",
+                            borderWidth: 1,
+                        },
+                        {
+                            label: 'Interception',
+                            data: [5,3,0],
+                            stack: 1,
+                            backgroundColor: '#8C8C8CCC',
+                            borderColor: "#5A0000CC",
+                            borderWidth: 1,
+                        },
+                    ]
+                },
+                plugins: [ChartDataLabels],
+                options: {
+                    scales: { 
+                        y: { stacked: true }, 
+                        x: { suggestedMax: 100 } 
+                    },
+                indexAxis: 'y',
+                }
+            })
+
+            // rushers chart
+            const rushers = document.getElementById('rushers');
+            new Chart(rushers, {
+                type: 'bar',
+                data: { 
+                    labels: ['Jahmyr Gibbs','Jase McClellan','Roydell Williams','Bryce Young','Jamarion Miller','Jalen Milroe','Trey Sanders','Jonathan Bennett'],
+                    datasets: [
+                        {
+                            label: 'Explosive',
+                            data: [14,6,1,6,4,5,1,0],
+                            stack: 1,
+                            backgroundColor: "#5A0000CC",
+                            borderColor: "#5A0000CC",
+                            borderWidth: 1,
+                        },   
+                        {
+                            label: 'Successful',
+                            data: [44,44,25,12,9,8,10,1],
+                            stack: 1,
+                            backgroundColor: "#E82525CC",
+                            borderColor: "#5A0000CC",
+                            borderWidth: 1,
+                        },
+                        {
+                            label: 'Unsuccessful',
+                            data: [78,55,25,12,17,14,3,1],
+                            stack: 1,
+                            backgroundColor: 'white',
+                            borderColor: "#5A0000CC",
+                            borderWidth: 1,
+                        },
+                    ]
+                },
+                plugins: [ChartDataLabels],
+                options: {
+                    scales: { 
+                        y: { stacked: true }, 
+                    },
+                indexAxis: 'y',
+                }
+            })
+
+            // receivers chart
+            const receivers = document.getElementById('receivers');
+            new Chart(receivers, {
+                type: 'bar',
+                data: { 
+                    labels: ['Jahmyr Gibbs','Ja\'Corey Brooks','Jermaine Burton','Kobe Prentice','Traeshon Holden','Cameron Latu','Isaiah Bond','Jase McClellan','JoJo Earle','Kendrick Law','Roydell Williams','Robbie Ouzts','Miles Kitselman','Trey Sanders','Tyler Harrell','Amari Niblack','Christian Leary','Emmanuel Henderson Jr.','Jamarion Miller','Thaiu Jones-Bell'],
+                    datasets: [
+                        {
+                            label: 'Explosive',
+                            data: [6,19,15,8,9,8,3,4,4,2,1,1,0,0,0,1,0,0,0,0],
+                            stack: 1,
+                            backgroundColor: "#5A0000CC",
+                            borderColor: "#5A0000CC",
+                            borderWidth: 1,
+                        },   
+                        {
+                            label: 'Successful',
+                            data: [24,13,19,10,13,14,11,4,3,4,2,2,1,2,2,0,0,1,0,1],
+                            stack: 1,
+                            backgroundColor: "#E82525CC",
+                            borderColor: "#5A0000CC",
+                            borderWidth: 1,
+                        },
+                        {
+                            label: 'Unsuccessful',
+                            data: [12,5,3,12,3,2,2,5,4,2,2,1,1,0,0,0,1,0,1,0],
+                            stack: 1,
+                            backgroundColor: '#E8252528',
+                            borderColor: "#5A0000CC",
+                            borderWidth: 1,
+                        },
+                    ]
+                },
+                // plugins: [ChartDataLabels],
+                options: {
+                    scales: { 
+                        y: { stacked: true }, 
+                    },
+                indexAxis: 'y',
+                }
+            })
+
+
+
+        </script>
+
+
+    </div>
+
+</body>

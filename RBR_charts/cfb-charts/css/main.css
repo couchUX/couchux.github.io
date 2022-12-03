@@ -41,6 +41,9 @@ body {
 .chart.short {
   height: 150px;
 }
+.chart.extra-tall {
+  height: 800px;
+}
 #main #playMapOuter {
   margin-bottom: 20px;
 }
