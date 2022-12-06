@@ -16,7 +16,7 @@
         <!-- SR XR by team and game -->
         <section>
             <h3>SR and XR by Team</h3>
-            <div class="chart"><canvas id="srxr-team-game" width="400" height="250"></canvas></div>
+            <div class="chart" style="height: 400px"><canvas id="srxr-team-game" width="400" height="300"></canvas></div>
         </section>
 
         <section>
@@ -30,11 +30,13 @@
             <h3>Red Zone Averages</h3>
             <div class="chart"><canvas id="red-zone" width="400" height="250"></canvas></div>
 
+            <h3>Downs Averages</h3>
+            <div class="chart"><canvas id="downs" width="400" height="250"></canvas></div>
+
             <h3>Distance Averages</h3>
             <div class="chart"><canvas id="distance" width="400" height="250"></canvas></div>
 
-            <h3>Downs Averages</h3>
-            <div class="chart"><canvas id="downs" width="400" height="250"></canvas></div>
+            
         </section>
 
         <section>
@@ -54,6 +56,16 @@
             Chart.defaults.plugins.legend.labels.usePointStyle = false;
             Chart.defaults.plugins.legend.labels.boxWidth = 13;
 
+            const srAvgBarLineLong = () => ({
+                type: 'line',
+                data: [ srAvg, srAvg, srAvg, srAvg, srAvg, srAvg, srAvg, srAvg, srAvg, srAvg, srAvg, srAvg ],
+                label: "NCAA Avg SR",
+                borderColor: '#757575',
+                borderWidth: 2,
+                borderDash: [3,3],
+                pointRadius: 0,
+                datalabels: { labels: { title: null } }
+            });
             
             // season games SRXR
             const season = document.getElementById('srxr-team-game');
@@ -86,15 +98,20 @@
                         stack: 2,
                         backgroundColor: [ '#258CF4CC','#F47B25CC','#696969CC','#8C8C8CCC','#EB609ECC','#993737CC','#F48E25CC','#BA474BCC','#8450C8CC','#25AAF4CC','#3362E5CC','#4985CFCC'],
                     },
+                    srAvgBarLineLong(),
                 ]
                 },
                 options: {
                 scales: {
                     y: {
-                    beginAtZero: true,
-                    stacked: false,
-                    max: 1,
+                        beginAtZero: true,
+                        stacked: false,
+                        max: 1,
+                        ticks: { callback: percentCallback },
                     }
+                },
+                plugins: {
+                    tooltip: tooltipPercents()
                 }
                 }
             });
@@ -131,8 +148,7 @@
                             stack: 2,
                             backgroundColor: '#8C8C8CCC',
                         },
-
-
+                        srAvgBarLineLong(),
                     ]
                 },
                 options: {
@@ -141,12 +157,24 @@
                         beginAtZero: true,
                         stacked: false,
                         max: 1,
+                        ticks: { callback: percentCallback }
                     }
+                    },
+                    plugins: {
+                        tooltip: tooltipPercents()
                     }
                 }
                 })
             };
 
+            bars(
+                    'play-type',
+                    ['Rush','Pass'],
+                    [.09,.19],
+                    [.46,.48],
+                    [.05,.11],
+                    [.4,.34],
+                )
             bars(
                     'quarters',
                     ['1st','2nd','3rd','4th','OT'],
@@ -162,14 +190,6 @@
                     [.47,.46],
                     [.10,.01],
                     [.38,.42],
-                )
-            bars(
-                    'play-type',
-                    ['Rush','Pass'],
-                    [.09,.19],
-                    [.46,.48],
-                    [.05,.11],
-                    [.4,.34],
                 )
             bars(
                     'distance',
