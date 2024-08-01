@@ -1,0 +1,216 @@
+game,chart,team_num,offense,play_num,team_play,text,play_type,quarter,drive,down,red_zone,distance,yards,explosive,successful,uns_catches,uns,int,count,sr,xr,team_sr,team_xr,rr,rusher,passer,receiver,hex,hex_dark,extra_yards,avg_extra_yards
+2024-01-01 Alabama at Michigan,teams,1,Alabama,,,,,,,,,,,6,24,,,,66,0.36,0.09,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-01-01 Alabama at Michigan,teams,2,Michigan,,,,,,,,,,,9,21,,,,59,0.36,0.15,0,0,0,,,,#E9C730CC,#7A6406CC,,0
+2024-01-01 Alabama at Michigan,play_type,1,Alabama,,,,Rush,,,,,,,5,18,,,,37,0.49,0.14,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-01-01 Alabama at Michigan,play_type,2,Michigan,,,,Rush,,,,,,,3,10,,,,31,0.32,0.1,0,0,0,,,,#E9C730CC,#7A6406CC,,0
+2024-01-01 Alabama at Michigan,play_type,1,Alabama,,,,Pass,,,,,,,1,6,,,,29,0.21,0.03,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-01-01 Alabama at Michigan,play_type,2,Michigan,,,,Pass,,,,,,,6,11,,,,28,0.39,0.21,0,0,0,,,,#E9C730CC,#7A6406CC,,0
+2024-01-01 Alabama at Michigan,quarter,1,Alabama,,,,,1Q,,,,,,1,4,,,,10,0.4,0.1,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-01-01 Alabama at Michigan,quarter,1,Alabama,,,,,2Q,,,,,,2,4,,,,15,0.27,0.13,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-01-01 Alabama at Michigan,quarter,1,Alabama,,,,,3Q,,,,,,0,8,,,,18,0.44,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-01-01 Alabama at Michigan,quarter,1,Alabama,,,,,4Q,,,,,,2,7,,,,17,0.41,0.12,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-01-01 Alabama at Michigan,quarter,1,Alabama,,,,,OT,,,,,,1,1,,,,6,0.17,0.17,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-01-01 Alabama at Michigan,quarter,2,Michigan,,,,,1Q,,,,,,2,8,,,,18,0.44,0.11,0,0,0,,,,#E9C730CC,#7A6406CC,,0
+2024-01-01 Alabama at Michigan,quarter,2,Michigan,,,,,2Q,,,,,,2,5,,,,13,0.38,0.15,0,0,0,,,,#E9C730CC,#7A6406CC,,0
+2024-01-01 Alabama at Michigan,quarter,2,Michigan,,,,,3Q,,,,,,0,1,,,,9,0.11,0,0,0,0,,,,#E9C730CC,#7A6406CC,,0
+2024-01-01 Alabama at Michigan,quarter,2,Michigan,,,,,4Q,,,,,,4,5,,,,17,0.29,0.24,0,0,0,,,,#E9C730CC,#7A6406CC,,0
+2024-01-01 Alabama at Michigan,quarter,2,Michigan,,,,,OT,,,,,,1,2,,,,2,1,0.5,0,0,0,,,,#E9C730CC,#7A6406CC,,0
+2024-01-01 Alabama at Michigan,down,1,Alabama,,,,,,,1D,,,,2,10,,,,29,0.34,0.07,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-01-01 Alabama at Michigan,down,1,Alabama,,,,,,,2D,,,,4,11,,,,23,0.48,0.17,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-01-01 Alabama at Michigan,down,1,Alabama,,,,,,,3D,,,,0,3,,,,13,0.23,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-01-01 Alabama at Michigan,down,1,Alabama,,,,,,,4D,,,,0,0,,,,1,0,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-01-01 Alabama at Michigan,down,2,Michigan,,,,,,,1D,,,,4,9,,,,25,0.36,0.16,0,0,0,,,,#E9C730CC,#7A6406CC,,0
+2024-01-01 Alabama at Michigan,down,2,Michigan,,,,,,,2D,,,,3,8,,,,21,0.38,0.14,0,0,0,,,,#E9C730CC,#7A6406CC,,0
+2024-01-01 Alabama at Michigan,down,2,Michigan,,,,,,,3D,,,,1,2,,,,11,0.18,0.09,0,0,0,,,,#E9C730CC,#7A6406CC,,0
+2024-01-01 Alabama at Michigan,down,2,Michigan,,,,,,,4D,,,,1,2,,,,2,1,0.5,0,0,0,,,,#E9C730CC,#7A6406CC,,0
+2024-01-01 Alabama at Michigan,red_zone,1,Alabama,,,,,,,,Other,,,6,23,,,,60,0.38,0.1,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-01-01 Alabama at Michigan,red_zone,1,Alabama,,,,,,,,Red zone,,,0,1,,,,6,0.17,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-01-01 Alabama at Michigan,red_zone,2,Michigan,,,,,,,,Other,,,8,17,,,,54,0.31,0.15,0,0,0,,,,#E9C730CC,#7A6406CC,,0
+2024-01-01 Alabama at Michigan,red_zone,2,Michigan,,,,,,,,Red zone,,,1,4,,,,5,0.8,0.2,0,0,0,,,,#E9C730CC,#7A6406CC,,0
+2024-01-01 Alabama at Michigan,distance,1,Alabama,,,,,,,,,0-3 yds,,0,6,,,,8,0.75,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-01-01 Alabama at Michigan,distance,1,Alabama,,,,,,,,,3-6 yds,,1,3,,,,5,0.6,0.2,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-01-01 Alabama at Michigan,distance,1,Alabama,,,,,,,,,7-9 yds,,1,3,,,,10,0.3,0.1,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-01-01 Alabama at Michigan,distance,1,Alabama,,,,,,,,,>=10 yds,,4,12,,,,43,0.28,0.09,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-01-01 Alabama at Michigan,distance,2,Michigan,,,,,,,,,0-3 yds,,2,4,,,,6,0.67,0.33,0,0,0,,,,#E9C730CC,#7A6406CC,,0
+2024-01-01 Alabama at Michigan,distance,2,Michigan,,,,,,,,,3-6 yds,,1,4,,,,8,0.5,0.13,0,0,0,,,,#E9C730CC,#7A6406CC,,0
+2024-01-01 Alabama at Michigan,distance,2,Michigan,,,,,,,,,7-9 yds,,1,3,,,,12,0.25,0.08,0,0,0,,,,#E9C730CC,#7A6406CC,,0
+2024-01-01 Alabama at Michigan,distance,2,Michigan,,,,,,,,,>=10 yds,,5,10,,,,33,0.3,0.15,0,0,0,,,,#E9C730CC,#7A6406CC,,0
+2024-01-01 Alabama at Michigan,drive,1,Alabama,,,,,,2,,,,,0,0,,,,3,0,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-01-01 Alabama at Michigan,drive,1,Alabama,,,,,,3,,,,,1,4,,,,4,1,0.25,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-01-01 Alabama at Michigan,drive,1,Alabama,,,,,,5,,,,,0,0,,,,3,0,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-01-01 Alabama at Michigan,drive,1,Alabama,,,,,,7,,,,,0,0,,,,3,0,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-01-01 Alabama at Michigan,drive,1,Alabama,,,,,,9,,,,,0,0,,,,3,0,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-01-01 Alabama at Michigan,drive,1,Alabama,,,,,,11,,,,,2,4,,,,9,0.44,0.22,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-01-01 Alabama at Michigan,drive,1,Alabama,,,,,,13,,,,,0,4,,,,9,0.44,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-01-01 Alabama at Michigan,drive,1,Alabama,,,,,,15,,,,,0,0,,,,3,0,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-01-01 Alabama at Michigan,drive,1,Alabama,,,,,,17,,,,,1,6,,,,8,0.75,0.13,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-01-01 Alabama at Michigan,drive,1,Alabama,,,,,,19,,,,,0,1,,,,2,0.5,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-01-01 Alabama at Michigan,drive,1,Alabama,,,,,,21,,,,,1,2,,,,8,0.25,0.13,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-01-01 Alabama at Michigan,drive,1,Alabama,,,,,,23,,,,,0,2,,,,5,0.4,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-01-01 Alabama at Michigan,drive,1,Alabama,,,,,,26,,,,,1,1,,,,6,0.17,0.17,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-01-01 Alabama at Michigan,drive,2,Michigan,,,,,,1,,,,,0,0,,,,3,0,0,0,0,0,,,,#E9C730CC,#7A6406CC,,0
+2024-01-01 Alabama at Michigan,drive,2,Michigan,,,,,,4,,,,,2,6,,,,10,0.6,0.2,0,0,0,,,,#E9C730CC,#7A6406CC,,0
+2024-01-01 Alabama at Michigan,drive,2,Michigan,,,,,,6,,,,,0,2,,,,6,0.33,0,0,0,0,,,,#E9C730CC,#7A6406CC,,0
+2024-01-01 Alabama at Michigan,drive,2,Michigan,,,,,,8,,,,,0,0,,,,3,0,0,0,0,0,,,,#E9C730CC,#7A6406CC,,0
+2024-01-01 Alabama at Michigan,drive,2,Michigan,,,,,,10,,,,,2,5,,,,8,0.63,0.25,0,0,0,,,,#E9C730CC,#7A6406CC,,0
+2024-01-01 Alabama at Michigan,drive,2,Michigan,,,,,,12,,,,,0,0,,,,1,0,0,0,0,0,,,,#E9C730CC,#7A6406CC,,0
+2024-01-01 Alabama at Michigan,drive,2,Michigan,,,,,,14,,,,,0,1,,,,6,0.17,0,0,0,0,,,,#E9C730CC,#7A6406CC,,0
+2024-01-01 Alabama at Michigan,drive,2,Michigan,,,,,,16,,,,,0,0,,,,3,0,0,0,0,0,,,,#E9C730CC,#7A6406CC,,0
+2024-01-01 Alabama at Michigan,drive,2,Michigan,,,,,,18,,,,,0,0,,,,3,0,0,0,0,0,,,,#E9C730CC,#7A6406CC,,0
+2024-01-01 Alabama at Michigan,drive,2,Michigan,,,,,,20,,,,,1,1,,,,4,0.25,0.25,0,0,0,,,,#E9C730CC,#7A6406CC,,0
+2024-01-01 Alabama at Michigan,drive,2,Michigan,,,,,,22,,,,,3,4,,,,8,0.5,0.38,0,0,0,,,,#E9C730CC,#7A6406CC,,0
+2024-01-01 Alabama at Michigan,drive,2,Michigan,,,,,,24,,,,,0,0,,,,2,0,0,0,0,0,,,,#E9C730CC,#7A6406CC,,0
+2024-01-01 Alabama at Michigan,drive,2,Michigan,,,,,,25,,,,,1,2,,,,2,1,0.5,0,0,0,,,,#E9C730CC,#7A6406CC,,0
+2024-01-01 Alabama at Michigan,rusher,1,Alabama,,,,,,,,,,,3,5,,7,,,0,0,0,0,0,Jalen Milroe,,,#E82525CC,#5A0000CC,,0
+2024-01-01 Alabama at Michigan,rusher,1,Alabama,,,,,,,,,,,2,4,,8,,,0,0,0,0,0,Jase McClellan,,,#E82525CC,#5A0000CC,,0
+2024-01-01 Alabama at Michigan,rusher,1,Alabama,,,,,,,,,,,0,3,,1,,,0,0,0,0,0,Justice Haynes,,,#E82525CC,#5A0000CC,,0
+2024-01-01 Alabama at Michigan,rusher,1,Alabama,,,,,,,,,,,0,1,,0,,,0,0,0,0,0,Jam Miller,,,#E82525CC,#5A0000CC,,0
+2024-01-01 Alabama at Michigan,rusher,1,Alabama,,,,,,,,,,,0,0,,1,,,0,0,0,0,0,Roydell Williams,,,#E82525CC,#5A0000CC,,0
+2024-01-01 Alabama at Michigan,rusher,2,Michigan,,,,,,,,,,,2,5,,12,,,0,0,0,0,0,Blake Corum,,,#E9C730CC,#7A6406CC,,0
+2024-01-01 Alabama at Michigan,rusher,2,Michigan,,,,,,,,,,,0,1,,3,,,0,0,0,0,0,Donovan Edwards,,,#E9C730CC,#7A6406CC,,0
+2024-01-01 Alabama at Michigan,rusher,2,Michigan,,,,,,,,,,,0,1,,0,,,0,0,0,0,0,Semaj Morgan,,,#E9C730CC,#7A6406CC,,0
+2024-01-01 Alabama at Michigan,rusher,2,Michigan,,,,,,,,,,,1,0,,2,,,0,0,0,0,0,J.J. McCarthy,,,#E9C730CC,#7A6406CC,,0
+2024-01-01 Alabama at Michigan,rusher,2,Michigan,,,,,,,,,,,0,0,,1,,,0,0,0,0,0,Alex Orji,,,#E9C730CC,#7A6406CC,,0
+2024-01-01 Alabama at Michigan,rusher,2,Michigan,,,,,,,,,,,0,0,,1,,,0,0,0,0,0,Kalel Mullings,,,#E9C730CC,#7A6406CC,,0
+2024-01-01 Alabama at Michigan,passer,1,Alabama,,,,,,,,,,,1,5,10,7,0,,0,0,0,0,0,,Jalen Milroe,,#E82525CC,#5A0000CC,,0
+2024-01-01 Alabama at Michigan,passer,2,Michigan,,,,,,,,,,,6,5,6,10,0,,0,0,0,0,0,,J.J. McCarthy,,#E9C730CC,#7A6406CC,,0
+2024-01-01 Alabama at Michigan,receiver,1,Alabama,,,,,,,,,,,1,2,1,0,,,0,0,0,0,0,,,Isaiah Bond,#E82525CC,#5A0000CC,,0
+2024-01-01 Alabama at Michigan,receiver,1,Alabama,,,,,,,,,,,0,1,1,0,,,0,0,0,0,0,,,Jase McClellan,#E82525CC,#5A0000CC,,0
+2024-01-01 Alabama at Michigan,receiver,1,Alabama,,,,,,,,,,,0,1,0,0,,,0,0,0,0,0,,,Amari Niblack,#E82525CC,#5A0000CC,,0
+2024-01-01 Alabama at Michigan,receiver,1,Alabama,,,,,,,,,,,0,1,0,0,,,0,0,0,0,0,,,Kobe Prentice,#E82525CC,#5A0000CC,,0
+2024-01-01 Alabama at Michigan,receiver,1,Alabama,,,,,,,,,,,0,0,4,0,,,0,0,0,0,0,,,Jermaine Burton,#E82525CC,#5A0000CC,,0
+2024-01-01 Alabama at Michigan,receiver,1,Alabama,,,,,,,,,,,0,0,2,0,,,0,0,0,0,0,,,CJ Dippre,#E82525CC,#5A0000CC,,0
+2024-01-01 Alabama at Michigan,receiver,1,Alabama,,,,,,,,,,,0,0,1,0,,,0,0,0,0,0,,,Jam Miller,#E82525CC,#5A0000CC,,0
+2024-01-01 Alabama at Michigan,receiver,1,Alabama,,,,,,,,,,,0,0,1,0,,,0,0,0,0,0,,,Kendrick Law,#E82525CC,#5A0000CC,,0
+2024-01-01 Alabama at Michigan,receiver,2,Michigan,,,,,,,,,,,3,1,0,0,,,0,0,0,0,0,,,Roman Wilson,#E9C730CC,#7A6406CC,,0
+2024-01-01 Alabama at Michigan,receiver,2,Michigan,,,,,,,,,,,1,1,0,0,,,0,0,0,0,0,,,Blake Corum,#E9C730CC,#7A6406CC,,0
+2024-01-01 Alabama at Michigan,receiver,2,Michigan,,,,,,,,,,,0,1,3,0,,,0,0,0,0,0,,,Semaj Morgan,#E9C730CC,#7A6406CC,,0
+2024-01-01 Alabama at Michigan,receiver,2,Michigan,,,,,,,,,,,0,1,1,0,,,0,0,0,0,0,,,Colston Loveland,#E9C730CC,#7A6406CC,,0
+2024-01-01 Alabama at Michigan,receiver,2,Michigan,,,,,,,,,,,0,1,1,0,,,0,0,0,0,0,,,Cornelius Johnson,#E9C730CC,#7A6406CC,,0
+2024-01-01 Alabama at Michigan,receiver,2,Michigan,,,,,,,,,,,1,0,1,0,,,0,0,0,0,0,,,Tyler Morris,#E9C730CC,#7A6406CC,,0
+2024-01-01 Alabama at Michigan,receiver,2,Michigan,,,,,,,,,,,1,0,0,0,,,0,0,0,0,0,,,Kalel Mullings,#E9C730CC,#7A6406CC,,0
+2024-01-01 Alabama at Michigan,plays,2,Michigan,1,1,J.J. McCarthy pass incomplete to Cornelius Johnson,Pass,1,,1,Other,10,0,0,0,,,,,0,0,0,0,0,,J.J. McCarthy,,#E9C730CC,#7A6406CC,-5,-5
+2024-01-01 Alabama at Michigan,plays,2,Michigan,2,2,J.J. McCarthy pass complete to Semaj Morgan for 2 yds to the MICH 27,Pass,1,,2,Other,10,2,0,0,,,,,0,0,0,0,0,,J.J. McCarthy,Semaj Morgan,#E9C730CC,#7A6406CC,-5,-5
+2024-01-01 Alabama at Michigan,plays,2,Michigan,3,3,J.J. McCarthy pass incomplete to AJ Barner,Pass,1,,3,Other,8,0,0,0,,,,,0,0,0,0,0,,J.J. McCarthy,,#E9C730CC,#7A6406CC,-8,-6
+2024-01-01 Alabama at Michigan,plays,1,Alabama,4,1,Jalen Milroe sacked by Braiden McGregor for a loss of 13 yards to the ALA 24,Pass,1,,1,Other,10,-13,0,0,,,,,0,0,0,0,0,,,,#E82525CC,#5A0000CC,-18,-18
+2024-01-01 Alabama at Michigan,plays,1,Alabama,5,2,Jalen Milroe pass complete to CJ Dippre for 11 yds to the ALA 35,Pass,1,,2,Other,23,11,0,0,,,,,0,0,0,0,0,,Jalen Milroe,CJ Dippre,#E82525CC,#5A0000CC,-5.1,-11.55
+2024-01-01 Alabama at Michigan,plays,1,Alabama,6,3,Jalen Milroe sacked by Josaiah Stewart for a loss of 11 yards to the ALA 24,Pass,1,,3,Other,12,-11,0,0,,,,,0,0,0,0,0,,,,#E82525CC,#5A0000CC,-23,-15.37
+2024-01-01 Alabama at Michigan,plays,1,Alabama,7,4,Jase McClellan run for 6 yds to the MICH 38,Rush,1,,1,Other,10,6,0,1,,,,,1,0,0.25,0,0.25,Jase McClellan,,,#E82525CC,#5A0000CC,1,-11.28
+2024-01-01 Alabama at Michigan,plays,1,Alabama,8,5,Jalen Milroe run for 3 yds to the MICH 35,Rush,1,,2,Other,4,3,0,1,,,,,1,0,0.4,0,0.4,Jalen Milroe,,,#E82525CC,#5A0000CC,0.2,-8.98
+2024-01-01 Alabama at Michigan,plays,1,Alabama,9,6,Jalen Milroe run for 1 yd to the MICH 34 for a 1ST down,Rush,1,,3,Other,1,1,0,1,,,,,1,0,0.5,0,0.5,Jalen Milroe,,,#E82525CC,#5A0000CC,0,-7.48
+2024-01-01 Alabama at Michigan,plays,1,Alabama,10,7,Jase McClellan 34 yd run (Will Reichard Kick),Rush,1,,1,Other,10,34,1,1,,,,,1,0.25,0.57,0.14,0.57,Jase McClellan,,,#E82525CC,#5A0000CC,29,-2.27
+2024-01-01 Alabama at Michigan,plays,2,Michigan,11,4,Blake Corum run for 6 yds to the MICH 31,Rush,1,,1,Other,10,6,0,1,,,,,1,0,0.25,0,0.25,Blake Corum,,,#E9C730CC,#7A6406CC,1,-4.25
+2024-01-01 Alabama at Michigan,plays,2,Michigan,12,5,Blake Corum run for 21 yds to the ALA 48 for a 1ST down,Rush,1,,2,Other,4,21,1,1,,,,,1,0.5,0.4,0.2,0.4,Blake Corum,,,#E9C730CC,#7A6406CC,18.2,0.24
+2024-01-01 Alabama at Michigan,plays,2,Michigan,13,6,J.J. McCarthy pass incomplete to AJ Barner,Pass,1,,1,Other,10,0,0,0,,,,,0,0,0.33,0.17,0.33,,J.J. McCarthy,,#E9C730CC,#7A6406CC,-5,-0.63
+2024-01-01 Alabama at Michigan,plays,2,Michigan,14,7,J.J. McCarthy pass complete to Colston Loveland for 2 yds to the ALA 46,Pass,1,,2,Other,10,2,0,0,,,,,0,0,0.29,0.14,0.29,,J.J. McCarthy,Colston Loveland,#E9C730CC,#7A6406CC,-5,-1.26
+2024-01-01 Alabama at Michigan,plays,2,Michigan,15,8,J.J. McCarthy run for 7 yds to the ALA 39,Rush,1,,3,Other,8,7,0,0,,,,,0.67,0.33,0.25,0.13,0.38,J.J. McCarthy,,,#E9C730CC,#7A6406CC,-1,-1.23
+2024-01-01 Alabama at Michigan,plays,2,Michigan,16,9,Blake Corum run for 4 yds to the ALA 35 for a 1ST down,Rush,1,,4,Other,1,4,0,1,,,,,0.75,0.25,0.33,0.11,0.44,Blake Corum,,,#E9C730CC,#7A6406CC,3,-0.76
+2024-01-01 Alabama at Michigan,plays,2,Michigan,17,10,Blake Corum run for 2 yds to the ALA 33,Rush,1,,1,Other,10,2,0,0,,,,,0.6,0.2,0.3,0.1,0.5,Blake Corum,,,#E9C730CC,#7A6406CC,-3,-0.98
+2024-01-01 Alabama at Michigan,plays,2,Michigan,18,11,J.J. McCarthy pass complete to Kalel Mullings for 19 yds to the ALA 14 for a 1ST down,Pass,1,,2,Other,8,19,1,1,,,,,0.17,0.17,0.36,0.18,0.45,,J.J. McCarthy,Kalel Mullings,#E9C730CC,#7A6406CC,13.4,0.33
+2024-01-01 Alabama at Michigan,plays,2,Michigan,19,12,Semaj Morgan run for 6 yds to the ALA 8,Rush,1,,1,Red zone,10,6,0,1,,,,,0.67,0.17,0.42,0.17,0.5,Semaj Morgan,,,#E9C730CC,#7A6406CC,1,0.38
+2024-01-01 Alabama at Michigan,plays,2,Michigan,20,13,Blake Corum 8 Yd pass from J.J. McCarthy (James Turner Kick),Pass,1,,2,Red zone,4,8,0,1,,,,,0.29,0.14,0.46,0.15,0.46,,J.J. McCarthy,Blake Corum,#E9C730CC,#7A6406CC,5.2,0.75
+2024-01-01 Alabama at Michigan,plays,1,Alabama,21,8,Roydell Williams run for a loss of 1 yard to the ALA 24,Rush,1,,1,Other,10,-1,0,0,,,,,0.8,0.2,0.5,0.13,0.63,Roydell Williams,,,#E82525CC,#5A0000CC,-6,-2.74
+2024-01-01 Alabama at Michigan,plays,1,Alabama,22,9,Jalen Milroe pass incomplete to Kendrick Law,Pass,1,,2,Other,11,0,0,0,,,,,0,0,0.44,0.11,0.56,,Jalen Milroe,,#E82525CC,#5A0000CC,-7.7,-3.29
+2024-01-01 Alabama at Michigan,plays,1,Alabama,23,10,Jalen Milroe run for 8 yds to the ALA 32,Rush,1,,3,Other,11,8,0,0,,,,,0.67,0.17,0.4,0.1,0.6,Jalen Milroe,,,#E82525CC,#5A0000CC,-3,-3.26
+2024-01-01 Alabama at Michigan,plays,2,Michigan,24,14,Blake Corum run for 4 yds to the MICH 23,Rush,1,,1,Other,10,4,0,0,,,,,0.57,0.14,0.43,0.14,0.5,Blake Corum,,,#E9C730CC,#7A6406CC,-1,0.63
+2024-01-01 Alabama at Michigan,plays,2,Michigan,25,15,J.J. McCarthy pass complete to Semaj Morgan for 7 yds to the MICH 30 for a 1ST down,Pass,1,,2,Other,6,7,0,1,,,,,0.38,0.13,0.47,0.13,0.47,,J.J. McCarthy,Semaj Morgan,#E9C730CC,#7A6406CC,2.8,0.77
+2024-01-01 Alabama at Michigan,plays,2,Michigan,26,16,Donovan Edwards run for 8 yds to the MICH 38,Rush,1,,1,Other,10,8,0,1,,,,,0.63,0.13,0.5,0.13,0.5,Donovan Edwards,,,#E9C730CC,#7A6406CC,3,0.91
+2024-01-01 Alabama at Michigan,plays,2,Michigan,27,17,"Kalel Mullings run for 6 yds to the MICH 44 Michigan Penalty, Personal Foul (-15 Yards) to the MICH 29",Rush,1,,2,Other,2,-9,0,0,,,,,0.56,0.11,0.47,0.12,0.53,Kalel Mullings,,,#E9C730CC,#7A6406CC,-10.4,0.25
+2024-01-01 Alabama at Michigan,plays,2,Michigan,28,18,J.J. McCarthy run for 2 yds to the MICH 31,Rush,1,,2,Other,11,2,0,0,,,,,0.5,0.1,0.44,0.11,0.56,J.J. McCarthy,,,#E9C730CC,#7A6406CC,-5.7,-0.08
+2024-01-01 Alabama at Michigan,plays,2,Michigan,29,19,J.J. McCarthy pass complete to Semaj Morgan for 8 yds to the MICH 39,Pass,2,,3,Other,9,8,0,0,,,,,0.33,0.11,0.42,0.11,0.53,,J.J. McCarthy,Semaj Morgan,#E9C730CC,#7A6406CC,-1,-0.13
+2024-01-01 Alabama at Michigan,plays,1,Alabama,30,11,Jalen Milroe sacked by Michael Barrett for a loss of 8 yards to the ALA 16,Pass,2,,1,Other,10,-8,0,0,,,,,0,0,0.36,0.09,0.55,,,,#E82525CC,#5A0000CC,-13,-4.15
+2024-01-01 Alabama at Michigan,plays,1,Alabama,31,12,Jalen Milroe sacked by Kris Jenkins for a loss of 5 yards to the ALA 11,Pass,2,,2,Other,18,-5,0,0,,,,,0,0,0.33,0.08,0.5,,,,#E82525CC,#5A0000CC,-17.6,-5.27
+2024-01-01 Alabama at Michigan,plays,1,Alabama,32,13,Jalen Milroe run for 12 yds to the ALA 23,Rush,2,,3,Other,23,12,0,0,,,,,0.57,0.14,0.31,0.08,0.54,Jalen Milroe,,,#E82525CC,#5A0000CC,-11,-5.71
+2024-01-01 Alabama at Michigan,plays,2,Michigan,33,20,Alex Orji run for 4 yds to the MICH 34,Rush,2,,1,Other,10,4,0,0,,,,,0.45,0.09,0.4,0.1,0.55,Alex Orji,,,#E9C730CC,#7A6406CC,-1,-0.18
+2024-01-01 Alabama at Michigan,plays,2,Michigan,34,21,J.J. McCarthy pass incomplete to Cornelius Johnson,Pass,2,,2,Other,6,0,0,0,,,,,0.3,0.1,0.38,0.1,0.52,,J.J. McCarthy,,#E9C730CC,#7A6406CC,-4.2,-0.37
+2024-01-01 Alabama at Michigan,plays,2,Michigan,35,22,J.J. McCarthy pass incomplete to Roman Wilson,Pass,2,,3,Other,6,0,0,0,,,,,0.27,0.09,0.36,0.09,0.5,,J.J. McCarthy,,#E9C730CC,#7A6406CC,-6,-0.62
+2024-01-01 Alabama at Michigan,plays,1,Alabama,36,14,Jase McClellan run for 3 yds to the ALA 33,Rush,2,,1,Other,10,3,0,0,,,,,0.5,0.13,0.29,0.07,0.57,Jase McClellan,,,#E82525CC,#5A0000CC,-2,-5.44
+2024-01-01 Alabama at Michigan,plays,1,Alabama,37,15,Jase McClellan run for a loss of 2 yards to the ALA 31,Rush,2,,2,Other,7,-2,0,0,,,,,0.44,0.11,0.27,0.07,0.6,Jase McClellan,,,#E82525CC,#5A0000CC,-6.9,-5.54
+2024-01-01 Alabama at Michigan,plays,1,Alabama,38,16,Jalen Milroe run for 1 yd to the ALA 32,Rush,2,,3,Other,9,1,0,0,,,,,0.4,0.1,0.25,0.06,0.63,Jalen Milroe,,,#E82525CC,#5A0000CC,-8,-5.69
+2024-01-01 Alabama at Michigan,plays,2,Michigan,39,23,Blake Corum run for 8 yds to the MICH 25,Rush,2,,1,Other,10,8,0,1,,,,,0.5,0.08,0.39,0.09,0.52,Blake Corum,,,#E9C730CC,#7A6406CC,3,-0.47
+2024-01-01 Alabama at Michigan,plays,2,Michigan,40,24,Blake Corum run for 4 yds to the MICH 29 for a 1ST down,Rush,2,,2,Other,2,4,0,1,,,,,0.54,0.08,0.42,0.08,0.54,Blake Corum,,,#E9C730CC,#7A6406CC,2.6,-0.34
+2024-01-01 Alabama at Michigan,plays,2,Michigan,41,25,Blake Corum run for 2 yds to the MICH 31,Rush,2,,1,Other,10,2,0,0,,,,,0.5,0.07,0.4,0.08,0.56,Blake Corum,,,#E9C730CC,#7A6406CC,-3,-0.44
+2024-01-01 Alabama at Michigan,plays,2,Michigan,42,26,J.J. McCarthy pass complete to Colston Loveland for 11 yds to the MICH 42 for a 1ST down,Pass,2,,2,Other,8,11,0,1,,,,,0.33,0.08,0.42,0.08,0.54,,J.J. McCarthy,Colston Loveland,#E9C730CC,#7A6406CC,5.4,-0.22
+2024-01-01 Alabama at Michigan,plays,2,Michigan,43,27,J.J. McCarthy pass complete to Roman Wilson for 20 yds to the ALA 38 for a 1ST down,Pass,2,,1,Other,10,20,1,1,,,,,0.38,0.15,0.44,0.11,0.52,,J.J. McCarthy,Roman Wilson,#E9C730CC,#7A6406CC,15,0.34
+2024-01-01 Alabama at Michigan,plays,2,Michigan,44,28,Blake Corum run for no gain to the ALA 38,Rush,2,,1,Other,10,0,0,0,,,,,0.47,0.07,0.43,0.11,0.54,Blake Corum,,,#E9C730CC,#7A6406CC,-5,0.15
+2024-01-01 Alabama at Michigan,plays,2,Michigan,45,29,Donovan Edwards run for no gain to the ALA 38,Rush,2,,2,Other,10,0,0,0,,,,,0.44,0.06,0.41,0.1,0.55,Donovan Edwards,,,#E9C730CC,#7A6406CC,-7,-0.09
+2024-01-01 Alabama at Michigan,plays,2,Michigan,46,30,Tyler Morris 38 Yd pass from J.J. McCarthy (PAT failed),Pass,2,,3,Other,10,38,1,1,,,,,0.43,0.21,0.43,0.13,0.53,,J.J. McCarthy,Tyler Morris,#E9C730CC,#7A6406CC,28,0.84
+2024-01-01 Alabama at Michigan,plays,1,Alabama,47,17,Jalen Milroe pass complete to Isaiah Bond for 29 yds to the ALA 45 for a 1ST down,Pass,2,,1,Other,10,29,1,1,,,,,0.14,0.14,0.29,0.12,0.59,,Jalen Milroe,Isaiah Bond,#E82525CC,#5A0000CC,24,-3.95
+2024-01-01 Alabama at Michigan,plays,1,Alabama,48,18,Jalen Milroe pass incomplete to Jermaine Burton,Pass,2,,1,Other,10,0,0,0,,,,,0.13,0.13,0.28,0.11,0.56,,Jalen Milroe,,#E82525CC,#5A0000CC,-5,-4.01
+2024-01-01 Alabama at Michigan,plays,1,Alabama,49,19,Jalen Milroe pass complete to Jermaine Burton for 6 yds to the MICH 49,Pass,2,,2,Other,10,6,0,0,,,,,0.11,0.11,0.26,0.11,0.53,,Jalen Milroe,Jermaine Burton,#E82525CC,#5A0000CC,-1,-3.85
+2024-01-01 Alabama at Michigan,plays,1,Alabama,50,20,Jase McClellan run for 5 yds to the MICH 44 for a 1ST down,Rush,2,,3,Other,4,5,0,1,,,,,0.45,0.09,0.3,0.1,0.55,Jase McClellan,,,#E82525CC,#5A0000CC,1,-3.61
+2024-01-01 Alabama at Michigan,plays,1,Alabama,51,21,Jalen Milroe pass incomplete to Kendrick Law,Pass,2,,1,Other,15,0,0,0,,,,,0.1,0.1,0.29,0.1,0.52,,Jalen Milroe,,#E82525CC,#5A0000CC,-7.5,-3.79
+2024-01-01 Alabama at Michigan,plays,1,Alabama,52,22,Jalen Milroe run for 17 yds to the MICH 32 for a 1ST down,Rush,2,,2,Other,15,17,1,1,,,,,0.5,0.17,0.32,0.14,0.55,Jalen Milroe,,,#E82525CC,#5A0000CC,6.5,-3.32
+2024-01-01 Alabama at Michigan,plays,1,Alabama,53,23,Jalen Milroe pass complete to Amari Niblack for 6 yds to the MICH 26,Pass,2,,1,Other,10,6,0,1,,,,,0.18,0.09,0.35,0.13,0.52,,Jalen Milroe,Amari Niblack,#E82525CC,#5A0000CC,1,-3.13
+2024-01-01 Alabama at Michigan,plays,1,Alabama,54,24,Jalen Milroe pass complete to Isaiah Bond for 1 yd to the MICH 25,Pass,2,,2,Other,4,1,0,0,,,,,0.17,0.08,0.33,0.13,0.5,,Jalen Milroe,Isaiah Bond,#E82525CC,#5A0000CC,-1.8,-3.08
+2024-01-01 Alabama at Michigan,plays,1,Alabama,55,25,Jalen Milroe sacked by Derrick Moore for a loss of 7 yards to the MICH 32,Pass,2,,3,Other,3,-7,0,0,,,,,0.15,0.08,0.32,0.12,0.48,,,,#E82525CC,#5A0000CC,-10,-3.36
+2024-01-01 Alabama at Michigan,plays,2,Michigan,56,31,TEAM run for a loss of 2 yards to the MICH 23,Rush,2,,1,Other,10,-2,0,0,,,,,0.41,0.06,0.42,0.13,0.55,TEAM,,,#E9C730CC,#7A6406CC,-7,0.59
+2024-01-01 Alabama at Michigan,plays,1,Alabama,57,26,Jalen Milroe pass complete to Jam Miller for 2 yds to the ALA 16,Pass,3,,1,Other,10,2,0,0,,,,,0.14,0.07,0.31,0.12,0.46,,Jalen Milroe,Jam Miller,#E82525CC,#5A0000CC,-3,-3.34
+2024-01-01 Alabama at Michigan,plays,1,Alabama,58,27,Justice Haynes run for 9 yds to the ALA 25 for a 1ST down,Rush,3,,2,Other,8,9,0,1,,,,,0.54,0.15,0.33,0.11,0.48,Justice Haynes,,,#E82525CC,#5A0000CC,3.4,-3.09
+2024-01-01 Alabama at Michigan,plays,1,Alabama,59,28,Jalen Milroe pass incomplete to Isaiah Bond,Pass,3,,1,Other,10,0,0,0,,,,,0.13,0.07,0.32,0.11,0.46,,Jalen Milroe,,#E82525CC,#5A0000CC,-5,-3.16
+2024-01-01 Alabama at Michigan,plays,1,Alabama,60,29,Justice Haynes run for 11 yds to the ALA 36 for a 1ST down,Rush,3,,2,Other,10,11,0,1,,,,,0.57,0.14,0.34,0.1,0.48,Justice Haynes,,,#E82525CC,#5A0000CC,4,-2.91
+2024-01-01 Alabama at Michigan,plays,1,Alabama,61,30,Jalen Milroe pass complete to Isaiah Bond for 8 yds to the ALA 44,Pass,3,,1,Other,10,8,0,1,,,,,0.19,0.06,0.37,0.1,0.47,,Jalen Milroe,Isaiah Bond,#E82525CC,#5A0000CC,3,-2.72
+2024-01-01 Alabama at Michigan,plays,1,Alabama,62,31,Jase McClellan run for 9 yds to the MICH 47 for a 1ST down,Rush,3,,2,Other,2,9,0,1,,,,,0.6,0.13,0.39,0.1,0.48,Jase McClellan,,,#E82525CC,#5A0000CC,7.6,-2.38
+2024-01-01 Alabama at Michigan,plays,1,Alabama,63,32,"TEAM run for a loss of 13 yards to the ALA 40 TEAM fumbled, recovered by ALA Jalen Milroe",Rush,3,,1,Other,10,-13,0,0,,,,,0.56,0.13,0.38,0.09,0.5,TEAM,,,#E82525CC,#5A0000CC,-18,-2.87
+2024-01-01 Alabama at Michigan,plays,1,Alabama,64,33,"TEAM run for a loss of 6 yards to the ALA 34 TEAM fumbled, recovered by ALA Jalen Milroe",Rush,3,,2,Other,23,-6,0,0,,,,,0.53,0.12,0.36,0.09,0.52,TEAM,,,#E82525CC,#5A0000CC,-22.1,-3.45
+2024-01-01 Alabama at Michigan,plays,1,Alabama,65,34,Jase McClellan run for 7 yds to the ALA 41,Rush,3,,3,Other,29,7,0,0,,,,,0.5,0.11,0.35,0.09,0.53,Jase McClellan,,,#E82525CC,#5A0000CC,-22,-4
+2024-01-01 Alabama at Michigan,plays,2,Michigan,66,32,Blake Corum run for no gain to the MICH 13,Rush,3,,1,Other,10,0,0,0,,,,,0.39,0.06,0.41,0.13,0.56,Blake Corum,,,#E9C730CC,#7A6406CC,-5,0.42
+2024-01-01 Alabama at Michigan,plays,2,Michigan,67,33,Donovan Edwards run for 1 yd to the MICH 14,Rush,3,,2,Other,10,1,0,0,,,,,0.37,0.05,0.39,0.12,0.58,Donovan Edwards,,,#E9C730CC,#7A6406CC,-6,0.22
+2024-01-01 Alabama at Michigan,plays,2,Michigan,68,34,J.J. McCarthy pass complete to Cornelius Johnson for 12 yds to the MICH 26 for a 1ST down,Pass,3,,3,Other,9,12,0,1,,,,,0.47,0.2,0.41,0.12,0.56,,J.J. McCarthy,Cornelius Johnson,#E9C730CC,#7A6406CC,3,0.3
+2024-01-01 Alabama at Michigan,plays,2,Michigan,69,35,Blake Corum run for 3 yds to the MICH 29,Rush,3,,1,Other,10,3,0,0,,,,,0.35,0.05,0.4,0.11,0.57,Blake Corum,,,#E9C730CC,#7A6406CC,-2,0.24
+2024-01-01 Alabama at Michigan,plays,2,Michigan,70,36,Alex Orji sacked by Dallas Turner for a loss of 2 yards to the MICH 27,Pass,3,,2,Other,7,-2,0,0,,,,,0.44,0.19,0.39,0.11,0.56,,,,#E9C730CC,#7A6406CC,-6.9,0.04
+2024-01-01 Alabama at Michigan,plays,2,Michigan,71,37,J.J. McCarthy pass complete to Tyler Morris for 7 yds to the MICH 34,Pass,3,,3,Other,9,7,0,0,,,,,0.41,0.18,0.38,0.11,0.54,,J.J. McCarthy,Tyler Morris,#E9C730CC,#7A6406CC,-2,-0.02
+2024-01-01 Alabama at Michigan,plays,1,Alabama,72,35,Jase McClellan run for 3 yds to the ALA 24,Rush,3,,1,Other,10,3,0,0,,,,,0.47,0.11,0.34,0.09,0.54,Jase McClellan,,,#E82525CC,#5A0000CC,-2,-3.94
+2024-01-01 Alabama at Michigan,plays,1,Alabama,73,36,Jase McClellan run for 3 yds to the ALA 27,Rush,3,,2,Other,7,3,0,0,,,,,0.45,0.1,0.33,0.08,0.56,Jase McClellan,,,#E82525CC,#5A0000CC,-1.9,-3.89
+2024-01-01 Alabama at Michigan,plays,1,Alabama,74,37,Jalen Milroe pass incomplete to Jam Miller,Pass,3,,3,Other,4,0,0,0,,,,,0.18,0.06,0.32,0.08,0.54,,Jalen Milroe,,#E82525CC,#5A0000CC,-4,-3.89
+2024-01-01 Alabama at Michigan,plays,2,Michigan,75,38,J.J. McCarthy pass incomplete to AJ Barner,Pass,3,,1,Other,10,0,0,0,,,,,0.39,0.17,0.37,0.11,0.53,,J.J. McCarthy,,#E9C730CC,#7A6406CC,-5,-0.15
+2024-01-01 Alabama at Michigan,plays,2,Michigan,76,39,Donovan Edwards run for 2 yds to the MICH 13,Rush,3,,2,Other,10,2,0,0,,,,,0.33,0.05,0.36,0.1,0.54,Donovan Edwards,,,#E9C730CC,#7A6406CC,-5,-0.27
+2024-01-01 Alabama at Michigan,plays,2,Michigan,77,40,J.J. McCarthy pass incomplete to Semaj Morgan,Pass,3,,3,Other,8,0,0,0,,,,,0.37,0.16,0.35,0.1,0.53,,J.J. McCarthy,,#E9C730CC,#7A6406CC,-8,-0.47
+2024-01-01 Alabama at Michigan,plays,1,Alabama,78,38,Jalen Milroe run for 9 yds to the MICH 46,Rush,3,,1,Other,10,9,0,1,,,,,0.48,0.1,0.34,0.08,0.55,Jalen Milroe,,,#E82525CC,#5A0000CC,4,-3.68
+2024-01-01 Alabama at Michigan,plays,1,Alabama,79,39,Justice Haynes run for 8 yds to the MICH 38 for a 1ST down,Rush,3,,2,Other,1,8,0,1,,,,,0.5,0.09,0.36,0.08,0.56,Justice Haynes,,,#E82525CC,#5A0000CC,7.3,-3.4
+2024-01-01 Alabama at Michigan,plays,1,Alabama,80,40,Jalen Milroe run for 10 yds to the MICH 28 for a 1ST down,Rush,3,,1,Other,10,10,0,1,,,,,0.52,0.09,0.38,0.08,0.58,Jalen Milroe,,,#E82525CC,#5A0000CC,5,-3.19
+2024-01-01 Alabama at Michigan,plays,1,Alabama,81,41,Justice Haynes run for 3 yds to the MICH 25,Rush,3,,1,Other,10,3,0,0,,,,,0.5,0.08,0.37,0.07,0.59,Justice Haynes,,,#E82525CC,#5A0000CC,-2,-3.16
+2024-01-01 Alabama at Michigan,plays,1,Alabama,82,42,Jalen Milroe pass complete to Isaiah Bond for 9 yds to the MICH 16 for a 1ST down,Pass,3,,2,Other,7,9,0,1,,,,,0.22,0.06,0.38,0.07,0.57,,Jalen Milroe,Isaiah Bond,#E82525CC,#5A0000CC,4.1,-2.99
+2024-01-01 Alabama at Michigan,plays,1,Alabama,83,43,Jalen Milroe run for no gain to the MICH 16,Rush,3,,1,Red zone,10,0,0,0,,,,,0.48,0.08,0.37,0.07,0.58,Jalen Milroe,,,#E82525CC,#5A0000CC,-5,-3.03
+2024-01-01 Alabama at Michigan,plays,1,Alabama,84,44,Jalen Milroe run for 18 yds to the MICH 3 for a 1ST down,Rush,4,,2,Other,15,18,1,1,,,,,0.5,0.12,0.39,0.09,0.59,Jalen Milroe,,,#E82525CC,#5A0000CC,7.5,-2.8
+2024-01-01 Alabama at Michigan,plays,1,Alabama,85,45,Jase McClellan 3 yd run (Will Reichard Kick),Rush,4,,1,Red zone,3,3,0,1,,,,,0.52,0.11,0.4,0.09,0.6,Jase McClellan,,,#E82525CC,#5A0000CC,1.5,-2.7
+2024-01-01 Alabama at Michigan,plays,2,Michigan,86,41,Blake Corum run for 1 yd to the MICH 26,Rush,4,,1,Other,10,1,0,0,,,,,0.32,0.05,0.34,0.1,0.54,Blake Corum,,,#E9C730CC,#7A6406CC,-4,-0.55
+2024-01-01 Alabama at Michigan,plays,2,Michigan,87,42,J.J. McCarthy pass incomplete to Colston Loveland,Pass,4,,2,Other,9,0,0,0,,,,,0.35,0.15,0.33,0.1,0.52,,J.J. McCarthy,,#E9C730CC,#7A6406CC,-6.3,-0.69
+2024-01-01 Alabama at Michigan,plays,2,Michigan,88,43,J.J. McCarthy pass incomplete to Donovan Edwards,Pass,4,,3,Other,9,0,0,0,,,,,0.33,0.14,0.33,0.09,0.51,,J.J. McCarthy,,#E9C730CC,#7A6406CC,-9,-0.88
+2024-01-01 Alabama at Michigan,plays,1,Alabama,89,46,Jalen Milroe pass complete to Kobe Prentice for 13 yds to the ALA 46 for a 1ST down,Pass,4,,1,Other,10,13,0,1,,,,,0.26,0.05,0.41,0.09,0.59,,Jalen Milroe,Kobe Prentice,#E82525CC,#5A0000CC,8,-2.47
+2024-01-01 Alabama at Michigan,plays,1,Alabama,90,47,"Jalen Milroe run for 5 yds to the MICH 49 Jalen Milroe fumbled, forced by Quinten Johnson, recovered by MICH Josh Wallace",Rush,4,,1,Other,10,5,0,0,,,,,0.5,0.11,0.4,0.09,0.6,Jalen Milroe,,,#E82525CC,#5A0000CC,0,-2.41
+2024-01-01 Alabama at Michigan,plays,2,Michigan,91,44,J.J. McCarthy pass complete to Roman Wilson for 20 yds to the ALA 31 for a 1ST down,Pass,4,,1,Other,10,20,1,1,,,,,0.36,0.18,0.34,0.11,0.5,,J.J. McCarthy,Roman Wilson,#E9C730CC,#7A6406CC,15,-0.52
+2024-01-01 Alabama at Michigan,plays,2,Michigan,92,45,J.J. McCarthy pass complete to Cornelius Johnson for no gain to the ALA 31,Pass,4,,1,Other,10,0,0,0,,,,,0.35,0.17,0.33,0.11,0.49,,J.J. McCarthy,Cornelius Johnson,#E9C730CC,#7A6406CC,-5,-0.62
+2024-01-01 Alabama at Michigan,plays,2,Michigan,93,46,"Blake Corum run for a loss of 7 yards to the ALA 38 Blake Corum fumbled, recovered by MICH J.J. McCarthy",Rush,4,,2,Other,10,-7,0,0,,,,,0.3,0.04,0.33,0.11,0.5,Blake Corum,,,#E9C730CC,#7A6406CC,-14,-0.91
+2024-01-01 Alabama at Michigan,plays,2,Michigan,94,47,J.J. McCarthy pass complete to Semaj Morgan for 7 yds to the ALA 31,Pass,4,,3,Other,17,7,0,0,,,,,0.33,0.17,0.32,0.11,0.49,,J.J. McCarthy,Semaj Morgan,#E9C730CC,#7A6406CC,-10,-1.1
+2024-01-01 Alabama at Michigan,plays,1,Alabama,95,48,Jase McClellan run for 4 yds to the ALA 35,Rush,4,,1,Other,10,4,0,0,,,,,0.48,0.1,0.4,0.08,0.6,Jase McClellan,,,#E82525CC,#5A0000CC,-1,-2.39
+2024-01-01 Alabama at Michigan,plays,1,Alabama,96,49,Jase McClellan run for 17 yds to the MICH 48 for a 1ST down,Rush,4,,2,Other,6,17,1,1,,,,,0.5,0.13,0.41,0.1,0.61,Jase McClellan,,,#E82525CC,#5A0000CC,12.8,-2.08
+2024-01-01 Alabama at Michigan,plays,1,Alabama,97,50,Jalen Milroe pass complete to Jermaine Burton for 2 yds to the MICH 46,Pass,4,,1,Other,10,2,0,0,,,,,0.25,0.05,0.4,0.1,0.6,,Jalen Milroe,Jermaine Burton,#E82525CC,#5A0000CC,-3,-2.09
+2024-01-01 Alabama at Michigan,plays,1,Alabama,98,51,Jalen Milroe run for 5 yds to the MICH 41,Rush,4,,2,Other,8,5,0,0,,,,,0.48,0.13,0.39,0.1,0.61,Jalen Milroe,,,#E82525CC,#5A0000CC,-0.6,-2.06
+2024-01-01 Alabama at Michigan,plays,1,Alabama,99,52,Jam Miller run for 11 yds to the MICH 30 for a 1ST down,Rush,4,,3,Other,3,11,0,1,,,,,0.5,0.13,0.4,0.1,0.62,Jam Miller,,,#E82525CC,#5A0000CC,8,-1.87
+2024-01-01 Alabama at Michigan,plays,1,Alabama,100,53,Jalen Milroe pass complete to Jermaine Burton for 2 yds to the MICH 33,Pass,4,,1,Other,15,2,0,0,,,,,0.24,0.05,0.4,0.09,0.6,,Jalen Milroe,Jermaine Burton,#E82525CC,#5A0000CC,-5.5,-1.94
+2024-01-01 Alabama at Michigan,plays,1,Alabama,101,54,Jalen Milroe pass complete to CJ Dippre for 4 yds to the MICH 29,Pass,4,,2,Other,13,4,0,0,,,,,0.23,0.05,0.39,0.09,0.59,,Jalen Milroe,CJ Dippre,#E82525CC,#5A0000CC,-5.1,-2
+2024-01-01 Alabama at Michigan,plays,1,Alabama,102,55,Jalen Milroe sacked by Braiden McGregor for a loss of 5 yards to the MICH 34,Pass,4,,3,Other,9,-5,0,0,,,,,0.22,0.04,0.38,0.09,0.58,,,,#E82525CC,#5A0000CC,-14,-2.22
+2024-01-01 Alabama at Michigan,plays,2,Michigan,103,48,Blake Corum run for 4 yds to the MICH 29,Rush,4,,1,Other,10,4,0,0,,,,,0.29,0.04,0.31,0.1,0.5,Blake Corum,,,#E9C730CC,#7A6406CC,-1,-1.1
+2024-01-01 Alabama at Michigan,plays,2,Michigan,104,49,Blake Corum run for 4 yds to the MICH 33,Rush,4,,2,Other,6,4,0,0,,,,,0.28,0.04,0.31,0.1,0.51,Blake Corum,,,#E9C730CC,#7A6406CC,-0.2,-1.08
+2024-01-01 Alabama at Michigan,plays,2,Michigan,105,50,J.J. McCarthy pass incomplete to Colston Loveland,Pass,4,,3,Other,2,0,0,0,,,,,0.32,0.16,0.3,0.1,0.5,,J.J. McCarthy,,#E9C730CC,#7A6406CC,-2,-1.1
+2024-01-01 Alabama at Michigan,plays,2,Michigan,106,51,"J.J. McCarthy pass complete to Blake Corum for 27 yds to the ALA 40 for a 1ST down Michigan Penalty, Illegal Block (-10 Yards) to the 50 yard line for a 1ST down",Pass,4,,4,Other,2,17,1,1,,,,,0.35,0.19,0.31,0.12,0.49,,J.J. McCarthy,Blake Corum,#E9C730CC,#7A6406CC,15,-0.79
+2024-01-01 Alabama at Michigan,plays,2,Michigan,107,52,J.J. McCarthy run for 16 yds to the ALA 34 for a 1ST down,Rush,4,,1,Other,10,16,1,1,,,,,0.31,0.08,0.33,0.13,0.5,J.J. McCarthy,,,#E9C730CC,#7A6406CC,11,-0.56
+2024-01-01 Alabama at Michigan,plays,2,Michigan,108,53,J.J. McCarthy pass complete to Roman Wilson for 29 yds to the ALA 5 for a 1ST down,Pass,4,,1,Other,10,29,1,1,,,,,0.37,0.22,0.34,0.15,0.49,,J.J. McCarthy,Roman Wilson,#E9C730CC,#7A6406CC,24,-0.1
+2024-01-01 Alabama at Michigan,plays,2,Michigan,109,54,Blake Corum run for 1 yd to the ALA 4,Rush,4,,1,Red zone,5,1,0,0,,,,,0.3,0.07,0.33,0.15,0.5,Blake Corum,,,#E9C730CC,#7A6406CC,-1.5,-0.12
+2024-01-01 Alabama at Michigan,plays,2,Michigan,110,55,Roman Wilson 4 Yd pass from J.J. McCarthy (James Turner Kick),Pass,4,,2,Red zone,4,4,0,1,,,,,0.39,0.21,0.35,0.15,0.49,,J.J. McCarthy,Roman Wilson,#E9C730CC,#7A6406CC,1.2,-0.1
+2024-01-01 Alabama at Michigan,plays,1,Alabama,111,56,Jalen Milroe run for 7 yds to the ALA 32,Rush,4,,1,Other,10,7,0,1,,,,,0.52,0.12,0.39,0.09,0.59,Jalen Milroe,,,#E82525CC,#5A0000CC,2,-2.14
+2024-01-01 Alabama at Michigan,plays,1,Alabama,112,57,Jalen Milroe pass complete to Jase McClellan for 5 yds to the ALA 37 for a 1ST down,Pass,4,,2,Other,3,5,0,1,,,,,0.25,0.04,0.4,0.09,0.58,,Jalen Milroe,Jase McClellan,#E82525CC,#5A0000CC,2.9,-2.05
+2024-01-01 Alabama at Michigan,plays,1,Alabama,113,58,Jalen Milroe pass incomplete to Kobe Prentice,Pass,4,,1,Other,10,0,0,0,,,,,0.24,0.04,0.4,0.09,0.57,,Jalen Milroe,,#E82525CC,#5A0000CC,-5,-2.1
+2024-01-01 Alabama at Michigan,plays,1,Alabama,114,59,Jalen Milroe pass incomplete to Malik Benson,Pass,4,,2,Other,10,0,0,0,,,,,0.23,0.04,0.39,0.08,0.56,,Jalen Milroe,,#E82525CC,#5A0000CC,-7,-2.19
+2024-01-01 Alabama at Michigan,plays,1,Alabama,115,60,Jalen Milroe pass complete to Jase McClellan for 6 yds to the ALA 43,Pass,4,,3,Other,10,6,0,0,,,,,0.22,0.04,0.38,0.08,0.55,,Jalen Milroe,Jase McClellan,#E82525CC,#5A0000CC,-4,-2.22
+2024-01-01 Alabama at Michigan,plays,2,Michigan,116,56,Blake Corum run for 1 yd to the MICH 2,Rush,4,,1,Other,10,1,0,0,,,,,0.29,0.07,0.34,0.14,0.5,Blake Corum,,,#E9C730CC,#7A6406CC,-4,-0.17
+2024-01-01 Alabama at Michigan,plays,2,Michigan,117,57,TEAM run for a loss of 1 yard to the MICH 1,Rush,4,,2,Other,9,-1,0,0,,,,,0.28,0.07,0.33,0.14,0.51,TEAM,,,#E9C730CC,#7A6406CC,-7.3,-0.29
+2024-01-01 Alabama at Michigan,plays,2,Michigan,118,58,Blake Corum run for 8 yds to the ALA 17,Rush,OT,,1,Other,10,8,0,1,,,,,0.3,0.07,0.34,0.14,0.52,Blake Corum,,,#E9C730CC,#7A6406CC,3,-0.24
+2024-01-01 Alabama at Michigan,plays,2,Michigan,119,59,Blake Corum 17 yd run (James Turner Kick),Rush,OT,,2,Red zone,2,17,1,1,,,,,0.32,0.1,0.36,0.15,0.53,Blake Corum,,,#E9C730CC,#7A6406CC,15.6,0.03
+2024-01-01 Alabama at Michigan,plays,1,Alabama,120,61,Jalen Milroe pass complete to Kendrick Law for 1 yd to the MICH 24,Pass,OT,,1,Other,10,1,0,0,,,,,0.21,0.04,0.38,0.08,0.54,,Jalen Milroe,Kendrick Law,#E82525CC,#5A0000CC,-4,-2.25
+2024-01-01 Alabama at Michigan,plays,1,Alabama,121,62,Jalen Milroe run for 15 yds to the MICH 9 for a 1ST down,Rush,OT,,2,Other,9,15,1,1,,,,,0.53,0.15,0.39,0.1,0.55,Jalen Milroe,,,#E82525CC,#5A0000CC,8.7,-2.07
+2024-01-01 Alabama at Michigan,plays,1,Alabama,122,63,Jase McClellan run for no gain to the MICH 9,Rush,OT,,1,Red zone,9,0,0,0,,,,,0.51,0.14,0.38,0.1,0.56,Jase McClellan,,,#E82525CC,#5A0000CC,-4.5,-2.11
+2024-01-01 Alabama at Michigan,plays,1,Alabama,123,64,Jase McClellan run for a loss of 5 yards to the MICH 14,Rush,OT,,2,Red zone,9,-5,0,0,,,,,0.5,0.14,0.38,0.09,0.56,Jase McClellan,,,#E82525CC,#5A0000CC,-11.3,-2.25
+2024-01-01 Alabama at Michigan,plays,1,Alabama,124,65,Jalen Milroe pass complete to Jermaine Burton for 11 yds to the MICH 3,Pass,OT,,3,Red zone,14,11,0,0,,,,,0.21,0.03,0.37,0.09,0.55,,Jalen Milroe,Jermaine Burton,#E82525CC,#5A0000CC,-3,-2.26
+2024-01-01 Alabama at Michigan,plays,1,Alabama,125,66,Jalen Milroe run for 1 yd to the MICH 2,Rush,OT,,4,Red zone,3,1,0,0,,,,,0.49,0.14,0.36,0.09,0.56,Jalen Milroe,,,#E82525CC,#5A0000CC,-2,-2.26
