@@ -217,6 +217,39 @@ const playMap = (data,thisGame,id,teamNum,extra) => {
     let yardsMax = Math.max.apply(Math, chart.map(({yards}) => yards));
     let extraWidth = (extra) => extra == 'extra' ? 2.2 : 0;
 
+    // Group plays by drive
+    let driveGroups = {};
+    team.forEach(play => {
+        if (!driveGroups[play.drive]) {
+            driveGroups[play.drive] = [];
+        }
+        driveGroups[play.drive].push(play);
+    });
+
+    // Function to adjust opacity of hex color
+    const adjustOpacity = (color, opacity) => {
+        // Remove any existing opacity value
+        let hex = color.slice(0, 7);
+        // Convert opacity to hex
+        let alpha = Math.round(opacity * 255).toString(16);
+        return hex + alpha.padStart(2, '0');
+    };
+
+    // Create datasets for drive lines
+    let driveDatasets = Object.keys(driveGroups).map((drive) => {
+        let drivePlays = driveGroups[drive].sort((a, b) => a.play_num - b.play_num);
+        return {
+            label: `Drive ${drive}`,
+            data: drivePlays.map(play => ({ x: play.play_num, y: play.yards })),
+            borderColor: adjustOpacity(colors(team).success, 0.5),
+            borderWidth: 2,
+            fill: false,
+            pointRadius: 0,
+            showLine: true,
+            order: 1,  // Ensure lines are drawn below points
+        };
+    });
+
     const ctx = document.getElementById(id).getContext('2d');
     new Chart(ctx, {
         type: 'line',
@@ -244,6 +277,7 @@ const playMap = (data,thisGame,id,teamNum,extra) => {
                     pointStyle: pointStyle(passes),
                     pointRadius: pointSize(passes),
                 },
+                ...driveDatasets,
                 quarterLines(quartersArrayLg),
                 zeroShade('< 0',1,1,playsMax,playsMax,0,-50,-50,0),
                 {
@@ -279,6 +313,14 @@ const playMap = (data,thisGame,id,teamNum,extra) => {
                         },
                     }
                 },
+                legend: {
+                    labels: {
+                        filter: function(item, chart) {
+                            // Return false to hide the legend item
+                            return !item.text.includes('Drive');
+                        }
+                    }
+                }
             }
         }
     });
