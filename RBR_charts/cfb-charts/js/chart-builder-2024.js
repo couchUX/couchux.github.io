@@ -206,9 +206,9 @@ const playMap = (data,thisGame,id,teamNum,extra) => {
     let passes = team.filter(({play_type}) => play_type == 'Pass');
 
     let labels = chart.map(a => a.play_num);
-    let rushYards = rushes.map(({play_num, yards, text}) => ({ x: play_num, y: yards, text }));
-    let passYards = passes.map(({play_num, yards, text}) => ({ x: play_num, y: yards, text }));
-    let avgExtra = passes.map(({play_num, avg_extra_yards, text}) => ({ x: play_num, y: avg_extra_yards, text }));
+    let rushYards = rushes.map(({play_num, yards, text, team_play}) => ({ x: play_num, y: yards, text, playNumber: team_play }));
+    let passYards = passes.map(({play_num, yards, text, team_play}) => ({ x: play_num, y: yards, text, playNumber: team_play }));
+    let avgExtra = passes.map(({play_num, avg_extra_yards, text, team_play}) => ({ x: play_num, y: avg_extra_yards, text, playNumber: team_play }));
     
     let playsMax = Math.max.apply(Math, chart.map(({play_num}) => play_num));
     let newQuarters = [...new Set(chart.map(a => a.quarter))];
@@ -303,13 +303,20 @@ const playMap = (data,thisGame,id,teamNum,extra) => {
             },
             plugins: {
                 tooltip: {
+                    filter: function(tooltipItem) {
+                        // Return false for drive datasets to exclude them from tooltip
+                        return !tooltipItem.dataset.label.includes('Drive');
+                    },
                     callbacks: {
-                        title: (tooltipItems) => tooltipItems[0].dataIndex,
+                        title: (tooltipItems) => {
+                            const playNumber = tooltipItems[0].raw.playNumber;
+                            return `Play ${playNumber}`;
+                        },
                         label: (context) => {
                             const label = context.dataset.label;
                             const value = context.parsed.y;
                             const text = context.raw.text;
-                            return [`${label}: ${value}`, text];
+                            return [`${label}: ${value} yards`, text];
                         },
                     }
                 },
