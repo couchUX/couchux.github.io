@@ -214,223 +214,223 @@ game,chart,team_num,offense,play_num,team_play,text,play_type,quarter,drive,down
 2024-01-01 Alabama at Michigan,plays,1,Alabama,123,64,Jase McClellan run for a loss of 5 yards to the MICH 14,Rush,OT,26,2,Red zone,9,-5,0,0,,,,,0.5,0.14,0.38,0.09,0.56,Jase McClellan,,,#E82525CC,#5A0000CC,-11.3,-2.25
 2024-01-01 Alabama at Michigan,plays,1,Alabama,124,65,Jalen Milroe pass complete to Jermaine Burton for 11 yds to the MICH 3,Pass,OT,26,3,Red zone,14,11,0,0,,,,,0.21,0.03,0.37,0.09,0.55,,Jalen Milroe,Jermaine Burton,#E82525CC,#5A0000CC,-3,-2.26
 2024-01-01 Alabama at Michigan,plays,1,Alabama,125,66,Jalen Milroe run for 1 yd to the MICH 2,Rush,OT,26,4,Red zone,3,1,0,0,,,,,0.49,0.14,0.36,0.09,0.56,Jalen Milroe,,,#E82525CC,#5A0000CC,-2,-2.26
-2024-08-31 Western Kentucky at Alabama,teams,1,Alabama,,,,,,,,,,,13,32,,,,65,0.49,0.20,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-08-31 Western Kentucky at Alabama,teams,2,Western Kentucky,,,,,,,,,,,1,10,,,,67,0.15,0.01,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-08-31 Western Kentucky at Alabama,play_type,1,Alabama,,,,Rush,,,,,,,7,20,,,,46,0.43,0.15,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-08-31 Western Kentucky at Alabama,play_type,2,Western Kentucky,,,,Rush,,,,,,,0,3,,,,26,0.12,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-08-31 Western Kentucky at Alabama,play_type,1,Alabama,,,,Pass,,,,,,,6,12,,,,19,0.63,0.32,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-08-31 Western Kentucky at Alabama,play_type,2,Western Kentucky,,,,Pass,,,,,,,1,7,,,,41,0.17,0.02,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-08-31 Western Kentucky at Alabama,quarter,1,Alabama,,,,,1Q,,,,,,2,5,,,,15,0.33,0.13,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-08-31 Western Kentucky at Alabama,quarter,1,Alabama,,,,,2Q,,,,,,4,5,,,,6,0.83,0.67,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-08-31 Western Kentucky at Alabama,quarter,1,Alabama,,,,,3Q,,,,,,4,10,,,,21,0.48,0.19,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-08-31 Western Kentucky at Alabama,quarter,1,Alabama,,,,,4Q,,,,,,3,12,,,,23,0.52,0.13,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-08-31 Western Kentucky at Alabama,quarter,2,Western Kentucky,,,,,1Q,,,,,,1,5,,,,22,0.23,0.05,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-08-31 Western Kentucky at Alabama,quarter,2,Western Kentucky,,,,,2Q,,,,,,0,5,,,,29,0.17,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-08-31 Western Kentucky at Alabama,quarter,2,Western Kentucky,,,,,3Q,,,,,,0,0,,,,11,0.00,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-08-31 Western Kentucky at Alabama,quarter,2,Western Kentucky,,,,,4Q,,,,,,0,0,,,,5,0.00,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-08-31 Western Kentucky at Alabama,down,1,Alabama,,,,,,,1D,,,,5,13,,,,29,0.45,0.17,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-08-31 Western Kentucky at Alabama,down,1,Alabama,,,,,,,2D,,,,3,10,,,,22,0.45,0.14,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-08-31 Western Kentucky at Alabama,down,1,Alabama,,,,,,,3D,,,,5,8,,,,13,0.62,0.38,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-08-31 Western Kentucky at Alabama,down,1,Alabama,,,,,,,4D,,,,0,1,,,,1,1.00,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-08-31 Western Kentucky at Alabama,down,2,Western Kentucky,,,,,,,1D,,,,0,3,,,,23,0.13,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-08-31 Western Kentucky at Alabama,down,2,Western Kentucky,,,,,,,2D,,,,1,2,,,,22,0.09,0.05,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-08-31 Western Kentucky at Alabama,down,2,Western Kentucky,,,,,,,3D,,,,0,3,,,,19,0.16,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-08-31 Western Kentucky at Alabama,down,2,Western Kentucky,,,,,,,4D,,,,0,2,,,,3,0.67,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-08-31 Western Kentucky at Alabama,red_zone,1,Alabama,,,,,,,,Other,,,11,27,,,,52,0.52,0.21,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-08-31 Western Kentucky at Alabama,red_zone,1,Alabama,,,,,,,,Red zone,,,2,5,,,,13,0.38,0.15,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-08-31 Western Kentucky at Alabama,red_zone,2,Western Kentucky,,,,,,,,Other,,,1,9,,,,60,0.15,0.02,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-08-31 Western Kentucky at Alabama,red_zone,2,Western Kentucky,,,,,,,,Red zone,,,0,1,,,,7,0.14,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-08-31 Western Kentucky at Alabama,distance,1,Alabama,,,,,,,,,0-3 yds,,1,6,,,,11,0.55,0.09,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-08-31 Western Kentucky at Alabama,distance,1,Alabama,,,,,,,,,4-6 yds,,3,6,,,,10,0.60,0.30,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-08-31 Western Kentucky at Alabama,distance,1,Alabama,,,,,,,,,7-9 yds,,6,17,,,,39,0.44,0.15,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-08-31 Western Kentucky at Alabama,distance,1,Alabama,,,,,,,,,9+ yds,,3,3,,,,5,0.60,0.60,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-08-31 Western Kentucky at Alabama,distance,2,Western Kentucky,,,,,,,,,0-3 yds,,0,2,,,,3,0.67,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-08-31 Western Kentucky at Alabama,distance,2,Western Kentucky,,,,,,,,,4-6 yds,,0,1,,,,11,0.09,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-08-31 Western Kentucky at Alabama,distance,2,Western Kentucky,,,,,,,,,7-9 yds,,1,7,,,,44,0.16,0.02,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-08-31 Western Kentucky at Alabama,distance,2,Western Kentucky,,,,,,,,,9+ yds,,0,0,,,,9,0.00,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-08-31 Western Kentucky at Alabama,drive,1,Alabama,,,,,,2,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-08-31 Western Kentucky at Alabama,drive,1,Alabama,,,,,,4,,,,,0,1,,,,2,0.50,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-08-31 Western Kentucky at Alabama,drive,1,Alabama,,,,,,6,,,,,1,1,,,,3,0.33,0.33,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-08-31 Western Kentucky at Alabama,drive,1,Alabama,,,,,,8,,,,,1,2,,,,4,0.50,0.25,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-08-31 Western Kentucky at Alabama,drive,1,Alabama,,,,,,10,,,,,0,1,,,,3,0.33,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-08-31 Western Kentucky at Alabama,drive,1,Alabama,,,,,,12,,,,,2,2,,,,2,1.00,1.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-08-31 Western Kentucky at Alabama,drive,1,Alabama,,,,,,14,,,,,1,2,,,,2,1.00,0.50,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-08-31 Western Kentucky at Alabama,drive,1,Alabama,,,,,,16,,,,,1,1,,,,2,0.50,0.50,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-08-31 Western Kentucky at Alabama,drive,1,Alabama,,,,,,18,,,,,0,1,,,,3,0.33,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-08-31 Western Kentucky at Alabama,drive,1,Alabama,,,,,,20,,,,,2,5,,,,9,0.56,0.22,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-08-31 Western Kentucky at Alabama,drive,1,Alabama,,,,,,22,,,,,2,4,,,,6,0.67,0.33,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-08-31 Western Kentucky at Alabama,drive,1,Alabama,,,,,,24,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-08-31 Western Kentucky at Alabama,drive,1,Alabama,,,,,,26,,,,,2,7,,,,10,0.70,0.20,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-08-31 Western Kentucky at Alabama,drive,1,Alabama,,,,,,28,,,,,1,5,,,,13,0.38,0.08,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-08-31 Western Kentucky at Alabama,drive,2,Western Kentucky,,,,,,1,,,,,1,1,,,,5,0.20,0.20,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-08-31 Western Kentucky at Alabama,drive,2,Western Kentucky,,,,,,3,,,,,0,0,,,,2,0.00,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-08-31 Western Kentucky at Alabama,drive,2,Western Kentucky,,,,,,5,,,,,0,2,,,,8,0.25,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-08-31 Western Kentucky at Alabama,drive,2,Western Kentucky,,,,,,7,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-08-31 Western Kentucky at Alabama,drive,2,Western Kentucky,,,,,,9,,,,,0,1,,,,3,0.33,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-08-31 Western Kentucky at Alabama,drive,2,Western Kentucky,,,,,,11,,,,,0,1,,,,3,0.33,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-08-31 Western Kentucky at Alabama,drive,2,Western Kentucky,,,,,,13,,,,,0,5,,,,21,0.24,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-08-31 Western Kentucky at Alabama,drive,2,Western Kentucky,,,,,,15,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-08-31 Western Kentucky at Alabama,drive,2,Western Kentucky,,,,,,17,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-08-31 Western Kentucky at Alabama,drive,2,Western Kentucky,,,,,,19,,,,,0,0,,,,4,0.00,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-08-31 Western Kentucky at Alabama,drive,2,Western Kentucky,,,,,,21,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-08-31 Western Kentucky at Alabama,drive,2,Western Kentucky,,,,,,23,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-08-31 Western Kentucky at Alabama,drive,2,Western Kentucky,,,,,,25,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-08-31 Western Kentucky at Alabama,drive,2,Western Kentucky,,,,,,27,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-08-31 Western Kentucky at Alabama,rusher,1,Alabama,,,,,,,,,,,0,3,,6,,,0.00,0.00,0.00,0.00,0.00,Daniel Hill,,,#E82525CC,#5A0000CC,,0.00
-2024-08-31 Western Kentucky at Alabama,rusher,1,Alabama,,,,,,,,,,,0,3,,4,,,0.00,0.00,0.00,0.00,0.00,Kevin Riley,,,#E82525CC,#5A0000CC,,0.00
-2024-08-31 Western Kentucky at Alabama,rusher,1,Alabama,,,,,,,,,,,2,2,,5,,,0.00,0.00,0.00,0.00,0.00,Jalen Milroe,,,#E82525CC,#5A0000CC,,0.00
-2024-08-31 Western Kentucky at Alabama,rusher,1,Alabama,,,,,,,,,,,0,2,,4,,,0.00,0.00,0.00,0.00,0.00,Richard Young,,,#E82525CC,#5A0000CC,,0.00
-2024-08-31 Western Kentucky at Alabama,rusher,1,Alabama,,,,,,,,,,,1,1,,3,,,0.00,0.00,0.00,0.00,0.00,Jam Miller,,,#E82525CC,#5A0000CC,,0.00
-2024-08-31 Western Kentucky at Alabama,rusher,1,Alabama,,,,,,,,,,,1,1,,2,,,0.00,0.00,0.00,0.00,0.00,Justice Haynes,,,#E82525CC,#5A0000CC,,0.00
-2024-08-31 Western Kentucky at Alabama,rusher,1,Alabama,,,,,,,,,,,0,1,,0,,,0.00,0.00,0.00,0.00,0.00,Kendrick Law,,,#E82525CC,#5A0000CC,,0.00
-2024-08-31 Western Kentucky at Alabama,rusher,1,Alabama,,,,,,,,,,,2,0,,0,,,0.00,0.00,0.00,0.00,0.00,Ty Simpson,,,#E82525CC,#5A0000CC,,0.00
-2024-08-31 Western Kentucky at Alabama,rusher,1,Alabama,,,,,,,,,,,1,0,,0,,,0.00,0.00,0.00,0.00,0.00,Dylan Lonergan,,,#E82525CC,#5A0000CC,,0.00
-2024-08-31 Western Kentucky at Alabama,rusher,2,Western Kentucky,,,,,,,,,,,0,2,,8,,,0.00,0.00,0.00,0.00,0.00,Elijah Young,,,#8C8C8CCC,#404040CC,,0.00
-2024-08-31 Western Kentucky at Alabama,rusher,2,Western Kentucky,,,,,,,,,,,0,1,,5,,,0.00,0.00,0.00,0.00,0.00,TJ Finley,,,#8C8C8CCC,#404040CC,,0.00
-2024-08-31 Western Kentucky at Alabama,rusher,2,Western Kentucky,,,,,,,,,,,0,0,,3,,,0.00,0.00,0.00,0.00,0.00,Caden Veltkamp,,,#8C8C8CCC,#404040CC,,0.00
-2024-08-31 Western Kentucky at Alabama,rusher,2,Western Kentucky,,,,,,,,,,,0,0,,2,,,0.00,0.00,0.00,0.00,0.00,Easton Messer,,,#8C8C8CCC,#404040CC,,0.00
-2024-08-31 Western Kentucky at Alabama,rusher,2,Western Kentucky,,,,,,,,,,,0,0,,2,,,0.00,0.00,0.00,0.00,0.00,George Hart III,,,#8C8C8CCC,#404040CC,,0.00
-2024-08-31 Western Kentucky at Alabama,rusher,2,Western Kentucky,,,,,,,,,,,0,0,,2,,,0.00,0.00,0.00,0.00,0.00,L.T. Sanders,,,#8C8C8CCC,#404040CC,,0.00
-2024-08-31 Western Kentucky at Alabama,passer,1,Alabama,,,,,,,,,,,4,3,0,2,0,,0.00,0.00,0.00,0.00,0.00,,Jalen Milroe,,#E82525CC,#5A0000CC,,0.00
-2024-08-31 Western Kentucky at Alabama,passer,1,Alabama,,,,,,,,,,,2,3,0,4,0,,0.00,0.00,0.00,0.00,0.00,,Ty Simpson,,#E82525CC,#5A0000CC,,0.00
-2024-08-31 Western Kentucky at Alabama,passer,2,Western Kentucky,,,,,,,,,,,1,6,11,11,2,,0.00,0.00,0.00,0.00,0.00,,TJ Finley,,#8C8C8CCC,#404040CC,,0.00
-2024-08-31 Western Kentucky at Alabama,passer,2,Western Kentucky,,,,,,,,,,,0,0,4,5,0,,0.00,0.00,0.00,0.00,0.00,,Caden Veltkamp,,#8C8C8CCC,#404040CC,,0.00
-2024-08-31 Western Kentucky at Alabama,receiver,1,Alabama,,,,,,,,,,,1,2,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Kobe Prentice,#E82525CC,#5A0000CC,,0.00
-2024-08-31 Western Kentucky at Alabama,receiver,1,Alabama,,,,,,,,,,,1,1,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Caleb Odom,#E82525CC,#5A0000CC,,0.00
-2024-08-31 Western Kentucky at Alabama,receiver,1,Alabama,,,,,,,,,,,0,1,0,0,,,0.00,0.00,0.00,0.00,0.00,,,CJ Dippre,#E82525CC,#5A0000CC,,0.00
-2024-08-31 Western Kentucky at Alabama,receiver,1,Alabama,,,,,,,,,,,0,1,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Emmanuel Henderson Jr.,#E82525CC,#5A0000CC,,0.00
-2024-08-31 Western Kentucky at Alabama,receiver,1,Alabama,,,,,,,,,,,0,1,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Josh Cuevas,#E82525CC,#5A0000CC,,0.00
-2024-08-31 Western Kentucky at Alabama,receiver,1,Alabama,,,,,,,,,,,2,0,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Ryan Williams,#E82525CC,#5A0000CC,,0.00
-2024-08-31 Western Kentucky at Alabama,receiver,1,Alabama,,,,,,,,,,,1,0,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Germie Bernard,#E82525CC,#5A0000CC,,0.00
-2024-08-31 Western Kentucky at Alabama,receiver,1,Alabama,,,,,,,,,,,1,0,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Kendrick Law,#E82525CC,#5A0000CC,,0.00
-2024-08-31 Western Kentucky at Alabama,receiver,2,Western Kentucky,,,,,,,,,,,0,2,2,0,,,0.00,0.00,0.00,0.00,0.00,,,Moussa Barry,#8C8C8CCC,#404040CC,,0.00
-2024-08-31 Western Kentucky at Alabama,receiver,2,Western Kentucky,,,,,,,,,,,0,1,3,0,,,0.00,0.00,0.00,0.00,0.00,,,Elijah Young,#8C8C8CCC,#404040CC,,0.00
-2024-08-31 Western Kentucky at Alabama,receiver,2,Western Kentucky,,,,,,,,,,,0,1,2,0,,,0.00,0.00,0.00,0.00,0.00,,,Easton Messer,#8C8C8CCC,#404040CC,,0.00
-2024-08-31 Western Kentucky at Alabama,receiver,2,Western Kentucky,,,,,,,,,,,0,1,1,0,,,0.00,0.00,0.00,0.00,0.00,,,K.D. Hutchinson,#8C8C8CCC,#404040CC,,0.00
-2024-08-31 Western Kentucky at Alabama,receiver,2,Western Kentucky,,,,,,,,,,,0,1,1,0,,,0.00,0.00,0.00,0.00,0.00,,,Kisean Johnson,#8C8C8CCC,#404040CC,,0.00
-2024-08-31 Western Kentucky at Alabama,receiver,2,Western Kentucky,,,,,,,,,,,1,0,1,0,,,0.00,0.00,0.00,0.00,0.00,,,River Helms,#8C8C8CCC,#404040CC,,0.00
-2024-08-31 Western Kentucky at Alabama,receiver,2,Western Kentucky,,,,,,,,,,,0,0,2,0,,,0.00,0.00,0.00,0.00,0.00,,,Dalvin Smith,#8C8C8CCC,#404040CC,,0.00
-2024-08-31 Western Kentucky at Alabama,receiver,2,Western Kentucky,,,,,,,,,,,0,0,1,0,,,0.00,0.00,0.00,0.00,0.00,,,Bryce Childress,#8C8C8CCC,#404040CC,,0.00
-2024-08-31 Western Kentucky at Alabama,receiver,2,Western Kentucky,,,,,,,,,,,0,0,1,0,,,0.00,0.00,0.00,0.00,0.00,,,L.T. Sanders,#8C8C8CCC,#404040CC,,0.00
-2024-08-31 Western Kentucky at Alabama,receiver,2,Western Kentucky,,,,,,,,,,,0,0,1,0,,,0.00,0.00,0.00,0.00,0.00,,,TJ Finley,#8C8C8CCC,#404040CC,,0.00
-2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,1,1,TJ Finley pass complete to Kisean Johnson for 2 yds to the WKU 27,Pass,1,1,1,Other,10,2,0,0,,,,,0.00,0.00,0.00,0.00,0.00,,TJ Finley,Kisean Johnson,#8C8C8CCC,#404040CC,-3,-3.00
-2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,2,2,TJ Finley pass complete to River Helms for 16 yds to the WKU 43 for a 1ST down,Pass,1,1,2,Other,8,16,1,1,,,,,0.50,0.50,0.50,0.50,0.00,,TJ Finley,River Helms,#8C8C8CCC,#404040CC,10.4,3.70
-2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,3,3,TJ Finley pass incomplete to River Helms,Pass,1,1,1,Other,10,0,0,0,,,,,0.33,0.33,0.33,0.33,0.00,,TJ Finley,,#8C8C8CCC,#404040CC,-5,0.80
-2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,4,4,Elijah Young run for a loss of 2 yards to the WKU 41,Rush,1,1,2,Other,10,-2,0,0,,,,,0.00,0.00,0.25,0.25,0.25,Elijah Young,,,#8C8C8CCC,#404040CC,-9,-1.65
-2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,5,5,TJ Finley sacked by Que Robinson for a loss of 10 yards to the WKU 31,Pass,1,1,3,Other,12,-10,0,0,,,,,0.25,0.25,0.20,0.20,0.20,,,,#8C8C8CCC,#404040CC,-22,-5.72
-2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,6,1,Justice Haynes run for 4 yds to the ALA 35,Rush,1,2,1,Other,10,4,0,0,,,,,0.00,0.00,0.00,0.00,1.00,Justice Haynes,,,#E82525CC,#5A0000CC,-1,-1.00
-2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,7,2,"Jalen Milroe sacked by Hosea Wheeler for a loss of 7 yards to the ALA 28 Jalen Milroe fumbled, forced by Hosea Wheeler, recovered by ALA Jalen Milroe , return for 0 yards",Pass,1,2,2,Other,6,-7,0,0,,,,,0.00,0.00,0.00,0.00,0.50,,,,#E82525CC,#5A0000CC,-11.2,-6.10
-2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,8,3,Jalen Milroe pass incomplete to Kendrick Law,Pass,1,2,3,Other,13,0,0,0,,,,,0.00,0.00,0.00,0.00,0.33,,Jalen Milroe,,#E82525CC,#5A0000CC,-13,-8.40
-2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,9,6,Easton Messer run for 2 yds to the WKU 22,Rush,1,3,1,Other,10,2,0,0,,,,,0.00,0.00,0.17,0.17,0.33,Easton Messer,,,#8C8C8CCC,#404040CC,-3,-5.27
-2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,10,7,TJ Finley pass intercepted Keon Sabb return for 23 yds to the WKU 16,Pass,1,3,2,Other,8,23,0,0,,,,,0.20,0.20,0.14,0.14,0.29,,TJ Finley,,#8C8C8CCC,#404040CC,17.4,-2.03
-2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,11,4,Jam Miller run for 4 yds to the WKU 12,Rush,1,4,1,Red zone,10,4,0,0,,,,,0.00,0.00,0.00,0.00,0.50,Jam Miller,,,#E82525CC,#5A0000CC,-1,-6.55
-2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,12,5,Jalen Milroe 12 yd run (Graham Nicholson Kick),Rush,1,4,2,Red zone,6,12,0,1,,,,,0.33,0.00,0.20,0.00,0.60,Jalen Milroe,,,#E82525CC,#5A0000CC,7.8,-3.68
-2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,13,8,TJ Finley pass incomplete to Dalvin Smith,Pass,1,5,1,Other,10,0,0,0,,,,,0.17,0.17,0.13,0.13,0.25,,TJ Finley,,#8C8C8CCC,#404040CC,-5,-2.40
+2024-08-31 Western Kentucky at Alabama,teams,1,Alabama,,,,,,,,,,,13,32,,,,65,0.49,0.2,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-08-31 Western Kentucky at Alabama,teams,2,Western Kentucky,,,,,,,,,,,1,10,,,,67,0.15,0.01,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-08-31 Western Kentucky at Alabama,play_type,1,Alabama,,,,Rush,,,,,,,7,20,,,,46,0.43,0.15,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-08-31 Western Kentucky at Alabama,play_type,2,Western Kentucky,,,,Rush,,,,,,,0,3,,,,26,0.12,0,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-08-31 Western Kentucky at Alabama,play_type,1,Alabama,,,,Pass,,,,,,,6,12,,,,19,0.63,0.32,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-08-31 Western Kentucky at Alabama,play_type,2,Western Kentucky,,,,Pass,,,,,,,1,7,,,,41,0.17,0.02,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-08-31 Western Kentucky at Alabama,quarter,1,Alabama,,,,,1Q,,,,,,2,5,,,,15,0.33,0.13,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-08-31 Western Kentucky at Alabama,quarter,1,Alabama,,,,,2Q,,,,,,4,5,,,,6,0.83,0.67,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-08-31 Western Kentucky at Alabama,quarter,1,Alabama,,,,,3Q,,,,,,4,10,,,,21,0.48,0.19,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-08-31 Western Kentucky at Alabama,quarter,1,Alabama,,,,,4Q,,,,,,3,12,,,,23,0.52,0.13,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-08-31 Western Kentucky at Alabama,quarter,2,Western Kentucky,,,,,1Q,,,,,,1,5,,,,22,0.23,0.05,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-08-31 Western Kentucky at Alabama,quarter,2,Western Kentucky,,,,,2Q,,,,,,0,5,,,,29,0.17,0,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-08-31 Western Kentucky at Alabama,quarter,2,Western Kentucky,,,,,3Q,,,,,,0,0,,,,11,0,0,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-08-31 Western Kentucky at Alabama,quarter,2,Western Kentucky,,,,,4Q,,,,,,0,0,,,,5,0,0,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-08-31 Western Kentucky at Alabama,down,1,Alabama,,,,,,,1D,,,,5,13,,,,29,0.45,0.17,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-08-31 Western Kentucky at Alabama,down,1,Alabama,,,,,,,2D,,,,3,10,,,,22,0.45,0.14,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-08-31 Western Kentucky at Alabama,down,1,Alabama,,,,,,,3D,,,,5,8,,,,13,0.62,0.38,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-08-31 Western Kentucky at Alabama,down,1,Alabama,,,,,,,4D,,,,0,1,,,,1,1,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-08-31 Western Kentucky at Alabama,down,2,Western Kentucky,,,,,,,1D,,,,0,3,,,,23,0.13,0,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-08-31 Western Kentucky at Alabama,down,2,Western Kentucky,,,,,,,2D,,,,1,2,,,,22,0.09,0.05,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-08-31 Western Kentucky at Alabama,down,2,Western Kentucky,,,,,,,3D,,,,0,3,,,,19,0.16,0,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-08-31 Western Kentucky at Alabama,down,2,Western Kentucky,,,,,,,4D,,,,0,2,,,,3,0.67,0,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-08-31 Western Kentucky at Alabama,red_zone,1,Alabama,,,,,,,,Other,,,11,27,,,,52,0.52,0.21,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-08-31 Western Kentucky at Alabama,red_zone,1,Alabama,,,,,,,,Red zone,,,2,5,,,,13,0.38,0.15,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-08-31 Western Kentucky at Alabama,red_zone,2,Western Kentucky,,,,,,,,Other,,,1,9,,,,60,0.15,0.02,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-08-31 Western Kentucky at Alabama,red_zone,2,Western Kentucky,,,,,,,,Red zone,,,0,1,,,,7,0.14,0,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-08-31 Western Kentucky at Alabama,distance,1,Alabama,,,,,,,,,0-3 yds,,1,6,,,,11,0.55,0.09,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-08-31 Western Kentucky at Alabama,distance,1,Alabama,,,,,,,,,4-6 yds,,3,6,,,,10,0.6,0.3,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-08-31 Western Kentucky at Alabama,distance,1,Alabama,,,,,,,,,7-9 yds,,6,17,,,,39,0.44,0.15,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-08-31 Western Kentucky at Alabama,distance,1,Alabama,,,,,,,,,9+ yds,,3,3,,,,5,0.6,0.6,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-08-31 Western Kentucky at Alabama,distance,2,Western Kentucky,,,,,,,,,0-3 yds,,0,2,,,,3,0.67,0,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-08-31 Western Kentucky at Alabama,distance,2,Western Kentucky,,,,,,,,,4-6 yds,,0,1,,,,11,0.09,0,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-08-31 Western Kentucky at Alabama,distance,2,Western Kentucky,,,,,,,,,7-9 yds,,1,7,,,,44,0.16,0.02,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-08-31 Western Kentucky at Alabama,distance,2,Western Kentucky,,,,,,,,,9+ yds,,0,0,,,,9,0,0,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-08-31 Western Kentucky at Alabama,drive,1,Alabama,,,,,,2,,,,,0,0,,,,3,0,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-08-31 Western Kentucky at Alabama,drive,1,Alabama,,,,,,4,,,,,0,1,,,,2,0.5,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-08-31 Western Kentucky at Alabama,drive,1,Alabama,,,,,,6,,,,,1,1,,,,3,0.33,0.33,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-08-31 Western Kentucky at Alabama,drive,1,Alabama,,,,,,8,,,,,1,2,,,,4,0.5,0.25,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-08-31 Western Kentucky at Alabama,drive,1,Alabama,,,,,,10,,,,,0,1,,,,3,0.33,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-08-31 Western Kentucky at Alabama,drive,1,Alabama,,,,,,12,,,,,2,2,,,,2,1,1,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-08-31 Western Kentucky at Alabama,drive,1,Alabama,,,,,,14,,,,,1,2,,,,2,1,0.5,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-08-31 Western Kentucky at Alabama,drive,1,Alabama,,,,,,16,,,,,1,1,,,,2,0.5,0.5,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-08-31 Western Kentucky at Alabama,drive,1,Alabama,,,,,,18,,,,,0,1,,,,3,0.33,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-08-31 Western Kentucky at Alabama,drive,1,Alabama,,,,,,20,,,,,2,5,,,,9,0.56,0.22,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-08-31 Western Kentucky at Alabama,drive,1,Alabama,,,,,,22,,,,,2,4,,,,6,0.67,0.33,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-08-31 Western Kentucky at Alabama,drive,1,Alabama,,,,,,24,,,,,0,0,,,,3,0,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-08-31 Western Kentucky at Alabama,drive,1,Alabama,,,,,,26,,,,,2,7,,,,10,0.7,0.2,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-08-31 Western Kentucky at Alabama,drive,1,Alabama,,,,,,28,,,,,1,5,,,,13,0.38,0.08,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-08-31 Western Kentucky at Alabama,drive,2,Western Kentucky,,,,,,1,,,,,1,1,,,,5,0.2,0.2,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-08-31 Western Kentucky at Alabama,drive,2,Western Kentucky,,,,,,3,,,,,0,0,,,,2,0,0,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-08-31 Western Kentucky at Alabama,drive,2,Western Kentucky,,,,,,5,,,,,0,2,,,,8,0.25,0,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-08-31 Western Kentucky at Alabama,drive,2,Western Kentucky,,,,,,7,,,,,0,0,,,,3,0,0,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-08-31 Western Kentucky at Alabama,drive,2,Western Kentucky,,,,,,9,,,,,0,1,,,,3,0.33,0,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-08-31 Western Kentucky at Alabama,drive,2,Western Kentucky,,,,,,11,,,,,0,1,,,,3,0.33,0,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-08-31 Western Kentucky at Alabama,drive,2,Western Kentucky,,,,,,13,,,,,0,5,,,,21,0.24,0,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-08-31 Western Kentucky at Alabama,drive,2,Western Kentucky,,,,,,15,,,,,0,0,,,,3,0,0,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-08-31 Western Kentucky at Alabama,drive,2,Western Kentucky,,,,,,17,,,,,0,0,,,,3,0,0,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-08-31 Western Kentucky at Alabama,drive,2,Western Kentucky,,,,,,19,,,,,0,0,,,,4,0,0,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-08-31 Western Kentucky at Alabama,drive,2,Western Kentucky,,,,,,21,,,,,0,0,,,,3,0,0,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-08-31 Western Kentucky at Alabama,drive,2,Western Kentucky,,,,,,23,,,,,0,0,,,,3,0,0,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-08-31 Western Kentucky at Alabama,drive,2,Western Kentucky,,,,,,25,,,,,0,0,,,,3,0,0,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-08-31 Western Kentucky at Alabama,drive,2,Western Kentucky,,,,,,27,,,,,0,0,,,,3,0,0,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-08-31 Western Kentucky at Alabama,rusher,1,Alabama,,,,,,,,,,,0,3,,6,,,0,0,0,0,0,Daniel Hill,,,#E82525CC,#5A0000CC,,0
+2024-08-31 Western Kentucky at Alabama,rusher,1,Alabama,,,,,,,,,,,0,3,,4,,,0,0,0,0,0,Kevin Riley,,,#E82525CC,#5A0000CC,,0
+2024-08-31 Western Kentucky at Alabama,rusher,1,Alabama,,,,,,,,,,,2,2,,5,,,0,0,0,0,0,Jalen Milroe,,,#E82525CC,#5A0000CC,,0
+2024-08-31 Western Kentucky at Alabama,rusher,1,Alabama,,,,,,,,,,,0,2,,4,,,0,0,0,0,0,Richard Young,,,#E82525CC,#5A0000CC,,0
+2024-08-31 Western Kentucky at Alabama,rusher,1,Alabama,,,,,,,,,,,1,1,,3,,,0,0,0,0,0,Jam Miller,,,#E82525CC,#5A0000CC,,0
+2024-08-31 Western Kentucky at Alabama,rusher,1,Alabama,,,,,,,,,,,1,1,,2,,,0,0,0,0,0,Justice Haynes,,,#E82525CC,#5A0000CC,,0
+2024-08-31 Western Kentucky at Alabama,rusher,1,Alabama,,,,,,,,,,,0,1,,0,,,0,0,0,0,0,Kendrick Law,,,#E82525CC,#5A0000CC,,0
+2024-08-31 Western Kentucky at Alabama,rusher,1,Alabama,,,,,,,,,,,2,0,,0,,,0,0,0,0,0,Ty Simpson,,,#E82525CC,#5A0000CC,,0
+2024-08-31 Western Kentucky at Alabama,rusher,1,Alabama,,,,,,,,,,,1,0,,0,,,0,0,0,0,0,Dylan Lonergan,,,#E82525CC,#5A0000CC,,0
+2024-08-31 Western Kentucky at Alabama,rusher,2,Western Kentucky,,,,,,,,,,,0,2,,8,,,0,0,0,0,0,Elijah Young,,,#8C8C8CCC,#404040CC,,0
+2024-08-31 Western Kentucky at Alabama,rusher,2,Western Kentucky,,,,,,,,,,,0,1,,5,,,0,0,0,0,0,TJ Finley,,,#8C8C8CCC,#404040CC,,0
+2024-08-31 Western Kentucky at Alabama,rusher,2,Western Kentucky,,,,,,,,,,,0,0,,3,,,0,0,0,0,0,Caden Veltkamp,,,#8C8C8CCC,#404040CC,,0
+2024-08-31 Western Kentucky at Alabama,rusher,2,Western Kentucky,,,,,,,,,,,0,0,,2,,,0,0,0,0,0,Easton Messer,,,#8C8C8CCC,#404040CC,,0
+2024-08-31 Western Kentucky at Alabama,rusher,2,Western Kentucky,,,,,,,,,,,0,0,,2,,,0,0,0,0,0,George Hart III,,,#8C8C8CCC,#404040CC,,0
+2024-08-31 Western Kentucky at Alabama,rusher,2,Western Kentucky,,,,,,,,,,,0,0,,2,,,0,0,0,0,0,L.T. Sanders,,,#8C8C8CCC,#404040CC,,0
+2024-08-31 Western Kentucky at Alabama,passer,1,Alabama,,,,,,,,,,,4,3,0,2,0,,0,0,0,0,0,,Jalen Milroe,,#E82525CC,#5A0000CC,,0
+2024-08-31 Western Kentucky at Alabama,passer,1,Alabama,,,,,,,,,,,2,3,0,4,0,,0,0,0,0,0,,Ty Simpson,,#E82525CC,#5A0000CC,,0
+2024-08-31 Western Kentucky at Alabama,passer,2,Western Kentucky,,,,,,,,,,,1,6,11,11,2,,0,0,0,0,0,,TJ Finley,,#8C8C8CCC,#404040CC,,0
+2024-08-31 Western Kentucky at Alabama,passer,2,Western Kentucky,,,,,,,,,,,0,0,4,5,0,,0,0,0,0,0,,Caden Veltkamp,,#8C8C8CCC,#404040CC,,0
+2024-08-31 Western Kentucky at Alabama,receiver,1,Alabama,,,,,,,,,,,1,2,0,0,,,0,0,0,0,0,,,Kobe Prentice,#E82525CC,#5A0000CC,,0
+2024-08-31 Western Kentucky at Alabama,receiver,1,Alabama,,,,,,,,,,,1,1,0,0,,,0,0,0,0,0,,,Caleb Odom,#E82525CC,#5A0000CC,,0
+2024-08-31 Western Kentucky at Alabama,receiver,1,Alabama,,,,,,,,,,,0,1,0,0,,,0,0,0,0,0,,,CJ Dippre,#E82525CC,#5A0000CC,,0
+2024-08-31 Western Kentucky at Alabama,receiver,1,Alabama,,,,,,,,,,,0,1,0,0,,,0,0,0,0,0,,,Emmanuel Henderson Jr.,#E82525CC,#5A0000CC,,0
+2024-08-31 Western Kentucky at Alabama,receiver,1,Alabama,,,,,,,,,,,0,1,0,0,,,0,0,0,0,0,,,Josh Cuevas,#E82525CC,#5A0000CC,,0
+2024-08-31 Western Kentucky at Alabama,receiver,1,Alabama,,,,,,,,,,,2,0,0,0,,,0,0,0,0,0,,,Ryan Williams,#E82525CC,#5A0000CC,,0
+2024-08-31 Western Kentucky at Alabama,receiver,1,Alabama,,,,,,,,,,,1,0,0,0,,,0,0,0,0,0,,,Germie Bernard,#E82525CC,#5A0000CC,,0
+2024-08-31 Western Kentucky at Alabama,receiver,1,Alabama,,,,,,,,,,,1,0,0,0,,,0,0,0,0,0,,,Kendrick Law,#E82525CC,#5A0000CC,,0
+2024-08-31 Western Kentucky at Alabama,receiver,2,Western Kentucky,,,,,,,,,,,0,2,2,0,,,0,0,0,0,0,,,Moussa Barry,#8C8C8CCC,#404040CC,,0
+2024-08-31 Western Kentucky at Alabama,receiver,2,Western Kentucky,,,,,,,,,,,0,1,3,0,,,0,0,0,0,0,,,Elijah Young,#8C8C8CCC,#404040CC,,0
+2024-08-31 Western Kentucky at Alabama,receiver,2,Western Kentucky,,,,,,,,,,,0,1,2,0,,,0,0,0,0,0,,,Easton Messer,#8C8C8CCC,#404040CC,,0
+2024-08-31 Western Kentucky at Alabama,receiver,2,Western Kentucky,,,,,,,,,,,0,1,1,0,,,0,0,0,0,0,,,K.D. Hutchinson,#8C8C8CCC,#404040CC,,0
+2024-08-31 Western Kentucky at Alabama,receiver,2,Western Kentucky,,,,,,,,,,,0,1,1,0,,,0,0,0,0,0,,,Kisean Johnson,#8C8C8CCC,#404040CC,,0
+2024-08-31 Western Kentucky at Alabama,receiver,2,Western Kentucky,,,,,,,,,,,1,0,1,0,,,0,0,0,0,0,,,River Helms,#8C8C8CCC,#404040CC,,0
+2024-08-31 Western Kentucky at Alabama,receiver,2,Western Kentucky,,,,,,,,,,,0,0,2,0,,,0,0,0,0,0,,,Dalvin Smith,#8C8C8CCC,#404040CC,,0
+2024-08-31 Western Kentucky at Alabama,receiver,2,Western Kentucky,,,,,,,,,,,0,0,1,0,,,0,0,0,0,0,,,Bryce Childress,#8C8C8CCC,#404040CC,,0
+2024-08-31 Western Kentucky at Alabama,receiver,2,Western Kentucky,,,,,,,,,,,0,0,1,0,,,0,0,0,0,0,,,L.T. Sanders,#8C8C8CCC,#404040CC,,0
+2024-08-31 Western Kentucky at Alabama,receiver,2,Western Kentucky,,,,,,,,,,,0,0,1,0,,,0,0,0,0,0,,,TJ Finley,#8C8C8CCC,#404040CC,,0
+2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,1,1,TJ Finley pass complete to Kisean Johnson for 2 yds to the WKU 27,Pass,1,1,1,Other,10,2,0,0,,,,,0,0,0,0,0,,TJ Finley,Kisean Johnson,#8C8C8CCC,#404040CC,-3,-3
+2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,2,2,TJ Finley pass complete to River Helms for 16 yds to the WKU 43 for a 1ST down,Pass,1,1,2,Other,8,16,1,1,,,,,0.5,0.5,0.5,0.5,0,,TJ Finley,River Helms,#8C8C8CCC,#404040CC,10.4,3.7
+2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,3,3,TJ Finley pass incomplete to River Helms,Pass,1,1,1,Other,10,0,0,0,,,,,0.33,0.33,0.33,0.33,0,,TJ Finley,,#8C8C8CCC,#404040CC,-5,0.8
+2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,4,4,Elijah Young run for a loss of 2 yards to the WKU 41,Rush,1,1,2,Other,10,-2,0,0,,,,,0,0,0.25,0.25,0.25,Elijah Young,,,#8C8C8CCC,#404040CC,-9,-1.65
+2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,5,5,TJ Finley sacked by Que Robinson for a loss of 10 yards to the WKU 31,Pass,1,1,3,Other,12,-10,0,0,,,,,0.25,0.25,0.2,0.2,0.2,,,,#8C8C8CCC,#404040CC,-22,-5.72
+2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,6,1,Justice Haynes run for 4 yds to the ALA 35,Rush,1,2,1,Other,10,4,0,0,,,,,0,0,0,0,1,Justice Haynes,,,#E82525CC,#5A0000CC,-1,-1
+2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,7,2,"Jalen Milroe sacked by Hosea Wheeler for a loss of 7 yards to the ALA 28 Jalen Milroe fumbled, forced by Hosea Wheeler, recovered by ALA Jalen Milroe , return for 0 yards",Pass,1,2,2,Other,6,-7,0,0,,,,,0,0,0,0,0.5,,,,#E82525CC,#5A0000CC,-11.2,-6.1
+2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,8,3,Jalen Milroe pass incomplete to Kendrick Law,Pass,1,2,3,Other,13,0,0,0,,,,,0,0,0,0,0.33,,Jalen Milroe,,#E82525CC,#5A0000CC,-13,-8.4
+2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,9,6,Easton Messer run for 2 yds to the WKU 22,Rush,1,3,1,Other,10,2,0,0,,,,,0,0,0.17,0.17,0.33,Easton Messer,,,#8C8C8CCC,#404040CC,-3,-5.27
+2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,10,7,TJ Finley pass intercepted Keon Sabb return for 23 yds to the WKU 16,Pass,1,3,2,Other,8,23,0,0,,,,,0.2,0.2,0.14,0.14,0.29,,TJ Finley,,#8C8C8CCC,#404040CC,17.4,-2.03
+2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,11,4,Jam Miller run for 4 yds to the WKU 12,Rush,1,4,1,Red zone,10,4,0,0,,,,,0,0,0,0,0.5,Jam Miller,,,#E82525CC,#5A0000CC,-1,-6.55
+2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,12,5,Jalen Milroe 12 yd run (Graham Nicholson Kick),Rush,1,4,2,Red zone,6,12,0,1,,,,,0.33,0,0.2,0,0.6,Jalen Milroe,,,#E82525CC,#5A0000CC,7.8,-3.68
+2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,13,8,TJ Finley pass incomplete to Dalvin Smith,Pass,1,5,1,Other,10,0,0,0,,,,,0.17,0.17,0.13,0.13,0.25,,TJ Finley,,#8C8C8CCC,#404040CC,-5,-2.4
 2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,14,9,TJ Finley pass complete to Kisean Johnson for 13 yds to the WKU 38 for a 1ST down,Pass,1,5,2,Other,10,13,0,1,,,,,0.29,0.14,0.22,0.11,0.22,,TJ Finley,Kisean Johnson,#8C8C8CCC,#404040CC,6,-1.47
-2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,15,10,Elijah Young run for a loss of 2 yards to the WKU 41,Rush,1,5,1,Other,10,-2,0,0,,,,,0.00,0.00,0.20,0.10,0.30,Elijah Young,,,#8C8C8CCC,#404040CC,-7,-2.02
-2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,16,11,TJ Finley run for 8 yds to the WKU 49,Rush,1,5,2,Other,12,8,0,0,,,,,0.00,0.00,0.18,0.09,0.36,TJ Finley,,,#8C8C8CCC,#404040CC,-0.4,-1.87
-2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,17,12,Elijah Young run for 10 yds to the ALA 26 for a 1ST down,Rush,1,5,1,Other,10,10,0,1,,,,,0.20,0.00,0.25,0.08,0.42,Elijah Young,,,#8C8C8CCC,#404040CC,5,-1.30
+2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,15,10,Elijah Young run for a loss of 2 yards to the WKU 41,Rush,1,5,1,Other,10,-2,0,0,,,,,0,0,0.2,0.1,0.3,Elijah Young,,,#8C8C8CCC,#404040CC,-7,-2.02
+2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,16,11,TJ Finley run for 8 yds to the WKU 49,Rush,1,5,2,Other,12,8,0,0,,,,,0,0,0.18,0.09,0.36,TJ Finley,,,#8C8C8CCC,#404040CC,-0.4,-1.87
+2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,17,12,Elijah Young run for 10 yds to the ALA 26 for a 1ST down,Rush,1,5,1,Other,10,10,0,1,,,,,0.2,0,0.25,0.08,0.42,Elijah Young,,,#8C8C8CCC,#404040CC,5,-1.3
 2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,18,13,TJ Finley pass incomplete to Easton Messer,Pass,1,5,1,Other,10,0,0,0,,,,,0.25,0.13,0.23,0.08,0.38,,TJ Finley,,#8C8C8CCC,#404040CC,-5,-1.58
 2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,19,14,TJ Finley pass complete to River Helms for 4 yds to the ALA 22,Pass,1,5,2,Other,10,4,0,0,,,,,0.22,0.11,0.21,0.07,0.36,,TJ Finley,River Helms,#8C8C8CCC,#404040CC,-3,-1.69
-2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,20,15,TJ Finley pass intercepted Keon Sabb return for 64 yds to the WKU 26,Pass,1,5,3,Other,6,64,0,0,,,,,0.20,0.10,0.20,0.07,0.33,,TJ Finley,,#8C8C8CCC,#404040CC,58,2.29
-2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,21,6,Justice Haynes run for 2 yds to the WKU 24,Rush,1,6,1,Other,10,2,0,0,,,,,0.25,0.00,0.17,0.00,0.67,Justice Haynes,,,#E82525CC,#5A0000CC,-3,-3.57
-2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,22,7,Jalen Milroe run for 2 yds to the WKU 22,Rush,1,6,2,Other,8,2,0,0,,,,,0.20,0.00,0.14,0.00,0.71,Jalen Milroe,,,#E82525CC,#5A0000CC,-3.6,-3.57
+2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,20,15,TJ Finley pass intercepted Keon Sabb return for 64 yds to the WKU 26,Pass,1,5,3,Other,6,64,0,0,,,,,0.2,0.1,0.2,0.07,0.33,,TJ Finley,,#8C8C8CCC,#404040CC,58,2.29
+2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,21,6,Justice Haynes run for 2 yds to the WKU 24,Rush,1,6,1,Other,10,2,0,0,,,,,0.25,0,0.17,0,0.67,Justice Haynes,,,#E82525CC,#5A0000CC,-3,-3.57
+2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,22,7,Jalen Milroe run for 2 yds to the WKU 22,Rush,1,6,2,Other,8,2,0,0,,,,,0.2,0,0.14,0,0.71,Jalen Milroe,,,#E82525CC,#5A0000CC,-3.6,-3.57
 2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,23,8,Kendrick Law 22 Yd pass from Jalen Milroe (Graham Nicholson Kick),Pass,1,6,3,Other,6,22,1,1,,,,,0.33,0.33,0.25,0.13,0.63,,Jalen Milroe,Kendrick Law,#E82525CC,#5A0000CC,16,-1.13
-2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,24,16,Elijah Young run for 2 yds to the WKU 27,Rush,1,7,1,Other,10,2,0,0,,,,,0.17,0.00,0.19,0.06,0.38,Elijah Young,,,#8C8C8CCC,#404040CC,-3,1.96
+2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,24,16,Elijah Young run for 2 yds to the WKU 27,Rush,1,7,1,Other,10,2,0,0,,,,,0.17,0,0.19,0.06,0.38,Elijah Young,,,#8C8C8CCC,#404040CC,-3,1.96
 2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,25,17,TJ Finley pass incomplete to Bryce Childress,Pass,1,7,2,Other,8,0,0,0,,,,,0.18,0.09,0.18,0.06,0.35,,TJ Finley,,#8C8C8CCC,#404040CC,-5.6,1.52
-2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,26,18,TJ Finley run for 3 yds to the WKU 30,Rush,1,7,3,Other,8,3,0,0,,,,,0.14,0.00,0.17,0.06,0.39,TJ Finley,,,#8C8C8CCC,#404040CC,-5,1.16
-2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,27,9,Jalen Milroe pass complete to CJ Dippre for 8 yds to the ALA 27,Pass,1,8,1,Other,10,8,0,1,,,,,0.50,0.25,0.33,0.11,0.56,,Jalen Milroe,CJ Dippre,#E82525CC,#5A0000CC,3,-0.67
-2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,28,10,"Jam Miller run for 3 yds to the ALA 25 Alabama Penalty, Offensive Holding (Kobe Prentice) to the ALA 15",Rush,1,8,2,Other,7,-7,0,0,,,,,0.17,0.00,0.30,0.10,0.60,Jam Miller,,,#E82525CC,#5A0000CC,-11.9,-1.79
-2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,29,11,Jalen Milroe run for 1 yd to the ALA 16,Rush,1,8,2,Other,14,1,0,0,,,,,0.14,0.00,0.27,0.09,0.64,Jalen Milroe,,,#E82525CC,#5A0000CC,-8.8,-2.43
-2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,30,12,Ryan Williams 84 Yd pass from Jalen Milroe (Graham Nicholson Kick),Pass,1,8,3,Other,13,84,1,1,,,,,0.60,0.40,0.33,0.17,0.58,,Jalen Milroe,Ryan Williams,#E82525CC,#5A0000CC,71,3.69
+2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,26,18,TJ Finley run for 3 yds to the WKU 30,Rush,1,7,3,Other,8,3,0,0,,,,,0.14,0,0.17,0.06,0.39,TJ Finley,,,#8C8C8CCC,#404040CC,-5,1.16
+2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,27,9,Jalen Milroe pass complete to CJ Dippre for 8 yds to the ALA 27,Pass,1,8,1,Other,10,8,0,1,,,,,0.5,0.25,0.33,0.11,0.56,,Jalen Milroe,CJ Dippre,#E82525CC,#5A0000CC,3,-0.67
+2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,28,10,"Jam Miller run for 3 yds to the ALA 25 Alabama Penalty, Offensive Holding (Kobe Prentice) to the ALA 15",Rush,1,8,2,Other,7,-7,0,0,,,,,0.17,0,0.3,0.1,0.6,Jam Miller,,,#E82525CC,#5A0000CC,-11.9,-1.79
+2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,29,11,Jalen Milroe run for 1 yd to the ALA 16,Rush,1,8,2,Other,14,1,0,0,,,,,0.14,0,0.27,0.09,0.64,Jalen Milroe,,,#E82525CC,#5A0000CC,-8.8,-2.43
+2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,30,12,Ryan Williams 84 Yd pass from Jalen Milroe (Graham Nicholson Kick),Pass,1,8,3,Other,13,84,1,1,,,,,0.6,0.4,0.33,0.17,0.58,,Jalen Milroe,Ryan Williams,#E82525CC,#5A0000CC,71,3.69
 2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,31,19,TJ Finley pass complete to Moussa Barry for 5 yds to the WKU 30,Pass,1,9,1,Other,10,5,0,1,,,,,0.25,0.08,0.21,0.05,0.37,,TJ Finley,Moussa Barry,#8C8C8CCC,#404040CC,0,1.09
-2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,32,20,TJ Finley pass incomplete to Elijah Young,Pass,1,9,2,Other,5,0,0,0,,,,,0.23,0.08,0.20,0.05,0.35,,TJ Finley,,#8C8C8CCC,#404040CC,-3.5,0.87
+2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,32,20,TJ Finley pass incomplete to Elijah Young,Pass,1,9,2,Other,5,0,0,0,,,,,0.23,0.08,0.2,0.05,0.35,,TJ Finley,,#8C8C8CCC,#404040CC,-3.5,0.87
 2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,33,21,TJ Finley pass incomplete to Easton Messer,Pass,1,9,3,Other,5,0,0,0,,,,,0.21,0.07,0.19,0.05,0.33,,TJ Finley,,#8C8C8CCC,#404040CC,-5,0.59
-2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,34,13,Jalen Milroe run for 1 yd to the ALA 29,Rush,1,10,1,Other,10,1,0,0,,,,,0.13,0.00,0.31,0.15,0.62,Jalen Milroe,,,#E82525CC,#5A0000CC,-4,3.10
-2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,35,14,Kendrick Law run for 7 yds to the ALA 36,Rush,1,10,2,Other,9,7,0,1,,,,,0.22,0.00,0.36,0.14,0.64,Kendrick Law,,,#E82525CC,#5A0000CC,0.7,2.93
-2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,36,15,"TEAM run for a loss of 16 yards to the ALA 20 TEAM fumbled, recovered by WKU Devonte' Mathews",Rush,1,10,3,Other,2,-16,0,0,,,,,0.20,0.00,0.33,0.13,0.67,TEAM,,,#E82525CC,#5A0000CC,-18,1.53
-2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,37,22,Elijah Young run for 7 yds to the ALA 13,Rush,1,11,1,Red zone,10,7,0,1,,,,,0.25,0.00,0.23,0.05,0.36,Elijah Young,,,#8C8C8CCC,#404040CC,2,0.65
-2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,38,23,TJ Finley run for 5 yds to the ALA 13,Rush,2,11,2,Red zone,8,5,0,0,,,,,0.22,0.00,0.22,0.04,0.39,TJ Finley,,,#8C8C8CCC,#404040CC,-0.6,0.60
-2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,39,24,TJ Finley pass complete to TJ Finley for a loss of 7 yards to the ALA 20,Pass,2,11,3,Red zone,3,-7,0,0,,,,,0.20,0.07,0.21,0.04,0.38,,TJ Finley,TJ Finley,#8C8C8CCC,#404040CC,-10,0.15
+2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,34,13,Jalen Milroe run for 1 yd to the ALA 29,Rush,1,10,1,Other,10,1,0,0,,,,,0.13,0,0.31,0.15,0.62,Jalen Milroe,,,#E82525CC,#5A0000CC,-4,3.1
+2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,35,14,Kendrick Law run for 7 yds to the ALA 36,Rush,1,10,2,Other,9,7,0,1,,,,,0.22,0,0.36,0.14,0.64,Kendrick Law,,,#E82525CC,#5A0000CC,0.7,2.93
+2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,36,15,"TEAM run for a loss of 16 yards to the ALA 20 TEAM fumbled, recovered by WKU Devonte' Mathews",Rush,1,10,3,Other,2,-16,0,0,,,,,0.2,0,0.33,0.13,0.67,TEAM,,,#E82525CC,#5A0000CC,-18,1.53
+2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,37,22,Elijah Young run for 7 yds to the ALA 13,Rush,1,11,1,Red zone,10,7,0,1,,,,,0.25,0,0.23,0.05,0.36,Elijah Young,,,#8C8C8CCC,#404040CC,2,0.65
+2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,38,23,TJ Finley run for 5 yds to the ALA 13,Rush,2,11,2,Red zone,8,5,0,0,,,,,0.22,0,0.22,0.04,0.39,TJ Finley,,,#8C8C8CCC,#404040CC,-0.6,0.6
+2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,39,24,TJ Finley pass complete to TJ Finley for a loss of 7 yards to the ALA 20,Pass,2,11,3,Red zone,3,-7,0,0,,,,,0.2,0.07,0.21,0.04,0.38,,TJ Finley,TJ Finley,#8C8C8CCC,#404040CC,-10,0.15
 2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,40,16,"Jalen Milroe run for 40 yds to the WKU 49 for a 1ST down Western Kentucky Penalty, Defensive Holding (Upton Stout) to the WKU 39 for a 1ST down",Rush,2,12,1,Other,20,50,1,1,,,,,0.27,0.09,0.38,0.19,0.69,Jalen Milroe,,,#E82525CC,#5A0000CC,40,3.94
 2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,41,17,Jam Miller 39 yd run (Graham Nicholson Kick),Rush,2,12,1,Other,10,39,1,1,,,,,0.33,0.17,0.41,0.24,0.71,Jam Miller,,,#E82525CC,#5A0000CC,34,5.71
-2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,42,25,TJ Finley pass complete to Dalvin Smith for 2 yds to the WKU 27,Pass,2,13,1,Other,10,2,0,0,,,,,0.19,0.06,0.20,0.04,0.36,,TJ Finley,Dalvin Smith,#8C8C8CCC,#404040CC,-3,0.03
+2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,42,25,TJ Finley pass complete to Dalvin Smith for 2 yds to the WKU 27,Pass,2,13,1,Other,10,2,0,0,,,,,0.19,0.06,0.2,0.04,0.36,,TJ Finley,Dalvin Smith,#8C8C8CCC,#404040CC,-3,0.03
 2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,43,26,TJ Finley pass complete to L.T. Sanders for 4 yds to the WKU 31,Pass,2,13,2,Other,8,4,0,0,,,,,0.18,0.06,0.19,0.04,0.35,,TJ Finley,L.T. Sanders,#8C8C8CCC,#404040CC,-1.6,-0.03
-2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,44,27,TJ Finley run for 3 yds to the WKU 34,Rush,2,13,3,Other,4,3,0,0,,,,,0.20,0.00,0.19,0.04,0.37,TJ Finley,,,#8C8C8CCC,#404040CC,-1,-0.07
-2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,45,28,TJ Finley run for 4 yds to the WKU 38 for a 1ST down,Rush,2,13,4,Other,1,4,0,1,,,,,0.27,0.00,0.21,0.04,0.39,TJ Finley,,,#8C8C8CCC,#404040CC,3,0.04
+2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,44,27,TJ Finley run for 3 yds to the WKU 34,Rush,2,13,3,Other,4,3,0,0,,,,,0.2,0,0.19,0.04,0.37,TJ Finley,,,#8C8C8CCC,#404040CC,-1,-0.07
+2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,45,28,TJ Finley run for 4 yds to the WKU 38 for a 1ST down,Rush,2,13,4,Other,1,4,0,1,,,,,0.27,0,0.21,0.04,0.39,TJ Finley,,,#8C8C8CCC,#404040CC,3,0.04
 2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,46,29,TJ Finley pass incomplete to Easton Messer,Pass,2,13,1,Other,10,0,0,0,,,,,0.17,0.06,0.21,0.03,0.38,,TJ Finley,,#8C8C8CCC,#404040CC,-5,-0.13
-2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,47,30,TJ Finley pass complete to K.D. Hutchinson for no gain to the WKU 38,Pass,2,13,2,Other,10,0,0,0,,,,,0.16,0.05,0.20,0.03,0.37,,TJ Finley,K.D. Hutchinson,#8C8C8CCC,#404040CC,-7,-0.36
-2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,48,31,TJ Finley pass complete to Elijah Young for 12 yds to the 50 yard line for a 1ST down,Pass,2,13,3,Other,10,12,0,1,,,,,0.20,0.05,0.23,0.03,0.35,,TJ Finley,Elijah Young,#8C8C8CCC,#404040CC,2,-0.29
+2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,47,30,TJ Finley pass complete to K.D. Hutchinson for no gain to the WKU 38,Pass,2,13,2,Other,10,0,0,0,,,,,0.16,0.05,0.2,0.03,0.37,,TJ Finley,K.D. Hutchinson,#8C8C8CCC,#404040CC,-7,-0.36
+2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,48,31,TJ Finley pass complete to Elijah Young for 12 yds to the 50 yard line for a 1ST down,Pass,2,13,3,Other,10,12,0,1,,,,,0.2,0.05,0.23,0.03,0.35,,TJ Finley,Elijah Young,#8C8C8CCC,#404040CC,2,-0.29
 2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,49,32,TJ Finley pass incomplete to Kisean Johnson,Pass,2,13,1,Other,10,0,0,0,,,,,0.19,0.05,0.22,0.03,0.34,,TJ Finley,,#8C8C8CCC,#404040CC,-5,-0.43
 2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,50,33,TJ Finley pass incomplete,Pass,2,13,2,Other,10,0,0,0,,,,,0.18,0.05,0.21,0.03,0.33,,TJ Finley,,#8C8C8CCC,#404040CC,-7,-0.63
-2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,51,34,TJ Finley pass complete to Elijah Young for 7 yds to the ALA 43,Pass,2,13,3,Other,10,7,0,0,,,,,0.17,0.04,0.21,0.03,0.32,,TJ Finley,Elijah Young,#8C8C8CCC,#404040CC,-3,-0.70
+2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,51,34,TJ Finley pass complete to Elijah Young for 7 yds to the ALA 43,Pass,2,13,3,Other,10,7,0,0,,,,,0.17,0.04,0.21,0.03,0.32,,TJ Finley,Elijah Young,#8C8C8CCC,#404040CC,-3,-0.7
 2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,52,35,TJ Finley pass complete to K.D. Hutchinson for 5 yds to the ALA 38 for a 1ST down,Pass,2,13,4,Other,3,5,0,1,,,,,0.21,0.04,0.23,0.03,0.31,,TJ Finley,K.D. Hutchinson,#8C8C8CCC,#404040CC,2,-0.63
-2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,53,36,TJ Finley pass incomplete to Kisean Johnson,Pass,2,13,1,Other,10,0,0,0,,,,,0.20,0.04,0.22,0.03,0.31,,TJ Finley,,#8C8C8CCC,#404040CC,-5,-0.75
-2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,54,37,TJ Finley pass complete to Easton Messer for 4 yds to the ALA 34,Pass,2,13,2,Other,10,4,0,0,,,,,0.19,0.04,0.22,0.03,0.30,,TJ Finley,Easton Messer,#8C8C8CCC,#404040CC,-3,-0.81
+2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,53,36,TJ Finley pass incomplete to Kisean Johnson,Pass,2,13,1,Other,10,0,0,0,,,,,0.2,0.04,0.22,0.03,0.31,,TJ Finley,,#8C8C8CCC,#404040CC,-5,-0.75
+2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,54,37,TJ Finley pass complete to Easton Messer for 4 yds to the ALA 34,Pass,2,13,2,Other,10,4,0,0,,,,,0.19,0.04,0.22,0.03,0.3,,TJ Finley,Easton Messer,#8C8C8CCC,#404040CC,-3,-0.81
 2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,55,38,TJ Finley pass complete to Moussa Barry for 10 yds to the ALA 24 for a 1ST down,Pass,2,13,3,Other,6,10,0,1,,,,,0.22,0.04,0.24,0.03,0.29,,TJ Finley,Moussa Barry,#8C8C8CCC,#404040CC,4,-0.68
 2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,56,39,TJ Finley pass complete to Moussa Barry for 3 yds to the ALA 21,Pass,2,13,1,Other,10,3,0,0,,,,,0.21,0.04,0.23,0.03,0.28,,TJ Finley,Moussa Barry,#8C8C8CCC,#404040CC,-2,-0.72
 2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,57,40,TJ Finley pass incomplete to Moussa Barry,Pass,2,13,2,Other,7,0,0,0,,,,,0.21,0.03,0.23,0.03,0.28,,TJ Finley,,#8C8C8CCC,#404040CC,-4.9,-0.82
 2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,58,41,TJ Finley pass complete to Easton Messer for 8 yds to the ALA 13 for a 1ST down,Pass,2,13,3,Other,7,8,0,1,,,,,0.23,0.03,0.24,0.02,0.27,,TJ Finley,Easton Messer,#8C8C8CCC,#404040CC,1,-0.78
-2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,59,42,TJ Finley pass complete to Elijah Young for a loss of 5 yards to the ALA 18,Pass,2,13,1,Red zone,10,-5,0,0,,,,,0.23,0.03,0.24,0.02,0.26,,TJ Finley,Elijah Young,#8C8C8CCC,#404040CC,-10,-1.00
-2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,60,43,Elijah Young run for 1 yd to the ALA 17,Rush,2,13,2,Red zone,15,1,0,0,,,,,0.25,0.00,0.23,0.02,0.28,Elijah Young,,,#8C8C8CCC,#404040CC,-9.5,-1.19
+2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,59,42,TJ Finley pass complete to Elijah Young for a loss of 5 yards to the ALA 18,Pass,2,13,1,Red zone,10,-5,0,0,,,,,0.23,0.03,0.24,0.02,0.26,,TJ Finley,Elijah Young,#8C8C8CCC,#404040CC,-10,-1
+2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,60,43,Elijah Young run for 1 yd to the ALA 17,Rush,2,13,2,Red zone,15,1,0,0,,,,,0.25,0,0.23,0.02,0.28,Elijah Young,,,#8C8C8CCC,#404040CC,-9.5,-1.19
 2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,61,44,TJ Finley pass complete to Moussa Barry for 9 yds to the ALA 8,Pass,2,13,3,Red zone,14,9,0,0,,,,,0.22,0.03,0.23,0.02,0.27,,TJ Finley,Moussa Barry,#8C8C8CCC,#404040CC,-5,-1.28
-2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,62,45,TJ Finley run for 4 yds to the ALA 4,Rush,2,13,4,Red zone,5,4,0,0,,,,,0.23,0.00,0.22,0.02,0.29,TJ Finley,,,#8C8C8CCC,#404040CC,-1,-1.27
+2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,62,45,TJ Finley run for 4 yds to the ALA 4,Rush,2,13,4,Red zone,5,4,0,0,,,,,0.23,0,0.22,0.02,0.29,TJ Finley,,,#8C8C8CCC,#404040CC,-1,-1.27
 2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,63,18,Justice Haynes run for 11 yds to the ALA 15 for a 1ST down,Rush,2,14,1,Other,10,11,0,1,,,,,0.38,0.15,0.44,0.22,0.72,Justice Haynes,,,#E82525CC,#5A0000CC,6,5.72
 2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,64,19,Justice Haynes 85 yd run (Graham Nicholson Kick),Rush,2,14,1,Other,10,85,1,1,,,,,0.43,0.21,0.47,0.26,0.74,Justice Haynes,,,#E82525CC,#5A0000CC,80,9.63
-2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,65,46,George Hart III run for 4 yds to the WKU 29,Rush,2,15,1,Other,10,4,0,0,,,,,0.21,0.00,0.22,0.02,0.30,George Hart III,,,#8C8C8CCC,#404040CC,-1,-1.27
-2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,66,47,George Hart III run for no gain to the WKU 29,Rush,2,15,2,Other,6,0,0,0,,,,,0.20,0.00,0.21,0.02,0.32,George Hart III,,,#8C8C8CCC,#404040CC,-4.2,-1.33
-2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,67,48,L.T. Sanders run for no gain to the WKU 29,Rush,2,15,3,Other,6,0,0,0,,,,,0.19,0.00,0.21,0.02,0.33,L.T. Sanders,,,#8C8C8CCC,#404040CC,-6,-1.43
-2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,68,20,Jalen Milroe pass incomplete to Jam Miller,Pass,2,16,1,Other,10,0,0,0,,,,,0.50,0.33,0.45,0.25,0.70,,Jalen Milroe,,#E82525CC,#5A0000CC,-5,8.90
+2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,65,46,George Hart III run for 4 yds to the WKU 29,Rush,2,15,1,Other,10,4,0,0,,,,,0.21,0,0.22,0.02,0.3,George Hart III,,,#8C8C8CCC,#404040CC,-1,-1.27
+2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,66,47,George Hart III run for no gain to the WKU 29,Rush,2,15,2,Other,6,0,0,0,,,,,0.2,0,0.21,0.02,0.32,George Hart III,,,#8C8C8CCC,#404040CC,-4.2,-1.33
+2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,67,48,L.T. Sanders run for no gain to the WKU 29,Rush,2,15,3,Other,6,0,0,0,,,,,0.19,0,0.21,0.02,0.33,L.T. Sanders,,,#8C8C8CCC,#404040CC,-6,-1.43
+2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,68,20,Jalen Milroe pass incomplete to Jam Miller,Pass,2,16,1,Other,10,0,0,0,,,,,0.5,0.33,0.45,0.25,0.7,,Jalen Milroe,,#E82525CC,#5A0000CC,-5,8.9
 2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,69,21,Ryan Williams 55 Yd pass from Jalen Milroe (Graham Nicholson Kick),Pass,2,16,2,Other,10,55,1,1,,,,,0.57,0.43,0.48,0.29,0.67,,Jalen Milroe,Ryan Williams,#E82525CC,#5A0000CC,48,10.76
-2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,70,49,Elijah Young run for no gain to the WKU 25,Rush,2,17,1,Other,10,0,0,0,,,,,0.18,0.00,0.20,0.02,0.35,Elijah Young,,,#8C8C8CCC,#404040CC,-5,-1.50
-2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,71,50,Elijah Young run for 3 yds to the WKU 28,Rush,2,17,2,Other,10,3,0,0,,,,,0.17,0.00,0.20,0.02,0.36,Elijah Young,,,#8C8C8CCC,#404040CC,-4,-1.55
-2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,72,51,TEAM run for a loss of 3 yards to the WKU 25,Rush,2,17,3,Other,7,-3,0,0,,,,,0.16,0.00,0.20,0.02,0.37,TEAM,,,#8C8C8CCC,#404040CC,-10,-1.72
-2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,73,22,Jam Miller run for 7 yds to the ALA 32,Rush,3,18,1,Other,10,7,0,1,,,,,0.47,0.20,0.50,0.27,0.68,Jam Miller,,,#E82525CC,#5A0000CC,2,10.36
-2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,74,23,Jam Miller run for 1 yd to the ALA 33,Rush,3,18,2,Other,3,1,0,0,,,,,0.44,0.19,0.48,0.26,0.70,Jam Miller,,,#E82525CC,#5A0000CC,-1.1,9.87
+2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,70,49,Elijah Young run for no gain to the WKU 25,Rush,2,17,1,Other,10,0,0,0,,,,,0.18,0,0.2,0.02,0.35,Elijah Young,,,#8C8C8CCC,#404040CC,-5,-1.5
+2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,71,50,Elijah Young run for 3 yds to the WKU 28,Rush,2,17,2,Other,10,3,0,0,,,,,0.17,0,0.2,0.02,0.36,Elijah Young,,,#8C8C8CCC,#404040CC,-4,-1.55
+2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,72,51,TEAM run for a loss of 3 yards to the WKU 25,Rush,2,17,3,Other,7,-3,0,0,,,,,0.16,0,0.2,0.02,0.37,TEAM,,,#8C8C8CCC,#404040CC,-10,-1.72
+2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,73,22,Jam Miller run for 7 yds to the ALA 32,Rush,3,18,1,Other,10,7,0,1,,,,,0.47,0.2,0.5,0.27,0.68,Jam Miller,,,#E82525CC,#5A0000CC,2,10.36
+2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,74,23,Jam Miller run for 1 yd to the ALA 33,Rush,3,18,2,Other,3,1,0,0,,,,,0.44,0.19,0.48,0.26,0.7,Jam Miller,,,#E82525CC,#5A0000CC,-1.1,9.87
 2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,75,24,Jalen Milroe run for 1 yd to the ALA 34,Rush,3,18,3,Other,2,1,0,0,,,,,0.41,0.18,0.46,0.25,0.71,Jalen Milroe,,,#E82525CC,#5A0000CC,-1,9.41
-2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,76,52,Caden Veltkamp run for 2 yds to the WKU 19,Rush,3,19,1,Other,10,2,0,0,,,,,0.15,0.00,0.19,0.02,0.38,Caden Veltkamp,,,#8C8C8CCC,#404040CC,-3,-1.74
+2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,76,52,Caden Veltkamp run for 2 yds to the WKU 19,Rush,3,19,1,Other,10,2,0,0,,,,,0.15,0,0.19,0.02,0.38,Caden Veltkamp,,,#8C8C8CCC,#404040CC,-3,-1.74
 2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,77,53,Caden Veltkamp pass complete to Elijah Young for 2 yds to the WKU 21,Pass,3,19,2,Other,8,2,0,0,,,,,0.21,0.03,0.19,0.02,0.38,,Caden Veltkamp,Elijah Young,#8C8C8CCC,#404040CC,-3.6,-1.78
-2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,78,54,"Caden Veltkamp pass complete to Dalvin Smith for 2 yds to the WKU 23 Western Kentucky Penalty, Illegal Block (Michael Mathison) to the WKU 13",Pass,3,19,3,Other,6,-8,0,0,,,,,0.21,0.03,0.19,0.02,0.37,,Caden Veltkamp,Dalvin Smith,#8C8C8CCC,#404040CC,-14,-2.00
-2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,79,55,Caden Veltkamp pass complete to Easton Messer for 3 yds to the WKU 16,Pass,3,19,3,Other,14,3,0,0,,,,,0.20,0.03,0.18,0.02,0.36,,Caden Veltkamp,Easton Messer,#8C8C8CCC,#404040CC,-11,-2.17
+2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,78,54,"Caden Veltkamp pass complete to Dalvin Smith for 2 yds to the WKU 23 Western Kentucky Penalty, Illegal Block (Michael Mathison) to the WKU 13",Pass,3,19,3,Other,6,-8,0,0,,,,,0.21,0.03,0.19,0.02,0.37,,Caden Veltkamp,Dalvin Smith,#8C8C8CCC,#404040CC,-14,-2
+2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,79,55,Caden Veltkamp pass complete to Easton Messer for 3 yds to the WKU 16,Pass,3,19,3,Other,14,3,0,0,,,,,0.2,0.03,0.18,0.02,0.36,,Caden Veltkamp,Easton Messer,#8C8C8CCC,#404040CC,-11,-2.17
 2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,80,25,Jalen Milroe run for 3 yds to the ALA 42,Rush,3,20,1,Other,10,3,0,0,,,,,0.39,0.17,0.44,0.24,0.72,Jalen Milroe,,,#E82525CC,#5A0000CC,-2,8.96
 2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,81,26,Richard Young run for 3 yds to the ALA 45,Rush,3,20,2,Other,7,3,0,0,,,,,0.37,0.16,0.42,0.23,0.73,Richard Young,,,#E82525CC,#5A0000CC,-1.9,8.54
-2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,82,27,Jalen Milroe pass complete to Germie Bernard for 17 yds to the WKU 38 for a 1ST down,Pass,3,20,3,Other,4,17,1,1,,,,,0.63,0.50,0.44,0.26,0.70,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,13,8.70
-2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,83,28,Jalen Milroe run for 5 yds to the WKU 33,Rush,3,20,1,Other,10,5,0,1,,,,,0.40,0.15,0.46,0.25,0.71,Jalen Milroe,,,#E82525CC,#5A0000CC,0,8.39
+2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,82,27,Jalen Milroe pass complete to Germie Bernard for 17 yds to the WKU 38 for a 1ST down,Pass,3,20,3,Other,4,17,1,1,,,,,0.63,0.5,0.44,0.26,0.7,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,13,8.7
+2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,83,28,Jalen Milroe run for 5 yds to the WKU 33,Rush,3,20,1,Other,10,5,0,1,,,,,0.4,0.15,0.46,0.25,0.71,Jalen Milroe,,,#E82525CC,#5A0000CC,0,8.39
 2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,84,29,Richard Young run for 1 yd to the WKU 32,Rush,3,20,2,Other,5,1,0,0,,,,,0.38,0.14,0.45,0.24,0.72,Richard Young,,,#E82525CC,#5A0000CC,-2.5,8.02
-2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,85,30,Jalen Milroe pass complete to Josh Cuevas for 4 yds to the WKU 28 for a 1ST down,Pass,3,20,3,Other,4,4,0,1,,,,,0.67,0.44,0.47,0.23,0.70,,Jalen Milroe,Josh Cuevas,#E82525CC,#5A0000CC,0,7.75
-2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,86,31,Jalen Milroe pass complete to Emmanuel Henderson Jr. for 10 yds to the WKU 18 for a 1ST down,Pass,3,20,1,Other,10,10,0,1,,,,,0.70,0.40,0.48,0.23,0.68,,Jalen Milroe,Emmanuel Henderson Jr.,#E82525CC,#5A0000CC,5,7.66
+2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,85,30,Jalen Milroe pass complete to Josh Cuevas for 4 yds to the WKU 28 for a 1ST down,Pass,3,20,3,Other,4,4,0,1,,,,,0.67,0.44,0.47,0.23,0.7,,Jalen Milroe,Josh Cuevas,#E82525CC,#5A0000CC,0,7.75
+2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,86,31,Jalen Milroe pass complete to Emmanuel Henderson Jr. for 10 yds to the WKU 18 for a 1ST down,Pass,3,20,1,Other,10,10,0,1,,,,,0.7,0.4,0.48,0.23,0.68,,Jalen Milroe,Emmanuel Henderson Jr.,#E82525CC,#5A0000CC,5,7.66
 2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,87,32,Richard Young run for a loss of 3 yards to the WKU 21,Rush,3,20,1,Red zone,10,-3,0,0,,,,,0.36,0.14,0.47,0.22,0.69,Richard Young,,,#E82525CC,#5A0000CC,-8,7.17
-2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,88,33,Jalen Milroe 21 yd run (Graham Nicholson Kick),Rush,3,20,2,Other,13,21,1,1,,,,,0.39,0.17,0.48,0.24,0.70,Jalen Milroe,,,#E82525CC,#5A0000CC,11.9,7.32
-2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,89,56,Elijah Young run for a loss of 2 yards to the WKU 18,Rush,3,21,1,Other,10,-2,0,0,,,,,0.14,0.00,0.18,0.02,0.38,Elijah Young,,,#8C8C8CCC,#404040CC,-7,-2.25
+2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,88,33,Jalen Milroe 21 yd run (Graham Nicholson Kick),Rush,3,20,2,Other,13,21,1,1,,,,,0.39,0.17,0.48,0.24,0.7,Jalen Milroe,,,#E82525CC,#5A0000CC,11.9,7.32
+2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,89,56,Elijah Young run for a loss of 2 yards to the WKU 18,Rush,3,21,1,Other,10,-2,0,0,,,,,0.14,0,0.18,0.02,0.38,Elijah Young,,,#8C8C8CCC,#404040CC,-7,-2.25
 2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,90,57,Caden Veltkamp pass incomplete to Kisean Johnson,Pass,3,21,2,Other,12,0,0,0,,,,,0.19,0.03,0.18,0.02,0.37,,Caden Veltkamp,,#8C8C8CCC,#404040CC,-8.4,-2.36
 2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,91,58,Caden Veltkamp pass incomplete to Dalvin Smith,Pass,3,21,3,Other,12,0,0,0,,,,,0.19,0.03,0.17,0.02,0.36,,Caden Veltkamp,,#8C8C8CCC,#404040CC,-12,-2.53
-2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,92,34,Ty Simpson pass complete to Kobe Prentice for 20 yds to the WKU 33 for a 1ST down,Pass,3,22,1,Other,10,20,1,1,,,,,0.73,0.45,0.50,0.26,0.68,,Ty Simpson,Kobe Prentice,#E82525CC,#5A0000CC,15,7.54
+2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,92,34,Ty Simpson pass complete to Kobe Prentice for 20 yds to the WKU 33 for a 1ST down,Pass,3,22,1,Other,10,20,1,1,,,,,0.73,0.45,0.5,0.26,0.68,,Ty Simpson,Kobe Prentice,#E82525CC,#5A0000CC,15,7.54
 2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,93,35,Daniel Hill run for no gain to the WKU 33,Rush,3,22,1,Other,10,0,0,0,,,,,0.38,0.17,0.49,0.26,0.69,Daniel Hill,,,#E82525CC,#5A0000CC,-5,7.18
-2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,94,36,Ty Simpson pass complete to Kobe Prentice for 14 yds to the WKU 19 for a 1ST down,Pass,3,22,2,Other,10,14,0,1,,,,,0.75,0.42,0.50,0.25,0.67,,Ty Simpson,Kobe Prentice,#E82525CC,#5A0000CC,7,7.18
-2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,95,37,Ty Simpson run for 17 yds to the WKU 2 for a 1ST down,Rush,3,22,1,Red zone,10,17,1,1,,,,,0.40,0.20,0.51,0.27,0.68,Ty Simpson,,,#E82525CC,#5A0000CC,12,7.31
-2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,96,38,Daniel Hill run for no gain to the WKU 2,Rush,3,22,1,Red zone,2,0,0,0,,,,,0.38,0.19,0.50,0.26,0.68,Daniel Hill,,,#E82525CC,#5A0000CC,-1,7.09
+2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,94,36,Ty Simpson pass complete to Kobe Prentice for 14 yds to the WKU 19 for a 1ST down,Pass,3,22,2,Other,10,14,0,1,,,,,0.75,0.42,0.5,0.25,0.67,,Ty Simpson,Kobe Prentice,#E82525CC,#5A0000CC,7,7.18
+2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,95,37,Ty Simpson run for 17 yds to the WKU 2 for a 1ST down,Rush,3,22,1,Red zone,10,17,1,1,,,,,0.4,0.2,0.51,0.27,0.68,Ty Simpson,,,#E82525CC,#5A0000CC,12,7.31
+2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,96,38,Daniel Hill run for no gain to the WKU 2,Rush,3,22,1,Red zone,2,0,0,0,,,,,0.38,0.19,0.5,0.26,0.68,Daniel Hill,,,#E82525CC,#5A0000CC,-1,7.09
 2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,97,39,Daniel Hill 2 yd run (Conor Talty Kick),Rush,3,22,2,Red zone,2,2,0,1,,,,,0.41,0.19,0.51,0.26,0.69,Daniel Hill,,,#E82525CC,#5A0000CC,0.6,6.92
-2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,98,59,L.T. Sanders run for no gain to the WKU 25,Rush,3,23,1,Other,10,0,0,0,,,,,0.14,0.00,0.17,0.02,0.37,L.T. Sanders,,,#8C8C8CCC,#404040CC,-5,-2.57
-2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,99,60,Caden Veltkamp run for 3 yds to the WKU 28,Rush,3,23,2,Other,10,3,0,0,,,,,0.13,0.00,0.17,0.02,0.38,Caden Veltkamp,,,#8C8C8CCC,#404040CC,-4,-2.59
+2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,98,59,L.T. Sanders run for no gain to the WKU 25,Rush,3,23,1,Other,10,0,0,0,,,,,0.14,0,0.17,0.02,0.37,L.T. Sanders,,,#8C8C8CCC,#404040CC,-5,-2.57
+2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,99,60,Caden Veltkamp run for 3 yds to the WKU 28,Rush,3,23,2,Other,10,3,0,0,,,,,0.13,0,0.17,0.02,0.38,Caden Veltkamp,,,#8C8C8CCC,#404040CC,-4,-2.59
 2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,100,61,Caden Veltkamp pass incomplete to Moussa Barry,Pass,3,23,3,Other,7,0,0,0,,,,,0.18,0.03,0.16,0.02,0.38,,Caden Veltkamp,,#8C8C8CCC,#404040CC,-7,-2.66
-2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,101,40,Ty Simpson pass incomplete to Richard Young,Pass,3,24,1,Other,10,0,0,0,,,,,0.69,0.38,0.50,0.25,0.68,,Ty Simpson,,#E82525CC,#5A0000CC,-5,6.63
+2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,101,40,Ty Simpson pass incomplete to Richard Young,Pass,3,24,1,Other,10,0,0,0,,,,,0.69,0.38,0.5,0.25,0.68,,Ty Simpson,,#E82525CC,#5A0000CC,-5,6.63
 2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,102,41,Richard Young run for 1 yd to the ALA 26,Rush,3,24,2,Other,10,1,0,0,,,,,0.39,0.18,0.49,0.24,0.68,Richard Young,,,#E82525CC,#5A0000CC,-6,6.32
 2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,103,42,Ty Simpson pass incomplete to Caleb Odom,Pass,3,24,3,Other,9,0,0,0,,,,,0.64,0.36,0.48,0.24,0.67,,Ty Simpson,,#E82525CC,#5A0000CC,-9,5.95
-2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,104,62,Easton Messer run for a loss of 2 yards to the WKU 26,Rush,3,25,1,Other,10,-2,0,0,,,,,0.13,0.00,0.16,0.02,0.39,Easton Messer,,,#8C8C8CCC,#404040CC,-7,-2.73
-2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,105,63,Elijah Young run for 1 yd to the WKU 27,Rush,4,25,2,Other,12,1,0,0,,,,,0.12,0.00,0.16,0.02,0.40,Elijah Young,,,#8C8C8CCC,#404040CC,-7.4,-2.81
+2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,104,62,Easton Messer run for a loss of 2 yards to the WKU 26,Rush,3,25,1,Other,10,-2,0,0,,,,,0.13,0,0.16,0.02,0.39,Easton Messer,,,#8C8C8CCC,#404040CC,-7,-2.73
+2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,105,63,Elijah Young run for 1 yd to the WKU 27,Rush,4,25,2,Other,12,1,0,0,,,,,0.12,0,0.16,0.02,0.4,Elijah Young,,,#8C8C8CCC,#404040CC,-7.4,-2.81
 2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,106,64,Caden Veltkamp pass incomplete to George Hart III,Pass,4,25,3,Other,11,0,0,0,,,,,0.18,0.03,0.16,0.02,0.39,,Caden Veltkamp,,#8C8C8CCC,#404040CC,-11,-2.94
-2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,107,43,Ty Simpson pass incomplete to Rico Scott,Pass,4,26,1,Other,10,0,0,0,,,,,0.60,0.33,0.47,0.23,0.65,,Ty Simpson,,#E82525CC,#5A0000CC,-5,5.70
+2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,107,43,Ty Simpson pass incomplete to Rico Scott,Pass,4,26,1,Other,10,0,0,0,,,,,0.6,0.33,0.47,0.23,0.65,,Ty Simpson,,#E82525CC,#5A0000CC,-5,5.7
 2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,108,44,Kevin Riley run for 9 yds to the ALA 30,Rush,4,26,2,Other,10,9,0,1,,,,,0.41,0.17,0.48,0.23,0.66,Kevin Riley,,,#E82525CC,#5A0000CC,2,5.61
 2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,109,45,Richard Young run for 2 yds to the ALA 32 for a 1ST down,Rush,4,26,3,Other,1,2,0,1,,,,,0.43,0.17,0.49,0.22,0.67,Richard Young,,,#E82525CC,#5A0000CC,1,5.51
-2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,110,46,Ty Simpson pass complete to Caleb Odom for 8 yds to the ALA 40,Pass,4,26,1,Other,10,8,0,1,,,,,0.63,0.31,0.50,0.22,0.65,,Ty Simpson,Caleb Odom,#E82525CC,#5A0000CC,3,5.46
-2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,111,47,Richard Young run for 4 yds to the ALA 44 for a 1ST down,Rush,4,26,2,Other,2,4,0,1,,,,,0.45,0.16,0.51,0.21,0.66,Richard Young,,,#E82525CC,#5A0000CC,2.6,5.40
-2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,112,48,Kevin Riley run for 2 yds to the ALA 46,Rush,4,26,1,Other,10,2,0,0,,,,,0.44,0.16,0.50,0.21,0.67,Kevin Riley,,,#E82525CC,#5A0000CC,-3,5.22
+2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,110,46,Ty Simpson pass complete to Caleb Odom for 8 yds to the ALA 40,Pass,4,26,1,Other,10,8,0,1,,,,,0.63,0.31,0.5,0.22,0.65,,Ty Simpson,Caleb Odom,#E82525CC,#5A0000CC,3,5.46
+2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,111,47,Richard Young run for 4 yds to the ALA 44 for a 1ST down,Rush,4,26,2,Other,2,4,0,1,,,,,0.45,0.16,0.51,0.21,0.66,Richard Young,,,#E82525CC,#5A0000CC,2.6,5.4
+2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,112,48,Kevin Riley run for 2 yds to the ALA 46,Rush,4,26,1,Other,10,2,0,0,,,,,0.44,0.16,0.5,0.21,0.67,Kevin Riley,,,#E82525CC,#5A0000CC,-3,5.22
 2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,113,49,Ty Simpson pass complete to Caleb Odom for 15 yds to the WKU 39 for a 1ST down,Pass,4,26,2,Other,8,15,1,1,,,,,0.65,0.35,0.51,0.22,0.65,,Ty Simpson,Caleb Odom,#E82525CC,#5A0000CC,9.4,5.31
 2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,114,50,Ty Simpson pass complete to Kobe Prentice for 9 yds to the WKU 15,Pass,4,26,1,Other,10,9,0,1,,,,,0.67,0.33,0.52,0.22,0.64,,Ty Simpson,Kobe Prentice,#E82525CC,#5A0000CC,4,5.28
 2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,115,51,Ty Simpson pass incomplete to Kobe Prentice,Pass,4,26,2,Red zone,1,0,0,0,,,,,0.63,0.32,0.51,0.22,0.63,,Ty Simpson,,#E82525CC,#5A0000CC,-0.7,5.16
 2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,116,52,Ty Simpson 15 yd run (Conor Talty Kick),Rush,4,26,3,Red zone,1,15,1,1,,,,,0.45,0.18,0.52,0.23,0.63,Ty Simpson,,,#E82525CC,#5A0000CC,14,5.33
 2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,117,65,Caden Veltkamp pass complete to Bryce Childress for 4 yds to the WKU 31,Pass,4,27,1,Other,10,4,0,0,,,,,0.18,0.03,0.15,0.02,0.38,,Caden Veltkamp,Bryce Childress,#8C8C8CCC,#404040CC,-1,-2.91
-2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,118,66,Caden Veltkamp run for 1 yd to the WKU 32,Rush,4,27,2,Other,6,1,0,0,,,,,0.12,0.00,0.15,0.02,0.39,Caden Veltkamp,,,#8C8C8CCC,#404040CC,-3.2,-2.91
+2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,118,66,Caden Veltkamp run for 1 yd to the WKU 32,Rush,4,27,2,Other,6,1,0,0,,,,,0.12,0,0.15,0.02,0.39,Caden Veltkamp,,,#8C8C8CCC,#404040CC,-3.2,-2.91
 2024-08-31 Western Kentucky at Alabama,plays,2,Western Kentucky,119,67,Caden Veltkamp pass incomplete to Moussa Barry,Pass,4,27,3,Other,5,0,0,0,,,,,0.17,0.02,0.15,0.01,0.39,,Caden Veltkamp,,#8C8C8CCC,#404040CC,-5,-2.94
 2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,120,53,Daniel Hill run for 5 yds to the ALA 38,Rush,4,28,1,Other,10,5,0,1,,,,,0.47,0.18,0.53,0.23,0.64,Daniel Hill,,,#E82525CC,#5A0000CC,0,5.23
 2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,121,54,Daniel Hill run for 11 yds to the ALA 49 for a 1ST down,Rush,4,28,2,Other,5,11,0,1,,,,,0.49,0.17,0.54,0.22,0.65,Daniel Hill,,,#E82525CC,#5A0000CC,7.5,5.27
@@ -439,9 +439,252 @@ game,chart,team_num,offense,play_num,team_play,text,play_type,quarter,drive,down
 2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,124,57,Dylan Lonergan run for 16 yds to the WKU 31 for a 1ST down,Rush,4,28,3,Other,6,16,1,1,,,,,0.47,0.18,0.53,0.23,0.67,Dylan Lonergan,,,#E82525CC,#5A0000CC,10,5.07
 2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,125,58,Daniel Hill run for 4 yds to the WKU 27,Rush,4,28,1,Other,10,4,0,0,,,,,0.46,0.18,0.52,0.22,0.67,Daniel Hill,,,#E82525CC,#5A0000CC,-1,4.96
 2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,126,59,Daniel Hill run for 3 yds to the WKU 24,Rush,4,28,2,Other,6,3,0,0,,,,,0.45,0.18,0.51,0.22,0.68,Daniel Hill,,,#E82525CC,#5A0000CC,-1.2,4.86
-2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,127,60,Kevin Riley run for 4 yds to the WKU 20 for a 1ST down,Rush,4,28,3,Other,3,4,0,1,,,,,0.46,0.17,0.52,0.22,0.68,Kevin Riley,,,#E82525CC,#5A0000CC,1,4.80
+2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,127,60,Kevin Riley run for 4 yds to the WKU 20 for a 1ST down,Rush,4,28,3,Other,3,4,0,1,,,,,0.46,0.17,0.52,0.22,0.68,Kevin Riley,,,#E82525CC,#5A0000CC,1,4.8
 2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,128,61,Kevin Riley run for 3 yds to the WKU 17,Rush,4,28,1,Red zone,10,3,0,0,,,,,0.45,0.17,0.51,0.21,0.69,Kevin Riley,,,#E82525CC,#5A0000CC,-2,4.68
-2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,129,62,Kevin Riley run for 2 yds to the WKU 15,Rush,4,28,2,Red zone,7,2,0,0,,,,,0.44,0.16,0.50,0.21,0.69,Kevin Riley,,,#E82525CC,#5A0000CC,-2.9,4.56
-2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,130,63,Kevin Riley run for 4 yds to the WKU 11,Rush,4,28,3,Red zone,5,4,0,0,,,,,0.43,0.16,0.49,0.21,0.70,Kevin Riley,,,#E82525CC,#5A0000CC,-1,4.47
-2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,131,64,Kevin Riley run for 2 yds to the WKU 9 for a 1ST down,Rush,4,28,4,Red zone,1,2,0,1,,,,,0.44,0.16,0.50,0.20,0.70,Kevin Riley,,,#E82525CC,#5A0000CC,1,4.42
-2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,132,65,TEAM run for a loss of 3 yards to the WKU 12,Rush,4,28,1,Red zone,9,-3,0,0,,,,,0.43,0.15,0.49,0.20,0.71,TEAM,,,#E82525CC,#5A0000CC,-7.5,4.24
+2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,129,62,Kevin Riley run for 2 yds to the WKU 15,Rush,4,28,2,Red zone,7,2,0,0,,,,,0.44,0.16,0.5,0.21,0.69,Kevin Riley,,,#E82525CC,#5A0000CC,-2.9,4.56
+2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,130,63,Kevin Riley run for 4 yds to the WKU 11,Rush,4,28,3,Red zone,5,4,0,0,,,,,0.43,0.16,0.49,0.21,0.7,Kevin Riley,,,#E82525CC,#5A0000CC,-1,4.47
+2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,131,64,Kevin Riley run for 2 yds to the WKU 9 for a 1ST down,Rush,4,28,4,Red zone,1,2,0,1,,,,,0.44,0.16,0.5,0.2,0.7,Kevin Riley,,,#E82525CC,#5A0000CC,1,4.42
+2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,132,65,TEAM run for a loss of 3 yards to the WKU 12,Rush,4,28,1,Red zone,9,-3,0,0,,,,,0.43,0.15,0.49,0.2,0.71,TEAM,,,#E82525CC,#5A0000CC,-7.5,4.24
+2024-09-07 South Florida at Alabama,teams,1,Alabama,,,,,,,,,,,8,26,,,,68,0.38,0.12,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-09-07 South Florida at Alabama,teams,2,South Florida,,,,,,,,,,,7,23,,,,82,0.28,0.09,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
+2024-09-07 South Florida at Alabama,play_type,1,Alabama,,,,Rush,,,,,,,3,15,,,,39,0.38,0.08,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-09-07 South Florida at Alabama,play_type,2,South Florida,,,,Rush,,,,,,,5,14,,,,42,0.33,0.12,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
+2024-09-07 South Florida at Alabama,play_type,1,Alabama,,,,Pass,,,,,,,5,11,,,,29,0.38,0.17,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-09-07 South Florida at Alabama,play_type,2,South Florida,,,,Pass,,,,,,,2,9,,,,40,0.23,0.05,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
+2024-09-07 South Florida at Alabama,quarter,1,Alabama,,,,,1Q,,,,,,1,5,,,,17,0.29,0.06,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-09-07 South Florida at Alabama,quarter,1,Alabama,,,,,2Q,,,,,,2,8,,,,19,0.42,0.11,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-09-07 South Florida at Alabama,quarter,1,Alabama,,,,,3Q,,,,,,0,5,,,,18,0.28,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-09-07 South Florida at Alabama,quarter,1,Alabama,,,,,4Q,,,,,,5,8,,,,14,0.57,0.36,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-09-07 South Florida at Alabama,quarter,2,South Florida,,,,,1Q,,,,,,2,6,,,,24,0.25,0.08,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
+2024-09-07 South Florida at Alabama,quarter,2,South Florida,,,,,2Q,,,,,,1,4,,,,14,0.29,0.07,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
+2024-09-07 South Florida at Alabama,quarter,2,South Florida,,,,,3Q,,,,,,1,5,,,,19,0.26,0.05,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
+2024-09-07 South Florida at Alabama,quarter,2,South Florida,,,,,4Q,,,,,,3,8,,,,25,0.32,0.12,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
+2024-09-07 South Florida at Alabama,down,1,Alabama,,,,,,,1D,,,,3,12,,,,32,0.38,0.09,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-09-07 South Florida at Alabama,down,1,Alabama,,,,,,,2D,,,,4,9,,,,23,0.39,0.17,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-09-07 South Florida at Alabama,down,1,Alabama,,,,,,,3D,,,,1,5,,,,13,0.38,0.08,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-09-07 South Florida at Alabama,down,2,South Florida,,,,,,,1D,,,,3,13,,,,36,0.36,0.08,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
+2024-09-07 South Florida at Alabama,down,2,South Florida,,,,,,,2D,,,,3,7,,,,26,0.27,0.12,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
+2024-09-07 South Florida at Alabama,down,2,South Florida,,,,,,,3D,,,,1,3,,,,18,0.17,0.06,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
+2024-09-07 South Florida at Alabama,down,2,South Florida,,,,,,,4D,,,,0,0,,,,2,0.00,0.00,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
+2024-09-07 South Florida at Alabama,red_zone,1,Alabama,,,,,,,,Other,,,7,19,,,,53,0.36,0.13,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-09-07 South Florida at Alabama,red_zone,1,Alabama,,,,,,,,Red zone,,,1,7,,,,15,0.47,0.07,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-09-07 South Florida at Alabama,red_zone,2,South Florida,,,,,,,,Other,,,7,20,,,,70,0.29,0.10,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
+2024-09-07 South Florida at Alabama,red_zone,2,South Florida,,,,,,,,Red zone,,,0,3,,,,12,0.25,0.00,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
+2024-09-07 South Florida at Alabama,distance,1,Alabama,,,,,,,,,0-3 yds,,1,2,,,,3,0.67,0.33,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-09-07 South Florida at Alabama,distance,1,Alabama,,,,,,,,,4-6 yds,,2,7,,,,14,0.50,0.14,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-09-07 South Florida at Alabama,distance,1,Alabama,,,,,,,,,7-9 yds,,3,14,,,,41,0.34,0.07,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-09-07 South Florida at Alabama,distance,1,Alabama,,,,,,,,,9+ yds,,2,3,,,,10,0.30,0.20,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-09-07 South Florida at Alabama,distance,2,South Florida,,,,,,,,,0-3 yds,,0,3,,,,5,0.60,0.00,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
+2024-09-07 South Florida at Alabama,distance,2,South Florida,,,,,,,,,4-6 yds,,0,0,,,,4,0.00,0.00,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
+2024-09-07 South Florida at Alabama,distance,2,South Florida,,,,,,,,,7-9 yds,,7,20,,,,64,0.31,0.11,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
+2024-09-07 South Florida at Alabama,distance,2,South Florida,,,,,,,,,9+ yds,,0,0,,,,9,0.00,0.00,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
+2024-09-07 South Florida at Alabama,drive,1,Alabama,,,,,,2,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-09-07 South Florida at Alabama,drive,1,Alabama,,,,,,4,,,,,1,5,,,,10,0.50,0.10,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-09-07 South Florida at Alabama,drive,1,Alabama,,,,,,6,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-09-07 South Florida at Alabama,drive,1,Alabama,,,,,,8,,,,,1,1,,,,5,0.20,0.20,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-09-07 South Florida at Alabama,drive,1,Alabama,,,,,,10,,,,,1,7,,,,11,0.64,0.09,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-09-07 South Florida at Alabama,drive,1,Alabama,,,,,,12,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-09-07 South Florida at Alabama,drive,1,Alabama,,,,,,14,,,,,0,0,,,,1,0.00,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-09-07 South Florida at Alabama,drive,1,Alabama,,,,,,16,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-09-07 South Florida at Alabama,drive,1,Alabama,,,,,,18,,,,,0,0,,,,2,0.00,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-09-07 South Florida at Alabama,drive,1,Alabama,,,,,,20,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-09-07 South Florida at Alabama,drive,1,Alabama,,,,,,22,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-09-07 South Florida at Alabama,drive,1,Alabama,,,,,,24,,,,,0,6,,,,11,0.55,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-09-07 South Florida at Alabama,drive,1,Alabama,,,,,,26,,,,,1,2,,,,4,0.50,0.25,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-09-07 South Florida at Alabama,drive,1,Alabama,,,,,,28,,,,,2,3,,,,3,1.00,0.67,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-09-07 South Florida at Alabama,drive,1,Alabama,,,,,,30,,,,,1,1,,,,2,0.50,0.50,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-09-07 South Florida at Alabama,drive,1,Alabama,,,,,,32,,,,,1,1,,,,1,1.00,1.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-09-07 South Florida at Alabama,drive,2,South Florida,,,,,,1,,,,,1,4,,,,12,0.33,0.08,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
+2024-09-07 South Florida at Alabama,drive,2,South Florida,,,,,,3,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
+2024-09-07 South Florida at Alabama,drive,2,South Florida,,,,,,5,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
+2024-09-07 South Florida at Alabama,drive,2,South Florida,,,,,,7,,,,,1,2,,,,6,0.33,0.17,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
+2024-09-07 South Florida at Alabama,drive,2,South Florida,,,,,,9,,,,,1,4,,,,8,0.50,0.13,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
+2024-09-07 South Florida at Alabama,drive,2,South Florida,,,,,,11,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
+2024-09-07 South Florida at Alabama,drive,2,South Florida,,,,,,13,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
+2024-09-07 South Florida at Alabama,drive,2,South Florida,,,,,,15,,,,,1,1,,,,4,0.25,0.25,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
+2024-09-07 South Florida at Alabama,drive,2,South Florida,,,,,,17,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
+2024-09-07 South Florida at Alabama,drive,2,South Florida,,,,,,19,,,,,0,4,,,,5,0.80,0.00,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
+2024-09-07 South Florida at Alabama,drive,2,South Florida,,,,,,21,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
+2024-09-07 South Florida at Alabama,drive,2,South Florida,,,,,,23,,,,,0,0,,,,4,0.00,0.00,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
+2024-09-07 South Florida at Alabama,drive,2,South Florida,,,,,,25,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
+2024-09-07 South Florida at Alabama,drive,2,South Florida,,,,,,27,,,,,2,4,,,,7,0.57,0.29,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
+2024-09-07 South Florida at Alabama,drive,2,South Florida,,,,,,29,,,,,1,2,,,,8,0.25,0.13,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
+2024-09-07 South Florida at Alabama,drive,2,South Florida,,,,,,31,,,,,0,0,,,,4,0.00,0.00,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
+2024-09-07 South Florida at Alabama,drive,2,South Florida,,,,,,33,,,,,0,2,,,,3,0.67,0.00,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
+2024-09-07 South Florida at Alabama,rusher,1,Alabama,,,,,,,,,,,2,8,,5,,,0.00,0.00,0.00,0.00,0.00,Jam Miller,,,#E82525CC,#5A0000CC,,0.00
+2024-09-07 South Florida at Alabama,rusher,1,Alabama,,,,,,,,,,,0,3,,6,,,0.00,0.00,0.00,0.00,0.00,Jalen Milroe,,,#E82525CC,#5A0000CC,,0.00
+2024-09-07 South Florida at Alabama,rusher,1,Alabama,,,,,,,,,,,0,1,,0,,,0.00,0.00,0.00,0.00,0.00,Germie Bernard,,,#E82525CC,#5A0000CC,,0.00
+2024-09-07 South Florida at Alabama,rusher,1,Alabama,,,,,,,,,,,1,0,,12,,,0.00,0.00,0.00,0.00,0.00,Justice Haynes,,,#E82525CC,#5A0000CC,,0.00
+2024-09-07 South Florida at Alabama,rusher,2,South Florida,,,,,,,,,,,3,4,,12,,,0.00,0.00,0.00,0.00,0.00,Byrum Brown,,,#7B9D8ACC,#30503ECC,,0.00
+2024-09-07 South Florida at Alabama,rusher,2,South Florida,,,,,,,,,,,0,2,,4,,,0.00,0.00,0.00,0.00,0.00,Kelley Joiner,,,#7B9D8ACC,#30503ECC,,0.00
+2024-09-07 South Florida at Alabama,rusher,2,South Florida,,,,,,,,,,,0,2,,3,,,0.00,0.00,0.00,0.00,0.00,Ta'Ron Keith,,,#7B9D8ACC,#30503ECC,,0.00
+2024-09-07 South Florida at Alabama,rusher,2,South Florida,,,,,,,,,,,2,1,,8,,,0.00,0.00,0.00,0.00,0.00,Nay'Quan Wright,,,#7B9D8ACC,#30503ECC,,0.00
+2024-09-07 South Florida at Alabama,passer,1,Alabama,,,,,,,,,,,5,6,5,10,0,,0.00,0.00,0.00,0.00,0.00,,Jalen Milroe,,#E82525CC,#5A0000CC,,0.00
+2024-09-07 South Florida at Alabama,passer,2,South Florida,,,,,,,,,,,2,6,7,20,0,,0.00,0.00,0.00,0.00,0.00,,Byrum Brown,,#7B9D8ACC,#30503ECC,,0.00
+2024-09-07 South Florida at Alabama,passer,2,South Florida,,,,,,,,,,,0,0,1,0,0,,0.00,0.00,0.00,0.00,0.00,,Bryce Archie,,#7B9D8ACC,#30503ECC,,0.00
+2024-09-07 South Florida at Alabama,receiver,1,Alabama,,,,,,,,,,,1,2,1,0,,,0.00,0.00,0.00,0.00,0.00,,,Ryan Williams,#E82525CC,#5A0000CC,,0.00
+2024-09-07 South Florida at Alabama,receiver,1,Alabama,,,,,,,,,,,2,1,1,0,,,0.00,0.00,0.00,0.00,0.00,,,Germie Bernard,#E82525CC,#5A0000CC,,0.00
+2024-09-07 South Florida at Alabama,receiver,1,Alabama,,,,,,,,,,,0,1,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Caleb Odom,#E82525CC,#5A0000CC,,0.00
+2024-09-07 South Florida at Alabama,receiver,1,Alabama,,,,,,,,,,,0,1,0,0,,,0.00,0.00,0.00,0.00,0.00,,,CJ Dippre,#E82525CC,#5A0000CC,,0.00
+2024-09-07 South Florida at Alabama,receiver,1,Alabama,,,,,,,,,,,0,1,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Cole Adams,#E82525CC,#5A0000CC,,0.00
+2024-09-07 South Florida at Alabama,receiver,1,Alabama,,,,,,,,,,,2,0,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Kobe Prentice,#E82525CC,#5A0000CC,,0.00
+2024-09-07 South Florida at Alabama,receiver,1,Alabama,,,,,,,,,,,0,0,1,0,,,0.00,0.00,0.00,0.00,0.00,,,Jam Miller,#E82525CC,#5A0000CC,,0.00
+2024-09-07 South Florida at Alabama,receiver,1,Alabama,,,,,,,,,,,0,0,1,0,,,0.00,0.00,0.00,0.00,0.00,,,Josh Cuevas,#E82525CC,#5A0000CC,,0.00
+2024-09-07 South Florida at Alabama,receiver,1,Alabama,,,,,,,,,,,0,0,1,0,,,0.00,0.00,0.00,0.00,0.00,,,Robbie Ouzts,#E82525CC,#5A0000CC,,0.00
+2024-09-07 South Florida at Alabama,receiver,2,South Florida,,,,,,,,,,,0,3,1,0,,,0.00,0.00,0.00,0.00,0.00,,,Sean Atkins,#7B9D8ACC,#30503ECC,,0.00
+2024-09-07 South Florida at Alabama,receiver,2,South Florida,,,,,,,,,,,0,2,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Michael Brown-Stephens,#7B9D8ACC,#30503ECC,,0.00
+2024-09-07 South Florida at Alabama,receiver,2,South Florida,,,,,,,,,,,0,1,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Abdur-Rahmaan Yaseen,#7B9D8ACC,#30503ECC,,0.00
+2024-09-07 South Florida at Alabama,receiver,2,South Florida,,,,,,,,,,,1,0,2,0,,,0.00,0.00,0.00,0.00,0.00,,,Nay'Quan Wright,#7B9D8ACC,#30503ECC,,0.00
+2024-09-07 South Florida at Alabama,receiver,2,South Florida,,,,,,,,,,,1,0,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Kelley Joiner,#7B9D8ACC,#30503ECC,,0.00
+2024-09-07 South Florida at Alabama,receiver,2,South Florida,,,,,,,,,,,0,0,3,0,,,0.00,0.00,0.00,0.00,0.00,,,Ta'Ron Keith,#7B9D8ACC,#30503ECC,,0.00
+2024-09-07 South Florida at Alabama,receiver,2,South Florida,,,,,,,,,,,0,0,2,0,,,0.00,0.00,0.00,0.00,0.00,,,Joshua Porter,#7B9D8ACC,#30503ECC,,0.00
+2024-09-07 South Florida at Alabama,plays,2,South Florida,1,1,Byrum Brown pass complete to Sean Atkins for 12 yds to the USF 37 for a 1ST down,Pass,1,1,1,Other,10,12,0,1,,,,,1.00,0.00,1.00,0.00,0.00,,Byrum Brown,Sean Atkins,#7B9D8ACC,#30503ECC,7,7.00
+2024-09-07 South Florida at Alabama,plays,2,South Florida,2,2,Nay'Quan Wright run for 2 yds to the USF 39,Rush,1,1,1,Other,10,2,0,0,,,,,0.00,0.00,0.50,0.00,0.50,Nay'Quan Wright,,,#7B9D8ACC,#30503ECC,-3,2.00
+2024-09-07 South Florida at Alabama,plays,2,South Florida,3,3,Byrum Brown run for a loss of 2 yards to the USF 37,Rush,1,1,2,Other,8,-2,0,0,,,,,0.00,0.00,0.33,0.00,0.67,Byrum Brown,,,#7B9D8ACC,#30503ECC,-7.6,-1.20
+2024-09-07 South Florida at Alabama,plays,2,South Florida,4,4,"Byrum Brown run for 9 yds to the ALA 46 for a 1ST down Alabama Penalty, Defensive Holding (Domani Jackson) to the ALA 44 for a 1ST down",Rush,1,1,3,Other,10,19,1,1,,,,,0.33,0.33,0.50,0.25,0.75,Byrum Brown,,,#7B9D8ACC,#30503ECC,9,1.35
+2024-09-07 South Florida at Alabama,plays,2,South Florida,5,5,Byrum Brown run for 3 yds to the ALA 41,Rush,1,1,1,Other,10,3,0,0,,,,,0.25,0.25,0.40,0.20,0.80,Byrum Brown,,,#7B9D8ACC,#30503ECC,-2,0.68
+2024-09-07 South Florida at Alabama,plays,2,South Florida,6,6,Nay'Quan Wright run for 12 yds to the ALA 29 for a 1ST down,Rush,1,1,2,Other,7,12,0,1,,,,,0.40,0.20,0.50,0.17,0.83,Nay'Quan Wright,,,#7B9D8ACC,#30503ECC,7.1,1.75
+2024-09-07 South Florida at Alabama,plays,2,South Florida,7,7,Byrum Brown pass incomplete to Sean Atkins,Pass,1,1,1,Other,10,0,0,0,,,,,0.50,0.00,0.43,0.14,0.71,,Byrum Brown,,#7B9D8ACC,#30503ECC,-5,0.79
+2024-09-07 South Florida at Alabama,plays,2,South Florida,8,8,Nay'Quan Wright run for 3 yds to the ALA 26,Rush,1,1,2,Other,10,3,0,0,,,,,0.33,0.17,0.38,0.13,0.75,Nay'Quan Wright,,,#7B9D8ACC,#30503ECC,-4,0.19
+2024-09-07 South Florida at Alabama,plays,2,South Florida,9,9,Byrum Brown run for 14 yds to the ALA 12 for a 1ST down,Rush,1,1,3,Other,7,14,0,1,,,,,0.43,0.14,0.44,0.11,0.78,Byrum Brown,,,#7B9D8ACC,#30503ECC,7,0.94
+2024-09-07 South Florida at Alabama,plays,2,South Florida,10,10,Nay'Quan Wright run for 2 yds to the ALA 10,Rush,1,1,1,Red zone,10,2,0,0,,,,,0.38,0.13,0.40,0.10,0.80,Nay'Quan Wright,,,#7B9D8ACC,#30503ECC,-3,0.55
+2024-09-07 South Florida at Alabama,plays,2,South Florida,11,11,Byrum Brown pass incomplete to Michael Brown-Stephens,Pass,1,1,2,Red zone,8,0,0,0,,,,,0.33,0.00,0.36,0.09,0.73,,Byrum Brown,,#7B9D8ACC,#30503ECC,-5.6,-0.01
+2024-09-07 South Florida at Alabama,plays,2,South Florida,12,12,Byrum Brown pass incomplete to Sean Atkins,Pass,1,1,3,Red zone,13,0,0,0,,,,,0.25,0.00,0.33,0.08,0.67,,Byrum Brown,,#7B9D8ACC,#30503ECC,-13,-1.09
+2024-09-07 South Florida at Alabama,plays,1,Alabama,13,1,Justice Haynes run for no gain to the ALA 25,Rush,1,2,1,Other,10,0,0,0,,,,,0.00,0.00,0.00,0.00,1.00,Justice Haynes,,,#E82525CC,#5A0000CC,-5,-5.00
+2024-09-07 South Florida at Alabama,plays,1,Alabama,14,2,Jalen Milroe pass complete to Germie Bernard for 3 yds to the ALA 28,Pass,1,2,2,Other,10,3,0,0,,,,,0.00,0.00,0.00,0.00,0.50,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,-4,-4.50
+2024-09-07 South Florida at Alabama,plays,1,Alabama,15,3,Jalen Milroe pass incomplete to Kendrick Law,Pass,1,2,3,Other,7,0,0,0,,,,,0.00,0.00,0.00,0.00,0.33,,Jalen Milroe,,#E82525CC,#5A0000CC,-7,-5.33
+2024-09-07 South Florida at Alabama,plays,2,South Florida,16,13,Byrum Brown run for 4 yds to the USF 26,Rush,1,3,1,Other,10,4,0,0,,,,,0.33,0.11,0.31,0.08,0.69,Byrum Brown,,,#7B9D8ACC,#30503ECC,-1,-1.08
+2024-09-07 South Florida at Alabama,plays,2,South Florida,17,14,Kelley Joiner run for no gain to the USF 26,Rush,1,3,2,Other,6,0,0,0,,,,,0.30,0.10,0.29,0.07,0.71,Kelley Joiner,,,#7B9D8ACC,#30503ECC,-4.2,-1.31
+2024-09-07 South Florida at Alabama,plays,2,South Florida,18,15,Byrum Brown pass incomplete to Michael Brown-Stephens,Pass,1,3,3,Other,6,0,0,0,,,,,0.20,0.00,0.27,0.07,0.67,,Byrum Brown,,#7B9D8ACC,#30503ECC,-6,-1.62
+2024-09-07 South Florida at Alabama,plays,1,Alabama,19,4,Jalen Milroe pass incomplete to Ryan Williams,Pass,1,4,1,Other,10,0,0,0,,,,,0.00,0.00,0.00,0.00,0.25,,Jalen Milroe,,#E82525CC,#5A0000CC,-5,-5.25
+2024-09-07 South Florida at Alabama,plays,1,Alabama,20,5,Jalen Milroe pass complete to Ryan Williams for 4 yds to the ALA 39,Pass,1,4,2,Other,10,4,0,0,,,,,0.00,0.00,0.00,0.00,0.20,,Jalen Milroe,Ryan Williams,#E82525CC,#5A0000CC,-3,-4.80
+2024-09-07 South Florida at Alabama,plays,1,Alabama,21,6,Jam Miller run for 5 yds to the USF 42,Rush,1,4,1,Other,10,5,0,1,,,,,0.50,0.00,0.17,0.00,0.33,Jam Miller,,,#E82525CC,#5A0000CC,0,-4.00
+2024-09-07 South Florida at Alabama,plays,1,Alabama,22,7,Jalen Milroe pass complete to Caleb Odom for 6 yds to the USF 36 for a 1ST down,Pass,1,4,2,Other,5,6,0,1,,,,,0.20,0.00,0.29,0.00,0.29,,Jalen Milroe,Caleb Odom,#E82525CC,#5A0000CC,2.5,-3.07
+2024-09-07 South Florida at Alabama,plays,1,Alabama,23,8,Jam Miller run for 2 yds to the USF 34,Rush,1,4,1,Other,10,2,0,0,,,,,0.33,0.00,0.25,0.00,0.38,Jam Miller,,,#E82525CC,#5A0000CC,-3,-3.06
+2024-09-07 South Florida at Alabama,plays,1,Alabama,24,9,Germie Bernard run for 13 yds to the USF 21 for a 1ST down,Rush,1,4,2,Other,8,13,0,1,,,,,0.50,0.00,0.33,0.00,0.44,Germie Bernard,,,#E82525CC,#5A0000CC,7.4,-1.90
+2024-09-07 South Florida at Alabama,plays,1,Alabama,25,10,"Justice Haynes run for 3 yds to the USF 18 Alabama Penalty, Offensive Holding (Geno VanDeMark) to the USF 28",Rush,1,4,1,Other,10,-7,0,0,,,,,0.40,0.00,0.30,0.00,0.50,Justice Haynes,,,#E82525CC,#5A0000CC,-12,-2.91
+2024-09-07 South Florida at Alabama,plays,1,Alabama,26,11,Jalen Milroe pass complete to Germie Bernard for 19 yds to the USF 9 for a 1ST down,Pass,1,4,1,Other,17,19,1,1,,,,,0.33,0.17,0.36,0.09,0.45,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,10.5,-1.69
+2024-09-07 South Florida at Alabama,plays,1,Alabama,27,12,Jalen Milroe run for a loss of 1 yard to the USF 10,Rush,1,4,1,Red zone,9,-1,0,0,,,,,0.33,0.00,0.33,0.08,0.50,Jalen Milroe,,,#E82525CC,#5A0000CC,-5.5,-2.01
+2024-09-07 South Florida at Alabama,plays,1,Alabama,28,13,Jalen Milroe 10 yd run (Graham Nicholson Kick),Rush,1,4,2,Red zone,10,10,0,1,,,,,0.43,0.00,0.38,0.08,0.54,Jalen Milroe,,,#E82525CC,#5A0000CC,3,-1.62
+2024-09-07 South Florida at Alabama,plays,2,South Florida,29,16,Byrum Brown pass incomplete to JeyQuan Smith,Pass,1,5,1,Other,10,0,0,0,,,,,0.17,0.00,0.25,0.06,0.63,,Byrum Brown,,#7B9D8ACC,#30503ECC,-5,-1.83
+2024-09-07 South Florida at Alabama,plays,2,South Florida,30,17,Byrum Brown pass incomplete to Michael Brown-Stephens,Pass,1,5,2,Other,10,0,0,0,,,,,0.14,0.00,0.24,0.06,0.59,,Byrum Brown,,#7B9D8ACC,#30503ECC,-7,-2.14
+2024-09-07 South Florida at Alabama,plays,2,South Florida,31,18,Byrum Brown pass complete to Nay'Quan Wright for 9 yds to the USF 34,Pass,1,5,3,Other,10,9,0,0,,,,,0.13,0.00,0.22,0.06,0.56,,Byrum Brown,Nay'Quan Wright,#7B9D8ACC,#30503ECC,-1,-2.07
+2024-09-07 South Florida at Alabama,plays,1,Alabama,32,14,Jalen Milroe run for 4 yds to the ALA 18,Rush,1,6,1,Other,10,4,0,0,,,,,0.38,0.00,0.36,0.07,0.57,Jalen Milroe,,,#E82525CC,#5A0000CC,-1,-1.58
+2024-09-07 South Florida at Alabama,plays,1,Alabama,33,15,Jalen Milroe pass incomplete to Germie Bernard,Pass,1,6,2,Other,11,0,0,0,,,,,0.29,0.14,0.33,0.07,0.53,,Jalen Milroe,,#E82525CC,#5A0000CC,-7.7,-1.99
+2024-09-07 South Florida at Alabama,plays,1,Alabama,34,16,Jalen Milroe pass incomplete to CJ Dippre,Pass,1,6,3,Other,11,0,0,0,,,,,0.25,0.13,0.31,0.06,0.50,,Jalen Milroe,,#E82525CC,#5A0000CC,-11,-2.55
+2024-09-07 South Florida at Alabama,plays,2,South Florida,35,19,Ta'Ron Keith run for no gain to the USF 37,Rush,1,7,1,Other,10,0,0,0,,,,,0.27,0.09,0.21,0.05,0.58,Ta'Ron Keith,,,#7B9D8ACC,#30503ECC,-5,-2.23
+2024-09-07 South Florida at Alabama,plays,2,South Florida,36,20,Byrum Brown run for 20 yds to the ALA 43 for a 1ST down,Rush,1,7,2,Other,10,20,1,1,,,,,0.33,0.17,0.25,0.10,0.60,Byrum Brown,,,#7B9D8ACC,#30503ECC,13,-1.47
+2024-09-07 South Florida at Alabama,plays,2,South Florida,37,21,Byrum Brown pass complete to Sean Atkins for 10 yds to the ALA 33 for a 1ST down,Pass,1,7,1,Other,10,10,0,1,,,,,0.22,0.00,0.29,0.10,0.57,,Byrum Brown,Sean Atkins,#7B9D8ACC,#30503ECC,5,-1.16
+2024-09-07 South Florida at Alabama,plays,2,South Florida,38,22,Byrum Brown sacked by Que Robinson for a loss of 7 yards to the ALA 40,Pass,1,7,1,Other,10,-7,0,0,,,,,0.20,0.00,0.27,0.09,0.55,,,,#7B9D8ACC,#30503ECC,-12,-1.65
+2024-09-07 South Florida at Alabama,plays,2,South Florida,39,23,Ta'Ron Keith run for 1 yd to the ALA 39,Rush,1,7,2,Other,17,1,0,0,,,,,0.31,0.15,0.26,0.09,0.57,Ta'Ron Keith,,,#7B9D8ACC,#30503ECC,-10.9,-2.05
+2024-09-07 South Florida at Alabama,plays,2,South Florida,40,24,Byrum Brown pass complete to Sean Atkins for 1 yd to the ALA 38,Pass,1,7,3,Other,16,1,0,0,,,,,0.18,0.00,0.25,0.08,0.54,,Byrum Brown,Sean Atkins,#7B9D8ACC,#30503ECC,-15,-2.59
+2024-09-07 South Florida at Alabama,plays,1,Alabama,41,17,Justice Haynes run for 3 yds to the ALA 23,Rush,1,8,1,Other,10,3,0,0,,,,,0.33,0.00,0.29,0.06,0.53,Justice Haynes,,,#E82525CC,#5A0000CC,-2,-2.52
+2024-09-07 South Florida at Alabama,plays,1,Alabama,42,18,Jalen Milroe pass complete to Germie Bernard for 22 yds to the ALA 35 for a 1ST down,Pass,2,8,2,Other,17,22,1,1,,,,,0.33,0.22,0.33,0.11,0.50,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,10.1,-1.82
+2024-09-07 South Florida at Alabama,plays,1,Alabama,43,19,Jalen Milroe pass incomplete to Germie Bernard,Pass,2,8,1,Other,10,0,0,0,,,,,0.30,0.20,0.32,0.11,0.47,,Jalen Milroe,,#E82525CC,#5A0000CC,-5,-1.98
+2024-09-07 South Florida at Alabama,plays,1,Alabama,44,20,"Jalen Milroe sacked by Kajuan Banks for a loss of 8 yards to the ALA 17 Alabama Penalty, Intentional Grounding (Jalen Milroe) to the ALA 17",Pass,2,8,2,Other,20,-8,0,0,,,,,0.27,0.18,0.30,0.10,0.45,,,,#E82525CC,#5A0000CC,-22,-2.99
+2024-09-07 South Florida at Alabama,plays,1,Alabama,45,21,Jalen Milroe sacked by Jason Vaughn for a loss of 10 yards to the ALA 7,Pass,2,8,3,Other,28,-10,0,0,,,,,0.25,0.17,0.29,0.10,0.43,,,,#E82525CC,#5A0000CC,-38,-4.65
+2024-09-07 South Florida at Alabama,plays,2,South Florida,46,25,Byrum Brown pass complete to Michael Brown-Stephens for 7 yds to the 50 yard line,Pass,2,9,1,Other,10,7,0,1,,,,,0.25,0.00,0.28,0.08,0.52,,Byrum Brown,Michael Brown-Stephens,#7B9D8ACC,#30503ECC,2,-2.41
+2024-09-07 South Florida at Alabama,plays,2,South Florida,47,26,Byrum Brown run for 12 yds to the ALA 38 for a 1ST down,Rush,2,9,2,Other,3,12,0,1,,,,,0.36,0.14,0.31,0.08,0.54,Byrum Brown,,,#7B9D8ACC,#30503ECC,9.9,-1.93
+2024-09-07 South Florida at Alabama,plays,2,South Florida,48,27,Byrum Brown run for 2 yds to the ALA 36,Rush,2,9,1,Other,10,2,0,0,,,,,0.33,0.13,0.30,0.07,0.56,Byrum Brown,,,#7B9D8ACC,#30503ECC,-3,-1.97
+2024-09-07 South Florida at Alabama,plays,2,South Florida,49,28,Byrum Brown run for 16 yds to the ALA 20 for a 1ST down,Rush,2,9,2,Other,8,16,1,1,,,,,0.38,0.19,0.32,0.11,0.57,Byrum Brown,,,#7B9D8ACC,#30503ECC,10.4,-1.53
+2024-09-07 South Florida at Alabama,plays,2,South Florida,50,29,Byrum Brown run for 11 yds to the ALA 9 for a 1ST down,Rush,2,9,1,Red zone,10,11,0,1,,,,,0.41,0.18,0.34,0.10,0.59,Byrum Brown,,,#7B9D8ACC,#30503ECC,6,-1.27
+2024-09-07 South Florida at Alabama,plays,2,South Florida,51,30,"TEAM run for a loss of 4 yards to the ALA 13 TEAM fumbled, recovered by USF Byrum Brown",Rush,2,9,1,Red zone,9,-4,0,0,,,,,0.39,0.17,0.33,0.10,0.60,TEAM,,,#7B9D8ACC,#30503ECC,-8.5,-1.51
+2024-09-07 South Florida at Alabama,plays,2,South Florida,52,31,Byrum Brown run for 6 yds to the ALA 7,Rush,2,9,2,Red zone,13,6,0,0,,,,,0.37,0.16,0.32,0.10,0.61,Byrum Brown,,,#7B9D8ACC,#30503ECC,-3.1,-1.56
+2024-09-07 South Florida at Alabama,plays,2,South Florida,53,32,Byrum Brown pass incomplete to Payten Singletary,Pass,2,9,3,Red zone,7,0,0,0,,,,,0.23,0.00,0.31,0.09,0.59,,Byrum Brown,,#7B9D8ACC,#30503ECC,-7,-1.73
+2024-09-07 South Florida at Alabama,plays,1,Alabama,54,22,Justice Haynes run for no gain to the ALA 25,Rush,2,10,1,Other,10,0,0,0,,,,,0.30,0.00,0.27,0.09,0.45,Justice Haynes,,,#E82525CC,#5A0000CC,-5,-4.67
+2024-09-07 South Florida at Alabama,plays,1,Alabama,55,23,Justice Haynes run for 5 yds to the ALA 30,Rush,2,10,2,Other,10,5,0,0,,,,,0.27,0.00,0.26,0.09,0.48,Justice Haynes,,,#E82525CC,#5A0000CC,-2,-4.55
+2024-09-07 South Florida at Alabama,plays,1,Alabama,56,24,Jalen Milroe pass complete to CJ Dippre for 12 yds to the ALA 42 for a 1ST down,Pass,2,10,3,Other,5,12,0,1,,,,,0.31,0.15,0.29,0.08,0.46,,Jalen Milroe,CJ Dippre,#E82525CC,#5A0000CC,7,-4.07
+2024-09-07 South Florida at Alabama,plays,1,Alabama,57,25,Justice Haynes run for no gain to the ALA 42,Rush,2,10,1,Other,10,0,0,0,,,,,0.25,0.00,0.28,0.08,0.48,Justice Haynes,,,#E82525CC,#5A0000CC,-5,-4.11
+2024-09-07 South Florida at Alabama,plays,1,Alabama,58,26,Jalen Milroe pass complete to Kobe Prentice for 18 yds to the USF 40 for a 1ST down,Pass,2,10,2,Other,10,18,1,1,,,,,0.36,0.21,0.31,0.12,0.46,,Jalen Milroe,Kobe Prentice,#E82525CC,#5A0000CC,11,-3.53
+2024-09-07 South Florida at Alabama,plays,1,Alabama,59,27,Jalen Milroe pass complete to Germie Bernard for 9 yds to the USF 31,Pass,2,10,1,Other,10,9,0,1,,,,,0.40,0.20,0.33,0.11,0.44,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,4,-3.25
+2024-09-07 South Florida at Alabama,plays,1,Alabama,60,28,Jam Miller run for 5 yds to the USF 16,Rush,2,10,1,Other,10,5,0,1,,,,,0.31,0.00,0.36,0.11,0.46,Jam Miller,,,#E82525CC,#5A0000CC,0,-3.13
+2024-09-07 South Florida at Alabama,plays,1,Alabama,61,29,Jam Miller run for 5 yds to the USF 11 for a 1ST down,Rush,2,10,2,Red zone,5,5,0,1,,,,,0.36,0.00,0.38,0.10,0.48,Jam Miller,,,#E82525CC,#5A0000CC,1.5,-2.97
+2024-09-07 South Florida at Alabama,plays,1,Alabama,62,30,Jam Miller run for 6 yds to the USF 5,Rush,2,10,1,Red zone,10,6,0,1,,,,,0.40,0.00,0.40,0.10,0.50,Jam Miller,,,#E82525CC,#5A0000CC,1,-2.84
+2024-09-07 South Florida at Alabama,plays,1,Alabama,63,31,Jam Miller run for no gain to the USF 5,Rush,2,10,2,Red zone,4,0,0,0,,,,,0.38,0.00,0.39,0.10,0.52,Jam Miller,,,#E82525CC,#5A0000CC,-2.8,-2.84
+2024-09-07 South Florida at Alabama,plays,1,Alabama,64,32,Jalen Milroe 5 yd run (Graham Nicholson Kick),Rush,2,10,3,Red zone,4,5,0,1,,,,,0.41,0.00,0.41,0.09,0.53,Jalen Milroe,,,#E82525CC,#5A0000CC,1,-2.72
+2024-09-07 South Florida at Alabama,plays,2,South Florida,65,33,Byrum Brown pass complete to Nay'Quan Wright for a loss of 1 yard to the USF 24,Pass,2,11,1,Other,10,-1,0,0,,,,,0.21,0.00,0.30,0.09,0.58,,Byrum Brown,Nay'Quan Wright,#7B9D8ACC,#30503ECC,-6,-1.86
+2024-09-07 South Florida at Alabama,plays,2,South Florida,66,34,Nay'Quan Wright run for 4 yds to the USF 28,Rush,2,11,2,Other,11,4,0,0,,,,,0.35,0.15,0.29,0.09,0.59,Nay'Quan Wright,,,#7B9D8ACC,#30503ECC,-3.7,-1.92
+2024-09-07 South Florida at Alabama,plays,2,South Florida,67,35,Byrum Brown pass incomplete to Payten Singletary,Pass,2,11,3,Other,7,0,0,0,,,,,0.20,0.00,0.29,0.09,0.57,,Byrum Brown,,#7B9D8ACC,#30503ECC,-7,-2.06
+2024-09-07 South Florida at Alabama,plays,1,Alabama,68,33,Jalen Milroe pass incomplete to Ryan Williams,Pass,2,12,1,Other,10,0,0,0,,,,,0.38,0.19,0.39,0.09,0.52,,Jalen Milroe,,#E82525CC,#5A0000CC,-5,-2.79
+2024-09-07 South Florida at Alabama,plays,1,Alabama,69,34,Justice Haynes run for a loss of 6 yards to the ALA 10,Rush,2,12,2,Other,20,-6,0,0,,,,,0.39,0.00,0.38,0.09,0.53,Justice Haynes,,,#E82525CC,#5A0000CC,-20,-3.29
+2024-09-07 South Florida at Alabama,plays,1,Alabama,70,35,Jalen Milroe pass complete to Josh Cuevas for 5 yds to the ALA 15,Pass,2,12,3,Other,26,5,0,0,,,,,0.35,0.18,0.37,0.09,0.51,,Jalen Milroe,Josh Cuevas,#E82525CC,#5A0000CC,-21,-3.80
+2024-09-07 South Florida at Alabama,plays,2,South Florida,71,36,Byrum Brown pass incomplete to Sean Atkins,Pass,2,13,1,Other,10,0,0,0,,,,,0.19,0.00,0.28,0.08,0.56,,Byrum Brown,,#7B9D8ACC,#30503ECC,-5,-2.14
+2024-09-07 South Florida at Alabama,plays,2,South Florida,72,37,Byrum Brown pass complete to Ta'Ron Keith for 3 yds to the ALA 49,Pass,2,13,2,Other,10,3,0,0,,,,,0.18,0.00,0.27,0.08,0.54,,Byrum Brown,Ta'Ron Keith,#7B9D8ACC,#30503ECC,-4,-2.19
+2024-09-07 South Florida at Alabama,plays,2,South Florida,73,38,Byrum Brown pass complete to Joshua Porter for 9 yds to the ALA 45,Pass,2,13,3,Other,12,9,0,0,,,,,0.17,0.00,0.26,0.08,0.53,,Byrum Brown,Joshua Porter,#7B9D8ACC,#30503ECC,-3,-2.22
+2024-09-07 South Florida at Alabama,plays,1,Alabama,74,36,TEAM run for a loss of 2 yards to the ALA 8,Rush,2,14,1,Other,10,-2,0,0,,,,,0.37,0.00,0.36,0.08,0.53,TEAM,,,#E82525CC,#5A0000CC,-7,-3.89
+2024-09-07 South Florida at Alabama,plays,2,South Florida,75,39,"Byrum Brown pass complete to Nay'Quan Wright for 3 yds to the ALA 49 for a 1ST down Alabama Penalty, Face Mask (15 yards) (Jihaad Campbell) to the ALA 34 for a 1ST down",Pass,3,15,1,Other,10,18,1,1,,,,,0.21,0.05,0.28,0.10,0.51,,Byrum Brown,Nay'Quan Wright,#7B9D8ACC,#30503ECC,13,-1.83
+2024-09-07 South Florida at Alabama,plays,2,South Florida,76,40,Byrum Brown pass incomplete to Nay'Quan Wright,Pass,3,15,1,Other,10,0,0,0,,,,,0.20,0.05,0.28,0.10,0.50,,Byrum Brown,,#7B9D8ACC,#30503ECC,-5,-1.91
+2024-09-07 South Florida at Alabama,plays,2,South Florida,77,41,Nay'Quan Wright run for 3 yds to the ALA 31,Rush,3,15,2,Other,10,3,0,0,,,,,0.33,0.14,0.27,0.10,0.51,Nay'Quan Wright,,,#7B9D8ACC,#30503ECC,-4,-1.96
+2024-09-07 South Florida at Alabama,plays,2,South Florida,78,42,Byrum Brown sacked by Tim Keenan III and Jihaad Campbell for a loss of 4 yards to the ALA 35,Pass,3,15,3,Other,7,-4,0,0,,,,,0.19,0.05,0.26,0.10,0.50,,,,#7B9D8ACC,#30503ECC,-11,-2.17
+2024-09-07 South Florida at Alabama,plays,1,Alabama,79,37,Jalen Milroe pass incomplete to Ryan Williams,Pass,3,16,1,Other,10,0,0,0,,,,,0.33,0.17,0.35,0.08,0.51,,Jalen Milroe,,#E82525CC,#5A0000CC,-5,-3.92
+2024-09-07 South Florida at Alabama,plays,1,Alabama,80,38,Jalen Milroe run for 4 yds to the ALA 39,Rush,3,16,2,Other,10,4,0,0,,,,,0.35,0.00,0.34,0.08,0.53,Jalen Milroe,,,#E82525CC,#5A0000CC,-3,-3.89
+2024-09-07 South Florida at Alabama,plays,1,Alabama,81,39,Jalen Milroe sacked by Mac Harris for a loss of 18 yards to the ALA 21,Pass,3,16,3,Other,6,-18,0,0,,,,,0.32,0.16,0.33,0.08,0.51,,,,#E82525CC,#5A0000CC,-24,-4.41
+2024-09-07 South Florida at Alabama,plays,2,South Florida,82,43,Byrum Brown run for 2 yds to the ALA 43,Rush,3,17,1,Other,10,2,0,0,,,,,0.32,0.14,0.26,0.09,0.51,Byrum Brown,,,#7B9D8ACC,#30503ECC,-3,-2.19
+2024-09-07 South Florida at Alabama,plays,2,South Florida,83,44,Byrum Brown pass incomplete to Kelley Joiner,Pass,3,17,2,Other,8,0,0,0,,,,,0.18,0.05,0.25,0.09,0.50,,Byrum Brown,,#7B9D8ACC,#30503ECC,-5.6,-2.27
+2024-09-07 South Florida at Alabama,plays,2,South Florida,84,45,Byrum Brown pass incomplete to Kelley Joiner,Pass,3,17,3,Other,8,0,0,0,,,,,0.17,0.04,0.24,0.09,0.49,,Byrum Brown,,#7B9D8ACC,#30503ECC,-8,-2.40
+2024-09-07 South Florida at Alabama,plays,1,Alabama,85,40,Jam Miller run for 1 yd to the ALA 26,Rush,3,18,1,Other,10,1,0,0,,,,,0.33,0.00,0.33,0.08,0.53,Jam Miller,,,#E82525CC,#5A0000CC,-4,-4.40
+2024-09-07 South Florida at Alabama,plays,1,Alabama,86,41,"Jam Miller run for 13 yds to the ALA 39 Jam Miller fumbled, forced by Mac Harris, recovered by USF Tavin Ward",Rush,3,18,2,Other,9,13,0,0,,,,,0.32,0.00,0.32,0.07,0.54,Jam Miller,,,#E82525CC,#5A0000CC,6.7,-4.13
+2024-09-07 South Florida at Alabama,plays,2,South Florida,87,46,Byrum Brown pass complete to Abdur-Rahmaan Yaseen for 13 yds to the ALA 26 for a 1ST down,Pass,3,19,1,Other,10,13,0,1,,,,,0.21,0.04,0.26,0.09,0.48,,Byrum Brown,Abdur-Rahmaan Yaseen,#7B9D8ACC,#30503ECC,8,-2.17
+2024-09-07 South Florida at Alabama,plays,2,South Florida,88,47,Byrum Brown run for 3 yds to the ALA 23,Rush,3,19,1,Other,10,3,0,0,,,,,0.30,0.13,0.26,0.09,0.49,Byrum Brown,,,#7B9D8ACC,#30503ECC,-2,-2.17
+2024-09-07 South Florida at Alabama,plays,2,South Florida,89,48,Ta'Ron Keith run for 8 yds to the ALA 15 for a 1ST down,Rush,3,19,2,Other,7,8,0,1,,,,,0.33,0.13,0.27,0.08,0.50,Ta'Ron Keith,,,#7B9D8ACC,#30503ECC,3.1,-2.06
+2024-09-07 South Florida at Alabama,plays,2,South Florida,90,49,Byrum Brown run for 13 yds to the ALA 2 for a 1ST down,Rush,3,19,1,Red zone,10,13,0,1,,,,,0.36,0.12,0.29,0.08,0.51,Byrum Brown,,,#7B9D8ACC,#30503ECC,8,-1.85
+2024-09-07 South Florida at Alabama,plays,2,South Florida,91,50,Ta'Ron Keith 2 yd run (John Cannon Kick),Rush,3,19,1,Red zone,2,2,0,1,,,,,0.38,0.12,0.30,0.08,0.52,Ta'Ron Keith,,,#7B9D8ACC,#30503ECC,1,-1.79
+2024-09-07 South Florida at Alabama,plays,1,Alabama,92,42,Justice Haynes run for 3 yds to the ALA 28,Rush,3,20,1,Other,10,3,0,0,,,,,0.30,0.00,0.31,0.07,0.55,Justice Haynes,,,#E82525CC,#5A0000CC,-2,-4.08
+2024-09-07 South Florida at Alabama,plays,1,Alabama,93,43,Jalen Milroe pass incomplete to Germie Bernard,Pass,3,20,2,Other,7,0,0,0,,,,,0.30,0.15,0.30,0.07,0.53,,Jalen Milroe,,#E82525CC,#5A0000CC,-4.9,-4.10
+2024-09-07 South Florida at Alabama,plays,1,Alabama,94,44,Jalen Milroe pass incomplete,Pass,3,20,3,Other,7,0,0,0,,,,,0.29,0.14,0.30,0.07,0.52,,Jalen Milroe,,#E82525CC,#5A0000CC,-7,-4.16
+2024-09-07 South Florida at Alabama,plays,2,South Florida,95,51,Nay'Quan Wright run for a loss of 2 yards to the USF 33,Rush,3,21,1,Other,10,-2,0,0,,,,,0.37,0.11,0.29,0.08,0.53,Nay'Quan Wright,,,#7B9D8ACC,#30503ECC,-7,-1.90
+2024-09-07 South Florida at Alabama,plays,2,South Florida,96,52,Byrum Brown pass incomplete to Josh Hardeman,Pass,3,21,2,Other,12,0,0,0,,,,,0.20,0.04,0.29,0.08,0.52,,Byrum Brown,,#7B9D8ACC,#30503ECC,-8.4,-2.02
+2024-09-07 South Florida at Alabama,plays,2,South Florida,97,53,Byrum Brown sacked by Tim Keenan III for a loss of 8 yards to the USF 25,Pass,3,21,3,Other,12,-8,0,0,,,,,0.19,0.04,0.28,0.08,0.51,,,,#7B9D8ACC,#30503ECC,-20,-2.36
+2024-09-07 South Florida at Alabama,plays,1,Alabama,98,45,Justice Haynes run for 4 yds to the ALA 39,Rush,3,22,1,Other,10,4,0,0,,,,,0.29,0.00,0.29,0.07,0.53,Justice Haynes,,,#E82525CC,#5A0000CC,-1,-4.09
+2024-09-07 South Florida at Alabama,plays,1,Alabama,99,46,Justice Haynes run for 1 yd to the ALA 40,Rush,3,22,2,Other,6,1,0,0,,,,,0.28,0.00,0.28,0.07,0.54,Justice Haynes,,,#E82525CC,#5A0000CC,-3.2,-4.07
+2024-09-07 South Florida at Alabama,plays,1,Alabama,100,47,Jalen Milroe pass incomplete,Pass,3,22,3,Other,5,0,0,0,,,,,0.27,0.14,0.28,0.06,0.53,,Jalen Milroe,,#E82525CC,#5A0000CC,-5,-4.09
+2024-09-07 South Florida at Alabama,plays,2,South Florida,101,54,Byrum Brown run for 1 yd to the USF 13,Rush,3,23,1,Other,10,1,0,0,,,,,0.36,0.11,0.28,0.07,0.52,Byrum Brown,,,#7B9D8ACC,#30503ECC,-4,-2.39
+2024-09-07 South Florida at Alabama,plays,2,South Florida,102,55,"Kelley Joiner run for 2 yds to the USF 15 South Florida Penalty, Offensive Holding (RJ Perry) to the USF 8",Rush,3,23,2,Other,9,-5,0,0,,,,,0.34,0.10,0.27,0.07,0.53,Kelley Joiner,,,#7B9D8ACC,#30503ECC,-11.3,-2.55
+2024-09-07 South Florida at Alabama,plays,2,South Florida,103,56,Kelley Joiner run for 7 yds to the USF 15,Rush,3,23,2,Other,14,7,0,0,,,,,0.33,0.10,0.27,0.07,0.54,Kelley Joiner,,,#7B9D8ACC,#30503ECC,-2.8,-2.56
+2024-09-07 South Florida at Alabama,plays,2,South Florida,104,57,Byrum Brown pass incomplete to Sean Atkins,Pass,3,23,3,Other,7,0,0,0,,,,,0.19,0.04,0.26,0.07,0.53,,Byrum Brown,,#7B9D8ACC,#30503ECC,-7,-2.64
+2024-09-07 South Florida at Alabama,plays,1,Alabama,105,48,Jam Miller run for 6 yds to the USF 49,Rush,3,24,1,Other,10,6,0,1,,,,,0.31,0.00,0.29,0.06,0.54,Jam Miller,,,#E82525CC,#5A0000CC,1,-3.99
+2024-09-07 South Florida at Alabama,plays,1,Alabama,106,49,"Jalen Milroe pass complete to Jam Miller for 8 yds to the USF 35 Alabama Penalty, Illegal Block (Tyler Booker) to the USF 45",Pass,3,24,1,Other,10,-2,0,0,,,,,0.26,0.13,0.29,0.06,0.53,,Jalen Milroe,Jam Miller,#E82525CC,#5A0000CC,-7,-4.05
+2024-09-07 South Florida at Alabama,plays,1,Alabama,107,50,Jalen Milroe pass complete to Ryan Williams for 13 yds to the USF 27,Pass,3,24,1,Other,20,13,0,1,,,,,0.29,0.13,0.30,0.06,0.52,,Jalen Milroe,Ryan Williams,#E82525CC,#5A0000CC,3,-3.91
+2024-09-07 South Florida at Alabama,plays,1,Alabama,108,51,Jam Miller run for 6 yds to the USF 21,Rush,3,24,2,Other,7,6,0,1,,,,,0.33,0.00,0.31,0.06,0.53,Jam Miller,,,#E82525CC,#5A0000CC,1.1,-3.81
+2024-09-07 South Florida at Alabama,plays,1,Alabama,109,52,Jam Miller run for 5 yds to the USF 16 for a 1ST down,Rush,3,24,3,Other,1,5,0,1,,,,,0.36,0.00,0.33,0.06,0.54,Jam Miller,,,#E82525CC,#5A0000CC,4,-3.66
+2024-09-07 South Florida at Alabama,plays,1,Alabama,110,53,Jalen Milroe pass complete to Ryan Williams for 8 yds to the USF 8,Pass,3,24,1,Red zone,10,8,0,1,,,,,0.32,0.12,0.34,0.06,0.53,,Jalen Milroe,Ryan Williams,#E82525CC,#5A0000CC,3,-3.53
+2024-09-07 South Florida at Alabama,plays,1,Alabama,111,54,Jam Miller run for a loss of 2 yards to the USF 10,Rush,3,24,2,Red zone,2,-2,0,0,,,,,0.34,0.00,0.33,0.06,0.54,Jam Miller,,,#E82525CC,#5A0000CC,-3.4,-3.53
+2024-09-07 South Florida at Alabama,plays,1,Alabama,112,55,Jalen Milroe pass complete to Cole Adams for 5 yds to the USF 5 for a 1ST down,Pass,4,24,3,Red zone,4,5,0,1,,,,,0.35,0.12,0.35,0.05,0.53,,Jalen Milroe,Cole Adams,#E82525CC,#5A0000CC,1,-3.45
+2024-09-07 South Florida at Alabama,plays,1,Alabama,113,56,Justice Haynes run for no gain to the USF 5,Rush,4,24,1,Red zone,5,0,0,0,,,,,0.33,0.00,0.34,0.05,0.54,Justice Haynes,,,#E82525CC,#5A0000CC,-2.5,-3.43
+2024-09-07 South Florida at Alabama,plays,1,Alabama,114,57,Jalen Milroe pass complete to Robbie Ouzts for 3 yds to the USF 2,Pass,4,24,2,Red zone,5,3,0,0,,,,,0.33,0.11,0.33,0.05,0.53,,Jalen Milroe,Robbie Ouzts,#E82525CC,#5A0000CC,-0.5,-3.38
+2024-09-07 South Florida at Alabama,plays,1,Alabama,115,58,"Jalen Milroe run for a loss of 2 yards to the USF 4 Jalen Milroe fumbled, recovered by USF Bernard Gooden",Rush,4,24,3,Red zone,18,-2,0,0,,,,,0.32,0.00,0.33,0.05,0.53,Jalen Milroe,,,#E82525CC,#5A0000CC,-20,-3.67
+2024-09-07 South Florida at Alabama,plays,2,South Florida,116,58,Ta'Ron Keith run for 2 yds to the USF 6,Rush,4,25,1,Other,10,2,0,0,,,,,0.32,0.10,0.26,0.07,0.53,Ta'Ron Keith,,,#7B9D8ACC,#30503ECC,-3,-2.64
+2024-09-07 South Florida at Alabama,plays,2,South Florida,117,59,Byrum Brown run for 5 yds to the USF 11,Rush,4,25,2,Other,8,5,0,0,,,,,0.31,0.09,0.25,0.07,0.54,Byrum Brown,,,#7B9D8ACC,#30503ECC,-0.6,-2.61
+2024-09-07 South Florida at Alabama,plays,2,South Florida,118,60,Byrum Brown pass complete to Ta'Ron Keith for 2 yds to the USF 13,Pass,4,25,3,Other,3,2,0,0,,,,,0.18,0.04,0.25,0.07,0.53,,Byrum Brown,Ta'Ron Keith,#7B9D8ACC,#30503ECC,-1,-2.58
+2024-09-07 South Florida at Alabama,plays,1,Alabama,119,59,Jalen Milroe run for 14 yds to the USF 20 for a 1ST down,Rush,4,26,1,Other,10,14,0,1,,,,,0.34,0.00,0.34,0.05,0.54,Jalen Milroe,,,#E82525CC,#5A0000CC,9,-3.45
+2024-09-07 South Florida at Alabama,plays,1,Alabama,120,60,Justice Haynes run for 4 yds to the USF 16,Rush,4,26,1,Red zone,10,4,0,0,,,,,0.33,0.00,0.33,0.05,0.55,Justice Haynes,,,#E82525CC,#5A0000CC,-1,-3.41
+2024-09-07 South Florida at Alabama,plays,1,Alabama,121,61,Jalen Milroe run for no gain to the USF 16,Rush,4,26,2,Red zone,6,0,0,0,,,,,0.32,0.00,0.33,0.05,0.56,Jalen Milroe,,,#E82525CC,#5A0000CC,-4.2,-3.42
+2024-09-07 South Florida at Alabama,plays,1,Alabama,122,62,Kobe Prentice 16 Yd pass from Jalen Milroe (Graham Nicholson Kick),Pass,4,26,3,Red zone,6,16,1,1,,,,,0.36,0.14,0.34,0.06,0.55,,Jalen Milroe,Kobe Prentice,#E82525CC,#5A0000CC,10,-3.21
+2024-09-07 South Florida at Alabama,plays,2,South Florida,123,61,Byrum Brown pass complete to Michael Brown-Stephens for 14 yds to the USF 39 for a 1ST down,Pass,4,27,1,Other,10,14,0,1,,,,,0.21,0.03,0.26,0.07,0.52,,Byrum Brown,Michael Brown-Stephens,#7B9D8ACC,#30503ECC,9,-2.39
+2024-09-07 South Florida at Alabama,plays,2,South Florida,124,62,Nay'Quan Wright run for 19 yds to the ALA 42 for a 1ST down,Rush,4,27,1,Other,10,19,1,1,,,,,0.33,0.12,0.27,0.08,0.53,Nay'Quan Wright,,,#7B9D8ACC,#30503ECC,14,-2.13
+2024-09-07 South Florida at Alabama,plays,2,South Florida,125,63,"Byrum Brown sacked by Justin Jefferson for a loss of 1 yard to the ALA 43 for a 1ST down Alabama Penalty, Personal Foul (Justin Jefferson) to the ALA 28 for a 1ST down",Pass,4,27,1,Other,10,14,0,1,,,,,0.23,0.03,0.29,0.08,0.52,,,,#7B9D8ACC,#30503ECC,9,-1.95
+2024-09-07 South Florida at Alabama,plays,2,South Florida,126,64,Nay'Quan Wright run for 19 yds to the ALA 9 for a 1ST down,Rush,4,27,1,Other,10,19,1,1,,,,,0.35,0.15,0.30,0.09,0.53,Nay'Quan Wright,,,#7B9D8ACC,#30503ECC,14,-1.70
+2024-09-07 South Florida at Alabama,plays,2,South Florida,127,65,Nay'Quan Wright run for no gain to the ALA 9,Rush,4,27,1,Red zone,9,0,0,0,,,,,0.34,0.14,0.29,0.09,0.54,Nay'Quan Wright,,,#7B9D8ACC,#30503ECC,-4.5,-1.74
+2024-09-07 South Florida at Alabama,plays,2,South Florida,128,66,Nay'Quan Wright run for 2 yds to the ALA 7,Rush,4,27,2,Red zone,9,2,0,0,,,,,0.33,0.14,0.29,0.09,0.55,Nay'Quan Wright,,,#7B9D8ACC,#30503ECC,-4.3,-1.78
+2024-09-07 South Florida at Alabama,plays,2,South Florida,129,67,Byrum Brown run for 3 yds to the ALA 4,Rush,4,27,3,Red zone,7,3,0,0,,,,,0.32,0.14,0.28,0.09,0.55,Byrum Brown,,,#7B9D8ACC,#30503ECC,-4,-1.81
+2024-09-07 South Florida at Alabama,plays,1,Alabama,130,63,Jam Miller run for 7 yds to the ALA 32,Rush,4,28,1,Other,10,7,0,1,,,,,0.34,0.00,0.35,0.06,0.56,Jam Miller,,,#E82525CC,#5A0000CC,2,-3.13
+2024-09-07 South Florida at Alabama,plays,1,Alabama,131,64,Jam Miller run for 25 yds to the USF 43 for a 1ST down,Rush,4,28,2,Other,3,25,1,1,,,,,0.36,0.03,0.36,0.08,0.56,Jam Miller,,,#E82525CC,#5A0000CC,22.9,-2.72
+2024-09-07 South Florida at Alabama,plays,1,Alabama,132,65,Ryan Williams 43 Yd pass from Jalen Milroe (Graham Nicholson Kick),Pass,4,28,1,Other,10,43,1,1,,,,,0.38,0.17,0.37,0.09,0.55,,Jalen Milroe,Ryan Williams,#E82525CC,#5A0000CC,38,-2.09
+2024-09-07 South Florida at Alabama,plays,2,South Florida,133,68,Byrum Brown pass incomplete to Abdur-Rahmaan Yaseen,Pass,4,29,1,Other,10,0,0,0,,,,,0.23,0.03,0.28,0.09,0.54,,Byrum Brown,,#7B9D8ACC,#30503ECC,-5,-1.86
+2024-09-07 South Florida at Alabama,plays,2,South Florida,134,69,Byrum Brown pass complete to Sean Atkins for 12 yds to the USF 37 for a 1ST down,Pass,4,29,2,Other,10,12,0,1,,,,,0.25,0.03,0.29,0.09,0.54,,Byrum Brown,Sean Atkins,#7B9D8ACC,#30503ECC,5,-1.76
+2024-09-07 South Florida at Alabama,plays,2,South Florida,135,70,Kelley Joiner run for 2 yds to the USF 39,Rush,4,29,1,Other,10,2,0,0,,,,,0.32,0.13,0.29,0.09,0.54,Kelley Joiner,,,#7B9D8ACC,#30503ECC,-3,-1.78
+2024-09-07 South Florida at Alabama,plays,2,South Florida,136,71,"Byrum Brown pass complete to Kelley Joiner for 8 yds to the ALA 47 for a 1ST down Alabama Penalty, Defensive Holding (Domani Jackson) to the ALA 43 for a 1ST down",Pass,4,29,2,Other,8,18,1,1,,,,,0.27,0.06,0.30,0.10,0.54,,Byrum Brown,Kelley Joiner,#7B9D8ACC,#30503ECC,12.4,-1.58
+2024-09-07 South Florida at Alabama,plays,2,South Florida,137,72,Byrum Brown pass complete to Ta'Ron Keith for 1 yd to the ALA 42,Pass,4,29,1,Other,10,1,0,0,,,,,0.26,0.06,0.29,0.10,0.53,,Byrum Brown,Ta'Ron Keith,#7B9D8ACC,#30503ECC,-4,-1.61
+2024-09-07 South Florida at Alabama,plays,2,South Florida,138,73,Byrum Brown run for 2 yds to the ALA 40,Rush,4,29,2,Other,9,2,0,0,,,,,0.31,0.13,0.29,0.10,0.53,Byrum Brown,,,#7B9D8ACC,#30503ECC,-4.3,-1.65
+2024-09-07 South Florida at Alabama,plays,2,South Florida,139,74,Byrum Brown pass incomplete to Sean Atkins,Pass,4,29,3,Other,7,0,0,0,,,,,0.26,0.06,0.28,0.09,0.53,,Byrum Brown,,#7B9D8ACC,#30503ECC,-7,-1.72
+2024-09-07 South Florida at Alabama,plays,2,South Florida,140,75,Byrum Brown pass incomplete to Joshua Porter,Pass,4,29,4,Other,7,0,0,0,,,,,0.25,0.06,0.28,0.09,0.52,,Byrum Brown,,#7B9D8ACC,#30503ECC,-7,-1.79
+2024-09-07 South Florida at Alabama,plays,1,Alabama,141,66,Jalen Milroe run for 4 yds to the ALA 44,Rush,4,30,1,Other,10,4,0,0,,,,,0.35,0.03,0.36,0.09,0.56,Jalen Milroe,,,#E82525CC,#5A0000CC,-1,-2.08
+2024-09-07 South Florida at Alabama,plays,1,Alabama,142,67,Jam Miller 56 yd run (Graham Nicholson Kick),Rush,4,30,2,Other,6,56,1,1,,,,,0.37,0.05,0.37,0.10,0.57,Jam Miller,,,#E82525CC,#5A0000CC,51.8,-1.27
+2024-09-07 South Florida at Alabama,plays,2,South Florida,143,76,Byrum Brown pass incomplete to Nay'Quan Wright,Pass,4,31,1,Other,10,0,0,0,,,,,0.24,0.05,0.28,0.09,0.51,,Byrum Brown,,#7B9D8ACC,#30503ECC,-5,-1.84
+2024-09-07 South Florida at Alabama,plays,2,South Florida,144,77,Byrum Brown run for 4 yds to the USF 29,Rush,4,31,2,Other,10,4,0,0,,,,,0.30,0.13,0.27,0.09,0.52,Byrum Brown,,,#7B9D8ACC,#30503ECC,-3,-1.85
+2024-09-07 South Florida at Alabama,plays,2,South Florida,145,78,Byrum Brown pass incomplete to Abdur-Rahmaan Yaseen,Pass,4,31,3,Other,6,0,0,0,,,,,0.24,0.05,0.27,0.09,0.51,,Byrum Brown,,#7B9D8ACC,#30503ECC,-6,-1.90
+2024-09-07 South Florida at Alabama,plays,2,South Florida,146,79,Byrum Brown pass incomplete to Sean Atkins,Pass,4,31,4,Other,6,0,0,0,,,,,0.23,0.05,0.27,0.09,0.51,,Byrum Brown,,#7B9D8ACC,#30503ECC,-6,-1.96
+2024-09-07 South Florida at Alabama,plays,1,Alabama,147,68,Justice Haynes 29 yd run (Graham Nicholson Kick),Rush,4,32,1,Other,10,29,1,1,,,,,0.38,0.08,0.38,0.12,0.57,Justice Haynes,,,#E82525CC,#5A0000CC,24,-0.90
+2024-09-07 South Florida at Alabama,plays,2,South Florida,148,80,Kelley Joiner run for 9 yds to the USF 30,Rush,4,33,1,Other,10,9,0,1,,,,,0.32,0.12,0.28,0.09,0.51,Kelley Joiner,,,#7B9D8ACC,#30503ECC,4,-1.88
+2024-09-07 South Florida at Alabama,plays,2,South Florida,149,81,Bryce Archie pass complete to Joshua Porter for no gain to the USF 30,Pass,4,33,2,Other,1,0,0,0,,,,,0.23,0.05,0.27,0.09,0.51,,Bryce Archie,Joshua Porter,#7B9D8ACC,#30503ECC,-0.7,-1.87
+2024-09-07 South Florida at Alabama,plays,2,South Florida,150,82,Kelley Joiner run for 5 yds to the USF 35 for a 1ST down,Rush,4,33,3,Other,1,5,0,1,,,,,0.33,0.12,0.28,0.09,0.51,Kelley Joiner,,,#7B9D8ACC,#30503ECC,4,-1.80
