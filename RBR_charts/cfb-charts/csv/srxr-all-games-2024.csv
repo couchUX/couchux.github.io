@@ -445,246 +445,460 @@ game,chart,team_num,offense,play_num,team_play,text,play_type,quarter,drive,down
 2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,130,63,Kevin Riley run for 4 yds to the WKU 11,Rush,4,28,3,Red zone,5,4,0,0,,,,,0.43,0.16,0.49,0.21,0.7,Kevin Riley,,,#E82525CC,#5A0000CC,-1,4.47
 2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,131,64,Kevin Riley run for 2 yds to the WKU 9 for a 1ST down,Rush,4,28,4,Red zone,1,2,0,1,,,,,0.44,0.16,0.5,0.2,0.7,Kevin Riley,,,#E82525CC,#5A0000CC,1,4.42
 2024-08-31 Western Kentucky at Alabama,plays,1,Alabama,132,65,TEAM run for a loss of 3 yards to the WKU 12,Rush,4,28,1,Red zone,9,-3,0,0,,,,,0.43,0.15,0.49,0.2,0.71,TEAM,,,#E82525CC,#5A0000CC,-7.5,4.24
-2024-09-07 South Florida at Alabama,teams,1,Alabama,,,,,,,,,,,8,26,,,,68,0.38,0.12,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-09-07 South Florida at Alabama,teams,2,South Florida,,,,,,,,,,,7,23,,,,82,0.28,0.09,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
-2024-09-07 South Florida at Alabama,play_type,1,Alabama,,,,Rush,,,,,,,3,15,,,,39,0.38,0.08,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-09-07 South Florida at Alabama,play_type,2,South Florida,,,,Rush,,,,,,,5,14,,,,42,0.33,0.12,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
-2024-09-07 South Florida at Alabama,play_type,1,Alabama,,,,Pass,,,,,,,5,11,,,,29,0.38,0.17,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-09-07 South Florida at Alabama,play_type,2,South Florida,,,,Pass,,,,,,,2,9,,,,40,0.23,0.05,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
-2024-09-07 South Florida at Alabama,quarter,1,Alabama,,,,,1Q,,,,,,1,5,,,,17,0.29,0.06,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-09-07 South Florida at Alabama,quarter,1,Alabama,,,,,2Q,,,,,,2,8,,,,19,0.42,0.11,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-09-07 South Florida at Alabama,quarter,1,Alabama,,,,,3Q,,,,,,0,5,,,,18,0.28,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-09-07 South Florida at Alabama,quarter,1,Alabama,,,,,4Q,,,,,,5,8,,,,14,0.57,0.36,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-09-07 South Florida at Alabama,quarter,2,South Florida,,,,,1Q,,,,,,2,6,,,,24,0.25,0.08,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
-2024-09-07 South Florida at Alabama,quarter,2,South Florida,,,,,2Q,,,,,,1,4,,,,14,0.29,0.07,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
-2024-09-07 South Florida at Alabama,quarter,2,South Florida,,,,,3Q,,,,,,1,5,,,,19,0.26,0.05,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
-2024-09-07 South Florida at Alabama,quarter,2,South Florida,,,,,4Q,,,,,,3,8,,,,25,0.32,0.12,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
-2024-09-07 South Florida at Alabama,down,1,Alabama,,,,,,,1D,,,,3,12,,,,32,0.38,0.09,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-09-07 South Florida at Alabama,down,1,Alabama,,,,,,,2D,,,,4,9,,,,23,0.39,0.17,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-09-07 South Florida at Alabama,down,1,Alabama,,,,,,,3D,,,,1,5,,,,13,0.38,0.08,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-09-07 South Florida at Alabama,down,2,South Florida,,,,,,,1D,,,,3,13,,,,36,0.36,0.08,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
-2024-09-07 South Florida at Alabama,down,2,South Florida,,,,,,,2D,,,,3,7,,,,26,0.27,0.12,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
-2024-09-07 South Florida at Alabama,down,2,South Florida,,,,,,,3D,,,,1,3,,,,18,0.17,0.06,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
-2024-09-07 South Florida at Alabama,down,2,South Florida,,,,,,,4D,,,,0,0,,,,2,0.00,0.00,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
-2024-09-07 South Florida at Alabama,red_zone,1,Alabama,,,,,,,,Other,,,7,19,,,,53,0.36,0.13,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-09-07 South Florida at Alabama,red_zone,1,Alabama,,,,,,,,Red zone,,,1,7,,,,15,0.47,0.07,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-09-07 South Florida at Alabama,red_zone,2,South Florida,,,,,,,,Other,,,7,20,,,,70,0.29,0.10,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
-2024-09-07 South Florida at Alabama,red_zone,2,South Florida,,,,,,,,Red zone,,,0,3,,,,12,0.25,0.00,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
-2024-09-07 South Florida at Alabama,distance,1,Alabama,,,,,,,,,0-3 yds,,1,2,,,,3,0.67,0.33,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-09-07 South Florida at Alabama,distance,1,Alabama,,,,,,,,,4-6 yds,,2,7,,,,14,0.50,0.14,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-09-07 South Florida at Alabama,distance,1,Alabama,,,,,,,,,7-9 yds,,0,2,,,,7,0.29,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-09-07 South Florida at Alabama,distance,1,Alabama,,,,,,,,,9> yds,,5,15,,,,44,0.34,0.11,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-09-07 South Florida at Alabama,distance,2,South Florida,,,,,,,,,0-3 yds,,0,3,,,,5,0.60,0.00,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
-2024-09-07 South Florida at Alabama,distance,2,South Florida,,,,,,,,,4-6 yds,,0,0,,,,4,0.00,0.00,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
-2024-09-07 South Florida at Alabama,distance,2,South Florida,,,,,,,,,7-9 yds,,2,5,,,,22,0.23,0.09,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
-2024-09-07 South Florida at Alabama,distance,2,South Florida,,,,,,,,,9> yds,,5,15,,,,51,0.29,0.10,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
-2024-09-07 South Florida at Alabama,drive,1,Alabama,,,,,,2,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-09-07 South Florida at Alabama,drive,1,Alabama,,,,,,4,,,,,1,5,,,,10,0.50,0.10,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-09-07 South Florida at Alabama,drive,1,Alabama,,,,,,6,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-09-07 South Florida at Alabama,drive,1,Alabama,,,,,,8,,,,,1,1,,,,5,0.20,0.20,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-09-07 South Florida at Alabama,drive,1,Alabama,,,,,,10,,,,,1,7,,,,11,0.64,0.09,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-09-07 South Florida at Alabama,drive,1,Alabama,,,,,,12,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-09-07 South Florida at Alabama,drive,1,Alabama,,,,,,14,,,,,0,0,,,,1,0.00,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-09-07 South Florida at Alabama,drive,1,Alabama,,,,,,16,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-09-07 South Florida at Alabama,drive,1,Alabama,,,,,,18,,,,,0,0,,,,2,0.00,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-09-07 South Florida at Alabama,drive,1,Alabama,,,,,,20,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-09-07 South Florida at Alabama,drive,1,Alabama,,,,,,22,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-09-07 South Florida at Alabama,drive,1,Alabama,,,,,,24,,,,,0,6,,,,11,0.55,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-09-07 South Florida at Alabama,drive,1,Alabama,,,,,,26,,,,,1,2,,,,4,0.50,0.25,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-09-07 South Florida at Alabama,drive,1,Alabama,,,,,,28,,,,,2,3,,,,3,1.00,0.67,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-09-07 South Florida at Alabama,drive,1,Alabama,,,,,,30,,,,,1,1,,,,2,0.50,0.50,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-09-07 South Florida at Alabama,drive,1,Alabama,,,,,,32,,,,,1,1,,,,1,1.00,1.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-09-07 South Florida at Alabama,drive,2,South Florida,,,,,,1,,,,,1,4,,,,12,0.33,0.08,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
-2024-09-07 South Florida at Alabama,drive,2,South Florida,,,,,,3,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
-2024-09-07 South Florida at Alabama,drive,2,South Florida,,,,,,5,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
-2024-09-07 South Florida at Alabama,drive,2,South Florida,,,,,,7,,,,,1,2,,,,6,0.33,0.17,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
-2024-09-07 South Florida at Alabama,drive,2,South Florida,,,,,,9,,,,,1,4,,,,8,0.50,0.13,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
-2024-09-07 South Florida at Alabama,drive,2,South Florida,,,,,,11,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
-2024-09-07 South Florida at Alabama,drive,2,South Florida,,,,,,13,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
-2024-09-07 South Florida at Alabama,drive,2,South Florida,,,,,,15,,,,,1,1,,,,4,0.25,0.25,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
-2024-09-07 South Florida at Alabama,drive,2,South Florida,,,,,,17,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
-2024-09-07 South Florida at Alabama,drive,2,South Florida,,,,,,19,,,,,0,4,,,,5,0.80,0.00,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
-2024-09-07 South Florida at Alabama,drive,2,South Florida,,,,,,21,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
-2024-09-07 South Florida at Alabama,drive,2,South Florida,,,,,,23,,,,,0,0,,,,4,0.00,0.00,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
-2024-09-07 South Florida at Alabama,drive,2,South Florida,,,,,,25,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
-2024-09-07 South Florida at Alabama,drive,2,South Florida,,,,,,27,,,,,2,4,,,,7,0.57,0.29,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
-2024-09-07 South Florida at Alabama,drive,2,South Florida,,,,,,29,,,,,1,2,,,,8,0.25,0.13,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
-2024-09-07 South Florida at Alabama,drive,2,South Florida,,,,,,31,,,,,0,0,,,,4,0.00,0.00,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
-2024-09-07 South Florida at Alabama,drive,2,South Florida,,,,,,33,,,,,0,2,,,,3,0.67,0.00,0.00,0.00,0.00,,,,#7B9D8ACC,#30503ECC,,0.00
-2024-09-07 South Florida at Alabama,rusher,1,Alabama,,,,,,,,,,,2,8,,5,,,0.00,0.00,0.00,0.00,0.00,Jam Miller,,,#E82525CC,#5A0000CC,,0.00
-2024-09-07 South Florida at Alabama,rusher,1,Alabama,,,,,,,,,,,0,3,,6,,,0.00,0.00,0.00,0.00,0.00,Jalen Milroe,,,#E82525CC,#5A0000CC,,0.00
-2024-09-07 South Florida at Alabama,rusher,1,Alabama,,,,,,,,,,,0,1,,0,,,0.00,0.00,0.00,0.00,0.00,Germie Bernard,,,#E82525CC,#5A0000CC,,0.00
-2024-09-07 South Florida at Alabama,rusher,1,Alabama,,,,,,,,,,,1,0,,12,,,0.00,0.00,0.00,0.00,0.00,Justice Haynes,,,#E82525CC,#5A0000CC,,0.00
-2024-09-07 South Florida at Alabama,rusher,2,South Florida,,,,,,,,,,,3,4,,12,,,0.00,0.00,0.00,0.00,0.00,Byrum Brown,,,#7B9D8ACC,#30503ECC,,0.00
-2024-09-07 South Florida at Alabama,rusher,2,South Florida,,,,,,,,,,,0,2,,4,,,0.00,0.00,0.00,0.00,0.00,Kelley Joiner,,,#7B9D8ACC,#30503ECC,,0.00
-2024-09-07 South Florida at Alabama,rusher,2,South Florida,,,,,,,,,,,0,2,,3,,,0.00,0.00,0.00,0.00,0.00,Ta'Ron Keith,,,#7B9D8ACC,#30503ECC,,0.00
-2024-09-07 South Florida at Alabama,rusher,2,South Florida,,,,,,,,,,,2,1,,8,,,0.00,0.00,0.00,0.00,0.00,Nay'Quan Wright,,,#7B9D8ACC,#30503ECC,,0.00
-2024-09-07 South Florida at Alabama,passer,1,Alabama,,,,,,,,,,,5,6,5,10,0,,0.00,0.00,0.00,0.00,0.00,,Jalen Milroe,,#E82525CC,#5A0000CC,,0.00
-2024-09-07 South Florida at Alabama,passer,2,South Florida,,,,,,,,,,,2,6,7,20,0,,0.00,0.00,0.00,0.00,0.00,,Byrum Brown,,#7B9D8ACC,#30503ECC,,0.00
-2024-09-07 South Florida at Alabama,passer,2,South Florida,,,,,,,,,,,0,0,1,0,0,,0.00,0.00,0.00,0.00,0.00,,Bryce Archie,,#7B9D8ACC,#30503ECC,,0.00
-2024-09-07 South Florida at Alabama,receiver,1,Alabama,,,,,,,,,,,1,2,1,0,,,0.00,0.00,0.00,0.00,0.00,,,Ryan Williams,#E82525CC,#5A0000CC,,0.00
-2024-09-07 South Florida at Alabama,receiver,1,Alabama,,,,,,,,,,,2,1,1,0,,,0.00,0.00,0.00,0.00,0.00,,,Germie Bernard,#E82525CC,#5A0000CC,,0.00
-2024-09-07 South Florida at Alabama,receiver,1,Alabama,,,,,,,,,,,0,1,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Caleb Odom,#E82525CC,#5A0000CC,,0.00
-2024-09-07 South Florida at Alabama,receiver,1,Alabama,,,,,,,,,,,0,1,0,0,,,0.00,0.00,0.00,0.00,0.00,,,CJ Dippre,#E82525CC,#5A0000CC,,0.00
-2024-09-07 South Florida at Alabama,receiver,1,Alabama,,,,,,,,,,,0,1,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Cole Adams,#E82525CC,#5A0000CC,,0.00
-2024-09-07 South Florida at Alabama,receiver,1,Alabama,,,,,,,,,,,2,0,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Kobe Prentice,#E82525CC,#5A0000CC,,0.00
-2024-09-07 South Florida at Alabama,receiver,1,Alabama,,,,,,,,,,,0,0,1,0,,,0.00,0.00,0.00,0.00,0.00,,,Jam Miller,#E82525CC,#5A0000CC,,0.00
-2024-09-07 South Florida at Alabama,receiver,1,Alabama,,,,,,,,,,,0,0,1,0,,,0.00,0.00,0.00,0.00,0.00,,,Josh Cuevas,#E82525CC,#5A0000CC,,0.00
-2024-09-07 South Florida at Alabama,receiver,1,Alabama,,,,,,,,,,,0,0,1,0,,,0.00,0.00,0.00,0.00,0.00,,,Robbie Ouzts,#E82525CC,#5A0000CC,,0.00
-2024-09-07 South Florida at Alabama,receiver,2,South Florida,,,,,,,,,,,0,3,1,0,,,0.00,0.00,0.00,0.00,0.00,,,Sean Atkins,#7B9D8ACC,#30503ECC,,0.00
-2024-09-07 South Florida at Alabama,receiver,2,South Florida,,,,,,,,,,,0,2,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Michael Brown-Stephens,#7B9D8ACC,#30503ECC,,0.00
-2024-09-07 South Florida at Alabama,receiver,2,South Florida,,,,,,,,,,,0,1,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Abdur-Rahmaan Yaseen,#7B9D8ACC,#30503ECC,,0.00
-2024-09-07 South Florida at Alabama,receiver,2,South Florida,,,,,,,,,,,1,0,2,0,,,0.00,0.00,0.00,0.00,0.00,,,Nay'Quan Wright,#7B9D8ACC,#30503ECC,,0.00
-2024-09-07 South Florida at Alabama,receiver,2,South Florida,,,,,,,,,,,1,0,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Kelley Joiner,#7B9D8ACC,#30503ECC,,0.00
-2024-09-07 South Florida at Alabama,receiver,2,South Florida,,,,,,,,,,,0,0,3,0,,,0.00,0.00,0.00,0.00,0.00,,,Ta'Ron Keith,#7B9D8ACC,#30503ECC,,0.00
-2024-09-07 South Florida at Alabama,receiver,2,South Florida,,,,,,,,,,,0,0,2,0,,,0.00,0.00,0.00,0.00,0.00,,,Joshua Porter,#7B9D8ACC,#30503ECC,,0.00
-2024-09-07 South Florida at Alabama,plays,2,South Florida,1,1,Byrum Brown pass complete to Sean Atkins for 12 yds to the USF 37 for a 1ST down,Pass,1,1,1,Other,10,12,0,1,,,,,1.00,0.00,1.00,0.00,0.00,,Byrum Brown,Sean Atkins,#7B9D8ACC,#30503ECC,7,7.00
-2024-09-07 South Florida at Alabama,plays,2,South Florida,2,2,Nay'Quan Wright run for 2 yds to the USF 39,Rush,1,1,1,Other,10,2,0,0,,,,,0.00,0.00,0.50,0.00,0.50,Nay'Quan Wright,,,#7B9D8ACC,#30503ECC,-3,2.00
-2024-09-07 South Florida at Alabama,plays,2,South Florida,3,3,Byrum Brown run for a loss of 2 yards to the USF 37,Rush,1,1,2,Other,8,-2,0,0,,,,,0.00,0.00,0.33,0.00,0.67,Byrum Brown,,,#7B9D8ACC,#30503ECC,-7.6,-1.20
-2024-09-07 South Florida at Alabama,plays,2,South Florida,4,4,"Byrum Brown run for 9 yds to the ALA 46 for a 1ST down Alabama Penalty, Defensive Holding (Domani Jackson) to the ALA 44 for a 1ST down",Rush,1,1,3,Other,10,19,1,1,,,,,0.33,0.33,0.50,0.25,0.75,Byrum Brown,,,#7B9D8ACC,#30503ECC,9,1.35
-2024-09-07 South Florida at Alabama,plays,2,South Florida,5,5,Byrum Brown run for 3 yds to the ALA 41,Rush,1,1,1,Other,10,3,0,0,,,,,0.25,0.25,0.40,0.20,0.80,Byrum Brown,,,#7B9D8ACC,#30503ECC,-2,0.68
-2024-09-07 South Florida at Alabama,plays,2,South Florida,6,6,Nay'Quan Wright run for 12 yds to the ALA 29 for a 1ST down,Rush,1,1,2,Other,7,12,0,1,,,,,0.40,0.20,0.50,0.17,0.83,Nay'Quan Wright,,,#7B9D8ACC,#30503ECC,7.1,1.75
-2024-09-07 South Florida at Alabama,plays,2,South Florida,7,7,Byrum Brown pass incomplete to Sean Atkins,Pass,1,1,1,Other,10,0,0,0,,,,,0.50,0.00,0.43,0.14,0.71,,Byrum Brown,,#7B9D8ACC,#30503ECC,-5,0.79
+2024-09-07 South Florida at Alabama,teams,1,Alabama,,,,,,,,,,,8,26,,,,68,0.38,0.12,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-09-07 South Florida at Alabama,teams,2,South Florida,,,,,,,,,,,7,23,,,,82,0.28,0.09,0,0,0,,,,#7B9D8ACC,#30503ECC,,0
+2024-09-07 South Florida at Alabama,play_type,1,Alabama,,,,Rush,,,,,,,3,15,,,,39,0.38,0.08,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-09-07 South Florida at Alabama,play_type,2,South Florida,,,,Rush,,,,,,,5,14,,,,42,0.33,0.12,0,0,0,,,,#7B9D8ACC,#30503ECC,,0
+2024-09-07 South Florida at Alabama,play_type,1,Alabama,,,,Pass,,,,,,,5,11,,,,29,0.38,0.17,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-09-07 South Florida at Alabama,play_type,2,South Florida,,,,Pass,,,,,,,2,9,,,,40,0.23,0.05,0,0,0,,,,#7B9D8ACC,#30503ECC,,0
+2024-09-07 South Florida at Alabama,quarter,1,Alabama,,,,,1Q,,,,,,1,5,,,,17,0.29,0.06,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-09-07 South Florida at Alabama,quarter,1,Alabama,,,,,2Q,,,,,,2,8,,,,19,0.42,0.11,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-09-07 South Florida at Alabama,quarter,1,Alabama,,,,,3Q,,,,,,0,5,,,,18,0.28,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-09-07 South Florida at Alabama,quarter,1,Alabama,,,,,4Q,,,,,,5,8,,,,14,0.57,0.36,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-09-07 South Florida at Alabama,quarter,2,South Florida,,,,,1Q,,,,,,2,6,,,,24,0.25,0.08,0,0,0,,,,#7B9D8ACC,#30503ECC,,0
+2024-09-07 South Florida at Alabama,quarter,2,South Florida,,,,,2Q,,,,,,1,4,,,,14,0.29,0.07,0,0,0,,,,#7B9D8ACC,#30503ECC,,0
+2024-09-07 South Florida at Alabama,quarter,2,South Florida,,,,,3Q,,,,,,1,5,,,,19,0.26,0.05,0,0,0,,,,#7B9D8ACC,#30503ECC,,0
+2024-09-07 South Florida at Alabama,quarter,2,South Florida,,,,,4Q,,,,,,3,8,,,,25,0.32,0.12,0,0,0,,,,#7B9D8ACC,#30503ECC,,0
+2024-09-07 South Florida at Alabama,down,1,Alabama,,,,,,,1D,,,,3,12,,,,32,0.38,0.09,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-09-07 South Florida at Alabama,down,1,Alabama,,,,,,,2D,,,,4,9,,,,23,0.39,0.17,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-09-07 South Florida at Alabama,down,1,Alabama,,,,,,,3D,,,,1,5,,,,13,0.38,0.08,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-09-07 South Florida at Alabama,down,2,South Florida,,,,,,,1D,,,,3,13,,,,36,0.36,0.08,0,0,0,,,,#7B9D8ACC,#30503ECC,,0
+2024-09-07 South Florida at Alabama,down,2,South Florida,,,,,,,2D,,,,3,7,,,,26,0.27,0.12,0,0,0,,,,#7B9D8ACC,#30503ECC,,0
+2024-09-07 South Florida at Alabama,down,2,South Florida,,,,,,,3D,,,,1,3,,,,18,0.17,0.06,0,0,0,,,,#7B9D8ACC,#30503ECC,,0
+2024-09-07 South Florida at Alabama,down,2,South Florida,,,,,,,4D,,,,0,0,,,,2,0,0,0,0,0,,,,#7B9D8ACC,#30503ECC,,0
+2024-09-07 South Florida at Alabama,red_zone,1,Alabama,,,,,,,,Other,,,7,19,,,,53,0.36,0.13,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-09-07 South Florida at Alabama,red_zone,1,Alabama,,,,,,,,Red zone,,,1,7,,,,15,0.47,0.07,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-09-07 South Florida at Alabama,red_zone,2,South Florida,,,,,,,,Other,,,7,20,,,,70,0.29,0.1,0,0,0,,,,#7B9D8ACC,#30503ECC,,0
+2024-09-07 South Florida at Alabama,red_zone,2,South Florida,,,,,,,,Red zone,,,0,3,,,,12,0.25,0,0,0,0,,,,#7B9D8ACC,#30503ECC,,0
+2024-09-07 South Florida at Alabama,distance,1,Alabama,,,,,,,,,0-3 yds,,1,2,,,,3,0.67,0.33,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-09-07 South Florida at Alabama,distance,1,Alabama,,,,,,,,,4-6 yds,,2,7,,,,14,0.5,0.14,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-09-07 South Florida at Alabama,distance,1,Alabama,,,,,,,,,7-9 yds,,0,2,,,,7,0.29,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-09-07 South Florida at Alabama,distance,1,Alabama,,,,,,,,,9> yds,,5,15,,,,44,0.34,0.11,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-09-07 South Florida at Alabama,distance,2,South Florida,,,,,,,,,0-3 yds,,0,3,,,,5,0.6,0,0,0,0,,,,#7B9D8ACC,#30503ECC,,0
+2024-09-07 South Florida at Alabama,distance,2,South Florida,,,,,,,,,4-6 yds,,0,0,,,,4,0,0,0,0,0,,,,#7B9D8ACC,#30503ECC,,0
+2024-09-07 South Florida at Alabama,distance,2,South Florida,,,,,,,,,7-9 yds,,2,5,,,,22,0.23,0.09,0,0,0,,,,#7B9D8ACC,#30503ECC,,0
+2024-09-07 South Florida at Alabama,distance,2,South Florida,,,,,,,,,9> yds,,5,15,,,,51,0.29,0.1,0,0,0,,,,#7B9D8ACC,#30503ECC,,0
+2024-09-07 South Florida at Alabama,drive,1,Alabama,,,,,,2,,,,,0,0,,,,3,0,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-09-07 South Florida at Alabama,drive,1,Alabama,,,,,,4,,,,,1,5,,,,10,0.5,0.1,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-09-07 South Florida at Alabama,drive,1,Alabama,,,,,,6,,,,,0,0,,,,3,0,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-09-07 South Florida at Alabama,drive,1,Alabama,,,,,,8,,,,,1,1,,,,5,0.2,0.2,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-09-07 South Florida at Alabama,drive,1,Alabama,,,,,,10,,,,,1,7,,,,11,0.64,0.09,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-09-07 South Florida at Alabama,drive,1,Alabama,,,,,,12,,,,,0,0,,,,3,0,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-09-07 South Florida at Alabama,drive,1,Alabama,,,,,,14,,,,,0,0,,,,1,0,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-09-07 South Florida at Alabama,drive,1,Alabama,,,,,,16,,,,,0,0,,,,3,0,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-09-07 South Florida at Alabama,drive,1,Alabama,,,,,,18,,,,,0,0,,,,2,0,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-09-07 South Florida at Alabama,drive,1,Alabama,,,,,,20,,,,,0,0,,,,3,0,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-09-07 South Florida at Alabama,drive,1,Alabama,,,,,,22,,,,,0,0,,,,3,0,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-09-07 South Florida at Alabama,drive,1,Alabama,,,,,,24,,,,,0,6,,,,11,0.55,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-09-07 South Florida at Alabama,drive,1,Alabama,,,,,,26,,,,,1,2,,,,4,0.5,0.25,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-09-07 South Florida at Alabama,drive,1,Alabama,,,,,,28,,,,,2,3,,,,3,1,0.67,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-09-07 South Florida at Alabama,drive,1,Alabama,,,,,,30,,,,,1,1,,,,2,0.5,0.5,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-09-07 South Florida at Alabama,drive,1,Alabama,,,,,,32,,,,,1,1,,,,1,1,1,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-09-07 South Florida at Alabama,drive,2,South Florida,,,,,,1,,,,,1,4,,,,12,0.33,0.08,0,0,0,,,,#7B9D8ACC,#30503ECC,,0
+2024-09-07 South Florida at Alabama,drive,2,South Florida,,,,,,3,,,,,0,0,,,,3,0,0,0,0,0,,,,#7B9D8ACC,#30503ECC,,0
+2024-09-07 South Florida at Alabama,drive,2,South Florida,,,,,,5,,,,,0,0,,,,3,0,0,0,0,0,,,,#7B9D8ACC,#30503ECC,,0
+2024-09-07 South Florida at Alabama,drive,2,South Florida,,,,,,7,,,,,1,2,,,,6,0.33,0.17,0,0,0,,,,#7B9D8ACC,#30503ECC,,0
+2024-09-07 South Florida at Alabama,drive,2,South Florida,,,,,,9,,,,,1,4,,,,8,0.5,0.13,0,0,0,,,,#7B9D8ACC,#30503ECC,,0
+2024-09-07 South Florida at Alabama,drive,2,South Florida,,,,,,11,,,,,0,0,,,,3,0,0,0,0,0,,,,#7B9D8ACC,#30503ECC,,0
+2024-09-07 South Florida at Alabama,drive,2,South Florida,,,,,,13,,,,,0,0,,,,3,0,0,0,0,0,,,,#7B9D8ACC,#30503ECC,,0
+2024-09-07 South Florida at Alabama,drive,2,South Florida,,,,,,15,,,,,1,1,,,,4,0.25,0.25,0,0,0,,,,#7B9D8ACC,#30503ECC,,0
+2024-09-07 South Florida at Alabama,drive,2,South Florida,,,,,,17,,,,,0,0,,,,3,0,0,0,0,0,,,,#7B9D8ACC,#30503ECC,,0
+2024-09-07 South Florida at Alabama,drive,2,South Florida,,,,,,19,,,,,0,4,,,,5,0.8,0,0,0,0,,,,#7B9D8ACC,#30503ECC,,0
+2024-09-07 South Florida at Alabama,drive,2,South Florida,,,,,,21,,,,,0,0,,,,3,0,0,0,0,0,,,,#7B9D8ACC,#30503ECC,,0
+2024-09-07 South Florida at Alabama,drive,2,South Florida,,,,,,23,,,,,0,0,,,,4,0,0,0,0,0,,,,#7B9D8ACC,#30503ECC,,0
+2024-09-07 South Florida at Alabama,drive,2,South Florida,,,,,,25,,,,,0,0,,,,3,0,0,0,0,0,,,,#7B9D8ACC,#30503ECC,,0
+2024-09-07 South Florida at Alabama,drive,2,South Florida,,,,,,27,,,,,2,4,,,,7,0.57,0.29,0,0,0,,,,#7B9D8ACC,#30503ECC,,0
+2024-09-07 South Florida at Alabama,drive,2,South Florida,,,,,,29,,,,,1,2,,,,8,0.25,0.13,0,0,0,,,,#7B9D8ACC,#30503ECC,,0
+2024-09-07 South Florida at Alabama,drive,2,South Florida,,,,,,31,,,,,0,0,,,,4,0,0,0,0,0,,,,#7B9D8ACC,#30503ECC,,0
+2024-09-07 South Florida at Alabama,drive,2,South Florida,,,,,,33,,,,,0,2,,,,3,0.67,0,0,0,0,,,,#7B9D8ACC,#30503ECC,,0
+2024-09-07 South Florida at Alabama,rusher,1,Alabama,,,,,,,,,,,2,8,,5,,,0,0,0,0,0,Jam Miller,,,#E82525CC,#5A0000CC,,0
+2024-09-07 South Florida at Alabama,rusher,1,Alabama,,,,,,,,,,,0,3,,6,,,0,0,0,0,0,Jalen Milroe,,,#E82525CC,#5A0000CC,,0
+2024-09-07 South Florida at Alabama,rusher,1,Alabama,,,,,,,,,,,0,1,,0,,,0,0,0,0,0,Germie Bernard,,,#E82525CC,#5A0000CC,,0
+2024-09-07 South Florida at Alabama,rusher,1,Alabama,,,,,,,,,,,1,0,,12,,,0,0,0,0,0,Justice Haynes,,,#E82525CC,#5A0000CC,,0
+2024-09-07 South Florida at Alabama,rusher,2,South Florida,,,,,,,,,,,3,4,,12,,,0,0,0,0,0,Byrum Brown,,,#7B9D8ACC,#30503ECC,,0
+2024-09-07 South Florida at Alabama,rusher,2,South Florida,,,,,,,,,,,0,2,,4,,,0,0,0,0,0,Kelley Joiner,,,#7B9D8ACC,#30503ECC,,0
+2024-09-07 South Florida at Alabama,rusher,2,South Florida,,,,,,,,,,,0,2,,3,,,0,0,0,0,0,Ta'Ron Keith,,,#7B9D8ACC,#30503ECC,,0
+2024-09-07 South Florida at Alabama,rusher,2,South Florida,,,,,,,,,,,2,1,,8,,,0,0,0,0,0,Nay'Quan Wright,,,#7B9D8ACC,#30503ECC,,0
+2024-09-07 South Florida at Alabama,passer,1,Alabama,,,,,,,,,,,5,6,5,10,0,,0,0,0,0,0,,Jalen Milroe,,#E82525CC,#5A0000CC,,0
+2024-09-07 South Florida at Alabama,passer,2,South Florida,,,,,,,,,,,2,6,7,20,0,,0,0,0,0,0,,Byrum Brown,,#7B9D8ACC,#30503ECC,,0
+2024-09-07 South Florida at Alabama,passer,2,South Florida,,,,,,,,,,,0,0,1,0,0,,0,0,0,0,0,,Bryce Archie,,#7B9D8ACC,#30503ECC,,0
+2024-09-07 South Florida at Alabama,receiver,1,Alabama,,,,,,,,,,,1,2,1,0,,,0,0,0,0,0,,,Ryan Williams,#E82525CC,#5A0000CC,,0
+2024-09-07 South Florida at Alabama,receiver,1,Alabama,,,,,,,,,,,2,1,1,0,,,0,0,0,0,0,,,Germie Bernard,#E82525CC,#5A0000CC,,0
+2024-09-07 South Florida at Alabama,receiver,1,Alabama,,,,,,,,,,,0,1,0,0,,,0,0,0,0,0,,,Caleb Odom,#E82525CC,#5A0000CC,,0
+2024-09-07 South Florida at Alabama,receiver,1,Alabama,,,,,,,,,,,0,1,0,0,,,0,0,0,0,0,,,CJ Dippre,#E82525CC,#5A0000CC,,0
+2024-09-07 South Florida at Alabama,receiver,1,Alabama,,,,,,,,,,,0,1,0,0,,,0,0,0,0,0,,,Cole Adams,#E82525CC,#5A0000CC,,0
+2024-09-07 South Florida at Alabama,receiver,1,Alabama,,,,,,,,,,,2,0,0,0,,,0,0,0,0,0,,,Kobe Prentice,#E82525CC,#5A0000CC,,0
+2024-09-07 South Florida at Alabama,receiver,1,Alabama,,,,,,,,,,,0,0,1,0,,,0,0,0,0,0,,,Jam Miller,#E82525CC,#5A0000CC,,0
+2024-09-07 South Florida at Alabama,receiver,1,Alabama,,,,,,,,,,,0,0,1,0,,,0,0,0,0,0,,,Josh Cuevas,#E82525CC,#5A0000CC,,0
+2024-09-07 South Florida at Alabama,receiver,1,Alabama,,,,,,,,,,,0,0,1,0,,,0,0,0,0,0,,,Robbie Ouzts,#E82525CC,#5A0000CC,,0
+2024-09-07 South Florida at Alabama,receiver,2,South Florida,,,,,,,,,,,0,3,1,0,,,0,0,0,0,0,,,Sean Atkins,#7B9D8ACC,#30503ECC,,0
+2024-09-07 South Florida at Alabama,receiver,2,South Florida,,,,,,,,,,,0,2,0,0,,,0,0,0,0,0,,,Michael Brown-Stephens,#7B9D8ACC,#30503ECC,,0
+2024-09-07 South Florida at Alabama,receiver,2,South Florida,,,,,,,,,,,0,1,0,0,,,0,0,0,0,0,,,Abdur-Rahmaan Yaseen,#7B9D8ACC,#30503ECC,,0
+2024-09-07 South Florida at Alabama,receiver,2,South Florida,,,,,,,,,,,1,0,2,0,,,0,0,0,0,0,,,Nay'Quan Wright,#7B9D8ACC,#30503ECC,,0
+2024-09-07 South Florida at Alabama,receiver,2,South Florida,,,,,,,,,,,1,0,0,0,,,0,0,0,0,0,,,Kelley Joiner,#7B9D8ACC,#30503ECC,,0
+2024-09-07 South Florida at Alabama,receiver,2,South Florida,,,,,,,,,,,0,0,3,0,,,0,0,0,0,0,,,Ta'Ron Keith,#7B9D8ACC,#30503ECC,,0
+2024-09-07 South Florida at Alabama,receiver,2,South Florida,,,,,,,,,,,0,0,2,0,,,0,0,0,0,0,,,Joshua Porter,#7B9D8ACC,#30503ECC,,0
+2024-09-07 South Florida at Alabama,plays,2,South Florida,1,1,Byrum Brown pass complete to Sean Atkins for 12 yds to the USF 37 for a 1ST down,Pass,1,1,1,Other,10,12,0,1,,,,,1,0,1,0,0,,Byrum Brown,Sean Atkins,#7B9D8ACC,#30503ECC,7,7
+2024-09-07 South Florida at Alabama,plays,2,South Florida,2,2,Nay'Quan Wright run for 2 yds to the USF 39,Rush,1,1,1,Other,10,2,0,0,,,,,0,0,0.5,0,0.5,Nay'Quan Wright,,,#7B9D8ACC,#30503ECC,-3,2
+2024-09-07 South Florida at Alabama,plays,2,South Florida,3,3,Byrum Brown run for a loss of 2 yards to the USF 37,Rush,1,1,2,Other,8,-2,0,0,,,,,0,0,0.33,0,0.67,Byrum Brown,,,#7B9D8ACC,#30503ECC,-7.6,-1.2
+2024-09-07 South Florida at Alabama,plays,2,South Florida,4,4,"Byrum Brown run for 9 yds to the ALA 46 for a 1ST down Alabama Penalty, Defensive Holding (Domani Jackson) to the ALA 44 for a 1ST down",Rush,1,1,3,Other,10,19,1,1,,,,,0.33,0.33,0.5,0.25,0.75,Byrum Brown,,,#7B9D8ACC,#30503ECC,9,1.35
+2024-09-07 South Florida at Alabama,plays,2,South Florida,5,5,Byrum Brown run for 3 yds to the ALA 41,Rush,1,1,1,Other,10,3,0,0,,,,,0.25,0.25,0.4,0.2,0.8,Byrum Brown,,,#7B9D8ACC,#30503ECC,-2,0.68
+2024-09-07 South Florida at Alabama,plays,2,South Florida,6,6,Nay'Quan Wright run for 12 yds to the ALA 29 for a 1ST down,Rush,1,1,2,Other,7,12,0,1,,,,,0.4,0.2,0.5,0.17,0.83,Nay'Quan Wright,,,#7B9D8ACC,#30503ECC,7.1,1.75
+2024-09-07 South Florida at Alabama,plays,2,South Florida,7,7,Byrum Brown pass incomplete to Sean Atkins,Pass,1,1,1,Other,10,0,0,0,,,,,0.5,0,0.43,0.14,0.71,,Byrum Brown,,#7B9D8ACC,#30503ECC,-5,0.79
 2024-09-07 South Florida at Alabama,plays,2,South Florida,8,8,Nay'Quan Wright run for 3 yds to the ALA 26,Rush,1,1,2,Other,10,3,0,0,,,,,0.33,0.17,0.38,0.13,0.75,Nay'Quan Wright,,,#7B9D8ACC,#30503ECC,-4,0.19
 2024-09-07 South Florida at Alabama,plays,2,South Florida,9,9,Byrum Brown run for 14 yds to the ALA 12 for a 1ST down,Rush,1,1,3,Other,7,14,0,1,,,,,0.43,0.14,0.44,0.11,0.78,Byrum Brown,,,#7B9D8ACC,#30503ECC,7,0.94
-2024-09-07 South Florida at Alabama,plays,2,South Florida,10,10,Nay'Quan Wright run for 2 yds to the ALA 10,Rush,1,1,1,Red zone,10,2,0,0,,,,,0.38,0.13,0.40,0.10,0.80,Nay'Quan Wright,,,#7B9D8ACC,#30503ECC,-3,0.55
-2024-09-07 South Florida at Alabama,plays,2,South Florida,11,11,Byrum Brown pass incomplete to Michael Brown-Stephens,Pass,1,1,2,Red zone,8,0,0,0,,,,,0.33,0.00,0.36,0.09,0.73,,Byrum Brown,,#7B9D8ACC,#30503ECC,-5.6,-0.01
-2024-09-07 South Florida at Alabama,plays,2,South Florida,12,12,Byrum Brown pass incomplete to Sean Atkins,Pass,1,1,3,Red zone,13,0,0,0,,,,,0.25,0.00,0.33,0.08,0.67,,Byrum Brown,,#7B9D8ACC,#30503ECC,-13,-1.09
-2024-09-07 South Florida at Alabama,plays,1,Alabama,13,1,Justice Haynes run for no gain to the ALA 25,Rush,1,2,1,Other,10,0,0,0,,,,,0.00,0.00,0.00,0.00,1.00,Justice Haynes,,,#E82525CC,#5A0000CC,-5,-5.00
-2024-09-07 South Florida at Alabama,plays,1,Alabama,14,2,Jalen Milroe pass complete to Germie Bernard for 3 yds to the ALA 28,Pass,1,2,2,Other,10,3,0,0,,,,,0.00,0.00,0.00,0.00,0.50,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,-4,-4.50
-2024-09-07 South Florida at Alabama,plays,1,Alabama,15,3,Jalen Milroe pass incomplete to Kendrick Law,Pass,1,2,3,Other,7,0,0,0,,,,,0.00,0.00,0.00,0.00,0.33,,Jalen Milroe,,#E82525CC,#5A0000CC,-7,-5.33
+2024-09-07 South Florida at Alabama,plays,2,South Florida,10,10,Nay'Quan Wright run for 2 yds to the ALA 10,Rush,1,1,1,Red zone,10,2,0,0,,,,,0.38,0.13,0.4,0.1,0.8,Nay'Quan Wright,,,#7B9D8ACC,#30503ECC,-3,0.55
+2024-09-07 South Florida at Alabama,plays,2,South Florida,11,11,Byrum Brown pass incomplete to Michael Brown-Stephens,Pass,1,1,2,Red zone,8,0,0,0,,,,,0.33,0,0.36,0.09,0.73,,Byrum Brown,,#7B9D8ACC,#30503ECC,-5.6,-0.01
+2024-09-07 South Florida at Alabama,plays,2,South Florida,12,12,Byrum Brown pass incomplete to Sean Atkins,Pass,1,1,3,Red zone,13,0,0,0,,,,,0.25,0,0.33,0.08,0.67,,Byrum Brown,,#7B9D8ACC,#30503ECC,-13,-1.09
+2024-09-07 South Florida at Alabama,plays,1,Alabama,13,1,Justice Haynes run for no gain to the ALA 25,Rush,1,2,1,Other,10,0,0,0,,,,,0,0,0,0,1,Justice Haynes,,,#E82525CC,#5A0000CC,-5,-5
+2024-09-07 South Florida at Alabama,plays,1,Alabama,14,2,Jalen Milroe pass complete to Germie Bernard for 3 yds to the ALA 28,Pass,1,2,2,Other,10,3,0,0,,,,,0,0,0,0,0.5,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,-4,-4.5
+2024-09-07 South Florida at Alabama,plays,1,Alabama,15,3,Jalen Milroe pass incomplete to Kendrick Law,Pass,1,2,3,Other,7,0,0,0,,,,,0,0,0,0,0.33,,Jalen Milroe,,#E82525CC,#5A0000CC,-7,-5.33
 2024-09-07 South Florida at Alabama,plays,2,South Florida,16,13,Byrum Brown run for 4 yds to the USF 26,Rush,1,3,1,Other,10,4,0,0,,,,,0.33,0.11,0.31,0.08,0.69,Byrum Brown,,,#7B9D8ACC,#30503ECC,-1,-1.08
-2024-09-07 South Florida at Alabama,plays,2,South Florida,17,14,Kelley Joiner run for no gain to the USF 26,Rush,1,3,2,Other,6,0,0,0,,,,,0.30,0.10,0.29,0.07,0.71,Kelley Joiner,,,#7B9D8ACC,#30503ECC,-4.2,-1.31
-2024-09-07 South Florida at Alabama,plays,2,South Florida,18,15,Byrum Brown pass incomplete to Michael Brown-Stephens,Pass,1,3,3,Other,6,0,0,0,,,,,0.20,0.00,0.27,0.07,0.67,,Byrum Brown,,#7B9D8ACC,#30503ECC,-6,-1.62
-2024-09-07 South Florida at Alabama,plays,1,Alabama,19,4,Jalen Milroe pass incomplete to Ryan Williams,Pass,1,4,1,Other,10,0,0,0,,,,,0.00,0.00,0.00,0.00,0.25,,Jalen Milroe,,#E82525CC,#5A0000CC,-5,-5.25
-2024-09-07 South Florida at Alabama,plays,1,Alabama,20,5,Jalen Milroe pass complete to Ryan Williams for 4 yds to the ALA 39,Pass,1,4,2,Other,10,4,0,0,,,,,0.00,0.00,0.00,0.00,0.20,,Jalen Milroe,Ryan Williams,#E82525CC,#5A0000CC,-3,-4.80
-2024-09-07 South Florida at Alabama,plays,1,Alabama,21,6,Jam Miller run for 5 yds to the USF 42,Rush,1,4,1,Other,10,5,0,1,,,,,0.50,0.00,0.17,0.00,0.33,Jam Miller,,,#E82525CC,#5A0000CC,0,-4.00
-2024-09-07 South Florida at Alabama,plays,1,Alabama,22,7,Jalen Milroe pass complete to Caleb Odom for 6 yds to the USF 36 for a 1ST down,Pass,1,4,2,Other,5,6,0,1,,,,,0.20,0.00,0.29,0.00,0.29,,Jalen Milroe,Caleb Odom,#E82525CC,#5A0000CC,2.5,-3.07
-2024-09-07 South Florida at Alabama,plays,1,Alabama,23,8,Jam Miller run for 2 yds to the USF 34,Rush,1,4,1,Other,10,2,0,0,,,,,0.33,0.00,0.25,0.00,0.38,Jam Miller,,,#E82525CC,#5A0000CC,-3,-3.06
-2024-09-07 South Florida at Alabama,plays,1,Alabama,24,9,Germie Bernard run for 13 yds to the USF 21 for a 1ST down,Rush,1,4,2,Other,8,13,0,1,,,,,0.50,0.00,0.33,0.00,0.44,Germie Bernard,,,#E82525CC,#5A0000CC,7.4,-1.90
-2024-09-07 South Florida at Alabama,plays,1,Alabama,25,10,"Justice Haynes run for 3 yds to the USF 18 Alabama Penalty, Offensive Holding (Geno VanDeMark) to the USF 28",Rush,1,4,1,Other,10,-7,0,0,,,,,0.40,0.00,0.30,0.00,0.50,Justice Haynes,,,#E82525CC,#5A0000CC,-12,-2.91
+2024-09-07 South Florida at Alabama,plays,2,South Florida,17,14,Kelley Joiner run for no gain to the USF 26,Rush,1,3,2,Other,6,0,0,0,,,,,0.3,0.1,0.29,0.07,0.71,Kelley Joiner,,,#7B9D8ACC,#30503ECC,-4.2,-1.31
+2024-09-07 South Florida at Alabama,plays,2,South Florida,18,15,Byrum Brown pass incomplete to Michael Brown-Stephens,Pass,1,3,3,Other,6,0,0,0,,,,,0.2,0,0.27,0.07,0.67,,Byrum Brown,,#7B9D8ACC,#30503ECC,-6,-1.62
+2024-09-07 South Florida at Alabama,plays,1,Alabama,19,4,Jalen Milroe pass incomplete to Ryan Williams,Pass,1,4,1,Other,10,0,0,0,,,,,0,0,0,0,0.25,,Jalen Milroe,,#E82525CC,#5A0000CC,-5,-5.25
+2024-09-07 South Florida at Alabama,plays,1,Alabama,20,5,Jalen Milroe pass complete to Ryan Williams for 4 yds to the ALA 39,Pass,1,4,2,Other,10,4,0,0,,,,,0,0,0,0,0.2,,Jalen Milroe,Ryan Williams,#E82525CC,#5A0000CC,-3,-4.8
+2024-09-07 South Florida at Alabama,plays,1,Alabama,21,6,Jam Miller run for 5 yds to the USF 42,Rush,1,4,1,Other,10,5,0,1,,,,,0.5,0,0.17,0,0.33,Jam Miller,,,#E82525CC,#5A0000CC,0,-4
+2024-09-07 South Florida at Alabama,plays,1,Alabama,22,7,Jalen Milroe pass complete to Caleb Odom for 6 yds to the USF 36 for a 1ST down,Pass,1,4,2,Other,5,6,0,1,,,,,0.2,0,0.29,0,0.29,,Jalen Milroe,Caleb Odom,#E82525CC,#5A0000CC,2.5,-3.07
+2024-09-07 South Florida at Alabama,plays,1,Alabama,23,8,Jam Miller run for 2 yds to the USF 34,Rush,1,4,1,Other,10,2,0,0,,,,,0.33,0,0.25,0,0.38,Jam Miller,,,#E82525CC,#5A0000CC,-3,-3.06
+2024-09-07 South Florida at Alabama,plays,1,Alabama,24,9,Germie Bernard run for 13 yds to the USF 21 for a 1ST down,Rush,1,4,2,Other,8,13,0,1,,,,,0.5,0,0.33,0,0.44,Germie Bernard,,,#E82525CC,#5A0000CC,7.4,-1.9
+2024-09-07 South Florida at Alabama,plays,1,Alabama,25,10,"Justice Haynes run for 3 yds to the USF 18 Alabama Penalty, Offensive Holding (Geno VanDeMark) to the USF 28",Rush,1,4,1,Other,10,-7,0,0,,,,,0.4,0,0.3,0,0.5,Justice Haynes,,,#E82525CC,#5A0000CC,-12,-2.91
 2024-09-07 South Florida at Alabama,plays,1,Alabama,26,11,Jalen Milroe pass complete to Germie Bernard for 19 yds to the USF 9 for a 1ST down,Pass,1,4,1,Other,17,19,1,1,,,,,0.33,0.17,0.36,0.09,0.45,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,10.5,-1.69
-2024-09-07 South Florida at Alabama,plays,1,Alabama,27,12,Jalen Milroe run for a loss of 1 yard to the USF 10,Rush,1,4,1,Red zone,9,-1,0,0,,,,,0.33,0.00,0.33,0.08,0.50,Jalen Milroe,,,#E82525CC,#5A0000CC,-5.5,-2.01
-2024-09-07 South Florida at Alabama,plays,1,Alabama,28,13,Jalen Milroe 10 yd run (Graham Nicholson Kick),Rush,1,4,2,Red zone,10,10,0,1,,,,,0.43,0.00,0.38,0.08,0.54,Jalen Milroe,,,#E82525CC,#5A0000CC,3,-1.62
-2024-09-07 South Florida at Alabama,plays,2,South Florida,29,16,Byrum Brown pass incomplete to JeyQuan Smith,Pass,1,5,1,Other,10,0,0,0,,,,,0.17,0.00,0.25,0.06,0.63,,Byrum Brown,,#7B9D8ACC,#30503ECC,-5,-1.83
-2024-09-07 South Florida at Alabama,plays,2,South Florida,30,17,Byrum Brown pass incomplete to Michael Brown-Stephens,Pass,1,5,2,Other,10,0,0,0,,,,,0.14,0.00,0.24,0.06,0.59,,Byrum Brown,,#7B9D8ACC,#30503ECC,-7,-2.14
-2024-09-07 South Florida at Alabama,plays,2,South Florida,31,18,Byrum Brown pass complete to Nay'Quan Wright for 9 yds to the USF 34,Pass,1,5,3,Other,10,9,0,0,,,,,0.13,0.00,0.22,0.06,0.56,,Byrum Brown,Nay'Quan Wright,#7B9D8ACC,#30503ECC,-1,-2.07
-2024-09-07 South Florida at Alabama,plays,1,Alabama,32,14,Jalen Milroe run for 4 yds to the ALA 18,Rush,1,6,1,Other,10,4,0,0,,,,,0.38,0.00,0.36,0.07,0.57,Jalen Milroe,,,#E82525CC,#5A0000CC,-1,-1.58
+2024-09-07 South Florida at Alabama,plays,1,Alabama,27,12,Jalen Milroe run for a loss of 1 yard to the USF 10,Rush,1,4,1,Red zone,9,-1,0,0,,,,,0.33,0,0.33,0.08,0.5,Jalen Milroe,,,#E82525CC,#5A0000CC,-5.5,-2.01
+2024-09-07 South Florida at Alabama,plays,1,Alabama,28,13,Jalen Milroe 10 yd run (Graham Nicholson Kick),Rush,1,4,2,Red zone,10,10,0,1,,,,,0.43,0,0.38,0.08,0.54,Jalen Milroe,,,#E82525CC,#5A0000CC,3,-1.62
+2024-09-07 South Florida at Alabama,plays,2,South Florida,29,16,Byrum Brown pass incomplete to JeyQuan Smith,Pass,1,5,1,Other,10,0,0,0,,,,,0.17,0,0.25,0.06,0.63,,Byrum Brown,,#7B9D8ACC,#30503ECC,-5,-1.83
+2024-09-07 South Florida at Alabama,plays,2,South Florida,30,17,Byrum Brown pass incomplete to Michael Brown-Stephens,Pass,1,5,2,Other,10,0,0,0,,,,,0.14,0,0.24,0.06,0.59,,Byrum Brown,,#7B9D8ACC,#30503ECC,-7,-2.14
+2024-09-07 South Florida at Alabama,plays,2,South Florida,31,18,Byrum Brown pass complete to Nay'Quan Wright for 9 yds to the USF 34,Pass,1,5,3,Other,10,9,0,0,,,,,0.13,0,0.22,0.06,0.56,,Byrum Brown,Nay'Quan Wright,#7B9D8ACC,#30503ECC,-1,-2.07
+2024-09-07 South Florida at Alabama,plays,1,Alabama,32,14,Jalen Milroe run for 4 yds to the ALA 18,Rush,1,6,1,Other,10,4,0,0,,,,,0.38,0,0.36,0.07,0.57,Jalen Milroe,,,#E82525CC,#5A0000CC,-1,-1.58
 2024-09-07 South Florida at Alabama,plays,1,Alabama,33,15,Jalen Milroe pass incomplete to Germie Bernard,Pass,1,6,2,Other,11,0,0,0,,,,,0.29,0.14,0.33,0.07,0.53,,Jalen Milroe,,#E82525CC,#5A0000CC,-7.7,-1.99
-2024-09-07 South Florida at Alabama,plays,1,Alabama,34,16,Jalen Milroe pass incomplete to CJ Dippre,Pass,1,6,3,Other,11,0,0,0,,,,,0.25,0.13,0.31,0.06,0.50,,Jalen Milroe,,#E82525CC,#5A0000CC,-11,-2.55
+2024-09-07 South Florida at Alabama,plays,1,Alabama,34,16,Jalen Milroe pass incomplete to CJ Dippre,Pass,1,6,3,Other,11,0,0,0,,,,,0.25,0.13,0.31,0.06,0.5,,Jalen Milroe,,#E82525CC,#5A0000CC,-11,-2.55
 2024-09-07 South Florida at Alabama,plays,2,South Florida,35,19,Ta'Ron Keith run for no gain to the USF 37,Rush,1,7,1,Other,10,0,0,0,,,,,0.27,0.09,0.21,0.05,0.58,Ta'Ron Keith,,,#7B9D8ACC,#30503ECC,-5,-2.23
-2024-09-07 South Florida at Alabama,plays,2,South Florida,36,20,Byrum Brown run for 20 yds to the ALA 43 for a 1ST down,Rush,1,7,2,Other,10,20,1,1,,,,,0.33,0.17,0.25,0.10,0.60,Byrum Brown,,,#7B9D8ACC,#30503ECC,13,-1.47
-2024-09-07 South Florida at Alabama,plays,2,South Florida,37,21,Byrum Brown pass complete to Sean Atkins for 10 yds to the ALA 33 for a 1ST down,Pass,1,7,1,Other,10,10,0,1,,,,,0.22,0.00,0.29,0.10,0.57,,Byrum Brown,Sean Atkins,#7B9D8ACC,#30503ECC,5,-1.16
-2024-09-07 South Florida at Alabama,plays,2,South Florida,38,22,Byrum Brown sacked by Que Robinson for a loss of 7 yards to the ALA 40,Pass,1,7,1,Other,10,-7,0,0,,,,,0.20,0.00,0.27,0.09,0.55,,,,#7B9D8ACC,#30503ECC,-12,-1.65
+2024-09-07 South Florida at Alabama,plays,2,South Florida,36,20,Byrum Brown run for 20 yds to the ALA 43 for a 1ST down,Rush,1,7,2,Other,10,20,1,1,,,,,0.33,0.17,0.25,0.1,0.6,Byrum Brown,,,#7B9D8ACC,#30503ECC,13,-1.47
+2024-09-07 South Florida at Alabama,plays,2,South Florida,37,21,Byrum Brown pass complete to Sean Atkins for 10 yds to the ALA 33 for a 1ST down,Pass,1,7,1,Other,10,10,0,1,,,,,0.22,0,0.29,0.1,0.57,,Byrum Brown,Sean Atkins,#7B9D8ACC,#30503ECC,5,-1.16
+2024-09-07 South Florida at Alabama,plays,2,South Florida,38,22,Byrum Brown sacked by Que Robinson for a loss of 7 yards to the ALA 40,Pass,1,7,1,Other,10,-7,0,0,,,,,0.2,0,0.27,0.09,0.55,,,,#7B9D8ACC,#30503ECC,-12,-1.65
 2024-09-07 South Florida at Alabama,plays,2,South Florida,39,23,Ta'Ron Keith run for 1 yd to the ALA 39,Rush,1,7,2,Other,17,1,0,0,,,,,0.31,0.15,0.26,0.09,0.57,Ta'Ron Keith,,,#7B9D8ACC,#30503ECC,-10.9,-2.05
-2024-09-07 South Florida at Alabama,plays,2,South Florida,40,24,Byrum Brown pass complete to Sean Atkins for 1 yd to the ALA 38,Pass,1,7,3,Other,16,1,0,0,,,,,0.18,0.00,0.25,0.08,0.54,,Byrum Brown,Sean Atkins,#7B9D8ACC,#30503ECC,-15,-2.59
-2024-09-07 South Florida at Alabama,plays,1,Alabama,41,17,Justice Haynes run for 3 yds to the ALA 23,Rush,1,8,1,Other,10,3,0,0,,,,,0.33,0.00,0.29,0.06,0.53,Justice Haynes,,,#E82525CC,#5A0000CC,-2,-2.52
-2024-09-07 South Florida at Alabama,plays,1,Alabama,42,18,Jalen Milroe pass complete to Germie Bernard for 22 yds to the ALA 35 for a 1ST down,Pass,2,8,2,Other,17,22,1,1,,,,,0.33,0.22,0.33,0.11,0.50,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,10.1,-1.82
-2024-09-07 South Florida at Alabama,plays,1,Alabama,43,19,Jalen Milroe pass incomplete to Germie Bernard,Pass,2,8,1,Other,10,0,0,0,,,,,0.30,0.20,0.32,0.11,0.47,,Jalen Milroe,,#E82525CC,#5A0000CC,-5,-1.98
-2024-09-07 South Florida at Alabama,plays,1,Alabama,44,20,"Jalen Milroe sacked by Kajuan Banks for a loss of 8 yards to the ALA 17 Alabama Penalty, Intentional Grounding (Jalen Milroe) to the ALA 17",Pass,2,8,2,Other,20,-8,0,0,,,,,0.27,0.18,0.30,0.10,0.45,,,,#E82525CC,#5A0000CC,-22,-2.99
-2024-09-07 South Florida at Alabama,plays,1,Alabama,45,21,Jalen Milroe sacked by Jason Vaughn for a loss of 10 yards to the ALA 7,Pass,2,8,3,Other,28,-10,0,0,,,,,0.25,0.17,0.29,0.10,0.43,,,,#E82525CC,#5A0000CC,-38,-4.65
-2024-09-07 South Florida at Alabama,plays,2,South Florida,46,25,Byrum Brown pass complete to Michael Brown-Stephens for 7 yds to the 50 yard line,Pass,2,9,1,Other,10,7,0,1,,,,,0.25,0.00,0.28,0.08,0.52,,Byrum Brown,Michael Brown-Stephens,#7B9D8ACC,#30503ECC,2,-2.41
+2024-09-07 South Florida at Alabama,plays,2,South Florida,40,24,Byrum Brown pass complete to Sean Atkins for 1 yd to the ALA 38,Pass,1,7,3,Other,16,1,0,0,,,,,0.18,0,0.25,0.08,0.54,,Byrum Brown,Sean Atkins,#7B9D8ACC,#30503ECC,-15,-2.59
+2024-09-07 South Florida at Alabama,plays,1,Alabama,41,17,Justice Haynes run for 3 yds to the ALA 23,Rush,1,8,1,Other,10,3,0,0,,,,,0.33,0,0.29,0.06,0.53,Justice Haynes,,,#E82525CC,#5A0000CC,-2,-2.52
+2024-09-07 South Florida at Alabama,plays,1,Alabama,42,18,Jalen Milroe pass complete to Germie Bernard for 22 yds to the ALA 35 for a 1ST down,Pass,2,8,2,Other,17,22,1,1,,,,,0.33,0.22,0.33,0.11,0.5,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,10.1,-1.82
+2024-09-07 South Florida at Alabama,plays,1,Alabama,43,19,Jalen Milroe pass incomplete to Germie Bernard,Pass,2,8,1,Other,10,0,0,0,,,,,0.3,0.2,0.32,0.11,0.47,,Jalen Milroe,,#E82525CC,#5A0000CC,-5,-1.98
+2024-09-07 South Florida at Alabama,plays,1,Alabama,44,20,"Jalen Milroe sacked by Kajuan Banks for a loss of 8 yards to the ALA 17 Alabama Penalty, Intentional Grounding (Jalen Milroe) to the ALA 17",Pass,2,8,2,Other,20,-8,0,0,,,,,0.27,0.18,0.3,0.1,0.45,,,,#E82525CC,#5A0000CC,-22,-2.99
+2024-09-07 South Florida at Alabama,plays,1,Alabama,45,21,Jalen Milroe sacked by Jason Vaughn for a loss of 10 yards to the ALA 7,Pass,2,8,3,Other,28,-10,0,0,,,,,0.25,0.17,0.29,0.1,0.43,,,,#E82525CC,#5A0000CC,-38,-4.65
+2024-09-07 South Florida at Alabama,plays,2,South Florida,46,25,Byrum Brown pass complete to Michael Brown-Stephens for 7 yds to the 50 yard line,Pass,2,9,1,Other,10,7,0,1,,,,,0.25,0,0.28,0.08,0.52,,Byrum Brown,Michael Brown-Stephens,#7B9D8ACC,#30503ECC,2,-2.41
 2024-09-07 South Florida at Alabama,plays,2,South Florida,47,26,Byrum Brown run for 12 yds to the ALA 38 for a 1ST down,Rush,2,9,2,Other,3,12,0,1,,,,,0.36,0.14,0.31,0.08,0.54,Byrum Brown,,,#7B9D8ACC,#30503ECC,9.9,-1.93
-2024-09-07 South Florida at Alabama,plays,2,South Florida,48,27,Byrum Brown run for 2 yds to the ALA 36,Rush,2,9,1,Other,10,2,0,0,,,,,0.33,0.13,0.30,0.07,0.56,Byrum Brown,,,#7B9D8ACC,#30503ECC,-3,-1.97
+2024-09-07 South Florida at Alabama,plays,2,South Florida,48,27,Byrum Brown run for 2 yds to the ALA 36,Rush,2,9,1,Other,10,2,0,0,,,,,0.33,0.13,0.3,0.07,0.56,Byrum Brown,,,#7B9D8ACC,#30503ECC,-3,-1.97
 2024-09-07 South Florida at Alabama,plays,2,South Florida,49,28,Byrum Brown run for 16 yds to the ALA 20 for a 1ST down,Rush,2,9,2,Other,8,16,1,1,,,,,0.38,0.19,0.32,0.11,0.57,Byrum Brown,,,#7B9D8ACC,#30503ECC,10.4,-1.53
-2024-09-07 South Florida at Alabama,plays,2,South Florida,50,29,Byrum Brown run for 11 yds to the ALA 9 for a 1ST down,Rush,2,9,1,Red zone,10,11,0,1,,,,,0.41,0.18,0.34,0.10,0.59,Byrum Brown,,,#7B9D8ACC,#30503ECC,6,-1.27
-2024-09-07 South Florida at Alabama,plays,2,South Florida,51,30,"TEAM run for a loss of 4 yards to the ALA 13 TEAM fumbled, recovered by USF Byrum Brown",Rush,2,9,1,Red zone,9,-4,0,0,,,,,0.39,0.17,0.33,0.10,0.60,TEAM,,,#7B9D8ACC,#30503ECC,-8.5,-1.51
-2024-09-07 South Florida at Alabama,plays,2,South Florida,52,31,Byrum Brown run for 6 yds to the ALA 7,Rush,2,9,2,Red zone,13,6,0,0,,,,,0.37,0.16,0.32,0.10,0.61,Byrum Brown,,,#7B9D8ACC,#30503ECC,-3.1,-1.56
-2024-09-07 South Florida at Alabama,plays,2,South Florida,53,32,Byrum Brown pass incomplete to Payten Singletary,Pass,2,9,3,Red zone,7,0,0,0,,,,,0.23,0.00,0.31,0.09,0.59,,Byrum Brown,,#7B9D8ACC,#30503ECC,-7,-1.73
-2024-09-07 South Florida at Alabama,plays,1,Alabama,54,22,Justice Haynes run for no gain to the ALA 25,Rush,2,10,1,Other,10,0,0,0,,,,,0.30,0.00,0.27,0.09,0.45,Justice Haynes,,,#E82525CC,#5A0000CC,-5,-4.67
-2024-09-07 South Florida at Alabama,plays,1,Alabama,55,23,Justice Haynes run for 5 yds to the ALA 30,Rush,2,10,2,Other,10,5,0,0,,,,,0.27,0.00,0.26,0.09,0.48,Justice Haynes,,,#E82525CC,#5A0000CC,-2,-4.55
+2024-09-07 South Florida at Alabama,plays,2,South Florida,50,29,Byrum Brown run for 11 yds to the ALA 9 for a 1ST down,Rush,2,9,1,Red zone,10,11,0,1,,,,,0.41,0.18,0.34,0.1,0.59,Byrum Brown,,,#7B9D8ACC,#30503ECC,6,-1.27
+2024-09-07 South Florida at Alabama,plays,2,South Florida,51,30,"TEAM run for a loss of 4 yards to the ALA 13 TEAM fumbled, recovered by USF Byrum Brown",Rush,2,9,1,Red zone,9,-4,0,0,,,,,0.39,0.17,0.33,0.1,0.6,TEAM,,,#7B9D8ACC,#30503ECC,-8.5,-1.51
+2024-09-07 South Florida at Alabama,plays,2,South Florida,52,31,Byrum Brown run for 6 yds to the ALA 7,Rush,2,9,2,Red zone,13,6,0,0,,,,,0.37,0.16,0.32,0.1,0.61,Byrum Brown,,,#7B9D8ACC,#30503ECC,-3.1,-1.56
+2024-09-07 South Florida at Alabama,plays,2,South Florida,53,32,Byrum Brown pass incomplete to Payten Singletary,Pass,2,9,3,Red zone,7,0,0,0,,,,,0.23,0,0.31,0.09,0.59,,Byrum Brown,,#7B9D8ACC,#30503ECC,-7,-1.73
+2024-09-07 South Florida at Alabama,plays,1,Alabama,54,22,Justice Haynes run for no gain to the ALA 25,Rush,2,10,1,Other,10,0,0,0,,,,,0.3,0,0.27,0.09,0.45,Justice Haynes,,,#E82525CC,#5A0000CC,-5,-4.67
+2024-09-07 South Florida at Alabama,plays,1,Alabama,55,23,Justice Haynes run for 5 yds to the ALA 30,Rush,2,10,2,Other,10,5,0,0,,,,,0.27,0,0.26,0.09,0.48,Justice Haynes,,,#E82525CC,#5A0000CC,-2,-4.55
 2024-09-07 South Florida at Alabama,plays,1,Alabama,56,24,Jalen Milroe pass complete to CJ Dippre for 12 yds to the ALA 42 for a 1ST down,Pass,2,10,3,Other,5,12,0,1,,,,,0.31,0.15,0.29,0.08,0.46,,Jalen Milroe,CJ Dippre,#E82525CC,#5A0000CC,7,-4.07
-2024-09-07 South Florida at Alabama,plays,1,Alabama,57,25,Justice Haynes run for no gain to the ALA 42,Rush,2,10,1,Other,10,0,0,0,,,,,0.25,0.00,0.28,0.08,0.48,Justice Haynes,,,#E82525CC,#5A0000CC,-5,-4.11
+2024-09-07 South Florida at Alabama,plays,1,Alabama,57,25,Justice Haynes run for no gain to the ALA 42,Rush,2,10,1,Other,10,0,0,0,,,,,0.25,0,0.28,0.08,0.48,Justice Haynes,,,#E82525CC,#5A0000CC,-5,-4.11
 2024-09-07 South Florida at Alabama,plays,1,Alabama,58,26,Jalen Milroe pass complete to Kobe Prentice for 18 yds to the USF 40 for a 1ST down,Pass,2,10,2,Other,10,18,1,1,,,,,0.36,0.21,0.31,0.12,0.46,,Jalen Milroe,Kobe Prentice,#E82525CC,#5A0000CC,11,-3.53
-2024-09-07 South Florida at Alabama,plays,1,Alabama,59,27,Jalen Milroe pass complete to Germie Bernard for 9 yds to the USF 31,Pass,2,10,1,Other,10,9,0,1,,,,,0.40,0.20,0.33,0.11,0.44,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,4,-3.25
-2024-09-07 South Florida at Alabama,plays,1,Alabama,60,28,Jam Miller run for 5 yds to the USF 16,Rush,2,10,1,Other,10,5,0,1,,,,,0.31,0.00,0.36,0.11,0.46,Jam Miller,,,#E82525CC,#5A0000CC,0,-3.13
-2024-09-07 South Florida at Alabama,plays,1,Alabama,61,29,Jam Miller run for 5 yds to the USF 11 for a 1ST down,Rush,2,10,2,Red zone,5,5,0,1,,,,,0.36,0.00,0.38,0.10,0.48,Jam Miller,,,#E82525CC,#5A0000CC,1.5,-2.97
-2024-09-07 South Florida at Alabama,plays,1,Alabama,62,30,Jam Miller run for 6 yds to the USF 5,Rush,2,10,1,Red zone,10,6,0,1,,,,,0.40,0.00,0.40,0.10,0.50,Jam Miller,,,#E82525CC,#5A0000CC,1,-2.84
-2024-09-07 South Florida at Alabama,plays,1,Alabama,63,31,Jam Miller run for no gain to the USF 5,Rush,2,10,2,Red zone,4,0,0,0,,,,,0.38,0.00,0.39,0.10,0.52,Jam Miller,,,#E82525CC,#5A0000CC,-2.8,-2.84
-2024-09-07 South Florida at Alabama,plays,1,Alabama,64,32,Jalen Milroe 5 yd run (Graham Nicholson Kick),Rush,2,10,3,Red zone,4,5,0,1,,,,,0.41,0.00,0.41,0.09,0.53,Jalen Milroe,,,#E82525CC,#5A0000CC,1,-2.72
-2024-09-07 South Florida at Alabama,plays,2,South Florida,65,33,Byrum Brown pass complete to Nay'Quan Wright for a loss of 1 yard to the USF 24,Pass,2,11,1,Other,10,-1,0,0,,,,,0.21,0.00,0.30,0.09,0.58,,Byrum Brown,Nay'Quan Wright,#7B9D8ACC,#30503ECC,-6,-1.86
+2024-09-07 South Florida at Alabama,plays,1,Alabama,59,27,Jalen Milroe pass complete to Germie Bernard for 9 yds to the USF 31,Pass,2,10,1,Other,10,9,0,1,,,,,0.4,0.2,0.33,0.11,0.44,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,4,-3.25
+2024-09-07 South Florida at Alabama,plays,1,Alabama,60,28,Jam Miller run for 5 yds to the USF 16,Rush,2,10,1,Other,10,5,0,1,,,,,0.31,0,0.36,0.11,0.46,Jam Miller,,,#E82525CC,#5A0000CC,0,-3.13
+2024-09-07 South Florida at Alabama,plays,1,Alabama,61,29,Jam Miller run for 5 yds to the USF 11 for a 1ST down,Rush,2,10,2,Red zone,5,5,0,1,,,,,0.36,0,0.38,0.1,0.48,Jam Miller,,,#E82525CC,#5A0000CC,1.5,-2.97
+2024-09-07 South Florida at Alabama,plays,1,Alabama,62,30,Jam Miller run for 6 yds to the USF 5,Rush,2,10,1,Red zone,10,6,0,1,,,,,0.4,0,0.4,0.1,0.5,Jam Miller,,,#E82525CC,#5A0000CC,1,-2.84
+2024-09-07 South Florida at Alabama,plays,1,Alabama,63,31,Jam Miller run for no gain to the USF 5,Rush,2,10,2,Red zone,4,0,0,0,,,,,0.38,0,0.39,0.1,0.52,Jam Miller,,,#E82525CC,#5A0000CC,-2.8,-2.84
+2024-09-07 South Florida at Alabama,plays,1,Alabama,64,32,Jalen Milroe 5 yd run (Graham Nicholson Kick),Rush,2,10,3,Red zone,4,5,0,1,,,,,0.41,0,0.41,0.09,0.53,Jalen Milroe,,,#E82525CC,#5A0000CC,1,-2.72
+2024-09-07 South Florida at Alabama,plays,2,South Florida,65,33,Byrum Brown pass complete to Nay'Quan Wright for a loss of 1 yard to the USF 24,Pass,2,11,1,Other,10,-1,0,0,,,,,0.21,0,0.3,0.09,0.58,,Byrum Brown,Nay'Quan Wright,#7B9D8ACC,#30503ECC,-6,-1.86
 2024-09-07 South Florida at Alabama,plays,2,South Florida,66,34,Nay'Quan Wright run for 4 yds to the USF 28,Rush,2,11,2,Other,11,4,0,0,,,,,0.35,0.15,0.29,0.09,0.59,Nay'Quan Wright,,,#7B9D8ACC,#30503ECC,-3.7,-1.92
-2024-09-07 South Florida at Alabama,plays,2,South Florida,67,35,Byrum Brown pass incomplete to Payten Singletary,Pass,2,11,3,Other,7,0,0,0,,,,,0.20,0.00,0.29,0.09,0.57,,Byrum Brown,,#7B9D8ACC,#30503ECC,-7,-2.06
+2024-09-07 South Florida at Alabama,plays,2,South Florida,67,35,Byrum Brown pass incomplete to Payten Singletary,Pass,2,11,3,Other,7,0,0,0,,,,,0.2,0,0.29,0.09,0.57,,Byrum Brown,,#7B9D8ACC,#30503ECC,-7,-2.06
 2024-09-07 South Florida at Alabama,plays,1,Alabama,68,33,Jalen Milroe pass incomplete to Ryan Williams,Pass,2,12,1,Other,10,0,0,0,,,,,0.38,0.19,0.39,0.09,0.52,,Jalen Milroe,,#E82525CC,#5A0000CC,-5,-2.79
-2024-09-07 South Florida at Alabama,plays,1,Alabama,69,34,Justice Haynes run for a loss of 6 yards to the ALA 10,Rush,2,12,2,Other,20,-6,0,0,,,,,0.39,0.00,0.38,0.09,0.53,Justice Haynes,,,#E82525CC,#5A0000CC,-20,-3.29
-2024-09-07 South Florida at Alabama,plays,1,Alabama,70,35,Jalen Milroe pass complete to Josh Cuevas for 5 yds to the ALA 15,Pass,2,12,3,Other,26,5,0,0,,,,,0.35,0.18,0.37,0.09,0.51,,Jalen Milroe,Josh Cuevas,#E82525CC,#5A0000CC,-21,-3.80
-2024-09-07 South Florida at Alabama,plays,2,South Florida,71,36,Byrum Brown pass incomplete to Sean Atkins,Pass,2,13,1,Other,10,0,0,0,,,,,0.19,0.00,0.28,0.08,0.56,,Byrum Brown,,#7B9D8ACC,#30503ECC,-5,-2.14
-2024-09-07 South Florida at Alabama,plays,2,South Florida,72,37,Byrum Brown pass complete to Ta'Ron Keith for 3 yds to the ALA 49,Pass,2,13,2,Other,10,3,0,0,,,,,0.18,0.00,0.27,0.08,0.54,,Byrum Brown,Ta'Ron Keith,#7B9D8ACC,#30503ECC,-4,-2.19
-2024-09-07 South Florida at Alabama,plays,2,South Florida,73,38,Byrum Brown pass complete to Joshua Porter for 9 yds to the ALA 45,Pass,2,13,3,Other,12,9,0,0,,,,,0.17,0.00,0.26,0.08,0.53,,Byrum Brown,Joshua Porter,#7B9D8ACC,#30503ECC,-3,-2.22
-2024-09-07 South Florida at Alabama,plays,1,Alabama,74,36,TEAM run for a loss of 2 yards to the ALA 8,Rush,2,14,1,Other,10,-2,0,0,,,,,0.37,0.00,0.36,0.08,0.53,TEAM,,,#E82525CC,#5A0000CC,-7,-3.89
-2024-09-07 South Florida at Alabama,plays,2,South Florida,75,39,"Byrum Brown pass complete to Nay'Quan Wright for 3 yds to the ALA 49 for a 1ST down Alabama Penalty, Face Mask (15 yards) (Jihaad Campbell) to the ALA 34 for a 1ST down",Pass,3,15,1,Other,10,18,1,1,,,,,0.21,0.05,0.28,0.10,0.51,,Byrum Brown,Nay'Quan Wright,#7B9D8ACC,#30503ECC,13,-1.83
-2024-09-07 South Florida at Alabama,plays,2,South Florida,76,40,Byrum Brown pass incomplete to Nay'Quan Wright,Pass,3,15,1,Other,10,0,0,0,,,,,0.20,0.05,0.28,0.10,0.50,,Byrum Brown,,#7B9D8ACC,#30503ECC,-5,-1.91
-2024-09-07 South Florida at Alabama,plays,2,South Florida,77,41,Nay'Quan Wright run for 3 yds to the ALA 31,Rush,3,15,2,Other,10,3,0,0,,,,,0.33,0.14,0.27,0.10,0.51,Nay'Quan Wright,,,#7B9D8ACC,#30503ECC,-4,-1.96
-2024-09-07 South Florida at Alabama,plays,2,South Florida,78,42,Byrum Brown sacked by Tim Keenan III and Jihaad Campbell for a loss of 4 yards to the ALA 35,Pass,3,15,3,Other,7,-4,0,0,,,,,0.19,0.05,0.26,0.10,0.50,,,,#7B9D8ACC,#30503ECC,-11,-2.17
+2024-09-07 South Florida at Alabama,plays,1,Alabama,69,34,Justice Haynes run for a loss of 6 yards to the ALA 10,Rush,2,12,2,Other,20,-6,0,0,,,,,0.39,0,0.38,0.09,0.53,Justice Haynes,,,#E82525CC,#5A0000CC,-20,-3.29
+2024-09-07 South Florida at Alabama,plays,1,Alabama,70,35,Jalen Milroe pass complete to Josh Cuevas for 5 yds to the ALA 15,Pass,2,12,3,Other,26,5,0,0,,,,,0.35,0.18,0.37,0.09,0.51,,Jalen Milroe,Josh Cuevas,#E82525CC,#5A0000CC,-21,-3.8
+2024-09-07 South Florida at Alabama,plays,2,South Florida,71,36,Byrum Brown pass incomplete to Sean Atkins,Pass,2,13,1,Other,10,0,0,0,,,,,0.19,0,0.28,0.08,0.56,,Byrum Brown,,#7B9D8ACC,#30503ECC,-5,-2.14
+2024-09-07 South Florida at Alabama,plays,2,South Florida,72,37,Byrum Brown pass complete to Ta'Ron Keith for 3 yds to the ALA 49,Pass,2,13,2,Other,10,3,0,0,,,,,0.18,0,0.27,0.08,0.54,,Byrum Brown,Ta'Ron Keith,#7B9D8ACC,#30503ECC,-4,-2.19
+2024-09-07 South Florida at Alabama,plays,2,South Florida,73,38,Byrum Brown pass complete to Joshua Porter for 9 yds to the ALA 45,Pass,2,13,3,Other,12,9,0,0,,,,,0.17,0,0.26,0.08,0.53,,Byrum Brown,Joshua Porter,#7B9D8ACC,#30503ECC,-3,-2.22
+2024-09-07 South Florida at Alabama,plays,1,Alabama,74,36,TEAM run for a loss of 2 yards to the ALA 8,Rush,2,14,1,Other,10,-2,0,0,,,,,0.37,0,0.36,0.08,0.53,TEAM,,,#E82525CC,#5A0000CC,-7,-3.89
+2024-09-07 South Florida at Alabama,plays,2,South Florida,75,39,"Byrum Brown pass complete to Nay'Quan Wright for 3 yds to the ALA 49 for a 1ST down Alabama Penalty, Face Mask (15 yards) (Jihaad Campbell) to the ALA 34 for a 1ST down",Pass,3,15,1,Other,10,18,1,1,,,,,0.21,0.05,0.28,0.1,0.51,,Byrum Brown,Nay'Quan Wright,#7B9D8ACC,#30503ECC,13,-1.83
+2024-09-07 South Florida at Alabama,plays,2,South Florida,76,40,Byrum Brown pass incomplete to Nay'Quan Wright,Pass,3,15,1,Other,10,0,0,0,,,,,0.2,0.05,0.28,0.1,0.5,,Byrum Brown,,#7B9D8ACC,#30503ECC,-5,-1.91
+2024-09-07 South Florida at Alabama,plays,2,South Florida,77,41,Nay'Quan Wright run for 3 yds to the ALA 31,Rush,3,15,2,Other,10,3,0,0,,,,,0.33,0.14,0.27,0.1,0.51,Nay'Quan Wright,,,#7B9D8ACC,#30503ECC,-4,-1.96
+2024-09-07 South Florida at Alabama,plays,2,South Florida,78,42,Byrum Brown sacked by Tim Keenan III and Jihaad Campbell for a loss of 4 yards to the ALA 35,Pass,3,15,3,Other,7,-4,0,0,,,,,0.19,0.05,0.26,0.1,0.5,,,,#7B9D8ACC,#30503ECC,-11,-2.17
 2024-09-07 South Florida at Alabama,plays,1,Alabama,79,37,Jalen Milroe pass incomplete to Ryan Williams,Pass,3,16,1,Other,10,0,0,0,,,,,0.33,0.17,0.35,0.08,0.51,,Jalen Milroe,,#E82525CC,#5A0000CC,-5,-3.92
-2024-09-07 South Florida at Alabama,plays,1,Alabama,80,38,Jalen Milroe run for 4 yds to the ALA 39,Rush,3,16,2,Other,10,4,0,0,,,,,0.35,0.00,0.34,0.08,0.53,Jalen Milroe,,,#E82525CC,#5A0000CC,-3,-3.89
+2024-09-07 South Florida at Alabama,plays,1,Alabama,80,38,Jalen Milroe run for 4 yds to the ALA 39,Rush,3,16,2,Other,10,4,0,0,,,,,0.35,0,0.34,0.08,0.53,Jalen Milroe,,,#E82525CC,#5A0000CC,-3,-3.89
 2024-09-07 South Florida at Alabama,plays,1,Alabama,81,39,Jalen Milroe sacked by Mac Harris for a loss of 18 yards to the ALA 21,Pass,3,16,3,Other,6,-18,0,0,,,,,0.32,0.16,0.33,0.08,0.51,,,,#E82525CC,#5A0000CC,-24,-4.41
 2024-09-07 South Florida at Alabama,plays,2,South Florida,82,43,Byrum Brown run for 2 yds to the ALA 43,Rush,3,17,1,Other,10,2,0,0,,,,,0.32,0.14,0.26,0.09,0.51,Byrum Brown,,,#7B9D8ACC,#30503ECC,-3,-2.19
-2024-09-07 South Florida at Alabama,plays,2,South Florida,83,44,Byrum Brown pass incomplete to Kelley Joiner,Pass,3,17,2,Other,8,0,0,0,,,,,0.18,0.05,0.25,0.09,0.50,,Byrum Brown,,#7B9D8ACC,#30503ECC,-5.6,-2.27
-2024-09-07 South Florida at Alabama,plays,2,South Florida,84,45,Byrum Brown pass incomplete to Kelley Joiner,Pass,3,17,3,Other,8,0,0,0,,,,,0.17,0.04,0.24,0.09,0.49,,Byrum Brown,,#7B9D8ACC,#30503ECC,-8,-2.40
-2024-09-07 South Florida at Alabama,plays,1,Alabama,85,40,Jam Miller run for 1 yd to the ALA 26,Rush,3,18,1,Other,10,1,0,0,,,,,0.33,0.00,0.33,0.08,0.53,Jam Miller,,,#E82525CC,#5A0000CC,-4,-4.40
-2024-09-07 South Florida at Alabama,plays,1,Alabama,86,41,"Jam Miller run for 13 yds to the ALA 39 Jam Miller fumbled, forced by Mac Harris, recovered by USF Tavin Ward",Rush,3,18,2,Other,9,13,0,0,,,,,0.32,0.00,0.32,0.07,0.54,Jam Miller,,,#E82525CC,#5A0000CC,6.7,-4.13
+2024-09-07 South Florida at Alabama,plays,2,South Florida,83,44,Byrum Brown pass incomplete to Kelley Joiner,Pass,3,17,2,Other,8,0,0,0,,,,,0.18,0.05,0.25,0.09,0.5,,Byrum Brown,,#7B9D8ACC,#30503ECC,-5.6,-2.27
+2024-09-07 South Florida at Alabama,plays,2,South Florida,84,45,Byrum Brown pass incomplete to Kelley Joiner,Pass,3,17,3,Other,8,0,0,0,,,,,0.17,0.04,0.24,0.09,0.49,,Byrum Brown,,#7B9D8ACC,#30503ECC,-8,-2.4
+2024-09-07 South Florida at Alabama,plays,1,Alabama,85,40,Jam Miller run for 1 yd to the ALA 26,Rush,3,18,1,Other,10,1,0,0,,,,,0.33,0,0.33,0.08,0.53,Jam Miller,,,#E82525CC,#5A0000CC,-4,-4.4
+2024-09-07 South Florida at Alabama,plays,1,Alabama,86,41,"Jam Miller run for 13 yds to the ALA 39 Jam Miller fumbled, forced by Mac Harris, recovered by USF Tavin Ward",Rush,3,18,2,Other,9,13,0,0,,,,,0.32,0,0.32,0.07,0.54,Jam Miller,,,#E82525CC,#5A0000CC,6.7,-4.13
 2024-09-07 South Florida at Alabama,plays,2,South Florida,87,46,Byrum Brown pass complete to Abdur-Rahmaan Yaseen for 13 yds to the ALA 26 for a 1ST down,Pass,3,19,1,Other,10,13,0,1,,,,,0.21,0.04,0.26,0.09,0.48,,Byrum Brown,Abdur-Rahmaan Yaseen,#7B9D8ACC,#30503ECC,8,-2.17
-2024-09-07 South Florida at Alabama,plays,2,South Florida,88,47,Byrum Brown run for 3 yds to the ALA 23,Rush,3,19,1,Other,10,3,0,0,,,,,0.30,0.13,0.26,0.09,0.49,Byrum Brown,,,#7B9D8ACC,#30503ECC,-2,-2.17
-2024-09-07 South Florida at Alabama,plays,2,South Florida,89,48,Ta'Ron Keith run for 8 yds to the ALA 15 for a 1ST down,Rush,3,19,2,Other,7,8,0,1,,,,,0.33,0.13,0.27,0.08,0.50,Ta'Ron Keith,,,#7B9D8ACC,#30503ECC,3.1,-2.06
+2024-09-07 South Florida at Alabama,plays,2,South Florida,88,47,Byrum Brown run for 3 yds to the ALA 23,Rush,3,19,1,Other,10,3,0,0,,,,,0.3,0.13,0.26,0.09,0.49,Byrum Brown,,,#7B9D8ACC,#30503ECC,-2,-2.17
+2024-09-07 South Florida at Alabama,plays,2,South Florida,89,48,Ta'Ron Keith run for 8 yds to the ALA 15 for a 1ST down,Rush,3,19,2,Other,7,8,0,1,,,,,0.33,0.13,0.27,0.08,0.5,Ta'Ron Keith,,,#7B9D8ACC,#30503ECC,3.1,-2.06
 2024-09-07 South Florida at Alabama,plays,2,South Florida,90,49,Byrum Brown run for 13 yds to the ALA 2 for a 1ST down,Rush,3,19,1,Red zone,10,13,0,1,,,,,0.36,0.12,0.29,0.08,0.51,Byrum Brown,,,#7B9D8ACC,#30503ECC,8,-1.85
-2024-09-07 South Florida at Alabama,plays,2,South Florida,91,50,Ta'Ron Keith 2 yd run (John Cannon Kick),Rush,3,19,1,Red zone,2,2,0,1,,,,,0.38,0.12,0.30,0.08,0.52,Ta'Ron Keith,,,#7B9D8ACC,#30503ECC,1,-1.79
-2024-09-07 South Florida at Alabama,plays,1,Alabama,92,42,Justice Haynes run for 3 yds to the ALA 28,Rush,3,20,1,Other,10,3,0,0,,,,,0.30,0.00,0.31,0.07,0.55,Justice Haynes,,,#E82525CC,#5A0000CC,-2,-4.08
-2024-09-07 South Florida at Alabama,plays,1,Alabama,93,43,Jalen Milroe pass incomplete to Germie Bernard,Pass,3,20,2,Other,7,0,0,0,,,,,0.30,0.15,0.30,0.07,0.53,,Jalen Milroe,,#E82525CC,#5A0000CC,-4.9,-4.10
-2024-09-07 South Florida at Alabama,plays,1,Alabama,94,44,Jalen Milroe pass incomplete,Pass,3,20,3,Other,7,0,0,0,,,,,0.29,0.14,0.30,0.07,0.52,,Jalen Milroe,,#E82525CC,#5A0000CC,-7,-4.16
-2024-09-07 South Florida at Alabama,plays,2,South Florida,95,51,Nay'Quan Wright run for a loss of 2 yards to the USF 33,Rush,3,21,1,Other,10,-2,0,0,,,,,0.37,0.11,0.29,0.08,0.53,Nay'Quan Wright,,,#7B9D8ACC,#30503ECC,-7,-1.90
-2024-09-07 South Florida at Alabama,plays,2,South Florida,96,52,Byrum Brown pass incomplete to Josh Hardeman,Pass,3,21,2,Other,12,0,0,0,,,,,0.20,0.04,0.29,0.08,0.52,,Byrum Brown,,#7B9D8ACC,#30503ECC,-8.4,-2.02
+2024-09-07 South Florida at Alabama,plays,2,South Florida,91,50,Ta'Ron Keith 2 yd run (John Cannon Kick),Rush,3,19,1,Red zone,2,2,0,1,,,,,0.38,0.12,0.3,0.08,0.52,Ta'Ron Keith,,,#7B9D8ACC,#30503ECC,1,-1.79
+2024-09-07 South Florida at Alabama,plays,1,Alabama,92,42,Justice Haynes run for 3 yds to the ALA 28,Rush,3,20,1,Other,10,3,0,0,,,,,0.3,0,0.31,0.07,0.55,Justice Haynes,,,#E82525CC,#5A0000CC,-2,-4.08
+2024-09-07 South Florida at Alabama,plays,1,Alabama,93,43,Jalen Milroe pass incomplete to Germie Bernard,Pass,3,20,2,Other,7,0,0,0,,,,,0.3,0.15,0.3,0.07,0.53,,Jalen Milroe,,#E82525CC,#5A0000CC,-4.9,-4.1
+2024-09-07 South Florida at Alabama,plays,1,Alabama,94,44,Jalen Milroe pass incomplete,Pass,3,20,3,Other,7,0,0,0,,,,,0.29,0.14,0.3,0.07,0.52,,Jalen Milroe,,#E82525CC,#5A0000CC,-7,-4.16
+2024-09-07 South Florida at Alabama,plays,2,South Florida,95,51,Nay'Quan Wright run for a loss of 2 yards to the USF 33,Rush,3,21,1,Other,10,-2,0,0,,,,,0.37,0.11,0.29,0.08,0.53,Nay'Quan Wright,,,#7B9D8ACC,#30503ECC,-7,-1.9
+2024-09-07 South Florida at Alabama,plays,2,South Florida,96,52,Byrum Brown pass incomplete to Josh Hardeman,Pass,3,21,2,Other,12,0,0,0,,,,,0.2,0.04,0.29,0.08,0.52,,Byrum Brown,,#7B9D8ACC,#30503ECC,-8.4,-2.02
 2024-09-07 South Florida at Alabama,plays,2,South Florida,97,53,Byrum Brown sacked by Tim Keenan III for a loss of 8 yards to the USF 25,Pass,3,21,3,Other,12,-8,0,0,,,,,0.19,0.04,0.28,0.08,0.51,,,,#7B9D8ACC,#30503ECC,-20,-2.36
-2024-09-07 South Florida at Alabama,plays,1,Alabama,98,45,Justice Haynes run for 4 yds to the ALA 39,Rush,3,22,1,Other,10,4,0,0,,,,,0.29,0.00,0.29,0.07,0.53,Justice Haynes,,,#E82525CC,#5A0000CC,-1,-4.09
-2024-09-07 South Florida at Alabama,plays,1,Alabama,99,46,Justice Haynes run for 1 yd to the ALA 40,Rush,3,22,2,Other,6,1,0,0,,,,,0.28,0.00,0.28,0.07,0.54,Justice Haynes,,,#E82525CC,#5A0000CC,-3.2,-4.07
+2024-09-07 South Florida at Alabama,plays,1,Alabama,98,45,Justice Haynes run for 4 yds to the ALA 39,Rush,3,22,1,Other,10,4,0,0,,,,,0.29,0,0.29,0.07,0.53,Justice Haynes,,,#E82525CC,#5A0000CC,-1,-4.09
+2024-09-07 South Florida at Alabama,plays,1,Alabama,99,46,Justice Haynes run for 1 yd to the ALA 40,Rush,3,22,2,Other,6,1,0,0,,,,,0.28,0,0.28,0.07,0.54,Justice Haynes,,,#E82525CC,#5A0000CC,-3.2,-4.07
 2024-09-07 South Florida at Alabama,plays,1,Alabama,100,47,Jalen Milroe pass incomplete,Pass,3,22,3,Other,5,0,0,0,,,,,0.27,0.14,0.28,0.06,0.53,,Jalen Milroe,,#E82525CC,#5A0000CC,-5,-4.09
 2024-09-07 South Florida at Alabama,plays,2,South Florida,101,54,Byrum Brown run for 1 yd to the USF 13,Rush,3,23,1,Other,10,1,0,0,,,,,0.36,0.11,0.28,0.07,0.52,Byrum Brown,,,#7B9D8ACC,#30503ECC,-4,-2.39
-2024-09-07 South Florida at Alabama,plays,2,South Florida,102,55,"Kelley Joiner run for 2 yds to the USF 15 South Florida Penalty, Offensive Holding (RJ Perry) to the USF 8",Rush,3,23,2,Other,9,-5,0,0,,,,,0.34,0.10,0.27,0.07,0.53,Kelley Joiner,,,#7B9D8ACC,#30503ECC,-11.3,-2.55
-2024-09-07 South Florida at Alabama,plays,2,South Florida,103,56,Kelley Joiner run for 7 yds to the USF 15,Rush,3,23,2,Other,14,7,0,0,,,,,0.33,0.10,0.27,0.07,0.54,Kelley Joiner,,,#7B9D8ACC,#30503ECC,-2.8,-2.56
+2024-09-07 South Florida at Alabama,plays,2,South Florida,102,55,"Kelley Joiner run for 2 yds to the USF 15 South Florida Penalty, Offensive Holding (RJ Perry) to the USF 8",Rush,3,23,2,Other,9,-5,0,0,,,,,0.34,0.1,0.27,0.07,0.53,Kelley Joiner,,,#7B9D8ACC,#30503ECC,-11.3,-2.55
+2024-09-07 South Florida at Alabama,plays,2,South Florida,103,56,Kelley Joiner run for 7 yds to the USF 15,Rush,3,23,2,Other,14,7,0,0,,,,,0.33,0.1,0.27,0.07,0.54,Kelley Joiner,,,#7B9D8ACC,#30503ECC,-2.8,-2.56
 2024-09-07 South Florida at Alabama,plays,2,South Florida,104,57,Byrum Brown pass incomplete to Sean Atkins,Pass,3,23,3,Other,7,0,0,0,,,,,0.19,0.04,0.26,0.07,0.53,,Byrum Brown,,#7B9D8ACC,#30503ECC,-7,-2.64
-2024-09-07 South Florida at Alabama,plays,1,Alabama,105,48,Jam Miller run for 6 yds to the USF 49,Rush,3,24,1,Other,10,6,0,1,,,,,0.31,0.00,0.29,0.06,0.54,Jam Miller,,,#E82525CC,#5A0000CC,1,-3.99
+2024-09-07 South Florida at Alabama,plays,1,Alabama,105,48,Jam Miller run for 6 yds to the USF 49,Rush,3,24,1,Other,10,6,0,1,,,,,0.31,0,0.29,0.06,0.54,Jam Miller,,,#E82525CC,#5A0000CC,1,-3.99
 2024-09-07 South Florida at Alabama,plays,1,Alabama,106,49,"Jalen Milroe pass complete to Jam Miller for 8 yds to the USF 35 Alabama Penalty, Illegal Block (Tyler Booker) to the USF 45",Pass,3,24,1,Other,10,-2,0,0,,,,,0.26,0.13,0.29,0.06,0.53,,Jalen Milroe,Jam Miller,#E82525CC,#5A0000CC,-7,-4.05
-2024-09-07 South Florida at Alabama,plays,1,Alabama,107,50,Jalen Milroe pass complete to Ryan Williams for 13 yds to the USF 27,Pass,3,24,1,Other,20,13,0,1,,,,,0.29,0.13,0.30,0.06,0.52,,Jalen Milroe,Ryan Williams,#E82525CC,#5A0000CC,3,-3.91
-2024-09-07 South Florida at Alabama,plays,1,Alabama,108,51,Jam Miller run for 6 yds to the USF 21,Rush,3,24,2,Other,7,6,0,1,,,,,0.33,0.00,0.31,0.06,0.53,Jam Miller,,,#E82525CC,#5A0000CC,1.1,-3.81
-2024-09-07 South Florida at Alabama,plays,1,Alabama,109,52,Jam Miller run for 5 yds to the USF 16 for a 1ST down,Rush,3,24,3,Other,1,5,0,1,,,,,0.36,0.00,0.33,0.06,0.54,Jam Miller,,,#E82525CC,#5A0000CC,4,-3.66
+2024-09-07 South Florida at Alabama,plays,1,Alabama,107,50,Jalen Milroe pass complete to Ryan Williams for 13 yds to the USF 27,Pass,3,24,1,Other,20,13,0,1,,,,,0.29,0.13,0.3,0.06,0.52,,Jalen Milroe,Ryan Williams,#E82525CC,#5A0000CC,3,-3.91
+2024-09-07 South Florida at Alabama,plays,1,Alabama,108,51,Jam Miller run for 6 yds to the USF 21,Rush,3,24,2,Other,7,6,0,1,,,,,0.33,0,0.31,0.06,0.53,Jam Miller,,,#E82525CC,#5A0000CC,1.1,-3.81
+2024-09-07 South Florida at Alabama,plays,1,Alabama,109,52,Jam Miller run for 5 yds to the USF 16 for a 1ST down,Rush,3,24,3,Other,1,5,0,1,,,,,0.36,0,0.33,0.06,0.54,Jam Miller,,,#E82525CC,#5A0000CC,4,-3.66
 2024-09-07 South Florida at Alabama,plays,1,Alabama,110,53,Jalen Milroe pass complete to Ryan Williams for 8 yds to the USF 8,Pass,3,24,1,Red zone,10,8,0,1,,,,,0.32,0.12,0.34,0.06,0.53,,Jalen Milroe,Ryan Williams,#E82525CC,#5A0000CC,3,-3.53
-2024-09-07 South Florida at Alabama,plays,1,Alabama,111,54,Jam Miller run for a loss of 2 yards to the USF 10,Rush,3,24,2,Red zone,2,-2,0,0,,,,,0.34,0.00,0.33,0.06,0.54,Jam Miller,,,#E82525CC,#5A0000CC,-3.4,-3.53
+2024-09-07 South Florida at Alabama,plays,1,Alabama,111,54,Jam Miller run for a loss of 2 yards to the USF 10,Rush,3,24,2,Red zone,2,-2,0,0,,,,,0.34,0,0.33,0.06,0.54,Jam Miller,,,#E82525CC,#5A0000CC,-3.4,-3.53
 2024-09-07 South Florida at Alabama,plays,1,Alabama,112,55,Jalen Milroe pass complete to Cole Adams for 5 yds to the USF 5 for a 1ST down,Pass,4,24,3,Red zone,4,5,0,1,,,,,0.35,0.12,0.35,0.05,0.53,,Jalen Milroe,Cole Adams,#E82525CC,#5A0000CC,1,-3.45
-2024-09-07 South Florida at Alabama,plays,1,Alabama,113,56,Justice Haynes run for no gain to the USF 5,Rush,4,24,1,Red zone,5,0,0,0,,,,,0.33,0.00,0.34,0.05,0.54,Justice Haynes,,,#E82525CC,#5A0000CC,-2.5,-3.43
+2024-09-07 South Florida at Alabama,plays,1,Alabama,113,56,Justice Haynes run for no gain to the USF 5,Rush,4,24,1,Red zone,5,0,0,0,,,,,0.33,0,0.34,0.05,0.54,Justice Haynes,,,#E82525CC,#5A0000CC,-2.5,-3.43
 2024-09-07 South Florida at Alabama,plays,1,Alabama,114,57,Jalen Milroe pass complete to Robbie Ouzts for 3 yds to the USF 2,Pass,4,24,2,Red zone,5,3,0,0,,,,,0.33,0.11,0.33,0.05,0.53,,Jalen Milroe,Robbie Ouzts,#E82525CC,#5A0000CC,-0.5,-3.38
-2024-09-07 South Florida at Alabama,plays,1,Alabama,115,58,"Jalen Milroe run for a loss of 2 yards to the USF 4 Jalen Milroe fumbled, recovered by USF Bernard Gooden",Rush,4,24,3,Red zone,18,-2,0,0,,,,,0.32,0.00,0.33,0.05,0.53,Jalen Milroe,,,#E82525CC,#5A0000CC,-20,-3.67
-2024-09-07 South Florida at Alabama,plays,2,South Florida,116,58,Ta'Ron Keith run for 2 yds to the USF 6,Rush,4,25,1,Other,10,2,0,0,,,,,0.32,0.10,0.26,0.07,0.53,Ta'Ron Keith,,,#7B9D8ACC,#30503ECC,-3,-2.64
+2024-09-07 South Florida at Alabama,plays,1,Alabama,115,58,"Jalen Milroe run for a loss of 2 yards to the USF 4 Jalen Milroe fumbled, recovered by USF Bernard Gooden",Rush,4,24,3,Red zone,18,-2,0,0,,,,,0.32,0,0.33,0.05,0.53,Jalen Milroe,,,#E82525CC,#5A0000CC,-20,-3.67
+2024-09-07 South Florida at Alabama,plays,2,South Florida,116,58,Ta'Ron Keith run for 2 yds to the USF 6,Rush,4,25,1,Other,10,2,0,0,,,,,0.32,0.1,0.26,0.07,0.53,Ta'Ron Keith,,,#7B9D8ACC,#30503ECC,-3,-2.64
 2024-09-07 South Florida at Alabama,plays,2,South Florida,117,59,Byrum Brown run for 5 yds to the USF 11,Rush,4,25,2,Other,8,5,0,0,,,,,0.31,0.09,0.25,0.07,0.54,Byrum Brown,,,#7B9D8ACC,#30503ECC,-0.6,-2.61
 2024-09-07 South Florida at Alabama,plays,2,South Florida,118,60,Byrum Brown pass complete to Ta'Ron Keith for 2 yds to the USF 13,Pass,4,25,3,Other,3,2,0,0,,,,,0.18,0.04,0.25,0.07,0.53,,Byrum Brown,Ta'Ron Keith,#7B9D8ACC,#30503ECC,-1,-2.58
-2024-09-07 South Florida at Alabama,plays,1,Alabama,119,59,Jalen Milroe run for 14 yds to the USF 20 for a 1ST down,Rush,4,26,1,Other,10,14,0,1,,,,,0.34,0.00,0.34,0.05,0.54,Jalen Milroe,,,#E82525CC,#5A0000CC,9,-3.45
-2024-09-07 South Florida at Alabama,plays,1,Alabama,120,60,Justice Haynes run for 4 yds to the USF 16,Rush,4,26,1,Red zone,10,4,0,0,,,,,0.33,0.00,0.33,0.05,0.55,Justice Haynes,,,#E82525CC,#5A0000CC,-1,-3.41
-2024-09-07 South Florida at Alabama,plays,1,Alabama,121,61,Jalen Milroe run for no gain to the USF 16,Rush,4,26,2,Red zone,6,0,0,0,,,,,0.32,0.00,0.33,0.05,0.56,Jalen Milroe,,,#E82525CC,#5A0000CC,-4.2,-3.42
+2024-09-07 South Florida at Alabama,plays,1,Alabama,119,59,Jalen Milroe run for 14 yds to the USF 20 for a 1ST down,Rush,4,26,1,Other,10,14,0,1,,,,,0.34,0,0.34,0.05,0.54,Jalen Milroe,,,#E82525CC,#5A0000CC,9,-3.45
+2024-09-07 South Florida at Alabama,plays,1,Alabama,120,60,Justice Haynes run for 4 yds to the USF 16,Rush,4,26,1,Red zone,10,4,0,0,,,,,0.33,0,0.33,0.05,0.55,Justice Haynes,,,#E82525CC,#5A0000CC,-1,-3.41
+2024-09-07 South Florida at Alabama,plays,1,Alabama,121,61,Jalen Milroe run for no gain to the USF 16,Rush,4,26,2,Red zone,6,0,0,0,,,,,0.32,0,0.33,0.05,0.56,Jalen Milroe,,,#E82525CC,#5A0000CC,-4.2,-3.42
 2024-09-07 South Florida at Alabama,plays,1,Alabama,122,62,Kobe Prentice 16 Yd pass from Jalen Milroe (Graham Nicholson Kick),Pass,4,26,3,Red zone,6,16,1,1,,,,,0.36,0.14,0.34,0.06,0.55,,Jalen Milroe,Kobe Prentice,#E82525CC,#5A0000CC,10,-3.21
 2024-09-07 South Florida at Alabama,plays,2,South Florida,123,61,Byrum Brown pass complete to Michael Brown-Stephens for 14 yds to the USF 39 for a 1ST down,Pass,4,27,1,Other,10,14,0,1,,,,,0.21,0.03,0.26,0.07,0.52,,Byrum Brown,Michael Brown-Stephens,#7B9D8ACC,#30503ECC,9,-2.39
 2024-09-07 South Florida at Alabama,plays,2,South Florida,124,62,Nay'Quan Wright run for 19 yds to the ALA 42 for a 1ST down,Rush,4,27,1,Other,10,19,1,1,,,,,0.33,0.12,0.27,0.08,0.53,Nay'Quan Wright,,,#7B9D8ACC,#30503ECC,14,-2.13
 2024-09-07 South Florida at Alabama,plays,2,South Florida,125,63,"Byrum Brown sacked by Justin Jefferson for a loss of 1 yard to the ALA 43 for a 1ST down Alabama Penalty, Personal Foul (Justin Jefferson) to the ALA 28 for a 1ST down",Pass,4,27,1,Other,10,14,0,1,,,,,0.23,0.03,0.29,0.08,0.52,,,,#7B9D8ACC,#30503ECC,9,-1.95
-2024-09-07 South Florida at Alabama,plays,2,South Florida,126,64,Nay'Quan Wright run for 19 yds to the ALA 9 for a 1ST down,Rush,4,27,1,Other,10,19,1,1,,,,,0.35,0.15,0.30,0.09,0.53,Nay'Quan Wright,,,#7B9D8ACC,#30503ECC,14,-1.70
+2024-09-07 South Florida at Alabama,plays,2,South Florida,126,64,Nay'Quan Wright run for 19 yds to the ALA 9 for a 1ST down,Rush,4,27,1,Other,10,19,1,1,,,,,0.35,0.15,0.3,0.09,0.53,Nay'Quan Wright,,,#7B9D8ACC,#30503ECC,14,-1.7
 2024-09-07 South Florida at Alabama,plays,2,South Florida,127,65,Nay'Quan Wright run for no gain to the ALA 9,Rush,4,27,1,Red zone,9,0,0,0,,,,,0.34,0.14,0.29,0.09,0.54,Nay'Quan Wright,,,#7B9D8ACC,#30503ECC,-4.5,-1.74
 2024-09-07 South Florida at Alabama,plays,2,South Florida,128,66,Nay'Quan Wright run for 2 yds to the ALA 7,Rush,4,27,2,Red zone,9,2,0,0,,,,,0.33,0.14,0.29,0.09,0.55,Nay'Quan Wright,,,#7B9D8ACC,#30503ECC,-4.3,-1.78
 2024-09-07 South Florida at Alabama,plays,2,South Florida,129,67,Byrum Brown run for 3 yds to the ALA 4,Rush,4,27,3,Red zone,7,3,0,0,,,,,0.32,0.14,0.28,0.09,0.55,Byrum Brown,,,#7B9D8ACC,#30503ECC,-4,-1.81
-2024-09-07 South Florida at Alabama,plays,1,Alabama,130,63,Jam Miller run for 7 yds to the ALA 32,Rush,4,28,1,Other,10,7,0,1,,,,,0.34,0.00,0.35,0.06,0.56,Jam Miller,,,#E82525CC,#5A0000CC,2,-3.13
+2024-09-07 South Florida at Alabama,plays,1,Alabama,130,63,Jam Miller run for 7 yds to the ALA 32,Rush,4,28,1,Other,10,7,0,1,,,,,0.34,0,0.35,0.06,0.56,Jam Miller,,,#E82525CC,#5A0000CC,2,-3.13
 2024-09-07 South Florida at Alabama,plays,1,Alabama,131,64,Jam Miller run for 25 yds to the USF 43 for a 1ST down,Rush,4,28,2,Other,3,25,1,1,,,,,0.36,0.03,0.36,0.08,0.56,Jam Miller,,,#E82525CC,#5A0000CC,22.9,-2.72
 2024-09-07 South Florida at Alabama,plays,1,Alabama,132,65,Ryan Williams 43 Yd pass from Jalen Milroe (Graham Nicholson Kick),Pass,4,28,1,Other,10,43,1,1,,,,,0.38,0.17,0.37,0.09,0.55,,Jalen Milroe,Ryan Williams,#E82525CC,#5A0000CC,38,-2.09
 2024-09-07 South Florida at Alabama,plays,2,South Florida,133,68,Byrum Brown pass incomplete to Abdur-Rahmaan Yaseen,Pass,4,29,1,Other,10,0,0,0,,,,,0.23,0.03,0.28,0.09,0.54,,Byrum Brown,,#7B9D8ACC,#30503ECC,-5,-1.86
 2024-09-07 South Florida at Alabama,plays,2,South Florida,134,69,Byrum Brown pass complete to Sean Atkins for 12 yds to the USF 37 for a 1ST down,Pass,4,29,2,Other,10,12,0,1,,,,,0.25,0.03,0.29,0.09,0.54,,Byrum Brown,Sean Atkins,#7B9D8ACC,#30503ECC,5,-1.76
 2024-09-07 South Florida at Alabama,plays,2,South Florida,135,70,Kelley Joiner run for 2 yds to the USF 39,Rush,4,29,1,Other,10,2,0,0,,,,,0.32,0.13,0.29,0.09,0.54,Kelley Joiner,,,#7B9D8ACC,#30503ECC,-3,-1.78
-2024-09-07 South Florida at Alabama,plays,2,South Florida,136,71,"Byrum Brown pass complete to Kelley Joiner for 8 yds to the ALA 47 for a 1ST down Alabama Penalty, Defensive Holding (Domani Jackson) to the ALA 43 for a 1ST down",Pass,4,29,2,Other,8,18,1,1,,,,,0.27,0.06,0.30,0.10,0.54,,Byrum Brown,Kelley Joiner,#7B9D8ACC,#30503ECC,12.4,-1.58
-2024-09-07 South Florida at Alabama,plays,2,South Florida,137,72,Byrum Brown pass complete to Ta'Ron Keith for 1 yd to the ALA 42,Pass,4,29,1,Other,10,1,0,0,,,,,0.26,0.06,0.29,0.10,0.53,,Byrum Brown,Ta'Ron Keith,#7B9D8ACC,#30503ECC,-4,-1.61
-2024-09-07 South Florida at Alabama,plays,2,South Florida,138,73,Byrum Brown run for 2 yds to the ALA 40,Rush,4,29,2,Other,9,2,0,0,,,,,0.31,0.13,0.29,0.10,0.53,Byrum Brown,,,#7B9D8ACC,#30503ECC,-4.3,-1.65
+2024-09-07 South Florida at Alabama,plays,2,South Florida,136,71,"Byrum Brown pass complete to Kelley Joiner for 8 yds to the ALA 47 for a 1ST down Alabama Penalty, Defensive Holding (Domani Jackson) to the ALA 43 for a 1ST down",Pass,4,29,2,Other,8,18,1,1,,,,,0.27,0.06,0.3,0.1,0.54,,Byrum Brown,Kelley Joiner,#7B9D8ACC,#30503ECC,12.4,-1.58
+2024-09-07 South Florida at Alabama,plays,2,South Florida,137,72,Byrum Brown pass complete to Ta'Ron Keith for 1 yd to the ALA 42,Pass,4,29,1,Other,10,1,0,0,,,,,0.26,0.06,0.29,0.1,0.53,,Byrum Brown,Ta'Ron Keith,#7B9D8ACC,#30503ECC,-4,-1.61
+2024-09-07 South Florida at Alabama,plays,2,South Florida,138,73,Byrum Brown run for 2 yds to the ALA 40,Rush,4,29,2,Other,9,2,0,0,,,,,0.31,0.13,0.29,0.1,0.53,Byrum Brown,,,#7B9D8ACC,#30503ECC,-4.3,-1.65
 2024-09-07 South Florida at Alabama,plays,2,South Florida,139,74,Byrum Brown pass incomplete to Sean Atkins,Pass,4,29,3,Other,7,0,0,0,,,,,0.26,0.06,0.28,0.09,0.53,,Byrum Brown,,#7B9D8ACC,#30503ECC,-7,-1.72
 2024-09-07 South Florida at Alabama,plays,2,South Florida,140,75,Byrum Brown pass incomplete to Joshua Porter,Pass,4,29,4,Other,7,0,0,0,,,,,0.25,0.06,0.28,0.09,0.52,,Byrum Brown,,#7B9D8ACC,#30503ECC,-7,-1.79
 2024-09-07 South Florida at Alabama,plays,1,Alabama,141,66,Jalen Milroe run for 4 yds to the ALA 44,Rush,4,30,1,Other,10,4,0,0,,,,,0.35,0.03,0.36,0.09,0.56,Jalen Milroe,,,#E82525CC,#5A0000CC,-1,-2.08
-2024-09-07 South Florida at Alabama,plays,1,Alabama,142,67,Jam Miller 56 yd run (Graham Nicholson Kick),Rush,4,30,2,Other,6,56,1,1,,,,,0.37,0.05,0.37,0.10,0.57,Jam Miller,,,#E82525CC,#5A0000CC,51.8,-1.27
+2024-09-07 South Florida at Alabama,plays,1,Alabama,142,67,Jam Miller 56 yd run (Graham Nicholson Kick),Rush,4,30,2,Other,6,56,1,1,,,,,0.37,0.05,0.37,0.1,0.57,Jam Miller,,,#E82525CC,#5A0000CC,51.8,-1.27
 2024-09-07 South Florida at Alabama,plays,2,South Florida,143,76,Byrum Brown pass incomplete to Nay'Quan Wright,Pass,4,31,1,Other,10,0,0,0,,,,,0.24,0.05,0.28,0.09,0.51,,Byrum Brown,,#7B9D8ACC,#30503ECC,-5,-1.84
-2024-09-07 South Florida at Alabama,plays,2,South Florida,144,77,Byrum Brown run for 4 yds to the USF 29,Rush,4,31,2,Other,10,4,0,0,,,,,0.30,0.13,0.27,0.09,0.52,Byrum Brown,,,#7B9D8ACC,#30503ECC,-3,-1.85
-2024-09-07 South Florida at Alabama,plays,2,South Florida,145,78,Byrum Brown pass incomplete to Abdur-Rahmaan Yaseen,Pass,4,31,3,Other,6,0,0,0,,,,,0.24,0.05,0.27,0.09,0.51,,Byrum Brown,,#7B9D8ACC,#30503ECC,-6,-1.90
+2024-09-07 South Florida at Alabama,plays,2,South Florida,144,77,Byrum Brown run for 4 yds to the USF 29,Rush,4,31,2,Other,10,4,0,0,,,,,0.3,0.13,0.27,0.09,0.52,Byrum Brown,,,#7B9D8ACC,#30503ECC,-3,-1.85
+2024-09-07 South Florida at Alabama,plays,2,South Florida,145,78,Byrum Brown pass incomplete to Abdur-Rahmaan Yaseen,Pass,4,31,3,Other,6,0,0,0,,,,,0.24,0.05,0.27,0.09,0.51,,Byrum Brown,,#7B9D8ACC,#30503ECC,-6,-1.9
 2024-09-07 South Florida at Alabama,plays,2,South Florida,146,79,Byrum Brown pass incomplete to Sean Atkins,Pass,4,31,4,Other,6,0,0,0,,,,,0.23,0.05,0.27,0.09,0.51,,Byrum Brown,,#7B9D8ACC,#30503ECC,-6,-1.96
-2024-09-07 South Florida at Alabama,plays,1,Alabama,147,68,Justice Haynes 29 yd run (Graham Nicholson Kick),Rush,4,32,1,Other,10,29,1,1,,,,,0.38,0.08,0.38,0.12,0.57,Justice Haynes,,,#E82525CC,#5A0000CC,24,-0.90
+2024-09-07 South Florida at Alabama,plays,1,Alabama,147,68,Justice Haynes 29 yd run (Graham Nicholson Kick),Rush,4,32,1,Other,10,29,1,1,,,,,0.38,0.08,0.38,0.12,0.57,Justice Haynes,,,#E82525CC,#5A0000CC,24,-0.9
 2024-09-07 South Florida at Alabama,plays,2,South Florida,148,80,Kelley Joiner run for 9 yds to the USF 30,Rush,4,33,1,Other,10,9,0,1,,,,,0.32,0.12,0.28,0.09,0.51,Kelley Joiner,,,#7B9D8ACC,#30503ECC,4,-1.88
 2024-09-07 South Florida at Alabama,plays,2,South Florida,149,81,Bryce Archie pass complete to Joshua Porter for no gain to the USF 30,Pass,4,33,2,Other,1,0,0,0,,,,,0.23,0.05,0.27,0.09,0.51,,Bryce Archie,Joshua Porter,#7B9D8ACC,#30503ECC,-0.7,-1.87
-2024-09-07 South Florida at Alabama,plays,2,South Florida,150,82,Kelley Joiner run for 5 yds to the USF 35 for a 1ST down,Rush,4,33,3,Other,1,5,0,1,,,,,0.33,0.12,0.28,0.09,0.51,Kelley Joiner,,,#7B9D8ACC,#30503ECC,4,-1.80
+2024-09-07 South Florida at Alabama,plays,2,South Florida,150,82,Kelley Joiner run for 5 yds to the USF 35 for a 1ST down,Rush,4,33,3,Other,1,5,0,1,,,,,0.33,0.12,0.28,0.09,0.51,Kelley Joiner,,,#7B9D8ACC,#30503ECC,4,-1.8
+2024-09-14 Alabama at Wisconsin,teams,1,Alabama,,,,,,,,,,,7,27,,,,56,0.48,0.13,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-09-14 Alabama at Wisconsin,teams,2,Wisconsin,,,,,,,,,,,3,28,,,,72,0.39,0.04,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
+2024-09-14 Alabama at Wisconsin,play_type,1,Alabama,,,,Rush,,,,,,,2,16,,,,32,0.50,0.06,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-09-14 Alabama at Wisconsin,play_type,2,Wisconsin,,,,Rush,,,,,,,1,18,,,,39,0.46,0.03,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
+2024-09-14 Alabama at Wisconsin,play_type,1,Alabama,,,,Pass,,,,,,,5,11,,,,24,0.46,0.21,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-09-14 Alabama at Wisconsin,play_type,2,Wisconsin,,,,Pass,,,,,,,2,10,,,,33,0.30,0.06,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
+2024-09-14 Alabama at Wisconsin,quarter,1,Alabama,,,,,1Q,,,,,,2,6,,,,13,0.46,0.15,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-09-14 Alabama at Wisconsin,quarter,1,Alabama,,,,,2Q,,,,,,2,6,,,,15,0.40,0.13,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-09-14 Alabama at Wisconsin,quarter,1,Alabama,,,,,3Q,,,,,,2,7,,,,11,0.64,0.18,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-09-14 Alabama at Wisconsin,quarter,1,Alabama,,,,,4Q,,,,,,1,8,,,,17,0.47,0.06,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-09-14 Alabama at Wisconsin,quarter,2,Wisconsin,,,,,1Q,,,,,,0,6,,,,18,0.33,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
+2024-09-14 Alabama at Wisconsin,quarter,2,Wisconsin,,,,,2Q,,,,,,0,7,,,,21,0.33,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
+2024-09-14 Alabama at Wisconsin,quarter,2,Wisconsin,,,,,3Q,,,,,,3,12,,,,20,0.60,0.15,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
+2024-09-14 Alabama at Wisconsin,quarter,2,Wisconsin,,,,,4Q,,,,,,0,3,,,,13,0.23,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
+2024-09-14 Alabama at Wisconsin,down,1,Alabama,,,,,,,1D,,,,6,14,,,,25,0.56,0.24,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-09-14 Alabama at Wisconsin,down,1,Alabama,,,,,,,2D,,,,0,5,,,,17,0.29,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-09-14 Alabama at Wisconsin,down,1,Alabama,,,,,,,3D,,,,1,8,,,,14,0.57,0.07,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-09-14 Alabama at Wisconsin,down,2,Wisconsin,,,,,,,1D,,,,2,14,,,,30,0.47,0.07,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
+2024-09-14 Alabama at Wisconsin,down,2,Wisconsin,,,,,,,2D,,,,1,8,,,,24,0.33,0.04,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
+2024-09-14 Alabama at Wisconsin,down,2,Wisconsin,,,,,,,3D,,,,0,3,,,,14,0.21,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
+2024-09-14 Alabama at Wisconsin,down,2,Wisconsin,,,,,,,4D,,,,0,3,,,,4,0.75,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
+2024-09-14 Alabama at Wisconsin,red_zone,1,Alabama,,,,,,,,Other,,,7,23,,,,47,0.49,0.15,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-09-14 Alabama at Wisconsin,red_zone,1,Alabama,,,,,,,,Red zone,,,0,4,,,,9,0.44,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-09-14 Alabama at Wisconsin,red_zone,2,Wisconsin,,,,,,,,Other,,,3,24,,,,65,0.37,0.05,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
+2024-09-14 Alabama at Wisconsin,red_zone,2,Wisconsin,,,,,,,,Red zone,,,0,4,,,,7,0.57,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
+2024-09-14 Alabama at Wisconsin,distance,1,Alabama,,,,,,,,,0-3 yds,,0,7,,,,9,0.78,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-09-14 Alabama at Wisconsin,distance,1,Alabama,,,,,,,,,4-6 yds,,0,3,,,,10,0.30,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-09-14 Alabama at Wisconsin,distance,1,Alabama,,,,,,,,,7-9 yds,,1,1,,,,7,0.14,0.14,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-09-14 Alabama at Wisconsin,distance,1,Alabama,,,,,,,,,9> yds,,6,16,,,,30,0.53,0.20,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-09-14 Alabama at Wisconsin,distance,2,Wisconsin,,,,,,,,,0-3 yds,,0,7,,,,15,0.47,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
+2024-09-14 Alabama at Wisconsin,distance,2,Wisconsin,,,,,,,,,4-6 yds,,0,3,,,,7,0.43,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
+2024-09-14 Alabama at Wisconsin,distance,2,Wisconsin,,,,,,,,,7-9 yds,,0,1,,,,7,0.14,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
+2024-09-14 Alabama at Wisconsin,distance,2,Wisconsin,,,,,,,,,9> yds,,3,17,,,,43,0.40,0.07,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
+2024-09-14 Alabama at Wisconsin,drive,1,Alabama,,,,,,2,,,,,0,4,,,,9,0.44,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-09-14 Alabama at Wisconsin,drive,1,Alabama,,,,,,4,,,,,2,2,,,,4,0.50,0.50,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-09-14 Alabama at Wisconsin,drive,1,Alabama,,,,,,6,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-09-14 Alabama at Wisconsin,drive,1,Alabama,,,,,,8,,,,,0,3,,,,7,0.43,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-09-14 Alabama at Wisconsin,drive,1,Alabama,,,,,,10,,,,,0,1,,,,3,0.33,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-09-14 Alabama at Wisconsin,drive,1,Alabama,,,,,,12,,,,,2,2,,,,2,1.00,1.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-09-14 Alabama at Wisconsin,drive,1,Alabama,,,,,,14,,,,,2,5,,,,5,1.00,0.40,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-09-14 Alabama at Wisconsin,drive,1,Alabama,,,,,,16,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-09-14 Alabama at Wisconsin,drive,1,Alabama,,,,,,18,,,,,0,2,,,,3,0.67,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-09-14 Alabama at Wisconsin,drive,1,Alabama,,,,,,20,,,,,0,2,,,,5,0.40,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-09-14 Alabama at Wisconsin,drive,1,Alabama,,,,,,22,,,,,1,1,,,,1,1.00,1.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-09-14 Alabama at Wisconsin,drive,1,Alabama,,,,,,24,,,,,0,5,,,,11,0.45,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-09-14 Alabama at Wisconsin,drive,2,Wisconsin,,,,,,1,,,,,0,3,,,,9,0.33,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
+2024-09-14 Alabama at Wisconsin,drive,2,Wisconsin,,,,,,3,,,,,0,3,,,,8,0.38,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
+2024-09-14 Alabama at Wisconsin,drive,2,Wisconsin,,,,,,5,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
+2024-09-14 Alabama at Wisconsin,drive,2,Wisconsin,,,,,,7,,,,,0,0,,,,2,0.00,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
+2024-09-14 Alabama at Wisconsin,drive,2,Wisconsin,,,,,,9,,,,,0,1,,,,7,0.14,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
+2024-09-14 Alabama at Wisconsin,drive,2,Wisconsin,,,,,,11,,,,,0,5,,,,9,0.56,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
+2024-09-14 Alabama at Wisconsin,drive,2,Wisconsin,,,,,,13,,,,,0,1,,,,1,1.00,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
+2024-09-14 Alabama at Wisconsin,drive,2,Wisconsin,,,,,,15,,,,,2,11,,,,17,0.65,0.12,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
+2024-09-14 Alabama at Wisconsin,drive,2,Wisconsin,,,,,,17,,,,,0,0,,,,1,0.00,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
+2024-09-14 Alabama at Wisconsin,drive,2,Wisconsin,,,,,,19,,,,,1,1,,,,4,0.25,0.25,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
+2024-09-14 Alabama at Wisconsin,drive,2,Wisconsin,,,,,,21,,,,,0,1,,,,3,0.33,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
+2024-09-14 Alabama at Wisconsin,drive,2,Wisconsin,,,,,,23,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
+2024-09-14 Alabama at Wisconsin,drive,2,Wisconsin,,,,,,25,,,,,0,2,,,,5,0.40,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
+2024-09-14 Alabama at Wisconsin,rusher,1,Alabama,,,,,,,,,,,1,4,,8,,,0.00,0.00,0.00,0.00,0.00,Jalen Milroe,,,#E82525CC,#5A0000CC,,0.00
+2024-09-14 Alabama at Wisconsin,rusher,1,Alabama,,,,,,,,,,,1,4,,4,,,0.00,0.00,0.00,0.00,0.00,Jam Miller,,,#E82525CC,#5A0000CC,,0.00
+2024-09-14 Alabama at Wisconsin,rusher,1,Alabama,,,,,,,,,,,0,2,,2,,,0.00,0.00,0.00,0.00,0.00,Daniel Hill,,,#E82525CC,#5A0000CC,,0.00
+2024-09-14 Alabama at Wisconsin,rusher,1,Alabama,,,,,,,,,,,0,2,,1,,,0.00,0.00,0.00,0.00,0.00,Richard Young,,,#E82525CC,#5A0000CC,,0.00
+2024-09-14 Alabama at Wisconsin,rusher,1,Alabama,,,,,,,,,,,0,2,,0,,,0.00,0.00,0.00,0.00,0.00,Justice Haynes,,,#E82525CC,#5A0000CC,,0.00
+2024-09-14 Alabama at Wisconsin,rusher,1,Alabama,,,,,,,,,,,0,0,,1,,,0.00,0.00,0.00,0.00,0.00,Ty Simpson,,,#E82525CC,#5A0000CC,,0.00
+2024-09-14 Alabama at Wisconsin,rusher,2,Wisconsin,,,,,,,,,,,0,6,,5,,,0.00,0.00,0.00,0.00,0.00,Chez Mellusi,,,#8C8C8CCC,#404040CC,,0.00
+2024-09-14 Alabama at Wisconsin,rusher,2,Wisconsin,,,,,,,,,,,0,4,,7,,,0.00,0.00,0.00,0.00,0.00,Tawee Walker,,,#8C8C8CCC,#404040CC,,0.00
+2024-09-14 Alabama at Wisconsin,rusher,2,Wisconsin,,,,,,,,,,,1,3,,4,,,0.00,0.00,0.00,0.00,0.00,Cade Yacamelli,,,#8C8C8CCC,#404040CC,,0.00
+2024-09-14 Alabama at Wisconsin,rusher,2,Wisconsin,,,,,,,,,,,0,3,,5,,,0.00,0.00,0.00,0.00,0.00,Darrion Dupree,,,#8C8C8CCC,#404040CC,,0.00
+2024-09-14 Alabama at Wisconsin,rusher,2,Wisconsin,,,,,,,,,,,0,1,,0,,,0.00,0.00,0.00,0.00,0.00,Tyler Van Dyke,,,#8C8C8CCC,#404040CC,,0.00
+2024-09-14 Alabama at Wisconsin,passer,1,Alabama,,,,,,,,,,,5,3,4,5,0,,0.00,0.00,0.00,0.00,0.00,,Jalen Milroe,,#E82525CC,#5A0000CC,,0.00
+2024-09-14 Alabama at Wisconsin,passer,1,Alabama,,,,,,,,,,,0,3,1,1,0,,0.00,0.00,0.00,0.00,0.00,,Ty Simpson,,#E82525CC,#5A0000CC,,0.00
+2024-09-14 Alabama at Wisconsin,passer,2,Wisconsin,,,,,,,,,,,2,6,5,13,0,,0.00,0.00,0.00,0.00,0.00,,Braedyn Locke,,#8C8C8CCC,#404040CC,,0.00
+2024-09-14 Alabama at Wisconsin,passer,2,Wisconsin,,,,,,,,,,,0,2,3,0,0,,0.00,0.00,0.00,0.00,0.00,,Tyler Van Dyke,,#8C8C8CCC,#404040CC,,0.00
+2024-09-14 Alabama at Wisconsin,receiver,1,Alabama,,,,,,,,,,,0,2,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Rico Scott,#E82525CC,#5A0000CC,,0.00
+2024-09-14 Alabama at Wisconsin,receiver,1,Alabama,,,,,,,,,,,2,1,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Germie Bernard,#E82525CC,#5A0000CC,,0.00
+2024-09-14 Alabama at Wisconsin,receiver,1,Alabama,,,,,,,,,,,0,1,2,0,,,0.00,0.00,0.00,0.00,0.00,,,Justice Haynes,#E82525CC,#5A0000CC,,0.00
+2024-09-14 Alabama at Wisconsin,receiver,1,Alabama,,,,,,,,,,,0,1,1,0,,,0.00,0.00,0.00,0.00,0.00,,,Caleb Odom,#E82525CC,#5A0000CC,,0.00
+2024-09-14 Alabama at Wisconsin,receiver,1,Alabama,,,,,,,,,,,0,1,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Emmanuel Henderson Jr.,#E82525CC,#5A0000CC,,0.00
+2024-09-14 Alabama at Wisconsin,receiver,1,Alabama,,,,,,,,,,,2,0,2,0,,,0.00,0.00,0.00,0.00,0.00,,,Ryan Williams,#E82525CC,#5A0000CC,,0.00
+2024-09-14 Alabama at Wisconsin,receiver,1,Alabama,,,,,,,,,,,1,0,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Josh Cuevas,#E82525CC,#5A0000CC,,0.00
+2024-09-14 Alabama at Wisconsin,receiver,2,Wisconsin,,,,,,,,,,,1,4,4,0,,,0.00,0.00,0.00,0.00,0.00,,,Will Pauling,#8C8C8CCC,#404040CC,,0.00
+2024-09-14 Alabama at Wisconsin,receiver,2,Wisconsin,,,,,,,,,,,0,2,2,0,,,0.00,0.00,0.00,0.00,0.00,,,Chez Mellusi,#8C8C8CCC,#404040CC,,0.00
+2024-09-14 Alabama at Wisconsin,receiver,2,Wisconsin,,,,,,,,,,,0,1,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Bryson Green,#8C8C8CCC,#404040CC,,0.00
+2024-09-14 Alabama at Wisconsin,receiver,2,Wisconsin,,,,,,,,,,,0,1,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Cade Yacamelli,#8C8C8CCC,#404040CC,,0.00
+2024-09-14 Alabama at Wisconsin,receiver,2,Wisconsin,,,,,,,,,,,1,0,1,0,,,0.00,0.00,0.00,0.00,0.00,,,Vinny Anthony II,#8C8C8CCC,#404040CC,,0.00
+2024-09-14 Alabama at Wisconsin,receiver,2,Wisconsin,,,,,,,,,,,0,0,1,0,,,0.00,0.00,0.00,0.00,0.00,,,Tawee Walker,#8C8C8CCC,#404040CC,,0.00
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,1,1,Tyler Van Dyke pass complete to Chez Mellusi for no gain to the WIS 25,Pass,1,1,1,Other,10,0,0,0,,,,,0.00,0.00,0.00,0.00,0.00,,Tyler Van Dyke,Chez Mellusi,#8C8C8CCC,#404040CC,-5,-5.00
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,2,2,Tyler Van Dyke pass complete to Will Pauling for 11 yds to the WIS 36 for a 1ST down,Pass,1,1,2,Other,10,11,0,1,,,,,0.50,0.00,0.50,0.00,0.00,,Tyler Van Dyke,Will Pauling,#8C8C8CCC,#404040CC,4,-0.50
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,3,3,Tyler Van Dyke run for 9 yds to the WIS 45,Rush,1,1,1,Other,10,9,0,1,,,,,1.00,0.00,0.67,0.00,0.33,Tyler Van Dyke,,,#8C8C8CCC,#404040CC,4,1.00
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,4,4,Tyler Van Dyke pass complete to Chez Mellusi for 2 yds to the WIS 47 for a 1ST down,Pass,1,1,2,Other,1,2,0,1,,,,,0.67,0.00,0.75,0.00,0.25,,Tyler Van Dyke,Chez Mellusi,#8C8C8CCC,#404040CC,1.3,1.08
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,5,5,Tyler Van Dyke pass complete to Chez Mellusi for no gain to the WIS 47,Pass,1,1,1,Other,10,0,0,0,,,,,0.50,0.00,0.60,0.00,0.20,,Tyler Van Dyke,Chez Mellusi,#8C8C8CCC,#404040CC,-5,-0.14
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,6,6,Tyler Van Dyke pass complete to Will Pauling for 3 yds to the 50 yard line,Pass,1,1,2,Other,10,3,0,0,,,,,0.40,0.00,0.50,0.00,0.17,,Tyler Van Dyke,Will Pauling,#8C8C8CCC,#404040CC,-4,-0.78
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,7,7,Braedyn Locke pass incomplete,Pass,1,1,1,Other,10,0,0,0,,,,,0.33,0.00,0.43,0.00,0.14,,Braedyn Locke,,#8C8C8CCC,#404040CC,-5,-1.39
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,8,8,Braedyn Locke pass complete to Tawee Walker for no gain to the ALA 35,Pass,1,1,2,Other,10,0,0,0,,,,,0.29,0.00,0.38,0.00,0.13,,Braedyn Locke,Tawee Walker,#8C8C8CCC,#404040CC,-7,-2.09
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,9,9,Braedyn Locke pass incomplete,Pass,1,1,3,Other,10,0,0,0,,,,,0.25,0.00,0.33,0.00,0.11,,Braedyn Locke,,#8C8C8CCC,#404040CC,-10,-2.97
+2024-09-14 Alabama at Wisconsin,plays,1,Alabama,10,1,Jalen Milroe pass complete to Justice Haynes for 10 yds to the ALA 35 for a 1ST down,Pass,1,2,1,Other,10,10,0,1,,,,,1.00,0.00,1.00,0.00,0.00,,Jalen Milroe,Justice Haynes,#E82525CC,#5A0000CC,5,5.00
+2024-09-14 Alabama at Wisconsin,plays,1,Alabama,11,2,Jalen Milroe pass complete to Ryan Williams for a loss of 1 yard to the ALA 34,Pass,1,2,1,Other,10,-1,0,0,,,,,0.50,0.00,0.50,0.00,0.00,,Jalen Milroe,Ryan Williams,#E82525CC,#5A0000CC,-6,-0.50
+2024-09-14 Alabama at Wisconsin,plays,1,Alabama,12,3,Jalen Milroe pass complete to Emmanuel Henderson Jr. for 10 yds to the ALA 44,Pass,1,2,2,Other,11,10,0,1,,,,,0.67,0.00,0.67,0.00,0.00,,Jalen Milroe,Emmanuel Henderson Jr.,#E82525CC,#5A0000CC,2.3,0.43
+2024-09-14 Alabama at Wisconsin,plays,1,Alabama,13,4,Justice Haynes run for 12 yds to the WIS 44 for a 1ST down,Rush,1,2,3,Other,1,12,0,1,,,,,1.00,0.00,0.75,0.00,0.25,Justice Haynes,,,#E82525CC,#5A0000CC,11,3.08
+2024-09-14 Alabama at Wisconsin,plays,1,Alabama,14,5,Jalen Milroe pass incomplete,Pass,1,2,1,Other,10,0,0,0,,,,,0.50,0.00,0.60,0.00,0.20,,Jalen Milroe,,#E82525CC,#5A0000CC,-5,1.46
+2024-09-14 Alabama at Wisconsin,plays,1,Alabama,15,6,Jalen Milroe run for 12 yds to the WIS 32 for a 1ST down,Rush,1,2,2,Other,10,12,0,1,,,,,1.00,0.00,0.67,0.00,0.33,Jalen Milroe,,,#E82525CC,#5A0000CC,5,2.05
+2024-09-14 Alabama at Wisconsin,plays,1,Alabama,16,7,Jalen Milroe run for 1 yd to the WIS 31,Rush,1,2,1,Other,10,1,0,0,,,,,0.67,0.00,0.57,0.00,0.43,Jalen Milroe,,,#E82525CC,#5A0000CC,-4,1.19
+2024-09-14 Alabama at Wisconsin,plays,1,Alabama,17,8,Jam Miller run for 4 yds to the WIS 27,Rush,1,2,2,Other,9,4,0,0,,,,,0.50,0.00,0.50,0.00,0.50,Jam Miller,,,#E82525CC,#5A0000CC,-2.3,0.75
+2024-09-14 Alabama at Wisconsin,plays,1,Alabama,18,9,Jalen Milroe pass incomplete,Pass,1,2,3,Other,5,0,0,0,,,,,0.40,0.00,0.44,0.00,0.44,,Jalen Milroe,,#E82525CC,#5A0000CC,-5,0.11
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,19,10,Chez Mellusi run for 7 yds to the WIS 35,Rush,1,3,1,Other,10,7,0,1,,,,,1.00,0.00,0.40,0.00,0.20,Chez Mellusi,,,#8C8C8CCC,#404040CC,2,-2.47
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,20,11,Chez Mellusi run for 2 yds to the WIS 37,Rush,1,3,2,Other,3,2,0,0,,,,,0.67,0.00,0.36,0.00,0.27,Chez Mellusi,,,#8C8C8CCC,#404040CC,-0.1,-2.25
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,21,12,Tawee Walker run for 4 yds to the WIS 41 for a 1ST down,Rush,1,3,3,Other,1,4,0,1,,,,,0.75,0.00,0.42,0.00,0.33,Tawee Walker,,,#8C8C8CCC,#404040CC,3,-1.82
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,22,13,Chez Mellusi run for 11 yds to the ALA 48 for a 1ST down,Rush,1,3,1,Other,10,11,0,1,,,,,0.80,0.00,0.46,0.00,0.38,Chez Mellusi,,,#8C8C8CCC,#404040CC,6,-1.22
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,23,14,"Braedyn Locke sacked for a loss of 4 yards to the WIS 48 Braedyn Locke fumbled, recovered by WIS Chez Mellusi , return for 0 yards",Pass,1,3,1,Other,10,-4,0,0,,,,,0.22,0.00,0.43,0.00,0.36,,,,#8C8C8CCC,#404040CC,-9,-1.77
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,24,15,Braedyn Locke pass incomplete,Pass,1,3,2,Other,14,0,0,0,,,,,0.20,0.00,0.40,0.00,0.33,,Braedyn Locke,,#8C8C8CCC,#404040CC,-9.8,-2.31
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,25,16,Braedyn Locke pass complete to Vinny Anthony II for 13 yds to the ALA 39,Pass,1,3,3,Other,14,13,0,0,,,,,0.18,0.00,0.38,0.00,0.31,,Braedyn Locke,Vinny Anthony II,#8C8C8CCC,#404040CC,-1,-2.23
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,26,17,Tawee Walker run for no gain to the ALA 39,Rush,1,3,4,Other,1,0,0,0,,,,,0.67,0.00,0.35,0.00,0.35,Tawee Walker,,,#8C8C8CCC,#404040CC,-1,-2.15
+2024-09-14 Alabama at Wisconsin,plays,1,Alabama,27,10,Jalen Milroe run for 26 yds to the WIS 34 for a 1ST down,Rush,1,4,1,Other,10,26,1,1,,,,,0.60,0.20,0.50,0.10,0.50,Jalen Milroe,,,#E82525CC,#5A0000CC,21,2.20
+2024-09-14 Alabama at Wisconsin,plays,1,Alabama,28,11,Jam Miller run for 3 yds to the WIS 31,Rush,1,4,1,Other,10,3,0,0,,,,,0.50,0.17,0.45,0.09,0.55,Jam Miller,,,#E82525CC,#5A0000CC,-2,1.82
+2024-09-14 Alabama at Wisconsin,plays,1,Alabama,29,12,Jalen Milroe run for no gain to the WIS 31,Rush,1,4,2,Other,7,0,0,0,,,,,0.43,0.14,0.42,0.08,0.58,Jalen Milroe,,,#E82525CC,#5A0000CC,-4.9,1.26
+2024-09-14 Alabama at Wisconsin,plays,1,Alabama,30,13,Ryan Williams 31 Yd pass from Jalen Milroe (Graham Nicholson Kick),Pass,1,4,3,Other,7,31,1,1,,,,,0.50,0.17,0.46,0.15,0.54,,Jalen Milroe,Ryan Williams,#E82525CC,#5A0000CC,24,3.01
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,31,18,Tawee Walker run for 2 yds to the WIS 27,Rush,1,5,1,Other,10,2,0,0,,,,,0.57,0.00,0.33,0.00,0.39,Tawee Walker,,,#8C8C8CCC,#404040CC,-3,-2.20
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,32,19,Braedyn Locke pass incomplete,Pass,2,5,2,Other,8,0,0,0,,,,,0.17,0.00,0.32,0.00,0.37,,Braedyn Locke,,#8C8C8CCC,#404040CC,-5.6,-2.38
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,33,20,Braedyn Locke pass incomplete,Pass,2,5,3,Other,8,0,0,0,,,,,0.15,0.00,0.30,0.00,0.35,,Braedyn Locke,,#8C8C8CCC,#404040CC,-8,-2.66
+2024-09-14 Alabama at Wisconsin,plays,1,Alabama,34,14,Jalen Milroe run for 6 yds to the ALA 37,Rush,2,6,1,Other,15,6,0,0,,,,,0.38,0.13,0.43,0.14,0.57,Jalen Milroe,,,#E82525CC,#5A0000CC,-1.5,2.69
+2024-09-14 Alabama at Wisconsin,plays,1,Alabama,35,15,Jalen Milroe pass incomplete,Pass,2,6,2,Other,9,0,0,0,,,,,0.43,0.14,0.40,0.13,0.53,,Jalen Milroe,,#E82525CC,#5A0000CC,-6.3,2.09
+2024-09-14 Alabama at Wisconsin,plays,1,Alabama,36,16,Jalen Milroe pass complete to Justice Haynes for 5 yds to the ALA 42,Pass,2,6,3,Other,9,5,0,0,,,,,0.38,0.13,0.38,0.13,0.50,,Jalen Milroe,Justice Haynes,#E82525CC,#5A0000CC,-4,1.71
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,37,21,Chez Mellusi run for 2 yds to the WIS 7,Rush,2,7,1,Other,10,2,0,0,,,,,0.50,0.00,0.29,0.00,0.38,Chez Mellusi,,,#8C8C8CCC,#404040CC,-3,-2.68
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,38,22,"Chez Mellusi run for 21 yds to the WIS 28 Chez Mellusi fumbled, recovered by ALA Zabien Brown Z. Brown return for 0 yds",Rush,2,7,2,Other,8,21,0,0,,,,,0.44,0.00,0.27,0.00,0.41,Chez Mellusi,,,#8C8C8CCC,#404040CC,15.4,-1.85
+2024-09-14 Alabama at Wisconsin,plays,1,Alabama,39,17,Jam Miller run for 13 yds to the WIS 15 for a 1ST down,Rush,2,8,1,Other,10,13,0,1,,,,,0.44,0.11,0.41,0.12,0.53,Jam Miller,,,#E82525CC,#5A0000CC,8,2.08
+2024-09-14 Alabama at Wisconsin,plays,1,Alabama,40,18,Jam Miller run for 4 yds to the WIS 11,Rush,2,8,1,Red zone,10,4,0,0,,,,,0.40,0.10,0.39,0.11,0.56,Jam Miller,,,#E82525CC,#5A0000CC,-1,1.91
+2024-09-14 Alabama at Wisconsin,plays,1,Alabama,41,19,Jalen Milroe run for 4 yds to the WIS 7,Rush,2,8,2,Red zone,6,4,0,0,,,,,0.36,0.09,0.37,0.11,0.58,Jalen Milroe,,,#E82525CC,#5A0000CC,-0.2,1.79
+2024-09-14 Alabama at Wisconsin,plays,1,Alabama,42,20,Jam Miller run for 2 yds to the WIS 5 for a 1ST down,Rush,2,8,3,Red zone,2,2,0,1,,,,,0.42,0.08,0.40,0.10,0.60,Jam Miller,,,#E82525CC,#5A0000CC,0,1.71
+2024-09-14 Alabama at Wisconsin,plays,1,Alabama,43,21,Jam Miller run for 1 yd to the WIS 4,Rush,2,8,1,Red zone,5,1,0,0,,,,,0.38,0.08,0.38,0.10,0.62,Jam Miller,,,#E82525CC,#5A0000CC,-1.5,1.55
+2024-09-14 Alabama at Wisconsin,plays,1,Alabama,44,22,Jalen Milroe run for a loss of 2 yards to the WIS 6,Rush,2,8,2,Red zone,4,-2,0,0,,,,,0.36,0.07,0.36,0.09,0.64,Jalen Milroe,,,#E82525CC,#5A0000CC,-4.8,1.26
+2024-09-14 Alabama at Wisconsin,plays,1,Alabama,45,23,Jalen Milroe 3 yd run (Graham Nicholson Kick),Rush,2,8,3,Red zone,3,3,0,1,,,,,0.40,0.07,0.39,0.09,0.65,Jalen Milroe,,,#E82525CC,#5A0000CC,0,1.21
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,46,23,Tawee Walker run for 3 yds to the WIS 28,Rush,2,9,1,Other,10,3,0,0,,,,,0.40,0.00,0.26,0.00,0.43,Tawee Walker,,,#8C8C8CCC,#404040CC,-2,-1.86
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,47,24,Tawee Walker run for a loss of 3 yards to the WIS 25,Rush,2,9,2,Other,7,-3,0,0,,,,,0.36,0.00,0.25,0.00,0.46,Tawee Walker,,,#8C8C8CCC,#404040CC,-7.9,-2.11
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,48,25,Braedyn Locke pass complete to Will Pauling for 9 yds to the WIS 34,Pass,2,9,3,Other,10,9,0,0,,,,,0.14,0.00,0.24,0.00,0.44,,Braedyn Locke,Will Pauling,#8C8C8CCC,#404040CC,-1,-2.07
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,49,26,Tawee Walker run for 3 yds to the WIS 37 for a 1ST down,Rush,2,9,4,Other,1,3,0,1,,,,,0.42,0.00,0.27,0.00,0.46,Tawee Walker,,,#8C8C8CCC,#404040CC,2,-1.91
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,50,27,Braedyn Locke pass incomplete,Pass,2,9,1,Other,10,0,0,0,,,,,0.13,0.00,0.26,0.00,0.44,,Braedyn Locke,,#8C8C8CCC,#404040CC,-5,-2.03
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,51,28,Cade Yacamelli run for no gain to the WIS 37,Rush,2,9,2,Other,10,0,0,0,,,,,0.38,0.00,0.25,0.00,0.46,Cade Yacamelli,,,#8C8C8CCC,#404040CC,-7,-2.20
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,52,29,Braedyn Locke pass complete to Will Pauling for 4 yds to the WIS 41,Pass,2,9,3,Other,10,4,0,0,,,,,0.13,0.00,0.24,0.00,0.45,,Braedyn Locke,Will Pauling,#8C8C8CCC,#404040CC,-6,-2.33
+2024-09-14 Alabama at Wisconsin,plays,1,Alabama,53,24,Justice Haynes run for 5 yds to the ALA 18,Rush,2,10,1,Other,10,5,0,1,,,,,0.44,0.06,0.42,0.08,0.67,Justice Haynes,,,#E82525CC,#5A0000CC,0,1.16
+2024-09-14 Alabama at Wisconsin,plays,1,Alabama,54,25,Jalen Milroe pass complete to Ryan Williams for 1 yd to the ALA 19,Pass,2,10,2,Other,5,1,0,0,,,,,0.33,0.11,0.40,0.08,0.64,,Jalen Milroe,Ryan Williams,#E82525CC,#5A0000CC,-2.5,1.01
+2024-09-14 Alabama at Wisconsin,plays,1,Alabama,55,26,Jalen Milroe pass complete to Justice Haynes for 1 yd to the ALA 20,Pass,2,10,3,Other,4,1,0,0,,,,,0.30,0.10,0.38,0.08,0.62,,Jalen Milroe,Justice Haynes,#E82525CC,#5A0000CC,-3,0.86
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,56,30,Tawee Walker run for 8 yds to the WIS 24,Rush,2,11,1,Other,10,8,0,1,,,,,0.43,0.00,0.27,0.00,0.47,Tawee Walker,,,#8C8C8CCC,#404040CC,3,-2.16
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,57,31,Braedyn Locke pass incomplete,Pass,2,11,2,Other,2,0,0,0,,,,,0.12,0.00,0.26,0.00,0.45,,Braedyn Locke,,#8C8C8CCC,#404040CC,-1.4,-2.13
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,58,32,Tawee Walker run for no gain to the WIS 39,Rush,2,11,1,Other,10,0,0,0,,,,,0.40,0.00,0.25,0.00,0.47,Tawee Walker,,,#8C8C8CCC,#404040CC,-5,-2.22
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,59,33,Braedyn Locke pass complete to Bryson Green for 12 yds to the ALA 49 for a 1ST down,Pass,2,11,2,Other,10,12,0,1,,,,,0.17,0.00,0.27,0.00,0.45,,Braedyn Locke,Bryson Green,#8C8C8CCC,#404040CC,5,-2.00
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,60,34,Cade Yacamelli run for 5 yds to the ALA 44,Rush,2,11,1,Other,10,5,0,1,,,,,0.44,0.00,0.29,0.00,0.47,Cade Yacamelli,,,#8C8C8CCC,#404040CC,0,-1.94
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,61,35,Braedyn Locke pass complete to Will Pauling for 10 yds to the ALA 34 for a 1ST down,Pass,2,11,2,Other,5,10,0,1,,,,,0.21,0.00,0.31,0.00,0.46,,Braedyn Locke,Will Pauling,#8C8C8CCC,#404040CC,6.5,-1.70
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,62,36,Braedyn Locke pass incomplete,Pass,2,11,1,Other,10,0,0,0,,,,,0.20,0.00,0.31,0.00,0.44,,Braedyn Locke,,#8C8C8CCC,#404040CC,-5,-1.79
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,63,37,Braedyn Locke pass complete to Will Pauling for 7 yds to the ALA 27,Pass,2,11,2,Other,10,7,0,1,,,,,0.24,0.00,0.32,0.00,0.43,,Braedyn Locke,Will Pauling,#8C8C8CCC,#404040CC,0,-1.75
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,64,38,Braedyn Locke pass incomplete,Pass,2,11,3,Other,3,0,0,0,,,,,0.23,0.00,0.32,0.00,0.42,,Braedyn Locke,,#8C8C8CCC,#404040CC,-3,-1.78
+2024-09-14 Alabama at Wisconsin,plays,1,Alabama,65,27,Jalen Milroe pass complete to Ryan Williams for 47 yds to the WIS 26 for a 1ST down,Pass,2,12,1,Other,10,47,1,1,,,,,0.36,0.18,0.41,0.11,0.59,,Jalen Milroe,Ryan Williams,#E82525CC,#5A0000CC,42,2.38
+2024-09-14 Alabama at Wisconsin,plays,1,Alabama,66,28,Germie Bernard 26 Yd pass from Jalen Milroe (Graham Nicholson Kick),Pass,2,12,1,Other,10,26,1,1,,,,,0.42,0.25,0.43,0.14,0.57,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,21,3.05
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,67,39,Tawee Walker run for 7 yds to the WIS 34,Rush,2,13,1,Other,10,7,0,1,,,,,0.47,0.00,0.33,0.00,0.44,Tawee Walker,,,#8C8C8CCC,#404040CC,2,-1.68
+2024-09-14 Alabama at Wisconsin,plays,1,Alabama,68,29,Jalen Milroe pass complete to Germie Bernard for 23 yds to the ALA 48 for a 1ST down,Pass,3,14,1,Other,10,23,1,1,,,,,0.46,0.31,0.45,0.17,0.55,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,18,3.56
+2024-09-14 Alabama at Wisconsin,plays,1,Alabama,69,30,Jalen Milroe pass complete to Germie Bernard for 6 yds to the WIS 46,Pass,3,14,1,Other,10,6,0,1,,,,,0.50,0.29,0.47,0.17,0.53,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,1,3.48
+2024-09-14 Alabama at Wisconsin,plays,1,Alabama,70,31,Jam Miller run for 3 yds to the WIS 43,Rush,3,14,2,Other,4,3,0,1,,,,,0.47,0.06,0.48,0.16,0.55,Jam Miller,,,#E82525CC,#5A0000CC,0.2,3.37
+2024-09-14 Alabama at Wisconsin,plays,1,Alabama,71,32,Jalen Milroe run for 9 yds to the WIS 34 for a 1ST down,Rush,3,14,3,Other,1,9,0,1,,,,,0.50,0.06,0.50,0.16,0.56,Jalen Milroe,,,#E82525CC,#5A0000CC,8,3.52
+2024-09-14 Alabama at Wisconsin,plays,1,Alabama,72,33,Jam Miller 34 yd run (Graham Nicholson Kick),Rush,3,14,1,Other,10,34,1,1,,,,,0.53,0.11,0.52,0.18,0.58,Jam Miller,,,#E82525CC,#5A0000CC,29,4.29
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,73,40,Chez Mellusi run for 1 yd to the WIS 26,Rush,3,15,1,Other,10,1,0,0,,,,,0.44,0.00,0.33,0.00,0.45,Chez Mellusi,,,#8C8C8CCC,#404040CC,-4,-1.74
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,74,41,Braedyn Locke pass complete to Chez Mellusi for 10 yds to the WIS 36 for a 1ST down,Pass,3,15,2,Other,9,10,0,1,,,,,0.26,0.00,0.34,0.00,0.44,,Braedyn Locke,Chez Mellusi,#8C8C8CCC,#404040CC,3.7,-1.61
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,75,42,Chez Mellusi run for 11 yds to the WIS 47 for a 1ST down,Rush,3,15,1,Other,10,11,0,1,,,,,0.47,0.00,0.36,0.00,0.45,Chez Mellusi,,,#8C8C8CCC,#404040CC,6,-1.43
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,76,43,Cade Yacamelli run for 7 yds to the ALA 46,Rush,3,15,1,Other,10,7,0,1,,,,,0.50,0.00,0.37,0.00,0.47,Cade Yacamelli,,,#8C8C8CCC,#404040CC,2,-1.35
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,77,44,Darrion Dupree run for 3 yds to the ALA 43 for a 1ST down,Rush,3,15,2,Other,3,3,0,1,,,,,0.52,0.00,0.39,0.00,0.48,Darrion Dupree,,,#8C8C8CCC,#404040CC,0.9,-1.30
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,78,45,Braedyn Locke pass incomplete,Pass,3,15,1,Other,20,0,0,0,,,,,0.25,0.00,0.38,0.00,0.47,,Braedyn Locke,,#8C8C8CCC,#404040CC,-10,-1.49
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,79,46,Braedyn Locke pass complete to Vinny Anthony II for 16 yds to the ALA 37,Pass,3,15,2,Other,20,16,1,1,,,,,0.28,0.04,0.39,0.02,0.46,,Braedyn Locke,Vinny Anthony II,#8C8C8CCC,#404040CC,2,-1.41
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,80,47,Braedyn Locke pass complete to Cade Yacamelli for 5 yds to the ALA 32 for a 1ST down,Pass,3,15,4,Other,4,5,0,1,,,,,0.31,0.04,0.40,0.02,0.45,,Braedyn Locke,Cade Yacamelli,#8C8C8CCC,#404040CC,1,-1.36
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,81,48,Braedyn Locke pass incomplete,Pass,3,15,3,Other,4,0,0,0,,,,,0.30,0.04,0.40,0.02,0.44,,Braedyn Locke,,#8C8C8CCC,#404040CC,-4,-1.42
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,82,49,Cade Yacamelli run for 17 yds to the ALA 15 for a 1ST down,Rush,3,15,1,Other,10,17,1,1,,,,,0.55,0.05,0.41,0.04,0.45,Cade Yacamelli,,,#8C8C8CCC,#404040CC,12,-1.14
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,83,50,Cade Yacamelli run for 7 yds to the ALA 8,Rush,3,15,1,Red zone,10,7,0,1,,,,,0.57,0.04,0.42,0.04,0.46,Cade Yacamelli,,,#8C8C8CCC,#404040CC,2,-1.08
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,84,51,Cade Yacamelli run for 2 yds to the ALA 6,Rush,3,15,2,Red zone,3,2,0,0,,,,,0.54,0.04,0.41,0.04,0.47,Cade Yacamelli,,,#8C8C8CCC,#404040CC,-0.1,-1.06
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,85,52,Chez Mellusi run for 2 yds to the ALA 4 for a 1ST down,Rush,3,15,3,Red zone,1,2,0,1,,,,,0.56,0.04,0.42,0.04,0.48,Chez Mellusi,,,#8C8C8CCC,#404040CC,1,-1.02
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,86,53,Chez Mellusi run for 2 yds to the ALA 2,Rush,3,15,1,Red zone,4,2,0,1,,,,,0.58,0.04,0.43,0.04,0.49,Chez Mellusi,,,#8C8C8CCC,#404040CC,0,-1.00
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,87,54,Cade Yacamelli run for a loss of 2 yards to the ALA 4,Rush,3,15,2,Red zone,2,-2,0,0,,,,,0.56,0.04,0.43,0.04,0.50,Cade Yacamelli,,,#8C8C8CCC,#404040CC,-3.4,-1.05
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,88,55,Tawee Walker run for 1 yd to the ALA 3,Rush,3,15,3,Red zone,4,1,0,0,,,,,0.54,0.04,0.42,0.04,0.51,Tawee Walker,,,#8C8C8CCC,#404040CC,-3,-1.08
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,89,56,Will Pauling 3 Yd pass from Braedyn Locke (Nathanial Vakos Kick),Pass,3,15,4,Red zone,3,3,0,1,,,,,0.32,0.04,0.43,0.04,0.50,,Braedyn Locke,Will Pauling,#8C8C8CCC,#404040CC,0,-1.06
+2024-09-14 Alabama at Wisconsin,plays,1,Alabama,90,34,Jalen Milroe run for 3 yds to the ALA 28,Rush,3,16,1,Other,10,3,0,0,,,,,0.50,0.10,0.50,0.18,0.59,Jalen Milroe,,,#E82525CC,#5A0000CC,-2,4.10
+2024-09-14 Alabama at Wisconsin,plays,1,Alabama,91,35,Jalen Milroe run for 3 yds to the ALA 31,Rush,3,16,2,Other,7,3,0,0,,,,,0.48,0.10,0.49,0.17,0.60,Jalen Milroe,,,#E82525CC,#5A0000CC,-1.9,3.93
+2024-09-14 Alabama at Wisconsin,plays,1,Alabama,92,36,Jalen Milroe sacked by Leon Lowery Jr. for a loss of 1 yard to the ALA 30,Pass,3,16,3,Other,4,-1,0,0,,,,,0.47,0.27,0.47,0.17,0.58,,,,#E82525CC,#5A0000CC,-5,3.68
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,93,57,"Cade Yacamelli run for 3 yds to the WIS 18 Cade Yacamelli fumbled, recovered by ALA Que Robinson Q. Robinson return for 0 yds",Rush,3,17,1,Other,15,3,0,0,,,,,0.52,0.03,0.42,0.04,0.51,Cade Yacamelli,,,#8C8C8CCC,#404040CC,-4.5,-1.12
+2024-09-14 Alabama at Wisconsin,plays,1,Alabama,94,37,Jam Miller run for 7 yds to the WIS 11,Rush,3,18,1,Red zone,10,7,0,1,,,,,0.50,0.09,0.49,0.16,0.59,Jam Miller,,,#E82525CC,#5A0000CC,2,3.64
+2024-09-14 Alabama at Wisconsin,plays,1,Alabama,95,38,Jalen Milroe run for 1 yd to the WIS 10,Rush,3,18,2,Red zone,3,1,0,0,,,,,0.48,0.09,0.47,0.16,0.61,Jalen Milroe,,,#E82525CC,#5A0000CC,-1.1,3.51
+2024-09-14 Alabama at Wisconsin,plays,1,Alabama,96,39,Jalen Milroe 10 yd run (Graham Nicholson Kick),Rush,3,18,3,Red zone,2,10,0,1,,,,,0.50,0.08,0.49,0.15,0.62,Jalen Milroe,,,#E82525CC,#5A0000CC,8,3.63
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,97,58,Braedyn Locke pass complete to Will Pauling for 25 yds to the WIS 43 for a 1ST down,Pass,3,19,1,Other,10,25,1,1,,,,,0.34,0.07,0.43,0.05,0.50,,Braedyn Locke,Will Pauling,#8C8C8CCC,#404040CC,20,-0.76
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,98,59,Tawee Walker run for 1 yd to the WIS 39,Rush,3,19,1,Other,15,1,0,0,,,,,0.50,0.03,0.42,0.05,0.51,Tawee Walker,,,#8C8C8CCC,#404040CC,-6.5,-0.86
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,99,60,"Braedyn Locke sacked for a loss of 11 yards to the WIS 28 Braedyn Locke fumbled, recovered by WIS Joe Huber , return for 0 yards",Pass,4,19,2,Other,14,-11,0,0,,,,,0.33,0.07,0.42,0.05,0.50,,,,#8C8C8CCC,#404040CC,-20.8,-1.19
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,100,61,Braedyn Locke pass complete to Will Pauling for 11 yds to the WIS 39,Pass,4,19,3,Other,25,11,0,0,,,,,0.32,0.06,0.41,0.05,0.49,,Braedyn Locke,Will Pauling,#8C8C8CCC,#404040CC,-14,-1.40
+2024-09-14 Alabama at Wisconsin,plays,1,Alabama,101,40,Richard Young run for 7 yds to the WIS 47,Rush,4,20,1,Other,10,7,0,1,,,,,0.52,0.08,0.50,0.15,0.63,Richard Young,,,#E82525CC,#5A0000CC,2,3.59
+2024-09-14 Alabama at Wisconsin,plays,1,Alabama,102,41,Richard Young run for 8 yds to the WIS 39 for a 1ST down,Rush,4,20,2,Other,3,8,0,1,,,,,0.54,0.08,0.51,0.15,0.63,Richard Young,,,#E82525CC,#5A0000CC,5.9,3.64
+2024-09-14 Alabama at Wisconsin,plays,1,Alabama,103,42,Richard Young run for 1 yd to the WIS 38,Rush,4,20,1,Other,10,1,0,0,,,,,0.52,0.07,0.50,0.14,0.64,Richard Young,,,#E82525CC,#5A0000CC,-4,3.46
+2024-09-14 Alabama at Wisconsin,plays,1,Alabama,104,43,Jalen Milroe pass incomplete,Pass,4,20,2,Other,14,0,0,0,,,,,0.44,0.25,0.49,0.14,0.63,,Jalen Milroe,,#E82525CC,#5A0000CC,-9.8,3.15
+2024-09-14 Alabama at Wisconsin,plays,1,Alabama,105,44,Jalen Milroe pass incomplete,Pass,4,20,3,Other,14,0,0,0,,,,,0.41,0.24,0.48,0.14,0.61,,Jalen Milroe,,#E82525CC,#5A0000CC,-14,2.76
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,106,62,Chez Mellusi run for 6 yds to the WIS 15,Rush,4,21,1,Other,10,6,0,1,,,,,0.52,0.03,0.42,0.05,0.50,Chez Mellusi,,,#8C8C8CCC,#404040CC,1,-1.36
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,107,63,Chez Mellusi run for 1 yd to the WIS 16,Rush,4,21,2,Other,4,1,0,0,,,,,0.50,0.03,0.41,0.05,0.51,Chez Mellusi,,,#8C8C8CCC,#404040CC,-1.8,-1.37
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,108,64,Braedyn Locke pass incomplete,Pass,4,21,3,Other,3,0,0,0,,,,,0.31,0.06,0.41,0.05,0.50,,Braedyn Locke,,#8C8C8CCC,#404040CC,-3,-1.39
+2024-09-14 Alabama at Wisconsin,plays,1,Alabama,109,45,Jalen Milroe pass complete to Josh Cuevas for 37 yds for a TD (Graham Nicholson KICK),Pass,4,22,1,Other,10,37,1,1,,,,,0.44,0.28,0.49,0.16,0.60,,Jalen Milroe,Josh Cuevas,#E82525CC,#5A0000CC,32,3.41
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,110,65,Darrion Dupree run for 3 yds to the WIS 28,Rush,4,23,1,Other,10,3,0,0,,,,,0.48,0.03,0.40,0.05,0.51,Darrion Dupree,,,#8C8C8CCC,#404040CC,-2,-1.40
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,111,66,Darrion Dupree run for 1 yd to the WIS 29,Rush,4,23,2,Other,7,1,0,0,,,,,0.47,0.03,0.39,0.05,0.52,Darrion Dupree,,,#8C8C8CCC,#404040CC,-3.9,-1.44
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,112,67,Braedyn Locke pass incomplete,Pass,4,23,3,Other,6,0,0,0,,,,,0.30,0.06,0.39,0.04,0.51,,Braedyn Locke,,#8C8C8CCC,#404040CC,-6,-1.51
+2024-09-14 Alabama at Wisconsin,plays,1,Alabama,113,46,Daniel Hill run for 5 yds to the ALA 17,Rush,4,24,1,Other,10,5,0,1,,,,,0.54,0.07,0.50,0.15,0.61,Daniel Hill,,,#E82525CC,#5A0000CC,0,3.34
+2024-09-14 Alabama at Wisconsin,plays,1,Alabama,114,47,Ty Simpson pass complete to Caleb Odom for 9 yds to the ALA 26 for a 1ST down,Pass,4,24,2,Other,5,9,0,1,,,,,0.47,0.26,0.51,0.15,0.60,,Ty Simpson,Caleb Odom,#E82525CC,#5A0000CC,5.5,3.39
+2024-09-14 Alabama at Wisconsin,plays,1,Alabama,115,48,Daniel Hill run for a loss of 1 yard to the ALA 25,Rush,4,24,1,Other,10,-1,0,0,,,,,0.52,0.07,0.50,0.15,0.60,Daniel Hill,,,#E82525CC,#5A0000CC,-6,3.19
+2024-09-14 Alabama at Wisconsin,plays,1,Alabama,116,49,Ty Simpson pass complete to Caleb Odom for 7 yds to the ALA 32,Pass,4,24,2,Other,11,7,0,0,,,,,0.45,0.25,0.49,0.14,0.59,,Ty Simpson,Caleb Odom,#E82525CC,#5A0000CC,-0.7,3.11
+2024-09-14 Alabama at Wisconsin,plays,1,Alabama,117,50,Ty Simpson pass complete to Rico Scott for 7 yds to the ALA 39 for a 1ST down,Pass,4,24,3,Other,4,7,0,1,,,,,0.48,0.24,0.50,0.14,0.58,,Ty Simpson,Rico Scott,#E82525CC,#5A0000CC,3,3.11
+2024-09-14 Alabama at Wisconsin,plays,1,Alabama,118,51,Ty Simpson pass complete to Rico Scott for 7 yds to the ALA 46,Pass,4,24,1,Other,10,7,0,1,,,,,0.50,0.23,0.51,0.14,0.57,,Ty Simpson,Rico Scott,#E82525CC,#5A0000CC,2,3.09
+2024-09-14 Alabama at Wisconsin,plays,1,Alabama,119,52,Ty Simpson run for 2 yds to the ALA 48,Rush,4,24,2,Other,3,2,0,0,,,,,0.50,0.07,0.50,0.13,0.58,Ty Simpson,,,#E82525CC,#5A0000CC,-0.1,3.03
+2024-09-14 Alabama at Wisconsin,plays,1,Alabama,120,53,Daniel Hill run for 2 yds to the 50 yard line for a 1ST down,Rush,4,24,3,Other,1,2,0,1,,,,,0.52,0.06,0.51,0.13,0.58,Daniel Hill,,,#E82525CC,#5A0000CC,1,2.99
+2024-09-14 Alabama at Wisconsin,plays,1,Alabama,121,54,Ty Simpson pass incomplete,Pass,4,24,1,Other,10,0,0,0,,,,,0.48,0.22,0.50,0.13,0.57,,Ty Simpson,,#E82525CC,#5A0000CC,-5,2.84
+2024-09-14 Alabama at Wisconsin,plays,1,Alabama,122,55,Daniel Hill run for 2 yds to the WIS 48,Rush,4,24,2,Other,10,2,0,0,,,,,0.50,0.06,0.49,0.13,0.58,Daniel Hill,,,#E82525CC,#5A0000CC,-5,2.70
+2024-09-14 Alabama at Wisconsin,plays,1,Alabama,123,56,Ty Simpson sacked by Christian Alliegro for a loss of 8 yards to the ALA 44,Pass,4,24,3,Other,8,-8,0,0,,,,,0.46,0.21,0.48,0.13,0.57,,,,#E82525CC,#5A0000CC,-16,2.36
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,124,68,Darrion Dupree run for 8 yds to the WIS 19,Rush,4,25,1,Other,10,8,0,1,,,,,0.49,0.03,0.40,0.04,0.51,Darrion Dupree,,,#8C8C8CCC,#404040CC,3,-1.44
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,125,69,Darrion Dupree run for 1 yd to the WIS 20,Rush,4,25,2,Other,2,1,0,0,,,,,0.47,0.03,0.39,0.04,0.52,Darrion Dupree,,,#8C8C8CCC,#404040CC,-0.4,-1.43
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,126,70,Darrion Dupree run for 2 yds to the WIS 22 for a 1ST down,Rush,4,25,3,Other,1,2,0,1,,,,,0.49,0.03,0.40,0.04,0.53,Darrion Dupree,,,#8C8C8CCC,#404040CC,1,-1.39
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,127,71,Darrion Dupree run for 1 yd to the WIS 23,Rush,4,25,1,Other,10,1,0,0,,,,,0.47,0.03,0.39,0.04,0.54,Darrion Dupree,,,#8C8C8CCC,#404040CC,-4,-1.43
+2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,128,72,Darrion Dupree run for 5 yds to the WIS 28,Rush,4,25,2,Other,9,5,0,0,,,,,0.46,0.03,0.39,0.04,0.54,Darrion Dupree,,,#8C8C8CCC,#404040CC,-1.3,-1.43
