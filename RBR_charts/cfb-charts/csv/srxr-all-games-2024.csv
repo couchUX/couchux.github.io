@@ -902,240 +902,442 @@ game,chart,team_num,offense,play_num,team_play,text,play_type,quarter,drive,down
 2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,126,70,Darrion Dupree run for 2 yds to the WIS 22 for a 1ST down,Rush,4,25,3,Other,1,2,0,1,,,,,0.49,0.03,0.4,0.04,0.53,Darrion Dupree,,,#8C8C8CCC,#404040CC,1,-1.39
 2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,127,71,Darrion Dupree run for 1 yd to the WIS 23,Rush,4,25,1,Other,10,1,0,0,,,,,0.47,0.03,0.39,0.04,0.54,Darrion Dupree,,,#8C8C8CCC,#404040CC,-4,-1.43
 2024-09-14 Alabama at Wisconsin,plays,2,Wisconsin,128,72,Darrion Dupree run for 5 yds to the WIS 28,Rush,4,25,2,Other,9,5,0,0,,,,,0.46,0.03,0.39,0.04,0.54,Darrion Dupree,,,#8C8C8CCC,#404040CC,-1.3,-1.43
-2024-09-28 Georgia at Alabama,teams,1,Alabama,,,,,,,,,,,14,31,,,,67,0.46,0.21,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-09-28 Georgia at Alabama,teams,2,Georgia,,,,,,,,,,,10,34,,,,77,0.44,0.13,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-09-28 Georgia at Alabama,play_type,1,Alabama,,,,Rush,,,,,,,4,10,,,,32,0.31,0.13,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-09-28 Georgia at Alabama,play_type,2,Georgia,,,,Rush,,,,,,,1,12,,,,24,0.50,0.04,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-09-28 Georgia at Alabama,play_type,1,Alabama,,,,Pass,,,,,,,10,21,,,,35,0.60,0.29,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-09-28 Georgia at Alabama,play_type,2,Georgia,,,,Pass,,,,,,,9,22,,,,53,0.42,0.17,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-09-28 Georgia at Alabama,quarter,1,Alabama,,,,,1Q,,,,,,6,16,,,,19,0.84,0.32,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-09-28 Georgia at Alabama,quarter,1,Alabama,,,,,2Q,,,,,,5,9,,,,22,0.41,0.23,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-09-28 Georgia at Alabama,quarter,1,Alabama,,,,,3Q,,,,,,1,2,,,,9,0.22,0.11,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-09-28 Georgia at Alabama,quarter,1,Alabama,,,,,4Q,,,,,,2,4,,,,17,0.24,0.12,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-09-28 Georgia at Alabama,quarter,2,Georgia,,,,,1Q,,,,,,2,3,,,,11,0.27,0.18,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-09-28 Georgia at Alabama,quarter,2,Georgia,,,,,2Q,,,,,,2,11,,,,18,0.61,0.11,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-09-28 Georgia at Alabama,quarter,2,Georgia,,,,,3Q,,,,,,1,6,,,,23,0.26,0.04,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-09-28 Georgia at Alabama,quarter,2,Georgia,,,,,4Q,,,,,,5,14,,,,25,0.56,0.20,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-09-28 Georgia at Alabama,down,1,Alabama,,,,,,,1D,,,,11,22,,,,36,0.61,0.31,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-09-28 Georgia at Alabama,down,1,Alabama,,,,,,,2D,,,,0,5,,,,18,0.28,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-09-28 Georgia at Alabama,down,1,Alabama,,,,,,,3D,,,,2,3,,,,11,0.27,0.18,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-09-28 Georgia at Alabama,down,1,Alabama,,,,,,,4D,,,,1,1,,,,2,0.50,0.50,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-09-28 Georgia at Alabama,down,2,Georgia,,,,,,,1D,,,,8,17,,,,36,0.47,0.22,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-09-28 Georgia at Alabama,down,2,Georgia,,,,,,,2D,,,,2,8,,,,21,0.38,0.10,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-09-28 Georgia at Alabama,down,2,Georgia,,,,,,,3D,,,,0,4,,,,15,0.27,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-09-28 Georgia at Alabama,down,2,Georgia,,,,,,,4D,,,,0,5,,,,5,1.00,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-09-28 Georgia at Alabama,red_zone,1,Alabama,,,,,,,,Other,,,13,26,,,,56,0.46,0.23,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-09-28 Georgia at Alabama,red_zone,1,Alabama,,,,,,,,Red zone,,,1,5,,,,11,0.45,0.09,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-09-28 Georgia at Alabama,red_zone,2,Georgia,,,,,,,,Other,,,10,29,,,,70,0.41,0.14,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-09-28 Georgia at Alabama,red_zone,2,Georgia,,,,,,,,Red zone,,,0,5,,,,7,0.71,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-09-28 Georgia at Alabama,distance,1,Alabama,,,,,,,,,0-3 yds,,1,3,,,,4,0.75,0.25,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-09-28 Georgia at Alabama,distance,1,Alabama,,,,,,,,,4-6 yds,,2,5,,,,11,0.45,0.18,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-09-28 Georgia at Alabama,distance,1,Alabama,,,,,,,,,7-9 yds,,0,2,,,,9,0.22,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-09-28 Georgia at Alabama,distance,1,Alabama,,,,,,,,,9> yds,,11,21,,,,43,0.49,0.26,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-09-28 Georgia at Alabama,distance,2,Georgia,,,,,,,,,0-3 yds,,0,7,,,,11,0.64,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-09-28 Georgia at Alabama,distance,2,Georgia,,,,,,,,,4-6 yds,,0,2,,,,7,0.29,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-09-28 Georgia at Alabama,distance,2,Georgia,,,,,,,,,7-9 yds,,0,3,,,,6,0.50,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-09-28 Georgia at Alabama,distance,2,Georgia,,,,,,,,,9> yds,,10,22,,,,53,0.42,0.19,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-09-28 Georgia at Alabama,drive,1,Alabama,,,,,,1,,,,,2,7,,,,8,0.88,0.25,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-09-28 Georgia at Alabama,drive,1,Alabama,,,,,,3,,,,,4,4,,,,6,0.67,0.67,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-09-28 Georgia at Alabama,drive,1,Alabama,,,,,,5,,,,,0,3,,,,3,1.00,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-09-28 Georgia at Alabama,drive,1,Alabama,,,,,,7,,,,,2,4,,,,7,0.57,0.29,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-09-28 Georgia at Alabama,drive,1,Alabama,,,,,,9,,,,,2,2,,,,8,0.25,0.25,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-09-28 Georgia at Alabama,drive,1,Alabama,,,,,,11,,,,,0,1,,,,3,0.33,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-09-28 Georgia at Alabama,drive,1,Alabama,,,,,,13,,,,,1,4,,,,6,0.67,0.17,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-09-28 Georgia at Alabama,drive,1,Alabama,,,,,,16,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-09-28 Georgia at Alabama,drive,1,Alabama,,,,,,18,,,,,1,2,,,,6,0.33,0.17,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-09-28 Georgia at Alabama,drive,1,Alabama,,,,,,20,,,,,0,1,,,,3,0.33,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-09-28 Georgia at Alabama,drive,1,Alabama,,,,,,22,,,,,1,1,,,,6,0.17,0.17,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-09-28 Georgia at Alabama,drive,1,Alabama,,,,,,24,,,,,0,1,,,,5,0.20,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-09-28 Georgia at Alabama,drive,1,Alabama,,,,,,26,,,,,1,1,,,,1,1.00,1.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-09-28 Georgia at Alabama,drive,1,Alabama,,,,,,28,,,,,0,0,,,,2,0.00,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-09-28 Georgia at Alabama,drive,2,Georgia,,,,,,2,,,,,1,1,,,,4,0.25,0.25,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-09-28 Georgia at Alabama,drive,2,Georgia,,,,,,4,,,,,1,1,,,,4,0.25,0.25,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-09-28 Georgia at Alabama,drive,2,Georgia,,,,,,6,,,,,0,1,,,,3,0.33,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-09-28 Georgia at Alabama,drive,2,Georgia,,,,,,8,,,,,1,7,,,,11,0.64,0.09,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-09-28 Georgia at Alabama,drive,2,Georgia,,,,,,10,,,,,0,0,,,,1,0.00,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-09-28 Georgia at Alabama,drive,2,Georgia,,,,,,12,,,,,0,1,,,,3,0.33,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-09-28 Georgia at Alabama,drive,2,Georgia,,,,,,14,,,,,1,3,,,,3,1.00,0.33,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-09-28 Georgia at Alabama,drive,2,Georgia,,,,,,15,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-09-28 Georgia at Alabama,drive,2,Georgia,,,,,,17,,,,,1,5,,,,15,0.33,0.07,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-09-28 Georgia at Alabama,drive,2,Georgia,,,,,,19,,,,,0,2,,,,8,0.25,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-09-28 Georgia at Alabama,drive,2,Georgia,,,,,,21,,,,,2,4,,,,6,0.67,0.33,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-09-28 Georgia at Alabama,drive,2,Georgia,,,,,,23,,,,,2,3,,,,4,0.75,0.50,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-09-28 Georgia at Alabama,drive,2,Georgia,,,,,,25,,,,,1,1,,,,1,1.00,1.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-09-28 Georgia at Alabama,drive,2,Georgia,,,,,,27,,,,,0,5,,,,11,0.45,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-09-28 Georgia at Alabama,rusher,1,Alabama,,,,,,,,,,,3,3,,10,,,0.00,0.00,0.00,0.00,0.00,Jalen Milroe,,,#E82525CC,#5A0000CC,,0.00
-2024-09-28 Georgia at Alabama,rusher,1,Alabama,,,,,,,,,,,0,2,,0,,,0.00,0.00,0.00,0.00,0.00,Germie Bernard,,,#E82525CC,#5A0000CC,,0.00
-2024-09-28 Georgia at Alabama,rusher,1,Alabama,,,,,,,,,,,1,1,,4,,,0.00,0.00,0.00,0.00,0.00,Justice Haynes,,,#E82525CC,#5A0000CC,,0.00
-2024-09-28 Georgia at Alabama,rusher,1,Alabama,,,,,,,,,,,0,0,,5,,,0.00,0.00,0.00,0.00,0.00,Jam Miller,,,#E82525CC,#5A0000CC,,0.00
-2024-09-28 Georgia at Alabama,rusher,1,Alabama,,,,,,,,,,,0,0,,1,,,0.00,0.00,0.00,0.00,0.00,Kendrick Law,,,#E82525CC,#5A0000CC,,0.00
-2024-09-28 Georgia at Alabama,rusher,2,Georgia,,,,,,,,,,,1,5,,7,,,0.00,0.00,0.00,0.00,0.00,Trevor Etienne,,,#8C8C8CCC,#404040CC,,0.00
-2024-09-28 Georgia at Alabama,rusher,2,Georgia,,,,,,,,,,,0,2,,3,,,0.00,0.00,0.00,0.00,0.00,Carson Beck,,,#8C8C8CCC,#404040CC,,0.00
-2024-09-28 Georgia at Alabama,rusher,2,Georgia,,,,,,,,,,,0,2,,0,,,0.00,0.00,0.00,0.00,0.00,Dillon Bell,,,#8C8C8CCC,#404040CC,,0.00
-2024-09-28 Georgia at Alabama,rusher,2,Georgia,,,,,,,,,,,0,1,,1,,,0.00,0.00,0.00,0.00,0.00,Branson Robinson,,,#8C8C8CCC,#404040CC,,0.00
-2024-09-28 Georgia at Alabama,rusher,2,Georgia,,,,,,,,,,,0,1,,1,,,0.00,0.00,0.00,0.00,0.00,Cash Jones,,,#8C8C8CCC,#404040CC,,0.00
-2024-09-28 Georgia at Alabama,passer,1,Alabama,,,,,,,,,,,10,11,8,5,1,,0.00,0.00,0.00,0.00,0.00,,Jalen Milroe,,#E82525CC,#5A0000CC,,0.00
-2024-09-28 Georgia at Alabama,passer,2,Georgia,,,,,,,,,,,9,12,5,21,3,,0.00,0.00,0.00,0.00,0.00,,Carson Beck,,#8C8C8CCC,#404040CC,,0.00
-2024-09-28 Georgia at Alabama,receiver,1,Alabama,,,,,,,,,,,3,4,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Ryan Williams,#E82525CC,#5A0000CC,,0.00
-2024-09-28 Georgia at Alabama,receiver,1,Alabama,,,,,,,,,,,1,3,1,0,,,0.00,0.00,0.00,0.00,0.00,,,Germie Bernard,#E82525CC,#5A0000CC,,0.00
-2024-09-28 Georgia at Alabama,receiver,1,Alabama,,,,,,,,,,,0,2,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Kobe Prentice,#E82525CC,#5A0000CC,,0.00
-2024-09-28 Georgia at Alabama,receiver,1,Alabama,,,,,,,,,,,1,1,3,0,,,0.00,0.00,0.00,0.00,0.00,,,CJ Dippre,#E82525CC,#5A0000CC,,0.00
-2024-09-28 Georgia at Alabama,receiver,1,Alabama,,,,,,,,,,,1,1,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Josh Cuevas,#E82525CC,#5A0000CC,,0.00
-2024-09-28 Georgia at Alabama,receiver,1,Alabama,,,,,,,,,,,1,0,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Cole Adams,#E82525CC,#5A0000CC,,0.00
-2024-09-28 Georgia at Alabama,receiver,1,Alabama,,,,,,,,,,,1,0,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Emmanuel Henderson Jr.,#E82525CC,#5A0000CC,,0.00
-2024-09-28 Georgia at Alabama,receiver,1,Alabama,,,,,,,,,,,1,0,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Jam Miller,#E82525CC,#5A0000CC,,0.00
-2024-09-28 Georgia at Alabama,receiver,1,Alabama,,,,,,,,,,,1,0,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Kendrick Law,#E82525CC,#5A0000CC,,0.00
-2024-09-28 Georgia at Alabama,receiver,1,Alabama,,,,,,,,,,,0,0,3,0,,,0.00,0.00,0.00,0.00,0.00,,,Justice Haynes,#E82525CC,#5A0000CC,,0.00
-2024-09-28 Georgia at Alabama,receiver,1,Alabama,,,,,,,,,,,0,0,1,0,,,0.00,0.00,0.00,0.00,0.00,,,Robbie Ouzts,#E82525CC,#5A0000CC,,0.00
-2024-09-28 Georgia at Alabama,receiver,2,Georgia,,,,,,,,,,,3,3,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Arian Smith,#8C8C8CCC,#404040CC,,0.00
-2024-09-28 Georgia at Alabama,receiver,2,Georgia,,,,,,,,,,,1,3,1,0,,,0.00,0.00,0.00,0.00,0.00,,,Dillon Bell,#8C8C8CCC,#404040CC,,0.00
-2024-09-28 Georgia at Alabama,receiver,2,Georgia,,,,,,,,,,,1,2,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Colbie Young,#8C8C8CCC,#404040CC,,0.00
-2024-09-28 Georgia at Alabama,receiver,2,Georgia,,,,,,,,,,,0,2,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Lawson Luckie,#8C8C8CCC,#404040CC,,0.00
-2024-09-28 Georgia at Alabama,receiver,2,Georgia,,,,,,,,,,,2,1,3,0,,,0.00,0.00,0.00,0.00,0.00,,,Dominic Lovett,#8C8C8CCC,#404040CC,,0.00
-2024-09-28 Georgia at Alabama,receiver,2,Georgia,,,,,,,,,,,0,1,0,1,,,0.00,0.00,0.00,0.00,0.00,,,Trevor Etienne,#8C8C8CCC,#404040CC,,0.00
-2024-09-28 Georgia at Alabama,receiver,2,Georgia,,,,,,,,,,,1,0,1,0,,,0.00,0.00,0.00,0.00,0.00,,,Anthony Evans III,#8C8C8CCC,#404040CC,,0.00
-2024-09-28 Georgia at Alabama,receiver,2,Georgia,,,,,,,,,,,1,0,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Cash Jones,#8C8C8CCC,#404040CC,,0.00
-2024-09-28 Georgia at Alabama,plays,1,Alabama,1,1,Jalen Milroe pass complete to Ryan Williams for 8 yds to the ALA 38,Pass,1,1,1,Other,10,8,0,1,,,,,1.00,0.00,1.00,0.00,0.00,,Jalen Milroe,Ryan Williams,#E82525CC,#5A0000CC,3,3.00
-2024-09-28 Georgia at Alabama,plays,1,Alabama,2,2,Jalen Milroe run for no gain to the ALA 33,Rush,1,1,2,Other,7,0,0,0,,,,,0.00,0.00,0.50,0.00,0.50,Jalen Milroe,,,#E82525CC,#5A0000CC,-4.9,-0.95
-2024-09-28 Georgia at Alabama,plays,1,Alabama,3,3,Jalen Milroe pass complete to Germie Bernard for 2 yds to the ALA 40 for a 1ST down,Pass,1,1,3,Other,2,2,0,1,,,,,1.00,0.00,0.67,0.00,0.33,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,0,-0.63
-2024-09-28 Georgia at Alabama,plays,1,Alabama,4,4,Jalen Milroe pass complete to Emmanuel Henderson Jr. for 34 yds to the UGA 15 for a 1ST down,Pass,1,1,1,Other,10,34,1,1,,,,,1.00,0.33,0.75,0.25,0.25,,Jalen Milroe,Emmanuel Henderson Jr.,#E82525CC,#5A0000CC,29,6.78
-2024-09-28 Georgia at Alabama,plays,1,Alabama,5,5,Germie Bernard run for 11 yds to the UGA 49 for a 1ST down,Rush,1,1,1,Other,10,11,0,1,,,,,0.50,0.00,0.80,0.20,0.40,Germie Bernard,,,#E82525CC,#5A0000CC,6,6.62
-2024-09-28 Georgia at Alabama,plays,1,Alabama,6,6,Jalen Milroe run for 16 yds to the UGA 9,Rush,1,1,1,Other,20,16,1,1,,,,,0.67,0.33,0.83,0.33,0.50,Jalen Milroe,,,#E82525CC,#5A0000CC,6,6.52
+2024-09-28 Georgia at Alabama,teams,1,Alabama,,,,,,,,,,,14,31,,,,67,0.46,0.21,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-09-28 Georgia at Alabama,teams,2,Georgia,,,,,,,,,,,10,34,,,,77,0.44,0.13,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-09-28 Georgia at Alabama,play_type,1,Alabama,,,,Rush,,,,,,,4,10,,,,32,0.31,0.13,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-09-28 Georgia at Alabama,play_type,2,Georgia,,,,Rush,,,,,,,1,13,,,,25,0.52,0.04,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-09-28 Georgia at Alabama,play_type,1,Alabama,,,,Pass,,,,,,,10,21,,,,35,0.6,0.29,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-09-28 Georgia at Alabama,play_type,2,Georgia,,,,Pass,,,,,,,9,21,,,,52,0.4,0.17,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-09-28 Georgia at Alabama,quarter,1,Alabama,,,,,1Q,,,,,,6,16,,,,19,0.84,0.32,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-09-28 Georgia at Alabama,quarter,1,Alabama,,,,,2Q,,,,,,5,9,,,,22,0.41,0.23,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-09-28 Georgia at Alabama,quarter,1,Alabama,,,,,3Q,,,,,,1,2,,,,9,0.22,0.11,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-09-28 Georgia at Alabama,quarter,1,Alabama,,,,,4Q,,,,,,2,4,,,,17,0.24,0.12,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-09-28 Georgia at Alabama,quarter,2,Georgia,,,,,1Q,,,,,,2,3,,,,11,0.27,0.18,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-09-28 Georgia at Alabama,quarter,2,Georgia,,,,,2Q,,,,,,2,11,,,,18,0.61,0.11,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-09-28 Georgia at Alabama,quarter,2,Georgia,,,,,3Q,,,,,,1,6,,,,23,0.26,0.04,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-09-28 Georgia at Alabama,quarter,2,Georgia,,,,,4Q,,,,,,5,14,,,,25,0.56,0.2,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-09-28 Georgia at Alabama,down,1,Alabama,,,,,,,1D,,,,11,22,,,,36,0.61,0.31,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-09-28 Georgia at Alabama,down,1,Alabama,,,,,,,2D,,,,0,5,,,,18,0.28,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-09-28 Georgia at Alabama,down,1,Alabama,,,,,,,3D,,,,2,3,,,,11,0.27,0.18,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-09-28 Georgia at Alabama,down,1,Alabama,,,,,,,4D,,,,1,1,,,,2,0.5,0.5,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-09-28 Georgia at Alabama,down,2,Georgia,,,,,,,1D,,,,8,17,,,,36,0.47,0.22,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-09-28 Georgia at Alabama,down,2,Georgia,,,,,,,2D,,,,2,8,,,,21,0.38,0.1,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-09-28 Georgia at Alabama,down,2,Georgia,,,,,,,3D,,,,0,4,,,,15,0.27,0,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-09-28 Georgia at Alabama,down,2,Georgia,,,,,,,4D,,,,0,5,,,,5,1,0,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-09-28 Georgia at Alabama,red_zone,1,Alabama,,,,,,,,Other,,,13,27,,,,57,0.47,0.23,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-09-28 Georgia at Alabama,red_zone,1,Alabama,,,,,,,,Red zone,,,1,4,,,,10,0.4,0.1,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-09-28 Georgia at Alabama,red_zone,2,Georgia,,,,,,,,Other,,,10,29,,,,70,0.41,0.14,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-09-28 Georgia at Alabama,red_zone,2,Georgia,,,,,,,,Red zone,,,0,5,,,,7,0.71,0,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-09-28 Georgia at Alabama,distance,1,Alabama,,,,,,,,,0-3 yds,,1,3,,,,4,0.75,0.25,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-09-28 Georgia at Alabama,distance,1,Alabama,,,,,,,,,4-6 yds,,2,5,,,,11,0.45,0.18,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-09-28 Georgia at Alabama,distance,1,Alabama,,,,,,,,,7-9 yds,,0,2,,,,9,0.22,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-09-28 Georgia at Alabama,distance,1,Alabama,,,,,,,,,9> yds,,11,21,,,,43,0.49,0.26,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-09-28 Georgia at Alabama,distance,2,Georgia,,,,,,,,,0-3 yds,,0,7,,,,11,0.64,0,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-09-28 Georgia at Alabama,distance,2,Georgia,,,,,,,,,4-6 yds,,0,2,,,,7,0.29,0,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-09-28 Georgia at Alabama,distance,2,Georgia,,,,,,,,,7-9 yds,,0,3,,,,6,0.5,0,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-09-28 Georgia at Alabama,distance,2,Georgia,,,,,,,,,9> yds,,10,22,,,,53,0.42,0.19,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-09-28 Georgia at Alabama,drive,1,Alabama,,,,,,1,,,,,2,7,,,,8,0.88,0.25,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-09-28 Georgia at Alabama,drive,1,Alabama,,,,,,3,,,,,4,4,,,,6,0.67,0.67,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-09-28 Georgia at Alabama,drive,1,Alabama,,,,,,5,,,,,0,3,,,,3,1,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-09-28 Georgia at Alabama,drive,1,Alabama,,,,,,7,,,,,2,4,,,,7,0.57,0.29,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-09-28 Georgia at Alabama,drive,1,Alabama,,,,,,9,,,,,2,2,,,,8,0.25,0.25,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-09-28 Georgia at Alabama,drive,1,Alabama,,,,,,11,,,,,0,1,,,,3,0.33,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-09-28 Georgia at Alabama,drive,1,Alabama,,,,,,13,,,,,1,4,,,,6,0.67,0.17,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-09-28 Georgia at Alabama,drive,1,Alabama,,,,,,16,,,,,0,0,,,,3,0,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-09-28 Georgia at Alabama,drive,1,Alabama,,,,,,18,,,,,1,2,,,,6,0.33,0.17,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-09-28 Georgia at Alabama,drive,1,Alabama,,,,,,20,,,,,0,1,,,,3,0.33,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-09-28 Georgia at Alabama,drive,1,Alabama,,,,,,22,,,,,1,1,,,,6,0.17,0.17,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-09-28 Georgia at Alabama,drive,1,Alabama,,,,,,24,,,,,0,1,,,,5,0.2,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-09-28 Georgia at Alabama,drive,1,Alabama,,,,,,26,,,,,1,1,,,,1,1,1,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-09-28 Georgia at Alabama,drive,1,Alabama,,,,,,28,,,,,0,0,,,,2,0,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-09-28 Georgia at Alabama,drive,2,Georgia,,,,,,2,,,,,1,1,,,,4,0.25,0.25,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-09-28 Georgia at Alabama,drive,2,Georgia,,,,,,4,,,,,1,1,,,,4,0.25,0.25,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-09-28 Georgia at Alabama,drive,2,Georgia,,,,,,6,,,,,0,1,,,,3,0.33,0,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-09-28 Georgia at Alabama,drive,2,Georgia,,,,,,8,,,,,1,7,,,,11,0.64,0.09,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-09-28 Georgia at Alabama,drive,2,Georgia,,,,,,10,,,,,0,0,,,,1,0,0,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-09-28 Georgia at Alabama,drive,2,Georgia,,,,,,12,,,,,0,1,,,,3,0.33,0,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-09-28 Georgia at Alabama,drive,2,Georgia,,,,,,14,,,,,1,3,,,,3,1,0.33,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-09-28 Georgia at Alabama,drive,2,Georgia,,,,,,15,,,,,0,0,,,,3,0,0,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-09-28 Georgia at Alabama,drive,2,Georgia,,,,,,17,,,,,1,5,,,,15,0.33,0.07,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-09-28 Georgia at Alabama,drive,2,Georgia,,,,,,19,,,,,0,2,,,,8,0.25,0,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-09-28 Georgia at Alabama,drive,2,Georgia,,,,,,21,,,,,2,4,,,,6,0.67,0.33,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-09-28 Georgia at Alabama,drive,2,Georgia,,,,,,23,,,,,2,3,,,,4,0.75,0.5,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-09-28 Georgia at Alabama,drive,2,Georgia,,,,,,25,,,,,1,1,,,,1,1,1,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-09-28 Georgia at Alabama,drive,2,Georgia,,,,,,27,,,,,0,5,,,,11,0.45,0,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-09-28 Georgia at Alabama,rusher,1,Alabama,,,,,,,,,,,3,3,,10,,,0,0,0,0,0,Jalen Milroe,,,#E82525CC,#5A0000CC,,0
+2024-09-28 Georgia at Alabama,rusher,1,Alabama,,,,,,,,,,,0,2,,0,,,0,0,0,0,0,Germie Bernard,,,#E82525CC,#5A0000CC,,0
+2024-09-28 Georgia at Alabama,rusher,1,Alabama,,,,,,,,,,,1,1,,4,,,0,0,0,0,0,Justice Haynes,,,#E82525CC,#5A0000CC,,0
+2024-09-28 Georgia at Alabama,rusher,1,Alabama,,,,,,,,,,,0,0,,5,,,0,0,0,0,0,Jam Miller,,,#E82525CC,#5A0000CC,,0
+2024-09-28 Georgia at Alabama,rusher,1,Alabama,,,,,,,,,,,0,0,,1,,,0,0,0,0,0,Kendrick Law,,,#E82525CC,#5A0000CC,,0
+2024-09-28 Georgia at Alabama,rusher,2,Georgia,,,,,,,,,,,1,5,,7,,,0,0,0,0,0,Trevor Etienne,,,#8C8C8CCC,#404040CC,,0
+2024-09-28 Georgia at Alabama,rusher,2,Georgia,,,,,,,,,,,0,2,,3,,,0,0,0,0,0,Carson Beck,,,#8C8C8CCC,#404040CC,,0
+2024-09-28 Georgia at Alabama,rusher,2,Georgia,,,,,,,,,,,0,2,,0,,,0,0,0,0,0,Dillon Bell,,,#8C8C8CCC,#404040CC,,0
+2024-09-28 Georgia at Alabama,rusher,2,Georgia,,,,,,,,,,,0,1,,1,,,0,0,0,0,0,Branson Robinson,,,#8C8C8CCC,#404040CC,,0
+2024-09-28 Georgia at Alabama,rusher,2,Georgia,,,,,,,,,,,0,1,,1,,,0,0,0,0,0,Cash Jones,,,#8C8C8CCC,#404040CC,,0
+2024-09-28 Georgia at Alabama,passer,1,Alabama,,,,,,,,,,,10,11,8,5,1,,0,0,0,0,0,,Jalen Milroe,,#E82525CC,#5A0000CC,,0
+2024-09-28 Georgia at Alabama,passer,2,Georgia,,,,,,,,,,,9,12,5,21,3,,0,0,0,0,0,,Carson Beck,,#8C8C8CCC,#404040CC,,0
+2024-09-28 Georgia at Alabama,receiver,1,Alabama,,,,,,,,,,,3,4,0,0,,,0,0,0,0,0,,,Ryan Williams,#E82525CC,#5A0000CC,,0
+2024-09-28 Georgia at Alabama,receiver,1,Alabama,,,,,,,,,,,1,3,1,0,,,0,0,0,0,0,,,Germie Bernard,#E82525CC,#5A0000CC,,0
+2024-09-28 Georgia at Alabama,receiver,1,Alabama,,,,,,,,,,,0,2,0,0,,,0,0,0,0,0,,,Kobe Prentice,#E82525CC,#5A0000CC,,0
+2024-09-28 Georgia at Alabama,receiver,1,Alabama,,,,,,,,,,,1,1,3,0,,,0,0,0,0,0,,,CJ Dippre,#E82525CC,#5A0000CC,,0
+2024-09-28 Georgia at Alabama,receiver,1,Alabama,,,,,,,,,,,1,1,0,0,,,0,0,0,0,0,,,Josh Cuevas,#E82525CC,#5A0000CC,,0
+2024-09-28 Georgia at Alabama,receiver,1,Alabama,,,,,,,,,,,1,0,0,0,,,0,0,0,0,0,,,Cole Adams,#E82525CC,#5A0000CC,,0
+2024-09-28 Georgia at Alabama,receiver,1,Alabama,,,,,,,,,,,1,0,0,0,,,0,0,0,0,0,,,Emmanuel Henderson Jr.,#E82525CC,#5A0000CC,,0
+2024-09-28 Georgia at Alabama,receiver,1,Alabama,,,,,,,,,,,1,0,0,0,,,0,0,0,0,0,,,Jam Miller,#E82525CC,#5A0000CC,,0
+2024-09-28 Georgia at Alabama,receiver,1,Alabama,,,,,,,,,,,1,0,0,0,,,0,0,0,0,0,,,Kendrick Law,#E82525CC,#5A0000CC,,0
+2024-09-28 Georgia at Alabama,receiver,1,Alabama,,,,,,,,,,,0,0,3,0,,,0,0,0,0,0,,,Justice Haynes,#E82525CC,#5A0000CC,,0
+2024-09-28 Georgia at Alabama,receiver,1,Alabama,,,,,,,,,,,0,0,1,0,,,0,0,0,0,0,,,Robbie Ouzts,#E82525CC,#5A0000CC,,0
+2024-09-28 Georgia at Alabama,receiver,2,Georgia,,,,,,,,,,,3,3,0,0,,,0,0,0,0,0,,,Arian Smith,#8C8C8CCC,#404040CC,,0
+2024-09-28 Georgia at Alabama,receiver,2,Georgia,,,,,,,,,,,1,3,1,0,,,0,0,0,0,0,,,Dillon Bell,#8C8C8CCC,#404040CC,,0
+2024-09-28 Georgia at Alabama,receiver,2,Georgia,,,,,,,,,,,1,2,0,0,,,0,0,0,0,0,,,Colbie Young,#8C8C8CCC,#404040CC,,0
+2024-09-28 Georgia at Alabama,receiver,2,Georgia,,,,,,,,,,,0,2,0,0,,,0,0,0,0,0,,,Lawson Luckie,#8C8C8CCC,#404040CC,,0
+2024-09-28 Georgia at Alabama,receiver,2,Georgia,,,,,,,,,,,2,1,3,0,,,0,0,0,0,0,,,Dominic Lovett,#8C8C8CCC,#404040CC,,0
+2024-09-28 Georgia at Alabama,receiver,2,Georgia,,,,,,,,,,,0,1,0,1,,,0,0,0,0,0,,,Trevor Etienne,#8C8C8CCC,#404040CC,,0
+2024-09-28 Georgia at Alabama,receiver,2,Georgia,,,,,,,,,,,1,0,1,0,,,0,0,0,0,0,,,Anthony Evans III,#8C8C8CCC,#404040CC,,0
+2024-09-28 Georgia at Alabama,receiver,2,Georgia,,,,,,,,,,,1,0,0,0,,,0,0,0,0,0,,,Cash Jones,#8C8C8CCC,#404040CC,,0
+2024-09-28 Georgia at Alabama,plays,1,Alabama,1,1,Jalen Milroe pass complete to Ryan Williams for 8 yds to the ALA 38,Pass,1,1,1,Other,10,8,0,1,,,,,1,0,1,0,0,,Jalen Milroe,Ryan Williams,#E82525CC,#5A0000CC,3,3
+2024-09-28 Georgia at Alabama,plays,1,Alabama,2,2,Jalen Milroe run for no gain to the ALA 33,Rush,1,1,2,Other,7,0,0,0,,,,,0,0,0.5,0,0.5,Jalen Milroe,,,#E82525CC,#5A0000CC,-4.9,-0.95
+2024-09-28 Georgia at Alabama,plays,1,Alabama,3,3,Jalen Milroe pass complete to Germie Bernard for 2 yds to the ALA 40 for a 1ST down,Pass,1,1,3,Other,2,2,0,1,,,,,1,0,0.67,0,0.33,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,0,-0.63
+2024-09-28 Georgia at Alabama,plays,1,Alabama,4,4,Jalen Milroe pass complete to Emmanuel Henderson Jr. for 34 yds to the UGA 15 for a 1ST down,Pass,1,1,1,Other,10,34,1,1,,,,,1,0.33,0.75,0.25,0.25,,Jalen Milroe,Emmanuel Henderson Jr.,#E82525CC,#5A0000CC,29,6.78
+2024-09-28 Georgia at Alabama,plays,1,Alabama,5,5,Germie Bernard run for 11 yds to the UGA 49 for a 1ST down,Rush,1,1,1,Other,10,11,0,1,,,,,0.5,0,0.8,0.2,0.4,Germie Bernard,,,#E82525CC,#5A0000CC,6,6.62
+2024-09-28 Georgia at Alabama,plays,1,Alabama,6,6,Jalen Milroe run for 16 yds to the UGA 9,Rush,1,1,1,Other,20,16,1,1,,,,,0.67,0.33,0.83,0.33,0.5,Jalen Milroe,,,#E82525CC,#5A0000CC,6,6.52
 2024-09-28 Georgia at Alabama,plays,1,Alabama,7,7,Jalen Milroe run for 7 yds to the UGA 2 for a 1ST down,Rush,1,1,2,Red zone,4,7,0,1,,,,,0.75,0.25,0.86,0.29,0.57,Jalen Milroe,,,#E82525CC,#5A0000CC,4.2,6.19
-2024-09-28 Georgia at Alabama,plays,1,Alabama,8,8,Jalen Milroe run for 7 yds for a TD (Graham Nicholson KICK),Rush,1,1,1,Red zone,7,7,0,1,,,,,0.80,0.20,0.88,0.25,0.63,Jalen Milroe,,,#E82525CC,#5A0000CC,3.5,5.85
-2024-09-28 Georgia at Alabama,plays,2,Georgia,9,1,Carson Beck pass complete to Dominic Lovett for 15 yds to the UGA 35 for a 1ST down,Pass,1,2,1,Other,10,15,1,1,,,,,1.00,1.00,1.00,1.00,0.00,,Carson Beck,Dominic Lovett,#8C8C8CCC,#404040CC,10,10.00
-2024-09-28 Georgia at Alabama,plays,2,Georgia,10,2,Carson Beck pass incomplete to Arian Smith,Pass,1,2,1,Other,10,0,0,0,,,,,0.50,0.50,0.50,0.50,0.00,,Carson Beck,,#8C8C8CCC,#404040CC,-5,2.50
-2024-09-28 Georgia at Alabama,plays,2,Georgia,11,3,"Carson Beck pass complete to Trevor Etienne for 4 yds Trevor Etienne fumbled, recovered by UGA Dylan Fairchild",Pass,1,2,2,Other,10,4,0,0,,,,,0.33,0.33,0.33,0.33,0.00,,Carson Beck,Trevor Etienne,#8C8C8CCC,#404040CC,-3,0.67
-2024-09-28 Georgia at Alabama,plays,2,Georgia,12,4,Carson Beck pass incomplete to Colbie Young,Pass,1,2,3,Other,21,0,0,0,,,,,0.25,0.25,0.25,0.25,0.00,,Carson Beck,,#8C8C8CCC,#404040CC,-21,-4.75
-2024-09-28 Georgia at Alabama,plays,1,Alabama,13,9,Justice Haynes run for 23 yds to the ALA 39 for a 1ST down,Rush,1,3,1,Other,10,23,1,1,,,,,0.83,0.33,0.89,0.33,0.67,Justice Haynes,,,#E82525CC,#5A0000CC,18,7.20
-2024-09-28 Georgia at Alabama,plays,1,Alabama,14,10,Jalen Milroe pass complete to Ryan Williams for 21 yds to the UGA 40 for a 1ST down,Pass,1,3,1,Other,10,21,1,1,,,,,1.00,0.50,0.90,0.40,0.60,,Jalen Milroe,Ryan Williams,#E82525CC,#5A0000CC,16,8.08
-2024-09-28 Georgia at Alabama,plays,1,Alabama,15,11,Jalen Milroe pass complete to Kendrick Law for 19 yds to the UGA 21 for a 1ST down,Pass,1,3,1,Other,10,19,1,1,,,,,1.00,0.60,0.91,0.45,0.55,,Jalen Milroe,Kendrick Law,#E82525CC,#5A0000CC,14,8.62
+2024-09-28 Georgia at Alabama,plays,1,Alabama,8,8,Jalen Milroe 7 yd run (Graham Nicholson Kick),Rush,1,1,1,Other,7,7,0,1,,,,,0.8,0.2,0.88,0.25,0.63,Jalen Milroe,,,#E82525CC,#5A0000CC,3.5,5.85
+2024-09-28 Georgia at Alabama,plays,2,Georgia,9,1,Carson Beck pass complete to Dominic Lovett for 15 yds to the UGA 35 for a 1ST down,Pass,1,2,1,Other,10,15,1,1,,,,,1,1,1,1,0,,Carson Beck,Dominic Lovett,#8C8C8CCC,#404040CC,10,10
+2024-09-28 Georgia at Alabama,plays,2,Georgia,10,2,Carson Beck pass incomplete,Pass,1,2,1,Other,10,0,0,0,,,,,0.5,0.5,0.5,0.5,0,,Carson Beck,,#8C8C8CCC,#404040CC,-5,2.5
+2024-09-28 Georgia at Alabama,plays,2,Georgia,11,3,"Carson Beck pass complete to Trevor Etienne for 4 yds Trevor Etienne fumbled, recovered by UGA Dylan Fairchild",Pass,1,2,2,Other,10,4,0,0,,,,,0.33,0.33,0.33,0.33,0,,Carson Beck,Trevor Etienne,#8C8C8CCC,#404040CC,-3,0.67
+2024-09-28 Georgia at Alabama,plays,2,Georgia,12,4,Carson Beck pass incomplete,Pass,1,2,3,Other,21,0,0,0,,,,,0.25,0.25,0.25,0.25,0,,Carson Beck,,#8C8C8CCC,#404040CC,-21,-4.75
+2024-09-28 Georgia at Alabama,plays,1,Alabama,13,9,Justice Haynes run for 23 yds to the ALA 39 for a 1ST down,Rush,1,3,1,Other,10,23,1,1,,,,,0.83,0.33,0.89,0.33,0.67,Justice Haynes,,,#E82525CC,#5A0000CC,18,7.2
+2024-09-28 Georgia at Alabama,plays,1,Alabama,14,10,Jalen Milroe pass complete to Ryan Williams for 21 yds to the UGA 40 for a 1ST down,Pass,1,3,1,Other,10,21,1,1,,,,,1,0.5,0.9,0.4,0.6,,Jalen Milroe,Ryan Williams,#E82525CC,#5A0000CC,16,8.08
+2024-09-28 Georgia at Alabama,plays,1,Alabama,15,11,Jalen Milroe pass complete to Kendrick Law for 19 yds to the UGA 21 for a 1ST down,Pass,1,3,1,Other,10,19,1,1,,,,,1,0.6,0.91,0.45,0.55,,Jalen Milroe,Kendrick Law,#E82525CC,#5A0000CC,14,8.62
 2024-09-28 Georgia at Alabama,plays,1,Alabama,16,12,Justice Haynes run for 2 yds to the UGA 19,Rush,1,3,1,Other,10,2,0,0,,,,,0.71,0.29,0.83,0.42,0.58,Justice Haynes,,,#E82525CC,#5A0000CC,-3,7.65
 2024-09-28 Georgia at Alabama,plays,1,Alabama,17,13,Jalen Milroe run for 3 yds to the UGA 16,Rush,1,3,2,Red zone,8,3,0,0,,,,,0.63,0.25,0.77,0.38,0.62,Jalen Milroe,,,#E82525CC,#5A0000CC,-2.6,6.86
-2024-09-28 Georgia at Alabama,plays,1,Alabama,18,14,"Jalen Milroe pass complete to Jam Miller for 16 yds for a TD (Graham Nicholson KICK) Timeout Alabama, clock 04:39 Conor Talty kickoff for 65 yds (Graham Nicholson KICK)",Pass,1,3,3,Red zone,5,16,1,1,,,,,1.00,0.67,0.79,0.43,0.57,,Jalen Milroe,Jam Miller,#E82525CC,#5A0000CC,11,7.16
-2024-09-28 Georgia at Alabama,plays,2,Georgia,19,5,Carson Beck pass incomplete to Dillon Bell,Pass,1,4,1,Other,10,0,0,0,,,,,0.20,0.20,0.20,0.20,0.00,,Carson Beck,,#8C8C8CCC,#404040CC,-5,-4.80
-2024-09-28 Georgia at Alabama,plays,2,Georgia,20,6,Trevor Etienne run for 2 yds to the UGA 27,Rush,1,4,2,Other,10,2,0,0,,,,,0.00,0.00,0.17,0.17,0.17,Trevor Etienne,,,#8C8C8CCC,#404040CC,-5,-4.83
-2024-09-28 Georgia at Alabama,plays,2,Georgia,21,7,Trevor Etienne run for 27 yds to the UGA 27 for a 1ST down,Rush,1,4,1,Other,10,27,1,1,,,,,0.50,0.50,0.29,0.29,0.29,Trevor Etienne,,,#8C8C8CCC,#404040CC,22,-1.00
-2024-09-28 Georgia at Alabama,plays,2,Georgia,22,8,Carson Beck pass intercepted Domani Jackson return for 7 yds to the UGA 22,Pass,1,4,3,Other,8,7,0,0,,,,,0.17,0.17,0.25,0.25,0.25,,Carson Beck,,#8C8C8CCC,#404040CC,-1,-1.00
-2024-09-28 Georgia at Alabama,plays,1,Alabama,23,15,Jalen Milroe pass complete to Germie Bernard for 6 yds to the UGA 16,Pass,1,5,1,Other,10,6,0,1,,,,,1.00,0.57,0.80,0.40,0.53,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,1,6.75
+2024-09-28 Georgia at Alabama,plays,1,Alabama,18,14,Jam Miller 16 Yd pass from Jalen Milroe (Graham Nicholson Kick),Pass,1,3,3,Red zone,5,16,1,1,,,,,1,0.67,0.79,0.43,0.57,,Jalen Milroe,Jam Miller,#E82525CC,#5A0000CC,11,7.16
+2024-09-28 Georgia at Alabama,plays,2,Georgia,19,5,Carson Beck pass incomplete to Dillon Bell,Pass,1,4,1,Other,10,0,0,0,,,,,0.2,0.2,0.2,0.2,0,,Carson Beck,,#8C8C8CCC,#404040CC,-5,-4.8
+2024-09-28 Georgia at Alabama,plays,2,Georgia,20,6,Trevor Etienne run for 2 yds to the UGA 27,Rush,1,4,2,Other,10,2,0,0,,,,,0,0,0.17,0.17,0.17,Trevor Etienne,,,#8C8C8CCC,#404040CC,-5,-4.83
+2024-09-28 Georgia at Alabama,plays,2,Georgia,21,7,Trevor Etienne run for 27 yds to the UGA 27 for a 1ST down,Rush,1,4,1,Other,10,27,1,1,,,,,0.5,0.5,0.29,0.29,0.29,Trevor Etienne,,,#8C8C8CCC,#404040CC,22,-1
+2024-09-28 Georgia at Alabama,plays,2,Georgia,22,8,Carson Beck pass intercepted Domani Jackson return for 7 yds to the UGA 22,Pass,1,4,3,Other,8,7,0,0,,,,,0.17,0.17,0.25,0.25,0.25,,Carson Beck,,#8C8C8CCC,#404040CC,-1,-1
+2024-09-28 Georgia at Alabama,plays,1,Alabama,23,15,Jalen Milroe pass complete to Germie Bernard for 6 yds to the UGA 16,Pass,1,5,1,Other,10,6,0,1,,,,,1,0.57,0.8,0.4,0.53,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,1,6.75
 2024-09-28 Georgia at Alabama,plays,1,Alabama,24,16,Jalen Milroe run for 9 yds to the UGA 7 for a 1ST down,Rush,1,5,2,Red zone,4,9,0,1,,,,,0.67,0.22,0.81,0.38,0.56,Jalen Milroe,,,#E82525CC,#5A0000CC,6.2,6.71
-2024-09-28 Georgia at Alabama,plays,1,Alabama,25,17,Germie Bernard run for 7 yds for a TD (Graham Nicholson KICK),Rush,1,5,1,Red zone,7,7,0,1,,,,,0.70,0.20,0.82,0.35,0.59,Germie Bernard,,,#E82525CC,#5A0000CC,3.5,6.52
+2024-09-28 Georgia at Alabama,plays,1,Alabama,25,17,Germie Bernard 7 yd run (Graham Nicholson Kick),Rush,1,5,1,Red zone,7,7,0,1,,,,,0.7,0.2,0.82,0.35,0.59,Germie Bernard,,,#E82525CC,#5A0000CC,3.5,6.52
 2024-09-28 Georgia at Alabama,plays,2,Georgia,26,9,Trevor Etienne run for 6 yds to the UGA 27,Rush,1,6,1,Other,10,6,0,1,,,,,0.67,0.33,0.33,0.22,0.33,Trevor Etienne,,,#8C8C8CCC,#404040CC,1,-0.78
-2024-09-28 Georgia at Alabama,plays,2,Georgia,27,10,Trevor Etienne run for no gain to the UGA 27,Rush,1,6,2,Other,4,0,0,0,,,,,0.50,0.25,0.30,0.20,0.40,Trevor Etienne,,,#8C8C8CCC,#404040CC,-2.8,-0.98
+2024-09-28 Georgia at Alabama,plays,2,Georgia,27,10,Trevor Etienne run for no gain to the UGA 27,Rush,1,6,2,Other,4,0,0,0,,,,,0.5,0.25,0.3,0.2,0.4,Trevor Etienne,,,#8C8C8CCC,#404040CC,-2.8,-0.98
 2024-09-28 Georgia at Alabama,plays,2,Georgia,28,11,Carson Beck pass incomplete to Dominic Lovett,Pass,1,6,3,Other,4,0,0,0,,,,,0.14,0.14,0.27,0.18,0.36,,Carson Beck,,#8C8C8CCC,#404040CC,-4,-1.25
-2024-09-28 Georgia at Alabama,plays,1,Alabama,29,18,Jalen Milroe pass complete to Ryan Williams for 7 yds to the ALA 40,Pass,1,7,1,Other,10,7,0,1,,,,,1.00,0.50,0.83,0.33,0.56,,Jalen Milroe,Ryan Williams,#E82525CC,#5A0000CC,2,6.27
-2024-09-28 Georgia at Alabama,plays,1,Alabama,30,19,Jalen Milroe pass complete to Ryan Williams for 7 yds to the ALA 40,Pass,1,7,1,Other,10,7,0,1,,,,,1.00,0.44,0.84,0.32,0.53,,Jalen Milroe,Ryan Williams,#E82525CC,#5A0000CC,2,6.05
-2024-09-28 Georgia at Alabama,plays,1,Alabama,31,20,Jalen Milroe pass complete to CJ Dippre for 15 yds to the UGA 45 for a 1ST down,Pass,2,7,1,Other,10,15,1,1,,,,,1.00,0.50,0.85,0.35,0.50,,Jalen Milroe,CJ Dippre,#E82525CC,#5A0000CC,10,6.25
+2024-09-28 Georgia at Alabama,plays,1,Alabama,29,18,Jalen Milroe pass complete to Ryan Williams for 7 yds to the ALA 40,Pass,1,7,1,Other,10,7,0,1,,,,,1,0.5,0.83,0.33,0.56,,Jalen Milroe,Ryan Williams,#E82525CC,#5A0000CC,2,6.27
+2024-09-28 Georgia at Alabama,plays,1,Alabama,30,19,Jalen Milroe pass complete to Ryan Williams for 7 yds to the ALA 40,Pass,1,7,1,Other,10,7,0,1,,,,,1,0.44,0.84,0.32,0.53,,Jalen Milroe,Ryan Williams,#E82525CC,#5A0000CC,2,6.05
+2024-09-28 Georgia at Alabama,plays,1,Alabama,31,20,Jalen Milroe pass complete to CJ Dippre for 15 yds to the UGA 45 for a 1ST down,Pass,2,7,1,Other,10,15,1,1,,,,,1,0.5,0.85,0.35,0.5,,Jalen Milroe,CJ Dippre,#E82525CC,#5A0000CC,10,6.25
 2024-09-28 Georgia at Alabama,plays,1,Alabama,32,21,Kendrick Law run for a loss of 1 yard to the UGA 46,Rush,2,7,1,Other,10,-1,0,0,,,,,0.64,0.18,0.81,0.33,0.52,Kendrick Law,,,#E82525CC,#5A0000CC,-6,5.66
 2024-09-28 Georgia at Alabama,plays,1,Alabama,33,22,Jam Miller run for 6 yds to the UGA 40,Rush,2,7,2,Other,11,6,0,0,,,,,0.58,0.17,0.77,0.32,0.55,Jam Miller,,,#E82525CC,#5A0000CC,-1.7,5.33
-2024-09-28 Georgia at Alabama,plays,1,Alabama,34,23,Jam Miller run for 4 yds to the UGA 36,Rush,2,7,3,Other,5,4,0,0,,,,,0.54,0.15,0.74,0.30,0.57,Jam Miller,,,#E82525CC,#5A0000CC,-1,5.05
-2024-09-28 Georgia at Alabama,plays,1,Alabama,35,24,Jalen Milroe run for 36 yds for a TD (Graham Nicholson KICK),Rush,2,7,4,Other,1,36,1,1,,,,,0.57,0.21,0.75,0.33,0.58,Jalen Milroe,,,#E82525CC,#5A0000CC,35,6.30
-2024-09-28 Georgia at Alabama,plays,2,Georgia,36,12,Trevor Etienne run for 11 yds to the UGA 36 for a 1ST down,Rush,2,8,1,Other,10,11,0,1,,,,,0.60,0.20,0.33,0.17,0.42,Trevor Etienne,,,#8C8C8CCC,#404040CC,6,-0.65
-2024-09-28 Georgia at Alabama,plays,2,Georgia,37,13,Trevor Etienne run for 3 yds to the UGA 39,Rush,2,8,1,Other,10,3,0,0,,,,,0.50,0.17,0.31,0.15,0.46,Trevor Etienne,,,#8C8C8CCC,#404040CC,-2,-0.75
+2024-09-28 Georgia at Alabama,plays,1,Alabama,34,23,Jam Miller run for 4 yds to the UGA 36,Rush,2,7,3,Other,5,4,0,0,,,,,0.54,0.15,0.74,0.3,0.57,Jam Miller,,,#E82525CC,#5A0000CC,-1,5.05
+2024-09-28 Georgia at Alabama,plays,1,Alabama,35,24,Jalen Milroe 36 yd run (Graham Nicholson Kick),Rush,2,7,4,Other,1,36,1,1,,,,,0.57,0.21,0.75,0.33,0.58,Jalen Milroe,,,#E82525CC,#5A0000CC,35,6.3
+2024-09-28 Georgia at Alabama,plays,2,Georgia,36,12,Trevor Etienne run for 11 yds to the UGA 36 for a 1ST down,Rush,2,8,1,Other,10,11,0,1,,,,,0.6,0.2,0.33,0.17,0.42,Trevor Etienne,,,#8C8C8CCC,#404040CC,6,-0.65
+2024-09-28 Georgia at Alabama,plays,2,Georgia,37,13,Trevor Etienne run for 3 yds to the UGA 39,Rush,2,8,1,Other,10,3,0,0,,,,,0.5,0.17,0.31,0.15,0.46,Trevor Etienne,,,#8C8C8CCC,#404040CC,-2,-0.75
 2024-09-28 Georgia at Alabama,plays,2,Georgia,38,14,Carson Beck pass complete to Dominic Lovett for a loss of 3 yards to the UGA 36,Pass,2,8,2,Other,7,-3,0,0,,,,,0.13,0.13,0.29,0.14,0.43,,Carson Beck,Dominic Lovett,#8C8C8CCC,#404040CC,-7.9,-1.26
 2024-09-28 Georgia at Alabama,plays,2,Georgia,39,15,Carson Beck run for 9 yds to the UGA 45,Rush,2,8,3,Other,10,9,0,0,,,,,0.43,0.14,0.27,0.13,0.47,Carson Beck,,,#8C8C8CCC,#404040CC,-1,-1.25
-2024-09-28 Georgia at Alabama,plays,2,Georgia,40,16,Trevor Etienne run for 7 yds to the ALA 48 for a 1ST down,Rush,2,8,4,Other,1,7,0,1,,,,,0.50,0.13,0.31,0.13,0.50,Trevor Etienne,,,#8C8C8CCC,#404040CC,6,-0.79
+2024-09-28 Georgia at Alabama,plays,2,Georgia,40,16,Trevor Etienne run for 7 yds to the ALA 48 for a 1ST down,Rush,2,8,4,Other,1,7,0,1,,,,,0.5,0.13,0.31,0.13,0.5,Trevor Etienne,,,#8C8C8CCC,#404040CC,6,-0.79
 2024-09-28 Georgia at Alabama,plays,2,Georgia,41,17,Branson Robinson run for 7 yds to the ALA 41,Rush,2,8,1,Other,10,7,0,1,,,,,0.56,0.11,0.35,0.12,0.53,Branson Robinson,,,#8C8C8CCC,#404040CC,2,-0.63
-2024-09-28 Georgia at Alabama,plays,2,Georgia,42,18,Carson Beck pass complete to Dillon Bell for 8 yds to the ALA 33 for a 1ST down,Pass,2,8,2,Other,3,8,0,1,,,,,0.22,0.11,0.39,0.11,0.50,,Carson Beck,Dillon Bell,#8C8C8CCC,#404040CC,5.9,-0.27
-2024-09-28 Georgia at Alabama,plays,2,Georgia,43,19,Carson Beck pass incomplete to Dominic Lovett,Pass,2,8,1,Other,10,0,0,0,,,,,0.20,0.10,0.37,0.11,0.47,,Carson Beck,,#8C8C8CCC,#404040CC,-5,-0.52
-2024-09-28 Georgia at Alabama,plays,2,Georgia,44,20,Carson Beck pass complete to Arian Smith for 20 yds to the ALA 13 for a 1ST down,Pass,2,8,2,Other,10,20,1,1,,,,,0.27,0.18,0.40,0.15,0.45,,Carson Beck,Arian Smith,#8C8C8CCC,#404040CC,13,0.16
-2024-09-28 Georgia at Alabama,plays,2,Georgia,45,21,Dillon Bell run for 6 yds to the ALA 7,Rush,2,8,1,Red zone,10,6,0,1,,,,,0.60,0.10,0.43,0.14,0.48,Dillon Bell,,,#8C8C8CCC,#404040CC,1,0.20
-2024-09-28 Georgia at Alabama,plays,2,Georgia,46,22,Trevor Etienne run for 7 yds for a TD,Rush,2,8,2,Red zone,4,7,0,1,,,,,0.64,0.09,0.45,0.14,0.50,Trevor Etienne,,,#8C8C8CCC,#404040CC,4.2,0.38
+2024-09-28 Georgia at Alabama,plays,2,Georgia,42,18,Carson Beck pass complete to Dillon Bell for 8 yds to the ALA 33 for a 1ST down,Pass,2,8,2,Other,3,8,0,1,,,,,0.22,0.11,0.39,0.11,0.5,,Carson Beck,Dillon Bell,#8C8C8CCC,#404040CC,5.9,-0.27
+2024-09-28 Georgia at Alabama,plays,2,Georgia,43,19,Carson Beck pass incomplete to Dominic Lovett,Pass,2,8,1,Other,10,0,0,0,,,,,0.2,0.1,0.37,0.11,0.47,,Carson Beck,,#8C8C8CCC,#404040CC,-5,-0.52
+2024-09-28 Georgia at Alabama,plays,2,Georgia,44,20,Carson Beck pass complete to Arian Smith for 20 yds to the ALA 13 for a 1ST down,Pass,2,8,2,Other,10,20,1,1,,,,,0.27,0.18,0.4,0.15,0.45,,Carson Beck,Arian Smith,#8C8C8CCC,#404040CC,13,0.16
+2024-09-28 Georgia at Alabama,plays,2,Georgia,45,21,Dillon Bell run for 6 yds to the ALA 7,Rush,2,8,1,Red zone,10,6,0,1,,,,,0.6,0.1,0.43,0.14,0.48,Dillon Bell,,,#8C8C8CCC,#404040CC,1,0.2
+2024-09-28 Georgia at Alabama,plays,2,Georgia,46,22,Trevor Etienne 7 yd run (Peyton Woodring Kick),Rush,2,8,2,Red zone,4,7,0,1,,,,,0.64,0.09,0.45,0.14,0.5,Trevor Etienne,,,#8C8C8CCC,#404040CC,4.2,0.38
 2024-09-28 Georgia at Alabama,plays,1,Alabama,47,25,"Jalen Milroe pass complete to CJ Dippre for 6 yds to the ALA 31 Alabama Penalty, UNR: Unnecessary Roughness (-15 Yards) to the ALA 16",Pass,2,9,1,Other,10,-9,0,0,,,,,0.91,0.45,0.72,0.32,0.56,,Jalen Milroe,CJ Dippre,#E82525CC,#5A0000CC,-14,5.49
-2024-09-28 Georgia at Alabama,plays,1,Alabama,48,26,Jalen Milroe run for 26 yds to the ALA 42 for a 1ST down,Rush,2,9,1,Other,19,26,1,1,,,,,0.60,0.27,0.73,0.35,0.58,Jalen Milroe,,,#E82525CC,#5A0000CC,16.5,5.91
-2024-09-28 Georgia at Alabama,plays,1,Alabama,49,27,"Jalen Milroe pass complete to CJ Dippre for 6 yds to the ALA 31 Alabama Penalty, Unnecessary Roughness (Tyler Booker) to the ALA 16",Pass,2,9,1,Other,10,-9,0,0,,,,,0.83,0.42,0.70,0.33,0.56,,Jalen Milroe,CJ Dippre,#E82525CC,#5A0000CC,-14,5.17
+2024-09-28 Georgia at Alabama,plays,1,Alabama,48,26,Jalen Milroe run for 26 yds to the ALA 42 for a 1ST down,Rush,2,9,1,Other,19,26,1,1,,,,,0.6,0.27,0.73,0.35,0.58,Jalen Milroe,,,#E82525CC,#5A0000CC,16.5,5.91
+2024-09-28 Georgia at Alabama,plays,1,Alabama,49,27,"Jalen Milroe pass complete to CJ Dippre for 6 yds to the ALA 31 Alabama Penalty, Unnecessary Roughness (Tyler Booker) to the ALA 16",Pass,2,9,1,Other,10,-9,0,0,,,,,0.83,0.42,0.7,0.33,0.56,,Jalen Milroe,CJ Dippre,#E82525CC,#5A0000CC,-14,5.17
 2024-09-28 Georgia at Alabama,plays,1,Alabama,50,28,Jalen Milroe pass complete to Germie Bernard for 15 yds to the UGA 43 for a 1ST down,Pass,2,9,1,Other,10,15,1,1,,,,,0.85,0.46,0.71,0.36,0.54,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,10,5.35
 2024-09-28 Georgia at Alabama,plays,1,Alabama,51,29,Jalen Milroe run for 2 yds to the UGA 41,Rush,2,9,1,Other,10,2,0,0,,,,,0.56,0.25,0.69,0.34,0.55,Jalen Milroe,,,#E82525CC,#5A0000CC,-3,5.06
-2024-09-28 Georgia at Alabama,plays,1,Alabama,52,30,Jalen Milroe pass incomplete to Germie Bernard,Pass,2,9,2,Other,8,0,0,0,,,,,0.79,0.43,0.67,0.33,0.53,,Jalen Milroe,,#E82525CC,#5A0000CC,-5.6,4.70
-2024-09-28 Georgia at Alabama,plays,1,Alabama,53,31,Jalen Milroe pass complete to Robbie Ouzts for 7 yds to the UGA 34,Pass,2,9,3,Other,8,7,0,0,,,,,0.73,0.40,0.65,0.32,0.52,,Jalen Milroe,Robbie Ouzts,#E82525CC,#5A0000CC,-1,4.52
+2024-09-28 Georgia at Alabama,plays,1,Alabama,52,30,Jalen Milroe pass incomplete to Germie Bernard,Pass,2,9,2,Other,8,0,0,0,,,,,0.79,0.43,0.67,0.33,0.53,,Jalen Milroe,,#E82525CC,#5A0000CC,-5.6,4.7
+2024-09-28 Georgia at Alabama,plays,1,Alabama,53,31,Jalen Milroe pass complete to Robbie Ouzts for 7 yds to the UGA 34,Pass,2,9,3,Other,8,7,0,0,,,,,0.73,0.4,0.65,0.32,0.52,,Jalen Milroe,Robbie Ouzts,#E82525CC,#5A0000CC,-1,4.52
 2024-09-28 Georgia at Alabama,plays,1,Alabama,54,32,Jam Miller run for a loss of 1 yard to the UGA 35,Rush,2,9,4,Other,1,-1,0,0,,,,,0.53,0.24,0.63,0.31,0.53,Jam Miller,,,#E82525CC,#5A0000CC,-2,4.32
 2024-09-28 Georgia at Alabama,plays,2,Georgia,55,23,Carson Beck pass intercepted Jihaad Campbell return for 24 yds to the UGA 25,Pass,2,10,1,Other,10,24,0,0,,,,,0.25,0.17,0.43,0.13,0.48,,Carson Beck,,#8C8C8CCC,#404040CC,19,1.19
-2024-09-28 Georgia at Alabama,plays,1,Alabama,56,33,Jalen Milroe pass complete to CJ Dippre for 13 yds to the UGA 12 for a 1ST down,Pass,2,11,1,Other,10,13,0,1,,,,,0.75,0.38,0.64,0.30,0.52,,Jalen Milroe,CJ Dippre,#E82525CC,#5A0000CC,8,4.43
-2024-09-28 Georgia at Alabama,plays,1,Alabama,57,34,Justice Haynes run for a loss of 1 yard to the UGA 13,Rush,2,11,1,Red zone,10,-1,0,0,,,,,0.50,0.22,0.62,0.29,0.53,Justice Haynes,,,#E82525CC,#5A0000CC,-6,4.12
-2024-09-28 Georgia at Alabama,plays,1,Alabama,58,35,Jalen Milroe pass intercepted Dan Jackson return for no gain to the UGA 5,Pass,2,11,2,Red zone,11,0,0,0,,,,,0.71,0.35,0.60,0.29,0.51,,Jalen Milroe,,#E82525CC,#5A0000CC,-7.7,3.78
+2024-09-28 Georgia at Alabama,plays,1,Alabama,56,33,Jalen Milroe pass complete to CJ Dippre for 13 yds to the UGA 12 for a 1ST down,Pass,2,11,1,Other,10,13,0,1,,,,,0.75,0.38,0.64,0.3,0.52,,Jalen Milroe,CJ Dippre,#E82525CC,#5A0000CC,8,4.43
+2024-09-28 Georgia at Alabama,plays,1,Alabama,57,34,Justice Haynes run for a loss of 1 yard to the UGA 13,Rush,2,11,1,Red zone,10,-1,0,0,,,,,0.5,0.22,0.62,0.29,0.53,Justice Haynes,,,#E82525CC,#5A0000CC,-6,4.12
+2024-09-28 Georgia at Alabama,plays,1,Alabama,58,35,Jalen Milroe pass intercepted Dan Jackson return for no gain to the UGA 5,Pass,2,11,2,Red zone,11,0,0,0,,,,,0.71,0.35,0.6,0.29,0.51,,Jalen Milroe,,#E82525CC,#5A0000CC,-7.7,3.78
 2024-09-28 Georgia at Alabama,plays,2,Georgia,59,24,Carson Beck pass incomplete to Dominic Lovett,Pass,2,12,1,Other,10,0,0,0,,,,,0.23,0.15,0.42,0.13,0.46,,Carson Beck,,#8C8C8CCC,#404040CC,-5,0.93
-2024-09-28 Georgia at Alabama,plays,2,Georgia,60,25,Carson Beck pass incomplete to Dominic Lovett,Pass,2,12,2,Other,10,0,0,0,,,,,0.21,0.14,0.40,0.12,0.44,,Carson Beck,,#8C8C8CCC,#404040CC,-7,0.62
-2024-09-28 Georgia at Alabama,plays,2,Georgia,61,26,Carson Beck sacked by Keanu Koht and Que Robinson for a loss of 5 yards for a SAFETY,Pass,2,12,3,Other,10,-5,0,1,,,,,0.27,0.13,0.42,0.12,0.42,,,,#8C8C8CCC,#404040CC,-15,0.02
-2024-09-28 Georgia at Alabama,plays,1,Alabama,62,36,Jalen Milroe pass complete to Josh Cuevas for 18 yds to the ALA 40 for a 1ST down,Pass,2,13,1,Other,10,18,1,1,,,,,0.72,0.39,0.61,0.31,0.50,,Jalen Milroe,Josh Cuevas,#E82525CC,#5A0000CC,13,4.04
-2024-09-28 Georgia at Alabama,plays,1,Alabama,63,37,Jalen Milroe pass complete to Kobe Prentice for 7 yds to the ALA 47,Pass,2,13,1,Other,10,7,0,1,,,,,0.74,0.37,0.62,0.30,0.49,,Jalen Milroe,Kobe Prentice,#E82525CC,#5A0000CC,2,3.98
+2024-09-28 Georgia at Alabama,plays,2,Georgia,60,25,Carson Beck pass incomplete to Dominic Lovett,Pass,2,12,2,Other,10,0,0,0,,,,,0.21,0.14,0.4,0.12,0.44,,Carson Beck,,#8C8C8CCC,#404040CC,-7,0.62
+2024-09-28 Georgia at Alabama,plays,2,Georgia,61,26,Team Safety,Rush,2,12,3,Other,10,-5,0,1,,,,,0.67,0.08,0.42,0.12,0.46,,,,#8C8C8CCC,#404040CC,-15,0.02
+2024-09-28 Georgia at Alabama,plays,1,Alabama,62,36,Jalen Milroe pass complete to Josh Cuevas for 18 yds to the ALA 40 for a 1ST down,Pass,2,13,1,Other,10,18,1,1,,,,,0.72,0.39,0.61,0.31,0.5,,Jalen Milroe,Josh Cuevas,#E82525CC,#5A0000CC,13,4.04
+2024-09-28 Georgia at Alabama,plays,1,Alabama,63,37,Jalen Milroe pass complete to Kobe Prentice for 7 yds to the ALA 47,Pass,2,13,1,Other,10,7,0,1,,,,,0.74,0.37,0.62,0.3,0.49,,Jalen Milroe,Kobe Prentice,#E82525CC,#5A0000CC,2,3.98
 2024-09-28 Georgia at Alabama,plays,1,Alabama,64,38,Jalen Milroe pass complete to Kobe Prentice for 8 yds to the UGA 45 for a 1ST down,Pass,2,13,2,Other,3,8,0,1,,,,,0.75,0.35,0.63,0.29,0.47,,Jalen Milroe,Kobe Prentice,#E82525CC,#5A0000CC,5.9,4.03
 2024-09-28 Georgia at Alabama,plays,1,Alabama,65,39,Jalen Milroe pass complete to Josh Cuevas for 5 yds to the UGA 40,Pass,2,13,1,Other,10,5,0,1,,,,,0.76,0.33,0.64,0.28,0.46,,Jalen Milroe,Josh Cuevas,#E82525CC,#5A0000CC,0,3.93
 2024-09-28 Georgia at Alabama,plays,1,Alabama,66,40,Jalen Milroe pass complete to Germie Bernard for a loss of 8 yards to the UGA 48,Pass,2,13,2,Other,5,-8,0,0,,,,,0.73,0.32,0.63,0.28,0.45,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,-11.5,3.55
-2024-09-28 Georgia at Alabama,plays,1,Alabama,67,41,Jalen Milroe pass incomplete to Germie Bernard,Pass,2,13,3,Other,13,0,0,0,,,,,0.70,0.30,0.61,0.27,0.44,,Jalen Milroe,,#E82525CC,#5A0000CC,-13,3.14
-2024-09-28 Georgia at Alabama,plays,2,Georgia,68,27,Carson Beck pass complete to Arian Smith for 14 yds to the UGA 22 for a 1ST down,Pass,2,14,1,Other,10,14,0,1,,,,,0.31,0.13,0.44,0.11,0.41,,Carson Beck,Arian Smith,#8C8C8CCC,#404040CC,9,0.35
-2024-09-28 Georgia at Alabama,plays,2,Georgia,69,28,Carson Beck pass complete to Colbie Young for 12 yds to the UGA 34 for a 1ST down,Pass,2,14,1,Other,10,12,0,1,,,,,0.35,0.12,0.46,0.11,0.39,,Carson Beck,Colbie Young,#8C8C8CCC,#404040CC,7,0.59
-2024-09-28 Georgia at Alabama,plays,2,Georgia,70,29,Carson Beck pass complete to Arian Smith for 30 yds to the ALA 36 for a 1ST down,Pass,2,14,1,Other,10,30,1,1,,,,,0.39,0.17,0.48,0.14,0.38,,Carson Beck,Arian Smith,#8C8C8CCC,#404040CC,25,1.43
-2024-09-28 Georgia at Alabama,plays,2,Georgia,71,30,Trevor Etienne run for no gain to the UGA 41,Rush,3,15,1,Other,10,0,0,0,,,,,0.58,0.08,0.47,0.13,0.40,Trevor Etienne,,,#8C8C8CCC,#404040CC,-5,1.21
-2024-09-28 Georgia at Alabama,plays,2,Georgia,72,31,Carson Beck pass incomplete,Pass,3,15,2,Other,10,0,0,0,,,,,0.37,0.16,0.45,0.13,0.39,,Carson Beck,,#8C8C8CCC,#404040CC,-7,0.95
-2024-09-28 Georgia at Alabama,plays,2,Georgia,73,32,Carson Beck sacked by Deontae Lawson for a loss of 11 yards to the UGA 30,Pass,3,15,3,Other,10,-11,0,0,,,,,0.35,0.15,0.44,0.13,0.38,,,,#8C8C8CCC,#404040CC,-21,0.26
-2024-09-28 Georgia at Alabama,plays,1,Alabama,74,42,Jalen Milroe run for 1 yd to the ALA 27,Rush,3,16,1,Other,10,1,0,0,,,,,0.47,0.21,0.60,0.26,0.45,Jalen Milroe,,,#E82525CC,#5A0000CC,-4,2.97
-2024-09-28 Georgia at Alabama,plays,1,Alabama,75,43,Jalen Milroe run for 5 yds to the ALA 32,Rush,3,16,2,Other,9,5,0,0,,,,,0.45,0.20,0.58,0.26,0.47,Jalen Milroe,,,#E82525CC,#5A0000CC,-1.3,2.87
+2024-09-28 Georgia at Alabama,plays,1,Alabama,67,41,Jalen Milroe pass incomplete to Germie Bernard,Pass,2,13,3,Other,13,0,0,0,,,,,0.7,0.3,0.61,0.27,0.44,,Jalen Milroe,,#E82525CC,#5A0000CC,-13,3.14
+2024-09-28 Georgia at Alabama,plays,2,Georgia,68,27,Carson Beck pass complete to Arian Smith for 14 yds to the UGA 22 for a 1ST down,Pass,2,14,1,Other,10,14,0,1,,,,,0.27,0.13,0.44,0.11,0.44,,Carson Beck,Arian Smith,#8C8C8CCC,#404040CC,9,0.35
+2024-09-28 Georgia at Alabama,plays,2,Georgia,69,28,Carson Beck pass complete to Colbie Young for 12 yds to the UGA 34 for a 1ST down,Pass,2,14,1,Other,10,12,0,1,,,,,0.31,0.13,0.46,0.11,0.43,,Carson Beck,Colbie Young,#8C8C8CCC,#404040CC,7,0.59
+2024-09-28 Georgia at Alabama,plays,2,Georgia,70,29,Carson Beck pass complete to Arian Smith for 30 yds to the ALA 36 for a 1ST down,Pass,2,14,1,Other,10,30,1,1,,,,,0.35,0.18,0.48,0.14,0.41,,Carson Beck,Arian Smith,#8C8C8CCC,#404040CC,25,1.43
+2024-09-28 Georgia at Alabama,plays,2,Georgia,71,30,Trevor Etienne run for no gain to the UGA 41,Rush,3,15,1,Other,10,0,0,0,,,,,0.62,0.08,0.47,0.13,0.43,Trevor Etienne,,,#8C8C8CCC,#404040CC,-5,1.21
+2024-09-28 Georgia at Alabama,plays,2,Georgia,72,31,Carson Beck pass incomplete,Pass,3,15,2,Other,10,0,0,0,,,,,0.33,0.17,0.45,0.13,0.42,,Carson Beck,,#8C8C8CCC,#404040CC,-7,0.95
+2024-09-28 Georgia at Alabama,plays,2,Georgia,73,32,Carson Beck sacked by Deontae Lawson for a loss of 11 yards to the UGA 30,Pass,3,15,3,Other,10,-11,0,0,,,,,0.32,0.16,0.44,0.13,0.41,,,,#8C8C8CCC,#404040CC,-21,0.26
+2024-09-28 Georgia at Alabama,plays,1,Alabama,74,42,Jalen Milroe run for 1 yd to the ALA 27,Rush,3,16,1,Other,10,1,0,0,,,,,0.47,0.21,0.6,0.26,0.45,Jalen Milroe,,,#E82525CC,#5A0000CC,-4,2.97
+2024-09-28 Georgia at Alabama,plays,1,Alabama,75,43,Jalen Milroe run for 5 yds to the ALA 32,Rush,3,16,2,Other,9,5,0,0,,,,,0.45,0.2,0.58,0.26,0.47,Jalen Milroe,,,#E82525CC,#5A0000CC,-1.3,2.87
 2024-09-28 Georgia at Alabama,plays,1,Alabama,76,44,Jalen Milroe pass incomplete to Germie Bernard,Pass,3,16,3,Other,4,0,0,0,,,,,0.67,0.29,0.57,0.25,0.45,,Jalen Milroe,,#E82525CC,#5A0000CC,-4,2.72
-2024-09-28 Georgia at Alabama,plays,2,Georgia,77,33,Carson Beck pass incomplete to Oscar Delp,Pass,3,17,1,Other,10,0,0,0,,,,,0.33,0.14,0.42,0.12,0.36,,Carson Beck,,#8C8C8CCC,#404040CC,-5,0.10
-2024-09-28 Georgia at Alabama,plays,2,Georgia,78,34,Carson Beck pass complete to Dominic Lovett for 4 yds to the UGA 24,Pass,3,17,2,Other,10,4,0,0,,,,,0.32,0.14,0.41,0.12,0.35,,Carson Beck,Dominic Lovett,#8C8C8CCC,#404040CC,-3,0.01
-2024-09-28 Georgia at Alabama,plays,2,Georgia,79,35,Carson Beck run for 5 yds to the UGA 29,Rush,3,17,3,Other,6,5,0,0,,,,,0.54,0.08,0.40,0.11,0.37,Carson Beck,,,#8C8C8CCC,#404040CC,-1,-0.02
-2024-09-28 Georgia at Alabama,plays,2,Georgia,80,36,Cash Jones run for 1 yd to the UGA 30 for a 1ST down,Rush,3,17,4,Other,1,1,0,1,,,,,0.57,0.07,0.42,0.11,0.39,Cash Jones,,,#8C8C8CCC,#404040CC,0,-0.02
-2024-09-28 Georgia at Alabama,plays,2,Georgia,81,37,Carson Beck run for 7 yds to the UGA 37,Rush,3,17,1,Other,10,7,0,1,,,,,0.60,0.07,0.43,0.11,0.41,Carson Beck,,,#8C8C8CCC,#404040CC,2,0.04
-2024-09-28 Georgia at Alabama,plays,2,Georgia,82,38,"Carson Beck pass complete to Dominic Lovett for 7 yds to the UGA 44 Georgia Penalty, Offensive Holding (Anthony Evans III) to the UGA 34",Pass,3,17,2,Other,3,-3,0,0,,,,,0.30,0.13,0.42,0.11,0.39,,Carson Beck,Dominic Lovett,#8C8C8CCC,#404040CC,-5.1,-0.10
-2024-09-28 Georgia at Alabama,plays,2,Georgia,83,39,Branson Robinson run for 1 yd to the UGA 30,Rush,3,17,2,Other,11,1,0,0,,,,,0.56,0.06,0.41,0.10,0.41,Branson Robinson,,,#8C8C8CCC,#404040CC,-6.7,-0.27
-2024-09-28 Georgia at Alabama,plays,2,Georgia,84,40,Carson Beck pass complete to Anthony Evans III for 7 yds to the UGA 37,Pass,3,17,3,Other,10,7,0,0,,,,,0.29,0.13,0.40,0.10,0.40,,Carson Beck,Anthony Evans III,#8C8C8CCC,#404040CC,-3,-0.34
-2024-09-28 Georgia at Alabama,plays,2,Georgia,85,41,Carson Beck pass complete to Dominic Lovett for 4 yds to the UGA 41 for a 1ST down,Pass,3,17,4,Other,3,4,0,1,,,,,0.32,0.12,0.41,0.10,0.39,,Carson Beck,Dominic Lovett,#8C8C8CCC,#404040CC,1,-0.30
-2024-09-28 Georgia at Alabama,plays,2,Georgia,86,42,Carson Beck pass incomplete to Dillon Bell,Pass,3,17,1,Other,10,0,0,0,,,,,0.31,0.12,0.40,0.10,0.38,,Carson Beck,,#8C8C8CCC,#404040CC,-5,-0.41
-2024-09-28 Georgia at Alabama,plays,2,Georgia,87,43,Trevor Etienne run for 5 yds to the UGA 46,Rush,3,17,2,Other,10,5,0,0,,,,,0.53,0.06,0.40,0.09,0.40,Trevor Etienne,,,#8C8C8CCC,#404040CC,-2,-0.45
-2024-09-28 Georgia at Alabama,plays,2,Georgia,88,44,Carson Beck pass incomplete to Dominic Lovett,Pass,3,17,3,Other,5,0,0,0,,,,,0.30,0.11,0.39,0.09,0.39,,Carson Beck,,#8C8C8CCC,#404040CC,-5,-0.55
-2024-09-28 Georgia at Alabama,plays,2,Georgia,89,45,Carson Beck pass incomplete to Anthony Evans III,Pass,3,17,1,Other,10,0,0,0,,,,,0.29,0.11,0.38,0.09,0.38,,Carson Beck,,#8C8C8CCC,#404040CC,-5,-0.65
-2024-09-28 Georgia at Alabama,plays,2,Georgia,90,46,Carson Beck pass complete to Dominic Lovett for 32 yds to the ALA 12 for a 1ST down,Pass,3,17,2,Other,10,32,1,1,,,,,0.31,0.14,0.39,0.11,0.37,,Carson Beck,Dominic Lovett,#8C8C8CCC,#404040CC,25,-0.10
-2024-09-28 Georgia at Alabama,plays,2,Georgia,91,47,Carson Beck pass complete to Arian Smith for 12 yds for a TD (Carson Beck pass to Lawson Luckie for Two-Point Conversion),Pass,3,17,1,Red zone,10,12,0,1,,,,,0.33,0.13,0.40,0.11,0.36,,Carson Beck,Arian Smith,#8C8C8CCC,#404040CC,7,0.06
+2024-09-28 Georgia at Alabama,plays,2,Georgia,77,33,Carson Beck pass incomplete to Oscar Delp,Pass,3,17,1,Other,10,0,0,0,,,,,0.3,0.15,0.42,0.12,0.39,,Carson Beck,,#8C8C8CCC,#404040CC,-5,0.1
+2024-09-28 Georgia at Alabama,plays,2,Georgia,78,34,Carson Beck pass complete to Dominic Lovett for 4 yds to the UGA 24,Pass,3,17,2,Other,10,4,0,0,,,,,0.29,0.14,0.41,0.12,0.38,,Carson Beck,Dominic Lovett,#8C8C8CCC,#404040CC,-3,0.01
+2024-09-28 Georgia at Alabama,plays,2,Georgia,79,35,Carson Beck run for 5 yds to the UGA 29,Rush,3,17,3,Other,6,5,0,0,,,,,0.57,0.07,0.4,0.11,0.4,Carson Beck,,,#8C8C8CCC,#404040CC,-1,-0.02
+2024-09-28 Georgia at Alabama,plays,2,Georgia,80,36,Cash Jones run for 1 yd to the UGA 30 for a 1ST down,Rush,3,17,4,Other,1,1,0,1,,,,,0.6,0.07,0.42,0.11,0.42,Cash Jones,,,#8C8C8CCC,#404040CC,0,-0.02
+2024-09-28 Georgia at Alabama,plays,2,Georgia,81,37,Carson Beck run for 7 yds to the UGA 37,Rush,3,17,1,Other,10,7,0,1,,,,,0.63,0.06,0.43,0.11,0.43,Carson Beck,,,#8C8C8CCC,#404040CC,2,0.04
+2024-09-28 Georgia at Alabama,plays,2,Georgia,82,38,"Carson Beck pass complete to Dominic Lovett for 7 yds to the UGA 44 Georgia Penalty, Offensive Holding (Anthony Evans III) to the UGA 34",Pass,3,17,2,Other,3,-3,0,0,,,,,0.27,0.14,0.42,0.11,0.42,,Carson Beck,Dominic Lovett,#8C8C8CCC,#404040CC,-5.1,-0.1
+2024-09-28 Georgia at Alabama,plays,2,Georgia,83,39,Branson Robinson run for 1 yd to the UGA 30,Rush,3,17,2,Other,11,1,0,0,,,,,0.59,0.06,0.41,0.1,0.44,Branson Robinson,,,#8C8C8CCC,#404040CC,-6.7,-0.27
+2024-09-28 Georgia at Alabama,plays,2,Georgia,84,40,Carson Beck pass complete to Anthony Evans III for 7 yds to the UGA 37,Pass,3,17,3,Other,10,7,0,0,,,,,0.26,0.13,0.4,0.1,0.43,,Carson Beck,Anthony Evans III,#8C8C8CCC,#404040CC,-3,-0.34
+2024-09-28 Georgia at Alabama,plays,2,Georgia,85,41,Carson Beck pass complete to Dominic Lovett for 4 yds to the UGA 41 for a 1ST down,Pass,3,17,4,Other,3,4,0,1,,,,,0.29,0.13,0.41,0.1,0.41,,Carson Beck,Dominic Lovett,#8C8C8CCC,#404040CC,1,-0.3
+2024-09-28 Georgia at Alabama,plays,2,Georgia,86,42,Carson Beck pass incomplete to Dillon Bell,Pass,3,17,1,Other,10,0,0,0,,,,,0.28,0.12,0.4,0.1,0.4,,Carson Beck,,#8C8C8CCC,#404040CC,-5,-0.41
+2024-09-28 Georgia at Alabama,plays,2,Georgia,87,43,Trevor Etienne run for 5 yds to the UGA 46,Rush,3,17,2,Other,10,5,0,0,,,,,0.56,0.06,0.4,0.09,0.42,Trevor Etienne,,,#8C8C8CCC,#404040CC,-2,-0.45
+2024-09-28 Georgia at Alabama,plays,2,Georgia,88,44,Carson Beck pass incomplete to Dominic Lovett,Pass,3,17,3,Other,5,0,0,0,,,,,0.27,0.12,0.39,0.09,0.41,,Carson Beck,,#8C8C8CCC,#404040CC,-5,-0.55
+2024-09-28 Georgia at Alabama,plays,2,Georgia,89,45,Carson Beck pass incomplete to Anthony Evans III,Pass,3,17,1,Other,10,0,0,0,,,,,0.26,0.11,0.38,0.09,0.4,,Carson Beck,,#8C8C8CCC,#404040CC,-5,-0.65
+2024-09-28 Georgia at Alabama,plays,2,Georgia,90,46,Carson Beck pass complete to Dominic Lovett for 32 yds to the ALA 12 for a 1ST down,Pass,3,17,2,Other,10,32,1,1,,,,,0.29,0.14,0.39,0.11,0.39,,Carson Beck,Dominic Lovett,#8C8C8CCC,#404040CC,25,-0.1
+2024-09-28 Georgia at Alabama,plays,2,Georgia,91,47,Arian Smith 12 Yd pass from Carson Beck (Carson Beck Pass to Lawson Luckie for Two-Point Conversion),Pass,3,17,1,Red zone,10,12,0,1,,,,,0.31,0.14,0.4,0.11,0.38,,Carson Beck,Arian Smith,#8C8C8CCC,#404040CC,7,0.06
 2024-09-28 Georgia at Alabama,plays,1,Alabama,92,45,Jam Miller run for no gain to the ALA 21,Rush,3,18,1,Other,10,0,0,0,,,,,0.43,0.19,0.56,0.24,0.47,Jam Miller,,,#E82525CC,#5A0000CC,-5,2.54
-2024-09-28 Georgia at Alabama,plays,1,Alabama,93,46,Jalen Milroe pass complete to Ryan Williams for 12 yds to the ALA 33 for a 1ST down,Pass,3,18,2,Other,10,12,0,1,,,,,0.68,0.28,0.57,0.24,0.46,,Jalen Milroe,Ryan Williams,#E82525CC,#5A0000CC,5,2.60
+2024-09-28 Georgia at Alabama,plays,1,Alabama,93,46,Jalen Milroe pass complete to Ryan Williams for 12 yds to the ALA 33 for a 1ST down,Pass,3,18,2,Other,10,12,0,1,,,,,0.68,0.28,0.57,0.24,0.46,,Jalen Milroe,Ryan Williams,#E82525CC,#5A0000CC,5,2.6
 2024-09-28 Georgia at Alabama,plays,1,Alabama,94,47,Jalen Milroe pass complete to Ryan Williams for 54 yds to the UGA 13 for a 1ST down,Pass,3,18,1,Other,10,54,1,1,,,,,0.69,0.31,0.57,0.26,0.45,,Jalen Milroe,Ryan Williams,#E82525CC,#5A0000CC,49,3.59
 2024-09-28 Georgia at Alabama,plays,1,Alabama,95,48,Jalen Milroe run for 2 yds to the UGA 11,Rush,3,18,1,Red zone,10,2,0,0,,,,,0.41,0.18,0.56,0.25,0.46,Jalen Milroe,,,#E82525CC,#5A0000CC,-3,3.45
 2024-09-28 Georgia at Alabama,plays,1,Alabama,96,49,Jalen Milroe run for a loss of 2 yards to the UGA 13,Rush,3,18,2,Red zone,8,-2,0,0,,,,,0.39,0.17,0.55,0.24,0.47,Jalen Milroe,,,#E82525CC,#5A0000CC,-7.6,3.22
-2024-09-28 Georgia at Alabama,plays,1,Alabama,97,50,Jalen Milroe pass complete to Justice Haynes for 3 yds to the UGA 10,Pass,3,18,3,Red zone,10,3,0,0,,,,,0.67,0.30,0.54,0.24,0.46,,Jalen Milroe,Justice Haynes,#E82525CC,#5A0000CC,-7,3.02
-2024-09-28 Georgia at Alabama,plays,2,Georgia,98,48,Carson Beck pass incomplete to Dillon Bell,Pass,3,19,1,Other,10,0,0,0,,,,,0.32,0.13,0.40,0.10,0.35,,Carson Beck,,#8C8C8CCC,#404040CC,-5,-0.05
-2024-09-28 Georgia at Alabama,plays,2,Georgia,99,49,Trevor Etienne run for 3 yds to the UGA 28,Rush,3,19,2,Other,10,3,0,0,,,,,0.50,0.06,0.39,0.10,0.37,Trevor Etienne,,,#8C8C8CCC,#404040CC,-4,-0.13
-2024-09-28 Georgia at Alabama,plays,2,Georgia,100,50,Carson Beck pass complete to Arian Smith for 9 yds to the UGA 37 for a 1ST down,Pass,3,19,3,Other,7,9,0,1,,,,,0.34,0.13,0.40,0.10,0.36,,Carson Beck,Arian Smith,#8C8C8CCC,#404040CC,2,-0.09
-2024-09-28 Georgia at Alabama,plays,2,Georgia,101,51,Carson Beck pass incomplete to Oscar Delp,Pass,3,19,1,Other,10,0,0,0,,,,,0.33,0.12,0.39,0.10,0.35,,Carson Beck,,#8C8C8CCC,#404040CC,-5,-0.18
-2024-09-28 Georgia at Alabama,plays,2,Georgia,102,52,Carson Beck pass complete to Dillon Bell for 5 yds to the UGA 42,Pass,3,19,2,Other,10,5,0,0,,,,,0.32,0.12,0.38,0.10,0.35,,Carson Beck,Dillon Bell,#8C8C8CCC,#404040CC,-2,-0.22
-2024-09-28 Georgia at Alabama,plays,2,Georgia,103,53,Trevor Etienne run for a loss of 1 yard to the UGA 41,Rush,4,19,3,Other,5,-1,0,0,,,,,0.47,0.05,0.38,0.09,0.36,Trevor Etienne,,,#8C8C8CCC,#404040CC,-6,-0.33
-2024-09-28 Georgia at Alabama,plays,2,Georgia,104,54,Carson Beck pass complete to Dillon Bell for 12 yds to the ALA 47 for a 1ST down,Pass,4,19,4,Other,6,12,0,1,,,,,0.34,0.11,0.39,0.09,0.35,,Carson Beck,Dillon Bell,#8C8C8CCC,#404040CC,6,-0.21
-2024-09-28 Georgia at Alabama,plays,2,Georgia,105,55,"Carson Beck sacked by Qua Russaw for a loss of 6 yards to the UGA 47 Carson Beck fumbled, recovered by ALA Jah-Marien Latham , return for 0 yards",Pass,4,19,1,Other,10,-6,0,0,,,,,0.33,0.11,0.38,0.09,0.35,,,,#8C8C8CCC,#404040CC,-11,-0.41
+2024-09-28 Georgia at Alabama,plays,1,Alabama,97,50,Jalen Milroe pass complete to Justice Haynes for 3 yds to the UGA 10,Pass,3,18,3,Red zone,10,3,0,0,,,,,0.67,0.3,0.54,0.24,0.46,,Jalen Milroe,Justice Haynes,#E82525CC,#5A0000CC,-7,3.02
+2024-09-28 Georgia at Alabama,plays,2,Georgia,98,48,Carson Beck pass incomplete to Dillon Bell,Pass,3,19,1,Other,10,0,0,0,,,,,0.3,0.13,0.4,0.1,0.38,,Carson Beck,,#8C8C8CCC,#404040CC,-5,-0.05
+2024-09-28 Georgia at Alabama,plays,2,Georgia,99,49,Trevor Etienne run for 3 yds to the UGA 28,Rush,3,19,2,Other,10,3,0,0,,,,,0.53,0.05,0.39,0.1,0.39,Trevor Etienne,,,#8C8C8CCC,#404040CC,-4,-0.13
+2024-09-28 Georgia at Alabama,plays,2,Georgia,100,50,Carson Beck pass complete to Arian Smith for 9 yds to the UGA 37 for a 1ST down,Pass,3,19,3,Other,7,9,0,1,,,,,0.32,0.13,0.4,0.1,0.38,,Carson Beck,Arian Smith,#8C8C8CCC,#404040CC,2,-0.09
+2024-09-28 Georgia at Alabama,plays,2,Georgia,101,51,Carson Beck pass incomplete to Oscar Delp,Pass,3,19,1,Other,10,0,0,0,,,,,0.31,0.13,0.39,0.1,0.37,,Carson Beck,,#8C8C8CCC,#404040CC,-5,-0.18
+2024-09-28 Georgia at Alabama,plays,2,Georgia,102,52,Carson Beck pass complete to Dillon Bell for 5 yds to the UGA 42,Pass,3,19,2,Other,10,5,0,0,,,,,0.3,0.12,0.38,0.1,0.37,,Carson Beck,Dillon Bell,#8C8C8CCC,#404040CC,-2,-0.22
+2024-09-28 Georgia at Alabama,plays,2,Georgia,103,53,Trevor Etienne run for a loss of 1 yard to the UGA 41,Rush,4,19,3,Other,5,-1,0,0,,,,,0.5,0.05,0.38,0.09,0.38,Trevor Etienne,,,#8C8C8CCC,#404040CC,-6,-0.33
+2024-09-28 Georgia at Alabama,plays,2,Georgia,104,54,Carson Beck pass complete to Dillon Bell for 12 yds to the ALA 47 for a 1ST down,Pass,4,19,4,Other,6,12,0,1,,,,,0.32,0.12,0.39,0.09,0.37,,Carson Beck,Dillon Bell,#8C8C8CCC,#404040CC,6,-0.21
+2024-09-28 Georgia at Alabama,plays,2,Georgia,105,55,"Carson Beck sacked by Qua Russaw for a loss of 6 yards to the UGA 47 Carson Beck fumbled, recovered by ALA Jah-Marien Latham , return for 0 yards",Pass,4,19,1,Other,10,-6,0,0,,,,,0.31,0.11,0.38,0.09,0.36,,,,#8C8C8CCC,#404040CC,-11,-0.41
 2024-09-28 Georgia at Alabama,plays,1,Alabama,106,51,Justice Haynes run for 5 yds to the UGA 42,Rush,4,20,1,Other,10,5,0,1,,,,,0.42,0.17,0.55,0.24,0.47,Justice Haynes,,,#E82525CC,#5A0000CC,0,2.96
-2024-09-28 Georgia at Alabama,plays,1,Alabama,107,52,Jalen Milroe run for 1 yd to the UGA 41,Rush,4,20,2,Other,5,1,0,0,,,,,0.40,0.16,0.54,0.23,0.48,Jalen Milroe,,,#E82525CC,#5A0000CC,-2.5,2.85
+2024-09-28 Georgia at Alabama,plays,1,Alabama,107,52,Jalen Milroe run for 1 yd to the UGA 41,Rush,4,20,2,Other,5,1,0,0,,,,,0.4,0.16,0.54,0.23,0.48,Jalen Milroe,,,#E82525CC,#5A0000CC,-2.5,2.85
 2024-09-28 Georgia at Alabama,plays,1,Alabama,108,53,Jalen Milroe pass complete to Justice Haynes for a loss of 1 yard to the UGA 42,Pass,4,20,3,Other,4,-1,0,0,,,,,0.64,0.29,0.53,0.23,0.47,,Jalen Milroe,Justice Haynes,#E82525CC,#5A0000CC,-5,2.71
-2024-09-28 Georgia at Alabama,plays,2,Georgia,109,56,Carson Beck pass incomplete to Dillon Bell,Pass,4,21,1,Other,10,0,0,0,,,,,0.32,0.11,0.38,0.09,0.34,,Carson Beck,,#8C8C8CCC,#404040CC,-5,-0.49
-2024-09-28 Georgia at Alabama,plays,2,Georgia,110,57,Carson Beck pass complete to Trevor Etienne for 7 yds to the UGA 27,Pass,4,21,2,Other,10,7,0,1,,,,,0.34,0.11,0.39,0.09,0.33,,Carson Beck,Trevor Etienne,#8C8C8CCC,#404040CC,0,-0.48
-2024-09-28 Georgia at Alabama,plays,2,Georgia,111,58,Carson Beck pass incomplete to Dominic Lovett,Pass,4,21,3,Other,3,0,0,0,,,,,0.33,0.10,0.38,0.09,0.33,,Carson Beck,,#8C8C8CCC,#404040CC,-3,-0.52
-2024-09-28 Georgia at Alabama,plays,2,Georgia,112,59,Carson Beck pass complete to Anthony Evans III for 21 yds to the ALA 42 for a 1ST down,Pass,4,21,1,Other,10,21,1,1,,,,,0.35,0.13,0.39,0.10,0.32,,Carson Beck,Anthony Evans III,#8C8C8CCC,#404040CC,16,-0.24
-2024-09-28 Georgia at Alabama,plays,2,Georgia,113,60,Carson Beck pass complete to Colbie Young for 34 yds to the ALA 8 for a 1ST down,Pass,4,21,1,Other,10,34,1,1,,,,,0.37,0.15,0.40,0.12,0.32,,Carson Beck,Colbie Young,#8C8C8CCC,#404040CC,29,0.24
-2024-09-28 Georgia at Alabama,plays,2,Georgia,114,61,Carson Beck pass complete to Lawson Luckie for 8 yds for a TD (Two-Point Conversion failed),Pass,4,21,1,Red zone,8,8,0,1,,,,,0.38,0.14,0.41,0.11,0.31,,Carson Beck,Lawson Luckie,#8C8C8CCC,#404040CC,4,0.30
+2024-09-28 Georgia at Alabama,plays,2,Georgia,109,56,Carson Beck pass incomplete to Dillon Bell,Pass,4,21,1,Other,10,0,0,0,,,,,0.31,0.11,0.38,0.09,0.36,,Carson Beck,,#8C8C8CCC,#404040CC,-5,-0.49
+2024-09-28 Georgia at Alabama,plays,2,Georgia,110,57,Carson Beck pass complete to Trevor Etienne for 7 yds to the UGA 27,Pass,4,21,2,Other,10,7,0,1,,,,,0.32,0.11,0.39,0.09,0.35,,Carson Beck,Trevor Etienne,#8C8C8CCC,#404040CC,0,-0.48
+2024-09-28 Georgia at Alabama,plays,2,Georgia,111,58,Carson Beck pass incomplete to Dominic Lovett,Pass,4,21,3,Other,3,0,0,0,,,,,0.32,0.11,0.38,0.09,0.34,,Carson Beck,,#8C8C8CCC,#404040CC,-3,-0.52
+2024-09-28 Georgia at Alabama,plays,2,Georgia,112,59,Carson Beck pass complete to Anthony Evans III for 21 yds to the ALA 42 for a 1ST down,Pass,4,21,1,Other,10,21,1,1,,,,,0.33,0.13,0.39,0.1,0.34,,Carson Beck,Anthony Evans III,#8C8C8CCC,#404040CC,16,-0.24
+2024-09-28 Georgia at Alabama,plays,2,Georgia,113,60,Carson Beck pass complete to Colbie Young for 34 yds to the ALA 8 for a 1ST down,Pass,4,21,1,Other,10,34,1,1,,,,,0.35,0.15,0.4,0.12,0.33,,Carson Beck,Colbie Young,#8C8C8CCC,#404040CC,29,0.24
+2024-09-28 Georgia at Alabama,plays,2,Georgia,114,61,Lawson Luckie 8 Yd pass from Carson Beck (Two-Point Pass Conversion Failed),Pass,4,21,1,Red zone,8,8,0,1,,,,,0.37,0.15,0.41,0.11,0.33,,Carson Beck,Lawson Luckie,#8C8C8CCC,#404040CC,4,0.3
 2024-09-28 Georgia at Alabama,plays,1,Alabama,115,54,Jalen Milroe pass incomplete to CJ Dippre,Pass,4,22,1,Other,10,0,0,0,,,,,0.62,0.28,0.52,0.22,0.46,,Jalen Milroe,,#E82525CC,#5A0000CC,-5,2.56
 2024-09-28 Georgia at Alabama,plays,1,Alabama,116,55,Jalen Milroe run for 4 yds to the ALA 29,Rush,4,22,2,Other,10,4,0,0,,,,,0.38,0.15,0.51,0.22,0.47,Jalen Milroe,,,#E82525CC,#5A0000CC,-3,2.46
-2024-09-28 Georgia at Alabama,plays,1,Alabama,117,56,Jalen Milroe pass complete to Cole Adams for 15 yds to the ALA 44 for a 1ST down,Pass,4,22,3,Other,6,15,1,1,,,,,0.63,0.30,0.52,0.23,0.46,,Jalen Milroe,Cole Adams,#E82525CC,#5A0000CC,9,2.58
+2024-09-28 Georgia at Alabama,plays,1,Alabama,117,56,Jalen Milroe pass complete to Cole Adams for 15 yds to the ALA 44 for a 1ST down,Pass,4,22,3,Other,6,15,1,1,,,,,0.63,0.3,0.52,0.23,0.46,,Jalen Milroe,Cole Adams,#E82525CC,#5A0000CC,9,2.58
 2024-09-28 Georgia at Alabama,plays,1,Alabama,118,57,Jam Miller run for a loss of 1 yard to the ALA 43,Rush,4,22,1,Other,10,-1,0,0,,,,,0.37,0.15,0.51,0.23,0.47,Jam Miller,,,#E82525CC,#5A0000CC,-6,2.43
-2024-09-28 Georgia at Alabama,plays,1,Alabama,119,58,Jalen Milroe run for no gain to the ALA 43,Rush,4,22,2,Other,11,0,0,0,,,,,0.36,0.14,0.50,0.22,0.48,Jalen Milroe,,,#E82525CC,#5A0000CC,-7.7,2.25
+2024-09-28 Georgia at Alabama,plays,1,Alabama,119,58,Jalen Milroe run for no gain to the ALA 43,Rush,4,22,2,Other,11,0,0,0,,,,,0.36,0.14,0.5,0.22,0.48,Jalen Milroe,,,#E82525CC,#5A0000CC,-7.7,2.25
 2024-09-28 Georgia at Alabama,plays,1,Alabama,120,59,Jalen Milroe pass incomplete to Ryan Williams,Pass,4,22,3,Other,11,0,0,0,,,,,0.61,0.29,0.49,0.22,0.47,,Jalen Milroe,,#E82525CC,#5A0000CC,-11,2.03
-2024-09-28 Georgia at Alabama,plays,2,Georgia,121,62,Carson Beck pass complete to Cash Jones for 30 yds to the ALA 48 for a 1ST down,Pass,4,23,1,Other,10,30,1,1,,,,,0.40,0.16,0.42,0.13,0.31,,Carson Beck,Cash Jones,#8C8C8CCC,#404040CC,25,0.70
-2024-09-28 Georgia at Alabama,plays,2,Georgia,122,63,Carson Beck pass complete to Arian Smith for 47 yds to the ALA 1 for a 1ST down,Pass,4,23,1,Other,10,47,1,1,,,,,0.41,0.18,0.43,0.14,0.30,,Carson Beck,Arian Smith,#8C8C8CCC,#404040CC,42,1.36
-2024-09-28 Georgia at Alabama,plays,2,Georgia,123,64,Cash Jones run for a loss of 2 yards to the ALA 3,Rush,4,23,1,Red zone,1,-2,0,0,,,,,0.45,0.05,0.42,0.14,0.31,Cash Jones,,,#8C8C8CCC,#404040CC,-2.5,1.30
-2024-09-28 Georgia at Alabama,plays,2,Georgia,124,65,Dillon Bell run for 3 yds for a TD (Peyton Woodring KICK),Rush,4,23,2,Red zone,3,3,0,1,,,,,0.48,0.05,0.43,0.14,0.32,Dillon Bell,,,#8C8C8CCC,#404040CC,0.9,1.29
+2024-09-28 Georgia at Alabama,plays,2,Georgia,121,62,Carson Beck pass complete to Cash Jones for 30 yds to the ALA 48 for a 1ST down,Pass,4,23,1,Other,10,30,1,1,,,,,0.38,0.17,0.42,0.13,0.32,,Carson Beck,Cash Jones,#8C8C8CCC,#404040CC,25,0.7
+2024-09-28 Georgia at Alabama,plays,2,Georgia,122,63,Carson Beck pass complete to Arian Smith for 47 yds to the ALA 1 for a 1ST down,Pass,4,23,1,Other,10,47,1,1,,,,,0.4,0.19,0.43,0.14,0.32,,Carson Beck,Arian Smith,#8C8C8CCC,#404040CC,42,1.36
+2024-09-28 Georgia at Alabama,plays,2,Georgia,123,64,Cash Jones run for a loss of 2 yards to the ALA 3,Rush,4,23,1,Red zone,1,-2,0,0,,,,,0.48,0.05,0.42,0.14,0.33,Cash Jones,,,#8C8C8CCC,#404040CC,-2.5,1.3
+2024-09-28 Georgia at Alabama,plays,2,Georgia,124,65,Dillon Bell 3 yd run (Peyton Woodring Kick),Rush,4,23,2,Red zone,3,3,0,1,,,,,0.5,0.05,0.43,0.14,0.34,Dillon Bell,,,#8C8C8CCC,#404040CC,0.9,1.29
 2024-09-28 Georgia at Alabama,plays,1,Alabama,125,60,Justice Haynes run for 4 yds to the ALA 7,Rush,4,24,1,Other,10,4,0,0,,,,,0.34,0.14,0.48,0.22,0.48,Justice Haynes,,,#E82525CC,#5A0000CC,-1,1.98
 2024-09-28 Georgia at Alabama,plays,1,Alabama,126,61,Jalen Milroe pass complete to Germie Bernard for 10 yds to the ALA 17 for a 1ST down,Pass,4,24,2,Other,6,10,0,1,,,,,0.63,0.28,0.49,0.21,0.48,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,5.8,2.04
 2024-09-28 Georgia at Alabama,plays,1,Alabama,127,62,Justice Haynes run for 2 yds to the ALA 19,Rush,4,24,1,Other,10,2,0,0,,,,,0.33,0.13,0.48,0.21,0.48,Justice Haynes,,,#E82525CC,#5A0000CC,-3,1.96
-2024-09-28 Georgia at Alabama,plays,1,Alabama,128,63,Jalen Milroe pass complete to CJ Dippre for 4 yds to the ALA 23,Pass,4,24,2,Other,8,4,0,0,,,,,0.61,0.27,0.48,0.21,0.48,,Jalen Milroe,CJ Dippre,#E82525CC,#5A0000CC,-1.6,1.90
-2024-09-28 Georgia at Alabama,plays,1,Alabama,129,64,Jalen Milroe pass complete to Justice Haynes for 3 yds to the ALA 26,Pass,4,24,3,Other,4,3,0,0,,,,,0.59,0.26,0.47,0.20,0.47,,Jalen Milroe,Justice Haynes,#E82525CC,#5A0000CC,-1,1.86
-2024-09-28 Georgia at Alabama,plays,2,Georgia,130,66,Carson Beck pass complete to Dillon Bell for 67 yds for a TD (Two-Point Conversion failed),Pass,4,25,1,Other,10,67,1,1,,,,,0.42,0.20,0.44,0.15,0.32,,Carson Beck,Dillon Bell,#8C8C8CCC,#404040CC,62,2.21
-2024-09-28 Georgia at Alabama,plays,1,Alabama,131,65,Jalen Milroe pass complete to Ryan Williams for 75 yds for a TD (Jalen Milroe pass to Germie Bernard for Two-Point Conversion),Pass,4,26,1,Other,10,75,1,1,,,,,0.60,0.29,0.48,0.22,0.46,,Jalen Milroe,Ryan Williams,#E82525CC,#5A0000CC,70,2.91
-2024-09-28 Georgia at Alabama,plays,2,Georgia,132,67,Carson Beck pass incomplete to Arian Smith,Pass,4,27,1,Other,10,0,0,0,,,,,0.41,0.20,0.43,0.15,0.31,,Carson Beck,,#8C8C8CCC,#404040CC,-5,2.10
-2024-09-28 Georgia at Alabama,plays,2,Georgia,133,68,Carson Beck run for 8 yds to the UGA 33,Rush,4,27,2,Other,10,8,0,1,,,,,0.50,0.05,0.44,0.15,0.32,Carson Beck,,,#8C8C8CCC,#404040CC,1,2.09
-2024-09-28 Georgia at Alabama,plays,2,Georgia,134,69,Trevor Etienne run for 12 yds to the UGA 45 for a 1ST down,Rush,4,27,3,Other,2,12,0,1,,,,,0.52,0.04,0.45,0.14,0.33,Trevor Etienne,,,#8C8C8CCC,#404040CC,10,2.20
-2024-09-28 Georgia at Alabama,plays,2,Georgia,135,70,Carson Beck pass incomplete to Lawson Luckie,Pass,4,27,1,Other,10,0,0,0,,,,,0.40,0.19,0.44,0.14,0.33,,Carson Beck,,#8C8C8CCC,#404040CC,-5,2.10
-2024-09-28 Georgia at Alabama,plays,2,Georgia,136,71,Carson Beck pass complete to Dillon Bell for 8 yds to the ALA 47,Pass,4,27,2,Other,10,8,0,1,,,,,0.42,0.19,0.45,0.14,0.32,,Carson Beck,Dillon Bell,#8C8C8CCC,#404040CC,1,2.08
-2024-09-28 Georgia at Alabama,plays,2,Georgia,137,72,Carson Beck pass incomplete to Dominic Lovett,Pass,4,27,3,Other,2,0,0,0,,,,,0.41,0.18,0.44,0.14,0.32,,Carson Beck,,#8C8C8CCC,#404040CC,-2,2.03
-2024-09-28 Georgia at Alabama,plays,2,Georgia,138,73,Carson Beck pass complete to Colbie Young for 11 yds to the ALA 36 for a 1ST down,Pass,4,27,4,Other,2,11,0,1,,,,,0.42,0.18,0.45,0.14,0.32,,Carson Beck,Colbie Young,#8C8C8CCC,#404040CC,9,2.12
-2024-09-28 Georgia at Alabama,plays,2,Georgia,139,74,Carson Beck run for 2 yds to the ALA 34,Rush,4,27,1,Other,10,2,0,0,,,,,0.50,0.04,0.45,0.14,0.32,Carson Beck,,,#8C8C8CCC,#404040CC,-3,2.05
-2024-09-28 Georgia at Alabama,plays,2,Georgia,140,75,Carson Beck pass incomplete to Colbie Young,Pass,4,27,2,Other,8,0,0,0,,,,,0.41,0.18,0.44,0.13,0.32,,Carson Beck,,#8C8C8CCC,#404040CC,-5.6,1.95
-2024-09-28 Georgia at Alabama,plays,2,Georgia,141,76,Carson Beck pass complete to Lawson Luckie for 14 yds to the ALA 20 for a 1ST down,Pass,4,27,3,Other,8,14,0,1,,,,,0.42,0.17,0.45,0.13,0.32,,Carson Beck,Lawson Luckie,#8C8C8CCC,#404040CC,6,2.01
-2024-09-28 Georgia at Alabama,plays,2,Georgia,142,77,"Carson Beck pass intercepted, touchback. Zabien Brown return for no gain",Pass,4,27,1,Red zone,10,0,0,0,,,,,0.42,0.17,0.44,0.13,0.31,,Carson Beck,,#8C8C8CCC,#404040CC,-5,1.91
+2024-09-28 Georgia at Alabama,plays,1,Alabama,128,63,Jalen Milroe pass complete to CJ Dippre for 4 yds to the ALA 23,Pass,4,24,2,Other,8,4,0,0,,,,,0.61,0.27,0.48,0.21,0.48,,Jalen Milroe,CJ Dippre,#E82525CC,#5A0000CC,-1.6,1.9
+2024-09-28 Georgia at Alabama,plays,1,Alabama,129,64,Jalen Milroe pass complete to Justice Haynes for 3 yds to the ALA 26,Pass,4,24,3,Other,4,3,0,0,,,,,0.59,0.26,0.47,0.2,0.47,,Jalen Milroe,Justice Haynes,#E82525CC,#5A0000CC,-1,1.86
+2024-09-28 Georgia at Alabama,plays,2,Georgia,130,66,Dillon Bell 67 Yd pass from Carson Beck (Two-Point Run Conversion Failed),Pass,4,25,1,Other,10,67,1,1,,,,,0.41,0.2,0.44,0.15,0.33,,Carson Beck,Dillon Bell,#8C8C8CCC,#404040CC,62,2.21
+2024-09-28 Georgia at Alabama,plays,1,Alabama,131,65,Ryan Williams 75 Yd pass from Jalen Milroe (Jalen Milroe Pass to Germie Bernard for Two-Point Conversion),Pass,4,26,1,Other,10,75,1,1,,,,,0.6,0.29,0.48,0.22,0.46,,Jalen Milroe,Ryan Williams,#E82525CC,#5A0000CC,70,2.91
+2024-09-28 Georgia at Alabama,plays,2,Georgia,132,67,Carson Beck pass incomplete to Arian Smith,Pass,4,27,1,Other,10,0,0,0,,,,,0.4,0.2,0.43,0.15,0.33,,Carson Beck,,#8C8C8CCC,#404040CC,-5,2.1
+2024-09-28 Georgia at Alabama,plays,2,Georgia,133,68,Carson Beck run for 8 yds to the UGA 33,Rush,4,27,2,Other,10,8,0,1,,,,,0.52,0.04,0.44,0.15,0.34,Carson Beck,,,#8C8C8CCC,#404040CC,1,2.09
+2024-09-28 Georgia at Alabama,plays,2,Georgia,134,69,Trevor Etienne run for 12 yds to the UGA 45 for a 1ST down,Rush,4,27,3,Other,2,12,0,1,,,,,0.54,0.04,0.45,0.14,0.35,Trevor Etienne,,,#8C8C8CCC,#404040CC,10,2.2
+2024-09-28 Georgia at Alabama,plays,2,Georgia,135,70,Carson Beck pass incomplete to Lawson Luckie,Pass,4,27,1,Other,10,0,0,0,,,,,0.39,0.2,0.44,0.14,0.34,,Carson Beck,,#8C8C8CCC,#404040CC,-5,2.1
+2024-09-28 Georgia at Alabama,plays,2,Georgia,136,71,Carson Beck pass complete to Dillon Bell for 8 yds to the ALA 47,Pass,4,27,2,Other,10,8,0,1,,,,,0.4,0.19,0.45,0.14,0.34,,Carson Beck,Dillon Bell,#8C8C8CCC,#404040CC,1,2.08
+2024-09-28 Georgia at Alabama,plays,2,Georgia,137,72,Carson Beck pass incomplete to Dominic Lovett,Pass,4,27,3,Other,2,0,0,0,,,,,0.4,0.19,0.44,0.14,0.33,,Carson Beck,,#8C8C8CCC,#404040CC,-2,2.03
+2024-09-28 Georgia at Alabama,plays,2,Georgia,138,73,Carson Beck pass complete to Colbie Young for 11 yds to the ALA 36 for a 1ST down,Pass,4,27,4,Other,2,11,0,1,,,,,0.41,0.18,0.45,0.14,0.33,,Carson Beck,Colbie Young,#8C8C8CCC,#404040CC,9,2.12
+2024-09-28 Georgia at Alabama,plays,2,Georgia,139,74,Carson Beck run for 2 yds to the ALA 34,Rush,4,27,1,Other,10,2,0,0,,,,,0.52,0.04,0.45,0.14,0.34,Carson Beck,,,#8C8C8CCC,#404040CC,-3,2.05
+2024-09-28 Georgia at Alabama,plays,2,Georgia,140,75,Carson Beck pass incomplete to Colbie Young,Pass,4,27,2,Other,8,0,0,0,,,,,0.4,0.18,0.44,0.13,0.33,,Carson Beck,,#8C8C8CCC,#404040CC,-5.6,1.95
+2024-09-28 Georgia at Alabama,plays,2,Georgia,141,76,Carson Beck pass complete to Lawson Luckie for 14 yds to the ALA 20 for a 1ST down,Pass,4,27,3,Other,8,14,0,1,,,,,0.41,0.18,0.45,0.13,0.33,,Carson Beck,Lawson Luckie,#8C8C8CCC,#404040CC,6,2.01
+2024-09-28 Georgia at Alabama,plays,2,Georgia,142,77,"Carson Beck pass intercepted, touchback. Zabien Brown return for no gain",Pass,4,27,1,Red zone,10,0,0,0,,,,,0.4,0.17,0.44,0.13,0.32,,Carson Beck,,#8C8C8CCC,#404040CC,-5,1.91
 2024-09-28 Georgia at Alabama,plays,1,Alabama,143,66,TEAM run for a loss of 2 yards to the ALA 18,Rush,4,28,1,Other,10,-2,0,0,,,,,0.32,0.13,0.47,0.21,0.47,TEAM,,,#E82525CC,#5A0000CC,-7,2.76
 2024-09-28 Georgia at Alabama,plays,1,Alabama,144,67,TEAM run for a loss of 2 yards to the ALA 16,Rush,4,28,2,Other,12,-2,0,0,,,,,0.31,0.13,0.46,0.21,0.48,TEAM,,,#E82525CC,#5A0000CC,-10.4,2.56
+2024-10-05 Alabama at Vanderbilt,teams,1,Alabama,,,,,,,,,,,8,25,,,,45,0.56,0.18,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-10-05 Alabama at Vanderbilt,teams,2,Vanderbilt,,,,,,,,,,,6,31,,,,74,0.42,0.08,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
+2024-10-05 Alabama at Vanderbilt,play_type,1,Alabama,,,,Rush,,,,,,,1,9,,,,19,0.47,0.05,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-10-05 Alabama at Vanderbilt,play_type,2,Vanderbilt,,,,Rush,,,,,,,0,17,,,,53,0.32,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
+2024-10-05 Alabama at Vanderbilt,play_type,1,Alabama,,,,Pass,,,,,,,7,16,,,,26,0.62,0.27,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-10-05 Alabama at Vanderbilt,play_type,2,Vanderbilt,,,,Pass,,,,,,,6,14,,,,21,0.67,0.29,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
+2024-10-05 Alabama at Vanderbilt,quarter,1,Alabama,,,,,1Q,,,,,,2,3,,,,10,0.30,0.20,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-10-05 Alabama at Vanderbilt,quarter,1,Alabama,,,,,2Q,,,,,,2,7,,,,13,0.54,0.15,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-10-05 Alabama at Vanderbilt,quarter,1,Alabama,,,,,3Q,,,,,,1,8,,,,11,0.73,0.09,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-10-05 Alabama at Vanderbilt,quarter,1,Alabama,,,,,4Q,,,,,,3,7,,,,11,0.64,0.27,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-10-05 Alabama at Vanderbilt,quarter,2,Vanderbilt,,,,,1Q,,,,,,1,10,,,,18,0.56,0.06,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
+2024-10-05 Alabama at Vanderbilt,quarter,2,Vanderbilt,,,,,2Q,,,,,,1,7,,,,21,0.33,0.05,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
+2024-10-05 Alabama at Vanderbilt,quarter,2,Vanderbilt,,,,,3Q,,,,,,2,4,,,,15,0.27,0.13,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
+2024-10-05 Alabama at Vanderbilt,quarter,2,Vanderbilt,,,,,4Q,,,,,,2,10,,,,20,0.50,0.10,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
+2024-10-05 Alabama at Vanderbilt,down,1,Alabama,,,,,,,1D,,,,2,14,,,,24,0.58,0.08,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-10-05 Alabama at Vanderbilt,down,1,Alabama,,,,,,,2D,,,,3,7,,,,14,0.50,0.21,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-10-05 Alabama at Vanderbilt,down,1,Alabama,,,,,,,3D,,,,3,3,,,,6,0.50,0.50,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-10-05 Alabama at Vanderbilt,down,1,Alabama,,,,,,,4D,,,,0,1,,,,1,1.00,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-10-05 Alabama at Vanderbilt,down,2,Vanderbilt,,,,,,,1D,,,,2,11,,,,31,0.35,0.06,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
+2024-10-05 Alabama at Vanderbilt,down,2,Vanderbilt,,,,,,,2D,,,,2,8,,,,25,0.32,0.08,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
+2024-10-05 Alabama at Vanderbilt,down,2,Vanderbilt,,,,,,,3D,,,,1,11,,,,17,0.65,0.06,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
+2024-10-05 Alabama at Vanderbilt,down,2,Vanderbilt,,,,,,,4D,,,,1,1,,,,1,1.00,1.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
+2024-10-05 Alabama at Vanderbilt,red_zone,1,Alabama,,,,,,,,Other,,,8,20,,,,36,0.56,0.22,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-10-05 Alabama at Vanderbilt,red_zone,1,Alabama,,,,,,,,Red zone,,,0,5,,,,9,0.56,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-10-05 Alabama at Vanderbilt,red_zone,2,Vanderbilt,,,,,,,,Other,,,6,23,,,,60,0.38,0.10,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
+2024-10-05 Alabama at Vanderbilt,red_zone,2,Vanderbilt,,,,,,,,Red zone,,,0,8,,,,14,0.57,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
+2024-10-05 Alabama at Vanderbilt,distance,1,Alabama,,,,,,,,,0-3 yds,,0,5,,,,6,0.83,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-10-05 Alabama at Vanderbilt,distance,1,Alabama,,,,,,,,,4-6 yds,,4,4,,,,7,0.57,0.57,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-10-05 Alabama at Vanderbilt,distance,1,Alabama,,,,,,,,,7-9 yds,,1,2,,,,5,0.40,0.20,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-10-05 Alabama at Vanderbilt,distance,1,Alabama,,,,,,,,,9> yds,,3,14,,,,27,0.52,0.11,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-10-05 Alabama at Vanderbilt,distance,2,Vanderbilt,,,,,,,,,0-3 yds,,1,8,,,,12,0.67,0.08,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
+2024-10-05 Alabama at Vanderbilt,distance,2,Vanderbilt,,,,,,,,,4-6 yds,,1,4,,,,8,0.50,0.13,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
+2024-10-05 Alabama at Vanderbilt,distance,2,Vanderbilt,,,,,,,,,7-9 yds,,1,7,,,,16,0.44,0.06,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
+2024-10-05 Alabama at Vanderbilt,distance,2,Vanderbilt,,,,,,,,,9> yds,,3,12,,,,38,0.32,0.08,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
+2024-10-05 Alabama at Vanderbilt,drive,1,Alabama,,,,,,2,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-10-05 Alabama at Vanderbilt,drive,1,Alabama,,,,,,3,,,,,2,3,,,,7,0.43,0.29,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-10-05 Alabama at Vanderbilt,drive,1,Alabama,,,,,,5,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-10-05 Alabama at Vanderbilt,drive,1,Alabama,,,,,,7,,,,,2,7,,,,9,0.78,0.22,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-10-05 Alabama at Vanderbilt,drive,1,Alabama,,,,,,9,,,,,0,0,,,,1,0.00,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-10-05 Alabama at Vanderbilt,drive,1,Alabama,,,,,,10,,,,,0,5,,,,5,1.00,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-10-05 Alabama at Vanderbilt,drive,1,Alabama,,,,,,12,,,,,0,0,,,,2,0.00,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-10-05 Alabama at Vanderbilt,drive,1,Alabama,,,,,,14,,,,,1,3,,,,4,0.75,0.25,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-10-05 Alabama at Vanderbilt,drive,1,Alabama,,,,,,16,,,,,2,2,,,,3,0.67,0.67,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-10-05 Alabama at Vanderbilt,drive,1,Alabama,,,,,,18,,,,,1,5,,,,8,0.63,0.13,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-10-05 Alabama at Vanderbilt,drive,2,Vanderbilt,,,,,,1,,,,,1,8,,,,10,0.80,0.10,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
+2024-10-05 Alabama at Vanderbilt,drive,2,Vanderbilt,,,,,,4,,,,,0,5,,,,16,0.31,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
+2024-10-05 Alabama at Vanderbilt,drive,2,Vanderbilt,,,,,,6,,,,,0,3,,,,7,0.43,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
+2024-10-05 Alabama at Vanderbilt,drive,2,Vanderbilt,,,,,,8,,,,,1,1,,,,6,0.17,0.17,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
+2024-10-05 Alabama at Vanderbilt,drive,2,Vanderbilt,,,,,,11,,,,,0,2,,,,9,0.22,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
+2024-10-05 Alabama at Vanderbilt,drive,2,Vanderbilt,,,,,,13,,,,,1,1,,,,4,0.25,0.25,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
+2024-10-05 Alabama at Vanderbilt,drive,2,Vanderbilt,,,,,,15,,,,,1,3,,,,8,0.38,0.13,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
+2024-10-05 Alabama at Vanderbilt,drive,2,Vanderbilt,,,,,,17,,,,,1,5,,,,7,0.71,0.14,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
+2024-10-05 Alabama at Vanderbilt,drive,2,Vanderbilt,,,,,,19,,,,,1,3,,,,7,0.43,0.14,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
+2024-10-05 Alabama at Vanderbilt,rusher,1,Alabama,,,,,,,,,,,1,2,,2,,,0.00,0.00,0.00,0.00,0.00,Jam Miller,,,#E82525CC,#5A0000CC,,0.00
+2024-10-05 Alabama at Vanderbilt,rusher,1,Alabama,,,,,,,,,,,0,2,,4,,,0.00,0.00,0.00,0.00,0.00,Justice Haynes,,,#E82525CC,#5A0000CC,,0.00
+2024-10-05 Alabama at Vanderbilt,rusher,1,Alabama,,,,,,,,,,,0,2,,3,,,0.00,0.00,0.00,0.00,0.00,Jalen Milroe,,,#E82525CC,#5A0000CC,,0.00
+2024-10-05 Alabama at Vanderbilt,rusher,1,Alabama,,,,,,,,,,,0,1,,0,,,0.00,0.00,0.00,0.00,0.00,Germie Bernard,,,#E82525CC,#5A0000CC,,0.00
+2024-10-05 Alabama at Vanderbilt,rusher,1,Alabama,,,,,,,,,,,0,1,,0,,,0.00,0.00,0.00,0.00,0.00,Ryan Williams,,,#E82525CC,#5A0000CC,,0.00
+2024-10-05 Alabama at Vanderbilt,rusher,2,Vanderbilt,,,,,,,,,,,0,7,,14,,,0.00,0.00,0.00,0.00,0.00,Sedrick Alexander,,,#8C8C8CCC,#404040CC,,0.00
+2024-10-05 Alabama at Vanderbilt,rusher,2,Vanderbilt,,,,,,,,,,,0,6,,13,,,0.00,0.00,0.00,0.00,0.00,Diego Pavia,,,#8C8C8CCC,#404040CC,,0.00
+2024-10-05 Alabama at Vanderbilt,rusher,2,Vanderbilt,,,,,,,,,,,0,3,,4,,,0.00,0.00,0.00,0.00,0.00,AJ Newberry,,,#8C8C8CCC,#404040CC,,0.00
+2024-10-05 Alabama at Vanderbilt,rusher,2,Vanderbilt,,,,,,,,,,,0,1,,0,,,0.00,0.00,0.00,0.00,0.00,Junior Sherrill,,,#8C8C8CCC,#404040CC,,0.00
+2024-10-05 Alabama at Vanderbilt,rusher,2,Vanderbilt,,,,,,,,,,,0,0,,2,,,0.00,0.00,0.00,0.00,0.00,Chase Gillespie,,,#8C8C8CCC,#404040CC,,0.00
+2024-10-05 Alabama at Vanderbilt,rusher,2,Vanderbilt,,,,,,,,,,,0,0,,2,,,0.00,0.00,0.00,0.00,0.00,Jamoni Jones,,,#8C8C8CCC,#404040CC,,0.00
+2024-10-05 Alabama at Vanderbilt,passer,1,Alabama,,,,,,,,,,,7,9,2,5,1,,0.00,0.00,0.00,0.00,0.00,,Jalen Milroe,,#E82525CC,#5A0000CC,,0.00
+2024-10-05 Alabama at Vanderbilt,passer,2,Vanderbilt,,,,,,,,,,,6,8,2,4,0,,0.00,0.00,0.00,0.00,0.00,,Diego Pavia,,#8C8C8CCC,#404040CC,,0.00
+2024-10-05 Alabama at Vanderbilt,passer,2,Vanderbilt,,,,,,,,,,,0,0,0,1,0,,0.00,0.00,0.00,0.00,0.00,,Nate Johnson,,#8C8C8CCC,#404040CC,,0.00
+2024-10-05 Alabama at Vanderbilt,receiver,1,Alabama,,,,,,,,,,,1,2,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Ryan Williams,#E82525CC,#5A0000CC,,0.00
+2024-10-05 Alabama at Vanderbilt,receiver,1,Alabama,,,,,,,,,,,0,2,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Cole Adams,#E82525CC,#5A0000CC,,0.00
+2024-10-05 Alabama at Vanderbilt,receiver,1,Alabama,,,,,,,,,,,0,2,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Justice Haynes,#E82525CC,#5A0000CC,,0.00
+2024-10-05 Alabama at Vanderbilt,receiver,1,Alabama,,,,,,,,,,,2,1,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Germie Bernard,#E82525CC,#5A0000CC,,0.00
+2024-10-05 Alabama at Vanderbilt,receiver,1,Alabama,,,,,,,,,,,1,1,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Josh Cuevas,#E82525CC,#5A0000CC,,0.00
+2024-10-05 Alabama at Vanderbilt,receiver,1,Alabama,,,,,,,,,,,0,1,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Robbie Ouzts,#E82525CC,#5A0000CC,,0.00
+2024-10-05 Alabama at Vanderbilt,receiver,1,Alabama,,,,,,,,,,,2,0,0,0,,,0.00,0.00,0.00,0.00,0.00,,,CJ Dippre,#E82525CC,#5A0000CC,,0.00
+2024-10-05 Alabama at Vanderbilt,receiver,1,Alabama,,,,,,,,,,,1,0,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Kobe Prentice,#E82525CC,#5A0000CC,,0.00
+2024-10-05 Alabama at Vanderbilt,receiver,1,Alabama,,,,,,,,,,,0,0,2,0,,,0.00,0.00,0.00,0.00,0.00,,,Jam Miller,#E82525CC,#5A0000CC,,0.00
+2024-10-05 Alabama at Vanderbilt,receiver,2,Vanderbilt,,,,,,,,,,,3,3,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Eli Stowers,#8C8C8CCC,#404040CC,,0.00
+2024-10-05 Alabama at Vanderbilt,receiver,2,Vanderbilt,,,,,,,,,,,1,1,1,0,,,0.00,0.00,0.00,0.00,0.00,,,Quincy Skinner Jr.,#8C8C8CCC,#404040CC,,0.00
+2024-10-05 Alabama at Vanderbilt,receiver,2,Vanderbilt,,,,,,,,,,,1,1,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Junior Sherrill,#8C8C8CCC,#404040CC,,0.00
+2024-10-05 Alabama at Vanderbilt,receiver,2,Vanderbilt,,,,,,,,,,,0,1,0,0,,,0.00,0.00,0.00,0.00,0.00,,,AJ Newberry,#8C8C8CCC,#404040CC,,0.00
+2024-10-05 Alabama at Vanderbilt,receiver,2,Vanderbilt,,,,,,,,,,,0,1,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Cole Spence,#8C8C8CCC,#404040CC,,0.00
+2024-10-05 Alabama at Vanderbilt,receiver,2,Vanderbilt,,,,,,,,,,,0,1,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Kamrean Johnson,#8C8C8CCC,#404040CC,,0.00
+2024-10-05 Alabama at Vanderbilt,receiver,2,Vanderbilt,,,,,,,,,,,1,0,1,0,,,0.00,0.00,0.00,0.00,0.00,,,Sedrick Alexander,#8C8C8CCC,#404040CC,,0.00
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,1,1,Sedrick Alexander run for 2 yds to the VAN 27,Rush,1,1,1,Other,10,2,0,0,,,,,0.00,0.00,0.00,0.00,1.00,Sedrick Alexander,,,#8C8C8CCC,#404040CC,-3,-3.00
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,2,2,AJ Newberry run for 8 yds to the VAN 35 for a 1ST down,Rush,1,1,2,Other,8,8,0,1,,,,,0.50,0.00,0.50,0.00,1.00,AJ Newberry,,,#8C8C8CCC,#404040CC,2.4,-0.30
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,3,3,Sedrick Alexander run for 7 yds to the VAN 42,Rush,1,1,1,Other,10,7,0,1,,,,,0.67,0.00,0.67,0.00,1.00,Sedrick Alexander,,,#8C8C8CCC,#404040CC,2,0.47
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,4,4,Diego Pavia run for a loss of 2 yards to the VAN 40,Rush,1,1,2,Other,3,-2,0,0,,,,,0.50,0.00,0.50,0.00,1.00,Diego Pavia,,,#8C8C8CCC,#404040CC,-4.1,-0.68
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,5,5,Diego Pavia pass complete to AJ Newberry for 14 yds to the ALA 46 for a 1ST down,Pass,1,1,3,Other,5,14,0,1,,,,,1.00,0.00,0.60,0.00,0.80,,Diego Pavia,AJ Newberry,#8C8C8CCC,#404040CC,9,1.26
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,6,6,Diego Pavia pass complete to Quincy Skinner Jr. for 13 yds to the ALA 33 for a 1ST down,Pass,1,1,1,Other,10,13,0,1,,,,,1.00,0.00,0.67,0.00,0.67,,Diego Pavia,Quincy Skinner Jr.,#8C8C8CCC,#404040CC,8,2.38
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,7,7,Diego Pavia pass complete to Eli Stowers for 17 yds to the ALA 16 for a 1ST down,Pass,1,1,1,Other,10,17,1,1,,,,,1.00,0.33,0.71,0.14,0.57,,Diego Pavia,Eli Stowers,#8C8C8CCC,#404040CC,12,3.76
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,8,8,Diego Pavia run for 5 yds to the ALA 11,Rush,1,1,1,Red zone,10,5,0,1,,,,,0.60,0.00,0.75,0.13,0.63,Diego Pavia,,,#8C8C8CCC,#404040CC,0,3.29
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,9,9,Sedrick Alexander run for 4 yds to the ALA 7,Rush,1,1,2,Red zone,5,4,0,1,,,,,0.67,0.00,0.78,0.11,0.67,Sedrick Alexander,,,#8C8C8CCC,#404040CC,0.5,2.98
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,10,10,Sedrick Alexander run for 7 yds for a TD (Brock Taylor KICK),Rush,1,1,3,Red zone,1,7,0,1,,,,,0.71,0.00,0.80,0.10,0.70,Sedrick Alexander,,,#8C8C8CCC,#404040CC,6,3.28
+2024-10-05 Alabama at Vanderbilt,plays,1,Alabama,11,1,Justice Haynes run for 4 yds to the ALA 29,Rush,1,2,1,Other,10,4,0,0,,,,,0.00,0.00,0.00,0.00,1.00,Justice Haynes,,,#E82525CC,#5A0000CC,-1,-1.00
+2024-10-05 Alabama at Vanderbilt,plays,1,Alabama,12,2,Jalen Milroe pass incomplete,Pass,1,2,2,Other,6,0,0,0,,,,,0.00,0.00,0.00,0.00,0.50,,Jalen Milroe,,#E82525CC,#5A0000CC,-4.2,-2.60
+2024-10-05 Alabama at Vanderbilt,plays,1,Alabama,13,3,Jalen Milroe pass intercepted Randon Fontenette return for 29 yds for a TD (Brock Taylor PAT MISSED),Pass,1,2,3,Other,6,29,0,0,,,,,0.00,0.00,0.00,0.00,0.33,,Jalen Milroe,,#E82525CC,#5A0000CC,23,5.93
+2024-10-05 Alabama at Vanderbilt,plays,1,Alabama,14,4,Justice Haynes run for a loss of 1 yard to the ALA 24,Rush,1,3,1,Other,10,-1,0,0,,,,,0.00,0.00,0.00,0.00,0.50,Justice Haynes,,,#E82525CC,#5A0000CC,-6,2.95
+2024-10-05 Alabama at Vanderbilt,plays,1,Alabama,15,5,Jalen Milroe pass complete to CJ Dippre for 46 yds to the VAN 30 for a 1ST down,Pass,1,3,2,Other,11,46,1,1,,,,,0.33,0.33,0.20,0.20,0.40,,Jalen Milroe,CJ Dippre,#E82525CC,#5A0000CC,38.3,10.02
+2024-10-05 Alabama at Vanderbilt,plays,1,Alabama,16,6,Justice Haynes run for 3 yds to the VAN 27,Rush,1,3,1,Other,10,3,0,0,,,,,0.00,0.00,0.17,0.17,0.50,Justice Haynes,,,#E82525CC,#5A0000CC,-2,8.02
+2024-10-05 Alabama at Vanderbilt,plays,1,Alabama,17,7,Jam Miller run for 1 yd to the VAN 26,Rush,1,3,2,Other,7,1,0,0,,,,,0.00,0.00,0.14,0.14,0.57,Jam Miller,,,#E82525CC,#5A0000CC,-3.9,6.31
+2024-10-05 Alabama at Vanderbilt,plays,1,Alabama,18,8,Jalen Milroe pass complete to Josh Cuevas for 17 yds to the VAN 9 for a 1ST down,Pass,1,3,3,Other,6,17,1,1,,,,,0.50,0.50,0.25,0.25,0.50,,Jalen Milroe,Josh Cuevas,#E82525CC,#5A0000CC,11,6.90
+2024-10-05 Alabama at Vanderbilt,plays,1,Alabama,19,9,Jalen Milroe run for 1 yd to the VAN 8,Rush,1,3,1,Red zone,9,1,0,0,,,,,0.00,0.00,0.22,0.22,0.56,Jalen Milroe,,,#E82525CC,#5A0000CC,-3.5,5.74
+2024-10-05 Alabama at Vanderbilt,plays,1,Alabama,20,10,Jam Miller run for 8 yds for a TD (Graham Nicholson KICK),Rush,1,3,2,Red zone,8,8,0,1,,,,,0.17,0.00,0.30,0.20,0.60,Jam Miller,,,#E82525CC,#5A0000CC,2.4,5.41
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,21,11,Sedrick Alexander run for 6 yds to the VAN 31,Rush,1,4,1,Other,10,6,0,1,,,,,0.75,0.00,0.82,0.09,0.73,Sedrick Alexander,,,#8C8C8CCC,#404040CC,1,3.07
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,22,12,Diego Pavia run for a loss of 2 yards to the VAN 29,Rush,1,4,2,Other,4,-2,0,0,,,,,0.67,0.00,0.75,0.08,0.75,Diego Pavia,,,#8C8C8CCC,#404040CC,-4.8,2.42
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,23,13,Diego Pavia pass complete to Cole Spence for 12 yds to the VAN 41 for a 1ST down,Pass,1,4,3,Other,6,12,0,1,,,,,1.00,0.25,0.77,0.08,0.69,,Diego Pavia,Cole Spence,#8C8C8CCC,#404040CC,6,2.69
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,24,14,Sedrick Alexander run for 1 yd to the VAN 42,Rush,1,4,1,Other,10,1,0,0,,,,,0.60,0.00,0.71,0.07,0.71,Sedrick Alexander,,,#8C8C8CCC,#404040CC,-4,2.21
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,25,15,Sedrick Alexander run for 1 yd to the VAN 43,Rush,1,4,2,Other,9,1,0,0,,,,,0.55,0.00,0.67,0.07,0.73,Sedrick Alexander,,,#8C8C8CCC,#404040CC,-5.3,1.71
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,26,16,Sedrick Alexander run for 4 yds to the VAN 47,Rush,1,4,3,Other,8,4,0,0,,,,,0.50,0.00,0.63,0.06,0.75,Sedrick Alexander,,,#8C8C8CCC,#404040CC,-4,1.36
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,27,17,Nate Johnson pass incomplete,Pass,1,4,1,Other,10,0,0,0,,,,,0.80,0.20,0.59,0.06,0.71,,Nate Johnson,,#8C8C8CCC,#404040CC,-5,0.98
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,28,18,Jamoni Jones run for 2 yds to the ALA 45,Rush,1,4,2,Other,10,2,0,0,,,,,0.46,0.00,0.56,0.06,0.72,Jamoni Jones,,,#8C8C8CCC,#404040CC,-5,0.65
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,29,19,Sedrick Alexander run for a loss of 1 yard to the ALA 23,Rush,2,4,1,Other,10,-1,0,0,,,,,0.43,0.00,0.53,0.05,0.74,Sedrick Alexander,,,#8C8C8CCC,#404040CC,-6,0.30
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,30,20,Diego Pavia run for no gain to the ALA 23,Rush,2,4,2,Other,11,0,0,0,,,,,0.40,0.00,0.50,0.05,0.75,Diego Pavia,,,#8C8C8CCC,#404040CC,-7.7,-0.10
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,31,21,Sedrick Alexander run for 6 yds to the ALA 5,Rush,2,4,1,Red zone,10,6,0,1,,,,,0.44,0.00,0.52,0.05,0.76,Sedrick Alexander,,,#8C8C8CCC,#404040CC,1,-0.05
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,32,22,Diego Pavia run for 2 yds to the ALA 3,Rush,2,4,2,Red zone,4,2,0,0,,,,,0.41,0.00,0.50,0.05,0.77,Diego Pavia,,,#8C8C8CCC,#404040CC,-0.8,-0.08
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,33,23,Diego Pavia run for 2 yds to the ALA 1 for a 1ST down,Rush,2,4,3,Red zone,2,2,0,1,,,,,0.44,0.00,0.52,0.04,0.78,Diego Pavia,,,#8C8C8CCC,#404040CC,0,-0.08
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,34,24,Sedrick Alexander run for a loss of 1 yard to the ALA 2,Rush,2,4,1,Red zone,1,-1,0,0,,,,,0.42,0.00,0.50,0.04,0.79,Sedrick Alexander,,,#8C8C8CCC,#404040CC,-1.5,-0.14
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,35,25,Sedrick Alexander run for 1 yd to the ALA 1,Rush,2,4,2,Red zone,2,1,0,0,,,,,0.40,0.00,0.48,0.04,0.80,Sedrick Alexander,,,#8C8C8CCC,#404040CC,-0.4,-0.15
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,36,26,Sedrick Alexander run for 1 yd for a TD (Brock Taylor KICK),Rush,2,4,3,Red zone,1,1,0,1,,,,,0.43,0.00,0.50,0.04,0.81,Sedrick Alexander,,,#8C8C8CCC,#404040CC,0,-0.14
+2024-10-05 Alabama at Vanderbilt,plays,1,Alabama,37,11,Jalen Milroe pass incomplete,Pass,2,5,1,Other,10,0,0,0,,,,,0.40,0.40,0.27,0.18,0.55,,Jalen Milroe,,#E82525CC,#5A0000CC,-5,4.46
+2024-10-05 Alabama at Vanderbilt,plays,1,Alabama,38,12,Jalen Milroe sacked by Nicholas Rinaldi for a loss of 3 yards to the ALA 11,Pass,2,5,2,Other,10,-3,0,0,,,,,0.33,0.33,0.25,0.17,0.50,,,,#E82525CC,#5A0000CC,-10,3.26
+2024-10-05 Alabama at Vanderbilt,plays,1,Alabama,39,13,Jalen Milroe pass incomplete,Pass,2,5,3,Other,13,0,0,0,,,,,0.29,0.29,0.23,0.15,0.46,,Jalen Milroe,,#E82525CC,#5A0000CC,-13,2.01
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,40,27,Diego Pavia run for 1 yd to the VAN 43,Rush,2,6,1,Other,10,1,0,0,,,,,0.41,0.00,0.48,0.04,0.81,Diego Pavia,,,#8C8C8CCC,#404040CC,-4,-0.29
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,41,28,Diego Pavia run for 12 yds to the ALA 45 for a 1ST down,Rush,2,6,2,Other,9,12,0,1,,,,,0.43,0.00,0.50,0.04,0.82,Diego Pavia,,,#8C8C8CCC,#404040CC,5.7,-0.07
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,42,29,Diego Pavia pass complete to Junior Sherrill for 9 yds to the ALA 36,Pass,2,6,1,Other,10,9,0,1,,,,,0.83,0.17,0.52,0.03,0.79,,Diego Pavia,Junior Sherrill,#8C8C8CCC,#404040CC,4,0.07
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,43,30,AJ Newberry run for 8 yds to the ALA 28 for a 1ST down,Rush,2,6,2,Other,1,8,0,1,,,,,0.46,0.00,0.53,0.03,0.80,AJ Newberry,,,#8C8C8CCC,#404040CC,7.3,0.31
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,44,31,AJ Newberry run for 1 yd to the ALA 27,Rush,2,6,1,Other,10,1,0,0,,,,,0.44,0.00,0.52,0.03,0.81,AJ Newberry,,,#8C8C8CCC,#404040CC,-4,0.17
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,45,32,Diego Pavia pass incomplete,Pass,2,6,2,Other,9,0,0,0,,,,,0.71,0.14,0.50,0.03,0.78,,Diego Pavia,,#8C8C8CCC,#404040CC,-6.3,-0.03
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,46,33,Diego Pavia pass incomplete,Pass,2,6,3,Other,14,0,0,0,,,,,0.63,0.13,0.48,0.03,0.76,,Diego Pavia,,#8C8C8CCC,#404040CC,-14,-0.45
+2024-10-05 Alabama at Vanderbilt,plays,1,Alabama,47,14,Justice Haynes run for 13 yds to the ALA 30 for a 1ST down,Rush,2,7,1,Other,10,13,0,1,,,,,0.29,0.00,0.29,0.14,0.50,Justice Haynes,,,#E82525CC,#5A0000CC,8,2.44
+2024-10-05 Alabama at Vanderbilt,plays,1,Alabama,48,15,Jalen Milroe pass complete to Justice Haynes for 8 yds to the ALA 38,Pass,2,7,1,Other,10,8,0,1,,,,,0.38,0.25,0.33,0.13,0.47,,Jalen Milroe,Justice Haynes,#E82525CC,#5A0000CC,3,2.47
+2024-10-05 Alabama at Vanderbilt,plays,1,Alabama,49,16,Jalen Milroe run for a loss of 3 yards to the ALA 35,Rush,2,7,2,Other,2,-3,0,0,,,,,0.25,0.00,0.31,0.13,0.50,Jalen Milroe,,,#E82525CC,#5A0000CC,-4.4,2.04
+2024-10-05 Alabama at Vanderbilt,plays,1,Alabama,50,17,Jalen Milroe pass complete to Kobe Prentice for 15 yds to the 50 yard line for a 1ST down,Pass,2,7,3,Other,5,15,1,1,,,,,0.44,0.33,0.35,0.18,0.47,,Jalen Milroe,Kobe Prentice,#E82525CC,#5A0000CC,10,2.51
+2024-10-05 Alabama at Vanderbilt,plays,1,Alabama,51,18,Jalen Milroe pass complete to Justice Haynes for 9 yds to the VAN 41,Pass,2,7,1,Other,10,9,0,1,,,,,0.50,0.30,0.39,0.17,0.44,,Jalen Milroe,Justice Haynes,#E82525CC,#5A0000CC,4,2.59
+2024-10-05 Alabama at Vanderbilt,plays,1,Alabama,52,19,Justice Haynes run for 2 yds to the VAN 39 for a 1ST down,Rush,2,7,2,Other,1,2,0,1,,,,,0.33,0.00,0.42,0.16,0.47,Justice Haynes,,,#E82525CC,#5A0000CC,1.3,2.53
+2024-10-05 Alabama at Vanderbilt,plays,1,Alabama,53,20,Jalen Milroe pass complete to Jam Miller for 4 yds to the VAN 35,Pass,2,7,1,Other,10,4,0,0,,,,,0.45,0.27,0.40,0.15,0.45,,Jalen Milroe,Jam Miller,#E82525CC,#5A0000CC,-1,2.35
+2024-10-05 Alabama at Vanderbilt,plays,1,Alabama,54,21,Jam Miller run for 32 yds to the VAN 3 for a 1ST down,Rush,2,7,2,Other,6,32,1,1,,,,,0.40,0.10,0.43,0.19,0.48,Jam Miller,,,#E82525CC,#5A0000CC,27.8,3.56
+2024-10-05 Alabama at Vanderbilt,plays,1,Alabama,55,22,"Jam Miller run for 3 yds for a TD Timeout Vanderbilt, clock 01:25 Timeout Vanderbilt, clock 01:25 (Graham Nicholson KICK)",Rush,2,7,1,Red zone,3,3,0,1,,,,,0.45,0.09,0.45,0.18,0.50,Jam Miller,,,#E82525CC,#5A0000CC,1.5,3.47
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,56,34,Sedrick Alexander run for 2 yds to the VAN 27,Rush,2,8,1,Other,10,2,0,0,,,,,0.42,0.00,0.47,0.03,0.76,Sedrick Alexander,,,#8C8C8CCC,#404040CC,-3,-0.53
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,57,35,AJ Newberry run for 3 yds to the VAN 30,Rush,2,8,2,Other,8,3,0,0,,,,,0.41,0.00,0.46,0.03,0.77,AJ Newberry,,,#8C8C8CCC,#404040CC,-2.6,-0.59
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,58,36,Diego Pavia pass complete to Eli Stowers for 31 yds to the ALA 39 for a 1ST down,Pass,2,8,3,Other,5,31,1,1,,,,,0.67,0.22,0.47,0.06,0.75,,Diego Pavia,Eli Stowers,#8C8C8CCC,#404040CC,26,0.15
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,59,37,Diego Pavia pass incomplete,Pass,2,8,1,Other,10,0,0,0,,,,,0.60,0.20,0.46,0.05,0.73,,Diego Pavia,,#8C8C8CCC,#404040CC,-5,0.01
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,60,38,AJ Newberry run for 1 yd to the ALA 43,Rush,2,8,2,Other,15,1,0,0,,,,,0.39,0.00,0.45,0.05,0.74,AJ Newberry,,,#8C8C8CCC,#404040CC,-9.5,-0.24
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,61,39,Diego Pavia run for 1 yd to the ALA 42,Rush,2,8,3,Other,14,1,0,0,,,,,0.38,0.00,0.44,0.05,0.74,Diego Pavia,,,#8C8C8CCC,#404040CC,-13,-0.57
+2024-10-05 Alabama at Vanderbilt,plays,1,Alabama,62,23,"[NH] Kneel down by MILROE, Jalen at UA10 (team loss of 2), clock 00:00.",Rush,2,9,1,Other,10,-2,0,0,,,,,0.42,0.08,0.43,0.17,0.52,,,,#E82525CC,#5A0000CC,-7,3.01
+2024-10-05 Alabama at Vanderbilt,plays,1,Alabama,63,24,Jalen Milroe pass complete to Germie Bernard for 7 yds to the VAN 46,Pass,3,10,1,Other,10,7,0,1,,,,,0.50,0.25,0.46,0.17,0.50,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,2,2.97
+2024-10-05 Alabama at Vanderbilt,plays,1,Alabama,64,25,Jalen Milroe pass complete to Robbie Ouzts for 8 yds to the VAN 38 for a 1ST down,Pass,3,10,2,Other,3,8,0,1,,,,,0.54,0.23,0.48,0.16,0.48,,Jalen Milroe,Robbie Ouzts,#E82525CC,#5A0000CC,5.9,3.09
+2024-10-05 Alabama at Vanderbilt,plays,1,Alabama,65,26,Jalen Milroe pass complete to Ryan Williams for 13 yds to the VAN 25 for a 1ST down,Pass,3,10,1,Other,10,13,0,1,,,,,0.57,0.21,0.50,0.15,0.46,,Jalen Milroe,Ryan Williams,#E82525CC,#5A0000CC,8,3.28
+2024-10-05 Alabama at Vanderbilt,plays,1,Alabama,66,27,Jalen Milroe pass complete to Ryan Williams for 11 yds to the VAN 14 for a 1ST down,Pass,3,10,1,Other,10,11,0,1,,,,,0.60,0.20,0.52,0.15,0.44,,Jalen Milroe,Ryan Williams,#E82525CC,#5A0000CC,6,3.38
+2024-10-05 Alabama at Vanderbilt,plays,1,Alabama,67,28,Jalen Milroe run for 14 yds for a TD (Graham Nicholson KICK),Rush,3,10,1,Red zone,10,14,0,1,,,,,0.46,0.08,0.54,0.14,0.46,Jalen Milroe,,,#E82525CC,#5A0000CC,9,3.58
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,68,40,Diego Pavia run for a loss of 4 yards to the VAN 21,Rush,3,11,1,Other,10,-4,0,0,,,,,0.37,0.00,0.43,0.05,0.75,Diego Pavia,,,#8C8C8CCC,#404040CC,-9,-0.78
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,69,41,Diego Pavia pass complete to Sedrick Alexander for 5 yds to the VAN 26,Pass,3,11,2,Other,14,5,0,0,,,,,0.55,0.18,0.41,0.05,0.73,,Diego Pavia,Sedrick Alexander,#8C8C8CCC,#404040CC,-4.8,-0.88
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,70,42,Diego Pavia pass complete to Eli Stowers for 12 yds to the VAN 38 for a 1ST down,Pass,3,11,3,Other,9,12,0,1,,,,,0.58,0.17,0.43,0.05,0.71,,Diego Pavia,Eli Stowers,#8C8C8CCC,#404040CC,3,-0.78
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,71,43,Diego Pavia run for 3 yds to the VAN 41,Rush,3,11,1,Other,10,3,0,0,,,,,0.35,0.00,0.42,0.05,0.72,Diego Pavia,,,#8C8C8CCC,#404040CC,-2,-0.81
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,72,44,Sedrick Alexander run for a loss of 1 yard to the VAN 40,Rush,3,11,2,Other,7,-1,0,0,,,,,0.34,0.00,0.41,0.05,0.73,Sedrick Alexander,,,#8C8C8CCC,#404040CC,-5.9,-0.93
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,73,45,Diego Pavia pass complete to Eli Stowers for 9 yds to the VAN 49 for a 1ST down,Pass,3,11,3,Other,8,9,0,1,,,,,0.62,0.15,0.42,0.04,0.71,,Diego Pavia,Eli Stowers,#8C8C8CCC,#404040CC,1,-0.88
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,74,46,Diego Pavia run for 2 yds to the ALA 49,Rush,3,11,1,Other,10,2,0,0,,,,,0.33,0.00,0.41,0.04,0.72,Diego Pavia,,,#8C8C8CCC,#404040CC,-3,-0.93
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,75,47,Jamoni Jones run for a loss of 1 yard to the 50 yard line,Rush,3,11,2,Other,8,-1,0,0,,,,,0.32,0.00,0.40,0.04,0.72,Jamoni Jones,,,#8C8C8CCC,#404040CC,-6.6,-1.05
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,76,48,Diego Pavia pass incomplete,Pass,3,11,3,Other,9,0,0,0,,,,,0.57,0.14,0.40,0.04,0.71,,Diego Pavia,,#8C8C8CCC,#404040CC,-9,-1.22
+2024-10-05 Alabama at Vanderbilt,plays,1,Alabama,77,29,Jam Miller run for 1 yd to the ALA 5,Rush,3,12,1,Other,10,1,0,0,,,,,0.43,0.07,0.52,0.14,0.48,Jam Miller,,,#E82525CC,#5A0000CC,-4,3.32
+2024-10-05 Alabama at Vanderbilt,plays,1,Alabama,78,30,Jalen Milroe pass incomplete,Pass,3,12,2,Other,9,0,0,0,,,,,0.56,0.19,0.50,0.13,0.47,,Jalen Milroe,,#E82525CC,#5A0000CC,-6.3,3.00
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,79,49,Chase Gillespie run for 3 yds to the ALA 42,Rush,3,13,1,Other,10,3,0,0,,,,,0.31,0.00,0.39,0.04,0.71,Chase Gillespie,,,#8C8C8CCC,#404040CC,-2,-1.23
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,80,50,Chase Gillespie run for 1 yd to the ALA 41,Rush,3,13,2,Other,7,1,0,0,,,,,0.31,0.00,0.38,0.04,0.72,Chase Gillespie,,,#8C8C8CCC,#404040CC,-3.9,-1.29
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,81,51,Diego Pavia pass complete to Quincy Skinner Jr. for 5 yds to the ALA 36,Pass,3,13,3,Other,6,5,0,0,,,,,0.53,0.13,0.37,0.04,0.71,,Diego Pavia,Quincy Skinner Jr.,#8C8C8CCC,#404040CC,-1,-1.28
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,82,52,Diego Pavia pass complete to Junior Sherrill for 36 yds for a TD (Brock Taylor KICK),Pass,3,13,4,Other,1,36,1,1,,,,,0.56,0.19,0.38,0.06,0.69,,Diego Pavia,Junior Sherrill,#8C8C8CCC,#404040CC,35,-0.58
+2024-10-05 Alabama at Vanderbilt,plays,1,Alabama,83,31,Jalen Milroe pass complete to Cole Adams for 14 yds to the ALA 39 for a 1ST down,Pass,3,14,1,Other,10,14,0,1,,,,,0.59,0.18,0.52,0.13,0.45,,Jalen Milroe,Cole Adams,#E82525CC,#5A0000CC,9,3.19
+2024-10-05 Alabama at Vanderbilt,plays,1,Alabama,84,32,Germie Bernard run for 6 yds to the ALA 45,Rush,3,14,1,Other,10,6,0,1,,,,,0.47,0.07,0.53,0.13,0.47,Germie Bernard,,,#E82525CC,#5A0000CC,1,3.12
+2024-10-05 Alabama at Vanderbilt,plays,1,Alabama,85,33,Justice Haynes run for 2 yds to the ALA 47,Rush,3,14,2,Other,4,2,0,0,,,,,0.44,0.06,0.52,0.12,0.48,Justice Haynes,,,#E82525CC,#5A0000CC,-0.8,3.00
+2024-10-05 Alabama at Vanderbilt,plays,1,Alabama,86,34,Jalen Milroe pass complete to Ryan Williams for 58 yds for a TD (Graham Nicholson KICK),Pass,3,14,3,Other,7,58,1,1,,,,,0.61,0.22,0.53,0.15,0.47,,Jalen Milroe,Ryan Williams,#E82525CC,#5A0000CC,51,4.41
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,87,53,Sedrick Alexander run for 2 yds to the VAN 27,Rush,3,15,1,Other,10,2,0,0,,,,,0.30,0.00,0.38,0.06,0.70,Sedrick Alexander,,,#8C8C8CCC,#404040CC,-3,-0.63
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,88,54,Diego Pavia pass complete to Eli Stowers for 33 yds to the ALA 40 for a 1ST down,Pass,3,15,2,Other,8,33,1,1,,,,,0.59,0.24,0.39,0.07,0.69,,Diego Pavia,Eli Stowers,#8C8C8CCC,#404040CC,27.4,-0.11
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,89,55,AJ Newberry run for 1 yd to the ALA 39,Rush,4,15,1,Other,10,1,0,0,,,,,0.29,0.00,0.38,0.07,0.69,AJ Newberry,,,#8C8C8CCC,#404040CC,-4,-0.18
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,90,56,Diego Pavia run for 8 yds to the ALA 31,Rush,4,15,2,Other,9,8,0,1,,,,,0.31,0.00,0.39,0.07,0.70,Diego Pavia,,,#8C8C8CCC,#404040CC,1.7,-0.15
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,91,57,AJ Newberry run for 12 yds to the ALA 19 for a 1ST down,Rush,4,15,3,Other,1,12,0,1,,,,,0.33,0.00,0.40,0.07,0.70,AJ Newberry,,,#8C8C8CCC,#404040CC,11,0.05
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,92,58,Diego Pavia run for 3 yds to the ALA 16,Rush,4,15,1,Red zone,10,3,0,0,,,,,0.32,0.00,0.40,0.07,0.71,Diego Pavia,,,#8C8C8CCC,#404040CC,-2,0.01
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,93,59,Sedrick Alexander run for 4 yds to the ALA 12,Rush,4,15,2,Red zone,7,4,0,0,,,,,0.31,0.00,0.39,0.07,0.71,Sedrick Alexander,,,#8C8C8CCC,#404040CC,-0.9,0.00
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,94,60,Diego Pavia run for 7 yds to the ALA 15,Rush,4,15,3,Other,13,7,0,0,,,,,0.30,0.00,0.38,0.07,0.72,Diego Pavia,,,#8C8C8CCC,#404040CC,-6,-0.10
+2024-10-05 Alabama at Vanderbilt,plays,1,Alabama,95,35,Jalen Milroe pass complete to CJ Dippre for 20 yds to the ALA 45 for a 1ST down,Pass,4,16,1,Other,10,20,1,1,,,,,0.63,0.26,0.54,0.17,0.46,,Jalen Milroe,CJ Dippre,#E82525CC,#5A0000CC,15,4.72
+2024-10-05 Alabama at Vanderbilt,plays,1,Alabama,96,36,Jalen Milroe pass complete to Germie Bernard for 16 yds to the VAN 39 for a 1ST down,Pass,4,16,1,Other,10,16,1,1,,,,,0.65,0.30,0.56,0.19,0.44,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,11,4.89
+2024-10-05 Alabama at Vanderbilt,plays,1,Alabama,97,37,"Jalen Milroe sacked for a loss of 8 yards to the VAN 47 Jalen Milroe fumbled, recovered by VAN Yilanan Ouattara , return for 0 yards",Pass,4,16,1,Other,10,-8,0,0,,,,,0.62,0.29,0.54,0.19,0.43,,,,#E82525CC,#5A0000CC,-13,4.41
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,98,61,Diego Pavia run for 5 yds to the ALA 48,Rush,4,17,1,Other,10,5,0,1,,,,,0.32,0.00,0.39,0.07,0.72,Diego Pavia,,,#8C8C8CCC,#404040CC,0,-0.10
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,99,62,Sedrick Alexander run for 3 yds to the ALA 45,Rush,4,17,2,Other,5,3,0,0,,,,,0.31,0.00,0.39,0.06,0.73,Sedrick Alexander,,,#8C8C8CCC,#404040CC,-0.5,-0.11
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,100,63,Diego Pavia pass complete to Eli Stowers for 11 yds to the ALA 34 for a 1ST down,Pass,4,17,3,Other,2,11,0,1,,,,,0.61,0.22,0.40,0.06,0.71,,Diego Pavia,Eli Stowers,#8C8C8CCC,#404040CC,9,0.04
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,101,64,Diego Pavia pass complete to Quincy Skinner Jr. for 20 yds to the ALA 14 for a 1ST down,Pass,4,17,1,Other,10,20,1,1,,,,,0.63,0.26,0.41,0.08,0.70,,Diego Pavia,Quincy Skinner Jr.,#8C8C8CCC,#404040CC,15,0.27
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,102,65,Junior Sherrill run for 8 yds to the ALA 6,Rush,4,17,1,Red zone,10,8,0,1,,,,,0.33,0.00,0.42,0.08,0.71,Junior Sherrill,,,#8C8C8CCC,#404040CC,3,0.31
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,103,66,Sedrick Alexander run for no gain to the ALA 6,Rush,4,17,2,Red zone,2,0,0,0,,,,,0.32,0.00,0.41,0.08,0.71,Sedrick Alexander,,,#8C8C8CCC,#404040CC,-1.4,0.29
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,104,67,Diego Pavia pass complete to Kamrean Johnson for 6 yds for a TD (Brock Taylor KICK),Pass,4,17,3,Red zone,2,6,0,1,,,,,0.65,0.25,0.42,0.07,0.70,,Diego Pavia,Kamrean Johnson,#8C8C8CCC,#404040CC,4,0.34
+2024-10-05 Alabama at Vanderbilt,plays,1,Alabama,105,38,Jalen Milroe pass complete to Josh Cuevas for 5 yds to the ALA 30,Pass,4,18,1,Other,10,5,0,1,,,,,0.64,0.27,0.55,0.18,0.42,,Jalen Milroe,Josh Cuevas,#E82525CC,#5A0000CC,0,4.29
+2024-10-05 Alabama at Vanderbilt,plays,1,Alabama,106,39,Jalen Milroe pass complete to Germie Bernard for 47 yds to the VAN 23 for a 1ST down,Pass,4,18,2,Other,5,47,1,1,,,,,0.65,0.30,0.56,0.21,0.41,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,43.5,5.30
+2024-10-05 Alabama at Vanderbilt,plays,1,Alabama,107,40,Jalen Milroe run for 9 yds to the VAN 14,Rush,4,18,1,Other,10,9,0,1,,,,,0.47,0.06,0.58,0.20,0.43,Jalen Milroe,,,#E82525CC,#5A0000CC,4,5.27
+2024-10-05 Alabama at Vanderbilt,plays,1,Alabama,108,41,Jalen Milroe pass complete to Cole Adams for 3 yds to the VAN 11 for a 1ST down,Pass,4,18,2,Red zone,1,3,0,1,,,,,0.67,0.29,0.59,0.20,0.41,,Jalen Milroe,Cole Adams,#E82525CC,#5A0000CC,2.3,5.19
+2024-10-05 Alabama at Vanderbilt,plays,1,Alabama,109,42,Jalen Milroe run for no gain to the VAN 11,Rush,4,18,1,Red zone,10,0,0,0,,,,,0.44,0.06,0.57,0.19,0.43,Jalen Milroe,,,#E82525CC,#5A0000CC,-5,4.95
+2024-10-05 Alabama at Vanderbilt,plays,1,Alabama,110,43,Jalen Milroe pass incomplete,Pass,4,18,2,Red zone,10,0,0,0,,,,,0.64,0.28,0.56,0.19,0.42,,Jalen Milroe,,#E82525CC,#5A0000CC,-7,4.67
+2024-10-05 Alabama at Vanderbilt,plays,1,Alabama,111,44,Jalen Milroe pass complete to Jam Miller for 9 yds to the VAN 2,Pass,4,18,3,Red zone,10,9,0,0,,,,,0.62,0.27,0.55,0.18,0.41,,Jalen Milroe,Jam Miller,#E82525CC,#5A0000CC,-1,4.54
+2024-10-05 Alabama at Vanderbilt,plays,1,Alabama,112,45,Ryan Williams run for 2 yds for a TD (Graham Nicholson KICK),Rush,4,18,4,Red zone,1,2,0,1,,,,,0.47,0.05,0.56,0.18,0.42,Ryan Williams,,,#E82525CC,#5A0000CC,1,4.46
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,113,68,Diego Pavia run for a loss of 2 yards to the VAN 16,Rush,4,19,1,Other,10,-2,0,0,,,,,0.31,0.00,0.41,0.07,0.71,Diego Pavia,,,#8C8C8CCC,#404040CC,-7,0.24
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,114,69,Diego Pavia pass complete to Sedrick Alexander for 19 yds to the VAN 35 for a 1ST down,Pass,4,19,2,Other,12,19,1,1,,,,,0.67,0.29,0.42,0.09,0.70,,Diego Pavia,Sedrick Alexander,#8C8C8CCC,#404040CC,10.6,0.39
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,115,70,Sedrick Alexander run for 13 yds to the VAN 48 for a 1ST down,Rush,4,19,1,Other,10,13,0,1,,,,,0.33,0.00,0.43,0.09,0.70,Sedrick Alexander,,,#8C8C8CCC,#404040CC,8,0.49
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,116,71,Sedrick Alexander run for 3 yds to the ALA 49,Rush,4,19,1,Other,10,3,0,0,,,,,0.32,0.00,0.42,0.08,0.70,Sedrick Alexander,,,#8C8C8CCC,#404040CC,-2,0.46
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,117,72,Diego Pavia run for 8 yds to the ALA 41 for a 1ST down,Rush,4,19,2,Other,7,8,0,1,,,,,0.33,0.00,0.43,0.08,0.71,Diego Pavia,,,#8C8C8CCC,#404040CC,3.1,0.50
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,118,73,"[NHSG] Kneel down by PAVIA, Diego at UA42 (team loss of 1).",Rush,4,19,1,Other,10,-1,0,0,,,,,0.33,0.00,0.42,0.08,0.71,,,,#8C8C8CCC,#404040CC,-6,0.41
+2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,119,74,Diego Pavia run for a loss of 1 yard to the ALA 28,Rush,4,19,1,Other,10,-1,0,0,,,,,0.32,0.00,0.42,0.08,0.72,Diego Pavia,,,#8C8C8CCC,#404040CC,-6,0.32
