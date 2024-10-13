@@ -293,7 +293,7 @@ const playMap = (data,thisGame,id,teamNum,extra) => {
         options: {
             scales: {
                 y: {
-                    max: yardsMax,                    
+                    max: Math.max(yardsMax, 75),
                     suggestedMin: yardsMin,
                     min: -15,
                 },
