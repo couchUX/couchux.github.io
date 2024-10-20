@@ -517,8 +517,8 @@ game,chart,team_num,offense,play_num,team_play,text,play_type,quarter,drive,down
 2024-09-07 South Florida at Alabama,rusher,1,Alabama,,,,,,,,,,,1,0,,12,,,0,0,0,0,0,Justice Haynes,,,#E82525CC,#5A0000CC,,0
 2024-09-07 South Florida at Alabama,rusher,2,South Florida,,,,,,,,,,,3,4,,12,,,0,0,0,0,0,Byrum Brown,,,#7B9D8ACC,#30503ECC,,0
 2024-09-07 South Florida at Alabama,rusher,2,South Florida,,,,,,,,,,,0,2,,4,,,0,0,0,0,0,Kelley Joiner,,,#7B9D8ACC,#30503ECC,,0
-2024-09-07 South Florida at Alabama,rusher,2,South Florida,,,,,,,,,,,0,2,,3,,,0,0,0,0,0,Ta'Ron Keith,,,#7B9D8ACC,#30503ECC,,0
-2024-09-07 South Florida at Alabama,rusher,2,South Florida,,,,,,,,,,,2,1,,8,,,0,0,0,0,0,Nay'Quan Wright,,,#7B9D8ACC,#30503ECC,,0
+2024-09-07 South Florida at Alabama,rusher,2,South Florida,,,,,,,,,,,0,2,,3,,,0,0,0,0,0,"Ta'Ron Keith",,,#7B9D8ACC,#30503ECC,,0
+2024-09-07 South Florida at Alabama,rusher,2,South Florida,,,,,,,,,,,2,1,,8,,,0,0,0,0,0,"Nay'Quan Wright",,,#7B9D8ACC,#30503ECC,,0
 2024-09-07 South Florida at Alabama,passer,1,Alabama,,,,,,,,,,,5,6,5,10,0,,0,0,0,0,0,,Jalen Milroe,,#E82525CC,#5A0000CC,,0
 2024-09-07 South Florida at Alabama,passer,2,South Florida,,,,,,,,,,,2,6,7,20,0,,0,0,0,0,0,,Byrum Brown,,#7B9D8ACC,#30503ECC,,0
 2024-09-07 South Florida at Alabama,passer,2,South Florida,,,,,,,,,,,0,0,1,0,0,,0,0,0,0,0,,Bryce Archie,,#7B9D8ACC,#30503ECC,,0
@@ -534,20 +534,20 @@ game,chart,team_num,offense,play_num,team_play,text,play_type,quarter,drive,down
 2024-09-07 South Florida at Alabama,receiver,2,South Florida,,,,,,,,,,,0,3,1,0,,,0,0,0,0,0,,,Sean Atkins,#7B9D8ACC,#30503ECC,,0
 2024-09-07 South Florida at Alabama,receiver,2,South Florida,,,,,,,,,,,0,2,0,0,,,0,0,0,0,0,,,Michael Brown-Stephens,#7B9D8ACC,#30503ECC,,0
 2024-09-07 South Florida at Alabama,receiver,2,South Florida,,,,,,,,,,,0,1,0,0,,,0,0,0,0,0,,,Abdur-Rahmaan Yaseen,#7B9D8ACC,#30503ECC,,0
-2024-09-07 South Florida at Alabama,receiver,2,South Florida,,,,,,,,,,,1,0,2,0,,,0,0,0,0,0,,,Nay'Quan Wright,#7B9D8ACC,#30503ECC,,0
+2024-09-07 South Florida at Alabama,receiver,2,South Florida,,,,,,,,,,,1,0,2,0,,,0,0,0,0,0,,,"Nay'Quan Wright",#7B9D8ACC,#30503ECC,,0
 2024-09-07 South Florida at Alabama,receiver,2,South Florida,,,,,,,,,,,1,0,0,0,,,0,0,0,0,0,,,Kelley Joiner,#7B9D8ACC,#30503ECC,,0
-2024-09-07 South Florida at Alabama,receiver,2,South Florida,,,,,,,,,,,0,0,3,0,,,0,0,0,0,0,,,Ta'Ron Keith,#7B9D8ACC,#30503ECC,,0
+2024-09-07 South Florida at Alabama,receiver,2,South Florida,,,,,,,,,,,0,0,3,0,,,0,0,0,0,0,,,"Ta'Ron Keith",#7B9D8ACC,#30503ECC,,0
 2024-09-07 South Florida at Alabama,receiver,2,South Florida,,,,,,,,,,,0,0,2,0,,,0,0,0,0,0,,,Joshua Porter,#7B9D8ACC,#30503ECC,,0
 2024-09-07 South Florida at Alabama,plays,2,South Florida,1,1,Byrum Brown pass complete to Sean Atkins for 12 yds to the USF 37 for a 1ST down,Pass,1,1,1,Other,10,12,0,1,,,,,1,0,1,0,0,,Byrum Brown,Sean Atkins,#7B9D8ACC,#30503ECC,7,7
-2024-09-07 South Florida at Alabama,plays,2,South Florida,2,2,Nay'Quan Wright run for 2 yds to the USF 39,Rush,1,1,1,Other,10,2,0,0,,,,,0,0,0.5,0,0.5,Nay'Quan Wright,,,#7B9D8ACC,#30503ECC,-3,2
+2024-09-07 South Florida at Alabama,plays,2,South Florida,2,2,"Nay'Quan Wright run for 2 yds to the USF 39",Rush,1,1,1,Other,10,2,0,0,,,,,0,0,0.5,0,0.5,"Nay'Quan Wright",,,#7B9D8ACC,#30503ECC,-3,2
 2024-09-07 South Florida at Alabama,plays,2,South Florida,3,3,Byrum Brown run for a loss of 2 yards to the USF 37,Rush,1,1,2,Other,8,-2,0,0,,,,,0,0,0.33,0,0.67,Byrum Brown,,,#7B9D8ACC,#30503ECC,-7.6,-1.2
 2024-09-07 South Florida at Alabama,plays,2,South Florida,4,4,"Byrum Brown run for 9 yds to the ALA 46 for a 1ST down Alabama Penalty, Defensive Holding (Domani Jackson) to the ALA 44 for a 1ST down",Rush,1,1,3,Other,10,19,1,1,,,,,0.33,0.33,0.5,0.25,0.75,Byrum Brown,,,#7B9D8ACC,#30503ECC,9,1.35
 2024-09-07 South Florida at Alabama,plays,2,South Florida,5,5,Byrum Brown run for 3 yds to the ALA 41,Rush,1,1,1,Other,10,3,0,0,,,,,0.25,0.25,0.4,0.2,0.8,Byrum Brown,,,#7B9D8ACC,#30503ECC,-2,0.68
-2024-09-07 South Florida at Alabama,plays,2,South Florida,6,6,Nay'Quan Wright run for 12 yds to the ALA 29 for a 1ST down,Rush,1,1,2,Other,7,12,0,1,,,,,0.4,0.2,0.5,0.17,0.83,Nay'Quan Wright,,,#7B9D8ACC,#30503ECC,7.1,1.75
+2024-09-07 South Florida at Alabama,plays,2,South Florida,6,6,"Nay'Quan Wright run for 12 yds to the ALA 29 for a 1ST down",Rush,1,1,2,Other,7,12,0,1,,,,,0.4,0.2,0.5,0.17,0.83,"Nay'Quan Wright",,,#7B9D8ACC,#30503ECC,7.1,1.75
 2024-09-07 South Florida at Alabama,plays,2,South Florida,7,7,Byrum Brown pass incomplete to Sean Atkins,Pass,1,1,1,Other,10,0,0,0,,,,,0.5,0,0.43,0.14,0.71,,Byrum Brown,,#7B9D8ACC,#30503ECC,-5,0.79
-2024-09-07 South Florida at Alabama,plays,2,South Florida,8,8,Nay'Quan Wright run for 3 yds to the ALA 26,Rush,1,1,2,Other,10,3,0,0,,,,,0.33,0.17,0.38,0.13,0.75,Nay'Quan Wright,,,#7B9D8ACC,#30503ECC,-4,0.19
+2024-09-07 South Florida at Alabama,plays,2,South Florida,8,8,"Nay'Quan Wright run for 3 yds to the ALA 26",Rush,1,1,2,Other,10,3,0,0,,,,,0.33,0.17,0.38,0.13,0.75,"Nay'Quan Wright",,,#7B9D8ACC,#30503ECC,-4,0.19
 2024-09-07 South Florida at Alabama,plays,2,South Florida,9,9,Byrum Brown run for 14 yds to the ALA 12 for a 1ST down,Rush,1,1,3,Other,7,14,0,1,,,,,0.43,0.14,0.44,0.11,0.78,Byrum Brown,,,#7B9D8ACC,#30503ECC,7,0.94
-2024-09-07 South Florida at Alabama,plays,2,South Florida,10,10,Nay'Quan Wright run for 2 yds to the ALA 10,Rush,1,1,1,Red zone,10,2,0,0,,,,,0.38,0.13,0.4,0.1,0.8,Nay'Quan Wright,,,#7B9D8ACC,#30503ECC,-3,0.55
+2024-09-07 South Florida at Alabama,plays,2,South Florida,10,10,"Nay'Quan Wright run for 2 yds to the ALA 10",Rush,1,1,1,Red zone,10,2,0,0,,,,,0.38,0.13,0.4,0.1,0.8,"Nay'Quan Wright",,,#7B9D8ACC,#30503ECC,-3,0.55
 2024-09-07 South Florida at Alabama,plays,2,South Florida,11,11,Byrum Brown pass incomplete to Michael Brown-Stephens,Pass,1,1,2,Red zone,8,0,0,0,,,,,0.33,0,0.36,0.09,0.73,,Byrum Brown,,#7B9D8ACC,#30503ECC,-5.6,-0.01
 2024-09-07 South Florida at Alabama,plays,2,South Florida,12,12,Byrum Brown pass incomplete to Sean Atkins,Pass,1,1,3,Red zone,13,0,0,0,,,,,0.25,0,0.33,0.08,0.67,,Byrum Brown,,#7B9D8ACC,#30503ECC,-13,-1.09
 2024-09-07 South Florida at Alabama,plays,1,Alabama,13,1,Justice Haynes run for no gain to the ALA 25,Rush,1,2,1,Other,10,0,0,0,,,,,0,0,0,0,1,Justice Haynes,,,#E82525CC,#5A0000CC,-5,-5
@@ -568,15 +568,15 @@ game,chart,team_num,offense,play_num,team_play,text,play_type,quarter,drive,down
 2024-09-07 South Florida at Alabama,plays,1,Alabama,28,13,Jalen Milroe 10 yd run (Graham Nicholson Kick),Rush,1,4,2,Red zone,10,10,0,1,,,,,0.43,0,0.38,0.08,0.54,Jalen Milroe,,,#E82525CC,#5A0000CC,3,-1.62
 2024-09-07 South Florida at Alabama,plays,2,South Florida,29,16,Byrum Brown pass incomplete to JeyQuan Smith,Pass,1,5,1,Other,10,0,0,0,,,,,0.17,0,0.25,0.06,0.63,,Byrum Brown,,#7B9D8ACC,#30503ECC,-5,-1.83
 2024-09-07 South Florida at Alabama,plays,2,South Florida,30,17,Byrum Brown pass incomplete to Michael Brown-Stephens,Pass,1,5,2,Other,10,0,0,0,,,,,0.14,0,0.24,0.06,0.59,,Byrum Brown,,#7B9D8ACC,#30503ECC,-7,-2.14
-2024-09-07 South Florida at Alabama,plays,2,South Florida,31,18,Byrum Brown pass complete to Nay'Quan Wright for 9 yds to the USF 34,Pass,1,5,3,Other,10,9,0,0,,,,,0.13,0,0.22,0.06,0.56,,Byrum Brown,Nay'Quan Wright,#7B9D8ACC,#30503ECC,-1,-2.07
+2024-09-07 South Florida at Alabama,plays,2,South Florida,31,18,"Byrum Brown pass complete to Nay'Quan Wright for 9 yds to the USF 34",Pass,1,5,3,Other,10,9,0,0,,,,,0.13,0,0.22,0.06,0.56,,Byrum Brown,"Nay'Quan Wright",#7B9D8ACC,#30503ECC,-1,-2.07
 2024-09-07 South Florida at Alabama,plays,1,Alabama,32,14,Jalen Milroe run for 4 yds to the ALA 18,Rush,1,6,1,Other,10,4,0,0,,,,,0.38,0,0.36,0.07,0.57,Jalen Milroe,,,#E82525CC,#5A0000CC,-1,-1.58
 2024-09-07 South Florida at Alabama,plays,1,Alabama,33,15,Jalen Milroe pass incomplete to Germie Bernard,Pass,1,6,2,Other,11,0,0,0,,,,,0.29,0.14,0.33,0.07,0.53,,Jalen Milroe,,#E82525CC,#5A0000CC,-7.7,-1.99
 2024-09-07 South Florida at Alabama,plays,1,Alabama,34,16,Jalen Milroe pass incomplete to CJ Dippre,Pass,1,6,3,Other,11,0,0,0,,,,,0.25,0.13,0.31,0.06,0.5,,Jalen Milroe,,#E82525CC,#5A0000CC,-11,-2.55
-2024-09-07 South Florida at Alabama,plays,2,South Florida,35,19,Ta'Ron Keith run for no gain to the USF 37,Rush,1,7,1,Other,10,0,0,0,,,,,0.27,0.09,0.21,0.05,0.58,Ta'Ron Keith,,,#7B9D8ACC,#30503ECC,-5,-2.23
+2024-09-07 South Florida at Alabama,plays,2,South Florida,35,19,"Ta'Ron Keith run for no gain to the USF 37",Rush,1,7,1,Other,10,0,0,0,,,,,0.27,0.09,0.21,0.05,0.58,"Ta'Ron Keith",,,#7B9D8ACC,#30503ECC,-5,-2.23
 2024-09-07 South Florida at Alabama,plays,2,South Florida,36,20,Byrum Brown run for 20 yds to the ALA 43 for a 1ST down,Rush,1,7,2,Other,10,20,1,1,,,,,0.33,0.17,0.25,0.1,0.6,Byrum Brown,,,#7B9D8ACC,#30503ECC,13,-1.47
 2024-09-07 South Florida at Alabama,plays,2,South Florida,37,21,Byrum Brown pass complete to Sean Atkins for 10 yds to the ALA 33 for a 1ST down,Pass,1,7,1,Other,10,10,0,1,,,,,0.22,0,0.29,0.1,0.57,,Byrum Brown,Sean Atkins,#7B9D8ACC,#30503ECC,5,-1.16
 2024-09-07 South Florida at Alabama,plays,2,South Florida,38,22,Byrum Brown sacked by Que Robinson for a loss of 7 yards to the ALA 40,Pass,1,7,1,Other,10,-7,0,0,,,,,0.2,0,0.27,0.09,0.55,,,,#7B9D8ACC,#30503ECC,-12,-1.65
-2024-09-07 South Florida at Alabama,plays,2,South Florida,39,23,Ta'Ron Keith run for 1 yd to the ALA 39,Rush,1,7,2,Other,17,1,0,0,,,,,0.31,0.15,0.26,0.09,0.57,Ta'Ron Keith,,,#7B9D8ACC,#30503ECC,-10.9,-2.05
+2024-09-07 South Florida at Alabama,plays,2,South Florida,39,23,"Ta'Ron Keith run for 1 yd to the ALA 39",Rush,1,7,2,Other,17,1,0,0,,,,,0.31,0.15,0.26,0.09,0.57,"Ta'Ron Keith",,,#7B9D8ACC,#30503ECC,-10.9,-2.05
 2024-09-07 South Florida at Alabama,plays,2,South Florida,40,24,Byrum Brown pass complete to Sean Atkins for 1 yd to the ALA 38,Pass,1,7,3,Other,16,1,0,0,,,,,0.18,0,0.25,0.08,0.54,,Byrum Brown,Sean Atkins,#7B9D8ACC,#30503ECC,-15,-2.59
 2024-09-07 South Florida at Alabama,plays,1,Alabama,41,17,Justice Haynes run for 3 yds to the ALA 23,Rush,1,8,1,Other,10,3,0,0,,,,,0.33,0,0.29,0.06,0.53,Justice Haynes,,,#E82525CC,#5A0000CC,-2,-2.52
 2024-09-07 South Florida at Alabama,plays,1,Alabama,42,18,Jalen Milroe pass complete to Germie Bernard for 22 yds to the ALA 35 for a 1ST down,Pass,2,8,2,Other,17,22,1,1,,,,,0.33,0.22,0.33,0.11,0.5,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,10.1,-1.82
@@ -602,19 +602,19 @@ game,chart,team_num,offense,play_num,team_play,text,play_type,quarter,drive,down
 2024-09-07 South Florida at Alabama,plays,1,Alabama,62,30,Jam Miller run for 6 yds to the USF 5,Rush,2,10,1,Red zone,10,6,0,1,,,,,0.4,0,0.4,0.1,0.5,Jam Miller,,,#E82525CC,#5A0000CC,1,-2.84
 2024-09-07 South Florida at Alabama,plays,1,Alabama,63,31,Jam Miller run for no gain to the USF 5,Rush,2,10,2,Red zone,4,0,0,0,,,,,0.38,0,0.39,0.1,0.52,Jam Miller,,,#E82525CC,#5A0000CC,-2.8,-2.84
 2024-09-07 South Florida at Alabama,plays,1,Alabama,64,32,Jalen Milroe 5 yd run (Graham Nicholson Kick),Rush,2,10,3,Red zone,4,5,0,1,,,,,0.41,0,0.41,0.09,0.53,Jalen Milroe,,,#E82525CC,#5A0000CC,1,-2.72
-2024-09-07 South Florida at Alabama,plays,2,South Florida,65,33,Byrum Brown pass complete to Nay'Quan Wright for a loss of 1 yard to the USF 24,Pass,2,11,1,Other,10,-1,0,0,,,,,0.21,0,0.3,0.09,0.58,,Byrum Brown,Nay'Quan Wright,#7B9D8ACC,#30503ECC,-6,-1.86
-2024-09-07 South Florida at Alabama,plays,2,South Florida,66,34,Nay'Quan Wright run for 4 yds to the USF 28,Rush,2,11,2,Other,11,4,0,0,,,,,0.35,0.15,0.29,0.09,0.59,Nay'Quan Wright,,,#7B9D8ACC,#30503ECC,-3.7,-1.92
+2024-09-07 South Florida at Alabama,plays,2,South Florida,65,33,"Byrum Brown pass complete to Nay'Quan Wright for a loss of 1 yard to the USF 24",Pass,2,11,1,Other,10,-1,0,0,,,,,0.21,0,0.3,0.09,0.58,,Byrum Brown,"Nay'Quan Wright",#7B9D8ACC,#30503ECC,-6,-1.86
+2024-09-07 South Florida at Alabama,plays,2,South Florida,66,34,"Nay'Quan Wright run for 4 yds to the USF 28",Rush,2,11,2,Other,11,4,0,0,,,,,0.35,0.15,0.29,0.09,0.59,"Nay'Quan Wright",,,#7B9D8ACC,#30503ECC,-3.7,-1.92
 2024-09-07 South Florida at Alabama,plays,2,South Florida,67,35,Byrum Brown pass incomplete to Payten Singletary,Pass,2,11,3,Other,7,0,0,0,,,,,0.2,0,0.29,0.09,0.57,,Byrum Brown,,#7B9D8ACC,#30503ECC,-7,-2.06
 2024-09-07 South Florida at Alabama,plays,1,Alabama,68,33,Jalen Milroe pass incomplete to Ryan Williams,Pass,2,12,1,Other,10,0,0,0,,,,,0.38,0.19,0.39,0.09,0.52,,Jalen Milroe,,#E82525CC,#5A0000CC,-5,-2.79
 2024-09-07 South Florida at Alabama,plays,1,Alabama,69,34,Justice Haynes run for a loss of 6 yards to the ALA 10,Rush,2,12,2,Other,20,-6,0,0,,,,,0.39,0,0.38,0.09,0.53,Justice Haynes,,,#E82525CC,#5A0000CC,-20,-3.29
 2024-09-07 South Florida at Alabama,plays,1,Alabama,70,35,Jalen Milroe pass complete to Josh Cuevas for 5 yds to the ALA 15,Pass,2,12,3,Other,26,5,0,0,,,,,0.35,0.18,0.37,0.09,0.51,,Jalen Milroe,Josh Cuevas,#E82525CC,#5A0000CC,-21,-3.8
 2024-09-07 South Florida at Alabama,plays,2,South Florida,71,36,Byrum Brown pass incomplete to Sean Atkins,Pass,2,13,1,Other,10,0,0,0,,,,,0.19,0,0.28,0.08,0.56,,Byrum Brown,,#7B9D8ACC,#30503ECC,-5,-2.14
-2024-09-07 South Florida at Alabama,plays,2,South Florida,72,37,Byrum Brown pass complete to Ta'Ron Keith for 3 yds to the ALA 49,Pass,2,13,2,Other,10,3,0,0,,,,,0.18,0,0.27,0.08,0.54,,Byrum Brown,Ta'Ron Keith,#7B9D8ACC,#30503ECC,-4,-2.19
+2024-09-07 South Florida at Alabama,plays,2,South Florida,72,37,"Byrum Brown pass complete to Ta'Ron Keith for 3 yds to the ALA 49",Pass,2,13,2,Other,10,3,0,0,,,,,0.18,0,0.27,0.08,0.54,,Byrum Brown,"Ta'Ron Keith",#7B9D8ACC,#30503ECC,-4,-2.19
 2024-09-07 South Florida at Alabama,plays,2,South Florida,73,38,Byrum Brown pass complete to Joshua Porter for 9 yds to the ALA 45,Pass,2,13,3,Other,12,9,0,0,,,,,0.17,0,0.26,0.08,0.53,,Byrum Brown,Joshua Porter,#7B9D8ACC,#30503ECC,-3,-2.22
 2024-09-07 South Florida at Alabama,plays,1,Alabama,74,36,TEAM run for a loss of 2 yards to the ALA 8,Rush,2,14,1,Other,10,-2,0,0,,,,,0.37,0,0.36,0.08,0.53,TEAM,,,#E82525CC,#5A0000CC,-7,-3.89
-2024-09-07 South Florida at Alabama,plays,2,South Florida,75,39,"Byrum Brown pass complete to Nay'Quan Wright for 3 yds to the ALA 49 for a 1ST down Alabama Penalty, Face Mask (15 yards) (Jihaad Campbell) to the ALA 34 for a 1ST down",Pass,3,15,1,Other,10,18,1,1,,,,,0.21,0.05,0.28,0.1,0.51,,Byrum Brown,Nay'Quan Wright,#7B9D8ACC,#30503ECC,13,-1.83
-2024-09-07 South Florida at Alabama,plays,2,South Florida,76,40,Byrum Brown pass incomplete to Nay'Quan Wright,Pass,3,15,1,Other,10,0,0,0,,,,,0.2,0.05,0.28,0.1,0.5,,Byrum Brown,,#7B9D8ACC,#30503ECC,-5,-1.91
-2024-09-07 South Florida at Alabama,plays,2,South Florida,77,41,Nay'Quan Wright run for 3 yds to the ALA 31,Rush,3,15,2,Other,10,3,0,0,,,,,0.33,0.14,0.27,0.1,0.51,Nay'Quan Wright,,,#7B9D8ACC,#30503ECC,-4,-1.96
+2024-09-07 South Florida at Alabama,plays,2,South Florida,75,39,"Byrum Brown pass complete to Nay'Quan Wright for 3 yds to the ALA 49 for a 1ST down Alabama Penalty, Face Mask (15 yards) (Jihaad Campbell) to the ALA 34 for a 1ST down",Pass,3,15,1,Other,10,18,1,1,,,,,0.21,0.05,0.28,0.1,0.51,,Byrum Brown,"Nay'Quan Wright",#7B9D8ACC,#30503ECC,13,-1.83
+2024-09-07 South Florida at Alabama,plays,2,South Florida,76,40,"Byrum Brown pass incomplete to Nay'Quan Wright",Pass,3,15,1,Other,10,0,0,0,,,,,0.2,0.05,0.28,0.1,0.5,,Byrum Brown,,#7B9D8ACC,#30503ECC,-5,-1.91
+2024-09-07 South Florida at Alabama,plays,2,South Florida,77,41,"Nay'Quan Wright run for 3 yds to the ALA 31",Rush,3,15,2,Other,10,3,0,0,,,,,0.33,0.14,0.27,0.1,0.51,"Nay'Quan Wright",,,#7B9D8ACC,#30503ECC,-4,-1.96
 2024-09-07 South Florida at Alabama,plays,2,South Florida,78,42,Byrum Brown sacked by Tim Keenan III and Jihaad Campbell for a loss of 4 yards to the ALA 35,Pass,3,15,3,Other,7,-4,0,0,,,,,0.19,0.05,0.26,0.1,0.5,,,,#7B9D8ACC,#30503ECC,-11,-2.17
 2024-09-07 South Florida at Alabama,plays,1,Alabama,79,37,Jalen Milroe pass incomplete to Ryan Williams,Pass,3,16,1,Other,10,0,0,0,,,,,0.33,0.17,0.35,0.08,0.51,,Jalen Milroe,,#E82525CC,#5A0000CC,-5,-3.92
 2024-09-07 South Florida at Alabama,plays,1,Alabama,80,38,Jalen Milroe run for 4 yds to the ALA 39,Rush,3,16,2,Other,10,4,0,0,,,,,0.35,0,0.34,0.08,0.53,Jalen Milroe,,,#E82525CC,#5A0000CC,-3,-3.89
@@ -626,13 +626,13 @@ game,chart,team_num,offense,play_num,team_play,text,play_type,quarter,drive,down
 2024-09-07 South Florida at Alabama,plays,1,Alabama,86,41,"Jam Miller run for 13 yds to the ALA 39 Jam Miller fumbled, forced by Mac Harris, recovered by USF Tavin Ward",Rush,3,18,2,Other,9,13,0,0,,,,,0.32,0,0.32,0.07,0.54,Jam Miller,,,#E82525CC,#5A0000CC,6.7,-4.13
 2024-09-07 South Florida at Alabama,plays,2,South Florida,87,46,Byrum Brown pass complete to Abdur-Rahmaan Yaseen for 13 yds to the ALA 26 for a 1ST down,Pass,3,19,1,Other,10,13,0,1,,,,,0.21,0.04,0.26,0.09,0.48,,Byrum Brown,Abdur-Rahmaan Yaseen,#7B9D8ACC,#30503ECC,8,-2.17
 2024-09-07 South Florida at Alabama,plays,2,South Florida,88,47,Byrum Brown run for 3 yds to the ALA 23,Rush,3,19,1,Other,10,3,0,0,,,,,0.3,0.13,0.26,0.09,0.49,Byrum Brown,,,#7B9D8ACC,#30503ECC,-2,-2.17
-2024-09-07 South Florida at Alabama,plays,2,South Florida,89,48,Ta'Ron Keith run for 8 yds to the ALA 15 for a 1ST down,Rush,3,19,2,Other,7,8,0,1,,,,,0.33,0.13,0.27,0.08,0.5,Ta'Ron Keith,,,#7B9D8ACC,#30503ECC,3.1,-2.06
+2024-09-07 South Florida at Alabama,plays,2,South Florida,89,48,"Ta'Ron Keith run for 8 yds to the ALA 15 for a 1ST down",Rush,3,19,2,Other,7,8,0,1,,,,,0.33,0.13,0.27,0.08,0.5,"Ta'Ron Keith",,,#7B9D8ACC,#30503ECC,3.1,-2.06
 2024-09-07 South Florida at Alabama,plays,2,South Florida,90,49,Byrum Brown run for 13 yds to the ALA 2 for a 1ST down,Rush,3,19,1,Red zone,10,13,0,1,,,,,0.36,0.12,0.29,0.08,0.51,Byrum Brown,,,#7B9D8ACC,#30503ECC,8,-1.85
-2024-09-07 South Florida at Alabama,plays,2,South Florida,91,50,Ta'Ron Keith 2 yd run (John Cannon Kick),Rush,3,19,1,Red zone,2,2,0,1,,,,,0.38,0.12,0.3,0.08,0.52,Ta'Ron Keith,,,#7B9D8ACC,#30503ECC,1,-1.79
+2024-09-07 South Florida at Alabama,plays,2,South Florida,91,50,"Ta'Ron Keith 2 yd run (John Cannon Kick)",Rush,3,19,1,Red zone,2,2,0,1,,,,,0.38,0.12,0.3,0.08,0.52,"Ta'Ron Keith",,,#7B9D8ACC,#30503ECC,1,-1.79
 2024-09-07 South Florida at Alabama,plays,1,Alabama,92,42,Justice Haynes run for 3 yds to the ALA 28,Rush,3,20,1,Other,10,3,0,0,,,,,0.3,0,0.31,0.07,0.55,Justice Haynes,,,#E82525CC,#5A0000CC,-2,-4.08
 2024-09-07 South Florida at Alabama,plays,1,Alabama,93,43,Jalen Milroe pass incomplete to Germie Bernard,Pass,3,20,2,Other,7,0,0,0,,,,,0.3,0.15,0.3,0.07,0.53,,Jalen Milroe,,#E82525CC,#5A0000CC,-4.9,-4.1
 2024-09-07 South Florida at Alabama,plays,1,Alabama,94,44,Jalen Milroe pass incomplete,Pass,3,20,3,Other,7,0,0,0,,,,,0.29,0.14,0.3,0.07,0.52,,Jalen Milroe,,#E82525CC,#5A0000CC,-7,-4.16
-2024-09-07 South Florida at Alabama,plays,2,South Florida,95,51,Nay'Quan Wright run for a loss of 2 yards to the USF 33,Rush,3,21,1,Other,10,-2,0,0,,,,,0.37,0.11,0.29,0.08,0.53,Nay'Quan Wright,,,#7B9D8ACC,#30503ECC,-7,-1.9
+2024-09-07 South Florida at Alabama,plays,2,South Florida,95,51,"Nay'Quan Wright run for a loss of 2 yards to the USF 33",Rush,3,21,1,Other,10,-2,0,0,,,,,0.37,0.11,0.29,0.08,0.53,"Nay'Quan Wright",,,#7B9D8ACC,#30503ECC,-7,-1.9
 2024-09-07 South Florida at Alabama,plays,2,South Florida,96,52,Byrum Brown pass incomplete to Josh Hardeman,Pass,3,21,2,Other,12,0,0,0,,,,,0.2,0.04,0.29,0.08,0.52,,Byrum Brown,,#7B9D8ACC,#30503ECC,-8.4,-2.02
 2024-09-07 South Florida at Alabama,plays,2,South Florida,97,53,Byrum Brown sacked by Tim Keenan III for a loss of 8 yards to the USF 25,Pass,3,21,3,Other,12,-8,0,0,,,,,0.19,0.04,0.28,0.08,0.51,,,,#7B9D8ACC,#30503ECC,-20,-2.36
 2024-09-07 South Florida at Alabama,plays,1,Alabama,98,45,Justice Haynes run for 4 yds to the ALA 39,Rush,3,22,1,Other,10,4,0,0,,,,,0.29,0,0.29,0.07,0.53,Justice Haynes,,,#E82525CC,#5A0000CC,-1,-4.09
@@ -653,19 +653,19 @@ game,chart,team_num,offense,play_num,team_play,text,play_type,quarter,drive,down
 2024-09-07 South Florida at Alabama,plays,1,Alabama,113,56,Justice Haynes run for no gain to the USF 5,Rush,4,24,1,Red zone,5,0,0,0,,,,,0.33,0,0.34,0.05,0.54,Justice Haynes,,,#E82525CC,#5A0000CC,-2.5,-3.43
 2024-09-07 South Florida at Alabama,plays,1,Alabama,114,57,Jalen Milroe pass complete to Robbie Ouzts for 3 yds to the USF 2,Pass,4,24,2,Red zone,5,3,0,0,,,,,0.33,0.11,0.33,0.05,0.53,,Jalen Milroe,Robbie Ouzts,#E82525CC,#5A0000CC,-0.5,-3.38
 2024-09-07 South Florida at Alabama,plays,1,Alabama,115,58,"Jalen Milroe run for a loss of 2 yards to the USF 4 Jalen Milroe fumbled, recovered by USF Bernard Gooden",Rush,4,24,3,Red zone,18,-2,0,0,,,,,0.32,0,0.33,0.05,0.53,Jalen Milroe,,,#E82525CC,#5A0000CC,-20,-3.67
-2024-09-07 South Florida at Alabama,plays,2,South Florida,116,58,Ta'Ron Keith run for 2 yds to the USF 6,Rush,4,25,1,Other,10,2,0,0,,,,,0.32,0.1,0.26,0.07,0.53,Ta'Ron Keith,,,#7B9D8ACC,#30503ECC,-3,-2.64
+2024-09-07 South Florida at Alabama,plays,2,South Florida,116,58,"Ta'Ron Keith run for 2 yds to the USF 6",Rush,4,25,1,Other,10,2,0,0,,,,,0.32,0.1,0.26,0.07,0.53,"Ta'Ron Keith",,,#7B9D8ACC,#30503ECC,-3,-2.64
 2024-09-07 South Florida at Alabama,plays,2,South Florida,117,59,Byrum Brown run for 5 yds to the USF 11,Rush,4,25,2,Other,8,5,0,0,,,,,0.31,0.09,0.25,0.07,0.54,Byrum Brown,,,#7B9D8ACC,#30503ECC,-0.6,-2.61
-2024-09-07 South Florida at Alabama,plays,2,South Florida,118,60,Byrum Brown pass complete to Ta'Ron Keith for 2 yds to the USF 13,Pass,4,25,3,Other,3,2,0,0,,,,,0.18,0.04,0.25,0.07,0.53,,Byrum Brown,Ta'Ron Keith,#7B9D8ACC,#30503ECC,-1,-2.58
+2024-09-07 South Florida at Alabama,plays,2,South Florida,118,60,"Byrum Brown pass complete to Ta'Ron Keith for 2 yds to the USF 13",Pass,4,25,3,Other,3,2,0,0,,,,,0.18,0.04,0.25,0.07,0.53,,Byrum Brown,"Ta'Ron Keith",#7B9D8ACC,#30503ECC,-1,-2.58
 2024-09-07 South Florida at Alabama,plays,1,Alabama,119,59,Jalen Milroe run for 14 yds to the USF 20 for a 1ST down,Rush,4,26,1,Other,10,14,0,1,,,,,0.34,0,0.34,0.05,0.54,Jalen Milroe,,,#E82525CC,#5A0000CC,9,-3.45
 2024-09-07 South Florida at Alabama,plays,1,Alabama,120,60,Justice Haynes run for 4 yds to the USF 16,Rush,4,26,1,Red zone,10,4,0,0,,,,,0.33,0,0.33,0.05,0.55,Justice Haynes,,,#E82525CC,#5A0000CC,-1,-3.41
 2024-09-07 South Florida at Alabama,plays,1,Alabama,121,61,Jalen Milroe run for no gain to the USF 16,Rush,4,26,2,Red zone,6,0,0,0,,,,,0.32,0,0.33,0.05,0.56,Jalen Milroe,,,#E82525CC,#5A0000CC,-4.2,-3.42
 2024-09-07 South Florida at Alabama,plays,1,Alabama,122,62,Kobe Prentice 16 Yd pass from Jalen Milroe (Graham Nicholson Kick),Pass,4,26,3,Red zone,6,16,1,1,,,,,0.36,0.14,0.34,0.06,0.55,,Jalen Milroe,Kobe Prentice,#E82525CC,#5A0000CC,10,-3.21
 2024-09-07 South Florida at Alabama,plays,2,South Florida,123,61,Byrum Brown pass complete to Michael Brown-Stephens for 14 yds to the USF 39 for a 1ST down,Pass,4,27,1,Other,10,14,0,1,,,,,0.21,0.03,0.26,0.07,0.52,,Byrum Brown,Michael Brown-Stephens,#7B9D8ACC,#30503ECC,9,-2.39
-2024-09-07 South Florida at Alabama,plays,2,South Florida,124,62,Nay'Quan Wright run for 19 yds to the ALA 42 for a 1ST down,Rush,4,27,1,Other,10,19,1,1,,,,,0.33,0.12,0.27,0.08,0.53,Nay'Quan Wright,,,#7B9D8ACC,#30503ECC,14,-2.13
+2024-09-07 South Florida at Alabama,plays,2,South Florida,124,62,"Nay'Quan Wright run for 19 yds to the ALA 42 for a 1ST down",Rush,4,27,1,Other,10,19,1,1,,,,,0.33,0.12,0.27,0.08,0.53,"Nay'Quan Wright",,,#7B9D8ACC,#30503ECC,14,-2.13
 2024-09-07 South Florida at Alabama,plays,2,South Florida,125,63,"Byrum Brown sacked by Justin Jefferson for a loss of 1 yard to the ALA 43 for a 1ST down Alabama Penalty, Personal Foul (Justin Jefferson) to the ALA 28 for a 1ST down",Pass,4,27,1,Other,10,14,0,1,,,,,0.23,0.03,0.29,0.08,0.52,,,,#7B9D8ACC,#30503ECC,9,-1.95
-2024-09-07 South Florida at Alabama,plays,2,South Florida,126,64,Nay'Quan Wright run for 19 yds to the ALA 9 for a 1ST down,Rush,4,27,1,Other,10,19,1,1,,,,,0.35,0.15,0.3,0.09,0.53,Nay'Quan Wright,,,#7B9D8ACC,#30503ECC,14,-1.7
-2024-09-07 South Florida at Alabama,plays,2,South Florida,127,65,Nay'Quan Wright run for no gain to the ALA 9,Rush,4,27,1,Red zone,9,0,0,0,,,,,0.34,0.14,0.29,0.09,0.54,Nay'Quan Wright,,,#7B9D8ACC,#30503ECC,-4.5,-1.74
-2024-09-07 South Florida at Alabama,plays,2,South Florida,128,66,Nay'Quan Wright run for 2 yds to the ALA 7,Rush,4,27,2,Red zone,9,2,0,0,,,,,0.33,0.14,0.29,0.09,0.55,Nay'Quan Wright,,,#7B9D8ACC,#30503ECC,-4.3,-1.78
+2024-09-07 South Florida at Alabama,plays,2,South Florida,126,64,"Nay'Quan Wright run for 19 yds to the ALA 9 for a 1ST down",Rush,4,27,1,Other,10,19,1,1,,,,,0.35,0.15,0.3,0.09,0.53,"Nay'Quan Wright",,,#7B9D8ACC,#30503ECC,14,-1.7
+2024-09-07 South Florida at Alabama,plays,2,South Florida,127,65,"Nay'Quan Wright run for no gain to the ALA 9",Rush,4,27,1,Red zone,9,0,0,0,,,,,0.34,0.14,0.29,0.09,0.54,"Nay'Quan Wright",,,#7B9D8ACC,#30503ECC,-4.5,-1.74
+2024-09-07 South Florida at Alabama,plays,2,South Florida,128,66,"Nay'Quan Wright run for 2 yds to the ALA 7",Rush,4,27,2,Red zone,9,2,0,0,,,,,0.33,0.14,0.29,0.09,0.55,"Nay'Quan Wright",,,#7B9D8ACC,#30503ECC,-4.3,-1.78
 2024-09-07 South Florida at Alabama,plays,2,South Florida,129,67,Byrum Brown run for 3 yds to the ALA 4,Rush,4,27,3,Red zone,7,3,0,0,,,,,0.32,0.14,0.28,0.09,0.55,Byrum Brown,,,#7B9D8ACC,#30503ECC,-4,-1.81
 2024-09-07 South Florida at Alabama,plays,1,Alabama,130,63,Jam Miller run for 7 yds to the ALA 32,Rush,4,28,1,Other,10,7,0,1,,,,,0.34,0,0.35,0.06,0.56,Jam Miller,,,#E82525CC,#5A0000CC,2,-3.13
 2024-09-07 South Florida at Alabama,plays,1,Alabama,131,64,Jam Miller run for 25 yds to the USF 43 for a 1ST down,Rush,4,28,2,Other,3,25,1,1,,,,,0.36,0.03,0.36,0.08,0.56,Jam Miller,,,#E82525CC,#5A0000CC,22.9,-2.72
@@ -674,13 +674,13 @@ game,chart,team_num,offense,play_num,team_play,text,play_type,quarter,drive,down
 2024-09-07 South Florida at Alabama,plays,2,South Florida,134,69,Byrum Brown pass complete to Sean Atkins for 12 yds to the USF 37 for a 1ST down,Pass,4,29,2,Other,10,12,0,1,,,,,0.25,0.03,0.29,0.09,0.54,,Byrum Brown,Sean Atkins,#7B9D8ACC,#30503ECC,5,-1.76
 2024-09-07 South Florida at Alabama,plays,2,South Florida,135,70,Kelley Joiner run for 2 yds to the USF 39,Rush,4,29,1,Other,10,2,0,0,,,,,0.32,0.13,0.29,0.09,0.54,Kelley Joiner,,,#7B9D8ACC,#30503ECC,-3,-1.78
 2024-09-07 South Florida at Alabama,plays,2,South Florida,136,71,"Byrum Brown pass complete to Kelley Joiner for 8 yds to the ALA 47 for a 1ST down Alabama Penalty, Defensive Holding (Domani Jackson) to the ALA 43 for a 1ST down",Pass,4,29,2,Other,8,18,1,1,,,,,0.27,0.06,0.3,0.1,0.54,,Byrum Brown,Kelley Joiner,#7B9D8ACC,#30503ECC,12.4,-1.58
-2024-09-07 South Florida at Alabama,plays,2,South Florida,137,72,Byrum Brown pass complete to Ta'Ron Keith for 1 yd to the ALA 42,Pass,4,29,1,Other,10,1,0,0,,,,,0.26,0.06,0.29,0.1,0.53,,Byrum Brown,Ta'Ron Keith,#7B9D8ACC,#30503ECC,-4,-1.61
+2024-09-07 South Florida at Alabama,plays,2,South Florida,137,72,"Byrum Brown pass complete to Ta'Ron Keith for 1 yd to the ALA 42",Pass,4,29,1,Other,10,1,0,0,,,,,0.26,0.06,0.29,0.1,0.53,,Byrum Brown,"Ta'Ron Keith",#7B9D8ACC,#30503ECC,-4,-1.61
 2024-09-07 South Florida at Alabama,plays,2,South Florida,138,73,Byrum Brown run for 2 yds to the ALA 40,Rush,4,29,2,Other,9,2,0,0,,,,,0.31,0.13,0.29,0.1,0.53,Byrum Brown,,,#7B9D8ACC,#30503ECC,-4.3,-1.65
 2024-09-07 South Florida at Alabama,plays,2,South Florida,139,74,Byrum Brown pass incomplete to Sean Atkins,Pass,4,29,3,Other,7,0,0,0,,,,,0.26,0.06,0.28,0.09,0.53,,Byrum Brown,,#7B9D8ACC,#30503ECC,-7,-1.72
 2024-09-07 South Florida at Alabama,plays,2,South Florida,140,75,Byrum Brown pass incomplete to Joshua Porter,Pass,4,29,4,Other,7,0,0,0,,,,,0.25,0.06,0.28,0.09,0.52,,Byrum Brown,,#7B9D8ACC,#30503ECC,-7,-1.79
 2024-09-07 South Florida at Alabama,plays,1,Alabama,141,66,Jalen Milroe run for 4 yds to the ALA 44,Rush,4,30,1,Other,10,4,0,0,,,,,0.35,0.03,0.36,0.09,0.56,Jalen Milroe,,,#E82525CC,#5A0000CC,-1,-2.08
 2024-09-07 South Florida at Alabama,plays,1,Alabama,142,67,Jam Miller 56 yd run (Graham Nicholson Kick),Rush,4,30,2,Other,6,56,1,1,,,,,0.37,0.05,0.37,0.1,0.57,Jam Miller,,,#E82525CC,#5A0000CC,51.8,-1.27
-2024-09-07 South Florida at Alabama,plays,2,South Florida,143,76,Byrum Brown pass incomplete to Nay'Quan Wright,Pass,4,31,1,Other,10,0,0,0,,,,,0.24,0.05,0.28,0.09,0.51,,Byrum Brown,,#7B9D8ACC,#30503ECC,-5,-1.84
+2024-09-07 South Florida at Alabama,plays,2,South Florida,143,76,"Byrum Brown pass incomplete to Nay'Quan Wright",Pass,4,31,1,Other,10,0,0,0,,,,,0.24,0.05,0.28,0.09,0.51,,Byrum Brown,,#7B9D8ACC,#30503ECC,-5,-1.84
 2024-09-07 South Florida at Alabama,plays,2,South Florida,144,77,Byrum Brown run for 4 yds to the USF 29,Rush,4,31,2,Other,10,4,0,0,,,,,0.3,0.13,0.27,0.09,0.52,Byrum Brown,,,#7B9D8ACC,#30503ECC,-3,-1.85
 2024-09-07 South Florida at Alabama,plays,2,South Florida,145,78,Byrum Brown pass incomplete to Abdur-Rahmaan Yaseen,Pass,4,31,3,Other,6,0,0,0,,,,,0.24,0.05,0.27,0.09,0.51,,Byrum Brown,,#7B9D8ACC,#30503ECC,-6,-1.9
 2024-09-07 South Florida at Alabama,plays,2,South Florida,146,79,Byrum Brown pass incomplete to Sean Atkins,Pass,4,31,4,Other,6,0,0,0,,,,,0.23,0.05,0.27,0.09,0.51,,Byrum Brown,,#7B9D8ACC,#30503ECC,-6,-1.96
@@ -1341,218 +1341,452 @@ game,chart,team_num,offense,play_num,team_play,text,play_type,quarter,drive,down
 2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,117,72,Diego Pavia run for 8 yds to the ALA 41 for a 1ST down,Rush,4,19,2,Other,7,8,0,1,,,,,0.33,0,0.43,0.08,0.71,Diego Pavia,,,#8C8C8CCC,#404040CC,3.1,0.5
 2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,118,73,"[NHSG] Kneel down by PAVIA, Diego at UA42 (team loss of 1).",Rush,4,19,1,Other,10,-1,0,0,,,,,0.33,0,0.42,0.08,0.71,,,,#8C8C8CCC,#404040CC,-6,0.41
 2024-10-05 Alabama at Vanderbilt,plays,2,Vanderbilt,119,74,Diego Pavia run for a loss of 1 yard to the ALA 28,Rush,4,19,1,Other,10,-1,0,0,,,,,0.32,0,0.42,0.08,0.72,Diego Pavia,,,#8C8C8CCC,#404040CC,-6,0.32
-2024-10-12 South Carolina at Alabama,teams,1,Alabama,,,,,,,,,,,6,30,,,,61,0.49,0.10,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-10-12 South Carolina at Alabama,teams,2,South Carolina,,,,,,,,,,,7,31,,,,71,0.44,0.10,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-10-12 South Carolina at Alabama,play_type,1,Alabama,,,,Rush,,,,,,,1,19,,,,34,0.56,0.03,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-10-12 South Carolina at Alabama,play_type,2,South Carolina,,,,Rush,,,,,,,1,16,,,,35,0.46,0.03,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-10-12 South Carolina at Alabama,play_type,1,Alabama,,,,Pass,,,,,,,5,11,,,,27,0.41,0.19,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-10-12 South Carolina at Alabama,play_type,2,South Carolina,,,,Pass,,,,,,,6,15,,,,36,0.42,0.17,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-10-12 South Carolina at Alabama,quarter,1,Alabama,,,,,1Q,,,,,,2,6,,,,16,0.38,0.13,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-10-12 South Carolina at Alabama,quarter,1,Alabama,,,,,2Q,,,,,,1,10,,,,16,0.63,0.06,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-10-12 South Carolina at Alabama,quarter,1,Alabama,,,,,3Q,,,,,,1,4,,,,10,0.40,0.10,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-10-12 South Carolina at Alabama,quarter,1,Alabama,,,,,4Q,,,,,,2,10,,,,19,0.53,0.11,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-10-12 South Carolina at Alabama,quarter,2,South Carolina,,,,,1Q,,,,,,1,4,,,,11,0.36,0.09,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-10-12 South Carolina at Alabama,quarter,2,South Carolina,,,,,2Q,,,,,,2,10,,,,23,0.43,0.09,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-10-12 South Carolina at Alabama,quarter,2,South Carolina,,,,,3Q,,,,,,1,10,,,,19,0.53,0.05,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-10-12 South Carolina at Alabama,quarter,2,South Carolina,,,,,4Q,,,,,,3,7,,,,18,0.39,0.17,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-10-12 South Carolina at Alabama,down,1,Alabama,,,,,,,1D,,,,4,16,,,,29,0.55,0.14,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-10-12 South Carolina at Alabama,down,1,Alabama,,,,,,,2D,,,,1,8,,,,20,0.40,0.05,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-10-12 South Carolina at Alabama,down,1,Alabama,,,,,,,3D,,,,1,5,,,,11,0.45,0.09,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-10-12 South Carolina at Alabama,down,1,Alabama,,,,,,,4D,,,,0,1,,,,1,1.00,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-10-12 South Carolina at Alabama,down,2,South Carolina,,,,,,,1D,,,,3,13,,,,31,0.42,0.10,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-10-12 South Carolina at Alabama,down,2,South Carolina,,,,,,,2D,,,,1,9,,,,23,0.39,0.04,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-10-12 South Carolina at Alabama,down,2,South Carolina,,,,,,,3D,,,,2,8,,,,15,0.53,0.13,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-10-12 South Carolina at Alabama,down,2,South Carolina,,,,,,,4D,,,,1,1,,,,2,0.50,0.50,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-10-12 South Carolina at Alabama,red_zone,1,Alabama,,,,,,,,Other,,,6,23,,,,50,0.46,0.12,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-10-12 South Carolina at Alabama,red_zone,1,Alabama,,,,,,,,Red zone,,,0,7,,,,11,0.64,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-10-12 South Carolina at Alabama,red_zone,2,South Carolina,,,,,,,,Other,,,7,29,,,,68,0.43,0.10,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-10-12 South Carolina at Alabama,red_zone,2,South Carolina,,,,,,,,Red zone,,,0,2,,,,3,0.67,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-10-12 South Carolina at Alabama,distance,1,Alabama,,,,,,,,,0-3 yds,,1,9,,,,12,0.75,0.08,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-10-12 South Carolina at Alabama,distance,1,Alabama,,,,,,,,,4-6 yds,,0,5,,,,9,0.56,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-10-12 South Carolina at Alabama,distance,1,Alabama,,,,,,,,,7-9 yds,,0,2,,,,6,0.33,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-10-12 South Carolina at Alabama,distance,1,Alabama,,,,,,,,,9> yds,,5,14,,,,34,0.41,0.15,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-10-12 South Carolina at Alabama,distance,2,South Carolina,,,,,,,,,0-3 yds,,0,4,,,,7,0.57,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-10-12 South Carolina at Alabama,distance,2,South Carolina,,,,,,,,,4-6 yds,,0,7,,,,12,0.58,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-10-12 South Carolina at Alabama,distance,2,South Carolina,,,,,,,,,7-9 yds,,2,4,,,,14,0.29,0.14,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-10-12 South Carolina at Alabama,distance,2,South Carolina,,,,,,,,,9> yds,,5,16,,,,38,0.42,0.13,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-10-12 South Carolina at Alabama,drive,1,Alabama,,,,,,1,,,,,2,5,,,,9,0.56,0.22,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-10-12 South Carolina at Alabama,drive,1,Alabama,,,,,,3,,,,,0,1,,,,7,0.14,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-10-12 South Carolina at Alabama,drive,1,Alabama,,,,,,5,,,,,0,3,,,,5,0.60,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-10-12 South Carolina at Alabama,drive,1,Alabama,,,,,,7,,,,,1,7,,,,7,1.00,0.14,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-10-12 South Carolina at Alabama,drive,1,Alabama,,,,,,9,,,,,0,0,,,,1,0.00,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-10-12 South Carolina at Alabama,drive,1,Alabama,,,,,,11,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-10-12 South Carolina at Alabama,drive,1,Alabama,,,,,,14,,,,,1,2,,,,7,0.29,0.14,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-10-12 South Carolina at Alabama,drive,1,Alabama,,,,,,16,,,,,0,5,,,,9,0.56,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-10-12 South Carolina at Alabama,drive,1,Alabama,,,,,,18,,,,,1,3,,,,3,1.00,0.33,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-10-12 South Carolina at Alabama,drive,1,Alabama,,,,,,20,,,,,1,4,,,,10,0.40,0.10,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-10-12 South Carolina at Alabama,drive,2,South Carolina,,,,,,2,,,,,0,1,,,,5,0.20,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-10-12 South Carolina at Alabama,drive,2,South Carolina,,,,,,4,,,,,2,4,,,,12,0.33,0.17,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-10-12 South Carolina at Alabama,drive,2,South Carolina,,,,,,6,,,,,0,1,,,,4,0.25,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-10-12 South Carolina at Alabama,drive,2,South Carolina,,,,,,8,,,,,1,6,,,,10,0.60,0.10,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-10-12 South Carolina at Alabama,drive,2,South Carolina,,,,,,10,,,,,0,2,,,,3,0.67,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-10-12 South Carolina at Alabama,drive,2,South Carolina,,,,,,13,,,,,1,10,,,,16,0.63,0.06,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-10-12 South Carolina at Alabama,drive,2,South Carolina,,,,,,15,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-10-12 South Carolina at Alabama,drive,2,South Carolina,,,,,,17,,,,,0,0,,,,1,0.00,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-10-12 South Carolina at Alabama,drive,2,South Carolina,,,,,,19,,,,,1,4,,,,8,0.50,0.13,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-10-12 South Carolina at Alabama,drive,2,South Carolina,,,,,,21,,,,,2,3,,,,6,0.50,0.33,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-10-12 South Carolina at Alabama,drive,2,South Carolina,,,,,,22,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-10-12 South Carolina at Alabama,rusher,1,Alabama,,,,,,,,,,,1,9,,4,,,0.00,0.00,0.00,0.00,0.00,Jalen Milroe,,,#E82525CC,#5A0000CC,,0.00
-2024-10-12 South Carolina at Alabama,rusher,1,Alabama,,,,,,,,,,,0,6,,6,,,0.00,0.00,0.00,0.00,0.00,Jam Miller,,,#E82525CC,#5A0000CC,,0.00
-2024-10-12 South Carolina at Alabama,rusher,1,Alabama,,,,,,,,,,,0,3,,5,,,0.00,0.00,0.00,0.00,0.00,Justice Haynes,,,#E82525CC,#5A0000CC,,0.00
-2024-10-12 South Carolina at Alabama,rusher,2,South Carolina,,,,,,,,,,,1,8,,7,,,0.00,0.00,0.00,0.00,0.00,Raheim Sanders,,,#8C8C8CCC,#404040CC,,0.00
-2024-10-12 South Carolina at Alabama,rusher,2,South Carolina,,,,,,,,,,,0,4,,8,,,0.00,0.00,0.00,0.00,0.00,LaNorris Sellers,,,#8C8C8CCC,#404040CC,,0.00
-2024-10-12 South Carolina at Alabama,rusher,2,South Carolina,,,,,,,,,,,0,1,,3,,,0.00,0.00,0.00,0.00,0.00,Oscar Adaway III,,,#8C8C8CCC,#404040CC,,0.00
-2024-10-12 South Carolina at Alabama,rusher,2,South Carolina,,,,,,,,,,,0,1,,1,,,0.00,0.00,0.00,0.00,0.00,Robby Ashford,,,#8C8C8CCC,#404040CC,,0.00
-2024-10-12 South Carolina at Alabama,rusher,2,South Carolina,,,,,,,,,,,0,1,,0,,,0.00,0.00,0.00,0.00,0.00,Gage Larvadain,,,#8C8C8CCC,#404040CC,,0.00
-2024-10-12 South Carolina at Alabama,passer,1,Alabama,,,,,,,,,,,5,6,5,5,2,,0.00,0.00,0.00,0.00,0.00,,Jalen Milroe,,#E82525CC,#5A0000CC,,0.00
-2024-10-12 South Carolina at Alabama,passer,2,South Carolina,,,,,,,,,,,6,9,7,8,1,,0.00,0.00,0.00,0.00,0.00,,LaNorris Sellers,,#8C8C8CCC,#404040CC,,0.00
-2024-10-12 South Carolina at Alabama,passer,2,South Carolina,,,,,,,,,,,0,0,1,0,0,,0.00,0.00,0.00,0.00,0.00,,Robby Ashford,,#8C8C8CCC,#404040CC,,0.00
-2024-10-12 South Carolina at Alabama,receiver,1,Alabama,,,,,,,,,,,2,2,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Germie Bernard,#E82525CC,#5A0000CC,,0.00
-2024-10-12 South Carolina at Alabama,receiver,1,Alabama,,,,,,,,,,,1,2,1,0,,,0.00,0.00,0.00,0.00,0.00,,,Ryan Williams,#E82525CC,#5A0000CC,,0.00
-2024-10-12 South Carolina at Alabama,receiver,1,Alabama,,,,,,,,,,,0,1,1,0,,,0.00,0.00,0.00,0.00,0.00,,,Justice Haynes,#E82525CC,#5A0000CC,,0.00
-2024-10-12 South Carolina at Alabama,receiver,1,Alabama,,,,,,,,,,,0,1,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Jam Miller,#E82525CC,#5A0000CC,,0.00
-2024-10-12 South Carolina at Alabama,receiver,1,Alabama,,,,,,,,,,,2,0,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Cole Adams,#E82525CC,#5A0000CC,,0.00
-2024-10-12 South Carolina at Alabama,receiver,1,Alabama,,,,,,,,,,,0,0,2,0,,,0.00,0.00,0.00,0.00,0.00,,,CJ Dippre,#E82525CC,#5A0000CC,,0.00
-2024-10-12 South Carolina at Alabama,receiver,1,Alabama,,,,,,,,,,,0,0,1,0,,,0.00,0.00,0.00,0.00,0.00,,,Josh Cuevas,#E82525CC,#5A0000CC,,0.00
-2024-10-12 South Carolina at Alabama,receiver,2,South Carolina,,,,,,,,,,,0,2,2,1,,,0.00,0.00,0.00,0.00,0.00,,,Joshua Simon,#8C8C8CCC,#404040CC,,0.00
-2024-10-12 South Carolina at Alabama,receiver,2,South Carolina,,,,,,,,,,,0,2,2,0,,,0.00,0.00,0.00,0.00,0.00,,,Raheim Sanders,#8C8C8CCC,#404040CC,,0.00
-2024-10-12 South Carolina at Alabama,receiver,2,South Carolina,,,,,,,,,,,0,2,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Vandrevius Jacobs,#8C8C8CCC,#404040CC,,0.00
-2024-10-12 South Carolina at Alabama,receiver,2,South Carolina,,,,,,,,,,,1,1,1,0,,,0.00,0.00,0.00,0.00,0.00,,,Oscar Adaway III,#8C8C8CCC,#404040CC,,0.00
-2024-10-12 South Carolina at Alabama,receiver,2,South Carolina,,,,,,,,,,,1,1,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Nyck Harbor,#8C8C8CCC,#404040CC,,0.00
-2024-10-12 South Carolina at Alabama,receiver,2,South Carolina,,,,,,,,,,,0,1,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Dalevon Campbell,#8C8C8CCC,#404040CC,,0.00
-2024-10-12 South Carolina at Alabama,receiver,2,South Carolina,,,,,,,,,,,2,0,1,0,,,0.00,0.00,0.00,0.00,0.00,,,Mazeo Bennett Jr.,#8C8C8CCC,#404040CC,,0.00
-2024-10-12 South Carolina at Alabama,receiver,2,South Carolina,,,,,,,,,,,1,0,1,0,,,0.00,0.00,0.00,0.00,0.00,,,Gage Larvadain,#8C8C8CCC,#404040CC,,0.00
-2024-10-12 South Carolina at Alabama,receiver,2,South Carolina,,,,,,,,,,,1,0,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Michael Smith,#8C8C8CCC,#404040CC,,0.00
-2024-10-12 South Carolina at Alabama,receiver,2,South Carolina,,,,,,,,,,,0,0,1,0,,,0.00,0.00,0.00,0.00,0.00,,,Jatavius Shivers,#8C8C8CCC,#404040CC,,0.00
-2024-10-12 South Carolina at Alabama,plays,1,Alabama,1,1,Jalen Milroe pass complete to Justice Haynes for 3 yds to the ALA 28,Pass,1,1,1,Other,10,3,0,0,,,,,0.00,0.00,0.00,0.00,0.00,,Jalen Milroe,Justice Haynes,#E82525CC,#5A0000CC,-2,-2.00
-2024-10-12 South Carolina at Alabama,plays,1,Alabama,2,2,Justice Haynes run for 4 yds to the ALA 32,Rush,1,1,2,Other,7,4,0,0,,,,,0.00,0.00,0.00,0.00,0.50,Justice Haynes,,,#E82525CC,#5A0000CC,-0.9,-1.45
-2024-10-12 South Carolina at Alabama,plays,1,Alabama,3,3,Justice Haynes run for 2 yds to the ALA 34,Rush,1,1,3,Other,3,2,0,0,,,,,0.00,0.00,0.00,0.00,0.67,Justice Haynes,,,#E82525CC,#5A0000CC,-1,-1.30
-2024-10-12 South Carolina at Alabama,plays,1,Alabama,4,4,Jalen Milroe run for 2 yds to the ALA 36 for a 1ST down,Rush,1,1,4,Other,1,2,0,1,,,,,0.33,0.00,0.25,0.00,0.75,Jalen Milroe,,,#E82525CC,#5A0000CC,1,-0.73
-2024-10-12 South Carolina at Alabama,plays,1,Alabama,5,5,Jalen Milroe pass complete to Germie Bernard for 30 yds to the SC 34 for a 1ST down,Pass,1,1,1,Other,10,30,1,1,,,,,0.50,0.50,0.40,0.20,0.60,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,25,4.42
-2024-10-12 South Carolina at Alabama,plays,1,Alabama,6,6,Jalen Milroe pass complete to Cole Adams for 30 yds to the SC 4 for a 1ST down,Pass,1,1,1,Other,10,30,1,1,,,,,0.67,0.67,0.50,0.33,0.50,,Jalen Milroe,Cole Adams,#E82525CC,#5A0000CC,25,7.85
-2024-10-12 South Carolina at Alabama,plays,1,Alabama,7,7,Jam Miller run for 3 yds to the SC 1,Rush,1,1,1,Red zone,4,3,0,1,,,,,0.50,0.00,0.57,0.29,0.57,Jam Miller,,,#E82525CC,#5A0000CC,1,6.87
-2024-10-12 South Carolina at Alabama,plays,1,Alabama,8,8,Jam Miller run for no gain to the SC 1,Rush,1,1,2,Red zone,1,0,0,0,,,,,0.40,0.00,0.50,0.25,0.63,Jam Miller,,,#E82525CC,#5A0000CC,-0.7,5.93
-2024-10-12 South Carolina at Alabama,plays,1,Alabama,9,9,Jalen Milroe 1 yd run (Graham Nicholson Kick),Rush,1,1,3,Red zone,1,1,0,1,,,,,0.50,0.00,0.56,0.22,0.67,Jalen Milroe,,,#E82525CC,#5A0000CC,0,5.27
-2024-10-12 South Carolina at Alabama,plays,2,South Carolina,10,1,"LaNorris Sellers pass incomplete to Michael Smith, broken up by Justin Jefferson",Pass,1,2,1,Other,10,0,0,0,,,,,0.00,0.00,0.00,0.00,0.00,,LaNorris Sellers,,#8C8C8CCC,#404040CC,-5,-5.00
-2024-10-12 South Carolina at Alabama,plays,2,South Carolina,11,2,LaNorris Sellers pass complete to Raheim Sanders for 14 yds to the SC 39 for a 1ST down,Pass,1,2,2,Other,10,14,0,1,,,,,0.50,0.00,0.50,0.00,0.00,,LaNorris Sellers,Raheim Sanders,#8C8C8CCC,#404040CC,7,1.00
-2024-10-12 South Carolina at Alabama,plays,2,South Carolina,12,3,Raheim Sanders run for 4 yds to the SC 43,Rush,1,2,1,Other,10,4,0,0,,,,,0.00,0.00,0.33,0.00,0.33,Raheim Sanders,,,#8C8C8CCC,#404040CC,-1,0.33
-2024-10-12 South Carolina at Alabama,plays,2,South Carolina,13,4,LaNorris Sellers run for 4 yds to the SC 47,Rush,1,2,2,Other,6,4,0,0,,,,,0.00,0.00,0.25,0.00,0.50,LaNorris Sellers,,,#8C8C8CCC,#404040CC,-0.2,0.20
-2024-10-12 South Carolina at Alabama,plays,2,South Carolina,14,5,LaNorris Sellers run for a loss of 3 yards to the SC 44,Rush,1,2,3,Other,2,-3,0,0,,,,,0.00,0.00,0.20,0.00,0.60,LaNorris Sellers,,,#8C8C8CCC,#404040CC,-5,-0.84
-2024-10-12 South Carolina at Alabama,plays,1,Alabama,15,10,Jalen Milroe pass complete to Ryan Williams for a loss of 1 yard to the ALA 12,Pass,1,3,1,Other,10,-1,0,0,,,,,0.50,0.50,0.50,0.20,0.60,,Jalen Milroe,Ryan Williams,#E82525CC,#5A0000CC,-6,4.14
-2024-10-12 South Carolina at Alabama,plays,1,Alabama,16,11,Jam Miller run for 2 yds to the ALA 14,Rush,1,3,2,Other,11,2,0,0,,,,,0.43,0.00,0.45,0.18,0.64,Jam Miller,,,#E82525CC,#5A0000CC,-5.7,3.25
-2024-10-12 South Carolina at Alabama,plays,1,Alabama,17,12,Jalen Milroe pass incomplete to Ryan Williams,Pass,1,3,3,Other,9,0,0,0,,,,,0.40,0.40,0.42,0.17,0.58,,Jalen Milroe,,#E82525CC,#5A0000CC,-9,2.23
-2024-10-12 South Carolina at Alabama,plays,1,Alabama,18,13,Jalen Milroe pass complete to Germie Bernard for 12 yds to the ALA 41 for a 1ST down,Pass,1,3,1,Other,10,12,0,1,,,,,0.50,0.33,0.46,0.15,0.54,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,7,2.59
-2024-10-12 South Carolina at Alabama,plays,1,Alabama,19,14,Justice Haynes run for 1 yd to the ALA 37,Rush,1,3,1,Other,15,1,0,0,,,,,0.38,0.00,0.43,0.14,0.57,Justice Haynes,,,#E82525CC,#5A0000CC,-6.5,1.94
-2024-10-12 South Carolina at Alabama,plays,1,Alabama,20,15,Jalen Milroe pass complete to Josh Cuevas for 5 yds to the ALA 42,Pass,1,3,2,Other,14,5,0,0,,,,,0.43,0.29,0.40,0.13,0.53,,Jalen Milroe,Josh Cuevas,#E82525CC,#5A0000CC,-4.8,1.49
-2024-10-12 South Carolina at Alabama,plays,1,Alabama,21,16,Jalen Milroe sacked by Kyle Kennard for a loss of 9 yards to the ALA 33,Pass,1,3,3,Other,9,-9,0,0,,,,,0.38,0.25,0.38,0.13,0.50,,,,#E82525CC,#5A0000CC,-18,0.28
-2024-10-12 South Carolina at Alabama,plays,2,South Carolina,22,6,LaNorris Sellers pass complete to Vandrevius Jacobs for 11 yds to the SC 21 for a 1ST down,Pass,1,4,1,Other,10,11,0,1,,,,,0.67,0.00,0.33,0.00,0.50,,LaNorris Sellers,Vandrevius Jacobs,#8C8C8CCC,#404040CC,6,0.30
-2024-10-12 South Carolina at Alabama,plays,2,South Carolina,23,7,LaNorris Sellers pass complete to Joshua Simon for 2 yds to the SC 23,Pass,1,4,1,Other,10,2,0,0,,,,,0.50,0.00,0.29,0.00,0.43,,LaNorris Sellers,Joshua Simon,#8C8C8CCC,#404040CC,-3,-0.17
-2024-10-12 South Carolina at Alabama,plays,2,South Carolina,24,8,Gage Larvadain run for 10 yds to the SC 33 for a 1ST down,Rush,1,4,2,Other,8,10,0,1,,,,,0.25,0.00,0.38,0.00,0.50,Gage Larvadain,,,#8C8C8CCC,#404040CC,4.4,0.40
-2024-10-12 South Carolina at Alabama,plays,2,South Carolina,25,9,Raheim Sanders run for 2 yds to the SC 35,Rush,1,4,1,Other,10,2,0,0,,,,,0.20,0.00,0.33,0.00,0.56,Raheim Sanders,,,#8C8C8CCC,#404040CC,-3,0.02
-2024-10-12 South Carolina at Alabama,plays,2,South Carolina,26,10,LaNorris Sellers pass complete to Michael Smith for 15 yds to the 50 yard line for a 1ST down,Pass,1,4,2,Other,8,15,1,1,,,,,0.60,0.20,0.40,0.10,0.50,,LaNorris Sellers,Michael Smith,#8C8C8CCC,#404040CC,9.4,0.96
-2024-10-12 South Carolina at Alabama,plays,2,South Carolina,27,11,LaNorris Sellers run for a loss of 4 yards to the SC 46,Rush,1,4,1,Other,10,-4,0,0,,,,,0.17,0.00,0.36,0.09,0.55,LaNorris Sellers,,,#8C8C8CCC,#404040CC,-9,0.05
-2024-10-12 South Carolina at Alabama,plays,2,South Carolina,28,12,LaNorris Sellers sacked by Que Robinson and Jordan Renaud for a loss of 7 yards to the SC 39,Pass,2,4,2,Other,14,-7,0,0,,,,,0.50,0.17,0.33,0.08,0.50,,,,#8C8C8CCC,#404040CC,-16.8,-1.35
+2024-10-12 South Carolina at Alabama,teams,1,Alabama,,,,,,,,,,,6,30,,,,61,0.49,0.1,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-10-12 South Carolina at Alabama,teams,2,South Carolina,,,,,,,,,,,7,31,,,,71,0.44,0.1,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-10-12 South Carolina at Alabama,play_type,1,Alabama,,,,Rush,,,,,,,1,19,,,,34,0.56,0.03,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-10-12 South Carolina at Alabama,play_type,2,South Carolina,,,,Rush,,,,,,,1,16,,,,35,0.46,0.03,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-10-12 South Carolina at Alabama,play_type,1,Alabama,,,,Pass,,,,,,,5,11,,,,27,0.41,0.19,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-10-12 South Carolina at Alabama,play_type,2,South Carolina,,,,Pass,,,,,,,6,15,,,,36,0.42,0.17,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-10-12 South Carolina at Alabama,quarter,1,Alabama,,,,,1Q,,,,,,2,6,,,,16,0.38,0.13,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-10-12 South Carolina at Alabama,quarter,1,Alabama,,,,,2Q,,,,,,1,10,,,,16,0.63,0.06,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-10-12 South Carolina at Alabama,quarter,1,Alabama,,,,,3Q,,,,,,1,4,,,,10,0.4,0.1,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-10-12 South Carolina at Alabama,quarter,1,Alabama,,,,,4Q,,,,,,2,10,,,,19,0.53,0.11,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-10-12 South Carolina at Alabama,quarter,2,South Carolina,,,,,1Q,,,,,,1,4,,,,11,0.36,0.09,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-10-12 South Carolina at Alabama,quarter,2,South Carolina,,,,,2Q,,,,,,2,10,,,,23,0.43,0.09,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-10-12 South Carolina at Alabama,quarter,2,South Carolina,,,,,3Q,,,,,,1,10,,,,19,0.53,0.05,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-10-12 South Carolina at Alabama,quarter,2,South Carolina,,,,,4Q,,,,,,3,7,,,,18,0.39,0.17,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-10-12 South Carolina at Alabama,down,1,Alabama,,,,,,,1D,,,,4,16,,,,29,0.55,0.14,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-10-12 South Carolina at Alabama,down,1,Alabama,,,,,,,2D,,,,1,8,,,,20,0.4,0.05,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-10-12 South Carolina at Alabama,down,1,Alabama,,,,,,,3D,,,,1,5,,,,11,0.45,0.09,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-10-12 South Carolina at Alabama,down,1,Alabama,,,,,,,4D,,,,0,1,,,,1,1,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-10-12 South Carolina at Alabama,down,2,South Carolina,,,,,,,1D,,,,3,13,,,,31,0.42,0.1,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-10-12 South Carolina at Alabama,down,2,South Carolina,,,,,,,2D,,,,1,9,,,,23,0.39,0.04,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-10-12 South Carolina at Alabama,down,2,South Carolina,,,,,,,3D,,,,2,8,,,,15,0.53,0.13,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-10-12 South Carolina at Alabama,down,2,South Carolina,,,,,,,4D,,,,1,1,,,,2,0.5,0.5,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-10-12 South Carolina at Alabama,red_zone,1,Alabama,,,,,,,,Other,,,6,23,,,,50,0.46,0.12,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-10-12 South Carolina at Alabama,red_zone,1,Alabama,,,,,,,,Red zone,,,0,7,,,,11,0.64,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-10-12 South Carolina at Alabama,red_zone,2,South Carolina,,,,,,,,Other,,,7,29,,,,68,0.43,0.1,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-10-12 South Carolina at Alabama,red_zone,2,South Carolina,,,,,,,,Red zone,,,0,2,,,,3,0.67,0,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-10-12 South Carolina at Alabama,distance,1,Alabama,,,,,,,,,0-3 yds,,1,9,,,,12,0.75,0.08,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-10-12 South Carolina at Alabama,distance,1,Alabama,,,,,,,,,4-6 yds,,0,5,,,,9,0.56,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-10-12 South Carolina at Alabama,distance,1,Alabama,,,,,,,,,7-9 yds,,0,2,,,,6,0.33,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-10-12 South Carolina at Alabama,distance,1,Alabama,,,,,,,,,9> yds,,5,14,,,,34,0.41,0.15,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-10-12 South Carolina at Alabama,distance,2,South Carolina,,,,,,,,,0-3 yds,,0,4,,,,7,0.57,0,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-10-12 South Carolina at Alabama,distance,2,South Carolina,,,,,,,,,4-6 yds,,0,7,,,,12,0.58,0,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-10-12 South Carolina at Alabama,distance,2,South Carolina,,,,,,,,,7-9 yds,,2,4,,,,14,0.29,0.14,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-10-12 South Carolina at Alabama,distance,2,South Carolina,,,,,,,,,9> yds,,5,16,,,,38,0.42,0.13,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-10-12 South Carolina at Alabama,drive,1,Alabama,,,,,,1,,,,,2,5,,,,9,0.56,0.22,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-10-12 South Carolina at Alabama,drive,1,Alabama,,,,,,3,,,,,0,1,,,,7,0.14,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-10-12 South Carolina at Alabama,drive,1,Alabama,,,,,,5,,,,,0,3,,,,5,0.6,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-10-12 South Carolina at Alabama,drive,1,Alabama,,,,,,7,,,,,1,7,,,,7,1,0.14,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-10-12 South Carolina at Alabama,drive,1,Alabama,,,,,,9,,,,,0,0,,,,1,0,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-10-12 South Carolina at Alabama,drive,1,Alabama,,,,,,11,,,,,0,0,,,,3,0,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-10-12 South Carolina at Alabama,drive,1,Alabama,,,,,,14,,,,,1,2,,,,7,0.29,0.14,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-10-12 South Carolina at Alabama,drive,1,Alabama,,,,,,16,,,,,0,5,,,,9,0.56,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-10-12 South Carolina at Alabama,drive,1,Alabama,,,,,,18,,,,,1,3,,,,3,1,0.33,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-10-12 South Carolina at Alabama,drive,1,Alabama,,,,,,20,,,,,1,4,,,,10,0.4,0.1,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-10-12 South Carolina at Alabama,drive,2,South Carolina,,,,,,2,,,,,0,1,,,,5,0.2,0,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-10-12 South Carolina at Alabama,drive,2,South Carolina,,,,,,4,,,,,2,4,,,,12,0.33,0.17,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-10-12 South Carolina at Alabama,drive,2,South Carolina,,,,,,6,,,,,0,1,,,,4,0.25,0,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-10-12 South Carolina at Alabama,drive,2,South Carolina,,,,,,8,,,,,1,6,,,,10,0.6,0.1,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-10-12 South Carolina at Alabama,drive,2,South Carolina,,,,,,10,,,,,0,2,,,,3,0.67,0,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-10-12 South Carolina at Alabama,drive,2,South Carolina,,,,,,13,,,,,1,10,,,,16,0.63,0.06,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-10-12 South Carolina at Alabama,drive,2,South Carolina,,,,,,15,,,,,0,0,,,,3,0,0,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-10-12 South Carolina at Alabama,drive,2,South Carolina,,,,,,17,,,,,0,0,,,,1,0,0,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-10-12 South Carolina at Alabama,drive,2,South Carolina,,,,,,19,,,,,1,4,,,,8,0.5,0.13,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-10-12 South Carolina at Alabama,drive,2,South Carolina,,,,,,21,,,,,2,3,,,,6,0.5,0.33,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-10-12 South Carolina at Alabama,drive,2,South Carolina,,,,,,22,,,,,0,0,,,,3,0,0,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-10-12 South Carolina at Alabama,rusher,1,Alabama,,,,,,,,,,,1,9,,4,,,0,0,0,0,0,Jalen Milroe,,,#E82525CC,#5A0000CC,,0
+2024-10-12 South Carolina at Alabama,rusher,1,Alabama,,,,,,,,,,,0,6,,6,,,0,0,0,0,0,Jam Miller,,,#E82525CC,#5A0000CC,,0
+2024-10-12 South Carolina at Alabama,rusher,1,Alabama,,,,,,,,,,,0,3,,5,,,0,0,0,0,0,Justice Haynes,,,#E82525CC,#5A0000CC,,0
+2024-10-12 South Carolina at Alabama,rusher,2,South Carolina,,,,,,,,,,,1,8,,7,,,0,0,0,0,0,Raheim Sanders,,,#8C8C8CCC,#404040CC,,0
+2024-10-12 South Carolina at Alabama,rusher,2,South Carolina,,,,,,,,,,,0,4,,8,,,0,0,0,0,0,LaNorris Sellers,,,#8C8C8CCC,#404040CC,,0
+2024-10-12 South Carolina at Alabama,rusher,2,South Carolina,,,,,,,,,,,0,1,,3,,,0,0,0,0,0,Oscar Adaway III,,,#8C8C8CCC,#404040CC,,0
+2024-10-12 South Carolina at Alabama,rusher,2,South Carolina,,,,,,,,,,,0,1,,1,,,0,0,0,0,0,Robby Ashford,,,#8C8C8CCC,#404040CC,,0
+2024-10-12 South Carolina at Alabama,rusher,2,South Carolina,,,,,,,,,,,0,1,,0,,,0,0,0,0,0,Gage Larvadain,,,#8C8C8CCC,#404040CC,,0
+2024-10-12 South Carolina at Alabama,passer,1,Alabama,,,,,,,,,,,5,6,5,5,2,,0,0,0,0,0,,Jalen Milroe,,#E82525CC,#5A0000CC,,0
+2024-10-12 South Carolina at Alabama,passer,2,South Carolina,,,,,,,,,,,6,9,7,8,1,,0,0,0,0,0,,LaNorris Sellers,,#8C8C8CCC,#404040CC,,0
+2024-10-12 South Carolina at Alabama,passer,2,South Carolina,,,,,,,,,,,0,0,1,0,0,,0,0,0,0,0,,Robby Ashford,,#8C8C8CCC,#404040CC,,0
+2024-10-12 South Carolina at Alabama,receiver,1,Alabama,,,,,,,,,,,2,2,0,0,,,0,0,0,0,0,,,Germie Bernard,#E82525CC,#5A0000CC,,0
+2024-10-12 South Carolina at Alabama,receiver,1,Alabama,,,,,,,,,,,1,2,1,0,,,0,0,0,0,0,,,Ryan Williams,#E82525CC,#5A0000CC,,0
+2024-10-12 South Carolina at Alabama,receiver,1,Alabama,,,,,,,,,,,0,1,1,0,,,0,0,0,0,0,,,Justice Haynes,#E82525CC,#5A0000CC,,0
+2024-10-12 South Carolina at Alabama,receiver,1,Alabama,,,,,,,,,,,0,1,0,0,,,0,0,0,0,0,,,Jam Miller,#E82525CC,#5A0000CC,,0
+2024-10-12 South Carolina at Alabama,receiver,1,Alabama,,,,,,,,,,,2,0,0,0,,,0,0,0,0,0,,,Cole Adams,#E82525CC,#5A0000CC,,0
+2024-10-12 South Carolina at Alabama,receiver,1,Alabama,,,,,,,,,,,0,0,2,0,,,0,0,0,0,0,,,CJ Dippre,#E82525CC,#5A0000CC,,0
+2024-10-12 South Carolina at Alabama,receiver,1,Alabama,,,,,,,,,,,0,0,1,0,,,0,0,0,0,0,,,Josh Cuevas,#E82525CC,#5A0000CC,,0
+2024-10-12 South Carolina at Alabama,receiver,2,South Carolina,,,,,,,,,,,0,2,2,1,,,0,0,0,0,0,,,Joshua Simon,#8C8C8CCC,#404040CC,,0
+2024-10-12 South Carolina at Alabama,receiver,2,South Carolina,,,,,,,,,,,0,2,2,0,,,0,0,0,0,0,,,Raheim Sanders,#8C8C8CCC,#404040CC,,0
+2024-10-12 South Carolina at Alabama,receiver,2,South Carolina,,,,,,,,,,,0,2,0,0,,,0,0,0,0,0,,,Vandrevius Jacobs,#8C8C8CCC,#404040CC,,0
+2024-10-12 South Carolina at Alabama,receiver,2,South Carolina,,,,,,,,,,,1,1,1,0,,,0,0,0,0,0,,,Oscar Adaway III,#8C8C8CCC,#404040CC,,0
+2024-10-12 South Carolina at Alabama,receiver,2,South Carolina,,,,,,,,,,,1,1,0,0,,,0,0,0,0,0,,,Nyck Harbor,#8C8C8CCC,#404040CC,,0
+2024-10-12 South Carolina at Alabama,receiver,2,South Carolina,,,,,,,,,,,0,1,0,0,,,0,0,0,0,0,,,Dalevon Campbell,#8C8C8CCC,#404040CC,,0
+2024-10-12 South Carolina at Alabama,receiver,2,South Carolina,,,,,,,,,,,2,0,1,0,,,0,0,0,0,0,,,Mazeo Bennett Jr.,#8C8C8CCC,#404040CC,,0
+2024-10-12 South Carolina at Alabama,receiver,2,South Carolina,,,,,,,,,,,1,0,1,0,,,0,0,0,0,0,,,Gage Larvadain,#8C8C8CCC,#404040CC,,0
+2024-10-12 South Carolina at Alabama,receiver,2,South Carolina,,,,,,,,,,,1,0,0,0,,,0,0,0,0,0,,,Michael Smith,#8C8C8CCC,#404040CC,,0
+2024-10-12 South Carolina at Alabama,receiver,2,South Carolina,,,,,,,,,,,0,0,1,0,,,0,0,0,0,0,,,Jatavius Shivers,#8C8C8CCC,#404040CC,,0
+2024-10-12 South Carolina at Alabama,plays,1,Alabama,1,1,Jalen Milroe pass complete to Justice Haynes for 3 yds to the ALA 28,Pass,1,1,1,Other,10,3,0,0,,,,,0,0,0,0,0,,Jalen Milroe,Justice Haynes,#E82525CC,#5A0000CC,-2,-2
+2024-10-12 South Carolina at Alabama,plays,1,Alabama,2,2,Justice Haynes run for 4 yds to the ALA 32,Rush,1,1,2,Other,7,4,0,0,,,,,0,0,0,0,0.5,Justice Haynes,,,#E82525CC,#5A0000CC,-0.9,-1.45
+2024-10-12 South Carolina at Alabama,plays,1,Alabama,3,3,Justice Haynes run for 2 yds to the ALA 34,Rush,1,1,3,Other,3,2,0,0,,,,,0,0,0,0,0.67,Justice Haynes,,,#E82525CC,#5A0000CC,-1,-1.3
+2024-10-12 South Carolina at Alabama,plays,1,Alabama,4,4,Jalen Milroe run for 2 yds to the ALA 36 for a 1ST down,Rush,1,1,4,Other,1,2,0,1,,,,,0.33,0,0.25,0,0.75,Jalen Milroe,,,#E82525CC,#5A0000CC,1,-0.73
+2024-10-12 South Carolina at Alabama,plays,1,Alabama,5,5,Jalen Milroe pass complete to Germie Bernard for 30 yds to the SC 34 for a 1ST down,Pass,1,1,1,Other,10,30,1,1,,,,,0.5,0.5,0.4,0.2,0.6,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,25,4.42
+2024-10-12 South Carolina at Alabama,plays,1,Alabama,6,6,Jalen Milroe pass complete to Cole Adams for 30 yds to the SC 4 for a 1ST down,Pass,1,1,1,Other,10,30,1,1,,,,,0.67,0.67,0.5,0.33,0.5,,Jalen Milroe,Cole Adams,#E82525CC,#5A0000CC,25,7.85
+2024-10-12 South Carolina at Alabama,plays,1,Alabama,7,7,Jam Miller run for 3 yds to the SC 1,Rush,1,1,1,Red zone,4,3,0,1,,,,,0.5,0,0.57,0.29,0.57,Jam Miller,,,#E82525CC,#5A0000CC,1,6.87
+2024-10-12 South Carolina at Alabama,plays,1,Alabama,8,8,Jam Miller run for no gain to the SC 1,Rush,1,1,2,Red zone,1,0,0,0,,,,,0.4,0,0.5,0.25,0.63,Jam Miller,,,#E82525CC,#5A0000CC,-0.7,5.93
+2024-10-12 South Carolina at Alabama,plays,1,Alabama,9,9,Jalen Milroe 1 yd run (Graham Nicholson Kick),Rush,1,1,3,Red zone,1,1,0,1,,,,,0.5,0,0.56,0.22,0.67,Jalen Milroe,,,#E82525CC,#5A0000CC,0,5.27
+2024-10-12 South Carolina at Alabama,plays,2,South Carolina,10,1,"LaNorris Sellers pass incomplete to Michael Smith, broken up by Justin Jefferson",Pass,1,2,1,Other,10,0,0,0,,,,,0,0,0,0,0,,LaNorris Sellers,,#8C8C8CCC,#404040CC,-5,-5
+2024-10-12 South Carolina at Alabama,plays,2,South Carolina,11,2,LaNorris Sellers pass complete to Raheim Sanders for 14 yds to the SC 39 for a 1ST down,Pass,1,2,2,Other,10,14,0,1,,,,,0.5,0,0.5,0,0,,LaNorris Sellers,Raheim Sanders,#8C8C8CCC,#404040CC,7,1
+2024-10-12 South Carolina at Alabama,plays,2,South Carolina,12,3,Raheim Sanders run for 4 yds to the SC 43,Rush,1,2,1,Other,10,4,0,0,,,,,0,0,0.33,0,0.33,Raheim Sanders,,,#8C8C8CCC,#404040CC,-1,0.33
+2024-10-12 South Carolina at Alabama,plays,2,South Carolina,13,4,LaNorris Sellers run for 4 yds to the SC 47,Rush,1,2,2,Other,6,4,0,0,,,,,0,0,0.25,0,0.5,LaNorris Sellers,,,#8C8C8CCC,#404040CC,-0.2,0.2
+2024-10-12 South Carolina at Alabama,plays,2,South Carolina,14,5,LaNorris Sellers run for a loss of 3 yards to the SC 44,Rush,1,2,3,Other,2,-3,0,0,,,,,0,0,0.2,0,0.6,LaNorris Sellers,,,#8C8C8CCC,#404040CC,-5,-0.84
+2024-10-12 South Carolina at Alabama,plays,1,Alabama,15,10,Jalen Milroe pass complete to Ryan Williams for a loss of 1 yard to the ALA 12,Pass,1,3,1,Other,10,-1,0,0,,,,,0.5,0.5,0.5,0.2,0.6,,Jalen Milroe,Ryan Williams,#E82525CC,#5A0000CC,-6,4.14
+2024-10-12 South Carolina at Alabama,plays,1,Alabama,16,11,Jam Miller run for 2 yds to the ALA 14,Rush,1,3,2,Other,11,2,0,0,,,,,0.43,0,0.45,0.18,0.64,Jam Miller,,,#E82525CC,#5A0000CC,-5.7,3.25
+2024-10-12 South Carolina at Alabama,plays,1,Alabama,17,12,Jalen Milroe pass incomplete to Ryan Williams,Pass,1,3,3,Other,9,0,0,0,,,,,0.4,0.4,0.42,0.17,0.58,,Jalen Milroe,,#E82525CC,#5A0000CC,-9,2.23
+2024-10-12 South Carolina at Alabama,plays,1,Alabama,18,13,Jalen Milroe pass complete to Germie Bernard for 12 yds to the ALA 41 for a 1ST down,Pass,1,3,1,Other,10,12,0,1,,,,,0.5,0.33,0.46,0.15,0.54,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,7,2.59
+2024-10-12 South Carolina at Alabama,plays,1,Alabama,19,14,Justice Haynes run for 1 yd to the ALA 37,Rush,1,3,1,Other,15,1,0,0,,,,,0.38,0,0.43,0.14,0.57,Justice Haynes,,,#E82525CC,#5A0000CC,-6.5,1.94
+2024-10-12 South Carolina at Alabama,plays,1,Alabama,20,15,Jalen Milroe pass complete to Josh Cuevas for 5 yds to the ALA 42,Pass,1,3,2,Other,14,5,0,0,,,,,0.43,0.29,0.4,0.13,0.53,,Jalen Milroe,Josh Cuevas,#E82525CC,#5A0000CC,-4.8,1.49
+2024-10-12 South Carolina at Alabama,plays,1,Alabama,21,16,Jalen Milroe sacked by Kyle Kennard for a loss of 9 yards to the ALA 33,Pass,1,3,3,Other,9,-9,0,0,,,,,0.38,0.25,0.38,0.13,0.5,,,,#E82525CC,#5A0000CC,-18,0.28
+2024-10-12 South Carolina at Alabama,plays,2,South Carolina,22,6,LaNorris Sellers pass complete to Vandrevius Jacobs for 11 yds to the SC 21 for a 1ST down,Pass,1,4,1,Other,10,11,0,1,,,,,0.67,0,0.33,0,0.5,,LaNorris Sellers,Vandrevius Jacobs,#8C8C8CCC,#404040CC,6,0.3
+2024-10-12 South Carolina at Alabama,plays,2,South Carolina,23,7,LaNorris Sellers pass complete to Joshua Simon for 2 yds to the SC 23,Pass,1,4,1,Other,10,2,0,0,,,,,0.5,0,0.29,0,0.43,,LaNorris Sellers,Joshua Simon,#8C8C8CCC,#404040CC,-3,-0.17
+2024-10-12 South Carolina at Alabama,plays,2,South Carolina,24,8,Gage Larvadain run for 10 yds to the SC 33 for a 1ST down,Rush,1,4,2,Other,8,10,0,1,,,,,0.25,0,0.38,0,0.5,Gage Larvadain,,,#8C8C8CCC,#404040CC,4.4,0.4
+2024-10-12 South Carolina at Alabama,plays,2,South Carolina,25,9,Raheim Sanders run for 2 yds to the SC 35,Rush,1,4,1,Other,10,2,0,0,,,,,0.2,0,0.33,0,0.56,Raheim Sanders,,,#8C8C8CCC,#404040CC,-3,0.02
+2024-10-12 South Carolina at Alabama,plays,2,South Carolina,26,10,LaNorris Sellers pass complete to Michael Smith for 15 yds to the 50 yard line for a 1ST down,Pass,1,4,2,Other,8,15,1,1,,,,,0.6,0.2,0.4,0.1,0.5,,LaNorris Sellers,Michael Smith,#8C8C8CCC,#404040CC,9.4,0.96
+2024-10-12 South Carolina at Alabama,plays,2,South Carolina,27,11,LaNorris Sellers run for a loss of 4 yards to the SC 46,Rush,1,4,1,Other,10,-4,0,0,,,,,0.17,0,0.36,0.09,0.55,LaNorris Sellers,,,#8C8C8CCC,#404040CC,-9,0.05
+2024-10-12 South Carolina at Alabama,plays,2,South Carolina,28,12,LaNorris Sellers sacked by Que Robinson and Jordan Renaud for a loss of 7 yards to the SC 39,Pass,2,4,2,Other,14,-7,0,0,,,,,0.5,0.17,0.33,0.08,0.5,,,,#8C8C8CCC,#404040CC,-16.8,-1.35
 2024-10-12 South Carolina at Alabama,plays,2,South Carolina,29,13,"LaNorris Sellers pass complete to Oscar Adaway III for 12 yds to the ALA 49 for a 1ST down Alabama Penalty, Roughing Passer (Jihaad Campbell) to the ALA 34 for a 1ST down",Pass,2,4,3,Other,21,27,1,1,,,,,0.57,0.29,0.38,0.15,0.46,,LaNorris Sellers,Oscar Adaway III,#8C8C8CCC,#404040CC,6,-0.78
-2024-10-12 South Carolina at Alabama,plays,2,South Carolina,30,14,Oscar Adaway III run for 3 yds to the ALA 31,Rush,2,4,1,Other,10,3,0,0,,,,,0.14,0.00,0.36,0.14,0.50,Oscar Adaway III,,,#8C8C8CCC,#404040CC,-2,-0.87
-2024-10-12 South Carolina at Alabama,plays,2,South Carolina,31,15,LaNorris Sellers run for 4 yds to the ALA 27,Rush,2,4,2,Other,7,4,0,0,,,,,0.13,0.00,0.33,0.13,0.53,LaNorris Sellers,,,#8C8C8CCC,#404040CC,-0.9,-0.87
-2024-10-12 South Carolina at Alabama,plays,2,South Carolina,32,16,LaNorris Sellers sacked by Tim Smith for a loss of 8 yards to the ALA 35,Pass,2,4,3,Other,3,-8,0,0,,,,,0.50,0.25,0.31,0.13,0.50,,,,#8C8C8CCC,#404040CC,-11,-1.51
+2024-10-12 South Carolina at Alabama,plays,2,South Carolina,30,14,Oscar Adaway III run for 3 yds to the ALA 31,Rush,2,4,1,Other,10,3,0,0,,,,,0.14,0,0.36,0.14,0.5,Oscar Adaway III,,,#8C8C8CCC,#404040CC,-2,-0.87
+2024-10-12 South Carolina at Alabama,plays,2,South Carolina,31,15,LaNorris Sellers run for 4 yds to the ALA 27,Rush,2,4,2,Other,7,4,0,0,,,,,0.13,0,0.33,0.13,0.53,LaNorris Sellers,,,#8C8C8CCC,#404040CC,-0.9,-0.87
+2024-10-12 South Carolina at Alabama,plays,2,South Carolina,32,16,LaNorris Sellers sacked by Tim Smith for a loss of 8 yards to the ALA 35,Pass,2,4,3,Other,3,-8,0,0,,,,,0.5,0.25,0.31,0.13,0.5,,,,#8C8C8CCC,#404040CC,-11,-1.51
 2024-10-12 South Carolina at Alabama,plays,2,South Carolina,33,17,"LaNorris Sellers pass complete to Joshua Simon for 8 yds Joshua Simon fumbled, forced by DeVonta Smith, recovered by ALA Malachi Moore",Pass,2,4,4,Other,11,8,0,0,,,,,0.44,0.22,0.29,0.12,0.47,,LaNorris Sellers,Joshua Simon,#8C8C8CCC,#404040CC,-3,-1.59
 2024-10-12 South Carolina at Alabama,plays,1,Alabama,34,17,Jalen Milroe pass complete to Ryan Williams for 8 yds to the ALA 35,Pass,2,5,1,Other,10,8,0,1,,,,,0.44,0.22,0.41,0.12,0.47,,Jalen Milroe,Ryan Williams,#E82525CC,#5A0000CC,3,0.44
-2024-10-12 South Carolina at Alabama,plays,1,Alabama,35,18,Justice Haynes run for 7 yds to the ALA 42 for a 1ST down,Rush,2,5,2,Other,2,7,0,1,,,,,0.44,0.00,0.44,0.11,0.50,Justice Haynes,,,#E82525CC,#5A0000CC,5.6,0.72
-2024-10-12 South Carolina at Alabama,plays,1,Alabama,36,19,Justice Haynes run for 5 yds to the ALA 47,Rush,2,5,1,Other,10,5,0,1,,,,,0.50,0.00,0.47,0.11,0.53,Justice Haynes,,,#E82525CC,#5A0000CC,0,0.68
-2024-10-12 South Carolina at Alabama,plays,1,Alabama,37,20,Jalen Milroe pass incomplete to Ryan Williams,Pass,2,5,2,Other,5,0,0,0,,,,,0.40,0.20,0.45,0.10,0.50,,Jalen Milroe,,#E82525CC,#5A0000CC,-3.5,0.48
-2024-10-12 South Carolina at Alabama,plays,1,Alabama,38,21,Jalen Milroe sacked by Demetrius Knight Jr. for a loss of 8 yards to the ALA 39,Pass,2,5,3,Other,5,-8,0,0,,,,,0.36,0.18,0.43,0.10,0.48,,,,#E82525CC,#5A0000CC,-13,-0.17
-2024-10-12 South Carolina at Alabama,plays,2,South Carolina,39,18,Robby Ashford run for 9 yds to the SC 16,Rush,2,6,1,Other,15,9,0,1,,,,,0.22,0.00,0.33,0.11,0.50,Robby Ashford,,,#8C8C8CCC,#404040CC,1.5,-1.42
-2024-10-12 South Carolina at Alabama,plays,2,South Carolina,40,19,"Robby Ashford run for 2 yds to the SC 18 South Carolina Penalty, Offensive Holding (Gage Larvadain) to the SC 9",Rush,2,6,2,Other,6,-7,0,0,,,,,0.20,0.00,0.32,0.11,0.53,Robby Ashford,,,#8C8C8CCC,#404040CC,-11.2,-1.94
-2024-10-12 South Carolina at Alabama,plays,2,South Carolina,41,20,Robby Ashford pass complete to Oscar Adaway III for 4 yds to the SC 13,Pass,2,6,2,Other,13,4,0,0,,,,,0.40,0.20,0.30,0.10,0.50,,Robby Ashford,Oscar Adaway III,#8C8C8CCC,#404040CC,-5.1,-2.10
-2024-10-12 South Carolina at Alabama,plays,2,South Carolina,42,21,LaNorris Sellers pass incomplete to Gage Larvadain,Pass,2,6,3,Other,9,0,0,0,,,,,0.36,0.18,0.29,0.10,0.48,,LaNorris Sellers,,#8C8C8CCC,#404040CC,-9,-2.42
-2024-10-12 South Carolina at Alabama,plays,1,Alabama,43,22,Jalen Milroe pass complete to Jam Miller for 13 yds to the ALA 46 for a 1ST down,Pass,2,7,1,Other,10,13,0,1,,,,,0.42,0.17,0.45,0.09,0.45,,Jalen Milroe,Jam Miller,#E82525CC,#5A0000CC,8,0.20
-2024-10-12 South Carolina at Alabama,plays,1,Alabama,44,23,Jam Miller run for 8 yds to the SC 46,Rush,2,7,1,Other,10,8,0,1,,,,,0.55,0.00,0.48,0.09,0.48,Jam Miller,,,#E82525CC,#5A0000CC,3,0.33
-2024-10-12 South Carolina at Alabama,plays,1,Alabama,45,24,Jam Miller run for 6 yds to the SC 40 for a 1ST down,Rush,2,7,2,Other,2,6,0,1,,,,,0.58,0.00,0.50,0.08,0.50,Jam Miller,,,#E82525CC,#5A0000CC,4.6,0.50
+2024-10-12 South Carolina at Alabama,plays,1,Alabama,35,18,Justice Haynes run for 7 yds to the ALA 42 for a 1ST down,Rush,2,5,2,Other,2,7,0,1,,,,,0.44,0,0.44,0.11,0.5,Justice Haynes,,,#E82525CC,#5A0000CC,5.6,0.72
+2024-10-12 South Carolina at Alabama,plays,1,Alabama,36,19,Justice Haynes run for 5 yds to the ALA 47,Rush,2,5,1,Other,10,5,0,1,,,,,0.5,0,0.47,0.11,0.53,Justice Haynes,,,#E82525CC,#5A0000CC,0,0.68
+2024-10-12 South Carolina at Alabama,plays,1,Alabama,37,20,Jalen Milroe pass incomplete to Ryan Williams,Pass,2,5,2,Other,5,0,0,0,,,,,0.4,0.2,0.45,0.1,0.5,,Jalen Milroe,,#E82525CC,#5A0000CC,-3.5,0.48
+2024-10-12 South Carolina at Alabama,plays,1,Alabama,38,21,Jalen Milroe sacked by Demetrius Knight Jr. for a loss of 8 yards to the ALA 39,Pass,2,5,3,Other,5,-8,0,0,,,,,0.36,0.18,0.43,0.1,0.48,,,,#E82525CC,#5A0000CC,-13,-0.17
+2024-10-12 South Carolina at Alabama,plays,2,South Carolina,39,18,Robby Ashford run for 9 yds to the SC 16,Rush,2,6,1,Other,15,9,0,1,,,,,0.22,0,0.33,0.11,0.5,Robby Ashford,,,#8C8C8CCC,#404040CC,1.5,-1.42
+2024-10-12 South Carolina at Alabama,plays,2,South Carolina,40,19,"Robby Ashford run for 2 yds to the SC 18 South Carolina Penalty, Offensive Holding (Gage Larvadain) to the SC 9",Rush,2,6,2,Other,6,-7,0,0,,,,,0.2,0,0.32,0.11,0.53,Robby Ashford,,,#8C8C8CCC,#404040CC,-11.2,-1.94
+2024-10-12 South Carolina at Alabama,plays,2,South Carolina,41,20,Robby Ashford pass complete to Oscar Adaway III for 4 yds to the SC 13,Pass,2,6,2,Other,13,4,0,0,,,,,0.4,0.2,0.3,0.1,0.5,,Robby Ashford,Oscar Adaway III,#8C8C8CCC,#404040CC,-5.1,-2.1
+2024-10-12 South Carolina at Alabama,plays,2,South Carolina,42,21,LaNorris Sellers pass incomplete to Gage Larvadain,Pass,2,6,3,Other,9,0,0,0,,,,,0.36,0.18,0.29,0.1,0.48,,LaNorris Sellers,,#8C8C8CCC,#404040CC,-9,-2.42
+2024-10-12 South Carolina at Alabama,plays,1,Alabama,43,22,Jalen Milroe pass complete to Jam Miller for 13 yds to the ALA 46 for a 1ST down,Pass,2,7,1,Other,10,13,0,1,,,,,0.42,0.17,0.45,0.09,0.45,,Jalen Milroe,Jam Miller,#E82525CC,#5A0000CC,8,0.2
+2024-10-12 South Carolina at Alabama,plays,1,Alabama,44,23,Jam Miller run for 8 yds to the SC 46,Rush,2,7,1,Other,10,8,0,1,,,,,0.55,0,0.48,0.09,0.48,Jam Miller,,,#E82525CC,#5A0000CC,3,0.33
+2024-10-12 South Carolina at Alabama,plays,1,Alabama,45,24,Jam Miller run for 6 yds to the SC 40 for a 1ST down,Rush,2,7,2,Other,2,6,0,1,,,,,0.58,0,0.5,0.08,0.5,Jam Miller,,,#E82525CC,#5A0000CC,4.6,0.5
 2024-10-12 South Carolina at Alabama,plays,1,Alabama,46,25,Jalen Milroe run for 27 yds to the SC 13 for a 1ST down,Rush,2,7,1,Other,10,27,1,1,,,,,0.62,0.08,0.52,0.12,0.52,Jalen Milroe,,,#E82525CC,#5A0000CC,22,1.36
 2024-10-12 South Carolina at Alabama,plays,1,Alabama,47,26,Jalen Milroe run for 6 yds to the SC 7,Rush,2,7,1,Red zone,10,6,0,1,,,,,0.64,0.07,0.54,0.12,0.54,Jalen Milroe,,,#E82525CC,#5A0000CC,1,1.35
 2024-10-12 South Carolina at Alabama,plays,1,Alabama,48,27,Jalen Milroe run for 5 yds to the SC 2 for a 1ST down,Rush,2,7,2,Red zone,4,5,0,1,,,,,0.67,0.07,0.56,0.11,0.56,Jalen Milroe,,,#E82525CC,#5A0000CC,2.2,1.38
 2024-10-12 South Carolina at Alabama,plays,1,Alabama,49,28,Justice Haynes 2 yd run (Graham Nicholson Kick),Rush,2,7,1,Red zone,2,2,0,1,,,,,0.69,0.06,0.57,0.11,0.57,Justice Haynes,,,#E82525CC,#5A0000CC,1,1.37
 2024-10-12 South Carolina at Alabama,plays,2,South Carolina,50,22,LaNorris Sellers pass complete to Raheim Sanders for 6 yds to the SC 31,Pass,2,8,1,Other,10,6,0,1,,,,,0.42,0.17,0.32,0.09,0.45,,LaNorris Sellers,Raheim Sanders,#8C8C8CCC,#404040CC,1,-2.27
-2024-10-12 South Carolina at Alabama,plays,2,South Carolina,51,23,Raheim Sanders run for 6 yds to the SC 37 for a 1ST down,Rush,2,8,2,Other,4,6,0,1,,,,,0.27,0.00,0.35,0.09,0.48,Raheim Sanders,,,#8C8C8CCC,#404040CC,3.2,-2.03
+2024-10-12 South Carolina at Alabama,plays,2,South Carolina,51,23,Raheim Sanders run for 6 yds to the SC 37 for a 1ST down,Rush,2,8,2,Other,4,6,0,1,,,,,0.27,0,0.35,0.09,0.48,Raheim Sanders,,,#8C8C8CCC,#404040CC,3.2,-2.03
 2024-10-12 South Carolina at Alabama,plays,2,South Carolina,52,24,LaNorris Sellers pass complete to Raheim Sanders for 3 yds to the SC 40,Pass,2,8,1,Other,10,3,0,0,,,,,0.38,0.15,0.33,0.08,0.46,,LaNorris Sellers,Raheim Sanders,#8C8C8CCC,#404040CC,-2,-2.03
 2024-10-12 South Carolina at Alabama,plays,2,South Carolina,53,25,LaNorris Sellers pass complete to Nyck Harbor for 9 yds to the SC 49 for a 1ST down,Pass,2,8,2,Other,7,9,0,1,,,,,0.43,0.14,0.36,0.08,0.44,,LaNorris Sellers,Nyck Harbor,#8C8C8CCC,#404040CC,4.1,-1.78
-2024-10-12 South Carolina at Alabama,plays,2,South Carolina,54,26,Raheim Sanders run for 5 yds to the ALA 46,Rush,2,8,1,Other,10,5,0,1,,,,,0.33,0.00,0.38,0.08,0.46,Raheim Sanders,,,#8C8C8CCC,#404040CC,0,-1.72
-2024-10-12 South Carolina at Alabama,plays,2,South Carolina,55,27,LaNorris Sellers run for 9 yds to the ALA 37 for a 1ST down,Rush,2,8,2,Other,5,9,0,1,,,,,0.38,0.00,0.41,0.07,0.48,LaNorris Sellers,,,#8C8C8CCC,#404040CC,5.5,-1.45
-2024-10-12 South Carolina at Alabama,plays,2,South Carolina,56,28,LaNorris Sellers run for 2 yds to the ALA 35,Rush,2,8,1,Other,10,2,0,0,,,,,0.36,0.00,0.39,0.07,0.50,LaNorris Sellers,,,#8C8C8CCC,#404040CC,-3,-1.50
-2024-10-12 South Carolina at Alabama,plays,2,South Carolina,57,29,LaNorris Sellers pass incomplete to Raheim Sanders,Pass,2,8,2,Other,8,0,0,0,,,,,0.40,0.13,0.38,0.07,0.48,,LaNorris Sellers,,#8C8C8CCC,#404040CC,-5.6,-1.64
+2024-10-12 South Carolina at Alabama,plays,2,South Carolina,54,26,Raheim Sanders run for 5 yds to the ALA 46,Rush,2,8,1,Other,10,5,0,1,,,,,0.33,0,0.38,0.08,0.46,Raheim Sanders,,,#8C8C8CCC,#404040CC,0,-1.72
+2024-10-12 South Carolina at Alabama,plays,2,South Carolina,55,27,LaNorris Sellers run for 9 yds to the ALA 37 for a 1ST down,Rush,2,8,2,Other,5,9,0,1,,,,,0.38,0,0.41,0.07,0.48,LaNorris Sellers,,,#8C8C8CCC,#404040CC,5.5,-1.45
+2024-10-12 South Carolina at Alabama,plays,2,South Carolina,56,28,LaNorris Sellers run for 2 yds to the ALA 35,Rush,2,8,1,Other,10,2,0,0,,,,,0.36,0,0.39,0.07,0.5,LaNorris Sellers,,,#8C8C8CCC,#404040CC,-3,-1.5
+2024-10-12 South Carolina at Alabama,plays,2,South Carolina,57,29,LaNorris Sellers pass incomplete to Raheim Sanders,Pass,2,8,2,Other,8,0,0,0,,,,,0.4,0.13,0.38,0.07,0.48,,LaNorris Sellers,,#8C8C8CCC,#404040CC,-5.6,-1.64
 2024-10-12 South Carolina at Alabama,plays,2,South Carolina,58,30,LaNorris Sellers pass complete to Mazeo Bennett Jr. for a loss of 1 yard to the ALA 36,Pass,2,8,3,Other,8,-1,0,0,,,,,0.38,0.13,0.37,0.07,0.47,,LaNorris Sellers,Mazeo Bennett Jr.,#8C8C8CCC,#404040CC,-9,-1.89
-2024-10-12 South Carolina at Alabama,plays,2,South Carolina,59,31,Mazeo Bennett Jr. 36 Yd pass from LaNorris Sellers (Alex Herrera Kick),Pass,2,8,4,Other,9,36,1,1,,,,,0.41,0.18,0.39,0.10,0.45,,LaNorris Sellers,Mazeo Bennett Jr.,#8C8C8CCC,#404040CC,27,-0.96
-2024-10-12 South Carolina at Alabama,plays,1,Alabama,60,29,"Jalen Milroe sacked by Kyle Kennard for a loss of 13 yards for a SAFETY Alabama Penalty, Intentional Grounding (Jalen Milroe) to the ALA 0",Pass,2,9,1,Other,10,-13,0,0,,,,,0.38,0.15,0.55,0.10,0.55,,,,#E82525CC,#5A0000CC,-18,0.70
+2024-10-12 South Carolina at Alabama,plays,2,South Carolina,59,31,Mazeo Bennett Jr. 36 Yd pass from LaNorris Sellers (Alex Herrera Kick),Pass,2,8,4,Other,9,36,1,1,,,,,0.41,0.18,0.39,0.1,0.45,,LaNorris Sellers,Mazeo Bennett Jr.,#8C8C8CCC,#404040CC,27,-0.96
+2024-10-12 South Carolina at Alabama,plays,1,Alabama,60,29,"Jalen Milroe sacked by Kyle Kennard for a loss of 13 yards for a SAFETY Alabama Penalty, Intentional Grounding (Jalen Milroe) to the ALA 0",Pass,2,9,1,Other,10,-13,0,0,,,,,0.38,0.15,0.55,0.1,0.55,,,,#E82525CC,#5A0000CC,-18,0.7
 2024-10-12 South Carolina at Alabama,plays,2,South Carolina,61,32,LaNorris Sellers pass complete to Joshua Simon for 5 yds to the SC 48,Pass,2,10,1,Other,10,5,0,1,,,,,0.44,0.17,0.41,0.09,0.44,,LaNorris Sellers,Joshua Simon,#8C8C8CCC,#404040CC,0,-0.93
 2024-10-12 South Carolina at Alabama,plays,2,South Carolina,62,33,LaNorris Sellers pass complete to Dalevon Campbell for 8 yds to the ALA 44 for a 1ST down,Pass,2,10,2,Other,5,8,0,1,,,,,0.47,0.16,0.42,0.09,0.42,,LaNorris Sellers,Dalevon Campbell,#8C8C8CCC,#404040CC,4.5,-0.76
 2024-10-12 South Carolina at Alabama,plays,2,South Carolina,63,34,"LaNorris Sellers sacked by Jihaad Campbell for a loss of 3 yards to the ALA 47 LaNorris Sellers fumbled, forced by Jihaad Campbell, recovered by ALA Keanu Koht , return for 0 yards",Pass,2,10,1,Other,10,-3,0,0,,,,,0.45,0.15,0.41,0.09,0.41,,,,#8C8C8CCC,#404040CC,-8,-0.98
-2024-10-12 South Carolina at Alabama,plays,1,Alabama,64,30,Jalen Milroe run for a loss of 3 yards to the ALA 44,Rush,2,11,1,Other,10,-3,0,0,,,,,0.65,0.06,0.53,0.10,0.57,Jalen Milroe,,,#E82525CC,#5A0000CC,-8,0.41
-2024-10-12 South Carolina at Alabama,plays,1,Alabama,65,31,Jalen Milroe sacked by Tonka Hemingway for a loss of 6 yards to the ALA 38,Pass,2,11,2,Other,13,-6,0,0,,,,,0.36,0.14,0.52,0.10,0.55,,,,#E82525CC,#5A0000CC,-15.1,-0.09
-2024-10-12 South Carolina at Alabama,plays,1,Alabama,66,32,Jalen Milroe pass intercepted Jalon Kilgore return for 31 yds to the ALA 19,Pass,2,11,3,Other,19,31,0,0,,,,,0.33,0.13,0.50,0.09,0.53,,Jalen Milroe,,#E82525CC,#5A0000CC,12,0.29
-2024-10-12 South Carolina at Alabama,plays,2,South Carolina,67,35,Raheim Sanders run for 6 yds to the SC 16,Rush,3,13,1,Other,15,6,0,0,,,,,0.33,0.00,0.40,0.09,0.43,Raheim Sanders,,,#8C8C8CCC,#404040CC,-1.5,-0.99
-2024-10-12 South Carolina at Alabama,plays,2,South Carolina,68,36,Raheim Sanders run for 3 yds to the SC 19,Rush,3,13,2,Other,9,3,0,0,,,,,0.31,0.00,0.39,0.08,0.44,Raheim Sanders,,,#8C8C8CCC,#404040CC,-3.3,-1.06
-2024-10-12 South Carolina at Alabama,plays,2,South Carolina,69,37,LaNorris Sellers run for 9 yds to the SC 28 for a 1ST down,Rush,3,13,3,Other,6,9,0,1,,,,,0.35,0.00,0.41,0.08,0.46,LaNorris Sellers,,,#8C8C8CCC,#404040CC,3,-0.95
-2024-10-12 South Carolina at Alabama,plays,2,South Carolina,70,38,Raheim Sanders run for 6 yds to the SC 34,Rush,3,13,1,Other,10,6,0,1,,,,,0.39,0.00,0.42,0.08,0.47,Raheim Sanders,,,#8C8C8CCC,#404040CC,1,-0.89
-2024-10-12 South Carolina at Alabama,plays,2,South Carolina,71,39,Raheim Sanders run for 3 yds to the SC 37,Rush,3,13,2,Other,4,3,0,1,,,,,0.42,0.00,0.44,0.08,0.49,Raheim Sanders,,,#8C8C8CCC,#404040CC,0.2,-0.87
-2024-10-12 South Carolina at Alabama,plays,2,South Carolina,72,40,Raheim Sanders run for 2 yds to the SC 39 for a 1ST down,Rush,3,13,3,Other,1,2,0,1,,,,,0.45,0.00,0.45,0.08,0.50,Raheim Sanders,,,#8C8C8CCC,#404040CC,1,-0.82
-2024-10-12 South Carolina at Alabama,plays,2,South Carolina,73,41,LaNorris Sellers run for 14 yds to the ALA 47 for a 1ST down,Rush,3,13,1,Other,10,14,0,1,,,,,0.48,0.00,0.46,0.07,0.51,LaNorris Sellers,,,#8C8C8CCC,#404040CC,9,-0.58
-2024-10-12 South Carolina at Alabama,plays,2,South Carolina,74,42,Oscar Adaway III run for 3 yds to the ALA 44,Rush,3,13,1,Other,10,3,0,0,,,,,0.45,0.00,0.45,0.07,0.52,Oscar Adaway III,,,#8C8C8CCC,#404040CC,-2,-0.61
-2024-10-12 South Carolina at Alabama,plays,2,South Carolina,75,43,LaNorris Sellers sacked by Jah-Marien Latham for a loss of 8 yards to the SC 48,Pass,3,13,2,Other,7,-8,0,0,,,,,0.43,0.14,0.44,0.07,0.51,,,,#8C8C8CCC,#404040CC,-12.9,-0.90
-2024-10-12 South Carolina at Alabama,plays,2,South Carolina,76,44,LaNorris Sellers pass complete to Mazeo Bennett Jr. for 22 yds to the ALA 30 for a 1ST down,Pass,3,13,3,Other,15,22,1,1,,,,,0.45,0.18,0.45,0.09,0.50,,LaNorris Sellers,Mazeo Bennett Jr.,#8C8C8CCC,#404040CC,7,-0.72
-2024-10-12 South Carolina at Alabama,plays,2,South Carolina,77,45,Oscar Adaway III run for 6 yds to the ALA 24,Rush,3,13,1,Other,10,6,0,1,,,,,0.48,0.00,0.47,0.09,0.51,Oscar Adaway III,,,#8C8C8CCC,#404040CC,1,-0.68
-2024-10-12 South Carolina at Alabama,plays,2,South Carolina,78,46,Oscar Adaway III run for 2 yds to the ALA 22,Rush,3,13,2,Other,4,2,0,0,,,,,0.46,0.00,0.46,0.09,0.52,Oscar Adaway III,,,#8C8C8CCC,#404040CC,-0.8,-0.68
+2024-10-12 South Carolina at Alabama,plays,1,Alabama,64,30,Jalen Milroe run for a loss of 3 yards to the ALA 44,Rush,2,11,1,Other,10,-3,0,0,,,,,0.65,0.06,0.53,0.1,0.57,Jalen Milroe,,,#E82525CC,#5A0000CC,-8,0.41
+2024-10-12 South Carolina at Alabama,plays,1,Alabama,65,31,Jalen Milroe sacked by Tonka Hemingway for a loss of 6 yards to the ALA 38,Pass,2,11,2,Other,13,-6,0,0,,,,,0.36,0.14,0.52,0.1,0.55,,,,#E82525CC,#5A0000CC,-15.1,-0.09
+2024-10-12 South Carolina at Alabama,plays,1,Alabama,66,32,Jalen Milroe pass intercepted Jalon Kilgore return for 31 yds to the ALA 19,Pass,2,11,3,Other,19,31,0,0,,,,,0.33,0.13,0.5,0.09,0.53,,Jalen Milroe,,#E82525CC,#5A0000CC,12,0.29
+2024-10-12 South Carolina at Alabama,plays,2,South Carolina,67,35,Raheim Sanders run for 6 yds to the SC 16,Rush,3,13,1,Other,15,6,0,0,,,,,0.33,0,0.4,0.09,0.43,Raheim Sanders,,,#8C8C8CCC,#404040CC,-1.5,-0.99
+2024-10-12 South Carolina at Alabama,plays,2,South Carolina,68,36,Raheim Sanders run for 3 yds to the SC 19,Rush,3,13,2,Other,9,3,0,0,,,,,0.31,0,0.39,0.08,0.44,Raheim Sanders,,,#8C8C8CCC,#404040CC,-3.3,-1.06
+2024-10-12 South Carolina at Alabama,plays,2,South Carolina,69,37,LaNorris Sellers run for 9 yds to the SC 28 for a 1ST down,Rush,3,13,3,Other,6,9,0,1,,,,,0.35,0,0.41,0.08,0.46,LaNorris Sellers,,,#8C8C8CCC,#404040CC,3,-0.95
+2024-10-12 South Carolina at Alabama,plays,2,South Carolina,70,38,Raheim Sanders run for 6 yds to the SC 34,Rush,3,13,1,Other,10,6,0,1,,,,,0.39,0,0.42,0.08,0.47,Raheim Sanders,,,#8C8C8CCC,#404040CC,1,-0.89
+2024-10-12 South Carolina at Alabama,plays,2,South Carolina,71,39,Raheim Sanders run for 3 yds to the SC 37,Rush,3,13,2,Other,4,3,0,1,,,,,0.42,0,0.44,0.08,0.49,Raheim Sanders,,,#8C8C8CCC,#404040CC,0.2,-0.87
+2024-10-12 South Carolina at Alabama,plays,2,South Carolina,72,40,Raheim Sanders run for 2 yds to the SC 39 for a 1ST down,Rush,3,13,3,Other,1,2,0,1,,,,,0.45,0,0.45,0.08,0.5,Raheim Sanders,,,#8C8C8CCC,#404040CC,1,-0.82
+2024-10-12 South Carolina at Alabama,plays,2,South Carolina,73,41,LaNorris Sellers run for 14 yds to the ALA 47 for a 1ST down,Rush,3,13,1,Other,10,14,0,1,,,,,0.48,0,0.46,0.07,0.51,LaNorris Sellers,,,#8C8C8CCC,#404040CC,9,-0.58
+2024-10-12 South Carolina at Alabama,plays,2,South Carolina,74,42,Oscar Adaway III run for 3 yds to the ALA 44,Rush,3,13,1,Other,10,3,0,0,,,,,0.45,0,0.45,0.07,0.52,Oscar Adaway III,,,#8C8C8CCC,#404040CC,-2,-0.61
+2024-10-12 South Carolina at Alabama,plays,2,South Carolina,75,43,LaNorris Sellers sacked by Jah-Marien Latham for a loss of 8 yards to the SC 48,Pass,3,13,2,Other,7,-8,0,0,,,,,0.43,0.14,0.44,0.07,0.51,,,,#8C8C8CCC,#404040CC,-12.9,-0.9
+2024-10-12 South Carolina at Alabama,plays,2,South Carolina,76,44,LaNorris Sellers pass complete to Mazeo Bennett Jr. for 22 yds to the ALA 30 for a 1ST down,Pass,3,13,3,Other,15,22,1,1,,,,,0.45,0.18,0.45,0.09,0.5,,LaNorris Sellers,Mazeo Bennett Jr.,#8C8C8CCC,#404040CC,7,-0.72
+2024-10-12 South Carolina at Alabama,plays,2,South Carolina,77,45,Oscar Adaway III run for 6 yds to the ALA 24,Rush,3,13,1,Other,10,6,0,1,,,,,0.48,0,0.47,0.09,0.51,Oscar Adaway III,,,#8C8C8CCC,#404040CC,1,-0.68
+2024-10-12 South Carolina at Alabama,plays,2,South Carolina,78,46,Oscar Adaway III run for 2 yds to the ALA 22,Rush,3,13,2,Other,4,2,0,0,,,,,0.46,0,0.46,0.09,0.52,Oscar Adaway III,,,#8C8C8CCC,#404040CC,-0.8,-0.68
 2024-10-12 South Carolina at Alabama,plays,2,South Carolina,79,47,LaNorris Sellers pass complete to Oscar Adaway III for 14 yds to the ALA 8 for a 1ST down,Pass,3,13,3,Other,2,14,0,1,,,,,0.48,0.17,0.47,0.09,0.51,,LaNorris Sellers,Oscar Adaway III,#8C8C8CCC,#404040CC,12,-0.41
-2024-10-12 South Carolina at Alabama,plays,2,South Carolina,80,48,Raheim Sanders run for 2 yds to the ALA 6,Rush,3,13,1,Red zone,8,2,0,0,,,,,0.44,0.00,0.46,0.08,0.52,Raheim Sanders,,,#8C8C8CCC,#404040CC,-2,-0.45
-2024-10-12 South Carolina at Alabama,plays,2,South Carolina,81,49,LaNorris Sellers pass complete to Joshua Simon for 5 yds to the ALA 1,Pass,3,13,2,Red zone,6,5,0,1,,,,,0.50,0.17,0.47,0.08,0.51,,LaNorris Sellers,Joshua Simon,#8C8C8CCC,#404040CC,0.8,-0.42
-2024-10-12 South Carolina at Alabama,plays,2,South Carolina,82,50,Raheim Sanders 1 yd run (Alex Herrera Kick),Rush,3,13,3,Red zone,1,1,0,1,,,,,0.46,0.00,0.48,0.08,0.52,Raheim Sanders,,,#8C8C8CCC,#404040CC,0,-0.41
+2024-10-12 South Carolina at Alabama,plays,2,South Carolina,80,48,Raheim Sanders run for 2 yds to the ALA 6,Rush,3,13,1,Red zone,8,2,0,0,,,,,0.44,0,0.46,0.08,0.52,Raheim Sanders,,,#8C8C8CCC,#404040CC,-2,-0.45
+2024-10-12 South Carolina at Alabama,plays,2,South Carolina,81,49,LaNorris Sellers pass complete to Joshua Simon for 5 yds to the ALA 1,Pass,3,13,2,Red zone,6,5,0,1,,,,,0.5,0.17,0.47,0.08,0.51,,LaNorris Sellers,Joshua Simon,#8C8C8CCC,#404040CC,0.8,-0.42
+2024-10-12 South Carolina at Alabama,plays,2,South Carolina,82,50,Raheim Sanders 1 yd run (Alex Herrera Kick),Rush,3,13,3,Red zone,1,1,0,1,,,,,0.46,0,0.48,0.08,0.52,Raheim Sanders,,,#8C8C8CCC,#404040CC,0,-0.41
 2024-10-12 South Carolina at Alabama,plays,1,Alabama,83,33,Jalen Milroe pass complete to Cole Adams for 27 yds to the ALA 47 for a 1ST down,Pass,3,14,1,Other,10,27,1,1,,,,,0.38,0.19,0.52,0.12,0.52,,Jalen Milroe,Cole Adams,#E82525CC,#5A0000CC,22,0.95
-2024-10-12 South Carolina at Alabama,plays,1,Alabama,84,34,Jam Miller run for 4 yds to the SC 49,Rush,3,14,1,Other,10,4,0,0,,,,,0.61,0.06,0.50,0.12,0.53,Jam Miller,,,#E82525CC,#5A0000CC,-1,0.89
+2024-10-12 South Carolina at Alabama,plays,1,Alabama,84,34,Jam Miller run for 4 yds to the SC 49,Rush,3,14,1,Other,10,4,0,0,,,,,0.61,0.06,0.5,0.12,0.53,Jam Miller,,,#E82525CC,#5A0000CC,-1,0.89
 2024-10-12 South Carolina at Alabama,plays,1,Alabama,85,35,Jam Miller run for 1 yd to the SC 48,Rush,3,14,2,Other,6,1,0,0,,,,,0.58,0.05,0.49,0.11,0.54,Jam Miller,,,#E82525CC,#5A0000CC,-3.2,0.77
-2024-10-12 South Carolina at Alabama,plays,1,Alabama,86,36,Jalen Milroe pass complete to Germie Bernard for 13 yds to the SC 35 for a 1ST down,Pass,3,14,3,Other,5,13,0,1,,,,,0.41,0.18,0.50,0.11,0.53,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,8,0.97
+2024-10-12 South Carolina at Alabama,plays,1,Alabama,86,36,Jalen Milroe pass complete to Germie Bernard for 13 yds to the SC 35 for a 1ST down,Pass,3,14,3,Other,5,13,0,1,,,,,0.41,0.18,0.5,0.11,0.53,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,8,0.97
 2024-10-12 South Carolina at Alabama,plays,1,Alabama,87,37,Jalen Milroe pass complete to CJ Dippre for a loss of 7 yards to the SC 42,Pass,3,14,1,Other,10,-7,0,0,,,,,0.39,0.17,0.49,0.11,0.51,,Jalen Milroe,CJ Dippre,#E82525CC,#5A0000CC,-12,0.62
-2024-10-12 South Carolina at Alabama,plays,1,Alabama,88,38,Jalen Milroe pass incomplete to Germie Bernard,Pass,3,14,2,Other,17,0,0,0,,,,,0.37,0.16,0.47,0.11,0.50,,Jalen Milroe,,#E82525CC,#5A0000CC,-11.9,0.29
-2024-10-12 South Carolina at Alabama,plays,1,Alabama,89,39,Jalen Milroe pass incomplete to Germie Bernard,Pass,3,14,3,Other,17,0,0,0,,,,,0.35,0.15,0.46,0.10,0.49,,Jalen Milroe,,#E82525CC,#5A0000CC,-17,-0.15
-2024-10-12 South Carolina at Alabama,plays,2,South Carolina,90,51,Raheim Sanders run for 3 yds to the SC 13,Rush,3,15,1,Other,10,3,0,0,,,,,0.44,0.00,0.47,0.08,0.53,Raheim Sanders,,,#8C8C8CCC,#404040CC,-2,-0.45
-2024-10-12 South Carolina at Alabama,plays,2,South Carolina,91,52,LaNorris Sellers run for 2 yds to the SC 15,Rush,3,15,2,Other,7,2,0,0,,,,,0.43,0.00,0.46,0.08,0.54,LaNorris Sellers,,,#8C8C8CCC,#404040CC,-2.9,-0.49
+2024-10-12 South Carolina at Alabama,plays,1,Alabama,88,38,Jalen Milroe pass incomplete to Germie Bernard,Pass,3,14,2,Other,17,0,0,0,,,,,0.37,0.16,0.47,0.11,0.5,,Jalen Milroe,,#E82525CC,#5A0000CC,-11.9,0.29
+2024-10-12 South Carolina at Alabama,plays,1,Alabama,89,39,Jalen Milroe pass incomplete to Germie Bernard,Pass,3,14,3,Other,17,0,0,0,,,,,0.35,0.15,0.46,0.1,0.49,,Jalen Milroe,,#E82525CC,#5A0000CC,-17,-0.15
+2024-10-12 South Carolina at Alabama,plays,2,South Carolina,90,51,Raheim Sanders run for 3 yds to the SC 13,Rush,3,15,1,Other,10,3,0,0,,,,,0.44,0,0.47,0.08,0.53,Raheim Sanders,,,#8C8C8CCC,#404040CC,-2,-0.45
+2024-10-12 South Carolina at Alabama,plays,2,South Carolina,91,52,LaNorris Sellers run for 2 yds to the SC 15,Rush,3,15,2,Other,7,2,0,0,,,,,0.43,0,0.46,0.08,0.54,LaNorris Sellers,,,#8C8C8CCC,#404040CC,-2.9,-0.49
 2024-10-12 South Carolina at Alabama,plays,2,South Carolina,92,53,LaNorris Sellers pass complete to Joshua Simon for 2 yds to the SC 17,Pass,3,15,3,Other,5,2,0,0,,,,,0.48,0.16,0.45,0.08,0.53,,LaNorris Sellers,Joshua Simon,#8C8C8CCC,#404040CC,-3,-0.54
-2024-10-12 South Carolina at Alabama,plays,1,Alabama,93,40,Justice Haynes run for 2 yds to the ALA 48,Rush,3,16,1,Other,10,2,0,0,,,,,0.55,0.05,0.45,0.10,0.50,Justice Haynes,,,#E82525CC,#5A0000CC,-3,-0.22
-2024-10-12 South Carolina at Alabama,plays,1,Alabama,94,41,Jalen Milroe pass complete to Justice Haynes for 13 yds to the SC 39 for a 1ST down,Pass,3,16,2,Other,8,13,0,1,,,,,0.38,0.14,0.46,0.10,0.49,,Jalen Milroe,Justice Haynes,#E82525CC,#5A0000CC,7.4,-0.04
-2024-10-12 South Carolina at Alabama,plays,1,Alabama,95,42,Jalen Milroe run for 9 yds to the SC 30,Rush,3,16,1,Other,10,9,0,1,,,,,0.57,0.05,0.48,0.10,0.50,Jalen Milroe,,,#E82525CC,#5A0000CC,4,0.06
+2024-10-12 South Carolina at Alabama,plays,1,Alabama,93,40,Justice Haynes run for 2 yds to the ALA 48,Rush,3,16,1,Other,10,2,0,0,,,,,0.55,0.05,0.45,0.1,0.5,Justice Haynes,,,#E82525CC,#5A0000CC,-3,-0.22
+2024-10-12 South Carolina at Alabama,plays,1,Alabama,94,41,Jalen Milroe pass complete to Justice Haynes for 13 yds to the SC 39 for a 1ST down,Pass,3,16,2,Other,8,13,0,1,,,,,0.38,0.14,0.46,0.1,0.49,,Jalen Milroe,Justice Haynes,#E82525CC,#5A0000CC,7.4,-0.04
+2024-10-12 South Carolina at Alabama,plays,1,Alabama,95,42,Jalen Milroe run for 9 yds to the SC 30,Rush,3,16,1,Other,10,9,0,1,,,,,0.57,0.05,0.48,0.1,0.5,Jalen Milroe,,,#E82525CC,#5A0000CC,4,0.06
 2024-10-12 South Carolina at Alabama,plays,1,Alabama,96,43,Jalen Milroe run for 1 yd to the SC 29 for a 1ST down,Rush,4,16,2,Other,1,1,0,1,,,,,0.59,0.05,0.49,0.09,0.51,Jalen Milroe,,,#E82525CC,#5A0000CC,0.3,0.07
-2024-10-12 South Carolina at Alabama,plays,1,Alabama,97,44,Jalen Milroe run for 9 yds to the SC 20,Rush,4,16,1,Other,10,9,0,1,,,,,0.61,0.04,0.50,0.09,0.52,Jalen Milroe,,,#E82525CC,#5A0000CC,4,0.15
+2024-10-12 South Carolina at Alabama,plays,1,Alabama,97,44,Jalen Milroe run for 9 yds to the SC 20,Rush,4,16,1,Other,10,9,0,1,,,,,0.61,0.04,0.5,0.09,0.52,Jalen Milroe,,,#E82525CC,#5A0000CC,4,0.15
 2024-10-12 South Carolina at Alabama,plays,1,Alabama,98,45,Jalen Milroe pass incomplete,Pass,4,16,2,Red zone,1,0,0,0,,,,,0.36,0.14,0.49,0.09,0.51,,Jalen Milroe,,#E82525CC,#5A0000CC,-0.7,0.14
-2024-10-12 South Carolina at Alabama,plays,1,Alabama,99,46,Jam Miller run for 7 yds to the SC 13 for a 1ST down,Rush,4,16,3,Red zone,1,7,0,1,,,,,0.63,0.04,0.50,0.09,0.52,Jam Miller,,,#E82525CC,#5A0000CC,6,0.26
-2024-10-12 South Carolina at Alabama,plays,1,Alabama,100,47,Jalen Milroe run for a loss of 1 yard to the SC 14,Rush,4,16,1,Red zone,10,-1,0,0,,,,,0.60,0.04,0.49,0.09,0.53,Jalen Milroe,,,#E82525CC,#5A0000CC,-6,0.13
+2024-10-12 South Carolina at Alabama,plays,1,Alabama,99,46,Jam Miller run for 7 yds to the SC 13 for a 1ST down,Rush,4,16,3,Red zone,1,7,0,1,,,,,0.63,0.04,0.5,0.09,0.52,Jam Miller,,,#E82525CC,#5A0000CC,6,0.26
+2024-10-12 South Carolina at Alabama,plays,1,Alabama,100,47,Jalen Milroe run for a loss of 1 yard to the SC 14,Rush,4,16,1,Red zone,10,-1,0,0,,,,,0.6,0.04,0.49,0.09,0.53,Jalen Milroe,,,#E82525CC,#5A0000CC,-6,0.13
 2024-10-12 South Carolina at Alabama,plays,1,Alabama,101,48,"Jalen Milroe pass intercepted, touchback. O'Donnell Fortune return for no gain",Pass,4,16,2,Red zone,11,0,0,0,,,,,0.35,0.13,0.48,0.08,0.52,,Jalen Milroe,,#E82525CC,#5A0000CC,-7.7,-0.03
-2024-10-12 South Carolina at Alabama,plays,2,South Carolina,102,54,"LaNorris Sellers run for a loss of 4 yards to the SC 31 LaNorris Sellers fumbled, recovered by ALA LT Overton",Rush,4,17,1,Other,10,-4,0,0,,,,,0.41,0.00,0.44,0.07,0.54,LaNorris Sellers,,,#8C8C8CCC,#404040CC,-9,-0.70
+2024-10-12 South Carolina at Alabama,plays,2,South Carolina,102,54,"LaNorris Sellers run for a loss of 4 yards to the SC 31 LaNorris Sellers fumbled, recovered by ALA LT Overton",Rush,4,17,1,Other,10,-4,0,0,,,,,0.41,0,0.44,0.07,0.54,LaNorris Sellers,,,#8C8C8CCC,#404040CC,-9,-0.7
 2024-10-12 South Carolina at Alabama,plays,1,Alabama,103,49,Jam Miller run for 3 yds to the SC 23,Rush,4,18,1,Other,5,3,0,1,,,,,0.62,0.04,0.49,0.08,0.53,Jam Miller,,,#E82525CC,#5A0000CC,0.5,-0.02
-2024-10-12 South Carolina at Alabama,plays,1,Alabama,104,50,Jalen Milroe pass complete to Ryan Williams for 16 yds to the SC 7 for a 1ST down,Pass,4,18,2,Other,2,16,1,1,,,,,0.38,0.17,0.50,0.10,0.52,,Jalen Milroe,Ryan Williams,#E82525CC,#5A0000CC,14.6,0.27
-2024-10-12 South Carolina at Alabama,plays,1,Alabama,105,51,Jalen Milroe 7 yd run (Two-Point Pass Conversion Failed),Rush,4,18,1,Red zone,7,7,0,1,,,,,0.63,0.04,0.51,0.10,0.53,Jalen Milroe,,,#E82525CC,#5A0000CC,3.5,0.33
+2024-10-12 South Carolina at Alabama,plays,1,Alabama,104,50,Jalen Milroe pass complete to Ryan Williams for 16 yds to the SC 7 for a 1ST down,Pass,4,18,2,Other,2,16,1,1,,,,,0.38,0.17,0.5,0.1,0.52,,Jalen Milroe,Ryan Williams,#E82525CC,#5A0000CC,14.6,0.27
+2024-10-12 South Carolina at Alabama,plays,1,Alabama,105,51,Jalen Milroe 7 yd run (Two-Point Pass Conversion Failed),Rush,4,18,1,Red zone,7,7,0,1,,,,,0.63,0.04,0.51,0.1,0.53,Jalen Milroe,,,#E82525CC,#5A0000CC,3.5,0.33
 2024-10-12 South Carolina at Alabama,plays,2,South Carolina,106,55,Raheim Sanders run for 23 yds to the SC 48 for a 1ST down,Rush,4,19,1,Other,10,23,1,1,,,,,0.43,0.03,0.45,0.09,0.55,Raheim Sanders,,,#8C8C8CCC,#404040CC,18,-0.36
-2024-10-12 South Carolina at Alabama,plays,2,South Carolina,107,56,Raheim Sanders run for 8 yds to the ALA 44,Rush,4,19,1,Other,10,8,0,1,,,,,0.45,0.03,0.46,0.09,0.55,Raheim Sanders,,,#8C8C8CCC,#404040CC,3,-0.30
-2024-10-12 South Carolina at Alabama,plays,2,South Carolina,108,57,Raheim Sanders run for 1 yd to the ALA 43,Rush,4,19,2,Other,2,1,0,0,,,,,0.44,0.03,0.46,0.09,0.56,Raheim Sanders,,,#8C8C8CCC,#404040CC,-0.4,-0.30
+2024-10-12 South Carolina at Alabama,plays,2,South Carolina,107,56,Raheim Sanders run for 8 yds to the ALA 44,Rush,4,19,1,Other,10,8,0,1,,,,,0.45,0.03,0.46,0.09,0.55,Raheim Sanders,,,#8C8C8CCC,#404040CC,3,-0.3
+2024-10-12 South Carolina at Alabama,plays,2,South Carolina,108,57,Raheim Sanders run for 1 yd to the ALA 43,Rush,4,19,2,Other,2,1,0,0,,,,,0.44,0.03,0.46,0.09,0.56,Raheim Sanders,,,#8C8C8CCC,#404040CC,-0.4,-0.3
 2024-10-12 South Carolina at Alabama,plays,2,South Carolina,109,58,Raheim Sanders run for 3 yds to the ALA 40 for a 1ST down,Rush,4,19,3,Other,1,3,0,1,,,,,0.45,0.03,0.47,0.09,0.57,Raheim Sanders,,,#8C8C8CCC,#404040CC,2,-0.26
-2024-10-12 South Carolina at Alabama,plays,2,South Carolina,110,59,LaNorris Sellers pass complete to Vandrevius Jacobs for 12 yds to the ALA 28 for a 1ST down,Pass,4,19,1,Other,10,12,0,1,,,,,0.50,0.15,0.47,0.08,0.56,,LaNorris Sellers,Vandrevius Jacobs,#8C8C8CCC,#404040CC,7,-0.14
+2024-10-12 South Carolina at Alabama,plays,2,South Carolina,110,59,LaNorris Sellers pass complete to Vandrevius Jacobs for 12 yds to the ALA 28 for a 1ST down,Pass,4,19,1,Other,10,12,0,1,,,,,0.5,0.15,0.47,0.08,0.56,,LaNorris Sellers,Vandrevius Jacobs,#8C8C8CCC,#404040CC,7,-0.14
 2024-10-12 South Carolina at Alabama,plays,2,South Carolina,111,60,LaNorris Sellers pass complete to Raheim Sanders for 2 yds to the ALA 36,Pass,4,19,1,Other,20,2,0,0,,,,,0.48,0.15,0.47,0.08,0.55,,LaNorris Sellers,Raheim Sanders,#8C8C8CCC,#404040CC,-8,-0.27
 2024-10-12 South Carolina at Alabama,plays,2,South Carolina,112,61,LaNorris Sellers pass incomplete to Joshua Simon,Pass,4,19,2,Other,18,0,0,0,,,,,0.46,0.14,0.46,0.08,0.54,,LaNorris Sellers,,#8C8C8CCC,#404040CC,-12.6,-0.47
-2024-10-12 South Carolina at Alabama,plays,2,South Carolina,113,62,LaNorris Sellers pass complete to Gage Larvadain for 3 yds to the ALA 33,Pass,4,19,3,Other,18,3,0,0,,,,,0.45,0.14,0.45,0.08,0.53,,LaNorris Sellers,Gage Larvadain,#8C8C8CCC,#404040CC,-15,-0.70
-2024-10-12 South Carolina at Alabama,plays,1,Alabama,114,52,Jalen Milroe run for no gain to the ALA 33,Rush,4,20,1,Other,10,0,0,0,,,,,0.61,0.04,0.50,0.10,0.54,Jalen Milroe,,,#E82525CC,#5A0000CC,-5,0.23
+2024-10-12 South Carolina at Alabama,plays,2,South Carolina,113,62,LaNorris Sellers pass complete to Gage Larvadain for 3 yds to the ALA 33,Pass,4,19,3,Other,18,3,0,0,,,,,0.45,0.14,0.45,0.08,0.53,,LaNorris Sellers,Gage Larvadain,#8C8C8CCC,#404040CC,-15,-0.7
+2024-10-12 South Carolina at Alabama,plays,1,Alabama,114,52,Jalen Milroe run for no gain to the ALA 33,Rush,4,20,1,Other,10,0,0,0,,,,,0.61,0.04,0.5,0.1,0.54,Jalen Milroe,,,#E82525CC,#5A0000CC,-5,0.23
 2024-10-12 South Carolina at Alabama,plays,1,Alabama,115,53,Jalen Milroe run for 10 yds to the ALA 43 for a 1ST down,Rush,4,20,2,Other,10,10,0,1,,,,,0.62,0.03,0.51,0.09,0.55,Jalen Milroe,,,#E82525CC,#5A0000CC,3,0.28
-2024-10-12 South Carolina at Alabama,plays,1,Alabama,116,54,Jam Miller run for 4 yds to the ALA 47,Rush,4,20,1,Other,10,4,0,0,,,,,0.60,0.03,0.50,0.09,0.56,Jam Miller,,,#E82525CC,#5A0000CC,-1,0.26
-2024-10-12 South Carolina at Alabama,plays,1,Alabama,117,55,Jalen Milroe pass complete to Ryan Williams for 9 yds to the SC 44 for a 1ST down,Pass,4,20,2,Other,6,9,0,1,,,,,0.40,0.16,0.51,0.09,0.55,,Jalen Milroe,Ryan Williams,#E82525CC,#5A0000CC,4.8,0.34
-2024-10-12 South Carolina at Alabama,plays,1,Alabama,118,56,Jalen Milroe pass complete to CJ Dippre for 4 yds to the SC 40,Pass,4,20,1,Other,10,4,0,0,,,,,0.38,0.15,0.50,0.09,0.54,,Jalen Milroe,CJ Dippre,#E82525CC,#5A0000CC,-1,0.32
+2024-10-12 South Carolina at Alabama,plays,1,Alabama,116,54,Jam Miller run for 4 yds to the ALA 47,Rush,4,20,1,Other,10,4,0,0,,,,,0.6,0.03,0.5,0.09,0.56,Jam Miller,,,#E82525CC,#5A0000CC,-1,0.26
+2024-10-12 South Carolina at Alabama,plays,1,Alabama,117,55,Jalen Milroe pass complete to Ryan Williams for 9 yds to the SC 44 for a 1ST down,Pass,4,20,2,Other,6,9,0,1,,,,,0.4,0.16,0.51,0.09,0.55,,Jalen Milroe,Ryan Williams,#E82525CC,#5A0000CC,4.8,0.34
+2024-10-12 South Carolina at Alabama,plays,1,Alabama,118,56,Jalen Milroe pass complete to CJ Dippre for 4 yds to the SC 40,Pass,4,20,1,Other,10,4,0,0,,,,,0.38,0.15,0.5,0.09,0.54,,Jalen Milroe,CJ Dippre,#E82525CC,#5A0000CC,-1,0.32
 2024-10-12 South Carolina at Alabama,plays,1,Alabama,119,57,Justice Haynes run for 3 yds to the SC 37,Rush,4,20,2,Other,6,3,0,0,,,,,0.58,0.03,0.49,0.09,0.54,Justice Haynes,,,#E82525CC,#5A0000CC,-1.2,0.29
-2024-10-12 South Carolina at Alabama,plays,1,Alabama,120,58,Jam Miller run for 3 yds to the SC 34 for a 1ST down,Rush,4,20,3,Other,3,3,0,1,,,,,0.59,0.03,0.50,0.09,0.55,Jam Miller,,,#E82525CC,#5A0000CC,0,0.29
+2024-10-12 South Carolina at Alabama,plays,1,Alabama,120,58,Jam Miller run for 3 yds to the SC 34 for a 1ST down,Rush,4,20,3,Other,3,3,0,1,,,,,0.59,0.03,0.5,0.09,0.55,Jam Miller,,,#E82525CC,#5A0000CC,0,0.29
 2024-10-12 South Carolina at Alabama,plays,1,Alabama,121,59,Jam Miller run for 1 yd to the SC 33,Rush,4,20,1,Other,10,1,0,0,,,,,0.58,0.03,0.49,0.08,0.56,Jam Miller,,,#E82525CC,#5A0000CC,-4,0.21
 2024-10-12 South Carolina at Alabama,plays,1,Alabama,122,60,Jalen Milroe run for a loss of 1 yard to the SC 34,Rush,4,20,2,Other,9,-1,0,0,,,,,0.56,0.03,0.48,0.08,0.57,Jalen Milroe,,,#E82525CC,#5A0000CC,-7.3,0.09
-2024-10-12 South Carolina at Alabama,plays,1,Alabama,123,61,Germie Bernard 34 Yd pass from Jalen Milroe (Graham Nicholson Kick),Pass,4,20,3,Other,10,34,1,1,,,,,0.41,0.19,0.49,0.10,0.56,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,24,0.48
+2024-10-12 South Carolina at Alabama,plays,1,Alabama,123,61,Germie Bernard 34 Yd pass from Jalen Milroe (Graham Nicholson Kick),Pass,4,20,3,Other,10,34,1,1,,,,,0.41,0.19,0.49,0.1,0.56,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,24,0.48
 2024-10-12 South Carolina at Alabama,plays,2,South Carolina,124,63,LaNorris Sellers run for 4 yds to the SC 29,Rush,4,21,1,Other,10,4,0,0,,,,,0.44,0.03,0.44,0.08,0.54,LaNorris Sellers,,,#8C8C8CCC,#404040CC,-1,-0.71
 2024-10-12 South Carolina at Alabama,plays,2,South Carolina,125,64,LaNorris Sellers pass incomplete to Gage Larvadain,Pass,4,21,2,Other,6,0,0,0,,,,,0.43,0.13,0.44,0.08,0.53,,LaNorris Sellers,,#8C8C8CCC,#404040CC,-4.2,-0.76
 2024-10-12 South Carolina at Alabama,plays,2,South Carolina,126,65,LaNorris Sellers run for 8 yds to the SC 37 for a 1ST down,Rush,4,21,3,Other,6,8,0,1,,,,,0.46,0.03,0.45,0.08,0.54,LaNorris Sellers,,,#8C8C8CCC,#404040CC,2,-0.72
 2024-10-12 South Carolina at Alabama,plays,2,South Carolina,127,66,LaNorris Sellers pass complete to Gage Larvadain for 17 yds to the ALA 46 for a 1ST down,Pass,4,21,1,Other,10,17,1,1,,,,,0.45,0.16,0.45,0.09,0.53,,LaNorris Sellers,Gage Larvadain,#8C8C8CCC,#404040CC,12,-0.53
 2024-10-12 South Carolina at Alabama,plays,2,South Carolina,128,67,"LaNorris Sellers pass incomplete to Gage Larvadain, broken up by Domani Jackson",Pass,4,21,1,Other,10,0,0,0,,,,,0.44,0.16,0.45,0.09,0.52,,LaNorris Sellers,,#8C8C8CCC,#404040CC,-5,-0.59
-2024-10-12 South Carolina at Alabama,plays,2,South Carolina,129,68,Nyck Harbor 31 Yd pass from LaNorris Sellers (Two-Point Pass Conversion Failed),Pass,4,21,1,Other,10,31,1,1,,,,,0.45,0.18,0.46,0.10,0.51,,LaNorris Sellers,Nyck Harbor,#8C8C8CCC,#404040CC,26,-0.20
-2024-10-12 South Carolina at Alabama,plays,2,South Carolina,130,69,LaNorris Sellers pass complete to Jatavius Shivers for 2 yds to the ALA 47,Pass,4,22,1,Other,10,2,0,0,,,,,0.44,0.18,0.45,0.10,0.51,,LaNorris Sellers,Jatavius Shivers,#8C8C8CCC,#404040CC,-3,-0.24
-2024-10-12 South Carolina at Alabama,plays,2,South Carolina,131,70,LaNorris Sellers pass incomplete,Pass,4,22,2,Other,8,0,0,0,,,,,0.43,0.17,0.44,0.10,0.50,,LaNorris Sellers,,#8C8C8CCC,#404040CC,-5.6,-0.32
-2024-10-12 South Carolina at Alabama,plays,2,South Carolina,132,71,LaNorris Sellers pass intercepted Domani Jackson return for 38 yds to the ALA 40,Pass,4,22,3,Other,8,38,0,0,,,,,0.42,0.17,0.44,0.10,0.49,,LaNorris Sellers,,#8C8C8CCC,#404040CC,30,0.11
+2024-10-12 South Carolina at Alabama,plays,2,South Carolina,129,68,Nyck Harbor 31 Yd pass from LaNorris Sellers (Two-Point Pass Conversion Failed),Pass,4,21,1,Other,10,31,1,1,,,,,0.45,0.18,0.46,0.1,0.51,,LaNorris Sellers,Nyck Harbor,#8C8C8CCC,#404040CC,26,-0.2
+2024-10-12 South Carolina at Alabama,plays,2,South Carolina,130,69,LaNorris Sellers pass complete to Jatavius Shivers for 2 yds to the ALA 47,Pass,4,22,1,Other,10,2,0,0,,,,,0.44,0.18,0.45,0.1,0.51,,LaNorris Sellers,Jatavius Shivers,#8C8C8CCC,#404040CC,-3,-0.24
+2024-10-12 South Carolina at Alabama,plays,2,South Carolina,131,70,LaNorris Sellers pass incomplete,Pass,4,22,2,Other,8,0,0,0,,,,,0.43,0.17,0.44,0.1,0.5,,LaNorris Sellers,,#8C8C8CCC,#404040CC,-5.6,-0.32
+2024-10-12 South Carolina at Alabama,plays,2,South Carolina,132,71,LaNorris Sellers pass intercepted Domani Jackson return for 38 yds to the ALA 40,Pass,4,22,3,Other,8,38,0,0,,,,,0.42,0.17,0.44,0.1,0.49,,LaNorris Sellers,,#8C8C8CCC,#404040CC,30,0.11
+2024-10-19 Alabama at Tennessee,teams,1,Alabama,,,,,,,,,,,7,29,,,,78,0.37,0.09,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-10-19 Alabama at Tennessee,teams,2,Tennessee,,,,,,,,,,,9,24,,,,71,0.34,0.13,0.00,0.00,0.00,,,,#F48E25CC,#804100CC,,0.00
+2024-10-19 Alabama at Tennessee,play_type,1,Alabama,,,,Rush,,,,,,,0,12,,,,30,0.40,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-10-19 Alabama at Tennessee,play_type,2,Tennessee,,,,Rush,,,,,,,2,14,,,,40,0.35,0.05,0.00,0.00,0.00,,,,#F48E25CC,#804100CC,,0.00
+2024-10-19 Alabama at Tennessee,play_type,1,Alabama,,,,Pass,,,,,,,7,17,,,,48,0.35,0.15,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-10-19 Alabama at Tennessee,play_type,2,Tennessee,,,,Pass,,,,,,,7,10,,,,31,0.32,0.23,0.00,0.00,0.00,,,,#F48E25CC,#804100CC,,0.00
+2024-10-19 Alabama at Tennessee,quarter,1,Alabama,,,,,1Q,,,,,,3,9,,,,24,0.38,0.13,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-10-19 Alabama at Tennessee,quarter,1,Alabama,,,,,2Q,,,,,,1,8,,,,21,0.38,0.05,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-10-19 Alabama at Tennessee,quarter,1,Alabama,,,,,3Q,,,,,,2,10,,,,20,0.50,0.10,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-10-19 Alabama at Tennessee,quarter,1,Alabama,,,,,4Q,,,,,,1,2,,,,13,0.15,0.08,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-10-19 Alabama at Tennessee,quarter,2,Tennessee,,,,,1Q,,,,,,1,1,,,,12,0.08,0.08,0.00,0.00,0.00,,,,#F48E25CC,#804100CC,,0.00
+2024-10-19 Alabama at Tennessee,quarter,2,Tennessee,,,,,2Q,,,,,,4,7,,,,17,0.41,0.24,0.00,0.00,0.00,,,,#F48E25CC,#804100CC,,0.00
+2024-10-19 Alabama at Tennessee,quarter,2,Tennessee,,,,,3Q,,,,,,3,8,,,,18,0.44,0.17,0.00,0.00,0.00,,,,#F48E25CC,#804100CC,,0.00
+2024-10-19 Alabama at Tennessee,quarter,2,Tennessee,,,,,4Q,,,,,,1,8,,,,24,0.33,0.04,0.00,0.00,0.00,,,,#F48E25CC,#804100CC,,0.00
+2024-10-19 Alabama at Tennessee,down,1,Alabama,,,,,,,1D,,,,3,15,,,,36,0.42,0.08,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-10-19 Alabama at Tennessee,down,1,Alabama,,,,,,,2D,,,,3,10,,,,26,0.38,0.12,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-10-19 Alabama at Tennessee,down,1,Alabama,,,,,,,3D,,,,1,3,,,,14,0.21,0.07,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-10-19 Alabama at Tennessee,down,1,Alabama,,,,,,,4D,,,,0,1,,,,2,0.50,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-10-19 Alabama at Tennessee,down,2,Tennessee,,,,,,,1D,,,,2,11,,,,33,0.33,0.06,0.00,0.00,0.00,,,,#F48E25CC,#804100CC,,0.00
+2024-10-19 Alabama at Tennessee,down,2,Tennessee,,,,,,,2D,,,,4,7,,,,23,0.30,0.17,0.00,0.00,0.00,,,,#F48E25CC,#804100CC,,0.00
+2024-10-19 Alabama at Tennessee,down,2,Tennessee,,,,,,,3D,,,,3,6,,,,15,0.40,0.20,0.00,0.00,0.00,,,,#F48E25CC,#804100CC,,0.00
+2024-10-19 Alabama at Tennessee,red_zone,1,Alabama,,,,,,,,Other,,,7,25,,,,68,0.37,0.10,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-10-19 Alabama at Tennessee,red_zone,1,Alabama,,,,,,,,Red zone,,,0,4,,,,10,0.40,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-10-19 Alabama at Tennessee,red_zone,2,Tennessee,,,,,,,,Other,,,8,21,,,,65,0.32,0.12,0.00,0.00,0.00,,,,#F48E25CC,#804100CC,,0.00
+2024-10-19 Alabama at Tennessee,red_zone,2,Tennessee,,,,,,,,Red zone,,,1,3,,,,6,0.50,0.17,0.00,0.00,0.00,,,,#F48E25CC,#804100CC,,0.00
+2024-10-19 Alabama at Tennessee,distance,1,Alabama,,,,,,,,,0-3 yds,,0,5,,,,8,0.63,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-10-19 Alabama at Tennessee,distance,1,Alabama,,,,,,,,,4-6 yds,,3,6,,,,15,0.40,0.20,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-10-19 Alabama at Tennessee,distance,1,Alabama,,,,,,,,,7-9 yds,,0,1,,,,3,0.33,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-10-19 Alabama at Tennessee,distance,1,Alabama,,,,,,,,,9> yds,,4,17,,,,52,0.33,0.08,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-10-19 Alabama at Tennessee,distance,2,Tennessee,,,,,,,,,0-3 yds,,0,6,,,,7,0.86,0.00,0.00,0.00,0.00,,,,#F48E25CC,#804100CC,,0.00
+2024-10-19 Alabama at Tennessee,distance,2,Tennessee,,,,,,,,,4-6 yds,,3,5,,,,10,0.50,0.30,0.00,0.00,0.00,,,,#F48E25CC,#804100CC,,0.00
+2024-10-19 Alabama at Tennessee,distance,2,Tennessee,,,,,,,,,7-9 yds,,4,4,,,,14,0.29,0.29,0.00,0.00,0.00,,,,#F48E25CC,#804100CC,,0.00
+2024-10-19 Alabama at Tennessee,distance,2,Tennessee,,,,,,,,,9> yds,,2,9,,,,40,0.23,0.05,0.00,0.00,0.00,,,,#F48E25CC,#804100CC,,0.00
+2024-10-19 Alabama at Tennessee,drive,1,Alabama,,,,,,1,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-10-19 Alabama at Tennessee,drive,1,Alabama,,,,,,3,,,,,1,3,,,,9,0.33,0.11,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-10-19 Alabama at Tennessee,drive,1,Alabama,,,,,,5,,,,,2,4,,,,8,0.50,0.25,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-10-19 Alabama at Tennessee,drive,1,Alabama,,,,,,7,,,,,1,5,,,,8,0.63,0.13,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-10-19 Alabama at Tennessee,drive,1,Alabama,,,,,,9,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-10-19 Alabama at Tennessee,drive,1,Alabama,,,,,,11,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-10-19 Alabama at Tennessee,drive,1,Alabama,,,,,,13,,,,,0,5,,,,11,0.45,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-10-19 Alabama at Tennessee,drive,1,Alabama,,,,,,16,,,,,0,5,,,,8,0.63,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-10-19 Alabama at Tennessee,drive,1,Alabama,,,,,,18,,,,,1,3,,,,9,0.33,0.11,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-10-19 Alabama at Tennessee,drive,1,Alabama,,,,,,20,,,,,2,4,,,,5,0.80,0.40,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-10-19 Alabama at Tennessee,drive,1,Alabama,,,,,,22,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-10-19 Alabama at Tennessee,drive,1,Alabama,,,,,,24,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-10-19 Alabama at Tennessee,drive,1,Alabama,,,,,,26,,,,,0,0,,,,4,0.00,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-10-19 Alabama at Tennessee,drive,1,Alabama,,,,,,28,,,,,0,0,,,,1,0.00,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-10-19 Alabama at Tennessee,drive,2,Tennessee,,,,,,2,,,,,1,1,,,,4,0.25,0.25,0.00,0.00,0.00,,,,#F48E25CC,#804100CC,,0.00
+2024-10-19 Alabama at Tennessee,drive,2,Tennessee,,,,,,4,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#F48E25CC,#804100CC,,0.00
+2024-10-19 Alabama at Tennessee,drive,2,Tennessee,,,,,,6,,,,,0,0,,,,5,0.00,0.00,0.00,0.00,0.00,,,,#F48E25CC,#804100CC,,0.00
+2024-10-19 Alabama at Tennessee,drive,2,Tennessee,,,,,,8,,,,,1,1,,,,5,0.20,0.20,0.00,0.00,0.00,,,,#F48E25CC,#804100CC,,0.00
+2024-10-19 Alabama at Tennessee,drive,2,Tennessee,,,,,,10,,,,,2,4,,,,6,0.67,0.33,0.00,0.00,0.00,,,,#F48E25CC,#804100CC,,0.00
+2024-10-19 Alabama at Tennessee,drive,2,Tennessee,,,,,,12,,,,,1,2,,,,5,0.40,0.20,0.00,0.00,0.00,,,,#F48E25CC,#804100CC,,0.00
+2024-10-19 Alabama at Tennessee,drive,2,Tennessee,,,,,,14,,,,,0,0,,,,1,0.00,0.00,0.00,0.00,0.00,,,,#F48E25CC,#804100CC,,0.00
+2024-10-19 Alabama at Tennessee,drive,2,Tennessee,,,,,,15,,,,,0,1,,,,6,0.17,0.00,0.00,0.00,0.00,,,,#F48E25CC,#804100CC,,0.00
+2024-10-19 Alabama at Tennessee,drive,2,Tennessee,,,,,,17,,,,,2,4,,,,7,0.57,0.29,0.00,0.00,0.00,,,,#F48E25CC,#804100CC,,0.00
+2024-10-19 Alabama at Tennessee,drive,2,Tennessee,,,,,,19,,,,,1,3,,,,5,0.60,0.20,0.00,0.00,0.00,,,,#F48E25CC,#804100CC,,0.00
+2024-10-19 Alabama at Tennessee,drive,2,Tennessee,,,,,,20,,,,,0,0,,,,1,0.00,0.00,0.00,0.00,0.00,,,,#F48E25CC,#804100CC,,0.00
+2024-10-19 Alabama at Tennessee,drive,2,Tennessee,,,,,,21,,,,,0,4,,,,9,0.44,0.00,0.00,0.00,0.00,,,,#F48E25CC,#804100CC,,0.00
+2024-10-19 Alabama at Tennessee,drive,2,Tennessee,,,,,,23,,,,,1,4,,,,7,0.57,0.14,0.00,0.00,0.00,,,,#F48E25CC,#804100CC,,0.00
+2024-10-19 Alabama at Tennessee,drive,2,Tennessee,,,,,,25,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#F48E25CC,#804100CC,,0.00
+2024-10-19 Alabama at Tennessee,drive,2,Tennessee,,,,,,27,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#F48E25CC,#804100CC,,0.00
+2024-10-19 Alabama at Tennessee,drive,2,Tennessee,,,,,,29,,,,,0,0,,,,1,0.00,0.00,0.00,0.00,0.00,,,,#F48E25CC,#804100CC,,0.00
+2024-10-19 Alabama at Tennessee,rusher,1,Alabama,,,,,,,,,,,0,5,,6,,,0.00,0.00,0.00,0.00,0.00,Jalen Milroe,,,#E82525CC,#5A0000CC,,0.00
+2024-10-19 Alabama at Tennessee,rusher,1,Alabama,,,,,,,,,,,0,5,,6,,,0.00,0.00,0.00,0.00,0.00,Jam Miller,,,#E82525CC,#5A0000CC,,0.00
+2024-10-19 Alabama at Tennessee,rusher,1,Alabama,,,,,,,,,,,0,2,,6,,,0.00,0.00,0.00,0.00,0.00,Justice Haynes,,,#E82525CC,#5A0000CC,,0.00
+2024-10-19 Alabama at Tennessee,rusher,2,Tennessee,,,,,,,,,,,1,7,,18,,,0.00,0.00,0.00,0.00,0.00,Dylan Sampson,,,#F48E25CC,#804100CC,,0.00
+2024-10-19 Alabama at Tennessee,rusher,2,Tennessee,,,,,,,,,,,1,3,,2,,,0.00,0.00,0.00,0.00,0.00,Nico Iamaleava,,,#F48E25CC,#804100CC,,0.00
+2024-10-19 Alabama at Tennessee,rusher,2,Tennessee,,,,,,,,,,,0,2,,3,,,0.00,0.00,0.00,0.00,0.00,DeSean Bishop,,,#F48E25CC,#804100CC,,0.00
+2024-10-19 Alabama at Tennessee,rusher,2,Tennessee,,,,,,,,,,,0,0,,1,,,0.00,0.00,0.00,0.00,0.00,Cameron Seldon,,,#F48E25CC,#804100CC,,0.00
+2024-10-19 Alabama at Tennessee,rusher,2,Tennessee,,,,,,,,,,,0,0,,1,,,0.00,0.00,0.00,0.00,0.00,Jam Miller,,,#F48E25CC,#804100CC,,0.00
+2024-10-19 Alabama at Tennessee,passer,1,Alabama,,,,,,,,,,,7,10,8,18,2,,0.00,0.00,0.00,0.00,0.00,,Jalen Milroe,,#E82525CC,#5A0000CC,,0.00
+2024-10-19 Alabama at Tennessee,passer,2,Tennessee,,,,,,,,,,,7,3,4,12,1,,0.00,0.00,0.00,0.00,0.00,,Nico Iamaleava,,#F48E25CC,#804100CC,,0.00
+2024-10-19 Alabama at Tennessee,passer,2,Tennessee,,,,,,,,,,,0,0,0,0,1,,0.00,0.00,0.00,0.00,0.00,,Gaston Moore,,#F48E25CC,#804100CC,,0.00
+2024-10-19 Alabama at Tennessee,receiver,1,Alabama,,,,,,,,,,,2,5,1,0,,,0.00,0.00,0.00,0.00,0.00,,,Ryan Williams,#E82525CC,#5A0000CC,,0.00
+2024-10-19 Alabama at Tennessee,receiver,1,Alabama,,,,,,,,,,,0,2,3,0,,,0.00,0.00,0.00,0.00,0.00,,,Justice Haynes,#E82525CC,#5A0000CC,,0.00
+2024-10-19 Alabama at Tennessee,receiver,1,Alabama,,,,,,,,,,,0,2,0,0,,,0.00,0.00,0.00,0.00,0.00,,,CJ Dippre,#E82525CC,#5A0000CC,,0.00
+2024-10-19 Alabama at Tennessee,receiver,1,Alabama,,,,,,,,,,,3,1,1,0,,,0.00,0.00,0.00,0.00,0.00,,,Germie Bernard,#E82525CC,#5A0000CC,,0.00
+2024-10-19 Alabama at Tennessee,receiver,1,Alabama,,,,,,,,,,,2,0,2,0,,,0.00,0.00,0.00,0.00,0.00,,,Kendrick Law,#E82525CC,#5A0000CC,,0.00
+2024-10-19 Alabama at Tennessee,receiver,1,Alabama,,,,,,,,,,,0,0,1,0,,,0.00,0.00,0.00,0.00,0.00,,,Jam Miller,#E82525CC,#5A0000CC,,0.00
+2024-10-19 Alabama at Tennessee,receiver,2,Tennessee,,,,,,,,,,,3,2,1,0,,,0.00,0.00,0.00,0.00,0.00,,,Bru McCoy,#F48E25CC,#804100CC,,0.00
+2024-10-19 Alabama at Tennessee,receiver,2,Tennessee,,,,,,,,,,,1,1,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Chris Brazzell II,#F48E25CC,#804100CC,,0.00
+2024-10-19 Alabama at Tennessee,receiver,2,Tennessee,,,,,,,,,,,2,0,1,0,,,0.00,0.00,0.00,0.00,0.00,,,"Dont'e Thornton Jr.",#F48E25CC,#804100CC,,0.00
+2024-10-19 Alabama at Tennessee,receiver,2,Tennessee,,,,,,,,,,,1,0,1,0,,,0.00,0.00,0.00,0.00,0.00,,,Ethan Davis,#F48E25CC,#804100CC,,0.00
+2024-10-19 Alabama at Tennessee,receiver,2,Tennessee,,,,,,,,,,,0,0,1,0,,,0.00,0.00,0.00,0.00,0.00,,,Holden Staes,#F48E25CC,#804100CC,,0.00
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,1,1,Jam Miller run for a loss of 1 yard to the ALA 24,Rush,1,1,1,Other,10,-1,0,0,,,,,0.00,0.00,0.00,0.00,1.00,Jam Miller,,,#E82525CC,#5A0000CC,-6,-6.00
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,2,2,"Jalen Milroe run for a loss of 4 yards to the ALA 15 Jalen Milroe fumbled, recovered by ALA Jalen Milroe",Rush,1,1,2,Other,16,-4,0,0,,,,,0.00,0.00,0.00,0.00,1.00,Jalen Milroe,,,#E82525CC,#5A0000CC,-15.2,-10.60
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,3,3,Jalen Milroe pass incomplete to Emmanuel Henderson Jr.,Pass,1,1,3,Other,20,0,0,0,,,,,0.00,0.00,0.00,0.00,0.67,,Jalen Milroe,,#E82525CC,#5A0000CC,-20,-13.73
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,4,1,Nico Iamaleava pass incomplete to Bru McCoy,Pass,1,2,1,Other,10,0,0,0,,,,,0.00,0.00,0.00,0.00,0.00,,Nico Iamaleava,,#F48E25CC,#804100CC,-5,-5.00
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,5,2,Dylan Sampson run for 3 yds to the TENN 42,Rush,1,2,2,Other,10,3,0,0,,,,,0.00,0.00,0.00,0.00,0.50,Dylan Sampson,,,#F48E25CC,#804100CC,-4,-4.50
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,6,3,Nico Iamaleava pass complete to Bru McCoy for 20 yds to the ALA 38 for a 1ST down,Pass,1,2,3,Other,7,20,1,1,,,,,0.50,0.50,0.33,0.33,0.33,,Nico Iamaleava,Bru McCoy,#F48E25CC,#804100CC,13,1.33
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,7,4,"Dylan Sampson run for 20 yds to the ALA 18 Dylan Sampson fumbled, forced by Malachi Moore, recovered by ALA Jihaad Campbell",Rush,1,2,1,Other,10,20,0,0,,,,,0.00,0.00,0.25,0.25,0.50,Dylan Sampson,,,#F48E25CC,#804100CC,15,4.75
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,8,4,Jalen Milroe run for 7 yds to the ALA 25,Rush,1,3,1,Other,10,7,0,1,,,,,0.33,0.00,0.25,0.00,0.75,Jalen Milroe,,,#E82525CC,#5A0000CC,2,-9.80
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,9,5,Jalen Milroe pass complete to Jam Miller for 2 yds to the ALA 27,Pass,1,3,2,Other,3,2,0,0,,,,,0.00,0.00,0.20,0.00,0.60,,Jalen Milroe,Jam Miller,#E82525CC,#5A0000CC,-0.1,-7.86
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,10,6,Jalen Milroe run for 9 yds to the ALA 36 for a 1ST down,Rush,1,3,3,Other,1,9,0,1,,,,,0.50,0.00,0.33,0.00,0.67,Jalen Milroe,,,#E82525CC,#5A0000CC,8,-5.22
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,11,7,Jalen Milroe pass incomplete to CJ Dippre,Pass,1,3,1,Other,10,0,0,0,,,,,0.00,0.00,0.29,0.00,0.57,,Jalen Milroe,,#E82525CC,#5A0000CC,-5,-5.19
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,12,8,Jalen Milroe pass incomplete to Ryan Williams,Pass,1,3,2,Other,10,0,0,0,,,,,0.00,0.00,0.25,0.00,0.50,,Jalen Milroe,,#E82525CC,#5A0000CC,-7,-5.41
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,13,9,Jalen Milroe pass complete to Ryan Williams for 15 yds to the TENN 44 for a 1ST down,Pass,1,3,3,Other,5,15,1,1,,,,,0.20,0.20,0.33,0.11,0.44,,Jalen Milroe,Ryan Williams,#E82525CC,#5A0000CC,10,-3.70
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,14,10,Jalen Milroe run for a loss of 1 yard to the TENN 45,Rush,1,3,1,Other,10,-1,0,0,,,,,0.40,0.00,0.30,0.10,0.50,Jalen Milroe,,,#E82525CC,#5A0000CC,-6,-3.93
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,15,11,Jalen Milroe pass incomplete to Ryan Williams,Pass,1,3,2,Other,16,0,0,0,,,,,0.17,0.17,0.27,0.09,0.45,,Jalen Milroe,,#E82525CC,#5A0000CC,-11.2,-4.59
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,16,12,Jalen Milroe pass incomplete to Ryan Williams,Pass,1,3,3,Other,16,0,0,0,,,,,0.14,0.14,0.25,0.08,0.42,,Jalen Milroe,,#E82525CC,#5A0000CC,-16,-5.54
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,17,5,Nico Iamaleava pass incomplete to Squirrel White,Pass,1,4,1,Other,10,0,0,0,,,,,0.33,0.33,0.20,0.20,0.40,,Nico Iamaleava,,#F48E25CC,#804100CC,-5,2.80
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,18,6,Dylan Sampson run for no gain to the TENN 14,Rush,1,4,2,Other,10,0,0,0,,,,,0.00,0.00,0.17,0.17,0.50,Dylan Sampson,,,#F48E25CC,#804100CC,-7,1.17
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,19,7,Nico Iamaleava pass incomplete to Chris Brazzell II,Pass,1,4,3,Other,10,0,0,0,,,,,0.25,0.25,0.14,0.14,0.43,,Nico Iamaleava,,#F48E25CC,#804100CC,-10,-0.43
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,20,13,Jalen Milroe pass incomplete to Emmanuel Henderson Jr.,Pass,1,5,1,Other,10,0,0,0,,,,,0.13,0.13,0.23,0.08,0.38,,Jalen Milroe,,#E82525CC,#5A0000CC,-5,-5.50
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,21,14,Jalen Milroe pass complete to Ryan Williams for 16 yds to the TENN 35 for a 1ST down,Pass,1,5,2,Other,10,16,1,1,,,,,0.22,0.22,0.29,0.14,0.36,,Jalen Milroe,Ryan Williams,#E82525CC,#5A0000CC,9,-4.46
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,22,15,Jalen Milroe pass complete to Kendrick Law for 20 yds to the TENN 15 for a 1ST down,Pass,1,5,1,Other,10,20,1,1,,,,,0.30,0.30,0.33,0.20,0.33,,Jalen Milroe,Kendrick Law,#E82525CC,#5A0000CC,15,-3.17
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,23,16,Jalen Milroe pass complete to Justice Haynes for 5 yds to the TENN 10,Pass,1,5,1,Red zone,10,5,0,1,,,,,0.36,0.27,0.38,0.19,0.31,,Jalen Milroe,Justice Haynes,#E82525CC,#5A0000CC,0,-2.97
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,24,17,Jalen Milroe run for a loss of 5 yards to the TENN 15,Rush,1,5,2,Red zone,5,-5,0,0,,,,,0.33,0.00,0.35,0.18,0.35,Jalen Milroe,,,#E82525CC,#5A0000CC,-8.5,-3.29
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,25,18,Jalen Milroe pass complete to Justice Haynes for 11 yds to the TENN 4 for a 1ST down,Pass,1,5,3,Red zone,10,11,0,1,,,,,0.42,0.25,0.39,0.17,0.33,,Jalen Milroe,Justice Haynes,#E82525CC,#5A0000CC,1,-3.06
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,26,19,Justice Haynes run for 1 yd to the TENN 3,Rush,1,5,1,Red zone,4,1,0,0,,,,,0.29,0.00,0.37,0.16,0.37,Justice Haynes,,,#E82525CC,#5A0000CC,-1,-2.95
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,27,20,Jalen Milroe pass intercepted Jermod McCoy return for 54 yds to the ALA 46,Pass,1,5,2,Red zone,3,54,0,0,,,,,0.38,0.23,0.35,0.15,0.35,,Jalen Milroe,,#E82525CC,#5A0000CC,51.9,-0.21
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,28,8,DeSean Bishop run for 7 yds to the ALA 49,Rush,1,6,1,Other,20,7,0,0,,,,,0.00,0.00,0.13,0.13,0.50,DeSean Bishop,,,#F48E25CC,#804100CC,-3,-0.75
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,29,9,Nico Iamaleava pass incomplete to Squirrel White,Pass,1,6,2,Other,13,0,0,0,,,,,0.20,0.20,0.11,0.11,0.44,,Nico Iamaleava,,#F48E25CC,#804100CC,-9.1,-1.68
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,30,10,DeSean Bishop run for 1 yd to the ALA 41,Rush,1,6,1,Other,10,1,0,0,,,,,0.00,0.00,0.10,0.10,0.50,DeSean Bishop,,,#F48E25CC,#804100CC,-4,-1.91
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,31,11,Nico Iamaleava pass incomplete to Chris Brazzell II,Pass,1,6,2,Other,9,0,0,0,,,,,0.17,0.17,0.09,0.09,0.45,,Nico Iamaleava,,#F48E25CC,#804100CC,-6.3,-2.31
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,32,12,"Nico Iamaleava pass complete to Dont'e Thornton Jr. for 6 yds to the ALA 35",Pass,1,6,3,Other,9,6,0,0,,,,,0.14,0.14,0.08,0.08,0.42,,Nico Iamaleava,"Dont'e Thornton Jr.",#F48E25CC,#804100CC,-3,-2.37
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,33,21,Jam Miller run for 8 yds to the ALA 44,Rush,1,7,1,Other,10,8,0,1,,,,,0.38,0.00,0.38,0.14,0.38,Jam Miller,,,#E82525CC,#5A0000CC,3,-0.05
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,34,22,Jalen Milroe pass complete to Ryan Williams for 5 yds to the ALA 49 for a 1ST down,Pass,1,7,2,Other,2,5,0,1,,,,,0.43,0.21,0.41,0.14,0.36,,Jalen Milroe,Ryan Williams,#E82525CC,#5A0000CC,3.6,0.11
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,35,23,Jalen Milroe pass incomplete to Ryan Williams,Pass,1,7,1,Other,5,0,0,0,,,,,0.40,0.20,0.39,0.13,0.35,,Jalen Milroe,,#E82525CC,#5A0000CC,-2.5,0.00
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,36,24,Jam Miller run for a loss of 7 yards to the ALA 47,Rush,1,7,2,Other,5,-7,0,0,,,,,0.33,0.00,0.38,0.13,0.38,Jam Miller,,,#E82525CC,#5A0000CC,-10.5,-0.44
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,37,25,Jam Miller run for 4 yds to the TENN 34,Rush,2,7,1,Other,10,4,0,0,,,,,0.30,0.00,0.36,0.12,0.40,Jam Miller,,,#E82525CC,#5A0000CC,-1,-0.46
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,38,26,Jalen Milroe run for 8 yds to the TENN 26 for a 1ST down,Rush,2,7,2,Other,6,8,0,1,,,,,0.36,0.00,0.38,0.12,0.42,Jalen Milroe,,,#E82525CC,#5A0000CC,3.8,-0.30
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,39,27,Jalen Milroe pass complete to Germie Bernard for 21 yds to the TENN 5 for a 1ST down,Pass,2,7,1,Other,10,21,1,1,,,,,0.44,0.25,0.41,0.15,0.41,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,16,0.31
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,40,28,Jalen Milroe pass complete to Ryan Williams for 5 yds for a TD (Graham Nicholson KICK),Pass,2,7,1,Red zone,5,5,0,1,,,,,0.47,0.24,0.43,0.14,0.39,,Jalen Milroe,Ryan Williams,#E82525CC,#5A0000CC,2.5,0.39
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,41,13,Dylan Sampson run for 1 yd to the TENN 19,Rush,2,8,1,Other,10,1,0,0,,,,,0.00,0.00,0.08,0.08,0.46,Dylan Sampson,,,#F48E25CC,#804100CC,-4,-2.49
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,42,14,"Nico Iamaleava pass complete to Ethan Davis for 11 yds to the TENN 30 for a 1ST down Alabama Penalty, Roughing Passer (Jordan Renaud) to the TENN 45 for a 1ST down",Pass,2,8,2,Other,9,26,1,1,,,,,0.25,0.25,0.14,0.14,0.43,,Nico Iamaleava,Ethan Davis,#F48E25CC,#804100CC,19.7,-0.91
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,43,15,Dylan Sampson run for 3 yds to the TENN 48,Rush,2,8,1,Other,10,3,0,0,,,,,0.00,0.00,0.13,0.13,0.47,Dylan Sampson,,,#F48E25CC,#804100CC,-2,-0.98
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,44,16,Nico Iamaleava sacked by Justin Jefferson for a loss of 2 yards to the TENN 46,Pass,2,8,2,Other,7,-2,0,0,,,,,0.22,0.22,0.13,0.13,0.44,,,,#F48E25CC,#804100CC,-6.9,-1.35
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,45,17,Gaston Moore pass intercepted Malachi Moore return for 41 yds to the TENN 36,Pass,2,8,3,Other,9,41,0,0,,,,,0.20,0.20,0.12,0.12,0.41,,Gaston Moore,,#F48E25CC,#804100CC,32,0.61
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,46,29,Justice Haynes run for 4 yds to the TENN 32,Rush,2,9,1,Other,10,4,0,0,,,,,0.33,0.00,0.41,0.14,0.41,Justice Haynes,,,#E82525CC,#5A0000CC,-1,0.34
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,47,30,Jalen Milroe pass complete to Justice Haynes for 2 yds to the TENN 40,Pass,2,9,2,Other,16,2,0,0,,,,,0.44,0.22,0.40,0.13,0.40,,Jalen Milroe,Justice Haynes,#E82525CC,#5A0000CC,-9.2,0.02
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,48,31,"Jalen Milroe sacked by Dominic Bailey for 0 yards to the TENN 45 Alabama Penalty, Intentional Grounding (Jalen Milroe) to the TENN 45",Pass,2,9,3,Other,19,0,0,0,,,,,0.42,0.21,0.39,0.13,0.39,,,,#E82525CC,#5A0000CC,-19,-0.59
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,49,18,Nico Iamaleava pass complete to Bru McCoy for 19 yds to the TENN 39 for a 1ST down,Pass,2,10,1,Other,10,19,1,1,,,,,0.27,0.27,0.17,0.17,0.39,,Nico Iamaleava,Bru McCoy,#F48E25CC,#804100CC,14,1.36
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,50,19,Nico Iamaleava run for 7 yds to the TENN 46,Rush,2,10,1,Other,10,7,0,1,,,,,0.13,0.00,0.21,0.16,0.42,Nico Iamaleava,,,#F48E25CC,#804100CC,2,1.39
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,51,20,Nico Iamaleava pass complete to Chris Brazzell II for 11 yds to the ALA 43 for a 1ST down,Pass,2,10,2,Other,3,11,0,1,,,,,0.33,0.25,0.25,0.15,0.40,,Nico Iamaleava,Chris Brazzell II,#F48E25CC,#804100CC,8.9,1.77
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,52,21,Cameron Seldon run for 1 yd to the ALA 42,Rush,2,10,1,Other,10,1,0,0,,,,,0.11,0.00,0.24,0.14,0.43,Cameron Seldon,,,#F48E25CC,#804100CC,-4,1.49
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,53,22,Nico Iamaleava pass complete to Bru McCoy for 23 yds to the ALA 19 for a 1ST down,Pass,2,10,2,Other,9,23,1,1,,,,,0.38,0.31,0.27,0.18,0.41,,Nico Iamaleava,Bru McCoy,#F48E25CC,#804100CC,16.7,2.18
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,54,23,Nico Iamaleava pass intercepted Jaylen Mbakwe return for 9 yds to the ALA 12,Pass,2,10,1,Red zone,10,9,0,0,,,,,0.36,0.29,0.26,0.17,0.39,,Nico Iamaleava,,#F48E25CC,#804100CC,4,2.26
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,55,32,Jam Miller run for 4 yds to the ALA 16,Rush,2,11,1,Other,10,4,0,0,,,,,0.31,0.00,0.38,0.13,0.41,Jam Miller,,,#E82525CC,#5A0000CC,-1,-0.61
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,56,33,Jalen Milroe pass complete to Ryan Williams for 4 yds to the ALA 20,Pass,2,11,2,Other,6,4,0,0,,,,,0.40,0.20,0.36,0.12,0.39,,Jalen Milroe,Ryan Williams,#E82525CC,#5A0000CC,-0.2,-0.59
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,57,34,Jalen Milroe pass incomplete to Caleb Odom,Pass,2,11,3,Other,2,0,0,0,,,,,0.38,0.19,0.35,0.12,0.38,,Jalen Milroe,,#E82525CC,#5A0000CC,-2,-0.64
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,58,24,Dylan Sampson run for 5 yds to the TENN 35,Rush,2,12,1,Other,10,5,0,1,,,,,0.20,0.00,0.29,0.17,0.42,Dylan Sampson,,,#F48E25CC,#804100CC,0,2.17
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,59,25,"Nico Iamaleava pass complete to Dont'e Thornton Jr. for 9 yds to the ALA 49 for a 1ST down Alabama Penalty, Personal Foul (Tim Smith) to the ALA 35 for a 1ST down",Pass,2,12,1,Other,10,25,1,1,,,,,0.40,0.33,0.32,0.20,0.40,,Nico Iamaleava,"Dont'e Thornton Jr.",#F48E25CC,#804100CC,20,2.88
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,60,26,Dylan Sampson run for 3 yds to the ALA 32,Rush,2,12,1,Other,10,3,0,0,,,,,0.18,0.00,0.31,0.19,0.42,Dylan Sampson,,,#F48E25CC,#804100CC,-2,2.69
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,61,27,Dylan Sampson run for no gain to the ALA 32,Rush,2,12,2,Other,7,0,0,0,,,,,0.17,0.00,0.30,0.19,0.44,Dylan Sampson,,,#F48E25CC,#804100CC,-4.9,2.41
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,62,28,Nico Iamaleava pass incomplete to Squirrel White,Pass,2,12,3,Other,7,0,0,0,,,,,0.38,0.31,0.29,0.18,0.43,,Nico Iamaleava,,#F48E25CC,#804100CC,-7,2.08
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,63,35,Jalen Milroe pass complete to CJ Dippre for 9 yds to the ALA 41,Pass,2,13,1,Other,10,9,0,1,,,,,0.41,0.18,0.37,0.11,0.37,,Jalen Milroe,CJ Dippre,#E82525CC,#5A0000CC,4,-0.50
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,64,36,Justice Haynes run for 3 yds to the ALA 44 for a 1ST down,Rush,2,13,2,Other,1,3,0,1,,,,,0.36,0.00,0.39,0.11,0.39,Justice Haynes,,,#E82525CC,#5A0000CC,2.3,-0.43
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,65,37,Jalen Milroe sacked by James Pearce Jr. for a loss of 3 yards to the ALA 41,Pass,2,13,1,Other,10,-3,0,0,,,,,0.39,0.17,0.38,0.11,0.38,,,,#E82525CC,#5A0000CC,-8,-0.63
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,66,38,Jalen Milroe pass complete to Germie Bernard for 13 yds to the TENN 46 for a 1ST down,Pass,2,13,2,Other,13,13,0,1,,,,,0.42,0.17,0.39,0.11,0.37,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,3.9,-0.51
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,67,39,Jalen Milroe pass complete to Ryan Williams for 11 yds to the TENN 40,Pass,2,13,1,Other,15,11,0,1,,,,,0.44,0.16,0.41,0.10,0.36,,Jalen Milroe,Ryan Williams,#E82525CC,#5A0000CC,3.5,-0.41
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,68,40,Jam Miller run for no gain to the TENN 40,Rush,2,13,2,Other,4,0,0,0,,,,,0.33,0.00,0.40,0.10,0.38,Jam Miller,,,#E82525CC,#5A0000CC,-2.8,-0.47
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,69,41,Jalen Milroe pass complete to Germie Bernard for 3 yds to the TENN 37,Pass,2,13,3,Other,4,3,0,0,,,,,0.42,0.15,0.39,0.10,0.37,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,-1,-0.48
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,70,42,Jalen Milroe run for 1 yd to the TENN 36 for a 1ST down,Rush,2,13,4,Other,1,1,0,1,,,,,0.38,0.00,0.40,0.10,0.38,Jalen Milroe,,,#E82525CC,#5A0000CC,0,-0.47
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,71,43,Jalen Milroe pass incomplete to Ryan Williams,Pass,2,13,1,Other,10,0,0,0,,,,,0.41,0.15,0.40,0.09,0.37,,Jalen Milroe,,#E82525CC,#5A0000CC,-5,-0.57
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,72,44,Jalen Milroe pass incomplete,Pass,2,13,2,Other,10,0,0,0,,,,,0.39,0.14,0.39,0.09,0.36,,Jalen Milroe,,#E82525CC,#5A0000CC,-7,-0.72
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,73,45,Jalen Milroe pass incomplete to CJ Dippre,Pass,2,13,3,Other,10,0,0,0,,,,,0.38,0.14,0.38,0.09,0.36,,Jalen Milroe,,#E82525CC,#5A0000CC,-10,-0.93
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,74,29,Nico Iamaleava sacked by LT Overton for a loss of 5 yards to the TENN 31,Pass,2,14,1,Other,10,-5,0,0,,,,,0.35,0.29,0.28,0.17,0.41,,,,#F48E25CC,#804100CC,-10,1.66
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,75,30,Nico Iamaleava pass incomplete to Chris Brazzell II,Pass,3,15,1,Other,10,0,0,0,,,,,0.33,0.28,0.27,0.17,0.40,,Nico Iamaleava,,#F48E25CC,#804100CC,-5,1.44
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,76,31,Dylan Sampson run for 6 yds to the TENN 31,Rush,3,15,2,Other,10,6,0,0,,,,,0.15,0.00,0.26,0.16,0.42,Dylan Sampson,,,#F48E25CC,#804100CC,-1,1.36
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,77,32,Nico Iamaleava pass complete to Bru McCoy for 7 yds to the TENN 38 for a 1ST down,Pass,3,15,3,Other,4,7,0,1,,,,,0.37,0.26,0.28,0.16,0.41,,Nico Iamaleava,Bru McCoy,#F48E25CC,#804100CC,3,1.41
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,78,33,Nico Iamaleava pass incomplete to Squirrel White,Pass,3,15,1,Other,10,0,0,0,,,,,0.35,0.25,0.27,0.15,0.39,,Nico Iamaleava,,#F48E25CC,#804100CC,-5,1.22
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,79,34,Nico Iamaleava sacked by Deontae Lawson for a loss of 10 yards to the TENN 28,Pass,3,15,2,Other,10,-10,0,0,,,,,0.33,0.24,0.26,0.15,0.38,,,,#F48E25CC,#804100CC,-17,0.68
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,80,35,Nico Iamaleava run for 9 yds to the TENN 37,Rush,3,15,3,Other,20,9,0,0,,,,,0.14,0.00,0.26,0.14,0.40,Nico Iamaleava,,,#F48E25CC,#804100CC,-11,0.35
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,81,46,Jam Miller run for 5 yds to the ALA 11,Rush,3,16,1,Other,10,5,0,1,,,,,0.41,0.00,0.39,0.09,0.37,Jam Miller,,,#E82525CC,#5A0000CC,0,-0.91
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,82,47,Jam Miller run for 7 yds to the ALA 18 for a 1ST down,Rush,3,16,2,Other,5,7,0,1,,,,,0.44,0.00,0.40,0.09,0.38,Jam Miller,,,#E82525CC,#5A0000CC,3.5,-0.81
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,83,48,Jam Miller run for 7 yds to the ALA 25,Rush,3,16,1,Other,10,7,0,1,,,,,0.47,0.00,0.42,0.08,0.40,Jam Miller,,,#E82525CC,#5A0000CC,2,-0.75
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,84,49,Jam Miller run for 4 yds to the ALA 29 for a 1ST down,Rush,3,16,2,Other,3,4,0,1,,,,,0.50,0.00,0.43,0.08,0.41,Jam Miller,,,#E82525CC,#5A0000CC,1.9,-0.70
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,85,50,Jalen Milroe run for 10 yds to the ALA 39 for a 1ST down,Rush,3,16,1,Other,10,10,0,1,,,,,0.52,0.00,0.44,0.08,0.42,Jalen Milroe,,,#E82525CC,#5A0000CC,5,-0.59
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,86,51,Justice Haynes run for no gain to the ALA 39,Rush,3,16,1,Other,10,0,0,0,,,,,0.50,0.00,0.43,0.08,0.43,Justice Haynes,,,#E82525CC,#5A0000CC,-5,-0.67
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,87,52,Justice Haynes run for 5 yds to the ALA 44,Rush,3,16,2,Other,10,5,0,0,,,,,0.48,0.00,0.42,0.08,0.44,Justice Haynes,,,#E82525CC,#5A0000CC,-2,-0.70
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,88,53,Jalen Milroe run for 4 yds to the ALA 48,Rush,3,16,3,Other,5,4,0,0,,,,,0.46,0.00,0.42,0.08,0.45,Jalen Milroe,,,#E82525CC,#5A0000CC,-1,-0.70
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,89,36,Dylan Sampson run for 13 yds to the TENN 22 for a 1ST down,Rush,3,17,1,Other,10,13,0,1,,,,,0.20,0.00,0.28,0.14,0.42,Dylan Sampson,,,#F48E25CC,#804100CC,8,0.56
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,90,37,Nico Iamaleava run for 4 yds to the TENN 26,Rush,3,17,1,Other,10,4,0,0,,,,,0.19,0.00,0.27,0.14,0.43,Nico Iamaleava,,,#F48E25CC,#804100CC,-1,0.52
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,91,38,Dylan Sampson run for 36 yds to the ALA 38 for a 1ST down,Rush,3,17,2,Other,6,36,1,1,,,,,0.24,0.06,0.29,0.16,0.45,Dylan Sampson,,,#F48E25CC,#804100CC,31.8,1.34
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,92,39,Dylan Sampson run for 2 yds to the ALA 36,Rush,3,17,1,Other,10,2,0,0,,,,,0.22,0.06,0.28,0.15,0.46,Dylan Sampson,,,#F48E25CC,#804100CC,-3,1.23
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,93,40,Nico Iamaleava run for 27 yds to the ALA 9 for a 1ST down,Rush,3,17,2,Other,8,27,1,1,,,,,0.26,0.11,0.30,0.18,0.48,Nico Iamaleava,,,#F48E25CC,#804100CC,21.4,1.73
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,94,41,Nico Iamaleava pass incomplete to Bru McCoy,Pass,3,17,1,Red zone,9,0,0,0,,,,,0.32,0.23,0.29,0.17,0.46,,Nico Iamaleava,,#F48E25CC,#804100CC,-4.5,1.58
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,95,42,Dylan Sampson run for 2 yds for a TD (Max Gilbert KICK),Rush,3,17,1,Red zone,2,2,0,1,,,,,0.30,0.10,0.31,0.17,0.48,Dylan Sampson,,,#F48E25CC,#804100CC,1,1.57
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,96,54,Jalen Milroe pass complete to Ryan Williams for 12 yds to the ALA 37 for a 1ST down,Pass,3,18,1,Other,10,12,0,1,,,,,0.40,0.13,0.43,0.07,0.44,,Jalen Milroe,Ryan Williams,#E82525CC,#5A0000CC,7,-0.56
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,97,55,Jam Miller run for no gain to the ALA 37,Rush,3,18,1,Other,10,0,0,0,,,,,0.44,0.00,0.42,0.07,0.45,Jam Miller,,,#E82525CC,#5A0000CC,-5,-0.64
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,98,56,Jalen Milroe pass incomplete,Pass,3,18,1,Other,10,0,0,0,,,,,0.39,0.13,0.41,0.07,0.45,,Jalen Milroe,,#E82525CC,#5A0000CC,-5,-0.72
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,99,57,Jalen Milroe pass complete to Kendrick Law for 18 yds to the TENN 25 for a 1ST down,Pass,3,18,2,Other,5,18,1,1,,,,,0.41,0.16,0.42,0.09,0.44,,Jalen Milroe,Kendrick Law,#E82525CC,#5A0000CC,14.5,-0.45
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,100,58,Jalen Milroe run for a loss of 1 yard to the TENN 26,Rush,3,18,1,Other,10,-1,0,0,,,,,0.42,0.00,0.41,0.09,0.45,Jalen Milroe,,,#E82525CC,#5A0000CC,-6,-0.55
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,101,59,Jalen Milroe pass complete to CJ Dippre for 12 yds to the TENN 14 for a 1ST down,Pass,3,18,2,Other,11,12,0,1,,,,,0.42,0.15,0.42,0.08,0.44,,Jalen Milroe,CJ Dippre,#E82525CC,#5A0000CC,4.3,-0.47
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,102,60,Jalen Milroe pass complete to Kendrick Law for a loss of 3 yards to the TENN 17,Pass,3,18,1,Red zone,10,-3,0,0,,,,,0.41,0.15,0.42,0.08,0.43,,Jalen Milroe,Kendrick Law,#E82525CC,#5A0000CC,-8,-0.59
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,103,61,Jalen Milroe pass incomplete to Ryan Williams,Pass,3,18,2,Red zone,13,0,0,0,,,,,0.40,0.14,0.41,0.08,0.43,,Jalen Milroe,,#E82525CC,#5A0000CC,-9.1,-0.73
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,104,62,Jalen Milroe pass incomplete to Ryan Williams,Pass,3,18,3,Red zone,13,0,0,0,,,,,0.39,0.14,0.40,0.08,0.42,,Jalen Milroe,,#E82525CC,#5A0000CC,-13,-0.93
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,105,43,Dylan Sampson run for 8 yds to the TENN 38 for a 1ST down,Rush,3,19,1,Other,5,8,0,1,,,,,0.33,0.10,0.33,0.16,0.49,Dylan Sampson,,,#F48E25CC,#804100CC,5.5,1.66
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,106,44,Nico Iamaleava pass complete to Bru McCoy for 3 yds to the TENN 41,Pass,3,19,1,Other,10,3,0,0,,,,,0.30,0.22,0.32,0.16,0.48,,Nico Iamaleava,Bru McCoy,#F48E25CC,#804100CC,-2,1.58
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,107,45,Dylan Sampson run for 1 yd to the TENN 42,Rush,3,19,2,Other,7,1,0,0,,,,,0.32,0.09,0.31,0.16,0.49,Dylan Sampson,,,#F48E25CC,#804100CC,-3.9,1.45
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,108,46,"Nico Iamaleava pass complete to Dont'e Thornton Jr. for 55 yds to the ALA 3 for a 1ST down",Pass,3,19,3,Other,6,55,1,1,,,,,0.33,0.25,0.33,0.17,0.48,,Nico Iamaleava,"Dont'e Thornton Jr.",#F48E25CC,#804100CC,49,2.49
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,109,47,Dylan Sampson run for 3 yds for a TD (Max Gilbert KICK),Rush,3,19,1,Red zone,3,3,0,1,,,,,0.35,0.09,0.34,0.17,0.49,Dylan Sampson,,,#F48E25CC,#804100CC,1.5,2.47
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,110,63,Jalen Milroe pass complete to Ryan Williams for 5 yds to the ALA 30,Pass,3,20,1,Other,10,5,0,1,,,,,0.41,0.14,0.41,0.08,0.41,,Jalen Milroe,Ryan Williams,#E82525CC,#5A0000CC,0,-0.91
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,111,64,"Jalen Milroe pass complete to Germie Bernard for 7 yds to the TENN 37 for a 1ST down Tennessee Penalty, Face Mask (15 yards) (Jermod McCoy) to the TENN 48 for a 1ST down",Pass,3,20,2,Other,5,22,1,1,,,,,0.42,0.16,0.42,0.09,0.41,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,18.5,-0.61
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,112,65,Jalen Milroe pass complete to Kendrick Law for 2 yds to the TENN 46,Pass,3,20,1,Other,10,2,0,0,,,,,0.41,0.15,0.42,0.09,0.40,,Jalen Milroe,Kendrick Law,#E82525CC,#5A0000CC,-3,-0.65
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,113,48,Jam Miller run for a loss of 4 yards to the TENN 35 for a 1ST down,Rush,4,20,2,Other,15,-4,0,0,,,,,0.33,0.08,0.33,0.17,0.50,Jam Miller,,,#F48E25CC,#804100CC,-14.5,2.11
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,114,66,Jalen Milroe pass complete to Germie Bernard for 28 yds to the TENN 7 for a 1ST down,Pass,4,20,1,Other,10,28,1,1,,,,,0.43,0.18,0.42,0.11,0.39,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,23,-0.29
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,115,67,Justice Haynes run for 7 yds for a TD (Graham Nicholson KICK),Rush,4,20,1,Red zone,7,7,0,1,,,,,0.44,0.00,0.43,0.10,0.40,Justice Haynes,,,#E82525CC,#5A0000CC,3.5,-0.23
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,116,49,Nico Iamaleava pass complete to Bru McCoy for 8 yds to the TENN 33,Pass,4,21,1,Other,10,8,0,1,,,,,0.36,0.24,0.35,0.16,0.49,,Nico Iamaleava,Bru McCoy,#F48E25CC,#804100CC,3,2.13
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,117,50,Nico Iamaleava pass incomplete to Bru McCoy,Pass,4,21,2,Other,2,0,0,0,,,,,0.35,0.23,0.34,0.16,0.48,,Nico Iamaleava,,#F48E25CC,#804100CC,-1.4,2.06
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,118,51,DeSean Bishop run for 4 yds to the TENN 37 for a 1ST down,Rush,4,21,3,Other,2,4,0,1,,,,,0.36,0.08,0.35,0.16,0.49,DeSean Bishop,,,#F48E25CC,#804100CC,2,2.06
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,119,52,Nico Iamaleava pass incomplete to Chris Brazzell II,Pass,4,21,1,Other,10,0,0,0,,,,,0.33,0.22,0.35,0.15,0.48,,Nico Iamaleava,,#F48E25CC,#804100CC,-5,1.92
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,120,53,Nico Iamaleava run for 9 yds to the TENN 46,Rush,4,21,2,Other,10,9,0,1,,,,,0.38,0.08,0.36,0.15,0.49,Nico Iamaleava,,,#F48E25CC,#804100CC,2,1.92
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,121,54,DeSean Bishop run for 9 yds to the ALA 45 for a 1ST down,Rush,4,21,3,Other,1,9,0,1,,,,,0.41,0.07,0.37,0.15,0.50,DeSean Bishop,,,#F48E25CC,#804100CC,8,2.04
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,122,55,Nico Iamaleava pass complete to Holden Staes for 5 yds to the ALA 45,Pass,4,21,2,Other,15,5,0,0,,,,,0.32,0.21,0.36,0.15,0.49,,Nico Iamaleava,Holden Staes,#F48E25CC,#804100CC,-5.5,1.90
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,123,56,"DeSean Bishop run for 15 yds to the ALA 30 Tennessee Penalty, Offensive Holding (-10 Yards) to the ALA 40",Rush,4,21,3,Other,10,5,0,0,,,,,0.39,0.07,0.36,0.14,0.50,DeSean Bishop,,,#F48E25CC,#804100CC,-5,1.78
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,124,57,Dylan Sampson run for a loss of 1 yard to the ALA 41,Rush,4,21,3,Other,5,-1,0,0,,,,,0.38,0.07,0.35,0.14,0.51,Dylan Sampson,,,#F48E25CC,#804100CC,-6,1.64
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,125,68,Justice Haynes run for 2 yds to the ALA 6,Rush,4,22,1,Other,10,2,0,0,,,,,0.43,0.00,0.43,0.10,0.41,Justice Haynes,,,#E82525CC,#5A0000CC,-3,-0.27
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,126,69,Jalen Milroe run for 2 yds to the ALA 8,Rush,4,22,2,Other,8,2,0,0,,,,,0.41,0.00,0.42,0.10,0.42,Jalen Milroe,,,#E82525CC,#5A0000CC,-3.6,-0.32
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,127,70,Jalen Milroe pass incomplete to Ryan Williams,Pass,4,22,3,Other,6,0,0,0,,,,,0.41,0.17,0.41,0.10,0.41,,Jalen Milroe,,#E82525CC,#5A0000CC,-6,-0.40
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,128,58,Nico Iamaleava run for 5 yds to the ALA 49,Rush,4,23,1,Other,10,5,0,1,,,,,0.40,0.07,0.36,0.14,0.52,Nico Iamaleava,,,#F48E25CC,#804100CC,0,1.61
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,129,59,Nico Iamaleava pass incomplete to Dylan Sampson,Pass,4,23,2,Other,5,0,0,0,,,,,0.31,0.21,0.36,0.14,0.51,,Nico Iamaleava,,#F48E25CC,#804100CC,-3.5,1.53
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,130,60,Dylan Sampson run for 8 yds to the ALA 31,Rush,4,23,1,Other,10,8,0,1,,,,,0.42,0.06,0.37,0.13,0.52,Dylan Sampson,,,#F48E25CC,#804100CC,3,1.55
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,131,61,Dylan Sampson run for 10 yds to the ALA 21 for a 1ST down,Rush,4,23,2,Other,2,10,0,1,,,,,0.44,0.06,0.38,0.13,0.52,Dylan Sampson,,,#F48E25CC,#804100CC,8.6,1.67
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,132,62,Dylan Sampson run for 4 yds to the ALA 17,Rush,4,23,1,Other,10,4,0,0,,,,,0.42,0.06,0.37,0.13,0.53,Dylan Sampson,,,#F48E25CC,#804100CC,-1,1.62
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,133,63,Dylan Sampson run for 1 yd to the ALA 16,Rush,4,23,2,Red zone,6,1,0,0,,,,,0.41,0.06,0.37,0.13,0.54,Dylan Sampson,,,#F48E25CC,#804100CC,-3.2,1.55
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,134,64,Nico Iamaleava pass complete to Chris Brazzell II for 16 yds for a TD (Max Gilbert KICK),Pass,4,23,3,Red zone,5,16,1,1,,,,,0.33,0.23,0.38,0.14,0.53,,Nico Iamaleava,Chris Brazzell II,#F48E25CC,#804100CC,11,1.69
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,135,71,Justice Haynes run for no gain to the ALA 25,Rush,4,24,1,Other,10,0,0,0,,,,,0.40,0.00,0.41,0.10,0.42,Justice Haynes,,,#E82525CC,#5A0000CC,-5,-0.47
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,136,72,Jalen Milroe pass incomplete to Ryan Williams,Pass,4,24,2,Other,10,0,0,0,,,,,0.40,0.17,0.40,0.10,0.42,,Jalen Milroe,,#E82525CC,#5A0000CC,-7,-0.56
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,137,73,Jalen Milroe sacked by James Pearce Jr. and Jeremiah Telander for a loss of 2 yards to the ALA 23,Pass,4,24,3,Other,10,-2,0,0,,,,,0.40,0.16,0.40,0.10,0.41,,,,#E82525CC,#5A0000CC,-12,-0.72
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,138,65,Dylan Sampson run for 1 yd to the TENN 31,Rush,4,25,1,Other,10,1,0,0,,,,,0.40,0.06,0.37,0.14,0.54,Dylan Sampson,,,#F48E25CC,#804100CC,-4,1.61
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,139,66,Dylan Sampson run for 2 yds to the TENN 33,Rush,4,25,2,Other,9,2,0,0,,,,,0.39,0.06,0.36,0.14,0.55,Dylan Sampson,,,#F48E25CC,#804100CC,-4.3,1.52
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,140,67,Nico Iamaleava pass complete to Ethan Davis for 1 yd to the TENN 34,Pass,4,25,3,Other,7,1,0,0,,,,,0.32,0.23,0.36,0.13,0.54,,Nico Iamaleava,Ethan Davis,#F48E25CC,#804100CC,-6,1.40
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,141,74,Jalen Milroe pass incomplete to Justice Haynes,Pass,4,26,1,Other,10,0,0,0,,,,,0.39,0.16,0.39,0.09,0.41,,Jalen Milroe,,#E82525CC,#5A0000CC,-5,-0.77
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,142,75,Jalen Milroe pass complete to Justice Haynes for 3 yds to the ALA 33,Pass,4,26,2,Other,10,3,0,0,,,,,0.38,0.16,0.39,0.09,0.40,,Jalen Milroe,Justice Haynes,#E82525CC,#5A0000CC,-4,-0.82
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,143,76,Jalen Milroe pass incomplete to Kendrick Law,Pass,4,26,3,Other,7,0,0,0,,,,,0.37,0.15,0.38,0.09,0.39,,Jalen Milroe,,#E82525CC,#5A0000CC,-7,-0.90
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,144,77,Jalen Milroe pass complete to Justice Haynes for 13 yds to the ALA 31,Pass,4,26,4,Other,22,13,0,0,,,,,0.36,0.15,0.38,0.09,0.39,,Jalen Milroe,Justice Haynes,#E82525CC,#5A0000CC,-9,-1.00
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,145,68,Dylan Sampson run for 4 yds to the ALA 27,Rush,4,27,1,Other,10,4,0,0,,,,,0.38,0.05,0.35,0.13,0.54,Dylan Sampson,,,#F48E25CC,#804100CC,-1,1.37
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,146,69,Dylan Sampson run for 2 yds to the ALA 25,Rush,4,27,2,Other,6,2,0,0,,,,,0.37,0.05,0.35,0.13,0.55,Dylan Sampson,,,#F48E25CC,#804100CC,-2.2,1.32
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,147,70,Dylan Sampson run for 2 yds to the ALA 23,Rush,4,27,3,Other,4,2,0,0,,,,,0.36,0.05,0.34,0.13,0.56,Dylan Sampson,,,#F48E25CC,#804100CC,-2,1.27
+2024-10-19 Alabama at Tennessee,plays,1,Alabama,148,78,Jalen Milroe pass intercepted Will Brooks return for no gain to the ALA 36,Pass,4,28,1,Other,10,0,0,0,,,,,0.35,0.15,0.37,0.09,0.38,,Jalen Milroe,,#E82525CC,#5A0000CC,-5,-1.05
+2024-10-19 Alabama at Tennessee,plays,2,Tennessee,149,71,TEAM run for a loss of 3 yards to the ALA 39,Rush,4,29,1,Other,10,-3,0,0,,,,,0.35,0.05,0.34,0.13,0.56,TEAM,,,#F48E25CC,#804100CC,-8,1.14
