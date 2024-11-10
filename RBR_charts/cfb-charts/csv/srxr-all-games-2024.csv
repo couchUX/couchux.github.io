@@ -1790,216 +1790,431 @@ game,chart,team_num,offense,play_num,team_play,text,play_type,quarter,drive,down
 2024-10-19 Alabama at Tennessee,plays,2,Tennessee,147,70,Dylan Sampson run for 2 yds to the ALA 23,Rush,4,27,3,Other,4,2,0,0,,,,,0.36,0.05,0.34,0.13,0.56,Dylan Sampson,,,#F48E25CC,#804100CC,-2,1.27
 2024-10-19 Alabama at Tennessee,plays,1,Alabama,148,78,Jalen Milroe pass intercepted Will Brooks return for no gain to the ALA 36,Pass,4,28,1,Other,10,0,0,0,,,,,0.35,0.15,0.37,0.09,0.38,,Jalen Milroe,,#E82525CC,#5A0000CC,-5,-1.05
 2024-10-19 Alabama at Tennessee,plays,2,Tennessee,149,71,TEAM run for a loss of 3 yards to the ALA 39,Rush,4,29,1,Other,10,-3,0,0,,,,,0.35,0.05,0.34,0.13,0.56,TEAM,,,#F48E25CC,#804100CC,-8,1.14
-2024-10-26 Missouri at Alabama,teams,1,Alabama,,,,,,,,,,,12,30,,,,63,0.48,0.19,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-10-26 Missouri at Alabama,teams,2,Missouri,,,,,,,,,,,1,23,,,,63,0.37,0.02,0.00,0.00,0.00,,,,#E5B133CC,#785708CC,,0.00
-2024-10-26 Missouri at Alabama,play_type,1,Alabama,,,,Rush,,,,,,,5,18,,,,35,0.51,0.14,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-10-26 Missouri at Alabama,play_type,2,Missouri,,,,Rush,,,,,,,1,18,,,,38,0.47,0.03,0.00,0.00,0.00,,,,#E5B133CC,#785708CC,,0.00
-2024-10-26 Missouri at Alabama,play_type,1,Alabama,,,,Pass,,,,,,,7,12,,,,28,0.43,0.25,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-10-26 Missouri at Alabama,play_type,2,Missouri,,,,Pass,,,,,,,0,5,,,,25,0.20,0.00,0.00,0.00,0.00,,,,#E5B133CC,#785708CC,,0.00
-2024-10-26 Missouri at Alabama,quarter,1,Alabama,,,,,1Q,,,,,,1,3,,,,13,0.23,0.08,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-10-26 Missouri at Alabama,quarter,1,Alabama,,,,,2Q,,,,,,3,11,,,,20,0.55,0.15,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-10-26 Missouri at Alabama,quarter,1,Alabama,,,,,3Q,,,,,,5,9,,,,19,0.47,0.26,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-10-26 Missouri at Alabama,quarter,1,Alabama,,,,,4Q,,,,,,3,7,,,,11,0.64,0.27,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-10-26 Missouri at Alabama,quarter,2,Missouri,,,,,1Q,,,,,,0,2,,,,14,0.14,0.00,0.00,0.00,0.00,,,,#E5B133CC,#785708CC,,0.00
-2024-10-26 Missouri at Alabama,quarter,2,Missouri,,,,,2Q,,,,,,0,7,,,,19,0.37,0.00,0.00,0.00,0.00,,,,#E5B133CC,#785708CC,,0.00
-2024-10-26 Missouri at Alabama,quarter,2,Missouri,,,,,3Q,,,,,,0,6,,,,14,0.43,0.00,0.00,0.00,0.00,,,,#E5B133CC,#785708CC,,0.00
-2024-10-26 Missouri at Alabama,quarter,2,Missouri,,,,,4Q,,,,,,1,8,,,,16,0.50,0.06,0.00,0.00,0.00,,,,#E5B133CC,#785708CC,,0.00
-2024-10-26 Missouri at Alabama,down,1,Alabama,,,,,,,1D,,,,4,15,,,,31,0.48,0.13,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-10-26 Missouri at Alabama,down,1,Alabama,,,,,,,2D,,,,7,13,,,,23,0.57,0.30,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-10-26 Missouri at Alabama,down,1,Alabama,,,,,,,3D,,,,1,2,,,,9,0.22,0.11,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-10-26 Missouri at Alabama,down,2,Missouri,,,,,,,1D,,,,1,12,,,,27,0.44,0.04,0.00,0.00,0.00,,,,#E5B133CC,#785708CC,,0.00
-2024-10-26 Missouri at Alabama,down,2,Missouri,,,,,,,2D,,,,0,8,,,,22,0.36,0.00,0.00,0.00,0.00,,,,#E5B133CC,#785708CC,,0.00
-2024-10-26 Missouri at Alabama,down,2,Missouri,,,,,,,3D,,,,0,3,,,,13,0.23,0.00,0.00,0.00,0.00,,,,#E5B133CC,#785708CC,,0.00
-2024-10-26 Missouri at Alabama,down,2,Missouri,,,,,,,4D,,,,0,0,,,,1,0.00,0.00,0.00,0.00,0.00,,,,#E5B133CC,#785708CC,,0.00
-2024-10-26 Missouri at Alabama,red_zone,1,Alabama,,,,,,,,Other,,,12,25,,,,53,0.47,0.23,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-10-26 Missouri at Alabama,red_zone,1,Alabama,,,,,,,,Red zone,,,0,5,,,,10,0.50,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-10-26 Missouri at Alabama,red_zone,2,Missouri,,,,,,,,Other,,,1,21,,,,58,0.36,0.02,0.00,0.00,0.00,,,,#E5B133CC,#785708CC,,0.00
-2024-10-26 Missouri at Alabama,red_zone,2,Missouri,,,,,,,,Red zone,,,0,2,,,,5,0.40,0.00,0.00,0.00,0.00,,,,#E5B133CC,#785708CC,,0.00
-2024-10-26 Missouri at Alabama,distance,1,Alabama,,,,,,,,,0-3 yds,,1,5,,,,6,0.83,0.17,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-10-26 Missouri at Alabama,distance,1,Alabama,,,,,,,,,4-6 yds,,3,5,,,,7,0.71,0.43,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-10-26 Missouri at Alabama,distance,1,Alabama,,,,,,,,,7-9 yds,,2,3,,,,10,0.30,0.20,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-10-26 Missouri at Alabama,distance,1,Alabama,,,,,,,,,9> yds,,6,17,,,,40,0.43,0.15,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-10-26 Missouri at Alabama,distance,2,Missouri,,,,,,,,,0-3 yds,,0,5,,,,9,0.56,0.00,0.00,0.00,0.00,,,,#E5B133CC,#785708CC,,0.00
-2024-10-26 Missouri at Alabama,distance,2,Missouri,,,,,,,,,4-6 yds,,0,3,,,,11,0.27,0.00,0.00,0.00,0.00,,,,#E5B133CC,#785708CC,,0.00
-2024-10-26 Missouri at Alabama,distance,2,Missouri,,,,,,,,,7-9 yds,,0,3,,,,11,0.27,0.00,0.00,0.00,0.00,,,,#E5B133CC,#785708CC,,0.00
-2024-10-26 Missouri at Alabama,distance,2,Missouri,,,,,,,,,9> yds,,1,12,,,,32,0.38,0.03,0.00,0.00,0.00,,,,#E5B133CC,#785708CC,,0.00
-2024-10-26 Missouri at Alabama,drive,1,Alabama,,,,,,2,,,,,1,3,,,,7,0.43,0.14,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-10-26 Missouri at Alabama,drive,1,Alabama,,,,,,4,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-10-26 Missouri at Alabama,drive,1,Alabama,,,,,,6,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-10-26 Missouri at Alabama,drive,1,Alabama,,,,,,8,,,,,0,3,,,,7,0.43,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-10-26 Missouri at Alabama,drive,1,Alabama,,,,,,10,,,,,2,6,,,,10,0.60,0.20,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-10-26 Missouri at Alabama,drive,1,Alabama,,,,,,12,,,,,1,2,,,,3,0.67,0.33,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-10-26 Missouri at Alabama,drive,1,Alabama,,,,,,14,,,,,2,4,,,,6,0.67,0.33,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-10-26 Missouri at Alabama,drive,1,Alabama,,,,,,16,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-10-26 Missouri at Alabama,drive,1,Alabama,,,,,,18,,,,,2,4,,,,5,0.80,0.40,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-10-26 Missouri at Alabama,drive,1,Alabama,,,,,,20,,,,,1,1,,,,5,0.20,0.20,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-10-26 Missouri at Alabama,drive,1,Alabama,,,,,,22,,,,,2,4,,,,5,0.80,0.40,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-10-26 Missouri at Alabama,drive,1,Alabama,,,,,,24,,,,,1,3,,,,6,0.50,0.17,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-10-26 Missouri at Alabama,drive,2,Missouri,,,,,,1,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#E5B133CC,#785708CC,,0.00
-2024-10-26 Missouri at Alabama,drive,2,Missouri,,,,,,3,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#E5B133CC,#785708CC,,0.00
-2024-10-26 Missouri at Alabama,drive,2,Missouri,,,,,,5,,,,,0,2,,,,7,0.29,0.00,0.00,0.00,0.00,,,,#E5B133CC,#785708CC,,0.00
-2024-10-26 Missouri at Alabama,drive,2,Missouri,,,,,,7,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#E5B133CC,#785708CC,,0.00
-2024-10-26 Missouri at Alabama,drive,2,Missouri,,,,,,9,,,,,0,1,,,,5,0.20,0.00,0.00,0.00,0.00,,,,#E5B133CC,#785708CC,,0.00
-2024-10-26 Missouri at Alabama,drive,2,Missouri,,,,,,11,,,,,0,1,,,,4,0.25,0.00,0.00,0.00,0.00,,,,#E5B133CC,#785708CC,,0.00
-2024-10-26 Missouri at Alabama,drive,2,Missouri,,,,,,13,,,,,0,5,,,,8,0.63,0.00,0.00,0.00,0.00,,,,#E5B133CC,#785708CC,,0.00
-2024-10-26 Missouri at Alabama,drive,2,Missouri,,,,,,15,,,,,0,4,,,,7,0.57,0.00,0.00,0.00,0.00,,,,#E5B133CC,#785708CC,,0.00
-2024-10-26 Missouri at Alabama,drive,2,Missouri,,,,,,17,,,,,0,1,,,,3,0.33,0.00,0.00,0.00,0.00,,,,#E5B133CC,#785708CC,,0.00
-2024-10-26 Missouri at Alabama,drive,2,Missouri,,,,,,19,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#E5B133CC,#785708CC,,0.00
-2024-10-26 Missouri at Alabama,drive,2,Missouri,,,,,,21,,,,,0,1,,,,3,0.33,0.00,0.00,0.00,0.00,,,,#E5B133CC,#785708CC,,0.00
-2024-10-26 Missouri at Alabama,drive,2,Missouri,,,,,,23,,,,,1,8,,,,14,0.57,0.07,0.00,0.00,0.00,,,,#E5B133CC,#785708CC,,0.00
-2024-10-26 Missouri at Alabama,rusher,1,Alabama,,,,,,,,,,,0,6,,5,,,0.00,0.00,0.00,0.00,0.00,Jam Miller,,,#E82525CC,#5A0000CC,,0.00
-2024-10-26 Missouri at Alabama,rusher,1,Alabama,,,,,,,,,,,2,3,,3,,,0.00,0.00,0.00,0.00,0.00,Justice Haynes,,,#E82525CC,#5A0000CC,,0.00
-2024-10-26 Missouri at Alabama,rusher,1,Alabama,,,,,,,,,,,1,2,,6,,,0.00,0.00,0.00,0.00,0.00,Jalen Milroe,,,#E82525CC,#5A0000CC,,0.00
-2024-10-26 Missouri at Alabama,rusher,1,Alabama,,,,,,,,,,,0,1,,1,,,0.00,0.00,0.00,0.00,0.00,Daniel Hill,,,#E82525CC,#5A0000CC,,0.00
-2024-10-26 Missouri at Alabama,rusher,1,Alabama,,,,,,,,,,,0,1,,0,,,0.00,0.00,0.00,0.00,0.00,Ty Simpson,,,#E82525CC,#5A0000CC,,0.00
-2024-10-26 Missouri at Alabama,rusher,1,Alabama,,,,,,,,,,,1,0,,2,,,0.00,0.00,0.00,0.00,0.00,Richard Young,,,#E82525CC,#5A0000CC,,0.00
-2024-10-26 Missouri at Alabama,rusher,1,Alabama,,,,,,,,,,,1,0,,0,,,0.00,0.00,0.00,0.00,0.00,Kendrick Law,,,#E82525CC,#5A0000CC,,0.00
-2024-10-26 Missouri at Alabama,rusher,2,Missouri,,,,,,,,,,,0,10,,7,,,0.00,0.00,0.00,0.00,0.00,Jamal Roberts,,,#E5B133CC,#785708CC,,0.00
-2024-10-26 Missouri at Alabama,rusher,2,Missouri,,,,,,,,,,,1,4,,12,,,0.00,0.00,0.00,0.00,0.00,Marcus Carroll,,,#E5B133CC,#785708CC,,0.00
-2024-10-26 Missouri at Alabama,rusher,2,Missouri,,,,,,,,,,,0,2,,0,,,0.00,0.00,0.00,0.00,0.00,Luther Burden III,,,#E5B133CC,#785708CC,,0.00
-2024-10-26 Missouri at Alabama,rusher,2,Missouri,,,,,,,,,,,0,1,,0,,,0.00,0.00,0.00,0.00,0.00,Drew Pyne,,,#E5B133CC,#785708CC,,0.00
-2024-10-26 Missouri at Alabama,rusher,2,Missouri,,,,,,,,,,,0,0,,1,,,0.00,0.00,0.00,0.00,0.00,JR Blood,,,#E5B133CC,#785708CC,,0.00
-2024-10-26 Missouri at Alabama,passer,1,Alabama,,,,,,,,,,,7,5,4,10,0,,0.00,0.00,0.00,0.00,0.00,,Jalen Milroe,,#E82525CC,#5A0000CC,,0.00
-2024-10-26 Missouri at Alabama,passer,2,Missouri,,,,,,,,,,,0,4,2,3,3,,0.00,0.00,0.00,0.00,0.00,,Drew Pyne,,#E5B133CC,#785708CC,,0.00
-2024-10-26 Missouri at Alabama,passer,2,Missouri,,,,,,,,,,,0,1,6,5,0,,0.00,0.00,0.00,0.00,0.00,,Brady Cook,,#E5B133CC,#785708CC,,0.00
-2024-10-26 Missouri at Alabama,receiver,1,Alabama,,,,,,,,,,,2,2,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Ryan Williams,#E82525CC,#5A0000CC,,0.00
-2024-10-26 Missouri at Alabama,receiver,1,Alabama,,,,,,,,,,,3,1,1,0,,,0.00,0.00,0.00,0.00,0.00,,,Germie Bernard,#E82525CC,#5A0000CC,,0.00
-2024-10-26 Missouri at Alabama,receiver,1,Alabama,,,,,,,,,,,0,1,1,0,,,0.00,0.00,0.00,0.00,0.00,,,Kendrick Law,#E82525CC,#5A0000CC,,0.00
-2024-10-26 Missouri at Alabama,receiver,1,Alabama,,,,,,,,,,,0,1,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Robbie Ouzts,#E82525CC,#5A0000CC,,0.00
-2024-10-26 Missouri at Alabama,receiver,1,Alabama,,,,,,,,,,,1,0,1,0,,,0.00,0.00,0.00,0.00,0.00,,,CJ Dippre,#E82525CC,#5A0000CC,,0.00
-2024-10-26 Missouri at Alabama,receiver,1,Alabama,,,,,,,,,,,1,0,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Emmanuel Henderson Jr.,#E82525CC,#5A0000CC,,0.00
-2024-10-26 Missouri at Alabama,receiver,1,Alabama,,,,,,,,,,,0,0,1,0,,,0.00,0.00,0.00,0.00,0.00,,,Justice Haynes,#E82525CC,#5A0000CC,,0.00
-2024-10-26 Missouri at Alabama,receiver,2,Missouri,,,,,,,,,,,0,1,2,0,,,0.00,0.00,0.00,0.00,0.00,,,Brett Norfleet,#E5B133CC,#785708CC,,0.00
-2024-10-26 Missouri at Alabama,receiver,2,Missouri,,,,,,,,,,,0,1,1,0,,,0.00,0.00,0.00,0.00,0.00,,,Theo Wease Jr.,#E5B133CC,#785708CC,,0.00
-2024-10-26 Missouri at Alabama,receiver,2,Missouri,,,,,,,,,,,0,1,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Jamal Roberts,#E5B133CC,#785708CC,,0.00
-2024-10-26 Missouri at Alabama,receiver,2,Missouri,,,,,,,,,,,0,1,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Joshua Manning,#E5B133CC,#785708CC,,0.00
-2024-10-26 Missouri at Alabama,receiver,2,Missouri,,,,,,,,,,,0,1,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Marcus Carroll,#E5B133CC,#785708CC,,0.00
-2024-10-26 Missouri at Alabama,receiver,2,Missouri,,,,,,,,,,,0,0,3,0,,,0.00,0.00,0.00,0.00,0.00,,,Luther Burden III,#E5B133CC,#785708CC,,0.00
-2024-10-26 Missouri at Alabama,receiver,2,Missouri,,,,,,,,,,,0,0,1,0,,,0.00,0.00,0.00,0.00,0.00,,,Jordon Harris,#E5B133CC,#785708CC,,0.00
-2024-10-26 Missouri at Alabama,receiver,2,Missouri,,,,,,,,,,,0,0,1,0,,,0.00,0.00,0.00,0.00,0.00,,,Marquis Johnson,#E5B133CC,#785708CC,,0.00
-2024-10-26 Missouri at Alabama,plays,2,Missouri,1,1,Brady Cook pass complete to Luther Burden III for no gain to the MIZ 25,Pass,1,1,1,Other,10,0,0,0,,,,,0.00,0.00,0.00,0.00,0.00,,Brady Cook,Luther Burden III,#E5B133CC,#785708CC,-5,-5.00
-2024-10-26 Missouri at Alabama,plays,2,Missouri,2,2,Brady Cook sacked by Jihaad Campbell for a loss of 8 yards to the MIZ 17,Pass,1,1,2,Other,10,-8,0,0,,,,,0.00,0.00,0.00,0.00,0.00,,,,#E5B133CC,#785708CC,-15,-10.00
-2024-10-26 Missouri at Alabama,plays,2,Missouri,3,3,Brady Cook pass complete to Brett Norfleet for 13 yds to the MIZ 30,Pass,1,1,3,Other,18,13,0,0,,,,,0.00,0.00,0.00,0.00,0.00,,Brady Cook,Brett Norfleet,#E5B133CC,#785708CC,-5,-8.33
-2024-10-26 Missouri at Alabama,plays,1,Alabama,4,1,Jalen Milroe pass complete to Robbie Ouzts for 6 yds to the ALA 27,Pass,1,2,1,Other,10,6,0,1,,,,,1.00,0.00,1.00,0.00,0.00,,Jalen Milroe,Robbie Ouzts,#E82525CC,#5A0000CC,1,1.00
-2024-10-26 Missouri at Alabama,plays,1,Alabama,5,2,Jam Miller run for 3 yds to the ALA 30,Rush,1,2,2,Other,4,3,0,1,,,,,1.00,0.00,1.00,0.00,0.50,Jam Miller,,,#E82525CC,#5A0000CC,0.2,0.60
-2024-10-26 Missouri at Alabama,plays,1,Alabama,6,3,Jalen Milroe pass complete to CJ Dippre for 4 yds to the ALA 49,Pass,1,2,1,Other,10,4,0,0,,,,,0.50,0.00,0.67,0.00,0.33,,Jalen Milroe,CJ Dippre,#E82525CC,#5A0000CC,-1,0.07
-2024-10-26 Missouri at Alabama,plays,1,Alabama,7,4,Kendrick Law run for 21 yds to the MIZ 30 for a 1ST down,Rush,1,2,2,Other,6,21,1,1,,,,,1.00,0.50,0.75,0.25,0.50,Kendrick Law,,,#E82525CC,#5A0000CC,16.8,4.25
-2024-10-26 Missouri at Alabama,plays,1,Alabama,8,5,Jalen Milroe pass complete to Kendrick Law for 3 yds to the MIZ 27,Pass,1,2,1,Other,10,3,0,0,,,,,0.33,0.00,0.60,0.20,0.40,,Jalen Milroe,Kendrick Law,#E82525CC,#5A0000CC,-2,3.00
-2024-10-26 Missouri at Alabama,plays,1,Alabama,9,6,Jalen Milroe pass complete to Germie Bernard for 2 yds to the MIZ 25,Pass,1,2,2,Other,7,2,0,0,,,,,0.25,0.00,0.50,0.17,0.33,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,-2.9,2.02
+2024-10-26 Missouri at Alabama,teams,1,Alabama,,,,,,,,,,,12,30,,,,63,0.48,0.19,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-10-26 Missouri at Alabama,teams,2,Missouri,,,,,,,,,,,1,23,,,,63,0.37,0.02,0,0,0,,,,#E5B133CC,#785708CC,,0
+2024-10-26 Missouri at Alabama,play_type,1,Alabama,,,,Rush,,,,,,,5,18,,,,35,0.51,0.14,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-10-26 Missouri at Alabama,play_type,2,Missouri,,,,Rush,,,,,,,1,18,,,,38,0.47,0.03,0,0,0,,,,#E5B133CC,#785708CC,,0
+2024-10-26 Missouri at Alabama,play_type,1,Alabama,,,,Pass,,,,,,,7,12,,,,28,0.43,0.25,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-10-26 Missouri at Alabama,play_type,2,Missouri,,,,Pass,,,,,,,0,5,,,,25,0.2,0,0,0,0,,,,#E5B133CC,#785708CC,,0
+2024-10-26 Missouri at Alabama,quarter,1,Alabama,,,,,1Q,,,,,,1,3,,,,13,0.23,0.08,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-10-26 Missouri at Alabama,quarter,1,Alabama,,,,,2Q,,,,,,3,11,,,,20,0.55,0.15,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-10-26 Missouri at Alabama,quarter,1,Alabama,,,,,3Q,,,,,,5,9,,,,19,0.47,0.26,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-10-26 Missouri at Alabama,quarter,1,Alabama,,,,,4Q,,,,,,3,7,,,,11,0.64,0.27,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-10-26 Missouri at Alabama,quarter,2,Missouri,,,,,1Q,,,,,,0,2,,,,14,0.14,0,0,0,0,,,,#E5B133CC,#785708CC,,0
+2024-10-26 Missouri at Alabama,quarter,2,Missouri,,,,,2Q,,,,,,0,7,,,,19,0.37,0,0,0,0,,,,#E5B133CC,#785708CC,,0
+2024-10-26 Missouri at Alabama,quarter,2,Missouri,,,,,3Q,,,,,,0,6,,,,14,0.43,0,0,0,0,,,,#E5B133CC,#785708CC,,0
+2024-10-26 Missouri at Alabama,quarter,2,Missouri,,,,,4Q,,,,,,1,8,,,,16,0.5,0.06,0,0,0,,,,#E5B133CC,#785708CC,,0
+2024-10-26 Missouri at Alabama,down,1,Alabama,,,,,,,1D,,,,4,15,,,,31,0.48,0.13,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-10-26 Missouri at Alabama,down,1,Alabama,,,,,,,2D,,,,7,13,,,,23,0.57,0.3,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-10-26 Missouri at Alabama,down,1,Alabama,,,,,,,3D,,,,1,2,,,,9,0.22,0.11,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-10-26 Missouri at Alabama,down,2,Missouri,,,,,,,1D,,,,1,12,,,,27,0.44,0.04,0,0,0,,,,#E5B133CC,#785708CC,,0
+2024-10-26 Missouri at Alabama,down,2,Missouri,,,,,,,2D,,,,0,8,,,,22,0.36,0,0,0,0,,,,#E5B133CC,#785708CC,,0
+2024-10-26 Missouri at Alabama,down,2,Missouri,,,,,,,3D,,,,0,3,,,,13,0.23,0,0,0,0,,,,#E5B133CC,#785708CC,,0
+2024-10-26 Missouri at Alabama,down,2,Missouri,,,,,,,4D,,,,0,0,,,,1,0,0,0,0,0,,,,#E5B133CC,#785708CC,,0
+2024-10-26 Missouri at Alabama,red_zone,1,Alabama,,,,,,,,Other,,,12,25,,,,53,0.47,0.23,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-10-26 Missouri at Alabama,red_zone,1,Alabama,,,,,,,,Red zone,,,0,5,,,,10,0.5,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-10-26 Missouri at Alabama,red_zone,2,Missouri,,,,,,,,Other,,,1,21,,,,58,0.36,0.02,0,0,0,,,,#E5B133CC,#785708CC,,0
+2024-10-26 Missouri at Alabama,red_zone,2,Missouri,,,,,,,,Red zone,,,0,2,,,,5,0.4,0,0,0,0,,,,#E5B133CC,#785708CC,,0
+2024-10-26 Missouri at Alabama,distance,1,Alabama,,,,,,,,,0-3 yds,,1,5,,,,6,0.83,0.17,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-10-26 Missouri at Alabama,distance,1,Alabama,,,,,,,,,4-6 yds,,3,5,,,,7,0.71,0.43,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-10-26 Missouri at Alabama,distance,1,Alabama,,,,,,,,,7-9 yds,,2,3,,,,10,0.3,0.2,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-10-26 Missouri at Alabama,distance,1,Alabama,,,,,,,,,9> yds,,6,17,,,,40,0.43,0.15,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-10-26 Missouri at Alabama,distance,2,Missouri,,,,,,,,,0-3 yds,,0,5,,,,9,0.56,0,0,0,0,,,,#E5B133CC,#785708CC,,0
+2024-10-26 Missouri at Alabama,distance,2,Missouri,,,,,,,,,4-6 yds,,0,3,,,,11,0.27,0,0,0,0,,,,#E5B133CC,#785708CC,,0
+2024-10-26 Missouri at Alabama,distance,2,Missouri,,,,,,,,,7-9 yds,,0,3,,,,11,0.27,0,0,0,0,,,,#E5B133CC,#785708CC,,0
+2024-10-26 Missouri at Alabama,distance,2,Missouri,,,,,,,,,9> yds,,1,12,,,,32,0.38,0.03,0,0,0,,,,#E5B133CC,#785708CC,,0
+2024-10-26 Missouri at Alabama,drive,1,Alabama,,,,,,2,,,,,1,3,,,,7,0.43,0.14,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-10-26 Missouri at Alabama,drive,1,Alabama,,,,,,4,,,,,0,0,,,,3,0,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-10-26 Missouri at Alabama,drive,1,Alabama,,,,,,6,,,,,0,0,,,,3,0,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-10-26 Missouri at Alabama,drive,1,Alabama,,,,,,8,,,,,0,3,,,,7,0.43,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-10-26 Missouri at Alabama,drive,1,Alabama,,,,,,10,,,,,2,6,,,,10,0.6,0.2,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-10-26 Missouri at Alabama,drive,1,Alabama,,,,,,12,,,,,1,2,,,,3,0.67,0.33,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-10-26 Missouri at Alabama,drive,1,Alabama,,,,,,14,,,,,2,4,,,,6,0.67,0.33,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-10-26 Missouri at Alabama,drive,1,Alabama,,,,,,16,,,,,0,0,,,,3,0,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-10-26 Missouri at Alabama,drive,1,Alabama,,,,,,18,,,,,2,4,,,,5,0.8,0.4,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-10-26 Missouri at Alabama,drive,1,Alabama,,,,,,20,,,,,1,1,,,,5,0.2,0.2,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-10-26 Missouri at Alabama,drive,1,Alabama,,,,,,22,,,,,2,4,,,,5,0.8,0.4,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-10-26 Missouri at Alabama,drive,1,Alabama,,,,,,24,,,,,1,3,,,,6,0.5,0.17,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-10-26 Missouri at Alabama,drive,2,Missouri,,,,,,1,,,,,0,0,,,,3,0,0,0,0,0,,,,#E5B133CC,#785708CC,,0
+2024-10-26 Missouri at Alabama,drive,2,Missouri,,,,,,3,,,,,0,0,,,,3,0,0,0,0,0,,,,#E5B133CC,#785708CC,,0
+2024-10-26 Missouri at Alabama,drive,2,Missouri,,,,,,5,,,,,0,2,,,,7,0.29,0,0,0,0,,,,#E5B133CC,#785708CC,,0
+2024-10-26 Missouri at Alabama,drive,2,Missouri,,,,,,7,,,,,0,0,,,,3,0,0,0,0,0,,,,#E5B133CC,#785708CC,,0
+2024-10-26 Missouri at Alabama,drive,2,Missouri,,,,,,9,,,,,0,1,,,,5,0.2,0,0,0,0,,,,#E5B133CC,#785708CC,,0
+2024-10-26 Missouri at Alabama,drive,2,Missouri,,,,,,11,,,,,0,1,,,,4,0.25,0,0,0,0,,,,#E5B133CC,#785708CC,,0
+2024-10-26 Missouri at Alabama,drive,2,Missouri,,,,,,13,,,,,0,5,,,,8,0.63,0,0,0,0,,,,#E5B133CC,#785708CC,,0
+2024-10-26 Missouri at Alabama,drive,2,Missouri,,,,,,15,,,,,0,4,,,,7,0.57,0,0,0,0,,,,#E5B133CC,#785708CC,,0
+2024-10-26 Missouri at Alabama,drive,2,Missouri,,,,,,17,,,,,0,1,,,,3,0.33,0,0,0,0,,,,#E5B133CC,#785708CC,,0
+2024-10-26 Missouri at Alabama,drive,2,Missouri,,,,,,19,,,,,0,0,,,,3,0,0,0,0,0,,,,#E5B133CC,#785708CC,,0
+2024-10-26 Missouri at Alabama,drive,2,Missouri,,,,,,21,,,,,0,1,,,,3,0.33,0,0,0,0,,,,#E5B133CC,#785708CC,,0
+2024-10-26 Missouri at Alabama,drive,2,Missouri,,,,,,23,,,,,1,8,,,,14,0.57,0.07,0,0,0,,,,#E5B133CC,#785708CC,,0
+2024-10-26 Missouri at Alabama,rusher,1,Alabama,,,,,,,,,,,0,6,,5,,,0,0,0,0,0,Jam Miller,,,#E82525CC,#5A0000CC,,0
+2024-10-26 Missouri at Alabama,rusher,1,Alabama,,,,,,,,,,,2,3,,3,,,0,0,0,0,0,Justice Haynes,,,#E82525CC,#5A0000CC,,0
+2024-10-26 Missouri at Alabama,rusher,1,Alabama,,,,,,,,,,,1,2,,6,,,0,0,0,0,0,Jalen Milroe,,,#E82525CC,#5A0000CC,,0
+2024-10-26 Missouri at Alabama,rusher,1,Alabama,,,,,,,,,,,0,1,,1,,,0,0,0,0,0,Daniel Hill,,,#E82525CC,#5A0000CC,,0
+2024-10-26 Missouri at Alabama,rusher,1,Alabama,,,,,,,,,,,0,1,,0,,,0,0,0,0,0,Ty Simpson,,,#E82525CC,#5A0000CC,,0
+2024-10-26 Missouri at Alabama,rusher,1,Alabama,,,,,,,,,,,1,0,,2,,,0,0,0,0,0,Richard Young,,,#E82525CC,#5A0000CC,,0
+2024-10-26 Missouri at Alabama,rusher,1,Alabama,,,,,,,,,,,1,0,,0,,,0,0,0,0,0,Kendrick Law,,,#E82525CC,#5A0000CC,,0
+2024-10-26 Missouri at Alabama,rusher,2,Missouri,,,,,,,,,,,0,10,,7,,,0,0,0,0,0,Jamal Roberts,,,#E5B133CC,#785708CC,,0
+2024-10-26 Missouri at Alabama,rusher,2,Missouri,,,,,,,,,,,1,4,,12,,,0,0,0,0,0,Marcus Carroll,,,#E5B133CC,#785708CC,,0
+2024-10-26 Missouri at Alabama,rusher,2,Missouri,,,,,,,,,,,0,2,,0,,,0,0,0,0,0,Luther Burden III,,,#E5B133CC,#785708CC,,0
+2024-10-26 Missouri at Alabama,rusher,2,Missouri,,,,,,,,,,,0,1,,0,,,0,0,0,0,0,Drew Pyne,,,#E5B133CC,#785708CC,,0
+2024-10-26 Missouri at Alabama,rusher,2,Missouri,,,,,,,,,,,0,0,,1,,,0,0,0,0,0,JR Blood,,,#E5B133CC,#785708CC,,0
+2024-10-26 Missouri at Alabama,passer,1,Alabama,,,,,,,,,,,7,5,4,10,0,,0,0,0,0,0,,Jalen Milroe,,#E82525CC,#5A0000CC,,0
+2024-10-26 Missouri at Alabama,passer,2,Missouri,,,,,,,,,,,0,4,2,3,3,,0,0,0,0,0,,Drew Pyne,,#E5B133CC,#785708CC,,0
+2024-10-26 Missouri at Alabama,passer,2,Missouri,,,,,,,,,,,0,1,6,5,0,,0,0,0,0,0,,Brady Cook,,#E5B133CC,#785708CC,,0
+2024-10-26 Missouri at Alabama,receiver,1,Alabama,,,,,,,,,,,2,2,0,0,,,0,0,0,0,0,,,Ryan Williams,#E82525CC,#5A0000CC,,0
+2024-10-26 Missouri at Alabama,receiver,1,Alabama,,,,,,,,,,,3,1,1,0,,,0,0,0,0,0,,,Germie Bernard,#E82525CC,#5A0000CC,,0
+2024-10-26 Missouri at Alabama,receiver,1,Alabama,,,,,,,,,,,0,1,1,0,,,0,0,0,0,0,,,Kendrick Law,#E82525CC,#5A0000CC,,0
+2024-10-26 Missouri at Alabama,receiver,1,Alabama,,,,,,,,,,,0,1,0,0,,,0,0,0,0,0,,,Robbie Ouzts,#E82525CC,#5A0000CC,,0
+2024-10-26 Missouri at Alabama,receiver,1,Alabama,,,,,,,,,,,1,0,1,0,,,0,0,0,0,0,,,CJ Dippre,#E82525CC,#5A0000CC,,0
+2024-10-26 Missouri at Alabama,receiver,1,Alabama,,,,,,,,,,,1,0,0,0,,,0,0,0,0,0,,,Emmanuel Henderson Jr.,#E82525CC,#5A0000CC,,0
+2024-10-26 Missouri at Alabama,receiver,1,Alabama,,,,,,,,,,,0,0,1,0,,,0,0,0,0,0,,,Justice Haynes,#E82525CC,#5A0000CC,,0
+2024-10-26 Missouri at Alabama,receiver,2,Missouri,,,,,,,,,,,0,1,2,0,,,0,0,0,0,0,,,Brett Norfleet,#E5B133CC,#785708CC,,0
+2024-10-26 Missouri at Alabama,receiver,2,Missouri,,,,,,,,,,,0,1,1,0,,,0,0,0,0,0,,,Theo Wease Jr.,#E5B133CC,#785708CC,,0
+2024-10-26 Missouri at Alabama,receiver,2,Missouri,,,,,,,,,,,0,1,0,0,,,0,0,0,0,0,,,Jamal Roberts,#E5B133CC,#785708CC,,0
+2024-10-26 Missouri at Alabama,receiver,2,Missouri,,,,,,,,,,,0,1,0,0,,,0,0,0,0,0,,,Joshua Manning,#E5B133CC,#785708CC,,0
+2024-10-26 Missouri at Alabama,receiver,2,Missouri,,,,,,,,,,,0,1,0,0,,,0,0,0,0,0,,,Marcus Carroll,#E5B133CC,#785708CC,,0
+2024-10-26 Missouri at Alabama,receiver,2,Missouri,,,,,,,,,,,0,0,3,0,,,0,0,0,0,0,,,Luther Burden III,#E5B133CC,#785708CC,,0
+2024-10-26 Missouri at Alabama,receiver,2,Missouri,,,,,,,,,,,0,0,1,0,,,0,0,0,0,0,,,Jordon Harris,#E5B133CC,#785708CC,,0
+2024-10-26 Missouri at Alabama,receiver,2,Missouri,,,,,,,,,,,0,0,1,0,,,0,0,0,0,0,,,Marquis Johnson,#E5B133CC,#785708CC,,0
+2024-10-26 Missouri at Alabama,plays,2,Missouri,1,1,Brady Cook pass complete to Luther Burden III for no gain to the MIZ 25,Pass,1,1,1,Other,10,0,0,0,,,,,0,0,0,0,0,,Brady Cook,Luther Burden III,#E5B133CC,#785708CC,-5,-5
+2024-10-26 Missouri at Alabama,plays,2,Missouri,2,2,Brady Cook sacked by Jihaad Campbell for a loss of 8 yards to the MIZ 17,Pass,1,1,2,Other,10,-8,0,0,,,,,0,0,0,0,0,,,,#E5B133CC,#785708CC,-15,-10
+2024-10-26 Missouri at Alabama,plays,2,Missouri,3,3,Brady Cook pass complete to Brett Norfleet for 13 yds to the MIZ 30,Pass,1,1,3,Other,18,13,0,0,,,,,0,0,0,0,0,,Brady Cook,Brett Norfleet,#E5B133CC,#785708CC,-5,-8.33
+2024-10-26 Missouri at Alabama,plays,1,Alabama,4,1,Jalen Milroe pass complete to Robbie Ouzts for 6 yds to the ALA 27,Pass,1,2,1,Other,10,6,0,1,,,,,1,0,1,0,0,,Jalen Milroe,Robbie Ouzts,#E82525CC,#5A0000CC,1,1
+2024-10-26 Missouri at Alabama,plays,1,Alabama,5,2,Jam Miller run for 3 yds to the ALA 30,Rush,1,2,2,Other,4,3,0,1,,,,,1,0,1,0,0.5,Jam Miller,,,#E82525CC,#5A0000CC,0.2,0.6
+2024-10-26 Missouri at Alabama,plays,1,Alabama,6,3,Jalen Milroe pass complete to CJ Dippre for 4 yds to the ALA 49,Pass,1,2,1,Other,10,4,0,0,,,,,0.5,0,0.67,0,0.33,,Jalen Milroe,CJ Dippre,#E82525CC,#5A0000CC,-1,0.07
+2024-10-26 Missouri at Alabama,plays,1,Alabama,7,4,Kendrick Law run for 21 yds to the MIZ 30 for a 1ST down,Rush,1,2,2,Other,6,21,1,1,,,,,1,0.5,0.75,0.25,0.5,Kendrick Law,,,#E82525CC,#5A0000CC,16.8,4.25
+2024-10-26 Missouri at Alabama,plays,1,Alabama,8,5,Jalen Milroe pass complete to Kendrick Law for 3 yds to the MIZ 27,Pass,1,2,1,Other,10,3,0,0,,,,,0.33,0,0.6,0.2,0.4,,Jalen Milroe,Kendrick Law,#E82525CC,#5A0000CC,-2,3
+2024-10-26 Missouri at Alabama,plays,1,Alabama,9,6,Jalen Milroe pass complete to Germie Bernard for 2 yds to the MIZ 25,Pass,1,2,2,Other,7,2,0,0,,,,,0.25,0,0.5,0.17,0.33,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,-2.9,2.02
 2024-10-26 Missouri at Alabama,plays,1,Alabama,10,7,Justice Haynes run for a loss of 4 yards to the MIZ 29,Rush,1,2,3,Other,5,-4,0,0,,,,,0.67,0.33,0.43,0.14,0.43,Justice Haynes,,,#E82525CC,#5A0000CC,-9,0.44
-2024-10-26 Missouri at Alabama,plays,2,Missouri,11,4,Marcus Carroll run for 3 yds to the MIZ 28,Rush,1,3,1,Other,10,3,0,0,,,,,0.00,0.00,0.00,0.00,0.25,Marcus Carroll,,,#E5B133CC,#785708CC,-2,-6.75
-2024-10-26 Missouri at Alabama,plays,2,Missouri,12,5,Marcus Carroll run for 2 yds to the MIZ 30,Rush,1,3,2,Other,7,2,0,0,,,,,0.00,0.00,0.00,0.00,0.40,Marcus Carroll,,,#E5B133CC,#785708CC,-2.9,-5.98
-2024-10-26 Missouri at Alabama,plays,2,Missouri,13,6,Brady Cook pass incomplete to Joshua Manning,Pass,1,3,3,Other,5,0,0,0,,,,,0.00,0.00,0.00,0.00,0.33,,Brady Cook,,#E5B133CC,#785708CC,-5,-5.82
-2024-10-26 Missouri at Alabama,plays,1,Alabama,14,8,Jam Miller run for 1 yd to the ALA 27,Rush,1,4,1,Other,10,1,0,0,,,,,0.50,0.25,0.38,0.13,0.50,Jam Miller,,,#E82525CC,#5A0000CC,-4,-0.11
-2024-10-26 Missouri at Alabama,plays,1,Alabama,15,9,Jalen Milroe pass incomplete to Ryan Williams,Pass,1,4,2,Other,9,0,0,0,,,,,0.20,0.00,0.33,0.11,0.44,,Jalen Milroe,,#E82525CC,#5A0000CC,-6.3,-0.80
-2024-10-26 Missouri at Alabama,plays,1,Alabama,16,10,Jalen Milroe pass incomplete to Kobe Prentice,Pass,1,4,3,Other,9,0,0,0,,,,,0.17,0.00,0.30,0.10,0.40,,Jalen Milroe,,#E82525CC,#5A0000CC,-9,-1.62
-2024-10-26 Missouri at Alabama,plays,2,Missouri,17,7,Brady Cook pass complete to Luther Burden III for no gain to the MIZ 19,Pass,1,5,1,Other,10,0,0,0,,,,,0.00,0.00,0.00,0.00,0.29,,Brady Cook,Luther Burden III,#E5B133CC,#785708CC,-5,-5.70
-2024-10-26 Missouri at Alabama,plays,2,Missouri,18,8,Brady Cook pass complete to Luther Burden III for 3 yds to the MIZ 22,Pass,1,5,2,Other,10,3,0,0,,,,,0.00,0.00,0.00,0.00,0.25,,Brady Cook,Luther Burden III,#E5B133CC,#785708CC,-4,-5.49
-2024-10-26 Missouri at Alabama,plays,2,Missouri,19,9,Brady Cook pass complete to Brett Norfleet for 8 yds to the MIZ 40,Pass,1,5,1,Other,10,8,0,1,,,,,0.14,0.00,0.11,0.00,0.22,,Brady Cook,Brett Norfleet,#E5B133CC,#785708CC,3,-4.54
-2024-10-26 Missouri at Alabama,plays,2,Missouri,20,10,Jamal Roberts run for 5 yds to the MIZ 45 for a 1ST down,Rush,1,5,2,Other,2,5,0,1,,,,,0.33,0.00,0.20,0.00,0.30,Jamal Roberts,,,#E5B133CC,#785708CC,3.6,-3.73
-2024-10-26 Missouri at Alabama,plays,2,Missouri,21,11,Brady Cook pass complete to Marquis Johnson for 1 yd to the MIZ 46,Pass,1,5,1,Other,10,1,0,0,,,,,0.13,0.00,0.18,0.00,0.27,,Brady Cook,Marquis Johnson,#E5B133CC,#785708CC,-4,-3.75
-2024-10-26 Missouri at Alabama,plays,2,Missouri,22,12,Brady Cook pass complete to Jordon Harris for 5 yds to the ALA 49,Pass,1,5,2,Other,9,5,0,0,,,,,0.11,0.00,0.17,0.00,0.25,,Brady Cook,Jordon Harris,#E5B133CC,#785708CC,-1.3,-3.55
-2024-10-26 Missouri at Alabama,plays,2,Missouri,23,13,Brady Cook pass incomplete,Pass,1,5,3,Other,4,0,0,0,,,,,0.10,0.00,0.15,0.00,0.23,,Brady Cook,,#E5B133CC,#785708CC,-4,-3.58
-2024-10-26 Missouri at Alabama,plays,1,Alabama,24,11,Justice Haynes run for 1 yd to the ALA 8,Rush,1,6,1,Other,10,1,0,0,,,,,0.40,0.20,0.27,0.09,0.45,Justice Haynes,,,#E82525CC,#5A0000CC,-4,-1.84
-2024-10-26 Missouri at Alabama,plays,1,Alabama,25,12,Jalen Milroe pass complete to Justice Haynes for 2 yds to the ALA 10,Pass,1,6,2,Other,9,2,0,0,,,,,0.14,0.00,0.25,0.08,0.42,,Jalen Milroe,Justice Haynes,#E82525CC,#5A0000CC,-4.3,-2.04
-2024-10-26 Missouri at Alabama,plays,1,Alabama,26,13,Jalen Milroe sacked by Johnny Walker Jr. for a loss of 5 yards to the ALA 5,Pass,1,6,3,Other,7,-5,0,0,,,,,0.13,0.00,0.23,0.08,0.38,,,,#E82525CC,#5A0000CC,-12,-2.81
-2024-10-26 Missouri at Alabama,plays,2,Missouri,27,14,Marcus Carroll run for 3 yds to the ALA 49,Rush,1,7,1,Other,10,3,0,0,,,,,0.25,0.00,0.14,0.00,0.29,Marcus Carroll,,,#E5B133CC,#785708CC,-2,-3.47
-2024-10-26 Missouri at Alabama,plays,2,Missouri,28,15,Marcus Carroll run for 1 yd to the ALA 48,Rush,2,7,2,Other,7,1,0,0,,,,,0.20,0.00,0.13,0.00,0.33,Marcus Carroll,,,#E5B133CC,#785708CC,-3.9,-3.50
-2024-10-26 Missouri at Alabama,plays,2,Missouri,29,16,Brady Cook pass incomplete,Pass,2,7,3,Other,6,0,0,0,,,,,0.09,0.00,0.13,0.00,0.31,,Brady Cook,,#E5B133CC,#785708CC,-6,-3.66
-2024-10-26 Missouri at Alabama,plays,1,Alabama,30,14,Jalen Milroe pass complete to Ryan Williams for 5 yds to the ALA 14,Pass,2,8,1,Other,10,5,0,1,,,,,0.22,0.00,0.29,0.07,0.36,,Jalen Milroe,Ryan Williams,#E82525CC,#5A0000CC,0,-2.61
-2024-10-26 Missouri at Alabama,plays,1,Alabama,31,15,Jalen Milroe pass complete to Germie Bernard for 12 yds to the ALA 21 for a 1ST down,Pass,2,8,2,Other,10,12,0,1,,,,,0.30,0.00,0.33,0.07,0.33,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,5,-2.10
-2024-10-26 Missouri at Alabama,plays,1,Alabama,32,16,Jam Miller run for 14 yds to the ALA 35 for a 1ST down,Rush,2,8,1,Other,10,14,0,1,,,,,0.50,0.17,0.38,0.06,0.38,Jam Miller,,,#E82525CC,#5A0000CC,9,-1.41
-2024-10-26 Missouri at Alabama,plays,1,Alabama,33,17,Jam Miller run for 2 yds to the ALA 37,Rush,2,8,1,Other,10,2,0,0,,,,,0.43,0.14,0.35,0.06,0.41,Jam Miller,,,#E82525CC,#5A0000CC,-3,-1.50
+2024-10-26 Missouri at Alabama,plays,2,Missouri,11,4,Marcus Carroll run for 3 yds to the MIZ 28,Rush,1,3,1,Other,10,3,0,0,,,,,0,0,0,0,0.25,Marcus Carroll,,,#E5B133CC,#785708CC,-2,-6.75
+2024-10-26 Missouri at Alabama,plays,2,Missouri,12,5,Marcus Carroll run for 2 yds to the MIZ 30,Rush,1,3,2,Other,7,2,0,0,,,,,0,0,0,0,0.4,Marcus Carroll,,,#E5B133CC,#785708CC,-2.9,-5.98
+2024-10-26 Missouri at Alabama,plays,2,Missouri,13,6,Brady Cook pass incomplete to Joshua Manning,Pass,1,3,3,Other,5,0,0,0,,,,,0,0,0,0,0.33,,Brady Cook,,#E5B133CC,#785708CC,-5,-5.82
+2024-10-26 Missouri at Alabama,plays,1,Alabama,14,8,Jam Miller run for 1 yd to the ALA 27,Rush,1,4,1,Other,10,1,0,0,,,,,0.5,0.25,0.38,0.13,0.5,Jam Miller,,,#E82525CC,#5A0000CC,-4,-0.11
+2024-10-26 Missouri at Alabama,plays,1,Alabama,15,9,Jalen Milroe pass incomplete to Ryan Williams,Pass,1,4,2,Other,9,0,0,0,,,,,0.2,0,0.33,0.11,0.44,,Jalen Milroe,,#E82525CC,#5A0000CC,-6.3,-0.8
+2024-10-26 Missouri at Alabama,plays,1,Alabama,16,10,Jalen Milroe pass incomplete to Kobe Prentice,Pass,1,4,3,Other,9,0,0,0,,,,,0.17,0,0.3,0.1,0.4,,Jalen Milroe,,#E82525CC,#5A0000CC,-9,-1.62
+2024-10-26 Missouri at Alabama,plays,2,Missouri,17,7,Brady Cook pass complete to Luther Burden III for no gain to the MIZ 19,Pass,1,5,1,Other,10,0,0,0,,,,,0,0,0,0,0.29,,Brady Cook,Luther Burden III,#E5B133CC,#785708CC,-5,-5.7
+2024-10-26 Missouri at Alabama,plays,2,Missouri,18,8,Brady Cook pass complete to Luther Burden III for 3 yds to the MIZ 22,Pass,1,5,2,Other,10,3,0,0,,,,,0,0,0,0,0.25,,Brady Cook,Luther Burden III,#E5B133CC,#785708CC,-4,-5.49
+2024-10-26 Missouri at Alabama,plays,2,Missouri,19,9,Brady Cook pass complete to Brett Norfleet for 8 yds to the MIZ 40,Pass,1,5,1,Other,10,8,0,1,,,,,0.14,0,0.11,0,0.22,,Brady Cook,Brett Norfleet,#E5B133CC,#785708CC,3,-4.54
+2024-10-26 Missouri at Alabama,plays,2,Missouri,20,10,Jamal Roberts run for 5 yds to the MIZ 45 for a 1ST down,Rush,1,5,2,Other,2,5,0,1,,,,,0.33,0,0.2,0,0.3,Jamal Roberts,,,#E5B133CC,#785708CC,3.6,-3.73
+2024-10-26 Missouri at Alabama,plays,2,Missouri,21,11,Brady Cook pass complete to Marquis Johnson for 1 yd to the MIZ 46,Pass,1,5,1,Other,10,1,0,0,,,,,0.13,0,0.18,0,0.27,,Brady Cook,Marquis Johnson,#E5B133CC,#785708CC,-4,-3.75
+2024-10-26 Missouri at Alabama,plays,2,Missouri,22,12,Brady Cook pass complete to Jordon Harris for 5 yds to the ALA 49,Pass,1,5,2,Other,9,5,0,0,,,,,0.11,0,0.17,0,0.25,,Brady Cook,Jordon Harris,#E5B133CC,#785708CC,-1.3,-3.55
+2024-10-26 Missouri at Alabama,plays,2,Missouri,23,13,Brady Cook pass incomplete,Pass,1,5,3,Other,4,0,0,0,,,,,0.1,0,0.15,0,0.23,,Brady Cook,,#E5B133CC,#785708CC,-4,-3.58
+2024-10-26 Missouri at Alabama,plays,1,Alabama,24,11,Justice Haynes run for 1 yd to the ALA 8,Rush,1,6,1,Other,10,1,0,0,,,,,0.4,0.2,0.27,0.09,0.45,Justice Haynes,,,#E82525CC,#5A0000CC,-4,-1.84
+2024-10-26 Missouri at Alabama,plays,1,Alabama,25,12,Jalen Milroe pass complete to Justice Haynes for 2 yds to the ALA 10,Pass,1,6,2,Other,9,2,0,0,,,,,0.14,0,0.25,0.08,0.42,,Jalen Milroe,Justice Haynes,#E82525CC,#5A0000CC,-4.3,-2.04
+2024-10-26 Missouri at Alabama,plays,1,Alabama,26,13,Jalen Milroe sacked by Johnny Walker Jr. for a loss of 5 yards to the ALA 5,Pass,1,6,3,Other,7,-5,0,0,,,,,0.13,0,0.23,0.08,0.38,,,,#E82525CC,#5A0000CC,-12,-2.81
+2024-10-26 Missouri at Alabama,plays,2,Missouri,27,14,Marcus Carroll run for 3 yds to the ALA 49,Rush,1,7,1,Other,10,3,0,0,,,,,0.25,0,0.14,0,0.29,Marcus Carroll,,,#E5B133CC,#785708CC,-2,-3.47
+2024-10-26 Missouri at Alabama,plays,2,Missouri,28,15,Marcus Carroll run for 1 yd to the ALA 48,Rush,2,7,2,Other,7,1,0,0,,,,,0.2,0,0.13,0,0.33,Marcus Carroll,,,#E5B133CC,#785708CC,-3.9,-3.5
+2024-10-26 Missouri at Alabama,plays,2,Missouri,29,16,Brady Cook pass incomplete,Pass,2,7,3,Other,6,0,0,0,,,,,0.09,0,0.13,0,0.31,,Brady Cook,,#E5B133CC,#785708CC,-6,-3.66
+2024-10-26 Missouri at Alabama,plays,1,Alabama,30,14,Jalen Milroe pass complete to Ryan Williams for 5 yds to the ALA 14,Pass,2,8,1,Other,10,5,0,1,,,,,0.22,0,0.29,0.07,0.36,,Jalen Milroe,Ryan Williams,#E82525CC,#5A0000CC,0,-2.61
+2024-10-26 Missouri at Alabama,plays,1,Alabama,31,15,Jalen Milroe pass complete to Germie Bernard for 12 yds to the ALA 21 for a 1ST down,Pass,2,8,2,Other,10,12,0,1,,,,,0.3,0,0.33,0.07,0.33,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,5,-2.1
+2024-10-26 Missouri at Alabama,plays,1,Alabama,32,16,Jam Miller run for 14 yds to the ALA 35 for a 1ST down,Rush,2,8,1,Other,10,14,0,1,,,,,0.5,0.17,0.38,0.06,0.38,Jam Miller,,,#E82525CC,#5A0000CC,9,-1.41
+2024-10-26 Missouri at Alabama,plays,1,Alabama,33,17,Jam Miller run for 2 yds to the ALA 37,Rush,2,8,1,Other,10,2,0,0,,,,,0.43,0.14,0.35,0.06,0.41,Jam Miller,,,#E82525CC,#5A0000CC,-3,-1.5
 2024-10-26 Missouri at Alabama,plays,1,Alabama,34,18,"Jalen Milroe run for 2 yds to the ALA 39 Alabama Penalty, Offensive Holding (-10 Yards) to the ALA 29",Rush,2,8,2,Other,8,-8,0,0,,,,,0.38,0.13,0.33,0.06,0.44,Jalen Milroe,,,#E82525CC,#5A0000CC,-13.6,-2.17
-2024-10-26 Missouri at Alabama,plays,1,Alabama,35,19,Jalen Milroe pass incomplete to Kobe Prentice,Pass,2,8,2,Other,16,0,0,0,,,,,0.27,0.00,0.32,0.05,0.42,,Jalen Milroe,,#E82525CC,#5A0000CC,-11.2,-2.65
-2024-10-26 Missouri at Alabama,plays,1,Alabama,36,20,Jalen Milroe sacked by Johnny Walker Jr. for a loss of 6 yards to the ALA 23,Pass,2,8,3,Other,16,-6,0,0,,,,,0.25,0.00,0.30,0.05,0.40,,,,#E82525CC,#5A0000CC,-22,-3.62
-2024-10-26 Missouri at Alabama,plays,2,Missouri,37,17,Jamal Roberts run for 3 yds to the MIZ 44,Rush,2,9,1,Other,10,3,0,0,,,,,0.17,0.00,0.12,0.00,0.35,Jamal Roberts,,,#E5B133CC,#785708CC,-2,-3.56
-2024-10-26 Missouri at Alabama,plays,2,Missouri,38,18,Jamal Roberts run for 9 yds to the ALA 47 for a 1ST down,Rush,2,9,2,Other,7,9,0,1,,,,,0.29,0.00,0.17,0.00,0.39,Jamal Roberts,,,#E5B133CC,#785708CC,4.1,-3.13
-2024-10-26 Missouri at Alabama,plays,2,Missouri,39,19,Jamal Roberts run for 3 yds to the ALA 44,Rush,2,9,1,Other,10,3,0,0,,,,,0.25,0.00,0.16,0.00,0.42,Jamal Roberts,,,#E5B133CC,#785708CC,-2,-3.07
-2024-10-26 Missouri at Alabama,plays,2,Missouri,40,20,Brady Cook pass incomplete to Marquis Johnson,Pass,2,9,2,Other,7,0,0,0,,,,,0.08,0.00,0.15,0.00,0.40,,Brady Cook,,#E5B133CC,#785708CC,-4.9,-3.17
-2024-10-26 Missouri at Alabama,plays,2,Missouri,41,21,Brady Cook pass incomplete to Luther Burden III,Pass,2,9,3,Other,7,0,0,0,,,,,0.08,0.00,0.14,0.00,0.38,,Brady Cook,,#E5B133CC,#785708CC,-7,-3.35
-2024-10-26 Missouri at Alabama,plays,1,Alabama,42,21,Jalen Milroe pass complete to Germie Bernard for 26 yds to the ALA 46 for a 1ST down,Pass,2,10,1,Other,10,26,1,1,,,,,0.31,0.08,0.33,0.10,0.38,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,21,-2.44
+2024-10-26 Missouri at Alabama,plays,1,Alabama,35,19,Jalen Milroe pass incomplete to Kobe Prentice,Pass,2,8,2,Other,16,0,0,0,,,,,0.27,0,0.32,0.05,0.42,,Jalen Milroe,,#E82525CC,#5A0000CC,-11.2,-2.65
+2024-10-26 Missouri at Alabama,plays,1,Alabama,36,20,Jalen Milroe sacked by Johnny Walker Jr. for a loss of 6 yards to the ALA 23,Pass,2,8,3,Other,16,-6,0,0,,,,,0.25,0,0.3,0.05,0.4,,,,#E82525CC,#5A0000CC,-22,-3.62
+2024-10-26 Missouri at Alabama,plays,2,Missouri,37,17,Jamal Roberts run for 3 yds to the MIZ 44,Rush,2,9,1,Other,10,3,0,0,,,,,0.17,0,0.12,0,0.35,Jamal Roberts,,,#E5B133CC,#785708CC,-2,-3.56
+2024-10-26 Missouri at Alabama,plays,2,Missouri,38,18,Jamal Roberts run for 9 yds to the ALA 47 for a 1ST down,Rush,2,9,2,Other,7,9,0,1,,,,,0.29,0,0.17,0,0.39,Jamal Roberts,,,#E5B133CC,#785708CC,4.1,-3.13
+2024-10-26 Missouri at Alabama,plays,2,Missouri,39,19,Jamal Roberts run for 3 yds to the ALA 44,Rush,2,9,1,Other,10,3,0,0,,,,,0.25,0,0.16,0,0.42,Jamal Roberts,,,#E5B133CC,#785708CC,-2,-3.07
+2024-10-26 Missouri at Alabama,plays,2,Missouri,40,20,Brady Cook pass incomplete to Marquis Johnson,Pass,2,9,2,Other,7,0,0,0,,,,,0.08,0,0.15,0,0.4,,Brady Cook,,#E5B133CC,#785708CC,-4.9,-3.17
+2024-10-26 Missouri at Alabama,plays,2,Missouri,41,21,Brady Cook pass incomplete to Luther Burden III,Pass,2,9,3,Other,7,0,0,0,,,,,0.08,0,0.14,0,0.38,,Brady Cook,,#E5B133CC,#785708CC,-7,-3.35
+2024-10-26 Missouri at Alabama,plays,1,Alabama,42,21,Jalen Milroe pass complete to Germie Bernard for 26 yds to the ALA 46 for a 1ST down,Pass,2,10,1,Other,10,26,1,1,,,,,0.31,0.08,0.33,0.1,0.38,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,21,-2.44
 2024-10-26 Missouri at Alabama,plays,1,Alabama,43,22,Justice Haynes run for 9 yds to the MIZ 45,Rush,2,10,1,Other,10,9,0,1,,,,,0.44,0.11,0.36,0.09,0.41,Justice Haynes,,,#E82525CC,#5A0000CC,4,-2.15
-2024-10-26 Missouri at Alabama,plays,1,Alabama,44,23,Justice Haynes run for 2 yds to the MIZ 43 for a 1ST down,Rush,2,10,2,Other,1,2,0,1,,,,,0.50,0.10,0.39,0.09,0.43,Justice Haynes,,,#E82525CC,#5A0000CC,1.3,-2.00
+2024-10-26 Missouri at Alabama,plays,1,Alabama,44,23,Justice Haynes run for 2 yds to the MIZ 43 for a 1ST down,Rush,2,10,2,Other,1,2,0,1,,,,,0.5,0.1,0.39,0.09,0.43,Justice Haynes,,,#E82525CC,#5A0000CC,1.3,-2
 2024-10-26 Missouri at Alabama,plays,1,Alabama,45,24,Jalen Milroe run for 9 yds to the MIZ 34,Rush,2,10,1,Other,10,9,0,1,,,,,0.55,0.09,0.42,0.08,0.46,Jalen Milroe,,,#E82525CC,#5A0000CC,4,-1.75
 2024-10-26 Missouri at Alabama,plays,1,Alabama,46,25,Jam Miller run for 3 yds to the MIZ 31 for a 1ST down,Rush,2,10,2,Other,1,3,0,1,,,,,0.58,0.08,0.44,0.08,0.48,Jam Miller,,,#E82525CC,#5A0000CC,2.3,-1.59
-2024-10-26 Missouri at Alabama,plays,1,Alabama,47,26,Jalen Milroe run for a loss of 2 yards to the MIZ 33,Rush,2,10,1,Other,10,-2,0,0,,,,,0.54,0.08,0.42,0.08,0.50,Jalen Milroe,,,#E82525CC,#5A0000CC,-7,-1.80
+2024-10-26 Missouri at Alabama,plays,1,Alabama,47,26,Jalen Milroe run for a loss of 2 yards to the MIZ 33,Rush,2,10,1,Other,10,-2,0,0,,,,,0.54,0.08,0.42,0.08,0.5,Jalen Milroe,,,#E82525CC,#5A0000CC,-7,-1.8
 2024-10-26 Missouri at Alabama,plays,1,Alabama,48,27,Jalen Milroe pass complete to Germie Bernard for 21 yds to the MIZ 12 for a 1ST down,Pass,2,10,2,Other,12,21,1,1,,,,,0.36,0.14,0.44,0.11,0.48,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,12.6,-1.26
-2024-10-26 Missouri at Alabama,plays,1,Alabama,49,28,Jam Miller run for 1 yd to the MIZ 11,Rush,2,10,1,Red zone,10,1,0,0,,,,,0.50,0.07,0.43,0.11,0.50,Jam Miller,,,#E82525CC,#5A0000CC,-4,-1.36
-2024-10-26 Missouri at Alabama,plays,1,Alabama,50,29,Jalen Milroe pass incomplete to Ryan Williams,Pass,2,10,2,Other,19,0,0,0,,,,,0.33,0.13,0.41,0.10,0.48,,Jalen Milroe,,#E82525CC,#5A0000CC,-13.3,-1.77
-2024-10-26 Missouri at Alabama,plays,1,Alabama,51,30,Jalen Milroe pass incomplete to Germie Bernard,Pass,2,10,3,Other,19,0,0,0,,,,,0.31,0.13,0.40,0.10,0.47,,Jalen Milroe,,#E82525CC,#5A0000CC,-19,-2.35
-2024-10-26 Missouri at Alabama,plays,2,Missouri,52,22,Luther Burden III run for 12 yds to the MIZ 37 for a 1ST down,Rush,2,11,1,Other,10,12,0,1,,,,,0.33,0.00,0.18,0.00,0.41,Luther Burden III,,,#E5B133CC,#785708CC,7,-2.88
-2024-10-26 Missouri at Alabama,plays,2,Missouri,53,23,Marcus Carroll run for 4 yds to the MIZ 41,Rush,2,11,1,Other,10,4,0,0,,,,,0.30,0.00,0.17,0.00,0.43,Marcus Carroll,,,#E5B133CC,#785708CC,-1,-2.80
-2024-10-26 Missouri at Alabama,plays,2,Missouri,54,24,Marcus Carroll run for no gain to the MIZ 41,Rush,2,11,2,Other,6,0,0,0,,,,,0.27,0.00,0.17,0.00,0.46,Marcus Carroll,,,#E5B133CC,#785708CC,-4.2,-2.85
-2024-10-26 Missouri at Alabama,plays,2,Missouri,55,25,Drew Pyne pass intercepted Malachi Moore return for 31 yds to the MIZ 35,Pass,2,11,3,Other,6,31,0,0,,,,,0.07,0.00,0.16,0.00,0.44,,Drew Pyne,,#E5B133CC,#785708CC,25,-1.74
-2024-10-26 Missouri at Alabama,plays,1,Alabama,56,31,Jam Miller run for 4 yds to the MIZ 31,Rush,2,12,1,Other,10,4,0,0,,,,,0.47,0.07,0.39,0.10,0.48,Jam Miller,,,#E82525CC,#5A0000CC,-1,-2.30
+2024-10-26 Missouri at Alabama,plays,1,Alabama,49,28,Jam Miller run for 1 yd to the MIZ 11,Rush,2,10,1,Red zone,10,1,0,0,,,,,0.5,0.07,0.43,0.11,0.5,Jam Miller,,,#E82525CC,#5A0000CC,-4,-1.36
+2024-10-26 Missouri at Alabama,plays,1,Alabama,50,29,Jalen Milroe pass incomplete to Ryan Williams,Pass,2,10,2,Other,19,0,0,0,,,,,0.33,0.13,0.41,0.1,0.48,,Jalen Milroe,,#E82525CC,#5A0000CC,-13.3,-1.77
+2024-10-26 Missouri at Alabama,plays,1,Alabama,51,30,Jalen Milroe pass incomplete to Germie Bernard,Pass,2,10,3,Other,19,0,0,0,,,,,0.31,0.13,0.4,0.1,0.47,,Jalen Milroe,,#E82525CC,#5A0000CC,-19,-2.35
+2024-10-26 Missouri at Alabama,plays,2,Missouri,52,22,Luther Burden III run for 12 yds to the MIZ 37 for a 1ST down,Rush,2,11,1,Other,10,12,0,1,,,,,0.33,0,0.18,0,0.41,Luther Burden III,,,#E5B133CC,#785708CC,7,-2.88
+2024-10-26 Missouri at Alabama,plays,2,Missouri,53,23,Marcus Carroll run for 4 yds to the MIZ 41,Rush,2,11,1,Other,10,4,0,0,,,,,0.3,0,0.17,0,0.43,Marcus Carroll,,,#E5B133CC,#785708CC,-1,-2.8
+2024-10-26 Missouri at Alabama,plays,2,Missouri,54,24,Marcus Carroll run for no gain to the MIZ 41,Rush,2,11,2,Other,6,0,0,0,,,,,0.27,0,0.17,0,0.46,Marcus Carroll,,,#E5B133CC,#785708CC,-4.2,-2.85
+2024-10-26 Missouri at Alabama,plays,2,Missouri,55,25,Drew Pyne pass intercepted Malachi Moore return for 31 yds to the MIZ 35,Pass,2,11,3,Other,6,31,0,0,,,,,0.07,0,0.16,0,0.44,,Drew Pyne,,#E5B133CC,#785708CC,25,-1.74
+2024-10-26 Missouri at Alabama,plays,1,Alabama,56,31,Jam Miller run for 4 yds to the MIZ 31,Rush,2,12,1,Other,10,4,0,0,,,,,0.47,0.07,0.39,0.1,0.48,Jam Miller,,,#E82525CC,#5A0000CC,-1,-2.3
 2024-10-26 Missouri at Alabama,plays,1,Alabama,57,32,Jalen Milroe pass complete to Emmanuel Henderson Jr. for 28 yds to the MIZ 3 for a 1ST down,Pass,2,12,2,Other,6,28,1,1,,,,,0.35,0.18,0.41,0.13,0.47,,Jalen Milroe,Emmanuel Henderson Jr.,#E82525CC,#5A0000CC,23.8,-1.49
-2024-10-26 Missouri at Alabama,plays,1,Alabama,58,33,Jam Miller run for 3 yds for a TD (Graham Nicholson KICK),Rush,2,12,1,Red zone,3,3,0,1,,,,,0.50,0.06,0.42,0.12,0.48,Jam Miller,,,#E82525CC,#5A0000CC,1.5,-1.40
-2024-10-26 Missouri at Alabama,plays,2,Missouri,59,26,Jamal Roberts run for 8 yds to the MIZ 33,Rush,2,13,1,Other,10,8,0,1,,,,,0.33,0.00,0.19,0.00,0.46,Jamal Roberts,,,#E5B133CC,#785708CC,3,-1.56
-2024-10-26 Missouri at Alabama,plays,2,Missouri,60,27,Luther Burden III run for 3 yds to the MIZ 36 for a 1ST down,Rush,2,13,2,Other,2,3,0,1,,,,,0.38,0.00,0.22,0.00,0.48,Luther Burden III,,,#E5B133CC,#785708CC,1.6,-1.44
-2024-10-26 Missouri at Alabama,plays,2,Missouri,61,28,Jamal Roberts run for 7 yds to the MIZ 43,Rush,2,13,1,Other,10,7,0,1,,,,,0.43,0.00,0.25,0.00,0.50,Jamal Roberts,,,#E5B133CC,#785708CC,2,-1.32
-2024-10-26 Missouri at Alabama,plays,2,Missouri,62,29,Jamal Roberts run for 4 yds to the MIZ 47 for a 1ST down,Rush,2,13,2,Other,3,4,0,1,,,,,0.47,0.00,0.28,0.00,0.52,Jamal Roberts,,,#E5B133CC,#785708CC,1.9,-1.21
-2024-10-26 Missouri at Alabama,plays,2,Missouri,63,30,Drew Pyne pass complete to Jamal Roberts for 10 yds to the ALA 43 for a 1ST down,Pass,2,13,1,Other,10,10,0,1,,,,,0.13,0.00,0.30,0.00,0.50,,Drew Pyne,Jamal Roberts,#E5B133CC,#785708CC,5,-1.00
-2024-10-26 Missouri at Alabama,plays,2,Missouri,64,31,Drew Pyne pass complete to Brett Norfleet for 2 yds to the ALA 41,Pass,2,13,1,Other,10,2,0,0,,,,,0.13,0.00,0.29,0.00,0.48,,Drew Pyne,Brett Norfleet,#E5B133CC,#785708CC,-3,-1.06
-2024-10-26 Missouri at Alabama,plays,2,Missouri,65,32,Drew Pyne pass incomplete to Mekhi Miller,Pass,2,13,2,Other,8,0,0,0,,,,,0.12,0.00,0.28,0.00,0.47,,Drew Pyne,,#E5B133CC,#785708CC,-5.6,-1.21
-2024-10-26 Missouri at Alabama,plays,2,Missouri,66,33,Drew Pyne pass incomplete to Theo Wease Jr.,Pass,2,13,3,Other,8,0,0,0,,,,,0.11,0.00,0.27,0.00,0.45,,Drew Pyne,,#E5B133CC,#785708CC,-8,-1.41
+2024-10-26 Missouri at Alabama,plays,1,Alabama,58,33,Jam Miller run for 3 yds for a TD (Graham Nicholson KICK),Rush,2,12,1,Red zone,3,3,0,1,,,,,0.5,0.06,0.42,0.12,0.48,Jam Miller,,,#E82525CC,#5A0000CC,1.5,-1.4
+2024-10-26 Missouri at Alabama,plays,2,Missouri,59,26,Jamal Roberts run for 8 yds to the MIZ 33,Rush,2,13,1,Other,10,8,0,1,,,,,0.33,0,0.19,0,0.46,Jamal Roberts,,,#E5B133CC,#785708CC,3,-1.56
+2024-10-26 Missouri at Alabama,plays,2,Missouri,60,27,Luther Burden III run for 3 yds to the MIZ 36 for a 1ST down,Rush,2,13,2,Other,2,3,0,1,,,,,0.38,0,0.22,0,0.48,Luther Burden III,,,#E5B133CC,#785708CC,1.6,-1.44
+2024-10-26 Missouri at Alabama,plays,2,Missouri,61,28,Jamal Roberts run for 7 yds to the MIZ 43,Rush,2,13,1,Other,10,7,0,1,,,,,0.43,0,0.25,0,0.5,Jamal Roberts,,,#E5B133CC,#785708CC,2,-1.32
+2024-10-26 Missouri at Alabama,plays,2,Missouri,62,29,Jamal Roberts run for 4 yds to the MIZ 47 for a 1ST down,Rush,2,13,2,Other,3,4,0,1,,,,,0.47,0,0.28,0,0.52,Jamal Roberts,,,#E5B133CC,#785708CC,1.9,-1.21
+2024-10-26 Missouri at Alabama,plays,2,Missouri,63,30,Drew Pyne pass complete to Jamal Roberts for 10 yds to the ALA 43 for a 1ST down,Pass,2,13,1,Other,10,10,0,1,,,,,0.13,0,0.3,0,0.5,,Drew Pyne,Jamal Roberts,#E5B133CC,#785708CC,5,-1
+2024-10-26 Missouri at Alabama,plays,2,Missouri,64,31,Drew Pyne pass complete to Brett Norfleet for 2 yds to the ALA 41,Pass,2,13,1,Other,10,2,0,0,,,,,0.13,0,0.29,0,0.48,,Drew Pyne,Brett Norfleet,#E5B133CC,#785708CC,-3,-1.06
+2024-10-26 Missouri at Alabama,plays,2,Missouri,65,32,Drew Pyne pass incomplete to Mekhi Miller,Pass,2,13,2,Other,8,0,0,0,,,,,0.12,0,0.28,0,0.47,,Drew Pyne,,#E5B133CC,#785708CC,-5.6,-1.21
+2024-10-26 Missouri at Alabama,plays,2,Missouri,66,33,Drew Pyne pass incomplete to Theo Wease Jr.,Pass,2,13,3,Other,8,0,0,0,,,,,0.11,0,0.27,0,0.45,,Drew Pyne,,#E5B133CC,#785708CC,-8,-1.41
 2024-10-26 Missouri at Alabama,plays,1,Alabama,67,34,Jalen Milroe pass complete to Kendrick Law for 14 yds to the ALA 34 for a 1ST down,Pass,3,14,1,Other,10,14,0,1,,,,,0.39,0.17,0.44,0.12,0.47,,Jalen Milroe,Kendrick Law,#E82525CC,#5A0000CC,9,-1.09
 2024-10-26 Missouri at Alabama,plays,1,Alabama,68,35,Jalen Milroe run for 2 yds to the ALA 36,Rush,3,14,1,Other,10,2,0,0,,,,,0.47,0.06,0.43,0.11,0.49,Jalen Milroe,,,#E82525CC,#5A0000CC,-3,-1.15
-2024-10-26 Missouri at Alabama,plays,1,Alabama,69,36,Jalen Milroe run for 32 yds to the MIZ 32 for a 1ST down,Rush,3,14,2,Other,8,32,1,1,,,,,0.50,0.11,0.44,0.14,0.50,Jalen Milroe,,,#E82525CC,#5A0000CC,26.4,-0.38
+2024-10-26 Missouri at Alabama,plays,1,Alabama,69,36,Jalen Milroe run for 32 yds to the MIZ 32 for a 1ST down,Rush,3,14,2,Other,8,32,1,1,,,,,0.5,0.11,0.44,0.14,0.5,Jalen Milroe,,,#E82525CC,#5A0000CC,26.4,-0.38
 2024-10-26 Missouri at Alabama,plays,1,Alabama,70,37,Jalen Milroe pass complete to CJ Dippre for 23 yds to the MIZ 9 for a 1ST down,Pass,3,14,1,Other,10,23,1,1,,,,,0.42,0.21,0.46,0.16,0.49,,Jalen Milroe,CJ Dippre,#E82525CC,#5A0000CC,18,0.12
-2024-10-26 Missouri at Alabama,plays,1,Alabama,71,38,Jalen Milroe run for no gain to the MIZ 9,Rush,3,14,1,Red zone,9,0,0,0,,,,,0.47,0.11,0.45,0.16,0.50,Jalen Milroe,,,#E82525CC,#5A0000CC,-4.5,-0.01
-2024-10-26 Missouri at Alabama,plays,1,Alabama,72,39,Jalen Milroe run for 9 yds for a TD (Graham Nicholson KICK),Rush,3,14,2,Red zone,9,9,0,1,,,,,0.50,0.10,0.46,0.15,0.51,Jalen Milroe,,,#E82525CC,#5A0000CC,2.7,0.06
-2024-10-26 Missouri at Alabama,plays,2,Missouri,73,34,Jamal Roberts run for no gain to the MIZ 25,Rush,3,15,1,Other,10,0,0,0,,,,,0.44,0.00,0.26,0.00,0.47,Jamal Roberts,,,#E5B133CC,#785708CC,-5,-1.52
-2024-10-26 Missouri at Alabama,plays,2,Missouri,74,35,Jamal Roberts run for no gain to the MIZ 25,Rush,3,15,2,Other,10,0,0,0,,,,,0.41,0.00,0.26,0.00,0.49,Jamal Roberts,,,#E5B133CC,#785708CC,-7,-1.67
-2024-10-26 Missouri at Alabama,plays,2,Missouri,75,36,Drew Pyne run for 10 yds to the MIZ 35 for a 1ST down,Rush,3,15,3,Other,10,10,0,1,,,,,0.44,0.00,0.28,0.00,0.50,Drew Pyne,,,#E5B133CC,#785708CC,0,-1.63
-2024-10-26 Missouri at Alabama,plays,2,Missouri,76,37,Drew Pyne pass complete to Joshua Manning for 6 yds to the MIZ 41,Pass,3,15,1,Other,10,6,0,1,,,,,0.16,0.00,0.30,0.00,0.49,,Drew Pyne,Joshua Manning,#E5B133CC,#785708CC,1,-1.56
-2024-10-26 Missouri at Alabama,plays,2,Missouri,77,38,Jamal Roberts run for 3 yds to the MIZ 44,Rush,3,15,2,Other,4,3,0,1,,,,,0.47,0.00,0.32,0.00,0.50,Jamal Roberts,,,#E5B133CC,#785708CC,0.2,-1.51
-2024-10-26 Missouri at Alabama,plays,2,Missouri,78,39,Jamal Roberts run for 2 yds to the MIZ 46 for a 1ST down,Rush,3,15,3,Other,1,2,0,1,,,,,0.50,0.00,0.33,0.00,0.51,Jamal Roberts,,,#E5B133CC,#785708CC,1,-1.45
-2024-10-26 Missouri at Alabama,plays,2,Missouri,79,40,Drew Pyne pass intercepted Bray Hubbard return for no gain to the ALA 27,Pass,3,15,1,Other,10,0,0,0,,,,,0.15,0.00,0.33,0.00,0.50,,Drew Pyne,,#E5B133CC,#785708CC,-5,-1.54
-2024-10-26 Missouri at Alabama,plays,1,Alabama,80,40,Jalen Milroe pass incomplete to Kobe Prentice,Pass,3,16,1,Other,10,0,0,0,,,,,0.40,0.20,0.45,0.15,0.50,,Jalen Milroe,,#E82525CC,#5A0000CC,-5,-0.06
+2024-10-26 Missouri at Alabama,plays,1,Alabama,71,38,Jalen Milroe run for no gain to the MIZ 9,Rush,3,14,1,Red zone,9,0,0,0,,,,,0.47,0.11,0.45,0.16,0.5,Jalen Milroe,,,#E82525CC,#5A0000CC,-4.5,-0.01
+2024-10-26 Missouri at Alabama,plays,1,Alabama,72,39,Jalen Milroe run for 9 yds for a TD (Graham Nicholson KICK),Rush,3,14,2,Red zone,9,9,0,1,,,,,0.5,0.1,0.46,0.15,0.51,Jalen Milroe,,,#E82525CC,#5A0000CC,2.7,0.06
+2024-10-26 Missouri at Alabama,plays,2,Missouri,73,34,Jamal Roberts run for no gain to the MIZ 25,Rush,3,15,1,Other,10,0,0,0,,,,,0.44,0,0.26,0,0.47,Jamal Roberts,,,#E5B133CC,#785708CC,-5,-1.52
+2024-10-26 Missouri at Alabama,plays,2,Missouri,74,35,Jamal Roberts run for no gain to the MIZ 25,Rush,3,15,2,Other,10,0,0,0,,,,,0.41,0,0.26,0,0.49,Jamal Roberts,,,#E5B133CC,#785708CC,-7,-1.67
+2024-10-26 Missouri at Alabama,plays,2,Missouri,75,36,Drew Pyne run for 10 yds to the MIZ 35 for a 1ST down,Rush,3,15,3,Other,10,10,0,1,,,,,0.44,0,0.28,0,0.5,Drew Pyne,,,#E5B133CC,#785708CC,0,-1.63
+2024-10-26 Missouri at Alabama,plays,2,Missouri,76,37,Drew Pyne pass complete to Joshua Manning for 6 yds to the MIZ 41,Pass,3,15,1,Other,10,6,0,1,,,,,0.16,0,0.3,0,0.49,,Drew Pyne,Joshua Manning,#E5B133CC,#785708CC,1,-1.56
+2024-10-26 Missouri at Alabama,plays,2,Missouri,77,38,Jamal Roberts run for 3 yds to the MIZ 44,Rush,3,15,2,Other,4,3,0,1,,,,,0.47,0,0.32,0,0.5,Jamal Roberts,,,#E5B133CC,#785708CC,0.2,-1.51
+2024-10-26 Missouri at Alabama,plays,2,Missouri,78,39,Jamal Roberts run for 2 yds to the MIZ 46 for a 1ST down,Rush,3,15,3,Other,1,2,0,1,,,,,0.5,0,0.33,0,0.51,Jamal Roberts,,,#E5B133CC,#785708CC,1,-1.45
+2024-10-26 Missouri at Alabama,plays,2,Missouri,79,40,Drew Pyne pass intercepted Bray Hubbard return for no gain to the ALA 27,Pass,3,15,1,Other,10,0,0,0,,,,,0.15,0,0.33,0,0.5,,Drew Pyne,,#E5B133CC,#785708CC,-5,-1.54
+2024-10-26 Missouri at Alabama,plays,1,Alabama,80,40,Jalen Milroe pass incomplete to Kobe Prentice,Pass,3,16,1,Other,10,0,0,0,,,,,0.4,0.2,0.45,0.15,0.5,,Jalen Milroe,,#E82525CC,#5A0000CC,-5,-0.06
 2024-10-26 Missouri at Alabama,plays,1,Alabama,81,41,Jalen Milroe pass incomplete to Emmanuel Henderson Jr.,Pass,3,16,2,Other,10,0,0,0,,,,,0.38,0.19,0.44,0.15,0.49,,Jalen Milroe,,#E82525CC,#5A0000CC,-7,-0.23
 2024-10-26 Missouri at Alabama,plays,1,Alabama,82,42,Jalen Milroe pass incomplete to Kobe Prentice,Pass,3,16,3,Other,10,0,0,0,,,,,0.36,0.18,0.43,0.14,0.48,,Jalen Milroe,,#E82525CC,#5A0000CC,-10,-0.46
-2024-10-26 Missouri at Alabama,plays,2,Missouri,83,41,Drew Pyne pass complete to Theo Wease Jr. for 13 yds to the ALA 46 for a 1ST down,Pass,3,17,1,Other,10,13,0,1,,,,,0.19,0.00,0.34,0.00,0.49,,Drew Pyne,Theo Wease Jr.,#E5B133CC,#785708CC,8,-1.30
-2024-10-26 Missouri at Alabama,plays,2,Missouri,84,42,Marcus Carroll run for 3 yds to the ALA 43,Rush,3,17,1,Other,10,3,0,0,,,,,0.48,0.00,0.33,0.00,0.50,Marcus Carroll,,,#E5B133CC,#785708CC,-2,-1.32
-2024-10-26 Missouri at Alabama,plays,2,Missouri,85,43,Drew Pyne pass intercepted Qua Russaw return for no gain to the ALA 35,Pass,3,17,2,Other,7,0,0,0,,,,,0.18,0.00,0.33,0.00,0.49,,Drew Pyne,,#E5B133CC,#785708CC,-4.9,-1.40
+2024-10-26 Missouri at Alabama,plays,2,Missouri,83,41,Drew Pyne pass complete to Theo Wease Jr. for 13 yds to the ALA 46 for a 1ST down,Pass,3,17,1,Other,10,13,0,1,,,,,0.19,0,0.34,0,0.49,,Drew Pyne,Theo Wease Jr.,#E5B133CC,#785708CC,8,-1.3
+2024-10-26 Missouri at Alabama,plays,2,Missouri,84,42,Marcus Carroll run for 3 yds to the ALA 43,Rush,3,17,1,Other,10,3,0,0,,,,,0.48,0,0.33,0,0.5,Marcus Carroll,,,#E5B133CC,#785708CC,-2,-1.32
+2024-10-26 Missouri at Alabama,plays,2,Missouri,85,43,Drew Pyne pass intercepted Qua Russaw return for no gain to the ALA 35,Pass,3,17,2,Other,7,0,0,0,,,,,0.18,0,0.33,0,0.49,,Drew Pyne,,#E5B133CC,#785708CC,-4.9,-1.4
 2024-10-26 Missouri at Alabama,plays,1,Alabama,86,43,Jalen Milroe pass complete to Ryan Williams for 15 yds to the 50 yard line for a 1ST down,Pass,3,18,1,Other,10,15,1,1,,,,,0.39,0.22,0.44,0.16,0.47,,Jalen Milroe,Ryan Williams,#E82525CC,#5A0000CC,10,-0.22
 2024-10-26 Missouri at Alabama,plays,1,Alabama,87,44,Jalen Milroe pass complete to Ryan Williams for 7 yds to the MIZ 43,Pass,3,18,1,Other,10,7,0,1,,,,,0.42,0.21,0.45,0.16,0.45,,Jalen Milroe,Ryan Williams,#E82525CC,#5A0000CC,2,-0.17
 2024-10-26 Missouri at Alabama,plays,1,Alabama,88,45,Justice Haynes run for 28 yds to the MIZ 15 for a 1ST down,Rush,3,18,2,Other,3,28,1,1,,,,,0.52,0.14,0.47,0.18,0.47,Justice Haynes,,,#E82525CC,#5A0000CC,25.9,0.41
-2024-10-26 Missouri at Alabama,plays,1,Alabama,89,46,Jalen Milroe run for 4 yds to the MIZ 11,Rush,3,18,1,Red zone,10,4,0,0,,,,,0.50,0.14,0.46,0.17,0.48,Jalen Milroe,,,#E82525CC,#5A0000CC,-1,0.38
+2024-10-26 Missouri at Alabama,plays,1,Alabama,89,46,Jalen Milroe run for 4 yds to the MIZ 11,Rush,3,18,1,Red zone,10,4,0,0,,,,,0.5,0.14,0.46,0.17,0.48,Jalen Milroe,,,#E82525CC,#5A0000CC,-1,0.38
 2024-10-26 Missouri at Alabama,plays,1,Alabama,90,47,Jam Miller run for 11 yds for a TD (Graham Nicholson KICK),Rush,3,18,2,Red zone,6,11,0,1,,,,,0.52,0.13,0.47,0.17,0.49,Jam Miller,,,#E82525CC,#5A0000CC,6.8,0.51
-2024-10-26 Missouri at Alabama,plays,2,Missouri,91,44,Jamal Roberts run for no gain to the MIZ 25,Rush,3,19,1,Other,10,0,0,0,,,,,0.45,0.00,0.32,0.00,0.50,Jamal Roberts,,,#E5B133CC,#785708CC,-5,-1.48
-2024-10-26 Missouri at Alabama,plays,2,Missouri,92,45,Drew Pyne pass complete to Theo Wease Jr. for 6 yds to the MIZ 31,Pass,3,19,2,Other,10,6,0,0,,,,,0.17,0.00,0.31,0.00,0.49,,Drew Pyne,Theo Wease Jr.,#E5B133CC,#785708CC,-1,-1.47
-2024-10-26 Missouri at Alabama,plays,2,Missouri,93,46,Drew Pyne pass incomplete to Mekhi Miller,Pass,3,19,3,Other,4,0,0,0,,,,,0.17,0.00,0.30,0.00,0.48,,Drew Pyne,,#E5B133CC,#785708CC,-4,-1.53
-2024-10-26 Missouri at Alabama,plays,1,Alabama,94,48,Jalen Milroe run for 5 yds to the ALA 29,Rush,3,20,1,Other,25,5,0,0,,,,,0.50,0.13,0.46,0.17,0.50,Jalen Milroe,,,#E82525CC,#5A0000CC,-7.5,0.35
+2024-10-26 Missouri at Alabama,plays,2,Missouri,91,44,Jamal Roberts run for no gain to the MIZ 25,Rush,3,19,1,Other,10,0,0,0,,,,,0.45,0,0.32,0,0.5,Jamal Roberts,,,#E5B133CC,#785708CC,-5,-1.48
+2024-10-26 Missouri at Alabama,plays,2,Missouri,92,45,Drew Pyne pass complete to Theo Wease Jr. for 6 yds to the MIZ 31,Pass,3,19,2,Other,10,6,0,0,,,,,0.17,0,0.31,0,0.49,,Drew Pyne,Theo Wease Jr.,#E5B133CC,#785708CC,-1,-1.47
+2024-10-26 Missouri at Alabama,plays,2,Missouri,93,46,Drew Pyne pass incomplete to Mekhi Miller,Pass,3,19,3,Other,4,0,0,0,,,,,0.17,0,0.3,0,0.48,,Drew Pyne,,#E5B133CC,#785708CC,-4,-1.53
+2024-10-26 Missouri at Alabama,plays,1,Alabama,94,48,Jalen Milroe run for 5 yds to the ALA 29,Rush,3,20,1,Other,25,5,0,0,,,,,0.5,0.13,0.46,0.17,0.5,Jalen Milroe,,,#E82525CC,#5A0000CC,-7.5,0.35
 2024-10-26 Missouri at Alabama,plays,1,Alabama,95,49,Jalen Milroe pass complete to Germie Bernard for 21 yds to the 50 yard line for a 1ST down,Pass,3,20,2,Other,20,21,1,1,,,,,0.44,0.24,0.47,0.18,0.49,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,7,0.48
-2024-10-26 Missouri at Alabama,plays,1,Alabama,96,50,Justice Haynes run for a loss of 2 yards to the ALA 48,Rush,3,20,1,Other,10,-2,0,0,,,,,0.48,0.12,0.46,0.18,0.50,Justice Haynes,,,#E82525CC,#5A0000CC,-7,0.33
+2024-10-26 Missouri at Alabama,plays,1,Alabama,96,50,Justice Haynes run for a loss of 2 yards to the ALA 48,Rush,3,20,1,Other,10,-2,0,0,,,,,0.48,0.12,0.46,0.18,0.5,Justice Haynes,,,#E82525CC,#5A0000CC,-7,0.33
 2024-10-26 Missouri at Alabama,plays,1,Alabama,97,51,Jalen Milroe pass incomplete to Ryan Williams,Pass,3,20,2,Other,12,0,0,0,,,,,0.42,0.23,0.45,0.18,0.49,,Jalen Milroe,,#E82525CC,#5A0000CC,-8.4,0.16
 2024-10-26 Missouri at Alabama,plays,1,Alabama,98,52,Jalen Milroe pass incomplete to Ryan Williams,Pass,3,20,3,Other,12,0,0,0,,,,,0.41,0.22,0.44,0.17,0.48,,Jalen Milroe,,#E82525CC,#5A0000CC,-12,-0.07
-2024-10-26 Missouri at Alabama,plays,2,Missouri,99,47,Marcus Carroll run for 5 yds to the MIZ 25,Rush,3,21,1,Other,10,5,0,1,,,,,0.48,0.00,0.32,0.00,0.49,Marcus Carroll,,,#E5B133CC,#785708CC,0,-1.50
-2024-10-26 Missouri at Alabama,plays,2,Missouri,100,48,Marcus Carroll run for 3 yds to the MIZ 28,Rush,4,21,2,Other,5,3,0,0,,,,,0.46,0.00,0.31,0.00,0.50,Marcus Carroll,,,#E5B133CC,#785708CC,-0.5,-1.48
-2024-10-26 Missouri at Alabama,plays,2,Missouri,101,49,JR Blood run for a loss of 1 yard to the MIZ 27,Rush,4,21,3,Other,2,-1,0,0,,,,,0.44,0.00,0.31,0.00,0.51,JR Blood,,,#E5B133CC,#785708CC,-3,-1.51
-2024-10-26 Missouri at Alabama,plays,1,Alabama,102,53,Justice Haynes run for 10 yds to the ALA 33 for a 1ST down,Rush,4,22,1,Other,10,10,0,1,,,,,0.50,0.12,0.45,0.17,0.49,Justice Haynes,,,#E82525CC,#5A0000CC,5,0.02
-2024-10-26 Missouri at Alabama,plays,1,Alabama,103,54,Jam Miller run for 5 yds to the ALA 38,Rush,4,22,1,Other,10,5,0,1,,,,,0.52,0.11,0.46,0.17,0.50,Jam Miller,,,#E82525CC,#5A0000CC,0,0.02
-2024-10-26 Missouri at Alabama,plays,1,Alabama,104,55,Jam Miller run for 1 yd to the ALA 39,Rush,4,22,2,Other,5,1,0,0,,,,,0.50,0.11,0.45,0.16,0.51,Jam Miller,,,#E82525CC,#5A0000CC,-2.5,-0.02
-2024-10-26 Missouri at Alabama,plays,1,Alabama,105,56,Jalen Milroe pass complete to Ryan Williams for 26 yds to the MIZ 35 for a 1ST down,Pass,4,22,3,Other,4,26,1,1,,,,,0.43,0.25,0.46,0.18,0.50,,Jalen Milroe,Ryan Williams,#E82525CC,#5A0000CC,22,0.37
+2024-10-26 Missouri at Alabama,plays,2,Missouri,99,47,Marcus Carroll run for 5 yds to the MIZ 25,Rush,3,21,1,Other,10,5,0,1,,,,,0.48,0,0.32,0,0.49,Marcus Carroll,,,#E5B133CC,#785708CC,0,-1.5
+2024-10-26 Missouri at Alabama,plays,2,Missouri,100,48,Marcus Carroll run for 3 yds to the MIZ 28,Rush,4,21,2,Other,5,3,0,0,,,,,0.46,0,0.31,0,0.5,Marcus Carroll,,,#E5B133CC,#785708CC,-0.5,-1.48
+2024-10-26 Missouri at Alabama,plays,2,Missouri,101,49,JR Blood run for a loss of 1 yard to the MIZ 27,Rush,4,21,3,Other,2,-1,0,0,,,,,0.44,0,0.31,0,0.51,JR Blood,,,#E5B133CC,#785708CC,-3,-1.51
+2024-10-26 Missouri at Alabama,plays,1,Alabama,102,53,Justice Haynes run for 10 yds to the ALA 33 for a 1ST down,Rush,4,22,1,Other,10,10,0,1,,,,,0.5,0.12,0.45,0.17,0.49,Justice Haynes,,,#E82525CC,#5A0000CC,5,0.02
+2024-10-26 Missouri at Alabama,plays,1,Alabama,103,54,Jam Miller run for 5 yds to the ALA 38,Rush,4,22,1,Other,10,5,0,1,,,,,0.52,0.11,0.46,0.17,0.5,Jam Miller,,,#E82525CC,#5A0000CC,0,0.02
+2024-10-26 Missouri at Alabama,plays,1,Alabama,104,55,Jam Miller run for 1 yd to the ALA 39,Rush,4,22,2,Other,5,1,0,0,,,,,0.5,0.11,0.45,0.16,0.51,Jam Miller,,,#E82525CC,#5A0000CC,-2.5,-0.02
+2024-10-26 Missouri at Alabama,plays,1,Alabama,105,56,Jalen Milroe pass complete to Ryan Williams for 26 yds to the MIZ 35 for a 1ST down,Pass,4,22,3,Other,4,26,1,1,,,,,0.43,0.25,0.46,0.18,0.5,,Jalen Milroe,Ryan Williams,#E82525CC,#5A0000CC,22,0.37
 2024-10-26 Missouri at Alabama,plays,1,Alabama,106,57,Justice Haynes run for 35 yds for a TD (Graham Nicholson KICK),Rush,4,22,1,Other,10,35,1,1,,,,,0.52,0.14,0.47,0.19,0.51,Justice Haynes,,,#E82525CC,#5A0000CC,30,0.89
-2024-10-26 Missouri at Alabama,plays,2,Missouri,107,50,Drew Pyne pass complete to Marcus Carroll for 5 yds to the MIZ 15,Pass,4,23,1,Other,10,5,0,1,,,,,0.20,0.00,0.32,0.00,0.50,,Drew Pyne,Marcus Carroll,#E5B133CC,#785708CC,0,-1.48
-2024-10-26 Missouri at Alabama,plays,2,Missouri,108,51,Marcus Carroll run for 5 yds to the MIZ 20 for a 1ST down,Rush,4,23,2,Other,5,5,0,1,,,,,0.46,0.00,0.33,0.00,0.51,Marcus Carroll,,,#E5B133CC,#785708CC,1.5,-1.42
-2024-10-26 Missouri at Alabama,plays,2,Missouri,109,52,Marcus Carroll run for 4 yds to the MIZ 24,Rush,4,23,1,Other,10,4,0,0,,,,,0.44,0.00,0.33,0.00,0.52,Marcus Carroll,,,#E5B133CC,#785708CC,-1,-1.41
-2024-10-26 Missouri at Alabama,plays,2,Missouri,110,53,Jamal Roberts run for 4 yds to the MIZ 28,Rush,4,23,2,Other,6,4,0,0,,,,,0.43,0.00,0.32,0.00,0.53,Jamal Roberts,,,#E5B133CC,#785708CC,-0.2,-1.39
-2024-10-26 Missouri at Alabama,plays,2,Missouri,111,54,Marcus Carroll run for 10 yds to the MIZ 38 for a 1ST down,Rush,4,23,3,Other,2,10,0,1,,,,,0.45,0.00,0.33,0.00,0.54,Marcus Carroll,,,#E5B133CC,#785708CC,8,-1.21
+2024-10-26 Missouri at Alabama,plays,2,Missouri,107,50,Drew Pyne pass complete to Marcus Carroll for 5 yds to the MIZ 15,Pass,4,23,1,Other,10,5,0,1,,,,,0.2,0,0.32,0,0.5,,Drew Pyne,Marcus Carroll,#E5B133CC,#785708CC,0,-1.48
+2024-10-26 Missouri at Alabama,plays,2,Missouri,108,51,Marcus Carroll run for 5 yds to the MIZ 20 for a 1ST down,Rush,4,23,2,Other,5,5,0,1,,,,,0.46,0,0.33,0,0.51,Marcus Carroll,,,#E5B133CC,#785708CC,1.5,-1.42
+2024-10-26 Missouri at Alabama,plays,2,Missouri,109,52,Marcus Carroll run for 4 yds to the MIZ 24,Rush,4,23,1,Other,10,4,0,0,,,,,0.44,0,0.33,0,0.52,Marcus Carroll,,,#E5B133CC,#785708CC,-1,-1.41
+2024-10-26 Missouri at Alabama,plays,2,Missouri,110,53,Jamal Roberts run for 4 yds to the MIZ 28,Rush,4,23,2,Other,6,4,0,0,,,,,0.43,0,0.32,0,0.53,Jamal Roberts,,,#E5B133CC,#785708CC,-0.2,-1.39
+2024-10-26 Missouri at Alabama,plays,2,Missouri,111,54,Marcus Carroll run for 10 yds to the MIZ 38 for a 1ST down,Rush,4,23,3,Other,2,10,0,1,,,,,0.45,0,0.33,0,0.54,Marcus Carroll,,,#E5B133CC,#785708CC,8,-1.21
 2024-10-26 Missouri at Alabama,plays,2,Missouri,112,55,Marcus Carroll run for 20 yds to the ALA 42 for a 1ST down,Rush,4,23,1,Other,10,20,1,1,,,,,0.47,0.03,0.35,0.02,0.55,Marcus Carroll,,,#E5B133CC,#785708CC,15,-0.92
 2024-10-26 Missouri at Alabama,plays,2,Missouri,113,56,Jamal Roberts run for 6 yds to the ALA 36,Rush,4,23,1,Other,10,6,0,1,,,,,0.48,0.03,0.36,0.02,0.55,Jamal Roberts,,,#E5B133CC,#785708CC,1,-0.88
-2024-10-26 Missouri at Alabama,plays,2,Missouri,114,57,Marcus Carroll run for 14 yds to the ALA 22 for a 1ST down,Rush,4,23,2,Other,4,14,0,1,,,,,0.50,0.03,0.37,0.02,0.56,Marcus Carroll,,,#E5B133CC,#785708CC,11.2,-0.67
+2024-10-26 Missouri at Alabama,plays,2,Missouri,114,57,Marcus Carroll run for 14 yds to the ALA 22 for a 1ST down,Rush,4,23,2,Other,4,14,0,1,,,,,0.5,0.03,0.37,0.02,0.56,Marcus Carroll,,,#E5B133CC,#785708CC,11.2,-0.67
 2024-10-26 Missouri at Alabama,plays,2,Missouri,115,58,Marcus Carroll run for 3 yds to the ALA 19,Rush,4,23,1,Other,10,3,0,0,,,,,0.48,0.03,0.36,0.02,0.57,Marcus Carroll,,,#E5B133CC,#785708CC,-2,-0.69
-2024-10-26 Missouri at Alabama,plays,2,Missouri,116,59,Jamal Roberts run for 12 yds to the ALA 7 for a 1ST down,Rush,4,23,2,Red zone,7,12,0,1,,,,,0.50,0.03,0.37,0.02,0.58,Jamal Roberts,,,#E5B133CC,#785708CC,7.1,-0.56
+2024-10-26 Missouri at Alabama,plays,2,Missouri,116,59,Jamal Roberts run for 12 yds to the ALA 7 for a 1ST down,Rush,4,23,2,Red zone,7,12,0,1,,,,,0.5,0.03,0.37,0.02,0.58,Jamal Roberts,,,#E5B133CC,#785708CC,7.1,-0.56
 2024-10-26 Missouri at Alabama,plays,2,Missouri,117,60,Jamal Roberts run for 5 yds to the ALA 2,Rush,4,23,1,Red zone,7,5,0,1,,,,,0.51,0.03,0.38,0.02,0.58,Jamal Roberts,,,#E5B133CC,#785708CC,1.5,-0.53
-2024-10-26 Missouri at Alabama,plays,2,Missouri,118,61,Jamal Roberts run for no gain to the ALA 2,Rush,4,23,2,Red zone,2,0,0,0,,,,,0.50,0.03,0.38,0.02,0.59,Jamal Roberts,,,#E5B133CC,#785708CC,-1.4,-0.54
-2024-10-26 Missouri at Alabama,plays,2,Missouri,119,62,Marcus Carroll run for 1 yd to the ALA 1,Rush,4,23,3,Red zone,2,1,0,0,,,,,0.49,0.03,0.37,0.02,0.60,Marcus Carroll,,,#E5B133CC,#785708CC,-1,-0.55
-2024-10-26 Missouri at Alabama,plays,2,Missouri,120,63,Marcus Carroll run for a loss of 1 yard to the ALA 2,Rush,4,23,4,Red zone,1,-1,0,0,,,,,0.47,0.03,0.37,0.02,0.60,Marcus Carroll,,,#E5B133CC,#785708CC,-2,-0.57
-2024-10-26 Missouri at Alabama,plays,1,Alabama,121,58,Richard Young run for 1 yd to the ALA 3,Rush,4,24,1,Other,10,1,0,0,,,,,0.50,0.13,0.47,0.19,0.52,Richard Young,,,#E82525CC,#5A0000CC,-4,0.81
-2024-10-26 Missouri at Alabama,plays,1,Alabama,122,59,Richard Young run for 62 yds to the MIZ 35 for a 1ST down,Rush,4,24,2,Other,9,62,1,1,,,,,0.52,0.16,0.47,0.20,0.53,Richard Young,,,#E82525CC,#5A0000CC,55.7,1.74
-2024-10-26 Missouri at Alabama,plays,1,Alabama,123,60,Daniel Hill run for 7 yds to the MIZ 13,Rush,4,24,1,Red zone,10,7,0,1,,,,,0.53,0.16,0.48,0.20,0.53,Daniel Hill,,,#E82525CC,#5A0000CC,2,1.74
-2024-10-26 Missouri at Alabama,plays,1,Alabama,124,61,Daniel Hill run for no gain to the MIZ 13,Rush,4,24,2,Red zone,3,0,0,0,,,,,0.52,0.15,0.48,0.20,0.54,Daniel Hill,,,#E82525CC,#5A0000CC,-2.1,1.68
+2024-10-26 Missouri at Alabama,plays,2,Missouri,118,61,Jamal Roberts run for no gain to the ALA 2,Rush,4,23,2,Red zone,2,0,0,0,,,,,0.5,0.03,0.38,0.02,0.59,Jamal Roberts,,,#E5B133CC,#785708CC,-1.4,-0.54
+2024-10-26 Missouri at Alabama,plays,2,Missouri,119,62,Marcus Carroll run for 1 yd to the ALA 1,Rush,4,23,3,Red zone,2,1,0,0,,,,,0.49,0.03,0.37,0.02,0.6,Marcus Carroll,,,#E5B133CC,#785708CC,-1,-0.55
+2024-10-26 Missouri at Alabama,plays,2,Missouri,120,63,Marcus Carroll run for a loss of 1 yard to the ALA 2,Rush,4,23,4,Red zone,1,-1,0,0,,,,,0.47,0.03,0.37,0.02,0.6,Marcus Carroll,,,#E5B133CC,#785708CC,-2,-0.57
+2024-10-26 Missouri at Alabama,plays,1,Alabama,121,58,Richard Young run for 1 yd to the ALA 3,Rush,4,24,1,Other,10,1,0,0,,,,,0.5,0.13,0.47,0.19,0.52,Richard Young,,,#E82525CC,#5A0000CC,-4,0.81
+2024-10-26 Missouri at Alabama,plays,1,Alabama,122,59,Richard Young run for 62 yds to the MIZ 35 for a 1ST down,Rush,4,24,2,Other,9,62,1,1,,,,,0.52,0.16,0.47,0.2,0.53,Richard Young,,,#E82525CC,#5A0000CC,55.7,1.74
+2024-10-26 Missouri at Alabama,plays,1,Alabama,123,60,Daniel Hill run for 7 yds to the MIZ 13,Rush,4,24,1,Red zone,10,7,0,1,,,,,0.53,0.16,0.48,0.2,0.53,Daniel Hill,,,#E82525CC,#5A0000CC,2,1.74
+2024-10-26 Missouri at Alabama,plays,1,Alabama,124,61,Daniel Hill run for no gain to the MIZ 13,Rush,4,24,2,Red zone,3,0,0,0,,,,,0.52,0.15,0.48,0.2,0.54,Daniel Hill,,,#E82525CC,#5A0000CC,-2.1,1.68
 2024-10-26 Missouri at Alabama,plays,1,Alabama,125,62,Ty Simpson run for 3 yds to the MIZ 10 for a 1ST down,Rush,4,24,3,Red zone,3,3,0,1,,,,,0.53,0.15,0.48,0.19,0.55,Ty Simpson,,,#E82525CC,#5A0000CC,0,1.65
 2024-10-26 Missouri at Alabama,plays,1,Alabama,126,63,Richard Young run for no gain to the MIZ 10,Rush,4,24,1,Red zone,10,0,0,0,,,,,0.51,0.14,0.48,0.19,0.56,Richard Young,,,#E82525CC,#5A0000CC,-5,1.55
+2024-11-10 Alabama at LSU,teams,1,Alabama,,,,,,,,,,,7,33,,,,66,0.50,0.11,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-11-10 Alabama at LSU,teams,2,LSU,,,,,,,,,,,7,26,,,,66,0.39,0.11,0.00,0.00,0.00,,,,#8450C8CC,#3A1867CC,,0.00
+2024-11-10 Alabama at LSU,play_type,1,Alabama,,,,Rush,,,,,,,5,23,,,,48,0.48,0.10,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-11-10 Alabama at LSU,play_type,2,LSU,,,,Rush,,,,,,,1,11,,,,22,0.50,0.05,0.00,0.00,0.00,,,,#8450C8CC,#3A1867CC,,0.00
+2024-11-10 Alabama at LSU,play_type,1,Alabama,,,,Pass,,,,,,,2,10,,,,18,0.56,0.11,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-11-10 Alabama at LSU,play_type,2,LSU,,,,Pass,,,,,,,6,15,,,,44,0.34,0.14,0.00,0.00,0.00,,,,#8450C8CC,#3A1867CC,,0.00
+2024-11-10 Alabama at LSU,quarter,1,Alabama,,,,,1Q,,,,,,3,15,,,,23,0.65,0.13,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-11-10 Alabama at LSU,quarter,1,Alabama,,,,,2Q,,,,,,1,7,,,,18,0.39,0.06,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-11-10 Alabama at LSU,quarter,1,Alabama,,,,,3Q,,,,,,2,5,,,,11,0.45,0.18,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-11-10 Alabama at LSU,quarter,1,Alabama,,,,,4Q,,,,,,1,6,,,,14,0.43,0.07,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-11-10 Alabama at LSU,quarter,2,LSU,,,,,1Q,,,,,,1,4,,,,9,0.44,0.11,0.00,0.00,0.00,,,,#8450C8CC,#3A1867CC,,0.00
+2024-11-10 Alabama at LSU,quarter,2,LSU,,,,,2Q,,,,,,2,9,,,,19,0.47,0.11,0.00,0.00,0.00,,,,#8450C8CC,#3A1867CC,,0.00
+2024-11-10 Alabama at LSU,quarter,2,LSU,,,,,3Q,,,,,,2,6,,,,19,0.32,0.11,0.00,0.00,0.00,,,,#8450C8CC,#3A1867CC,,0.00
+2024-11-10 Alabama at LSU,quarter,2,LSU,,,,,4Q,,,,,,2,7,,,,19,0.37,0.11,0.00,0.00,0.00,,,,#8450C8CC,#3A1867CC,,0.00
+2024-11-10 Alabama at LSU,down,1,Alabama,,,,,,,1D,,,,3,14,,,,29,0.48,0.10,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-11-10 Alabama at LSU,down,1,Alabama,,,,,,,2D,,,,2,9,,,,23,0.39,0.09,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-11-10 Alabama at LSU,down,1,Alabama,,,,,,,3D,,,,2,10,,,,13,0.77,0.15,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-11-10 Alabama at LSU,down,1,Alabama,,,,,,,4D,,,,0,0,,,,1,0.00,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-11-10 Alabama at LSU,down,2,LSU,,,,,,,1D,,,,4,10,,,,28,0.36,0.14,0.00,0.00,0.00,,,,#8450C8CC,#3A1867CC,,0.00
+2024-11-10 Alabama at LSU,down,2,LSU,,,,,,,2D,,,,3,8,,,,21,0.38,0.14,0.00,0.00,0.00,,,,#8450C8CC,#3A1867CC,,0.00
+2024-11-10 Alabama at LSU,down,2,LSU,,,,,,,3D,,,,0,6,,,,14,0.43,0.00,0.00,0.00,0.00,,,,#8450C8CC,#3A1867CC,,0.00
+2024-11-10 Alabama at LSU,down,2,LSU,,,,,,,4D,,,,0,2,,,,3,0.67,0.00,0.00,0.00,0.00,,,,#8450C8CC,#3A1867CC,,0.00
+2024-11-10 Alabama at LSU,red_zone,1,Alabama,,,,,,,,Other,,,6,26,,,,54,0.48,0.11,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-11-10 Alabama at LSU,red_zone,1,Alabama,,,,,,,,Red zone,,,1,7,,,,12,0.58,0.08,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-11-10 Alabama at LSU,red_zone,2,LSU,,,,,,,,Other,,,7,25,,,,58,0.43,0.12,0.00,0.00,0.00,,,,#8450C8CC,#3A1867CC,,0.00
+2024-11-10 Alabama at LSU,red_zone,2,LSU,,,,,,,,Red zone,,,0,1,,,,8,0.13,0.00,0.00,0.00,0.00,,,,#8450C8CC,#3A1867CC,,0.00
+2024-11-10 Alabama at LSU,distance,1,Alabama,,,,,,,,,0-3 yds,,0,8,,,,13,0.62,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-11-10 Alabama at LSU,distance,1,Alabama,,,,,,,,,4-6 yds,,2,4,,,,10,0.40,0.20,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-11-10 Alabama at LSU,distance,1,Alabama,,,,,,,,,7-9 yds,,1,5,,,,10,0.50,0.10,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-11-10 Alabama at LSU,distance,1,Alabama,,,,,,,,,9> yds,,4,16,,,,33,0.48,0.12,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-11-10 Alabama at LSU,distance,2,LSU,,,,,,,,,0-3 yds,,0,5,,,,7,0.71,0.00,0.00,0.00,0.00,,,,#8450C8CC,#3A1867CC,,0.00
+2024-11-10 Alabama at LSU,distance,2,LSU,,,,,,,,,4-6 yds,,0,6,,,,16,0.38,0.00,0.00,0.00,0.00,,,,#8450C8CC,#3A1867CC,,0.00
+2024-11-10 Alabama at LSU,distance,2,LSU,,,,,,,,,7-9 yds,,2,4,,,,8,0.50,0.25,0.00,0.00,0.00,,,,#8450C8CC,#3A1867CC,,0.00
+2024-11-10 Alabama at LSU,distance,2,LSU,,,,,,,,,9> yds,,5,11,,,,35,0.31,0.14,0.00,0.00,0.00,,,,#8450C8CC,#3A1867CC,,0.00
+2024-11-10 Alabama at LSU,drive,1,Alabama,,,,,,1,,,,,2,5,,,,8,0.63,0.25,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-11-10 Alabama at LSU,drive,1,Alabama,,,,,,3,,,,,1,10,,,,15,0.67,0.07,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-11-10 Alabama at LSU,drive,1,Alabama,,,,,,5,,,,,0,2,,,,6,0.33,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-11-10 Alabama at LSU,drive,1,Alabama,,,,,,7,,,,,0,3,,,,9,0.33,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-11-10 Alabama at LSU,drive,1,Alabama,,,,,,9,,,,,1,2,,,,3,0.67,0.33,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-11-10 Alabama at LSU,drive,1,Alabama,,,,,,12,,,,,2,4,,,,8,0.50,0.25,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-11-10 Alabama at LSU,drive,1,Alabama,,,,,,14,,,,,1,2,,,,4,0.50,0.25,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-11-10 Alabama at LSU,drive,1,Alabama,,,,,,16,,,,,0,1,,,,3,0.33,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-11-10 Alabama at LSU,drive,1,Alabama,,,,,,18,,,,,0,4,,,,9,0.44,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-11-10 Alabama at LSU,drive,1,Alabama,,,,,,20,,,,,0,0,,,,1,0.00,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-11-10 Alabama at LSU,drive,2,LSU,,,,,,2,,,,,1,1,,,,5,0.20,0.20,0.00,0.00,0.00,,,,#8450C8CC,#3A1867CC,,0.00
+2024-11-10 Alabama at LSU,drive,2,LSU,,,,,,4,,,,,0,3,,,,6,0.50,0.00,0.00,0.00,0.00,,,,#8450C8CC,#3A1867CC,,0.00
+2024-11-10 Alabama at LSU,drive,2,LSU,,,,,,6,,,,,2,3,,,,6,0.50,0.33,0.00,0.00,0.00,,,,#8450C8CC,#3A1867CC,,0.00
+2024-11-10 Alabama at LSU,drive,2,LSU,,,,,,8,,,,,0,0,,,,1,0.00,0.00,0.00,0.00,0.00,,,,#8450C8CC,#3A1867CC,,0.00
+2024-11-10 Alabama at LSU,drive,2,LSU,,,,,,10,,,,,0,6,,,,10,0.60,0.00,0.00,0.00,0.00,,,,#8450C8CC,#3A1867CC,,0.00
+2024-11-10 Alabama at LSU,drive,2,LSU,,,,,,11,,,,,1,5,,,,14,0.36,0.07,0.00,0.00,0.00,,,,#8450C8CC,#3A1867CC,,0.00
+2024-11-10 Alabama at LSU,drive,2,LSU,,,,,,13,,,,,1,1,,,,5,0.20,0.20,0.00,0.00,0.00,,,,#8450C8CC,#3A1867CC,,0.00
+2024-11-10 Alabama at LSU,drive,2,LSU,,,,,,15,,,,,0,2,,,,7,0.29,0.00,0.00,0.00,0.00,,,,#8450C8CC,#3A1867CC,,0.00
+2024-11-10 Alabama at LSU,drive,2,LSU,,,,,,17,,,,,0,1,,,,4,0.25,0.00,0.00,0.00,0.00,,,,#8450C8CC,#3A1867CC,,0.00
+2024-11-10 Alabama at LSU,drive,2,LSU,,,,,,19,,,,,2,4,,,,8,0.50,0.25,0.00,0.00,0.00,,,,#8450C8CC,#3A1867CC,,0.00
+2024-11-10 Alabama at LSU,rusher,1,Alabama,,,,,,,,,,,4,5,,3,,,0.00,0.00,0.00,0.00,0.00,Jalen Milroe,,,#E82525CC,#5A0000CC,,0.00
+2024-11-10 Alabama at LSU,rusher,1,Alabama,,,,,,,,,,,0,5,,3,,,0.00,0.00,0.00,0.00,0.00,Justice Haynes,,,#E82525CC,#5A0000CC,,0.00
+2024-11-10 Alabama at LSU,rusher,1,Alabama,,,,,,,,,,,0,3,,10,,,0.00,0.00,0.00,0.00,0.00,Jam Miller,,,#E82525CC,#5A0000CC,,0.00
+2024-11-10 Alabama at LSU,rusher,1,Alabama,,,,,,,,,,,0,3,,3,,,0.00,0.00,0.00,0.00,0.00,Richard Young,,,#E82525CC,#5A0000CC,,0.00
+2024-11-10 Alabama at LSU,rusher,1,Alabama,,,,,,,,,,,0,1,,2,,,0.00,0.00,0.00,0.00,0.00,Kendrick Law,,,#E82525CC,#5A0000CC,,0.00
+2024-11-10 Alabama at LSU,rusher,1,Alabama,,,,,,,,,,,0,1,,1,,,0.00,0.00,0.00,0.00,0.00,Daniel Hill,,,#E82525CC,#5A0000CC,,0.00
+2024-11-10 Alabama at LSU,rusher,1,Alabama,,,,,,,,,,,1,0,,0,,,0.00,0.00,0.00,0.00,0.00,Ryan Williams,,,#E82525CC,#5A0000CC,,0.00
+2024-11-10 Alabama at LSU,rusher,1,Alabama,,,,,,,,,,,0,0,,1,,,0.00,0.00,0.00,0.00,0.00,Ty Simpson,,,#E82525CC,#5A0000CC,,0.00
+2024-11-10 Alabama at LSU,rusher,2,LSU,,,,,,,,,,,0,4,,0,,,0.00,0.00,0.00,0.00,0.00,Garrett Nussmeier,,,#8450C8CC,#3A1867CC,,0.00
+2024-11-10 Alabama at LSU,rusher,2,LSU,,,,,,,,,,,1,2,,5,,,0.00,0.00,0.00,0.00,0.00,Caden Durham,,,#8450C8CC,#3A1867CC,,0.00
+2024-11-10 Alabama at LSU,rusher,2,LSU,,,,,,,,,,,0,2,,4,,,0.00,0.00,0.00,0.00,0.00,Josh Williams,,,#8450C8CC,#3A1867CC,,0.00
+2024-11-10 Alabama at LSU,rusher,2,LSU,,,,,,,,,,,0,2,,0,,,0.00,0.00,0.00,0.00,0.00,Zavion Thomas,,,#8450C8CC,#3A1867CC,,0.00
+2024-11-10 Alabama at LSU,rusher,2,LSU,,,,,,,,,,,0,0,,2,,,0.00,0.00,0.00,0.00,0.00,Kaleb Jackson,,,#8450C8CC,#3A1867CC,,0.00
+2024-11-10 Alabama at LSU,passer,1,Alabama,,,,,,,,,,,2,8,2,6,0,,0.00,0.00,0.00,0.00,0.00,,Jalen Milroe,,#E82525CC,#5A0000CC,,0.00
+2024-11-10 Alabama at LSU,passer,2,LSU,,,,,,,,,,,6,9,12,13,2,,0.00,0.00,0.00,0.00,0.00,,Garrett Nussmeier,,#8450C8CC,#3A1867CC,,0.00
+2024-11-10 Alabama at LSU,receiver,1,Alabama,,,,,,,,,,,1,4,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Jam Miller,#E82525CC,#5A0000CC,,0.00
+2024-11-10 Alabama at LSU,receiver,1,Alabama,,,,,,,,,,,1,1,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Ryan Williams,#E82525CC,#5A0000CC,,0.00
+2024-11-10 Alabama at LSU,receiver,1,Alabama,,,,,,,,,,,0,1,1,0,,,0.00,0.00,0.00,0.00,0.00,,,Kendrick Law,#E82525CC,#5A0000CC,,0.00
+2024-11-10 Alabama at LSU,receiver,1,Alabama,,,,,,,,,,,0,1,0,0,,,0.00,0.00,0.00,0.00,0.00,,,CJ Dippre,#E82525CC,#5A0000CC,,0.00
+2024-11-10 Alabama at LSU,receiver,1,Alabama,,,,,,,,,,,0,1,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Justice Haynes,#E82525CC,#5A0000CC,,0.00
+2024-11-10 Alabama at LSU,receiver,1,Alabama,,,,,,,,,,,0,0,1,0,,,0.00,0.00,0.00,0.00,0.00,,,Germie Bernard,#E82525CC,#5A0000CC,,0.00
+2024-11-10 Alabama at LSU,receiver,2,LSU,,,,,,,,,,,1,3,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Mason Taylor,#8450C8CC,#3A1867CC,,0.00
+2024-11-10 Alabama at LSU,receiver,2,LSU,,,,,,,,,,,0,3,0,0,,,0.00,0.00,0.00,0.00,0.00,,,CJ Daniels,#8450C8CC,#3A1867CC,,0.00
+2024-11-10 Alabama at LSU,receiver,2,LSU,,,,,,,,,,,3,1,1,0,,,0.00,0.00,0.00,0.00,0.00,,,Kyren Lacy,#8450C8CC,#3A1867CC,,0.00
+2024-11-10 Alabama at LSU,receiver,2,LSU,,,,,,,,,,,1,1,4,0,,,0.00,0.00,0.00,0.00,0.00,,,Josh Williams,#8450C8CC,#3A1867CC,,0.00
+2024-11-10 Alabama at LSU,receiver,2,LSU,,,,,,,,,,,0,1,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Kaleb Jackson,#8450C8CC,#3A1867CC,,0.00
+2024-11-10 Alabama at LSU,receiver,2,LSU,,,,,,,,,,,1,0,2,0,,,0.00,0.00,0.00,0.00,0.00,,,Aaron Anderson,#8450C8CC,#3A1867CC,,0.00
+2024-11-10 Alabama at LSU,receiver,2,LSU,,,,,,,,,,,0,0,4,0,,,0.00,0.00,0.00,0.00,0.00,,,Caden Durham,#8450C8CC,#3A1867CC,,0.00
+2024-11-10 Alabama at LSU,receiver,2,LSU,,,,,,,,,,,0,0,1,0,,,0.00,0.00,0.00,0.00,0.00,,,Zavion Thomas,#8450C8CC,#3A1867CC,,0.00
+2024-11-10 Alabama at LSU,plays,1,Alabama,1,1,Jam Miller run for 1 yd to the ALA 21,Rush,1,1,1,Other,15,1,0,0,,,,,0.00,0.00,0.00,0.00,1.00,Jam Miller,,,#E82525CC,#5A0000CC,-6.5,-6.50
+2024-11-10 Alabama at LSU,plays,1,Alabama,2,2,Jalen Milroe pass complete to Ryan Williams for 19 yds to the ALA 40 for a 1ST down,Pass,1,1,2,Other,14,19,1,1,,,,,1.00,1.00,0.50,0.50,0.50,,Jalen Milroe,Ryan Williams,#E82525CC,#5A0000CC,9.2,1.35
+2024-11-10 Alabama at LSU,plays,1,Alabama,3,3,Kendrick Law run for no gain to the ALA 40,Rush,1,1,1,Other,10,0,0,0,,,,,0.00,0.00,0.33,0.33,0.67,Kendrick Law,,,#E82525CC,#5A0000CC,-5,-0.77
+2024-11-10 Alabama at LSU,plays,1,Alabama,4,4,Jam Miller run for 1 yd to the ALA 41,Rush,1,1,2,Other,10,1,0,0,,,,,0.00,0.00,0.25,0.25,0.75,Jam Miller,,,#E82525CC,#5A0000CC,-6,-2.08
+2024-11-10 Alabama at LSU,plays,1,Alabama,5,5,Jalen Milroe pass complete to Kendrick Law for 10 yds to the LSU 49 for a 1ST down,Pass,1,1,3,Other,9,10,0,1,,,,,1.00,0.50,0.40,0.20,0.60,,Jalen Milroe,Kendrick Law,#E82525CC,#5A0000CC,1,-1.46
+2024-11-10 Alabama at LSU,plays,1,Alabama,6,6,Jalen Milroe pass complete to Justice Haynes for 9 yds to the LSU 40,Pass,1,1,1,Other,10,9,0,1,,,,,1.00,0.33,0.50,0.17,0.50,,Jalen Milroe,Justice Haynes,#E82525CC,#5A0000CC,4,-0.55
+2024-11-10 Alabama at LSU,plays,1,Alabama,7,7,Justice Haynes run for 1 yd to the LSU 39 for a 1ST down,Rush,1,1,2,Other,1,1,0,1,,,,,0.25,0.00,0.57,0.14,0.57,Justice Haynes,,,#E82525CC,#5A0000CC,0.3,-0.43
+2024-11-10 Alabama at LSU,plays,1,Alabama,8,8,Jalen Milroe run for 39 yds for a TD (Graham Nicholson KICK),Rush,1,1,1,Other,10,39,1,1,,,,,0.40,0.20,0.63,0.25,0.63,Jalen Milroe,,,#E82525CC,#5A0000CC,34,3.88
+2024-11-10 Alabama at LSU,plays,2,LSU,9,1,Garrett Nussmeier pass incomplete to Kyren Lacy,Pass,1,2,1,Other,10,0,0,0,,,,,0.00,0.00,0.00,0.00,0.00,,Garrett Nussmeier,,#8450C8CC,#3A1867CC,-5,-5.00
+2024-11-10 Alabama at LSU,plays,2,LSU,10,2,Caden Durham run for 45 yds to the ALA 5 for a 1ST down,Rush,1,2,2,Other,10,45,1,1,,,,,1.00,1.00,0.50,0.50,0.50,Caden Durham,,,#8450C8CC,#3A1867CC,38,16.50
+2024-11-10 Alabama at LSU,plays,2,LSU,11,3,"Garrett Nussmeier pass incomplete to Trey'Dez Green",Pass,1,2,1,Red zone,5,0,0,0,,,,,0.00,0.00,0.33,0.33,0.33,,Garrett Nussmeier,,#8450C8CC,#3A1867CC,-2.5,10.17
+2024-11-10 Alabama at LSU,plays,2,LSU,12,4,Josh Williams run for a loss of 1 yard to the ALA 6,Rush,1,2,2,Red zone,5,-1,0,0,,,,,0.50,0.50,0.25,0.25,0.50,Josh Williams,,,#8450C8CC,#3A1867CC,-4.5,6.50
+2024-11-10 Alabama at LSU,plays,2,LSU,13,5,Garrett Nussmeier pass incomplete to Kyren Lacy,Pass,1,2,3,Red zone,6,0,0,0,,,,,0.00,0.00,0.20,0.20,0.40,,Garrett Nussmeier,,#8450C8CC,#3A1867CC,-6,4.00
+2024-11-10 Alabama at LSU,plays,1,Alabama,14,9,Jalen Milroe pass complete to Jam Miller for 5 yds to the ALA 30,Pass,1,3,1,Other,10,5,0,1,,,,,1.00,0.25,0.67,0.22,0.56,,Jalen Milroe,Jam Miller,#E82525CC,#5A0000CC,0,3.44
+2024-11-10 Alabama at LSU,plays,1,Alabama,15,10,Jam Miller run for 2 yds to the ALA 32,Rush,1,3,2,Other,5,2,0,0,,,,,0.33,0.17,0.60,0.20,0.60,Jam Miller,,,#E82525CC,#5A0000CC,-1.5,2.95
+2024-11-10 Alabama at LSU,plays,1,Alabama,16,11,Jalen Milroe run for 5 yds to the ALA 37 for a 1ST down,Rush,1,3,3,Other,3,5,0,1,,,,,0.43,0.14,0.64,0.18,0.64,Jalen Milroe,,,#E82525CC,#5A0000CC,2,2.86
+2024-11-10 Alabama at LSU,plays,1,Alabama,17,12,Jalen Milroe pass complete to Jam Miller for 8 yds to the ALA 45,Pass,1,3,1,Other,10,8,0,1,,,,,1.00,0.20,0.67,0.17,0.58,,Jalen Milroe,Jam Miller,#E82525CC,#5A0000CC,3,2.88
+2024-11-10 Alabama at LSU,plays,1,Alabama,18,13,Jalen Milroe run for 7 yds to the LSU 48 for a 1ST down,Rush,1,3,2,Other,2,7,0,1,,,,,0.50,0.13,0.69,0.15,0.62,Jalen Milroe,,,#E82525CC,#5A0000CC,5.6,3.08
+2024-11-10 Alabama at LSU,plays,1,Alabama,19,14,Jalen Milroe pass complete to Germie Bernard for a loss of 1 yard to the LSU 49,Pass,1,3,1,Other,10,-1,0,0,,,,,0.83,0.17,0.64,0.14,0.57,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,-6,2.44
+2024-11-10 Alabama at LSU,plays,1,Alabama,20,15,Jalen Milroe pass complete to Ryan Williams for 10 yds to the LSU 39,Pass,1,3,2,Other,11,10,0,1,,,,,0.86,0.14,0.67,0.13,0.53,,Jalen Milroe,Ryan Williams,#E82525CC,#5A0000CC,2.3,2.43
+2024-11-10 Alabama at LSU,plays,1,Alabama,21,16,Justice Haynes run for 2 yds to the LSU 37 for a 1ST down,Rush,1,3,3,Other,1,2,0,1,,,,,0.56,0.11,0.69,0.13,0.56,Justice Haynes,,,#E82525CC,#5A0000CC,1,2.34
+2024-11-10 Alabama at LSU,plays,1,Alabama,22,17,Jalen Milroe pass incomplete to Germie Bernard,Pass,1,3,1,Other,10,0,0,0,,,,,0.75,0.13,0.65,0.12,0.53,,Jalen Milroe,,#E82525CC,#5A0000CC,-5,1.91
+2024-11-10 Alabama at LSU,plays,1,Alabama,23,18,Jalen Milroe pass complete to Jam Miller for 20 yds to the LSU 12 for a 1ST down,Pass,1,3,2,Other,5,20,1,1,,,,,0.78,0.22,0.67,0.17,0.50,,Jalen Milroe,Jam Miller,#E82525CC,#5A0000CC,16.5,2.72
+2024-11-10 Alabama at LSU,plays,1,Alabama,24,19,Jalen Milroe run for 5 yds to the LSU 7,Rush,1,3,1,Red zone,10,5,0,1,,,,,0.60,0.10,0.68,0.16,0.53,Jalen Milroe,,,#E82525CC,#5A0000CC,0,2.57
+2024-11-10 Alabama at LSU,plays,1,Alabama,25,20,Jalen Milroe pass incomplete to Germie Bernard,Pass,1,3,2,Red zone,5,0,0,0,,,,,0.70,0.20,0.65,0.15,0.50,,Jalen Milroe,,#E82525CC,#5A0000CC,-3.5,2.27
+2024-11-10 Alabama at LSU,plays,1,Alabama,26,21,Jalen Milroe pass complete to Jam Miller for 6 yds to the LSU 1 for a 1ST down,Pass,1,3,3,Red zone,5,6,0,1,,,,,0.73,0.18,0.67,0.14,0.48,,Jalen Milroe,Jam Miller,#E82525CC,#5A0000CC,1,2.21
+2024-11-10 Alabama at LSU,plays,1,Alabama,27,22,Jam Miller run for no gain to the LSU 1,Rush,1,3,1,Red zone,1,0,0,0,,,,,0.55,0.09,0.64,0.14,0.50,Jam Miller,,,#E82525CC,#5A0000CC,-0.5,2.09
+2024-11-10 Alabama at LSU,plays,1,Alabama,28,23,Justice Haynes run for 1 yd for a TD (Graham Nicholson KICK),Rush,1,3,2,Red zone,1,1,0,1,,,,,0.58,0.08,0.65,0.13,0.52,Justice Haynes,,,#E82525CC,#5A0000CC,0.3,2.01
+2024-11-10 Alabama at LSU,plays,2,LSU,29,6,Caden Durham run for 7 yds to the LSU 24,Rush,1,4,1,Other,10,7,0,1,,,,,0.67,0.33,0.33,0.17,0.50,Caden Durham,,,#8450C8CC,#3A1867CC,2,3.67
+2024-11-10 Alabama at LSU,plays,2,LSU,30,7,Caden Durham run for 2 yds to the LSU 26,Rush,1,4,2,Other,3,2,0,0,,,,,0.50,0.25,0.29,0.14,0.57,Caden Durham,,,#8450C8CC,#3A1867CC,-0.1,3.13
+2024-11-10 Alabama at LSU,plays,2,LSU,31,8,Caden Durham run for 2 yds to the LSU 28 for a 1ST down,Rush,1,4,3,Other,1,2,0,1,,,,,0.60,0.20,0.38,0.13,0.63,Caden Durham,,,#8450C8CC,#3A1867CC,1,2.86
+2024-11-10 Alabama at LSU,plays,2,LSU,32,9,Garrett Nussmeier pass complete to Mason Taylor for 7 yds to the LSU 35,Pass,1,4,1,Other,10,7,0,1,,,,,0.25,0.00,0.44,0.11,0.56,,Garrett Nussmeier,Mason Taylor,#8450C8CC,#3A1867CC,2,2.77
+2024-11-10 Alabama at LSU,plays,2,LSU,33,10,Caden Durham run for a loss of 1 yard to the LSU 34,Rush,2,4,2,Other,3,-1,0,0,,,,,0.50,0.17,0.40,0.10,0.60,Caden Durham,,,#8450C8CC,#3A1867CC,-3.1,2.18
+2024-11-10 Alabama at LSU,plays,2,LSU,34,11,Garrett Nussmeier pass incomplete to Kyren Lacy,Pass,2,4,3,Other,4,0,0,0,,,,,0.20,0.00,0.36,0.09,0.55,,Garrett Nussmeier,,#8450C8CC,#3A1867CC,-4,1.62
+2024-11-10 Alabama at LSU,plays,1,Alabama,35,24,Jalen Milroe pass incomplete to Ryan Williams,Pass,2,5,1,Other,10,0,0,0,,,,,0.67,0.17,0.63,0.13,0.50,,Jalen Milroe,,#E82525CC,#5A0000CC,-5,1.72
+2024-11-10 Alabama at LSU,plays,1,Alabama,36,25,Jam Miller run for 1 yd to the LSU 47,Rush,2,5,2,Other,10,1,0,0,,,,,0.54,0.08,0.60,0.12,0.52,Jam Miller,,,#E82525CC,#5A0000CC,-6,1.41
+2024-11-10 Alabama at LSU,plays,1,Alabama,37,26,Jalen Milroe pass complete to Jam Miller for 11 yds to the LSU 36 for a 1ST down,Pass,2,5,3,Other,9,11,0,1,,,,,0.69,0.15,0.62,0.12,0.50,,Jalen Milroe,Jam Miller,#E82525CC,#5A0000CC,2,1.43
+2024-11-10 Alabama at LSU,plays,1,Alabama,38,27,Jam Miller run for 6 yds to the LSU 30,Rush,2,5,1,Other,10,6,0,1,,,,,0.57,0.07,0.63,0.11,0.52,Jam Miller,,,#E82525CC,#5A0000CC,1,1.41
+2024-11-10 Alabama at LSU,plays,1,Alabama,39,28,Justice Haynes run for 1 yd to the LSU 29,Rush,2,5,2,Other,4,1,0,0,,,,,0.53,0.07,0.61,0.11,0.54,Justice Haynes,,,#E82525CC,#5A0000CC,-1.8,1.30
+2024-11-10 Alabama at LSU,plays,1,Alabama,40,29,Jalen Milroe pass incomplete to Emmanuel Henderson Jr.,Pass,2,5,3,Other,8,0,0,0,,,,,0.64,0.14,0.59,0.10,0.52,,Jalen Milroe,,#E82525CC,#5A0000CC,-8,0.98
+2024-11-10 Alabama at LSU,plays,2,LSU,41,12,Garrett Nussmeier pass complete to Mason Taylor for 26 yds to the LSU 36 for a 1ST down,Pass,2,6,1,Other,10,26,1,1,,,,,0.33,0.17,0.42,0.17,0.50,,Garrett Nussmeier,Mason Taylor,#8450C8CC,#3A1867CC,21,3.23
+2024-11-10 Alabama at LSU,plays,2,LSU,42,13,Zavion Thomas run for 12 yds to the LSU 48 for a 1ST down,Rush,2,6,1,Other,10,12,0,1,,,,,0.57,0.14,0.46,0.15,0.54,Zavion Thomas,,,#8450C8CC,#3A1867CC,7,3.52
+2024-11-10 Alabama at LSU,plays,2,LSU,43,14,Garrett Nussmeier pass complete to Josh Williams for 16 yds to the ALA 36 for a 1ST down,Pass,2,6,1,Other,10,16,1,1,,,,,0.43,0.29,0.50,0.21,0.50,,Garrett Nussmeier,Josh Williams,#8450C8CC,#3A1867CC,11,4.06
+2024-11-10 Alabama at LSU,plays,2,LSU,44,15,Garrett Nussmeier pass incomplete to Josh Williams,Pass,2,6,1,Other,10,0,0,0,,,,,0.38,0.25,0.47,0.20,0.47,,Garrett Nussmeier,,#8450C8CC,#3A1867CC,-5,3.45
+2024-11-10 Alabama at LSU,plays,2,LSU,45,16,Garrett Nussmeier pass incomplete,Pass,2,6,2,Other,20,0,0,0,,,,,0.33,0.22,0.44,0.19,0.44,,Garrett Nussmeier,,#8450C8CC,#3A1867CC,-14,2.36
+2024-11-10 Alabama at LSU,plays,2,LSU,46,17,Garrett Nussmeier pass complete to Josh Williams for 5 yds to the ALA 26,Pass,2,6,3,Other,20,5,0,0,,,,,0.30,0.20,0.41,0.18,0.41,,Garrett Nussmeier,Josh Williams,#8450C8CC,#3A1867CC,-15,1.34
+2024-11-10 Alabama at LSU,plays,1,Alabama,47,30,Jam Miller run for 4 yds to the ALA 29,Rush,2,7,1,Other,10,4,0,0,,,,,0.50,0.06,0.57,0.10,0.53,Jam Miller,,,#E82525CC,#5A0000CC,-1,0.91
+2024-11-10 Alabama at LSU,plays,1,Alabama,48,31,Kendrick Law run for 4 yds to the ALA 33,Rush,2,7,2,Other,6,4,0,0,,,,,0.47,0.06,0.55,0.10,0.55,Kendrick Law,,,#E82525CC,#5A0000CC,-0.2,0.88
+2024-11-10 Alabama at LSU,plays,1,Alabama,49,32,Jalen Milroe run for 6 yds to the ALA 39 for a 1ST down,Rush,2,7,3,Other,2,6,0,1,,,,,0.50,0.06,0.56,0.09,0.56,Jalen Milroe,,,#E82525CC,#5A0000CC,4,0.98
+2024-11-10 Alabama at LSU,plays,1,Alabama,50,33,Jalen Milroe run for 4 yds to the ALA 43,Rush,2,7,1,Other,10,4,0,0,,,,,0.47,0.05,0.55,0.09,0.58,Jalen Milroe,,,#E82525CC,#5A0000CC,-1,0.92
+2024-11-10 Alabama at LSU,plays,1,Alabama,51,34,Justice Haynes run for 8 yds to the LSU 49 for a 1ST down,Rush,2,7,2,Other,6,8,0,1,,,,,0.50,0.05,0.56,0.09,0.59,Justice Haynes,,,#E82525CC,#5A0000CC,3.8,1.00
+2024-11-10 Alabama at LSU,plays,1,Alabama,52,35,Justice Haynes run for 7 yds to the LSU 42,Rush,2,7,1,Other,10,7,0,1,,,,,0.52,0.05,0.57,0.09,0.60,Justice Haynes,,,#E82525CC,#5A0000CC,2,1.03
+2024-11-10 Alabama at LSU,plays,1,Alabama,53,36,Jam Miller run for 2 yds to the LSU 40,Rush,2,7,2,Other,3,2,0,0,,,,,0.50,0.05,0.56,0.08,0.61,Jam Miller,,,#E82525CC,#5A0000CC,-0.1,1.00
+2024-11-10 Alabama at LSU,plays,1,Alabama,54,37,TEAM run for no gain to the LSU 40,Rush,2,7,3,Other,1,0,0,0,,,,,0.48,0.04,0.54,0.08,0.62,TEAM,,,#E82525CC,#5A0000CC,-1,0.94
+2024-11-10 Alabama at LSU,plays,1,Alabama,55,38,Jam Miller run for no gain to the LSU 40,Rush,2,7,4,Other,1,0,0,0,,,,,0.46,0.04,0.53,0.08,0.63,Jam Miller,,,#E82525CC,#5A0000CC,-1,0.89
+2024-11-10 Alabama at LSU,plays,2,LSU,56,18,"Garrett Nussmeier sacked by Jihaad Campbell for a loss of 8 yards to the LSU 32 Garrett Nussmeier fumbled, forced by Jihaad Campbell, recovered by ALA Tim Smith , return for 0 yards",Pass,2,8,1,Other,10,-8,0,0,,,,,0.27,0.18,0.39,0.17,0.39,,,,#8450C8CC,#3A1867CC,-13,0.54
+2024-11-10 Alabama at LSU,plays,1,Alabama,57,39,Jalen Milroe run for 22 yds to the LSU 10 for a 1ST down,Rush,2,9,1,Other,10,22,1,1,,,,,0.48,0.08,0.54,0.10,0.64,Jalen Milroe,,,#E82525CC,#5A0000CC,17,1.31
+2024-11-10 Alabama at LSU,plays,1,Alabama,58,40,Jalen Milroe pass incomplete,Pass,2,9,1,Red zone,10,0,0,0,,,,,0.60,0.13,0.53,0.10,0.63,,Jalen Milroe,,#E82525CC,#5A0000CC,-5,1.15
+2024-11-10 Alabama at LSU,plays,1,Alabama,59,41,Jalen Milroe run for 10 yds for a TD (Graham Nicholson KICK),Rush,2,9,2,Red zone,10,10,0,1,,,,,0.50,0.08,0.54,0.10,0.63,Jalen Milroe,,,#E82525CC,#5A0000CC,3,1.19
+2024-11-10 Alabama at LSU,plays,2,LSU,60,19,Josh Williams run for 1 yd to the LSU 19,Rush,2,10,1,Other,10,1,0,0,,,,,0.50,0.13,0.37,0.16,0.42,Josh Williams,,,#8450C8CC,#3A1867CC,-4,0.31
+2024-11-10 Alabama at LSU,plays,2,LSU,61,20,Garrett Nussmeier pass complete to CJ Daniels for 14 yds to the LSU 33 for a 1ST down,Pass,2,10,2,Other,9,14,0,1,,,,,0.33,0.17,0.40,0.15,0.40,,Garrett Nussmeier,CJ Daniels,#8450C8CC,#3A1867CC,7.7,0.68
+2024-11-10 Alabama at LSU,plays,2,LSU,62,21,Garrett Nussmeier pass complete to Josh Williams for 8 yds to the LSU 41,Pass,2,10,1,Other,10,8,0,1,,,,,0.38,0.15,0.43,0.14,0.38,,Garrett Nussmeier,Josh Williams,#8450C8CC,#3A1867CC,3,0.79
+2024-11-10 Alabama at LSU,plays,2,LSU,63,22,Garrett Nussmeier pass complete to Mason Taylor for 5 yds to the LSU 46 for a 1ST down,Pass,2,10,2,Other,2,5,0,1,,,,,0.43,0.14,0.45,0.14,0.36,,Garrett Nussmeier,Mason Taylor,#8450C8CC,#3A1867CC,3.6,0.91
+2024-11-10 Alabama at LSU,plays,2,LSU,64,23,Garrett Nussmeier run for 6 yds to the ALA 48,Rush,2,10,1,Other,10,6,0,1,,,,,0.56,0.11,0.48,0.13,0.39,Garrett Nussmeier,,,#8450C8CC,#3A1867CC,1,0.92
+2024-11-10 Alabama at LSU,plays,2,LSU,65,24,Garrett Nussmeier pass complete to CJ Daniels for 3 yds to the ALA 45,Pass,2,10,2,Other,4,3,0,1,,,,,0.47,0.13,0.50,0.13,0.38,,Garrett Nussmeier,CJ Daniels,#8450C8CC,#3A1867CC,0.2,0.89
+2024-11-10 Alabama at LSU,plays,2,LSU,66,25,Josh Williams run for 3 yds to the ALA 42 for a 1ST down,Rush,2,10,3,Other,1,3,0,1,,,,,0.60,0.10,0.52,0.12,0.40,Josh Williams,,,#8450C8CC,#3A1867CC,2,0.93
+2024-11-10 Alabama at LSU,plays,2,LSU,67,26,Garrett Nussmeier pass incomplete to Kyren Lacy,Pass,2,10,1,Other,15,0,0,0,,,,,0.44,0.13,0.50,0.12,0.38,,Garrett Nussmeier,,#8450C8CC,#3A1867CC,-7.5,0.61
+2024-11-10 Alabama at LSU,plays,2,LSU,68,27,Garrett Nussmeier pass complete to Josh Williams for 4 yds to the ALA 43,Pass,2,10,2,Other,15,4,0,0,,,,,0.41,0.12,0.48,0.11,0.37,,Garrett Nussmeier,Josh Williams,#8450C8CC,#3A1867CC,-6.5,0.34
+2024-11-10 Alabama at LSU,plays,2,LSU,69,28,Garrett Nussmeier pass complete to Caden Durham for a loss of 6 yards to the ALA 49,Pass,2,10,3,Other,11,-6,0,0,,,,,0.39,0.11,0.46,0.11,0.36,,Garrett Nussmeier,Caden Durham,#8450C8CC,#3A1867CC,-17,-0.28
+2024-11-10 Alabama at LSU,plays,2,LSU,70,29,Zavion Thomas run for 6 yds to the LSU 31,Rush,3,11,1,Other,10,6,0,1,,,,,0.64,0.09,0.48,0.10,0.38,Zavion Thomas,,,#8450C8CC,#3A1867CC,1,-0.23
+2024-11-10 Alabama at LSU,plays,2,LSU,71,30,Garrett Nussmeier pass incomplete to Zavion Thomas,Pass,3,11,2,Other,4,0,0,0,,,,,0.37,0.11,0.47,0.10,0.37,,Garrett Nussmeier,,#8450C8CC,#3A1867CC,-2.8,-0.32
+2024-11-10 Alabama at LSU,plays,2,LSU,72,31,Garrett Nussmeier run for 14 yds to the LSU 45 for a 1ST down,Rush,3,11,3,Other,4,14,0,1,,,,,0.67,0.08,0.48,0.10,0.39,Garrett Nussmeier,,,#8450C8CC,#3A1867CC,10,0.02
+2024-11-10 Alabama at LSU,plays,2,LSU,73,32,Garrett Nussmeier pass incomplete to Chris Hilton Jr.,Pass,3,11,1,Other,10,0,0,0,,,,,0.35,0.10,0.47,0.09,0.38,,Garrett Nussmeier,,#8450C8CC,#3A1867CC,-5,-0.14
+2024-11-10 Alabama at LSU,plays,2,LSU,74,33,Josh Williams run for 2 yds to the LSU 47,Rush,3,11,2,Other,10,2,0,0,,,,,0.62,0.08,0.45,0.09,0.39,Josh Williams,,,#8450C8CC,#3A1867CC,-5,-0.29
+2024-11-10 Alabama at LSU,plays,2,LSU,75,34,Garrett Nussmeier pass complete to Aaron Anderson for 7 yds to the ALA 46,Pass,3,11,3,Other,8,7,0,0,,,,,0.33,0.10,0.44,0.09,0.38,,Garrett Nussmeier,Aaron Anderson,#8450C8CC,#3A1867CC,-1,-0.31
+2024-11-10 Alabama at LSU,plays,2,LSU,76,35,Garrett Nussmeier run for 2 yds to the ALA 44 for a 1ST down,Rush,3,11,4,Other,1,2,0,1,,,,,0.64,0.07,0.46,0.09,0.40,Garrett Nussmeier,,,#8450C8CC,#3A1867CC,1,-0.27
+2024-11-10 Alabama at LSU,plays,2,LSU,77,36,Garrett Nussmeier pass incomplete to Chris Hilton Jr.,Pass,3,11,1,Other,20,0,0,0,,,,,0.32,0.09,0.44,0.08,0.39,,Garrett Nussmeier,,#8450C8CC,#3A1867CC,-10,-0.54
+2024-11-10 Alabama at LSU,plays,2,LSU,78,37,Garrett Nussmeier pass complete to Zavion Thomas for 11 yds to the ALA 43,Pass,3,11,2,Other,20,11,0,0,,,,,0.30,0.09,0.43,0.08,0.38,,Garrett Nussmeier,Zavion Thomas,#8450C8CC,#3A1867CC,-3,-0.61
+2024-11-10 Alabama at LSU,plays,2,LSU,79,38,Garrett Nussmeier pass complete to Aaron Anderson for 5 yds to the ALA 38,Pass,3,11,3,Other,9,5,0,0,,,,,0.29,0.08,0.42,0.08,0.37,,Garrett Nussmeier,Aaron Anderson,#8450C8CC,#3A1867CC,-4,-0.70
+2024-11-10 Alabama at LSU,plays,2,LSU,80,39,Garrett Nussmeier pass complete to Mason Taylor for 12 yds to the ALA 26 for a 1ST down,Pass,3,11,4,Other,4,12,0,1,,,,,0.32,0.08,0.44,0.08,0.36,,Garrett Nussmeier,Mason Taylor,#8450C8CC,#3A1867CC,8,-0.47
+2024-11-10 Alabama at LSU,plays,2,LSU,81,40,Garrett Nussmeier pass complete to Kyren Lacy for 21 yds to the ALA 5 for a 1ST down,Pass,3,11,1,Other,10,21,1,1,,,,,0.35,0.12,0.45,0.10,0.35,,Garrett Nussmeier,Kyren Lacy,#8450C8CC,#3A1867CC,16,-0.06
+2024-11-10 Alabama at LSU,plays,2,LSU,82,41,Josh Williams run for 1 yd to the ALA 4,Rush,3,11,1,Red zone,5,1,0,0,,,,,0.60,0.07,0.44,0.10,0.37,Josh Williams,,,#8450C8CC,#3A1867CC,-1.5,-0.10
+2024-11-10 Alabama at LSU,plays,2,LSU,83,42,"Garrett Nussmeier pass intercepted, touchback. Deontae Lawson return for no gain",Pass,3,11,2,Red zone,4,0,0,0,,,,,0.33,0.11,0.43,0.10,0.36,,Garrett Nussmeier,,#8450C8CC,#3A1867CC,-2.8,-0.16
+2024-11-10 Alabama at LSU,plays,1,Alabama,84,42,Kendrick Law run for 8 yds to the ALA 28,Rush,3,12,1,Other,10,8,0,1,,,,,0.52,0.07,0.55,0.10,0.64,Kendrick Law,,,#E82525CC,#5A0000CC,3,1.24
+2024-11-10 Alabama at LSU,plays,1,Alabama,85,43,Jam Miller run for 8 yds to the ALA 36 for a 1ST down,Rush,3,12,2,Other,2,8,0,1,,,,,0.54,0.07,0.56,0.09,0.65,Jam Miller,,,#E82525CC,#5A0000CC,6.6,1.36
+2024-11-10 Alabama at LSU,plays,1,Alabama,86,44,Justice Haynes run for 2 yds to the ALA 38,Rush,3,12,1,Other,10,2,0,0,,,,,0.52,0.07,0.55,0.09,0.66,Justice Haynes,,,#E82525CC,#5A0000CC,-3,1.26
+2024-11-10 Alabama at LSU,plays,1,Alabama,87,45,Jalen Milroe pass incomplete to Kendrick Law,Pass,3,12,2,Other,8,0,0,0,,,,,0.56,0.13,0.53,0.09,0.64,,Jalen Milroe,,#E82525CC,#5A0000CC,-5.6,1.11
+2024-11-10 Alabama at LSU,plays,1,Alabama,88,46,Ryan Williams run for 22 yds to the LSU 25 for a 1ST down,Rush,3,12,1,Other,10,22,1,1,,,,,0.53,0.10,0.54,0.11,0.65,Ryan Williams,,,#E82525CC,#5A0000CC,17,1.45
+2024-11-10 Alabama at LSU,plays,1,Alabama,89,47,Justice Haynes run for 1 yd to the LSU 24,Rush,3,12,1,Other,10,1,0,0,,,,,0.52,0.10,0.53,0.11,0.66,Justice Haynes,,,#E82525CC,#5A0000CC,-4,1.34
+2024-11-10 Alabama at LSU,plays,1,Alabama,90,48,Jam Miller run for 5 yds to the LSU 19,Rush,3,12,2,Other,9,5,0,0,,,,,0.50,0.09,0.52,0.10,0.67,Jam Miller,,,#E82525CC,#5A0000CC,-1.3,1.28
+2024-11-10 Alabama at LSU,plays,1,Alabama,91,49,Jalen Milroe run for 19 yds for a TD (Graham Nicholson KICK),Rush,3,12,3,Red zone,4,19,1,1,,,,,0.52,0.12,0.53,0.12,0.67,Jalen Milroe,,,#E82525CC,#5A0000CC,15,1.56
+2024-11-10 Alabama at LSU,plays,2,LSU,92,43,Caden Durham run for 1 yd to the LSU 33,Rush,3,13,1,Other,10,1,0,0,,,,,0.56,0.06,0.42,0.09,0.37,Caden Durham,,,#8450C8CC,#3A1867CC,-4,-0.25
+2024-11-10 Alabama at LSU,plays,2,LSU,93,44,Garrett Nussmeier pass complete to Kyren Lacy for 28 yds to the ALA 39 for a 1ST down,Pass,3,13,2,Other,9,28,1,1,,,,,0.36,0.14,0.43,0.11,0.36,,Garrett Nussmeier,Kyren Lacy,#8450C8CC,#3A1867CC,21.7,0.25
+2024-11-10 Alabama at LSU,plays,2,LSU,94,45,Garrett Nussmeier pass incomplete to Kyren Lacy,Pass,3,13,1,Other,10,0,0,0,,,,,0.34,0.14,0.42,0.11,0.36,,Garrett Nussmeier,,#8450C8CC,#3A1867CC,-5,0.13
+2024-11-10 Alabama at LSU,plays,2,LSU,95,46,Caden Durham run for 1 yd to the ALA 38,Rush,3,13,2,Other,10,1,0,0,,,,,0.53,0.06,0.41,0.11,0.37,Caden Durham,,,#8450C8CC,#3A1867CC,-6,0.00
+2024-11-10 Alabama at LSU,plays,2,LSU,96,47,Garrett Nussmeier sacked by Jihaad Campbell and DaShawn Jones for a loss of 11 yards to the ALA 49,Pass,3,13,3,Other,9,-11,0,0,,,,,0.33,0.13,0.40,0.11,0.36,,,,#8450C8CC,#3A1867CC,-20,-0.43
+2024-11-10 Alabama at LSU,plays,1,Alabama,97,50,Jalen Milroe pass complete to CJ Dippre for 12 yds to the ALA 27 for a 1ST down,Pass,3,14,1,Other,10,12,0,1,,,,,0.59,0.12,0.54,0.12,0.66,,Jalen Milroe,CJ Dippre,#E82525CC,#5A0000CC,7,1.67
+2024-11-10 Alabama at LSU,plays,1,Alabama,98,51,Jalen Milroe run for 1 yd to the ALA 28,Rush,3,14,1,Other,10,1,0,0,,,,,0.50,0.12,0.53,0.12,0.67,Jalen Milroe,,,#E82525CC,#5A0000CC,-4,1.56
+2024-11-10 Alabama at LSU,plays,1,Alabama,99,52,Jalen Milroe pass complete to Kendrick Law for no gain to the ALA 28,Pass,3,14,2,Other,9,0,0,0,,,,,0.56,0.11,0.52,0.12,0.65,,Jalen Milroe,Kendrick Law,#E82525CC,#5A0000CC,-6.3,1.41
+2024-11-10 Alabama at LSU,plays,1,Alabama,100,53,Jalen Milroe run for 72 yds for a TD (Graham Nicholson KICK),Rush,4,14,3,Other,9,72,1,1,,,,,0.51,0.14,0.53,0.13,0.66,Jalen Milroe,,,#E82525CC,#5A0000CC,63,2.57
+2024-11-10 Alabama at LSU,plays,2,LSU,101,48,Garrett Nussmeier pass complete to Josh Williams for 4 yds to the ALA 49,Pass,4,15,1,Other,10,4,0,0,,,,,0.32,0.13,0.40,0.10,0.35,,Garrett Nussmeier,Josh Williams,#8450C8CC,#3A1867CC,-1,-0.44
+2024-11-10 Alabama at LSU,plays,2,LSU,102,49,Garrett Nussmeier run for 5 yds to the ALA 44,Rush,4,15,2,Other,6,5,0,1,,,,,0.56,0.06,0.41,0.10,0.37,Garrett Nussmeier,,,#8450C8CC,#3A1867CC,0.8,-0.41
+2024-11-10 Alabama at LSU,plays,2,LSU,103,50,Josh Williams run for 3 yds to the ALA 41 for a 1ST down,Rush,4,15,3,Other,1,3,0,1,,,,,0.58,0.05,0.42,0.10,0.38,Josh Williams,,,#8450C8CC,#3A1867CC,2,-0.37
+2024-11-10 Alabama at LSU,plays,2,LSU,104,51,Garrett Nussmeier pass complete to Caden Durham for a loss of 1 yard to the ALA 27,Pass,4,15,1,Other,10,-1,0,0,,,,,0.31,0.13,0.41,0.10,0.37,,Garrett Nussmeier,Caden Durham,#8450C8CC,#3A1867CC,-6,-0.48
+2024-11-10 Alabama at LSU,plays,2,LSU,105,52,Caden Durham run for 6 yds to the ALA 21,Rush,4,15,2,Other,11,6,0,0,,,,,0.55,0.05,0.40,0.10,0.38,Caden Durham,,,#8450C8CC,#3A1867CC,-1.7,-0.50
+2024-11-10 Alabama at LSU,plays,2,LSU,106,53,Garrett Nussmeier pass incomplete,Pass,4,15,3,Other,5,0,0,0,,,,,0.30,0.12,0.40,0.09,0.38,,Garrett Nussmeier,,#8450C8CC,#3A1867CC,-5,-0.58
+2024-11-10 Alabama at LSU,plays,2,LSU,107,54,Garrett Nussmeier pass complete to Josh Williams for 1 yd to the ALA 20,Pass,4,15,4,Other,5,1,0,0,,,,,0.29,0.12,0.39,0.09,0.37,,Garrett Nussmeier,Josh Williams,#8450C8CC,#3A1867CC,-4,-0.65
+2024-11-10 Alabama at LSU,plays,1,Alabama,108,54,Jam Miller run for 6 yds to the ALA 26,Rush,4,16,1,Other,10,6,0,1,,,,,0.53,0.14,0.54,0.13,0.67,Jam Miller,,,#E82525CC,#5A0000CC,1,2.54
+2024-11-10 Alabama at LSU,plays,1,Alabama,109,55,Jam Miller run for 2 yds to the ALA 28,Rush,4,16,2,Other,4,2,0,0,,,,,0.51,0.14,0.53,0.13,0.67,Jam Miller,,,#E82525CC,#5A0000CC,-0.8,2.48
+2024-11-10 Alabama at LSU,plays,1,Alabama,110,56,Jalen Milroe run for a loss of 5 yards to the ALA 23,Rush,4,16,3,Other,2,-5,0,0,,,,,0.50,0.13,0.52,0.13,0.68,Jalen Milroe,,,#E82525CC,#5A0000CC,-7,2.31
+2024-11-10 Alabama at LSU,plays,2,LSU,111,55,Garrett Nussmeier pass complete to Caden Durham for 4 yds to the LSU 16,Pass,4,17,1,Other,10,4,0,0,,,,,0.29,0.11,0.38,0.09,0.36,,Garrett Nussmeier,Caden Durham,#8450C8CC,#3A1867CC,-1,-0.65
+2024-11-10 Alabama at LSU,plays,2,LSU,112,56,Garrett Nussmeier pass complete to Caden Durham for 1 yd to the LSU 17,Pass,4,17,2,Other,6,1,0,0,,,,,0.28,0.11,0.38,0.09,0.36,,Garrett Nussmeier,Caden Durham,#8450C8CC,#3A1867CC,-3.2,-0.70
+2024-11-10 Alabama at LSU,plays,2,LSU,113,57,Garrett Nussmeier pass complete to CJ Daniels for 9 yds to the LSU 26 for a 1ST down,Pass,4,17,3,Other,5,9,0,1,,,,,0.30,0.11,0.39,0.09,0.35,,Garrett Nussmeier,CJ Daniels,#8450C8CC,#3A1867CC,4,-0.62
+2024-11-10 Alabama at LSU,plays,2,LSU,114,58,Garrett Nussmeier pass intercepted Bray Hubbard return for no gain to the LSU 47,Pass,4,17,1,Other,10,0,0,0,,,,,0.29,0.11,0.38,0.09,0.34,,Garrett Nussmeier,,#8450C8CC,#3A1867CC,-5,-0.69
+2024-11-10 Alabama at LSU,plays,1,Alabama,115,57,Richard Young run for a loss of 1 yard to the LSU 48,Rush,4,18,1,Other,10,-1,0,0,,,,,0.49,0.13,0.51,0.12,0.68,Richard Young,,,#E82525CC,#5A0000CC,-6,2.17
+2024-11-10 Alabama at LSU,plays,1,Alabama,116,58,Richard Young run for 3 yds to the LSU 45,Rush,4,18,2,Other,11,3,0,0,,,,,0.48,0.13,0.50,0.12,0.69,Richard Young,,,#E82525CC,#5A0000CC,-4.7,2.05
+2024-11-10 Alabama at LSU,plays,1,Alabama,117,59,Richard Young run for 6 yds to the LSU 24,Rush,4,18,1,Other,10,6,0,1,,,,,0.49,0.12,0.51,0.12,0.69,Richard Young,,,#E82525CC,#5A0000CC,1,2.03
+2024-11-10 Alabama at LSU,plays,1,Alabama,118,60,Richard Young run for 2 yds to the LSU 22,Rush,4,18,2,Other,4,2,0,0,,,,,0.48,0.12,0.50,0.12,0.70,Richard Young,,,#E82525CC,#5A0000CC,-0.8,1.98
+2024-11-10 Alabama at LSU,plays,1,Alabama,119,61,Daniel Hill run for 3 yds to the LSU 19 for a 1ST down,Rush,4,18,3,Other,2,3,0,1,,,,,0.49,0.12,0.51,0.11,0.70,Daniel Hill,,,#E82525CC,#5A0000CC,1,1.97
+2024-11-10 Alabama at LSU,plays,1,Alabama,120,62,Daniel Hill run for 1 yd to the LSU 18,Rush,4,18,1,Red zone,10,1,0,0,,,,,0.48,0.11,0.50,0.11,0.71,Daniel Hill,,,#E82525CC,#5A0000CC,-4,1.87
+2024-11-10 Alabama at LSU,plays,1,Alabama,121,63,Ty Simpson run for 1 yd to the LSU 17,Rush,4,18,2,Red zone,9,1,0,0,,,,,0.47,0.11,0.49,0.11,0.71,Ty Simpson,,,#E82525CC,#5A0000CC,-5.3,1.76
+2024-11-10 Alabama at LSU,plays,1,Alabama,122,64,Richard Young run for 9 yds to the LSU 8 for a 1ST down,Rush,4,18,3,Red zone,8,9,0,1,,,,,0.48,0.11,0.50,0.11,0.72,Richard Young,,,#E82525CC,#5A0000CC,1,1.75
+2024-11-10 Alabama at LSU,plays,1,Alabama,123,65,Richard Young run for 8 yds for a TD (Graham Nicholson KICK),Rush,4,18,1,Red zone,8,8,0,1,,,,,0.49,0.11,0.51,0.11,0.72,Richard Young,,,#E82525CC,#5A0000CC,4,1.78
+2024-11-10 Alabama at LSU,plays,2,LSU,124,59,Kaleb Jackson run for 4 yds to the LSU 29,Rush,4,19,1,Other,10,4,0,0,,,,,0.52,0.05,0.37,0.08,0.36,Kaleb Jackson,,,#8450C8CC,#3A1867CC,-1,-0.70
+2024-11-10 Alabama at LSU,plays,2,LSU,125,60,Garrett Nussmeier pass complete to Kaleb Jackson for 10 yds to the LSU 39 for a 1ST down,Pass,4,19,2,Other,6,10,0,1,,,,,0.31,0.10,0.38,0.08,0.35,,Garrett Nussmeier,Kaleb Jackson,#8450C8CC,#3A1867CC,5.8,-0.59
+2024-11-10 Alabama at LSU,plays,2,LSU,126,61,Kaleb Jackson run for 2 yds to the LSU 41,Rush,4,19,1,Other,10,2,0,0,,,,,0.50,0.05,0.38,0.08,0.36,Kaleb Jackson,,,#8450C8CC,#3A1867CC,-3,-0.63
+2024-11-10 Alabama at LSU,plays,2,LSU,127,62,Garrett Nussmeier pass complete to Kyren Lacy for 17 yds to the ALA 42 for a 1ST down,Pass,4,19,2,Other,8,17,1,1,,,,,0.33,0.13,0.39,0.10,0.35,,Garrett Nussmeier,Kyren Lacy,#8450C8CC,#3A1867CC,11.4,-0.44
+2024-11-10 Alabama at LSU,plays,2,LSU,128,63,"Garrett Nussmeier pass complete to Aaron Anderson for 15 yds to the ALA 27 for a 1ST down Alabama Penalty, Roughing Passer (14 Yards) to the ALA 13 for a 1ST down",Pass,4,19,1,Other,10,29,1,1,,,,,0.34,0.15,0.40,0.11,0.35,,Garrett Nussmeier,Aaron Anderson,#8450C8CC,#3A1867CC,24,-0.05
+2024-11-10 Alabama at LSU,plays,2,LSU,129,64,Garrett Nussmeier pass complete to Kyren Lacy for 1 yd to the ALA 12,Pass,4,19,1,Red zone,10,1,0,0,,,,,0.33,0.14,0.39,0.11,0.34,,Garrett Nussmeier,Kyren Lacy,#8450C8CC,#3A1867CC,-4,-0.11
+2024-11-10 Alabama at LSU,plays,2,LSU,130,65,Garrett Nussmeier pass incomplete to Aaron Anderson,Pass,4,19,2,Red zone,9,0,0,0,,,,,0.33,0.14,0.38,0.11,0.34,,Garrett Nussmeier,,#8450C8CC,#3A1867CC,-6.3,-0.20
+2024-11-10 Alabama at LSU,plays,2,LSU,131,66,Garrett Nussmeier pass complete to Kyren Lacy for 12 yds for a TD (Damian Ramos KICK),Pass,4,19,3,Red zone,9,12,0,1,,,,,0.34,0.14,0.39,0.11,0.33,,Garrett Nussmeier,Kyren Lacy,#8450C8CC,#3A1867CC,3,-0.16
+2024-11-10 Alabama at LSU,plays,1,Alabama,132,66,TEAM run for a loss of 1 yard to the ALA 24,Rush,4,20,1,Other,10,-1,0,0,,,,,0.48,0.10,0.50,0.11,0.73,TEAM,,,#E82525CC,#5A0000CC,-6,1.66

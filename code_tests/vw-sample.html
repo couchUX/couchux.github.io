@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VW Units Test</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: system-ui, -apple-system, sans-serif;
+          display: flex;
+          flex-direction: column;
+        }
+
+        .image-section {
+            min-height: 100vw;
+            background-color: #f0f0f0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .image-section img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .text-section {
+            min-height: 100vw;
+            background-color: #556B2F;
+            color: white;
+            padding: 5vw;
+        }
+
+        .text-section h1 {
+            font-size: calc(4.8vw + 8px);
+            margin-bottom: calc(4.8vw + 8px);
+        }
+
+        .text-section p {
+            font-size: calc(1vw + 10px);
+            margin: 0 0 2vw 0;
+            line-height: 1.4;
+        }
+
+        .text-section ul {
+            list-style: none;
+            padding: 0;
+            margin: 4vw 0;
+        }
+
+        .text-section li {
+            font-size: calc(1vw + 10px);
+            margin-bottom: 2vw;
+            padding-left: 6vw;
+            position: relative;
+        }
+
+        .text-section li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="image-section">
+        <img src="https://plus.unsplash.com/premium_photo-1665455301900-99f7df217388?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Earth package container">
+    </div>
+    
+    <div class="text-section">
+        <h1>The Earth package</h1>
+        <p>This includes everything you need, taking place in the days immediately following the passing (no viewing or funeral service beforehand).</p>
+        <ul>
+            <li>Services of a licensed funeral director</li>
+            <li>Collection & care from place of passing</li>
+            <li>Filing of all necessary paperwork & permits</li>
+            <li>An Earth soil transformation</li>
+            <li>The soil returned to your family</li>
+            <li>Access to the Earth Family Portal</li>
+        </ul>
+    </div>
+</body>
+</html> 
