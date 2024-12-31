@@ -2430,199 +2430,630 @@ game,chart,team_num,offense,play_num,team_play,text,play_type,quarter,drive,down
 2024-11-16 Mercer at Alabama,plays,1,Alabama,117,75,JR Gardner run for 2 yds to the ALA 29,Rush,4,21,1,Other,10,2,0,0,,,,,0.53,0.05,0.55,0.12,0.53,JR Gardner,,,#E82525CC,#5A0000CC,-3,1.61
 2024-11-16 Mercer at Alabama,plays,1,Alabama,118,76,Michael Lorino III run for 3 yds to the ALA 32,Rush,4,21,2,Other,8,3,0,0,,,,,0.51,0.05,0.54,0.12,0.54,Michael Lorino III,,,#E82525CC,#5A0000CC,-2.6,1.56
 2024-11-16 Mercer at Alabama,plays,1,Alabama,119,77,JR Gardner run for 3 yds to the ALA 35,Rush,4,21,3,Other,5,3,0,0,,,,,0.5,0.05,0.53,0.12,0.55,JR Gardner,,,#E82525CC,#5A0000CC,-2,1.51
-2024-11-24 Alabama at Oklahoma,teams,1,Alabama,,,,,,,,,,,4,21,,,,57,0.37,0.07,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-11-24 Alabama at Oklahoma,teams,2,Oklahoma,,,,,,,,,,,6,30,,,,62,0.48,0.10,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-11-24 Alabama at Oklahoma,play_type,1,Alabama,,,,Rush,,,,,,,0,12,,,,29,0.41,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-11-24 Alabama at Oklahoma,play_type,2,Oklahoma,,,,Rush,,,,,,,4,22,,,,49,0.45,0.08,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-11-24 Alabama at Oklahoma,play_type,1,Alabama,,,,Pass,,,,,,,4,9,,,,28,0.32,0.14,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-11-24 Alabama at Oklahoma,play_type,2,Oklahoma,,,,Pass,,,,,,,2,8,,,,13,0.62,0.15,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-11-24 Alabama at Oklahoma,quarter,1,Alabama,,,,,1Q,,,,,,2,5,,,,16,0.31,0.13,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-11-24 Alabama at Oklahoma,quarter,1,Alabama,,,,,2Q,,,,,,0,2,,,,7,0.29,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-11-24 Alabama at Oklahoma,quarter,1,Alabama,,,,,3Q,,,,,,0,10,,,,21,0.48,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-11-24 Alabama at Oklahoma,quarter,1,Alabama,,,,,4Q,,,,,,2,4,,,,13,0.31,0.15,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-11-24 Alabama at Oklahoma,quarter,2,Oklahoma,,,,,1Q,,,,,,2,7,,,,15,0.47,0.13,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-11-24 Alabama at Oklahoma,quarter,2,Oklahoma,,,,,2Q,,,,,,2,13,,,,22,0.59,0.09,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-11-24 Alabama at Oklahoma,quarter,2,Oklahoma,,,,,3Q,,,,,,0,6,,,,10,0.60,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-11-24 Alabama at Oklahoma,quarter,2,Oklahoma,,,,,4Q,,,,,,2,4,,,,15,0.27,0.13,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-11-24 Alabama at Oklahoma,down,1,Alabama,,,,,,,1D,,,,0,8,,,,23,0.35,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-11-24 Alabama at Oklahoma,down,1,Alabama,,,,,,,2D,,,,0,6,,,,19,0.32,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-11-24 Alabama at Oklahoma,down,1,Alabama,,,,,,,3D,,,,4,7,,,,14,0.50,0.29,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-11-24 Alabama at Oklahoma,down,1,Alabama,,,,,,,4D,,,,0,0,,,,1,0.00,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-11-24 Alabama at Oklahoma,down,2,Oklahoma,,,,,,,1D,,,,3,13,,,,26,0.50,0.12,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-11-24 Alabama at Oklahoma,down,2,Oklahoma,,,,,,,2D,,,,1,9,,,,20,0.45,0.05,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-11-24 Alabama at Oklahoma,down,2,Oklahoma,,,,,,,3D,,,,2,7,,,,15,0.47,0.13,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-11-24 Alabama at Oklahoma,down,2,Oklahoma,,,,,,,4D,,,,0,1,,,,1,1.00,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-11-24 Alabama at Oklahoma,red_zone,1,Alabama,,,,,,,,Other,,,4,20,,,,54,0.37,0.07,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-11-24 Alabama at Oklahoma,red_zone,1,Alabama,,,,,,,,Red zone,,,0,1,,,,3,0.33,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-11-24 Alabama at Oklahoma,red_zone,2,Oklahoma,,,,,,,,Other,,,5,24,,,,51,0.47,0.10,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-11-24 Alabama at Oklahoma,red_zone,2,Oklahoma,,,,,,,,Red zone,,,1,6,,,,11,0.55,0.09,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-11-24 Alabama at Oklahoma,distance,1,Alabama,,,,,,,,,0-3 yds,,0,4,,,,8,0.50,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-11-24 Alabama at Oklahoma,distance,1,Alabama,,,,,,,,,4-6 yds,,0,2,,,,5,0.40,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-11-24 Alabama at Oklahoma,distance,1,Alabama,,,,,,,,,7-9 yds,,1,4,,,,7,0.57,0.14,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-11-24 Alabama at Oklahoma,distance,1,Alabama,,,,,,,,,9> yds,,3,11,,,,37,0.30,0.08,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-11-24 Alabama at Oklahoma,distance,2,Oklahoma,,,,,,,,,0-3 yds,,0,7,,,,12,0.58,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-11-24 Alabama at Oklahoma,distance,2,Oklahoma,,,,,,,,,4-6 yds,,1,4,,,,9,0.44,0.11,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-11-24 Alabama at Oklahoma,distance,2,Oklahoma,,,,,,,,,7-9 yds,,1,4,,,,11,0.36,0.09,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-11-24 Alabama at Oklahoma,distance,2,Oklahoma,,,,,,,,,9> yds,,4,15,,,,30,0.50,0.13,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-11-24 Alabama at Oklahoma,drive,1,Alabama,,,,,,2,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-11-24 Alabama at Oklahoma,drive,1,Alabama,,,,,,4,,,,,2,5,,,,11,0.45,0.18,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-11-24 Alabama at Oklahoma,drive,1,Alabama,,,,,,6,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-11-24 Alabama at Oklahoma,drive,1,Alabama,,,,,,8,,,,,0,2,,,,5,0.40,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-11-24 Alabama at Oklahoma,drive,1,Alabama,,,,,,10,,,,,0,0,,,,1,0.00,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-11-24 Alabama at Oklahoma,drive,1,Alabama,,,,,,11,,,,,0,1,,,,3,0.33,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-11-24 Alabama at Oklahoma,drive,1,Alabama,,,,,,13,,,,,0,5,,,,8,0.63,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-11-24 Alabama at Oklahoma,drive,1,Alabama,,,,,,14,,,,,0,2,,,,5,0.40,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-11-24 Alabama at Oklahoma,drive,1,Alabama,,,,,,16,,,,,0,2,,,,6,0.33,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-11-24 Alabama at Oklahoma,drive,1,Alabama,,,,,,18,,,,,2,4,,,,12,0.33,0.17,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
-2024-11-24 Alabama at Oklahoma,drive,2,Oklahoma,,,,,,1,,,,,0,1,,,,4,0.25,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-11-24 Alabama at Oklahoma,drive,2,Oklahoma,,,,,,3,,,,,1,2,,,,4,0.50,0.25,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-11-24 Alabama at Oklahoma,drive,2,Oklahoma,,,,,,5,,,,,1,4,,,,7,0.57,0.14,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-11-24 Alabama at Oklahoma,drive,2,Oklahoma,,,,,,7,,,,,1,4,,,,10,0.40,0.10,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-11-24 Alabama at Oklahoma,drive,2,Oklahoma,,,,,,9,,,,,1,9,,,,12,0.75,0.08,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-11-24 Alabama at Oklahoma,drive,2,Oklahoma,,,,,,12,,,,,0,4,,,,5,0.80,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-11-24 Alabama at Oklahoma,drive,2,Oklahoma,,,,,,15,,,,,0,2,,,,5,0.40,0.00,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-11-24 Alabama at Oklahoma,drive,2,Oklahoma,,,,,,17,,,,,1,2,,,,5,0.40,0.20,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-11-24 Alabama at Oklahoma,drive,2,Oklahoma,,,,,,19,,,,,1,2,,,,10,0.20,0.10,0.00,0.00,0.00,,,,#8C8C8CCC,#404040CC,,0.00
-2024-11-24 Alabama at Oklahoma,rusher,1,Alabama,,,,,,,,,,,0,7,,5,,,0.00,0.00,0.00,0.00,0.00,Jam Miller,,,#E82525CC,#5A0000CC,,0.00
-2024-11-24 Alabama at Oklahoma,rusher,1,Alabama,,,,,,,,,,,0,3,,0,,,0.00,0.00,0.00,0.00,0.00,Justice Haynes,,,#E82525CC,#5A0000CC,,0.00
-2024-11-24 Alabama at Oklahoma,rusher,1,Alabama,,,,,,,,,,,0,2,,12,,,0.00,0.00,0.00,0.00,0.00,Jalen Milroe,,,#E82525CC,#5A0000CC,,0.00
-2024-11-24 Alabama at Oklahoma,rusher,2,Oklahoma,,,,,,,,,,,2,10,,12,,,0.00,0.00,0.00,0.00,0.00,Jackson Arnold,,,#8C8C8CCC,#404040CC,,0.00
-2024-11-24 Alabama at Oklahoma,rusher,2,Oklahoma,,,,,,,,,,,2,7,,9,,,0.00,0.00,0.00,0.00,0.00,Xavier Robinson,,,#8C8C8CCC,#404040CC,,0.00
-2024-11-24 Alabama at Oklahoma,rusher,2,Oklahoma,,,,,,,,,,,0,1,,1,,,0.00,0.00,0.00,0.00,0.00,Gavin Sawchuk,,,#8C8C8CCC,#404040CC,,0.00
-2024-11-24 Alabama at Oklahoma,rusher,2,Oklahoma,,,,,,,,,,,0,0,,2,,,0.00,0.00,0.00,0.00,0.00,Taylor Tatum,,,#8C8C8CCC,#404040CC,,0.00
-2024-11-24 Alabama at Oklahoma,rusher,2,Oklahoma,,,,,,,,,,,0,0,,1,,,0.00,0.00,0.00,0.00,0.00,Jacob Jordan,,,#8C8C8CCC,#404040CC,,0.00
-2024-11-24 Alabama at Oklahoma,rusher,2,Oklahoma,,,,,,,,,,,0,0,,1,,,0.00,0.00,0.00,0.00,0.00,Zion Ragins,,,#8C8C8CCC,#404040CC,,0.00
-2024-11-24 Alabama at Oklahoma,passer,1,Alabama,,,,,,,,,,,4,5,2,12,3,,0.00,0.00,0.00,0.00,0.00,,Jalen Milroe,,#E82525CC,#5A0000CC,,0.00
-2024-11-24 Alabama at Oklahoma,passer,1,Alabama,,,,,,,,,,,0,0,0,1,0,,0.00,0.00,0.00,0.00,0.00,,Ty Simpson,,#E82525CC,#5A0000CC,,0.00
-2024-11-24 Alabama at Oklahoma,passer,2,Oklahoma,,,,,,,,,,,2,6,1,2,0,,0.00,0.00,0.00,0.00,0.00,,Jackson Arnold,,#8C8C8CCC,#404040CC,,0.00
-2024-11-24 Alabama at Oklahoma,passer,2,Oklahoma,,,,,,,,,,,0,0,0,1,0,,0.00,0.00,0.00,0.00,0.00,,Brenen Thompson,,#8C8C8CCC,#404040CC,,0.00
-2024-11-24 Alabama at Oklahoma,receiver,1,Alabama,,,,,,,,,,,2,2,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Germie Bernard,#E82525CC,#5A0000CC,,0.00
-2024-11-24 Alabama at Oklahoma,receiver,1,Alabama,,,,,,,,,,,1,1,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Josh Cuevas,#E82525CC,#5A0000CC,,0.00
-2024-11-24 Alabama at Oklahoma,receiver,1,Alabama,,,,,,,,,,,0,1,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Jam Miller,#E82525CC,#5A0000CC,,0.00
-2024-11-24 Alabama at Oklahoma,receiver,1,Alabama,,,,,,,,,,,0,1,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Kobe Prentice,#E82525CC,#5A0000CC,,0.00
-2024-11-24 Alabama at Oklahoma,receiver,1,Alabama,,,,,,,,,,,1,0,1,0,,,0.00,0.00,0.00,0.00,0.00,,,Ryan Williams,#E82525CC,#5A0000CC,,0.00
-2024-11-24 Alabama at Oklahoma,receiver,1,Alabama,,,,,,,,,,,0,0,1,0,,,0.00,0.00,0.00,0.00,0.00,,,Richard Young,#E82525CC,#5A0000CC,,0.00
-2024-11-24 Alabama at Oklahoma,receiver,2,Oklahoma,,,,,,,,,,,0,3,1,0,,,0.00,0.00,0.00,0.00,0.00,,,Xavier Robinson,#8C8C8CCC,#404040CC,,0.00
-2024-11-24 Alabama at Oklahoma,receiver,2,Oklahoma,,,,,,,,,,,1,1,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Bauer Sharp,#8C8C8CCC,#404040CC,,0.00
-2024-11-24 Alabama at Oklahoma,receiver,2,Oklahoma,,,,,,,,,,,0,1,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Jacob Jordan,#8C8C8CCC,#404040CC,,0.00
-2024-11-24 Alabama at Oklahoma,receiver,2,Oklahoma,,,,,,,,,,,0,1,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Jake Roberts,#8C8C8CCC,#404040CC,,0.00
-2024-11-24 Alabama at Oklahoma,receiver,2,Oklahoma,,,,,,,,,,,1,0,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Brenen Thompson,#8C8C8CCC,#404040CC,,0.00
-2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,1,1,Jackson Arnold run for 12 yds to the OU 36 for a 1ST down,Rush,1,1,1,Other,10,12,0,1,,,,,1.00,0.00,1.00,0.00,1.00,Jackson Arnold,,,#8C8C8CCC,#404040CC,7,7.00
-2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,2,2,Jackson Arnold run for 1 yd to the OU 37,Rush,1,1,1,Other,10,1,0,0,,,,,0.50,0.00,0.50,0.00,1.00,Jackson Arnold,,,#8C8C8CCC,#404040CC,-4,1.50
-2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,3,3,Zion Ragins run for 3 yds to the OU 40,Rush,1,1,2,Other,9,3,0,0,,,,,0.33,0.00,0.33,0.00,1.00,Zion Ragins,,,#8C8C8CCC,#404040CC,-3.3,-0.10
-2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,4,4,Jackson Arnold pass incomplete to Brenen Thompson,Pass,1,1,3,Other,6,0,0,0,,,,,0.00,0.00,0.25,0.00,0.75,,Jackson Arnold,,#8C8C8CCC,#404040CC,-6,-1.58
-2024-11-24 Alabama at Oklahoma,plays,1,Alabama,5,1,Jalen Milroe run for 1 yd to the ALA 26,Rush,1,2,1,Other,10,1,0,0,,,,,0.00,0.00,0.00,0.00,1.00,Jalen Milroe,,,#E82525CC,#5A0000CC,-4,-4.00
-2024-11-24 Alabama at Oklahoma,plays,1,Alabama,6,2,Jalen Milroe run for 1 yd to the ALA 32,Rush,1,2,2,Other,4,1,0,0,,,,,0.00,0.00,0.00,0.00,1.00,Jalen Milroe,,,#E82525CC,#5A0000CC,-1.8,-2.90
-2024-11-24 Alabama at Oklahoma,plays,1,Alabama,7,3,Jalen Milroe pass incomplete to Ryan Williams,Pass,1,2,3,Other,3,0,0,0,,,,,0.00,0.00,0.00,0.00,0.67,,Jalen Milroe,,#E82525CC,#5A0000CC,-3,-2.93
-2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,8,5,Xavier Robinson run for 40 yds to the ALA 35 for a 1ST down,Rush,1,3,1,Other,10,40,1,1,,,,,0.50,0.25,0.40,0.20,0.80,Xavier Robinson,,,#8C8C8CCC,#404040CC,35,5.74
-2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,9,6,Taylor Tatum run for 2 yds to the ALA 33,Rush,1,3,1,Other,10,2,0,0,,,,,0.40,0.20,0.33,0.17,0.83,Taylor Tatum,,,#8C8C8CCC,#404040CC,-3,4.28
-2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,10,7,Jackson Arnold run for 6 yds to the ALA 27,Rush,1,3,2,Other,8,6,0,1,,,,,0.50,0.17,0.43,0.14,0.86,Jackson Arnold,,,#8C8C8CCC,#404040CC,0.4,3.73
+2024-11-24 Alabama at Oklahoma,teams,1,Alabama,,,,,,,,,,,4,21,,,,57,0.37,0.07,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-11-24 Alabama at Oklahoma,teams,2,Oklahoma,,,,,,,,,,,6,30,,,,62,0.48,0.1,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-11-24 Alabama at Oklahoma,play_type,1,Alabama,,,,Rush,,,,,,,0,12,,,,29,0.41,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-11-24 Alabama at Oklahoma,play_type,2,Oklahoma,,,,Rush,,,,,,,4,22,,,,49,0.45,0.08,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-11-24 Alabama at Oklahoma,play_type,1,Alabama,,,,Pass,,,,,,,4,9,,,,28,0.32,0.14,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-11-24 Alabama at Oklahoma,play_type,2,Oklahoma,,,,Pass,,,,,,,2,8,,,,13,0.62,0.15,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-11-24 Alabama at Oklahoma,quarter,1,Alabama,,,,,1Q,,,,,,2,5,,,,16,0.31,0.13,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-11-24 Alabama at Oklahoma,quarter,1,Alabama,,,,,2Q,,,,,,0,2,,,,7,0.29,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-11-24 Alabama at Oklahoma,quarter,1,Alabama,,,,,3Q,,,,,,0,10,,,,21,0.48,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-11-24 Alabama at Oklahoma,quarter,1,Alabama,,,,,4Q,,,,,,2,4,,,,13,0.31,0.15,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-11-24 Alabama at Oklahoma,quarter,2,Oklahoma,,,,,1Q,,,,,,2,7,,,,15,0.47,0.13,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-11-24 Alabama at Oklahoma,quarter,2,Oklahoma,,,,,2Q,,,,,,2,13,,,,22,0.59,0.09,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-11-24 Alabama at Oklahoma,quarter,2,Oklahoma,,,,,3Q,,,,,,0,6,,,,10,0.6,0,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-11-24 Alabama at Oklahoma,quarter,2,Oklahoma,,,,,4Q,,,,,,2,4,,,,15,0.27,0.13,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-11-24 Alabama at Oklahoma,down,1,Alabama,,,,,,,1D,,,,0,8,,,,23,0.35,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-11-24 Alabama at Oklahoma,down,1,Alabama,,,,,,,2D,,,,0,6,,,,19,0.32,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-11-24 Alabama at Oklahoma,down,1,Alabama,,,,,,,3D,,,,4,7,,,,14,0.5,0.29,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-11-24 Alabama at Oklahoma,down,1,Alabama,,,,,,,4D,,,,0,0,,,,1,0,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-11-24 Alabama at Oklahoma,down,2,Oklahoma,,,,,,,1D,,,,3,13,,,,26,0.5,0.12,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-11-24 Alabama at Oklahoma,down,2,Oklahoma,,,,,,,2D,,,,1,9,,,,20,0.45,0.05,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-11-24 Alabama at Oklahoma,down,2,Oklahoma,,,,,,,3D,,,,2,7,,,,15,0.47,0.13,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-11-24 Alabama at Oklahoma,down,2,Oklahoma,,,,,,,4D,,,,0,1,,,,1,1,0,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-11-24 Alabama at Oklahoma,red_zone,1,Alabama,,,,,,,,Other,,,4,20,,,,54,0.37,0.07,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-11-24 Alabama at Oklahoma,red_zone,1,Alabama,,,,,,,,Red zone,,,0,1,,,,3,0.33,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-11-24 Alabama at Oklahoma,red_zone,2,Oklahoma,,,,,,,,Other,,,5,24,,,,51,0.47,0.1,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-11-24 Alabama at Oklahoma,red_zone,2,Oklahoma,,,,,,,,Red zone,,,1,6,,,,11,0.55,0.09,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-11-24 Alabama at Oklahoma,distance,1,Alabama,,,,,,,,,0-3 yds,,0,4,,,,8,0.5,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-11-24 Alabama at Oklahoma,distance,1,Alabama,,,,,,,,,4-6 yds,,0,2,,,,5,0.4,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-11-24 Alabama at Oklahoma,distance,1,Alabama,,,,,,,,,7-9 yds,,1,4,,,,7,0.57,0.14,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-11-24 Alabama at Oklahoma,distance,1,Alabama,,,,,,,,,9> yds,,3,11,,,,37,0.3,0.08,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-11-24 Alabama at Oklahoma,distance,2,Oklahoma,,,,,,,,,0-3 yds,,0,7,,,,12,0.58,0,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-11-24 Alabama at Oklahoma,distance,2,Oklahoma,,,,,,,,,4-6 yds,,1,4,,,,9,0.44,0.11,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-11-24 Alabama at Oklahoma,distance,2,Oklahoma,,,,,,,,,7-9 yds,,1,4,,,,11,0.36,0.09,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-11-24 Alabama at Oklahoma,distance,2,Oklahoma,,,,,,,,,9> yds,,4,15,,,,30,0.5,0.13,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-11-24 Alabama at Oklahoma,drive,1,Alabama,,,,,,2,,,,,0,0,,,,3,0,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-11-24 Alabama at Oklahoma,drive,1,Alabama,,,,,,4,,,,,2,5,,,,11,0.45,0.18,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-11-24 Alabama at Oklahoma,drive,1,Alabama,,,,,,6,,,,,0,0,,,,3,0,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-11-24 Alabama at Oklahoma,drive,1,Alabama,,,,,,8,,,,,0,2,,,,5,0.4,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-11-24 Alabama at Oklahoma,drive,1,Alabama,,,,,,10,,,,,0,0,,,,1,0,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-11-24 Alabama at Oklahoma,drive,1,Alabama,,,,,,11,,,,,0,1,,,,3,0.33,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-11-24 Alabama at Oklahoma,drive,1,Alabama,,,,,,13,,,,,0,5,,,,8,0.63,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-11-24 Alabama at Oklahoma,drive,1,Alabama,,,,,,14,,,,,0,2,,,,5,0.4,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-11-24 Alabama at Oklahoma,drive,1,Alabama,,,,,,16,,,,,0,2,,,,6,0.33,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-11-24 Alabama at Oklahoma,drive,1,Alabama,,,,,,18,,,,,2,4,,,,12,0.33,0.17,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-11-24 Alabama at Oklahoma,drive,2,Oklahoma,,,,,,1,,,,,0,1,,,,4,0.25,0,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-11-24 Alabama at Oklahoma,drive,2,Oklahoma,,,,,,3,,,,,1,2,,,,4,0.5,0.25,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-11-24 Alabama at Oklahoma,drive,2,Oklahoma,,,,,,5,,,,,1,4,,,,7,0.57,0.14,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-11-24 Alabama at Oklahoma,drive,2,Oklahoma,,,,,,7,,,,,1,4,,,,10,0.4,0.1,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-11-24 Alabama at Oklahoma,drive,2,Oklahoma,,,,,,9,,,,,1,9,,,,12,0.75,0.08,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-11-24 Alabama at Oklahoma,drive,2,Oklahoma,,,,,,12,,,,,0,4,,,,5,0.8,0,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-11-24 Alabama at Oklahoma,drive,2,Oklahoma,,,,,,15,,,,,0,2,,,,5,0.4,0,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-11-24 Alabama at Oklahoma,drive,2,Oklahoma,,,,,,17,,,,,1,2,,,,5,0.4,0.2,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-11-24 Alabama at Oklahoma,drive,2,Oklahoma,,,,,,19,,,,,1,2,,,,10,0.2,0.1,0,0,0,,,,#8C8C8CCC,#404040CC,,0
+2024-11-24 Alabama at Oklahoma,rusher,1,Alabama,,,,,,,,,,,0,7,,5,,,0,0,0,0,0,Jam Miller,,,#E82525CC,#5A0000CC,,0
+2024-11-24 Alabama at Oklahoma,rusher,1,Alabama,,,,,,,,,,,0,3,,0,,,0,0,0,0,0,Justice Haynes,,,#E82525CC,#5A0000CC,,0
+2024-11-24 Alabama at Oklahoma,rusher,1,Alabama,,,,,,,,,,,0,2,,12,,,0,0,0,0,0,Jalen Milroe,,,#E82525CC,#5A0000CC,,0
+2024-11-24 Alabama at Oklahoma,rusher,2,Oklahoma,,,,,,,,,,,2,10,,12,,,0,0,0,0,0,Jackson Arnold,,,#8C8C8CCC,#404040CC,,0
+2024-11-24 Alabama at Oklahoma,rusher,2,Oklahoma,,,,,,,,,,,2,7,,9,,,0,0,0,0,0,Xavier Robinson,,,#8C8C8CCC,#404040CC,,0
+2024-11-24 Alabama at Oklahoma,rusher,2,Oklahoma,,,,,,,,,,,0,1,,1,,,0,0,0,0,0,Gavin Sawchuk,,,#8C8C8CCC,#404040CC,,0
+2024-11-24 Alabama at Oklahoma,rusher,2,Oklahoma,,,,,,,,,,,0,0,,2,,,0,0,0,0,0,Taylor Tatum,,,#8C8C8CCC,#404040CC,,0
+2024-11-24 Alabama at Oklahoma,rusher,2,Oklahoma,,,,,,,,,,,0,0,,1,,,0,0,0,0,0,Jacob Jordan,,,#8C8C8CCC,#404040CC,,0
+2024-11-24 Alabama at Oklahoma,rusher,2,Oklahoma,,,,,,,,,,,0,0,,1,,,0,0,0,0,0,Zion Ragins,,,#8C8C8CCC,#404040CC,,0
+2024-11-24 Alabama at Oklahoma,passer,1,Alabama,,,,,,,,,,,4,5,2,12,2,,0,0,0,0,0,,Jalen Milroe,,#E82525CC,#5A0000CC,,0
+2024-11-24 Alabama at Oklahoma,passer,1,Alabama,,,,,,,,,,,0,0,0,1,0,,0,0,0,0,0,,Ty Simpson,,#E82525CC,#5A0000CC,,0
+2024-11-24 Alabama at Oklahoma,passer,2,Oklahoma,,,,,,,,,,,2,6,1,2,0,,0,0,0,0,0,,Jackson Arnold,,#8C8C8CCC,#404040CC,,0
+2024-11-24 Alabama at Oklahoma,passer,2,Oklahoma,,,,,,,,,,,0,0,0,1,0,,0,0,0,0,0,,Brenen Thompson,,#8C8C8CCC,#404040CC,,0
+2024-11-24 Alabama at Oklahoma,receiver,1,Alabama,,,,,,,,,,,2,2,0,0,,,0,0,0,0,0,,,Germie Bernard,#E82525CC,#5A0000CC,,0
+2024-11-24 Alabama at Oklahoma,receiver,1,Alabama,,,,,,,,,,,1,1,0,0,,,0,0,0,0,0,,,Josh Cuevas,#E82525CC,#5A0000CC,,0
+2024-11-24 Alabama at Oklahoma,receiver,1,Alabama,,,,,,,,,,,0,1,0,0,,,0,0,0,0,0,,,Jam Miller,#E82525CC,#5A0000CC,,0
+2024-11-24 Alabama at Oklahoma,receiver,1,Alabama,,,,,,,,,,,0,1,0,0,,,0,0,0,0,0,,,Kobe Prentice,#E82525CC,#5A0000CC,,0
+2024-11-24 Alabama at Oklahoma,receiver,1,Alabama,,,,,,,,,,,1,0,1,0,,,0,0,0,0,0,,,Ryan Williams,#E82525CC,#5A0000CC,,0
+2024-11-24 Alabama at Oklahoma,receiver,1,Alabama,,,,,,,,,,,0,0,1,0,,,0,0,0,0,0,,,Richard Young,#E82525CC,#5A0000CC,,0
+2024-11-24 Alabama at Oklahoma,receiver,2,Oklahoma,,,,,,,,,,,0,3,1,0,,,0,0,0,0,0,,,Xavier Robinson,#8C8C8CCC,#404040CC,,0
+2024-11-24 Alabama at Oklahoma,receiver,2,Oklahoma,,,,,,,,,,,1,1,0,0,,,0,0,0,0,0,,,Bauer Sharp,#8C8C8CCC,#404040CC,,0
+2024-11-24 Alabama at Oklahoma,receiver,2,Oklahoma,,,,,,,,,,,0,1,0,0,,,0,0,0,0,0,,,Jacob Jordan,#8C8C8CCC,#404040CC,,0
+2024-11-24 Alabama at Oklahoma,receiver,2,Oklahoma,,,,,,,,,,,0,1,0,0,,,0,0,0,0,0,,,Jake Roberts,#8C8C8CCC,#404040CC,,0
+2024-11-24 Alabama at Oklahoma,receiver,2,Oklahoma,,,,,,,,,,,1,0,0,0,,,0,0,0,0,0,,,Brenen Thompson,#8C8C8CCC,#404040CC,,0
+2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,1,1,Jackson Arnold run for 12 yds to the OU 36 for a 1ST down,Rush,1,1,1,Other,10,12,0,1,,,,,1,0,1,0,1,Jackson Arnold,,,#8C8C8CCC,#404040CC,7,7
+2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,2,2,Jackson Arnold run for 1 yd to the OU 37,Rush,1,1,1,Other,10,1,0,0,,,,,0.5,0,0.5,0,1,Jackson Arnold,,,#8C8C8CCC,#404040CC,-4,1.5
+2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,3,3,Zion Ragins run for 3 yds to the OU 40,Rush,1,1,2,Other,9,3,0,0,,,,,0.33,0,0.33,0,1,Zion Ragins,,,#8C8C8CCC,#404040CC,-3.3,-0.1
+2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,4,4,Jackson Arnold pass incomplete to Brenen Thompson,Pass,1,1,3,Other,6,0,0,0,,,,,0,0,0.25,0,0.75,,Jackson Arnold,,#8C8C8CCC,#404040CC,-6,-1.58
+2024-11-24 Alabama at Oklahoma,plays,1,Alabama,5,1,Jalen Milroe run for 1 yd to the ALA 26,Rush,1,2,1,Other,10,1,0,0,,,,,0,0,0,0,1,Jalen Milroe,,,#E82525CC,#5A0000CC,-4,-4
+2024-11-24 Alabama at Oklahoma,plays,1,Alabama,6,2,Jalen Milroe run for 1 yd to the ALA 32,Rush,1,2,2,Other,4,1,0,0,,,,,0,0,0,0,1,Jalen Milroe,,,#E82525CC,#5A0000CC,-1.8,-2.9
+2024-11-24 Alabama at Oklahoma,plays,1,Alabama,7,3,Jalen Milroe pass incomplete to Ryan Williams,Pass,1,2,3,Other,3,0,0,0,,,,,0,0,0,0,0.67,,Jalen Milroe,,#E82525CC,#5A0000CC,-3,-2.93
+2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,8,5,Xavier Robinson run for 40 yds to the ALA 35 for a 1ST down,Rush,1,3,1,Other,10,40,1,1,,,,,0.5,0.25,0.4,0.2,0.8,Xavier Robinson,,,#8C8C8CCC,#404040CC,35,5.74
+2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,9,6,Taylor Tatum run for 2 yds to the ALA 33,Rush,1,3,1,Other,10,2,0,0,,,,,0.4,0.2,0.33,0.17,0.83,Taylor Tatum,,,#8C8C8CCC,#404040CC,-3,4.28
+2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,10,7,Jackson Arnold run for 6 yds to the ALA 27,Rush,1,3,2,Other,8,6,0,1,,,,,0.5,0.17,0.43,0.14,0.86,Jackson Arnold,,,#8C8C8CCC,#404040CC,0.4,3.73
 2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,11,8,"Taylor Tatum run for 6 yds to the ALA 21 Taylor Tatum fumbled, recovered by ALA Deontae Lawson",Rush,1,3,3,Other,2,6,0,0,,,,,0.43,0.14,0.38,0.13,0.88,Taylor Tatum,,,#8C8C8CCC,#404040CC,4,3.76
-2024-11-24 Alabama at Oklahoma,plays,1,Alabama,12,4,Jalen Milroe pass incomplete to Ryan Williams,Pass,1,4,1,Other,15,0,0,0,,,,,0.00,0.00,0.00,0.00,0.50,,Jalen Milroe,,#E82525CC,#5A0000CC,-7.5,-4.08
-2024-11-24 Alabama at Oklahoma,plays,1,Alabama,13,5,Jalen Milroe run for a loss of 1 yard to the ALA 15,Rush,1,4,2,Other,15,-1,0,0,,,,,0.00,0.00,0.00,0.00,0.60,Jalen Milroe,,,#E82525CC,#5A0000CC,-11.5,-5.56
-2024-11-24 Alabama at Oklahoma,plays,1,Alabama,14,6,Jalen Milroe pass complete to Germie Bernard for 32 yds to the ALA 47 for a 1ST down,Pass,1,4,3,Other,16,32,1,1,,,,,0.33,0.33,0.17,0.17,0.50,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,16,-1.97
-2024-11-24 Alabama at Oklahoma,plays,1,Alabama,15,7,Justice Haynes run for 7 yds to the OU 46,Rush,1,4,1,Other,10,7,0,1,,,,,0.25,0.00,0.29,0.14,0.57,Justice Haynes,,,#E82525CC,#5A0000CC,2,-1.40
-2024-11-24 Alabama at Oklahoma,plays,1,Alabama,16,8,Justice Haynes run for 5 yds to the OU 41 for a 1ST down,Rush,1,4,2,Other,3,5,0,1,,,,,0.40,0.00,0.38,0.13,0.63,Justice Haynes,,,#E82525CC,#5A0000CC,2.9,-0.86
-2024-11-24 Alabama at Oklahoma,plays,1,Alabama,17,9,Jalen Milroe run for 4 yds to the OU 37,Rush,1,4,1,Other,10,4,0,0,,,,,0.33,0.00,0.33,0.11,0.67,Jalen Milroe,,,#E82525CC,#5A0000CC,-1,-0.88
-2024-11-24 Alabama at Oklahoma,plays,1,Alabama,18,10,Jalen Milroe run for a loss of 4 yards to the OU 41,Rush,1,4,2,Other,6,-4,0,0,,,,,0.29,0.00,0.30,0.10,0.70,Jalen Milroe,,,#E82525CC,#5A0000CC,-8.2,-1.61
-2024-11-24 Alabama at Oklahoma,plays,1,Alabama,19,11,Jalen Milroe pass complete to Ryan Williams for 30 yds to the OU 11 for a 1ST down,Pass,1,4,3,Other,10,30,1,1,,,,,0.50,0.50,0.36,0.18,0.64,,Jalen Milroe,Ryan Williams,#E82525CC,#5A0000CC,20,0.35
-2024-11-24 Alabama at Oklahoma,plays,1,Alabama,20,12,Jalen Milroe run for 7 yds to the OU 4,Rush,1,4,1,Red zone,10,7,0,1,,,,,0.38,0.00,0.42,0.17,0.67,Jalen Milroe,,,#E82525CC,#5A0000CC,2,0.49
-2024-11-24 Alabama at Oklahoma,plays,1,Alabama,21,13,Jalen Milroe run for a loss of 3 yards to the OU 7,Rush,1,4,2,Red zone,3,-3,0,0,,,,,0.33,0.00,0.38,0.15,0.69,Jalen Milroe,,,#E82525CC,#5A0000CC,-5.1,0.06
-2024-11-24 Alabama at Oklahoma,plays,1,Alabama,22,14,Jam Miller run for 3 yds to the OU 4,Rush,1,4,3,Red zone,6,3,0,0,,,,,0.30,0.00,0.36,0.14,0.71,Jam Miller,,,#E82525CC,#5A0000CC,-3,-0.16
-2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,23,9,Jackson Arnold run for 11 yds to the OU 36 for a 1ST down,Rush,1,5,1,Other,10,11,0,1,,,,,0.50,0.13,0.44,0.11,0.89,Jackson Arnold,,,#8C8C8CCC,#404040CC,6,4.01
-2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,24,10,Jackson Arnold pass complete to Xavier Robinson for 9 yds to the OU 45,Pass,1,5,1,Other,10,9,0,1,,,,,0.50,0.00,0.50,0.10,0.80,,Jackson Arnold,Xavier Robinson,#8C8C8CCC,#404040CC,4,4.01
-2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,25,11,Jackson Arnold pass complete to Xavier Robinson for 6 yds to the ALA 49 for a 1ST down,Pass,1,5,2,Other,1,6,0,1,,,,,0.67,0.00,0.55,0.09,0.73,,Jackson Arnold,Xavier Robinson,#8C8C8CCC,#404040CC,5.3,4.13
-2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,26,12,Jackson Arnold run for 28 yds to the ALA 21 for a 1ST down,Rush,1,5,1,Other,10,28,1,1,,,,,0.56,0.22,0.58,0.17,0.75,Jackson Arnold,,,#8C8C8CCC,#404040CC,23,5.70
-2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,27,13,Gavin Sawchuk run for no gain to the ALA 21,Rush,1,5,1,Other,10,0,0,0,,,,,0.50,0.20,0.54,0.15,0.77,Gavin Sawchuk,,,#8C8C8CCC,#404040CC,-5,4.88
-2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,28,14,Jackson Arnold pass incomplete to Bauer Sharp,Pass,1,5,2,Other,10,0,0,0,,,,,0.50,0.00,0.50,0.14,0.71,,Jackson Arnold,,#8C8C8CCC,#404040CC,-7,4.03
-2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,29,15,Brenen Thompson pass incomplete to Bauer Sharp,Pass,1,5,3,Other,10,0,0,0,,,,,0.40,0.00,0.47,0.13,0.67,,Brenen Thompson,,#8C8C8CCC,#404040CC,-10,3.09
-2024-11-24 Alabama at Oklahoma,plays,1,Alabama,30,15,Jalen Milroe pass incomplete to Germie Bernard,Pass,1,6,1,Other,10,0,0,0,,,,,0.40,0.40,0.33,0.13,0.67,,Jalen Milroe,,#E82525CC,#5A0000CC,-5,-0.48
+2024-11-24 Alabama at Oklahoma,plays,1,Alabama,12,4,Jalen Milroe pass incomplete to Ryan Williams,Pass,1,4,1,Other,15,0,0,0,,,,,0,0,0,0,0.5,,Jalen Milroe,,#E82525CC,#5A0000CC,-7.5,-4.08
+2024-11-24 Alabama at Oklahoma,plays,1,Alabama,13,5,Jalen Milroe run for a loss of 1 yard to the ALA 15,Rush,1,4,2,Other,15,-1,0,0,,,,,0,0,0,0,0.6,Jalen Milroe,,,#E82525CC,#5A0000CC,-11.5,-5.56
+2024-11-24 Alabama at Oklahoma,plays,1,Alabama,14,6,Jalen Milroe pass complete to Germie Bernard for 32 yds to the ALA 47 for a 1ST down,Pass,1,4,3,Other,16,32,1,1,,,,,0.33,0.33,0.17,0.17,0.5,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,16,-1.97
+2024-11-24 Alabama at Oklahoma,plays,1,Alabama,15,7,Justice Haynes run for 7 yds to the OU 46,Rush,1,4,1,Other,10,7,0,1,,,,,0.25,0,0.29,0.14,0.57,Justice Haynes,,,#E82525CC,#5A0000CC,2,-1.4
+2024-11-24 Alabama at Oklahoma,plays,1,Alabama,16,8,Justice Haynes run for 5 yds to the OU 41 for a 1ST down,Rush,1,4,2,Other,3,5,0,1,,,,,0.4,0,0.38,0.13,0.63,Justice Haynes,,,#E82525CC,#5A0000CC,2.9,-0.86
+2024-11-24 Alabama at Oklahoma,plays,1,Alabama,17,9,Jalen Milroe run for 4 yds to the OU 37,Rush,1,4,1,Other,10,4,0,0,,,,,0.33,0,0.33,0.11,0.67,Jalen Milroe,,,#E82525CC,#5A0000CC,-1,-0.88
+2024-11-24 Alabama at Oklahoma,plays,1,Alabama,18,10,Jalen Milroe run for a loss of 4 yards to the OU 41,Rush,1,4,2,Other,6,-4,0,0,,,,,0.29,0,0.3,0.1,0.7,Jalen Milroe,,,#E82525CC,#5A0000CC,-8.2,-1.61
+2024-11-24 Alabama at Oklahoma,plays,1,Alabama,19,11,Jalen Milroe pass complete to Ryan Williams for 30 yds to the OU 11 for a 1ST down,Pass,1,4,3,Other,10,30,1,1,,,,,0.5,0.5,0.36,0.18,0.64,,Jalen Milroe,Ryan Williams,#E82525CC,#5A0000CC,20,0.35
+2024-11-24 Alabama at Oklahoma,plays,1,Alabama,20,12,Jalen Milroe run for 7 yds to the OU 4,Rush,1,4,1,Red zone,10,7,0,1,,,,,0.38,0,0.42,0.17,0.67,Jalen Milroe,,,#E82525CC,#5A0000CC,2,0.49
+2024-11-24 Alabama at Oklahoma,plays,1,Alabama,21,13,Jalen Milroe run for a loss of 3 yards to the OU 7,Rush,1,4,2,Red zone,3,-3,0,0,,,,,0.33,0,0.38,0.15,0.69,Jalen Milroe,,,#E82525CC,#5A0000CC,-5.1,0.06
+2024-11-24 Alabama at Oklahoma,plays,1,Alabama,22,14,Jam Miller run for 3 yds to the OU 4,Rush,1,4,3,Red zone,6,3,0,0,,,,,0.3,0,0.36,0.14,0.71,Jam Miller,,,#E82525CC,#5A0000CC,-3,-0.16
+2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,23,9,Jackson Arnold run for 11 yds to the OU 36 for a 1ST down,Rush,1,5,1,Other,10,11,0,1,,,,,0.5,0.13,0.44,0.11,0.89,Jackson Arnold,,,#8C8C8CCC,#404040CC,6,4.01
+2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,24,10,Jackson Arnold pass complete to Xavier Robinson for 9 yds to the OU 45,Pass,1,5,1,Other,10,9,0,1,,,,,0.5,0,0.5,0.1,0.8,,Jackson Arnold,Xavier Robinson,#8C8C8CCC,#404040CC,4,4.01
+2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,25,11,Jackson Arnold pass complete to Xavier Robinson for 6 yds to the ALA 49 for a 1ST down,Pass,1,5,2,Other,1,6,0,1,,,,,0.67,0,0.55,0.09,0.73,,Jackson Arnold,Xavier Robinson,#8C8C8CCC,#404040CC,5.3,4.13
+2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,26,12,Jackson Arnold run for 28 yds to the ALA 21 for a 1ST down,Rush,1,5,1,Other,10,28,1,1,,,,,0.56,0.22,0.58,0.17,0.75,Jackson Arnold,,,#8C8C8CCC,#404040CC,23,5.7
+2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,27,13,Gavin Sawchuk run for no gain to the ALA 21,Rush,1,5,1,Other,10,0,0,0,,,,,0.5,0.2,0.54,0.15,0.77,Gavin Sawchuk,,,#8C8C8CCC,#404040CC,-5,4.88
+2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,28,14,Jackson Arnold pass incomplete to Bauer Sharp,Pass,1,5,2,Other,10,0,0,0,,,,,0.5,0,0.5,0.14,0.71,,Jackson Arnold,,#8C8C8CCC,#404040CC,-7,4.03
+2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,29,15,Brenen Thompson pass incomplete to Bauer Sharp,Pass,1,5,3,Other,10,0,0,0,,,,,0.4,0,0.47,0.13,0.67,,Brenen Thompson,,#8C8C8CCC,#404040CC,-10,3.09
+2024-11-24 Alabama at Oklahoma,plays,1,Alabama,30,15,Jalen Milroe pass incomplete to Germie Bernard,Pass,1,6,1,Other,10,0,0,0,,,,,0.4,0.4,0.33,0.13,0.67,,Jalen Milroe,,#E82525CC,#5A0000CC,-5,-0.48
 2024-11-24 Alabama at Oklahoma,plays,1,Alabama,31,16,Jalen Milroe pass incomplete to Ryan Williams,Pass,1,6,2,Other,10,0,0,0,,,,,0.33,0.33,0.31,0.13,0.63,,Jalen Milroe,,#E82525CC,#5A0000CC,-7,-0.89
-2024-11-24 Alabama at Oklahoma,plays,1,Alabama,32,17,Jalen Milroe run for a loss of 2 yards to the ALA 19,Rush,2,6,3,Other,10,-2,0,0,,,,,0.27,0.00,0.29,0.12,0.65,Jalen Milroe,,,#E82525CC,#5A0000CC,-12,-1.54
+2024-11-24 Alabama at Oklahoma,plays,1,Alabama,32,17,Jalen Milroe run for a loss of 2 yards to the ALA 19,Rush,2,6,3,Other,10,-2,0,0,,,,,0.27,0,0.29,0.12,0.65,Jalen Milroe,,,#E82525CC,#5A0000CC,-12,-1.54
 2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,33,16,Xavier Robinson run for 3 yds to the OU 41,Rush,2,7,1,Other,10,3,0,0,,,,,0.45,0.18,0.44,0.13,0.69,Xavier Robinson,,,#8C8C8CCC,#404040CC,-2,2.78
 2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,34,17,Jackson Arnold run for 1 yd to the OU 42,Rush,2,7,2,Other,7,1,0,0,,,,,0.42,0.17,0.41,0.12,0.71,Jackson Arnold,,,#8C8C8CCC,#404040CC,-3.9,2.38
-2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,35,18,Jackson Arnold pass complete to Brenen Thompson for 19 yds to the ALA 39 for a 1ST down,Pass,2,7,3,Other,6,19,1,1,,,,,0.50,0.17,0.44,0.17,0.67,,Jackson Arnold,Brenen Thompson,#8C8C8CCC,#404040CC,13,2.97
+2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,35,18,Jackson Arnold pass complete to Brenen Thompson for 19 yds to the ALA 39 for a 1ST down,Pass,2,7,3,Other,6,19,1,1,,,,,0.5,0.17,0.44,0.17,0.67,,Jackson Arnold,Brenen Thompson,#8C8C8CCC,#404040CC,13,2.97
 2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,36,19,Xavier Robinson run for 12 yds to the ALA 27 for a 1ST down,Rush,2,7,1,Other,10,12,0,1,,,,,0.46,0.15,0.47,0.16,0.68,Xavier Robinson,,,#8C8C8CCC,#404040CC,7,3.18
-2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,37,20,Jackson Arnold run for no gain to the ALA 27,Rush,2,7,1,Other,10,0,0,0,,,,,0.43,0.14,0.45,0.15,0.70,Jackson Arnold,,,#8C8C8CCC,#404040CC,-5,2.78
+2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,37,20,Jackson Arnold run for no gain to the ALA 27,Rush,2,7,1,Other,10,0,0,0,,,,,0.43,0.14,0.45,0.15,0.7,Jackson Arnold,,,#8C8C8CCC,#404040CC,-5,2.78
 2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,38,21,Jackson Arnold run for 8 yds to the ALA 19,Rush,2,7,2,Other,10,8,0,1,,,,,0.47,0.13,0.48,0.14,0.71,Jackson Arnold,,,#8C8C8CCC,#404040CC,1,2.69
-2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,39,22,Jackson Arnold run for 2 yds to the ALA 17 for a 1ST down,Rush,2,7,3,Red zone,2,2,0,1,,,,,0.50,0.13,0.50,0.14,0.73,Jackson Arnold,,,#8C8C8CCC,#404040CC,0,2.57
+2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,39,22,Jackson Arnold run for 2 yds to the ALA 17 for a 1ST down,Rush,2,7,3,Red zone,2,2,0,1,,,,,0.5,0.13,0.5,0.14,0.73,Jackson Arnold,,,#8C8C8CCC,#404040CC,0,2.57
 2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,40,23,Jackson Arnold run for 1 yd to the ALA 16,Rush,2,7,1,Red zone,10,1,0,0,,,,,0.47,0.12,0.48,0.13,0.74,Jackson Arnold,,,#8C8C8CCC,#404040CC,-4,2.28
 2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,41,24,Jackson Arnold run for 2 yds to the ALA 14,Rush,2,7,2,Red zone,9,2,0,0,,,,,0.44,0.11,0.46,0.13,0.75,Jackson Arnold,,,#8C8C8CCC,#404040CC,-4.3,2.01
 2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,42,25,Jacob Jordan run for 3 yds to the ALA 11,Rush,2,7,3,Red zone,7,3,0,0,,,,,0.42,0.11,0.44,0.12,0.76,Jacob Jordan,,,#8C8C8CCC,#404040CC,-4,1.77
-2024-11-24 Alabama at Oklahoma,plays,1,Alabama,43,18,Jam Miller run for 9 yds to the ALA 34,Rush,2,8,1,Other,10,9,0,1,,,,,0.33,0.00,0.33,0.11,0.67,Jam Miller,,,#E82525CC,#5A0000CC,4,-1.23
-2024-11-24 Alabama at Oklahoma,plays,1,Alabama,44,19,Jam Miller run for 8 yds to the ALA 42 for a 1ST down,Rush,2,8,2,Other,1,8,0,1,,,,,0.38,0.00,0.37,0.11,0.68,Jam Miller,,,#E82525CC,#5A0000CC,7.3,-0.78
-2024-11-24 Alabama at Oklahoma,plays,1,Alabama,45,20,Jam Miller run for 2 yds to the ALA 44,Rush,2,8,1,Other,10,2,0,0,,,,,0.36,0.00,0.35,0.10,0.70,Jam Miller,,,#E82525CC,#5A0000CC,-3,-0.90
-2024-11-24 Alabama at Oklahoma,plays,1,Alabama,46,21,Jalen Milroe run for a loss of 5 yards to the ALA 39,Rush,2,8,2,Other,8,-5,0,0,,,,,0.33,0.00,0.33,0.10,0.71,Jalen Milroe,,,#E82525CC,#5A0000CC,-10.6,-1.36
+2024-11-24 Alabama at Oklahoma,plays,1,Alabama,43,18,Jam Miller run for 9 yds to the ALA 34,Rush,2,8,1,Other,10,9,0,1,,,,,0.33,0,0.33,0.11,0.67,Jam Miller,,,#E82525CC,#5A0000CC,4,-1.23
+2024-11-24 Alabama at Oklahoma,plays,1,Alabama,44,19,Jam Miller run for 8 yds to the ALA 42 for a 1ST down,Rush,2,8,2,Other,1,8,0,1,,,,,0.38,0,0.37,0.11,0.68,Jam Miller,,,#E82525CC,#5A0000CC,7.3,-0.78
+2024-11-24 Alabama at Oklahoma,plays,1,Alabama,45,20,Jam Miller run for 2 yds to the ALA 44,Rush,2,8,1,Other,10,2,0,0,,,,,0.36,0,0.35,0.1,0.7,Jam Miller,,,#E82525CC,#5A0000CC,-3,-0.9
+2024-11-24 Alabama at Oklahoma,plays,1,Alabama,46,21,Jalen Milroe run for a loss of 5 yards to the ALA 39,Rush,2,8,2,Other,8,-5,0,0,,,,,0.33,0,0.33,0.1,0.71,Jalen Milroe,,,#E82525CC,#5A0000CC,-10.6,-1.36
 2024-11-24 Alabama at Oklahoma,plays,1,Alabama,47,22,Jalen Milroe pass incomplete to CJ Dippre,Pass,2,8,3,Other,8,0,0,0,,,,,0.29,0.29,0.32,0.09,0.68,,Jalen Milroe,,#E82525CC,#5A0000CC,-8,-1.66
-2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,48,26,Xavier Robinson run for 2 yds to the OU 35,Rush,2,9,1,Other,10,2,0,0,,,,,0.40,0.10,0.42,0.12,0.77,Xavier Robinson,,,#8C8C8CCC,#404040CC,-3,1.58
-2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,49,27,Xavier Robinson run for 6 yds to the OU 41,Rush,2,9,2,Other,8,6,0,1,,,,,0.43,0.10,0.44,0.11,0.78,Xavier Robinson,,,#8C8C8CCC,#404040CC,0.4,1.54
+2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,48,26,Xavier Robinson run for 2 yds to the OU 35,Rush,2,9,1,Other,10,2,0,0,,,,,0.4,0.1,0.42,0.12,0.77,Xavier Robinson,,,#8C8C8CCC,#404040CC,-3,1.58
+2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,49,27,Xavier Robinson run for 6 yds to the OU 41,Rush,2,9,2,Other,8,6,0,1,,,,,0.43,0.1,0.44,0.11,0.78,Xavier Robinson,,,#8C8C8CCC,#404040CC,0.4,1.54
 2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,50,28,Xavier Robinson run for 4 yds to the OU 45 for a 1ST down,Rush,2,9,3,Other,2,4,0,1,,,,,0.45,0.09,0.46,0.11,0.79,Xavier Robinson,,,#8C8C8CCC,#404040CC,2,1.56
-2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,51,29,Gavin Sawchuk run for 8 yds to the ALA 47,Rush,2,9,1,Other,10,8,0,1,,,,,0.48,0.09,0.48,0.10,0.79,Gavin Sawchuk,,,#8C8C8CCC,#404040CC,3,1.61
-2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,52,30,Jackson Arnold pass complete to Xavier Robinson for no gain to the ALA 47,Pass,2,9,2,Other,2,0,0,0,,,,,0.43,0.14,0.47,0.10,0.77,,Jackson Arnold,Xavier Robinson,#8C8C8CCC,#404040CC,-1.4,1.51
-2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,53,31,Jackson Arnold run for 5 yds to the ALA 42 for a 1ST down,Rush,2,9,3,Other,2,5,0,1,,,,,0.50,0.08,0.48,0.10,0.77,Jackson Arnold,,,#8C8C8CCC,#404040CC,3,1.55
-2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,54,32,Jackson Arnold run for 6 yds to the ALA 36,Rush,2,9,1,Other,10,6,0,1,,,,,0.52,0.08,0.50,0.09,0.78,Jackson Arnold,,,#8C8C8CCC,#404040CC,1,1.54
-2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,55,33,Jackson Arnold pass complete to Jake Roberts for 3 yds to the ALA 33,Pass,2,9,2,Other,4,3,0,1,,,,,0.50,0.13,0.52,0.09,0.76,,Jackson Arnold,Jake Roberts,#8C8C8CCC,#404040CC,0.2,1.50
+2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,51,29,Gavin Sawchuk run for 8 yds to the ALA 47,Rush,2,9,1,Other,10,8,0,1,,,,,0.48,0.09,0.48,0.1,0.79,Gavin Sawchuk,,,#8C8C8CCC,#404040CC,3,1.61
+2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,52,30,Jackson Arnold pass complete to Xavier Robinson for no gain to the ALA 47,Pass,2,9,2,Other,2,0,0,0,,,,,0.43,0.14,0.47,0.1,0.77,,Jackson Arnold,Xavier Robinson,#8C8C8CCC,#404040CC,-1.4,1.51
+2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,53,31,Jackson Arnold run for 5 yds to the ALA 42 for a 1ST down,Rush,2,9,3,Other,2,5,0,1,,,,,0.5,0.08,0.48,0.1,0.77,Jackson Arnold,,,#8C8C8CCC,#404040CC,3,1.55
+2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,54,32,Jackson Arnold run for 6 yds to the ALA 36,Rush,2,9,1,Other,10,6,0,1,,,,,0.52,0.08,0.5,0.09,0.78,Jackson Arnold,,,#8C8C8CCC,#404040CC,1,1.54
+2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,55,33,Jackson Arnold pass complete to Jake Roberts for 3 yds to the ALA 33,Pass,2,9,2,Other,4,3,0,1,,,,,0.5,0.13,0.52,0.09,0.76,,Jackson Arnold,Jake Roberts,#8C8C8CCC,#404040CC,0.2,1.5
 2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,56,34,Xavier Robinson run for 3 yds to the ALA 30 for a 1ST down,Rush,2,9,3,Other,1,3,0,1,,,,,0.54,0.08,0.53,0.09,0.76,Xavier Robinson,,,#8C8C8CCC,#404040CC,2,1.51
 2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,57,35,Jackson Arnold run for no gain to the ALA 30,Rush,2,9,1,Other,10,0,0,0,,,,,0.52,0.07,0.51,0.09,0.77,Jackson Arnold,,,#8C8C8CCC,#404040CC,-5,1.33
 2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,58,36,Jackson Arnold run for 12 yds to the ALA 18 for a 1ST down,Rush,2,9,2,Other,10,12,0,1,,,,,0.54,0.07,0.53,0.08,0.78,Jackson Arnold,,,#8C8C8CCC,#404040CC,5,1.43
-2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,59,37,Xavier Robinson run for 18 yds for a TD (Zach Schmit KICK),Rush,2,9,1,Red zone,10,18,1,1,,,,,0.55,0.10,0.54,0.11,0.78,Xavier Robinson,,,#8C8C8CCC,#404040CC,13,1.74
-2024-11-24 Alabama at Oklahoma,plays,1,Alabama,60,23,Jam Miller run for 3 yds to the ALA 18,Rush,2,10,1,Other,20,3,0,0,,,,,0.31,0.00,0.30,0.09,0.70,Jam Miller,,,#E82525CC,#5A0000CC,-7,-1.89
-2024-11-24 Alabama at Oklahoma,plays,1,Alabama,61,24,Jam Miller run for 3 yds to the ALA 28,Rush,3,11,1,Other,10,3,0,0,,,,,0.29,0.00,0.29,0.08,0.71,Jam Miller,,,#E82525CC,#5A0000CC,-2,-1.90
+2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,59,37,Xavier Robinson run for 18 yds for a TD (Zach Schmit KICK),Rush,2,9,1,Red zone,10,18,1,1,,,,,0.55,0.1,0.54,0.11,0.78,Xavier Robinson,,,#8C8C8CCC,#404040CC,13,1.74
+2024-11-24 Alabama at Oklahoma,plays,1,Alabama,60,23,Jam Miller run for 3 yds to the ALA 18,Rush,2,10,1,Other,20,3,0,0,,,,,0.31,0,0.3,0.09,0.7,Jam Miller,,,#E82525CC,#5A0000CC,-7,-1.89
+2024-11-24 Alabama at Oklahoma,plays,1,Alabama,61,24,Jam Miller run for 3 yds to the ALA 28,Rush,3,11,1,Other,10,3,0,0,,,,,0.29,0,0.29,0.08,0.71,Jam Miller,,,#E82525CC,#5A0000CC,-2,-1.9
 2024-11-24 Alabama at Oklahoma,plays,1,Alabama,62,25,Jalen Milroe pass complete to Kobe Prentice for 14 yds to the ALA 42 for a 1ST down,Pass,3,11,2,Other,7,14,0,1,,,,,0.38,0.25,0.32,0.08,0.68,,Jalen Milroe,Kobe Prentice,#E82525CC,#5A0000CC,9.1,-1.46
 2024-11-24 Alabama at Oklahoma,plays,1,Alabama,63,26,Jalen Milroe pass intercepted Eli Bowen return for 25 yds to the ALA 14,Pass,3,11,1,Other,10,25,0,0,,,,,0.33,0.22,0.31,0.08,0.65,,Jalen Milroe,,#E82525CC,#5A0000CC,20,-0.63
 2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,64,38,Jackson Arnold pass complete to Xavier Robinson for 5 yds to the ALA 9,Pass,3,12,1,Red zone,10,5,0,1,,,,,0.56,0.11,0.55,0.11,0.76,,Jackson Arnold,Xavier Robinson,#8C8C8CCC,#404040CC,0,1.69
-2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,65,39,Jackson Arnold pass complete to Jacob Jordan for 5 yds to the ALA 4 for a 1ST down,Pass,3,12,2,Red zone,5,5,0,1,,,,,0.60,0.10,0.56,0.10,0.74,,Jackson Arnold,Jacob Jordan,#8C8C8CCC,#404040CC,1.5,1.69
-2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,66,40,Jackson Arnold run for 3 yds to the ALA 1,Rush,3,12,1,Red zone,4,3,0,1,,,,,0.57,0.10,0.58,0.10,0.75,Jackson Arnold,,,#8C8C8CCC,#404040CC,1,1.67
-2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,67,41,Xavier Robinson run for no gain to the ALA 1,Rush,3,12,2,Red zone,1,0,0,0,,,,,0.55,0.10,0.56,0.10,0.76,Xavier Robinson,,,#8C8C8CCC,#404040CC,-0.7,1.61
-2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,68,42,Xavier Robinson run for 1 yd for a TD (Zach Schmit KICK),Rush,3,12,3,Red zone,1,1,0,1,,,,,0.56,0.09,0.57,0.10,0.76,Xavier Robinson,,,#8C8C8CCC,#404040CC,0,1.58
-2024-11-24 Alabama at Oklahoma,plays,1,Alabama,69,27,Jalen Milroe run for 3 yds to the ALA 28,Rush,3,13,1,Other,10,3,0,0,,,,,0.28,0.00,0.30,0.07,0.67,Jalen Milroe,,,#E82525CC,#5A0000CC,-2,-0.68
-2024-11-24 Alabama at Oklahoma,plays,1,Alabama,70,28,Justice Haynes run for 6 yds to the ALA 34,Rush,3,13,2,Other,7,6,0,1,,,,,0.32,0.00,0.32,0.07,0.68,Justice Haynes,,,#E82525CC,#5A0000CC,1.1,-0.62
-2024-11-24 Alabama at Oklahoma,plays,1,Alabama,71,29,Jam Miller run for 2 yds to the ALA 36 for a 1ST down,Rush,3,13,3,Other,1,2,0,1,,,,,0.35,0.00,0.34,0.07,0.69,Jam Miller,,,#E82525CC,#5A0000CC,1,-0.56
-2024-11-24 Alabama at Oklahoma,plays,1,Alabama,72,30,Jam Miller run for 5 yds to the ALA 41,Rush,3,13,1,Other,10,5,0,1,,,,,0.38,0.00,0.37,0.07,0.70,Jam Miller,,,#E82525CC,#5A0000CC,0,-0.54
-2024-11-24 Alabama at Oklahoma,plays,1,Alabama,73,31,Jam Miller run for 4 yds to the ALA 45,Rush,3,13,2,Other,5,4,0,1,,,,,0.41,0.00,0.39,0.06,0.71,Jam Miller,,,#E82525CC,#5A0000CC,0.5,-0.51
-2024-11-24 Alabama at Oklahoma,plays,1,Alabama,74,32,Jam Miller run for 1 yd to the ALA 46 for a 1ST down,Rush,3,13,3,Other,1,1,0,1,,,,,0.43,0.00,0.41,0.06,0.72,Jam Miller,,,#E82525CC,#5A0000CC,0,-0.49
-2024-11-24 Alabama at Oklahoma,plays,1,Alabama,75,33,Jalen Milroe run for a loss of 1 yard to the ALA 45,Rush,3,13,1,Other,10,-1,0,0,,,,,0.42,0.00,0.39,0.06,0.73,Jalen Milroe,,,#E82525CC,#5A0000CC,-6,-0.66
-2024-11-24 Alabama at Oklahoma,plays,1,Alabama,76,34,Jalen Milroe pass intercepted Kip Lewis return for 49 yds for a TD (Zach Schmit KICK),Pass,3,13,2,Other,11,49,0,0,,,,,0.30,0.20,0.38,0.06,0.71,,Jalen Milroe,,#E82525CC,#5A0000CC,41.3,0.57
-2024-11-24 Alabama at Oklahoma,plays,1,Alabama,77,35,Jalen Milroe pass complete to Jam Miller for 6 yds to the ALA 31,Pass,3,14,1,Other,10,6,0,1,,,,,0.36,0.18,0.40,0.06,0.69,,Jalen Milroe,Jam Miller,#E82525CC,#5A0000CC,1,0.59
-2024-11-24 Alabama at Oklahoma,plays,1,Alabama,78,36,Jam Miller run for 7 yds to the ALA 38 for a 1ST down,Rush,3,14,2,Other,4,7,0,1,,,,,0.44,0.00,0.42,0.06,0.69,Jam Miller,,,#E82525CC,#5A0000CC,4.2,0.69
+2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,65,39,Jackson Arnold pass complete to Jacob Jordan for 5 yds to the ALA 4 for a 1ST down,Pass,3,12,2,Red zone,5,5,0,1,,,,,0.6,0.1,0.56,0.1,0.74,,Jackson Arnold,Jacob Jordan,#8C8C8CCC,#404040CC,1.5,1.69
+2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,66,40,Jackson Arnold run for 3 yds to the ALA 1,Rush,3,12,1,Red zone,4,3,0,1,,,,,0.57,0.1,0.58,0.1,0.75,Jackson Arnold,,,#8C8C8CCC,#404040CC,1,1.67
+2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,67,41,Xavier Robinson run for no gain to the ALA 1,Rush,3,12,2,Red zone,1,0,0,0,,,,,0.55,0.1,0.56,0.1,0.76,Xavier Robinson,,,#8C8C8CCC,#404040CC,-0.7,1.61
+2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,68,42,Xavier Robinson run for 1 yd for a TD (Zach Schmit KICK),Rush,3,12,3,Red zone,1,1,0,1,,,,,0.56,0.09,0.57,0.1,0.76,Xavier Robinson,,,#8C8C8CCC,#404040CC,0,1.58
+2024-11-24 Alabama at Oklahoma,plays,1,Alabama,69,27,Jalen Milroe run for 3 yds to the ALA 28,Rush,3,13,1,Other,10,3,0,0,,,,,0.28,0,0.3,0.07,0.67,Jalen Milroe,,,#E82525CC,#5A0000CC,-2,-0.68
+2024-11-24 Alabama at Oklahoma,plays,1,Alabama,70,28,Justice Haynes run for 6 yds to the ALA 34,Rush,3,13,2,Other,7,6,0,1,,,,,0.32,0,0.32,0.07,0.68,Justice Haynes,,,#E82525CC,#5A0000CC,1.1,-0.62
+2024-11-24 Alabama at Oklahoma,plays,1,Alabama,71,29,Jam Miller run for 2 yds to the ALA 36 for a 1ST down,Rush,3,13,3,Other,1,2,0,1,,,,,0.35,0,0.34,0.07,0.69,Jam Miller,,,#E82525CC,#5A0000CC,1,-0.56
+2024-11-24 Alabama at Oklahoma,plays,1,Alabama,72,30,Jam Miller run for 5 yds to the ALA 41,Rush,3,13,1,Other,10,5,0,1,,,,,0.38,0,0.37,0.07,0.7,Jam Miller,,,#E82525CC,#5A0000CC,0,-0.54
+2024-11-24 Alabama at Oklahoma,plays,1,Alabama,73,31,Jam Miller run for 4 yds to the ALA 45,Rush,3,13,2,Other,5,4,0,1,,,,,0.41,0,0.39,0.06,0.71,Jam Miller,,,#E82525CC,#5A0000CC,0.5,-0.51
+2024-11-24 Alabama at Oklahoma,plays,1,Alabama,74,32,Jam Miller run for 1 yd to the ALA 46 for a 1ST down,Rush,3,13,3,Other,1,1,0,1,,,,,0.43,0,0.41,0.06,0.72,Jam Miller,,,#E82525CC,#5A0000CC,0,-0.49
+2024-11-24 Alabama at Oklahoma,plays,1,Alabama,75,33,Jalen Milroe run for a loss of 1 yard to the ALA 45,Rush,3,13,1,Other,10,-1,0,0,,,,,0.42,0,0.39,0.06,0.73,Jalen Milroe,,,#E82525CC,#5A0000CC,-6,-0.66
+2024-11-24 Alabama at Oklahoma,plays,1,Alabama,76,34,Kip Lewis 49 Yd Interception Return (Zach Schmit Kick),Pass,3,13,2,Other,11,49,0,0,,,,,0.3,0.2,0.38,0.06,0.71,,,,#E82525CC,#5A0000CC,41.3,0.57
+2024-11-24 Alabama at Oklahoma,plays,1,Alabama,77,35,Jalen Milroe pass complete to Jam Miller for 6 yds to the ALA 31,Pass,3,14,1,Other,10,6,0,1,,,,,0.36,0.18,0.4,0.06,0.69,,Jalen Milroe,Jam Miller,#E82525CC,#5A0000CC,1,0.59
+2024-11-24 Alabama at Oklahoma,plays,1,Alabama,78,36,Jam Miller run for 7 yds to the ALA 38 for a 1ST down,Rush,3,14,2,Other,4,7,0,1,,,,,0.44,0,0.42,0.06,0.69,Jam Miller,,,#E82525CC,#5A0000CC,4.2,0.69
 2024-11-24 Alabama at Oklahoma,plays,1,Alabama,79,37,Jalen Milroe pass incomplete,Pass,3,14,1,Other,10,0,0,0,,,,,0.33,0.17,0.41,0.05,0.68,,Jalen Milroe,,#E82525CC,#5A0000CC,-5,0.53
-2024-11-24 Alabama at Oklahoma,plays,1,Alabama,80,38,Jam Miller run for a loss of 2 yards to the ALA 36,Rush,3,14,2,Other,10,-2,0,0,,,,,0.42,0.00,0.39,0.05,0.68,Jam Miller,,,#E82525CC,#5A0000CC,-9,0.28
+2024-11-24 Alabama at Oklahoma,plays,1,Alabama,80,38,Jam Miller run for a loss of 2 yards to the ALA 36,Rush,3,14,2,Other,10,-2,0,0,,,,,0.42,0,0.39,0.05,0.68,Jam Miller,,,#E82525CC,#5A0000CC,-9,0.28
 2024-11-24 Alabama at Oklahoma,plays,1,Alabama,81,39,Jalen Milroe pass incomplete to Germie Bernard,Pass,3,14,3,Other,12,0,0,0,,,,,0.31,0.15,0.38,0.05,0.67,,Jalen Milroe,,#E82525CC,#5A0000CC,-12,-0.03
 2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,82,43,Xavier Robinson run for 3 yds to the OU 5,Rush,3,15,1,Other,10,3,0,0,,,,,0.55,0.09,0.56,0.09,0.77,Xavier Robinson,,,#8C8C8CCC,#404040CC,-2,1.49
 2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,83,44,Jackson Arnold run for 9 yds to the OU 14 for a 1ST down,Rush,3,15,2,Other,7,9,0,1,,,,,0.56,0.09,0.57,0.09,0.77,Jackson Arnold,,,#8C8C8CCC,#404040CC,4.1,1.55
 2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,84,45,Xavier Robinson run for 6 yds to the OU 20,Rush,3,15,1,Other,10,6,0,1,,,,,0.57,0.09,0.58,0.09,0.78,Xavier Robinson,,,#8C8C8CCC,#404040CC,1,1.54
-2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,85,46,Jackson Arnold run for a loss of 2 yards to the OU 18,Rush,3,15,2,Other,4,-2,0,0,,,,,0.56,0.08,0.57,0.09,0.78,Jackson Arnold,,,#8C8C8CCC,#404040CC,-4.8,1.40
+2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,85,46,Jackson Arnold run for a loss of 2 yards to the OU 18,Rush,3,15,2,Other,4,-2,0,0,,,,,0.56,0.08,0.57,0.09,0.78,Jackson Arnold,,,#8C8C8CCC,#404040CC,-4.8,1.4
 2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,86,47,Jackson Arnold run for a loss of 1 yard to the OU 17,Rush,3,15,3,Other,6,-1,0,0,,,,,0.54,0.08,0.55,0.09,0.79,Jackson Arnold,,,#8C8C8CCC,#404040CC,-7,1.22
 2024-11-24 Alabama at Oklahoma,plays,1,Alabama,87,40,Jalen Milroe sacked by R Mason Thomas for a loss of 5 yards to the ALA 39,Pass,3,16,1,Other,10,-5,0,0,,,,,0.29,0.14,0.38,0.05,0.65,,,,#E82525CC,#5A0000CC,-10,-0.28
 2024-11-24 Alabama at Oklahoma,plays,1,Alabama,88,41,Jalen Milroe pass complete to Ryan Williams for 7 yds to the ALA 46,Pass,3,16,2,Other,15,7,0,0,,,,,0.27,0.13,0.37,0.05,0.63,,Jalen Milroe,Ryan Williams,#E82525CC,#5A0000CC,-3.5,-0.36
-2024-11-24 Alabama at Oklahoma,plays,1,Alabama,89,42,Jalen Milroe run for 11 yds to the OU 43 for a 1ST down,Rush,3,16,3,Other,8,11,0,1,,,,,0.44,0.00,0.38,0.05,0.64,Jalen Milroe,,,#E82525CC,#5A0000CC,3,-0.28
-2024-11-24 Alabama at Oklahoma,plays,1,Alabama,90,43,Jalen Milroe pass complete to Germie Bernard for 8 yds to the OU 35,Pass,3,16,1,Other,10,8,0,1,,,,,0.31,0.13,0.40,0.05,0.63,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,3,-0.20
+2024-11-24 Alabama at Oklahoma,plays,1,Alabama,89,42,Jalen Milroe run for 11 yds to the OU 43 for a 1ST down,Rush,3,16,3,Other,8,11,0,1,,,,,0.44,0,0.38,0.05,0.64,Jalen Milroe,,,#E82525CC,#5A0000CC,3,-0.28
+2024-11-24 Alabama at Oklahoma,plays,1,Alabama,90,43,Jalen Milroe pass complete to Germie Bernard for 8 yds to the OU 35,Pass,3,16,1,Other,10,8,0,1,,,,,0.31,0.13,0.4,0.05,0.63,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,3,-0.2
 2024-11-24 Alabama at Oklahoma,plays,1,Alabama,91,44,Jalen Milroe pass incomplete,Pass,3,16,2,Other,2,0,0,0,,,,,0.29,0.12,0.39,0.05,0.61,,Jalen Milroe,,#E82525CC,#5A0000CC,-1.4,-0.23
-2024-11-24 Alabama at Oklahoma,plays,1,Alabama,92,45,Jalen Milroe run for a loss of 1 yard to the OU 36,Rush,4,16,3,Other,2,-1,0,0,,,,,0.43,0.00,0.38,0.04,0.62,Jalen Milroe,,,#E82525CC,#5A0000CC,-3,-0.29
+2024-11-24 Alabama at Oklahoma,plays,1,Alabama,92,45,Jalen Milroe run for a loss of 1 yard to the OU 36,Rush,4,16,3,Other,2,-1,0,0,,,,,0.43,0,0.38,0.04,0.62,Jalen Milroe,,,#E82525CC,#5A0000CC,-3,-0.29
 2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,93,48,Xavier Robinson run for a loss of 1 yard to the OU 40,Rush,4,17,1,Other,10,-1,0,0,,,,,0.53,0.08,0.54,0.08,0.79,Xavier Robinson,,,#8C8C8CCC,#404040CC,-6,1.07
-2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,94,49,Jackson Arnold pass complete to Bauer Sharp for 16 yds to the ALA 44 for a 1ST down,Pass,4,17,2,Other,11,16,1,1,,,,,0.64,0.18,0.55,0.10,0.78,,Jackson Arnold,Bauer Sharp,#8C8C8CCC,#404040CC,8.3,1.22
-2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,95,50,Jackson Arnold pass complete to Bauer Sharp for 5 yds to the ALA 39,Pass,4,17,1,Other,10,5,0,1,,,,,0.67,0.17,0.56,0.10,0.76,,Jackson Arnold,Bauer Sharp,#8C8C8CCC,#404040CC,0,1.20
-2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,96,51,Xavier Robinson run for 3 yds to the ALA 36,Rush,4,17,2,Other,5,3,0,0,,,,,0.51,0.08,0.55,0.10,0.76,Xavier Robinson,,,#8C8C8CCC,#404040CC,-0.5,1.16
-2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,97,52,Jackson Arnold sacked by Malachi Moore for a loss of 3 yards to the ALA 39,Pass,4,17,3,Other,2,-3,0,0,,,,,0.62,0.15,0.54,0.10,0.75,,,,#8C8C8CCC,#404040CC,-5,1.04
-2024-11-24 Alabama at Oklahoma,plays,1,Alabama,98,46,Jalen Milroe run for 2 yds to the ALA 3,Rush,4,18,1,Other,10,2,0,0,,,,,0.41,0.00,0.37,0.04,0.63,Jalen Milroe,,,#E82525CC,#5A0000CC,-3,-0.35
+2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,94,49,Jackson Arnold pass complete to Bauer Sharp for 16 yds to the ALA 44 for a 1ST down,Pass,4,17,2,Other,11,16,1,1,,,,,0.64,0.18,0.55,0.1,0.78,,Jackson Arnold,Bauer Sharp,#8C8C8CCC,#404040CC,8.3,1.22
+2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,95,50,Jackson Arnold pass complete to Bauer Sharp for 5 yds to the ALA 39,Pass,4,17,1,Other,10,5,0,1,,,,,0.67,0.17,0.56,0.1,0.76,,Jackson Arnold,Bauer Sharp,#8C8C8CCC,#404040CC,0,1.2
+2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,96,51,Xavier Robinson run for 3 yds to the ALA 36,Rush,4,17,2,Other,5,3,0,0,,,,,0.51,0.08,0.55,0.1,0.76,Xavier Robinson,,,#8C8C8CCC,#404040CC,-0.5,1.16
+2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,97,52,Jackson Arnold sacked by Malachi Moore for a loss of 3 yards to the ALA 39,Pass,4,17,3,Other,2,-3,0,0,,,,,0.62,0.15,0.54,0.1,0.75,,,,#8C8C8CCC,#404040CC,-5,1.04
+2024-11-24 Alabama at Oklahoma,plays,1,Alabama,98,46,Jalen Milroe run for 2 yds to the ALA 3,Rush,4,18,1,Other,10,2,0,0,,,,,0.41,0,0.37,0.04,0.63,Jalen Milroe,,,#E82525CC,#5A0000CC,-3,-0.35
 2024-11-24 Alabama at Oklahoma,plays,1,Alabama,99,47,Jalen Milroe pass incomplete to Ryan Williams,Pass,4,18,2,Other,8,0,0,0,,,,,0.28,0.11,0.36,0.04,0.62,,Jalen Milroe,,#E82525CC,#5A0000CC,-5.6,-0.46
-2024-11-24 Alabama at Oklahoma,plays,1,Alabama,100,48,Jalen Milroe pass complete to Josh Cuevas for 28 yds to the ALA 31 for a 1ST down,Pass,4,18,3,Other,8,28,1,1,,,,,0.32,0.16,0.38,0.06,0.60,,Jalen Milroe,Josh Cuevas,#E82525CC,#5A0000CC,20,-0.04
-2024-11-24 Alabama at Oklahoma,plays,1,Alabama,101,49,Ty Simpson pass incomplete to Richard Young,Pass,4,18,1,Other,20,0,0,0,,,,,0.30,0.15,0.37,0.06,0.59,,Ty Simpson,,#E82525CC,#5A0000CC,-10,-0.24
+2024-11-24 Alabama at Oklahoma,plays,1,Alabama,100,48,Jalen Milroe pass complete to Josh Cuevas for 28 yds to the ALA 31 for a 1ST down,Pass,4,18,3,Other,8,28,1,1,,,,,0.32,0.16,0.38,0.06,0.6,,Jalen Milroe,Josh Cuevas,#E82525CC,#5A0000CC,20,-0.04
+2024-11-24 Alabama at Oklahoma,plays,1,Alabama,101,49,Ty Simpson pass incomplete to Richard Young,Pass,4,18,1,Other,20,0,0,0,,,,,0.3,0.15,0.37,0.06,0.59,,Ty Simpson,,#E82525CC,#5A0000CC,-10,-0.24
 2024-11-24 Alabama at Oklahoma,plays,1,Alabama,102,50,Jalen Milroe pass complete to Richard Young for 7 yds to the ALA 28,Pass,4,18,2,Other,20,7,0,0,,,,,0.29,0.14,0.36,0.06,0.58,,Jalen Milroe,Richard Young,#E82525CC,#5A0000CC,-7,-0.38
 2024-11-24 Alabama at Oklahoma,plays,1,Alabama,103,51,Jalen Milroe pass complete to Germie Bernard for 15 yds to the ALA 43 for a 1ST down,Pass,4,18,3,Other,13,15,1,1,,,,,0.32,0.18,0.37,0.08,0.57,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,2,-0.33
 2024-11-24 Alabama at Oklahoma,plays,1,Alabama,104,52,Jalen Milroe pass complete to Germie Bernard for 5 yds to the ALA 48,Pass,4,18,1,Other,10,5,0,1,,,,,0.35,0.17,0.38,0.08,0.56,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,0,-0.32
-2024-11-24 Alabama at Oklahoma,plays,1,Alabama,105,53,Jalen Milroe pass complete to Josh Cuevas for 12 yds to the OU 35 for a 1ST down,Pass,4,18,1,Other,10,12,0,1,,,,,0.38,0.17,0.40,0.08,0.55,,Jalen Milroe,Josh Cuevas,#E82525CC,#5A0000CC,7,-0.18
+2024-11-24 Alabama at Oklahoma,plays,1,Alabama,105,53,Jalen Milroe pass complete to Josh Cuevas for 12 yds to the OU 35 for a 1ST down,Pass,4,18,1,Other,10,12,0,1,,,,,0.38,0.17,0.4,0.08,0.55,,Jalen Milroe,Josh Cuevas,#E82525CC,#5A0000CC,7,-0.18
 2024-11-24 Alabama at Oklahoma,plays,1,Alabama,106,54,Jalen Milroe pass incomplete to Ryan Williams,Pass,4,18,1,Other,10,0,0,0,,,,,0.36,0.16,0.39,0.07,0.54,,Jalen Milroe,,#E82525CC,#5A0000CC,-5,-0.27
-2024-11-24 Alabama at Oklahoma,plays,1,Alabama,107,55,Jalen Milroe pass incomplete to Jam Miller,Pass,4,18,2,Other,10,0,0,0,,,,,0.35,0.15,0.38,0.07,0.53,,Jalen Milroe,,#E82525CC,#5A0000CC,-7,-0.40
+2024-11-24 Alabama at Oklahoma,plays,1,Alabama,107,55,Jalen Milroe pass incomplete to Jam Miller,Pass,4,18,2,Other,10,0,0,0,,,,,0.35,0.15,0.38,0.07,0.53,,Jalen Milroe,,#E82525CC,#5A0000CC,-7,-0.4
 2024-11-24 Alabama at Oklahoma,plays,1,Alabama,108,56,Jalen Milroe pass incomplete to Germie Bernard,Pass,4,18,3,Other,10,0,0,0,,,,,0.33,0.15,0.38,0.07,0.52,,Jalen Milroe,,#E82525CC,#5A0000CC,-10,-0.57
 2024-11-24 Alabama at Oklahoma,plays,1,Alabama,109,57,Jalen Milroe pass intercepted Woodi Washington return for 9 yds to the OU 44,Pass,4,18,4,Other,10,9,0,0,,,,,0.32,0.14,0.37,0.07,0.51,,Jalen Milroe,,#E82525CC,#5A0000CC,-1,-0.58
-2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,110,53,Xavier Robinson run for 1 yd to the OU 45,Rush,4,19,1,Other,10,1,0,0,,,,,0.50,0.08,0.53,0.09,0.75,Xavier Robinson,,,#8C8C8CCC,#404040CC,-4,0.95
+2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,110,53,Xavier Robinson run for 1 yd to the OU 45,Rush,4,19,1,Other,10,1,0,0,,,,,0.5,0.08,0.53,0.09,0.75,Xavier Robinson,,,#8C8C8CCC,#404040CC,-4,0.95
 2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,111,54,Jackson Arnold run for 2 yds to the OU 47,Rush,4,19,2,Other,9,2,0,0,,,,,0.49,0.07,0.52,0.09,0.76,Jackson Arnold,,,#8C8C8CCC,#404040CC,-4.3,0.85
-2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,112,55,Jackson Arnold run for 18 yds to the ALA 35 for a 1ST down,Rush,4,19,3,Other,7,18,1,1,,,,,0.50,0.10,0.53,0.11,0.76,Jackson Arnold,,,#8C8C8CCC,#404040CC,11,1.04
+2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,112,55,Jackson Arnold run for 18 yds to the ALA 35 for a 1ST down,Rush,4,19,3,Other,7,18,1,1,,,,,0.5,0.1,0.53,0.11,0.76,Jackson Arnold,,,#8C8C8CCC,#404040CC,11,1.04
 2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,113,56,Jackson Arnold run for 3 yds to the ALA 32,Rush,4,19,1,Other,10,3,0,0,,,,,0.49,0.09,0.52,0.11,0.77,Jackson Arnold,,,#8C8C8CCC,#404040CC,-2,0.98
 2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,114,57,Jackson Arnold run for 4 yds to the ALA 28,Rush,4,19,2,Other,7,4,0,0,,,,,0.48,0.09,0.51,0.11,0.77,Jackson Arnold,,,#8C8C8CCC,#404040CC,-0.9,0.95
-2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,115,58,Xavier Robinson run for 1 yd to the ALA 27,Rush,4,19,3,Other,3,1,0,0,,,,,0.47,0.09,0.50,0.10,0.78,Xavier Robinson,,,#8C8C8CCC,#404040CC,-2,0.90
-2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,116,59,Xavier Robinson run for 3 yds to the ALA 24 for a 1ST down,Rush,4,19,4,Other,2,3,0,1,,,,,0.48,0.09,0.51,0.10,0.78,Xavier Robinson,,,#8C8C8CCC,#404040CC,1,0.90
-2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,117,60,Xavier Robinson run for 2 yds to the ALA 22,Rush,4,19,1,Other,10,2,0,0,,,,,0.47,0.09,0.50,0.10,0.78,Xavier Robinson,,,#8C8C8CCC,#404040CC,-3,0.84
-2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,118,61,Jackson Arnold run for 3 yds to the ALA 19,Rush,4,19,2,Other,8,3,0,0,,,,,0.46,0.08,0.49,0.10,0.79,Jackson Arnold,,,#8C8C8CCC,#404040CC,-2.6,0.78
-2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,119,62,TEAM run for a loss of 3 yards to the ALA 22,Rush,4,19,3,Red zone,5,-3,0,0,,,,,0.45,0.08,0.48,0.10,0.79,TEAM,,,#8C8C8CCC,#404040CC,-8,0.64
+2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,115,58,Xavier Robinson run for 1 yd to the ALA 27,Rush,4,19,3,Other,3,1,0,0,,,,,0.47,0.09,0.5,0.1,0.78,Xavier Robinson,,,#8C8C8CCC,#404040CC,-2,0.9
+2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,116,59,Xavier Robinson run for 3 yds to the ALA 24 for a 1ST down,Rush,4,19,4,Other,2,3,0,1,,,,,0.48,0.09,0.51,0.1,0.78,Xavier Robinson,,,#8C8C8CCC,#404040CC,1,0.9
+2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,117,60,Xavier Robinson run for 2 yds to the ALA 22,Rush,4,19,1,Other,10,2,0,0,,,,,0.47,0.09,0.5,0.1,0.78,Xavier Robinson,,,#8C8C8CCC,#404040CC,-3,0.84
+2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,118,61,Jackson Arnold run for 3 yds to the ALA 19,Rush,4,19,2,Other,8,3,0,0,,,,,0.46,0.08,0.49,0.1,0.79,Jackson Arnold,,,#8C8C8CCC,#404040CC,-2.6,0.78
+2024-11-24 Alabama at Oklahoma,plays,2,Oklahoma,119,62,TEAM run for a loss of 3 yards to the ALA 22,Rush,4,19,3,Red zone,5,-3,0,0,,,,,0.45,0.08,0.48,0.1,0.79,TEAM,,,#8C8C8CCC,#404040CC,-8,0.64
+2024-11-30 Auburn at Alabama,teams,1,Alabama,,,,,,,,,,,9,36,,,,78,0.46,0.12,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-11-30 Auburn at Alabama,teams,2,Auburn,,,,,,,,,,,14,27,,,,65,0.42,0.22,0,0,0,,,,#4985CFCC,#143B6BCC,,0
+2024-11-30 Auburn at Alabama,play_type,1,Alabama,,,,Rush,,,,,,,2,21,,,,53,0.4,0.04,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-11-30 Auburn at Alabama,play_type,2,Auburn,,,,Rush,,,,,,,3,10,,,,22,0.45,0.14,0,0,0,,,,#4985CFCC,#143B6BCC,,0
+2024-11-30 Auburn at Alabama,play_type,1,Alabama,,,,Pass,,,,,,,7,15,,,,25,0.6,0.28,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-11-30 Auburn at Alabama,play_type,2,Auburn,,,,Pass,,,,,,,11,17,,,,43,0.4,0.26,0,0,0,,,,#4985CFCC,#143B6BCC,,0
+2024-11-30 Auburn at Alabama,quarter,1,Alabama,,,,,1Q,,,,,,2,7,,,,15,0.47,0.13,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-11-30 Auburn at Alabama,quarter,1,Alabama,,,,,2Q,,,,,,4,9,,,,23,0.39,0.17,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-11-30 Auburn at Alabama,quarter,1,Alabama,,,,,3Q,,,,,,3,13,,,,20,0.65,0.15,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-11-30 Auburn at Alabama,quarter,1,Alabama,,,,,4Q,,,,,,0,7,,,,20,0.35,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-11-30 Auburn at Alabama,quarter,2,Auburn,,,,,1Q,,,,,,4,9,,,,21,0.43,0.19,0,0,0,,,,#4985CFCC,#143B6BCC,,0
+2024-11-30 Auburn at Alabama,quarter,2,Auburn,,,,,2Q,,,,,,3,5,,,,19,0.26,0.16,0,0,0,,,,#4985CFCC,#143B6BCC,,0
+2024-11-30 Auburn at Alabama,quarter,2,Auburn,,,,,3Q,,,,,,2,5,,,,13,0.38,0.15,0,0,0,,,,#4985CFCC,#143B6BCC,,0
+2024-11-30 Auburn at Alabama,quarter,2,Auburn,,,,,4Q,,,,,,5,8,,,,12,0.67,0.42,0,0,0,,,,#4985CFCC,#143B6BCC,,0
+2024-11-30 Auburn at Alabama,down,1,Alabama,,,,,,,1D,,,,4,15,,,,35,0.43,0.11,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-11-30 Auburn at Alabama,down,1,Alabama,,,,,,,2D,,,,1,9,,,,25,0.36,0.04,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-11-30 Auburn at Alabama,down,1,Alabama,,,,,,,3D,,,,4,12,,,,18,0.67,0.22,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-11-30 Auburn at Alabama,down,2,Auburn,,,,,,,1D,,,,9,15,,,,33,0.45,0.27,0,0,0,,,,#4985CFCC,#143B6BCC,,0
+2024-11-30 Auburn at Alabama,down,2,Auburn,,,,,,,2D,,,,3,8,,,,19,0.42,0.16,0,0,0,,,,#4985CFCC,#143B6BCC,,0
+2024-11-30 Auburn at Alabama,down,2,Auburn,,,,,,,3D,,,,2,4,,,,12,0.33,0.17,0,0,0,,,,#4985CFCC,#143B6BCC,,0
+2024-11-30 Auburn at Alabama,down,2,Auburn,,,,,,,4D,,,,0,0,,,,1,0,0,0,0,0,,,,#4985CFCC,#143B6BCC,,0
+2024-11-30 Auburn at Alabama,red_zone,1,Alabama,,,,,,,,Other,,,7,31,,,,69,0.45,0.1,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-11-30 Auburn at Alabama,red_zone,1,Alabama,,,,,,,,Red zone,,,2,5,,,,9,0.56,0.22,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-11-30 Auburn at Alabama,red_zone,2,Auburn,,,,,,,,Other,,,14,26,,,,56,0.46,0.25,0,0,0,,,,#4985CFCC,#143B6BCC,,0
+2024-11-30 Auburn at Alabama,red_zone,2,Auburn,,,,,,,,Red zone,,,0,1,,,,9,0.11,0,0,0,0,,,,#4985CFCC,#143B6BCC,,0
+2024-11-30 Auburn at Alabama,distance,1,Alabama,,,,,,,,,0-3 yds,,1,7,,,,10,0.7,0.1,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-11-30 Auburn at Alabama,distance,1,Alabama,,,,,,,,,4-6 yds,,2,6,,,,12,0.5,0.17,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-11-30 Auburn at Alabama,distance,1,Alabama,,,,,,,,,7-9 yds,,1,8,,,,13,0.62,0.08,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-11-30 Auburn at Alabama,distance,1,Alabama,,,,,,,,,9> yds,,5,15,,,,43,0.35,0.12,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-11-30 Auburn at Alabama,distance,2,Auburn,,,,,,,,,0-3 yds,,0,4,,,,7,0.57,0,0,0,0,,,,#4985CFCC,#143B6BCC,,0
+2024-11-30 Auburn at Alabama,distance,2,Auburn,,,,,,,,,4-6 yds,,0,0,,,,4,0,0,0,0,0,,,,#4985CFCC,#143B6BCC,,0
+2024-11-30 Auburn at Alabama,distance,2,Auburn,,,,,,,,,7-9 yds,,3,5,,,,13,0.38,0.23,0,0,0,,,,#4985CFCC,#143B6BCC,,0
+2024-11-30 Auburn at Alabama,distance,2,Auburn,,,,,,,,,9> yds,,11,18,,,,41,0.44,0.27,0,0,0,,,,#4985CFCC,#143B6BCC,,0
+2024-11-30 Auburn at Alabama,drive,1,Alabama,,,,,,2,,,,,0,2,,,,6,0.33,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-11-30 Auburn at Alabama,drive,1,Alabama,,,,,,4,,,,,1,1,,,,4,0.25,0.25,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-11-30 Auburn at Alabama,drive,1,Alabama,,,,,,6,,,,,1,4,,,,5,0.8,0.2,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-11-30 Auburn at Alabama,drive,1,Alabama,,,,,,8,,,,,2,3,,,,9,0.33,0.22,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-11-30 Auburn at Alabama,drive,1,Alabama,,,,,,10,,,,,2,6,,,,12,0.5,0.17,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-11-30 Auburn at Alabama,drive,1,Alabama,,,,,,12,,,,,0,0,,,,1,0,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-11-30 Auburn at Alabama,drive,1,Alabama,,,,,,14,,,,,0,0,,,,1,0,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-11-30 Auburn at Alabama,drive,1,Alabama,,,,,,15,,,,,1,6,,,,9,0.67,0.11,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-11-30 Auburn at Alabama,drive,1,Alabama,,,,,,17,,,,,2,4,,,,6,0.67,0.33,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-11-30 Auburn at Alabama,drive,1,Alabama,,,,,,19,,,,,0,5,,,,9,0.56,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-11-30 Auburn at Alabama,drive,1,Alabama,,,,,,21,,,,,0,4,,,,13,0.31,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-11-30 Auburn at Alabama,drive,1,Alabama,,,,,,23,,,,,0,1,,,,3,0.33,0,0,0,0,,,,#E82525CC,#5A0000CC,,0
+2024-11-30 Auburn at Alabama,drive,2,Auburn,,,,,,1,,,,,0,1,,,,3,0.33,0,0,0,0,,,,#4985CFCC,#143B6BCC,,0
+2024-11-30 Auburn at Alabama,drive,2,Auburn,,,,,,3,,,,,2,3,,,,8,0.38,0.25,0,0,0,,,,#4985CFCC,#143B6BCC,,0
+2024-11-30 Auburn at Alabama,drive,2,Auburn,,,,,,5,,,,,0,0,,,,3,0,0,0,0,0,,,,#4985CFCC,#143B6BCC,,0
+2024-11-30 Auburn at Alabama,drive,2,Auburn,,,,,,7,,,,,2,5,,,,8,0.63,0.25,0,0,0,,,,#4985CFCC,#143B6BCC,,0
+2024-11-30 Auburn at Alabama,drive,2,Auburn,,,,,,9,,,,,2,3,,,,8,0.38,0.25,0,0,0,,,,#4985CFCC,#143B6BCC,,0
+2024-11-30 Auburn at Alabama,drive,2,Auburn,,,,,,11,,,,,0,0,,,,3,0,0,0,0,0,,,,#4985CFCC,#143B6BCC,,0
+2024-11-30 Auburn at Alabama,drive,2,Auburn,,,,,,13,,,,,1,2,,,,7,0.29,0.14,0,0,0,,,,#4985CFCC,#143B6BCC,,0
+2024-11-30 Auburn at Alabama,drive,2,Auburn,,,,,,16,,,,,0,0,,,,3,0,0,0,0,0,,,,#4985CFCC,#143B6BCC,,0
+2024-11-30 Auburn at Alabama,drive,2,Auburn,,,,,,18,,,,,2,5,,,,10,0.5,0.2,0,0,0,,,,#4985CFCC,#143B6BCC,,0
+2024-11-30 Auburn at Alabama,drive,2,Auburn,,,,,,20,,,,,1,1,,,,3,0.33,0.33,0,0,0,,,,#4985CFCC,#143B6BCC,,0
+2024-11-30 Auburn at Alabama,drive,2,Auburn,,,,,,22,,,,,0,3,,,,5,0.6,0,0,0,0,,,,#4985CFCC,#143B6BCC,,0
+2024-11-30 Auburn at Alabama,drive,2,Auburn,,,,,,24,,,,,4,4,,,,4,1,1,0,0,0,,,,#4985CFCC,#143B6BCC,,0
+2024-11-30 Auburn at Alabama,rusher,1,Alabama,,,,,,,,,,,0,10,,18,,,0,0,0,0,0,Jam Miller,,,#E82525CC,#5A0000CC,,0
+2024-11-30 Auburn at Alabama,rusher,1,Alabama,,,,,,,,,,,2,7,,7,,,0,0,0,0,0,Jalen Milroe,,,#E82525CC,#5A0000CC,,0
+2024-11-30 Auburn at Alabama,rusher,1,Alabama,,,,,,,,,,,0,2,,5,,,0,0,0,0,0,Justice Haynes,,,#E82525CC,#5A0000CC,,0
+2024-11-30 Auburn at Alabama,rusher,1,Alabama,,,,,,,,,,,0,0,,1,,,0,0,0,0,0,Ryan Williams,,,#E82525CC,#5A0000CC,,0
+2024-11-30 Auburn at Alabama,rusher,2,Auburn,,,,,,,,,,,1,5,,3,,,0,0,0,0,0,Payton Thorne,,,#4985CFCC,#143B6BCC,,0
+2024-11-30 Auburn at Alabama,rusher,2,Auburn,,,,,,,,,,,2,2,,9,,,0,0,0,0,0,Jarquez Hunter,,,#4985CFCC,#143B6BCC,,0
+2024-11-30 Auburn at Alabama,passer,1,Alabama,,,,,,,,,,,7,8,2,6,1,,0,0,0,0,0,,Jalen Milroe,,#E82525CC,#5A0000CC,,0
+2024-11-30 Auburn at Alabama,passer,2,Auburn,,,,,,,,,,,11,6,7,16,1,,0,0,0,0,0,,Payton Thorne,,#4985CFCC,#143B6BCC,,0
+2024-11-30 Auburn at Alabama,passer,2,Auburn,,,,,,,,,,,0,0,0,0,1,,0,0,0,0,0,,Jarquez Hunter,,#4985CFCC,#143B6BCC,,0
+2024-11-30 Auburn at Alabama,receiver,1,Alabama,,,,,,,,,,,4,2,1,0,,,0,0,0,0,0,,,Germie Bernard,#E82525CC,#5A0000CC,,0
+2024-11-30 Auburn at Alabama,receiver,1,Alabama,,,,,,,,,,,1,2,0,0,,,0,0,0,0,0,,,Josh Cuevas,#E82525CC,#5A0000CC,,0
+2024-11-30 Auburn at Alabama,receiver,1,Alabama,,,,,,,,,,,0,2,0,0,,,0,0,0,0,0,,,Robbie Ouzts,#E82525CC,#5A0000CC,,0
+2024-11-30 Auburn at Alabama,receiver,1,Alabama,,,,,,,,,,,1,1,1,0,,,0,0,0,0,0,,,CJ Dippre,#E82525CC,#5A0000CC,,0
+2024-11-30 Auburn at Alabama,receiver,1,Alabama,,,,,,,,,,,1,1,0,1,,,0,0,0,0,0,,,Ryan Williams,#E82525CC,#5A0000CC,,0
+2024-11-30 Auburn at Alabama,receiver,2,Auburn,,,,,,,,,,,2,3,2,0,,,0,0,0,0,0,,,Cam Coleman,#4985CFCC,#143B6BCC,,0
+2024-11-30 Auburn at Alabama,receiver,2,Auburn,,,,,,,,,,,5,2,1,0,,,0,0,0,0,0,,,KeAndre Lambert-Smith,#4985CFCC,#143B6BCC,,0
+2024-11-30 Auburn at Alabama,receiver,2,Auburn,,,,,,,,,,,2,1,0,0,,,0,0,0,0,0,,,Rivaldo Fairweather,#4985CFCC,#143B6BCC,,0
+2024-11-30 Auburn at Alabama,receiver,2,Auburn,,,,,,,,,,,1,0,3,0,,,0,0,0,0,0,,,Malcolm Simmons,#4985CFCC,#143B6BCC,,0
+2024-11-30 Auburn at Alabama,receiver,2,Auburn,,,,,,,,,,,1,0,0,0,,,0,0,0,0,0,,,Damari Alston,#4985CFCC,#143B6BCC,,0
+2024-11-30 Auburn at Alabama,receiver,2,Auburn,,,,,,,,,,,0,0,1,0,,,0,0,0,0,0,,,Luke Deal,#4985CFCC,#143B6BCC,,0
+2024-11-30 Auburn at Alabama,plays,2,Auburn,1,1,Payton Thorne run for 5 yds to the AUB 26,Rush,1,1,1,Other,10,5,0,1,,,,,1,0,1,0,1,Payton Thorne,,,#4985CFCC,#143B6BCC,0,0
+2024-11-30 Auburn at Alabama,plays,2,Auburn,2,2,Jarquez Hunter run for 1 yd to the AUB 27,Rush,1,1,2,Other,5,1,0,0,,,,,0.5,0,0.5,0,1,Jarquez Hunter,,,#4985CFCC,#143B6BCC,-2.5,-1.25
+2024-11-30 Auburn at Alabama,plays,2,Auburn,3,3,Payton Thorne pass incomplete to KeAndre Lambert-Smith,Pass,1,1,3,Other,4,0,0,0,,,,,0,0,0.33,0,0.67,,Payton Thorne,,#4985CFCC,#143B6BCC,-4,-2.17
+2024-11-30 Auburn at Alabama,plays,1,Alabama,4,1,Jam Miller run for 5 yds to the ALA 47,Rush,1,2,1,Other,10,5,0,1,,,,,1,0,1,0,1,Jam Miller,,,#E82525CC,#5A0000CC,0,0
+2024-11-30 Auburn at Alabama,plays,1,Alabama,5,2,Jam Miller run for a loss of 3 yards to the ALA 44,Rush,1,2,2,Other,5,-3,0,0,,,,,0.5,0,0.5,0,1,Jam Miller,,,#E82525CC,#5A0000CC,-6.5,-3.25
+2024-11-30 Auburn at Alabama,plays,1,Alabama,6,3,Jalen Milroe pass complete to Josh Cuevas for 8 yds to the AUB 48 for a 1ST down,Pass,1,2,3,Other,8,8,0,1,,,,,1,0,0.67,0,0.67,,Jalen Milroe,Josh Cuevas,#E82525CC,#5A0000CC,0,-2.17
+2024-11-30 Auburn at Alabama,plays,1,Alabama,7,4,Jam Miller run for 2 yds to the AUB 46,Rush,1,2,1,Other,10,2,0,0,,,,,0.33,0,0.5,0,0.75,Jam Miller,,,#E82525CC,#5A0000CC,-3,-2.38
+2024-11-30 Auburn at Alabama,plays,1,Alabama,8,5,Jalen Milroe pass incomplete to Germie Bernard,Pass,1,2,2,Other,8,0,0,0,,,,,0.5,0,0.4,0,0.6,,Jalen Milroe,,#E82525CC,#5A0000CC,-5.6,-3.02
+2024-11-30 Auburn at Alabama,plays,1,Alabama,9,6,"Jalen Milroe pass complete to Ryan Williams for 19 yds Ryan Williams fumbled, forced by Kaleb Harris, recovered by AUB Eugene Asante",Pass,1,2,3,Other,8,19,0,0,,,,,0.33,0,0.33,0,0.5,,Jalen Milroe,Ryan Williams,#E82525CC,#5A0000CC,11,-0.68
+2024-11-30 Auburn at Alabama,plays,2,Auburn,10,4,Payton Thorne run for 10 yds to the AUB 37 for a 1ST down,Rush,1,3,1,Other,10,10,0,1,,,,,0.67,0,0.5,0,0.75,Payton Thorne,,,#4985CFCC,#143B6BCC,5,-0.38
+2024-11-30 Auburn at Alabama,plays,2,Auburn,11,5,Jarquez Hunter run for 19 yds to the ALA 44 for a 1ST down,Rush,1,3,1,Other,10,19,1,1,,,,,0.75,0.25,0.6,0.2,0.8,Jarquez Hunter,,,#4985CFCC,#143B6BCC,14,2.5
+2024-11-30 Auburn at Alabama,plays,2,Auburn,12,6,Jarquez Hunter run for 2 yds to the ALA 42,Rush,1,3,1,Other,10,2,0,0,,,,,0.6,0.2,0.5,0.17,0.83,Jarquez Hunter,,,#4985CFCC,#143B6BCC,-3,1.58
+2024-11-30 Auburn at Alabama,plays,2,Auburn,13,7,Payton Thorne pass incomplete,Pass,1,3,2,Other,8,0,0,0,,,,,0,0,0.43,0.14,0.71,,Payton Thorne,,#4985CFCC,#143B6BCC,-5.6,0.56
+2024-11-30 Auburn at Alabama,plays,2,Auburn,14,8,Payton Thorne pass complete to Rivaldo Fairweather for 20 yds to the ALA 22 for a 1ST down,Pass,1,3,3,Other,8,20,1,1,,,,,0.33,0.33,0.5,0.25,0.63,,Payton Thorne,Rivaldo Fairweather,#4985CFCC,#143B6BCC,12,1.99
+2024-11-30 Auburn at Alabama,plays,2,Auburn,15,9,Payton Thorne pass complete to Malcolm Simmons for 1 yd to the ALA 21,Pass,1,3,1,Other,10,1,0,0,,,,,0.25,0.25,0.44,0.22,0.56,,Payton Thorne,Malcolm Simmons,#4985CFCC,#143B6BCC,-4,1.32
+2024-11-30 Auburn at Alabama,plays,2,Auburn,16,10,Payton Thorne run for no gain to the ALA 21,Rush,1,3,2,Other,9,0,0,0,,,,,0.5,0.17,0.4,0.2,0.6,Payton Thorne,,,#4985CFCC,#143B6BCC,-6.3,0.56
+2024-11-30 Auburn at Alabama,plays,2,Auburn,17,11,Payton Thorne pass incomplete to Rivaldo Fairweather,Pass,1,3,3,Other,9,0,0,0,,,,,0.2,0.2,0.36,0.18,0.55,,Payton Thorne,,#4985CFCC,#143B6BCC,-9,-0.31
+2024-11-30 Auburn at Alabama,plays,1,Alabama,18,7,Jalen Milroe pass complete to CJ Dippre for 20 yds to the ALA 41 for a 1ST down,Pass,1,4,1,Other,10,20,1,1,,,,,0.5,0.25,0.43,0.14,0.43,,Jalen Milroe,CJ Dippre,#E82525CC,#5A0000CC,15,1.56
+2024-11-30 Auburn at Alabama,plays,1,Alabama,19,8,Jalen Milroe pass incomplete to Germie Bernard,Pass,1,4,1,Other,10,0,0,0,,,,,0.4,0.2,0.38,0.13,0.38,,Jalen Milroe,,#E82525CC,#5A0000CC,-5,0.74
+2024-11-30 Auburn at Alabama,plays,1,Alabama,20,9,Jam Miller run for no gain to the ALA 41,Rush,1,4,2,Other,10,0,0,0,,,,,0.25,0,0.33,0.11,0.44,Jam Miller,,,#E82525CC,#5A0000CC,-7,-0.12
+2024-11-30 Auburn at Alabama,plays,1,Alabama,21,10,"Jalen Milroe run for 1 yd to the ALA 42 Jalen Milroe fumbled, forced by Keldric Faulk, recovered by ALA Parker Brailsford",Rush,1,4,3,Other,10,1,0,0,,,,,0.2,0,0.3,0.1,0.5,Jalen Milroe,,,#E82525CC,#5A0000CC,-9,-1.01
+2024-11-30 Auburn at Alabama,plays,2,Auburn,22,12,Payton Thorne pass incomplete to Cam Coleman,Pass,1,5,1,Other,10,0,0,0,,,,,0.17,0.17,0.33,0.17,0.5,,Payton Thorne,,#4985CFCC,#143B6BCC,-5,-0.7
+2024-11-30 Auburn at Alabama,plays,2,Auburn,23,13,Payton Thorne pass complete to Cam Coleman for 2 yds to the AUB 11,Pass,1,5,2,Other,10,2,0,0,,,,,0.14,0.14,0.31,0.15,0.46,,Payton Thorne,Cam Coleman,#4985CFCC,#143B6BCC,-5,-1.03
+2024-11-30 Auburn at Alabama,plays,2,Auburn,24,14,"Payton Thorne pass incomplete to Malcolm Simmons, broken up by Malachi Moore",Pass,1,5,3,Other,8,0,0,0,,,,,0.13,0.13,0.29,0.14,0.43,,Payton Thorne,,#4985CFCC,#143B6BCC,-8,-1.53
+2024-11-30 Auburn at Alabama,plays,1,Alabama,25,11,Jam Miller run for 14 yds to the AUB 38 for a 1ST down,Rush,1,6,1,Other,10,14,0,1,,,,,0.33,0,0.36,0.09,0.55,Jam Miller,,,#E82525CC,#5A0000CC,9,-0.1
+2024-11-30 Auburn at Alabama,plays,1,Alabama,26,12,Jalen Milroe pass complete to Robbie Ouzts for 5 yds to the AUB 33,Pass,1,6,1,Other,10,5,0,1,,,,,0.5,0.17,0.42,0.08,0.5,,Jalen Milroe,Robbie Ouzts,#E82525CC,#5A0000CC,0,-0.09
+2024-11-30 Auburn at Alabama,plays,1,Alabama,27,13,Jam Miller run for 3 yds to the AUB 30,Rush,1,6,2,Other,5,3,0,0,,,,,0.29,0,0.38,0.08,0.54,Jam Miller,,,#E82525CC,#5A0000CC,-0.5,-0.12
+2024-11-30 Auburn at Alabama,plays,1,Alabama,28,14,Jalen Milroe run for 11 yds to the AUB 19 for a 1ST down,Rush,1,6,3,Other,2,11,0,1,,,,,0.38,0,0.43,0.07,0.57,Jalen Milroe,,,#E82525CC,#5A0000CC,9,0.53
+2024-11-30 Auburn at Alabama,plays,1,Alabama,29,15,Jalen Milroe run for 19 yds for a TD (Graham Nicholson KICK),Rush,1,6,1,Red zone,10,19,1,1,,,,,0.44,0.11,0.47,0.13,0.6,Jalen Milroe,,,#E82525CC,#5A0000CC,14,1.43
+2024-11-30 Auburn at Alabama,plays,2,Auburn,30,15,Jarquez Hunter run for 21 yds to the AUB 46 for a 1ST down,Rush,1,7,1,Other,10,21,1,1,,,,,0.57,0.29,0.33,0.2,0.47,Jarquez Hunter,,,#4985CFCC,#143B6BCC,16,-0.36
+2024-11-30 Auburn at Alabama,plays,2,Auburn,31,16,Payton Thorne pass complete to KeAndre Lambert-Smith for 9 yds to the ALA 45,Pass,1,7,1,Other,10,9,0,1,,,,,0.22,0.11,0.38,0.19,0.44,,Payton Thorne,KeAndre Lambert-Smith,#4985CFCC,#143B6BCC,4,-0.09
+2024-11-30 Auburn at Alabama,plays,2,Auburn,32,17,Jarquez Hunter run for 5 yds to the ALA 40 for a 1ST down,Rush,1,7,2,Other,1,5,0,1,,,,,0.63,0.25,0.41,0.18,0.47,Jarquez Hunter,,,#4985CFCC,#143B6BCC,4.3,0.17
+2024-11-30 Auburn at Alabama,plays,2,Auburn,33,18,Payton Thorne pass complete to Damari Alston for 15 yds to the ALA 25 for a 1ST down,Pass,1,7,1,Other,10,15,1,1,,,,,0.3,0.2,0.44,0.22,0.44,,Payton Thorne,Damari Alston,#4985CFCC,#143B6BCC,10,0.72
+2024-11-30 Auburn at Alabama,plays,2,Auburn,34,19,Payton Thorne pass complete to KeAndre Lambert-Smith for 7 yds to the ALA 18,Pass,1,7,1,Other,10,7,0,1,,,,,0.36,0.18,0.47,0.21,0.42,,Payton Thorne,KeAndre Lambert-Smith,#4985CFCC,#143B6BCC,2,0.78
+2024-11-30 Auburn at Alabama,plays,2,Auburn,35,20,Payton Thorne pass incomplete to Malcolm Simmons,Pass,1,7,2,Other,8,0,0,0,,,,,0.33,0.17,0.45,0.2,0.4,,Payton Thorne,,#4985CFCC,#143B6BCC,-5.6,0.47
+2024-11-30 Auburn at Alabama,plays,2,Auburn,36,21,Payton Thorne pass complete to Malcolm Simmons for 4 yds to the ALA 19,Pass,1,7,3,Other,8,4,0,0,,,,,0.31,0.15,0.43,0.19,0.38,,Payton Thorne,Malcolm Simmons,#4985CFCC,#143B6BCC,-4,0.25
+2024-11-30 Auburn at Alabama,plays,2,Auburn,37,22,Payton Thorne pass incomplete,Pass,2,7,4,Red zone,4,0,0,0,,,,,0.29,0.14,0.41,0.18,0.36,,Payton Thorne,,#4985CFCC,#143B6BCC,-4,0.06
+2024-11-30 Auburn at Alabama,plays,1,Alabama,38,16,Justice Haynes run for 6 yds to the ALA 25,Rush,2,8,1,Other,10,6,0,1,,,,,0.5,0.1,0.5,0.13,0.63,Justice Haynes,,,#E82525CC,#5A0000CC,1,1.4
+2024-11-30 Auburn at Alabama,plays,1,Alabama,39,17,Justice Haynes run for a loss of 1 yard to the ALA 24,Rush,2,8,2,Other,4,-1,0,0,,,,,0.45,0.09,0.47,0.12,0.65,Justice Haynes,,,#E82525CC,#5A0000CC,-3.8,1.09
+2024-11-30 Auburn at Alabama,plays,1,Alabama,40,18,Jalen Milroe pass complete to Germie Bernard for 21 yds to the ALA 45 for a 1ST down,Pass,2,8,3,Other,5,21,1,1,,,,,0.57,0.29,0.5,0.17,0.61,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,16,1.92
+2024-11-30 Auburn at Alabama,plays,1,Alabama,41,19,Jalen Milroe pass incomplete to Ryan Williams,Pass,2,8,1,Other,10,0,0,0,,,,,0.5,0.25,0.47,0.16,0.58,,Jalen Milroe,,#E82525CC,#5A0000CC,-5,1.56
+2024-11-30 Auburn at Alabama,plays,1,Alabama,42,20,Jalen Milroe pass incomplete to Jam Miller,Pass,2,8,2,Other,10,0,0,0,,,,,0.44,0.22,0.45,0.15,0.55,,Jalen Milroe,,#E82525CC,#5A0000CC,-7,1.13
+2024-11-30 Auburn at Alabama,plays,1,Alabama,43,21,Jalen Milroe pass complete to Germie Bernard for 23 yds to the AUB 32 for a 1ST down,Pass,2,8,3,Other,10,23,1,1,,,,,0.5,0.3,0.48,0.19,0.52,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,13,1.7
+2024-11-30 Auburn at Alabama,plays,1,Alabama,44,22,Ryan Williams run for a loss of 5 yards to the AUB 37,Rush,2,8,1,Other,10,-5,0,0,,,,,0.42,0.08,0.45,0.18,0.55,Ryan Williams,,,#E82525CC,#5A0000CC,-10,1.16
+2024-11-30 Auburn at Alabama,plays,1,Alabama,45,23,Jalen Milroe run for 2 yds to the AUB 35,Rush,2,8,2,Other,15,2,0,0,,,,,0.38,0.08,0.43,0.17,0.57,Jalen Milroe,,,#E82525CC,#5A0000CC,-8.5,0.74
+2024-11-30 Auburn at Alabama,plays,1,Alabama,46,24,Jalen Milroe pass intercepted Caleb Wooden return for no gain to the AUB 9,Pass,2,8,3,Other,13,0,0,0,,,,,0.45,0.27,0.42,0.17,0.54,,Jalen Milroe,,#E82525CC,#5A0000CC,-13,0.17
+2024-11-30 Auburn at Alabama,plays,2,Auburn,47,23,Jarquez Hunter run for 2 yds to the AUB 11,Rush,2,9,1,Other,10,2,0,0,,,,,0.56,0.22,0.39,0.17,0.39,Jarquez Hunter,,,#4985CFCC,#143B6BCC,-3,-0.07
+2024-11-30 Auburn at Alabama,plays,2,Auburn,48,24,Jarquez Hunter run for 5 yds to the AUB 16,Rush,2,9,2,Other,8,5,0,0,,,,,0.5,0.2,0.38,0.17,0.42,Jarquez Hunter,,,#4985CFCC,#143B6BCC,-0.6,-0.1
+2024-11-30 Auburn at Alabama,plays,2,Auburn,49,25,Payton Thorne pass complete to Cam Coleman for 7 yds to the AUB 23 for a 1ST down,Pass,2,9,3,Other,3,7,0,1,,,,,0.33,0.13,0.4,0.16,0.4,,Payton Thorne,Cam Coleman,#4985CFCC,#143B6BCC,4,0.07
+2024-11-30 Auburn at Alabama,plays,2,Auburn,50,26,Payton Thorne pass complete to KeAndre Lambert-Smith for 18 yds to the AUB 41 for a 1ST down,Pass,2,9,1,Other,10,18,1,1,,,,,0.38,0.19,0.42,0.19,0.38,,Payton Thorne,KeAndre Lambert-Smith,#4985CFCC,#143B6BCC,13,0.57
+2024-11-30 Auburn at Alabama,plays,2,Auburn,51,27,"Payton Thorne pass complete to Malcolm Simmons for 31 yds to the ALA 28 for a 1ST down Alabama Penalty, Personal Foul (Malachi Moore) to the ALA 14 for a 1ST down",Pass,2,9,1,Other,10,45,1,1,,,,,0.41,0.24,0.44,0.22,0.37,,Payton Thorne,Malcolm Simmons,#4985CFCC,#143B6BCC,40,2.03
+2024-11-30 Auburn at Alabama,plays,2,Auburn,52,28,Payton Thorne pass incomplete to KeAndre Lambert-Smith,Pass,2,9,1,Red zone,10,0,0,0,,,,,0.39,0.22,0.43,0.21,0.36,,Payton Thorne,,#4985CFCC,#143B6BCC,-5,1.78
+2024-11-30 Auburn at Alabama,plays,2,Auburn,53,29,Payton Thorne pass incomplete,Pass,2,9,2,Red zone,15,0,0,0,,,,,0.37,0.21,0.41,0.21,0.34,,Payton Thorne,,#4985CFCC,#143B6BCC,-10.5,1.35
+2024-11-30 Auburn at Alabama,plays,2,Auburn,54,30,"Payton Thorne pass incomplete to Jarquez Hunter, broken up by Malachi Moore",Pass,2,9,3,Red zone,15,0,0,0,,,,,0.35,0.2,0.4,0.2,0.33,,Payton Thorne,,#4985CFCC,#143B6BCC,-15,0.81
+2024-11-30 Auburn at Alabama,plays,1,Alabama,55,25,Jalen Milroe run for 3 yds to the ALA 28,Rush,2,10,1,Other,10,3,0,0,,,,,0.36,0.07,0.4,0.16,0.56,Jalen Milroe,,,#E82525CC,#5A0000CC,-2,0.08
+2024-11-30 Auburn at Alabama,plays,1,Alabama,56,26,Jalen Milroe run for 10 yds to the ALA 38 for a 1ST down,Rush,2,10,2,Other,7,10,0,1,,,,,0.4,0.07,0.42,0.15,0.58,Jalen Milroe,,,#E82525CC,#5A0000CC,5.1,0.28
+2024-11-30 Auburn at Alabama,plays,1,Alabama,57,27,Jam Miller run for 3 yds to the ALA 41,Rush,2,10,1,Other,10,3,0,0,,,,,0.38,0.06,0.41,0.15,0.59,Jam Miller,,,#E82525CC,#5A0000CC,-2,0.19
+2024-11-30 Auburn at Alabama,plays,1,Alabama,58,28,Jalen Milroe pass complete to Robbie Ouzts for 10 yds to the AUB 49 for a 1ST down,Pass,2,10,2,Other,7,10,0,1,,,,,0.5,0.25,0.43,0.14,0.57,,Jalen Milroe,Robbie Ouzts,#E82525CC,#5A0000CC,5.1,0.37
+2024-11-30 Auburn at Alabama,plays,1,Alabama,59,29,Jam Miller run for 2 yds to the AUB 47,Rush,2,10,1,Other,10,2,0,0,,,,,0.35,0.06,0.41,0.14,0.59,Jam Miller,,,#E82525CC,#5A0000CC,-3,0.25
+2024-11-30 Auburn at Alabama,plays,1,Alabama,60,30,Jalen Milroe pass complete to Josh Cuevas for 20 yds to the AUB 27 for a 1ST down,Pass,2,10,2,Other,8,20,1,1,,,,,0.54,0.31,0.43,0.17,0.57,,Jalen Milroe,Josh Cuevas,#E82525CC,#5A0000CC,14.4,0.72
+2024-11-30 Auburn at Alabama,plays,1,Alabama,61,31,"Jalen Milroe pass incomplete to CJ Dippre, broken up by Jerrin Thompson",Pass,2,10,1,Other,10,0,0,0,,,,,0.5,0.29,0.42,0.16,0.55,,Jalen Milroe,,#E82525CC,#5A0000CC,-5,0.54
+2024-11-30 Auburn at Alabama,plays,1,Alabama,62,32,Justice Haynes run for 5 yds to the AUB 22,Rush,2,10,2,Other,10,5,0,0,,,,,0.33,0.06,0.41,0.16,0.56,Justice Haynes,,,#E82525CC,#5A0000CC,-2,0.46
+2024-11-30 Auburn at Alabama,plays,1,Alabama,63,33,Jalen Milroe pass complete to Germie Bernard for 15 yds to the AUB 7 for a 1ST down,Pass,2,10,3,Other,5,15,1,1,,,,,0.53,0.33,0.42,0.18,0.55,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,10,0.75
+2024-11-30 Auburn at Alabama,plays,1,Alabama,64,34,Justice Haynes run for 1 yd to the AUB 6,Rush,2,10,1,Red zone,7,1,0,0,,,,,0.32,0.05,0.41,0.18,0.56,Justice Haynes,,,#E82525CC,#5A0000CC,-2.5,0.65
+2024-11-30 Auburn at Alabama,plays,1,Alabama,65,35,Jalen Milroe run for 5 yds to the AUB 1,Rush,2,10,2,Red zone,6,5,0,1,,,,,0.35,0.05,0.43,0.17,0.57,Jalen Milroe,,,#E82525CC,#5A0000CC,0.8,0.66
+2024-11-30 Auburn at Alabama,plays,1,Alabama,66,36,Jalen Milroe run for 1 yd for a TD (Graham Nicholson KICK),Rush,2,10,3,Red zone,1,1,0,1,,,,,0.38,0.05,0.44,0.17,0.58,Jalen Milroe,,,#E82525CC,#5A0000CC,0,0.64
+2024-11-30 Auburn at Alabama,plays,2,Auburn,67,31,Payton Thorne pass incomplete to KeAndre Lambert-Smith,Pass,2,11,1,Other,10,0,0,0,,,,,0.33,0.19,0.39,0.19,0.32,,Payton Thorne,,#4985CFCC,#143B6BCC,-5,0.62
+2024-11-30 Auburn at Alabama,plays,2,Auburn,68,32,Payton Thorne pass complete to Luke Deal for 3 yds to the AUB 20,Pass,2,11,2,Other,10,3,0,0,,,,,0.32,0.18,0.38,0.19,0.31,,Payton Thorne,Luke Deal,#4985CFCC,#143B6BCC,-4,0.48
+2024-11-30 Auburn at Alabama,plays,2,Auburn,69,33,Payton Thorne pass incomplete,Pass,2,11,3,Other,7,0,0,0,,,,,0.3,0.17,0.36,0.18,0.3,,Payton Thorne,,#4985CFCC,#143B6BCC,-7,0.25
+2024-11-30 Auburn at Alabama,plays,1,Alabama,70,37,"Jalen Milroe sacked by Jalen McLeod for a loss of 1 yard to the ALA 34 Jalen Milroe fumbled, forced by Jalen McLeod, recovered by AUB Philip Blidi , return for 0 yards",Pass,2,12,1,Other,10,-1,0,0,,,,,0.5,0.31,0.43,0.16,0.57,,,,#E82525CC,#5A0000CC,-6,0.46
+2024-11-30 Auburn at Alabama,plays,2,Auburn,71,34,Payton Thorne pass complete to Malcolm Simmons for a loss of 2 yards to the ALA 36,Pass,2,13,1,Other,10,-2,0,0,,,,,0.29,0.17,0.35,0.18,0.29,,Payton Thorne,Malcolm Simmons,#4985CFCC,#143B6BCC,-7,0.04
+2024-11-30 Auburn at Alabama,plays,2,Auburn,72,35,"Payton Thorne run for 3 yds to the ALA 33 for a 1ST down Alabama Penalty, Personal Foul (Tim Smith) to the ALA 18 for a 1ST down",Rush,2,13,2,Other,12,18,1,1,,,,,0.55,0.27,0.37,0.2,0.31,Payton Thorne,,,#4985CFCC,#143B6BCC,9.6,0.31
+2024-11-30 Auburn at Alabama,plays,2,Auburn,73,36,Jarquez Hunter run for 2 yds to the ALA 16,Rush,2,13,1,Red zone,10,2,0,0,,,,,0.5,0.25,0.36,0.19,0.33,Jarquez Hunter,,,#4985CFCC,#143B6BCC,-3,0.22
+2024-11-30 Auburn at Alabama,plays,2,Auburn,74,37,Payton Thorne pass complete to Rivaldo Fairweather for 14 yds to the ALA 2 for a 1ST down,Pass,2,13,2,Red zone,8,14,0,1,,,,,0.32,0.16,0.38,0.19,0.32,,Payton Thorne,Rivaldo Fairweather,#4985CFCC,#143B6BCC,8.4,0.44
+2024-11-30 Auburn at Alabama,plays,2,Auburn,75,38,Jarquez Hunter run for a loss of 1 yard to the ALA 3,Rush,2,13,1,Red zone,2,-1,0,0,,,,,0.46,0.23,0.37,0.18,0.34,Jarquez Hunter,,,#4985CFCC,#143B6BCC,-2,0.37
+2024-11-30 Auburn at Alabama,plays,2,Auburn,76,39,Payton Thorne run for 2 yds to the ALA 1,Rush,2,13,2,Red zone,3,2,0,0,,,,,0.43,0.21,0.36,0.18,0.36,Payton Thorne,,,#4985CFCC,#143B6BCC,-0.1,0.36
+2024-11-30 Auburn at Alabama,plays,2,Auburn,77,40,Jarquez Hunter run for a loss of 1 yard to the ALA 2,Rush,2,13,3,Red zone,1,-1,0,0,,,,,0.4,0.2,0.35,0.18,0.38,Jarquez Hunter,,,#4985CFCC,#143B6BCC,-2,0.3
+2024-11-30 Auburn at Alabama,plays,1,Alabama,78,38,TEAM run for a loss of 2 yards to the ALA 23,Rush,2,14,1,Other,10,-2,0,0,,,,,0.36,0.05,0.42,0.16,0.58,TEAM,,,#E82525CC,#5A0000CC,-7,0.26
+2024-11-30 Auburn at Alabama,plays,1,Alabama,79,39,Jalen Milroe pass complete to Ryan Williams for 24 yds to the ALA 49 for a 1ST down,Pass,3,15,1,Other,10,24,1,1,,,,,0.53,0.35,0.44,0.18,0.56,,Jalen Milroe,Ryan Williams,#E82525CC,#5A0000CC,19,0.74
+2024-11-30 Auburn at Alabama,plays,1,Alabama,80,40,Jam Miller run for 6 yds to the AUB 45,Rush,3,15,1,Other,10,6,0,1,,,,,0.39,0.04,0.45,0.18,0.58,Jam Miller,,,#E82525CC,#5A0000CC,1,0.75
+2024-11-30 Auburn at Alabama,plays,1,Alabama,81,41,Jam Miller run for 6 yds to the AUB 39 for a 1ST down,Rush,3,15,2,Other,4,6,0,1,,,,,0.42,0.04,0.46,0.17,0.59,Jam Miller,,,#E82525CC,#5A0000CC,3.2,0.81
+2024-11-30 Auburn at Alabama,plays,1,Alabama,82,42,Jalen Milroe pass complete to Germie Bernard for 14 yds to the AUB 25 for a 1ST down,Pass,3,15,1,Other,10,14,0,1,,,,,0.56,0.33,0.48,0.17,0.57,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,9,1
+2024-11-30 Auburn at Alabama,plays,1,Alabama,83,43,Jam Miller run for 1 yd to the AUB 24,Rush,3,15,1,Other,10,1,0,0,,,,,0.4,0.04,0.47,0.16,0.58,Jam Miller,,,#E82525CC,#5A0000CC,-4,0.89
+2024-11-30 Auburn at Alabama,plays,1,Alabama,84,44,Jalen Milroe pass complete to CJ Dippre for 14 yds to the AUB 10 for a 1ST down,Pass,3,15,2,Other,9,14,0,1,,,,,0.58,0.32,0.48,0.16,0.57,,Jalen Milroe,CJ Dippre,#E82525CC,#5A0000CC,7.7,1.04
+2024-11-30 Auburn at Alabama,plays,1,Alabama,85,45,Jam Miller run for 4 yds to the AUB 6,Rush,3,15,1,Red zone,10,4,0,0,,,,,0.38,0.04,0.47,0.16,0.58,Jam Miller,,,#E82525CC,#5A0000CC,-1,1
+2024-11-30 Auburn at Alabama,plays,1,Alabama,86,46,Jalen Milroe run for 4 yds to the AUB 2,Rush,3,15,2,Red zone,6,4,0,0,,,,,0.37,0.04,0.46,0.15,0.59,Jalen Milroe,,,#E82525CC,#5A0000CC,-0.2,0.97
+2024-11-30 Auburn at Alabama,plays,1,Alabama,87,47,Justice Haynes run for 2 yds for a TD (Graham Nicholson KICK),Rush,3,15,3,Red zone,2,2,0,1,,,,,0.39,0.04,0.47,0.15,0.6,Justice Haynes,,,#E82525CC,#5A0000CC,0,0.95
+2024-11-30 Auburn at Alabama,plays,2,Auburn,88,41,Payton Thorne pass incomplete,Pass,3,16,1,Other,10,0,0,0,,,,,0.31,0.15,0.34,0.17,0.37,,Payton Thorne,,#4985CFCC,#143B6BCC,-5,0.17
+2024-11-30 Auburn at Alabama,plays,2,Auburn,89,42,Payton Thorne sacked by Tim Keenan III for a loss of 6 yards to the AUB 14,Pass,3,16,2,Other,15,-6,0,0,,,,,0.3,0.15,0.33,0.17,0.36,,,,#4985CFCC,#143B6BCC,-16.5,-0.22
+2024-11-30 Auburn at Alabama,plays,2,Auburn,90,43,Payton Thorne pass complete to KeAndre Lambert-Smith for 4 yds to the AUB 18,Pass,3,16,3,Other,21,4,0,0,,,,,0.29,0.14,0.33,0.16,0.35,,Payton Thorne,KeAndre Lambert-Smith,#4985CFCC,#143B6BCC,-17,-0.61
+2024-11-30 Auburn at Alabama,plays,1,Alabama,91,48,Jam Miller run for 7 yds to the ALA 47,Rush,3,17,1,Other,10,7,0,1,,,,,0.41,0.03,0.48,0.15,0.6,Jam Miller,,,#E82525CC,#5A0000CC,2,0.97
+2024-11-30 Auburn at Alabama,plays,1,Alabama,92,49,Jam Miller run for 3 yds to the 50 yard line for a 1ST down,Rush,3,17,2,Other,3,3,0,1,,,,,0.43,0.03,0.49,0.14,0.61,Jam Miller,,,#E82525CC,#5A0000CC,0.9,0.97
+2024-11-30 Auburn at Alabama,plays,1,Alabama,93,50,Jalen Milroe pass complete to Germie Bernard for 26 yds to the AUB 24 for a 1ST down,Pass,3,17,1,Other,10,26,1,1,,,,,0.6,0.35,0.5,0.16,0.6,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,21,1.37
+2024-11-30 Auburn at Alabama,plays,1,Alabama,94,51,Jam Miller run for 4 yds to the AUB 20,Rush,3,17,1,Other,10,4,0,0,,,,,0.42,0.03,0.49,0.16,0.61,Jam Miller,,,#E82525CC,#5A0000CC,-1,1.33
+2024-11-30 Auburn at Alabama,plays,1,Alabama,95,52,Justice Haynes run for 3 yds to the AUB 17,Rush,3,17,2,Red zone,6,3,0,0,,,,,0.41,0.03,0.48,0.15,0.62,Justice Haynes,,,#E82525CC,#5A0000CC,-1.2,1.28
+2024-11-30 Auburn at Alabama,plays,1,Alabama,96,53,Jalen Milroe run for 17 yds for a TD (Graham Nicholson KICK),Rush,3,17,3,Red zone,3,17,1,1,,,,,0.42,0.06,0.49,0.17,0.62,Jalen Milroe,,,#E82525CC,#5A0000CC,14,1.52
+2024-11-30 Auburn at Alabama,plays,2,Auburn,97,44,Payton Thorne pass incomplete to Malcolm Simmons,Pass,3,18,1,Other,10,0,0,0,,,,,0.28,0.14,0.32,0.16,0.34,,Payton Thorne,,#4985CFCC,#143B6BCC,-5,-0.71
+2024-11-30 Auburn at Alabama,plays,2,Auburn,98,45,Payton Thorne pass complete to Cam Coleman for 3 yds to the AUB 31,Pass,3,18,1,Other,10,3,0,0,,,,,0.27,0.13,0.31,0.16,0.33,,Payton Thorne,Cam Coleman,#4985CFCC,#143B6BCC,-2,-0.74
+2024-11-30 Auburn at Alabama,plays,2,Auburn,99,46,Payton Thorne pass complete to Cam Coleman for 7 yds to the AUB 38 for a 1ST down,Pass,3,18,2,Other,7,7,0,1,,,,,0.29,0.13,0.33,0.15,0.33,,Payton Thorne,Cam Coleman,#4985CFCC,#143B6BCC,2.1,-0.68
+2024-11-30 Auburn at Alabama,plays,2,Auburn,100,47,Payton Thorne run for 4 yds to the AUB 42,Rush,3,18,1,Other,10,4,0,0,,,,,0.38,0.19,0.32,0.15,0.34,Payton Thorne,,,#4985CFCC,#143B6BCC,-1,-0.69
+2024-11-30 Auburn at Alabama,plays,2,Auburn,101,48,Jarquez Hunter run for a loss of 3 yards to the AUB 39,Rush,3,18,2,Other,6,-3,0,0,,,,,0.35,0.18,0.31,0.15,0.35,Jarquez Hunter,,,#4985CFCC,#143B6BCC,-7.2,-0.82
+2024-11-30 Auburn at Alabama,plays,2,Auburn,102,49,Payton Thorne pass complete to Rivaldo Fairweather for 21 yds to the ALA 40 for a 1ST down,Pass,3,18,3,Other,9,21,1,1,,,,,0.31,0.16,0.33,0.16,0.35,,Payton Thorne,Rivaldo Fairweather,#4985CFCC,#143B6BCC,12,-0.56
+2024-11-30 Auburn at Alabama,plays,2,Auburn,103,50,Payton Thorne run for 9 yds to the ALA 31,Rush,3,18,1,Other,10,9,0,1,,,,,0.39,0.17,0.34,0.16,0.36,Payton Thorne,,,#4985CFCC,#143B6BCC,4,-0.47
+2024-11-30 Auburn at Alabama,plays,2,Auburn,104,51,Jarquez Hunter run for 2 yds to the ALA 29 for a 1ST down,Rush,3,18,2,Other,1,2,0,1,,,,,0.42,0.16,0.35,0.16,0.37,Jarquez Hunter,,,#4985CFCC,#143B6BCC,1.3,-0.44
+2024-11-30 Auburn at Alabama,plays,2,Auburn,105,52,Payton Thorne pass incomplete,Pass,3,18,1,Other,10,0,0,0,,,,,0.3,0.15,0.35,0.15,0.37,,Payton Thorne,,#4985CFCC,#143B6BCC,-5,-0.52
+2024-11-30 Auburn at Alabama,plays,2,Auburn,106,53,Payton Thorne pass complete to Cam Coleman for 29 yds for a TD (J. Hunter Run For Two-point Conversion),Pass,3,18,2,Other,10,29,1,1,,,,,0.32,0.18,0.36,0.17,0.36,,Payton Thorne,Cam Coleman,#4985CFCC,#143B6BCC,22,-0.1
+2024-11-30 Auburn at Alabama,plays,1,Alabama,107,54,Jam Miller run for 6 yds to the ALA 16,Rush,3,19,1,Other,10,6,0,1,,,,,0.44,0.06,0.5,0.17,0.63,Jam Miller,,,#E82525CC,#5A0000CC,1,1.51
+2024-11-30 Auburn at Alabama,plays,1,Alabama,108,55,Jalen Milroe pass complete to Josh Cuevas for 3 yds to the ALA 19,Pass,3,19,2,Other,4,3,0,1,,,,,0.62,0.33,0.51,0.16,0.62,,Jalen Milroe,Josh Cuevas,#E82525CC,#5A0000CC,0.2,1.48
+2024-11-30 Auburn at Alabama,plays,1,Alabama,109,56,Jam Miller run for 2 yds to the ALA 21 for a 1ST down,Rush,3,19,3,Other,1,2,0,1,,,,,0.46,0.06,0.52,0.16,0.63,Jam Miller,,,#E82525CC,#5A0000CC,1,1.48
+2024-11-30 Auburn at Alabama,plays,1,Alabama,110,57,Jam Miller run for a loss of 4 yards to the ALA 17,Rush,3,19,1,Other,10,-4,0,0,,,,,0.44,0.06,0.51,0.16,0.63,Jam Miller,,,#E82525CC,#5A0000CC,-9,1.29
+2024-11-30 Auburn at Alabama,plays,1,Alabama,111,58,Jalen Milroe run for 7 yds to the ALA 24,Rush,3,19,2,Other,14,7,0,0,,,,,0.43,0.05,0.5,0.16,0.64,Jalen Milroe,,,#E82525CC,#5A0000CC,-2.8,1.22
+2024-11-30 Auburn at Alabama,plays,1,Alabama,112,59,Jalen Milroe pass complete to Ryan Williams for 10 yds to the ALA 34 for a 1ST down,Pass,4,19,3,Other,7,10,0,1,,,,,0.64,0.32,0.51,0.15,0.63,,Jalen Milroe,Ryan Williams,#E82525CC,#5A0000CC,3,1.25
+2024-11-30 Auburn at Alabama,plays,1,Alabama,113,60,Jam Miller run for 2 yds to the ALA 36,Rush,4,19,1,Other,10,2,0,0,,,,,0.42,0.05,0.5,0.15,0.63,Jam Miller,,,#E82525CC,#5A0000CC,-3,1.18
+2024-11-30 Auburn at Alabama,plays,1,Alabama,114,61,Jalen Milroe run for 6 yds to the ALA 42,Rush,4,19,2,Other,8,6,0,1,,,,,0.44,0.05,0.51,0.15,0.64,Jalen Milroe,,,#E82525CC,#5A0000CC,0.4,1.17
+2024-11-30 Auburn at Alabama,plays,1,Alabama,115,62,"Jalen Milroe run for 7 yds to the ALA 49 Jalen Milroe fumbled, forced by Jalen McLeod, recovered by AUB Keldric Faulk",Rush,4,19,3,Other,2,7,0,0,,,,,0.43,0.05,0.5,0.15,0.65,Jalen Milroe,,,#E82525CC,#5A0000CC,5,1.23
+2024-11-30 Auburn at Alabama,plays,2,Auburn,116,54,Jarquez Hunter run for 2 yds to the ALA 47,Rush,4,20,1,Other,10,2,0,0,,,,,0.4,0.15,0.35,0.17,0.37,Jarquez Hunter,,,#4985CFCC,#143B6BCC,-3,-0.15
+2024-11-30 Auburn at Alabama,plays,2,Auburn,117,55,Payton Thorne pass complete to KeAndre Lambert-Smith for 17 yds to the ALA 30 for a 1ST down,Pass,4,20,2,Other,8,17,1,1,,,,,0.34,0.2,0.36,0.18,0.36,,Payton Thorne,KeAndre Lambert-Smith,#4985CFCC,#143B6BCC,11.4,0.06
+2024-11-30 Auburn at Alabama,plays,2,Auburn,118,56,Jarquez Hunter pass intercepted Bray Hubbard return for 1 yd to the ALA 5,Pass,4,20,1,Other,10,1,0,0,,,,,0.33,0.19,0.36,0.18,0.36,,Jarquez Hunter,,#4985CFCC,#143B6BCC,-4,-0.01
+2024-11-30 Auburn at Alabama,plays,1,Alabama,119,63,Justice Haynes run for 4 yds to the ALA 7,Rush,4,21,1,Other,12,4,0,0,,,,,0.41,0.05,0.49,0.14,0.65,Justice Haynes,,,#E82525CC,#5A0000CC,-2,1.18
+2024-11-30 Auburn at Alabama,plays,1,Alabama,120,64,Jalen Milroe run for a loss of 4 yards to the ALA 3,Rush,4,21,2,Other,8,-4,0,0,,,,,0.4,0.05,0.48,0.14,0.66,Jalen Milroe,,,#E82525CC,#5A0000CC,-9.6,1.01
+2024-11-30 Auburn at Alabama,plays,1,Alabama,121,65,Jam Miller run for 3 yds to the ALA 20,Rush,4,21,1,Other,10,3,0,0,,,,,0.4,0.05,0.48,0.14,0.66,Jam Miller,,,#E82525CC,#5A0000CC,-2,0.96
+2024-11-30 Auburn at Alabama,plays,1,Alabama,122,66,Jam Miller run for 1 yd to the ALA 21,Rush,4,21,2,Other,7,1,0,0,,,,,0.39,0.05,0.47,0.14,0.67,Jam Miller,,,#E82525CC,#5A0000CC,-3.9,0.89
+2024-11-30 Auburn at Alabama,plays,1,Alabama,123,67,Jalen Milroe pass complete to Germie Bernard for 10 yds to the ALA 31 for a 1ST down,Pass,4,21,3,Other,6,10,0,1,,,,,0.65,0.3,0.48,0.13,0.66,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,4,0.94
+2024-11-30 Auburn at Alabama,plays,1,Alabama,124,68,"Jalen Milroe pass complete to CJ Dippre for 12 yds to the ALA 43 Alabama Penalty, Offensive Holding (Germie Bernard) to the ALA 33",Pass,4,21,1,Other,10,2,0,0,,,,,0.63,0.29,0.47,0.13,0.65,,Jalen Milroe,CJ Dippre,#E82525CC,#5A0000CC,-3,0.88
+2024-11-30 Auburn at Alabama,plays,1,Alabama,125,69,Jalen Milroe run for 10 yds to the ALA 43 for a 1ST down,Rush,4,21,1,Other,8,10,0,1,,,,,0.4,0.04,0.48,0.13,0.65,Jalen Milroe,,,#E82525CC,#5A0000CC,6,0.95
+2024-11-30 Auburn at Alabama,plays,1,Alabama,126,70,Jam Miller run for 8 yds to the AUB 49,Rush,4,21,1,Other,10,8,0,1,,,,,0.41,0.04,0.49,0.13,0.66,Jam Miller,,,#E82525CC,#5A0000CC,3,0.98
+2024-11-30 Auburn at Alabama,plays,1,Alabama,127,71,Jam Miller run for 1 yd to the AUB 48,Rush,4,21,2,Other,2,1,0,0,,,,,0.4,0.04,0.48,0.13,0.66,Jam Miller,,,#E82525CC,#5A0000CC,-0.4,0.96
+2024-11-30 Auburn at Alabama,plays,1,Alabama,128,72,Jalen Milroe run for 6 yds to the AUB 42 for a 1ST down,Rush,4,21,3,Other,1,6,0,1,,,,,0.42,0.04,0.49,0.13,0.67,Jalen Milroe,,,#E82525CC,#5A0000CC,5,1.02
+2024-11-30 Auburn at Alabama,plays,1,Alabama,129,73,Jam Miller run for a loss of 1 yard to the AUB 43,Rush,4,21,1,Other,10,-1,0,0,,,,,0.41,0.04,0.48,0.12,0.67,Jam Miller,,,#E82525CC,#5A0000CC,-6,0.92
+2024-11-30 Auburn at Alabama,plays,1,Alabama,130,74,Jam Miller run for no gain to the AUB 43,Rush,4,21,2,Other,11,0,0,0,,,,,0.4,0.04,0.47,0.12,0.68,Jam Miller,,,#E82525CC,#5A0000CC,-7.7,0.81
+2024-11-30 Auburn at Alabama,plays,1,Alabama,131,75,Jalen Milroe pass complete to Germie Bernard for 2 yds to the AUB 41,Pass,4,21,3,Other,11,2,0,0,,,,,0.6,0.28,0.47,0.12,0.67,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,-9,0.67
+2024-11-30 Auburn at Alabama,plays,2,Auburn,132,57,Payton Thorne pass complete to Cam Coleman for 11 yds to the AUB 14 for a 1ST down,Pass,4,22,1,Other,10,11,0,1,,,,,0.35,0.19,0.37,0.18,0.35,,Payton Thorne,Cam Coleman,#4985CFCC,#143B6BCC,6,0.09
+2024-11-30 Auburn at Alabama,plays,2,Auburn,133,58,"Payton Thorne pass incomplete to Rivaldo Fairweather, broken up by Domani Jackson",Pass,4,22,1,Other,10,0,0,0,,,,,0.34,0.18,0.36,0.17,0.34,,Payton Thorne,,#4985CFCC,#143B6BCC,-5,0
+2024-11-30 Auburn at Alabama,plays,2,Auburn,134,59,Payton Thorne run for 8 yds to the AUB 22,Rush,4,22,2,Other,10,8,0,1,,,,,0.43,0.14,0.37,0.17,0.36,Payton Thorne,,,#4985CFCC,#143B6BCC,1,0.02
+2024-11-30 Auburn at Alabama,plays,2,Auburn,135,60,Payton Thorne run for 7 yds to the AUB 29 for a 1ST down,Rush,4,22,3,Other,2,7,0,1,,,,,0.45,0.14,0.38,0.17,0.37,Payton Thorne,,,#4985CFCC,#143B6BCC,5,0.1
+2024-11-30 Auburn at Alabama,plays,2,Auburn,136,61,Payton Thorne pass intercepted Zabien Brown return for 2 yds to the ALA 38,Pass,4,22,1,Other,10,2,0,0,,,,,0.33,0.18,0.38,0.16,0.36,,Payton Thorne,,#4985CFCC,#143B6BCC,-3,0.05
+2024-11-30 Auburn at Alabama,plays,1,Alabama,137,76,Jam Miller run for 5 yds to the ALA 43,Rush,4,23,1,Other,10,5,0,1,,,,,0.41,0.04,0.47,0.12,0.67,Jam Miller,,,#E82525CC,#5A0000CC,0,0.67
+2024-11-30 Auburn at Alabama,plays,1,Alabama,138,77,Jam Miller run for 2 yds to the ALA 45,Rush,4,23,2,Other,5,2,0,0,,,,,0.4,0.04,0.47,0.12,0.68,Jam Miller,,,#E82525CC,#5A0000CC,-1.5,0.64
+2024-11-30 Auburn at Alabama,plays,1,Alabama,139,78,Jam Miller run for 2 yds to the ALA 47,Rush,4,23,3,Other,3,2,0,0,,,,,0.4,0.04,0.46,0.12,0.68,Jam Miller,,,#E82525CC,#5A0000CC,-1,0.62
+2024-11-30 Auburn at Alabama,plays,2,Auburn,140,62,Payton Thorne pass complete to Cam Coleman for 19 yds to the AUB 36 for a 1ST down,Pass,4,24,1,Other,10,19,1,1,,,,,0.35,0.2,0.39,0.18,0.35,,Payton Thorne,Cam Coleman,#4985CFCC,#143B6BCC,14,0.28
+2024-11-30 Auburn at Alabama,plays,2,Auburn,141,63,Payton Thorne pass complete to KeAndre Lambert-Smith for 21 yds to the ALA 43 for a 1ST down,Pass,4,24,1,Other,10,21,1,1,,,,,0.37,0.22,0.4,0.19,0.35,,Payton Thorne,KeAndre Lambert-Smith,#4985CFCC,#143B6BCC,16,0.53
+2024-11-30 Auburn at Alabama,plays,2,Auburn,142,64,Payton Thorne pass complete to KeAndre Lambert-Smith for 15 yds to the ALA 28 for a 1ST down,Pass,4,24,1,Other,10,15,1,1,,,,,0.38,0.24,0.41,0.2,0.34,,Payton Thorne,KeAndre Lambert-Smith,#4985CFCC,#143B6BCC,10,0.68
+2024-11-30 Auburn at Alabama,plays,2,Auburn,143,65,Payton Thorne pass complete to KeAndre Lambert-Smith for 25 yds to the ALA 3 for a 1ST down,Pass,4,24,1,Other,10,25,1,1,,,,,0.4,0.26,0.42,0.22,0.34,,Payton Thorne,KeAndre Lambert-Smith,#4985CFCC,#143B6BCC,20,0.97
+2024-12-31 Alabama at Michigan,teams,1,Alabama,,,,,,,,,,,6,22,,,,61,0.36,0.10,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-12-31 Alabama at Michigan,teams,2,Michigan,,,,,,,,,,,2,14,,,,64,0.22,0.03,0.00,0.00,0.00,,,,#E9C730CC,#7A6406CC,,0.00
+2024-12-31 Alabama at Michigan,play_type,1,Alabama,,,,Rush,,,,,,,2,11,,,,24,0.46,0.08,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-12-31 Alabama at Michigan,play_type,2,Michigan,,,,Rush,,,,,,,1,9,,,,48,0.19,0.02,0.00,0.00,0.00,,,,#E9C730CC,#7A6406CC,,0.00
+2024-12-31 Alabama at Michigan,play_type,1,Alabama,,,,Pass,,,,,,,4,11,,,,37,0.30,0.11,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-12-31 Alabama at Michigan,play_type,2,Michigan,,,,Pass,,,,,,,1,5,,,,16,0.31,0.06,0.00,0.00,0.00,,,,#E9C730CC,#7A6406CC,,0.00
+2024-12-31 Alabama at Michigan,quarter,1,Alabama,,,,,1Q,,,,,,0,3,,,,15,0.20,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-12-31 Alabama at Michigan,quarter,1,Alabama,,,,,2Q,,,,,,4,9,,,,18,0.50,0.22,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-12-31 Alabama at Michigan,quarter,1,Alabama,,,,,3Q,,,,,,1,2,,,,8,0.25,0.13,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-12-31 Alabama at Michigan,quarter,1,Alabama,,,,,4Q,,,,,,1,8,,,,20,0.40,0.05,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-12-31 Alabama at Michigan,quarter,2,Michigan,,,,,1Q,,,,,,0,2,,,,15,0.13,0.00,0.00,0.00,0.00,,,,#E9C730CC,#7A6406CC,,0.00
+2024-12-31 Alabama at Michigan,quarter,2,Michigan,,,,,2Q,,,,,,1,5,,,,19,0.26,0.05,0.00,0.00,0.00,,,,#E9C730CC,#7A6406CC,,0.00
+2024-12-31 Alabama at Michigan,quarter,2,Michigan,,,,,3Q,,,,,,0,4,,,,17,0.24,0.00,0.00,0.00,0.00,,,,#E9C730CC,#7A6406CC,,0.00
+2024-12-31 Alabama at Michigan,quarter,2,Michigan,,,,,4Q,,,,,,1,3,,,,13,0.23,0.08,0.00,0.00,0.00,,,,#E9C730CC,#7A6406CC,,0.00
+2024-12-31 Alabama at Michigan,down,1,Alabama,,,,,,,1D,,,,3,11,,,,25,0.44,0.12,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-12-31 Alabama at Michigan,down,1,Alabama,,,,,,,2D,,,,2,7,,,,20,0.35,0.10,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-12-31 Alabama at Michigan,down,1,Alabama,,,,,,,3D,,,,1,4,,,,13,0.31,0.08,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-12-31 Alabama at Michigan,down,1,Alabama,,,,,,,4D,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-12-31 Alabama at Michigan,down,2,Michigan,,,,,,,1D,,,,0,3,,,,25,0.12,0.00,0.00,0.00,0.00,,,,#E9C730CC,#7A6406CC,,0.00
+2024-12-31 Alabama at Michigan,down,2,Michigan,,,,,,,2D,,,,2,6,,,,23,0.26,0.09,0.00,0.00,0.00,,,,#E9C730CC,#7A6406CC,,0.00
+2024-12-31 Alabama at Michigan,down,2,Michigan,,,,,,,3D,,,,0,5,,,,16,0.31,0.00,0.00,0.00,0.00,,,,#E9C730CC,#7A6406CC,,0.00
+2024-12-31 Alabama at Michigan,red_zone,1,Alabama,,,,,,,,Other,,,6,22,,,,55,0.40,0.11,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-12-31 Alabama at Michigan,red_zone,1,Alabama,,,,,,,,Red zone,,,0,0,,,,6,0.00,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-12-31 Alabama at Michigan,red_zone,2,Michigan,,,,,,,,Other,,,2,13,,,,55,0.24,0.04,0.00,0.00,0.00,,,,#E9C730CC,#7A6406CC,,0.00
+2024-12-31 Alabama at Michigan,red_zone,2,Michigan,,,,,,,,Red zone,,,0,1,,,,9,0.11,0.00,0.00,0.00,0.00,,,,#E9C730CC,#7A6406CC,,0.00
+2024-12-31 Alabama at Michigan,distance,1,Alabama,,,,,,,,,0-3 yds,,1,6,,,,8,0.75,0.13,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-12-31 Alabama at Michigan,distance,1,Alabama,,,,,,,,,4-6 yds,,0,2,,,,9,0.22,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-12-31 Alabama at Michigan,distance,1,Alabama,,,,,,,,,7-9 yds,,1,2,,,,5,0.40,0.20,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-12-31 Alabama at Michigan,distance,1,Alabama,,,,,,,,,9> yds,,4,12,,,,39,0.31,0.10,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-12-31 Alabama at Michigan,distance,2,Michigan,,,,,,,,,0-3 yds,,0,3,,,,4,0.75,0.00,0.00,0.00,0.00,,,,#E9C730CC,#7A6406CC,,0.00
+2024-12-31 Alabama at Michigan,distance,2,Michigan,,,,,,,,,4-6 yds,,0,2,,,,8,0.25,0.00,0.00,0.00,0.00,,,,#E9C730CC,#7A6406CC,,0.00
+2024-12-31 Alabama at Michigan,distance,2,Michigan,,,,,,,,,7-9 yds,,2,5,,,,14,0.36,0.14,0.00,0.00,0.00,,,,#E9C730CC,#7A6406CC,,0.00
+2024-12-31 Alabama at Michigan,distance,2,Michigan,,,,,,,,,9> yds,,0,4,,,,38,0.11,0.00,0.00,0.00,0.00,,,,#E9C730CC,#7A6406CC,,0.00
+2024-12-31 Alabama at Michigan,drive,1,Alabama,,,,,,1,,,,,0,1,,,,6,0.17,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-12-31 Alabama at Michigan,drive,1,Alabama,,,,,,3,,,,,0,0,,,,1,0.00,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-12-31 Alabama at Michigan,drive,1,Alabama,,,,,,5,,,,,0,0,,,,2,0.00,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-12-31 Alabama at Michigan,drive,1,Alabama,,,,,,7,,,,,0,0,,,,1,0.00,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-12-31 Alabama at Michigan,drive,1,Alabama,,,,,,9,,,,,0,2,,,,6,0.33,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-12-31 Alabama at Michigan,drive,1,Alabama,,,,,,11,,,,,0,3,,,,6,0.50,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-12-31 Alabama at Michigan,drive,1,Alabama,,,,,,13,,,,,2,3,,,,4,0.75,0.50,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-12-31 Alabama at Michigan,drive,1,Alabama,,,,,,15,,,,,2,3,,,,7,0.43,0.29,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-12-31 Alabama at Michigan,drive,1,Alabama,,,,,,18,,,,,1,1,,,,4,0.25,0.25,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-12-31 Alabama at Michigan,drive,1,Alabama,,,,,,20,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-12-31 Alabama at Michigan,drive,1,Alabama,,,,,,22,,,,,0,2,,,,6,0.33,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-12-31 Alabama at Michigan,drive,1,Alabama,,,,,,24,,,,,0,4,,,,7,0.57,0.00,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-12-31 Alabama at Michigan,drive,1,Alabama,,,,,,26,,,,,1,3,,,,8,0.38,0.13,0.00,0.00,0.00,,,,#E82525CC,#5A0000CC,,0.00
+2024-12-31 Alabama at Michigan,drive,2,Michigan,,,,,,2,,,,,0,1,,,,6,0.17,0.00,0.00,0.00,0.00,,,,#E9C730CC,#7A6406CC,,0.00
+2024-12-31 Alabama at Michigan,drive,2,Michigan,,,,,,4,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#E9C730CC,#7A6406CC,,0.00
+2024-12-31 Alabama at Michigan,drive,2,Michigan,,,,,,6,,,,,0,1,,,,3,0.33,0.00,0.00,0.00,0.00,,,,#E9C730CC,#7A6406CC,,0.00
+2024-12-31 Alabama at Michigan,drive,2,Michigan,,,,,,8,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#E9C730CC,#7A6406CC,,0.00
+2024-12-31 Alabama at Michigan,drive,2,Michigan,,,,,,10,,,,,0,3,,,,8,0.38,0.00,0.00,0.00,0.00,,,,#E9C730CC,#7A6406CC,,0.00
+2024-12-31 Alabama at Michigan,drive,2,Michigan,,,,,,12,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#E9C730CC,#7A6406CC,,0.00
+2024-12-31 Alabama at Michigan,drive,2,Michigan,,,,,,14,,,,,1,2,,,,7,0.29,0.14,0.00,0.00,0.00,,,,#E9C730CC,#7A6406CC,,0.00
+2024-12-31 Alabama at Michigan,drive,2,Michigan,,,,,,16,,,,,0,0,,,,1,0.00,0.00,0.00,0.00,0.00,,,,#E9C730CC,#7A6406CC,,0.00
+2024-12-31 Alabama at Michigan,drive,2,Michigan,,,,,,17,,,,,0,1,,,,8,0.13,0.00,0.00,0.00,0.00,,,,#E9C730CC,#7A6406CC,,0.00
+2024-12-31 Alabama at Michigan,drive,2,Michigan,,,,,,19,,,,,0,1,,,,4,0.25,0.00,0.00,0.00,0.00,,,,#E9C730CC,#7A6406CC,,0.00
+2024-12-31 Alabama at Michigan,drive,2,Michigan,,,,,,21,,,,,0,2,,,,5,0.40,0.00,0.00,0.00,0.00,,,,#E9C730CC,#7A6406CC,,0.00
+2024-12-31 Alabama at Michigan,drive,2,Michigan,,,,,,23,,,,,1,3,,,,8,0.38,0.13,0.00,0.00,0.00,,,,#E9C730CC,#7A6406CC,,0.00
+2024-12-31 Alabama at Michigan,drive,2,Michigan,,,,,,25,,,,,0,0,,,,3,0.00,0.00,0.00,0.00,0.00,,,,#E9C730CC,#7A6406CC,,0.00
+2024-12-31 Alabama at Michigan,drive,2,Michigan,,,,,,27,,,,,0,0,,,,2,0.00,0.00,0.00,0.00,0.00,,,,#E9C730CC,#7A6406CC,,0.00
+2024-12-31 Alabama at Michigan,rusher,1,Alabama,,,,,,,,,,,0,4,,6,,,0.00,0.00,0.00,0.00,0.00,Jam Miller,,,#E82525CC,#5A0000CC,,0.00
+2024-12-31 Alabama at Michigan,rusher,1,Alabama,,,,,,,,,,,1,3,,6,,,0.00,0.00,0.00,0.00,0.00,Jalen Milroe,,,#E82525CC,#5A0000CC,,0.00
+2024-12-31 Alabama at Michigan,rusher,1,Alabama,,,,,,,,,,,0,2,,0,,,0.00,0.00,0.00,0.00,0.00,Richard Young,,,#E82525CC,#5A0000CC,,0.00
+2024-12-31 Alabama at Michigan,rusher,1,Alabama,,,,,,,,,,,1,0,,0,,,0.00,0.00,0.00,0.00,0.00,Rico Scott,,,#E82525CC,#5A0000CC,,0.00
+2024-12-31 Alabama at Michigan,rusher,1,Alabama,,,,,,,,,,,0,0,,1,,,0.00,0.00,0.00,0.00,0.00,DaShawn Jones,,,#E82525CC,#5A0000CC,,0.00
+2024-12-31 Alabama at Michigan,rusher,2,Michigan,,,,,,,,,,,1,5,,16,,,0.00,0.00,0.00,0.00,0.00,Jordan Marshall,,,#E9C730CC,#7A6406CC,,0.00
+2024-12-31 Alabama at Michigan,rusher,2,Michigan,,,,,,,,,,,0,2,,14,,,0.00,0.00,0.00,0.00,0.00,Benjamin Hall,,,#E9C730CC,#7A6406CC,,0.00
+2024-12-31 Alabama at Michigan,rusher,2,Michigan,,,,,,,,,,,0,1,,3,,,0.00,0.00,0.00,0.00,0.00,Alex Orji,,,#E9C730CC,#7A6406CC,,0.00
+2024-12-31 Alabama at Michigan,rusher,2,Michigan,,,,,,,,,,,0,0,,2,,,0.00,0.00,0.00,0.00,0.00,Fredrick Moore,,,#E9C730CC,#7A6406CC,,0.00
+2024-12-31 Alabama at Michigan,passer,1,Alabama,,,,,,,,,,,4,7,5,15,1,,0.00,0.00,0.00,0.00,0.00,,Jalen Milroe,,#E82525CC,#5A0000CC,,0.00
+2024-12-31 Alabama at Michigan,passer,2,Michigan,,,,,,,,,,,1,4,4,3,0,,0.00,0.00,0.00,0.00,0.00,,Davis Warren,,#E9C730CC,#7A6406CC,,0.00
+2024-12-31 Alabama at Michigan,passer,2,Michigan,,,,,,,,,,,0,0,2,0,1,,0.00,0.00,0.00,0.00,0.00,,Alex Orji,,#E9C730CC,#7A6406CC,,0.00
+2024-12-31 Alabama at Michigan,receiver,1,Alabama,,,,,,,,,,,2,2,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Germie Bernard,#E82525CC,#5A0000CC,,0.00
+2024-12-31 Alabama at Michigan,receiver,1,Alabama,,,,,,,,,,,1,1,1,0,,,0.00,0.00,0.00,0.00,0.00,,,Jam Miller,#E82525CC,#5A0000CC,,0.00
+2024-12-31 Alabama at Michigan,receiver,1,Alabama,,,,,,,,,,,0,1,2,0,,,0.00,0.00,0.00,0.00,0.00,,,Ryan Williams,#E82525CC,#5A0000CC,,0.00
+2024-12-31 Alabama at Michigan,receiver,1,Alabama,,,,,,,,,,,0,1,1,0,,,0.00,0.00,0.00,0.00,0.00,,,CJ Dippre,#E82525CC,#5A0000CC,,0.00
+2024-12-31 Alabama at Michigan,receiver,1,Alabama,,,,,,,,,,,0,1,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Josh Cuevas,#E82525CC,#5A0000CC,,0.00
+2024-12-31 Alabama at Michigan,receiver,1,Alabama,,,,,,,,,,,0,1,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Rico Scott,#E82525CC,#5A0000CC,,0.00
+2024-12-31 Alabama at Michigan,receiver,1,Alabama,,,,,,,,,,,1,0,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Robbie Ouzts,#E82525CC,#5A0000CC,,0.00
+2024-12-31 Alabama at Michigan,receiver,1,Alabama,,,,,,,,,,,0,0,1,0,,,0.00,0.00,0.00,0.00,0.00,,,Daniel Hill,#E82525CC,#5A0000CC,,0.00
+2024-12-31 Alabama at Michigan,receiver,2,Michigan,,,,,,,,,,,1,2,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Fredrick Moore,#E9C730CC,#7A6406CC,,0.00
+2024-12-31 Alabama at Michigan,receiver,2,Michigan,,,,,,,,,,,0,1,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Hogan Hansen,#E9C730CC,#7A6406CC,,0.00
+2024-12-31 Alabama at Michigan,receiver,2,Michigan,,,,,,,,,,,0,1,0,0,,,0.00,0.00,0.00,0.00,0.00,,,Marlin Klein,#E9C730CC,#7A6406CC,,0.00
+2024-12-31 Alabama at Michigan,receiver,2,Michigan,,,,,,,,,,,0,0,4,0,,,0.00,0.00,0.00,0.00,0.00,,,Semaj Morgan,#E9C730CC,#7A6406CC,,0.00
+2024-12-31 Alabama at Michigan,receiver,2,Michigan,,,,,,,,,,,0,0,1,0,,,0.00,0.00,0.00,0.00,0.00,,,Joe Taylor,#E9C730CC,#7A6406CC,,0.00
+2024-12-31 Alabama at Michigan,receiver,2,Michigan,,,,,,,,,,,0,0,1,0,,,0.00,0.00,0.00,0.00,0.00,,,"Peyton O'Leary",#E9C730CC,#7A6406CC,,0.00
+2024-12-31 Alabama at Michigan,plays,1,Alabama,1,1,Jalen Milroe pass complete to Jam Miller for 3 yds to the ALA 38,Pass,1,1,1,Other,10,3,0,0,,,,,0.00,0.00,0.00,0.00,0.00,,Jalen Milroe,Jam Miller,#E82525CC,#5A0000CC,-2,-2.00
+2024-12-31 Alabama at Michigan,plays,1,Alabama,2,2,Jalen Milroe pass complete to Germie Bernard for 11 yds to the ALA 49 for a 1ST down,Pass,1,1,2,Other,7,11,0,1,,,,,0.50,0.00,0.50,0.00,0.00,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,6.1,2.05
+2024-12-31 Alabama at Michigan,plays,1,Alabama,3,3,Jalen Milroe run for no gain to the ALA 49,Rush,1,1,1,Other,10,0,0,0,,,,,0.00,0.00,0.33,0.00,0.33,Jalen Milroe,,,#E82525CC,#5A0000CC,-5,-0.30
+2024-12-31 Alabama at Michigan,plays,1,Alabama,4,4,Jam Miller run for 3 yds to the MICH 48,Rush,1,1,2,Other,10,3,0,0,,,,,0.00,0.00,0.25,0.00,0.50,Jam Miller,,,#E82525CC,#5A0000CC,-4,-1.23
+2024-12-31 Alabama at Michigan,plays,1,Alabama,5,5,Jalen Milroe run for 3 yds to the MICH 45,Rush,1,1,3,Other,7,3,0,0,,,,,0.00,0.00,0.20,0.00,0.60,Jalen Milroe,,,#E82525CC,#5A0000CC,-4,-1.78
+2024-12-31 Alabama at Michigan,plays,1,Alabama,6,6,Jalen Milroe sacked by Derrick Moore for a loss of 11 yards to the ALA 44,Pass,1,1,4,Other,4,-11,0,0,,,,,0.33,0.00,0.17,0.00,0.50,,,,#E82525CC,#5A0000CC,-15,-3.98
+2024-12-31 Alabama at Michigan,plays,2,Michigan,7,1,Jordan Marshall run for 3 yds to the ALA 41,Rush,1,2,1,Other,10,3,0,0,,,,,0.00,0.00,0.00,0.00,1.00,Jordan Marshall,,,#E9C730CC,#7A6406CC,-2,-2.00
+2024-12-31 Alabama at Michigan,plays,2,Michigan,8,2,Jordan Marshall run for 1 yd to the ALA 40,Rush,1,2,2,Other,7,1,0,0,,,,,0.00,0.00,0.00,0.00,1.00,Jordan Marshall,,,#E9C730CC,#7A6406CC,-3.9,-2.95
+2024-12-31 Alabama at Michigan,plays,2,Michigan,9,3,Davis Warren pass complete to Hogan Hansen for 10 yds to the ALA 30 for a 1ST down,Pass,1,2,3,Other,6,10,0,1,,,,,1.00,0.00,0.33,0.00,0.67,,Davis Warren,Hogan Hansen,#E9C730CC,#7A6406CC,4,-0.63
+2024-12-31 Alabama at Michigan,plays,2,Michigan,10,4,run for a loss of 13 yards to the ALA 43,Rush,1,2,1,Other,10,-13,0,0,,,,,0.00,0.00,0.25,0.00,0.75,,,,#E9C730CC,#7A6406CC,-18,-4.98
+2024-12-31 Alabama at Michigan,plays,2,Michigan,11,5,Jordan Marshall run for 7 yds to the ALA 36,Rush,1,2,2,Other,23,7,0,0,,,,,0.00,0.00,0.20,0.00,0.80,Jordan Marshall,,,#E9C730CC,#7A6406CC,-9.1,-5.80
+2024-12-31 Alabama at Michigan,plays,2,Michigan,12,6,Davis Warren pass complete to Joe Taylor for 9 yds to the ALA 27,Pass,1,2,3,Other,16,9,0,0,,,,,0.50,0.00,0.17,0.00,0.67,,Davis Warren,Joe Taylor,#E9C730CC,#7A6406CC,-7,-6.00
+2024-12-31 Alabama at Michigan,plays,1,Alabama,13,7,"DaShawn Jones run for a loss of 6 yards to the ALA 19 Jalen Milroe fumbled, recovered by MICH Derrick Moore D. Moore return for 0 yds",Rush,1,3,1,Other,10,-6,0,0,,,,,0.00,0.00,0.14,0.00,0.57,DaShawn Jones,,,#E82525CC,#5A0000CC,-11,-4.99
+2024-12-31 Alabama at Michigan,plays,2,Michigan,14,7,Benjamin Hall run for 1 yd to the ALA 18,Rush,1,4,1,Red zone,10,1,0,0,,,,,0.00,0.00,0.14,0.00,0.71,Benjamin Hall,,,#E9C730CC,#7A6406CC,-4,-5.71
+2024-12-31 Alabama at Michigan,plays,2,Michigan,15,8,Fredrick Moore run for 3 yds to the ALA 15,Rush,1,4,2,Red zone,9,3,0,0,,,,,0.00,0.00,0.13,0.00,0.75,Fredrick Moore,,,#E9C730CC,#7A6406CC,-3.3,-5.41
+2024-12-31 Alabama at Michigan,plays,2,Michigan,16,9,Benjamin Hall run for 3 yds to the ALA 12,Rush,1,4,3,Red zone,6,3,0,0,,,,,0.00,0.00,0.11,0.00,0.78,Benjamin Hall,,,#E9C730CC,#7A6406CC,-3,-5.14
+2024-12-31 Alabama at Michigan,plays,1,Alabama,17,8,Jalen Milroe run for no gain to the ALA 15,Rush,1,5,1,Other,10,0,0,0,,,,,0.00,0.00,0.13,0.00,0.63,Jalen Milroe,,,#E82525CC,#5A0000CC,-5,-4.99
+2024-12-31 Alabama at Michigan,plays,1,Alabama,18,9,Jalen Milroe pass intercepted Wesley Walker return for 3 yds to the ALA 16,Pass,1,5,2,Other,10,3,0,0,,,,,0.25,0.00,0.11,0.00,0.56,,Jalen Milroe,,#E82525CC,#5A0000CC,-4,-4.88
+2024-12-31 Alabama at Michigan,plays,2,Michigan,19,10,Davis Warren pass incomplete,Pass,1,6,1,Red zone,10,0,0,0,,,,,0.33,0.00,0.10,0.00,0.70,,Davis Warren,,#E9C730CC,#7A6406CC,-5,-5.13
+2024-12-31 Alabama at Michigan,plays,2,Michigan,20,11,Jordan Marshall run for 3 yds to the ALA 13,Rush,1,6,2,Red zone,10,3,0,0,,,,,0.00,0.00,0.09,0.00,0.73,Jordan Marshall,,,#E9C730CC,#7A6406CC,-4,-5.03
+2024-12-31 Alabama at Michigan,plays,2,Michigan,21,12,Davis Warren pass complete to Fredrick Moore for 13 yds for a TD (Dominic Zvada KICK),Pass,1,6,3,Red zone,7,13,0,1,,,,,0.50,0.00,0.17,0.00,0.67,,Davis Warren,Fredrick Moore,#E9C730CC,#7A6406CC,6,-4.11
+2024-12-31 Alabama at Michigan,plays,1,Alabama,22,10,"Jalen Milroe sacked for a loss of 14 yards to the ALA 6 Jalen Milroe fumbled, recovered by MICH Cameron Brandt , return for 0 yards",Pass,1,7,1,Other,10,-14,0,0,,,,,0.20,0.00,0.10,0.00,0.50,,,,#E82525CC,#5A0000CC,-19,-6.29
+2024-12-31 Alabama at Michigan,plays,2,Michigan,23,13,Benjamin Hall run for 1 yd to the ALA 5,Rush,1,8,1,Red zone,6,1,0,0,,,,,0.00,0.00,0.15,0.00,0.69,Benjamin Hall,,,#E9C730CC,#7A6406CC,-2,-3.95
+2024-12-31 Alabama at Michigan,plays,2,Michigan,24,14,Alex Orji run for 3 yds to the ALA 2,Rush,1,8,2,Red zone,5,3,0,0,,,,,0.00,0.00,0.14,0.00,0.71,Alex Orji,,,#E9C730CC,#7A6406CC,-0.5,-3.70
+2024-12-31 Alabama at Michigan,plays,2,Michigan,25,15,Davis Warren sacked by Tim Smith for a loss of 1 yard to the ALA 3,Pass,1,8,3,Red zone,2,-1,0,0,,,,,0.40,0.00,0.13,0.00,0.67,,,,#E9C730CC,#7A6406CC,-3,-3.65
+2024-12-31 Alabama at Michigan,plays,1,Alabama,26,11,Jalen Milroe run for 8 yds to the ALA 33,Rush,1,9,1,Other,10,8,0,1,,,,,0.17,0.00,0.18,0.00,0.55,Jalen Milroe,,,#E82525CC,#5A0000CC,3,-5.45
+2024-12-31 Alabama at Michigan,plays,1,Alabama,27,12,Jam Miller run for no gain to the ALA 33,Rush,1,9,2,Other,2,0,0,0,,,,,0.14,0.00,0.17,0.00,0.58,Jam Miller,,,#E82525CC,#5A0000CC,-1.4,-5.11
+2024-12-31 Alabama at Michigan,plays,1,Alabama,28,13,Jam Miller run for 2 yds to the ALA 35 for a 1ST down,Rush,1,9,3,Other,2,2,0,1,,,,,0.25,0.00,0.23,0.00,0.62,Jam Miller,,,#E82525CC,#5A0000CC,0,-4.72
+2024-12-31 Alabama at Michigan,plays,1,Alabama,29,14,Jalen Milroe pass complete to Ryan Williams for a loss of 1 yard to the ALA 34,Pass,1,9,1,Other,10,-1,0,0,,,,,0.17,0.00,0.21,0.00,0.57,,Jalen Milroe,Ryan Williams,#E82525CC,#5A0000CC,-6,-4.81
+2024-12-31 Alabama at Michigan,plays,1,Alabama,30,15,Jalen Milroe run for no gain to the ALA 34,Rush,1,9,2,Other,11,0,0,0,,,,,0.22,0.00,0.20,0.00,0.60,Jalen Milroe,,,#E82525CC,#5A0000CC,-7.7,-5.00
+2024-12-31 Alabama at Michigan,plays,1,Alabama,31,16,Jalen Milroe run for 1 yd to the ALA 30,Rush,2,9,3,Other,16,1,0,0,,,,,0.20,0.00,0.19,0.00,0.63,Jalen Milroe,,,#E82525CC,#5A0000CC,-15,-5.63
+2024-12-31 Alabama at Michigan,plays,2,Michigan,32,16,Jordan Marshall run for 5 yds to the MICH 25,Rush,2,10,1,Other,10,5,0,1,,,,,0.09,0.00,0.19,0.00,0.69,Jordan Marshall,,,#E9C730CC,#7A6406CC,0,-3.43
+2024-12-31 Alabama at Michigan,plays,2,Michigan,33,17,Davis Warren pass complete to Semaj Morgan for 3 yds to the MICH 28,Pass,2,10,2,Other,5,3,0,0,,,,,0.33,0.00,0.18,0.00,0.65,,Davis Warren,Semaj Morgan,#E9C730CC,#7A6406CC,-0.5,-3.25
+2024-12-31 Alabama at Michigan,plays,2,Michigan,34,18,Jordan Marshall run for 2 yds to the MICH 30 for a 1ST down,Rush,2,10,3,Other,2,2,0,1,,,,,0.17,0.00,0.22,0.00,0.67,Jordan Marshall,,,#E9C730CC,#7A6406CC,0,-3.07
+2024-12-31 Alabama at Michigan,plays,2,Michigan,35,19,Jordan Marshall run for 7 yds to the MICH 32,Rush,2,10,1,Other,15,7,0,0,,,,,0.15,0.00,0.21,0.00,0.68,Jordan Marshall,,,#E9C730CC,#7A6406CC,-0.5,-2.94
+2024-12-31 Alabama at Michigan,plays,2,Michigan,36,20,Davis Warren pass complete to Fredrick Moore for 9 yds to the MICH 41 for a 1ST down,Pass,2,10,2,Other,8,9,0,1,,,,,0.43,0.00,0.25,0.00,0.65,,Davis Warren,Fredrick Moore,#E9C730CC,#7A6406CC,3.4,-2.62
+2024-12-31 Alabama at Michigan,plays,2,Michigan,37,21,Benjamin Hall run for 3 yds to the MICH 44,Rush,2,10,1,Other,10,3,0,0,,,,,0.14,0.00,0.24,0.00,0.67,Benjamin Hall,,,#E9C730CC,#7A6406CC,-2,-2.59
+2024-12-31 Alabama at Michigan,plays,2,Michigan,38,22,Davis Warren pass incomplete,Pass,2,10,2,Other,7,0,0,0,,,,,0.38,0.00,0.23,0.00,0.64,,Davis Warren,,#E9C730CC,#7A6406CC,-4.9,-2.70
+2024-12-31 Alabama at Michigan,plays,2,Michigan,39,23,Benjamin Hall run for no gain to the MICH 44,Rush,2,10,3,Other,7,0,0,0,,,,,0.13,0.00,0.22,0.00,0.65,Benjamin Hall,,,#E9C730CC,#7A6406CC,-7,-2.88
+2024-12-31 Alabama at Michigan,plays,1,Alabama,40,17,Jalen Milroe pass complete to Josh Cuevas for 5 yds to the ALA 21,Pass,2,11,1,Other,10,5,0,1,,,,,0.29,0.00,0.24,0.00,0.59,,Jalen Milroe,Josh Cuevas,#E82525CC,#5A0000CC,0,-5.29
+2024-12-31 Alabama at Michigan,plays,1,Alabama,41,18,Richard Young run for 4 yds to the ALA 25,Rush,2,11,2,Other,5,4,0,1,,,,,0.27,0.00,0.28,0.00,0.61,Richard Young,,,#E82525CC,#5A0000CC,0.5,-4.97
+2024-12-31 Alabama at Michigan,plays,1,Alabama,42,19,Richard Young run for 2 yds to the ALA 27 for a 1ST down,Rush,2,11,3,Other,1,2,0,1,,,,,0.33,0.00,0.32,0.00,0.63,Richard Young,,,#E82525CC,#5A0000CC,1,-4.66
+2024-12-31 Alabama at Michigan,plays,1,Alabama,43,20,Jalen Milroe sacked by Derrick Moore for a loss of 8 yards to the ALA 19,Pass,2,11,1,Other,10,-8,0,0,,,,,0.25,0.00,0.30,0.00,0.60,,,,#E82525CC,#5A0000CC,-13,-5.08
+2024-12-31 Alabama at Michigan,plays,1,Alabama,44,21,Jalen Milroe pass incomplete,Pass,2,11,2,Other,18,0,0,0,,,,,0.22,0.00,0.29,0.00,0.57,,Jalen Milroe,,#E82525CC,#5A0000CC,-12.6,-5.43
+2024-12-31 Alabama at Michigan,plays,1,Alabama,45,22,Jalen Milroe pass incomplete,Pass,2,11,3,Other,18,0,0,0,,,,,0.20,0.00,0.27,0.00,0.55,,Jalen Milroe,,#E82525CC,#5A0000CC,-18,-6.00
+2024-12-31 Alabama at Michigan,plays,2,Michigan,46,24,Jordan Marshall run for 4 yds to the MICH 33,Rush,2,12,1,Other,10,4,0,0,,,,,0.13,0.00,0.21,0.00,0.67,Jordan Marshall,,,#E9C730CC,#7A6406CC,-1,-2.80
+2024-12-31 Alabama at Michigan,plays,2,Michigan,47,25,Davis Warren pass complete to Semaj Morgan for no gain to the MICH 33,Pass,2,12,2,Other,6,0,0,0,,,,,0.33,0.00,0.20,0.00,0.64,,Davis Warren,Semaj Morgan,#E9C730CC,#7A6406CC,-4.2,-2.86
+2024-12-31 Alabama at Michigan,plays,2,Michigan,48,26,Davis Warren pass incomplete,Pass,2,12,3,Other,6,0,0,0,,,,,0.30,0.00,0.19,0.00,0.62,,Davis Warren,,#E9C730CC,#7A6406CC,-6,-2.98
+2024-12-31 Alabama at Michigan,plays,1,Alabama,49,23,Rico Scott run for 28 yds to the MICH 43 for a 1ST down,Rush,2,13,1,Other,10,28,1,1,,,,,0.38,0.08,0.30,0.04,0.57,Rico Scott,,,#E82525CC,#5A0000CC,23,-4.74
+2024-12-31 Alabama at Michigan,plays,1,Alabama,50,24,"Jalen Milroe pass complete to CJ Dippre for 7 yds CJ Dippre fumbled, recovered by ALA Elijah Pritchett E. Pritchett return for 8 yds for a 1ST down",Pass,2,13,1,Other,10,7,0,1,,,,,0.27,0.00,0.33,0.04,0.54,,Jalen Milroe,CJ Dippre,#E82525CC,#5A0000CC,2,-4.46
+2024-12-31 Alabama at Michigan,plays,1,Alabama,51,25,Jam Miller run for 3 yds to the MICH 25,Rush,2,13,1,Other,10,3,0,0,,,,,0.36,0.07,0.32,0.04,0.56,Jam Miller,,,#E82525CC,#5A0000CC,-2,-4.36
+2024-12-31 Alabama at Michigan,plays,1,Alabama,52,26,Jalen Milroe pass complete to Robbie Ouzts for 25 yds for a TD (Graham Nicholson KICK),Pass,2,13,2,Other,7,25,1,1,,,,,0.33,0.08,0.35,0.08,0.54,,Jalen Milroe,Robbie Ouzts,#E82525CC,#5A0000CC,20.1,-3.42
+2024-12-31 Alabama at Michigan,plays,2,Michigan,53,27,Benjamin Hall run for 3 yds to the MICH 22,Rush,2,14,1,Other,10,3,0,0,,,,,0.12,0.00,0.19,0.00,0.63,Benjamin Hall,,,#E9C730CC,#7A6406CC,-2,-2.94
+2024-12-31 Alabama at Michigan,plays,2,Michigan,54,28,Benjamin Hall run for 8 yds to the MICH 30 for a 1ST down,Rush,2,14,2,Other,7,8,0,1,,,,,0.17,0.00,0.21,0.00,0.64,Benjamin Hall,,,#E9C730CC,#7A6406CC,3.1,-2.73
+2024-12-31 Alabama at Michigan,plays,2,Michigan,55,29,Benjamin Hall run for 1 yd to the MICH 31,Rush,2,14,1,Other,10,1,0,0,,,,,0.16,0.00,0.21,0.00,0.66,Benjamin Hall,,,#E9C730CC,#7A6406CC,-4,-2.77
+2024-12-31 Alabama at Michigan,plays,2,Michigan,56,30,Davis Warren pass complete to Fredrick Moore for 15 yds to the MICH 46 for a 1ST down,Pass,2,14,2,Other,9,15,1,1,,,,,0.36,0.09,0.23,0.03,0.63,,Davis Warren,Fredrick Moore,#E9C730CC,#7A6406CC,8.7,-2.39
+2024-12-31 Alabama at Michigan,plays,2,Michigan,57,31,Benjamin Hall run for 1 yd to the MICH 47,Rush,2,14,1,Other,10,1,0,0,,,,,0.15,0.00,0.23,0.03,0.65,Benjamin Hall,,,#E9C730CC,#7A6406CC,-4,-2.44
+2024-12-31 Alabama at Michigan,plays,2,Michigan,58,32,Jordan Marshall run for a loss of 1 yard to the MICH 46,Rush,2,14,2,Other,9,-1,0,0,,,,,0.14,0.00,0.22,0.03,0.66,Jordan Marshall,,,#E9C730CC,#7A6406CC,-7.3,-2.59
+2024-12-31 Alabama at Michigan,plays,2,Michigan,59,33,"Davis Warren pass complete to Peyton O'Leary for 7 yds to the ALA 47",Pass,2,14,3,Other,10,7,0,0,,,,,0.33,0.08,0.21,0.03,0.64,,Davis Warren,"Peyton O'Leary",#E9C730CC,#7A6406CC,-3,-2.61
+2024-12-31 Alabama at Michigan,plays,1,Alabama,60,27,Jam Miller run for 7 yds to the ALA 11,Rush,2,15,1,Other,10,7,0,1,,,,,0.40,0.07,0.37,0.07,0.56,Jam Miller,,,#E82525CC,#5A0000CC,2,-3.22
+2024-12-31 Alabama at Michigan,plays,1,Alabama,61,28,Jam Miller run for 2 yds to the ALA 13,Rush,2,15,2,Other,3,2,0,0,,,,,0.38,0.06,0.36,0.07,0.57,Jam Miller,,,#E82525CC,#5A0000CC,-0.1,-3.11
+2024-12-31 Alabama at Michigan,plays,1,Alabama,62,29,Jalen Milroe run for 41 yds to the MICH 46 for a 1ST down,Rush,2,15,3,Other,1,41,1,1,,,,,0.41,0.12,0.38,0.10,0.59,Jalen Milroe,,,#E82525CC,#5A0000CC,40,-1.62
+2024-12-31 Alabama at Michigan,plays,1,Alabama,63,30,Jalen Milroe pass complete to Germie Bernard for 40 yds to the MICH 6 for a 1ST down,Pass,2,15,1,Other,10,40,1,1,,,,,0.38,0.15,0.40,0.13,0.57,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,35,-0.40
+2024-12-31 Alabama at Michigan,plays,1,Alabama,64,31,Jalen Milroe pass incomplete,Pass,2,15,1,Red zone,6,0,0,0,,,,,0.36,0.14,0.39,0.13,0.55,,Jalen Milroe,,#E82525CC,#5A0000CC,-3,-0.49
+2024-12-31 Alabama at Michigan,plays,1,Alabama,65,32,Jalen Milroe pass incomplete,Pass,2,15,2,Red zone,6,0,0,0,,,,,0.33,0.13,0.38,0.13,0.53,,Jalen Milroe,,#E82525CC,#5A0000CC,-4.2,-0.60
+2024-12-31 Alabama at Michigan,plays,1,Alabama,66,33,Jalen Milroe pass incomplete,Pass,2,15,3,Red zone,6,0,0,0,,,,,0.31,0.13,0.36,0.12,0.52,,Jalen Milroe,,#E82525CC,#5A0000CC,-6,-0.77
+2024-12-31 Alabama at Michigan,plays,2,Michigan,67,34,"[SG] Kneel down by WARREN, Davis at MIC24 (team loss of 1), clock 00:00.",Rush,2,16,1,Other,10,-1,0,0,,,,,0.14,0.00,0.21,0.03,0.65,,,,#E9C730CC,#7A6406CC,-6,-2.71
+2024-12-31 Alabama at Michigan,plays,2,Michigan,68,35,Jordan Marshall run for 1 yd to the MICH 17,Rush,3,17,1,Other,10,1,0,0,,,,,0.13,0.00,0.20,0.03,0.66,Jordan Marshall,,,#E9C730CC,#7A6406CC,-4,-2.74
+2024-12-31 Alabama at Michigan,plays,2,Michigan,69,36,Fredrick Moore run for 5 yds to the MICH 22,Rush,3,17,2,Other,9,5,0,0,,,,,0.13,0.00,0.19,0.03,0.67,Fredrick Moore,,,#E9C730CC,#7A6406CC,-1.3,-2.70
+2024-12-31 Alabama at Michigan,plays,2,Michigan,70,37,Davis Warren pass complete to Marlin Klein for 7 yds to the MICH 29 for a 1ST down,Pass,3,17,3,Other,4,7,0,1,,,,,0.38,0.08,0.22,0.03,0.65,,Davis Warren,Marlin Klein,#E9C730CC,#7A6406CC,3,-2.55
+2024-12-31 Alabama at Michigan,plays,2,Michigan,71,38,Jordan Marshall run for 2 yds to the MICH 31,Rush,3,17,1,Other,10,2,0,0,,,,,0.12,0.00,0.21,0.03,0.66,Jordan Marshall,,,#E9C730CC,#7A6406CC,-3,-2.56
+2024-12-31 Alabama at Michigan,plays,2,Michigan,72,39,Jordan Marshall run for a loss of 1 yard to the MICH 30,Rush,3,17,2,Other,8,-1,0,0,,,,,0.12,0.00,0.21,0.03,0.67,Jordan Marshall,,,#E9C730CC,#7A6406CC,-6.6,-2.66
+2024-12-31 Alabama at Michigan,plays,2,Michigan,73,40,Benjamin Hall run for 1 yd to the MICH 33,Rush,3,17,1,Other,10,1,0,0,,,,,0.11,0.00,0.20,0.03,0.68,Benjamin Hall,,,#E9C730CC,#7A6406CC,-4,-2.70
+2024-12-31 Alabama at Michigan,plays,2,Michigan,74,41,"Alex Orji run for a loss of 3 yards to the MICH 30 Alex Orji fumbled, recovered by MICH Alex Orji A. Orji return for 0 yds",Rush,3,17,2,Other,9,-3,0,0,,,,,0.11,0.00,0.20,0.02,0.68,Alex Orji,,,#E9C730CC,#7A6406CC,-9.3,-2.86
+2024-12-31 Alabama at Michigan,plays,2,Michigan,75,42,Benjamin Hall run for 1 yd to the MICH 31,Rush,3,17,3,Other,12,1,0,0,,,,,0.10,0.00,0.19,0.02,0.69,Benjamin Hall,,,#E9C730CC,#7A6406CC,-11,-3.05
+2024-12-31 Alabama at Michigan,plays,1,Alabama,76,34,Jalen Milroe pass complete to Germie Bernard for 18 yds to the ALA 38 for a 1ST down,Pass,3,18,1,Other,10,18,1,1,,,,,0.35,0.18,0.38,0.15,0.50,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,13,-0.36
+2024-12-31 Alabama at Michigan,plays,1,Alabama,77,35,Jam Miller run for no gain to the ALA 38,Rush,3,18,1,Other,10,0,0,0,,,,,0.39,0.11,0.37,0.14,0.51,Jam Miller,,,#E82525CC,#5A0000CC,-5,-0.49
+2024-12-31 Alabama at Michigan,plays,1,Alabama,78,36,Jalen Milroe sacked by Brandyn Hillman for a loss of 10 yards to the ALA 28,Pass,3,18,2,Other,10,-10,0,0,,,,,0.33,0.17,0.36,0.14,0.50,,,,#E82525CC,#5A0000CC,-17,-0.95
+2024-12-31 Alabama at Michigan,plays,1,Alabama,79,37,Jalen Milroe pass complete to CJ Dippre for 11 yds to the ALA 39,Pass,3,18,3,Other,20,11,0,0,,,,,0.32,0.16,0.35,0.14,0.49,,Jalen Milroe,CJ Dippre,#E82525CC,#5A0000CC,-9,-1.17
+2024-12-31 Alabama at Michigan,plays,2,Michigan,80,43,Jordan Marshall run for 13 yds to the MICH 33 for a 1ST down,Rush,3,19,1,Other,10,13,0,1,,,,,0.13,0.00,0.21,0.02,0.70,Jordan Marshall,,,#E9C730CC,#7A6406CC,8,-2.80
+2024-12-31 Alabama at Michigan,plays,2,Michigan,81,44,Jordan Marshall run for 5 yds to the MICH 23,Rush,3,19,1,Other,25,5,0,0,,,,,0.13,0.00,0.20,0.02,0.70,Jordan Marshall,,,#E9C730CC,#7A6406CC,-7.5,-2.90
+2024-12-31 Alabama at Michigan,plays,2,Michigan,82,45,Benjamin Hall run for 1 yd to the MICH 24,Rush,3,19,2,Other,20,1,0,0,,,,,0.13,0.00,0.20,0.02,0.71,Benjamin Hall,,,#E9C730CC,#7A6406CC,-13,-3.13
+2024-12-31 Alabama at Michigan,plays,2,Michigan,83,46,Alex Orji pass complete to Semaj Morgan for 4 yds to the MICH 28,Pass,3,19,3,Other,19,4,0,0,,,,,0.36,0.07,0.20,0.02,0.70,,Alex Orji,Semaj Morgan,#E9C730CC,#7A6406CC,-15,-3.38
+2024-12-31 Alabama at Michigan,plays,1,Alabama,84,38,Jalen Milroe pass complete to Ryan Williams for 4 yds to the ALA 39,Pass,3,20,1,Other,10,4,0,0,,,,,0.30,0.15,0.34,0.13,0.47,,Jalen Milroe,Ryan Williams,#E82525CC,#5A0000CC,-1,-1.17
+2024-12-31 Alabama at Michigan,plays,1,Alabama,85,39,Jalen Milroe pass incomplete,Pass,3,20,2,Other,6,0,0,0,,,,,0.29,0.14,0.33,0.13,0.46,,Jalen Milroe,,#E82525CC,#5A0000CC,-4.2,-1.24
+2024-12-31 Alabama at Michigan,plays,1,Alabama,86,40,Jalen Milroe sacked by Cameron Brandt for a loss of 10 yards to the ALA 29,Pass,3,20,3,Other,6,-10,0,0,,,,,0.27,0.14,0.33,0.13,0.45,,,,#E82525CC,#5A0000CC,-16,-1.61
+2024-12-31 Alabama at Michigan,plays,2,Michigan,87,47,Jordan Marshall run for 7 yds to the MICH 37,Rush,3,21,1,Other,10,7,0,1,,,,,0.15,0.00,0.21,0.02,0.70,Jordan Marshall,,,#E9C730CC,#7A6406CC,2,-3.27
+2024-12-31 Alabama at Michigan,plays,2,Michigan,88,48,Jordan Marshall run for 5 yds to the MICH 42 for a 1ST down,Rush,3,21,2,Other,3,5,0,1,,,,,0.18,0.00,0.23,0.02,0.71,Jordan Marshall,,,#E9C730CC,#7A6406CC,2.9,-3.14
+2024-12-31 Alabama at Michigan,plays,2,Michigan,89,49,Alex Orji pass complete to Semaj Morgan for a loss of 2 yards to the MICH 40,Pass,3,21,1,Other,10,-2,0,0,,,,,0.33,0.07,0.22,0.02,0.69,,Alex Orji,Semaj Morgan,#E9C730CC,#7A6406CC,-7,-3.22
+2024-12-31 Alabama at Michigan,plays,2,Michigan,90,50,Alex Orji run for a loss of 1 yard to the MICH 39,Rush,3,21,2,Other,12,-1,0,0,,,,,0.17,0.00,0.22,0.02,0.70,Alex Orji,,,#E9C730CC,#7A6406CC,-9.4,-3.34
+2024-12-31 Alabama at Michigan,plays,2,Michigan,91,51,Alex Orji pass intercepted Zabien Brown return for 2 yds to the 50 yard line,Pass,3,21,3,Other,13,2,0,0,,,,,0.31,0.06,0.22,0.02,0.69,,Alex Orji,,#E9C730CC,#7A6406CC,-11,-3.49
+2024-12-31 Alabama at Michigan,plays,1,Alabama,92,41,Jalen Milroe pass complete to Rico Scott for 9 yds to the MICH 41,Pass,3,22,1,Other,10,9,0,1,,,,,0.30,0.13,0.34,0.12,0.44,,Jalen Milroe,Rico Scott,#E82525CC,#5A0000CC,4,-1.48
+2024-12-31 Alabama at Michigan,plays,1,Alabama,93,42,Jalen Milroe run for 4 yds to the MICH 37 for a 1ST down,Rush,4,22,2,Other,1,4,0,1,,,,,0.42,0.11,0.36,0.12,0.45,Jalen Milroe,,,#E82525CC,#5A0000CC,3.3,-1.36
+2024-12-31 Alabama at Michigan,plays,1,Alabama,94,43,Jalen Milroe run for no gain to the MICH 37,Rush,4,22,1,Other,10,0,0,0,,,,,0.40,0.10,0.35,0.12,0.47,Jalen Milroe,,,#E82525CC,#5A0000CC,-5,-1.45
+2024-12-31 Alabama at Michigan,plays,1,Alabama,95,44,Jalen Milroe pass complete to Daniel Hill for 3 yds to the MICH 34,Pass,4,22,2,Other,10,3,0,0,,,,,0.29,0.13,0.34,0.11,0.45,,Jalen Milroe,Daniel Hill,#E82525CC,#5A0000CC,-4,-1.50
+2024-12-31 Alabama at Michigan,plays,1,Alabama,96,45,Jalen Milroe pass incomplete,Pass,4,22,3,Other,7,0,0,0,,,,,0.28,0.12,0.33,0.11,0.44,,Jalen Milroe,,#E82525CC,#5A0000CC,-7,-1.63
+2024-12-31 Alabama at Michigan,plays,1,Alabama,97,46,Jalen Milroe pass incomplete,Pass,4,22,4,Other,7,0,0,0,,,,,0.27,0.12,0.33,0.11,0.43,,Jalen Milroe,,#E82525CC,#5A0000CC,-7,-1.74
+2024-12-31 Alabama at Michigan,plays,2,Michigan,98,52,Jordan Marshall run for 2 yds to the MICH 36,Rush,4,23,1,Other,10,2,0,0,,,,,0.17,0.00,0.21,0.02,0.69,Jordan Marshall,,,#E9C730CC,#7A6406CC,-3,-3.48
+2024-12-31 Alabama at Michigan,plays,2,Michigan,99,53,Jordan Marshall run for 24 yds to the ALA 40 for a 1ST down,Rush,4,23,2,Other,8,24,1,1,,,,,0.19,0.03,0.23,0.04,0.70,Jordan Marshall,,,#E9C730CC,#7A6406CC,18.4,-3.07
+2024-12-31 Alabama at Michigan,plays,2,Michigan,100,54,Benjamin Hall run for a loss of 2 yards to the ALA 42,Rush,4,23,1,Other,10,-2,0,0,,,,,0.18,0.03,0.22,0.04,0.70,Benjamin Hall,,,#E9C730CC,#7A6406CC,-7,-3.14
+2024-12-31 Alabama at Michigan,plays,2,Michigan,101,55,Alex Orji run for 10 yds to the ALA 32,Rush,4,23,2,Other,12,10,0,1,,,,,0.21,0.03,0.24,0.04,0.71,Alex Orji,,,#E9C730CC,#7A6406CC,1.6,-3.06
+2024-12-31 Alabama at Michigan,plays,2,Michigan,102,56,Benjamin Hall run for 4 yds to the ALA 28 for a 1ST down,Rush,4,23,3,Other,2,4,0,1,,,,,0.23,0.03,0.25,0.04,0.71,Benjamin Hall,,,#E9C730CC,#7A6406CC,2,-2.97
+2024-12-31 Alabama at Michigan,plays,2,Michigan,103,57,Jordan Marshall run for 2 yds to the ALA 26,Rush,4,23,1,Other,10,2,0,0,,,,,0.22,0.02,0.25,0.04,0.72,Jordan Marshall,,,#E9C730CC,#7A6406CC,-3,-2.97
+2024-12-31 Alabama at Michigan,plays,2,Michigan,104,58,Jordan Marshall run for a loss of 2 yards to the ALA 28,Rush,4,23,2,Other,8,-2,0,0,,,,,0.21,0.02,0.24,0.03,0.72,Jordan Marshall,,,#E9C730CC,#7A6406CC,-7.6,-3.05
+2024-12-31 Alabama at Michigan,plays,2,Michigan,105,59,Jordan Marshall run for 9 yds to the ALA 19,Rush,4,23,3,Other,10,9,0,0,,,,,0.21,0.02,0.24,0.03,0.73,Jordan Marshall,,,#E9C730CC,#7A6406CC,-1,-3.01
+2024-12-31 Alabama at Michigan,plays,1,Alabama,106,47,Jalen Milroe pass complete to Jam Miller for 8 yds to the ALA 33,Pass,4,24,1,Other,10,8,0,1,,,,,0.30,0.11,0.34,0.11,0.43,,Jalen Milroe,Jam Miller,#E82525CC,#5A0000CC,3,-1.64
+2024-12-31 Alabama at Michigan,plays,1,Alabama,107,48,Jam Miller run for 10 yds to the ALA 43 for a 1ST down,Rush,4,24,2,Other,2,10,0,1,,,,,0.43,0.10,0.35,0.10,0.44,Jam Miller,,,#E82525CC,#5A0000CC,8.6,-1.43
+2024-12-31 Alabama at Michigan,plays,1,Alabama,108,49,Jalen Milroe run for 9 yds to the MICH 48,Rush,4,24,1,Other,10,9,0,1,,,,,0.45,0.09,0.37,0.10,0.45,Jalen Milroe,,,#E82525CC,#5A0000CC,4,-1.32
+2024-12-31 Alabama at Michigan,plays,1,Alabama,109,50,Jam Miller run for 1 yd to the MICH 47 for a 1ST down,Rush,4,24,2,Other,1,1,0,1,,,,,0.48,0.09,0.38,0.10,0.46,Jam Miller,,,#E82525CC,#5A0000CC,0.3,-1.29
+2024-12-31 Alabama at Michigan,plays,1,Alabama,110,51,Jalen Milroe pass incomplete,Pass,4,24,1,Other,10,0,0,0,,,,,0.29,0.11,0.37,0.10,0.45,,Jalen Milroe,,#E82525CC,#5A0000CC,-5,-1.36
+2024-12-31 Alabama at Michigan,plays,1,Alabama,111,52,Jam Miller run for a loss of 1 yard to the MICH 33,Rush,4,24,2,Other,10,-1,0,0,,,,,0.46,0.08,0.37,0.10,0.46,Jam Miller,,,#E82525CC,#5A0000CC,-8,-1.49
+2024-12-31 Alabama at Michigan,plays,1,Alabama,112,53,Jalen Milroe pass incomplete,Pass,4,24,3,Other,11,0,0,0,,,,,0.28,0.10,0.36,0.09,0.45,,Jalen Milroe,,#E82525CC,#5A0000CC,-11,-1.67
+2024-12-31 Alabama at Michigan,plays,2,Michigan,113,60,Jordan Marshall run for no gain to the MICH 42,Rush,4,25,1,Other,10,0,0,0,,,,,0.20,0.02,0.23,0.03,0.73,Jordan Marshall,,,#E9C730CC,#7A6406CC,-5,-3.05
+2024-12-31 Alabama at Michigan,plays,2,Michigan,114,61,Benjamin Hall run for no gain to the MICH 42,Rush,4,25,2,Other,10,0,0,0,,,,,0.20,0.02,0.23,0.03,0.74,Benjamin Hall,,,#E9C730CC,#7A6406CC,-7,-3.11
+2024-12-31 Alabama at Michigan,plays,2,Michigan,115,62,Benjamin Hall run for 2 yds to the MICH 44,Rush,4,25,3,Other,10,2,0,0,,,,,0.20,0.02,0.23,0.03,0.74,Benjamin Hall,,,#E9C730CC,#7A6406CC,-8,-3.19
+2024-12-31 Alabama at Michigan,plays,1,Alabama,116,54,Jalen Milroe pass complete to Ryan Williams for 5 yds to the ALA 49,Pass,4,26,1,Other,10,5,0,1,,,,,0.30,0.10,0.37,0.09,0.44,,Jalen Milroe,Ryan Williams,#E82525CC,#5A0000CC,0,-1.64
+2024-12-31 Alabama at Michigan,plays,1,Alabama,117,55,Jalen Milroe pass incomplete,Pass,4,26,2,Other,5,0,0,0,,,,,0.29,0.10,0.36,0.09,0.44,,Jalen Milroe,,#E82525CC,#5A0000CC,-3.5,-1.67
+2024-12-31 Alabama at Michigan,plays,1,Alabama,118,56,Jalen Milroe pass complete to Germie Bernard for 11 yds to the MICH 40 for a 1ST down,Pass,4,26,3,Other,5,11,0,1,,,,,0.31,0.09,0.38,0.09,0.43,,Jalen Milroe,Germie Bernard,#E82525CC,#5A0000CC,6,-1.53
+2024-12-31 Alabama at Michigan,plays,1,Alabama,119,57,Jalen Milroe pass incomplete,Pass,4,26,1,Other,10,0,0,0,,,,,0.30,0.09,0.37,0.09,0.42,,Jalen Milroe,,#E82525CC,#5A0000CC,-5,-1.59
+2024-12-31 Alabama at Michigan,plays,1,Alabama,120,58,Jalen Milroe pass complete to Jam Miller for 25 yds to the MICH 15 for a 1ST down,Pass,4,26,2,Other,10,25,1,1,,,,,0.32,0.12,0.38,0.10,0.41,,Jalen Milroe,Jam Miller,#E82525CC,#5A0000CC,18,-1.26
+2024-12-31 Alabama at Michigan,plays,1,Alabama,121,59,Jalen Milroe pass incomplete,Pass,4,26,2,Red zone,10,0,0,0,,,,,0.31,0.11,0.37,0.10,0.41,,Jalen Milroe,,#E82525CC,#5A0000CC,-7,-1.35
+2024-12-31 Alabama at Michigan,plays,1,Alabama,122,60,Jalen Milroe pass incomplete,Pass,4,26,3,Red zone,10,0,0,0,,,,,0.31,0.11,0.37,0.10,0.40,,Jalen Milroe,,#E82525CC,#5A0000CC,-10,-1.50
+2024-12-31 Alabama at Michigan,plays,1,Alabama,123,61,Jalen Milroe pass incomplete,Pass,4,26,4,Red zone,10,0,0,0,,,,,0.30,0.11,0.36,0.10,0.39,,Jalen Milroe,,#E82525CC,#5A0000CC,-10,-1.64
+2024-12-31 Alabama at Michigan,plays,2,Michigan,124,63,"[SG] Kneel down by ORJI, Alex at MIC14 (team loss of 1).",Rush,4,27,1,Other,10,-1,0,0,,,,,0.19,0.02,0.22,0.03,0.75,,,,#E9C730CC,#7A6406CC,-6,-3.23
+2024-12-31 Alabama at Michigan,plays,2,Michigan,125,64,"[SG] Kneel down by ORJI, Alex at MIC13 (team loss of 1), clock 00:00.",Rush,4,27,2,Other,11,-1,0,0,,,,,0.19,0.02,0.22,0.03,0.75,,,,#E9C730CC,#7A6406CC,-8.7,-3.32
