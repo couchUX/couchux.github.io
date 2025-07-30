@@ -1,0 +1,121 @@
+<head>    
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="shortcut icon" type="image/png" href="../nobo-ico.png"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.0/chart.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2"></script>
+    <script src="../js/chart-builder-2025-tester.js"></script>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="../js/patternomaly/dist/patternomaly.js"></script>
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body> 
+    <div id="main">
+        <!-- set the chart container and appropriate id in HTML -->
+        <div class="headline"><h1>2024 Game Graphs</h1></div>
+        
+        <!-- SR XR over time -->
+        <section>
+            <h3>SR and XR by Team</h3>
+            <div class="chart"><canvas id="srxr-lines-team" width="400" height="250"></canvas></div>
+
+            <h3>SR by Play Type</h3>
+            <input type="checkbox" id="srSwitch" />
+            <div class="chart teamOne"><canvas id="sr-lines" width="400" height="250"></canvas></div>
+            <div class="chart teamTwo"><canvas id="sr-lines-opp" width="400" height="250"></canvas></div>
+            <label class="switchLabel switchBtn" for="srSwitch">Switch Team</label>
+        </section>
+
+        <!-- Rush Rate over time -->
+        <section>
+            <h3>Rush Rate</h3>
+            <input type="checkbox" id="rrSwitch" />
+            <div class="chart teamOne"><canvas id="rush-rate" width="400" height="250"></canvas></div>
+            <div class="chart teamTwo"><canvas id="rush-rate-opp" width="400" height="250"></canvas></div>
+            <label class="switchLabel switchBtn" for="rrSwitch">Switch Team</label>
+        </section>  
+
+        <!-- Play Maps -->
+        <section>
+            <h3>Play Maps</h3>
+            <input type="checkbox" id="mapSwitch" />
+            <div class="chart teamOne"><canvas id="play-map" width="400" height="250"></canvas></div>
+            <div class="chart teamTwo"><canvas id="play-map-opp" width="400" height="250"></canvas></div>
+            <label class="switchLabel switchBtn" for="mapSwitch">Switch Team</label>
+        </section>
+        
+        <!-- Drives -->
+         <section>
+            <h3>SR, XR, and Play Count by Drive</h3>
+            <input type="checkbox" id="driveSwitch" />
+            <div class="chart teamOne"><canvas id="drive" width="400" height="250"></canvas></div>
+            <div class="chart teamTwo"><canvas id="drive-opp" width="400" height="250"></canvas></div>
+            <label class="switchLabel switchBtn" for="driveSwitch">Switch Team</label>
+        </section>
+
+        <!-- SRXR bar charts -->
+        <h3>SR and XR by Play Type</h3><div class="chart"><canvas id="srxr-play-type" width="400" height="250"></canvas></div>
+        <h3>SR and XR by Quarter</h3><div class="chart"><canvas id="srxr-quarter" width="400" height="250"></canvas></div>
+        <h3>SR and XR by Down</h3><div class="chart"><canvas id="srxr-down" width="400" height="250"></canvas></div>
+        <h3>SR and XR by Red Zone</h3><div class="chart"><canvas id="srxr-red-zone" width="400" height="250"></canvas></div>
+        <h3>SR and XR by Distance to Go</h3><div class="chart"><canvas id="srxr-distance" width="400" height="250"></canvas></div>
+               
+        <!-- Player charts, team -->
+        <h3>Top Rushers</h3><div class="chart tall"><canvas id="rushers" width="400" height="500"></canvas></div>
+        <h3>Top Passers</h3><div class="chart"><canvas id="passers" width="400" height="200"></canvas></div>
+        <h3>Top Receivers</h3><div class="chart tall"><canvas id="receivers" width="100" height="500"></canvas></div>
+        
+
+        <!-- Running the charts -->
+        <script>
+            let data = '../csv/srxr-all-games-2024.csv';
+            let game = '2024-12-31 Alabama at Michigan';
+        
+            d3.csv(data).then(data => { 
+                // Convert necessary fields to numbers and handle missing values
+                data = data.map(d => ({
+                    ...d,
+                    team_sr: d.team_sr !== undefined ? +d.team_sr : 0,
+                    team_xr: d.team_xr !== undefined ? +d.team_xr : 0,
+                    play_num: d.play_num !== undefined ? +d.play_num : 0,
+                    sr: d.sr !== undefined ? +d.sr : 0,
+                    xr: d.xr !== undefined ? +d.xr : 0,
+                    rr: d.rr !== undefined ? +d.rr : 0,
+                    yards: d.yards !== undefined ? +d.yards : 0,
+                    count: d.count !== undefined ? +d.count : 0,
+                    quarter: d.quarter || '',
+                    text: d.text || '',
+                    play_type: d.play_type || ''
+                }));
+        
+                // line charts
+                teamLines(data, game, 'srxr-lines-team');
+                typeLines(data, game, 'sr-lines', 1);
+                typeLines(data, game, 'sr-lines-opp', 2);
+                rushRate(data, game, 'rush-rate', 1);
+                rushRate(data, game, 'rush-rate-opp', 2);
+                
+                // play maps
+                playMap(data, game, 'play-map', 1, 'extra');
+                playMap(data, game, 'play-map-opp', 2, 'extra');
+        
+                // bar charts
+                srXrBars(data, game, 'srxr-play-type', '', 'play_type');
+                srXrBars(data, game, 'srxr-quarter', '', 'quarter');
+                srXrBars(data, game, 'srxr-down', '', 'down');
+                srXrBars(data, game, 'srxr-red-zone', '', 'red_zone');
+                srXrBars(data, game, 'srxr-distance', '', 'distance');
+                
+                // drives chart
+                drives(data, game, 'drive', 1);
+                drives(data, game, 'drive-opp', 2);
+        
+                // player charts
+                players(data, game, 'rushers', 'rusher');
+                players(data, game, 'passers', 'passer');
+                players(data, game, 'receivers', 'receiver');
+            });
+        </script>
+        
+        
+    </div>
+</body>
