@@ -4,6 +4,9 @@
 (function () {
   "use strict";
 
+  // WSET grade boundaries, as fractions of a perfect score.
+  const GRADE = { pass: 0.55, merit: 0.7, distinction: 0.85 };
+
   const TABS = [
     { id: "overview",   label: "Overview" },
     { id: "varieties",  label: "Varieties" },
@@ -56,7 +59,10 @@
     );
   }
 
+  let renderedTab = null;
   function renderTabs() {
+    if (renderedTab === state.tab) return;
+    renderedTab = state.tab;
     tabBar.replaceChildren(...TABS.map(t =>
       el("button", {
         class: state.tab === t.id ? "active" : "",
@@ -67,20 +73,23 @@
 
   // ── OVERVIEW ──────────────────────────────────────────────────
   function renderOverview() {
+    const totalQ = EXAM_LOS.reduce((s, lo) => s + lo.q, 0);
+    const priorityQ = EXAM_LOS.filter(lo => lo.priority).reduce((s, lo) => s + lo.q, 0);
+    const priorityPct = Math.round((priorityQ / totalQ) * 100);
     return el("div", { class: "stack-lg" },
       el("div", { class: "strategy-box" },
         el("div", { class: "title" }, "The Strategy 🎯"),
         el("div", { class: "body" },
           "LO3 + LO4 together = ",
-          el("strong", null, "31 questions out of 50 — that's 62% of the exam."),
-          " Nail grape varieties and their regions first. The exam is 50 MCQ, closed book, 60 minutes."
+          el("strong", null, `${priorityQ} questions out of ${totalQ} — that's ${priorityPct}% of the exam.`),
+          ` Nail grape varieties and their regions first. The exam is ${totalQ} MCQ, closed book, 60 minutes.`
         )
       ),
       el("div", { class: "card" },
-        el("h2", { style: "color:var(--primary);font-weight:700;font-size:0.95rem;margin:0 0 12px;border-bottom:2px solid var(--green);padding-bottom:6px" }, "Exam Weight"),
+        el("h2", { class: "country-heading", style: "margin:0 0 12px;font-size:0.95rem" }, "Exam Weight"),
         el("div", { class: "weight-bar" },
           EXAM_LOS.map((lo, i) =>
-            el("div", { style: `width:${(lo.q / 50) * 100}%;background:${LO_COLORS[i]}` }, String(lo.q))
+            el("div", { style: `width:${(lo.q / totalQ) * 100}%;background:${LO_COLORS[i]}` }, String(lo.q))
           )
         ),
         el("div", { class: "stack", style: "gap:8px" },
@@ -104,7 +113,7 @@
       { id: "white", label: "⚪ White" },
     ];
     const visible = VARIETIES.filter(v => state.varietyFilter === "all" || v.type === state.varietyFilter);
-    const allOpen = visible.every(v => state.openVarieties.has(v.id));
+    const allOpen = visible.length > 0 && visible.every(v => state.openVarieties.has(v.id));
 
     const groups = [
       { lo: 3, title: "LO3 — Principal Varieties" },
@@ -205,31 +214,23 @@
       }),
       el("div", { class: "section-heading", style: "margin-top:10px" }, "Sparkling"),
       el("div", { class: "stack" },
-        SPARKLING_DATA.map(s =>
-          el("div", { class: "card", style: "padding:14px" },
-            el("div", { style: "display:flex;justify-content:space-between;font-weight:700;color:var(--primary);margin-bottom:8px;gap:8px" },
-              el("span", null, `${s.flag} ${s.name}`),
-              el("span", { class: "method-badge" }, s.method)
-            ),
-            el("div", { style: "display:flex;gap:6px;flex-wrap:wrap;margin-bottom:8px" },
-              s.grapes.map(g => grapeChip(g.n, g.c))
-            ),
-            el("div", { style: "font-size:0.8rem;color:var(--muted)" }, s.note)
-          )
-        )
+        SPARKLING_DATA.map(s => refCard(
+          el("div", { class: "card-title", style: "display:flex;justify-content:space-between;gap:8px" },
+            el("span", null, `${s.flag} ${s.name}`),
+            el("span", { class: "method-badge" }, s.method)
+          ),
+          s.grapes, `${s.styles} ${s.note}`
+        ))
       ),
       el("div", { class: "section-heading", style: "margin-top:10px" }, "Fortified"),
       el("div", { class: "stack" },
-        FORTIFIED_DATA.map(s =>
-          el("div", { class: "card", style: "padding:14px" },
-            el("div", { style: "font-weight:700;color:var(--primary);margin-bottom:4px" }, `${s.cat}: ${s.name}`),
-            el("div", { style: "font-size:0.75rem;color:var(--amber);font-weight:700;margin-bottom:8px" }, s.aging),
-            el("div", { style: "display:flex;gap:6px;flex-wrap:wrap;margin-bottom:8px" },
-              s.grapes.map(g => grapeChip(g.n, g.c))
-            ),
-            el("div", { style: "font-size:0.8rem;color:var(--muted)" }, s.taste)
-          )
-        )
+        FORTIFIED_DATA.map(s => refCard(
+          el("div", null,
+            el("div", { class: "card-title", style: "margin-bottom:4px" }, `${s.cat}: ${s.name}`),
+            el("div", { style: "font-size:0.75rem;color:var(--amber);font-weight:700;margin-bottom:8px" }, s.aging)
+          ),
+          s.grapes, s.taste
+        ))
       )
     );
   }
@@ -238,6 +239,15 @@
     return el("span", { class: "grape-chip" },
       el("span", { class: "dot", style: `background:${color}` }),
       name
+    );
+  }
+
+  // Shared card layout for the sparkling and fortified reference sections.
+  function refCard(header, grapes, note) {
+    return el("div", { class: "card", style: "padding:14px" },
+      header,
+      el("div", { class: "grape-row" }, grapes.map(g => grapeChip(g.n, g.c))),
+      el("div", { class: "card-note" }, note)
     );
   }
 
@@ -254,9 +264,7 @@
                 el("div", { class: "stack", style: "gap:8px" },
                   g.terms.map(t =>
                     el("div", { class: "label-row" },
-                      el("div", { class: "top" },
-                        el("span", { class: "term" }, t.term)
-                      ),
+                      el("span", { class: "term" }, t.term),
                       el("div", { class: "meaning" }, t.meaning)
                     )
                   )
@@ -312,6 +320,7 @@
   function startQuiz(mode) {
     let qs = shuffle(getQs(state.quizCat || "all"));
     if (mode === "mock50") qs = qs.slice(0, 50);
+    if (!qs.length) return;
     state.quiz = { qs, idx: 0, sel: null, results: [], complete: false };
     render();
   }
@@ -401,9 +410,11 @@
   function renderQuizResults() {
     const results = state.quiz.results;
     const score = results.filter(r => r.correct).length;
-    const pct = Math.round((score / results.length) * 100);
-    const grade = pct >= 85 ? "Distinction 🏆" : pct >= 70 ? "Merit 🎉" : pct >= 55 ? "Pass ✓" : "Below pass — keep going!";
-    const gradeColor = pct >= 55 ? "var(--green)" : "var(--red)";
+    // Grade from the raw ratio, not the rounded percentage — 54.8% is not a pass.
+    const ratio = score / results.length;
+    const pct = Math.round(ratio * 100);
+    const grade = ratio >= GRADE.distinction ? "Distinction 🏆" : ratio >= GRADE.merit ? "Merit 🎉" : ratio >= GRADE.pass ? "Pass ✓" : "Below pass — keep going!";
+    const gradeColor = ratio >= GRADE.pass ? "var(--green)" : "var(--red)";
 
     const byCat = new Map();
     for (const r of results) {
@@ -422,17 +433,17 @@
         el("button", { class: "btn-primary", onclick: () => { state.quiz = null; render(); } }, "Back to Quiz Setup")
       ),
       el("div", { class: "card" },
-        el("div", { style: "font-weight:700;color:var(--primary);margin-bottom:8px" }, "By Category"),
+        el("div", { class: "card-title" }, "By Category"),
         [...byCat.entries()].map(([cat, c]) =>
           el("div", { class: "cat-result-row" },
             el("span", null, cat),
-            el("span", { style: `font-weight:700;color:${c.correct === c.total ? "var(--green)" : c.correct / c.total >= 0.55 ? "var(--amber)" : "var(--red)"}` },
+            el("span", { style: `font-weight:700;color:${c.correct === c.total ? "var(--green)" : c.correct / c.total >= GRADE.pass ? "var(--amber)" : "var(--red)"}` },
               `${c.correct} / ${c.total}`)
           )
         )
       ),
       missed.length > 0 && el("div", { class: "card" },
-        el("div", { style: "font-weight:700;color:var(--primary);margin-bottom:8px" }, `Review Missed (${missed.length})`),
+        el("div", { class: "card-title" }, `Review Missed (${missed.length})`),
         el("div", { class: "stack", style: "gap:8px" },
           missed.map(r =>
             el("div", { class: "missed-q" },
@@ -449,7 +460,11 @@
   // ── INIT ──────────────────────────────────────────────────────
   fetch("data/questions.json")
     .then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); })
-    .then(qs => { state.questions = qs; if (state.tab === "quiz") render(); })
+    .then(qs => {
+      if (!Array.isArray(qs) || qs.length === 0) throw new Error("questions.json contains no questions");
+      state.questions = qs;
+      if (state.tab === "quiz") render();
+    })
     .catch(e => { state.questionsError = String(e); if (state.tab === "quiz") render(); });
 
   render();

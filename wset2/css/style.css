@@ -85,6 +85,10 @@ body {
   margin: 4px 0 8px;
 }
 
+.card-title { font-weight: 700; color: var(--primary); margin-bottom: 8px; }
+.grape-row { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 8px; }
+.card-note { font-size: 0.8rem; color: var(--muted); }
+
 .grape-chip {
   display: inline-flex; align-items: center; gap: 5px;
   background: #F4F1EA; padding: 2px 6px; border-radius: 4px;
@@ -182,9 +186,7 @@ body {
   border-bottom: 2px solid var(--green); padding-bottom: 6px; margin-bottom: 10px;
 }
 .label-row { background: var(--card); padding: 12px 14px; border-radius: 8px; border: 1px solid var(--border); }
-.label-row .top { display: flex; justify-content: space-between; margin-bottom: 6px; gap: 8px; }
-.label-row .term { font-weight: 700; color: var(--primary); font-size: 0.9rem; }
-.label-row .region { font-size: 0.75rem; color: var(--muted); white-space: nowrap; }
+.label-row .term { display: block; font-weight: 700; color: var(--primary); font-size: 0.9rem; margin-bottom: 6px; }
 .label-row .meaning { font-size: 0.8rem; }
 
 /* ─── SAT ──────────────────────────────────────────────────────── */
