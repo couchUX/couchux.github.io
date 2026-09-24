@@ -209,3 +209,38 @@ function updateLineX() {
 }
 }
 }
+
+/* RBR load-order guard: posts are now inserted by JavaScript, so their script tags
+   run in download order, not page order. The post's inline runPass_charts() call
+   can fire before this file or d3 has loaded. Make the entry point wait for
+   d3 and skip a container that's already drawn, then re-run the post's
+   inline calls once d3 is here. */
+(function () {
+  var draw = runPass_charts;
+  runPass_charts = function () {
+    if (typeof d3 === 'undefined' || !d3.csv) return;
+    var el = document.querySelector(arguments[3]);
+    if (!el || el.getAttribute('data-rbr-drawn')) return;
+    el.setAttribute('data-rbr-drawn', '1');
+    return draw.apply(this, arguments);
+  };
+
+  if (window.__rbrRerun_runPass_charts) return;
+  window.__rbrRerun_runPass_charts = true;
+  var start = Date.now();
+  var timer = setInterval(function () {
+    var ready = typeof d3 !== 'undefined' && d3.csv && document.readyState !== 'loading';
+    if (!ready) {
+      if (Date.now() - start > 30000) clearInterval(timer);
+      return;
+    }
+    clearInterval(timer);
+    [].forEach.call(document.scripts, function (s) {
+      var type = (s.type || '').toLowerCase();
+      if (s.src || (type && type !== 'text/javascript')) return;
+      if (s.textContent.indexOf('runPass_charts(') === -1) return;
+      try { new Function(s.textContent)(); }
+      catch (e) { console.error('RBR charts: could not re-run runPass_charts', e); }
+    });
+  }, 50);
+})();

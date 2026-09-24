@@ -1,3 +1,22 @@
+/* RBR load-order guard: posts are now inserted by JavaScript, so their script tags
+   run in download order, not page order. If d3 isn't loaded yet, wait for it
+   and load this file again rather than failing on the first d3 call. */
+if (typeof d3 === 'undefined' || !d3.csv) {
+  (function (src) {
+    if (!src) return;
+    var start = Date.now();
+    var timer = setInterval(function () {
+      if (typeof d3 !== 'undefined' && d3.csv) {
+        clearInterval(timer);
+        var s = document.createElement('script');
+        s.src = src;
+        document.head.appendChild(s);
+      } else if (Date.now() - start > 30000) {
+        clearInterval(timer);
+      }
+    }, 50);
+  })(document.currentScript && document.currentScript.src);
+} else {
 /* select what csv should be run */
 var srxrq_csv_url = "https://couchux.github.io/RBR_charts/2017_BamaTAMU/SRXR_quarters/BamaTAMU_SRXR_Quarters.csv"
 
@@ -256,3 +275,4 @@ var teamChart = d3.select("#srxr-q-charts-container")
       .attr("height",10)
 
 } //end of building chart in d3
+} /* end RBR load-order guard */
