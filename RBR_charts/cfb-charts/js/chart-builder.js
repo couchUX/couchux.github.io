@@ -1,633 +1,161 @@
-// CHART STYLING
-Chart.defaults.plugins.legend.align = 'start';
-Chart.defaults.maintainAspectRatio = false;
-Chart.defaults.plugins.legend.labels.borderRadius = "15px";
-Chart.defaults.plugins.legend.labels.boxWidth = 8;
-Chart.defaults.plugins.legend.labels.padding = 12;
-Chart.defaults.plugins.legend.labels.usePointStyle = true;
-Chart.defaults.elements.line.tension = 0.25;
-Chart.defaults.elements.line.borderWidth = 1;
-Chart.defaults.elements.point.pointRadius = 4;
-Chart.defaults.elements.point.pointHoverRadius = 8;
-Chart.defaults.elements.point.pointBorderWidth = 1;
-Chart.defaults.set('plugins.datalabels', {
-    color: 'white',
-    backgroundColor: '#26262660',
-    padding: 4,
-    borderRadius: 4,
-  });
+/*
+ * Embed loader for the RBR chart builders.
+ *
+ * Posts embed the charts as raw HTML: four <script src> tags (Chart.js,
+ * chartjs-plugin-datalabels, patternomaly, this file) and an inline script
+ * that fetches the season JSON and calls teamLines(), playMap(), etc. That
+ * relies on the tags running in order. SB Nation's current front end
+ * re-inserts post markup with JavaScript, and scripts inserted that way are
+ * async: they run in whatever order they finish downloading. Datalabels runs
+ * before Chart.js and dies on `Chart.helpers`, the builder runs before
+ * Chart.js and dies on `Chart.defaults`, the inline script runs before the
+ * builder and dies on "teamLines is not defined" — and the post is blank.
+ *
+ * So this file no longer holds the chart code. It waits for Chart.js (loading
+ * its own copy only if the page's never arrives), loads datalabels and
+ * patternomaly if they're missing, then loads the real builder
+ * (<this file>-core.js), loads d3 if the post reads its data with d3.csv(),
+ * and re-runs the post's inline chart script. Every
+ * builder filename ships this same loader, so no post needs editing.
+ */
+(function () {
+    var CHART_JS = 'https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.0/chart.min.js';
+    var DATALABELS = 'https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0/dist/chartjs-plugin-datalabels.min.js';
+    var PATTERNOMALY = 'https://couchux.github.io/RBR_charts/cfb-charts/js/patternomaly/dist/patternomaly.js';
+    var D3 = 'https://d3js.org/d3.v6.min.js';
+    // How long to wait on the page's own Chart.js tag before loading ours.
+    // Loading a second copy early would swap window.Chart out from under the
+    // builder's Chart.defaults styling, so be patient.
+    var CHART_JS_GRACE_MS = 8000;
 
-// CHART HELPERS
-const percentCallback = (value) => `${Math.round(value * 100)}%`
-const unsColor = "rgba(255,255,255,0.9)";
-const intColor = "rgba(0,0,0,0.45)";
-tooltipPercents = (dataset, formattedValue) => ({ 
-    callbacks: { label: ({dataset, formattedValue}) => `${dataset.label}: ${Math.round(formattedValue * 100)}%` }
-})
+    var me = document.currentScript ||
+        document.querySelector('script[src*="/chart-builder"][src$=".js"]');
+    var coreSrc = me.src.replace(/(\.js)?(\?.*)?$/, '-core.js');
 
-const srAvg = 0.42;
-const srAvgColor = "#A0A0A0";
-const srAvgBarLine = () => ({
-    type: 'line',
-    data: [ srAvg, srAvg, srAvg, srAvg ],
-    barThickness: 6,
-    label: "NCAA Avg SR",
-    borderColor: '#757575',
-    borderWidth: 2,
-    borderDash: [3,3],
-    pointRadius: 0,
-    datalabels: { labels: { title: null } }
-});
+    // The front end can insert a post's markup more than once (hydration
+    // retries), so this loader may run several times. Load the core once.
+    var boot = window.__rbrChartBoot = window.__rbrChartBoot || {};
+    if (boot[coreSrc]) return;
+    boot[coreSrc] = true;
 
-const quarterMarker = (theseQuarters, thisData, thisMax, playCol) => {
-    quartersArray = [];
-    quartersArrayLg = [];
-    theseQuarters.forEach(a => {
-        let quarterX = thisData.find(({quarter}) => quarter == a);
-        quartersArray.push(
-            { x: quarterX[playCol], y: -0.1 },
-            { x: quarterX[playCol], y: 1.1 },
-            { x: thisMax, y: 1.1 },
-            { x: thisMax, y: -0.1 }
-        );
-        quartersArrayLg.push(
-            { x: quarterX[playCol], y: -50 },
-            { x: quarterX[playCol], y: 100 },
-            { x: thisMax, y: 100 },
-            { x: thisMax, y: -50 }
-        );
-    });
-};
-
-let quarterLines = (data) => ({
-        label: 'Quarters',
-        data: data,
-        borderColor: 'rgba(0,0,0,0.1)',
-        borderWidth: 1,
-        lineTension: 0,
-        fill: false,
-        pointRadius: 0,
-        pointStyle: 'rect',
-})
-
-let zeroShade = (labl,x1,x2,x3,x4,y1,y2,y3,y4) => ({
-    label: labl, 
-    data: [ { x: x1, y: y1 },
-            { x: x2, y: y2 },
-            { x: x3, y: y3 },
-            { x: x4, y: y4 }],
-    tension: 0,
-    fill: true,
-    pointRadius: 0,
-    backgroundColor: 'rgba(0,0,0,0.03)',
-    pointStyle: 'rect',
-});
-
-// COLORS SETUP
-const colors = (data) => {
-    let s = data[0].hex;
-    let x = data[0].hex_dark;
-    let bg = s.slice(0,-2) + "28";
-    let colors = {
-        success: s,
-        explosive: x,
-        light: bg
+    function chartReady() {
+        return typeof window.Chart === 'function' && typeof window.Chart.register === 'function';
     }
-    return colors;
-}
 
-// POINT STYLES SETUP
-const fillColors = (data,xColor,sColor) => {
-    let fillColor = data.map(({explosive, successful}) => 
-    explosive == 1 ? xColor :
-    successful == 1 ? sColor :
-    unsColor);       
-    return fillColor;
-};
+    function load(src, done) {
+        var s = document.createElement('script');
+        s.src = src;
+        s.onload = done;
+        s.onerror = function () { console.error('RBR charts: failed to load ' + src); };
+        document.head.appendChild(s);
+    }
 
-const pointStyle = (data) => {
-    let pointStyle = data.map(({play_type}) => 
-    play_type == "Rush" ? 'circle' : 'triangle');
-    return pointStyle;
-};
+    function waitFor(test, timeoutMs, done, onTimeout) {
+        var start = Date.now();
+        (function tick() {
+            if (test()) return done();
+            if (Date.now() - start > timeoutMs) return onTimeout();
+            setTimeout(tick, 50);
+        })();
+    }
 
-const pointSize = (data) => {
-    let pointSize = data.map(({play_type}) => 
-    play_type == "Rush" ? 4 : 5.5);
-    return pointSize;
-};
+    function ensureChart(done) {
+        if (chartReady()) return done();
+        var pageHasTag = [].some.call(document.scripts, function (s) {
+            return /chart(\.umd)?(\.min)?\.js/i.test(s.src) && !/datalabels/i.test(s.src);
+        });
+        if (!pageHasTag) return load(CHART_JS, done);
+        waitFor(chartReady, CHART_JS_GRACE_MS, done, function () {
+            if (chartReady()) done(); else load(CHART_JS, done);
+        });
+    }
 
-// CHART WRAPPER THAT CALLS JSON
-chartData = (json,thisGame,chartType,id,teamNum,column) => {
-    fetch(json).then(response => response.json()).then(data => { chartType(data,thisGame,id,teamNum,column) });
-}
+    // Both register plain globals and nothing registers them with Chart, so a
+    // second copy is harmless. Datalabels needs Chart.js first; an early copy
+    // on the page may already have thrown and will never define itself.
+    function ensureDatalabels(done) {
+        if (typeof window.ChartDataLabels !== 'undefined') return done();
+        load(DATALABELS, done);
+    }
 
-// TEAM SR LINES CHART
-const teamLines = (data,thisGame,id,teamNum,column) => { 
+    function ensurePattern(done) {
+        if (typeof window.pattern !== 'undefined') return done();
+        load(PATTERNOMALY, done);
+    }
 
-    let game = data.filter(({game}) => game == thisGame);
-    let chart = game.filter(({chart}) => chart == 'plays');
-    let team = chart.filter(({team_num}) => team_num == 1);
-    let opponent = chart.filter(({team_num}) => team_num == 2);
-    let labels = chart.map(a => a.play_num);
-    
-    let playsMax = Math.max.apply(Math, chart.map(({play_num}) => play_num));
-    let newQuarters = [...new Set(chart.map(a => a.quarter))];
-    quarterMarker(newQuarters,data,playsMax,"play_num");
+    // The post's inline script may have run before the builder existed (and
+    // thrown), or its fetch may still be in flight and about to succeed. Re-run
+    // it with each builder call guarded: every chart function takes the canvas
+    // id third, and a canvas that already holds a chart is left alone.
+    // The builders' public chart functions, across every version.
+    var CHART_FNS = ['teamLines', 'playMap', 'extraMap', 'typeLines', 'rushRate',
+        'srXrTeams', 'srXrBars', 'drives', 'players'];
+    var CALLS_CHART_FN = new RegExp('(^|[^.\\w$])(' + CHART_FNS.join('|') + ')\\s*\\(');
 
-    let sr = team.map(({play_num, team_sr}) => ({ x: play_num, y: team_sr }));
-    let xr = team.map(({play_num, team_xr}) => ({ x: play_num, y: team_xr }));
-    let srOpp = opponent.map(({play_num, team_sr}) => ({ x: play_num, y: team_sr }));
-    let xrOpp = opponent.map(({play_num, team_xr}) => ({ x: play_num, y: team_xr }));
+    function postScripts() {
+        return [].filter.call(document.scripts, function (s) {
+            if (s.src || s.getAttribute('data-rbr-rerun')) return false;
+            var type = (s.type || '').toLowerCase();
+            if (type && type !== 'text/javascript') return false;
+            return CALLS_CHART_FN.test(s.textContent);
+        });
+    }
 
-    let dataset = (d,l,bColor,dash) => ({
-        data: d,
-        label: l,
-        borderColor: bColor,
-        borderWidth: 2.2,
-        pointRadius: 0,
-        borderDash: dash,
-    })
+    // 2024-era posts read their data with d3.csv(), from a d3 tag placed after
+    // the builder's, so it's as likely to be late as anything else.
+    function ensureD3(done) {
+        var needsD3 = postScripts().some(function (s) { return /\bd3\./.test(s.textContent); });
+        if (!needsD3 || typeof window.d3 !== 'undefined') return done();
+        load(D3, done);
+    }
 
-    const ctx = document.getElementById(id).getContext('2d');
-    new Chart(ctx, {
-        type: 'line',
-        data: {
-            labels: labels,
-            datasets: [
-                dataset(xr,team[0].offense + ' XR',colors(team).explosive,[1,0]),
-                dataset(sr,team[0].offense + ' SR',colors(team).success,[1,0]),
-                dataset(xrOpp,opponent[0].offense + ' XR',colors(opponent).explosive,[4,4]),
-                dataset(srOpp,opponent[0].offense + ' SR',colors(opponent).success,[4,4]),
-                quarterLines(quartersArray),
-                zeroShade("League SR Avg",1,1,playsMax,playsMax,0,srAvg,srAvg,0)
-            ],
-        },
-        options: {
-            scales: {
-                y: {
-                    max: 1,
-                    min: 0,
-                    ticks: { callback: percentCallback }
-                },
-                x: {
-                    display: false,
-                }
-            },
-            plugins: {
-                legend: {
-                    labels: {
-                        usePointStyle: false,
-                        boxWidth: 12,
-                    }
-                },
-                tooltip: tooltipPercents(),
+    // Posts put the canvases after the script, so wait for the whole document.
+    function domReady(done) {
+        if (document.readyState !== 'loading') return done();
+        document.addEventListener('DOMContentLoaded', done);
+    }
+
+    function rerunPostScripts() {
+        postScripts().forEach(function (s) {
+            var src = s.textContent;
+            s.setAttribute('data-rbr-rerun', '1');
+
+            // Shadow each chart function the core defined with a guarded copy.
+            // They're top-level consts in the core, so read them by name.
+            var names = [], fns = [];
+            CHART_FNS.forEach(function (name) {
+                var fn;
+                try { fn = (0, eval)(name); } catch (e) { return; }
+                if (typeof fn !== 'function') return;
+                names.push(name);
+                fns.push(guard(fn));
+            });
+            try {
+                Function.apply(null, names.concat(src)).apply(window, fns);
+            } catch (e) {
+                console.error('RBR charts: could not re-run post chart script', e);
             }
-        }
-    });
-};
+        });
+    }
 
-// PLAY MAP
-const playMap = (data,thisGame,id,teamNum,extra) => {
-        
-    let game = data.filter(({game}) => game == thisGame);
-    let chart = game.filter(({chart}) => chart == 'plays');
-    let team = chart.filter(({team_num}) => team_num == teamNum);
-    let rushes = team.filter(({play_type}) => play_type == 'Rush');
-    let passes = team.filter(({play_type}) => play_type == 'Pass');
-
-    let labels = chart.map(a => a.play_num);
-    let rushYards = rushes.map(({play_num, yards}) => ({ x: play_num, y: yards }));
-    let passYards = passes.map(({play_num, yards}) => ({ x: play_num, y: yards }));
-    let avgExtra = passes.map(({play_num, avg_extra_yards}) => ({ x: play_num, y: avg_extra_yards }));
-    
-    let playsMax = Math.max.apply(Math, chart.map(({play_num}) => play_num));
-    let newQuarters = [...new Set(chart.map(a => a.quarter))];
-    quarterMarker(newQuarters,chart,playsMax,"play_num");
-    let pointColor = fillColors(team,colors(team).explosive,colors(team).success);
-    let yardsMin = Math.min.apply(Math, chart.map(({yards}) => yards));
-    let yardsMax = Math.max.apply(Math, chart.map(({yards}) => yards));
-    let extraWidth = (extra) => extra == 'extra' ? 2.2 : 0;
-
-    const ctx = document.getElementById(id).getContext('2d');
-    new Chart(ctx, {
-        type: 'line',
-        data: {
-            labels: labels,
-            datasets: [
-                {
-                    label: team[0].offense + ' Rush Yards',
-                    data: rushYards,
-                    backgroundColor: fillColors(rushes,colors(rushes).explosive,colors(rushes).success),
-                    hoverBackgroundColor: pointColor,
-                    borderWidth: 0,
-                    borderColor: colors(rushes).explosive,
-                    pointStyle: pointStyle(rushes),
-                    pointRadius: pointSize(rushes),
-                    pointRadius: 4,
-                },
-                {
-                    label: team[0].offense + ' Pass Yards',
-                    data: passYards,
-                    backgroundColor: fillColors(passes,colors(passes).explosive,colors(passes).success),
-                    hoverBackgroundColor: pointColor,
-                    borderWidth: 0,
-                    borderColor: colors(passes).explosive,
-                    pointStyle: pointStyle(passes),
-                    pointRadius: pointSize(passes),
-                },
-                quarterLines(quartersArrayLg),
-                zeroShade('< 0',1,1,playsMax,playsMax,0,-50,-50,0),
-                {
-                    label: '(line) Avg Extra Yards',
-                    data: avgExtra,
-                    borderColor: colors(team).success,
-                    borderWidth: extraWidth(extra),
-                    pointRadius: 0,
-                    borderDash: [4,2],
-                } 
-            ]
-        },
-        options: {
-            scales: {
-                y: {
-                    max: yardsMax,                    
-                    suggestedMin: yardsMin,
-                    min: -15,
-                },
-                x: {
-                    display: false,
-                }
-            },
-            plugins: {
-                tooltip: {
-                    callbacks: {
-                        title: (tooltipItems) => tooltipItems[0].dataIndex
-                        // label: ({dataset, formattedValue}) => `${dataset.dataIndex}: ${Math.round(formattedValue * 100)}%`,
-                    }
-                },
+    function guard(fn) {
+        return function () {
+            var id = arguments[2];
+            if (typeof id === 'string') {
+                var canvas = document.getElementById(id);
+                if (!canvas || window.Chart.getChart(canvas)) return;
             }
-        }
+            return fn.apply(this, arguments);
+        };
+    }
+
+    ensureChart(function () {
+        ensureDatalabels(function () {
+            ensurePattern(function () {
+                load(coreSrc, function () {
+                    domReady(function () { ensureD3(rerunPostScripts); });
+                });
+            });
+        });
     });
-}
-
-// EXTRA YARDS MAP
-const extraMap = (data,thisGame,id,teamNum,max) => {
-        
-    let game = data.filter(({game}) => game == thisGame);
-    let chart = game.filter(({chart}) => chart == 'plays');
-    let team = chart.filter(({team_num}) => team_num == teamNum);
-    let rushes = team.filter(({play_type}) => play_type == 'Rush');
-    let passes = team.filter(({play_type}) => play_type == 'Pass');
-
-    let labels = chart.map(a => a.play_num);
-    let rushYards = rushes.map(({play_num, extra_yards}) => ({ x: play_num, y: extra_yards }));
-    let passYards = passes.map(({play_num, extra_yards}) => ({ x: play_num, y: extra_yards }));
-    let avgExtra = passes.map(({play_num, avg_extra_yards}) => ({ x: play_num, y: avg_extra_yards }));
-    let playsMax = Math.max.apply(Math, chart.map(({play_num}) => play_num));
-    let newQuarters = [...new Set(chart.map(a => a.quarter))];
-    quarterMarker(newQuarters,chart,playsMax,"play_num");
-    let pointColor = fillColors(team,colors(team).explosive,colors(team).success);
-    let yardsMin = Math.min.apply(Math, chart.map(({extra_yards}) => extra_yards));
-    let yardsMax = (max) => max !== "" ? max : Math.max.apply(Math, chart.map(({extra_yards}) => extra_yards));
-    // let yardsMax = Math.max.apply(Math, chart.map(({extra_yards}) => extra_yards));
-
-    const ctx = document.getElementById(id).getContext('2d');
-    new Chart(ctx, {
-        type: 'line',
-        data: {
-            labels: labels,
-            datasets: [
-                {
-                    label: team[0].offense + ' Extra Yards (Rush)',
-                    data: rushYards,
-                    backgroundColor: fillColors(rushes,colors(rushes).explosive,colors(rushes).success),
-                    hoverBackgroundColor: pointColor,
-                    borderWidth: 0,
-                    borderColor: colors(rushes).explosive,
-                    pointStyle: pointStyle(rushes),
-                    pointRadius: pointSize(rushes),
-                    pointRadius: 4,
-                },
-                {
-                    label: team[0].offense + ' Extra Yards (Pass)',
-                    data: passYards,
-                    backgroundColor: fillColors(passes,colors(passes).explosive,colors(passes).success),
-                    hoverBackgroundColor: pointColor,
-                    borderWidth: 0,
-                    borderColor: colors(passes).explosive,
-                    pointStyle: pointStyle(passes),
-                    pointRadius: pointSize(passes),
-                },
-                {
-                    label: '(line) Avg Extra Yards',
-                    data: avgExtra,
-                    borderColor: colors(team).success,
-                    borderWidth: 2.2,
-                    pointRadius: 0,
-                    borderDash: [4,2],
-                },
-                quarterLines(quartersArrayLg),
-                zeroShade('< 0',1,1,playsMax,playsMax,0,-50,-50,0) 
-            ]
-        },
-        options: {
-            scales: {
-                y: {
-                    max: yardsMax(max),
-                    suggestedMin: yardsMin,
-                    min: -15,
-                },
-                x: {
-                    display: false,
-                }
-            },
-            plugins: {
-                tooltip: {
-                    callbacks: {
-                        title: (tooltipItems) => tooltipItems[0].dataIndex
-                        // label: ({dataset, formattedValue}) => `${dataset.dataIndex}: ${Math.round(formattedValue * 100)}%`,
-                    }
-                },
-            }
-        }
-    });
-}
-
-// TEAM SR PLAY TYPE LINES
-const typeLines = (data,thisGame,id,teamNum,column) => {
-        
-    let game = data.filter(({game}) => game == thisGame);
-    let chart = game.filter(({chart}) => chart == 'plays');
-    let team = chart.filter(({team_num}) => team_num == teamNum);
-    let labels = team.map(a => a.team_play);
-    let rushes = team.filter(({play_type}) => play_type == "Rush");
-    let passes = team.filter(({play_type}) => play_type == "Pass");
-    
-    let playsMax = Math.max.apply(Math, team.map(({team_play}) => team_play));
-    let newQuarters = [...new Set(team.map(a => a.quarter))];
-    quarterMarker(newQuarters,team,playsMax,"team_play");
-
-    let rushSr = rushes.map(({team_play, sr}) => ({ x: team_play, y: sr }));
-    let passSr = passes.map(({team_play, sr}) => ({ x: team_play, y: sr }));
-    let lineColor = colors(team).explosive;
-
-    const ctx = document.getElementById(id).getContext('2d');
-    new Chart(ctx, {
-        type: 'line',
-        data: {
-            labels: labels,
-            datasets: [
-                {
-                    data: rushSr,
-                    label: team[0].offense + ' Rush SR',
-                    borderColor: lineColor,
-                    backgroundColor: fillColors(rushes,colors(rushes).explosive,colors(rushes).success),
-                    hoverbackgroundColor: fillColors(rushes,colors(rushes).explosive,colors(rushes).success),
-                    borderWidth: 2,
-                    pointStyle: 'circle',
-                    pointRadius: 4,
-                },
-                {
-                    data: passSr,
-                    label: team[0].offense + ' Pass SR',
-                    borderColor: lineColor,
-                    backgroundColor: fillColors(passes,colors(passes).explosive,colors(passes).success),
-                    hoverbackgroundColor: fillColors(passes,colors(passes).explosive,colors(passes).success),
-                    borderWidth: 2,
-                    pointStyle: 'triangle',
-                    radius: 6,
-                    pointRadius: 6,
-                    borderDash: [4,4],
-                },
-                quarterLines(quartersArray),
-                zeroShade("League SR Avg",0,0,playsMax,playsMax,0,srAvg,srAvg,0)
-            ],
-        },
-        options: {
-            scales: {
-                y: {
-                    max: 1,
-                    min: 0,
-                    ticks: { callback: percentCallback }
-                },
-                x: {
-                    display: false,
-                }
-            },
-            plugins: {
-                tooltip: tooltipPercents()
-            }
-        }
-    });
-}
-
-// RUSH RATE
-const rushRate = (data,thisGame,id,teamNum,column) => {
-        
-    let game = data.filter(({game}) => game == thisGame);
-    let chart = game.filter(({chart}) => chart == 'plays');
-    let team = chart.filter(({team_num}) => team_num == teamNum);
-    let labels = team.map(a => a.team_play);
-    let rushRate = team.map(({team_play, rr}) => ({ x: team_play, y: rr }));
-    
-    let playsMax = Math.max.apply(Math, team.map(({team_play}) => team_play));
-    let newQuarters = [...new Set(team.map(a => a.quarter))];
-    quarterMarker(newQuarters,team,playsMax,"team_play");
-
-    const ctx = document.getElementById(id).getContext('2d');
-    new Chart(ctx, {
-        type: 'line',
-        data: {
-            labels: labels,
-            datasets: [
-                {
-                    data: rushRate,
-                    label: team[0].offense + ' Rush Rate',
-                    borderColor: colors(team).explosive,
-                    backgroundColor: colors(team).light,
-                    pointBackgroundColor: fillColors(team,colors(team).explosive,colors(team).success),
-                    hoverBackgroundColor: fillColors(team,colors(team).explosive,colors(team).success),
-                    borderWidth: 2,
-                    pointStyle: pointStyle(team),
-                    pointRadius: pointSize(team),
-                    fill: true
-                },
-                quarterLines(quartersArray),
-                zeroShade("50/50",0,0,playsMax,playsMax,0,0.5,0.5,0)
-            ],
-        },
-        options: {
-            scales: {
-                y: {
-                    max: 1,
-                    min: 0,
-                    ticks: { callback: percentCallback }
-                },
-                x: {
-                    display: false,
-                }
-            },
-            plugins: {
-                tooltip: tooltipPercents()
-            }
-        }
-    });
-}
-
-// TEAM SRXR BAR CHART
-const srXrTeams = (data,thisGame,id,teamNum,column) => {
-
-    let game = data.filter(({game}) => game == thisGame);
-    let chart = game.filter(({chart}) => chart == 'teams');
-    let labels = [...new Set(chart.map(a => a.offense))];
-    let successColors = chart.map(a => a.hex);
-    let explosiveColors = chart.map(a => a.hex_dark);
-
-    const ctx = document.getElementById(id).getContext('2d');
-    new Chart(ctx, {
-        type: 'bar',
-        data: {
-            labels: labels,
-            datasets: [
-                {
-                    label: 'Success Rate (SR)',
-                    data: chart,
-                    backgroundColor: successColors,
-                    parsing: { yAxisKey: 'sr', xAxisKey: 'offense' }
-                },
-                {
-                    label: 'Explosiveness Rate (XR)',
-                    data: chart,
-                    backgroundColor: explosiveColors,
-                    parsing: { yAxisKey: 'xr', xAxisKey: 'offense' }
-                },
-                srAvgBarLine(),
-            ]
-        },
-        options: {
-            scales: {
-                y: {
-                    max: 1,
-                    ticks: { callback: percentCallback }
-                },
-            },
-            plugins: {
-                tooltip: tooltipPercents()
-            }
-        }
-    });
-}
-
-// STACKED BAR CHART TEMPLATE
-const srXrBars = (data,thisGame,id,teamNum,column) => {
-
-    let game = data.filter(({game}) => game == thisGame);
-    let chart = game.filter(({chart}) => chart == column);
-    let team = chart.filter(({team_num}) => team_num == 1);
-    let opponent = chart.filter(({team_num}) => team_num == 2);
-    let labels = [...new Set(chart.map(a => a[column]))];
-
-    let sr = team.map(a => a.sr);
-    let xr = team.map(a => a.xr);
-    let srOpp = opponent.map(a => a.sr);
-    let xrOpp = opponent.map(a => a.xr);
-    
-    let dataset = (d,s,l,color) => ({
-            data: d,
-            stack: s,
-            label: l,
-            backgroundColor: color,
-    })
-
-    const ctx = document.getElementById(id).getContext('2d');
-    new Chart(ctx, {
-        type: 'bar',
-        data: {
-            labels: labels,
-            datasets: [
-                dataset(xr,'Team',team[0].offense + ' XR',colors(team).explosive),
-                dataset(sr,'Team',team[0].offense + ' SR',colors(team).success),
-                dataset(xrOpp,'Opponent',opponent[0].offense + ' XR',colors(opponent).explosive),
-                dataset(srOpp,'Opponent',opponent[0].offense + ' SR',colors(opponent).success),
-                srAvgBarLine(),
-            ]
-        },
-        options: {
-            scales: {
-                y: {
-                    stacked: false,
-                    max: 1,
-                    ticks: { callback: percentCallback }
-                }
-            },
-            plugins: {
-                tooltip: tooltipPercents(),
-            },
-        }
-    });
-}
-
-// PLAYER CHARTS
-const players = (data,thisGame,id,teamNum,column,max) => {
-
-    let game = data.filter(({game}) => game == thisGame);
-    let chart = game.filter(({chart}) => chart == column);
-    let team = chart.filter(({team_num}) => team_num == teamNum);
-    let labels = [...new Set(team.map(a => a[column]))];
-
-    let explosive = team.map(a => a.explosive);
-    let successful = team.map(a => a.successful);
-    let unsuccessful = team.map(a => a.uns);   
-    let unsCatches = team.map(a => a.uns_catches);
-    let interceptions = team.map(a => a.int);
-    
-    let bColor = colors(team).explosive;
-    let dataset = (d,l,color) => ({
-        data: d,
-        stack: 1,
-        label: l,
-        borderWidth: 0.8,
-        borderColor: bColor,
-        backgroundColor: color,
-        datalabels: {
-            display: (context) => { return context.dataset.data[context.dataIndex] > 0 }
-        }
-    })
-
-    let datasets = (column) =>
-        column == 'rusher' ? [
-            dataset(explosive,'Explosive Rushes',colors(team).explosive),
-            dataset(successful,'Successful Rushes',colors(team).success),
-            dataset(unsuccessful,'Unsuccessful Rushes',unsColor),
-        ] :
-        column == 'receiver' ? [
-            dataset(explosive,'Explosive Catches',colors(team).explosive),
-            dataset(successful,'Successful Catches',colors(team).success),
-            dataset(unsCatches,'Other Catches',colors(team).light),
-        ] :
-        [
-            dataset(explosive,'Explosive',colors(team).explosive),
-            dataset(successful,'Successful',colors(team).success),
-            dataset(unsCatches,'Other Catches',colors(team).light),
-            dataset(unsuccessful,'Incompletes',unsColor),
-            dataset(interceptions,'Interceptions',intColor),
-        ] 
-    
-    const ctx = document.getElementById(id).getContext('2d');
-    new Chart(ctx, {
-        type: 'bar',
-        data: {
-            labels: labels,
-            datasets: datasets(column)
-        },
-        plugins: [ChartDataLabels],
-        options: {
-            scales: { 
-                y: { stacked: true }, 
-                x: { suggestedMax: max } 
-            },
-            indexAxis: 'y',
-        }
-    });
-};
+})();
